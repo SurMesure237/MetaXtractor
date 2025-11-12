@@ -1,0 +1,14 @@
+# Ignore files and directories
+.DS_Store
+__pycache__/
+*.pyc
+.env
+venv/
+.env/
+.venv/
+.venv*
+.idea/
+.vscode/
+.ipynb_checkpoints/
+logs/
+data/*
