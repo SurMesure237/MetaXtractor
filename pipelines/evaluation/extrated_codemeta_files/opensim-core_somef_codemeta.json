@@ -1,0 +1,27 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "codeRepository": "https://github.com/opensim-org/opensim-core",
+  "issueTracker": "https://github.com/opensim-org/opensim-core/issues",
+  "downloadUrl": "https://github.com/opensim-org/opensim-core/releases",
+  "name": "opensim-core",
+  "programmingLanguage": [
+    "C++",
+    "Python"
+  ],
+  "buildInstructions": [
+    "https://raw.githubusercontent.com/opensim-org/opensim-core/main/README.md",
+    "https://github.com/opensim-org/opensim-core/wiki"
+  ],
+  "author": [
+    {
+      "@type": "Organization",
+      "@id": "https://github.com/opensim-org"
+    },
+    {
+      "@type": "Person",
+      "email": "ahabib@stanford.edu",
+      "name": null
+    }
+  ]
+}

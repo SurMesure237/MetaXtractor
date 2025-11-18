@@ -1,0 +1,51 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Cesium-NcWMS",
+  "license": {
+    "@type": "CreativeWork",
+    "name": "Apache License, Version 2.0"
+  },
+  "citation": "https://dx.doi.org/10.5281/zenodo.60031",
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "D3"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Git",
+      "url": "https://git-scm.com/downloads"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": ".js",
+      "url": "https://nodejs.org/"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "bower"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "grunt-cli"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Apache Tomcat",
+      "url": "https://tomcat.apache.org/)",
+      "version": "8.0 or higher"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "js"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Tomcat",
+      "url": "https://tomcat.apache.org/",
+      "version": ".0 or higher"
+    }
+  ],
+  "continuousIntegration": "https://travis-ci.org/NLeSC/Cesium-NcWMS"
+}

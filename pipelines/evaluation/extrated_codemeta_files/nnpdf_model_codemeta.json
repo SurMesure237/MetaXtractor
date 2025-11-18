@@ -1,0 +1,43 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "nnpdf",
+  "license": {
+    "@type": "CreativeWork",
+    "name": "GNU General Public License version 3"
+  },
+  "citation": [
+    "https://link.springer.com/article/10.1140/epjc/s10052-021-09747-9",
+    "https://zenodo.org/badge/latestdoi/118135201",
+    "https://doi.org/10.5281/zenodo.5362228",
+    {
+      "@type": "CreativeWork",
+      "encodingFormat": "application/x-bibtex",
+      "text": "@article{NNPDF:2021uiq, author = \"Ball, Richard D. and others\", collaboration = \"NNPDF\", title = \"{An open-source machine learning framework for global analyses of parton distributions}\", eprint = \"2109.02671\", archivePrefix = \"arXiv\", primaryClass = \"hep-ph\", reportNumber = \"Edinburgh 2021/13, Nikhef-2021-020, TIF-UNIMI-2021-12\", doi = \"10.1140/epjc/s10052-021-09747-9\", journal = \"Eur. Phys. J. C\", volume = \"81\", number = \"10\", pages = \"958\", year = \"2021\"}"
+    }
+  ],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "conda"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "pip"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "ip"
+    }
+  ],
+  "referencePublication": [
+    {
+      "@type": "ScholarlyArticle",
+      "url": "https://arxiv.org/abs/2109.02653"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "url": "https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=find%20eprint%202109.02671"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "codeRepository": "https://github.com/resurfemg-org/ReSurfEMG",
+  "name": "ReSurfEMG",
+  "programmingLanguage": [
+    "Jupyter Notebook"
+  ],
+  "author": [
+    {
+      "@type": "Organization",
+      "@id": "https://github.com/resurfemg-org"
+    }
+  ],
+  "referencePublication": [
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Please cite as below, if you use this software ",
+      "identifier": null,
+      "url": "",
+      "author": [
+        {
+          "@type": "Person",
+          "familyName": "Warnaar",
+          "givenName": "Robertus (Rob) Simon Petrus",
+          "@id": "https://orcid.org/0000-0001-9443-4069"
+        },
+        {
+          "@type": "Person",
+          "familyName": "Moore",
+          "givenName": "Candace Makeda",
+          "@id": "https://orcid.org/0000-0003-1672-7565"
+        },
+        {
+          "@type": "Person",
+          "familyName": "Baccinelli",
+          "givenName": "Walter",
+          "@id": "https://orcid.org/0000-0001-8888-4792"
+        },
+        {
+          "@type": "Person",
+          "familyName": "Sivokon",
+          "givenName": "Oleg"
+        },
+        {
+          "@type": "Person",
+          "familyName": "Soleimani",
+          "givenName": "Farnaz",
+          "@id": "https://orcid.org/0009-0003-3300-506X"
+        },
+        {
+          "@type": "Person",
+          "familyName": "Oppersma",
+          "givenName": "Eline",
+          "@id": "https://orcid.org/0000-0002-0150-306X"
+        }
+      ],
+      "datePublished": "2024"
+    }
+  ]
+}

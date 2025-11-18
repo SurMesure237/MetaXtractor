@@ -1,0 +1,36 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "ReSurfEMG",
+  "license": [
+    "https://opensource.org/licenses/Apache-2.0",
+    {
+      "@type": "CreativeWork",
+      "name": "Apache License, version 2.0"
+    }
+  ],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "python3-venv"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Jupyter notebooks",
+      "url": "https://jupyter.org/try-jupyter/retro/notebooks/?path=notebooks/Intro.ipynb"
+    }
+  ],
+  "citation": [
+    "https://doi.org/10.5281/zenodo.6811553",
+    "https://joss.theoj.org/papers/5f08d1f2bb717b7d05762296e37ded3d",
+    "https://zenodo.org/badge/latestdoi/635680008"
+  ],
+  "buildInstructions": "https://resurfemg-org.github.io/ReSurfEMG/",
+  "runtimePlatform": "Python 3.9+",
+  "operatingSystem": [
+    "Windows",
+    "Linux",
+    "OSX",
+    "Win"
+  ]
+}

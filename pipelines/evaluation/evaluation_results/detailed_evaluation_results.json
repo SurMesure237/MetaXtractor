@@ -1,0 +1,618 @@
+{
+  "LUE": {
+    "model_metrics": {
+      "name": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "softwareRequirements": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "buildInstructions": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "f1": 0.5
+      },
+      "citation": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "referencePublication": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "somef_metrics": {
+      "name": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "softwareRequirements": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "buildInstructions": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "citation": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "referencePublication": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "field_coverage": {
+      "ground_truth": [
+        "name",
+        "softwareRequirements",
+        "buildInstructions",
+        "citation",
+        "referencePublication"
+      ],
+      "model": [
+        "citation",
+        "name",
+        "softwareRequirements",
+        "buildInstructions"
+      ],
+      "somef": [
+        "logo",
+        "buildInstructions",
+        "name",
+        "description",
+        "codeRepository",
+        "url",
+        "author"
+      ]
+    }
+  },
+  "ReSurfEMG": {
+    "model_metrics": {
+      "name": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "softwareRequirements": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "license": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "buildInstructions": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "citation": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "somef_metrics": {
+      "name": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "softwareRequirements": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "license": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "buildInstructions": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "citation": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "field_coverage": {
+      "ground_truth": [
+        "name",
+        "softwareRequirements",
+        "license",
+        "buildInstructions",
+        "citation"
+      ],
+      "model": [
+        "name",
+        "softwareRequirements",
+        "license",
+        "buildInstructions",
+        "citation"
+      ],
+      "somef": [
+        "codeRepository",
+        "name",
+        "author",
+        "referencePublication"
+      ]
+    }
+  },
+  "APE": {
+    "model_metrics": {
+      "name": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "softwareRequirements": {
+        "precision": 0.5,
+        "recall": 0.14285714285714285,
+        "f1": 0.22222222222222224
+      },
+      "license": {
+        "precision": 0.5,
+        "recall": 0.6,
+        "f1": 0.5454545454545454
+      },
+      "buildInstructions": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "citation": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "somef_metrics": {
+      "name": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "softwareRequirements": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "license": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "buildInstructions": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "citation": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "field_coverage": {
+      "ground_truth": [
+        "name",
+        "softwareRequirements",
+        "license",
+        "buildInstructions",
+        "citation"
+      ],
+      "model": [
+        "name",
+        "softwareRequirements",
+        "license",
+        "buildInstructions",
+        "citation"
+      ],
+      "somef": []
+    }
+  },
+  "NNPDF": {
+    "model_metrics": {
+      "name": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "softwareRequirements": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "license": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "buildInstructions": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "citation": {
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "f1": 0.5714285714285715
+      }
+    },
+    "somef_metrics": {
+      "name": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "softwareRequirements": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "license": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "buildInstructions": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "citation": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "field_coverage": {
+      "ground_truth": [
+        "name",
+        "softwareRequirements",
+        "license",
+        "buildInstructions",
+        "citation"
+      ],
+      "model": [
+        "citation",
+        "name",
+        "softwareRequirements",
+        "license"
+      ],
+      "somef": [
+        "logo",
+        "name",
+        "identifier",
+        "codeRepository",
+        "downloadUrl",
+        "referencePublication",
+        "url",
+        "issueTracker",
+        "author"
+      ]
+    }
+  },
+  "iBridges-GUI": {
+    "model_metrics": {
+      "name": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "license": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "buildInstructions": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "citation": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "somef_metrics": {
+      "name": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "license": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "buildInstructions": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "citation": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "field_coverage": {
+      "ground_truth": [
+        "citation",
+        "name",
+        "license",
+        "buildInstructions"
+      ],
+      "model": [
+        "citation",
+        "name",
+        "license"
+      ],
+      "somef": [
+        "logo",
+        "name",
+        "identifier",
+        "codeRepository",
+        "url",
+        "author"
+      ]
+    }
+  },
+  "AutoPQ": {
+    "model_metrics": {
+      "name": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "somef_metrics": {
+      "name": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "field_coverage": {
+      "ground_truth": [
+        "name"
+      ],
+      "model": [
+        "name"
+      ],
+      "somef": [
+        "name",
+        "softwareRequirements"
+      ]
+    }
+  },
+  "Cesium-ncWMS": {
+    "model_metrics": {
+      "name": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "softwareRequirements": {
+        "precision": 0.5,
+        "recall": 0.8,
+        "f1": 0.6153846153846154
+      },
+      "license": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "citation": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "somef_metrics": {
+      "name": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "softwareRequirements": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "license": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "citation": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "field_coverage": {
+      "ground_truth": [
+        "citation",
+        "name",
+        "softwareRequirements",
+        "license"
+      ],
+      "model": [
+        "citation",
+        "name",
+        "softwareRequirements",
+        "license"
+      ],
+      "somef": [
+        "logo",
+        "buildInstructions",
+        "name",
+        "identifier",
+        "codeRepository",
+        "downloadUrl",
+        "url",
+        "issueTracker",
+        "author"
+      ]
+    }
+  },
+  "admtools": {
+    "model_metrics": {
+      "name": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "softwareRequirements": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "license": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "citation": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "somef_metrics": {
+      "name": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "softwareRequirements": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "license": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "citation": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "field_coverage": {
+      "ground_truth": [
+        "citation",
+        "name",
+        "softwareRequirements",
+        "license"
+      ],
+      "model": [
+        "citation",
+        "name",
+        "license"
+      ],
+      "somef": [
+        "logo",
+        "license",
+        "name",
+        "buildInstructions",
+        "identifier",
+        "codeRepository",
+        "downloadUrl",
+        "referencePublication",
+        "url",
+        "issueTracker"
+      ]
+    }
+  },
+  "qc2": {
+    "model_metrics": {
+      "name": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "softwareRequirements": {
+        "precision": 0.875,
+        "recall": 0.7777777777777778,
+        "f1": 0.823529411764706
+      },
+      "buildInstructions": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "citation": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "somef_metrics": {
+      "name": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "softwareRequirements": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "buildInstructions": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "citation": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "field_coverage": {
+      "ground_truth": [
+        "citation",
+        "name",
+        "softwareRequirements",
+        "buildInstructions"
+      ],
+      "model": [
+        "citation",
+        "name",
+        "softwareRequirements",
+        "buildInstructions"
+      ],
+      "somef": [
+        "identifier",
+        "url",
+        "name",
+        "buildInstructions"
+      ]
+    }
+  }
+}

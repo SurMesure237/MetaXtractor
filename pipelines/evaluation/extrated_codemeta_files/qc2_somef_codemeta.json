@@ -1,0 +1,16 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "qc2",
+  "buildInstructions": [
+    "https://readthedocs.org/projects/qc2/badge/?version=latest",
+    "https://raw.githubusercontent.com/qc2nl/qc2/main/README.md",
+    "https://qc2.readthedocs.io/"
+  ],
+  "identifier": [
+    "https://doi.org/10.5281/zenodo.14186370"
+  ],
+  "url": [
+    "https://qc2.readthedocs.io/"
+  ]
+}

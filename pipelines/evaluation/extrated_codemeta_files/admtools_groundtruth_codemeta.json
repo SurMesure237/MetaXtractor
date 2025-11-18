@@ -1,0 +1,30 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "admtools",
+  "license": {
+    "@type": "CreativeWork",
+    "name": "GPL-3.0"
+  },
+  "softwareRequirements": {
+    "@type": "SoftwareApplication",
+    "name": "remotes"
+  },
+  "citation": [
+    "https://doi.org/10.5281/zenodo.15479049",
+    {
+      "@type": "CreativeWork",
+      "text": "Hohmann, N. (2025). admtools (v0.6.0). Zenodo. https://doi.org/10.5281/zenodo.15479049"
+    }
+  ],
+  "referencePublication": [
+    {
+      "@type": "ScholarlyArticle",
+      "text": "Hohmann, Niklas; Koelewijn, Joël R.; Burgess, Peter; Jarochowska, Emilia. 2024. \"Identification of the mode of evolution in incomplete carbonate successions.\" BMC Ecology and Evolution, 24, 113. [DOI: 10.1186/s12862-024-02287-2] https://doi.org/10.1186/s12862-024-02287-2"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "text": "Hohmann, Niklas, Koelewijn, Joël R.; Burgess, Peter; Jarochowska, Emilia. 2023. \"Identification of the Mode of Evolution in Incomplete Carbonate Successions - Supporting Data.\" Open Science Framework. , published under the [CC-BY 4.0] https://creativecommons.org/licenses/by/4.0/ license"
+    }
+  ]
+}

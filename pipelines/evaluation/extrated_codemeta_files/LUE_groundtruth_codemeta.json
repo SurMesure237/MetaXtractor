@@ -1,0 +1,16 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "LUE",
+  "softwareRequirements": {
+    "@type": "SoftwareApplication",
+    "name": "Conda"
+  },
+  "citation": "https://doi.org/10.5281/zenodo.5535685",
+  "referencePublication": {
+    "@type": "ScholarlyArticle",
+    "url": "https://lue.computationalgeography.org/publication"
+  },
+  "buildInstructions": "https://lue.computationalgeography.org/doc",
+  "relatedLink": "https://lue.computationalgeography.org"
+}

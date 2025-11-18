@@ -1,0 +1,64 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "APE",
+  "license": [
+    {
+      "@type": "CreativeWork",
+      "name": "Apache 2.0"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "LGPL or"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "EPL or"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "GNu LGPL"
+    },
+    "https://github.com/sanctuuary/APE/blob/master/LICENSE",
+    "https://www.json.org/license.html"
+  ],
+  "citation": "https://zenodo.org/badge/latestdoi/227861653",
+  "buildInstructions": [
+    "https://ape-framework.readthedocs.io/en/latest/?badge=latest",
+    "https://ape-framework.readthedocs.io"
+  ],
+  "runtimePlatform": [
+    "Java 1.8]",
+    "(or higher)"
+  ],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Maven",
+      "version": ".3+",
+      "url": "https://maven.apache.org/download.cgi"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "aven"
+    }
+  ],
+  "referencePublication": [
+    {
+      "@type": "ScholarlyArticle",
+      "text": "Kasalica, V., & Lamprecht, A.-L. (2020). Workflow Discovery with Semantic Constraints: The SAT-Based Implementation of APE. Electronic Communications of the EASST, 78(0). https://doi.org/10.14279/tuj.eceasst.78.1092"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "text": "Kasalica V., Lamprecht AL. (2020) APE: A Command-Line Tool and API for Automated Workflow Composition. ICCS 2020. ICCS 2020. Lecture Notes in Computer Science, vol 12143. Springer, https://doi.org/10.1007/978-3-030-50436-6_34"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "text": "Kasalica, V., & Lamprecht, A.-L. (2019). Workflow discovery through semantic constraints: A geovisualization case study. In Computational science and its applications – ICCSA 2019 (pp. 473–488), Springer International Publishing, https://doi.org/10.1007/978-3-030-24302-9_53"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "url": "https://www.iccs-meeting.org/iccs2020/"
+    }
+  ]
+}

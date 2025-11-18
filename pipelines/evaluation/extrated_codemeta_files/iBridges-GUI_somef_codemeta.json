@@ -1,0 +1,27 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "codeRepository": "https://github.com/iBridges-for-iRODS/iBridges-GUI",
+  "name": "iBridges-GUI",
+  "logo": "https://raw.githubusercontent.com/iBridges-for-iRods/iBridges-GUI/3395dedf2c7b919e108356a3289eb2c2fc66af6d/ibridgesgui/icons/logo.png",
+  "programmingLanguage": [
+    "Python"
+  ],
+  "author": [
+    {
+      "@type": "Organization",
+      "@id": "https://github.com/iBridges-for-iRODS"
+    },
+    {
+      "@type": "Person",
+      "email": "c.staiger@uu.nl",
+      "name": "Christine Staiger"
+    }
+  ],
+  "identifier": [
+    "https://doi.org/10.5281/zenodo.17139123"
+  ],
+  "url": [
+    "https://ibridges-for-irods.github.io/iBridges-GUI/"
+  ]
+}

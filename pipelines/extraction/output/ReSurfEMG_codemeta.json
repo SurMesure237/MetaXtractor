@@ -1,0 +1,73 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "ReSurfEMG",
+  "description": "An open source library for analysis of respiratory EMG",
+  "version": "1.0.1",
+  "license": "Apache-2.0",
+  "url": "https://github.com/ReSurfEMG-org",
+  "codeRepository": "https://github.com/resurfemg-org/ReSurfEMG",
+  "issueTracker": "https://api.github.com/repos/resurfemg-org/ReSurfEMG/issues",
+  "downloadUrl": "https://api.github.com/repos/resurfemg-org/ReSurfEMG/zipball/main",
+  "dateCreated": "2022-06-07T10:45:44Z",
+  "dateModified": "2025-10-06T15:02:21Z",
+  "datePublished": "10/12/2024",
+  "programmingLanguage": "Jupyter Notebook",
+  "keywords": [
+    "electromyogram",
+    "electromyography",
+    "healthcare-analysis",
+    "EMG",
+    "respiratory",
+    "Python",
+    "surface EMG",
+    "sEAdi"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Resurfemg-Org"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9443-4069",
+      "givenName": "Robertus (Rob) Simon Petrus",
+      "familyName": "Warnaar",
+      "affiliation": "University of Twente"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1672-7565",
+      "givenName": "Candace Makeda",
+      "familyName": "Moore",
+      "affiliation": "Netherlands eScience Center"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8888-4792",
+      "givenName": "Walter",
+      "familyName": "Baccinelli",
+      "affiliation": "Netherlands eScience Center"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Oleg",
+      "familyName": "Sivokon",
+      "affiliation": "Bright Computing/NVIDIA"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0003-3300-506X",
+      "givenName": "Farnaz",
+      "familyName": "Soleimani",
+      "affiliation": "University of Twente"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0150-306X",
+      "givenName": "Eline",
+      "familyName": "Oppersma",
+      "affiliation": "University of Twente"
+    }
+  ]
+}

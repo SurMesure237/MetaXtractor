@@ -1,0 +1,31 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "codeRepository": "https://github.com/eWaterCycle/Cesium-NcWMS",
+  "issueTracker": "https://github.com/eWaterCycle/Cesium-NcWMS/issues",
+  "downloadUrl": "https://github.com/eWaterCycle/Cesium-NcWMS/releases",
+  "name": "Cesium-NcWMS",
+  "logo": "https://raw.githubusercontent.com/eWaterCycle/Cesium-NcWMS/ewatercycle-specific/DOC/images/ewa-saturation.png",
+  "releaseNotes": "This release is of the version of Cesium-NcWMS specifically tailored for the eWaterCycle project\n",
+  "buildInstructions": [
+    "https://raw.githubusercontent.com/eWaterCycle/Cesium-NcWMS/ewatercycle-specific/README.md",
+    "https://github.com/eWaterCycle/Cesium-NcWMS/wiki"
+  ],
+  "author": [
+    {
+      "@type": "Organization",
+      "@id": "https://github.com/eWaterCycle"
+    },
+    {
+      "@type": "Person",
+      "name": "Maarten van Meersbergen <m.vanmeersbergen@esiencencenter.nl>"
+    }
+  ],
+  "identifier": [
+    "http://dx.doi.org/10.5281/zenodo.60031"
+  ],
+  "url": [
+    "https://github.com/NLeSC/Cesium-NcWMS"
+  ],
+  "readme": "https://raw.githubusercontent.com/eWaterCycle/Cesium-NcWMS/ewatercycle-specific/README.md"
+}

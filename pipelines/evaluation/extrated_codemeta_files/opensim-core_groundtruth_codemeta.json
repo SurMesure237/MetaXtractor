@@ -1,0 +1,34 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "OpenSim_Creator",
+  "license": [
+    "https://github.com/opensim-org/opensim-core/blob/master/LICENSE.txt",
+    {
+      "@type": "CreativeWork",
+      "name": "Apache License, Version 2.0"
+    }
+  ],
+  "citation": {
+    "@type": "CreativeWork",
+    "text": "Seth A, Hicks JL, Uchida TK, Habib A, Dembia CL, et al. (2018) OpenSim: Simulating musculoskeletal dynamics and neuromuscular control to study human and animal movement. _PLOS Computational Biology_ 14(7): e1006223. https://doi.org/10.1371/journal.pcbi.1006223"
+  },
+  "buildInstructions": [
+    "https://simtk-confluence.stanford.edu/display/OpenSim/Documentation",
+    "https://simtk-confluence.stanford.edu/display/OpenSim/Scripting",
+    "https://simtk-confluence.stanford.edu:8443/display/OpenSim/",
+    "https://github.com/opensim-org/opensim-core/wiki",
+    "https://github.com/opensim-org/opensim-core/wiki/Build-Instructions"
+  ],
+  "operatingSystem": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Ubuntu",
+    "Debian"
+  ],
+  "relatedLink": [
+    "http://opensim.stanford.edu",
+    "https://simtk.org/home/opensim"
+  ]
+}

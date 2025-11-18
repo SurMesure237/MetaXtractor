@@ -1,0 +1,49 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "codeRepository": "https://github.com/NNPDF/nnpdf",
+  "issueTracker": "https://github.com/NNPDF/nnpdf/issues",
+  "downloadUrl": "https://github.com/NNPDF/nnpdf/releases",
+  "name": "nnpdf",
+  "logo": "https://raw.githubusercontent.com/NNPDF/nnpdf/master/doc/sphinx/source/_static/LogoNNPDF.png",
+  "author": [
+    {
+      "@type": "Organization",
+      "@id": "https://github.com/NNPDF"
+    },
+    {
+      "@type": "Person",
+      "name": "NNPDF Collaboration"
+    },
+    {
+      "@type": "Person",
+      "name": "NNPDF Collaboration"
+    }
+  ],
+  "referencePublication": [
+    {
+      "@type": "ScholarlyArticle",
+      "identifier": "10.1140/epjc/s10052-021-09747-9",
+      "name": "{An open-source machine learning framework for global analyses of parton distributions}",
+      "datePublished": "2021",
+      "pagination": "958",
+      "author": [
+        {
+          "@type": "Person",
+          "familyName": "Ball",
+          "givenName": "Richard D."
+        },
+        {
+          "@type": "Person",
+          "familyName": "others"
+        }
+      ]
+    }
+  ],
+  "identifier": [
+    "https://zenodo.org/badge/latestdoi/118135201"
+  ],
+  "url": [
+    "https://docs.nnpdf.science/"
+  ]
+}

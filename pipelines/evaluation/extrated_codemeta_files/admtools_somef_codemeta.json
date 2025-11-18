@@ -1,0 +1,48 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "license": {
+    "name": "GNU General Public License v3.0",
+    "url": "https://raw.githubusercontent.com/MindTheGap-ERC/admtools/main/LICENSE",
+    "identifier": "https://spdx.org/licenses/GPL-3.0",
+    "spdx_id": "GPL-3.0"
+  },
+  "codeRepository": "https://github.com/MindTheGap-ERC/admtools",
+  "issueTracker": "https://github.com/MindTheGap-ERC/admtools/issues",
+  "downloadUrl": "https://github.com/MindTheGap-ERC/admtools/releases",
+  "name": "admtools",
+  "logo": "https://erc.europa.eu/sites/default/files/2023-06/LOGO_ERC-FLAG_FP.png",
+  "programmingLanguage": [
+    "R"
+  ],
+  "continuousIntegration": "https://raw.githubusercontent.com/MindTheGap-ERC/admtools/main/.github/workflows/fair-software.yml",
+  "releaseNotes": "* transformation between age and time for integration with `FossilSim`\n\n* vignette for connection between `admtools` and `FossilSim`\n",
+  "softwareVersion": "v0.6.0",
+  "buildInstructions": [
+    "https://raw.githubusercontent.com/MindTheGap-ERC/admtools/main/README.md"
+  ],
+  "referencePublication": [
+    {
+      "@type": "ScholarlyArticle",
+      "name": "admtools",
+      "identifier": "10.5281/zenodo.15479049",
+      "url": "https://doi.org/10.5281/zenodo.15479049",
+      "author": [
+        {
+          "@type": "Person",
+          "familyName": "Hohmann",
+          "givenName": "Niklas",
+          "@id": "https://orcid.org/0000-0003-1559-1838"
+        }
+      ],
+      "datePublished": "2025"
+    }
+  ],
+  "identifier": [
+    "https://doi.org/10.5281/zenodo.15479049"
+  ],
+  "url": [
+    "https://mindthegap-erc.github.io/admtools/"
+  ],
+  "readme": "https://raw.githubusercontent.com/MindTheGap-ERC/admtools/main/README.md"
+}

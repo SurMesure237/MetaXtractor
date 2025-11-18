@@ -1,0 +1,42 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "ReSurfEMG",
+  "license": [
+    {
+      "@type": "CreativeWork",
+      "name": "Apache License, version 2.0"
+    },
+    "https://opensource.org/licenses/Apache-2.0"
+  ],
+  "citation": [
+    "https://doi.org/10.5281/zenodo.6811553",
+    "https://joss.theoj.org/papers/5f08d1f2bb717b7d05762296e37ded3d",
+    "https://zenodo.org/badge/latestdoi/635680008"
+  ],
+  "buildInstructions": "https://resurfemg-org.github.io/ReSurfEMG/",
+  "operatingSystem": [
+    "Linux",
+    "OSX",
+    "Windows"
+  ],
+  "runtimePlatform": "Python 3.9+",
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Anaconda"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "conda"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "mamba"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "upyter"
+    }
+  ]
+}
