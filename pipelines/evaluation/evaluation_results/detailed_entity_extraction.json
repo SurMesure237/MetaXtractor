@@ -1,1147 +1,1147 @@
 {
   "LUE": {
     "gt": {
-      "runtimePlatform": [],
-      "programmingLanguage": [],
-      "relatedLink": [
-        "https://lue.computationalgeography.org"
+      "softwareRequirements": [
+        "Conda"
       ],
+      "codeRepository": [],
+      "releaseNotes": [],
       "citation": [
         "https://doi.org/10.5281/zenodo.5535685"
       ],
+      "identifier": [],
+      "runtimePlatform": [],
+      "referencePublication": [],
+      "author": [],
+      "operatingSystem": [],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
       "buildInstructions": [
         "https://lue.computationalgeography.org/doc"
       ],
-      "identifier": [],
+      "readme": [],
+      "softwareVersion": [],
+      "programmingLanguage": [],
       "url": [],
-      "downloadUrl": [],
+      "license": [],
       "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
+      "relatedLink": [
+        "https://lue.computationalgeography.org"
+      ]
+    },
+    "model": {
       "softwareRequirements": [
         "Conda"
       ],
-      "author": [],
-      "referencePublication": [],
-      "license": [],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [],
+      "codeRepository": [],
       "releaseNotes": [],
-      "readme": [],
-      "continuousIntegration": []
-    },
-    "model": {
-      "runtimePlatform": [],
-      "programmingLanguage": [],
-      "relatedLink": [
-        "https://lue.computationalgeography.org"
-      ],
       "citation": [
         "https://doi.org/10.5281/zenodo.5535685"
       ],
-      "buildInstructions": [
-        "https://lue.computationalgeography.org",
-        "https://lue.computationalgeography.org/doc",
-        "https://lue.computationalgeography.org/publication"
-      ],
       "identifier": [],
-      "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
-      "softwareRequirements": [
-        "Conda"
-      ],
-      "author": [],
-      "referencePublication": [],
-      "license": [],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [],
-      "releaseNotes": [],
-      "readme": [],
-      "continuousIntegration": []
-    },
-    "somef": {
       "runtimePlatform": [],
-      "programmingLanguage": [],
-      "relatedLink": [],
-      "citation": [],
+      "referencePublication": [],
+      "author": [],
+      "operatingSystem": [],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
       "buildInstructions": [
-        "https://raw.githubusercontent.com/computationalgeography/lue/master/README.md",
-        "https://github.com/computationalgeography/lue/wiki"
-      ],
-      "identifier": [],
-      "url": [
+        "https://lue.computationalgeography.org/publication",
+        "https://lue.computationalgeography.org/doc",
         "https://lue.computationalgeography.org"
       ],
-      "downloadUrl": [],
-      "logo": [
-        "https://lue.computationalgeography.org/download/logo/logo-colour.svg"
-      ],
+      "readme": [],
+      "softwareVersion": [],
+      "programmingLanguage": [],
+      "url": [],
+      "license": [],
+      "logo": [],
+      "relatedLink": [
+        "https://lue.computationalgeography.org"
+      ]
+    },
+    "somef": {
+      "softwareRequirements": [],
       "codeRepository": [
         "https://github.com/computationalgeography/lue"
       ],
-      "issueTracker": [],
-      "softwareRequirements": [],
-      "author": [],
-      "referencePublication": [],
-      "license": [],
-      "description": [
-        "LUE Scientific Database and Environmental Modelling Framework"
-      ],
-      "softwareVersion": [],
-      "operatingSystem": [],
       "releaseNotes": [
         "## What's Changed\r\n* Use Python 3.13 in macOS CI by @OliverSchmitz in https://github.com/computationalgeography/lue/pull/750\r\n* Fix handling of user's command arguments by @kordejong in https://github.com/computationalgeography/lue/pull/753\r\n* Update documentation by @kordejong in https://github.com/computationalgeography/lue/pull/755\r\n* Bump max Python version used in C/I to 3.13 by @kordejong in https://github.com/computationalgeography/lue/pull/757\r\n* Add missing return statement to Python wrapper for `cell_index` by @kordejong in https://github.com/computationalgeography/lue/pull/761\r\n* Set north, west and cellsize for pcr.report by @OliverSchmitz in https://github.com/computationalgeography/lue/pull/769\r\n* Fix typo in `sqrt` of `lue.pcraster` Python subpackage by @kordejong in https://github.com/computationalgeography/lue/pull/770\r\n* Consider using config mode in find_package GDAL by @kordejong in https://github.com/computationalgeography/lue/pull/773\r\n* lue.pcraster; lddcreate does not accept string argument by @kordejong in https://github.com/computationalgeography/lue/pull/776\r\n* Remove dependency on span-lite by @kordejong in https://github.com/computationalgeography/lue/pull/780\r\n* Rename all src directories to source by @kordejong in https://github.com/computationalgeography/lue/pull/781\r\n* Refactor I/O library and make it easy to try out and compare alternative implementations by @kordejong in https://github.com/computationalgeography/lue/pull/779\r\n* When scaling over cores, make partition shape equal to array shape by @kordejong in https://github.com/computationalgeography/lue/pull/787\r\n* Add overloads for reclassify that result in integral arrays by @kordejong in https://github.com/computationalgeography/lue/pull/786\r\n* Add support for reading hyperslab using gdal by @kordejong in https://github.com/computationalgeography/lue/pull/789\r\n* Fix spelling of ifthen / ifthenelse and mention where by @kordejong in https://github.com/computationalgeography/lue/pull/792\r\n* Replace docopt by cxxopts by @kordejong in https://github.com/computationalgeography/lue/pull/795\r\n* Add initial support for parallel I/O by @kordejong in https://github.com/computationalgeography/lue/pull/798\r\n* Refactor, add docs by @kordejong in https://github.com/computationalgeography/lue/pull/802\r\n* Add docstring to uniform by @kordejong in https://github.com/computationalgeography/lue/pull/803\r\n* Use array shape as default partition shape in single thread case by @kordejong in https://github.com/computationalgeography/lue/pull/801\r\n* Fix from_numpy crash by @kordejong in https://github.com/computationalgeography/lue/pull/804\r\n* Prevent to_gdal to write outside of the raster's shape by @kordejong in https://github.com/computationalgeography/lue/pull/807\r\n* Replace future.wait by get by @kordejong in https://github.com/computationalgeography/lue/pull/809\r\n* Fix crash in from_lue unit test by @kordejong in https://github.com/computationalgeography/lue/pull/810\r\n* Only read tss files at first access by @OliverSchmitz in https://github.com/computationalgeography/lue/pull/811\r\n* Add -Werror=missing-include-dirs to GCC by @kordejong in https://github.com/computationalgeography/lue/pull/816\r\n* Reverse input/output arguments of `lue_translate` by @kordejong in https://github.com/computationalgeography/lue/pull/819\r\n* Add Python quickstart by @kordejong in https://github.com/computationalgeography/lue/pull/821\r\n* Feature request and template chooser added by @OliverSchmitz in https://github.com/computationalgeography/lue/pull/825\r\n* Install the `lue_framework_io` library by @kordejong in https://github.com/computationalgeography/lue/pull/823\r\n* Add a contributor license agreement by @kordejong in https://github.com/computationalgeography/lue/pull/829\r\n* Remove call to `lfr.wait()` in PCRaster sub-package's `numpy2pcr` by @kordejong in https://github.com/computationalgeography/lue/pull/832\r\n* Verify `rate_limit` results in slides per time step finished by @kordejong in https://github.com/computationalgeography/lue/pull/834\r\n* Fix `lue_scalability` for distributed runs on eejit by @kordejong in https://github.com/computationalgeography/lue/pull/836\r\n* Fix failing Windows C/I workflow by @kordejong in https://github.com/computationalgeography/lue/pull/826\r\n* Make `scalability.py` reserve NUMA nodes instead of cluster nodes as much as possible by @kordejong in https://github.com/computationalgeography/lue/pull/843\r\n* Add script which extracts / summarizes information form a `scalability.lue` file by @kordejong in https://github.com/computationalgeography/lue/pull/844\r\n* Add normal and uniform overloads that return a scalar by @kordejong in https://github.com/computationalgeography/lue/pull/851\r\n* Add resample operation by @kordejong in https://github.com/computationalgeography/lue/pull/849\r\n* Fix failing Windows C/I build by @kordejong in https://github.com/computationalgeography/lue/pull/857\r\n* lue_framework_io_lue unit tests fails once is a while by @kordejong in https://github.com/computationalgeography/lue/pull/859\r\n* Fix segmentation fault when importing LUE on macOS by @kordejong in https://github.com/computationalgeography/lue/pull/860\r\n* Use explicit instantiations for uniform and friends by @kordejong in https://github.com/computationalgeography/lue/pull/863\r\n* Prepare for release of LUE 0.3.10 by @kordejong in https://github.com/computationalgeography/lue/pull/864\r\n* Try to get lftp to play nice, part III by @kordejong in https://github.com/computationalgeography/lue/pull/867\r\n* Add support for parallel I/O by @kordejong in https://github.com/computationalgeography/lue/pull/876\r\n* Port LUE to HPX 1.11.0 by @kordejong in https://github.com/computationalgeography/lue/pull/878\r\n* lue.pcraster max and min differ when testing for non_spatial_to_spatial by @kordejong in https://github.com/computationalgeography/lue/pull/879\r\n* Re-run pre-commit hooks on all code by @kordejong in https://github.com/computationalgeography/lue/pull/881\r\n* Refactor, document, trying to speed-up the build by @kordejong in https://github.com/computationalgeography/lue/pull/883\r\n* Release LUE 0.3.10 by @kordejong in https://github.com/computationalgeography/lue/pull/882\r\n\r\n\r\n**Full Changelog**: https://github.com/computationalgeography/lue/compare/0.3.9...0.3.10"
       ],
+      "citation": [],
+      "identifier": [],
+      "runtimePlatform": [],
+      "referencePublication": [],
+      "author": [],
+      "operatingSystem": [],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [
+        "LUE Scientific Database and Environmental Modelling Framework"
+      ],
+      "issueTracker": [],
+      "buildInstructions": [
+        "https://github.com/computationalgeography/lue/wiki",
+        "https://raw.githubusercontent.com/computationalgeography/lue/master/README.md"
+      ],
       "readme": [],
-      "continuousIntegration": []
+      "softwareVersion": [],
+      "programmingLanguage": [],
+      "url": [
+        "https://lue.computationalgeography.org"
+      ],
+      "license": [],
+      "logo": [
+        "https://lue.computationalgeography.org/download/logo/logo-colour.svg"
+      ],
+      "relatedLink": []
     }
   },
   "ReSurfEMG": {
     "gt": {
+      "softwareRequirements": [
+        "Jupyter notebooks",
+        "python3-venv"
+      ],
+      "codeRepository": [],
+      "releaseNotes": [],
+      "citation": [
+        "https://zenodo.org/badge/latestdoi/635680008",
+        "https://doi.org/10.5281/zenodo.6811553",
+        "https://joss.theoj.org/papers/5f08d1f2bb717b7d05762296e37ded3d"
+      ],
+      "identifier": [],
       "runtimePlatform": [
         "Python 3.9+"
       ],
-      "programmingLanguage": [],
-      "relatedLink": [],
-      "citation": [
-        "https://joss.theoj.org/papers/5f08d1f2bb717b7d05762296e37ded3d",
-        "https://doi.org/10.5281/zenodo.6811553",
-        "https://zenodo.org/badge/latestdoi/635680008"
+      "referencePublication": [],
+      "author": [],
+      "operatingSystem": [
+        "Linux",
+        "Windows",
+        "OSX",
+        "Win"
       ],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
       "buildInstructions": [
         "https://resurfemg-org.github.io/ReSurfEMG/"
       ],
-      "identifier": [],
+      "readme": [],
+      "softwareVersion": [],
+      "programmingLanguage": [],
       "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
-      "softwareRequirements": [
-        "python3-venv",
-        "Jupyter notebooks"
-      ],
-      "author": [],
-      "referencePublication": [],
       "license": [
         "https://opensource.org/licenses/Apache-2.0",
         "Apache License, version 2.0"
       ],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [
-        "OSX",
-        "Win",
-        "Windows",
-        "Linux"
-      ],
-      "releaseNotes": [],
-      "readme": [],
-      "continuousIntegration": []
+      "logo": [],
+      "relatedLink": []
     },
     "model": {
+      "softwareRequirements": [
+        "Anaconda",
+        "conda",
+        "upyter",
+        "mamba"
+      ],
+      "codeRepository": [],
+      "releaseNotes": [],
+      "citation": [
+        "https://zenodo.org/badge/latestdoi/635680008",
+        "https://doi.org/10.5281/zenodo.6811553",
+        "https://joss.theoj.org/papers/5f08d1f2bb717b7d05762296e37ded3d"
+      ],
+      "identifier": [],
       "runtimePlatform": [
         "Python 3.9+"
       ],
-      "programmingLanguage": [],
-      "relatedLink": [],
-      "citation": [
-        "https://joss.theoj.org/papers/5f08d1f2bb717b7d05762296e37ded3d",
-        "https://doi.org/10.5281/zenodo.6811553",
-        "https://zenodo.org/badge/latestdoi/635680008"
+      "referencePublication": [],
+      "author": [],
+      "operatingSystem": [
+        "Linux",
+        "Windows",
+        "OSX"
       ],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
       "buildInstructions": [
         "https://resurfemg-org.github.io/ReSurfEMG/"
       ],
-      "identifier": [],
+      "readme": [],
+      "softwareVersion": [],
+      "programmingLanguage": [],
       "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
-      "softwareRequirements": [
-        "mamba",
-        "conda",
-        "upyter",
-        "Anaconda"
-      ],
-      "author": [],
-      "referencePublication": [],
       "license": [
         "https://opensource.org/licenses/Apache-2.0",
         "Apache License, version 2.0"
       ],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [
-        "OSX",
-        "Windows",
-        "Linux"
-      ],
-      "releaseNotes": [],
-      "readme": [],
-      "continuousIntegration": []
+      "logo": [],
+      "relatedLink": []
     },
     "somef": {
-      "runtimePlatform": [],
-      "programmingLanguage": [
-        "Jupyter Notebook"
-      ],
-      "relatedLink": [],
-      "citation": [],
-      "buildInstructions": [],
-      "identifier": [],
-      "url": [],
-      "downloadUrl": [],
-      "logo": [],
+      "softwareRequirements": [],
       "codeRepository": [
         "https://github.com/resurfemg-org/ReSurfEMG"
       ],
-      "issueTracker": [],
-      "softwareRequirements": [],
-      "author": [],
+      "releaseNotes": [],
+      "citation": [],
+      "identifier": [],
+      "runtimePlatform": [],
       "referencePublication": [
         "Please cite as below, if you use this software "
       ],
-      "license": [],
-      "description": [],
-      "softwareVersion": [],
+      "author": [],
       "operatingSystem": [],
-      "releaseNotes": [],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
+      "buildInstructions": [],
       "readme": [],
-      "continuousIntegration": []
+      "softwareVersion": [],
+      "programmingLanguage": [
+        "Jupyter Notebook"
+      ],
+      "url": [],
+      "license": [],
+      "logo": [],
+      "relatedLink": []
     }
   },
   "APE": {
     "gt": {
-      "runtimePlatform": [
-        "Java 1.8"
+      "softwareRequirements": [
+        "OWL API",
+        "org.json",
+        "SAT4J",
+        "Maven",
+        "apache-common-lang",
+        "graphviz-java",
+        "JSON license"
       ],
-      "programmingLanguage": [],
-      "relatedLink": [],
+      "codeRepository": [],
+      "releaseNotes": [],
       "citation": [
         "https://zenodo.org/badge/latestdoi/227861653"
       ],
-      "buildInstructions": [
-        "https://ape-framework.readthedocs.io/en/latest/?badge=latest",
-        "https://ape-framework.readthedocs.io"
-      ],
       "identifier": [],
-      "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
-      "softwareRequirements": [
-        "graphviz-java",
-        "Maven",
-        "SAT4J",
-        "OWL API",
-        "apache-common-lang",
-        "JSON license",
-        "org.json"
+      "runtimePlatform": [
+        "Java 1.8"
       ],
-      "author": [],
       "referencePublication": [
         "Kasalica, V., & Lamprecht, A.-L. (2019). Workflow discovery through semantic constraints: A geovisualization case study. In Computational science and its applications \u2013 ICCSA 2019 (pp. 473\u2013488), Springer International Publishing, https://doi.org/10.1007/978-3-030-24302-9_53",
         "Kasalica V., Lamprecht AL. (2020) APE: A Command-Line Tool and API for Automated Workflow Composition. ICCS 2020. ICCS 2020. Lecture Notes in Computer Science, vol 12143. Springer, https://doi.org/10.1007/978-3-030-50436-6_34",
         "Kasalica, V., & Lamprecht, A.-L. (2020). Workflow Discovery with Semantic Constraints: The SAT-Based Implementation of APE. Electronic Communications of the EASST, 78(0). https://doi.org/10.14279/tuj.eceasst.78.1092"
       ],
+      "author": [],
+      "operatingSystem": [],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
+      "buildInstructions": [
+        "https://ape-framework.readthedocs.io",
+        "https://ape-framework.readthedocs.io/en/latest/?badge=latest"
+      ],
+      "readme": [],
+      "softwareVersion": [],
+      "programmingLanguage": [],
+      "url": [],
       "license": [
-        "LGPL",
-        "EPL",
         "GNu LGPL",
+        "EPL",
         "https://github.com/sanctuuary/APE/blob/master/LICENSE",
+        "LGPL",
         "Apache 2.0"
       ],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [],
-      "releaseNotes": [],
-      "readme": [],
-      "continuousIntegration": []
+      "logo": [],
+      "relatedLink": []
     },
     "model": {
-      "runtimePlatform": [
-        "Java 1.8]",
-        "(or higher)"
-      ],
-      "programmingLanguage": [],
-      "relatedLink": [],
-      "citation": [
-        "https://zenodo.org/badge/latestdoi/227861653"
-      ],
-      "buildInstructions": [
-        "https://ape-framework.readthedocs.io/en/latest/?badge=latest",
-        "https://ape-framework.readthedocs.io"
-      ],
-      "identifier": [],
-      "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
       "softwareRequirements": [
         "aven",
         "Maven"
       ],
-      "author": [],
+      "codeRepository": [],
+      "releaseNotes": [],
+      "citation": [
+        "https://zenodo.org/badge/latestdoi/227861653"
+      ],
+      "identifier": [],
+      "runtimePlatform": [
+        "(or higher)",
+        "Java 1.8]"
+      ],
       "referencePublication": [
         "Kasalica, V., & Lamprecht, A.-L. (2019). Workflow discovery through semantic constraints: A geovisualization case study. In Computational science and its applications \u2013 ICCSA 2019 (pp. 473\u2013488), Springer International Publishing, https://doi.org/10.1007/978-3-030-24302-9_53",
         "Kasalica V., Lamprecht AL. (2020) APE: A Command-Line Tool and API for Automated Workflow Composition. ICCS 2020. ICCS 2020. Lecture Notes in Computer Science, vol 12143. Springer, https://doi.org/10.1007/978-3-030-50436-6_34",
         "Kasalica, V., & Lamprecht, A.-L. (2020). Workflow Discovery with Semantic Constraints: The SAT-Based Implementation of APE. Electronic Communications of the EASST, 78(0). https://doi.org/10.14279/tuj.eceasst.78.1092"
       ],
+      "author": [],
+      "operatingSystem": [],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
+      "buildInstructions": [
+        "https://ape-framework.readthedocs.io",
+        "https://ape-framework.readthedocs.io/en/latest/?badge=latest"
+      ],
+      "readme": [],
+      "softwareVersion": [],
+      "programmingLanguage": [],
+      "url": [],
       "license": [
-        "https://www.json.org/license.html",
         "GNu LGPL",
+        "https://www.json.org/license.html",
         "LGPL or",
-        "EPL or",
         "https://github.com/sanctuuary/APE/blob/master/LICENSE",
+        "EPL or",
         "Apache 2.0"
       ],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [],
-      "releaseNotes": [],
-      "readme": [],
-      "continuousIntegration": []
+      "logo": [],
+      "relatedLink": []
     },
     "somef": {
-      "runtimePlatform": [],
-      "programmingLanguage": [],
-      "relatedLink": [],
-      "citation": [],
-      "buildInstructions": [],
-      "identifier": [],
-      "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
       "softwareRequirements": [],
-      "author": [],
-      "referencePublication": [],
-      "license": [],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [],
+      "codeRepository": [],
       "releaseNotes": [],
+      "citation": [],
+      "identifier": [],
+      "runtimePlatform": [],
+      "referencePublication": [],
+      "author": [],
+      "operatingSystem": [],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
+      "buildInstructions": [],
       "readme": [],
-      "continuousIntegration": []
+      "softwareVersion": [],
+      "programmingLanguage": [],
+      "url": [],
+      "license": [],
+      "logo": [],
+      "relatedLink": []
     }
   },
   "NNPDF": {
     "gt": {
-      "runtimePlatform": [],
-      "programmingLanguage": [],
-      "relatedLink": [],
-      "citation": [
-        "@article{NNPDF:2021uiq, author = \"Ball, Richard D. and others\", collaboration = \"NNPDF\", title = \"{An open-source machine learning framework for global analyses of parton distributions}\", eprint = \"2109.02671\", archivePrefix = \"arXiv\", primaryClass = \"hep-ph\", reportNumber = \"Edinburgh 2021/13, Nikhef-2021-020, TIF-UNIMI-2021-12\", doi = \"10.1140/epjc/s10052-021-09747-9\", journal = \"Eur. Phys. J. C\", volume = \"81\", number = \"10\", pages = \"958\", year = \"2021\" }",
-        "https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=find%20eprint%202109.02671",
-        "https://zenodo.org/badge/latestdoi/118135201",
-        "https://doi.org/10.5281/zenodo.5362228"
-      ],
-      "buildInstructions": [
-        "https://docs.nnpdf.science/get-started/installation.html"
-      ],
-      "identifier": [],
-      "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
       "softwareRequirements": [
         "pip",
         "conda"
       ],
-      "author": [],
+      "codeRepository": [],
+      "releaseNotes": [],
+      "citation": [
+        "https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=find%20eprint%202109.02671",
+        "https://zenodo.org/badge/latestdoi/118135201",
+        "https://doi.org/10.5281/zenodo.5362228",
+        "@article{NNPDF:2021uiq, author = \"Ball, Richard D. and others\", collaboration = \"NNPDF\", title = \"{An open-source machine learning framework for global analyses of parton distributions}\", eprint = \"2109.02671\", archivePrefix = \"arXiv\", primaryClass = \"hep-ph\", reportNumber = \"Edinburgh 2021/13, Nikhef-2021-020, TIF-UNIMI-2021-12\", doi = \"10.1140/epjc/s10052-021-09747-9\", journal = \"Eur. Phys. J. C\", volume = \"81\", number = \"10\", pages = \"958\", year = \"2021\" }"
+      ],
+      "identifier": [],
+      "runtimePlatform": [],
       "referencePublication": [],
+      "author": [],
+      "operatingSystem": [],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
+      "buildInstructions": [
+        "https://docs.nnpdf.science/get-started/installation.html"
+      ],
+      "readme": [],
+      "softwareVersion": [],
+      "programmingLanguage": [],
+      "url": [],
       "license": [
         "GNU General Public License version 3"
       ],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [],
-      "releaseNotes": [],
-      "readme": [],
-      "continuousIntegration": []
+      "logo": [],
+      "relatedLink": []
     },
     "model": {
-      "runtimePlatform": [],
-      "programmingLanguage": [],
-      "relatedLink": [],
+      "softwareRequirements": [
+        "pip",
+        "conda",
+        "ip"
+      ],
+      "codeRepository": [],
+      "releaseNotes": [],
       "citation": [
         "@article{NNPDF:2021uiq, author = \"Ball, Richard D. and others\", collaboration = \"NNPDF\", title = \"{An open-source machine learning framework for global analyses of parton distributions}\", eprint = \"2109.02671\", archivePrefix = \"arXiv\", primaryClass = \"hep-ph\", reportNumber = \"Edinburgh 2021/13, Nikhef-2021-020, TIF-UNIMI-2021-12\", doi = \"10.1140/epjc/s10052-021-09747-9\", journal = \"Eur. Phys. J. C\", volume = \"81\", number = \"10\", pages = \"958\", year = \"2021\"}",
         "https://zenodo.org/badge/latestdoi/118135201",
         "https://doi.org/10.5281/zenodo.5362228",
         "https://link.springer.com/article/10.1140/epjc/s10052-021-09747-9"
       ],
-      "buildInstructions": [],
       "identifier": [],
-      "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
-      "softwareRequirements": [
-        "pip",
-        "conda",
-        "ip"
-      ],
-      "author": [],
+      "runtimePlatform": [],
       "referencePublication": [],
+      "author": [],
+      "operatingSystem": [],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
+      "buildInstructions": [],
+      "readme": [],
+      "softwareVersion": [],
+      "programmingLanguage": [],
+      "url": [],
       "license": [
         "GNU General Public License version 3"
       ],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [],
-      "releaseNotes": [],
-      "readme": [],
-      "continuousIntegration": []
+      "logo": [],
+      "relatedLink": []
     },
     "somef": {
-      "runtimePlatform": [],
-      "programmingLanguage": [],
-      "relatedLink": [],
-      "citation": [],
-      "buildInstructions": [],
-      "identifier": [
-        "https://zenodo.org/badge/latestdoi/118135201"
-      ],
-      "url": [
-        "https://docs.nnpdf.science/"
-      ],
-      "downloadUrl": [
-        "https://github.com/NNPDF/nnpdf/releases"
-      ],
-      "logo": [
-        "https://raw.githubusercontent.com/NNPDF/nnpdf/master/doc/sphinx/source/_static/LogoNNPDF.png"
-      ],
+      "softwareRequirements": [],
       "codeRepository": [
         "https://github.com/NNPDF/nnpdf"
       ],
-      "issueTracker": [
-        "https://github.com/NNPDF/nnpdf/issues"
+      "releaseNotes": [],
+      "citation": [],
+      "identifier": [
+        "https://zenodo.org/badge/latestdoi/118135201"
       ],
-      "softwareRequirements": [],
-      "author": [
-        "NNPDF Collaboration"
-      ],
+      "runtimePlatform": [],
       "referencePublication": [
         "{An open-source machine learning framework for global analyses of parton distributions}"
       ],
-      "license": [],
-      "description": [],
-      "softwareVersion": [],
+      "author": [
+        "NNPDF Collaboration"
+      ],
       "operatingSystem": [],
-      "releaseNotes": [],
+      "downloadUrl": [
+        "https://github.com/NNPDF/nnpdf/releases"
+      ],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [
+        "https://github.com/NNPDF/nnpdf/issues"
+      ],
+      "buildInstructions": [],
       "readme": [],
-      "continuousIntegration": []
+      "softwareVersion": [],
+      "programmingLanguage": [],
+      "url": [
+        "https://docs.nnpdf.science/"
+      ],
+      "license": [],
+      "logo": [
+        "https://raw.githubusercontent.com/NNPDF/nnpdf/master/doc/sphinx/source/_static/LogoNNPDF.png"
+      ],
+      "relatedLink": []
     }
   },
   "opensim-core": {
     "gt": {
-      "runtimePlatform": [],
-      "programmingLanguage": [],
-      "relatedLink": [
-        "https://simtk.org/home/opensim",
-        "http://opensim.stanford.edu"
-      ],
+      "softwareRequirements": [],
+      "codeRepository": [],
+      "releaseNotes": [],
       "citation": [
         "Seth A, Hicks JL, Uchida TK, Habib A, Dembia CL, et al. (2018) OpenSim: Simulating musculoskeletal dynamics and neuromuscular control to study human and animal movement. _PLOS Computational Biology_ 14(7): e1006223. https://doi.org/10.1371/journal.pcbi.1006223"
       ],
-      "buildInstructions": [
-        "https://simtk-confluence.stanford.edu/display/OpenSim/Documentation",
-        "https://github.com/opensim-org/opensim-core/wiki",
-        "https://simtk-confluence.stanford.edu:8443/display/OpenSim/",
-        "https://github.com/opensim-org/opensim-core/wiki/Build-Instructions",
-        "https://simtk-confluence.stanford.edu/display/OpenSim/Scripting"
-      ],
       "identifier": [],
-      "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
-      "softwareRequirements": [],
-      "author": [],
+      "runtimePlatform": [],
       "referencePublication": [],
+      "author": [],
+      "operatingSystem": [
+        "Linux",
+        "Windows",
+        "Ubuntu",
+        "Debian",
+        "macOS"
+      ],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
+      "buildInstructions": [
+        "https://simtk-confluence.stanford.edu:8443/display/OpenSim/",
+        "https://simtk-confluence.stanford.edu/display/OpenSim/Scripting",
+        "https://github.com/opensim-org/opensim-core/wiki",
+        "https://simtk-confluence.stanford.edu/display/OpenSim/Documentation",
+        "https://github.com/opensim-org/opensim-core/wiki/Build-Instructions"
+      ],
+      "readme": [],
+      "softwareVersion": [],
+      "programmingLanguage": [],
+      "url": [],
       "license": [
         "https://github.com/opensim-org/opensim-core/blob/master/LICENSE.txt",
         "Apache License, Version 2.0"
       ],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [
-        "Ubuntu",
-        "Debian",
-        "macOS",
-        "Windows",
-        "Linux"
-      ],
-      "releaseNotes": [],
-      "readme": [],
-      "continuousIntegration": []
+      "logo": [],
+      "relatedLink": [
+        "https://simtk.org/home/opensim",
+        "http://opensim.stanford.edu"
+      ]
     },
     "model": {
-      "runtimePlatform": [],
-      "programmingLanguage": [],
-      "relatedLink": [
-        "http://opensim.stanford.edu"
-      ],
+      "softwareRequirements": [],
+      "codeRepository": [],
+      "releaseNotes": [],
       "citation": [
         "eth A, Hicks JL, Uchida TK, Habib A, Dembia CL, et al. (2018) OpenSim: Simulating musculoskeletal dynamics and neuromuscular control to study human and animal movement. _PLOS Computational Biology_ 14(7): e1006223. https://doi.org/10.1371/journal.pcbi.1006223"
       ],
-      "buildInstructions": [
-        "https://simtk-confluence.stanford.edu/display/OpenSim/Developer%27s+Guide",
-        "https://github.com/opensim-org/opensim-core/wiki",
-        "https://github.com/opensim-org/opensim-core/wiki/Build-Instructions",
-        "https://simtk-confluence.stanford.edu/display/OpenSim/Scripting",
-        "https://simtk-confluence.stanford.edu:8443/display/OpenSim/Documentation"
-      ],
       "identifier": [],
-      "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
-      "softwareRequirements": [],
-      "author": [],
+      "runtimePlatform": [],
       "referencePublication": [],
-      "license": [
-        "https://github.com/opensim-org/opensim-core/blob/master/LICENSE.txt",
-        "Apache License, Version 2.0",
-        "License, Version 2.0"
-      ],
-      "description": [],
-      "softwareVersion": [],
+      "author": [],
       "operatingSystem": [
-        "macOS",
-        "Windows",
         "Linux",
+        "Windows",
+        "macOS",
         "Debian"
       ],
-      "releaseNotes": [],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
+      "buildInstructions": [
+        "https://simtk-confluence.stanford.edu:8443/display/OpenSim/Documentation",
+        "https://simtk-confluence.stanford.edu/display/OpenSim/Scripting",
+        "https://github.com/opensim-org/opensim-core/wiki",
+        "https://simtk-confluence.stanford.edu/display/OpenSim/Developer%27s+Guide",
+        "https://github.com/opensim-org/opensim-core/wiki/Build-Instructions"
+      ],
       "readme": [],
-      "continuousIntegration": []
+      "softwareVersion": [],
+      "programmingLanguage": [],
+      "url": [],
+      "license": [
+        "License, Version 2.0",
+        "https://github.com/opensim-org/opensim-core/blob/master/LICENSE.txt",
+        "Apache License, Version 2.0"
+      ],
+      "logo": [],
+      "relatedLink": [
+        "http://opensim.stanford.edu"
+      ]
     },
     "somef": {
-      "runtimePlatform": [],
-      "programmingLanguage": [
-        "C++",
-        "Python"
+      "softwareRequirements": [],
+      "codeRepository": [
+        "https://github.com/opensim-org/opensim-core"
       ],
-      "relatedLink": [],
+      "releaseNotes": [],
       "citation": [],
+      "identifier": [],
+      "runtimePlatform": [],
+      "referencePublication": [],
+      "author": [
+        null
+      ],
+      "operatingSystem": [],
+      "downloadUrl": [
+        "https://github.com/opensim-org/opensim-core/releases"
+      ],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [
+        "https://github.com/opensim-org/opensim-core/issues"
+      ],
       "buildInstructions": [
         "https://github.com/opensim-org/opensim-core/wiki",
         "https://raw.githubusercontent.com/opensim-org/opensim-core/main/README.md"
       ],
-      "identifier": [],
-      "url": [],
-      "downloadUrl": [
-        "https://github.com/opensim-org/opensim-core/releases"
-      ],
-      "logo": [],
-      "codeRepository": [
-        "https://github.com/opensim-org/opensim-core"
-      ],
-      "issueTracker": [
-        "https://github.com/opensim-org/opensim-core/issues"
-      ],
-      "softwareRequirements": [],
-      "author": [
-        null
-      ],
-      "referencePublication": [],
-      "license": [],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [],
-      "releaseNotes": [],
       "readme": [],
-      "continuousIntegration": []
+      "softwareVersion": [],
+      "programmingLanguage": [
+        "C++",
+        "Python"
+      ],
+      "url": [],
+      "license": [],
+      "logo": [],
+      "relatedLink": []
     }
   },
   "iBridges-GUI": {
     "gt": {
-      "runtimePlatform": [
-        "Python 3.9 or higher"
-      ],
-      "programmingLanguage": [],
-      "relatedLink": [],
+      "softwareRequirements": [],
+      "codeRepository": [],
+      "releaseNotes": [],
       "citation": [
         "https://doi.org/10.5281/zenodo.17139123"
       ],
+      "identifier": [],
+      "runtimePlatform": [
+        "Python 3.9 or higher"
+      ],
+      "referencePublication": [],
+      "author": [],
+      "operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac OS"
+      ],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
       "buildInstructions": [
         "https://ibridges-for-irods.github.io/iBridges-GUI/"
       ],
-      "identifier": [],
+      "readme": [],
+      "softwareVersion": [],
+      "programmingLanguage": [],
       "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
-      "softwareRequirements": [],
-      "author": [],
-      "referencePublication": [],
       "license": [
         "LGPL license"
       ],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [
-        "Mac OS",
-        "Windows",
-        "Linux"
-      ],
-      "releaseNotes": [],
-      "readme": [],
-      "continuousIntegration": []
+      "logo": [],
+      "relatedLink": []
     },
     "model": {
-      "runtimePlatform": [
-        "Python 3.9 or higher"
-      ],
-      "programmingLanguage": [],
-      "relatedLink": [],
+      "softwareRequirements": [],
+      "codeRepository": [],
+      "releaseNotes": [],
       "citation": [
         "https://doi.org/10.5281/zenodo.17139123"
       ],
-      "buildInstructions": [],
       "identifier": [],
-      "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
-      "softwareRequirements": [],
-      "author": [],
+      "runtimePlatform": [
+        "Python 3.9 or higher"
+      ],
       "referencePublication": [],
+      "author": [],
+      "operatingSystem": [
+        "Mac OS",
+        "Linux",
+        "Windows",
+        "Ubuntu",
+        "macOS"
+      ],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
+      "buildInstructions": [],
+      "readme": [],
+      "softwareVersion": [],
+      "programmingLanguage": [],
+      "url": [],
       "license": [
         "LGPL license"
       ],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [
-        "Mac OS",
-        "Ubuntu",
-        "macOS",
-        "Windows",
-        "Linux"
-      ],
-      "releaseNotes": [],
-      "readme": [],
-      "continuousIntegration": []
+      "logo": [],
+      "relatedLink": []
     },
     "somef": {
-      "runtimePlatform": [],
-      "programmingLanguage": [
-        "Python"
+      "softwareRequirements": [],
+      "codeRepository": [
+        "https://github.com/iBridges-for-iRODS/iBridges-GUI"
       ],
-      "relatedLink": [],
+      "releaseNotes": [],
       "citation": [],
-      "buildInstructions": [],
       "identifier": [
         "https://doi.org/10.5281/zenodo.17139123"
+      ],
+      "runtimePlatform": [],
+      "referencePublication": [],
+      "author": [
+        "Christine Staiger"
+      ],
+      "operatingSystem": [],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
+      "buildInstructions": [],
+      "readme": [],
+      "softwareVersion": [],
+      "programmingLanguage": [
+        "Python"
       ],
       "url": [
         "https://ibridges-for-irods.github.io/iBridges-GUI/"
       ],
-      "downloadUrl": [],
+      "license": [],
       "logo": [
         "https://raw.githubusercontent.com/iBridges-for-iRods/iBridges-GUI/3395dedf2c7b919e108356a3289eb2c2fc66af6d/ibridgesgui/icons/logo.png"
       ],
-      "codeRepository": [
-        "https://github.com/iBridges-for-iRODS/iBridges-GUI"
-      ],
-      "issueTracker": [],
-      "softwareRequirements": [],
-      "author": [
-        "Christine Staiger"
-      ],
-      "referencePublication": [],
-      "license": [],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [],
-      "releaseNotes": [],
-      "readme": [],
-      "continuousIntegration": []
+      "relatedLink": []
     }
   },
   "AutoPQ": {
     "gt": {
-      "runtimePlatform": [],
-      "programmingLanguage": [],
-      "relatedLink": [],
+      "softwareRequirements": [],
+      "codeRepository": [],
+      "releaseNotes": [],
       "citation": [
         "Kaleb Phipps, Stefan Meisenbacher, Benedikt Heidrich, Marian Turowski, Ralf Mikut, and Veit Hagenmeyer. 2023. Loss-customised probabilistic energy time series forecasts using automated hyperparameter optimisation. In Proceedings of the 14th ACM International Conference on Future Energy Systems (e-Energy \u201923), Association for Computing Machinery, New York, NY, USA, 271\u2013286. [https://doi.org/10.1145/3575813.3595204] https://doi.org/10.1145/3575813.3595204",
         "Stefan Meisenbacher et al. 2024. AutoPQ: Automated point forecast-based quantile forecasts"
       ],
-      "buildInstructions": [],
       "identifier": [],
-      "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
-      "softwareRequirements": [],
-      "author": [],
+      "runtimePlatform": [],
       "referencePublication": [
-        "The Load-GCP data set is taken from the UCI Machine Learning Repository: A. Trindade, Electricity load diagrams 2011-2014, UCI Machine Learning Repository, 2015",
-        "Optimization of the sampling hyperparameter is performed using [Hyperopt] https://github.com/hyperopt/hyperopt J. Bergstra, D. Yamins, and D. Cox, \u201cMaking a science of model search: Hyperparameter optimization in hundreds of dimensions for vision architectures\u201d, in Proceedings of the 30th International Conference on Machine Learning, ser. ICML \u201913, Proceedings of Machine Learning Research, PMLR, 2013, pp. 115\u2013123",
+        "The cINN is based on: B. Heidrich, M. Turowski, K. Phipps, K. Schmieder, W. S\u00fc\u00df, R. Mikut, and V. Hagenmeyer, \u201cControlling non-stationarity and periodicities in time series generation using conditional invertible neural networks\u201d, Applied Intelligence, vol. 53, no. 8, pp. 8826\u20138843, 2023",
+        "The Price, PV, and WP data are from the price, solar power, and wind power forecasting tracks of the Global Energy Forecasting Competition (GEFCom) 2014: T. Hong, P. Pinson, S. Fan, H. Zareipour, A. Troccoli, and R. J. Hyndman, \u201cProbabilistic energy forecasting: Global energy forecasting competition 2014 and beyond\u201d, International Journal of Forecasting, vol. 32, no. 3, pp. 896\u2013913, 2016",
         "The Mobility data set is taken from the UCI Machine Learning Repository: H. Fanaee-T, Bike sharing dataset, UCI Machine Learning Repository, 2013",
         "Generating probabilistic forecasts by sampling in the cINN's latent space is based on: K. Phipps, B. Heidrich, M. Turowski, M. Wittig, R. Mikut, and V. Hagenmeyer, \u201cGenerating probabilistic forecasts from arbitrary point forecasts using a conditional invertible neural network\u201d, Applied Intelligence, 2024",
-        "The Price, PV, and WP data are from the price, solar power, and wind power forecasting tracks of the Global Energy Forecasting Competition (GEFCom) 2014: T. Hong, P. Pinson, S. Fan, H. Zareipour, A. Troccoli, and R. J. Hyndman, \u201cProbabilistic energy forecasting: Global energy forecasting competition 2014 and beyond\u201d, International Journal of Forecasting, vol. 32, no. 3, pp. 896\u2013913, 2016",
-        "The Load-BW data is taken from the Open Power System Data (OPSD) portal: F. Wiese et al., \u201cOpen Power System Data: Frictionless data for electricity system modelling\u201d, Applied Energy, vol. 236, pp. 401\u2013409, 2019",
-        "The cINN is based on: B. Heidrich, M. Turowski, K. Phipps, K. Schmieder, W. S\u00fc\u00df, R. Mikut, and V. Hagenmeyer, \u201cControlling non-stationarity and periodicities in time series generation using conditional invertible neural networks\u201d, Applied Intelligence, vol. 53, no. 8, pp. 8826\u20138843, 2023",
-        "Optimization of the point forecasting method's hyperparameters is performed using [Propulate] https://github.com/Helmholtz-AI-Energy/propulate O. Taubert, M. Weiel, D. Coquelin, A. Farshian, C. Debus, A. Schug, A. Streit, and M. G\u00f6tz, \u201cMassively parallel genetic optimization through asynchronous propagation of populations\u201d, in High Performance Computing, A. Bhatele, J. Hammond, M. Baboulin, and C. Kruse, Eds., Cham, Switzerland: Springer Nature, 2023, pp. 106\u2013124"
+        "Optimization of the sampling hyperparameter is performed using [Hyperopt] https://github.com/hyperopt/hyperopt J. Bergstra, D. Yamins, and D. Cox, \u201cMaking a science of model search: Hyperparameter optimization in hundreds of dimensions for vision architectures\u201d, in Proceedings of the 30th International Conference on Machine Learning, ser. ICML \u201913, Proceedings of Machine Learning Research, PMLR, 2013, pp. 115\u2013123",
+        "Optimization of the point forecasting method's hyperparameters is performed using [Propulate] https://github.com/Helmholtz-AI-Energy/propulate O. Taubert, M. Weiel, D. Coquelin, A. Farshian, C. Debus, A. Schug, A. Streit, and M. G\u00f6tz, \u201cMassively parallel genetic optimization through asynchronous propagation of populations\u201d, in High Performance Computing, A. Bhatele, J. Hammond, M. Baboulin, and C. Kruse, Eds., Cham, Switzerland: Springer Nature, 2023, pp. 106\u2013124",
+        "The Load-GCP data set is taken from the UCI Machine Learning Repository: A. Trindade, Electricity load diagrams 2011-2014, UCI Machine Learning Repository, 2015",
+        "The Load-BW data is taken from the Open Power System Data (OPSD) portal: F. Wiese et al., \u201cOpen Power System Data: Frictionless data for electricity system modelling\u201d, Applied Energy, vol. 236, pp. 401\u2013409, 2019"
       ],
-      "license": [],
-      "description": [],
-      "softwareVersion": [],
+      "author": [],
       "operatingSystem": [],
-      "releaseNotes": [],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
+      "buildInstructions": [],
       "readme": [],
-      "continuousIntegration": []
+      "softwareVersion": [],
+      "programmingLanguage": [],
+      "url": [],
+      "license": [],
+      "logo": [],
+      "relatedLink": []
     },
     "model": {
-      "runtimePlatform": [],
-      "programmingLanguage": [],
-      "relatedLink": [],
+      "softwareRequirements": [],
+      "codeRepository": [],
+      "releaseNotes": [],
       "citation": [
         "Kaleb Phipps, Stefan Meisenbacher, Benedikt Heidrich, Marian Turowski, Ralf Mikut, and Veit Hagenmeyer. 2023. Loss-customised probabilistic energy time series forecasts using automated hyperparameter optimisation. In Proceedings of the 14th ACM International Conference on Future Energy Systems (e-Energy \u201923), Association for Computing Machinery, New York, NY, USA, 271\u2013286. [https://doi.org/10.1145/3575813.3595204] https://doi.org/10.1145/3575813.3595204",
         "fan Meisenbacher et al. 2024. AutoPQ: Automated point forecast-based quantile forecasts. In preparation."
       ],
-      "buildInstructions": [],
       "identifier": [],
-      "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
-      "softwareRequirements": [],
-      "author": [],
+      "runtimePlatform": [],
       "referencePublication": [
         "T. Hong, P. Pinson, S. Fan, H. Zareipour, A. Troccoli, and R. J. Hyndman, \u201cProbabilistic energy forecasting: Global energy forecasting competition 2014 and beyond\u201d, International Journal of Forecasting, vol. 32, no. 3, pp. 896\u2013913, 2016",
-        "J. Bergstra, D. Yamins, and D. Cox, \u201cMaking a science of model search: Hyperparameter optimization in hundreds of dimensions for vision architectures\u201d, in Proceedings of the 30th International Conference on Machine Learning, ser. ICML \u201913, Proceedings of Machine Learning Research, PMLR, 2013, pp. 115\u2013123",
-        "B. Heidrich, M. Turowski, K. Phipps, K. Schmieder, W. S\u00fc\u00df, R. Mikut, and V. Hagenmeyer, \u201cControlling non-stationarity and periodicities in time series generation using conditional invertible neural networks\u201d, Applied Intelligence, vol. 53, no. 8, pp. 8826\u20138843, 2023",
         "K. Phipps, B. Heidrich, M. Turowski, M. Wittig, R. Mikut, and V. Hagenmeyer, \u201cGenerating probabilistic forecasts from arbitrary point forecasts using a conditional invertible neural network\u201d, Applied Intelligence, 2024",
-        ". Taubert, M. Weiel, D. Coquelin, A. Farshian, C. Debus, A. Schug, A. Streit, and M. G\u00f6tz, \u201cMassively parallel genetic optimization through asynchronous propagation of populations\u201d, in High Performance Computing, A. Bhatele, J. Hammond, M. Baboulin, and C. Kruse, Eds., Cham, Switzerland: Springer Nature, 2023, pp. 106\u2013124"
-      ],
-      "license": [],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [],
-      "releaseNotes": [],
-      "readme": [],
-      "continuousIntegration": []
-    },
-    "somef": {
-      "runtimePlatform": [],
-      "programmingLanguage": [],
-      "relatedLink": [],
-      "citation": [],
-      "buildInstructions": [],
-      "identifier": [],
-      "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
-      "softwareRequirements": [
-        "git+https://github.com/SMEISEN/pyWATTS.git@453133590beb64866ec7576fa58bebaf38a84ed5#egg=pywatts",
-        "git+https://github.com/SMEISEN/propulate.git@main#egg=propulate",
-        "torch",
-        "FrEIA",
-        "git+https://github.com/SMEISEN/sktime@main#egg=sktime",
-        "hyperopt",
-        "pytorch-forecasting",
-        "tensorflow",
-        "xgboost",
-        "scikit-learn",
-        "pvlib",
-        "properscoring",
-        "numpy",
-        "tbats",
-        "gluonts",
-        "--extra-index-url https://download.pytorch.org/whl/cu116",
-        "git+https://github.com/SMEISEN/msvr@master#egg=msvr",
-        "pytorch-lightning",
-        "pmdarima"
+        ". Taubert, M. Weiel, D. Coquelin, A. Farshian, C. Debus, A. Schug, A. Streit, and M. G\u00f6tz, \u201cMassively parallel genetic optimization through asynchronous propagation of populations\u201d, in High Performance Computing, A. Bhatele, J. Hammond, M. Baboulin, and C. Kruse, Eds., Cham, Switzerland: Springer Nature, 2023, pp. 106\u2013124",
+        "J. Bergstra, D. Yamins, and D. Cox, \u201cMaking a science of model search: Hyperparameter optimization in hundreds of dimensions for vision architectures\u201d, in Proceedings of the 30th International Conference on Machine Learning, ser. ICML \u201913, Proceedings of Machine Learning Research, PMLR, 2013, pp. 115\u2013123",
+        "B. Heidrich, M. Turowski, K. Phipps, K. Schmieder, W. S\u00fc\u00df, R. Mikut, and V. Hagenmeyer, \u201cControlling non-stationarity and periodicities in time series generation using conditional invertible neural networks\u201d, Applied Intelligence, vol. 53, no. 8, pp. 8826\u20138843, 2023"
       ],
       "author": [],
-      "referencePublication": [],
-      "license": [],
-      "description": [],
-      "softwareVersion": [],
       "operatingSystem": [],
-      "releaseNotes": [],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
+      "buildInstructions": [],
       "readme": [],
-      "continuousIntegration": []
+      "softwareVersion": [],
+      "programmingLanguage": [],
+      "url": [],
+      "license": [],
+      "logo": [],
+      "relatedLink": []
+    },
+    "somef": {
+      "softwareRequirements": [
+        "git+https://github.com/SMEISEN/sktime@main#egg=sktime",
+        "pytorch-forecasting",
+        "properscoring",
+        "scikit-learn",
+        "numpy",
+        "pvlib",
+        "tbats",
+        "git+https://github.com/SMEISEN/msvr@master#egg=msvr",
+        "gluonts",
+        "pytorch-lightning",
+        "torch",
+        "tensorflow",
+        "xgboost",
+        "git+https://github.com/SMEISEN/pyWATTS.git@453133590beb64866ec7576fa58bebaf38a84ed5#egg=pywatts",
+        "FrEIA",
+        "git+https://github.com/SMEISEN/propulate.git@main#egg=propulate",
+        "pmdarima",
+        "--extra-index-url https://download.pytorch.org/whl/cu116",
+        "hyperopt"
+      ],
+      "codeRepository": [],
+      "releaseNotes": [],
+      "citation": [],
+      "identifier": [],
+      "runtimePlatform": [],
+      "referencePublication": [],
+      "author": [],
+      "operatingSystem": [],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
+      "buildInstructions": [],
+      "readme": [],
+      "softwareVersion": [],
+      "programmingLanguage": [],
+      "url": [],
+      "license": [],
+      "logo": [],
+      "relatedLink": []
     }
   },
   "Cesium-ncWMS": {
     "gt": {
-      "runtimePlatform": [
-        "nodejs",
-        "Node.js"
+      "softwareRequirements": [
+        "Java Development Kit",
+        "Git",
+        "bower",
+        "grunt-cli",
+        "Apache Tomcat"
       ],
-      "programmingLanguage": [],
-      "relatedLink": [
-        "http://forecast.ewatercycle.org"
-      ],
+      "codeRepository": [],
+      "releaseNotes": [],
       "citation": [
         "http://dx.doi.org/10.5281/zenodo.60031"
       ],
-      "buildInstructions": [],
       "identifier": [],
-      "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
-      "softwareRequirements": [
-        "Apache Tomcat",
-        "Git",
-        "Java Development Kit",
-        "grunt-cli",
-        "bower"
+      "runtimePlatform": [
+        "Node.js",
+        "nodejs"
       ],
-      "author": [],
       "referencePublication": [],
-      "license": [
-        "Apache License, Version 2.0"
-      ],
-      "description": [],
-      "softwareVersion": [],
+      "author": [],
       "operatingSystem": [
-        "Ubuntu",
         "Linux",
+        "Ubuntu",
         "windows",
         "Debian"
       ],
-      "releaseNotes": [],
-      "readme": [],
+      "downloadUrl": [],
       "continuousIntegration": [
         "https://travis-ci.org/NLeSC/Cesium-NcWMS"
-      ]
-    },
-    "model": {
-      "runtimePlatform": [],
-      "programmingLanguage": [],
-      "relatedLink": [],
-      "citation": [
-        "https://dx.doi.org/10.5281/zenodo.60031"
       ],
-      "buildInstructions": [],
-      "identifier": [],
-      "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
+      "description": [],
       "issueTracker": [],
-      "softwareRequirements": [
-        "Apache Tomcat",
-        "Git",
-        ".js",
-        "grunt-cli",
-        "bower",
-        "js",
-        "D3",
-        "Tomcat"
-      ],
-      "author": [],
-      "referencePublication": [],
+      "buildInstructions": [],
+      "readme": [],
+      "softwareVersion": [],
+      "programmingLanguage": [],
+      "url": [],
       "license": [
         "Apache License, Version 2.0"
       ],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [],
-      "releaseNotes": [],
-      "readme": [],
-      "continuousIntegration": [
-        "https://travis-ci.org/NLeSC/Cesium-NcWMS"
+      "logo": [],
+      "relatedLink": [
+        "http://forecast.ewatercycle.org"
       ]
     },
-    "somef": {
+    "model": {
+      "softwareRequirements": [
+        "D3",
+        "js",
+        ".js",
+        "Git",
+        "bower",
+        "grunt-cli",
+        "Tomcat",
+        "Apache Tomcat"
+      ],
+      "codeRepository": [],
+      "releaseNotes": [],
+      "citation": [
+        "https://dx.doi.org/10.5281/zenodo.60031"
+      ],
+      "identifier": [],
       "runtimePlatform": [],
+      "referencePublication": [],
+      "author": [],
+      "operatingSystem": [],
+      "downloadUrl": [],
+      "continuousIntegration": [
+        "https://travis-ci.org/NLeSC/Cesium-NcWMS"
+      ],
+      "description": [],
+      "issueTracker": [],
+      "buildInstructions": [],
+      "readme": [],
+      "softwareVersion": [],
       "programmingLanguage": [],
-      "relatedLink": [],
+      "url": [],
+      "license": [
+        "Apache License, Version 2.0"
+      ],
+      "logo": [],
+      "relatedLink": []
+    },
+    "somef": {
+      "softwareRequirements": [],
+      "codeRepository": [
+        "https://github.com/eWaterCycle/Cesium-NcWMS"
+      ],
+      "releaseNotes": [
+        "This release is of the version of Cesium-NcWMS specifically tailored for the eWaterCycle project\n"
+      ],
       "citation": [],
+      "identifier": [
+        "http://dx.doi.org/10.5281/zenodo.60031"
+      ],
+      "runtimePlatform": [],
+      "referencePublication": [],
+      "author": [
+        "Maarten van Meersbergen <m.vanmeersbergen@esiencencenter.nl>"
+      ],
+      "operatingSystem": [],
+      "downloadUrl": [
+        "https://github.com/eWaterCycle/Cesium-NcWMS/releases"
+      ],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [
+        "https://github.com/eWaterCycle/Cesium-NcWMS/issues"
+      ],
       "buildInstructions": [
         "https://raw.githubusercontent.com/eWaterCycle/Cesium-NcWMS/ewatercycle-specific/README.md",
         "https://github.com/eWaterCycle/Cesium-NcWMS/wiki"
       ],
-      "identifier": [
-        "http://dx.doi.org/10.5281/zenodo.60031"
-      ],
-      "url": [
-        "https://github.com/NLeSC/Cesium-NcWMS"
-      ],
-      "downloadUrl": [
-        "https://github.com/eWaterCycle/Cesium-NcWMS/releases"
-      ],
-      "logo": [
-        "https://raw.githubusercontent.com/eWaterCycle/Cesium-NcWMS/ewatercycle-specific/DOC/images/ewa-saturation.png"
-      ],
-      "codeRepository": [
-        "https://github.com/eWaterCycle/Cesium-NcWMS"
-      ],
-      "issueTracker": [
-        "https://github.com/eWaterCycle/Cesium-NcWMS/issues"
-      ],
-      "softwareRequirements": [],
-      "author": [
-        "Maarten van Meersbergen <m.vanmeersbergen@esiencencenter.nl>"
-      ],
-      "referencePublication": [],
-      "license": [],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [],
-      "releaseNotes": [
-        "This release is of the version of Cesium-NcWMS specifically tailored for the eWaterCycle project\n"
-      ],
       "readme": [
         "https://raw.githubusercontent.com/eWaterCycle/Cesium-NcWMS/ewatercycle-specific/README.md"
       ],
-      "continuousIntegration": []
+      "softwareVersion": [],
+      "programmingLanguage": [],
+      "url": [
+        "https://github.com/NLeSC/Cesium-NcWMS"
+      ],
+      "license": [],
+      "logo": [
+        "https://raw.githubusercontent.com/eWaterCycle/Cesium-NcWMS/ewatercycle-specific/DOC/images/ewa-saturation.png"
+      ],
+      "relatedLink": []
     }
   },
   "admtools": {
     "gt": {
-      "runtimePlatform": [],
-      "programmingLanguage": [],
-      "relatedLink": [],
+      "softwareRequirements": [
+        "remotes"
+      ],
+      "codeRepository": [],
+      "releaseNotes": [],
       "citation": [
         "Hohmann, N. (2025). admtools (v0.6.0). Zenodo. https://doi.org/10.5281/zenodo.15479049",
         "https://doi.org/10.5281/zenodo.15479049"
       ],
-      "buildInstructions": [],
       "identifier": [],
-      "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
-      "softwareRequirements": [
-        "remotes"
-      ],
-      "author": [],
+      "runtimePlatform": [],
       "referencePublication": [
         "Hohmann, Niklas; Koelewijn, Jo\u00ebl R.; Burgess, Peter; Jarochowska, Emilia. 2024. \"Identification of the mode of evolution in incomplete carbonate successions.\" BMC Ecology and Evolution, 24, 113. [DOI: 10.1186/s12862-024-02287-2] https://doi.org/10.1186/s12862-024-02287-2",
         "Hohmann, Niklas, Koelewijn, Jo\u00ebl R.; Burgess, Peter; Jarochowska, Emilia. 2023. \"Identification of the Mode of Evolution in Incomplete Carbonate Successions - Supporting Data.\" Open Science Framework. , published under the [CC-BY 4.0] https://creativecommons.org/licenses/by/4.0/ license"
       ],
+      "author": [],
+      "operatingSystem": [],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
+      "buildInstructions": [],
+      "readme": [],
+      "softwareVersion": [],
+      "programmingLanguage": [],
+      "url": [],
       "license": [
         "GPL-3.0"
       ],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [],
-      "releaseNotes": [],
-      "readme": [],
-      "continuousIntegration": []
+      "logo": [],
+      "relatedLink": []
     },
     "model": {
-      "runtimePlatform": [],
-      "programmingLanguage": [],
-      "relatedLink": [],
+      "softwareRequirements": [],
+      "codeRepository": [],
+      "releaseNotes": [],
       "citation": [
         "Hohmann, N. (2025). admtools (v0.6.0). Zenodo. https://doi.org/10.5281/zenodo.15479049",
         "https://doi.org/10.5281/zenodo.15479049"
       ],
-      "buildInstructions": [],
       "identifier": [],
-      "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
-      "softwareRequirements": [],
-      "author": [],
+      "runtimePlatform": [],
       "referencePublication": [
         "Niklas; Koelewijn, Jo\u00ebl R.; Burgess, Peter; Jarochowska, Emilia. 2024. \"Identification of the mode of evolution in incomplete carbonate successions.\" BMC Ecology and Evolution, 24, 113. [DOI: 10.1186/s12862-024-02287-2]",
         "ohmann, Niklas, Koelewijn, Jo\u00ebl R.; Burgess, Peter; Jarochowska, Emilia. 2023. \"Identification of the Mode of Evolution in Incomplete Carbonate Successions - Supporting Data.\" Open Science Framework., published"
       ],
+      "author": [],
+      "operatingSystem": [],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
+      "buildInstructions": [],
+      "readme": [],
+      "softwareVersion": [],
+      "programmingLanguage": [],
+      "url": [],
       "license": [
         "CC-BY 4.0"
       ],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [],
-      "releaseNotes": [],
-      "readme": [],
-      "continuousIntegration": []
+      "logo": [],
+      "relatedLink": []
     },
     "somef": {
-      "runtimePlatform": [],
-      "programmingLanguage": [
-        "R"
-      ],
-      "relatedLink": [],
-      "citation": [],
-      "buildInstructions": [
-        "https://raw.githubusercontent.com/MindTheGap-ERC/admtools/main/README.md"
-      ],
-      "identifier": [
-        "https://doi.org/10.5281/zenodo.15479049"
-      ],
-      "url": [
-        "https://mindthegap-erc.github.io/admtools/"
-      ],
-      "downloadUrl": [
-        "https://github.com/MindTheGap-ERC/admtools/releases"
-      ],
-      "logo": [
-        "https://erc.europa.eu/sites/default/files/2023-06/LOGO_ERC-FLAG_FP.png"
-      ],
+      "softwareRequirements": [],
       "codeRepository": [
         "https://github.com/MindTheGap-ERC/admtools"
       ],
-      "issueTracker": [
-        "https://github.com/MindTheGap-ERC/admtools/issues"
+      "releaseNotes": [
+        "* transformation between age and time for integration with `FossilSim`\n\n* vignette for connection between `admtools` and `FossilSim`\n"
       ],
-      "softwareRequirements": [],
-      "author": [],
+      "citation": [],
+      "identifier": [
+        "https://doi.org/10.5281/zenodo.15479049"
+      ],
+      "runtimePlatform": [],
       "referencePublication": [
         "admtools"
       ],
-      "license": [
-        "GNU General Public License v3.0",
-        "GPL-3.0",
-        "https://raw.githubusercontent.com/MindTheGap-ERC/admtools/main/LICENSE"
+      "author": [],
+      "operatingSystem": [],
+      "downloadUrl": [
+        "https://github.com/MindTheGap-ERC/admtools/releases"
+      ],
+      "continuousIntegration": [
+        "https://raw.githubusercontent.com/MindTheGap-ERC/admtools/main/.github/workflows/fair-software.yml"
       ],
       "description": [],
-      "softwareVersion": [
-        "v0.6.0"
+      "issueTracker": [
+        "https://github.com/MindTheGap-ERC/admtools/issues"
       ],
-      "operatingSystem": [],
-      "releaseNotes": [
-        "* transformation between age and time for integration with `FossilSim`\n\n* vignette for connection between `admtools` and `FossilSim`\n"
+      "buildInstructions": [
+        "https://raw.githubusercontent.com/MindTheGap-ERC/admtools/main/README.md"
       ],
       "readme": [
         "https://raw.githubusercontent.com/MindTheGap-ERC/admtools/main/README.md"
       ],
-      "continuousIntegration": [
-        "https://raw.githubusercontent.com/MindTheGap-ERC/admtools/main/.github/workflows/fair-software.yml"
-      ]
+      "softwareVersion": [
+        "v0.6.0"
+      ],
+      "programmingLanguage": [
+        "R"
+      ],
+      "url": [
+        "https://mindthegap-erc.github.io/admtools/"
+      ],
+      "license": [
+        "GPL-3.0",
+        "https://raw.githubusercontent.com/MindTheGap-ERC/admtools/main/LICENSE",
+        "GNU General Public License v3.0"
+      ],
+      "logo": [
+        "https://erc.europa.eu/sites/default/files/2023-06/LOGO_ERC-FLAG_FP.png"
+      ],
+      "relatedLink": []
     }
   },
   "qc2": {
     "gt": {
-      "runtimePlatform": [],
-      "programmingLanguage": [],
-      "relatedLink": [],
+      "softwareRequirements": [
+        "setuptools",
+        "tox",
+        "isort",
+        "yapf",
+        "pip",
+        "Qiskit Nature",
+        "PennyLane",
+        "prospector",
+        "python3"
+      ],
+      "codeRepository": [],
+      "releaseNotes": [],
       "citation": [
         "https://doi.org/10.5281/zenodo.14186370"
       ],
+      "identifier": [],
+      "runtimePlatform": [],
+      "referencePublication": [],
+      "author": [],
+      "operatingSystem": [],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
       "buildInstructions": [
         "https://qc2.readthedocs.io/en/latest/get-started/installation.html",
         "https://qc2.readthedocs.io/en/latest/?badge=latest",
         "https://qc2.readthedocs.io"
       ],
-      "identifier": [],
-      "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
-      "softwareRequirements": [
-        "PennyLane",
-        "yapf",
-        "pip",
-        "Qiskit Nature",
-        "setuptools",
-        "tox",
-        "prospector",
-        "isort",
-        "python3"
-      ],
-      "author": [],
-      "referencePublication": [],
-      "license": [],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [],
-      "releaseNotes": [],
       "readme": [],
-      "continuousIntegration": []
+      "softwareVersion": [],
+      "programmingLanguage": [],
+      "url": [],
+      "license": [],
+      "logo": [],
+      "relatedLink": []
     },
     "model": {
-      "runtimePlatform": [],
-      "programmingLanguage": [],
-      "relatedLink": [],
+      "softwareRequirements": [
+        "setuptools",
+        "isort",
+        "Qiskit Nature",
+        "pip",
+        "PennyLane",
+        "prospector",
+        "cutter"
+      ],
+      "codeRepository": [],
+      "releaseNotes": [],
       "citation": [
         "https://doi.org/10.5281/zenodo.14186370"
       ],
+      "identifier": [],
+      "runtimePlatform": [],
+      "referencePublication": [],
+      "author": [],
+      "operatingSystem": [],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
       "buildInstructions": [
         "https://qc2.readthedocs.io/en/latest/?badge=latest",
         "https://qc2.readthedocs.io"
       ],
-      "identifier": [],
-      "url": [],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
-      "softwareRequirements": [
-        "PennyLane",
-        "cutter",
-        "pip",
-        "Qiskit Nature",
-        "setuptools",
-        "prospector",
-        "isort"
-      ],
-      "author": [],
-      "referencePublication": [],
-      "license": [],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [],
-      "releaseNotes": [],
       "readme": [],
-      "continuousIntegration": []
+      "softwareVersion": [],
+      "programmingLanguage": [],
+      "url": [],
+      "license": [],
+      "logo": [],
+      "relatedLink": []
     },
     "somef": {
-      "runtimePlatform": [],
-      "programmingLanguage": [],
-      "relatedLink": [],
+      "softwareRequirements": [],
+      "codeRepository": [],
+      "releaseNotes": [],
       "citation": [],
+      "identifier": [
+        "https://doi.org/10.5281/zenodo.14186370"
+      ],
+      "runtimePlatform": [],
+      "referencePublication": [],
+      "author": [],
+      "operatingSystem": [],
+      "downloadUrl": [],
+      "continuousIntegration": [],
+      "description": [],
+      "issueTracker": [],
       "buildInstructions": [
         "https://qc2.readthedocs.io/",
         "https://readthedocs.org/projects/qc2/badge/?version=latest",
         "https://raw.githubusercontent.com/qc2nl/qc2/main/README.md"
       ],
-      "identifier": [
-        "https://doi.org/10.5281/zenodo.14186370"
-      ],
+      "readme": [],
+      "softwareVersion": [],
+      "programmingLanguage": [],
       "url": [
         "https://qc2.readthedocs.io/"
       ],
-      "downloadUrl": [],
-      "logo": [],
-      "codeRepository": [],
-      "issueTracker": [],
-      "softwareRequirements": [],
-      "author": [],
-      "referencePublication": [],
       "license": [],
-      "description": [],
-      "softwareVersion": [],
-      "operatingSystem": [],
-      "releaseNotes": [],
-      "readme": [],
-      "continuousIntegration": []
+      "logo": [],
+      "relatedLink": []
     }
   }
 }
