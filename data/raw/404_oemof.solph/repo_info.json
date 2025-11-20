@@ -1,0 +1,24 @@
+{
+  "codeRepository": "https://github.com/oemof/oemof-solph",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/oemof/oemof-solph/zipball/main",
+  "author": "oemof",
+  "dateCreated": "2015-11-24T13:38:22Z",
+  "dateModified": "2025-10-20T15:22:38Z",
+  "keywords": [
+    "energy",
+    "energy-system",
+    "modelling",
+    "modelling-framework"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "A model generator for energy system modelling and optimisation (LP/MILP).",
+  "identifier": 46793877,
+  "name": "oemof/oemof-solph",
+  "issueTracker": "https://api.github.com/repos/oemof/oemof-solph/issues",
+  "readme": "https://github.com/oemof/oemof-solph/blob/master/README.rst"
+}

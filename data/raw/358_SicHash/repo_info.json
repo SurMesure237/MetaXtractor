@@ -1,0 +1,27 @@
+{
+  "codeRepository": "https://github.com/lorenzhs/BuRR",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "Shell",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/lorenzhs/BuRR/zipball/main",
+  "author": "lorenzhs",
+  "dateCreated": "2021-07-19T09:10:32Z",
+  "dateModified": "2025-10-21T20:26:52Z",
+  "keywords": [
+    "amq",
+    "approximate-membership",
+    "approximate-membership-query",
+    "bloom-filter",
+    "bloom-filter-alternative",
+    "retrieval"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Bumped Ribbon Retrieval and Approximate Membership Query",
+  "identifier": 387404686,
+  "name": "lorenzhs/BuRR",
+  "issueTracker": "https://api.github.com/repos/lorenzhs/BuRR/issues",
+  "readme": "https://github.com/lorenzhs/BuRR/blob/main/README.md"
+}

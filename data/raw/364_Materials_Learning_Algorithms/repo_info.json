@@ -1,0 +1,27 @@
+{
+  "codeRepository": "https://github.com/mala-project/mala",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Fortran",
+    "Shell",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/mala-project/mala/zipball/main",
+  "author": "mala-project",
+  "dateCreated": "2021-03-31T11:40:38Z",
+  "dateModified": "2025-10-16T11:05:39Z",
+  "keywords": [
+    "density-functional-theory",
+    "dft",
+    "electronic-structure",
+    "machine-learning",
+    "neural-network"
+  ],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "Materials Learning Algorithms. A framework for machine learning materials properties from first-principles data.",
+  "identifier": 353335620,
+  "name": "mala-project/mala",
+  "issueTracker": "https://api.github.com/repos/mala-project/mala/issues",
+  "readme": "https://github.com/mala-project/mala/blob/develop/README.md"
+}

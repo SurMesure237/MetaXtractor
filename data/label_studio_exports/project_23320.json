@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1312,
+    "annotations": [
+      {
+        "id": 11017,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 11,
+              "end": 45,
+              "text": "https://doi.org/10.25919/cdgf-cw44",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "RNCbnzo34E",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 537,
+              "end": 543,
+              "text": "pandas",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "6I4eFevy7u",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 545,
+              "end": 555,
+              "text": "matplotlib",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "D3rQO93nac",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 561,
+              "end": 568,
+              "text": "jupyter",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "hop5i6x7tB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 619,
+              "end": 625,
+              "text": "pandas",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "OZU4o1Vbt5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 626,
+              "end": 636,
+              "text": "matplotlib",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "eOlZ1nrj1d",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 637,
+              "end": 644,
+              "text": "jupyter",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "qYSf3ndO_E",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:42:21.035240Z",
+        "updated_at": "2025-11-15T17:28:28.744702Z",
+        "draft_created_at": "2025-11-05T22:42:01.012270Z",
+        "lead_time": 51.916,
+        "prediction": {},
+        "result_count": 7,
+        "unique_id": "2a84b267-83e5-485e-bc31-37943022ca7c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1312,
+        "project": 23320,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "voxgan\n\n[](https://doi.org/10.25919/cdgf-cw44)\n\nvoxgan is a Python package to generate 2D and 3D images using Generative Adversarial Networks and PyTorch. It was developed to help along the project [FluvGAN] https://github.com/grongier/fluvgan, with no specific development planned beyond this project.\n\n## Installation\n\nYou can directly install voxgan from pip:\n\npip install voxgan\n\nOr from GitHub using pip:\n\npip install git+https://github.com/grongier/voxgan.git\n\nTo run the Jupyter notebook in [examples] examples you will also need pandas, matplotlib, and jupyter, which you can install from pip too:\n\npip install pandas matplotlib jupyter\n\n## Usage\n\nHere's a basic example of voxgan's API:\n\nfrom voxgan.models.dcgan import DCGAN3d\n\nDefine a PyTorch dataset for training training_dataset = # TO DEFINE\n\nDefine a GAN based on DCGAN, which includes generator and discriminator gan = DCGAN3d()\n\nConfigure the GAN for training, including the optimizers gan.configure()\n\nTrain the GAN gan.train(training_dataset)",
+      "section": "voxgan + Define a PyTorch dataset for training + Define a GAN based on DCGAN, which includes generator and discriminator (and 2 more)",
+      "repo": "309_FluvGAN__Python_scripts_to_test_generating_and_inverting_fluvial_deposits_using_GANs",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.396009Z",
+    "updated_at": "2025-11-15T17:28:28.778833Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23320,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1313,
+    "annotations": [
+      {
+        "id": 11018,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 466,
+              "end": 559,
+              "text": "Rongier, G. (2021) voxgan. v1. CSIRO. Software Collection. https://doi.org/10.25919/cdgf-cw44",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "PeAp-m7Zc9",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 619,
+              "end": 806,
+              "text": "@misc{Rongier2021, author = \"Rongier, Guillaume\", title = \"voxgan\", number = \"v1\", institution = \"CSIRO\", type = \"Software Collection\", year = \"2021\", doi = \"10.25919/cdgf-cw44\" }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "wnXuhVdRig",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1367,
+              "end": 1382,
+              "text": "MIT OSS licence",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "gXs1z7dyMG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:43:12.364009Z",
+        "updated_at": "2025-11-05T22:43:12.364019Z",
+        "draft_created_at": "2025-11-05T22:42:50.520463Z",
+        "lead_time": 51.137,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "ada4f862-6efb-4baa-b0ae-f9f53d4df3be",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1313,
+        "project": 23320,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Generate 10 samples samples = gan.predict(num_samples=10)\n\nFor a more complete example, see the Jupyter notebook [using_voxgan.ipynb] examples/using_voxgan.ipynb in [examples] examples. For more advanced uses of voxgan, see [FluvGAN] https://github.com/grongier/fluvgan.\n\n## Citation\n\nIf you use voxgan in your research, please cite the original article(s) describing the method(s) you used (see the docstrings for the references). You can also cite voxgan itself:\n\nRongier, G. (2021) voxgan. v1. CSIRO. Software Collection. https://doi.org/10.25919/cdgf-cw44\n\nHere is the corresponding BibTex entry if you use LaTex:\n\n@misc{Rongier2021,  author = \"Rongier, Guillaume\",  title = \"voxgan\",  number = \"v1\",  institution = \"CSIRO\",  type = \"Software Collection\",  year = \"2021\",  doi = \"10.25919/cdgf-cw44\"  }\n\n## Credits\n\nThis software was written by:\n\n| [Guillaume Rongier] https://github.com/grongier [](https://orcid.org/0000-0002-5910-6868) | | :---: |\n\n## License\n\nCopyright notice: Technische Universiteit Delft hereby disclaims all copyright interest in the program voxgan written by the Author(s). Prof.dr.ir. S.G.J. Aarninkhof, Dean of the Faculty of Civil Engineering and Geosciences\n\n&#169; 2021-2025, Guillaume Rongier  &#169; 2020-2021, Commonwealth Scientific and Industrial Research Organisation (CSIRO) ABN 41 687 119 230\n\nThis work is licensed under a MIT OSS licence, see [LICENSE] LICENSE for more information.",
+      "section": "Generate 10 samples",
+      "repo": "309_FluvGAN__Python_scripts_to_test_generating_and_inverting_fluvial_deposits_using_GANs",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.396051Z",
+    "updated_at": "2025-11-05T22:43:12.389209Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23320,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

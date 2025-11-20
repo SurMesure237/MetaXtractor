@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "# Nanopub Jupyter Lab Extension\n\n[](https://zenodo.org/badge/latestdoi/273529669) [](https://research-software.nl/software/nanopubjl) [](https://fair-software.eu)\n\nA Jupyterlab extension for searching, fetching and publishing Nanopublications from a python notebook. Uses the [nanopub] https://github.com/fair-workflows/nanopub python library.\n\nThis extension is composed of a Python package named NanopubJL for the server extension and a NPM package named NanopubJL for the frontend extension.\n\n## Docker setup\n\nIt is possible to run the project inside a docker container. Simply run the following command in the project directory:\n\n```shell script docker-compose up\n\n## Requirements\n\nJupyterLab >= 3.0",
+      "section": "README",
+      "repo": "296_NanopubJL",
+      "source_file": "readme.md"
+    }
+  }
+]

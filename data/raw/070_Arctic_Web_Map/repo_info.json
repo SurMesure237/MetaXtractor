@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/GeoSensorWebLab/awm-styles",
+  "programmingLanguage": "JavaScript",
+  "programmingLanguages": [
+    "JavaScript",
+    "HTML",
+    "CartoCSS"
+  ],
+  "downloadUrl": "https://api.github.com/repos/GeoSensorWebLab/awm-styles/zipball/main",
+  "author": "GeoSensorWebLab",
+  "dateCreated": "2017-07-12T20:15:57Z",
+  "dateModified": "2023-11-09T04:57:12Z",
+  "keywords": [
+    "arctic",
+    "cartocss",
+    "mapnik",
+    "polar"
+  ],
+  "license": null,
+  "description": "Arctic Web Map Mapnik Styles",
+  "identifier": 97048294,
+  "name": "GeoSensorWebLab/awm-styles",
+  "issueTracker": "https://api.github.com/repos/GeoSensorWebLab/awm-styles/issues",
+  "readme": "https://github.com/GeoSensorWebLab/awm-styles/blob/master/README.md"
+}

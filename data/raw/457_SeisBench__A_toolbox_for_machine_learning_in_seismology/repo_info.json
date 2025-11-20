@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/seisbench/seisbench",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/seisbench/seisbench/zipball/main",
+  "author": "seisbench",
+  "dateCreated": "2020-11-12T16:25:21Z",
+  "dateModified": "2025-10-29T01:04:08Z",
+  "keywords": [
+    "deep-learning",
+    "machine-learning",
+    "python",
+    "science",
+    "seismology"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "SeisBench - A toolbox for machine learning in seismology",
+  "identifier": 312332587,
+  "name": "seisbench/seisbench",
+  "issueTracker": "https://api.github.com/repos/seisbench/seisbench/issues",
+  "readme": "https://github.com/seisbench/seisbench/blob/main/README.md"
+}

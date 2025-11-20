@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1974,
+    "annotations": [
+      {
+        "id": 10417,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 165,
+              "end": 206,
+              "text": "https://doi.org/10.1038/s41586-020-2649-2",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "cN-Lyvh9h2",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 451,
+              "end": 468,
+              "text": "https://numpy.org",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "uHclOsbZjf",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 485,
+              "end": 506,
+              "text": "https://numpy.org/doc",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "MxIeMk6D7l",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:24:14.801683Z",
+        "updated_at": "2025-11-14T13:08:35.150231Z",
+        "draft_created_at": "2025-11-04T07:23:36.481787Z",
+        "lead_time": 58.885000000000005,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "2ca7ffbe-2e2e-459d-a5be-f1bc645fe680",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1974,
+        "project": 23448,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[]( https://numfocus.org) []( https://pypi.org/project/numpy/) []( https://anaconda.org/conda-forge/numpy) []( https://stackoverflow.com/questions/tagged/numpy) []( https://doi.org/10.1038/s41586-020-2649-2) [](https://insights.linuxfoundation.org/project/numpy) [](https://securityscorecards.dev/viewer/?uri=github.com/numpy/numpy) [](https://pypi.org/project/numpy/)\n\nNumPy is the fundamental package for scientific computing with Python.\n\nWebsite: https://numpy.org\n\nDocumentation: https://numpy.org/doc\n\nMailing list: https://mail.python.org/mailman/listinfo/numpy-discussion\n\nSource code: https://github.com/numpy/numpy\n\nContributing: https://numpy.org/devdocs/dev/index.html\n\nBug reports: https://github.com/numpy/numpy/issues\n\nReport a security vulnerability: https://tidelift.com/docs/security\n\nIt provides:\n\na powerful N-dimensional array object\n\nsophisticated (broadcasting) functions\n\ntools for integrating C/C++ and Fortran code\n\nuseful linear algebra, Fourier transform, and random number capabilities",
+      "section": "Introduction (part 1)",
+      "repo": "398_SLEPLET",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:04.351962Z",
+    "updated_at": "2025-11-14T13:08:35.192909Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23448,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1975,
+    "annotations": [
+      {
+        "id": 10418,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 25,
+              "end": 31,
+              "text": "pytest",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "tsLIUKzZRm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 36,
+              "end": 46,
+              "text": "hypothesis",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "70GkJtR6Ow",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:24:59.264738Z",
+        "updated_at": "2025-11-04T07:24:59.264756Z",
+        "draft_created_at": "2025-11-04T07:24:25.028568Z",
+        "lead_time": 44.264,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "2f3a3bd5-8b93-448b-9218-8b5f5904f15d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1975,
+        "project": 23448,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Testing:\n\nNumPy requires pytest and hypothesis. Tests can then be run after installation with:\n\npython -c \"import numpy, sys; sys.exit(numpy.test() is False)\"\n\nCode of Conduct\n\nNumPy is a community-driven open source project developed by a diverse group of [contributors] https://numpy.org/teams/. The NumPy leadership has made a strong commitment to creating an open, inclusive, and positive community. Please read the [NumPy Code of Conduct] https://numpy.org/code-of-conduct/ for guidance on how to interact with others in a way that makes our community thrive.\n\nCall for Contributions\n\nThe NumPy project welcomes your expertise and enthusiasm!\n\nSmall improvements or fixes are always appreciated. If you are considering larger contributions to the source code, please contact us through the [mailing list] https://mail.python.org/mailman/listinfo/numpy-discussion first.\n\nWriting code isn’t the only way to contribute to NumPy. You can also: review pull requests\n\nhelp us stay on top of new and old issues\n\ndevelop tutorials, presentations, and other educational materials\n\nmaintain and improve [our website] https://github.com/numpy/numpy.org\n\ndevelop graphic design for our brand assets and promotional materials\n\ntranslate website content\n\nhelp with outreach and onboard new contributors\n\nwrite grant proposals and help with other fundraising efforts\n\nFor more information about the ways you can contribute to NumPy, visit [our website] https://numpy.org/contribute/.  If you’re unsure where to start or how your skills fit in, reach out! You can ask on the mailing list or here, on GitHub, by opening a new issue or leaving a comment on a relevant issue that is already open.",
+      "section": "Introduction (part 2)",
+      "repo": "398_SLEPLET",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:04.352007Z",
+    "updated_at": "2025-11-04T07:24:59.293072Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23448,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1976,
+    "annotations": [
+      {
+        "id": 10419,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:25:05.245494Z",
+        "updated_at": "2025-11-04T07:25:05.245513Z",
+        "draft_created_at": null,
+        "lead_time": 5.803,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b8505787-c8f3-4792-ab5c-46b9c768a6ef",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1976,
+        "project": 23448,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Our preferred channels of communication are all public, but if you’d like to speak to us in private first, contact our community coordinators at numpy-team@googlegroups.com or on Slack (write numpy-team@googlegroups.com for an invitation).\n\nWe also have a biweekly community call, details of which are announced on the mailing list. You are very welcome to join.\n\nIf you are new to contributing to open source, [this guide] https://opensource.guide/how-to-contribute/ helps explain why, what, and how to successfully get involved.",
+      "section": "Introduction (part 3)",
+      "repo": "398_SLEPLET",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:04.352031Z",
+    "updated_at": "2025-11-04T07:25:05.277831Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23448,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

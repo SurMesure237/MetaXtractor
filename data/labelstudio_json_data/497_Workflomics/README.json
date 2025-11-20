@@ -1,0 +1,42 @@
+[
+  {
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "497_Workflomics",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Workflomics: A Workflow Benchmarking Web Platform\n\n| Badges | | |:------------------------:|------------------------------------------------------------------------------------------------------------------------------| | Packages and Releases | [](https://github.com/sanctuuary/APE/releases/latest) [](https://research-software-directory.org/software/workflomics) | | Build Status | [](https://github.com/Workflomics/workflomics-frontend/actions/workflows/build-frontend.yaml) | | Documentation Status | [](https://workflomics.readthedocs.io/en/latest/?badge=latest) | | DOI | [](https://zenodo.org/doi/10.5281/zenodo.10047136) | | License | |",
+      "section": "Workflomics: A Workflow Benchmarking Web Platform (part 1)",
+      "repo": "497_Workflomics",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Project goal\n\nThe Workflomics platform aims to address the challenge faced by life science researchers who work with increasingly large and complex datasets and struggle to create optimal workflows for their data analysis problems.\n\nThe platform facilitates a \"Great Bake Off\" of computational workflows in bioinformatics by integrating bioinformatics tools and metadata with technologies for automated workflow exploration and benchmarking. This enables a systematic and rigorous approach to the development of cutting-edge workflows, specifically in the field of proteomics, to increase scientific quality, robustness, reproducibility, FAIRness, and maintainability.\n\nThe platform currently focuses on the proteomics domain. We aim to extend the platform to additional domains, e.g., metabolomics, genomics.\n\nVisit the live demo: http://workflomics.org/\n\n## Architecture\n\nThe Workflomics web interface is part of a larger infrastructure that includes a Postgres database, a Postgrest API, a RESTful APE service, etc. The architecture is presented in the figure below:",
+      "section": "Workflomics: A Workflow Benchmarking Web Platform (part 2)",
+      "repo": "497_Workflomics",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Development\n\nFor now, it is assumed you already have a Postgres database and Postgrest API set up and running. See [Deployment] #deployment below for a docker compose configuration which starts all necessary services and initializes the database with the .sql scripts in the database folder.\n\nFor development, a simple proxy server is run automatically when running npm start (through setupProxy.js, which is picked up by create-react-app). Configure the endpoints in a .env file in the project directory:\n\nAPI_PROXY_TARGET=http://localhost:3000 APE_PROXY_TARGET=http://localhost:4444\n\nInstall the required modules for the front-end:\n\nnpm install\n\nTo start the front-end, simply run\n\nnpm start\n\n## Deployment\n\n### Back-end services\n\nCopy docker-compose.yml to the server and in the same directory, create .env. In this file, configure accordingly:\n\nPOSTGRES_PASSWORD= WF_DATA_DIR=\n\nThe POSTGRES_PASSWORD is the password that is used to login to the Postgres database. The password can be set to anything the user wants, but it might be a good idea to use a password manager to generate a secure password and share it with other users that need access to hosted the database. The WF_DATA_DIR is the directory where the data is stored.\n\nAt the moment, ports are hard-coded in the docker-compose.yml.\n\nTo start the database, API to the database and RestAPE, run the following:\n\ndocker compose --env-file .env up -d",
+      "section": "Workflomics: A Workflow Benchmarking Web Platform (part 3)",
+      "repo": "497_Workflomics",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "To remove the containers, run docker compose down\n\n### Nginx\n\nThe front-end can be statically served, but requires a reverse proxy. For this, you could use nginx. A sample config is in the nginx folder, this is usually placed at /etc/nginx/sites-available/workflomics.org.conf. Make sure it is pointing to the proper back-end services and that there is a symlink to the config in sites-enabled. Nginx also statically serves the website as specified in the config.\n\n### Building and deploying the front-end\n\nMake sure you are on the proper branch and have pulled any changes you want included. Build an optimized version of the application:\n\nnpm run build\n\nThis will build the application in the build directory. It can be statically served, for instance using nginx.\n\nFor instance, using nginx, simply copy the contents of the build/ directory to /var/www/workflomics.org/.",
+      "section": "To remove the containers, run",
+      "repo": "497_Workflomics",
+      "source_file": "readme.md"
+    }
+  }
+]

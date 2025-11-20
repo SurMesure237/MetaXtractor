@@ -1,0 +1,716 @@
+[
+  {
+    "id": 1814,
+    "annotations": [
+      {
+        "id": 10607,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 615,
+              "end": 625,
+              "text": " SvelteKit",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "nk4Yh_onwz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 653,
+              "end": 665,
+              "text": " TypeScript",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "cdpEw_fUdd",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 681,
+              "end": 693,
+              "text": "Tailwind CSS",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "428-h7Yp0H",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 696,
+              "end": 703,
+              "text": "DaisyUI",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Pln8_ElFPD",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 726,
+              "end": 740,
+              "text": "MapLibre GL JS",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ksB6YCMQQp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 768,
+              "end": 778,
+              "text": "GeoTIFF.js",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "dS5N1mFHqT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 836,
+              "end": 842,
+              "text": "Bun.js",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "LGWL3lCNEB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1067,
+              "end": 1074,
+              "text": " Docker",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "3B_BVQHxHl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1077,
+              "end": 1091,
+              "text": "Docker Compose",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "x6yQcJN3ZU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:24:36.412304Z",
+        "updated_at": "2025-11-04T18:24:36.412341Z",
+        "draft_created_at": "2025-11-04T18:23:31.667205Z",
+        "lead_time": 76.866,
+        "prediction": {},
+        "result_count": 9,
+        "unique_id": "1af87fe1-8925-45dd-9bb3-aef50e791017",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1814,
+        "project": 23415,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "MINE-DD Dashboard\n\n## Project Overview\n\nThis project is the dashboard component for MINE-DD, an initiative by the Netherlands eScience Center. Its primary purpose is to serve and visualize data on an interactive map for mining-related data analysis.\n\n## Problem Solved\n\nThe dashboard provides an interactive interface for visualizing geographical data relevant to the MINE-DD project, including pathogen distribution, risk factors, and demographic analysis through both point data and raster overlays.\n\nData updated: 1 Sep. 2025\n\n## Tech Stack\n\nThe application is built using the following technologies:\n\nFrontend:  SvelteKit (using Svelte 5 runes API)   TypeScript (strict mode)  Tailwind CSS + DaisyUI (custom \"ctw\" theme)  MapLibre GL JS (for the interactive map)  GeoTIFF.js (client-side COG processing directly from R2)  Runtime:  Bun.js (primary package manager and runtime)  Storage:  Cloudflare R2 (S3-compatible object storage for COGs)  Direct browser access via HTTP range requests  No database or backend processing required  Deployment & Infrastructure:  Docker & Docker Compose (development only)  GitHub Pages (production deployment with static site generation)  100% client-side COG processing (no server-side dependencies)",
+      "section": "MINE-DD Dashboard (part 1)",
+      "repo": "111_PlanEO_Dashboard",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.979406Z",
+    "updated_at": "2025-11-04T18:24:36.440681Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23415,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1815,
+    "annotations": [
+      {
+        "id": 10608,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1094,
+              "end": 1108,
+              "text": "Docker Desktop",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "S-SHhE0JoK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1218,
+              "end": 1264,
+              "text": "https://www.docker.com/products/docker-desktop",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "7BCQMzb9bo",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:25:11.789637Z",
+        "updated_at": "2025-11-14T13:31:11.972793Z",
+        "draft_created_at": "2025-11-04T18:25:09.147631Z",
+        "lead_time": 40.425,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "5dcd5720-4047-4c12-ad80-0e493498eb34",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1815,
+        "project": 23415,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Key Features & Functionalities\n\nInteractive Map:  Powered by MapLibre GL JS for displaying geographical data  Ensures stable and efficient visualization type switching, preventing excessive re-initializations  Multiple visualization modes: dots, pie charts, 3D bars, heatmap, hexbin  Direct COG Processing (Client-Side):  Reads Cloud-Optimized GeoTIFF (COG) files directly from Cloudflare R2 storage  Uses GeoTIFF.js library for browser-based raster processing  HTTP range requests enable efficient partial file loading  No server-side processing or database required  Displays COG data using canvas-based rendering with customizable colormaps  Allows users to toggle visibility and adjust opacity of raster layers  Supports loading remote COG layers directly via URL input  Automatically displays relevant raster layers based on filter selections (pathogen, age group, syndrome)  Provides global opacity slider to adjust all visible raster layers simultaneously Ensures point data (dots) always appear on top of raster layers for better visibility\n\n## Development Setup\n\n### Prerequisites\n\nDocker Desktop must be installed and running on your system\n\nDownload from [https://www.docker.com/products/docker-desktop] https://www.docker.com/products/docker-desktop\n\nEnsure Docker is running before proceeding\n\n### Quick Start",
+      "section": "MINE-DD Dashboard (part 2)",
+      "repo": "111_PlanEO_Dashboard",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.979442Z",
+    "updated_at": "2025-11-14T13:31:12.006904Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23415,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1816,
+    "annotations": [
+      {
+        "id": 10609,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:25:18.052520Z",
+        "updated_at": "2025-11-04T18:25:18.052546Z",
+        "draft_created_at": null,
+        "lead_time": 6.08,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "1f35e734-e827-42df-88f1-c7c4270d3e5c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1816,
+        "project": 23415,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Clone the repository git clone https://github.com/escience/mine-dd.git cd mine-dd/dashboard\n\nStart all services (frontend + chat backend) docker compose up -d\n\n🚀 Open your browser and visit [http://localhost:4000] http://localhost:4000\n\n### Services Overview\n\nThe development environment includes:\n\nFrontend Dashboard: Available at [http://localhost:4000] http://localhost:4000\n\nAI Chat Backend: Available at [http://localhost:4040] http://localhost:4040\n\nAPI documentation: [http://localhost:4040/docs] http://localhost:4040/docs\n\n### Useful Commands\n\nView service logs docker compose logs -f\n\nView logs for specific service docker compose logs -f frontend docker compose logs -f chat-backend\n\nStop all services docker compose down\n\nRebuild and restart services docker compose up -d --build",
+      "section": "Clone the repository + Start all services (frontend + chat backend) + View service logs (and 3 more)",
+      "repo": "111_PlanEO_Dashboard",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.979466Z",
+    "updated_at": "2025-11-04T18:25:18.079662Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23415,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1817,
+    "annotations": [
+      {
+        "id": 10610,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:25:19.979322Z",
+        "updated_at": "2025-11-04T18:25:19.979336Z",
+        "draft_created_at": null,
+        "lead_time": 1.763,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "7850b4e3-9c0a-4f1c-9fc1-d7b19e556892",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1817,
+        "project": 23415,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Stop and remove all containers, networks, and volumes docker compose down -v\n\n## Architecture Overview\n\n### Directory Structure\n\napp/ ├── src/ │ ├── lib/ │ │ ├── components/ │ │ │ ├── Map/ # Map system (modular components) │ │ │ │ ├── components/ # Sub-components │ │ │ │ ├── store/ # Map-specific state │ │ │ │ └── utils/ # Map utilities │ │ │ └── ui/ # Reusable UI components │ │ ├── stores/ # Global state management (.store.svelte.ts) │ │ └── utils/ # General utilities │ └── routes/ # SvelteKit pages and layouts ├── static/ │ └── data/ # Static data files │ ├── 01_Points/ # CSV point data │ └── cogs/ # Cloud Optimized GeoTIFFs └── migrations/ # Database migrations\n\n### Map Component Architecture\n\nThe Map system is highly modular: Map.svelte - Main container orchestrating all map functionality\n\nMapCore.svelte - MapLibre instance management\n\nMapControls.svelte - Zoom, rotation, and 3D controls\n\nMapSidebar.svelte - Filter and layer controls\n\nMapLegend.svelte - Data visualization legend\n\nRasterLayerManager.svelte - COG layer management\n\nVisualizationTypeSelector.svelte - Visualization mode switcher\n\n### Map Visualization Types\n\nThe system supports multiple visualization modes: dots - Simple point markers\n\npie - Pie charts at locations\n\n3d-bars - 3D extruded bars\n\nheatmap - Heat map visualization\n\nhexbin - Hexagonal binning\n\n## Development Commands\n\n### Local Development\n\nNavigate to app directory cd app\n\nInstall dependencies bun install\n\nStart development server bun run dev # Runs at localhost:5173\n\nType checking bun run check # Svelte-kit sync + type check",
+      "section": "Stop and remove all containers, networks, and volumes + Navigate to app directory + Install dependencies (and 2 more)",
+      "repo": "111_PlanEO_Dashboard",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.979493Z",
+    "updated_at": "2025-11-04T18:25:20.009381Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23415,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1818,
+    "annotations": [
+      {
+        "id": 10611,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:25:24.676160Z",
+        "updated_at": "2025-11-04T18:25:24.676178Z",
+        "draft_created_at": null,
+        "lead_time": 4.489,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "29c93eab-5e2f-42e4-ac96-8e8a4f32ef8d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1818,
+        "project": 23415,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Linting and formatting bun run lint # ESLint + Prettier check bun run format # Auto-format code",
+      "section": "Linting and formatting",
+      "repo": "111_PlanEO_Dashboard",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.979513Z",
+    "updated_at": "2025-11-04T18:25:24.711313Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23415,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1819,
+    "annotations": [
+      {
+        "id": 10612,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 238,
+              "end": 242,
+              "text": "GDAL",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "CCKKCsfjQe",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 303,
+              "end": 308,
+              "text": "macOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "stpkGAGvpc",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 338,
+              "end": 342,
+              "text": "gdal",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "zMBTtxiebz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 362,
+              "end": 368,
+              "text": "Ubuntu",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "tD9tFPT4rT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 369,
+              "end": 375,
+              "text": "Debian",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "kJx-_jfPjk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 398,
+              "end": 406,
+              "text": "gdal-bin",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "oa_RsbMCaS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 407,
+              "end": 419,
+              "text": "python3-gdal",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "w514JOoawo",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:26:16.437485Z",
+        "updated_at": "2025-11-04T18:26:16.437498Z",
+        "draft_created_at": "2025-11-04T18:25:37.811163Z",
+        "lead_time": 51.566,
+        "prediction": {},
+        "result_count": 7,
+        "unique_id": "6182f50f-0630-4698-af45-dcc367739eb0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1819,
+        "project": 23415,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Building for production bun run build # Generate static site\n\n## Processing Raster Maps\n\nThe repository includes a script for processing raster maps into Cloud Optimized GeoTIFFs (COGs) suitable for web visualization.\n\n### Prerequisites\n\nGDAL must be installed on your system\n\n``bash  # Install GDAL on macOS using Homebrew  brew install gdal\n\n# Install GDAL on Ubuntu/Debian  sudo apt-get install gdal-bin python3-gdal  `\n\n### Using the Script\n\nPlace your raster files (.tif) in the data/02_Rasters directory. You can organize them in subdirectories if desired.\n\nRun the conversion script:\n\n`bash  bash process_rasters.sh  `\n\nThe script will:\n\nReproject all rasters to EPSG:4326 (WGS 84) using bilinear resampling\n\nConvert them to Cloud Optimized GeoTIFFs with Google Maps Compatible tiling\n\nApply DEFLATE compression to reduce file size\n\nPreserve the original directory structure in the output\n\nCopy any associated metadata files\n\nProcessed files will be available in the data/cogs directory, maintaining the same subdirectory structure as the input.\n\n### Customization\n\nThe script can be modified to adjust: Input/output directories by changing the INPUT_DIR and OUTPUT_DIR variables\n\nCoordinate reference system by changing the -t_srs parameter in the gdalwarp command\n\nResampling method by changing the -r parameter (options include: nearest, bilinear, cubic, cubicspline)\n\nCompression settings in the gdal_translate command\n\n## Code Style Guidelines\n\n### TypeScript\n\nStrict mode enabled - no implicit any\n\nExplicit type annotations for props and function parameters\n\nInterface definitions for all component props\n\nAvoid any type - use unknown` or specific types",
+      "section": "Building for production (part 1)",
+      "repo": "111_PlanEO_Dashboard",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.979536Z",
+    "updated_at": "2025-11-04T18:26:16.461234Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23415,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1820,
+    "annotations": [
+      {
+        "id": 10613,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:26:24.413351Z",
+        "updated_at": "2025-11-04T18:26:24.413370Z",
+        "draft_created_at": null,
+        "lead_time": 7.789,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "9b5f195f-4474-4c8c-8cc8-002ac1993a6b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1820,
+        "project": 23415,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Formatting\n\nTabs for indentation\n\nSingle quotes for strings\n\nNo trailing commas\n\n100 character line width\n\nRun bun run format before committing\n\n### CSS/Styling\n\nTailwind-first approach - use utilities over custom CSS\n\nDaisyUI components for complex UI patterns\n\nResponsive design with Tailwind breakpoints (sm:, md:, lg:, xl:)\n\nCSS Grid for complex layouts: grid-rows-[auto_auto_1fr]\n\nCustom theme \"ctw\" with specific brand colors\n\n## Svelte 5 Development Patterns\n\n### State Management with Runes\n\nAll shared state uses Svelte 5 runes in .store.svelte.ts files:\n\n// stores/example.store.svelte.ts let state = $state({ data: null, loading: false }); let derived = $derived(state.data?.length > 0);\n\nexport const exampleStore = {  get state() { return state; },  get derived() { return derived; },  async fetchData() {   state.loading = true;  // API call logic  state.loading = false;  } };\n\n### Component Props Pattern\n\ninterface Props {  children?: import('svelte').Snippet;  data: DataType;  optional?: string;  }    let { children, data, optional = 'default' }: Props = $props();  let localState = $state(false);  let computed = $derived(data.length > 0);    $effect(() => {  // React to changes  console.log('Data changed:', data);  });\n\n{#if children}  {@render children()} {/if}",
+      "section": "Building for production (part 2)",
+      "repo": "111_PlanEO_Dashboard",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.979559Z",
+    "updated_at": "2025-11-04T18:26:24.436519Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23415,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1821,
+    "annotations": [
+      {
+        "id": 10614,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:26:26.519448Z",
+        "updated_at": "2025-11-04T18:26:26.519468Z",
+        "draft_created_at": null,
+        "lead_time": 1.931,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "2750bccd-1399-4e1b-98d6-9295b16bb318",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1821,
+        "project": 23415,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Raster Data (COG) Processing\n\nCOG files are processed client-side directly from Cloudflare R2:\n\n// Load COG from R2 const tiff = await GeoTIFF.fromUrl(cogUrl); const image = await tiff.getImage(); const data = await image.readRasters();\n\n// Process and render to canvas const canvas = document.createElement('canvas'); // Apply colormap...\n\n// Add to map as image source map.addSource(sourceId, {  type: 'image',  url: canvas.toDataURL('image/png'),  coordinates: bounds });\n\n### Filter-to-Raster Mapping\n\nFilters automatically trigger relevant raster layers based on: Pathogen selection (e.g., SHIG → Shigella rasters)\n\nAge group selection (0011, 1223, 2459)\n\nSyndrome type (Asym, Comm, Medi)\n\n## Performance Considerations\n\n### COG Processing\n\n50MP pixel limit for raster processing\n\nProgressive loading with overviews\n\nBrowser caching of processed data URLs\n\nHTTP range requests for partial file access\n\n### Map Rendering\n\nStable visualization switching without re-initialization\n\nLayer ordering ensures points above rasters\n\nEfficient filter application without full reloads\n\nDebounced updates for smoother interactions\n\n### Memory Management\n\nClean up map sources/layers when components unmount\n\nLimit concurrent raster loads to prevent memory issues\n\nUse Web Workers for heavy processing when possible\n\n## Environment Configuration\n\n### Required Environment Variables",
+      "section": "Building for production (part 3)",
+      "repo": "111_PlanEO_Dashboard",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.979582Z",
+    "updated_at": "2025-11-04T18:26:26.542820Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23415,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1822,
+    "annotations": [
+      {
+        "id": 10615,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:26:30.155701Z",
+        "updated_at": "2025-11-04T18:26:30.155727Z",
+        "draft_created_at": null,
+        "lead_time": 3.46,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ae37261b-e0d1-400e-87d8-8d30bc75bf7f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1822,
+        "project": 23415,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "MapTiler API key for map styles VITE_MAPTILER_KEY=your_maptiler_key\n\nCloudflare R2 bucket URL for COG storage VITE_R2_BUCKET_URL=https://pub-6e8836a7d8be4fd1adc1317bb416ad75.r2.dev\n\nOptional base path for deployment BASE_PATH=/optional-path\n\n## Next Steps\n\nImplement thorough testing of the filter-to-raster mapping functionality to ensure it works correctly in all scenarios.  Optimize performance when dealing with many raster layers simultaneously.  Add visual feedback when raster layers are loading or when filters are applied.  Expand the filter-to-raster mapping to include additional pathogens and data categories.  Improve documentation of the raster layer system for future developers.\n\n## Known Issues\n\nPerformance may degrade when many raster layers are visible simultaneously.  Some naming inconsistencies exist between CSV data and raster layer IDs, requiring manual mapping.  Duplicate age group options may appear in filter dropdowns in certain scenarios.",
+      "section": "MapTiler API key for map styles + Cloudflare R2 bucket URL for COG storage + Optional base path for deployment",
+      "repo": "111_PlanEO_Dashboard",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.979604Z",
+    "updated_at": "2025-11-04T18:26:30.187303Z",
+    "inner_id": 9,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23415,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

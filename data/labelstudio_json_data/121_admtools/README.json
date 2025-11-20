@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": "admtools\n\nR package to estimate age-depth models from stratigraphic and sedimentological data, and transform complex data between the time and stratigraphic domain.\n\n[](https://github.com/MindTheGap-ERC/admtools/actions/workflows/R-CMD-check.yaml) [](https://fair-software.eu)  [](https://cran.r-project.org/package=admtools) [](https://doi.org/10.5281/zenodo.15479049)\n\n## Authors\n\n__Niklas Hohmann__  Utrecht University  email: n.h.hohmann [at] uu.nl  Web page: [uu.nl/staff/NHohmann] https://www.uu.nl/staff/NHHohmann  Orcid: [0000-0003-1559-1838] https://orcid.org/0000-0003-1559-1838",
+      "section": "admtools (part 1)",
+      "repo": "121_admtools",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Installation\n\nYou can install the package from _CRAN_. For this, run\n\ninstall.packages(\"admtools\")\n\nin R. To install the package from _GitHub_, first install the _remotes_ package\n\ninstall.packages(\"remotes\")\n\nThen, run\n\nremotes::install_github(repo = \"MindTheGap-ERC/admtools\",  build_vignettes = TRUE,  ref = \"HEAD\",  dependencies = TRUE)\n\nTo install the latest stable version. To install the version under development, use\n\nremotes::install_github(repo = \"MindTheGap-ERC/admtools\",  build_vignettes = TRUE,  ref = \"dev\",  dependencies = TRUE)\n\nAfter installation, you can load the package using\n\nlibrary(\"admtools\")\n\nTo get started, have a look at the available vignettes via\n\nbrowseVignettes(package = \"admtools\") # opens in Browser #or vignette(package = \"admtools\")\n\nA good place to start reading is the introductory vignette, available via\n\nvignette(\"admtools\")\n\n## License\n\nGPL-3.0, see LICENSE file for license text.\n\n## Copyright\n\nCopyright 2023 Netherlands eScience Center and Utrecht University\n\n## Contribution\n\nFor contribution guidelines see the CONTRIBUTING.md file\n\n## Citation\n\nTo cite the package, use\n\nHohmann, N. (2025). admtools (v0.6.0). Zenodo. https://doi.org/10.5281/zenodo.15479049\n\nor run\n\ncitation(\"admtools\")\n\nin R. Alternatively, you can use the information in the CITATION.cff file, or generate it using the \"cite this repository\" button on GitHub.",
+      "section": "admtools (part 2)",
+      "repo": "121_admtools",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## References\n\nThis package uses data from\n\nHohmann, Niklas; Koelewijn, Jo\u00ebl R.; Burgess, Peter; Jarochowska, Emilia. 2024. \"Identification of the mode of evolution in incomplete carbonate successions.\" BMC Ecology and Evolution, 24, 113. [DOI: 10.1186/s12862-024-02287-2] https://doi.org/10.1186/s12862-024-02287-2.\n\nHohmann, Niklas, Koelewijn, Jo\u00ebl R.; Burgess, Peter; Jarochowska, Emilia. 2023. \"Identification of the Mode of Evolution in Incomplete Carbonate Successions - Supporting Data.\" Open Science Framework. , published under the [CC-BY 4.0] https://creativecommons.org/licenses/by/4.0/ license.\n\n## Funding information\n\nThe authors acknowledge the contribution of the CycloNet project, funded by the Research Foundation Flanders (FWO, grant no. W000522N)\n\nFunded by the European Union (ERC, MindTheGap, StG project no 101041077). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council. Neither the European Union nor the granting authority can be held responsible for them.",
+      "section": "admtools (part 3)",
+      "repo": "121_admtools",
+      "source_file": "readme.md"
+    }
+  }
+]

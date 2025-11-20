@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "text": "NOTE: This repository contains the source code of OpenSim 4.x. For OpenSim 3.x or earlier, see [this link] https://simtk-confluence.stanford.edu/display/OpenSim/Building+OpenSim+from+Source.\n\nOpenSim is software that lets users develop models of musculoskeletal structures and create dynamic simulations of movement, such as this one:",
+      "section": "Introduction (part 1)",
+      "repo": "415_OpenSim_Creator",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "More information can be found at our websites:\n\n[OpenSim website] http://opensim.stanford.edu, in particular the [support page] http://opensim.stanford.edu/support/index.html.  [SimTK project website] https://simtk.org/home/opensim.\n\nThis repository contains:\n\nOpenSim's C++ libraries.\n\nOpenSim's C++ examples.\n\nOpenSim's command-line applications (inverse kinematics, computed muscle control, etc.).\n\nOpenSim's Java and Python bindings.\n\nThis repository does not include source code for the OpenSim GUI. The source code for the Opensim GUI can be found [here] https://github.com/opensim-org/opensim-gui.",
+      "section": "Introduction (part 2)",
+      "repo": "415_OpenSim_Creator",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Download and Setup\n\nDepending on your needs, there are different ways of downloading and setting up OpenSim:\n\nOpenSim GUI\n\n[Download page] https://simtk.org/frs/?group_id=91\n\n[Scripting in the GUI] https://simtk-confluence.stanford.edu/display/OpenSim/Scripting+in+the+GUI\n\nMatlab and Python Scripting\n\n[Setup Instructions] https://simtk-confluence.stanford.edu/display/OpenSim/Scripting\n\nScripting in Conda\n\n[Conda Package] https://anaconda.org/opensim-org/opensim\n\n[Source Code] https://github.com/opensim-org/conda-opensim\n\n[More Info] https://simtk-confluence.stanford.edu/display/OpenSim/Conda+Package\n\nC++ Development\n\n[Build Instructions] https://github.com/opensim-org/opensim-core/wiki/Build-Instructions for Windows, macOS, and Linux (Ubuntu and Debian).\n\n[Developer's Guide] https://simtk-confluence.stanford.edu/display/OpenSim/Developer%27s+Guide\n\n[API Reference] https://simtk.org/api_docs/opensim/api_docs\n\nLooking for help?\n\n[Ask a question] https://simtk.org/plugins/phpBB/indexPhpbb.php?group_id=91&pluginname=phpBB\n\n[Submit an Issue] https://github.com/opensim-org/opensim-core/issues",
+      "section": "Introduction (part 3)",
+      "repo": "415_OpenSim_Creator",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Documentation\n\nOpenSim's documentation can be found in our [Documentation] https://simtk-confluence.stanford.edu/display/OpenSim/Documentation website. OpenSim's C++ API reference can be found [here] https://simtk.org/api_docs/opensim/api_docs/.\n\nA simple example of an elbow simulation in C++, Python and Matlab can be found in the [OpenSim API Example] https://github.com/opensim-org/opensim-core/wiki/OpenSim-API-Example page of this repository's wiki.\n\nExamples and Tutorials for OpenSim can be found in the [Examples and tutorials] https://simtk-confluence.stanford.edu/display/OpenSim/Examples+and+Tutorials website. These tutorials move from introductory to more advanced, so you can learn OpenSim in a progressive way. Additional OpenSim-based tutorials, homework problems, and project ideas are available on the [Biomechanics of Movement classroom site] https://simtk-confluence-homeworks.stanford.edu/pages/viewpage.action?pageId=5537857.\n\n## Releases [](https://github.com/opensim-org/opensim-core/releases)\n\nThis repository contains releases for OpenSim 4.x. You can find all of the OpenSim's releases in the [Releases] https://github.com/opensim-org/opensim-core/releases page of this repository.\n\n## Build instructions [](https://github.com/opensim-org/opensim-core/wiki/Build-Instructions)\n\nWe provide scripts to build OpenSim on Windows, macOS and Linux (Ubuntu and Debian). The instructions to download and execute the scripts can be found in the [Build Instructions] https://github.com/opensim-org/opensim-core/wiki/Build-Instructions page of this repository's wiki.",
+      "section": "Introduction (part 4)",
+      "repo": "415_OpenSim_Creator",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Contribute [](https://github.com/opensim-org/opensim-core/graphs/contributors)\n\nThere are many ways in which you can participate in this project. For example:\n\nReport bugs and request features by submitting a [GitHub Issue] https://github.com/opensim-org/opensim-core/issues.\n\nAsk and answer questions on our [Forum] https://simtk.org/plugins/phpBB/indexPhpbb.php?group_id=91&pluginname=phpBB.\n\nReview and test new [Pull Requests] https://github.com/opensim-org/opensim-core/pulls.\n\nReview the [Documentation] https://simtk-confluence.stanford.edu:8443/display/OpenSim/Documentation and the [Wiki] https://github.com/opensim-org/opensim-core/wiki by reporting typos, confusing explanations and adding/suggesting new content.\n\nFix bugs and contribute to OpenSim's source code by creating a [Pull Requests] https://github.com/opensim-org/opensim-core/pulls.\n\nPlease, read our [Developer's guide] https://simtk-confluence.stanford.edu:8443/display/OpenSim/Developer%27s+Guide, [Developer's Guidelines] https://github.com/opensim-org/opensim-core/blob/master/DEVELOPING.md and our [Code of Conduct] https://github.com/opensim-org/opensim-core/blob/master/CODE_OF_CONDUCT.md before making a pull request.",
+      "section": "Introduction (part 5)",
+      "repo": "415_OpenSim_Creator",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## License [](https://github.com/opensim-org/opensim-core/blob/master/LICENSE.txt)\n\nLicensed under the Apache License, Version 2.0. See the full text of the [Apache License, Version 2.0] https://github.com/opensim-org/opensim-core/blob/master/LICENSE.txt for more information. This license makes OpenSim suitable for commercial, government, academic, and personal use.\n\nThird-party components have their own licenses. see our [Notice] https://github.com/opensim-org/opensim-core/blob/master/NOTICE, and [Acknowledgements] https://simtk-confluence.stanford.edu:8443/display/OpenSim/Acknowledgements webpages for more information.\n\n### How to acknowledge us\n\nAcknowledging the OpenSim project helps us and helps you. It allows us to track our impact, which is essential for securing funding to improve the software and provide support to our users (you). If you use OpenSim, we would be extremely grateful if you acknowledge us by citing the following paper:\n\nSeth A, Hicks JL, Uchida TK, Habib A, Dembia CL, et al. (2018) OpenSim: Simulating musculoskeletal dynamics and neuromuscular control to study human and animal movement. _PLOS Computational Biology_ 14(7): e1006223. https://doi.org/10.1371/journal.pcbi.1006223\n\nIf you use plugins, models, or other components contributed by your fellow researchers, you must acknowledge their work as described in the license that accompanies each of these files.",
+      "section": "Introduction (part 6)",
+      "repo": "415_OpenSim_Creator",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Funding\n\nThe OpenSim project is currently supported by the following: United States National Institutes of Health (NIH)\n\n[Mobilize Center] https://mobilize.stanford.edu/ (P41 EB027060)\n\n[Restore Center] https://restore.stanford.edu/ (P2C HD101913)\n\n[Wu Tsai Human Performance Alliance] https://humanperformancealliance.org/\n\nPast funding includes the following grants and contracts:\n\nUnited States National Institutes of Health (NIH)\n\nSimulation of Biological Structures (Simbios; U54 GM072970)\n\nSimulation in Rehabilitation Research (NCSRR; R24 HD065690, P2C HD065690)\n\nMobilize Center (U54 EB020405)\n\nUnited States Defense Advanced Research Projects Agency (DARPA)\n\nWarrior Web (W911QX-12-C-0018)",
+      "section": "Introduction (part 7)",
+      "repo": "415_OpenSim_Creator",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "477_tortellini",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Tortellini GitHub Action\n\nThis action checks dependency license issues using [ort] https://github.com/oss-review-toolkit/ort.\n\nThis GitHub action can  Run license analysis on your repository  Run license analysis on list of repositories given  Detect licensing violations  Summarize potential licensing issues Generate a report with summary\n\n## Inputs\n\n### repositories\n\nA file containing list of GitHub repository urls. Format is a single url (https://github.com//) on each line. If set then action will run check on each url and generate an overview HTML page. If not set the action runs check on currently checked out repository (. directory). By default the repositories input is not set.\n\n### rules\n\nRequired A file or URL containing [ort rules] https://github.com/oss-review-toolkit/ort/blob/master/docs/file-rules-kts.md to detect license violations. Default is [https://github.com/NLeSC/tortellini-on-rsd/raw/main/config/rules.kts] https://github.com/NLeSC/tortellini-on-rsd/raw/main/config/rules.kts.\n\n### classifications\n\nRequired A file or URL containing classes for each license. For format see [ort documentation] https://github.com/oss-review-toolkit/ort/blob/master/docs/config-file-license-classifications-yml.md. Default is [https://github.com/NLeSC/tortellini-on-rsd/raw/main/config/license-classifications.yml] https://github.com/NLeSC/tortellini-on-rsd/raw/main/config/license-classifications.yml.\n\n### curations\n\nA file or URL containing curations correct invalid or missing package metadata and set the concluded license for packages. See [ort documentation] https://github.com/oss-review-toolkit/ort/blob/master/docs/config-file-curations-yml.md for format. If not set then action will not use any curations.\n\n## Outputs\n\nNo action outputs are defined for this actions. The action will write files to .tortellini/out/ directory.\n\n## Usage",
+      "section": "Tortellini GitHub Action (part 1)",
+      "repo": "477_tortellini",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Own repository\n\non:  # Allows you to run this workflow manually from the Actions tab  workflow_dispatch:\n\njobs:  tortellini:  runs-on: ubuntu-latest  steps: uses: actions/checkout@v2\n\nuses: tortellini-tools/action@v3\n\nuses: actions/upload-artifact@v2\n\nwith:  name: tortellini-result  path: .tortellini/out\n\nTortellini action will generate .tortellini/out/scan-report-web-app.html file. The HTML file can be downloaded from the workflow page (see the documentation of the [Upload a Build Artifact GitHub action] https://github.com/actions/upload-artifact#where-does-the-upload-go). After unzipping the scan-report-web-app.html can be viewed in a web browser.",
+      "section": "Tortellini GitHub Action (part 2)",
+      "repo": "477_tortellini",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Multiple repositories\n\non:  # Allows you to run this workflow manually from the Actions tab  workflow_dispatch:\n\njobs:  tortellini:  runs-on: ubuntu-latest  steps: name: Create list of GitHub urls to perform check on\n\nrun: |  echo 'https://github.com/tortellini-tools/action' > urls.txt  echo 'https://github.com/fair-software/howfairis' >> urls.txt uses: tortellini-tools/action@v3\n\nwith:  repositories: urls.txt uses: actions/upload-artifact@v2\n\nwith:  name: tortellini-results  path: .tortellini/out\n\nTortellini action will generate .tortellini/out/index.html file and .tortellini/out///scan-report-web-app.html files.\n\nThe HTML files can be downloaded from the workflow page (see the documentation of the [Upload a Build Artifact GitHub action] https://github.com/actions/upload-artifact#where-does-the-upload-go). After unzipping the index.html can be viewed in a web browser.\n\n## Developer documentation\n\nSee [README.dev.md] README.dev.md\n\n## Disclaimer\n\ntortellini aims at providing insights into the license depencies of your package based on available information on open source licenses. We hope this information is helpful. However, we are not lawyers and we do make mistakes. Therefore tortellini provides information on an \"as-is\" basis and does not make warranties regarding this information. For any questions regarding the issues related to the licenses in your code, please consult a professional.",
+      "section": "Tortellini GitHub Action (part 3)",
+      "repo": "477_tortellini",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Developer documentation\n\nThis [action] https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action is written in [Typescript] https://www.typescriptlang.org and makes use of the [Github @actions packages] https://github.com/actions/toolkit/blob/master/README.md#packages\n\nThe underlining design can be found in [DESIGN.md] DESIGN.md.\n\n## Requirements\n\nThis tool relies on the availability of [Node.js] https://nodejs.org/ and [Docker] https://docs.docker.com/get-docker/.\n\nPlease verify that you have Node.js and the related package manager npm, and docker available on your system. Make sure that the version of Node.js is at least 12.\n\n$ node --version v14.17.0 $ npm --version 6.14.13 $ docker --version Docker version 20.10.6, build 370c289\n\nNode.js and npm can be downloaded in one package from [nodejs.org] https://nodejs.org/en/. And here are [instructions for upgrading Node.js] https://phoenixnap.com/kb/update-node-js-version#ftoc-heading-3.\n\nInstall the dependencies\n\n$ npm install\n\n## Build\n\nBuild the typescript and package it for distribution\n\n$ npm run build && npm run package\n\n## Run unit test\n\nThe tests are stored in the directory __tests__ and are written using [jestjs] https://jestjs.io/.\n\nRun the tests :heavy_check_mark:\n\n$ npm test\n\nPASS ./index.test.js  \u2713 throws invalid number (3ms)  \u2713 wait 500 ms (504ms)  \u2713 test runs (95ms)\n\n...\n\nTo get information about the test coverage, run the tests with coverage npm test -- --coverage and examine the file coverage/lcov-report/index.html\n\n## Linting\n\nThe code in the src directory can be linted with:\n\nnpm run lint\n\n## Formatting\n\nSome of the linting error can be fixed with formatting:\n\nnpm run format\n\n## Run the analysis",
+      "section": "Developer documentation (part 1)",
+      "repo": "477_tortellini",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### On the current repository\n\nThe tool will analyze the license dependencies in current Github repository and store reports of the analyses in the .tortellini/out/ directory.\n\nexport INPUT_REPOSITORIES= export INPUT_CURATIONS='' export INPUT_CLASSIFICATIONS=https://github.com/NLeSC/tortellini-on-rsd/raw/main/config/license-classifications.yml export INPUT_RULES=https://github.com/NLeSC/tortellini-on-rsd/raw/main/config/rules.kts npm install npm run build npm run package node dist/index.js\n\n### On other repositories\n\nYou can also analyze other repositories on Github by storing their addresses in a file and running node on the file, e.g.:\n\necho 'https://github.com/tortellini-tools/action' > urls.txt echo 'https://github.com/fair-software/howfairis' >> urls.txt\n\nThe analysis expects a few environment variables. Here are their names and suggested values:\n\nexport INPUT_REPOSITORIES=urls.txt export INPUT_CURATIONS='' export INPUT_CLASSIFICATIONS=https://github.com/NLeSC/tortellini-on-rsd/raw/main/config/license-classifications.yml export INPUT_RULES=https://github.com/NLeSC/tortellini-on-rsd/raw/main/config/rules.kts sudo rm -r .tortellini mkdir .tortellini node dist/index.js\n\nThe analyses will be stored in the directories .tortellini/out/// .",
+      "section": "Developer documentation (part 2)",
+      "repo": "477_tortellini",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## How to create a release\n\nUpdate the citation metadata in CITATION.cff. Afterwards, follow the instructions from the cffconvert workfow to sync the information in .zenodo.json with that in CITATION.cff\n\nActions are run from GitHub repos so we need to generate the Javascript files in the dist folder and push the results:\n\n``bash  $ cd $(mktemp --directory --tmpdir tortellini-prep-release.XXXXXX)  $ git clone https://github.com/tortellini-tools/action .  $ npm install  $ npm run all  $ git add dist  $ git commit --message \"prod dependencies\"  $ git push origin main  `\n\nNext, check if the workflows of the lastest commit on the main branch are green on the [action page] https://github.com/tortellini-tools/action/actions?query=branch%3Amain.\n\nCreate a release on the Github page via\n\n[Create a new release] https://github.com/tortellini-tools/action/releases/new. On the new release page, for Tag version use v and the next version number, for example v3.\n\nSee the [versioning documentation] https://github.com/actions/toolkit/blob/master/docs/action-versioning.md  for more information. Make sure that usage workflows are using the new version tag and the examples in README.md are updated.\n\nYour action is now published! :rocket:\n\nCheck if the new version has been published on the [Github Marketplace] https://github.com/marketplace/actions/tortellini-action.\n\nYou can now validate the action by going to [this workflow] https://github.com/tortellini-tools/action/actions/workflows/usage-current-repository.yml and [this workflow] https://github.com/tortellini-tools/action/actions/workflows/usage-multiple-repositories.yml and then clicking on the button Run workflow`.",
+      "section": "Developer documentation (part 3)",
+      "repo": "477_tortellini",
+      "source_file": "readme.dev.md"
+    }
+  }
+]

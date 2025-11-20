@@ -1,0 +1,74 @@
+[
+  {
+    "data": {
+      "text": "BaSiCPy A python package for background and shading correction of optical microscopy images\n\n[](https://pypi.org/project/basicpy) [](https://pypi.org/project/basicpy/) [](https://python.org) [](https://github.com/peng-lab/BaSiCPy/blob/main/LICENSE) [](https://github.com/peng-lab/basicpy/actions?workflow=CI) [](https://github.com/pre-commit/pre-commit) [](https://github.com/psf/black) [](https://basicpy.readthedocs.io/)\n\n[](#contributors-)\n\nBaSiCPy is a python package for background and shading correction of optical microscopy images. It is developed based on the Matlab version of [BaSiC] https://github.com/marrlab/BaSiC tool with major improvements in the algorithm.\n\nReference: BaSiCPy: A robust and scalable shadow correction tool for optical microscopy images (in prep.)\n\nA BaSiC Tool for Background and Shading Correction of Optical Microscopy Images\n\nby Tingying Peng, Kurt Thorn, Timm Schroeder, Lichao Wang, Fabian J Theis, Carsten Marr\\, Nassir Navab\\, Nature Communication 8:14836 (2017). [doi: 10.1038/ncomms14836] http://www.nature.com/articles/ncomms14836.",
+      "section": "BaSiCPy (part 1)",
+      "repo": "423_BaSiCPy",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Simple examples\n\n|Notebook|Description|Colab Link| | :------------------------: |:---------------:| :---------------------------------------------------: | | [timelapse_brightfield] https://github.com/peng-lab/BaSiCPy/tree/dev/docs/notebooks/timelapse_brightfield.ipynb| 100 continuous brightfield frames of a time-lapse movie of differentiating mouse hematopoietic stem cells. | [](https://colab.research.google.com/github/peng-lab/BaSiCPy/blob/dev/docs/notebooks/timelapse_brightfield.ipynb) | | [timelapse_nanog] https://github.com/peng-lab/BaSiCPy/tree/dev/docs/notebooks/timelapse_nanog.ipynb| 189 continuous fluorescence frames of a time-lapse movie of differentiating mouse embryonic stem cells, which move much more slower compared to the fast moving hematopoietic stem cells, resulting in a much larger correlation between frames. Note that in this challenging case, the automatic parameters are no longer optimal, so we use the manual parameter setting (larger smooth regularization on both flat-field and dark-field) to improve BaSiC\u2019s performance. | [](https://colab.research.google.com/github/peng-lab/BaSiCPy/blob/dev/docs/notebooks/timelapse_nanog.ipynb) | | [WSI_brain] https://github.com/peng-lab/BaSiCPy/tree/dev/docs/notebooks/WSI_brain.ipynb| you can stitch image tiles together to view the effect of shading correction | [](https://colab.research.google.com/github/peng-lab/BaSiCPy/blob/dev/docs/notebooks/WSI_brain.ipynb) |",
+      "section": "BaSiCPy (part 2)",
+      "repo": "423_BaSiCPy",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "You can also find examples of running the package at [notebooks folder] https://github.com/peng-lab/BaSiCPy/tree/dev/docs/notebooks. Data used in the examples and a description can be downloaded from [Zenodo] https://doi.org/10.5281/zenodo.6334809.",
+      "section": "BaSiCPy (part 3)",
+      "repo": "423_BaSiCPy",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Usage\n\nSee [Read the Docs] https://basicpy.readthedocs.io/en/latest/ for the detailed usage.\n\n## Installation\n\n### For Mac (Intel chip), Linux or WSL2 users\n\nInstall from PyPI\n\npip install basicpy\n\nor install the latest development version\n\ngit clone https://github.com/peng-lab/BaSiCPy.git cd BaSiCPy pip install .\n\n### For Mac users with M1 / M2 chip\n\nBaSiCPy requires [jax] https://github.com/google/jax/, which has potential build issue with M1 chips. One easiest solution is using [Miniforge] https://github.com/conda-forge/miniforge as explained [here] https://github.com/google/jax/issues/5501. In the Miniforge environment, please try the following:\n\nconda install -c conda-forge jax jaxlib pip install basicpy\n\n### For Windows users\n\nBaSiCPy requires [jax] https://github.com/google/jax/ which does not support Windows officially. However, thanks to [cloudhan/jax-windows-builder] https://github.com/cloudhan/jax-windows-builder, we can install BaSiCPy as follows:\n\npip install \"jax[cpu]==0.4.11\" -f https://whls.blob.core.windows.net/unstable/index.html --use-deprecated legacy-resolver pip install ml-dtypes==0.2.0 pip install basicpy\n\nOne may need to add\n\nimport jax jax.config.update('jax_platform_name', 'cpu')\n\nat the top of the script to ensure that JAX uses CPU.\n\nFor details and latest updates, see [this issue] https://github.com/google/jax/issues/438.\n\n### Install with dev dependencies\n\ngit clone https://github.com/peng-lab/BaSiCPy.git cd BaSiCPy python -m venv venv source venv/bin/activate pip install -e '.[dev]'\n\n## Development",
+      "section": "BaSiCPy (part 4)",
+      "repo": "423_BaSiCPy",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### bump2version\n\nThis repository uses [bump2version] https://github.com/c4urself/bump2version to manage dependencies. New releases are pushed to PyPi in the CI pipeline when a new version is committed with a version tag and pushed to the repo.\n\nThe development flow should use the following process: New features and bug fixes should be pushed to dev\n\nWhen tests have passed a new development version is ready to be release, use bump2version major|minor|patch. This will commit and create a new version tag with the -dev suffix.\n\nAdditional fixes/features can be added to the current development release by using bump2version build.\n\nOnce the new bugs/features have been tested and a main release is ready, use bump2version release to remove the -dev suffix.\n\nAfter creating a new tagged version, push to Github and the version will be built and pushed to PyPi.\n\n### All-contributors\n\nThis repository uses [All Contributors] https://allcontributors.org/ to manage the contributor list. Please execute the following to add/update contributors.\n\nyarn yarn all-contributors add username contribution yarn all-contributors generate # to reflect the changes to README.md\n\nFor the possible contribution types, see the [All Contributors documentation] https://allcontributors.org/docs/en/emoji-key.\n\n## Contributors",
+      "section": "BaSiCPy (part 5)",
+      "repo": "423_BaSiCPy",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Current version\n\nNicholas-Schaub\ud83d\udcc6 \ud83d\udc40 \ud83d\ude87 \u26a0\ufe0f \ud83d\udcbb \ud83e\udd14  Tim Morello\ud83d\udcbb \ud83d\udcd6 \ud83d\udc40 \u26a0\ufe0f \ud83e\udd14 \ud83d\ude87",
+      "section": "BaSiCPy (part 6)",
+      "repo": "423_BaSiCPy",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Tingying Peng\ud83d\udd23 \ud83d\udcb5 \ud83d\udcc6 \ud83d\udce2 \ud83d\udcbb  Yohsuke T. Fukai\ud83d\udd2c \ud83d\udcbb \ud83e\udd14 \ud83d\udc40 \u26a0\ufe0f \ud83d\udcac \ud83d\ude87  YuLiu-web\ud83d\udcd6 \ud83d\udcd3",
+      "section": "BaSiCPy (part 7)",
+      "repo": "423_BaSiCPy",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "For details on the contribution roles, see the [documentation] https://basicpy.readthedocs.io/en/latest/contributors.html.",
+      "section": "BaSiCPy (part 8)",
+      "repo": "423_BaSiCPy",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Old version (f3fcf19), used as the reference implementation to check the approximate algorithm\n\nLorenz Lamm (@LorenzLamm)\n\nMohammad Mirkazemi (@Mirkazemi)",
+      "section": "BaSiCPy (part 9)",
+      "repo": "423_BaSiCPy",
+      "source_file": "readme.md"
+    }
+  }
+]

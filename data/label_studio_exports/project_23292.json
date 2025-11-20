@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1161,
+    "annotations": [
+      {
+        "id": 11129,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 65,
+              "end": 103,
+              "text": "https://doi.org/10.5281/zenodo.1435860",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "BU506wCoko",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 108,
+              "end": 136,
+              "text": "https://amuse.readthedocs.io",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "A0jDsQYqSj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 300,
+              "end": 317,
+              "text": "www.amusecode.org",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "z5Uq2yokBE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 359,
+              "end": 387,
+              "text": "https://amuse.readthedocs.io",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "je0HO_0U4T",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 420,
+              "end": 425,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "asYwWnHSXF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 430,
+              "end": 435,
+              "text": "macOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "ZiylF_bpOu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 444,
+              "end": 451,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "ybiGwJryC9",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 644,
+              "end": 706,
+              "text": "https://amuse.readthedocs.io/en/latest/install/installing.html",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "gIdHrIhw7U",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T23:18:00.102570Z",
+        "updated_at": "2025-11-16T04:41:33.267756Z",
+        "draft_created_at": "2025-11-05T23:17:34.408737Z",
+        "lead_time": 101.86800000000001,
+        "prediction": {},
+        "result_count": 8,
+        "unique_id": "08640835-0ccb-4a50-8f8b-a3547c52bf83",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1161,
+        "project": 23292,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# AMUSE: The Astrophysical Multipurpose Software Environment\n\n[](https://doi.org/10.5281/zenodo.1435860) [](https://amuse.readthedocs.io)\n\nThis repository contains the AMUSE software. With AMUSE you can write scripts to simulate astrophysical problems in different domains.\n\nThe project website is:\n\nwww.amusecode.org\n\nand the documentation can be found at:\n\nhttps://amuse.readthedocs.io\n\nGetting Started\n\nAMUSE runs on Linux and macOS, and on Windows using Windows Subsystem for Linux (WSL).\n\nWe're working on getting AMUSE into conda-forge, but in the mean time it needs to be installed from source. See [the AMUSE installation instructions] https://amuse.readthedocs.io/en/latest/install/installing.html for how to do that, or if you're reading this locally see the doc/install/ directory.\n\nAfter that, have a look at the [AMUSE tutorial] https://amuse.readthedocs.io/en/latest/tutorial/index.html to get started, or if you prefer notebooks, give the [interactive tutorial] https://amuse.readthedocs.io/en/latest/interactive_tutorial/index.html a try. Those too can be found locally in doc/.",
+      "section": "README",
+      "repo": "200_AMUSE",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.480414Z",
+    "updated_at": "2025-11-16T04:41:33.302580Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23292,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

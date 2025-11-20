@@ -1,0 +1,24 @@
+{
+  "codeRepository": "https://github.com/SciML/SciMLStyle",
+  "programmingLanguage": "Julia",
+  "programmingLanguages": [
+    "Julia"
+  ],
+  "downloadUrl": "https://api.github.com/repos/SciML/SciMLStyle/zipball/main",
+  "author": "SciML",
+  "dateCreated": "2022-05-17T13:50:12Z",
+  "dateModified": "2025-10-30T10:48:52Z",
+  "keywords": [
+    "julia",
+    "ode",
+    "scientific-machine-learning",
+    "sciml",
+    "style"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "A style guide for stylish Julia developers",
+  "identifier": 493271633,
+  "name": "SciML/SciMLStyle",
+  "issueTracker": "https://api.github.com/repos/SciML/SciMLStyle/issues",
+  "readme": "https://github.com/SciML/SciMLStyle/blob/main/README.md"
+}

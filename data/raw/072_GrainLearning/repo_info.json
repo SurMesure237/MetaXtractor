@@ -1,0 +1,28 @@
+{
+  "codeRepository": "https://github.com/GrainLearning/grainLearning",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "PureBasic",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/GrainLearning/grainLearning/zipball/main",
+  "author": "GrainLearning",
+  "dateCreated": "2022-02-23T06:07:35Z",
+  "dateModified": "2025-10-06T00:22:38Z",
+  "keywords": [
+    "bayesian-inference",
+    "low-discrepancy-sequences",
+    "mixture-models",
+    "parameter-identification",
+    "sequential-monte-carlo",
+    "uncertainty-quantification"
+  ],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "A Bayesian uncertainty quantification toolbox for discrete and continuum numerical models of granular materials, developed by various projects of the University of Twente (NL), the Netherlands eScience Center (NL), University of Newcastle (AU), and Hiroshima University (JP).",
+  "identifier": 462604171,
+  "name": "GrainLearning/grainLearning",
+  "issueTracker": "https://api.github.com/repos/GrainLearning/grainLearning/issues",
+  "readme": "https://github.com/GrainLearning/grainLearning/blob/main/README.md"
+}

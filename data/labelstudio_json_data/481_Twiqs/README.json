@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "# TwiNL: website code\n\n[](https://zenodo.org/badge/latestdoi/110261678) [](https://research-software.nl/software/twinl-website-code)\n\nThis repository contains the website code of the project [TwiNL] https://www.esciencecenter.nl/project/twinl  (2012-2013) of the Netherlands eScience Center. Apart  from the website, the project also produced a [Twitter crawler] https://github.com/twinl/crawler.\n\nThe main tweet search script in this repository is  cgi-bin/twitter. It collects a search query from a user, starts the search process, collects the results and displays them as a collection of web pages.\n\nThe contact person for this project is Erik Tjong Kim Sang.",
+      "section": "README",
+      "repo": "481_Twiqs",
+      "source_file": "readme.md"
+    }
+  }
+]

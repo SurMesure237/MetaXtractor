@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/SimVascular/SimVascular",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "Makefile",
+    "Python",
+    "CMake",
+    "C",
+    "JavaScript",
+    "Shell",
+    "CSS",
+    "Tcl",
+    "SCSS",
+    "HTML",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/SimVascular/SimVascular/zipball/main",
+  "author": "SimVascular",
+  "dateCreated": "2015-08-21T18:01:19Z",
+  "dateModified": "2025-10-27T23:11:15Z",
+  "keywords": [],
+  "license": null,
+  "description": "A comprehensive opensource software package providing a complete pipeline from medical image data segmentation to patient specific blood flow simulation and analysis.",
+  "identifier": 41169947,
+  "name": "SimVascular/SimVascular",
+  "issueTracker": "https://api.github.com/repos/SimVascular/SimVascular/issues",
+  "readme": "https://github.com/SimVascular/SimVascular/blob/master/README.md"
+}

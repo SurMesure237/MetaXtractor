@@ -1,0 +1,195 @@
+[
+  {
+    "id": 1594,
+    "annotations": [
+      {
+        "id": 11943,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 490,
+              "end": 528,
+              "text": "https://opensource.org/license/gpl-3-0",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "54-x0jV_mf",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 791,
+              "end": 830,
+              "text": "https://doi.org/10.5281/zenodo.14934232",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "pCqj15hPRT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1061,
+              "end": 1064,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "xIk9KZijSy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:49:37.963216Z",
+        "updated_at": "2025-11-09T06:49:37.963235Z",
+        "draft_created_at": "2025-11-09T06:49:03.683524Z",
+        "lead_time": 49.284,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "58d8a830-3f02-4c5a-b10f-9b4d549d80b2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1594,
+        "project": 23374,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": ".. list-table::  :widths: 25 25  :header-rows: 1\n\nfair-software.nl _ recommendations\n\nBadges\n\n\\1. Code repository\n\n|GitHub Badge|\n\n\\2. License\n\n|License Badge|\n\n\\3. Community Registry\n\n|PyPI Badge|\n\n- \\4. Enable Citation\n\n|Zenodo Badge|\n\n.. |GitHub Badge| image:: https://img.shields.io/github/v/release/SS-NES/code-auditor?color=blue  :target: https://github.com/SS-NES/code-auditor  :alt: GitHub Badge\n\n.. |License Badge| image:: https://img.shields.io/badge/license-GPLv3-blue  :target: https://opensource.org/license/gpl-3-0  :alt: License Badge\n\n.. |PyPI Badge| image:: https://img.shields.io/pypi/v/code-auditor?colorB=blue  :target: https://pypi.org/project/code-auditor/  :alt: PyPI Badge\n\n.. |Zenodo Badge| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.14934232.svg  :target: https://doi.org/10.5281/zenodo.14934232  :alt: Zenodo Badge\n\ncode-auditor\n\nThis is a package and command-line utility to audit code quality and compliance with best practices.\n\nInstallation\n\nThe package and command-line utility can be installed easily from PyPI_ using `pip`.\n\n.. code:: shell\n\npip install code-auditor\n\nTo install a specific version, e.g. v0.2.0, use:\n\n.. code:: shell\n\npip install code-auditor==0.2.0\n\nTo upgrade to the latest version:\n\n.. code:: shell\n\npip install --upgrade code-auditor\n\nFor the latest development version, you can install directly from the source:\n\n.. code:: shell\n\ngit clone https://github.com/SS-NES/code-auditor.git  cd code-auditor/  pip install .\n\n.. _PyPI: https://pypi.org/project/code-auditor/\n\nCLI Usage\n\n.. code:: console\n\nUsage: codeauditor [OPTIONS] PATH\n\nAudits the code base, where PATH is the path or URL address of the code base.",
+      "section": "Introduction (part 1)",
+      "repo": "166_Code_Auditor",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.158387Z",
+    "updated_at": "2025-11-09T06:49:37.997291Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23374,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1595,
+    "annotations": [
+      {
+        "id": 11944,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:49:42.750893Z",
+        "updated_at": "2025-11-09T06:49:42.750914Z",
+        "draft_created_at": null,
+        "lead_time": 4.587,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "52946403-821c-4530-b8b4-a4923a2f36a3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1595,
+        "project": 23374,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Options:  --skip-analyser [change_log|citation|code_markdown|code_python|conduct|contributing|dependency_python|documentation|git|jupyter_notebook|license|notice|packaging_python|testing_python]  List of analysers to skip.  --skip-aggregator [citation|code|community|documentation|license|packaging|repository|testing|version_control|metadata]  List of aggregators to skip.  --skip-type [citation|code|community|dependency|documentation|license|metadata|packaging|publishing|repository|testing|version_control]  List of processor types to skip.  -r, --reference FILENAME Path of the reference metadata for  comparison (e.g. SMP).  -b, --branch TEXT Branch or tag of the remote code repository.  -t, --path-type [zip|tar|tgz|tar.gz|git]  Type of the file located at the path.  -m, --metadata FILENAME Path to store the metadata extracted from  the code base.  -o, --output PATH Path to store the output.  -f, --format [plain|html|json|yaml|markdown|rst|rtf|docx]  Output format. [default: rst]  -p, --plain Enable plain output.  -l, --message-level INTEGER RANGE  Message level. [default: 1; 1<=x<=5]  -d, --debug Enable debug mode.  -v, --version Show the version and exit.  -h, --help Show this message and exit.\n\nExamples ~~~~~~~~\n\nAudit the code in the current working directory and display the report in the terminal:\n\n.. code:: console\n\ncodeauditor .\n\nAudit the code repository of code-auditor and display the report in the terminal:",
+      "section": "Introduction (part 2)",
+      "repo": "166_Code_Auditor",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.158427Z",
+    "updated_at": "2025-11-09T06:49:42.780957Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23374,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1596,
+    "annotations": [
+      {
+        "id": 11945,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:49:45.841031Z",
+        "updated_at": "2025-11-09T06:49:45.841049Z",
+        "draft_created_at": null,
+        "lead_time": 2.915,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c9898a79-f552-465c-aad2-9ede59134e4d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1596,
+        "project": 23374,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": ".. code:: console\n\ncodeauditor https://github.com/SS-NES/code-auditor\n\nAudit the code repository of code-auditor and save the report as report.docx:\n\n.. code:: console\n\ncodeauditor https://github.com/SS-NES/code-auditor --format docx --output report.docx\n\nPackage Usage\n\nAudit the code in the current working directory and display the report in the terminal:\n\n.. code:: python\n\nimport codeauditor\n\n# Generate audit report  report = codeauditor.audit('.')\n\n# Get report output as Markdown  out = report.output(format=codeauditor.report.OutputType.MARKDOWN)\n\n# Display output  print(out)\n\nAcknowledgements\n\nThis software was developed as part of the TDCC-NES Bottleneck Project \"Best Practices for Sustainable Software _\" funded by the Thematic Digital Competence Centre (TDCC_) for the Natural & Engineering Sciences (NES_).\n\n.. _TDCC: https://tdcc.nl/ .. _NES: https://tdcc.nl/about-tddc/nes/ .. _SS-NES: https://tdcc.nl/projects/project-initiatives-nes/tdcc-nes-bottleneck-projects/best-practices-for-sustainable-software/",
+      "section": "Introduction (part 3)",
+      "repo": "166_Code_Auditor",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.158451Z",
+    "updated_at": "2025-11-09T06:49:45.868013Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23374,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

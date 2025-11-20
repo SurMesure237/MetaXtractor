@@ -1,0 +1,287 @@
+[
+  {
+    "id": 1562,
+    "annotations": [
+      {
+        "id": 10808,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 119,
+              "end": 160,
+              "text": "https://www.nature.com/articles/srep06837",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "Ps8awhzRW0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:48:55.642551Z",
+        "updated_at": "2025-11-05T16:48:55.642567Z",
+        "draft_created_at": "2025-11-05T16:48:49.172058Z",
+        "lead_time": 24.277,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "30f21a67-d602-4989-8819-b15f194fc616",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1562,
+        "project": 23368,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "fMLC\n\nfMLC is the official implementation of the MultiLevel Clustering (MLC) algorithm decribed in [Vu D. et al. 2014] https://www.nature.com/articles/srep06837 , used to cluster massive DNA sequences. fMLC was initially implemented by Szaniszlo Szoke and further developed by Duong Vu. It is written in C++ and supports multi-threaded parallelism. fMLC is also integrated with an interactive web-based tool called [DIVE] https://github.com/NLeSC/DiVE to visualize the resulting DNA sequences based embeddings in 2D or 3D. The work is financially supported by the Westerdijk Fungal Biodiversity Institute and the Netherlands eScience Center.",
+      "section": "fMLC",
+      "repo": "062_FastMLC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.767766Z",
+    "updated_at": "2025-11-05T16:48:55.673243Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23368,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1563,
+    "annotations": [
+      {
+        "id": 10809,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 66,
+              "end": 267,
+              "text": "D Vu, S Georgievska, S Szoke, A Kuzniar, V Robert. fMLC: Fast Multi-Level Clustering and Visualization of Large Molecular Datasets, Bioinformatics, btx810, https://doi.org/10.1093/bioinformatics/btx810",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "7Cob5XqDOp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 282,
+              "end": 431,
+              "text": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btx810/4747887?guestAccessKey=da7a1811-354a-4445-8084-cae44ccafd6f",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "D-fpv9AXJ4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 436,
+              "end": 473,
+              "text": "https://doi.org/10.5281/zenodo.926820",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "AaPws7qIkN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 489,
+              "end": 496,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "bcpYKxV0PA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 552,
+              "end": 557,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "-gvsHPVRjb",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:49:53.450704Z",
+        "updated_at": "2025-11-05T16:49:53.450715Z",
+        "draft_created_at": "2025-11-05T16:49:05.707787Z",
+        "lead_time": 57.54,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "e814469b-9702-4848-b0c0-0e26746da600",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1563,
+        "project": 23368,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Citation\n\nPlease cite the following paper if you are using fMLC:\n\nD Vu, S Georgievska, S Szoke, A Kuzniar, V Robert. fMLC: Fast Multi-Level Clustering and Visualization of Large Molecular Datasets, Bioinformatics, btx810, https://doi.org/10.1093/bioinformatics/btx810\n\n[Pdf verion] https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btx810/4747887?guestAccessKey=da7a1811-354a-4445-8084-cae44ccafd6f\n\n[](https://doi.org/10.5281/zenodo.926820)\n\n## Install\n\n[Windows] https://github.com/FastMLC/fMLC/tree/master/Windows\n\n[Linux] https://github.com/FastMLC/fMLC/tree/master/Linux\n\n## Data\n\nThere are two datasets available as inputs for fMLC. The \"small\" dataset contains ~4000 ITS yeast sequences, checked and validated by the specialists at the Westerdijk Fungal Biodiversity Institute. This dataset were analyzed and released in [Vu D. et al. 2016] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5192050/. The \"large\" dataset contains ~350K ITS fungal sequences downloaded from GenBank (https://www.ncbi.nlm.nih.gov/) which was used in [Vu D. et al. 2014] https://www.nature.com/articles/srep06837 to evaluate the speed of MLC.\n\n[Download] http://www.westerdijkinstitute.nl/Download/LargeDatasetOf350KITSSequences.zip the large demo dataset.",
+      "section": "Citation (part 1)",
+      "repo": "062_FastMLC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.767807Z",
+    "updated_at": "2025-11-05T16:49:53.474863Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23368,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1564,
+    "annotations": [
+      {
+        "id": 10810,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 861,
+              "end": 1039,
+              "text": "Bolten, E., Schliep, A., Schneckener, S., Schomburg D. & Schrader, R (2001). Clustering protein sequences- structure prediction by transitive homology. Bioinformatics 17, 935-941",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "iMk-4Q1oh-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1042,
+              "end": 1269,
+              "text": "Edgar, R.C (2010). Search and clustering orders of magnitude faster than BLAST. Bioinformatics 26, 2460-2461. Paccanaro, P., Casbon, J.A. & Saqi, M.A (2006). Spectral clustering of proteins sequences. Nucleic Acids Res 34, 1571",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "lmVY9jqSlM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1272,
+              "end": 1395,
+              "text": "Vu D. et al. (2014). Massive fungal biodiversity data re-annotation with multi-level clustering. Scientific Reports 4: 6837",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "EdjCDB7N_D",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:50:12.589929Z",
+        "updated_at": "2025-11-05T16:50:12.589956Z",
+        "draft_created_at": "2025-11-05T16:50:05.237472Z",
+        "lead_time": 18.952,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "656df92d-b174-4195-aa3a-25c671855a3f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1564,
+        "project": 23368,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Results\n\nAfter clustering the DNA sequences by fMLC, the groupings of the sequences can be saved as output of fMLC. A sparse (or complete) similarity matrix (in .sim format) can be saved in the folder where the dataset is given, to capture the similarity structure of the sequences. Based on this similarity matrix, the coordiates of the sequences can be computed and saved (in .outLargeVis format) using LargeVis. Finally, a json file containing the coordinates and metadata of the sequences is resided in the folder DiVE/data folder as an input of DiVE to visualize the data. This json file can be used for visualization by external applications as well.The clustering and visualization results of the two datasets can be found at https://github.com/FastMLC/fMLC/tree/master/data.\n\n## Contact person\n\nDuong Vu (d.vu@westerdijkinstitute.nl)\n\n## References\n\nBolten, E., Schliep, A., Schneckener, S., Schomburg D. & Schrader, R (2001). Clustering protein sequences- structure prediction by transitive homology. Bioinformatics 17, 935-941.\n\nEdgar, R.C (2010). Search and clustering orders of magnitude faster than BLAST. Bioinformatics 26, 2460-2461. Paccanaro, P., Casbon, J.A. & Saqi, M.A (2006). Spectral clustering of proteins sequences. Nucleic Acids Res 34, 1571.\n\nVu D. et al. (2014). Massive fungal biodiversity data re-annotation with multi-level clustering. Scientific Reports 4: 6837.",
+      "section": "Citation (part 2)",
+      "repo": "062_FastMLC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.767831Z",
+    "updated_at": "2025-11-05T16:50:12.620061Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23368,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

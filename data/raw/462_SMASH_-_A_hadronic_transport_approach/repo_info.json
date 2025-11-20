@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/smash-transport/smash",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "CMake",
+    "Shell",
+    "Python",
+    "Dockerfile",
+    "C"
+  ],
+  "downloadUrl": "https://api.github.com/repos/smash-transport/smash/zipball/main",
+  "author": "smash-transport",
+  "dateCreated": "2018-11-23T09:58:02Z",
+  "dateModified": "2025-09-19T10:46:41Z",
+  "keywords": [],
+  "license": null,
+  "description": "Simulating Many Accelerated Strongly-interacting Hadrons",
+  "identifier": 158813915,
+  "name": "smash-transport/smash",
+  "issueTracker": "https://api.github.com/repos/smash-transport/smash/issues",
+  "readme": "https://github.com/smash-transport/smash/blob/main/README.md"
+}

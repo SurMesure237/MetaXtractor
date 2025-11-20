@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/DataFlowAnalysis/DataFlowAnalysis",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java",
+    "Python",
+    "Nix",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/DataFlowAnalysis/DataFlowAnalysis/zipball/main",
+  "author": "DataFlowAnalysis",
+  "dateCreated": "2022-06-20T05:57:01Z",
+  "dateModified": "2025-10-22T11:19:02Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/epl-2.0",
+  "description": "Identify confidentiality violations and other information security issues in architectural models and data flow diagrams.",
+  "identifier": 505312321,
+  "name": "DataFlowAnalysis/DataFlowAnalysis",
+  "issueTracker": "https://api.github.com/repos/DataFlowAnalysis/DataFlowAnalysis/issues",
+  "readme": "https://github.com/DataFlowAnalysis/DataFlowAnalysis/blob/main/README.md"
+}

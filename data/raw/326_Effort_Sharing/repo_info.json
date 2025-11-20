@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/imagepbl/effort-sharing",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/imagepbl/effort-sharing/zipball/main",
+  "author": "imagepbl",
+  "dateCreated": "2023-04-11T09:38:20Z",
+  "dateModified": "2025-10-27T10:19:44Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Analysis and plotting scripts for effort sharing, associated with the Carbon Budget Explorer",
+  "identifier": 626349300,
+  "name": "imagepbl/effort-sharing",
+  "issueTracker": "https://api.github.com/repos/imagepbl/effort-sharing/issues",
+  "readme": "https://github.com/imagepbl/effort-sharing/blob/main/README.md"
+}

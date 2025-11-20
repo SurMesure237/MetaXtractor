@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1891,
+    "annotations": [
+      {
+        "id": 11885,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:26:08.460080Z",
+        "updated_at": "2025-11-09T06:26:08.460094Z",
+        "draft_created_at": null,
+        "lead_time": 12.0,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c0bd82e3-6b94-48c5-8e60-960813d04156",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1891,
+        "project": 23430,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/arbor-sim/arbor/actions/workflows/test-matrix.yml) [](https://github.com/arbor-sim/arbor/actions/workflows/test-spack.yml) [](https://github.com/arbor-sim/arbor/actions/workflows/test-pip.yml) [](https://github.com/arbor-sim/arbor/actions/workflows/build-pip-wheels.yml) [](https://gitpod.io/#https://github.com/arbor-sim/arbor) [](https://docs.arbor-sim.org/en/latest/) [](https://gitter.im/arbor-sim/community) [](https://github.com/arbor-sim/arbor/actions/workflows/codeql.yml)\n\n# Arbor Library\n\n[Arbor] https://arbor-sim.org is a library for implementing performance portable network simulations of multi-compartment neuron models.\n\nAn installation guide and library documentation are available online at [docs.arbor-sim.org] http://docs.arbor-sim.org.\n\n[Submit a ticket] https://github.com/arbor-sim/arbor/issues or [join Gitter] https://gitter.im/arbor-sim/community or [Matrix] https://matrix.to/#/#arbor-sim_community:gitter.im if you have any questions or need help.\n\n### Citing Arbor\n\nThe Arbor introductory paper and entry on Zenodo can be cited, see [CITATION.bib] CITATION.bib. Please refer to [our documentation] https://docs.arbor-sim.org/en/latest/index.html#citing-arbor for more information.",
+      "section": "README",
+      "repo": "206_Arbor",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.009158Z",
+    "updated_at": "2025-11-09T06:26:08.488574Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23430,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

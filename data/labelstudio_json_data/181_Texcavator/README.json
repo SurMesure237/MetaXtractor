@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "This project is no longer maintained and has been archived. It is succeeded by I-Analyzer, which is actively developed: https://github.com/UUDigitalHumanitieslab/I-analyzer.\n\n::\n\n_____ _   |_ _|____ _____ __ ___ ____ _| |_ ___ _ __   | |/ _ \\ \\/ / __/ _ \\ \\ / / _ | __/ _ \\| '__|  | | __/> < (_| (_| |\\ V / (_| | || (_) | |   |_|\\___/_/\\_\\___\\__,_| \\_/ \\__,_|\\__\\___/|_|\n\nCopyright 'Digital Humanities lab @ Utrecht University',Netherlands eScience Center_, University of Amsterdam_.\n\nFrom 2015 onwards developed by the Digital Humanities lab_, Utrecht University.\n\n.. _Netherlands eScience Center: https://www.esciencecenter.nl/ .. _University of Amsterdam: http://www.uva.nl/en/ .. _Digital Humanities lab: http://dig.hum.uu.nl/\n\nDeveloper quick-start\n\nDependencies\n\nBefore installing Texcavator, make sure your packages are up-to-date and a relational database (we use MySQL_) and Redis_ server are present on the system. In apt-based Linux distros like Ubuntu/Debian, issue::\n\nsudo apt-get update  sudo apt-get upgrade  sudo apt-get install mysql-server redis-server\n\nMake sure both servers are running. Furthermore, you will need a few development packages::\n\nsudo apt-get install libmysqlclient-dev libxml2-dev libxslt-dev python-dev\n\n.. _MySQL: https://www.mysql.com/ .. _Redis: http://redis.io/\n\nInstallation\n\nTo install Texcavator, clone the repository (using git_) in your home directory and make a virtualenv_, activate it, and install the requirements::",
+      "section": "Introduction (part 1)",
+      "repo": "181_Texcavator",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": "sudo apt-get install git python-pip  pip install virtualenv  cd ~  git clone https://github.com/UUDigitalHumanitieslab/texcavator.git  mkdir .virtualenvs  virtualenv .virtualenvs/texc  source .virtualenvs/texc/bin/activate  pip install -r texcavator/requirements.txt\n\nIn `texcavator/settings.py, you can change the path to the log file, if you like.\n\nCopy texcavator/settings_local_default.py to texcavator/settings_local.py. The latter file is not kept under version control.\n\nIn texcavator/settings_local.py, set up the database; for a quick test, you can use SQLite::\n\nDATABASES = {  'default': {  'ENGINE': 'django.db.backends.sqlite3',  'NAME': os.path.join(PROJECT_PARENT, 'db.sqlite3')  }  }\n\n.. _git: https://git-scm.com/ .. _virtualenv: http://virtualenv.readthedocs.io/\n\nElasticsearch\n\nThe next step is to load your data into an elasticsearch_ index. To get started using elasticsearch see the quickstart_.\n\nIn texcavator/settings_local.py, you can specify the elasticsearch host and port (typically elasticsearch runs on localhost:9200). Texcavator assumes by default the data is in an index called kb and that the documents are stored in a type doc that has at least the following fields:\n\narticle_dc_subject  article_dc_title  identifier  paper_dc_date  paper_dc_title  paper_dcterms_spatial  paper_dcterms_temporal  text_content\n\nWe use the mapping specified in mapping.rst`.\n\n.. _elasticsearch: https://www.elastic.co/ .. _quickstart: https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html\n\nPrerequisite commands",
+      "section": "Introduction (part 2)",
+      "repo": "181_Texcavator",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": "Texcavator requires you to install some external packages and management commands in order to function correctly. Before issuing the commands below, make sure Elasticsearch, MySQL and Redis are still running at the specified ports.\n\nInstall ShiCo, which allows for visualizing shifting concepts over time::\n\npython install-shico.py\n\nPopulate the database::\n\npython manage.py migrate\n\nCreate a Django superuser. The username and password you pick will be the administrator account for Texcavator::\n\npython manage.py createsuperuser\n\nRun the management command `gatherstatistics to be able to display timelines::\n\npython manage.py gatherstatistics\n\nRun the management command add_stopwords to add a default list of (Dutch) stop words::\n\npython manage.py add_stopwords stopwords/nl.txt\n\nRun the management command gathertermcounts to be able to create word clouds normalized for inverse document frequency::\n\npython manage.py gathertermcounts\n\nRun the management command add_guest_user to add a guest environment (with limited options)::\n\npython manage.py add_guest_user\n\n.. _Dojo: http://dojotoolkit.org/\n\nDevelopment server\n\nFirst, make sure Elasticsearch, MySQL and Redis are still running at the specified ports. Then, start Celery and Django's built-in webserver::\n\ncelery --app=texcavator.celery:app worker --loglevel=info  # In a separate terminal  python manage.py runserver\n\nTexcavator is now ready for use at http://127.0.0.1:8000.\n\nDownloading of query data requires a running SMTP server; you can use Python's built-in server for that::\n\n# In a separate terminal  python -m smtpd -n -c DebuggingServer localhost:1025\n\nDeployment\n\nYou can find instructions for deploying Texcavator in deployment.rst`\n\nDocumentation",
+      "section": "Introduction (part 3)",
+      "repo": "181_Texcavator",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": "The documentation for Texcavator is in Sphinx_. You can generate the documentation by running::\n\nmake html\n\nin the /doc/ directory.\n\n.. _Sphinx: http://sphinx-doc.org/index.html\n\nLicense\n\nTexcavator is distributed under the terms of the Apache2 license. See `LICENSE` for details.",
+      "section": "Introduction (part 4)",
+      "repo": "181_Texcavator",
+      "source_file": "readme.rst"
+    }
+  }
+]

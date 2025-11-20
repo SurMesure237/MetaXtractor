@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/cytoscape/RCy3",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R"
+  ],
+  "downloadUrl": "https://api.github.com/repos/cytoscape/RCy3/zipball/main",
+  "author": "cytoscape",
+  "dateCreated": "2018-01-23T00:21:43Z",
+  "dateModified": "2025-10-30T12:39:03Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "New version of RCy3, redesigned and collaboratively maintained by Cytoscape developer community",
+  "identifier": 118533442,
+  "name": "cytoscape/RCy3",
+  "issueTracker": "https://api.github.com/repos/cytoscape/RCy3/issues",
+  "readme": "https://github.com/cytoscape/RCy3/blob/devel/README.md"
+}

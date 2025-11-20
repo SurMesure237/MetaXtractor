@@ -1,0 +1,230 @@
+[
+  {
+    "id": 687,
+    "annotations": [
+      {
+        "id": 11345,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 47,
+              "text": "https://zenodo.org/badge/latestdoi/118894019",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "HKCKkrhusz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:06:21.920268Z",
+        "updated_at": "2025-11-07T08:06:21.920287Z",
+        "draft_created_at": null,
+        "lead_time": 5.079,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "8b172ce2-90da-43f5-9c49-6d8b46135d36",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 687,
+        "project": 23221,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://zenodo.org/badge/latestdoi/118894019)",
+      "section": "Introduction",
+      "repo": "205_adhtools",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.465184Z",
+    "updated_at": "2025-11-07T08:06:21.952278Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23221,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 688,
+    "annotations": [
+      {
+        "id": 11346,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 127,
+              "end": 135,
+              "text": "Python 3",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "-JDLSLhZu0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:07:10.206505Z",
+        "updated_at": "2025-11-17T00:26:19.797393Z",
+        "draft_created_at": "2025-11-07T08:06:35.921856Z",
+        "lead_time": 65.282,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "c28a4770-bb78-4d77-9821-7c37deeae48c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 688,
+        "project": 23221,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "adhtools: tools for Arabic Digital Humanities\n\nScripts for manipulating Arabic texts.\n\n## Installation\n\nThis software requires Python 3.\n\ngit clone git@github.com:arabic-digital-humanities/adhtools.git cd adhtools python setup.py develop\n\n### Installing SAFAR for morphological analysis\n\nTo analyze a text using SAFAR, you need to [download the SAFAR binaries from the website] http://arabic.emi.ac.ma/safar/?q=download, and extract the zip file. Add to your class path:\n\nthe SAFAR directory  the SAFAR/lib directory  the directory containing the compiled SafarAnalyze (from this repository (java/SafarAnalyze.java))\n\nThen run the analyzer:\n\njava -cp \".:/path/to/SAFAR/:/path/to/SAFAR/lib/*:/path/to/adhtools/bin/ SafarAnalyze\n\nOr use the CWL specification:\n\ncwltool /path/to/adhtools/java/cwl/SafarAnalyze.cwl --cp --in_dir --analyzer\n\n## Workflows\n\nExpected input for the complete workflows are texts in [openITI format] https://alraqmiyyat.github.io/2015/11-08.html. We assume that: There is one file per book in the corpus\n\nThere can be 'METADATA' headers at the top of the file which will be omitted/ignored\n\nThere are markers for chapters, that can be used to split the files and add to the metadata (by default we split on (### | (books) and ### || (chapters)))\n\nThe filename corresponds to the BookURI (the filename is .txt)\n\nThere is a separate .csv file with metadata, each row corresponding to one book. The column 'BookURI' can be used to couple with the OpenITI files.\n\nThe output of the workflows (list them here) are xml files that can be used for analysis, or indexed in Blacklab.",
+      "section": "adhtools: tools for Arabic Digital Humanities (part 1)",
+      "repo": "205_adhtools",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.465223Z",
+    "updated_at": "2025-11-17T00:26:19.829966Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23221,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 689,
+    "annotations": [
+      {
+        "id": 11347,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:07:29.070875Z",
+        "updated_at": "2025-11-07T08:07:29.070888Z",
+        "draft_created_at": null,
+        "lead_time": 18.699,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ec89787b-c176-4f4e-92a8-2696ebcda0e1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 689,
+        "project": 23221,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Running workflows\n\nThe workflows can be run with cwltool. This is a requirement of adhtools and therefore installed when adhtools is installed. The [nlppln documentation] https://nlppln.readthedocs.io/en/latest/running_workflows.html contains more information about running cwl workflows.\n\n## Top level workflows\n\nsafar-split-and-analyze-file.cwl Analyzes txt file, by first splitting in smaller pieces and chapters, and filtering obsolete fields in the resulting xml (reduces file size considerably!)\n\nNotebook: new-analysis-workflows.ipynb\n\nsafar-split-and-analyze-dir.cwl Analyzes directory of txt files, by first splitting in smaller pieces and chapters, and filtering obsolete fields in the resulting xml\n\nNotebook: new-analysis-workflows.ipynb\n\nsafar-split-and-stem-file.cwl Stems txt file, by first splitting in smaller pieces and chapters\n\nNotebook: new-analysis-workflows.ipynb\n\nsafar-split-and-stem-dir.cwl Stems directory of txt files, by first splitting in smaller pieces and chapters\n\nNotebook: new-analysis-workflows.ipynb\n\nsplit-xml-chapters-dir.cwl To split the outcome of the analyze or stem workflow in chapters\n\nNotebook: split-xml-chapters-dir-workflow.ipynb\n\nindex-corpus-specific.cwl Workflow to index an analyzed or stemmed corpus for Blacklab. Does not use any substeps from adhtools.\n\nNotebook: index-corpus-specific-formats.ipynb\n\n## Subworkflows\n\nsplit-file-chapters.cwl\n\nSplit a text in OpenITI format in smaller pieces\n\nUsed by safar-split-and-analyze-file.cwl and safar-split-and-stem-file.cwl\n\nNotebook: new-analysis-workflows.ipynb",
+      "section": "adhtools: tools for Arabic Digital Humanities (part 2)",
+      "repo": "205_adhtools",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.465248Z",
+    "updated_at": "2025-11-07T08:07:29.098351Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23221,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 690,
+    "annotations": [
+      {
+        "id": 11348,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:07:30.416004Z",
+        "updated_at": "2025-11-07T08:07:30.416021Z",
+        "draft_created_at": null,
+        "lead_time": 1.172,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "40253f31-167e-43d5-8ea6-b36e9f1513ec",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 690,
+        "project": 23221,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Steps\n\nopeniti2txt.cwl Used by split-file-chapters.cwl\n\nsafar-add-metadata.cwl Existing python step that adds the metadata for dir instead of directory.\n\nsafar-add-metadata-file.cwl Used by safar-split-and-analyze-file.cwl and safar-split-and-stem-file.cwl\n\nsafar-filter-analyses.cwl Used by safar-split-and-analyze-file.cwl\n\nsplit-text-openiti-markers.cwl Used by split-file-chapters.cwl\n\nsplit-text-size.cwl Used by split-file-chapters.cwl\n\nsplit-xml-chapters.cwl Python step split-xml-chapters. Used by split-xml-chapters-dir.cwl\n\nmerge-safar-xml.cwl Used by safar-split-and-analyze-file.cwl and safar-split-and-stem-file.cwl\n\n## Other workflows / steps\n\nadd-metadata-dir.cwl Scatter of safar-add-metadata-file.cwl\n\nextract_metadata-xml.cwl Existing python step that extracts metdata from directory with xml and puts it into a csv file.\n\nsafar-add-metadata.cwl Existing python step that adds the metadata for dir instead of directory.\n\nsplit-dir-chapters.cwl Scatter of split-file-chapters.cwl.\n\nsplit-text.cwl Python step split-text.cwl that splits on regex. Potentially useful for different corpora.\n\nsafar-split-and-analyze-file-no-filtering.cwl Old version of safar-split-and-analyze-file.cwl, but retains all fields",
+      "section": "adhtools: tools for Arabic Digital Humanities (part 3)",
+      "repo": "205_adhtools",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.465270Z",
+    "updated_at": "2025-11-07T08:07:30.444078Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23221,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

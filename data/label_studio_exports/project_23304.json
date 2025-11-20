@@ -1,0 +1,165 @@
+[
+  {
+    "id": 1226,
+    "annotations": [
+      {
+        "id": 11042,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 72,
+              "text": "https://github.com/OpenDA-Association/OpenDA/actions/workflows/ci.yml",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "z3ylVkiUzx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:54:57.336854Z",
+        "updated_at": "2025-11-05T22:54:57.336869Z",
+        "draft_created_at": "2025-11-05T22:54:57.048253Z",
+        "lead_time": 10.637,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "cc8d9cba-5b3f-451a-9657-aa97b0b78fc5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1226,
+        "project": 23304,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/OpenDA-Association/OpenDA/actions/workflows/ci.yml) [](https://www.codacy.com/gh/OpenDA-Association/OpenDA/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OpenDA-Association/OpenDA&amp;utm_campaign=Badge_Grade)",
+      "section": "Introduction",
+      "repo": "138_OpenDA",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.288157Z",
+    "updated_at": "2025-11-05T22:54:57.362504Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23304,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1227,
+    "annotations": [
+      {
+        "id": 11043,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:55:04.279440Z",
+        "updated_at": "2025-11-05T22:55:04.279456Z",
+        "draft_created_at": null,
+        "lead_time": 6.773,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "dfa72eb5-8b11-48e0-ab58-f0afbe2ae5dc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1227,
+        "project": 23304,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "OpenDA\n\nOpenDA is an open interface standard for (and free implementation of) a set of tools to quickly implement data-assimilation and calibration for arbitrary numerical models. OpenDA wants to stimulate the use of data-assimilation and calibration by lowering the implementation costs and enhancing the exchange of software among researchers and end-users.\n\nA model that conforms to the OpenDA standard can use all the tools that are available in OpenDA. This allows experimentation with data-assimilation/calibration methods without the need for extensive programming. Reversely, developers of data-assimilation/calibration software that make their implementations compatible with the OpenDA interface will make their new methods usable for all OpenDA users (either for free or on a commercial basis).\n\nOpenDA has been designed for high performance. Hence, even large-scale models can use it. Also, OpenDA allows users to optimize the interaction between their model and the data-assimilation/calibration methods. Hence, data-assimilation with OpenDA can be as efficient as with custom-made implementations of data-assimilation methods.\n\nOpenDA is an Open Source project. Contributions are welcome from anyone wishing to participate in the further development of the OpenDA toolset.",
+      "section": "OpenDA (part 1)",
+      "repo": "138_OpenDA",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.288196Z",
+    "updated_at": "2025-11-05T22:55:04.304784Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23304,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1228,
+    "annotations": [
+      {
+        "id": 11044,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:55:13.339632Z",
+        "updated_at": "2025-11-05T22:55:13.339643Z",
+        "draft_created_at": null,
+        "lead_time": 8.846,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c39f8b39-3857-4eed-b088-d6087711cfcb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1228,
+        "project": 23304,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Features of OpenDA\n\nData-assimilation methods\n\nEnsemble KF (EnKF)\n\nEnsemble SquareRoot KF (EnSR)\n\nSteady State KF\n\nParticle Filter\n\n3DVar\n\nDudEnKF (still under research)\n\nDudEnSR (still under research)\n\nParameter estimation (calibration) methods:\n\nDud\n\nSparse Dud\n\nSimplex\n\nPowell\n\nGridded full search\n\nShuffled Comples Evolution (SCE)\n\nGeneralized Likelihood Uncertainty Estimation (GLUE)\n\n(L)BFGS\n\nConjugate Gradient: Fleetjer-Reeves, Polak-Ribiere, Steepest Descent\n\nUncertainty Analaysis methods\n\nGLUE\n\nDELSA\n\nLanguage interfaces\n\nC/C++\n\nJava\n\nFortran77/90\n\nThese files are part of the OpenDA software. For more information see our website at http://www.openda.org",
+      "section": "OpenDA (part 2)",
+      "repo": "138_OpenDA",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.288219Z",
+    "updated_at": "2025-11-05T22:55:13.365416Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23304,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

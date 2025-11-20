@@ -1,0 +1,260 @@
+[
+  {
+    "id": 1525,
+    "annotations": [
+      {
+        "id": 10836,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 247,
+              "end": 293,
+              "text": "https://zenodo.org/doi/10.5281/zenodo.10261948",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "GEW4Ck-nLe",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 86,
+              "end": 142,
+              "text": "https://sirup-vpn.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "Q1IzmvTClz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:23:44.650897Z",
+        "updated_at": "2025-11-15T17:57:55.763303Z",
+        "draft_created_at": "2025-11-05T17:23:28.072652Z",
+        "lead_time": 31.634999999999998,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "95af0278-4153-4fa7-9e13-58112e423a99",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1525,
+        "project": 23359,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/ivory-tower-private-power/sirup/actions/workflows/build.yml) [](https://sirup-vpn.readthedocs.io/en/latest/?badge=latest) [](https://sonarcloud.io/dashboard?id=ivory-tower-private-power_sirup) [](https://fair-software.eu) [](https://zenodo.org/doi/10.5281/zenodo.10261948)",
+      "section": "Introduction",
+      "repo": "331_sirup",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.133680Z",
+    "updated_at": "2025-11-15T17:57:55.799499Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23359,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1526,
+    "annotations": [
+      {
+        "id": 10837,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 261,
+              "end": 266,
+              "text": "linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "y3Y9eeH0oN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 294,
+              "end": 301,
+              "text": "openvpn",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "dUXd7jNw-2",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:24:22.401732Z",
+        "updated_at": "2025-11-05T17:24:22.401759Z",
+        "draft_created_at": "2025-11-05T17:24:12.521079Z",
+        "lead_time": 37.545,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "70a85b4f-bed7-49ee-a5c8-c80f2e257ce1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1526,
+        "project": 23359,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "sirup: simple IP rotation using python\n\nA wrapper around the openvpn CLI to connect to VPN servers and rotate the IP address in python programs.\n\n## What is required\n\nAn account with a VPN service that supports openvpn (for instance ProtonVPN or surfshark).\n\nA linux OS with superuser rights.\n\nopenvpn for linux. See [here] https://community.openvpn.net/openvpn/wiki/OpenvpnSoftwareReposgit for installation instructions.\n\n## How to install\n\nTo install from pip, do:\n\npython -m pip install sirup\n\nTo install sirup from GitHub repository, do:\n\npython -m pip install 'sirup @ git+https://github.com/ivory-tower-private-power/sirup'",
+      "section": "sirup: simple IP rotation using python (part 1)",
+      "repo": "331_sirup",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.133719Z",
+    "updated_at": "2025-11-05T17:24:22.432664Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23359,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1527,
+    "annotations": [
+      {
+        "id": 10838,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:24:38.786421Z",
+        "updated_at": "2025-11-15T17:58:53.825711Z",
+        "draft_created_at": null,
+        "lead_time": 30.527,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "11c4b130-52ef-4663-a970-640af9886ad5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1527,
+        "project": 23359,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## How to use sirup\n\nThe package has two functionalities: connecting to a VPN server, and rotating the IP address.\n\nStart up\n\nThis step is necessary for both functionalities.\n\nimport os  import getpass import time\n\nseed = 123 mypass = \"/path/to/credentials.txt\" # the user name and password credentials from your user account with the VPN service config_path = \"/path/to/config/files/\" # the .opvn configuration files from your VPN service\n\nFunctionality 1: Connecting to a single VPN server\n\nThe sirup.VPNConnector.VPNConnector class has two methods: connect and disconnect. They are used as follows.\n\nfrom sirup.VPNConnector import VPNConnector\n\nconfig_file = os.path.join(config_path, \"name-of-one-config-file.ovpn\") pwd = getpass.getpass()\n\nconnector = VPNConnector(auth_file=mypass, config_file=config_file)\n\nconnector.connect(pwd=pwd)\n\ntime.sleep(10) connector.disconnect(pwd=pwd)\n\nFunctionality 2: Using the IP rotation feature\n\nThe sirup.IPRotator.IPRotator class has three methods: connect(), rotate(), disconnect(). They are used as follows.\n\nfrom sirup.IPRotator import IPRotator\n\nrotator = IPRotator(auth_file=mypass, config_location=config_path, seed=seed) # will ask for the sudo password\n\nrotator.connect() print(rotator.connector.current_ip)\n\nrotator.rotate() print(rotator.connector.current_ip)\n\nrotator.disconnect()\n\n### Note\n\nBefore using the package, have a look at [\"Making sure the VPN connection works correctly\"] https://github.com/ivory-tower-private-power/sirup/blob/main/docs/correct_connection.rst to make sure the VPN service works properly.\n\n## Documentation\n\nThe documentation of sirup can be found on [Read the Docs] https://sirup-vpn.readthedocs.io/en/latest/.\n\n## Contributing\n\nIf you want to contribute to the development of sirup, have a look at the [contribution guidelines] docs/CONTRIBUTING.md.",
+      "section": "sirup: simple IP rotation using python (part 2)",
+      "repo": "331_sirup",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.133748Z",
+    "updated_at": "2025-11-15T17:58:53.854294Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23359,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1528,
+    "annotations": [
+      {
+        "id": 10839,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:24:42.573390Z",
+        "updated_at": "2025-11-05T17:24:42.573406Z",
+        "draft_created_at": null,
+        "lead_time": 3.59,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "a005b830-4f60-4af4-89a9-94e2c2567a43",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1528,
+        "project": 23359,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Credits\n\nThis package was created with [Cookiecutter] https://github.com/audreyr/cookiecutter and the [NLeSC/python-template] https://github.com/NLeSC/python-template.\n\nThe logo was generated using Chat-GPT and Micorosoft Co-Pilot on July 18th 2024 at 9:32am using [this prompt] docs/_icons/prompt.md.",
+      "section": "sirup: simple IP rotation using python (part 3)",
+      "repo": "331_sirup",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.133773Z",
+    "updated_at": "2025-11-05T17:24:42.605088Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23359,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

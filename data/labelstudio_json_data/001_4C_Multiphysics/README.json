@@ -1,0 +1,50 @@
+[
+  {
+    "data": {
+      "text": "[](https://4C-multiphysics.org) [](https://4c-multiphysics.github.io/4C/documentation/) [](https://4c-multiphysics.github.io/4C/doxygen/) [](https://4c-multiphysics.github.io/4C/coverage_report)",
+      "section": "Introduction (part 1)",
+      "repo": "001_4C_Multiphysics",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[](https://github.com/4C-multiphysics/4C/actions/workflows/checkcode.yml?query=branch%3Amain) [](https://github.com/4C-multiphysics/4C/actions/workflows/buildtest.yml?query=branch%3Amain) [](https://github.com/4C-multiphysics/4C/actions/workflows/nightly_tests.yml?query=branch%3Amain) [](https://github.com/4C-multiphysics/4C/actions/workflows/documentation.yml?query=branch%3Amain) [](https://github.com/4C-multiphysics/4C/actions/workflows/coverage.yml?query=branch%3Amain)\n\n4C (\"Comprehensive Computational Community Code\") is a parallel multiphysics research code to address a plethora of physical problems by means of _computational mechanics_.\n\nWebsite: https://4C-multiphysics.org\n\nDocumentation: https://4c-multiphysics.github.io/4C/documentation/",
+      "section": "Introduction (part 2)",
+      "repo": "001_4C_Multiphysics",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Vision\n\nWe aim to advance the frontiers of computational science and engineering by providing a versatile, extensible and open-source research software framework for the systematic development, analysis, and application of advanced numerical methods for modeling and simulation of complex multiphysics phenomena across scales and disciplines.",
+      "section": "Introduction (part 3)",
+      "repo": "001_4C_Multiphysics",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Mission\n\n4C Multiphysics is a modular, parallel and open-source simulation environment tailored to the needs of researchers and computational scientists to enable and accelerate research in computational science and engineering. Our mission is to:\n\nsupport the formulation and enable the rigorous study of complex single- and multiphysics models across spatial and temporal scales through a variety of physical models, numerical methods, and coupling algorithms with a strong focus on finite element methods and particle methods accompanied by comprehensive documentation, tutorials and a welcoming culture to ensure a low entry barrier;\n\ncurate and advance a modular and extensible framework to develop mathematical models for challenging real-world problems in science, engineering and biomedicine described by differential equations and to devise and implement novel numerical methods with a clear focus on methodological innovation and practical usability;\n\noffer a platform for both simulation practitioners, studying real-world problems through numerical simulation, as well as researchers in numerical modeling and computational methods, aiming at the development of accurate models and innovative numerical methods and their efficient software implementation in the support of complex real-world scenarios;\n\nenable parallel and scalable computations on workstations and clusters to increase efficiency and utilization of available hardware resources with a strong focus on medium- and large-scale practical applications;\n\nfoster a growing international research community in which engineers, scientists, and domain experts can cooperate, contribute, accelerate scientific discovery, and share advances in computational modeling and numerical method development and are committed to open scientific exchange, collaborative development, and sustainable software practices.",
+      "section": "Introduction (part 4)",
+      "repo": "001_4C_Multiphysics",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Getting started\n\nTo quickly run 4C, you can use our docker image, where 4C comes pre-compiled.\n\ndocker run --interactive --tty ghcr.io/4c-multiphysics/4c:main /home/user/4C/build/4C ../tests/input_files/.4C.yaml output_name\n\nSee our [documentation] https://4c-multiphysics.github.io/4C/documentation/installation/installation.html for more information on how to build 4C from source on your machine. Consult our [Tutorials] https://4c-multiphysics.github.io/4C/documentation/tutorials/tutorials.html to get an overview of the general workflow in 4C. Also have a look at related [projects/tools] https://4c-multiphysics.github.io/4C/documentation/tools/tools.html that work with 4C, e.g., tools that help with input generation or visualization.\n\n## Contributing\n\nIf you're interested in contributing to 4C, we welcome your collaboration. Please follow [our contributing guidelines] https://github.com/4C-multiphysics/4C/blob/main/CONTRIBUTING.md and [Code of Conduct] https://github.com/4C-multiphysics/4C/blob/main/CODE_OF_CONDUCT.md.\n\nIf you need help with 4C, feel free to ask questions in the [GitHub discussions] https://github.com/4C-multiphysics/4C/discussions.",
+      "section": "Introduction (part 5)",
+      "repo": "001_4C_Multiphysics",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## How to cite 4C\n\nPlease cite 4C as follows:\n\n4C: A Comprehensive Multiphysics Simulation Framework, https://www.4c-multiphysics.org\n\nYou could use the following BibTeX entry:\n\n@misc{4C,  author = {{4C}},  title = {{4C}: A {C}omprehensive {M}ultiphysics {S}imulation {F}ramework},  howpublished = {\\url{https://www.4c-multiphysics.org}},  year = {YEAR},  note = {Accessed: DATE} }\n\nWe kindly ask you to also give credit to the individual methods and algorithms used in 4C. References to the relevant publications can be found on the [4C website] https://4c-multiphysics.org or throughout the source code. If you need any assistance with finding suitable references, please feel free to reach out in the [4C Slack workspace] https://join.slack.com/t/4c-multiphysics/shared_invite/zt-1oi61jgdd-5tZuHku3Tb_BH5UBgojbpQ.\n\n## Disclaimer\n\n4C is developed for research purposes in the field of numerical method development. It is not intended for any use beyond this purpose and generally should not be used for any form of safety-relevant or safety-critical calculations or for an application in association with physical products in particular.",
+      "section": "Introduction (part 6)",
+      "repo": "001_4C_Multiphysics",
+      "source_file": "readme.md"
+    }
+  }
+]

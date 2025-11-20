@@ -1,0 +1,314 @@
+[
+  {
+    "data": {
+      "text": "Methods and open-source toolkit for analyzing and visualizing challenge results\n\n[Introduction] #introduction\n\n[Installation] #installation\n\n[Terms of use] #terms-of-use\n\n[Usage] #usage\n\n[Troubleshooting] #troubleshooting\n\n[Changes] #changes\n\n[Team] #team\n\n[Reference] #reference\n\nIntroduction\n\nThe current framework is a tool for analyzing and visualizing challenge results in the field of biomedical image analysis and beyond.\n\nBiomedical challenges have become the de facto standard for benchmarking biomedical image analysis algorithms. While the number of challenges is steadily increasing, surprisingly little effort has been invested in ensuring high quality design, execution and reporting for these international competitions. Specifically, results analysis and visualization in the event of uncertainties have been given almost no attention in the literature.\n\nGiven these shortcomings, the current framework aims to enable fast and wide adoption of comprehensively analyzing and visualizing the results of single-task and multi-task challenges. This approach offers an intuitive way to gain important insights into the relative and absolute performance of algorithms, which cannot be revealed by commonly applied visualization techniques.",
+      "section": "Introduction + Introduction",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Installation\n\nRequires R version &gt;= 3.5.2 ().\n\nFurther, a recent version of Pandoc (&gt;= 1.12.3) is required. RStudio () automatically includes this so you do not need to download Pandoc if you plan to use rmarkdown from the RStudio IDE, otherwise you\u2019ll need to install Pandoc for your platform (). Finally, if you want to generate a PDF report you will need to have LaTeX installed (e.g.\u00a0MiKTeX, MacTeX or TinyTeX).\n\nTo get the latest released version (master branch) of the R package from GitHub:\n\nif (!requireNamespace(\"devtools\", quietly = TRUE)) install.packages(\"devtools\") if (!requireNamespace(\"BiocManager\", quietly = TRUE)) install.packages(\"BiocManager\") BiocManager::install(\"Rgraphviz\", dependencies = TRUE) devtools::install_github(\"wiesenfa/challengeR\", dependencies = TRUE)\n\nIf you are asked whether you want to update installed packages and you type \u201ca\u201d for all, you might need administrator permissions to update R core packages. You can also try to type \u201cn\u201d for updating no packages. If you are asked \u201cDo you want to install from sources the packages which need compilation? (Yes/no/cancel)\u201d, you can safely type \u201cno\u201d.\n\nIf you get warning messages (in contrast to error messages), these might not be problematic and you can try to proceed. If you encounter errors during the setup, looking into the \u201cTroubleshooting\u201d section might be worth it.\n\nFor Linux users: Some system libraries might be missing. Check the output in the R console for further hints carefully during the installation of packages.",
+      "section": "Installation",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Terms of use\n\nCopyright (c) German Cancer Research Center (DKFZ). All rights reserved.\n\nchallengeR is available under license GPLv2 or any later version.\n\nIf you use this software for a publication, please cite:\n\nWiesenfarth, M., Reinke, A., Landman, B.A., Eisenmann, M., Aguilera Saiz, L., Cardoso, M.J., Maier-Hein, L. and Kopp-Schneider, A. Methods and open-source toolkit for analyzing and visualizing challenge results. Sci Rep 11, 2369 (2021).",
+      "section": "Terms of use",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Usage\n\nEach of the following steps has to be run to generate the report: (1) Load package, (2) load data, (3) perform ranking, (4) perform bootstrapping and (5) generation of the report\n\nYou can find R scripts for quickstart in the directory \u201cvignettes\u201d. An overview of all available plots is provided in the \u201cVisualizations\u201d vignette demonstrating the use of their corresponding plot functions as well.\n\nHere, we provide a step-by-step guide that leads you to your final report.\n\n## 1. Load package\n\nLoad package\n\nlibrary(challengeR)\n\n## 2. Load data\n\n### Data requirements\n\nData requires the following columns:\n\ntask identifier in case of multi-task challenges (string or\n\nnumeric) test case identifier (string or numeric)\n\nalgorithm identifier (string or numeric)\n\nmetric value (numeric)\n\nIn case of missing metric values, a missing observation has to be provided (either as blank field or \u201cNA\u201d).\n\nFor example, in a challenge with 2 tasks, 2 test cases and 2 algorithms, where in task \u201cT2\u201d, test case \u201ccase2\u201d, algorithm \u201cA2\u201d didn\u2019t give a prediction (and thus NA or a blank field for missing value is inserted), the data set might look like this:\n\n| Task | TestCase | Algorithm | MetricValue | |:-----|:---------|:----------|------------:| | T1 | case1 | A1 | 0.266 | | T1 | case1 | A2 | 0.202 | | T1 | case2 | A1 | 0.573 | | T1 | case2 | A2 | 0.945 | | T2 | case1 | A1 | 0.372 | | T2 | case1 | A2 | 0.898 | | T2 | case2 | A1 | 0.908 | | T2 | case2 | A2 | NA |",
+      "section": "Usage (part 1)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### 2.1 Load data from file\n\nIf you have assessment data at hand stored in a csv file (if you want to use simulated data, skip the following code line) use\n\ndata_matrix <- read.csv(file.choose()) # type ?read.csv for help\n\nThis allows to choose a file interactively, otherwise replace file.choose() by the file path (in style \u201c/path/to/dataset.csv\u201d) in quotation marks.",
+      "section": "Usage (part 2)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### 2.2 Simulate data\n\nIn the following, simulated data is generated instead for illustration purposes (skip the following code chunk if you have already loaded data). The data is also stored as \u201cinst/extdata/data\\_matrix.csv\u201d in the repository.\n\nif (!requireNamespace(\"permute\", quietly = TRUE)) install.packages(\"permute\")\n\nn <- 50\n\nset.seed(4) strip <- runif(n,.9,1) c_ideal <- cbind(task=\"c_ideal\",  rbind(  data.frame(alg_name=\"A1\",value=runif(n,.9,1),case=1:n),  data.frame(alg_name=\"A2\",value=runif(n,.8,.89),case=1:n),  data.frame(alg_name=\"A3\",value=runif(n,.7,.79),case=1:n),  data.frame(alg_name=\"A4\",value=runif(n,.6,.69),case=1:n),  data.frame(alg_name=\"A5\",value=runif(n,.5,.59),case=1:n)  ))\n\nset.seed(1) c_random <- data.frame(task=\"c_random\",  alg_name=factor(paste0(\"A\",rep(1:5,each=n))),  value=plogis(rnorm(5*n,1.5,1)),case=rep(1:n,times=5)  )\n\nstrip2 <- seq(.8,1,length.out=5) a <- permute::allPerms(1:5) c_worstcase <- data.frame(task=\"c_worstcase\",  alg_name=c(t(a)),  value=rep(strip2,nrow(a)),  case=rep(1:nrow(a),each=5)  ) c_worstcase <- rbind(c_worstcase,  data.frame(task=\"c_worstcase\",alg_name=1:5,value=strip2,case=max(c_worstcase$case)+1)  ) c_worstcase$alg_name <- factor(c_worstcase$alg_name,labels=paste0(\"A\",1:5))\n\ndata_matrix <- rbind(c_ideal, c_random, c_worstcase)\n\n## 3. Perform ranking\n\n### 3.1 Define challenge object\n\nCode differs slightly for single- and multi-task challenges.\n\nIn case of a single-task challenge use",
+      "section": "Usage (part 3)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Use only task \"c_random\" in object data_matrix dataSubset <- subset(data_matrix, task==\"c_random\")\n\nchallenge <- as.challenge(dataSubset,  # Specify which column contains the algorithms,   # which column contains a test case identifier   # and which contains the metric value:  algorithm = \"alg_name\", case = \"case\", value = \"value\",   # Specify if small metric values are better  smallBetter = FALSE)\n\nInstead, for a multi-task challenge use",
+      "section": "Use only task \"c_random\" in object data_matrix",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Same as above but with 'by=\"task\"' where variable \"task\" contains the task identifier challenge <- as.challenge(data_matrix,   by = \"task\",   algorithm = \"alg_name\", case = \"case\", value = \"value\",   smallBetter = FALSE)",
+      "section": "Same as above but with 'by=\"task\"' where variable \"task\" contains the task identifier (part 1)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### 3.2 Configure ranking\n\nDifferent ranking methods are available, choose one of them:\n\nfor \u201caggregate-then-rank\u201d use (here: take mean for aggregation)\n\nranking %aggregateThenRank(FUN = mean, # aggregation function,   # e.g. mean, median, min, max,   # or e.g. function(x) quantile(x, probs=0.05)  na.treat = 0, # either \"na.rm\" to remove missing data,   # set missings to numeric value (e.g. 0)   # or specify a function,   # e.g. function(x) min(x)  ties.method = \"min\" # a character string specifying   # how ties are treated, see ?base::rank  )\n\nalternatively, for \u201crank-then-aggregate\u201d with arguments as above\n\n(here: take mean for aggregation)\n\nranking %rankThenAggregate(FUN = mean,  ties.method = \"min\"  )\n\nalternatively, for test-then-rank based on Wilcoxon signed rank\n\ntest",
+      "section": "Same as above but with 'by=\"task\"' where variable \"task\" contains the task identifier (part 2)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "ranking %testThenRank(alpha = 0.05, # significance level  p.adjust.method = \"none\", # method for adjustment for  # multiple testing, see ?p.adjust  na.treat = 0, # either \"na.rm\" to remove missing data,  # set missings to numeric value (e.g. 0)  # or specify a function, e.g. function(x) min(x)  ties.method = \"min\" # a character string specifying  # how ties are treated, see ?base::rank  )",
+      "section": "Same as above but with 'by=\"task\"' where variable \"task\" contains the task identifier (part 3)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## 4. Perform bootstrapping\n\nPerform bootstrapping with 1000 bootstrap samples using one CPU\n\nset.seed(123, kind = \"L'Ecuyer-CMRG\") ranking_bootstrapped %bootstrap(nboot = 1000)\n\nIf you want to use multiple CPUs (here: 8 CPUs), use\n\nlibrary(doParallel) library(doRNG) registerDoParallel(cores = 8)  registerDoRNG(123) ranking_bootstrapped %bootstrap(nboot = 1000, parallel = TRUE, progress = \"none\") stopImplicitCluster()\n\n## 5. Generate the report\n\nGenerate report in PDF, HTML or DOCX format. Code differs slightly for single- and multi-task challenges.\n\n### 5.1 For single-task challenges\n\nranking_bootstrapped %>%   report(title = \"singleTaskChallengeExample\", # used for the title of the report  file = \"filename\",   format = \"PDF\", # format can be \"PDF\", \"HTML\" or \"Word\"  latex_engine = \"pdflatex\", #LaTeX engine for producing PDF output. Options are \"pdflatex\", \"lualatex\", and \"xelatex\"  clean = TRUE #optional. Using TRUE will clean intermediate files that are created during rendering.  )\n\nArgument file allows for specifying the output file path as well, otherwise the working directory is used. If file is specified but does not have a file extension, an extension will be automatically added according to the output format given in format. Using argument clean=FALSE allows to retain intermediate files, such as separate files for each figure.\n\nIf argument \u201cfile\u201d is omitted, the report is created in a temporary folder with file name \u201creport\u201d.\n\n### 5.2 For multi-task challenges\n\nSame as for single-task challenges, but additionally consensus ranking (rank aggregation across tasks) has to be given.\n\nCompute ranking consensus across tasks (here: consensus ranking according to mean ranks across tasks)",
+      "section": "Same as above but with 'by=\"task\"' where variable \"task\" contains the task identifier (part 4)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "See ?relation_consensus for different methods to derive consensus ranking meanRanks %consensus(method = \"euclidean\")  meanRanks # note that there may be ties (i.e. some algorithms have identical mean rank)\n\nGenerate report as above, but with additional specification of consensus ranking\n\nranking_bootstrapped %>%   report(consensus = meanRanks,  title = \"multiTaskChallengeExample\",  file = \"filename\",   format = \"PDF\", # format can be \"PDF\", \"HTML\" or \"Word\"  latex_engine = \"pdflatex\"#LaTeX engine for producing PDF output. Options are \"pdflatex\", \"lualatex\", and \"xelatex\"  )\n\nThe consensus ranking is given according to mean ranks across tasks if method=\u201ceuclidean\u201d where in case of ties (equal ranks for multiple algorithms) the average rank is used, i.e.\u00a0ties.method=\u201caverage\u201d.",
+      "section": "See ?relation_consensus for different methods to derive consensus ranking",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Troubleshooting\n\nIn this section we provide an overview of issues that the users reported and how they were solved.\n\n## Issues related to RStudio\n\n### Issue: Rtools is missing\n\nWhile trying to install the current version of the repository:\n\ndevtools::install_github(\"wiesenfa/challengeR\", dependencies = TRUE)\n\nThe following warning showed up in the output:\n\nWARNING: Rtools is required to build R packages, but is not currently installed.\n\nTherefore, Rtools was installed via a separate executable:  and the warning disappeared.\n\n#### Solution:\n\nActually there is no need of installing Rtools, it is not really used in the toolkit. Insted, choose not to install it when it is asked. See comment in the installation section:\n\n\u201cIf you are asked whether you want to update installed packages and you type \u201ca\u201d for all, you might need administrator rights to update R core packages. You can also try to type \u201cn\u201d for updating no packages. If you are asked \u201cDo you want to install from sources the packages which need compilation? (Yes/no/cancel)\u201d, you can safely type \u201cno\u201d.\u201d",
+      "section": "Troubleshooting (part 1)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Issue: Package versions are mismatching\n\nInstalling the current version of the tool from GitHub failed.\n\nThe error message was:\n\nbyte-compile and prepare package for lazy loading Error: (converted from warning) package 'ggplot2' was built under R version 3.6.3 Execution halted ERROR: lazy loading failed for package 'challengeR'  removing 'C:/Users/.../Documents/R/win-library/3.6/challengeR'  restoring previous 'C:/Users/.../Documents/R/win-library/3.6/challengeR' Error: Failed to install 'challengeR' from GitHub:  (converted from warning) installation of package 'C:/Users/.../AppData/Local/Temp/Rtmp615qmV/file4fd419555eb4/challengeR_0.3.1.tar.gz' had non-zero exit status\n\nThe problem was that some of the packages that were built under R3.6.1 had been updated, but the current installed version was still R3.6.1.\n\n#### Solution:\n\nThe solution was to update R3.6.1 to R3.6.3. Another way would have been to reset the single packages to the versions built under R3.6.1.\n\n### Issue: Package is missing\n\nInstalling the current version of the tool from GitHub failed.\n\ndevtools::install_github(\"wiesenfa/challengeR\", dependencies = TRUE)\n\nThe error message was:\n\nError: .onLoad failed in loadNamespace() for 'pkgload', details:  call: loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]])  error: there is no package called \u2018backports\u2019\n\nThe problem was that the packages \u2018backports\u2019 had not been installed.\n\n#### Solution:\n\nThe solution was to install \u2018backports\u2019 manually.\n\ninstall.packages(\"backports\")",
+      "section": "Troubleshooting (part 2)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Issue: Packages are not detected correctly\n\nWhile trying to install the package after running the following commands:\n\nif (!requireNamespace(\"devtools\", quietly = TRUE)) install.packages(\"devtools\") if (!requireNamespace(\"BiocManager\", quietly = TRUE)) install.packages(\"BiocManager\") BiocManager::install(\"Rgraphviz\", dependencies = TRUE) devtools::install_github(\"wiesenfa/challengeR\", dependencies = TRUE)\n\nThe error message was:\n\nERROR: 1: In file(con, \"r\") :  URL 'https://bioconductor.org/config.yaml': status was 'SSL connect error' 2: packages \u2018BiocVersion\u2019, \u2018Rgraphviz\u2019 are not available (for R version 3.6.1)\n\n#### Solution:\n\nThe solution was to restart RStudio.\n\n## Issues related to MiKTeX\n\n### Issue: Missing packages\n\nWhile generating the PDF with MiKTeX (2.9), the following error showed up:\n\nfatal pdflatex - gui framework cannot be initialized\n\nThere is an issue with installing missing packages in LaTeX.\n\n##### Solution:\n\nOpen your MiKTeX Console \u2013&gt; Settings, select \u201cAlways install missing packages on-the-fly\u201d. Then generate the report. Once the report is generated, you can reset the settings to your preferred ones.",
+      "section": "Troubleshooting (part 3)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Issue: Unable to generate report\n\nWhile generating the PDF with MiKTeX (2.9):\n\nranking_bootstrapped %>%   report(title = \"singleTaskChallengeExample\", # used for the title of the report  file = \"filename\",   format = \"PDF\", # format can be \"PDF\", \"HTML\" or \"Word\"  latex_engine = \"pdflatex\", #LaTeX engine for producing PDF output. Options are \"pdflatex\", \"lualatex\", and \"xelatex\"  clean = TRUE #optional. Using TRUE will clean intermediate files that are created during rendering.  )\n\nThe following error showed up:\n\noutput file: filename.knit.md\n\n\"C:/Program Files/RStudio/bin/pandoc/pandoc\" +RTS -K512m -RTS filename.utf8.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output filename.tex --self-contained --number-sections --highlight-style tango --pdf-engine pdflatex --variable graphics --lua-filter \"C:/Users/adm/Documents/R/win-library/3.6/rmarkdown/rmd/lua/pagebreak.lua\" --lua-filter \"C:/Users/adm/Documents/R/win-library/3.6/rmarkdown/rmd/lua/latex-div.lua\" --variable \"geometry:margin=1in\"\n\nError: LaTeX failed to compile filename.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips.\n\nWarning message: In system2(..., stdout = if (use_file_stdout()) f1 else FALSE, stderr = f2) :  '\"pdflatex\"' not found\n\n#### Solution:\n\nThe solution was to restart RStudio.",
+      "section": "Troubleshooting (part 4)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Changes\n\n#### Version 1.0.5\n\nEnsure reproducibility with parallel bootstrapping\n\n([T29361] https://phabricator.mitk.org/T29361)\n\n#### Version 1.0.4\n\nFix NaN values cause error\n\n([T28746] https://phabricator.mitk.org/T28746) Fix Bars and dots don\u2019t match in podium plot\n\n([T29167] https://phabricator.mitk.org/T29167) Fix y-axis of blob plots always scaled to 5\n\n([T28966] https://phabricator.mitk.org/T28966)\n\n#### Version 1.0.3\n\nFix ggplot warning in various places of the report\n\n([T28710] https://phabricator.mitk.org/T28710)\n\n#### Version 1.0.2\n\nFix error when all metric values are the same\n\n([T28453] https://phabricator.mitk.org/T28453) Fix wrong number of algorithms shown in report summary\n\n([T28465] https://phabricator.mitk.org/T28465)\n\n#### Version 1.0.1\n\nFix error raised in case there are more tasks than algorithms\n\ncontained in the dataset  ([T28193] https://phabricator.mitk.org/T28193) Drop restriction that at least three algorithms are required for\n\nbootstrapping ([T28194] https://phabricator.mitk.org/T28194) Avoid blank pages in PDF report when bootstrapping is disabled\n\n([T28201] https://phabricator.mitk.org/T28201) Handle tasks having only one case for bootstrapping\n\n([T28202] https://phabricator.mitk.org/T28202) Update citation ([T28210] https://phabricator.mitk.org/T28210)",
+      "section": "Changes (part 1)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### Version 1.0.0\n\nRevision of the underlying data structure\n\nRoxygen documentation for main functionality\n\nVignettes for quickstart and overview of available plots\n\ndemonstrating the use of their corresponding plot functions Introduction of unit tests (package coverage &gt;70%)\n\nTroubleshooting section covering potential issues during setup\n\nFinally: Extensive bug fixes and improvements (for a complete\n\noverview please check the [Phabricator  tasks] https://phabricator.mitk.org/search/query/vtj0qOqH5qL6/)\n\n#### Version 0.3.3\n\nForce line break to avoid that authors exceed the page in generated\n\nPDF reports\n\n#### Version 0.3.2\n\nCorrect names of authors\n\n#### Version 0.3.1\n\nRefactoring\n\n#### Version 0.3.0\n\nMajor bug fix release\n\n#### Version 0.2.5\n\nBug fixes\n\n#### Version 0.2.4\n\nAutomatic insertion of missings",
+      "section": "Changes (part 2)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### Version 0.2.3\n\nBug fixes\n\nReports for subsets (top list) of algorithms: Use\n\ne.g.\u00a0subset(ranking_bootstrapped, top=3) %>% report(...) (or  subset(ranking, top=3) %>% report(...) for report without  bootstrap results) to only show the top 3 algorithms according to  the chosen ranking methods, where ranking_bootstrapped and  ranking objects as defined in the example. Line plot for ranking  robustness can be used to check whether algorithms performing well  in other ranking methods are excluded. Bootstrapping still takes  entire uncertainty into account. Podium plot and ranking heatmap  neglect excluded algorithms. Only available for single-task  challenges (for multi-task challenges not sensible because each task  would contain a different set of algorithms). Reports for subsets of tasks: Use\n\ne.g.\u00a0subset(ranking_bootstrapped, tasks=c(\"task1\", \"task2\",\"task3\")) %>% report(...)  to restrict report to tasks \u201ctask1\u201d, \u201ctask2\u201d,\"task3. You may want to  recompute the consensus ranking before using  meanRanks=subset(ranking, tasks=c(\"task1\", \"task2\", \"task3\"))%>%consensus(method = \"euclidean\")\n\n#### Version 0.2.1\n\nIntroduction in reports now mentions e.g.\u00a0ranking method, number of\n\ntest cases,\u2026 Function subset() allows selection of tasks after bootstrapping,\n\ne.g.\u00a0subset(ranking_bootstrapped,1:3) report() functions gain argument colors (default:\n\ndefault_colors). Change e.g.\u00a0to colors=viridisLite::inferno  which \u201cis designed in such a way that it will analytically be  perfectly perceptually-uniform, both in regular form and also when  converted to black-and-white. It is also designed to be perceived by  readers with the most common form of color blindness.\u201d See package  viridis for further similar functions.",
+      "section": "Changes (part 3)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### Version 0.2.0\n\nImproved layout in case of many algorithms and tasks (while probably\n\nstill not perfect) Consistent coloring of algorithms across figures\n\nreport() function can be applied to ranked object before\n\nbootstrapping (and thus excluding figures based on bootstrapping),  i.e.\u00a0in the example ranking %>% report(...) bug fixes",
+      "section": "Changes (part 4)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Team\n\nThe developer team includes members from both division of Intelligent Medical Systems (IMSY) and Biostatistics at the German Cancer Research Center (DKFZ):\n\nManuel Wiesenfarth\n\nAnnette Kopp-Schneider\n\nAnnika Reinke\n\nMatthias Eisenmann\n\nLaura Aguilera Saiz\n\nElise R\u00e9c\u00e9jac\n\nLena Maier-Hein\n\nAli Emre Kavur\n\nReference\n\nWiesenfarth, M., Reinke, A., Landman, B.A., Eisenmann, M., Aguilera Saiz, L., Cardoso, M.J., Maier-Hein, L. and Kopp-Schneider, A. Methods and open-source toolkit for analyzing and visualizing challenge results. Sci Rep 11, 2369 (2021).",
+      "section": "Team + Reference",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "title: \"Methods and open-source toolkit for analyzing and visualizing challenge results\" output:  github_document:  toc: yes  toc_depth: '1'  html_document:  toc: yes  toc_depth: '1'  pdf_document:  toc: yes  toc_depth: '1' editor_options:  chunk_output_type: console\n\n```{r, echo = FALSE} knitr::opts_chunk$set(  collapse = TRUE,  comment = \"#>\",  # fig.path = \"README-\",  fig.width = 9,  fig.height = 5,  width=160 )\n\nThe current framework is a tool for analyzing and visualizing challenge results in the field of biomedical image analysis and beyond.\n\nBiomedical challenges have become the de facto standard for benchmarking biomedical image analysis algorithms. While the number of challenges is steadily increasing, surprisingly little effort has been invested in ensuring high quality design, execution and reporting for these international competitions. Specifically, results analysis and visualization in the event of uncertainties have been given almost no attention in the literature.\n\nGiven these shortcomings, the current framework aims to enable fast and wide adoption of comprehensively analyzing and visualizing the results of single-task and multi-task challenges. This approach offers an intuitive way to gain important insights into the relative and absolute performance of algorithms, which cannot be revealed by commonly applied visualization techniques.",
+      "section": "Introduction + Introduction",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    }
+  },
+  {
+    "data": {
+      "text": "Installation\n\nRequires R version >= 3.5.2 (https://www.r-project.org).\n\nFurther, a recent version of Pandoc (>= 1.12.3) is required. RStudio (https://rstudio.com) automatically includes this so you do not need to download Pandoc if you plan to use rmarkdown from the RStudio IDE, otherwise you\u2019ll need to install Pandoc for your platform (https://pandoc.org/installing.html). Finally, if you want to generate a PDF report you will need to have LaTeX installed (e.g. MiKTeX, MacTeX or TinyTeX).\n\nTo get the latest released version (master branch) of the R package from GitHub:\n\n```{r, eval=F,R.options,} if (!requireNamespace(\"devtools\", quietly = TRUE)) install.packages(\"devtools\") if (!requireNamespace(\"BiocManager\", quietly = TRUE)) install.packages(\"BiocManager\") BiocManager::install(\"Rgraphviz\", dependencies = TRUE) devtools::install_github(\"wiesenfa/challengeR\", dependencies = TRUE)\n\nIf you are asked whether you want to update installed packages and you type \"a\" for all, you might need administrator permissions to update R core packages. You can also try to type \"n\" for updating no packages. If you are asked \"Do you want to install from sources the packages which need compilation? (Yes/no/cancel)\", you can safely type \"no\".\n\nIf you get warning messages (in contrast to error messages), these might not be problematic and you can try to proceed. If you encounter errors during the setup, looking into the \"Troubleshooting\" section might be worth it.\n\nFor Linux users: Some system libraries might be missing. Check the output in the R console for further hints carefully during the installation of packages.",
+      "section": "Installation",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    }
+  },
+  {
+    "data": {
+      "text": "Terms of use Copyright (c) German Cancer Research Center (DKFZ). All rights reserved.\n\nchallengeR is available under license GPLv2 or any later version.\n\nIf you use this software for a publication, please cite:\n\nWiesenfarth, M., Reinke, A., Landman, B.A., Eisenmann, M., Aguilera Saiz, L., Cardoso, M.J., Maier-Hein, L. and Kopp-Schneider, A. Methods and open-source toolkit for analyzing and visualizing challenge results. Sci Rep 11, 2369 (2021). https://doi.org/10.1038/s41598-021-82017-6",
+      "section": "Terms of use",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    }
+  },
+  {
+    "data": {
+      "text": "Usage Each of the following steps has to be run to generate the report: (1) Load package, (2) load data, (3) perform ranking, (4) perform bootstrapping and (5) generation of the report\n\nYou can find R scripts for quickstart in the directory \"vignettes\". An overview of all available plots is provided in the \"Visualizations\" vignette demonstrating the use of their corresponding plot functions as well.\n\nHere, we provide a step-by-step guide that leads you to your final report.\n\n## 1. Load package\n\nLoad package ``{r, eval=F} library(challengeR)\n\n## 2. Load data\n\n### Data requirements\n\nData requires the following columns:\n\ntask identifier in case of multi-task challenges (string or numeric)  test case identifier (string or numeric)  algorithm identifier (string or numeric)  metric value (numeric)\n\nIn case of missing metric values, a missing observation has to be provided (either as blank field or \"NA\").\n\nFor example, in a challenge with 2 tasks, 2 test cases and 2 algorithms, where in task \"T2\", test case \"case2\", algorithm \"A2\" didn't give a prediction (and thus NA or a blank field for missing value is inserted), the data set might look like this:\n\n`{r, eval=T, echo=F,results='asis'} set.seed(1) a <- cbind(expand.grid(Task=paste0(\"T\",1:2),TestCase=paste0(\"case\",1:2),Algorithm=paste0(\"A\",1:2)),MetricValue=round(c(runif(7,0,1),NA),3)) print(knitr::kable(a[order(a$Task,a$TestCase,a$Algorithm),],row.names=F))\n\n### 2.1 Load data from file\n\nIf you have assessment data at hand stored in a csv file (if you want to use simulated data, skip the following code line) use ``{r, eval=F, echo=T} data_matrix <- read.csv(file.choose()) # type ?read.csv for help\n\nThis allows to choose a file interactively, otherwise replace file.choose() by the file path (in style \"/path/to/dataset.csv\") in quotation marks.",
+      "section": "Usage (part 1)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    }
+  },
+  {
+    "data": {
+      "text": "### 2.2 Simulate data\n\nIn the following, simulated data is generated instead for illustration purposes (skip the following code chunk if you have already loaded data). The data is also stored as \"inst/extdata/data_matrix.csv\" in the repository. ``{r, eval=F, echo=T} if (!requireNamespace(\"permute\", quietly = TRUE)) install.packages(\"permute\")\n\nn <- 50\n\nset.seed(4) strip <- runif(n,.9,1) c_ideal <- cbind(task=\"c_ideal\",  rbind(  data.frame(alg_name=\"A1\",value=runif(n,.9,1),case=1:n),  data.frame(alg_name=\"A2\",value=runif(n,.8,.89),case=1:n),  data.frame(alg_name=\"A3\",value=runif(n,.7,.79),case=1:n),  data.frame(alg_name=\"A4\",value=runif(n,.6,.69),case=1:n),  data.frame(alg_name=\"A5\",value=runif(n,.5,.59),case=1:n)  ))\n\nset.seed(1) c_random <- data.frame(task=\"c_random\",  alg_name=factor(paste0(\"A\",rep(1:5,each=n))),  value=plogis(rnorm(5*n,1.5,1)),case=rep(1:n,times=5)  )\n\nstrip2 <- seq(.8,1,length.out=5) a <- permute::allPerms(1:5) c_worstcase <- data.frame(task=\"c_worstcase\",  alg_name=c(t(a)),  value=rep(strip2,nrow(a)),  case=rep(1:nrow(a),each=5)  ) c_worstcase <- rbind(c_worstcase,  data.frame(task=\"c_worstcase\",alg_name=1:5,value=strip2,case=max(c_worstcase$case)+1)  ) c_worstcase$alg_name <- factor(c_worstcase$alg_name,labels=paste0(\"A\",1:5))\n\ndata_matrix <- rbind(c_ideal, c_random, c_worstcase)\n\n## 3. Perform ranking\n\n### 3.1 Define challenge object\n\nCode differs slightly for single- and multi-task challenges.\n\nIn case of a single-task challenge use\n\n``{r, eval=F, echo=T}",
+      "section": "Usage (part 2)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    }
+  },
+  {
+    "data": {
+      "text": "Use only task \"c_random\" in object data_matrix dataSubset <- subset(data_matrix, task==\"c_random\")\n\nchallenge <- as.challenge(dataSubset,  # Specify which column contains the algorithms,   # which column contains a test case identifier   # and which contains the metric value:  algorithm = \"alg_name\", case = \"case\", value = \"value\",   # Specify if small metric values are better  smallBetter = FALSE)\n\nInstead, for a multi-task challenge use\n\n```{r, eval=F, echo=T}",
+      "section": "Use only task \"c_random\" in object data_matrix",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    }
+  },
+  {
+    "data": {
+      "text": "### 3.2 Configure ranking\n\nDifferent ranking methods are available, choose one of them:\n\nfor \"aggregate-then-rank\" use (here: take mean for aggregation)\n\n``{r, eval=F, echo=T} ranking %aggregateThenRank(FUN = mean, # aggregation function,   # e.g. mean, median, min, max,   # or e.g. function(x) quantile(x, probs=0.05)  na.treat = 0, # either \"na.rm\" to remove missing data,   # set missings to numeric value (e.g. 0)   # or specify a function,   # e.g. function(x) min(x)  ties.method = \"min\" # a character string specifying   # how ties are treated, see ?base::rank  )\n\nalternatively, for \"rank-then-aggregate\" with arguments as above (here: take mean for aggregation)\n\n``{r, eval=F, echo=T} ranking %rankThenAggregate(FUN = mean,  ties.method = \"min\"  )",
+      "section": "Same as above but with 'by=\"task\"' where variable \"task\" contains the task identifier (part 2)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    }
+  },
+  {
+    "data": {
+      "text": "alternatively, for test-then-rank based on Wilcoxon signed rank test\n\n```{r, eval=F, echo=T} ranking %testThenRank(alpha = 0.05, # significance level  p.adjust.method = \"none\", # method for adjustment for  # multiple testing, see ?p.adjust  na.treat = 0, # either \"na.rm\" to remove missing data,  # set missings to numeric value (e.g. 0)  # or specify a function, e.g. function(x) min(x)  ties.method = \"min\" # a character string specifying  # how ties are treated, see ?base::rank  )",
+      "section": "Same as above but with 'by=\"task\"' where variable \"task\" contains the task identifier (part 3)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    }
+  },
+  {
+    "data": {
+      "text": "## 4. Perform bootstrapping\n\nPerform bootstrapping with 1000 bootstrap samples using one CPU ``{r, eval=F, echo=T} set.seed(123, kind = \"L'Ecuyer-CMRG\") ranking_bootstrapped %bootstrap(nboot = 1000)\n\nIf you want to use multiple CPUs (here: 8 CPUs), use\n\n`{r, eval=F, echo=T} library(doParallel) library(doRNG) registerDoParallel(cores = 8)  registerDoRNG(123) ranking_bootstrapped %bootstrap(nboot = 1000, parallel = TRUE, progress = \"none\") stopImplicitCluster()\n\n## 5. Generate the report\n\nGenerate report in PDF, HTML or DOCX format. Code differs slightly for single- and multi-task challenges.\n\n### 5.1 For single-task challenges\n\n`{r, eval=F, echo=T} ranking_bootstrapped %>%   report(title = \"singleTaskChallengeExample\", # used for the title of the report  file = \"filename\",   format = \"PDF\", # format can be \"PDF\", \"HTML\" or \"Word\"  latex_engine = \"pdflatex\", #LaTeX engine for producing PDF output. Options are \"pdflatex\", \"lualatex\", and \"xelatex\"  clean = TRUE #optional. Using TRUE will clean intermediate files that are created during rendering.  )\n\nArgument file allows for specifying the output file path as well, otherwise the working directory is used. If file is specified but does not have a file extension, an extension will be automatically added according to the output format given in format.  Using argument clean=FALSE allows to retain intermediate files, such as separate files for each figure.\n\nIf argument \"file\" is omitted, the report is created in a temporary folder with file name \"report\".\n\n### 5.2 For multi-task challenges\n\nSame as for single-task challenges, but additionally consensus ranking (rank aggregation across tasks) has to be given.\n\nCompute ranking consensus across tasks (here: consensus ranking according to mean ranks across tasks)   ``{r, eval=F, echo=T}",
+      "section": "Same as above but with 'by=\"task\"' where variable \"task\" contains the task identifier (part 4)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    }
+  },
+  {
+    "data": {
+      "text": "See ?relation_consensus for different methods to derive consensus ranking meanRanks %consensus(method = \"euclidean\")  meanRanks # note that there may be ties (i.e. some algorithms have identical mean rank)\n\nGenerate report as above, but with additional specification of consensus ranking ```{r, eval=F, echo=T} ranking_bootstrapped %>%   report(consensus = meanRanks,  title = \"multiTaskChallengeExample\",  file = \"filename\",   format = \"PDF\", # format can be \"PDF\", \"HTML\" or \"Word\"  latex_engine = \"pdflatex\"#LaTeX engine for producing PDF output. Options are \"pdflatex\", \"lualatex\", and \"xelatex\"  )\n\nThe consensus ranking is given according to mean ranks across tasks if method=\"euclidean\" where in case of ties (equal ranks for multiple algorithms) the average rank is used, i.e. ties.method=\"average\".",
+      "section": "See ?relation_consensus for different methods to derive consensus ranking",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    }
+  },
+  {
+    "data": {
+      "text": "Troubleshooting\n\nIn this section we provide an overview of issues that the users reported and how they were solved.\n\n## Issues related to RStudio\n\n### Issue: Rtools is missing\n\nWhile trying to install the current version of the repository:\n\n``{r, eval=F, echo=T} devtools::install_github(\"wiesenfa/challengeR\", dependencies = TRUE)\n\nThe following warning showed up in the output: ``{r, eval=F, echo=T} WARNING: Rtools is required to build R packages, but is not currently installed.\n\nTherefore, Rtools was installed via a separate executable: https://cran.r-project.org/bin/windows/Rtools/ and the warning disappeared.   #### Solution:\n\nActually there is no need of installing Rtools, it is not really used in the toolkit. Insted, choose not to install it when it is asked. See comment in the installation section:\n\n\u201cIf you are asked whether you want to update installed packages and you type \u201ca\u201d for all, you might need administrator rights to update R core packages. You can also try to type \u201cn\u201d for updating no packages. If you are asked \u201cDo you want to install from sources the packages which need compilation? (Yes/no/cancel)\u201d, you can safely type \u201cno\u201d.\u201d",
+      "section": "Troubleshooting (part 1)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    }
+  },
+  {
+    "data": {
+      "text": "### Issue: Package versions are mismatching\n\nInstalling the current version of the tool from GitHub failed.\n\nThe error message was:\n\n``{r, eval=F, echo=T} byte-compile and prepare package for lazy loading Error: (converted from warning) package 'ggplot2' was built under R version 3.6.3 Execution halted ERROR: lazy loading failed for package 'challengeR'  removing 'C:/Users/.../Documents/R/win-library/3.6/challengeR'  restoring previous 'C:/Users/.../Documents/R/win-library/3.6/challengeR' Error: Failed to install 'challengeR' from GitHub:  (converted from warning) installation of package 'C:/Users/.../AppData/Local/Temp/Rtmp615qmV/file4fd419555eb4/challengeR_0.3.1.tar.gz' had non-zero exit status\n\nThe problem was that some of the packages that were built under R3.6.1 had been updated, but the current installed version was still R3.6.1.\n\n#### Solution:\n\nThe solution was to update R3.6.1 to R3.6.3. Another way would have been to reset the single packages to the versions built under R3.6.1.\n\n### Issue: Package is missing\n\nInstalling the current version of the tool from GitHub failed.\n\n`{r, eval=F, echo=T}  devtools::install_github(\"wiesenfa/challengeR\", dependencies = TRUE)\n\nThe error message was:\n\n`{r, eval=F, echo=T} Error: .onLoad failed in loadNamespace() for 'pkgload', details:  call: loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]])  error: there is no package called \u2018backports\u2019\n\nThe problem was that the packages 'backports' had not been installed.\n\n#### Solution:\n\nThe solution was to install 'backports' manually.\n\n``{r, eval=F, echo=T}  install.packages(\"backports\")",
+      "section": "Troubleshooting (part 2)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    }
+  },
+  {
+    "data": {
+      "text": "### Issue: Packages are not detected correctly\n\nWhile trying to install the package after running the following commands:\n\n``{r, eval=F, echo=T} if (!requireNamespace(\"devtools\", quietly = TRUE)) install.packages(\"devtools\") if (!requireNamespace(\"BiocManager\", quietly = TRUE)) install.packages(\"BiocManager\") BiocManager::install(\"Rgraphviz\", dependencies = TRUE) devtools::install_github(\"wiesenfa/challengeR\", dependencies = TRUE)\n\nThe error message was:\n\n`{r, eval=F, echo=T} ERROR: 1: In file(con, \"r\") :  URL 'https://bioconductor.org/config.yaml': status was 'SSL connect error' 2: packages \u2018BiocVersion\u2019, \u2018Rgraphviz\u2019 are not available (for R version 3.6.1)\n\n#### Solution:\n\nThe solution was to restart RStudio.\n\n## Issues related to MiKTeX\n\n### Issue: Missing packages\n\nWhile generating the PDF with MiKTeX (2.9), the following error showed up:\n\n``{r, eval=F, echo=T} fatal pdflatex - gui framework cannot be initialized\n\nThere is an issue with installing missing packages in LaTeX.\n\n##### Solution:\n\nOpen your MiKTeX Console --> Settings, select \"Always install missing packages on-the-fly\". Then generate the report. Once the report is generated, you can reset the settings to your preferred ones.",
+      "section": "Troubleshooting (part 3)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    }
+  },
+  {
+    "data": {
+      "text": "### Issue: Unable to generate report\n\nWhile generating the PDF with MiKTeX (2.9):\n\n``{r, eval=F, echo=T} ranking_bootstrapped %>%   report(title = \"singleTaskChallengeExample\", # used for the title of the report  file = \"filename\",   format = \"PDF\", # format can be \"PDF\", \"HTML\" or \"Word\"  latex_engine = \"pdflatex\", #LaTeX engine for producing PDF output. Options are \"pdflatex\", \"lualatex\", and \"xelatex\"  clean = TRUE #optional. Using TRUE will clean intermediate files that are created during rendering.  )\n\nThe following error showed up:\n\n``{r, eval=F, echo=T} output file: filename.knit.md\n\n\"C:/Program Files/RStudio/bin/pandoc/pandoc\" +RTS -K512m -RTS filename.utf8.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output filename.tex --self-contained --number-sections --highlight-style tango --pdf-engine pdflatex --variable graphics --lua-filter \"C:/Users/adm/Documents/R/win-library/3.6/rmarkdown/rmd/lua/pagebreak.lua\" --lua-filter \"C:/Users/adm/Documents/R/win-library/3.6/rmarkdown/rmd/lua/latex-div.lua\" --variable \"geometry:margin=1in\"\n\nError: LaTeX failed to compile filename.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips.\n\nWarning message: In system2(..., stdout = if (use_file_stdout()) f1 else FALSE, stderr = f2) :  '\"pdflatex\"' not found\n\n#### Solution:\n\nThe solution was to restart RStudio.",
+      "section": "Troubleshooting (part 4)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    }
+  },
+  {
+    "data": {
+      "text": "Changes\n\n#### Version 1.0.5\n\nEnsure reproducibility with parallel bootstrapping ([T29361] https://phabricator.mitk.org/T29361)\n\n#### Version 1.0.4\n\nFix NaN values cause error ([T28746] https://phabricator.mitk.org/T28746)\n\nFix Bars and dots don't match in podium plot ([T29167] https://phabricator.mitk.org/T29167)\n\nFix y-axis of blob plots always scaled to 5 ([T28966] https://phabricator.mitk.org/T28966)\n\n#### Version 1.0.3\n\nFix ggplot warning in various places of the report ([T28710] https://phabricator.mitk.org/T28710)\n\n#### Version 1.0.2\n\nFix error when all metric values are the same ([T28453] https://phabricator.mitk.org/T28453)\n\nFix wrong number of algorithms shown in report summary ([T28465] https://phabricator.mitk.org/T28465)\n\n#### Version 1.0.1\n\nFix error raised in case there are more tasks than algorithms contained in the dataset ([T28193] https://phabricator.mitk.org/T28193)\n\nDrop restriction that at least three algorithms are required for bootstrapping ([T28194] https://phabricator.mitk.org/T28194)\n\nAvoid blank pages in PDF report when bootstrapping is disabled ([T28201] https://phabricator.mitk.org/T28201)\n\nHandle tasks having only one case for bootstrapping ([T28202] https://phabricator.mitk.org/T28202)\n\nUpdate citation ([T28210] https://phabricator.mitk.org/T28210)\n\n#### Version 1.0.0\n\nRevision of the underlying data structure\n\nRoxygen documentation for main functionality\n\nVignettes for quickstart and overview of available plots demonstrating the use of their corresponding plot functions\n\nIntroduction of unit tests (package coverage >70%)\n\nTroubleshooting section covering potential issues during setup\n\nFinally: Extensive bug fixes and improvements (for a complete overview please check the [Phabricator tasks] https://phabricator.mitk.org/search/query/vtj0qOqH5qL6/)",
+      "section": "Changes (part 1)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    }
+  },
+  {
+    "data": {
+      "text": "#### Version 0.3.3\n\nForce line break to avoid that authors exceed the page in generated PDF reports\n\n#### Version 0.3.2\n\nCorrect names of authors\n\n#### Version 0.3.1\n\nRefactoring\n\n#### Version 0.3.0\n\nMajor bug fix release\n\n#### Version 0.2.5\n\nBug fixes\n\n#### Version 0.2.4\n\nAutomatic insertion of missings\n\n#### Version 0.2.3\n\nBug fixes\n\nReports for subsets (top list) of algorithms: Use e.g. subset(ranking_bootstrapped, top=3) %>% report(...) (or subset(ranking, top=3) %>% report(...) for report without bootstrap results) to only show the top 3 algorithms according to the chosen ranking methods, where ranking_bootstrapped and ranking objects as defined in the example. Line plot for ranking robustness can be used to check whether algorithms performing well in other ranking methods are excluded. Bootstrapping still takes entire uncertainty into account. Podium plot and ranking heatmap neglect excluded algorithms. Only available for single-task challenges (for multi-task challenges not sensible because each task would contain a different set of algorithms).\n\nReports for subsets of tasks: Use e.g. subset(ranking_bootstrapped, tasks=c(\"task1\", \"task2\",\"task3\")) %>% report(...) to restrict report to tasks \"task1\", \"task2\",\"task3. You may want to recompute the consensus ranking before using meanRanks=subset(ranking, tasks=c(\"task1\", \"task2\", \"task3\"))%>%consensus(method = \"euclidean\")",
+      "section": "Changes (part 2)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    }
+  },
+  {
+    "data": {
+      "text": "#### Version 0.2.1\n\nIntroduction in reports now mentions e.g. ranking method, number of test cases,...\n\nFunction subset() allows selection of tasks after bootstrapping, e.g. subset(ranking_bootstrapped,1:3)\n\nreport() functions gain argument colors (default: default_colors). Change e.g. to colors=viridisLite::inferno which \"is designed in such a way that it will analytically be perfectly perceptually-uniform, both in regular form and also when converted to black-and-white. It is also designed to be perceived by readers with the most common form of color blindness.\" See package viridis for further similar functions.\n\n#### Version 0.2.0\n\nImproved layout in case of many algorithms and tasks (while probably still not perfect)\n\nConsistent coloring of algorithms across figures\n\nreport() function can be applied to ranked object before bootstrapping (and thus excluding figures based on bootstrapping), i.e. in the example ranking %>% report(...)\n\nbug fixes",
+      "section": "Changes (part 3)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    }
+  },
+  {
+    "data": {
+      "text": "Team\n\nThe developer team includes members from both division of Intelligent Medical Systems (IMSY) and Biostatistics at the German Cancer Research Center (DKFZ):\n\nManuel Wiesenfarth\n\nAnnette Kopp-Schneider\n\nAnnika Reinke\n\nMatthias Eisenmann\n\nLaura Aguilera Saiz\n\nElise R\u00e9c\u00e9jac\n\nLena Maier-Hein\n\nAli Emre Kavur\n\nReference\n\nWiesenfarth, M., Reinke, A., Landman, B.A., Eisenmann, M., Aguilera Saiz, L., Cardoso, M.J., Maier-Hein, L. and Kopp-Schneider, A. Methods and open-source toolkit for analyzing and visualizing challenge results. Sci Rep 11, 2369 (2021). https://doi.org/10.1038/s41598-021-82017-6",
+      "section": "Team + Reference",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    }
+  }
+]

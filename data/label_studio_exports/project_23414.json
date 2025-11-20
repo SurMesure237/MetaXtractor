@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1813,
+    "annotations": [
+      {
+        "id": 11897,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 639,
+              "end": 663,
+              "text": "https://rcenvironment.de",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "8tfym-iYPK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 768,
+              "end": 806,
+              "text": "http://opensource.org/licenses/EPL-1.0",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "iIuJNY6yWv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 738,
+              "end": 760,
+              "text": "Eclipse Public License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "695fSPo-3W",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:29:27.935084Z",
+        "updated_at": "2025-11-09T06:29:27.935098Z",
+        "draft_created_at": "2025-11-09T06:28:55.135332Z",
+        "lead_time": 44.11,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "271249c3-da21-4cb3-ace6-c0f6b878d979",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1813,
+        "project": 23414,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[!IMPORTANT] Starting with the RCE 10.4.0 release, this original repository was split into two. The public mirror of the main RCE project code is now provided at https://github.com/rcenvironment/rce-main. This repository is kept for historical reference up to the 10.4.0 release only.\n\n## About RCE\n\nRCE is a distributed, workflow-driven integration environment. It is used by engineers and scientists to analyze, optimize, and design complex systems (e.g., aircraft, ships, or satellites). Using RCE, they can combine their specialized design and simulation tools into distributed workflows.\n\nSoftware website: [https://rcenvironment.de] https://rcenvironment.de\n\n## License\n\nRCE is Open Source Software provided under the terms of the [Eclipse Public License (EPL)] http://opensource.org/licenses/EPL-1.0. This source repository as well as related releases also contain software covered by other open source licenses. More information is available in embedded licensing files.",
+      "section": "README",
+      "repo": "438_RCE",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.916444Z",
+    "updated_at": "2025-11-09T06:29:27.965892Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23414,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

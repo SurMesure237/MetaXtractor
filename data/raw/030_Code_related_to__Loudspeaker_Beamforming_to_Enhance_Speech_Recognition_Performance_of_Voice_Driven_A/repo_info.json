@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/D1mme/LoudspeakerBeamformingForVoiceDrivenApplications",
+  "programmingLanguage": "MATLAB",
+  "programmingLanguages": [
+    "MATLAB"
+  ],
+  "downloadUrl": "https://api.github.com/repos/D1mme/LoudspeakerBeamformingForVoiceDrivenApplications/zipball/main",
+  "author": "D1mme",
+  "dateCreated": "2024-11-29T13:45:11Z",
+  "dateModified": "2025-05-02T06:42:44Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "This repository contains the MATLAB code corresponding to the submitted paper \"Loudspeaker beamforming to enhance speech recognition performance of voice driven applications\"",
+  "identifier": 896073696,
+  "name": "D1mme/LoudspeakerBeamformingForVoiceDrivenApplications",
+  "issueTracker": "https://api.github.com/repos/D1mme/LoudspeakerBeamformingForVoiceDrivenApplications/issues",
+  "readme": "https://github.com/D1mme/LoudspeakerBeamformingForVoiceDrivenApplications/blob/main/README.md"
+}

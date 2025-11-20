@@ -1,0 +1,30 @@
+{
+  "codeRepository": "https://github.com/HPSCTerrSys/TSMP",
+  "programmingLanguage": "Fortran",
+  "programmingLanguages": [
+    "Fortran",
+    "Shell",
+    "C",
+    "Tcl",
+    "Makefile",
+    "Perl",
+    "HTML",
+    "Cuda",
+    "C++",
+    "MATLAB",
+    "CMake",
+    "Gnuplot",
+    "BitBake"
+  ],
+  "downloadUrl": "https://api.github.com/repos/HPSCTerrSys/TSMP/zipball/main",
+  "author": "HPSCTerrSys",
+  "dateCreated": "2019-12-02T17:09:08Z",
+  "dateModified": "2025-09-21T07:10:21Z",
+  "keywords": [],
+  "license": null,
+  "description": "Terrestrial Systems Modelling Platform (TSMP or TerrSysMP)",
+  "identifier": 225427792,
+  "name": "HPSCTerrSys/TSMP",
+  "issueTracker": "https://api.github.com/repos/HPSCTerrSys/TSMP/issues",
+  "readme": "https://github.com/HPSCTerrSys/TSMP/blob/master/README.md"
+}

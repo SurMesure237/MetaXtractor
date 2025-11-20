@@ -1,0 +1,211 @@
+[
+  {
+    "id": 1945,
+    "annotations": [
+      {
+        "id": 11870,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 47,
+              "text": "https://zenodo.org/badge/latestdoi/138730107",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "tXEeq7Ra52",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:23:17.132157Z",
+        "updated_at": "2025-11-09T06:23:17.132178Z",
+        "draft_created_at": null,
+        "lead_time": 4.33,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "7c815142-815d-4387-8a05-d069e34155c0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1945,
+        "project": 23442,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://zenodo.org/badge/latestdoi/138730107)",
+      "section": "Introduction",
+      "repo": "045_lofar-ld",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.929279Z",
+    "updated_at": "2025-11-09T06:23:17.162903Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23442,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1946,
+    "annotations": [
+      {
+        "id": 11871,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 565,
+              "end": 572,
+              "text": "Ansible",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "YjcokyV1BF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 613,
+              "end": 620,
+              "text": "ansible",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "OHLBHswJvS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 574,
+              "end": 598,
+              "text": "https://www.ansible.com/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "UydB_4tM9I",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:23:55.162278Z",
+        "updated_at": "2025-11-14T13:38:53.378458Z",
+        "draft_created_at": "2025-11-09T06:23:35.836698Z",
+        "lead_time": 62.814,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "08fcc2ab-c955-4c91-8cf8-9a8d8d1bc32c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1946,
+        "project": 23442,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "LOFAR Linked Data Platform\n\nThis repository contains services to improve the FAIRness of the [LOFAR] http://www.lofar.org/ [Long Term Archive] https://lta.lofar.eu/ (meta)data using semantic web technologies:\n\n[Virtuoso Universal Server] https://virtuoso.openlinksw.com/ (including some code from [pbg-ld] https://www.research-software.nl/software/linked-data-platform-for-plant-breeding-genomics)  [FAIR Data Point] https://www.research-software.nl/software/fairdatapoint (FDP)\n\nClone this git repo.\n\ngit clone https://github.com/EOSC-LOFAR/lofar-ld.git\n\nInstall [Ansible] https://www.ansible.com/.\n\npip install ansible\n\nDeploy services.\n\nansible-playbook -i inventory playbook.yml # on a remote host specified in the 'inventory' file\n\nmake -C src # or locally\n\n[Login] http://localhost:8890/conductor to running Virtuoso instance for admin tasks.\n\nUse dba for both account name and password.\n\nRun queries via Virtuoso [SPARQL endpoint] http://localhost:8890/sparql or browse data via [Faceted Browser] http://localhost:8890/fct/ (no login required).",
+      "section": "LOFAR Linked Data Platform (part 1)",
+      "repo": "045_lofar-ld",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.929320Z",
+    "updated_at": "2025-11-14T13:38:53.417488Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23442,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1947,
+    "annotations": [
+      {
+        "id": 11872,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:23:58.232981Z",
+        "updated_at": "2025-11-09T06:23:58.233011Z",
+        "draft_created_at": null,
+        "lead_time": 2.887,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "4f0832da-a03b-4fa6-ace4-d0a48ffe6cfd",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1947,
+        "project": 23442,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "RDF graphs:IRIs (_A-Box_)  (subset of) LOFAR DBView: https://lta-dbview.lofar.eu/  FDP metadata:  http://lofar-ld.lofarpipelines-astron.surf-hosted.nl:8080/fdp  http://lofar-ld.lofarpipelines-astron.surf-hosted.nl:8080/catalog/astron-01  http://lofar-ld.lofarpipelines-astron.surf-hosted.nl:8080/dataset/lofar-lta-dbview  http://lofar-ld.lofarpipelines-astron.surf-hosted.nl:8080/distribution/lofar-lta-dbview-sparql  http://lofar-ld.lofarpipelines-astron.surf-hosted.nl:8080/distribution/lofar-lta-dbview-rdfdump   http://lofar-ld.lofarpipelines-astron.surf-hosted.nl:8080/distribution/lofar-lta-dbview-sqldump   http://lofar-ld.lofarpipelines-astron.surf-hosted.nl:8080/distribution/lofar-lta-dbview-csvdump   RDF graphs:IRIs (_T-Box_)  Astronomy: http://www.astro.umd.edu/~eshaya/astro-onto/owl/astronomy.owl#  Physics: http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#  Instruments: http://www.astro.umd.edu/~eshaya/astro-onto/owl/instruments.owl#  IVOAT: http://www.ivoa.net/rdf/Vocabularies/IVOAT  IVOAO: http://www.astro.umd.edu/~eshaya/astro-onto/owl/IVOAO.owl#  UCD: http://www.ivoa.net/rdf/Vocabularies/UCD  IAUT93: http://www.ivoa.net/rdf/Vocabularies/vocabularies-20091007/IAUT93/IAUT93.rdf# SEM: https://semanticweb.cs.vu.nl/2009/11/sem/sem.rdf#\n\nSee [wiki] ../../wiki for further details.",
+      "section": "LOFAR Linked Data Platform (part 2)",
+      "repo": "045_lofar-ld",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.929344Z",
+    "updated_at": "2025-11-09T06:23:58.261987Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23442,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

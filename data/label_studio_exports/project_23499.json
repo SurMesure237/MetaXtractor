@@ -1,0 +1,116 @@
+[
+  {
+    "id": 2223,
+    "annotations": [
+      {
+        "id": 10296,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:50:30.022235Z",
+        "updated_at": "2025-11-03T06:50:30.022263Z",
+        "draft_created_at": null,
+        "lead_time": 4.788,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "9b97f311-b85d-4079-b446-6870318550bd",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2223,
+        "project": 23499,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "ddRPB\n\n## Radiotherapy clinical research IT infrastructure\n\nRadiationDosePlan- Image/Biomarker-Outcome-platform (RPB) is a collection of open source software systems integrated via portal to deliver a core software infrastructure necessary to support the operation of non-commercial trials unit.\n\nThe RPB platform is a web-based solution which supports collection and exchange of radiotherapy specific research data in large scale multi-centre clinical and pre-clinical studies. It delivers a study management and electronic data capture system with special extensions dedicated to secure upload of medical imaging and treatment plans in DICOM format. These tools allow the trial personnel to handle multi-modal data conduction activities that yield to finalised patient cohort datasets.\n\n## Platform features\n\nManaging multi-centre clinical trials  Patient identity management and pseudonymisation  Study subject randomisation (permuted block + strata)  Electronic case report forms (eCRFs) for clinical data collection  Patient reported outcomes (ePRO)  Linked medical imaging (DICOM) and treatment plans (DICOM-RT)  DICOM data de-identification and RTSTRUCT ROI naming harmonisation  DICOM viewer with DICOM-RT plugin  WebDAV access to DICOM data collected in particular project  Storage for laboratory assays and other tabulated data",
+      "section": "ddRPB (part 1)",
+      "repo": "259_RadPlanBio",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.824345Z",
+    "updated_at": "2025-11-03T06:50:30.047712Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23499,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2224,
+    "annotations": [
+      {
+        "id": 10297,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 338,
+              "end": 1092,
+              "text": "@article{skripcak_toward_2016, title = {Toward {Distributed} {Conduction} of {Large}-{Scale} {Studies} in {Radiation} {Therapy} and {Oncology}: {Open}-{Source} {System} {Integration} {Approach}}, volume = {20}, issn = {2168-2194, 2168-2208}, shorttitle = {Toward {Distributed} {Conduction} of {Large}-{Scale} {Studies} in {Radiation} {Therapy} and {Oncology}}, url = {http://ieeexplore.ieee.org/document/7138574/}, doi = {10.1109/JBHI.2015.2450833}, number = {5}, urldate = {2017-12-08}, journal = {IEEE Journal of Biomedical and Health Informatics}, author = {Skripcak, Tomas and Just, Uwe and Simon, Monique and Buttner, Daniel and Luhr, Armin and Baumann, Michael and Krause, Mechthild}, month = sep, year = {2016}, pages = {1397--1403} }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "gspZingCHM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:51:01.213319Z",
+        "updated_at": "2025-11-03T06:51:01.213337Z",
+        "draft_created_at": "2025-11-03T06:50:48.460322Z",
+        "lead_time": 31.011,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "3dde9c6a-ea0b-4fc9-bef6-bdf78d32153c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2224,
+        "project": 23499,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Acknowledgment\n\nFor people who do use the RPB software platform as managed or self-operated solution supporting the conduction of their trials, when it is possible, we would appreciate your acknowledgement in publications and citation of the relevant papers:\n\n\"This work was conducted in part using the RadPlanBio software platform.\"\n\n@article{skripcak_toward_2016,  title = {Toward {Distributed} {Conduction} of {Large}-{Scale} {Studies} in {Radiation} {Therapy} and {Oncology}: {Open}-{Source} {System} {Integration} {Approach}},  volume = {20},  issn = {2168-2194, 2168-2208},  shorttitle = {Toward {Distributed} {Conduction} of {Large}-{Scale} {Studies} in {Radiation} {Therapy} and {Oncology}},  url = {http://ieeexplore.ieee.org/document/7138574/},  doi = {10.1109/JBHI.2015.2450833},  number = {5},  urldate = {2017-12-08},  journal = {IEEE Journal of Biomedical and Health Informatics},  author = {Skripcak, Tomas and Just, Uwe and Simon, Monique and Buttner, Daniel and Luhr, Armin and Baumann, Michael and Krause, Mechthild},  month = sep,  year = {2016},  pages = {1397--1403} }\n\nNote: In case RPB managed service utilisation (such as dedicated Institute/Department operating RPB platform instance used by others) additional acknowledgements/citations usually defined by service provider may apply.",
+      "section": "ddRPB (part 2)",
+      "repo": "259_RadPlanBio",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.824380Z",
+    "updated_at": "2025-11-03T06:51:01.242988Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23499,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

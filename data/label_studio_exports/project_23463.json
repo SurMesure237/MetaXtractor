@@ -1,0 +1,67 @@
+[
+  {
+    "id": 2038,
+    "annotations": [
+      {
+        "id": 10401,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 19,
+              "end": 63,
+              "text": "https://zenodo.org/badge/latestdoi/679369801",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "zYvo3GBUrd",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:16:21.405017Z",
+        "updated_at": "2025-11-14T13:24:43.228014Z",
+        "draft_created_at": "2025-11-04T07:15:48.946319Z",
+        "lead_time": 50.7,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "88de27a1-ff4e-43af-a053-9b0228068167",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2038,
+        "project": 23463,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# supervillain\n\n[](https://zenodo.org/badge/latestdoi/679369801)\n\nSupervillain is a python package for studying the Villain model.\n\n# Installation + Development\n\nNavigate to the cloned repo and try\n\npip install . # for development use pip install -e .  ./test/end-to-end.py\n\nIf pip installation succeeds so too should the example script, which by default samples the (φ, n) formulation of the model on a small lattice.\n\nsupervillain has documentation built with [sphinx] https://www.sphinx-doc.org/en/master/. To build the documentation once you\n\nsphinx-build . _build\n\nand then can open _build/index.html in a browser. If you are developing you can replace sphinx-build with [sphinx-autobuild] https://pypi.org/project/sphinx-autobuild/ to get live updates to the documentation as you go.",
+      "section": "README",
+      "repo": "291_supervillain",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.372648Z",
+    "updated_at": "2025-11-14T13:24:43.262334Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23463,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

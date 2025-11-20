@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/Plant-Root-Soil-Interactions-Modelling/CPlantBox",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "C++",
+    "CMake",
+    "TeX",
+    "CSS",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/Plant-Root-Soil-Interactions-Modelling/CPlantBox/zipball/main",
+  "author": "Plant-Root-Soil-Interactions-Modelling",
+  "dateCreated": "2017-06-22T11:19:57Z",
+  "dateModified": "2025-10-24T13:00:17Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": null,
+  "identifier": 95107851,
+  "name": "Plant-Root-Soil-Interactions-Modelling/CPlantBox",
+  "issueTracker": "https://api.github.com/repos/Plant-Root-Soil-Interactions-Modelling/CPlantBox/issues",
+  "readme": "https://github.com/Plant-Root-Soil-Interactions-Modelling/CPlantBox/blob/master/README.md"
+}

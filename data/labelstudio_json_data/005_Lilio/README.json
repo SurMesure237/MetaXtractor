@@ -1,0 +1,50 @@
+[
+  {
+    "data": {
+      "text": "lilio: Calendar generator for machine learning with timeseries data\n\n[](https://github.com/AI4S2S/lilio) [](https://research-software-directory.org/software/lilio) [](https://zenodo.org/badge/latestdoi/588084019) [](https://api.eu.badgr.io/public/assertions/P3scOSLyQVWzzsjq0Ueycw \"SQAaaS gold badge achieved\") [](https://fair-software.eu) [](https://lilio.readthedocs.io/en/stable/?badge=stable) [](https://github.com/AI4S2S/lilio/actions/workflows/build.yml) [](https://sonarcloud.io/dashboard?id=AI4S2S_lilio)",
+      "section": "lilio: Calendar generator for machine learning with timeseries data (part 1)",
+      "repo": "005_Lilio",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "A python package for generating calendars to resample timeseries into training and target data for machine learning. Named after [the inventor] https://en.wikipedia.org/wiki/Aloysius_Lilius of the [Gregorian Calendar] https://en.wikipedia.org/wiki/Gregorian_calendar.\n\nLilio was originally designed for use in [s2spy] https://github.com/AI4S2S/s2spy, a high-level python package integrating expert knowledge and artificial intelligence to boost (sub) seasonal forecasting.",
+      "section": "lilio: Calendar generator for machine learning with timeseries data (part 2)",
+      "repo": "005_Lilio",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Installation\n\n[](https://pypi.python.org/project/lilio/) [](https://pypi.python.org/project/lilio/) [](https://anaconda.org/conda-forge/lilio)\n\nTo install the latest release of lilio, do:\n\npython3 -m pip install lilio\n\nLilio is also available on conda-forge. If you use conda, do:\n\nconda install -c conda-forge lilio\n\nTo install the in-development version from the GitHub repository, do:\n\npython3 -m pip install git+https://github.com/AI4S2S/lilio.git\n\n### Configure the package for development and testing\n\nA more extensive developer guide can be found [here] https://github.com/AI4S2S/lilio/blob/main/docs/README.dev.md.\n\nThe testing framework used here is [pytest] https://pytest.org. Before running the test, we get a local copy of the source code and install lilio via the command:\n\ngit clone https://github.com/AI4S2S/lilio.git cd lilio python3 -m pip install -e .[dev]\n\nThen, run tests:\n\nhatch run test",
+      "section": "lilio: Calendar generator for machine learning with timeseries data (part 3)",
+      "repo": "005_Lilio",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## How the lilio calendars work\n\nIn Lilio, calendars are 2-dimensional. Each row (year) represents a unique observation, whereas each column corresponds to a precursor period with a certain lag. This is how we like to structure our data for ML applications.\n\nWe define the \"anchor date\" to be between the target and precursor periods (strictly speaking, it is the start of the first target interval). All other intervals are expressed as offsets to this anchor date. Conveniently, this eliminates any ambiguity related to leap years.\n\nHere's a calendar generated with Lilio:\n\ncalendar = lilio.daily_calendar(anchor=\"11-30\", length='180d') calendar = calendar.map_years(2020, 2021) calendar.show() i_interval -1 1 anchor_year 2021 [2021-06-03, 2021-11-30) [2021-11-30, 2022-05-29) 2020 [2020-06-03, 2020-11-30) [2020-11-30, 2021-05-29)\n\nNow, the user can load the data input_data (e.g. pandas DataFrame) and resample it to the desired timescales configured in the calendar:\n\ncalendar = calendar.map_to_data(input_data) bins = lilio.resample(calendar, input_data) bins  anchor_year i_interval interval mean_data target 0 2020 -1 [2020-06-03, 2020-11-30) 275.5 True 1 2020 1 [2020-11-30, 2021-05-29) 95.5 False 2 2021 -1 [2021-06-03, 2021-11-30) 640.5 True 3 2021 1 [2021-11-30, 2022-05-29) 460.5 False",
+      "section": "lilio: Calendar generator for machine learning with timeseries data (part 4)",
+      "repo": "005_Lilio",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "For convenience, Lilio offers a few shorthands for standard of calendars e.g. [monthly_calendar] https://lilio.readthedocs.io/en/latest/autoapi/lilio/calendar_shorthands/index.html#lilio.calendar_shorthands.monthly_calendar and [weekly_calendar] https://lilio.readthedocs.io/en/latest/autoapi/lilio/calendar_shorthands/index.html#lilio.calendar_shorthands.weekly_calendar. However, you can also create custom calendars by calling [Calendar] https://lilio.readthedocs.io/en/latest/autoapi/lilio/calendar/index.html#lilio.calendar.Calendar directly. For a nice walkthrough, see [this example notebook] https://lilio.readthedocs.io/en/latest/notebooks/all_about_the_calendar.html.\n\n<!---",
+      "section": "lilio: Calendar generator for machine learning with timeseries data (part 5)",
+      "repo": "005_Lilio",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Tutorials\n\nlilio supports operations that are common in a machine learning pipeline of sub-seasonal to seasonal forecasting research. Tutorials covering supported methods and functionalities are listed in [notebooks] https://github.com/AI4S2S/lilio/tree/main/notebooks. To check these notebooks, users need to install [Jupyter lab] https://jupyter.org/. More details about each method can be found in this [API reference documentation] https://ai4s2s.readthedocs.io/en/latest/autoapi/index.html.\n\n--> ## Documentation\n\n[](https://lilio.readthedocs.io/en/latest/?badge=latest)\n\nFor detailed information on using lilio package, visit the [documentation page] https://lilio.readthedocs.io/en/latest/ hosted at Readthedocs.\n\n## Contributing\n\nIf you want to contribute to the development of lilio, have a look at the [contribution guidelines] https://github.com/AI4S2S/lilio/blob/main/docs/CONTRIBUTING.md.\n\n## How to cite us\n\n[](https://research-software-directory.org/software/lilio) [](https://zenodo.org/badge/latestdoi/588084019)\n\nPlease use the Zenodo DOI to cite this package if you used it in your research.\n\n## Acknowledgements\n\nThis package was developed by the Netherlands eScience Center and Vrije Universiteit Amsterdam under Netherlands eScience Center grant NLESC.OEC.2021.005.\n\nThe package was created with [Cookiecutter] https://github.com/audreyr/cookiecutter and the [NLeSC/python-template] https://github.com/NLeSC/python-template.",
+      "section": "lilio: Calendar generator for machine learning with timeseries data (part 6)",
+      "repo": "005_Lilio",
+      "source_file": "readme.md"
+    }
+  }
+]

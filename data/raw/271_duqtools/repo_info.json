@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/duqtools/duqtools",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/duqtools/duqtools/zipball/main",
+  "author": "duqtools",
+  "dateCreated": "2022-05-16T07:50:18Z",
+  "dateModified": "2025-06-26T12:37:16Z",
+  "keywords": [
+    "fusion-reactor",
+    "modelling",
+    "python",
+    "tokamak",
+    "uncertainty-quantification"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Dynamic uncertainty quantification for Tokamak reactor simulations modelling",
+  "identifier": 492734189,
+  "name": "duqtools/duqtools",
+  "issueTracker": "https://api.github.com/repos/duqtools/duqtools/issues",
+  "readme": "https://github.com/duqtools/duqtools/blob/main/README.md"
+}

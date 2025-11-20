@@ -1,0 +1,312 @@
+[
+  {
+    "id": 1354,
+    "annotations": [
+      {
+        "id": 11987,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1355,
+              "end": 1362,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "v31LzkJi_-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1395,
+              "end": 1400,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "jWz6a9mFOo",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1430,
+              "end": 1433,
+              "text": "Mac",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "khOyJnm9gk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 465,
+              "end": 472,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "U7RBJtplFi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 474,
+              "end": 479,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "iN2kQ9baG3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 484,
+              "end": 489,
+              "text": "MacOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "HkwdmZkVv5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 996,
+              "end": 1003,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "GUYYRnvFVp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 699,
+              "end": 704,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "pANbpN1rnn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 709,
+              "end": 712,
+              "text": "Mac",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "lPoebl0ZwS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:20:37.567672Z",
+        "updated_at": "2025-11-09T07:20:37.567686Z",
+        "draft_created_at": "2025-11-09T07:18:09.375718Z",
+        "lead_time": 162.232,
+        "prediction": {},
+        "result_count": 9,
+        "unique_id": "329ff765-15cf-4341-aee2-f801f73a9031",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1354,
+        "project": 23330,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "MeshIt 2010-2020\n\nThe tool MeshIT uses TRIANGLE and TETGEN to generate a quality tetrahedral mesh based on structural geological information.\n\nThis procedure is fully automatized and needs at least scattered data points as input!\n\nMain developers: Mauro Cacace () and  Guido Blöcher ().\n\nSome extensions were added by PERFACCT (www.perfacct.eu) by the following developers:  Johannes Spazier  Nihed Boussaidi  Danny Puhan\n\nThe source can be compiled as it comes on Windows, Linux and MacOS by running the building options below. For exporting the exodus file format used by Moose (https://github.com/idaholab/moose) the user has to specify some internal flags in the project file meshit.pro:    For Linux and Mac we suggest to link the static exodus library which comes along with libMesh (https://libmesh.github.io/) provided by Moose framework installation:  Set the EXODUS_LIBMESH variable to true  Define the path to the root directory of the libmesh installation using variable LIBMESH\n\nFor Windows you have to link the dynamic exodus library which will be provided by the package mingw-w64-ucrt-x86_64-libexodus provided by the MSYS2 (https://www.msys2.org/) installation:  Set the EXODUS_LIBRARY variable to true  Define the path the rootdirectory of 'exodusII' installation   On all platforms the following requirements are suggested and tested:\n\nWindows:\n\nQt 5.15.2 for Windows 64-bit\n\nLinux:\n\nQt 5.9.9 for Linux 64-bit\n\nMac:\n\nQt 5.14.1 for OS X",
+      "section": "Introduction (part 1)",
+      "repo": "221_MeshIt",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.060269Z",
+    "updated_at": "2025-11-09T07:20:37.599545Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23330,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1355,
+    "annotations": [
+      {
+        "id": 11988,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1652,
+              "end": 1849,
+              "text": "Cacace, M., Blöcher, G. MeshIt - a software for three dimensional volumetric meshing of complex faulted reservoirs. Environ Earth Sci 74, 5191–5209 (2015). https://doi.org/10.1007/s12665-015-4537-x",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "KrkeHFE_r2",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1613,
+              "end": 1651,
+              "text": "https://doi.org/10.5281/zenodo.4327281",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "u6JV4Quddu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 19,
+              "end": 26,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "XYW5YQ1-r9",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 528,
+              "end": 559,
+              "text": "mingw-w64-ucrt-x86_64-libexodus",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "TMqFydUWX3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1354,
+              "end": 1359,
+              "text": "macOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "YIlUlib-YJ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:23:18.284711Z",
+        "updated_at": "2025-11-09T07:23:18.284724Z",
+        "draft_created_at": "2025-11-09T07:20:57.738709Z",
+        "lead_time": 160.508,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "18a5c5ac-9957-4439-a949-fd0f8d70a979",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1355,
+        "project": 23330,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Preparations:  For Windows users, please follow the following steps for a proper exodusII dynamic library installation:  Download the msys2-x86_64 installer (https://www.msys2.org/)  Run the installer. Installing MSYS2 requires 64 bit Windows 10 or newer.  Enter your desired Installation Folder (short ASCII-only path on a NTFS volume, no accents, no spaces, no symlinks, no subst or network drives, no FAT).  When done, click Finish.  Now MSYS2 is ready for you and a terminal for the UCRT64 environment will launch.  Install mingw-w64-ucrt-x86_64-libexodus. Run the following command:\n\npacman -S mingw-w64-ucrt-x86_64-libexodus\n\nTo enable the dynamic dependencies of the exodusII library add the root folder to your environment variable path:  Open the Start Search, type in env, and choose Edit the system environment variables.  Click the Environment Variables… button.  Under the User Variables section, find the row with “Path” in the first column, and click edit.  The Edit environment variable UI will appear. Here, you can click “New” and type in the new path (default installation path C:\\msys64\\ucrt64) you want to add.  Dismiss all of the dialogs by choosing “OK”. Your changes are saved!  You will probably need to restart apps for them to pick up the change. Restarting the machine would ensure all apps are run with the PATH change.\n\nFor macOS users, please check the version of macOS specified in the  meshit.pro file (line QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.15). By default, the version of macOS specified is 10.15 (macOS Catalina)\n\nBuilding:\n\nqmake meshit.pro  make/nmake/mingw32-make\n\nCite:  https://doi.org/10.5281/zenodo.4327281 Cacace, M., Blöcher, G. MeshIt - a software for three dimensional volumetric meshing of complex faulted reservoirs. Environ Earth Sci 74, 5191–5209 (2015). https://doi.org/10.1007/s12665-015-4537-x",
+      "section": "Introduction (part 2)",
+      "repo": "221_MeshIt",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.060311Z",
+    "updated_at": "2025-11-09T07:23:18.313460Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23330,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/ESMValGroup/ESMValCore",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Jupyter Notebook",
+    "HTML",
+    "Jinja",
+    "JavaScript",
+    "R",
+    "Dockerfile",
+    "TeX"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ESMValGroup/ESMValCore/zipball/main",
+  "author": "ESMValGroup",
+  "dateCreated": "2019-06-04T11:58:08Z",
+  "dateModified": "2025-10-28T13:29:29Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "ESMValCore: A community tool for pre-processing data from Earth system models in CMIP and running analysis scripts.",
+  "identifier": 190192145,
+  "name": "ESMValGroup/ESMValCore",
+  "issueTracker": "https://api.github.com/repos/ESMValGroup/ESMValCore/issues",
+  "readme": "https://github.com/ESMValGroup/ESMValCore/blob/main/README.md"
+}

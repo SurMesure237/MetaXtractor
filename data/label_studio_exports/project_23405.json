@@ -1,0 +1,196 @@
+[
+  {
+    "id": 1756,
+    "annotations": [
+      {
+        "id": 10663,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 126,
+              "end": 170,
+              "text": "https://zenodo.org/badge/latestdoi/334084536",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "YLSihOFLmE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 54,
+              "end": 121,
+              "text": "https://fairdatapoint-client.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "NwZtHgx3xB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:09:15.066508Z",
+        "updated_at": "2025-11-04T19:09:15.066524Z",
+        "draft_created_at": "2025-11-04T19:09:05.067010Z",
+        "lead_time": 20.532,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "3af1c076-c3b7-460e-85c8-328327c08b93",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1756,
+        "project": 23405,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://pypi.org/project/fairdatapoint-client/) [](https://fairdatapoint-client.readthedocs.io/en/latest/?badge=latest) [](https://zenodo.org/badge/latestdoi/334084536) [](https://github.com/fair-data/fairdatapoint-client/actions/workflows/build_test.yml) [](https://coveralls.io/github/fair-data/fairdatapoint-client?branch=master) [](https://sonarcloud.io/dashboard?id=fair-data_fairdatapoint-client) [](https://fair-software.eu)",
+      "section": "Introduction",
+      "repo": "294_FAIR_Data_Point_Client",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.302161Z",
+    "updated_at": "2025-11-04T19:09:15.096529Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23405,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1757,
+    "annotations": [
+      {
+        "id": 10664,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 900,
+              "end": 933,
+              "text": "Python version of 3.7, 3.8 or 3.9",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "WBi3CXUinL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:09:29.227927Z",
+        "updated_at": "2025-11-17T00:13:07.238174Z",
+        "draft_created_at": "2025-11-04T19:09:27.105684Z",
+        "lead_time": 44.484,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "bfe242f0-50a5-44ab-906e-90f4d6f0dea0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1757,
+        "project": 23405,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "fairdatapoint-client\n\n### Contents\n\n[Overview] #overview\n\n[Installation] #installation\n\n[Quick Tutorial] #Tutorial\n\n[Issues & Contributing] #Issues-and-Contributing\n\n[License] ./LICENSE\n\n## Overview\n\nfairdatapoint-client is a simple and elegant library to interact with [FAIR Data Point] https://github.com/fair-data/fairdatapoint resources from Python, e.g. read and write catalogs, datasets and distributions in an FDP server.\n\nThe supported APIs are listed below:\n\n| FDP Layers | Path Endpoint | Specific Resource Endpoint | |--------------|-----------------------------|-----------------------------------------| | fdp | [baseURL] or [baseURL]/fdp | | | catalog | [baseURL]/catalog | [baseURL]/catalog/[catalogID] | | dataset | [baseURL]/dataset | [baseURL]/dataset/[datasetID] | | distribution | [baseURL]/distribution | [baseURL]/distribution/[distributionID] |\n\n## Installation\n\nIt requires a Python version of 3.7, 3.8 or 3.9.\n\n#### Stable Release\n\nThe fairdatapoint-client is available on [PyPI] https://pypi.org/project/fairdatapoint-client/, you can install it using:\n\npip install fairdatapoint-client\n\n#### Development Version\n\nYou can also install from the latest source code, but note that the in-development version might be unstable:\n\n``{.sourceCode .console} git clone https://github.com/fair-data/fairdatapoint-client.git cd fairdatapoint-client pip install .\n\nTo run tests (including coverage):\n\n``{.sourceCode .console} pip install '.[tests]' pytest\n\n## Tutorial\n\n### Using Client\n\nfrom fdpclient.client import Client\n\ncreate a client with base URL client = Client('http://example.org')\n\ncreate metadata with open('catalog01.ttl') as f:  data = f.read() client.create_catalog(data)",
+      "section": "fairdatapoint-client + create a client with base URL + create metadata",
+      "repo": "294_FAIR_Data_Point_Client",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.302199Z",
+    "updated_at": "2025-11-17T00:13:07.272068Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23405,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1758,
+    "annotations": [
+      {
+        "id": 10665,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:09:33.381926Z",
+        "updated_at": "2025-11-04T19:09:33.381966Z",
+        "draft_created_at": null,
+        "lead_time": 3.973,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "3f363d9f-abd8-4729-b815-c5bd62cbdb15",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1758,
+        "project": 23405,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "read metadata, return a RDF graph r = client.read_catalog('catalog01') print(r.serialize(format=\"turtle\").decode(\"utf-8\"))\n\nupdate metadata with open('catalog01_update.ttl') as f:  data_update = f.read() client.update_catalog('catalog01', data_update)\n\ndelete metadata client.delete_catalog('catalog01')\n\n### Using operation functions\n\nfrom fdpclient import operations\n\ncreate metadata with open('catalog01.ttl') as f:  data = f.read() operations.create('http://example.org/catalog', data)\n\nread metadata, return a RDF graph r = operations.read('http://example.org/catalog/catalog01') print(r.serialize(format=\"turtle\").decode(\"utf-8\"))\n\nupdate metadata with open('catalog01_update.ttl') as f:  data_update = f.read() operations.update('http://example.org/catalog/catalog01', data_update)\n\ndelete metadata operations.delete('http://example.org/catalog/catalog01')\n\n## Issues and Contributing\n\nIf you have questions or find a bug, please report the issue in the [Github issue channel] https://github.com/fair-data/fairdatapoint-client/issues.\n\nIf you want to contribute to the development of fairdatapoint-client, have a look at the [contribution guidelines] CONTRIBUTING.rst.",
+      "section": "read metadata, return a RDF graph + update metadata + delete metadata (and 4 more)",
+      "repo": "294_FAIR_Data_Point_Client",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.302223Z",
+    "updated_at": "2025-11-04T19:09:33.411693Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23405,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "codeRepository": "https://github.com/JuliaPhysics/Measurements.jl",
+  "programmingLanguage": "Julia",
+  "programmingLanguages": [
+    "Julia"
+  ],
+  "downloadUrl": "https://api.github.com/repos/JuliaPhysics/Measurements.jl/zipball/main",
+  "author": "JuliaPhysics",
+  "dateCreated": "2016-05-17T08:56:30Z",
+  "dateModified": "2025-10-28T22:13:25Z",
+  "keywords": [
+    "arbitrary-precision",
+    "complex-numbers",
+    "error-propagation",
+    "julia",
+    "linear-algebra",
+    "multiprecision",
+    "numerical-integration",
+    "physical-quantities",
+    "physics",
+    "uncertainties",
+    "uncertainty-propagation"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Error propagation calculator and library for physical measurements.  It supports real and complex numbers with uncertainty, arbitrary precision calculations, operations with arrays, and numerical integration.",
+  "identifier": 59006506,
+  "name": "JuliaPhysics/Measurements.jl",
+  "issueTracker": "https://api.github.com/repos/JuliaPhysics/Measurements.jl/issues",
+  "readme": "https://github.com/JuliaPhysics/Measurements.jl/blob/master/README.md"
+}

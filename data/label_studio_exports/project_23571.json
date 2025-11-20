@@ -1,0 +1,684 @@
+[
+  {
+    "id": 2588,
+    "annotations": [
+      {
+        "id": 10003,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:15:58.810157Z",
+        "updated_at": "2025-11-02T20:15:58.810169Z",
+        "draft_created_at": null,
+        "lead_time": 2.923,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "06b25b67-dc88-462f-9379-cfb8a2d98eaf",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2588,
+        "project": 23571,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "293_SimCATS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.068769Z",
+    "updated_at": "2025-11-02T20:15:58.833726Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23571,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2589,
+    "annotations": [
+      {
+        "id": 10004,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 237,
+              "end": 263,
+              "text": "Python versions 3.7 - 3.11",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "7F3z5TkDzH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:16:13.351768Z",
+        "updated_at": "2025-11-17T00:01:16.214198Z",
+        "draft_created_at": "2025-11-02T20:16:10.423267Z",
+        "lead_time": 32.39,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "cf95b8fc-983e-4d07-8c8c-6df6ee9aefc6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2589,
+        "project": 23571,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "SimCATS\n\nSimulation of CSDs for Automated Tuning Solutions (SimCATS) is a Python framework for simulating charge stability  diagrams (CSDs) typically measured during the tuning process of qubits.\n\n## Installation\n\nThe framework supports Python versions 3.7 - 3.11 and installs via pip:\n\npip install simcats\n\nAlternatively, the SimCATS package can be installed by cloning the GitHub repository, navigating to the folder  containing the setup.py file and executing\n\npip install .\n\nFor the installation in development/editable mode, use the option -e.\n\n## Examples / Tutorials\n\nAfter installing the package, a good starting point is a look into the Jupyter Notebook  example_SimCATS_simulation_class.ipynb, which provides an overview of the usage of the simulation class offered by  the framework.  For more detailed examples and explanations of the geometric ideal CSD simulation using Total Charge Transitions (TCTs), look at the Jupyter Notebook example_SimCATS_IdealCSDGeometric.ipynb. This notebook also includes a hint regarding the generation of required labels for training algorithms that might need line labels defined as start and end points or require semantic information about particular transitions.",
+      "section": "SimCATS (part 1)",
+      "repo": "293_SimCATS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.068850Z",
+    "updated_at": "2025-11-17T00:01:16.252153Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23571,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2590,
+    "annotations": [
+      {
+        "id": 10005,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 723,
+              "end": 753,
+              "text": "https://simcats.readthedocs.io",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "UnF3u3LzOC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 825,
+              "end": 831,
+              "text": "sphinx",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "I8ubKpzHwg",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 833,
+              "end": 849,
+              "text": "sphinx-rtd-theme",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "HvMw_-uvPW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 851,
+              "end": 865,
+              "text": "sphinx-autoapi",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "5GHwKkBcNl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 867,
+              "end": 874,
+              "text": "myst-nb",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "IDGqK3QewA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 881,
+              "end": 889,
+              "text": "jupytext",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "I0tAwWrzXh",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 908,
+              "end": 914,
+              "text": "sphinx",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "dWV21q471-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 915,
+              "end": 931,
+              "text": "sphinx-rtd-theme",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "YMMzAGXQH8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 932,
+              "end": 946,
+              "text": "sphinx-autoapi",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "DgKt5sZj8E",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 947,
+              "end": 954,
+              "text": "myst-nb",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ZT-H4s1mIY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 955,
+              "end": 963,
+              "text": "jupytext",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "vrXY8HTIi_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:16:55.284906Z",
+        "updated_at": "2025-11-14T12:08:34.976866Z",
+        "draft_created_at": "2025-11-02T20:16:28.451426Z",
+        "lead_time": 51.593,
+        "prediction": {},
+        "result_count": 11,
+        "unique_id": "fd583bcc-00fc-4a1f-b37f-4addb4f6773d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2590,
+        "project": 23571,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Tests\n\nThe tests are written for the PyTest framework but should also work with the unittest framework.\n\nTo run the tests, install the packages pytest, pytest-cov, and pytest-xdist with\n\npip install pytest pytest-cov pytest-xdist\n\nand run the following command:\n\npytest --cov=simcats -n auto --dist loadfile .\\tests\\\n\nThe argument  --cov=simcats enables a coverage summary of the SimCATS package,\n\n-n auto enables the test to run with multiple threads (auto will choose as many threads as possible, but can be replaced with a specific number of threads to use), and\n\n--dist loadfile specifies that each file should be executed only by one thread.\n\n## Documentation\n\nThe official documentation is hosted on [ReadtheDocs] https://simcats.readthedocs.io, but can also be built locally. To do this, first install the packages sphinx, sphinx-rtd-theme, sphinx-autoapi, myst-nb , and jupytext with\n\npip install sphinx sphinx-rtd-theme sphinx-autoapi myst-nb jupytext\n\nand then, in the docs folder, execute the following command:\n\n.\\make html\n\nTo view the generated HTML documentation, open the file docs\\build\\html\\index.html.\n\n## Structure of SimCATS\n\nThe primary user interface for SimCATS is the class Simulation, which combines all the necessary functionalities to measure (simulate) a CSD and adjust the parameters for the simulated measurement. The class Simulation and default configurations for the simulation (default_configs) can be imported directly from simcats. Aside from that, SimCATS contains the subpackages ideal_csd, sensor, distortions, and support_functions, described in the following sections.",
+      "section": "SimCATS (part 2)",
+      "repo": "293_SimCATS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.068916Z",
+    "updated_at": "2025-11-14T12:08:35.011102Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23571,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2591,
+    "annotations": [
+      {
+        "id": 10006,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:16:58.299105Z",
+        "updated_at": "2025-11-02T20:16:58.299123Z",
+        "draft_created_at": null,
+        "lead_time": 2.809,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "7824faef-4aae-4faa-887e-3eec9216c633",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2591,
+        "project": 23571,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Module simulation\n\nAn instance of the simulation class requires\n\nan implementation of the IdealCSDInterface for the simulation of ideal CSD data,\n\nan implementation of the SensorInterface for the simulation of the sensor (dot) reaction based on the ideal CSD\n\ndata, and (optionally) implementations of the desired types of distortions, which can be implementations from OccupationDistortionInterface, SensorPotentialDistortionInterface, or SensorResponseDistortionInterface.\n\nWith an initialized instance of the Simulation class, it is possible to run simulations using the measure function (see example_SimCATS_simulation_class.ipynb).\n\n### Subpackage ideal_csd\n\nThis subpackage contains the IdealCSDInterface used by the Simulation class and an implementation of the IdealCSDInterface (IdealCSDGeometric) based on our geometric simulation approach. Additionally, it contains in the subpackage geometric the functions used by IdealCSDGeometric, including the implementation of the total charge transition (TCT) definition and functions for calculating the occupations using TCTs.",
+      "section": "SimCATS (part 3)",
+      "repo": "293_SimCATS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.068943Z",
+    "updated_at": "2025-11-02T20:16:58.325242Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23571,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2592,
+    "annotations": [
+      {
+        "id": 10007,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 486,
+              "end": 498,
+              "text": "colorednoise",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "T2QK3N2TVW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 547,
+              "end": 591,
+              "text": "https://github.com/felixpatzelt/colorednoise",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "iqEAsnievx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:17:42.278731Z",
+        "updated_at": "2025-11-14T12:09:09.861851Z",
+        "draft_created_at": "2025-11-02T20:17:21.817970Z",
+        "lead_time": 75.922,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "0354c706-6151-4d03-b254-23870ac71470",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2592,
+        "project": 23571,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Subpackage distortions\n\nThe distortions subpackage contains the DistortionInterface from which the OccupationDistortionInterface, the  SensorPotentialDistortionInterface, and the SensorResponseDistortionInterface are derived. Distortion functions used in the Simulation class have to implement these specific interfaces. Implemented distortions included in the subpackage are:\n\nwhite noise, generated by sampling from a normal distribution,\n\npink noise, generated using the package colorednoise ([https://github.com/felixpatzelt/colorednoise] https://github.com/felixpatzelt/colorednoise),\n\nrandom telegraph noise (RTN), generated using the algorithm described in [\"Toward Robust Autotuning of Noisy Quantum Dot Devices\" by Ziegler et al.] https://doi.org/10.1103/PhysRevApplied.17.024069 (RTN is called sensor jumps there),\n\ndot jumps, simulated using the algorithm described in [\"Toward Robust Autotuning of Noisy Quantum Dot Devices\" by Ziegler et al.] https://doi.org/10.1103/PhysRevApplied.17.024069 (In the Simulation class, this is applied to a whole block of rows or columns, but there is also a function for applying it linewise.), and\n\nlead transition blurring, simulated using Gaussian or Fermi-Dirac blurring.",
+      "section": "SimCATS (part 4)",
+      "repo": "293_SimCATS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.068968Z",
+    "updated_at": "2025-11-14T12:09:09.907360Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23571,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2593,
+    "annotations": [
+      {
+        "id": 10008,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:17:44.561987Z",
+        "updated_at": "2025-11-02T20:17:44.562002Z",
+        "draft_created_at": null,
+        "lead_time": 2.099,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e7dc45c0-a00d-4f3b-88bd-11576269b372",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2593,
+        "project": 23571,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "The implementations also offer the option to set ratios (parameter ratio) for the occurrence of the distortion (e.g. dot jumps may only happen sometimes and not in every measurement). Moreover, it is also possible to sample the noise parameters from a given sampling range using an object of type ParameterSamplingInterface. Classes for randomly sampling from a normal distribution or a uniform distribution within a given range are available in the subpackage support_functions. In this case, the strength is randomly chosen from the given range for every measurement. Additionally, it is possible to specify that this range should be a smaller subrange of the provided range. This allows restricting distortion fluctuations during a simulation while enabling a large variety of different strengths for the initialization of the objects.  RTN, dot jumps, and lead transition blurring are applied in the pixel domain. However, the jump length or the blurring strength should be consistent in the voltage domain even if the resolution changes. Therefore, the parameters are given in the voltage domain and adjusted according to the resolution in terms of pixel per voltage.  For a simulated measurement with a continuous voltage sweep involving an averaging for each pixel, the noise strength of the white and pink noise should be adjusted if the resolution (volt per pixel) changes, due to smoothing out the noise. This smoothing depends on the type of averaging used and is not incorporated in the default implementation.",
+      "section": "SimCATS (part 5)",
+      "repo": "293_SimCATS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.068992Z",
+    "updated_at": "2025-11-02T20:17:44.584061Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23571,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2594,
+    "annotations": [
+      {
+        "id": 10009,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1342,
+              "end": 1695,
+              "text": "@article{hader2024simcats, author={Hader, Fabian and Fleitmann, Sarah and Vogelbruch, Jan and Geck, Lotte and Waasen, Stefan van}, journal={IEEE Transactions on Quantum Engineering}, title={Simulation of Charge Stability Diagrams for Automated Tuning Solutions (SimCATS)}, year={2024}, volume={5}, pages={1-14}, doi={10.1109/TQE.2024.3445967} }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "pPMDnLgPnU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:17:59.498804Z",
+        "updated_at": "2025-11-02T20:17:59.498822Z",
+        "draft_created_at": "2025-11-02T20:17:59.151993Z",
+        "lead_time": 14.753,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "dd7e20a4-4d20-4d9c-a3bd-f547b735f9b4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2594,
+        "project": 23571,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Subpackage sensor\n\nThis subpackage contains the SensorInterface that defines how a sensor simulation must be implemented to be used by the Simulation class. The SensorPeakInterface provides the desired representation for the definition of the Coulomb peaks the sensor uses. SensorGeneric implements the SensorInterface and offers functions for simulating the sensor response and potential. It offers the possibility to simulate with a single peak or multiple sensor peaks. Current implementations of the SensorPeakInterface are SensorPeakGaussian and SensorPeakLorentzian.\n\n### Subpackage support_functions\n\nThis subpackage contains support functions, which are used by the end user and by different functions of the framework.  fermi_filter1d is an implementation of a one-dimensional Fermi-Dirac filter.\n\nplot_csd plots one and two-dimensional CSDs. The function can also plot ground truth data (see example_SimCATS_simulation_class.ipynb for examples).\n\nrotate_points simply rotates coordinates (stored in a (n, 2) shaped array) by a given angle. It is especially used during the generation of the ideal data.\n\nParameterSamplingInterface defines an interface for randomly sampled (fluctuated) strengths of distortions.\n\nNormalSamplingRange and UniformSamplingRange are implementations of the ParameterSamplingInterface.\n\n## Citations\n\n@article{hader2024simcats,  author={Hader, Fabian and Fleitmann, Sarah and Vogelbruch, Jan and Geck, Lotte and Waasen, Stefan van},  journal={IEEE Transactions on Quantum Engineering},   title={Simulation of Charge Stability Diagrams for Automated Tuning Solutions (SimCATS)},   year={2024},  volume={5},  pages={1-14},  doi={10.1109/TQE.2024.3445967} }",
+      "section": "SimCATS (part 6)",
+      "repo": "293_SimCATS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.069018Z",
+    "updated_at": "2025-11-02T20:17:59.527076Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23571,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2595,
+    "annotations": [
+      {
+        "id": 10010,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 35,
+              "end": 50,
+              "text": "CC BY-NC-SA 4.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "NLtmEbvt5U",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 118,
+              "end": 197,
+              "text": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "n-SFUBAVEj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 217,
+              "end": 232,
+              "text": "CC BY-NC-SA 4.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "p8F7uTqPLw",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 283,
+              "end": 332,
+              "text": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "4VruX4ZQSu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:18:49.952111Z",
+        "updated_at": "2025-11-02T20:18:49.952127Z",
+        "draft_created_at": "2025-11-02T20:18:11.796376Z",
+        "lead_time": 50.269,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "eca3ec9b-ee98-493e-9605-b449c28bd8da",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2595,
+        "project": 23571,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## License, CLA, and Copyright\n\n[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]\n\nThis work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].\n\n[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]\n\n[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/ [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg\n\nContributions must follow the Contributor License Agreement. For more information, see the CONTRIBUTING.md file at the top of the GitHub repository.\n\nCopyright © 2024 Forschungszentrum Jülich GmbH - Central Institute of Engineering, Electronics and Analytics (ZEA) - Electronic Systems (ZEA-2)",
+      "section": "SimCATS (part 7)",
+      "repo": "293_SimCATS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.069041Z",
+    "updated_at": "2025-11-02T20:18:49.982313Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23571,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

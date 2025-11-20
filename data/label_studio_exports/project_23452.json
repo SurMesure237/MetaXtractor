@@ -1,0 +1,161 @@
+[
+  {
+    "id": 1991,
+    "annotations": [
+      {
+        "id": 10411,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 148,
+              "end": 201,
+              "text": "https://esm-tools.readthedocs.io/en/latest/index.html",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "5b48YcjYFq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 280,
+              "end": 325,
+              "text": "https://zenodo.org/doi/10.5281/zenodo.3737927",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "dqId-h-hg2",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 493,
+              "end": 501,
+              "text": "python 3",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "gHXRLLF4ru",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 520,
+              "end": 532,
+              "text": "3.6 or newer",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "z2sOe8d6Xf",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:20:22.601813Z",
+        "updated_at": "2025-11-14T13:10:13.107897Z",
+        "draft_created_at": "2025-11-04T07:19:48.362432Z",
+        "lead_time": 106.855,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "6bba273f-6e3f-4c9c-8436-79f9d2a22f6a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1991,
+        "project": 23452,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "ESM Tools\n\nDocumentation\n\n.. image:: https://readthedocs.org/projects/esm-tools/badge/?version=latest\n\nFor our complete documentation, please check https://esm-tools.readthedocs.io/en/latest/index.html.\n\nHow to cite this software\n\nTo cite ESM-Tools, please use the following DOI: https://zenodo.org/doi/10.5281/zenodo.3737927. This DOI represents all versions of the software, and will always pointing to the latest version available on https://zenodo.org.\n\nBefore you continue\n\nYou will need python 3 (possibly version 3.6 or newer), a version of git that is not ancient (everything newer than 2.10 should be good), and up-to-date pip (`pip install -U pip) to install the esm_tools. That means that on the supported machines, you could for example use the following settings:\n\nalbedo::\n\n$ module load git  $ module load python\n\nlevante.dkrz.de::\n\n$ module load git  $ module load python3\n\nglogin.hlrn.de / blogin.hlrn.de::\n\n$ module load git  $ module load anaconda3\n\njuwels.fz-juelich.de::\n\n$ module load Stages/2022  $ module load git  $ module load Python/3.9.6\n\naleph::\n\n$ module load git  $ module load python\n\nNote that some machines might raise an error conflict netcdf_c when loading anaconda3. In that case you will need to swap netcdf_c with anaconda3::\n\n$ module unload netcdf_c  $ module load anaconda3\n\nInstalling\n\nFirst, make sure you add the following lines to one of your login or profile files, i.e. ~/.bash_profile, ~/.bashrc, ~/.profile, etc.::\n\n$ export PATH=$PATH:~/.local/bin  $ export LC_ALL=en_US.UTF-8  $ export LANG=en_US.UTF-8\n\nInside the same login or profile file, add also the module` commands necessary for the HPC system you are using (find the lines in the section above).",
+      "section": "Introduction (part 1)",
+      "repo": "288_ESM-Tools",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:04.633866Z",
+    "updated_at": "2025-11-14T13:10:13.144213Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23452,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1992,
+    "annotations": [
+      {
+        "id": 10412,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:20:26.667676Z",
+        "updated_at": "2025-11-04T07:20:26.667698Z",
+        "draft_created_at": null,
+        "lead_time": 3.866,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "cf3b2d21-c8a4-455f-91dd-3d115cc4e927",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1992,
+        "project": 23452,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "You can choose to source now your login or profile file, so that the `module and export commands are run (e.g. $ source ~/.bash_profile).\n\nTo use the new version of the ESM-Tools, now rewritten in Python, clone this repository::\n\n$ git clone https://github.com/esm-tools/esm_tools.git\n\nThen, run the install.sh::\n\n$ ./install.sh\n\nYou should now have the command line tools esm_master and esm_runscripts`, which replace the old version.",
+      "section": "Introduction (part 2)",
+      "repo": "288_ESM-Tools",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:04.633906Z",
+    "updated_at": "2025-11-04T07:20:26.695228Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23452,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

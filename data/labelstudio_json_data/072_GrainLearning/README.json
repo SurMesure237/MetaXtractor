@@ -1,0 +1,106 @@
+[
+  {
+    "data": {
+      "text": "Welcome to GrainLearning! | fair-software.eu recommendations | Badges | |:--- | :--|  | code repository | [](https://github.com/GrainLearning/grainlearning) | | license | [](https://github.com/GrainLearning/grainlearning)| | community registry | [](https://research-software-directory.org/projects/granular-materials) [](https://pypi.python.org/project/grainlearning/)| | citation | [](https://doi.org/10.5281/zenodo.7123965)| | Best practices checklist | [](https://bestpractices.coreinfrastructure.org/projects/6533)| | howfairis | [](https://fair-software.eu)| | Documentation | [](https://grainlearning.readthedocs.io/en/latest/?badge=latest)| | Code Quality | [](https://sonarcloud.io/summary/new_code?id=GrainLearning_grainLearning) [](https://sonarcloud.io/summary/new_code?id=GrainLearning_grainLearning) |",
+      "section": "Welcome to GrainLearning! (part 1)",
+      "repo": "072_GrainLearning",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Paper | [](https://doi.org/10.21105/joss.06338) |",
+      "section": "Welcome to GrainLearning! (part 2)",
+      "repo": "072_GrainLearning",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Bayesian uncertainty quantification for discrete and continuum numerical models of granular materials, developed by various projects of the University of Twente (NL), the Netherlands eScience Center (NL), University of Newcastle (AU), and Hiroshima University (JP). Browse to the [GrainLearning documentation] https://grainlearning.readthedocs.io/en/latest/ to get started.",
+      "section": "Welcome to GrainLearning! (part 3)",
+      "repo": "072_GrainLearning",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Features\n\nInfer and update model parameters using \"time\" series (sequence) data\n\nvia [Sequential Monte Carlo filtering] https://en.wikipedia.org/wiki/Particle_Filter Uniform, quasi-random sampling using [low-discrepancy sequences] https://en.wikipedia.org/wiki/Halton_sequence\n\nIterative sampling by training a\n\nnonparametric [Gaussian mixture model] https://scikit-learn.org/stable/modules/generated/sklearn.mixture.BayesianGaussianMixture.html [Surrogate modeling] https://grainlearning.readthedocs.io/en/latest/rnn.html capability for \"time\" series data\n\n[//]: # (using [recurrent neural networks]&#40;https://en.wikipedia.org/wiki/Recurrent_neural_network&#41;)\n\n[//]: # (- Hybrid physics-based and data-driven model evaluation strategy)\n\n## Installation\n\n### Install using poetry\n\nInstall poetry following [these instructions] https://python-poetry.org/docs/#installation.\n\nClone the repository: git clone https://github.com/GrainLearning/grainLearning.git\n\nGo to the source code directory: cd grainLearning\n\nActivate the virtual environment: poetry shell\n\nInstall GrainLearning and its dependencies: poetry install\n\n### Install using pip\n\nClone the repository: git clone https://github.com/GrainLearning/grainLearning.git\n\nGo to the source code directory: cd grainLearning\n\nActivate the virtual environment: conda create --name grainlearning python=3.12 && conda activate grainlearning\n\nInstall GrainLearning and its dependencies: pip install .\n\n__Developers__ please refer to [README.dev.md] README.dev.md.\n\nTo install GrainLearning including the RNN module capabilities check [grainlearning/rnn/README.md] grainlearning/rnn/README.md.",
+      "section": "Welcome to GrainLearning! (part 4)",
+      "repo": "072_GrainLearning",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### For Windows users\n\nInstallation using Windows Subsystem for Linux (WSL)\n\nEnable WSL1 or WSL2 according to the\n\ninstructions [here] https://learn.microsoft.com/en-us/windows/wsl/install-manual Install GrainLearning using [poetry] #install-using-poetry or [pip] #install-using-pip\n\nInstallation using anaconda (if no WSLs are available on your Windows system)\n\nOpen Anaconda Prompt and install GrainLearning using [pip] #install-using-pip. This should create a virtual\n\nenvironment, named GrainLearning. Choose that environment from your anaconda navigator: click Environments and select grainlearning from the\n\ndrop-down menu\n\n### One command installation\n\nStable versions of GrainLearning can be installed via pip install grainlearning However, you still need to clone the GrainLearning repository to run the tutorials.",
+      "section": "Welcome to GrainLearning! (part 5)",
+      "repo": "072_GrainLearning",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Tutorials\n\nLinear regression with\n\nthe [run_sim] tutorials/simple_regression/linear_regression/python_linear_regression_solve.py#L14  callback function of the [BayesianCalibration] grainlearning/bayesian_calibration.py  class,  in [python_linear_regression_solve.py] tutorials/simple_regression/linear_regression/python_linear_regression_solve.py\n\nNonlinear, multivariate regression\n\nInteract with the numerical model of your choice\n\nvia [run_sim] tutorials/simple_regression/linear_regression/linear_regression_solve.py#L11  ,  in [linear_regression_solve.py] main/tutorials/simple_regression/linear_regression/linear_regression_solve.py\n\nLoad existing DEM simulation data and run GrainLearning for one iteration,\n\nin [oedo_load_and_resample.py] tutorials/oedo_compression/oedo_load_and_resample.py\n\nExample of GrainLearning integration into YADE\n\n[Two particle collision] tutorials/physics_based/two_particle_collision\n\n[Triaxial compression] tutorials/physics_based/triaxial_compression\n\nData-driven module tutorials:\n\n[Train your LSTM model] tutorials/data_driven/LSTM/train_rnn.ipynb\n\n[Predict using an LSTM model] tutorials/data_driven/LSTM/predict.ipynb\n\n[Use an LSTM model in the calibration workflow] tutorials/data_driven/LSTM/rnn_calibration_GL.ipynb",
+      "section": "Welcome to GrainLearning! (part 6)",
+      "repo": "072_GrainLearning",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Citing GrainLearning\n\nPlease choose from the following:\n\n[](https://doi.org/10.5281/zenodo.7123965) A DOI for\n\nciting the software. The software paper: Cheng et al., (2024). GrainLearning: A Bayesian uncertainty quantification toolbox for discrete and continuum numerical models of granular materials. Journal of Open Source Software, 9(97), 6338, [10.21105/joss.06338] https://doi.org/10.21105/joss.06338\n\nH. Cheng, T. Shuku, K. Thoeni, P. Tempone, S. Luding, V. Magnanimo. An iterative Bayesian filtering framework for\n\nfast and automated calibration of DEM models. _Comput. Methods Appl. Mech. Eng.,_ 350 (2019), pp.  268-294, [10.1016/j.cma.2019.01.027] https://doi.org/10.1016/j.cma.2019.01.027\n\n## Software using GrainLearning\n\n[YADE] http://yade-dem.org/\n\n[MercuryDPM] https://www.mercurydpm.org/\n\n## Community\n\nThe original development of GrainLearning is done by [Hongyang Cheng] https://hongyangcheng.weebly.com, in collaboration with [Klaus Thoeni] https://www.newcastle.edu.au/profile/klaus-thoeni , [Philipp Hartmann] https://www.newcastle.edu.au/profile/philipp-hartmann, and [Takayuki Shuku] https://sites.google.com/view/takayukishukuswebsite/home. The software is currently maintained by [Hongyang Cheng] https://hongyangcheng.weebly.com and [Stefan Luding] https://www2.msm.ctw.utwente.nl/sluding/ with the help of [Luisa Orozco] https://www.esciencecenter.nl/team/dr-luisa-orozco/ and [Retief Lubbe] https://tusail.eu/projects/esr-12.html. The GrainLearning project receives contributions from students and collaborators.\n\n## Help and Support\n\nFor assistance with the GrainLearning software, please create an issue on the GitHub Issues page.",
+      "section": "Welcome to GrainLearning! (part 7)",
+      "repo": "072_GrainLearning",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Credits\n\nThis package was created with [Cookiecutter] https://github.com/audreyr/cookiecutter and the [NLeSC/python-template] https://github.com/NLeSC/python-template.",
+      "section": "Welcome to GrainLearning! (part 8)",
+      "repo": "072_GrainLearning",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Installation of grainlearning\n\nInstall grainlearning with the posibility to build documentation and check tests.\n\n### Using poetry\n\nInstall poetry following [these instructions] https://python-poetry.org/docs/#installation.\n\nClone the repository: git clone git@github.com:GrainLearning/grainLearning.git\n\nGo to the source code directory: cd grainLearning\n\nActivate the virtual environment: poetry shell\n\nInstall GrainLearning and its dependencies: poetry install --all-extras\n\nRun all self-tests of GrainLearning with pytest: poetry run pytest -v\n\n### Using pip\n\nClone the repository: git clone git@github.com:GrainLearning/grainLearning.git\n\nGo to the source code directory: cd grainLearning\n\nWe advise to use a python environment using pyenv or conda.\n\nInstall GrainLearning and its dependencies: pip install .[docs,rnn,dev,tutorials], if you are using an zsh shell you should run pip install .'[docs,rnn,dev,tutorials]' instead, this is because zsh uses square brackets for globbing / pattern matching.\n\n## Making a release\n\nThis section describes how to make a release in 3 parts:\n\npreparation\n\nmaking a release on PyPI\n\nmaking a release on GitHub\n\n### (1/3) Preparation\n\nUpdate the (don't forget to update links at bottom of page)\n\nVerify that the information in CITATION.cff is correct, and that .zenodo.json contains equivalent data\n\nUpdate the version in different places (Non -exhaustive check-list) :\n\nCITATION.cff\n\ndocs/source/conf.py\n\npyproject.toml\n\nREADME.md\n\nRun the unit and integration tests with poetry run pytest -v\n\n### (2/3) PyPI\n\n#### a. Set up your credentials\n\npoetry config http-basic.pypi\n\nThose are your credentials to your account on pypi.org, which you do have to create if you don't have one.",
+      "section": "Introduction (part 1)",
+      "repo": "072_GrainLearning",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### b. Deploying to test-pypi\n\nBefore publishing unpolished package on PyPI, you can test it on a test version of PyPI. This test PyPI will allow us to mimic updating to PyPI, then pip installing our own package to see if it works as expected. For that you need another account on test.pypi.org (same username and password is fine).\n\nYou can then add the repository to poetry:\n\npoetry config repositories.testpypi https://test.pypi.org/legacy/\n\nCreate a token following [this link] https://test.pypi.org/manage/account/token/\n\npoetry config pypi-token.test-pypi\n\nIn a new terminal, without an activated virtual environment or an env directory:",
+      "section": "Introduction (part 2)",
+      "repo": "072_GrainLearning",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "prepare a new directory cd $(mktemp -d grainlearning.XXXXXX)\n\nfresh git clone ensures the release has the state of origin/main branch git clone https://github.com/GrainLearning/grainlearning .\n\n(venv version) python3 -m venv env source env/bin/activate pip install poetry\n\nclean up any previously generated artefacts (if there are) rm -rf grainlearning.egg-info rm -rf dist\n\nBecome a poet poetry shell poetry install poetry build\n\nThis generates folder dist that has the wheel that is going to be distributed on test-pypi. poetry publish --build -r test-pypi\n\nThis will by default register the package to test-pypi. Visit [https://test.pypi.org/project/grainlearning] https://test.pypi.org/project/grainlearning and verify that your package was uploaded successfully. Keep the terminal open, we'll need it later.\n\n#### c. Testing the deployed package to test-pypi\n\nIn a new terminal, without an activated virtual environment or an env directory:\n\ncd $(mktemp -d grainlearning-test.XXXXXX)\n\nprepare a clean virtual environment and activate it python3 -m venv env source env/bin/activate\n\nTODO: why pip install -i https://test.pypi.org/simple/ grainlearning does not work python3 -m pip -v install --no-cache-dir \\ --index-url https://test.pypi.org/simple/ \\ --extra-index-url https://pypi.org/simple grainlearning\n\nCheck that the package works as it should when installed from test-pypi. For example run:\n\npython3 tests/integration/test_lengreg.py\n\n#### d. Uploading to pypi\n\nIf you are happy with the package on test-pypi, deploy it on pypi. Once a version of GrainLearning is uploaded. It cannot be removed.",
+      "section": "prepare a new directory + fresh git clone ensures the release has the state of origin/main branch + (venv version) (and 5 more)",
+      "repo": "072_GrainLearning",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "FINAL STEP: upload to PyPI poetry publish --build -r test-pypi\n\nVisit [https://pypi.org/project/grainlearning/] https://pypi.org/project/grainlearning/ and verify that your package was deployed successfully.\n\n### (3/3) GitHub\n\nDon't forget to also make a [release on GitHub] https://github.com/GrainLearning/grainlearning/releases/new. Check that this release also triggers Zenodo into making a snapshot of your repository and sticking a DOI on it.\n\n## Documentation\n\n### Online:\n\nYou can check the documentation [here] https://grainlearning.readthedocs.io/en/latest/\n\n### Create the documentation locally using poetry\n\nYou need to be in the same poetry shell used to install grainlearning, or repeat the process to install using poetry and doc extras: poetry install -E docs or poetry install --extras \"docs\". Alternatively you can install via pip: pip install .[docs]\n\nIn Ubuntu and MacOS:\n\ncd docs\n\npoetry run make html\n\nIn windows: Double click make.bat\n\n## Testing and code coverage\n\nYou must have had installed grainlearning development dependencies: poetry install -E dev or poetry install --extras \"dev\" or pip install .[dev]\n\nTo run the tests:\n\npoetry run pytest -v\n\nTo create a file coverage.xml with the information of the code coverage:\n\npoetry run coverage xml\n\nTo create a more complete output of tests and coverage:\n\npoetry run pytest --cov --cov-report term --cov-report xml --junitxml=xunit-result.xml tests/",
+      "section": "FINAL STEP: upload to PyPI (part 1)",
+      "repo": "072_GrainLearning",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Linter\n\nRun several Python analysis tools to ensure that your contributions are following standards and best practices.\n\nYou must have had installed grainlearning with dev dependencies either\n\na). poetry install -E dev or b). pip install .[dev]. While being in the main directory grainlearning, at the same level as .prospector.yaml, run prospector. Depending on how you have installed grainlearning you can either run\n\na). poetry run prospector or b). prospector Also check the imports:\n\nisort --check-only grainlearning --diff",
+      "section": "FINAL STEP: upload to PyPI (part 2)",
+      "repo": "072_GrainLearning",
+      "source_file": "readme.dev.md"
+    }
+  }
+]

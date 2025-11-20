@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/Helmholtz-UFZ/CoMOLA",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "R"
+  ],
+  "downloadUrl": "https://api.github.com/repos/Helmholtz-UFZ/CoMOLA/zipball/main",
+  "author": "Helmholtz-UFZ",
+  "dateCreated": "2024-02-08T09:48:08Z",
+  "dateModified": "2024-12-01T06:14:23Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": null,
+  "identifier": 754550252,
+  "name": "Helmholtz-UFZ/CoMOLA",
+  "issueTracker": "https://api.github.com/repos/Helmholtz-UFZ/CoMOLA/issues",
+  "readme": "https://github.com/Helmholtz-UFZ/CoMOLA/blob/main/README.md"
+}

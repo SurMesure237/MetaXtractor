@@ -1,0 +1,42 @@
+[
+  {
+    "data": {
+      "text": "haddock3\n\n[](https://doi.org/10.5281/zenodo.10527751) [](https://research-software-directory.org/software/haddock3) [](https://fair-software.eu) [](https://www.bestpractices.dev/projects/8844)\n\n[](https://pepy.tech/project/haddock3)\n\n[](https://github.com/haddocking/haddock3/actions/workflows/ci.yml) [](https://github.com/haddocking/haddock3/actions/workflows/pages.yml) [](https://github.com/haddocking/haddock3/actions/workflows/github-code-scanning/codeql) [](https://app.codacy.com/gh/haddocking/haddock3/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) [](https://app.codacy.com/gh/haddocking/haddock3/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)",
+      "section": "`haddock3` (part 1)",
+      "repo": "311_haddock3",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Introduction\n\nHADDOCK, standing for High Ambiguity Driven protein-protein DOCKing, is a widely used computational tool for the integrative modeling of biomolecular interactions. Developed by researchers at [Utrecht University] https://uu.nl in the [BonvinLab] https://bonvinlab.org for more than 20 years, it integrates various types of experimental data, biochemical, biophysical, bioinformatic prediction and knowledge to guide the docking process.\n\n## Installation\n\nSimple installation of the [latest release] https://pypi.org/project/haddock3/ of HADDOCK3 (assuming you have a Python version 3.9 to 3.13 installed and the rights to install the software - if not refer to the instructions in [INSTALL.md] docs/INSTALL.md for using either venv or conda) .\n\npip install haddock3\n\nTo install haddock3 with MPI support (required an OpenMPI installation - refer to the instructions in [INSTALL.md] docs/INSTALL.md use:\n\npip install 'haddock3[mpi]'\n\nIn case you rather install the latest unreleased version use instead:\n\ngit clone https://github.com/haddocking/haddock3.git cd haddock3 pip install .\n\nFor detailed instructions and installation of third-party software, please check [INSTALL.md] docs/INSTALL.md\n\nYou might also want to check the following utilities:\n\n[haddock-restraints] https://github.com/haddocking/haddock-restraints: Tool to generate restraints to be used in haddock3.\n\n[haddock-runner] https://github.com/haddocking/haddock-runner: Tool to run large scale haddock3 simulations using multiple input molecules in different scenarios\n\n[haddock-tools] https://github.com/haddocking/haddock-tools: Set of useful utility scripts developed over the years by the BonvinLab group members",
+      "section": "`haddock3` (part 2)",
+      "repo": "311_haddock3",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Usage\n\nThe most basic usage is:\n\nhaddock3\n\nFor help on haddock3 usage:\n\n$ haddock3 -h usage: haddock3 [-h] [--restart RESTART] [--extend-run EXTEND_RUN] [--setup] [--log-level {DEBUG,INFO,WARNING,ERROR,CRITICAL}] [-v] recipe\n\npositional arguments:  recipe The input recipe file path\n\noptional arguments:  -h, --help show this help message and exit  --restart RESTART Restart the run from a given step. Previous folders from the selected step onwards will be deleted.  --extend-run EXTEND_RUN  Start a run from a run directory previously prepared with the haddock3-copy CLI. Provide the run directory created with haddock3-copy CLI.  --setup Only setup the run, do not execute  --log-level {DEBUG,INFO,WARNING,ERROR,CRITICAL}  -v, --version show version\n\nCheck the [EXAMPLES] https://github.com/haddocking/haddock3/blob/main/examples/README.md page for more some usage examples and the [User manual] https://www.bonvinlab.org/haddock3-user-manual for a more detailed explanation of the configuration file.\n\n## Support\n\nIf you encounter any code-related issues, [please open an issue] https://github.com/haddocking/haddock3/issues/new/choose.\n\nIf you have any other questions or need help, please contact us at [ask.bioexcel.eu] https://ask.bioexcel.eu/.\n\nIf you clone this repository and use haddock3 for your research, please support us by signing up in [this form] https://forms.gle/LCUHiYHh1hE9rd8L6. This will allow us contact you when needed for haddock3-related issues, and also provide us a mean to demonstrate impact when reporting for grants - which grealty helps us to keep the project alive!",
+      "section": "`haddock3` (part 3)",
+      "repo": "311_haddock3",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Cite us\n\nIf you used haddock3 for your research, please cite us:\n\nResearch article: M. Giulini, V. Reys, J.M.C. Teixeira, B. Jim\u00e9nez-Garc\u00eda, R.V. Honorato, A. Kravchenko, X. Xu, R. Versini, A. Engel, S. Verhoeven, A.M.J.J. Bonvin, [HADDOCK3: A modular and versatile platform for integrative modelling of biomolecular complexes] https://pubs.acs.org/doi/10.1021/acs.jcim.5c00969 Journal of Chemical Information and Modeling (2025). doi: 10.1021/acs.jcim.5c00969 [[BioRxiv]](https://www.biorxiv.org/content/10.1101/2025.04.30.651432v1)\n\nCite this repository: M.C. Teixeira, J., Vargas Honorato, R., Giulini, M., Bonvin, A., SarahAlidoost, Reys, V., Jimenez, B., Schulte, D., van Noort, C., Verhoeven, S., Vreede, B., SSchott, & Tsai, R. (2024). haddocking/haddock3: v3.0.0-beta.5 (Version 3.0.0-beta.5) [Computer software]. [https://doi.org/10.5281/zenodo.10527751] https://doi.org/10.5281/zenodo.10527751\n\n## Useful resources\n\n[User manual] https://www.bonvinlab.org/haddock3-user-manual: The online HADDOCK3 guide describing every aspects of the tool.\n\n[Best practice guide] https://www.bonvinlab.org/software/bpg/ (HADDOCK2.X series)\n\n[The HADDOCK2.4 web server: A leap forward in integrative modelling of biomolecular complexes. Nature Prot. 2024] https://www.nature.com/articles/s41596-024-01011-0\n\n## Development\n\nPlease check [DEVELOPMENT] https://github.com/haddocking/haddock3/blob/main/DEVELOPMENT.md for instructions on how to develop haddock3",
+      "section": "`haddock3` (part 4)",
+      "repo": "311_haddock3",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Code Documentation\n\nThe code documentation is automatically built and hosted at [bonvinlab.org/haddock3] https://www.bonvinlab.org/haddock3/.\n\nTo build it locally it is necessary to have some extra packages installed. You can install them using the following command:\n\npip install -e '.[docs]'\n\nThen, to build the documentation, run the following commands:\n\nsphinx-apidoc -f -e -o docs/ src/haddock -d 1 sphinx-build -b html docs haddock3-docs\n\nWarning messages are expected, but the documentation should be built successfully.\n\nThe rendered documentation will be available at haddock3-docs/index.html. This will open a local webpage with the\n\n### Contributing\n\nCheck the [CONTRIBUTING] CONTRIBUTING.md file for instructions on how to contribute with the project!\n\n-->",
+      "section": "`haddock3` (part 5)",
+      "repo": "311_haddock3",
+      "source_file": "readme.md"
+    }
+  }
+]

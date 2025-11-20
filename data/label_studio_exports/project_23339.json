@@ -1,0 +1,1815 @@
+[
+  {
+    "id": 1406,
+    "annotations": [
+      {
+        "id": 10974,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:20:57.613547Z",
+        "updated_at": "2025-11-05T22:20:57.613567Z",
+        "draft_created_at": null,
+        "lead_time": 3.344,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "de01157a-f41a-443a-bfbb-64b030b2e633",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1406,
+        "project": 23339,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "🌐 harmonydata.ac.uk\n\n[](https://twitter.com/harmony_data)",
+      "section": "Introduction",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.695451Z",
+    "updated_at": "2025-11-05T22:20:57.641414Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23339,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1407,
+    "annotations": [
+      {
+        "id": 10975,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 69,
+              "end": 125,
+              "text": "https://github.com/harmonydata/harmony/blob/main/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "mEiynvzKHt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:21:18.719700Z",
+        "updated_at": "2025-11-05T22:21:18.719710Z",
+        "draft_created_at": "2025-11-05T22:21:10.725041Z",
+        "lead_time": 20.925,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "9976a207-8b62-419e-a6c6-2489af2fb236",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1407,
+        "project": 23339,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Harmony Python library\n\n[](https://pypi.org/project/harmonydata/) [](https://github.com/harmonydata/harmony/blob/main/LICENSE) [](https://github.com/harmonydata/harmony/actions/workflows/test.yml) [](https://github.com/harmonydata/harmony/releases) [](https://pypi.org/project/harmonydata/)  [](https://github.com/harmonydata/harmony/releases) [](https://pypi.org/project/harmonydata/) [](https://github.com/harmonydata/harmony/forks) [](https://hub.docker.com/r/harmonydata/harmonyapi)\n\nYou can also join [our Discord server] https://discord.gg/harmonydata! If you found Harmony helpful, you can [leave us a review] https://g.page/r/CaRWc2ViO653EBM/review!",
+      "section": "Harmony Python library",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.695490Z",
+    "updated_at": "2025-11-05T22:21:18.746739Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23339,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1408,
+    "annotations": [
+      {
+        "id": 10976,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:21:23.527900Z",
+        "updated_at": "2025-11-05T22:21:23.527919Z",
+        "draft_created_at": null,
+        "lead_time": 4.631,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b06f36b4-ede2-47e1-87e1-c2d1ff964812",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1408,
+        "project": 23339,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "What does Harmony do?\n\nPsychologists and social scientists often have to match items in different questionnaires, such as \"I often feel anxious\" and \"Feeling nervous, anxious or afraid\".   This is called harmonisation.  Harmonisation is a time consuming and subjective process.  Going through long PDFs of questionnaires and putting the questions into Excel is no fun. Enter [Harmony] https://harmonydata.ac.uk/app, a tool that uses [natural language processing] naturallanguageprocessing.com and generative AI models to help researchers harmonise questionnaire items, even in different languages.\n\nQuick start with the code\n\n[Read our guide to contributing to Harmony here] https://harmonydata.ac.uk/contributing-to-harmony/ or read [CONTRIBUTING.md] ./CONTRIBUTING.md.\n\nYou can run the walkthrough Python notebook in [Google Colab] https://colab.research.google.com/github/harmonydata/harmony/blob/main/Harmony_example_walkthrough.ipynb with a single click:\n\nYou can also download an R markdown notebook to run in R Studio:\n\nYou can run the walkthrough R notebook in Google Colab with a single click: [View the PDF documentation of the R package on CRAN] https://cran.r-project.org/web/packages/harmonydata/harmonydata.pdf",
+      "section": "What does Harmony do? + Quick start with the code",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.695516Z",
+    "updated_at": "2025-11-05T22:21:23.557379Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23339,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1409,
+    "annotations": [
+      {
+        "id": 10977,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:21:25.241393Z",
+        "updated_at": "2025-11-05T22:21:25.241403Z",
+        "draft_created_at": null,
+        "lead_time": 1.538,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "93d99907-e682-4948-a777-829b793701b2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1409,
+        "project": 23339,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Looking for examples?\n\nCheck out our examples repository at [https://github.com/harmonydata/harmony_examples] https://github.com/harmonydata/harmony_examples",
+      "section": "Looking for examples?",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.695537Z",
+    "updated_at": "2025-11-05T22:21:25.265003Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23339,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1410,
+    "annotations": [
+      {
+        "id": 10978,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 921,
+              "end": 928,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "-RhfWRVuvq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 930,
+              "end": 935,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "WgbGYBqXt_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 939,
+              "end": 942,
+              "text": "Mac",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "NbV5FGSLKQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1084,
+              "end": 1095,
+              "text": "Apache Tika",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "U6PoDDSqSu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1035,
+              "end": 1040,
+              "text": " Java",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "sNgbAhtxYM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1346,
+              "end": 1351,
+              "text": "spaCy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "aFCF4WFFQK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 420,
+              "end": 463,
+              "text": "https://www.youtube.com/watch?v=enWh0-4I0Sg",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "GCcSw_-K64",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 539,
+              "end": 569,
+              "text": "https://harmonydata.ac.uk/app/",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "AJEyPAJ-9_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 644,
+              "end": 648,
+              "text": "Tika",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "uDFdtdeySw",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 716,
+              "end": 720,
+              "text": "Java",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "i8o59KFwAM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 772,
+              "end": 783,
+              "text": "Apache Tika",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "TD1_r4hEFg",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 602,
+              "end": 628,
+              "text": "https://harmonydata.ac.uk/",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "PTL1gabKK9",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1097,
+              "end": 1134,
+              "text": "https://tika.apache.org/download.html",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "6TfME7RHML",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 956,
+              "end": 975,
+              "text": "Python 3.8 or above",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "imjfIMzG2C",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:23:41.942162Z",
+        "updated_at": "2025-11-17T00:20:05.386939Z",
+        "draft_created_at": "2025-11-05T22:21:38.861524Z",
+        "lead_time": 211.882,
+        "prediction": {},
+        "result_count": 14,
+        "unique_id": "482c5fb8-4041-4097-a36c-4c67c9b9f08f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1410,
+        "project": 23339,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "The Harmony Project\n\nHarmony is a tool using AI which allows you to compare items from questionnaires and identify similar content. You can try Harmony at https://harmonydata.ac.uk/app and you can read our blog at https://harmonydata.ac.uk/blog/.\n\n## Who to contact?\n\nYou can contact Harmony team at https://harmonydata.ac.uk/, or Thomas Wood at https://fastdatascience.com/.\n\n## 🖥 Installation instructions (video)\n\n[](https://www.youtube.com/watch?v=enWh0-4I0Sg \"Installing Harmony\")\n\n## 🖱 Looking to try Harmony in the browser?\n\nVisit: https://harmonydata.ac.uk/app/\n\nYou can also visit our blog at https://harmonydata.ac.uk/\n\n## ✅ You need Tika if you want to extract instruments from PDFs\n\nDownload and install Java if you don't have it already. Download and install Apache Tika and run it on your computer https://tika.apache.org/download.html\n\njava -jar tika-server-standard-2.3.0.jar\n\n## Requirements\n\nYou need a Windows, Linux or Mac system with\n\nPython 3.8 or above  the requirements in [requirements.txt] ./requirements.txt  Java (if you want to extract items from PDFs)  [Apache Tika] https://tika.apache.org/download.html (if you want to extract items from PDFs)\n\n## 🖥 Installing Harmony Python package\n\nYou can install from [PyPI] https://pypi.org/project/harmonydata/.\n\npip install harmonydata\n\n## Loading all models\n\nHarmony uses spaCy to help with text extraction from PDFs. spaCy models can be downloaded with the following command in Python:\n\nimport harmony harmony.download_models()",
+      "section": "The Harmony Project (part 1)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.695585Z",
+    "updated_at": "2025-11-17T00:20:05.426025Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23339,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1411,
+    "annotations": [
+      {
+        "id": 10979,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:23:47.361147Z",
+        "updated_at": "2025-11-05T22:23:47.361168Z",
+        "draft_created_at": null,
+        "lead_time": 5.087,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f79edb12-8add-48e0-b3ac-4483e316d8db",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1411,
+        "project": 23339,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Matching example instruments\n\ninstruments = harmony.example_instruments[\"CES_D English\"], harmony.example_instruments[\"GAD-7 Portuguese\"] match_response = harmony.match_instruments(instruments)\n\nquestions = match_response.questions similarity = match_response.similarity_with_polarity\n\n## How to load a PDF, Excel or Word into an instrument\n\nharmony.load_instruments_from_local_file(\"gad-7.pdf\")\n\n## Optional environment variables\n\nAs an alternative to downloading models, you can set environment variables so that Harmony calls spaCy on a remote server. This is only necessary if you are making a server deployment of Harmony.\n\nHARMONY_DATA_PATH - determines where data files are stored. Defaults to HOME DIRECTORY/harmony  HARMONY_NO_PARSING - set to 1 to import a lightweight variant of Harmony which doesn't support PDF parsing. HARMONY_NO_MATCHING - set to 1 to import a lightweight variant of Harmony which doesn't support matching.\n\n## Creating instruments from a list of strings\n\nYou can also create instruments quickly from a list of strings\n\nfrom harmony import create_instrument_from_list, match_instruments instrument1 = create_instrument_from_list([\"I feel anxious\", \"I feel nervous\"]) instrument2 = create_instrument_from_list([\"I feel afraid\", \"I feel worried\"])\n\nmatch_response = match_instruments([instrument1, instrument2])\n\n## Loading instruments from PDFs\n\nIf you have a local file, you can load it into a list of Instrument instances:\n\nfrom harmony import load_instruments_from_local_file instruments = load_instruments_from_local_file(\"gad-7.pdf\")",
+      "section": "The Harmony Project (part 2)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.695643Z",
+    "updated_at": "2025-11-05T22:23:47.384846Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23339,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1412,
+    "annotations": [
+      {
+        "id": 10980,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:23:49.209570Z",
+        "updated_at": "2025-11-05T22:23:49.209583Z",
+        "draft_created_at": null,
+        "lead_time": 1.664,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "a9358ca4-2490-4b45-b76a-79dfcf655626",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1412,
+        "project": 23339,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Matching instruments\n\nOnce you have some instruments, you can match them with each other with a call to match_instruments.\n\nfrom harmony import match_instruments match_response = match_instruments(instruments)\n\nmatch_response.questions is a list of the questions passed to Harmony, in order.  match_response.similarity_with_polarity is the similarity matrix returned by Harmony. match_response.query_similarity is the degree of similarity of each item to an optional query passed as argument to match_instruments.\n\n## ⇗⇗ Using a different vectorisation function\n\nHarmony defaults to sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 ([HuggingFace link] https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2). However you can use other sentence transformers from HuggingFace by setting the environment HARMONY_SENTENCE_TRANSFORMER_PATH before importing Harmony:\n\nexport HARMONY_SENTENCE_TRANSFORMER_PATH=sentence-transformers/distiluse-base-multilingual-cased-v2",
+      "section": "The Harmony Project (part 3)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.695679Z",
+    "updated_at": "2025-11-05T22:23:49.237315Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23339,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1413,
+    "annotations": [
+      {
+        "id": 10983,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1126,
+              "end": 1132,
+              "text": "Docker",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "M8zKyPOWDE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:25:44.143944Z",
+        "updated_at": "2025-11-05T22:25:44.143959Z",
+        "draft_created_at": "2025-11-05T22:25:43.103058Z",
+        "lead_time": 58.678000000000004,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "1d06c8ac-c3e0-4c71-b5b0-2b2dbfe0ab45",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1413,
+        "project": 23339,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Using OpenAI or other LLMs for vectorisation\n\nAny word vector representation can be used by Harmony. The below example works for OpenAI's [text-embedding-ada-002] https://openai.com/blog/new-and-improved-embedding-model model as of Apri 2025, provided you have create a paid OpenAI account. However, since LLMs are progressing rapidly, we have chosen not to integrate Harmony directly into the OpenAI client libraries, but instead allow you to pass Harmony any vectorisation function of your choice.\n\nimport numpy as np from harmony import match_instruments_with_function, example_instruments from openai import OpenAI\n\nclient = OpenAI() model_name = \"text-embedding-ada-002\" def convert_texts_to_vector(texts):  vectors = client.embeddings.create(input = texts, model=model_name).data  return np.asarray([vectors[i].embedding for i in range(len(vectors))]) instruments = example_instruments[\"CES_D English\"], example_instruments[\"GAD-7 Portuguese\"] match_response = match_instruments_with_function(instruments, None, convert_texts_to_vector)\n\n## 💻 Do you want to run Harmony in your browser locally?\n\nDownload and install Docker:\n\nhttps://docs.docker.com/desktop/install/mac-install/  https://docs.docker.com/desktop/install/windows-install/  https://docs.docker.com/desktop/install/linux-install/\n\nOpen a Terminal and run\n\ndocker run -p 8000:80 harmonydata/harmonyapi\n\nThen go to http://localhost:8000 in your browser to see the API.\n\nYou can now install and run the front end locally: https://www.youtube.com/watch?v=1xp3Uh6dptg\n\n## Looking for the Harmony API?\n\nVisit: https://github.com/harmonydata/harmonyapi\n\n📰 The code for training the PDF extraction is here: https://github.com/harmonydata/pdf-questionnaire-extraction",
+      "section": "The Harmony Project (part 4)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.695705Z",
+    "updated_at": "2025-11-05T22:25:44.176095Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23339,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1414,
+    "annotations": [
+      {
+        "id": 10982,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 986,
+              "end": 989,
+              "text": "tox",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "kmu3CJM2IZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 661,
+              "end": 669,
+              "text": "unittest",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "w7cztWuHnz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1093,
+              "end": 1107,
+              "text": "check-manifest",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "tePZlrqJlr",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 671,
+              "end": 718,
+              "text": "https://docs.python.org/3/library/unittest.html",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "zB7Y4DcNut",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1109,
+              "end": 1149,
+              "text": "https://pypi.org/project/check-manifest/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "4ZtNZGcE8H",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1541,
+              "end": 1551,
+              "text": "Python 3.9",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "YWVdDokL12",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:25:35.692954Z",
+        "updated_at": "2025-11-17T00:35:21.290731Z",
+        "draft_created_at": "2025-11-05T22:25:03.814537Z",
+        "lead_time": 83.067,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "7fde8139-44db-49b6-b2ed-7b3e76e710a1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1414,
+        "project": 23339,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Docker images\n\nIf you are a Docker user, you can run Harmony from a pre-built Docker image.\n\nhttps://hub.docker.com/repository/docker/harmonydata/harmonyapi - just the Harmony API  https://hub.docker.com/repository/docker/harmonydata/harmonylocal - Harmony API and React front end\n\n## Contributing to Harmony\n\nIf you'd like to contribute to this project, you can contact us at https://harmonydata.ac.uk/ or make a pull request on our [Github repository] https://github.com/harmonydata/harmonyapi. You can also [raise an issue] https://github.com/harmonydata/harmony/issues.\n\n## Developing Harmony\n\n### 🧪 Automated tests\n\nTest code is in tests/ folder using [unittest] https://docs.python.org/3/library/unittest.html.\n\nThe testing tool tox is used in the automation with GitHub Actions CI/CD. Since the PDF extraction also needs Java and Tika installed, you cannot run the unit tests without first installing Java and Tika. See above for instructions.\n\n### 🧪 Use tox locally\n\nInstall tox and run it:\n\npip install tox tox\n\nIn our configuration, tox runs a check of source distribution using [check-manifest] https://pypi.org/project/check-manifest/ (which requires your repo to be git-initialized (git init) and added (git add .) at least), setuptools's check, and unit tests using pytest. You don't need to install check-manifest and pytest though, tox will install them in a separate environment.\n\nThe automated tests are run against several Python versions, but on your machine, you might be using only one version of Python, if that is Python 3.9, then run:\n\ntox -e py39\n\nThanks to GitHub Actions' automated process, you don't need to generate distribution files locally.",
+      "section": "The Harmony Project (part 5)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.695730Z",
+    "updated_at": "2025-11-17T00:35:21.324781Z",
+    "inner_id": 9,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23339,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1415,
+    "annotations": [
+      {
+        "id": 10984,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:26:21.625045Z",
+        "updated_at": "2025-11-05T22:26:21.625058Z",
+        "draft_created_at": null,
+        "lead_time": 37.224,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "7d818e82-cd43-4ab1-96d9-26aac2e4fa60",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1415,
+        "project": 23339,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### ⚙️Continuous integration/deployment to PyPI\n\nThis package is based on the template https://pypi.org/project/example-pypi-package/\n\nThis package\n\nuses GitHub Actions for both testing and publishing\n\nis tested when pushing master or main branch, and is published when create a release\n\nincludes test files in the source distribution\n\nuses setup.cfg for [version single-sourcing] https://packaging.python.org/guides/single-sourcing-package-version/ (setuptools 46.4.0+)\n\n## ⚙️Re-releasing the package manually\n\nThe code to re-release Harmony on PyPI is as follows:\n\nsource activate py311 pip install twine rm -rf dist python setup.py sdist twine upload dist/\n\n## ‎😃💁 Who worked on Harmony?\n\nHarmony is a collaboration project between [Ulster University] https://ulster.ac.uk/, [University College London] https://ucl.ac.uk/, the [Universidade Federal de Santa Maria] https://www.ufsm.br/, and [Fast Data Science] http://fastdatascience.com/. Harmony has been funded by [Wellcome] https://wellcome.org/ as part of the [Wellcome Data Prize in Mental Health] https://wellcome.org/grant-funding/schemes/wellcome-mental-health-data-prize and by [Economic and Social Research Council (ESRC)] https://www.ukri.org/councils/esrc/.\n\nThe core team at Harmony is made up of:\n\n[Dr Bettina Moltrecht, PhD] https://profiles.ucl.ac.uk/60736-bettina-moltrecht (UCL)  [Dr Eoin McElroy] https://www.ulster.ac.uk/staff/e-mcelroy (University of Ulster)  [Dr George Ploubidis] https://profiles.ucl.ac.uk/48171-george-ploubidis (UCL)  [Dr Mauricio Scopel Hoffmann] https://ufsmpublica.ufsm.br/docente/18264 (Universidade Federal de Santa Maria, Brazil)  [Thomas Wood] https://freelancedatascientist.net/ ([Fast Data Science] https://fastdatascience.com)",
+      "section": "The Harmony Project (part 6)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.695755Z",
+    "updated_at": "2025-11-05T22:26:21.647430Z",
+    "inner_id": 10,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23339,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1416,
+    "annotations": [
+      {
+        "id": 10985,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 39,
+              "end": 50,
+              "text": "MIT License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "3Cl4WeOr-N",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 52,
+              "end": 108,
+              "text": "https://github.com/harmonydata/harmony/blob/main/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "e6P0xDP4sL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:26:33.630261Z",
+        "updated_at": "2025-11-05T22:26:33.630300Z",
+        "draft_created_at": "2025-11-05T22:26:33.073244Z",
+        "lead_time": 11.811,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "f9299827-a9a4-44ea-bea6-1e321ced6e78",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1416,
+        "project": 23339,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## 📜 License\n\nHarmony itself is under [MIT License] https://github.com/harmonydata/harmony/blob/main/LICENSE. Copyright (c) 2023 Ulster University (https://www.ulster.ac.uk). The third party resources used include:",
+      "section": "The Harmony Project (part 7)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.695776Z",
+    "updated_at": "2025-11-05T22:26:33.660542Z",
+    "inner_id": 11,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23339,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1417,
+    "annotations": [
+      {
+        "id": 10986,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:26:36.243841Z",
+        "updated_at": "2025-11-05T22:26:36.243855Z",
+        "draft_created_at": null,
+        "lead_time": 2.425,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c8ec1c86-0738-452a-a80a-c13bbf987dd2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1417,
+        "project": 23339,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Licenses of third party software\n\nAll of the components in the below table are open source.",
+      "section": "The Harmony Project (part 8)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.695798Z",
+    "updated_at": "2025-11-05T22:26:36.271494Z",
+    "inner_id": 12,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23339,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1418,
+    "annotations": [
+      {
+        "id": 10987,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 466,
+              "end": 533,
+              "text": "https://github.com/UKPLab/sentence-transformers/blob/master/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "M2ojpx0FGj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 878,
+              "end": 930,
+              "text": "https://github.com/apache/tika/blob/main/LICENSE.txt",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "aGHM4qdYPA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 734,
+              "end": 788,
+              "text": "https://github.com/pandas-dev/pandas/blob/main/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "o1j6KZAsv0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1130,
+              "end": 1189,
+              "text": "https://github.com/Mimino666/langdetect/blob/master/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "PwmFLKi1Eq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1754,
+              "end": 1829,
+              "text": "https://sklearn-crfsuite.readthedocs.io/en/latest/contributing.html#license",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "FBHUyfPdFN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1473,
+              "end": 1514,
+              "text": "https://numpy.org/doc/stable/license.html",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "N_W-myAPGe",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1336,
+              "end": 1393,
+              "text": "https://github.com/fluidware/openpyxl/blob/master/LICENCE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "PQGfrAfZgR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1251,
+              "end": 1297,
+              "text": "https://xlsxwriter.readthedocs.io/license.html",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "AceDU8bFOn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 603,
+              "end": 664,
+              "text": "https://github.com/huggingface/transformers/blob/main/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "oMBZlTpCNG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1007,
+              "end": 1060,
+              "text": "https://github.com/lxml/lxml/blob/master/LICENSES.txt",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "XRhFOZ_DTS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 595,
+              "end": 601,
+              "text": "Apache",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "F7itK4Qyv7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 720,
+              "end": 732,
+              "text": "BSD 3-Clause",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "lGlRcBUp8H",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1002,
+              "end": 1005,
+              "text": "BSD",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "nv9TWn9GUy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1122,
+              "end": 1128,
+              "text": "Apache",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "swMssLaOop",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1237,
+              "end": 1249,
+              "text": "BSD 2-Clause",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "3XyeNnXVDz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1578,
+              "end": 1590,
+              "text": "BSD 3-Clause",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "I4_NfTITJR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1459,
+              "end": 1471,
+              "text": "BSD 3-Clause",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "2KXw3GsmmC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 458,
+              "end": 464,
+              "text": "Apache",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "41cM_6oYEt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 101,
+              "end": 165,
+              "text": "https://en.wikipedia.org/wiki/Python_Software_Foundation_License",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "1nAoJVePaz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 870,
+              "end": 876,
+              "text": "Apache",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "vg248GfuKY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1749,
+              "end": 1752,
+              "text": "MIT",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "bDlsxLLloV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1331,
+              "end": 1334,
+              "text": "MIT",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "dwqs5kSQCB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 75,
+              "end": 99,
+              "text": "BSD-style custom license",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "w2g4PESZVG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1592,
+              "end": 1654,
+              "text": "https://github.com/scikit-learn/scikit-learn/blob/main/COPYING",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "Rh77ZAjeve",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:29:43.870841Z",
+        "updated_at": "2025-11-05T22:29:43.870858Z",
+        "draft_created_at": "2025-11-05T22:26:49.424961Z",
+        "lead_time": 187.451,
+        "prediction": {},
+        "result_count": 24,
+        "unique_id": "12fb4945-098d-466f-813d-db9981910f67",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1418,
+        "project": 23339,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| Third party dependency | License | Use | | --- | --- | --- | | Python | [BSD-style custom license] https://en.wikipedia.org/wiki/Python_Software_Foundation_License | Programming language - all of Harmony runs based on Python and so this can't be replaced | | Java | Different options available such as Oracle and IBM | Programming language used to run Tika, used for PDF parsing. If we replace Tika we may no longer need Java. | | Sentence Transformers | [Apache] https://github.com/UKPLab/sentence-transformers/blob/master/LICENSE | Library for running transformer models | | Transformers | [Apache] https://github.com/huggingface/transformers/blob/main/LICENSE | Library for running transformer models | | Pandas | [BSD 3-Clause] https://github.com/pandas-dev/pandas/blob/main/LICENSE | Handling tables inside Harmony - mainly for reading/writing Excels | | Tika | [Apache] https://github.com/apache/tika/blob/main/LICENSE.txt | Parsing PDFs into plain text including OCR. Runs in Java | | LXML | [BSD] https://github.com/lxml/lxml/blob/master/LICENSES.txt | Reading the output of Tika's PDF parsing | | Langdetect | [Apache] https://github.com/Mimino666/langdetect/blob/master/LICENSE | Detecting language of text | | XlsxWriter | [BSD 2-Clause] https://xlsxwriter.readthedocs.io/license.html | Writing Excels | | Openpyxl | [MIT] https://github.com/fluidware/openpyxl/blob/master/LICENCE | Writing Excels | | Numpy | [custom license which appears to be BSD 3-Clause] https://numpy.org/doc/stable/license.html | Dependency of the transformers libraries | | Scikit-Learn | [BSD 3-Clause] https://github.com/scikit-learn/scikit-learn/blob/main/COPYING | Machine learning models for extracting the questions from PDFs | | Scikit-Learn CRFSuite | [MIT] https://sklearn-crfsuite.readthedocs.io/en/latest/contributing.html#license | Machine learning models for extracting the questions from PDFs |",
+      "section": "The Harmony Project (part 9)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.695822Z",
+    "updated_at": "2025-11-05T22:29:43.900242Z",
+    "inner_id": 13,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23339,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1419,
+    "annotations": [
+      {
+        "id": 10988,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 46,
+              "end": 58,
+              "text": "BSD 3-Clause",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "jHYBeu95Js",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 60,
+              "end": 112,
+              "text": "https://github.com/scipy/scipy/blob/main/LICENSE.txt",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "5i09_QAKSz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 209,
+              "end": 273,
+              "text": "https://github.com/huggingface/huggingface_hub/blob/main/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "pU4D-nKYB7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 201,
+              "end": 207,
+              "text": "Apache",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "4oCglO9AJr",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:30:06.543421Z",
+        "updated_at": "2025-11-05T22:30:06.543436Z",
+        "draft_created_at": "2025-11-05T22:30:01.263253Z",
+        "lead_time": 22.423,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "0b776839-8823-4c7f-b08e-ffcf08ce559e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1419,
+        "project": 23339,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| Scipy | [custom license which appears to be BSD 3-Clause] https://github.com/scipy/scipy/blob/main/LICENSE.txt | Machine learning models for extracting the questions from PDFs | | Huggingface Hub | [Apache] https://github.com/huggingface/huggingface_hub/blob/main/LICENSE | Connects to HuggingFace Hub, online catalogue of transformer models |",
+      "section": "The Harmony Project (part 10)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.695843Z",
+    "updated_at": "2025-11-05T22:30:06.569807Z",
+    "inner_id": 14,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23339,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1420,
+    "annotations": [
+      {
+        "id": 10989,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 183,
+              "end": 186,
+              "text": "MIT",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "B8_UOvve-M",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 188,
+              "end": 242,
+              "text": "https://github.com/fastapi/fastapi/blob/master/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "x8vOscp70l",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 274,
+              "end": 277,
+              "text": "MIT",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "4T0327NU9W",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 279,
+              "end": 333,
+              "text": "https://github.com/pydantic/pydantic/blob/main/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "RmtGu-pCnN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 433,
+              "end": 436,
+              "text": "MIT",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "LEGEQYZ4Ye",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 438,
+              "end": 501,
+              "text": "https://github.com/pydantic/pydantic-settings/blob/main/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "4vAK2_kMlb",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 591,
+              "end": 603,
+              "text": "BSD 3-Clause",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "O61suPN_Mr",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 605,
+              "end": 661,
+              "text": "https://github.com/encode/uvicorn/blob/master/LICENSE.md",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "qWpwSNPbcQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 696,
+              "end": 699,
+              "text": "MIT",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "Yu3iEBFAzn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 701,
+              "end": 765,
+              "text": "https://github.com/agronholm/apscheduler/blob/master/LICENSE.txt",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "2FQ7bzFogS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1177,
+              "end": 1183,
+              "text": "Apache",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "4byu-IZzJC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1185,
+              "end": 1250,
+              "text": "https://github.com/googleapis/python-aiplatform/blob/main/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "HKqFmjA--6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1296,
+              "end": 1302,
+              "text": "Apache",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "lHqb4IPVXN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1304,
+              "end": 1361,
+              "text": "https://github.com/openai/openai-python/blob/main/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "Y2ry6H8pJ7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:30:55.959849Z",
+        "updated_at": "2025-11-05T22:30:55.959862Z",
+        "draft_created_at": "2025-11-05T22:30:19.728094Z",
+        "lead_time": 49.202,
+        "prediction": {},
+        "result_count": 14,
+        "unique_id": "59a01c8b-ac3d-47ad-8c4d-f8c73adf4a65",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1420,
+        "project": 23339,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Third party software only used for the API\n\nAll of the components in the below table are open source.\n\n| Third party dependency | License | Use | | --- | --- | --- | | FastAPI | [MIT] https://github.com/fastapi/fastapi/blob/master/LICENSE | Runs the API | | Pydantic | [MIT] https://github.com/pydantic/pydantic/blob/main/LICENSE | Ensures that data going in and out of the API is consistently formatted | | Pydantic Settings | [MIT] https://github.com/pydantic/pydantic-settings/blob/main/LICENSE | Ensures that data going in and out of the API is consistently formatted | | Uvicorn | [BSD 3-Clause] https://github.com/encode/uvicorn/blob/master/LICENSE.md | Runs the API | | APScheduler | [MIT] https://github.com/agronholm/apscheduler/blob/master/LICENSE.txt | Periodically downloads Mental Health Catalogue data and similar - could potentially be removed |\n\n### Third party software only used for using LLMs from cloud providers\n\nThe components in the below table are closed source but are optional dependencies - Harmony can optionally integrate with OpenAI but can be used without OpenAI.\n\n| Third party dependency | License | Use | | --- | --- | --- | | VertexAI | [Apache] https://github.com/googleapis/python-aiplatform/blob/main/LICENSE | Calls Google Vertex API LLMs | | OpenAI | [Apache] https://github.com/openai/openai-python/blob/main/LICENSE | Calls OpenAI LLMs |",
+      "section": "The Harmony Project (part 11)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.695867Z",
+    "updated_at": "2025-11-05T22:30:55.987734Z",
+    "inner_id": 15,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23339,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1421,
+    "annotations": [
+      {
+        "id": 10990,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 480,
+              "end": 939,
+              "text": "@article{mcelroy2024using, title={Using natural language processing to facilitate the harmonisation of mental health questionnaires: a validation study using real-world data}, author={McElroy, Eoin and Wood, Thomas and Bond, Raymond and Mulvenna, Maurice and Shevlin, Mark and Ploubidis, George B and Hoffmann, Mauricio Scopel and Moltrecht, Bettina}, journal={BMC psychiatry}, volume={24}, number={1}, pages={530}, year={2024}, publisher={Springer} }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "mRqLbrmfj7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 65,
+              "end": 443,
+              "text": "McElroy, Wood, Bond, Mulvenna, Shevlin, Ploubidis, Scopel Hoffmann, Moltrecht, [Using natural language processing to facilitate the harmonisation of mental health questionnaires: a validation study using real-world data] https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-024-05954-2#citeas. BMC Psychiatry 24, 530 (2024), https://doi.org/10.1186/s12888-024-05954-2",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "X2k5_s4oJj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:32:49.564255Z",
+        "updated_at": "2025-11-05T22:32:49.564267Z",
+        "draft_created_at": "2025-11-05T22:31:22.659473Z",
+        "lead_time": 113.322,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "afe63499-8b1b-4611-b498-c56f847f1333",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1421,
+        "project": 23339,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## 📜 How do I cite Harmony?\n\nYou can cite our validation paper:\n\nMcElroy, Wood, Bond, Mulvenna, Shevlin, Ploubidis, Scopel Hoffmann, Moltrecht, [Using natural language processing to facilitate the harmonisation of mental health questionnaires: a validation study using real-world data] https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-024-05954-2#citeas. BMC Psychiatry 24, 530 (2024), https://doi.org/10.1186/s12888-024-05954-2\n\nA BibTeX entry for LaTeX users is\n\n@article{mcelroy2024using,  title={Using natural language processing to facilitate the harmonisation of mental health questionnaires: a validation study using real-world data},  author={McElroy, Eoin and Wood, Thomas and Bond, Raymond and Mulvenna, Maurice and Shevlin, Mark and Ploubidis, George B and Hoffmann, Mauricio Scopel and Moltrecht, Bettina},  journal={BMC psychiatry},  volume={24},  number={1},  pages={530},  year={2024},  publisher={Springer} }",
+      "section": "The Harmony Project (part 12)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.695889Z",
+    "updated_at": "2025-11-05T22:32:49.589961Z",
+    "inner_id": 16,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23339,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

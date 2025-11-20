@@ -1,0 +1,225 @@
+[
+  {
+    "id": 1296,
+    "annotations": [
+      {
+        "id": 11024,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:47:21.995098Z",
+        "updated_at": "2025-11-05T22:47:21.995116Z",
+        "draft_created_at": null,
+        "lead_time": 5.75,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "57172df9-8036-48ec-a15e-d54e6e32be98",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1296,
+        "project": 23315,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Chemotion [![Badge DOI]][DOI]\n\nAn Electronic Lab Notebook for chemists!\n\n⸢ [Installation] ⸥ ⸢ [Documentation] ⸥ ⸢ [Changelog] ⸥\n\n## Tests\n\n![Badge CI]\n\n## Acknowledgments\n\nThis project has been funded by the [DFG].\n\n[![DFG Logo]][DFG]\n\nFunded by the [Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)] https://www.dfg.de/ under the [National Research Data Infrastructure – NFDI4Chem] https://nfdi4chem.de/ – Projektnummer 441958208 since 2020.",
+      "section": "Chemotion [![Badge DOI]][DOI] (part 1)",
+      "repo": "025_Chemotion_ELN",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.054906Z",
+    "updated_at": "2025-11-05T22:47:22.023064Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23315,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1297,
+    "annotations": [
+      {
+        "id": 11025,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 195,
+              "end": 228,
+              "text": "GNU Affero General Public License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "ypluei6D69",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 633,
+              "end": 666,
+              "text": "GNU Affero General Public License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "NoUSVbULLi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 794,
+              "end": 828,
+              "text": "https://www.chemotion.net/docs/eln",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "IXtXqBZbJ3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 724,
+              "end": 776,
+              "text": "https://www.chemotion.net/docs/eln/install_configure",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "eWjRB2gQPY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1060,
+              "end": 1098,
+              "text": "https://doi.org/10.5281/zenodo.1054134",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "-aiL52DMpa",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:48:09.544189Z",
+        "updated_at": "2025-11-15T18:06:59.684904Z",
+        "draft_created_at": "2025-11-05T22:47:35.341671Z",
+        "lead_time": 53.4,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "88e6b67a-e5c4-4141-9dd9-cab62997859a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1297,
+        "project": 23315,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## License\n\nCopyright © 2015 - 2023 [Nicole Jung]  of the [Karlsruhe Institute of Technology].\n\nThis program is free software:\n\nYou can redistribute it and / or modify it under the terms  of the GNU Affero General Public License as published by  the Free Software Foundation, either version 3 of the  License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but  WITHOUT ANY WARRANTY; without even the implied warranty  of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\nSee the GNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License along with this program.\n\nIf not, see .\n\n[Installation]: https://www.chemotion.net/docs/eln/install_configure [Documentation]: https://www.chemotion.net/docs/eln [Changelog]: CHANGELOG.md\n\n[DFG]: https://www.dfg.de/en/ [DFG Logo]: https://chemotion.net/img/logos/DFG_logo.png\n\n[Nicole Jung]: mailto:nicole.jung@kit.edu [Karlsruhe Institute of Technology]: https://www.kit.edu/english/\n\n[DOI]: https://doi.org/10.5281/zenodo.1054134\n\n[Badge CI]: https://github.com/ComPlat/chemotion_ELN/actions/workflows/ci.yml/badge.svg?branch=main [Badge DOI]: https://zenodo.org/badge/DOI/10.5281/zenodo.1054134.svg",
+      "section": "Chemotion [![Badge DOI]][DOI] (part 2)",
+      "repo": "025_Chemotion_ELN",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.054950Z",
+    "updated_at": "2025-11-15T18:06:59.716856Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23315,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1298,
+    "annotations": [
+      {
+        "id": 11026,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:48:17.170581Z",
+        "updated_at": "2025-11-05T22:48:17.170593Z",
+        "draft_created_at": null,
+        "lead_time": 7.422,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "8269049a-80ad-43a4-9132-9af046162d63",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1298,
+        "project": 23315,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Prepare installation\n\nin config/ create datacollectors.yml\n\ndatabase.yml\n\nstorage.yml\n\nindigo_service.yml (if indigo service is required)\n\nwrite temporary in run-ruby-dev.sh rake db:create\n\nrake db:schema:load\n\n## Installation\n\ndocker-compose -f docker-compose.dev.yml up\n\nOR\n\ndocker-compose -f docker-compose.dev.yml up postgres app webpacker\n\n## Working inside app container\n\ndocker exec -it chemotion_eln-app-1 /bin/bash",
+      "section": "README",
+      "repo": "025_Chemotion_ELN",
+      "source_file": "readme-dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.054973Z",
+    "updated_at": "2025-11-05T22:48:17.194952Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23315,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

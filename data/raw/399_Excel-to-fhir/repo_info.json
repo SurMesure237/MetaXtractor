@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/nwo-strap/excel-to-fhir",
+  "programmingLanguage": "TypeScript",
+  "programmingLanguages": [
+    "TypeScript"
+  ],
+  "downloadUrl": "https://api.github.com/repos/nwo-strap/excel-to-fhir/zipball/main",
+  "author": "nwo-strap",
+  "dateCreated": "2023-10-23T15:08:09Z",
+  "dateModified": "2025-05-22T21:00:50Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Convert GameBus Excel spreadsheet to FHIR resources",
+  "identifier": 708877937,
+  "name": "nwo-strap/excel-to-fhir",
+  "issueTracker": "https://api.github.com/repos/nwo-strap/excel-to-fhir/issues",
+  "readme": "https://github.com/nwo-strap/excel-to-fhir/blob/main/README.md"
+}

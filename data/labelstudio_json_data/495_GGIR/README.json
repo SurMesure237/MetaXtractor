@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "[](https://app.codecov.io/gh/wadpac/GGIR) [](https://cran.r-project.org/package=GGIR)\n\n## Getting started:\n\nThe package [documentation] https://wadpac.github.io/GGIR/ provides extensive documentation on GGIR and its functionalities.\n\n## Getting help:\n\nFor guidance on how to seek help see [this page] https://wadpac.github.io/GGIR/articles/chapter0_Support.html.\n\n## Contribution guidelines:\n\nWe always welcome contributions to the package. If you want to contribute to the development of GGIR, have a look at the [contribution guidelines] https://github.com/wadpac/GGIR/blob/master/CONTRIBUTING.md.\n\n### Images usaged\n\nThe copyright of the GGIR logo as contained in the file vignettes/GGIR-MASTERLOGO-RGB.png lies with Accelting (Almere, The Netherlands), please contact v.vanhees@accelting.com to ask for permission to use this logo.\n\nAll other images in this repository are released under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.",
+      "section": "README",
+      "repo": "495_GGIR",
+      "source_file": "readme.md"
+    }
+  }
+]

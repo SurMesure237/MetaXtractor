@@ -1,0 +1,24 @@
+{
+  "codeRepository": "https://github.com/Transparency-in-the-non-profit-sector/nedextract",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Jupyter Notebook",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/Transparency-in-the-non-profit-sector/nedextract/zipball/main",
+  "author": "Transparency-in-the-non-profit-sector",
+  "dateCreated": "2022-01-12T22:01:22Z",
+  "dateModified": "2024-05-17T12:09:09Z",
+  "keywords": [
+    "information-extraction",
+    "nlp",
+    "transparency"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Extract information on persons and organisation from Dutch PDF files",
+  "identifier": 447383257,
+  "name": "Transparency-in-the-non-profit-sector/nedextract",
+  "issueTracker": "https://api.github.com/repos/Transparency-in-the-non-profit-sector/nedextract/issues",
+  "readme": "https://github.com/Transparency-in-the-non-profit-sector/nedextract/blob/main/README.md"
+}

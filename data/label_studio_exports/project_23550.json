@@ -1,0 +1,67 @@
+[
+  {
+    "id": 2478,
+    "annotations": [
+      {
+        "id": 11750,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 42,
+              "text": "https://doi.org/10.5281/zenodo.14199793",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "H63A3gW-dk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:50:18.464050Z",
+        "updated_at": "2025-11-09T05:50:18.464064Z",
+        "draft_created_at": null,
+        "lead_time": 6.181,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "920702a7-928f-49c4-9675-4dd1edd6e048",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2478,
+        "project": 23550,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://doi.org/10.5281/zenodo.14199793)\n\nThese are a bunch of files used for training models for the QUMIA project.\n\n### Contents\n\nThese are the most important files:\n\nrun-session.sh - the script that sets up a training session on the HPC environment: labelling, committing, copying and adding a train job to the job queue.\n\ntrain-job.sh / validate-job.sh - the SLURM jobs.\n\ntrain.py - the main script that sets up all the elements and performs the training and validation. It is actually based on an Python notebook (used for development purposes, but not committed due to potential data leaks) that is converted to train.py as part of the run-session.sh script.\n\nqumia_.py - the actual code that is used by the train script, thematically spread over several modules.\n\nconvert-notebook.sh - script that is used to convert Pyhon notebooks to stand-alone scripts.\n\ndata-prep/ - directory with preprocessing code. These are also based on Python notebooks, but converted to scripts (see train.py).",
+      "section": "README",
+      "repo": "154_qumia-train-scripts",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.576492Z",
+    "updated_at": "2025-11-09T05:50:18.494172Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23550,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "id": 1989,
+    "annotations": [
+      {
+        "id": 10413,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 58,
+              "text": "https://duqtools.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "bWcJVDl_aa",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 284,
+              "end": 328,
+              "text": "https://zenodo.org/badge/latestdoi/492734189",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "AeV0NxKx2N",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:20:51.021670Z",
+        "updated_at": "2025-11-10T02:27:56.616975Z",
+        "draft_created_at": "2025-11-04T07:20:40.886336Z",
+        "lead_time": 34.181,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "f584e52a-7f00-401b-8a15-2b5965b18a50",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1989,
+        "project": 23451,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://duqtools.readthedocs.io/en/latest/?badge=latest) [](https://github.com/duqtools/duqtools/actions/workflows/test.yaml) [](https://github.com/duqtools/duqtools/actions/workflows/test_imas.yaml) [](https://pypi.org/project/duqtools/) [](https://pypi.org/project/duqtools/) [](https://zenodo.org/badge/latestdoi/492734189)",
+      "section": "Introduction",
+      "repo": "271_duqtools",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:04.555215Z",
+    "updated_at": "2025-11-10T02:27:56.649318Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23451,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1990,
+    "annotations": [
+      {
+        "id": 10414,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:21:07.453123Z",
+        "updated_at": "2025-11-04T07:21:07.453141Z",
+        "draft_created_at": null,
+        "lead_time": 16.207,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "56bbc346-a710-4377-b9dd-c45acf9d9ecc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1990,
+        "project": 23451,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Duqtools\n\nDuqtools is a tool for Dynamic Uncertainty Quantification for Tokamak reactor simulations modelling.\n\nFeatures:\n\nSet up 100s of simulation runs from a single template\n\nLaunch standard sets of sensitivity tests with minimal programming\n\nBatch job submission and status tracking\n\nSupports the Standardized Interface Data Structures (IDSs) data directory\n\nCompare and visualize 100s of simulations in one overview\n\nDisplay simulation results as confidence ranges and distributions\n\nDuqtools is currently under active development. It runs on linux only and requires the [ITER] http://iter.org/ Integrated Modeling and Analysis Suite ([IMAS] https://confluence.iter.org/display/IMP).\n\nTo install:\n\npip install duqtools\n\nOr to use on the gateway:\n\nmodule use /gss_efgw_work/work/g2vazizi/duqtools/modules module load duqtools/3.1.6\n\nThe source code is available from [Github] https://github.com/duqtools/duqtools.\n\nSuggestions, improvements, and edits are most welcome.\n\n## Development\n\nCheck out our [Contributing Guidelines] CONTRIBUTING.md#Getting-started-with-development to get started with development.",
+      "section": "Duqtools",
+      "repo": "271_duqtools",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:04.555253Z",
+    "updated_at": "2025-11-04T07:21:07.482028Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23451,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

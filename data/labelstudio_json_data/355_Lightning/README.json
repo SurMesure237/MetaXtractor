@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "# Lightning: Fast data processing using GPUs on distributed platforms\n\n[](https://github.com/lightning-project/lightning/) [](https://github.com/lightning-project/lightning/blob/main/LICENSE) [](https://github.com/lightning-project/lightning)\n\nLightning is a framework for data processing using GPUs on distributed platforms. The framework allows distributed multi-GPU execution of compute kernels functions written in CUDA in a way that is similar to programming a single GPU, without worrying about low-level details such as network communication, memory management, and data transfers. This enables scaling of existing GPU kernels to much larger problem sizes, for beyond the memory capacity of a single GPU. Lightning efficiently distributes the work/data across GPUS and maximizes efficiency by overlapping scheduling, data movement, and work when possible.\n\n## Installation Guide\n\nThe project is written in [Rust] https://www.rust-lang.org/tools/install and has been tested with Rust 1.56. To build the project use cargo, which is included with the Rust installion.\n\ncargo build --release\n\n## License\n\nApache 2.0. See [LICENSE] https://github.com/lightning-project/lightning/blob/main/LICENSE.\n\n## Bibliography\n\nS. Heldens, P. Hijma, B. van Werkhoven, J. Maassen, R.V. van Nieuwpoort, \"Lightning: Scaling the GPU Programming Model Beyond a Single GPU\", in IEEE IPDPS, 2022",
+      "section": "README",
+      "repo": "355_Lightning",
+      "source_file": "readme.md"
+    }
+  }
+]

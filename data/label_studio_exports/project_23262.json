@@ -1,0 +1,339 @@
+[
+  {
+    "id": 917,
+    "annotations": [
+      {
+        "id": 12090,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:59:25.289490Z",
+        "updated_at": "2025-11-09T07:59:25.289504Z",
+        "draft_created_at": null,
+        "lead_time": 1.863,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "93162ac4-f79c-4e9c-8e1f-ef0f5bea5b9d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 917,
+        "project": 23262,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Model Template for Renewable Energy Supply Systems (MTRESS)",
+      "section": "Model Template for Renewable Energy Supply Systems (MTRESS) (part 1)",
+      "repo": "384_MTRESS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.292918Z",
+    "updated_at": "2025-11-09T07:59:25.315943Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23262,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 918,
+    "annotations": [
+      {
+        "id": 12091,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:59:28.660555Z",
+        "updated_at": "2025-11-09T07:59:28.660570Z",
+        "draft_created_at": null,
+        "lead_time": 3.206,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "5961c054-77ba-4b09-8a6f-6e4cb0d47f60",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 918,
+        "project": 23262,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Introduction\n\nThe DLR Institute of Networked Energy Systems has developed the MTRESS tool that can be  used to optimise energy supply systems for new and existing projects at any location.  MTRESS facilitates the creation of energy system optimisation models for individual  residential and commercial buildings, as well as for neighbourhoods and entire industrial properties. It enables users to include a wide range of influencing factors and energy options in the simulation and minimises the planning effort.\n\nThis is a generic model for community-based open source [oemof.solph] https://github.com/oemof/oemof-solph/ tool. MTRESS offers a variety of possible technology combinations for energy supply systems. It includes pre-built technologies that are commonly considered in energy systems, such as: Photovoltaic or wind power (as generic RenewableEnergySource)\n\nGrid Connection (Electricity, Heat and Gas)\n\nHeat Pumps\n\nHeat Exchangers\n\nElectrolysers (PEM, Alkaline, AEM)\n\nFuel Cells (PEM, Alkaline, AEM)\n\nCompressors\n\nCombined Heat and Power (CHP) with various gas types and gas-mixtures (e.g., H2 + Natural Gas) as input fuels\n\nStorages (Battery, Heat Storage, Gas Storage (Hydrogen))\n\nResistive Heater and Gas Boiler\n\nIt covers different sectors including Electricity, Heat and Gas (e.g., H2, Natural Gas, Biogas, etc.). It is tailored for optimising control strategies fulfilling fixed  demand time series for electricity, heat, gas (including hydrogen), and domestic hot  water using any selected combination of the implemented supply technologies.",
+      "section": "Model Template for Renewable Energy Supply Systems (MTRESS) (part 2)",
+      "repo": "384_MTRESS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.292958Z",
+    "updated_at": "2025-11-09T07:59:28.684288Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23262,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 919,
+    "annotations": [
+      {
+        "id": 12092,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:59:30.056429Z",
+        "updated_at": "2025-11-09T07:59:30.056446Z",
+        "draft_created_at": null,
+        "lead_time": 1.224,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "da4473b9-a0d1-4352-96df-cb2a2a6ae327",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 919,
+        "project": 23262,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "MTRESS requires appropriately prepared initial data on the boundary conditions of the  respective project. A wide range of data sources can be used, including  historical energy consumption data for the project, but also higher-level data  on the location, for example from climate models or the solar cadastre. Moreover, the forecasted demands and renewable generations could also be used for scheduling optimized operation for next days.  It could be used for long-term planning and the assumptions about the development of  costs and the CO2 impact of the future energy mix can also be incorporated into the  modelling.\n\nAs an open-source model, MTRESS is available to users in a wide range of areas. It can be utilized for both research and commercial purposes. Researchers, utility owners, and policymakers can all benefit from this tool for energy system planning and operation.  Applications are not just limited to municipal heating plans, home automation offerings, hydrogen infrastructure planning, and optimized operation of sector-coupled energy  systems, but extend to any scenario requiring comprehensive energy optimization and  management.",
+      "section": "Model Template for Renewable Energy Supply Systems (MTRESS) (part 3)",
+      "repo": "384_MTRESS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.292982Z",
+    "updated_at": "2025-11-09T07:59:30.086475Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23262,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 920,
+    "annotations": [
+      {
+        "id": 12093,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 81,
+              "end": 84,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "zYvjeqEgwu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:59:58.743730Z",
+        "updated_at": "2025-11-09T07:59:58.743758Z",
+        "draft_created_at": "2025-11-09T07:59:43.909199Z",
+        "lead_time": 28.494,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "c48c009f-3c52-4409-a3ed-ad91bca0a1bc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 920,
+        "project": 23262,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Installation\n\nMTRESS depends on solph, which is automatically installed using pip\n\npip install mtress\n\nHowever, pip will not install a solver, to perform the actual optimisation. Please refer to the [documentation of solph] https://oemof-solph.readthedocs.io/en/stable/readme.html#installing-a-solver to learn how to install a solver.\n\n## Documentation\n\nThe auto-generated documentation can be found on the [GitLab pages] https://mtress-ecosystem.pages.gitlab.dlr.de/mtress/api.  The coverage report can be found on the [GitLab pages] https://mtress-ecosystem.pages.gitlab.dlr.de/mtress/coverage as well.\n\n## Usage and Tutorials\n\nPlease refer to the examples folder in this repository to get acquainted with building  and optimizing energy systems in MTRESS. These examples will help you understand the  basics and guide you through the process before you start creating your own energy system.\n\nPlease feel free to contact us if you have any questions or need further assistance.  Contact information can be found below.\n\n## Acknowledgements\n\nThe development of Version 2 was funded by the Federal Ministry for Economic Affairs and Energy (BMWi) and the Federal Ministry of Education and Research (BMBF) of Germany in the project [ENaQ] https://www.enaq-fliegerhorst.de/ (project number 03SBE111). The development of the heat sector formulations in Version 3 was funded by the Federal Ministry of Education and Research (BMBF) of Germany in the project [Wärmewende Nordwest] https://www.waermewende-nordwest.de/ (project number 03SF0624). The development of the gas sector formulations in Version 3 was funded by the Federal  Ministry of Education and Research (BMBF) of Germany in the project [H2Giga-Systogen100] https://www.region-heide.de/projekte/systogen100.html (project number 03HY115E).",
+      "section": "Model Template for Renewable Energy Supply Systems (MTRESS) (part 4)",
+      "repo": "384_MTRESS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.293006Z",
+    "updated_at": "2025-11-09T07:59:58.775939Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23262,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 921,
+    "annotations": [
+      {
+        "id": 12094,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 599,
+              "end": 644,
+              "text": "https://zenodo.org/doi/10.5281/zenodo.6395909",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "eYQRryKyEk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 665,
+              "end": 866,
+              "text": "Schönfeldt, Patrik and Schlüters, Sunke and Oltmanns, Keno,\"MTRESS 3.0--Modell Template for Residential Energy Supply Systems\", arXiv preprint, 2022, [arXiv:2211.14080] https://arxiv.org/abs/2211.14080",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "W8_1ApEFw3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 165,
+              "end": 176,
+              "text": "MIT license",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "CAImKtch9O",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 66,
+              "end": 82,
+              "text": "Black code style",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "r3Hq2tRj9v",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 84,
+              "end": 113,
+              "text": "https://black.readthedocs.io/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "n0PsDd3xa0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T08:00:25.664217Z",
+        "updated_at": "2025-11-16T05:51:11.747074Z",
+        "draft_created_at": "2025-11-09T08:00:13.140235Z",
+        "lead_time": 55.527,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "66c94eb3-6607-40a9-a864-c974281c26b5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 921,
+        "project": 23262,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Contributing\n\nYou are welcome to contribute to MTRESS. We use [Black code style] https://black.readthedocs.io/ with 79 characters a line, and put our code under [MIT license] LICENSE. When contributing, you need to do the same. For smaller changes, you can just open a merge request. If you plan something bigger, please open an issue first, so that we can discuss beforehand and avoid double work.  Also, please report bugs by opening an issue.\n\n## Citation\n\nIf you use MTRESS Software for your research, please consider citation as follows using the [Zenodo record, doi:10.5281/zenodo.6395909] https://zenodo.org/doi/10.5281/zenodo.6395909.\n\n## Reference\n\n[1] Schönfeldt, Patrik and Schlüters, Sunke and Oltmanns, Keno,\"MTRESS 3.0--Modell Template for Residential Energy Supply Systems\", arXiv preprint, 2022, [arXiv:2211.14080] https://arxiv.org/abs/2211.14080.\n\n## Contact\n\nThe software development is administrated by [Patrik Schönfeldt] mailto:patrik.schoenfeldt@dlr.de, for general questions please contact him. Individual authors may leave their contact information in the [citation.cff] CITATION.cff.",
+      "section": "Model Template for Renewable Energy Supply Systems (MTRESS) (part 5)",
+      "repo": "384_MTRESS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.293027Z",
+    "updated_at": "2025-11-16T05:51:11.782453Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23262,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

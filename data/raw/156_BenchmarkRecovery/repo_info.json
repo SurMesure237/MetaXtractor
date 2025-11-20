@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/RETURN-project/BenchmarkRecovery",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R"
+  ],
+  "downloadUrl": "https://api.github.com/repos/RETURN-project/BenchmarkRecovery/zipball/main",
+  "author": "RETURN-project",
+  "dateCreated": "2019-09-10T14:00:52Z",
+  "dateModified": "2025-06-13T09:14:03Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Benchmarking recovery indicators from remote sensing time series",
+  "identifier": 207575104,
+  "name": "RETURN-project/BenchmarkRecovery",
+  "issueTracker": "https://api.github.com/repos/RETURN-project/BenchmarkRecovery/issues",
+  "readme": "https://github.com/RETURN-project/BenchmarkRecovery/blob/master/README.md"
+}

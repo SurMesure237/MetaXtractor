@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/nlesc-km3net/KM3NeT",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "Cuda",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/nlesc-km3net/KM3NeT/zipball/main",
+  "author": "nlesc-km3net",
+  "dateCreated": "2016-07-01T12:10:48Z",
+  "dateModified": "2022-01-23T23:54:08Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "KM3Net - Real-time detection of neutrinos using GPUs",
+  "identifier": 62390537,
+  "name": "nlesc-km3net/KM3NeT",
+  "issueTracker": "https://api.github.com/repos/nlesc-km3net/KM3NeT/issues",
+  "readme": "https://github.com/nlesc-km3net/KM3NeT/blob/master/README.md"
+}

@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/amrvac/AGILE-experimental",
+  "programmingLanguage": "Fortran",
+  "programmingLanguages": [
+    "Fortran",
+    "Python",
+    "Shell",
+    "Makefile",
+    "Perl"
+  ],
+  "downloadUrl": "https://api.github.com/repos/amrvac/AGILE-experimental/zipball/main",
+  "author": "amrvac",
+  "dateCreated": "2024-03-22T10:18:20Z",
+  "dateModified": "2025-10-27T15:41:08Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "MPI-AMRVAC: A Parallel Adaptive Mesh Refinement Framework",
+  "identifier": 775925439,
+  "name": "amrvac/AGILE-experimental",
+  "issueTracker": "https://api.github.com/repos/amrvac/AGILE-experimental/issues",
+  "readme": "https://github.com/amrvac/AGILE-experimental/blob/master/README.md"
+}

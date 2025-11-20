@@ -1,0 +1,263 @@
+[
+  {
+    "id": 1882,
+    "annotations": [
+      {
+        "id": 10554,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 478,
+              "end": 769,
+              "text": "M. J. Kühn, C. Kruse, U. Rüde. Implicitly extrapolated geometric multigrid on disk-like domains for the gyrokinetic Poisson equation from fusion plasma applications. Journal of Scientific Computing, 91 (28). Springer (2022). Link: https://link.springer.com/article/10.1007/s10915-022-01802-1\\n",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "EGOSY-bdz_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:51:38.362582Z",
+        "updated_at": "2025-11-04T17:51:38.362598Z",
+        "draft_created_at": "2025-11-04T17:51:35.074098Z",
+        "lead_time": 16.258,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "ccfce60f-3faa-4676-a155-4db51d36ee30",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1882,
+        "project": 23427,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/SciCompMod/GMGPolar/actions/workflows/main.yml) [](https://codecov.io/gh/SciCompMod/GMGPolar)\n\nGMGPolar is a performant geometric multigrid solver using implicit extrapolation to raise the convergence order. It is based on meshes in tensor- or product-format. GMGPolar's focus applications are geometries that can be described by polar or curvilinear coordinates for which suited smoothing procedures have been developed.\n\nIf using GMGPolar, please cite:\n\nM. J. Kühn, C. Kruse, U. Rüde. Implicitly extrapolated geometric multigrid on disk-like domains for the gyrokinetic Poisson equation from fusion plasma applications. Journal of Scientific Computing, 91 (28). Springer (2022). Link: https://link.springer.com/article/10.1007/s10915-022-01802-1\n\n## Obtaining the source code\n\nThe GMGPolar Solver can run with or without the sparse direct solver `MUMPS, though using MUMPS is recommended for optimal performance. This guide provides instructions on obtaining the code and installing the necessary dependencies.\n\n## Clone the GMGPolar Repository\n\nTo begin, download the latest stable version of GMGPolar by running the following commands in your terminal:\n\n# Clone the repository. This will create a directory named GMGPolar.  git clone https://github.com/mknaranja/GMGPolar\n\n## Configuring the Solver\n\nAfter cloning the repository, you'll need to configure the solver for your system. Edit the CMakeLists.txt` file to reflect your system's configuration (e.g., paths to libraries, file names, etc.).",
+      "section": "Introduction (part 1)",
+      "repo": "379_GMGPolar",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.819298Z",
+    "updated_at": "2025-11-04T17:51:38.394385Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23427,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1883,
+    "annotations": [
+      {
+        "id": 10555,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:51:53.088747Z",
+        "updated_at": "2025-11-04T17:51:53.088766Z",
+        "draft_created_at": null,
+        "lead_time": 14.534,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "4fa6ee69-ee23-42f3-bdd6-db8867012940",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1883,
+        "project": 23427,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Installing MUMPS using Spack\n\nWe highly recommend using Spack to manage and install external dependencies such as MUMPS. The following steps outline the process for installing MUMPS and related tools.\n\n## Step 1: Install Spack\n\nTo install and set up Spack, execute the following commands in your terminal:\n\n# Clone the Spack repository  git clone https://github.com/spack/spack.git\n\n# Add Spack to your environment by sourcing its setup script  echo \". $HOME/spack/share/spack/setup-env.sh\" >> ~/.bashrc\n\n# Refresh your terminal or source your .bashrc  source ~/.bashrc\n\n## Step 2: Install MUMPS\n\nWith Spack set up, you can now install MUMPS. The following command installs version 5.5.1 of MUMPS with specific options that are recommended for GMGPolar:\n\nspack install mumps@5.5.1 ~blr_mt ~complex +double +float ~incfort ~int64 +metis ~mpi +openmp ~parmetis ~ptscotch ~scotch +shared\n\n### Note on AVX / AVX-512 Compatibility\n\nIf your system does not support AVX or AVX-512 instructions (e.g., on AMD processors), install MUMPS with the following command:\n\nspack install mumps@5.5.1 target=x86_64 ~blr_mt ~complex +double +float ~incfort ~int64 +metis ~mpi +openmp ~parmetis ~ptscotch ~scotch +shared\n\n## Step 3: Configure CMake for GMGPolar\n\nAfter installing MUMPS and other dependencies, ensure that the paths to the libraries are correctly set in the CMakeLists.txt file.",
+      "section": "Introduction (part 2)",
+      "repo": "379_GMGPolar",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.819334Z",
+    "updated_at": "2025-11-04T17:51:53.117034Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23427,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1884,
+    "annotations": [
+      {
+        "id": 10556,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:52:00.528296Z",
+        "updated_at": "2025-11-04T17:52:00.528322Z",
+        "draft_created_at": null,
+        "lead_time": 7.259,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "728169ba-1a23-4b66-8707-23fa00f85a83",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1884,
+        "project": 23427,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Final Step: Compiling the GMGPolar Solver\n\nOnce everything is configured, compile the solver by running the following commands:\n\ncd scripts ./compile.sh [Debug|Release]\n\nAfter executing ./compile.sh [Debug|Release], the script will compile the solver using the specified build type. You can also run ./compile.sh without any arguments afterward, and it will automatically use the last configured build type.\n\nCurrently, the default build process only supports gnu compiler although Intel compiler has been successfully tested for some configurations.\n\n## Optional: Measuring performance\n\nWe use Likwid for performance monitoring. You can install it using Spack as well:\n\nInstall Likwid (Performance Monitoring Tool):\n\nspack install likwid\n\n## Running GMGPolar\n\nYou can run the solver without having to write a code (as we do in the next section). After building  the library, a binary is created called `./build/gmgpolar, it takes parameters directly from command-line.\n\n# To try GMGPolar on a small problem size, without having to write any code,  # ./build/gmgpolar uses default parameters with a grid 33 x 64.\n\n./build/gmgpolar\n\n# For more details on the available parameters, see the scripts/tutorial/run.sh script.   ## Issue tracker\n\nIf you find any bug, didn't understand a step in the documentation, or if you have a feature request, submit your issue on our Issue Tracker`: https://github.com/mknaranja/GMGPolar/issues by giving:\n\nreproducible parameters\n\ncomputing environment (compiler, etc.)\n\n## Release Notes",
+      "section": "Introduction (part 3)",
+      "repo": "379_GMGPolar",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.819358Z",
+    "updated_at": "2025-11-04T17:52:00.558477Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23427,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1885,
+    "annotations": [
+      {
+        "id": 10557,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:52:02.744189Z",
+        "updated_at": "2025-11-04T17:52:02.744206Z",
+        "draft_created_at": null,
+        "lead_time": 2.018,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "550c234e-dcdd-498c-980d-433ab61d53dd",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1885,
+        "project": 23427,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### GMGPolar 1.0.0\n\n1) Working multigrid cycle 2) In-house solver and possibility to link with MUMPS for the smoothing and coarse grid solution 3) Extrapolation strategies:    a. No extrapolation (--extrapolation 0)\n\nb. Default implicit extrapolation (--extrapolation 1)\n\nc. Non-default implicit extrapolation with smoothing of all nodes on the finest level [experimental, use with care, convergence cannot be observed with residual] (--extrapolation 2) 6) Optimization of apply_A / build_rhs / apply_prolongation / build_Asc / apply_Asc_ortho",
+      "section": "Introduction (part 4)",
+      "repo": "379_GMGPolar",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.819379Z",
+    "updated_at": "2025-11-04T17:52:02.772504Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23427,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1886,
+    "annotations": [
+      {
+        "id": 10558,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:52:08.930853Z",
+        "updated_at": "2025-11-04T17:52:08.930873Z",
+        "draft_created_at": null,
+        "lead_time": 6.007,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "201cc2c3-2967-423b-ac3f-1f0a7955e2e2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1886,
+        "project": 23427,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### GMGPolar 2.0.0\n\n1) Enhancements and New Class Layout: Linear Algebra:\n\nIntroduced custom Vector and SparseMatrix classes.\n\nAdded a (cyclic) Tridiagonal Solver for improved performance and usability.\n\nInput Functions:\n\nSeparated into distinct components: DomainGeometry, BoundaryConditions, SourceTerm, etc.\n\nPolar Grid:\n\nIndexing is now based on circle/radial smoother.\n\nResidual:\n\nImproved the residual calculation by addressing the unintuitive behavior that previously applied only to the interior part of the matrix.\n\nDirect Solver:\n\nFixed a bug where boundary values were not treated correctly.\n\nBuilt matrices to be symmetric, reducing factorization time.\n\nSmoother:\n\nSeparated into extrapolated and standard smoothers.\n\nReplaced the LU-Decomposition algorithm with the Thomas algorithm for improved efficiency.\n\n2) New Features\n\nIntroduced W- and F cycles for enhanced solving capabilities.\n\nAdded FMG (Full Multigrid) to obtain improved starting solutions.\n\nImplemented advanced caching behavior options for the \"Give\" implementation strategy.\n\nAdded a faster strategy named 'Take,' which is appropriate for cases where memory is less of a constraint, resulting in an 80% increase in memory usage.\n\nComprehensive Unit Tests: Integrated Google Unit Tests for all classes, ensuring robust and reliable functionality across the codebase.\n\n3) Performance Improvements\n\nRemoved the task-based approach, which did not scale well with increasing parallelization.\n\nReduced maximum usage by 61.5% by constructing symmetric matrices and utilizing the tridiagonal structure of smoother matrices.\n\n4) Updated Features\n\nAdded a new LU decomposition solver, allowing users to choose between MUMPS and the in-house solver for greater flexibility and performance.",
+      "section": "Introduction (part 5)",
+      "repo": "379_GMGPolar",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.819402Z",
+    "updated_at": "2025-11-04T17:52:08.961029Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23427,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

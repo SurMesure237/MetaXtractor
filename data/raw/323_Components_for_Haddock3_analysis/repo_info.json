@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/i-VRESSE/haddock3-analysis-components",
+  "programmingLanguage": "TypeScript",
+  "programmingLanguages": [
+    "TypeScript",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "downloadUrl": "https://api.github.com/repos/i-VRESSE/haddock3-analysis-components/zipball/main",
+  "author": "i-VRESSE",
+  "dateCreated": "2023-06-14T13:35:56Z",
+  "dateModified": "2024-10-02T07:14:25Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Components to be used by analyse command of haddock3  ",
+  "identifier": 653663280,
+  "name": "i-VRESSE/haddock3-analysis-components",
+  "issueTracker": "https://api.github.com/repos/i-VRESSE/haddock3-analysis-components/issues",
+  "readme": "https://github.com/i-VRESSE/haddock3-analysis-components/blob/main/README.md"
+}

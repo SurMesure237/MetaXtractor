@@ -1,0 +1,42 @@
+[
+  {
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "040_CoeusAI",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "CoeusAI\n\nQGIS plugin for drone image segmentation using machine learning.\n\n## Installation (also applicable for when using a new version of the plugin)\n\nBelow are the steps to install the CoeusAI plugin in QGIS.\n\nPlease note that the following steps are also applicable when updating to a new version of the plugin. If you only install the plugin from ZIP, you will not have the latest version of the dependencies. Therefore, it is recommended to follow all the steps below.\n\n### Step 1: Install dependencies\n\nIn QGIS, go to Plugins > Python Console.\n\nRun the following Python code to install the dependencies required by the plugin:\n\n!pip install -U pycoeus\n\nSome configurations don't support shell execution (the '!' in the above command). In that case, see the trouble shooting section below.\n\n### Step 2: Restart QGIS\n\nRestart QGIS for the installation of the dependencies (step 1) to take effect.\n\n### Step 3: Install CoeusAI plugin from ZIP\n\nDownload the ZIP file of CoeusAI from [this link] https://raw.githubusercontent.com/DroneML/CoeusAI/release/CoeusAI.zip.\n\nThen, go to Plugins > Manage and Install Plugins... > Install from ZIP and select the downloaded coeusai.zip file.",
+      "section": "CoeusAI (part 1)",
+      "repo": "040_CoeusAI",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Getting Started\n\nThe interface of CoeusAI plugin is as below:\n\nWith the following input fields:\n\nOutput Path for prediction: The output path for the prediction result.\n\nRaster layer for training: The input raster layer in your QGIS project that will be used for training the model.\n\nVector layer for positive/negative labels: The input vector layer in your QGIS project for positive/negative labels. Should be ploygon or multi-polygons.\n\nFeature type: The feature type of the input vector layer. By default \"FLAIR\". \"IDENTITY\" means use the original raster layer as the feature.\n\nCompute mode: The mode of computation.\n\n\"Normal\": read in all the data and perform the computation. Suitable for small datasets that fits in memory.\n\n\"Parallel\": read in data in chunks and perform the computation with several chunks together. Suitable for medium-sized datasets, where we assume several chunks can fit in memory.\n\n\"Safe\": read in data in chunks, perform the computation with one chunk at a time. Suitable for large datasets that do not fit in memory.\n\nChunk size: The size of the chunk to be read in. Only used in \"Parallel\" and \"Safe\" mode.\n\nOverlap: The overlap between chunks when performing feature extraction. Only used in \"Parallel\" and \"Safe\" mode. Because of possible edge effects, a minimum overlap of 20 is recommended.",
+      "section": "CoeusAI (part 2)",
+      "repo": "040_CoeusAI",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Tips\n\nThis plugin only support segment single raster layer in QGIS. To perform segmentation on multiple raster layers, please consider the following steps:\n\nUse the [Build Virtual Raster] https://docs.qgis.org/3.34/en/docs/user_manual/processing_algs/gdal/rastermiscellaneous.html#build-virtual-raster under the Processing plugin to merge the raster layers into one raster layer with multiple bands.\n\nThen export the merged virtual raster layer as a GeoTIFF file.\n\nReload the GeoTIFF file into QGIS\n\nUse the CoeusAI plugin to perform segmentation on the reloaded multi-band raster layer.\n\nAlthough the plugin supports ovewritting existing tif files with prediction, but if a tif file has already been loaded in QGIS, the ovewritting will fail. Therefore, if you want to overite a tif file, please remove it from the QGIS project first.\n\nFor large datasets, it is recommended to use the \"Parallel\" or \"Safe\" mode to avoid memory issues. You can configure the chunk size and overlap to optimize the performance. It is not recommended to set the chunk size too small, as it will increase the overhead.\n\n## Trouble shooting:\n\n### Upgrade your QGIS to make sure your QGIS Python is >=3.10\n\nPlease verify your QGIS Python version is equal or greater than 3.10 by going to \"Help\" > \"About\". You will encounter to errors if you are using an older version of Python.\n\nIf you are using an older version of Python, please upgrade your QGIS to the latest version. We recommend using the long-term release (LTR) version of QGIS, please check [QGIS download page] https://qgis.org/download/.",
+      "section": "CoeusAI (part 3)",
+      "repo": "040_CoeusAI",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### !pip install not working\n\nRun the following to locate QGIS' python executable and use it to install the dependencies:\n\nimport os; import sys; import subprocess; qgis_python_executable = os.path.join(os.path.dirname(sys.executable), \"python3.exe\"); subprocess.check_call([qgis_python_executable, \"-m\", \"pip\", \"install\", \"-U\", \"pycoeus\"])\n\nA console window should pop up, show some output and then close again. In QGIS you should see a '0' in the terminal, indicating that the command finished successfully.\n\n_Restart QGIS in order for the installation to take effect._\n\n### Manual Installation if install from ZIP fails\n\nClone the coeusai folder, which is needed for the segmentation part of the plugin.\n\ngit clone git@github.com:DroneML/coeusai.git\n\nCopy the coeusai folder to the QGIS plugins directory. Examples on different operating systems:\n\nWindows: C:\\Users\\USER\\AppData\\Roaming\\QGIS\\QGIS3\\profiles\\default\\python\\plugins\\minimal\n\nLinux: ~/.local/share/QGIS/QGIS3/profiles/default/python/plugins/minimal\n\nMacOS: ~/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins/minimal\n\nThen go to Plugins > Manage and Install Plugins..., check the box next to CoeusAI. The plugin should now be available in the QGIS interface.\n\n## Supported Platforms\n\nAs of now, the plugin is mainly tested on Windows with LTR version of QGIS. It does not support MacOS yet since CoeusAI requires Python 3.10 or higher, while MacOS only supports Python 3.9. The plugin has not been tested on Linux yet. For MacOS and Linux users, we recommend performing the segmentation directly using the backend library [pycoeus] https://github.com/DroneML/pycoeus.\n\n## Acknowledgements\n\nIcon image generated by [DALL\u00b7E] https://openai.com/index/dall-e-3/.",
+      "section": "CoeusAI (part 4)",
+      "repo": "040_CoeusAI",
+      "source_file": "readme.md"
+    }
+  }
+]

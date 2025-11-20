@@ -1,0 +1,226 @@
+[
+  {
+    "id": 2585,
+    "annotations": [
+      {
+        "id": 11725,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:42:24.736980Z",
+        "updated_at": "2025-11-09T05:42:24.737001Z",
+        "draft_created_at": null,
+        "lead_time": 1.603,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "2a100e91-e3a1-45c0-82e4-e6568874016a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2585,
+        "project": 23570,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "364_Materials_Learning_Algorithms",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.003467Z",
+    "updated_at": "2025-11-09T05:42:24.767868Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23570,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2586,
+    "annotations": [
+      {
+        "id": 11726,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 123,
+              "end": 167,
+              "text": "https://opensource.org/licenses/BSD-3-Clause",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "Itf2QirbHx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 172,
+              "end": 210,
+              "text": "https://doi.org/10.5281/zenodo.5557255",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "ABUa6n22u4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 82,
+              "end": 118,
+              "text": "https://mala-project.github.io/mala/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "vw5bqvWNPd",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:43:02.403597Z",
+        "updated_at": "2025-11-14T12:37:09.725567Z",
+        "draft_created_at": "2025-11-09T05:42:38.106903Z",
+        "lead_time": 51.989000000000004,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "c2506571-2696-4d16-9f92-639c63a59dbe",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2586,
+        "project": 23570,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "MALA\n\n[](https://github.com/mala-project/mala/actions/workflows/cpu-tests.yml) [](https://mala-project.github.io/mala/) [](https://opensource.org/licenses/BSD-3-Clause) [](https://doi.org/10.5281/zenodo.5557255)\n\nMALA (Materials Learning Algorithms) is a data-driven framework to generate surrogate models of density functional theory calculations based on machine learning. Its purpose is to enable multiscale modeling by bypassing computationally expensive steps in state-of-the-art density functional simulations.\n\nMALA is designed as a modular and open-source python package. It enables users to perform the entire modeling toolchain using only a few lines of code. MALA is jointly developed by the Sandia National Laboratories (SNL) and the Center for Advanced Systems Understanding (CASUS). See [Contributing] docs/source/CONTRIBUTE.md for contributing code to the repository.\n\nThis repository is structured as follows:\n\n├── examples : contains useful examples to get you started with the package ├── install : contains scripts for setting up this package on your machine ├── mala : the source code itself ├── test : test scripts used during development, will hold tests for CI in the future └── docs : Sphinx documentation folder\n\n## Installation\n\nWARNING: Even if you install MALA via PyPI, please consult the full installation instructions afterwards. External modules (like the QuantumESPRESSO bindings) are not distributed via PyPI!\n\nPlease refer to [Installation of MALA] docs/source/install/installing_mala.rst.",
+      "section": "MALA (part 1)",
+      "repo": "364_Materials_Learning_Algorithms",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.003510Z",
+    "updated_at": "2025-11-14T12:37:09.758268Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23570,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2587,
+    "annotations": [
+      {
+        "id": 11727,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 671,
+              "end": 1069,
+              "text": "A. Cangi, L. Fiedler, B. Brzoza, K. Shah, T. J. Callow, D. Kotik, S. Schmerler, M. C. Barry, J. M. Goff, A. Rohskopf, D. J. Vogel, N. Modine, A. P. Thompson, S. Rajamanickam,\\n\\nMaterials Learning Algorithms (MALA): Scalable Machine Learning for Electronic Structure Calculations in Large-Scale Atomistic Simulations, [Comp. Phys. Commun. 314, 109654 (2025)] https://doi.org/10.1016/j.cpc.2025.109654",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "fqohhiFLoi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1072,
+              "end": 1358,
+              "text": "J. A. Ellis, L. Fiedler, G. A. Popoola, N. A. Modine, J. A. Stephens, A. P. Thompson,\\n\\nA. Cangi, S. Rajamanickam, Accelerating Finite-Temperature Kohn-Sham Density Functional Theory with Deep Neural Networks, [Phys. Rev. B 104, 035120 (2021)] https://doi.org/10.1103/PhysRevB.104.035120",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "Y5fr09OdFB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:43:50.043713Z",
+        "updated_at": "2025-11-09T05:43:50.043729Z",
+        "draft_created_at": "2025-11-09T05:43:26.055046Z",
+        "lead_time": 47.401,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "8ed0266d-b6da-48fe-ab84-0755473a9dd1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2587,
+        "project": 23570,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Running\n\nYou can familiarize yourself with the usage of this package by running the examples in the example/ folder.\n\n## Contributors\n\nMALA is jointly maintained by\n\n[Sandia National Laboratories] https://www.sandia.gov/ (SNL), USA.\n\nScientific supervisor: Sivasankaran Rajamanickam, code maintenance:\n\nJon Vogel [Center for Advanced Systems Understanding] https://www.casus.science/ (CASUS), Germany.\n\nScientific supervisor: Attila Cangi, code maintenance: Lenz Fiedler\n\nA full list of contributors can be found [here] docs/source/CONTRIBUTE.md.\n\n## Citing MALA\n\nIf you publish work which uses or mentions MALA, please cite this repository and the following papers:\n\nA. Cangi, L. Fiedler, B. Brzoza, K. Shah, T. J. Callow, D. Kotik, S. Schmerler, M. C. Barry, J. M. Goff, A. Rohskopf, D. J. Vogel, N. Modine, A. P. Thompson, S. Rajamanickam,\n\nMaterials Learning Algorithms (MALA): Scalable Machine Learning for Electronic Structure Calculations in Large-Scale Atomistic Simulations, [Comp. Phys. Commun. 314, 109654 (2025)] https://doi.org/10.1016/j.cpc.2025.109654.\n\nJ. A. Ellis, L. Fiedler, G. A. Popoola, N. A. Modine, J. A. Stephens, A. P. Thompson,\n\nA. Cangi, S. Rajamanickam, Accelerating Finite-Temperature Kohn-Sham Density Functional Theory with Deep Neural Networks, [Phys. Rev. B 104, 035120 (2021)] https://doi.org/10.1103/PhysRevB.104.035120.",
+      "section": "MALA (part 2)",
+      "repo": "364_Materials_Learning_Algorithms",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.003533Z",
+    "updated_at": "2025-11-09T05:43:50.074976Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23570,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

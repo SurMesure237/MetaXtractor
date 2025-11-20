@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "|PyPI| |Docs| |PePy|\n\n.. |PyPI| image:: https://img.shields.io/pypi/v/novosparc.svg  :target: https://pypi.org/project/novosparc/ .. |Docs| image:: https://readthedocs.org/projects/novosparc/badge/?version=latest  :target: https://novosparc.readthedocs.io/ .. |PePy| image:: https://static.pepy.tech/badge/novosparc  :target: https://pepy.tech/project/novosparc\n\nnovoSpaRc - de novo Spatial Reconstruction of Single-Cell Gene Expression\n\n.. image:: https://raw.githubusercontent.com/nukappa/nukappa.github.io/master/images/novosparc.png  :width: 90px  :align: left\n\n`novoSpaRc predicts locations of single cells in space by solely using  single-cell RNA sequencing data. An existing reference database of marker genes is not required, but significantly enhances performance if available.\n\nnovoSpaRc accompanies the following publications:\n\n| Gene Expression Cartography  | M Nitzan, N Karaiskos, N Friedman\u2020, N Rajewsky\u2020  | Nature (2019) _\n\nand\n\n| novoSpaRc: flexible spatial reconstruction of single-cell gene expression with optimal transport  | N Moriel, E Senel, N Friedman, N Rajewsky, N Karaiskos\u2020, M Nitzan\u2020  | Nature Protocols (2021) _\n\nRead the documentation _ and the  tutorial `_ for more information.",
+      "section": "README",
+      "repo": "436_novoSpaRc",
+      "source_file": "readme.rst"
+    }
+  }
+]

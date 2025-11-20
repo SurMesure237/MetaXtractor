@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/martinottopaul/UrbEm",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "R"
+  ],
+  "downloadUrl": "https://api.github.com/repos/martinottopaul/UrbEm/zipball/main",
+  "author": "martinottopaul",
+  "dateCreated": "2021-09-09T07:34:16Z",
+  "dateModified": "2024-05-16T17:47:09Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Urban Emission downscaling model for air quality modeling",
+  "identifier": 404628631,
+  "name": "martinottopaul/UrbEm",
+  "issueTracker": "https://api.github.com/repos/martinottopaul/UrbEm/issues",
+  "readme": "https://github.com/martinottopaul/UrbEm/blob/main/README.md"
+}

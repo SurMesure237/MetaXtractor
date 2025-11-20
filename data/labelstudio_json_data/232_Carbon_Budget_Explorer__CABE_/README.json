@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "Carbon Budget Explorer (CABE)\n\n[](https://doi.org/10.5281/zenodo.11120650)\n\nWeb application to explore carbon budgets\n\nThe web application is written with [SveltKit] https://kit.svelte.dev/.\n\n[!WARNING]\n\nThis repo has been transferred to https://github.com/pbl-nl/ (private repo) where it was further tailored for production. A hosted instance is available at https://carbonbudgetexplorer.nl/.\n\n## Data requirements\n\nShould have the following data files:\n\ndata/xr_dataread.nc - NetCDF file\n\ndata/xr_policyscen.nc - NetCDF file\n\ndata/xr_allow_.nc - NetCDF file for each country\n\ndata/xr_allow_.nc - NetCDF file\n\ndata/ne_110m_admin_0_countries.geojson - can be downloaded with npm run download:borders\n\n## API service\n\nThe API web service reads the NetCDF file and returns the data as JSON which is used in the web application.\n\nIt is written in Python using [Flask] https://flask.palletsprojects.com/ and [xarray] https://xarray.dev/.\n\nPython dependencies can be installed with\n\npython3 -m venv venv source venv/bin/activate pip install -r requirements.txt\n\nThe web service can be started with\n\ngunicorn --bind 0.0.0.0:5000 --workers 4 'ws:app'\n\n(Add --reload argumment to reload on Python file changes)\n\nIn Windows gunicorn might not work. Then use waitress.\n\npip install waitress waitress-serve --listen=127.0.0.1:5000 ws:app\n\n## Developing\n\nYou'll need [node.js] https://nodejs.org/en to run a local development server. Once you've created a project and installed dependencies with npm install (or pnpm install or yarn), start a development server:\n\nnpm run dev",
+      "section": "Carbon Budget Explorer (CABE)",
+      "repo": "232_Carbon_Budget_Explorer__CABE_",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "or start the server and open the app in a new browser tab npm run dev -- --open\n\n## Formatting & linting\n\nThe code is formatted with [Prettier] https://prettier.io/ using\n\nnpm run format\n\nThe code can be linted, using Prettier and eslint, with\n\nnpm run lint\n\nThe code can be checked with\n\nnpm run check\n\n## Testing\n\nThe unit test can be run with\n\nnpm run test:unit\n\nFor coverage, run\n\nnpm run test:unit -- run --coverage\n\n## Building\n\nTo create a production version of your app:\n\nnpm run build\n\nYou can the production build with\n\nnode build/index.js\n\nTo deploy your app, you may need to install an [adapter] https://kit.svelte.dev/docs/adapters for your target environment.\n\nIf the Python webservice is not running on http://127.0.0.1:5000 then set CABE_API_URL environment variable to right URL.",
+      "section": "or start the server and open the app in a new browser tab",
+      "repo": "232_Carbon_Budget_Explorer__CABE_",
+      "source_file": "readme.md"
+    }
+  }
+]

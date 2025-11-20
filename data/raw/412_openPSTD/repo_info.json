@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/openPSTD/openPSTD",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "C",
+    "GLSL",
+    "CMake",
+    "Shell",
+    "XSLT"
+  ],
+  "downloadUrl": "https://api.github.com/repos/openPSTD/openPSTD/zipball/main",
+  "author": "openPSTD",
+  "dateCreated": "2014-09-09T07:44:29Z",
+  "dateModified": "2025-10-09T09:43:40Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "openPSTD is an open source initiative to provide an intuitive visual interface for the Pseudo-Spectral Time-Domain method to simulate the propagation of sound.",
+  "identifier": 23824244,
+  "name": "openPSTD/openPSTD",
+  "issueTracker": "https://api.github.com/repos/openPSTD/openPSTD/issues",
+  "readme": "https://github.com/openPSTD/openPSTD/blob/master/README.md"
+}

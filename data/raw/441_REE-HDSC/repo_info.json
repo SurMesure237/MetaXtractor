@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/ree-hdsc/ree-hdsc",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "HTML"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ree-hdsc/ree-hdsc/zipball/main",
+  "author": "ree-hdsc",
+  "dateCreated": "2023-03-21T17:38:04Z",
+  "dateModified": "2024-07-11T08:28:13Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "REE-HDSC reseach project of the Radboud University Nijmegen en the Netherlands eScience Center ",
+  "identifier": 617097581,
+  "name": "ree-hdsc/ree-hdsc",
+  "issueTracker": "https://api.github.com/repos/ree-hdsc/ree-hdsc/issues",
+  "readme": "https://github.com/ree-hdsc/ree-hdsc/blob/master/README.md"
+}

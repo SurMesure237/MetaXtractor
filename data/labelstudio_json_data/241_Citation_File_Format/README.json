@@ -1,0 +1,146 @@
+[
+  {
+    "data": {
+      "text": "Citation File Format\n\n[](https://github.com/citation-file-format/citation-file-format/actions/workflows/testing.yml?query=branch%3Amain) [](https://doi.org/10.5281/zenodo.1003149) [](https://creativecommons.org/licenses/by/4.0/) [](https://citation-file-format.github.io)\n\nThe Citation File Format lets you provide citation metadata for software or datasets  in plaintext files that are easy to read by both humans and machines.",
+      "section": "Citation File Format (part 1)",
+      "repo": "241_Citation_File_Format",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Structure\n\nYou can specify citation metadata for your software (or dataset) in a file named CITATION.cff.  This is what a typical CITATION.cff file may look like for research software:\n\ncff-version: 1.2.0 message: If you use this software, please cite it using these metadata. title: My Research Software abstract: This is my awesome research software. It does many things. authors: family-names: Druskat\n\ngiven-names: Stephan  orcid: \"https://orcid.org/1234-5678-9101-1121\" name: \"The Research Software project\"\n\nversion: 0.11.2 date-released: \"2021-07-18\" identifiers: description: This is the collection of archived snapshots of all versions of My Research Software\n\ntype: doi  value: \"10.5281/zenodo.123456\" description: This is the archived snapshot of version 0.11.2 of My Research Software\n\ntype: doi  value: \"10.5281/zenodo.123457\" license: Apache-2.0 repository-code: \"https://github.com/citation-file-format/my-research-software\"\n\nIn addition, the Citation File Format allows you to\n\nprovide references to works that your software or dataset builds on ([see here for more info] schema-guide.md#referencing-other-work);\n\nask people to cite a different, related work instead of the software or dataset itself ([see here for more info] schema-guide.md#credit-redirection).\n\n## Format specifications :books:\n\nYou can find the complete format specifications in the [Guide to the Citation File Format schema] schema-guide.md.",
+      "section": "Citation File Format (part 2)",
+      "repo": "241_Citation_File_Format",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Why should I add a CITATION.cff file to my repository? :bulb:\n\nWhen you do this, great things may happen:\n\nUsers of your software can easily cite it using the metadata from CITATION.cff!\n\nIf your repository is hosted on GitHub, they will [show the citation information in the sidebar] https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files, which makes it easy for visitors to cite your software or dataset correctly.\n\nWhen you publish your software on Zenodo via the [GitHub-Zenodo integration] https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content, they will use the metadata from your CITATION.cff file.\n\nPeople can import the correct reference to your software into the [Zotero] https://www.zotero.org reference manager via a [browser plugin] https://www.zotero.org/download/.\n\n## Creation :heavy_plus_sign:\n\nTo create a CITATION.cff file, you can\n\nuse the [cffinit website] https://citation-file-format.github.io/cff-initializer-javascript/#/,\n\ncopy and paste the [example snippet] #structure, and adapt it to your needs, or\n\ncreate a new file called CITATION.cff using the Add file button on GitHub, and use the template they provide.\n\n## Validation :heavy_check_mark:\n\nYou can validate your CITATION.cff file on the command line with the [cffconvert Python package] https://pypi.org/project/cffconvert/:",
+      "section": "Citation File Format (part 3)",
+      "repo": "241_Citation_File_Format",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Install cffconvert with pip in user space python3 -m pip install --user cffconvert",
+      "section": "Install cffconvert with pip in user space",
+      "repo": "241_Citation_File_Format",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Validate your CFF file cffconvert --validate\n\nIf you get a Traceback with error messages, look for the relevant validation error and fix it. If the output is very long, it may help if you search it for lines starting with jsonschema.exceptions.ValidationError.\n\nIf you prefer to use Docker, you can use the [cffconvert Docker image] https://hub.docker.com/r/citationcff/cffconvert:\n\ncd  docker run --rm -v ${PWD}:/app citationcff/cffconvert --validate",
+      "section": "Validate your CFF file (part 1)",
+      "repo": "241_Citation_File_Format",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Tools to work with CITATION.cff files :wrench:\n\nThere is tooling available to work with CITATION.cff files to do different things: create new files, edit existing files, validate existing files, convert files from the Citation File Format into another format. The following table gives an overview of the tools that we know about. If there is a tool missing from this table, please [open a new issue] https://github.com/citation-file-format/citation-file-format/issues/new/choose and let us know.",
+      "section": "Validate your CFF file (part 2)",
+      "repo": "241_Citation_File_Format",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| | Creation | Editing/Updating | Validation | Conversion | | -------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |",
+      "section": "Validate your CFF file (part 3)",
+      "repo": "241_Citation_File_Format",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Command line | | | \u2022 [cffconvert] #validation-heavy_check_mark | \u2022 [cffconvert] https://pypi.org/project/cffconvert/ \u2022 [bibtex-to-cff] https://github.com/monperrus/bibtexbrowser/\u2022 [cff-from-621] https://pypi.org/project/cff-from-621/\u2022 [openCARP-CI] https://git.opencarp.org/openCARP/openCARP-CI/-/tree/master/#create_cff | | GitHub Actions | | | [cff-validator] https://github.com/marketplace/actions/cff-validator | \u2022 [cffconvert] https://github.com/marketplace/actions/cffconvert\u2022 [codemeta2cff] https://github.com/caltechlibrary/codemeta2cff |",
+      "section": "Validate your CFF file (part 4)",
+      "repo": "241_Citation_File_Format",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| GitHub Bot | | | [#238] https://github.com/citation-file-format/citation-file-format/issues/238 | | | Docker | | | [cffconvert Docker image] #validation-heavy_check_mark | [cffconvert Docker image] https://hub.docker.com/r/citationcff/cffconvert |",
+      "section": "Validate your CFF file (part 5)",
+      "repo": "241_Citation_File_Format",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Go | | | | \u2022 [datatools/codemeta2cff] https://github.com/caltechlibrary/datatools/ | | Haskell | | \u2022 [cffreference] https://github.com/kevinmatthes/cffreference | | |",
+      "section": "Validate your CFF file (part 6)",
+      "repo": "241_Citation_File_Format",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Java | \u2022 [CFF Maven plugin] https://github.com/hexatomic/cff-maven-plugin | \u2022 [CFF Maven plugin] https://github.com/hexatomic/cff-maven-plugin | | \u2022 [CFF Maven plugin] https://github.com/hexatomic/cff-maven-plugin | | JavaScript | | | | \u2022 [Citation.js] https://citation.js.org/ [plugin] https://www.npmjs.com/package/@citation-js/plugin-software-formats |",
+      "section": "Validate your CFF file (part 7)",
+      "repo": "241_Citation_File_Format",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Julia | | | \u2022 [Bibliography.jl] https://github.com/Humans-of-Julia/Bibliography.jl | \u2022 [Bibliography.jl] https://github.com/Humans-of-Julia/Bibliography.jl | | PHP | | | | \u2022 [bibtex-to-cff] https://github.com/monperrus/bibtexbrowser/ |",
+      "section": "Validate your CFF file (part 8)",
+      "repo": "241_Citation_File_Format",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Python | | \u2022 [cff2toml] https://github.com/willynilly/cff2toml \u2022 [doi2cff] https://github.com/citation-file-format/doi2cff \u2022 [updateCitation] https://github.com/hunterhogan/updateCitation | \u2022 [cffconvert] #validation-heavy_check_mark | \u2022 [cff-from-621] https://pypi.org/project/cff-from-621/\u2022 [cff2toml] https://github.com/willynilly/cff2toml\u2022 [cffconvert] https://github.com/citation-file-format/cff-converter-python\u2022 [doi2cff] https://github.com/citation-file-format/doi2cff\u2022 [openCARP-CI] https://git.opencarp.org/openCARP/openCARP-CI/-/tree/master/#create_cff\u2022 [py_bibtex_to_cff_converter] https://github.com/vdplasthijs/py_bibtex_to_cff_converter | | R | | | \u2022 [cffr] https://CRAN.R-project.org/package=cffr | \u2022 [citation] https://cran.r-project.org/web/packages/citation/\u2022 [r2cff] https://github.com/ocbe-uio/RCFF\u2022 [handlr] https://github.com/ropensci/handlr\u2022 [cffr] https://CRAN.R-project.org/package=cffr |",
+      "section": "Validate your CFF file (part 9)",
+      "repo": "241_Citation_File_Format",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Ruby | \u2022 [ruby-cff] https://github.com/citation-file-format/ruby-cff | \u2022 [ruby-cff] https://github.com/citation-file-format/ruby-cff | \u2022 [ruby-cff] https://github.com/citation-file-format/ruby-cff | \u2022 [ruby-cff] https://github.com/citation-file-format/ruby-cff | | Rust | \u2022 [Aeruginous] https://github.com/kevinmatthes/aeruginous-rs | \u2022 [Aeruginous] https://github.com/kevinmatthes/aeruginous-rs | | \u2022 [citeworks] https://github.com/passcod/citeworks |",
+      "section": "Validate your CFF file (part 10)",
+      "repo": "241_Citation_File_Format",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| TypeScript | | | | [#28] https://github.com/citation-file-format/citation-file-format/issues/28#issuecomment-892105342 | | Website | \u2022 [cffinit] https://citation-file-format.github.io/cff-initializer-javascript/ | | | |",
+      "section": "Validate your CFF file (part 11)",
+      "repo": "241_Citation_File_Format",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Maintainers :nerd_face:\n\nThe Citation File Format schema is maintained by\n\nStephan Druskat ([@sdruskat] https://github.com/sdruskat/)\n\nJurriaan H. Spaaks ([@jspaaks] https://github.com/jspaaks/)",
+      "section": "Validate your CFF file (part 12)",
+      "repo": "241_Citation_File_Format",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Contributing :handshake:\n\nThe Citation File Format is a collaborative project and we welcome suggestions and contributions. We hope one of the invitations below works for you, but if not, please let us know!\n\n:running: I'm busy, I only have 1 minute Tell a friend about the Citation File Format, or tweet about it!\n\nGive the project a star :star:!\n\n:hourglass_flowing_sand: I've got 10 minutes - tell me what I should do Create a CITATION.cff file for your repository.\n\nSuggest ideas for how you would like to use the Citation File Format, or for an improvement to the format or its tooling.\n\nIf you know how to validate CITATION.cff files, help someone with a validation problem and look at the [issues labeled ] https://github.com/citation-file-format/citation-file-format/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22+label%3Avalidation\n\n:computer: I've got a few hours to work on this Help create tooling for the community by looking at the [issues labeled ] https://github.com/citation-file-format/citation-file-format/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22+label%3Atooling\n\n:tada: I want to help grow the community Write a blog post or news item for your own community.\n\nOrganise a hack event or workshop to help others use or improve the Citation File Format.\n\nPlease read the more detailed [contributing guidelines] CONTRIBUTING.md and [open a GitHub issue] https://github.com/citation-file-format/citation-file-format/issues to suggest a new idea or let us know about bugs. Please put up pull requests for changes to the format and schema against the develop branch!",
+      "section": "Validate your CFF file (part 13)",
+      "repo": "241_Citation_File_Format",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## License :balance_scale:\n\nCopyright \u00a9 2016 - 2023. The Citation File Format Contributors\n\nThis work is licensed under a [Creative Commons Attribution 4.0 International (CC-BY-4.0)] https://creativecommons.org/licenses/by/4.0/legalcode license.\n\n## Acknowledgments :pray:\n\nWe'd like to thank everyone who has contributed to the Citation File Format!  They are listed in the [CITATION.cff] CITATION.cff file for this repository. Please open an issue if you find that you are missing from the file.\n\nWe gratefully acknowledge support from:\n\nThe [Institute for Software Technology] https://www.dlr.de/en/sc of the [German Aerospace Center (DLR)] https://www.dlr.de/en/\n\nThe [Netherlands eScience Center] https://www.esciencecenter.nl\n\nThe [Software Sustainability Institute] https://software.ac.uk/",
+      "section": "Validate your CFF file (part 14)",
+      "repo": "241_Citation_File_Format",
+      "source_file": "readme.md"
+    }
+  }
+]

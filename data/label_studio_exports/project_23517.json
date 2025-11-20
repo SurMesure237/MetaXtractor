@@ -1,0 +1,162 @@
+[
+  {
+    "id": 2299,
+    "annotations": [
+      {
+        "id": 10173,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 23,
+              "end": 80,
+              "text": "https://esmvaltool.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "yaxznRCR5b",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 85,
+              "end": 123,
+              "text": "https://doi.org/10.5281/zenodo.3387139",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "FxsYMnwFXe",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:11:59.321193Z",
+        "updated_at": "2025-11-14T09:25:59.721667Z",
+        "draft_created_at": "2025-11-03T06:11:51.533066Z",
+        "lead_time": 196.62099999999998,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "9e7688fa-e8af-4bb2-a972-ee21039c0cfb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2299,
+        "project": 23517,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "ESMValCore package\n\n[](https://esmvaltool.readthedocs.io/en/latest/?badge=latest) [](https://doi.org/10.5281/zenodo.3387139) [](https://matrix.to/#/#ESMValGroup_Lobby:gitter.im) [](https://circleci.com/gh/ESMValGroup/ESMValCore/tree/main) [](https://codecov.io/gh/ESMValGroup/ESMValCore) [](https://anaconda.org/conda-forge/esmvalcore) [](https://github.com/ESMValGroup/ESMValCore/actions/workflows/run-tests.yml) [](https://results.pre-commit.ci/latest/github/ESMValGroup/ESMValCore/main)\n\nESMValCore: core functionalities for the ESMValTool, a community diagnostic and performance metrics tool for routine evaluation of Earth System Models in the Climate Model Intercomparison Project (CMIP).",
+      "section": "ESMValCore package",
+      "repo": "049_ESMValCore",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.025432Z",
+    "updated_at": "2025-11-14T09:25:59.757880Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23517,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2300,
+    "annotations": [
+      {
+        "id": 10174,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 59,
+              "end": 140,
+              "text": "https://docs.esmvaltool.org/projects/esmvalcore/en/latest/quickstart/install.html",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "-o0jiOWdCy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 903,
+              "end": 907,
+              "text": "iris",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ItSkVcBdfl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:12:46.993108Z",
+        "updated_at": "2025-11-03T06:12:46.993124Z",
+        "draft_created_at": "2025-11-03T06:12:15.112824Z",
+        "lead_time": 47.479,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "b6317659-3de3-4679-be63-9dbb874f8a7d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2300,
+        "project": 23517,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Getting started\n\nPlease have a look at the [documentation] https://docs.esmvaltool.org/projects/esmvalcore/en/latest/quickstart/install.html to get started.\n\n## Using the ESMValCore package to run recipes\n\nThe ESMValCore package provides the esmvaltool command, which can be used to run [recipes] https://docs.esmvaltool.org/projects/esmvalcore/en/latest/recipe/overview.html for working with CMIP-like data. A large collection of ready to use [recipes and diagnostics] https://docs.esmvaltool.org/en/latest/recipes/index.html is provided by the [ESMValTool] https://github.com/ESMValGroup/ESMValTool package.\n\n## Using ESMValCore as a Python library\n\nThe ESMValCore package provides various functions for:\n\nFinding data in a directory structure typically used for CMIP data.\n\nReading CMIP/CMOR tables and using those to check model and observational data.\n\nESMValTool preprocessor functions based on\n\n[iris] https://scitools-iris.readthedocs.io for e.g. regridding,  vertical interpolation, statistics, correcting (meta)data errors, extracting  a time range, etcetera.\n\nread all about it in the [API documentation] https://docs.esmvaltool.org/projects/esmvalcore/en/latest/api/esmvalcore.html.\n\n## Getting help\n\nThe easiest way to get help if you cannot find the answer in the documentation on [readthedocs] https://docs.esmvaltool.org, is to open an [issue on GitHub] https://github.com/ESMValGroup/ESMValCore/issues.\n\n## Contributing\n\nContributions are very welcome, please read our [contribution guidelines] https://docs.esmvaltool.org/projects/ESMValCore/en/latest/contributing.html to get started.",
+      "section": "Getting started",
+      "repo": "049_ESMValCore",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.025472Z",
+    "updated_at": "2025-11-03T06:12:47.022690Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23517,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

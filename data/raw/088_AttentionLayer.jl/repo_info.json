@@ -1,0 +1,28 @@
+{
+  "codeRepository": "https://github.com/JuliaBesties/BestieTemplate.jl",
+  "programmingLanguage": "Julia",
+  "programmingLanguages": [
+    "Julia"
+  ],
+  "downloadUrl": "https://api.github.com/repos/JuliaBesties/BestieTemplate.jl/zipball/main",
+  "author": "JuliaBesties",
+  "dateCreated": "2023-09-09T22:45:16Z",
+  "dateModified": "2025-10-27T17:39:08Z",
+  "keywords": [
+    "best-practices",
+    "code-quality",
+    "copier",
+    "copier-template",
+    "julia",
+    "julia-best-practices",
+    "julia-language",
+    "julia-template",
+    "template"
+  ],
+  "license": "https://api.github.com/licenses/mpl-2.0",
+  "description": "Template for Julia Programming Language packages using the copier engine.",
+  "identifier": 689467581,
+  "name": "JuliaBesties/BestieTemplate.jl",
+  "issueTracker": "https://api.github.com/repos/JuliaBesties/BestieTemplate.jl/issues",
+  "readme": "https://github.com/JuliaBesties/BestieTemplate.jl/blob/main/README.md"
+}

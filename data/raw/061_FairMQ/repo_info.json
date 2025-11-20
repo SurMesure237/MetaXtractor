@@ -1,0 +1,28 @@
+{
+  "codeRepository": "https://github.com/FairRootGroup/FairMQ",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "CMake",
+    "C",
+    "Python",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/FairRootGroup/FairMQ/zipball/main",
+  "author": "FairRootGroup",
+  "dateCreated": "2018-04-10T16:14:55Z",
+  "dateModified": "2025-10-08T20:57:36Z",
+  "keywords": [
+    "c-plus-plus",
+    "fairmq",
+    "fairroot",
+    "shmem",
+    "zeromq"
+  ],
+  "license": "https://api.github.com/licenses/lgpl-3.0",
+  "description": "C++ Message Queuing Library and Framework",
+  "identifier": 128961939,
+  "name": "FairRootGroup/FairMQ",
+  "issueTracker": "https://api.github.com/repos/FairRootGroup/FairMQ/issues",
+  "readme": "https://github.com/FairRootGroup/FairMQ/blob/master/README.md"
+}

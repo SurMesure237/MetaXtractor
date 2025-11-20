@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "# JDQZ++\n\nTemplated C++ implementation of the JDQZ generalized eigenvalue problem solver.\n\n## Introduction\n\nThis is an almost 1-1 port of the original FORTRAN code by Fokkema and van Gijzen, see   http://www.win.tue.nl/casa/research/scientificcomputing/topics/jd/software.html\n\nhttp://www.staff.science.uu.nl/~sleij101/JD_software/jd.html\n\nA few of the old routines survive and are compiled into a separate library.\n\nThe main difference with the original is that vectors are now templated. We require vectors to have a few standard members (e.g. dot(), axpy(), scale(), etc.) with complex arithmetic. For manipulations of the projected problem we use containers provided by the STL.\n\n## Installation\n\nThis project depends on cmake\n\nlapack\n\ngtest",
+      "section": "README",
+      "repo": "286_I-EMIC",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/qc2nl/qc2",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/qc2nl/qc2/zipball/main",
+  "author": "qc2nl",
+  "dateCreated": "2023-03-02T08:38:44Z",
+  "dateModified": "2025-06-11T11:09:02Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Facilitate the orchestration of quantum chemistry applications on quantum computers",
+  "identifier": 608545357,
+  "name": "qc2nl/qc2",
+  "issueTracker": "https://api.github.com/repos/qc2nl/qc2/issues",
+  "readme": "https://github.com/qc2nl/qc2/blob/main/README.md"
+}

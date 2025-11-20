@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "Orange3 Argument Mining Add-on\n\n[](https://github.com/EyeofBeholder-NLeSC/orange3-argument/actions/workflows/build.yml) [](https://sonarcloud.io/summary/new_code?id=EyeofBeholder-NLeSC_orange3-argument) [](https://sonarcloud.io/summary/new_code?id=EyeofBeholder-NLeSC_orange3-argument) [](https://orange3-argument.readthedocs.io/en/latest/) [](https://github.com/psf/black) [](https://github.com/EyeofBeholder-NLeSC/orange3-argument/blob/main/LICENSE) [](https://pypi.org/project/orangearg/) [](https://pypi.org/project/orangearg/) [](https://doi.org/10.5281/zenodo.8383636) [](https://research-software-directory.org/software/orange3-argument-add-on) [](https://fair-software.eu)",
+      "section": "Orange3 Argument Mining Add-on (part 1)",
+      "repo": "056_Orange3_Argument_Mining_Add-on",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "This work is an open-source Python package that implements a pipeline of processing, analyzing, and visualizing an argument corpus and the attacking relationship inside the corpus. It also implements the corresponding GUIs on a scientific workflow platform named [Orange3] https://orangedatamining.com/, so that users with little knowledge of Python programming can also benefit from it.",
+      "section": "Orange3 Argument Mining Add-on (part 2)",
+      "repo": "056_Orange3_Argument_Mining_Add-on",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Table of Contents\n\n[Why] #why\n\n[Installation] #installation\n\n[Getting Started] #getting-started\n\n[Documentation] #documentation\n\n[Contributing] #contributing\n\n[Credits] #credits\n\n## Why\n\nThis package is designed with a clear mission: to empower researchers in building their own argument mining workflows effortlessly. Leveraging the capabilities of state-of-the-art, pre-trained language models for natural language processing, this tool facilitates the process of understanding arguments from text data. At its core, this work is committed to transparency and interpretability throughout the analysis process. We believe that clarity and comprehensibility are paramount when working with complex language data. As such, the tool not only automates the task but also ensures that the results are easily interpretable, allowing researchers to gain valuable insights from their data.\n\nPlease cite this work if you use it for scientific or commercial purpose.\n\n## Installation\n\nThis package requires Python version >= 3.8. We recommand installing this package in a new virtual environment to avoid dependency conflicts. The package can be installed from PyPI via pip:\n\npip install orangearg\n\nExecuting the above command will install both the necessary dependencies and the graphical user interface (GUI) components of Orange3.\n\nFurther details can be found in the [installation guide] https://orange3-argument.readthedocs.io/en/latest/installation.html.",
+      "section": "Orange3 Argument Mining Add-on (part 3)",
+      "repo": "056_Orange3_Argument_Mining_Add-on",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Getting Started\n\nIf you would like to learn how to use this package for scripting, take a look at our example [notebook] ./examples/example.ipynb.\n\nTo build and run workflows on Orange3, run the following command in your terminal to launch the Orange3 GUI, known as the 'canvas'.\n\npython -m Orange.canvas\n\nA sample [workflow] ./examples/demo_workflow.ows and [dataset] ./examples/example_dataset.json have been provided to illustrate the effective utilization of this package within Orange3.\n\nFor additional information, please refer to the [guidance] https://orange3-argument.readthedocs.io/en/latest/widget_guis.html# on using this package through widgets in Orange3.\n\n## Documentation\n\nThe documentation of this work can be found on [Read the Docs] https://orange3-argument.readthedocs.io/en/latest/index.html.\n\n## Contributing\n\nIf you want to contribute to the development of this work, have a look at the [contribution guidelines] ./CONTRIBUTING.md.\n\n## Credits\n\nThis work is being developed by the [Netherlands eScience Center] https://www.esciencecenter.nl/ in collaboration with the [Human Centered Data Analysis group] https://www.cwi.nl/en/groups/human-centered-data-analytics/ at Centrum Wiskunde & Informatica.\n\nThis package was created with the [Orange3 Example Add-on] https://github.com/biolab/orange3-example-addon.\n\n[Go to Top] #table-of-contents",
+      "section": "Orange3 Argument Mining Add-on (part 4)",
+      "repo": "056_Orange3_Argument_Mining_Add-on",
+      "source_file": "readme.md"
+    }
+  }
+]

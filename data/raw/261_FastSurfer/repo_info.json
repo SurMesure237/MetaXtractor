@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/Deep-MI/FastSurfer",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "Shell",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/Deep-MI/FastSurfer/zipball/main",
+  "author": "Deep-MI",
+  "dateCreated": "2019-09-30T12:51:38Z",
+  "dateModified": "2025-10-30T14:46:52Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "PyTorch implementation of FastSurferCNN",
+  "identifier": 211859022,
+  "name": "Deep-MI/FastSurfer",
+  "issueTracker": "https://api.github.com/repos/Deep-MI/FastSurfer/issues",
+  "readme": "https://github.com/Deep-MI/FastSurfer/blob/dev/README.md"
+}

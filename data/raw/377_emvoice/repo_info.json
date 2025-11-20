@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/mexca/emvoice",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/mexca/emvoice/zipball/main",
+  "author": "mexca",
+  "dateCreated": "2023-07-13T13:09:09Z",
+  "dateModified": "2024-09-27T14:25:42Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Extract emotion expression-related voice features.",
+  "identifier": 665993095,
+  "name": "mexca/emvoice",
+  "issueTracker": "https://api.github.com/repos/mexca/emvoice/issues",
+  "readme": "https://github.com/mexca/emvoice/blob/main/README.md"
+}

@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/hzi-bifo/RiboDetector",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/hzi-bifo/RiboDetector/zipball/main",
+  "author": "hzi-bifo",
+  "dateCreated": "2020-12-01T14:39:55Z",
+  "dateModified": "2025-09-09T09:04:31Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Accurate and rapid RiboRNA sequences Detector based on deep learning",
+  "identifier": 317570558,
+  "name": "hzi-bifo/RiboDetector",
+  "issueTracker": "https://api.github.com/repos/hzi-bifo/RiboDetector/issues",
+  "readme": "https://github.com/hzi-bifo/RiboDetector/blob/pip/README.md"
+}

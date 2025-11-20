@@ -1,0 +1,23 @@
+# YAML 1.2
+# Metadata for citation of this software according to the CFF format (https://citation-file-format.github.io/)
+---
+abstract: "fairdatapoint-client is a simple and elegant library to interact with FAIR Data Point resources from Python"
+authors:
+  -
+    affiliation: "Netherlands eScience Center"
+    family-names: Geng
+    given-names: Cunliang
+    orcid: "https://orcid.org/0000-0002-1409-8358"
+  -
+    affiliation: "Netherlands eScience Center"
+    family-names: Veen
+    given-names: Lourens
+    orcid: "https://orcid.org/0000-0002-6311-1168"
+cff-version: "1.2.0"
+keywords:
+  - "FAIR data"
+license: "Apache-2.0"
+message: "If you use this software, please cite it using these metadata."
+repository-code: "https://github.com/fair-data/fairdatapoint-client"
+title: fairdatapoint-client
+version: "0.1.0"

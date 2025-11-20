@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/CryoGrid/CryoGridCommunity_source",
+  "programmingLanguage": "MATLAB",
+  "programmingLanguages": [
+    "MATLAB",
+    "HTML",
+    "Mercury",
+    "M",
+    "Objective-C"
+  ],
+  "downloadUrl": "https://api.github.com/repos/CryoGrid/CryoGridCommunity_source/zipball/main",
+  "author": "CryoGrid",
+  "dateCreated": "2019-01-16T15:00:49Z",
+  "dateModified": "2025-09-12T10:20:52Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "This is the community version of CryoGrid, a numerical model to investigate land surface processes in permafrost environments.",
+  "identifier": 166058886,
+  "name": "CryoGrid/CryoGridCommunity_source",
+  "issueTracker": "https://api.github.com/repos/CryoGrid/CryoGridCommunity_source/issues",
+  "readme": "https://github.com/CryoGrid/CryoGridCommunity_source/blob/master/README.md"
+}

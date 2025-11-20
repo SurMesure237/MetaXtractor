@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "Sensession\n\nA completely over-engineered collection of scripts to run CSI capture experiments with receivers operated by multiple tools. Supports:\n\nMultiple tools (PicoScenes, Atheros QCA Tool, Nexmon-CSI, ESP32)\n\nDevice-level operation\n\nLow level shell scripts for common operations (e.g. putting devices into monitor mode)\n\nWiFi IQ-waveform generation and subsequent USRP transmission\n\nFrame caching\n\nConversion into a shared unified data format (parquet Dataframes)\n\nCommon CSI processing methods\n\nA helper submodule for long-running experiments (Campaigns)\n\nCampaign (de-)serialization, allowing to rerun failed parts of campaigns\n\n## Initial Setup\n\nBefore being able to use the things in this repo, some things have to be set up. If you are not using a Nexmon device, you should not need to install Nexmon, for example.\n\n### CSI Tools\n\nInstall the underlying tools. This framework only instruments them. Some of them are included as submodule. Links to the relevant pages:\n\n[PicoScenes] https://ps.zpj.io/\n\n[PicoScenes Python Toolbox] https://github.com/wifisensing/PicoScenes-Python-Toolbox.git\n\n[ath9k and iwl driver modules] https://github.com/nzqo/csi-go.git\n\n[espion] https://github.com/benjamin-kl/ESPion.git\n\n[sensei] https://github.com/nzqo/sensei.git\n\n[usrpulse] https://github.com/nzqo/usrpulse\n\n[Nexmon] https://github.com/seemoo-lab/nexmon.git\n\nSome installation hints:\n\nTo start, first initialize all submodules\n\n``bash  git submodule update --init --recursive  ``",
+      "section": "Sensession (part 1)",
+      "repo": "400_sensession",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### Picoscenes\n\nDon't forget to run switch5300Firmware csi\n\nDon't forget to build Picoscenes Python Toolbox\n\nIf you have PicoScenes license, put it in csi_tools/picoscenes-key.txt\n\nCheck sudo iw dev for wdev interfaces and delete if present (confuses PicoScenes)\n\nFor now, you need to manually set the monitor mode using array_prepare_for_picoscenes.\n\nWith recent updates, the basic monitor script doesn't do it for the tool anymore.. Install Picoscenes Toolbox cd csi_tools/PicoscenesToolbox && pip install -e .\n\n#### Nexmon\n\nNexmon is a firmware patching framework for broadcom chips. We use it to build a patched firmware that allows to extract CSI from e.g. rt-ac86u asus routers. To set up such a router from scratch first:\n\nStart by resetting the router (using the hard reset button)\n\nPossibly update firmware\n\nGo through the basic config via the web interface (e.g. at 192.168.0.1)\n\nPut the router in AP mode\n\nEnable ssh access through the web interface\n\nGive the router a static IP (e.g. 192.168.10.31)\n\nMake sure interface on host has compatible IP (with the subnet) assigned. You can\n\nset it manually in the settings or on the command line, e.g.:\n\n``bash  sudo ip addr add 192.168.10.1/24 dev eno1  `\n\nWe have moved to a new unreleased version of nexmon. We don't build it manually, but use a precompiled version shared with us that is found inside csi_tools/nexmon-csi. To set it up:\n\nDeploy the router directory onto router(s)\n\nLog onto routers, reload dhd and start ntp /jffs/CSING/reload.sh && /jffs/CSING/start_ntp.sh\n\nGeneral notes for using the routers:\n\nAsus routers must be power-cycled whenever you want to reload the kernel module\n\nNever store captures in /jffs, since exceeding its 36 MB` will brick the device",
+      "section": "Sensession (part 2)",
+      "repo": "400_sensession",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### MATLAB\n\nInstall Matlab together with WLan Toolbox into matlab_path\n\nPatch Toolbox using ./matlab/patch_wlan_toolbox.sh $matlab_path\n\nSet up a venv python -m venv .venv && source .venv/bin/activate\n\nInstall python engine cd $matlab_path/extern/engines/python && pip install .\n\n#### SDR\n\nWe recommend using usrpulse (see below) instead of the raw uhd SDR\n\nInstall uhd\n\n[Calibrate] https://files.ettus.com/manual/page_calibration.html the SDR\n\nBuild custom transmission script and make sure it aligns with path in\n\nscripts/transmit_from_sdr.sh For both receival and transmission, follow the usrp performance tips settings\n\n#### ESPion\n\nInstall esp-idf framework\n\nMake sure to use only the ESP32-S3 model for now, since it is the only non-buggy one\n\nInstall the appropriate esp-idf toolchain\n\nBuild and flash the espion/csilogger firmware\n\nGive yourself rights to access the serial ports:\n\nsudo usermod -a -G tty $USER sudo usermod -a -G dialout $USER\n\nYou might need to sudo apt remove brltty. Odd, but happens.\n\n#### Usrpulse\n\nThis one has to be installed on the machine on which you want to transmit from. Just make sure that the daemon is running when you start any sensession collection.\n\n#### Sensei\n\nSensei abstracts collection from a few different sources. We could either connect to a running sensei server instance using TCP/Websockets, or just use the binding for python directly. For now, we only do the latter.\n\nInstallation is simple: Make sure you have rust installed, then:",
+      "section": "Sensession (part 3)",
+      "repo": "400_sensession",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "make sure you are in your venv, then: cd ./csi_tools/sensei/py_binding pip install .\n\n### Framework config\n\nPopulate sense_config.toml with global settings (see EnvironmentConfig in /src/sensession/config.py for options)\n\nSet up passwordless SSH connections to remote devices in ~/.ssh/config, e.g.\n\n``config  Host sdr  HostName   PreferredAuthentications publickey  IdentityFile ~/.ssh/id_rsa  User   `\n\nObviously you will need a key and install that on the remote using ssh-copy-id.\n\n## Running the experiment\n\n### lib\n\nThe tools can be used programmatically. See the examples directory for a few examples.\n\n## General Information\n\n### QCA: Sounding Bit and address\n\nThe QCA card can not be used to extract CSI when the sounding bit in the phy preamble of the wifi frame is not set. Therefore, this card requires a separately crafted frame to be sent with the SDR compared to the others.\n\nWhen in monitor mode, the qca will only report CSI from frames with its actual MAC address set in the MAC header.\n\n### iwl5300: Magic MAC\n\nProbably as part of the firmware, the iwl5300 is not able to extract CSI in monitor mode from any frames not addressed to the weird magic MAC address 00:16:ea:12:34:56. We provide a dedicated frame config InterleavedIQFrameGroupConfig` to have alternating frames addressed to the iwl and the other cards.",
+      "section": "make sure you are in your venv, then:",
+      "repo": "400_sensession",
+      "source_file": "readme.md"
+    }
+  }
+]

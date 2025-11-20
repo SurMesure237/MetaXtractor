@@ -1,0 +1,162 @@
+[
+  {
+    "id": 897,
+    "annotations": [
+      {
+        "id": 11149,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 12,
+              "end": 45,
+              "text": "https://zenodo.org/record/8191714",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "JAhn1mIcZy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1480,
+              "end": 1520,
+              "text": "https://postwrf.readthedocs.io/en/master",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "rs0IzrRiqW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 996,
+              "end": 1001,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "2WdbapCSvt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:13:06.500472Z",
+        "updated_at": "2025-11-16T05:00:34.279430Z",
+        "draft_created_at": "2025-11-06T05:12:22.536502Z",
+        "lead_time": 64.094,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "c24a4e84-bcca-4475-bf69-d4ed834b662b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 897,
+        "project": 23256,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "PostWRF\n\n[](https://zenodo.org/record/8191714)\n\n### Visualization and postprocessing of the WRF and ERA5 data\n\nPlot the WRF and ERA5 data, in the same simple way as you run the WRF model!\n\nPostWRF is a bunch of interactive tools, written in NCL and Bash scripts, to visualize and post-process the WRF model outputs (as well as ERA5 and RTTOV data, to some extent).\n\nPostWRF is useful for both the expert and less-experienced users. Students can plot the WRF and ERA5 outputs whithout struggling with coding and syntax errors. Expert users can also carry out common postprocessing tasks in a simple and straightforward way.\n\n## Main capabilities:\n\nWRF Data extraction\n\nWRF horizontal contour plot\n\nWRF cross-section plot\n\nWRF statistical diagrams\n\nRTTOV input (from WRF) and output data generation\n\nWRF data conversion to Geotiff\n\nWRF Skew-T and windrose diagrams\n\nERA5 horizontal contour plot\n\nERA5 data extraction\n\n## Sample visualizations and postprocessing\n\n## Installation:\n\nInstall NCL on a Linux machine (e.g. Fedora):\n\nsudo dnf install ncl\n\nThat's it! Enough for most of the PostWRF's capabilities!\n\n## Run PostWRF:\n\n`` git clone git@github.com:anikfal/PostWRF.git `\n\n` cd PostWRF `\n\n` chmod +x postwrf.sh modules/.sh modules_era/.sh `\n\nCopy or link your WRF or ERA5 files in the PostWRF directory\n\n` ./postwrf.sh ``\n\nFollow the instructions and give relevant information to visualize/postprocess your data\n\n## HTML Documentations:\n\nDocumentations with practical examples: https://postwrf.readthedocs.io/en/master\n\n## YouTube Training Videos:\n\nhttps://youtube.com/playlist?list=PL93HaRiv5QkCOWQ4E_Oeszi9DBOYrdNXD",
+      "section": "PostWRF (part 1)",
+      "repo": "203_PostWRF",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.891075Z",
+    "updated_at": "2025-11-16T05:00:34.310190Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23256,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 898,
+    "annotations": [
+      {
+        "id": 11150,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 98,
+              "end": 143,
+              "text": "https://doi.org/10.1016/j.envsoft.2022.105591",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "gzRL3tITUQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:13:26.814722Z",
+        "updated_at": "2025-11-16T05:01:00.794642Z",
+        "draft_created_at": "2025-11-06T05:13:20.171809Z",
+        "lead_time": 44.849000000000004,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "e2578b3d-dcb5-4f01-9baf-e6f7624b2c54",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 898,
+        "project": 23256,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Paper:\n\nFor more detailed information about the backend structure of the software, please read https://doi.org/10.1016/j.envsoft.2022.105591\n\nIf you find PostWRF helpful, please kindly cite it in your works.",
+      "section": "PostWRF (part 2)",
+      "repo": "203_PostWRF",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.891139Z",
+    "updated_at": "2025-11-16T05:01:00.823825Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23256,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

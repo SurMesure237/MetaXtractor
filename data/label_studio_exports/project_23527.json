@@ -1,0 +1,301 @@
+[
+  {
+    "id": 2340,
+    "annotations": [
+      {
+        "id": 10156,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 958,
+              "end": 985,
+              "text": "https://www.gymlibrary.dev/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "3n7W6cz64I",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1250,
+              "end": 1253,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "9qWNXsjxSu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1508,
+              "end": 1511,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "EB-iV1p750",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1603,
+              "end": 1608,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "UgClvjPVJY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1613,
+              "end": 1618,
+              "text": "macOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "mUVgnKTrDh",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1650,
+              "end": 1657,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "EL7yrnUYKa",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1570,
+              "end": 1599,
+              "text": "Python 3.7, 3.8, 3.9 and 3.10",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "ZMrICVkX3Z",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:05:08.713633Z",
+        "updated_at": "2025-11-17T00:04:18.063324Z",
+        "draft_created_at": "2025-11-03T06:04:07.837112Z",
+        "lead_time": 163.91400000000002,
+        "prediction": {},
+        "result_count": 7,
+        "unique_id": "b7a6fbed-7e9d-4672-8b61-93b0a26b31a6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2340,
+        "project": 23527,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://pre-commit.com/) [](https://github.com/psf/black)\n\n## Important Notice\n\n### The team that has been maintaining Gym since 2021 has moved all future development to [Gymnasium] https://github.com/Farama-Foundation/Gymnasium, a drop in replacement for Gym (import gymnasium as gym), and Gym will not be receiving any future updates. Please switch over to Gymnasium as soon as you're able to do so. If you'd like to read more about the story behind this switch, please check out [this blog post] https://farama.org/Announcing-The-Farama-Foundation.\n\n## Gym\n\nGym is an open source Python library for developing and comparing reinforcement learning algorithms by providing a standard API to communicate between learning algorithms and environments, as well as a standard set of environments compliant with that API. Since its release, Gym's API has become the field standard for doing this.\n\nGym documentation website is at [https://www.gymlibrary.dev/] https://www.gymlibrary.dev/, and you can propose fixes and changes to it [here] https://github.com/Farama-Foundation/gym-docs.\n\nGym also has a discord server for development purposes that you can join here: https://discord.gg/nHg2JRN489\n\n## Installation\n\nTo install the base Gym library, use pip install gym.\n\nThis does not include dependencies for all families of environments (there's a massive number, and some can be problematic to install on certain systems). You can install these dependencies for one family like pip install gym[atari] or use pip install gym[all] to install all dependencies.\n\nWe support Python 3.7, 3.8, 3.9 and 3.10 on Linux and macOS. We will accept PRs related to Windows, but do not officially support it.",
+      "section": "Introduction (part 1)",
+      "repo": "413_NeuroGym",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.860802Z",
+    "updated_at": "2025-11-17T00:04:18.101033Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23527,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2341,
+    "annotations": [
+      {
+        "id": 10157,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:05:15.120680Z",
+        "updated_at": "2025-11-03T06:05:15.120700Z",
+        "draft_created_at": null,
+        "lead_time": 6.217,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "60dad3e0-040d-41b6-a767-23c05e5064b8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2341,
+        "project": 23527,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## API\n\nThe Gym API's API models environments as simple Python env classes. Creating environment instances and interacting with them is very simple- here's an example using the \"CartPole-v1\" environment:\n\nimport gym env = gym.make(\"CartPole-v1\") observation, info = env.reset(seed=42)\n\nfor _ in range(1000):  action = env.action_space.sample()  observation, reward, terminated, truncated, info = env.step(action)\n\nif terminated or truncated:  observation, info = env.reset() env.close()\n\n## Notable Related Libraries\n\nPlease note that this is an incomplete list, and just includes libraries that the maintainers most commonly point newcommers to when asked for recommendations.\n\n[CleanRL] https://github.com/vwxyzjn/cleanrl is a learning library based on the Gym API. It is designed to cater to newer people in the field and provides very good reference implementations.  [Tianshou] https://github.com/thu-ml/tianshou is a learning library that's geared towards very experienced users and is design to allow for ease in complex algorithm modifications.  [RLlib] https://docs.ray.io/en/latest/rllib/index.html is a learning library that allows for distributed training and inferencing and supports an extraordinarily large number of features throughout the reinforcement learning space.  [PettingZoo] https://github.com/Farama-Foundation/PettingZoo is like Gym, but for environments with multiple agents.\n\n## Environment Versioning\n\nGym keeps strict versioning for reproducibility reasons. All environments end in a suffix like \"\\_v0\". When changes are made to environments that might impact learning results, the number is increased by one to prevent potential confusion.",
+      "section": "Introduction (part 2)",
+      "repo": "413_NeuroGym",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.860845Z",
+    "updated_at": "2025-11-03T06:05:15.150277Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23527,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2342,
+    "annotations": [
+      {
+        "id": 10158,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 573,
+              "end": 605,
+              "text": "https://arxiv.org/pdf/1606.01540",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "EDfmdcbNlP",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 658,
+              "end": 884,
+              "text": "@misc{1606.01540, Author = {Greg Brockman and Vicki Cheung and Ludwig Pettersson and Jonas Schneider and John Schulman and Jie Tang and Wojciech Zaremba}, Title = {OpenAI Gym}, Year = {2016}, Eprint = {arXiv:1606.01540}, }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "36UjCD-p5U",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 385,
+              "end": 388,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "2rG7wyl7H1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:06:04.815513Z",
+        "updated_at": "2025-11-03T06:06:04.815529Z",
+        "draft_created_at": "2025-11-03T06:05:35.327975Z",
+        "lead_time": 49.52,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "9b303a00-2981-4c67-9051-a98b5df183e6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2342,
+        "project": 23527,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## MuJoCo Environments\n\nThe latest \"\\_v4\" and future versions of the MuJoCo environments will no longer depend on mujoco-py. Instead mujoco will be the required dependency for future gym MuJoCo environment versions. Old gym MuJoCo environment versions that depend on mujoco-py will still be kept but unmaintained. To install the dependencies for the latest gym MuJoCo environments use pip install gym[mujoco]. Dependencies for old MuJoCo environments can still be installed by pip install gym[mujoco_py].\n\n## Citation\n\nA whitepaper from when Gym just came out is available https://arxiv.org/pdf/1606.01540, and can be cited with the following bibtex entry:\n\n@misc{1606.01540,  Author = {Greg Brockman and Vicki Cheung and Ludwig Pettersson and Jonas Schneider and John Schulman and Jie Tang and Wojciech Zaremba},  Title = {OpenAI Gym},  Year = {2016},  Eprint = {arXiv:1606.01540}, }\n\n## Release Notes\n\nThere used to be release notes for all the new Gym versions here. New release notes are being moved to [releases page] https://github.com/openai/gym/releases on GitHub, like most other libraries do. Old notes can be viewed [here] https://github.com/openai/gym/blob/31be35ecd460f670f0c4b653a14c9996b7facc6c/README.rst.",
+      "section": "Introduction (part 3)",
+      "repo": "413_NeuroGym",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.860872Z",
+    "updated_at": "2025-11-03T06:06:04.842667Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23527,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

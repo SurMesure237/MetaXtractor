@@ -1,0 +1,31 @@
+{
+  "codeRepository": "https://github.com/numpy/numpy",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "C",
+    "C++",
+    "Cython",
+    "Meson",
+    "Fortran",
+    "Shell",
+    "sed",
+    "Smarty",
+    "Makefile",
+    "Starlark"
+  ],
+  "downloadUrl": "https://api.github.com/repos/numpy/numpy/zipball/main",
+  "author": "numpy",
+  "dateCreated": "2010-09-13T23:02:39Z",
+  "dateModified": "2025-10-30T22:57:07Z",
+  "keywords": [
+    "numpy",
+    "python"
+  ],
+  "license": null,
+  "description": "The fundamental package for scientific computing with Python.",
+  "identifier": 908607,
+  "name": "numpy/numpy",
+  "issueTracker": "https://api.github.com/repos/numpy/numpy/issues",
+  "readme": "https://github.com/numpy/numpy/blob/main/README.md"
+}

@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/PtyLab/PtyLab.py",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/PtyLab/PtyLab.py/zipball/main",
+  "author": "PtyLab",
+  "dateCreated": "2022-11-29T09:38:30Z",
+  "dateModified": "2025-09-02T15:46:23Z",
+  "keywords": [],
+  "license": null,
+  "description": "Python implementation of ptylab",
+  "identifier": 571973461,
+  "name": "PtyLab/PtyLab.py",
+  "issueTracker": "https://api.github.com/repos/PtyLab/PtyLab.py/issues",
+  "readme": "https://github.com/PtyLab/PtyLab.py/blob/main/README.md"
+}

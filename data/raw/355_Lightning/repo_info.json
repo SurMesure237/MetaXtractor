@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/lightning-project/lightning",
+  "programmingLanguage": "Rust",
+  "programmingLanguages": [
+    "Rust",
+    "C++",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/lightning-project/lightning/zipball/main",
+  "author": "lightning-project",
+  "dateCreated": "2021-10-28T12:51:50Z",
+  "dateModified": "2025-06-19T15:43:15Z",
+  "keywords": [
+    "cuda",
+    "cuda-kernels",
+    "distributed-systems",
+    "gpu",
+    "rust"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Lightning: Fast data processing using GPUs on distributed platforms",
+  "identifier": 422202847,
+  "name": "lightning-project/lightning",
+  "issueTracker": "https://api.github.com/repos/lightning-project/lightning/issues",
+  "readme": "https://github.com/lightning-project/lightning/blob/main/README.md"
+}

@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/ReStoreCpp/ReStore",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "R",
+    "CMake",
+    "Shell",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ReStoreCpp/ReStore/zipball/main",
+  "author": "ReStoreCpp",
+  "dateCreated": "2021-01-19T13:57:31Z",
+  "dateModified": "2024-12-25T12:59:38Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/lgpl-3.0",
+  "description": "REplicated STORagE",
+  "identifier": 330997480,
+  "name": "ReStoreCpp/ReStore",
+  "issueTracker": "https://api.github.com/repos/ReStoreCpp/ReStore/issues",
+  "readme": "https://github.com/ReStoreCpp/ReStore/blob/main/README.md"
+}

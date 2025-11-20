@@ -1,0 +1,290 @@
+[
+  {
+    "id": 715,
+    "annotations": [
+      {
+        "id": 11313,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T07:49:11.688412Z",
+        "updated_at": "2025-11-07T07:49:11.688428Z",
+        "draft_created_at": null,
+        "lead_time": 5.399,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ebf51b92-60a1-416a-9537-10a45289b64b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 715,
+        "project": 23227,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://maven-badges.herokuapp.com/maven-central/org.openscience.cdk/cdk) [](https://github.com/cdk/cdk/actions/workflows/maven.yml) [](https://sonarcloud.io/summary/overall?id=cdk)",
+      "section": "Introduction",
+      "repo": "239_Chemistry_Development_Kit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.864055Z",
+    "updated_at": "2025-11-07T07:49:11.717987Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23227,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 716,
+    "annotations": [
+      {
+        "id": 11314,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 100,
+              "end": 107,
+              "text": "LGPL v2",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "ZYAX1WCCiT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 139,
+              "end": 160,
+              "text": "ttps://cdk.github.io/",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "Idt-hclxB3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 256,
+              "end": 287,
+              "text": "https://github.com/cdk/cdk/wiki",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "mJ0Lm93ch1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 173,
+              "end": 246,
+              "text": "http://cdk.github.io/cdk/latest/docs/api/index.html?overview-summary.html",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "jjk4rVzDz9",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T07:52:06.772223Z",
+        "updated_at": "2025-11-16T05:33:24.141498Z",
+        "draft_created_at": "2025-11-07T07:49:22.927758Z",
+        "lead_time": 182.16500000000002,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "39307d54-bcee-4bbb-bb6d-3e604f7e5a6d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 716,
+        "project": 23227,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "The Chemistry Development Kit (CDK)   Copyright &copy; 1997-2025 The CDK Development Team\n\nLicense: LGPL v2, see LICENSE.txt\n\n[Home Page] https://cdk.github.io/ | [JavaDoc] http://cdk.github.io/cdk/latest/docs/api/index.html?overview-summary.html | [Wiki] https://github.com/cdk/cdk/wiki | [Issues] https://github.com/cdk/cdk/issues | [Mailing List] https://sourceforge.net/projects/cdk/lists/cdk-user\n\n## Introduction\n\nThe CDK is an open-source Java library for cheminformatics and bioinformatics.\n\nKey Features:  Molecule and reaction valence bond representation.  Read and write file formats: SMILES, SDF, InChI, Mol2, CML, and others.  Efficient molecule processing algorithms: Ring Finding, Kekulisation, Aromaticity.  Coordinate generation and rendering.  Canonical identifiers for fast exact searching.  Substructure and SMARTS pattern searching.  ECFP, Daylight, MACCS, and other fingerprint methods for similarity searching.  QSAR descriptor calculations",
+      "section": "The Chemistry Development Kit (CDK) (part 1)",
+      "repo": "239_Chemistry_Development_Kit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.864102Z",
+    "updated_at": "2025-11-16T05:33:24.173322Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23227,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 717,
+    "annotations": [
+      {
+        "id": 11315,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 670,
+              "end": 685,
+              "text": "uber cdk-bundle",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "miU2yNWDbB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 183,
+              "end": 200,
+              "text": "Java 1.7 or later",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "9avyrW7vYD",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T07:54:13.736663Z",
+        "updated_at": "2025-11-17T00:26:03.113812Z",
+        "draft_created_at": "2025-11-07T07:52:27.441718Z",
+        "lead_time": 145.127,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "0f040591-f430-4c6f-a3c4-e8580c1fabcc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 717,
+        "project": 23227,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Install\n\nThe CDK is a class library intended to be used by other programs, it will not run as a stand-alone program.\n\nThe library is built with Apache Maven and currently requires Java 1.7 or later. From the root of the project run to build the JAR files for each module. The `bundle/target/ directory contains the main JAR with all dependencies included:\n\n$ mvn install\n\nYou can also download a pre-built library JAR from [releases] https://github.com/cdk/cdk/releases.\n\nInclude the main JAR on the Java classpath when compiling and running your code:\n\n$ javac -cp cdk-2.11.jar MyClass.java $ java -cp cdk-2.11.jar:. MyClass\n\nIf you are using Maven, you can use the uber cdk-bundle to grab  everything, note it is much more efficient to use include the modules you need:\n\ncdk-bundle  org.openscience.cdk  2.11\n\nIf you are a Python user, the Cinfony project provides access via [Jython] http://www.redbrick.dcu.ie/~noel/CDKJython.html. Noel O'Boyle's [Cinfony] http://cinfony.github.io/ provides a wrapper around the CDK and over toolkits exposing core functionality as a consistent API. ScyJava` can also be used, as explain in [ChemPyFormatics] https://cdk.github.io/chempyformatics/.\n\nFurther details on building the project in integrated development environments (IDEs) are available on the wiki:  [Building the CDK] https://github.com/cdk/cdk/wiki/Building-CDK  [Maven Reporting Plugins] https://github.com/cdk/cdk/wiki/Maven-Reporting-Plugins",
+      "section": "The Chemistry Development Kit (CDK) (part 2)",
+      "repo": "239_Chemistry_Development_Kit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.864126Z",
+    "updated_at": "2025-11-17T00:26:03.150874Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23227,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 718,
+    "annotations": [
+      {
+        "id": 11316,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T07:54:16.361240Z",
+        "updated_at": "2025-11-07T07:54:16.361270Z",
+        "draft_created_at": null,
+        "lead_time": 2.43,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "3ce6b8c9-06fe-4814-a7c0-7f387c4f19a6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 718,
+        "project": 23227,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Getting Help\n\nThe [Toolkit-Rosetta Wiki Page] https://github.com/cdk/cdk/wiki/Toolkit-Rosetta provides some examples for common tasks. If you need help using the CDK and have questions please use the user mailing list, [`cdk-user@lists.sf.net`] mailto:cdk-user@lists.sf.net (you must [subscribe here] https://sourceforge.net/projects/cdk/lists/cdk-user first to post).",
+      "section": "The Chemistry Development Kit (CDK) (part 3)",
+      "repo": "239_Chemistry_Development_Kit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.864148Z",
+    "updated_at": "2025-11-07T07:54:16.393631Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23227,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

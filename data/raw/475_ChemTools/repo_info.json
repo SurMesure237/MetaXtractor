@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/theochem/chemtools",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/theochem/chemtools/zipball/main",
+  "author": "theochem",
+  "dateCreated": "2019-05-19T17:26:28Z",
+  "dateModified": "2025-09-02T02:19:33Z",
+  "keywords": [
+    "atoms-in-molecules",
+    "conceptual-dft",
+    "density-matrices",
+    "kinetic-energy-density",
+    "molecular-orbital-theory",
+    "population-analysis"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "A collection of interpretive chemical tools for analyzing outputs of the quantum chemistry calculations.",
+  "identifier": 187507155,
+  "name": "theochem/chemtools",
+  "issueTracker": "https://api.github.com/repos/theochem/chemtools/issues",
+  "readme": "https://github.com/theochem/chemtools/blob/master/README.md"
+}

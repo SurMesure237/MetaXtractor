@@ -1,0 +1,50 @@
+# YAML 1.2
+# Metadata for citation of this software according to the CFF format (https://citation-file-format.github.io/)
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+# FIXME title as repository name might not be the best name, please make human readable
+title: 'HADDOCK3 - modular integrative modelling software'
+doi: 10.5281/zenodo.10527751
+# FIXME splitting of full names is error prone, please check if given/family name are correct
+authors:
+- given-names: Joao
+  family-names: Teixeira
+  name-particle: M.C.
+  affiliation: Zymvol
+- given-names: Rodrigo
+  family-names: Honorato
+  name-particle: Vargas
+  affiliation: '@UtrechtUniversity'
+- given-names: Marco
+  family-names: Giulini
+  affiliation: Utrecht University
+- given-names: Alexandre
+  family-names: Bonvin
+  affiliation: '@UtrechtUniversity'
+- given-names: Sarah
+  family-names: Alidoost
+  affiliation: Netherlands eScience center
+- given-names: Victor
+  family-names: Reys
+  affiliation: '@haddocking'
+- given-names: Brian
+  family-names: Jimenez
+  affiliation: '@zymvol'
+- given-names: Douwe
+  family-names: Schulte
+  affiliation: '@UtrechtUniversity'
+- given-names: Charlotte
+  family-names: van Noort
+  affiliation: Utrecht University
+- given-names: Stefan
+  family-names: Verhoeven
+  affiliation: Netherlands eScience Center
+- given-names: Barbara
+  family-names: Vreede
+- given-names: SSchott
+- given-names: Regen
+  family-names: Tsai
+version: "2024.10.0b6"
+date-released: 2024-01-18
+repository-code: https://github.com/haddocking/haddock3
+license: CC-BY-4.0

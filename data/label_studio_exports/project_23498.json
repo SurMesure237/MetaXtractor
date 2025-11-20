@@ -1,0 +1,547 @@
+[
+  {
+    "id": 2215,
+    "annotations": [
+      {
+        "id": 11803,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 355,
+              "end": 630,
+              "text": "Dyrba et al. (2021) Improving 3D convolutional neural network comprehensibility via interactive visualization of relevance maps: evaluation in Alzheimer’s disease. Alzheimer's research & therapy 13. DOI: [10.1186/s13195-021-00924-2] https://doi.org/10.1186/s13195-021-00924-2",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "iAsbhk5eJT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:06:42.003680Z",
+        "updated_at": "2025-11-09T06:06:42.003697Z",
+        "draft_created_at": "2025-11-09T06:06:40.870417Z",
+        "lead_time": 14.673,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "8e7a107e-8cb1-4a2d-930c-2e686fa15883",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2215,
+        "project": 23498,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Deep Learning Interactive Visualization\n\nThis project contains all code to learn a convolutional neural network model to detect Alzheimer's disease and visualize contributing brain regions with high relevance.   Further details on the procedures including samples, image processing, neural network modeling, evaluation, and validation were published in:\n\nDyrba et al. (2021) Improving 3D convolutional neural network comprehensibility via interactive visualization of relevance maps: evaluation in Alzheimer’s disease. Alzheimer's research & therapy 13. DOI: [10.1186/s13195-021-00924-2] https://doi.org/10.1186/s13195-021-00924-2.\n\nScreenshot of the InteractiveVis app\n\n### Running the interactive visualization\n\nThe interactive Bokeh web application [InteractiveVis] InteractiveVis can be used for deriving and inspecting the relevance maps overlaid on the original input images.\n\nTo run it, there are three options.\n\nWe set up a public web service to quickly try it out:*\n\nAlternatively, download the docker container from DockerHub: sudo docker pull martindyrba/interactivevis\n\nThen use the scripts sudo ./run_docker_intvis.sh and sudo ./stop_docker_intvis.sh to run or stop the Bokeh app. (You find both files above in this repository.) After starting the docker container, the app will be available from your web browser:\n\nDownload this Git repository. Install the required Python modules (see below). Then point the Anaconda prompt or terminal console to the DeepLearningInteractiveVis main directory and run the Bokeh app using:\n\nbokeh serve InteractiveVis --show",
+      "section": "Deep Learning Interactive Visualization (part 1)",
+      "repo": "367_InteractiveVis",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.759373Z",
+    "updated_at": "2025-11-09T06:06:42.034203Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23498,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2216,
+    "annotations": [
+      {
+        "id": 11804,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 239,
+              "end": 247,
+              "text": "Anaconda",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "q8xocOCCSv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 287,
+              "end": 297,
+              "text": "virtualenv",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "iVCLkVA6y2",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 298,
+              "end": 302,
+              "text": "venv",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "QUovBxaykw",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 153,
+              "end": 163,
+              "text": "tensorflow",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Y8QSU2kY_j",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 163,
+              "end": 169,
+              "text": "==1.15",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "578kra-J8r",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 249,
+              "end": 282,
+              "text": "https://www.anaconda.com/download",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "upZWwRQJI5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 304,
+              "end": 386,
+              "text": "https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "-nsPr91Ovt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 120,
+              "end": 131,
+              "text": "Python <3.8",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "jsKL82NN-3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:07:08.508988Z",
+        "updated_at": "2025-11-17T00:06:39.743882Z",
+        "draft_created_at": "2025-11-09T06:06:56.096813Z",
+        "lead_time": 59.25000000000001,
+        "prediction": {},
+        "result_count": 8,
+        "unique_id": "1115e6a9-f0a0-45c2-a355-ffb1a6fd3c9a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2216,
+        "project": 23498,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Requirements and installation:\n\nTo be able to run the interactive visualization from the Git sources, you will need Python <3.8, in order to install tensorflow==1.15. Also, we recommend to first create a new Python environment (using [Anaconda] https://www.anaconda.com/download or [virtualenv/venv] https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) to avoid messing up your local Python modules/versions when you have other coding projects or a system shared by multiple users.",
+      "section": "Deep Learning Interactive Visualization (part 2)",
+      "repo": "367_InteractiveVis",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.759408Z",
+    "updated_at": "2025-11-17T00:06:39.775249Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23498,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2217,
+    "annotations": [
+      {
+        "id": 11805,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:07:12.321110Z",
+        "updated_at": "2025-11-09T06:07:12.321126Z",
+        "draft_created_at": null,
+        "lead_time": 3.609,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "5c463793-da7c-416d-9a85-904f92425c36",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2217,
+        "project": 23498,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "for Anaconda: conda create -n InteractiveVis python=3.7 conda activate InteractiveVis\n\nRun pip to install the dependencies:\n\npip install -r requirements.txt\n\nThen you can start the Bokeh application:\n\nbokeh serve InteractiveVis --show",
+      "section": "for Anaconda: (part 1)",
+      "repo": "367_InteractiveVis",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.759429Z",
+    "updated_at": "2025-11-09T06:07:12.348129Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23498,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2218,
+    "annotations": [
+      {
+        "id": 11806,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:07:20.755855Z",
+        "updated_at": "2025-11-09T06:07:20.755868Z",
+        "draft_created_at": null,
+        "lead_time": 2.25,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "01527763-58aa-486d-89e8-e2560bc9fcbc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2218,
+        "project": 23498,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### CNN model training and performance evaluation\n\nThe code for training the CNN models and evaluation is provided in this repository in the subdirectory [scripts] scripts. The order of script execution was as follows:",
+      "section": "for Anaconda: (part 2)",
+      "repo": "367_InteractiveVis",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.759450Z",
+    "updated_at": "2025-11-09T06:07:20.783179Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23498,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2219,
+    "annotations": [
+      {
+        "id": 11807,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:07:22.887915Z",
+        "updated_at": "2025-11-09T06:07:22.887934Z",
+        "draft_created_at": null,
+        "lead_time": 1.97,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "9225c346-dbdd-49fb-986b-01e69a579fac",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2219,
+        "project": 23498,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[1_CreateResiduals_ADNI2_StoreModels.ipynb] scripts/1_CreateResiduals_ADNI2_StoreModels.ipynb and other scripts for the validation samples [4_CreateResiduals_DELCODE_applying_ADNI2_regr_model.ipynb] scripts/4_CreateResiduals_DELCODE_applying_ADNI2_regr_model.ipynb (execution time: each 15-30 minutes).\n\n[2_Train_3D_CNN_ADNI2_xVal_wb_mwp1_CAT12_MNI_shuffle_checkpoint.ipynb] scripts/2_Train_3D_CNN_ADNI2_xVal_wb_mwp1_CAT12_MNI_shuffle_checkpoint.ipynb for model training based on tenfold cross-validation to evaluate general model accuracy for the residualized data (execution time: 2-10 hrs with CUDA-GPU) and [3_Train_3D_CNN_ADNI2_whole_dataset_wb_mwp1_CAT12_MNI_shuffle.ipynb] scripts/3_Train_3D_CNN_ADNI2_whole_dataset_wb_mwp1_CAT12_MNI_shuffle.ipynb for training the model based on the whole ADNI-GO/2 dataset.\n\n[5_Validate_3D_CNN_xVal_wb_mwp1_CAT12_MNI_DELCODE.ipynb] scripts/5_Validate_3D_CNN_xVal_wb_mwp1_CAT12_MNI_DELCODE.ipynb and [6_Validate_3D_CNN_whole_ds_wb_mwp1_CAT12_MNI_DELCODE.ipynb] scripts/6_Validate_3D_CNN_whole_ds_wb_mwp1_CAT12_MNI_DELCODE.ipynb for the evaluation of the models using the validation data sets (execution time: each 15-30 minutes with CUDA-GPU).\n\n[7_Train_3D_CNN_ADNI2_xVal_wb_rawdat_mwp1_CAT12_MNI_shuffle_checkpoint.ipynb] scripts/7_Train_3D_CNN_ADNI2_xVal_wb_rawdat_mwp1_CAT12_MNI_shuffle_checkpoint.ipynb and [8_Train_3D_CNN_ADNI2_whole_dataset_wb_rawdat_mwp1_CAT12_MNI_shuffle.ipynb] scripts/8_Train_3D_CNN_ADNI2_whole_dataset_wb_rawdat_mwp1_CAT12_MNI_shuffle.ipynb for training the models for the raw datasets (execution time: each 2-10 hrs with CUDA-GPU).",
+      "section": "for Anaconda: (part 3)",
+      "repo": "367_InteractiveVis",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.759472Z",
+    "updated_at": "2025-11-09T06:07:22.919190Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23498,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2220,
+    "annotations": [
+      {
+        "id": 11808,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:07:23.990506Z",
+        "updated_at": "2025-11-09T06:07:23.990542Z",
+        "draft_created_at": null,
+        "lead_time": 0.93,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "321c1c04-c770-4f6d-9397-fb684a84e1ef",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2220,
+        "project": 23498,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[9_Validate_3D_CNN_whole_ds_wb_rawdat_mwp1_CAT12_MNI_DELCODE.ipynb] scripts/9_Validate_3D_CNN_whole_ds_wb_rawdat_mwp1_CAT12_MNI_DELCODE.ipynb and [9_Validate_3D_CNN_xVal_wb_mwp1_CAT12_MNI_DELCODE.ipynb] scripts/9_Validate_3D_CNN_xVal_wb_mwp1_CAT12_MNI_DELCODE.ipynb for the evaluation of the models using the validation data sets (execution time: each 15-30 minutes with CUDA-GPU).\n\n[x_extract_hippocampus_relevance_lrpCMP_DELCODE.ipynb] scripts/x_extract_hippocampus_relevance_lrpCMP_DELCODE.ipynb to extract the hippocampus relevance for all models (execution time: 15-30 minutes with CUDA-GPU).\n\n[x_extract_relevance_maps_as_nifti_DELCODE.ipynb] scripts/x_extract_relevance_maps_as_nifti_DELCODE.ipynb to extract the relevance maps directly as nifti file for all participants/scans (execution time: 30 minutes with CUDA-GPU).\n\n[hippocampus_volume_relevance_analysis_DELCODE.html] scripts/hippocampus_volume_relevance_analysis_DELCODE.html for the baseline group separation analysis of hippocampus volume and the correlation analysis of hippocampus volume and relevance (see also other R/Rmd scripts).\n\n[y_occlusion_analysis.ipynb] scripts/y_occlusion_analysis.ipynb code for the occlusion sensitivity analysis (execution time: 90 minutes with CUDA-GPU).\n\n[z_CreateResiduals_demo_dataset_applying_ADNI2_regr_model.ipynb] scripts/z_CreateResiduals_demo_dataset_applying_ADNI2_regr_model.ipynb to create the example files being used by the InteractiveVis demo. It contains a sample of 15 people per diagnostic group, representatively selected from the ADNI-2 phase based on the criteria: amyloid status (positive for Alzheimer's dementia and amnestic mild cogntive impairment, negative for controls), MRI field strength of 3 Tesla, RID greater than 4000, and age of 65 or older.",
+      "section": "for Anaconda: (part 4)",
+      "repo": "367_InteractiveVis",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.759495Z",
+    "updated_at": "2025-11-09T06:07:24.019850Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23498,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2221,
+    "annotations": [
+      {
+        "id": 11809,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:07:25.365881Z",
+        "updated_at": "2025-11-09T06:07:25.365906Z",
+        "draft_created_at": null,
+        "lead_time": 1.193,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "a47a00f0-8043-4db9-9b72-6a7a6ae62be0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2221,
+        "project": 23498,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "",
+      "section": "for Anaconda: (part 5)",
+      "repo": "367_InteractiveVis",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.759514Z",
+    "updated_at": "2025-11-09T06:07:25.396694Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23498,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2222,
+    "annotations": [
+      {
+        "id": 11810,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 323,
+              "end": 334,
+              "text": "MIT license",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "PcyIhd3Z_P",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:07:38.659581Z",
+        "updated_at": "2025-11-09T06:07:38.659596Z",
+        "draft_created_at": null,
+        "lead_time": 13.097,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "19b1ebba-1135-4c79-8512-8a4d5dcbc6a9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2222,
+        "project": 23498,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### InteractiveVis architecture overview\n\nInteractiveVis UML class diagram (v4)\n\nSelect subject UML sequence diagram (v3)\n\n### License:\n\nCopyright (c) 2020 Martin Dyrba martin.dyrba@dzne.de, German Center for Neurodegenerative Diseases (DZNE), Rostock, Germany\n\nThis project and included source code is published under the MIT license. See [LICENSE] LICENSE for details.",
+      "section": "for Anaconda: (part 6)",
+      "repo": "367_InteractiveVis",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.759534Z",
+    "updated_at": "2025-11-09T06:07:38.689129Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23498,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

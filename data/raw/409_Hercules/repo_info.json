@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/online-behaviour/machine-learning",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Jupyter Notebook",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/online-behaviour/machine-learning/zipball/main",
+  "author": "online-behaviour",
+  "dateCreated": "2017-04-10T16:45:02Z",
+  "dateModified": "2025-04-16T06:07:36Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Python scripts for tweet retrieval and machine learning in the eScience project Automated Analysis of Online Behaviour on Social Media",
+  "identifier": 87834727,
+  "name": "online-behaviour/machine-learning",
+  "issueTracker": "https://api.github.com/repos/online-behaviour/machine-learning/issues",
+  "readme": "https://github.com/online-behaviour/machine-learning/blob/master/README.md"
+}

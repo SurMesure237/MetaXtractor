@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/RS-DAT/JupyterDaskOnSLURM",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/RS-DAT/JupyterDaskOnSLURM/zipball/main",
+  "author": "RS-DAT",
+  "dateCreated": "2021-11-29T00:04:04Z",
+  "dateModified": "2025-09-02T13:03:18Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": null,
+  "identifier": 432855112,
+  "name": "RS-DAT/JupyterDaskOnSLURM",
+  "issueTracker": "https://api.github.com/repos/RS-DAT/JupyterDaskOnSLURM/issues",
+  "readme": "https://github.com/RS-DAT/JupyterDaskOnSLURM/blob/main/README.md"
+}

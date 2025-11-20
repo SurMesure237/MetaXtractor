@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/cookiecutter/cookiecutter",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Makefile",
+    "Just",
+    "Jinja",
+    "Shell",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/cookiecutter/cookiecutter/zipball/main",
+  "author": "cookiecutter",
+  "dateCreated": "2013-07-14T18:31:22Z",
+  "dateModified": "2025-10-31T02:35:03Z",
+  "keywords": [
+    "cookiecutter",
+    "python"
+  ],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "A cross-platform command-line utility that creates projects from cookiecutters (project templates), e.g. Python package projects, C projects.",
+  "identifier": 11407242,
+  "name": "cookiecutter/cookiecutter",
+  "issueTracker": "https://api.github.com/repos/cookiecutter/cookiecutter/issues",
+  "readme": "https://github.com/cookiecutter/cookiecutter/blob/main/README.md"
+}

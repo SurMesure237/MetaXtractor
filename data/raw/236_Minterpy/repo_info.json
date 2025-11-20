@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/casus/minterpy",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/casus/minterpy/zipball/main",
+  "author": "casus",
+  "dateCreated": "2021-11-30T16:32:26Z",
+  "dateModified": "2025-10-19T22:49:53Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Multivariate polynomial interpolation in Python. This is a mirror of the Minterpy repository. Please do not post issues or pull requests here. Go to https://github.com/minterpy-project/minterpy instead.",
+  "identifier": 433505023,
+  "name": "casus/minterpy",
+  "issueTracker": "https://api.github.com/repos/casus/minterpy/issues",
+  "readme": "https://github.com/casus/minterpy/blob/main/README.md"
+}

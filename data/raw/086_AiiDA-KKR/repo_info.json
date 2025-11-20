@@ -1,0 +1,41 @@
+{
+  "codeRepository": "https://github.com/JuDFTteam/aiida-kkr",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell",
+    "OpenEdge ABL"
+  ],
+  "downloadUrl": "https://api.github.com/repos/JuDFTteam/aiida-kkr/zipball/main",
+  "author": "JuDFTteam",
+  "dateCreated": "2017-10-25T16:27:56Z",
+  "dateModified": "2025-02-28T09:01:36Z",
+  "keywords": [
+    "ab-initio",
+    "aiida",
+    "all-electron",
+    "band-structure",
+    "coherent-potential-approximation",
+    "computational-materials-science",
+    "condensed-matter-physics",
+    "defects",
+    "density-functional-theory",
+    "electronic-structure",
+    "forschungszentrum-juelich",
+    "full-potential",
+    "greens-functions",
+    "high-throughput",
+    "judft",
+    "kkr",
+    "magnetism",
+    "multiple-scattering",
+    "superconductivity",
+    "workflow"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "AiiDA plugin of the high-performance density functional theory code JuKKR (www.judft.de) for high-throughput electronic structure calculations.",
+  "identifier": 108296038,
+  "name": "JuDFTteam/aiida-kkr",
+  "issueTracker": "https://api.github.com/repos/JuDFTteam/aiida-kkr/issues",
+  "readme": "https://github.com/JuDFTteam/aiida-kkr/blob/master/README.md"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": ".. image:: https://github.com/SCM-NV/qmflows/workflows/Tests/badge.svg  :target: https://github.com/SCM-NV/qmflows/actions .. image:: https://codecov.io/gh/SCM-NV/qmflows/branch/master/graph/badge.svg  :target: https://codecov.io/gh/SCM-NV/qmflows .. image:: https://readthedocs.org/projects/qmflows/badge/?version=latest  :target: https://qmflows.readthedocs.io/en/latest/?badge=latest  :alt: Documentation Status .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.3274284.svg  :target: https://doi.org/10.5281/zenodo.3274284 .. image:: https://badge.fury.io/py/qmflows.svg  :target: https://badge.fury.io/py/qmflows .. image:: qmflows.png\n\nQMFlows ####### See documentation_ for tutorials and documentation.\n\nMotivation\n\nResearch on modern computational quantum chemistry relies on a set of computational tools to carry out calculations. The complexity of the calculations usually requires intercommunication between the aforementioned tools, such communication is usually done through shell scripts that try to automate input/output actions like: launching the computations in a cluster, reading the resulting output and feeding the relevant numerical result to another program. Such scripts are difficult to maintain and extend, requiring a significant programming expertise to work with them. Being then desirable a set of automatic and extensible tools that allows to perform complex simulations in heterogeneous hardware platforms.\n\nThis library tackles the construction and efficient execution of computational chemistry workflows. This allows computational chemists to use the emerging massively parallel compute environments in an easy manner and focus on interpretation of scientific data rather than on tedious job submission procedures and manual data processing.",
+      "section": "Introduction (part 1)",
+      "repo": "162_QMflows",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": "Description\n\nThis library consists of a set of modules written in Python3 to automate the following tasks:\n\nInput generation.\n\nHandle tasks dependencies (Noodles_).\n\nAdvanced molecular manipulation capabilities with (rdkit_).\n\nJobs failure detection and recovery.\n\nNumerical data storage (h5py_).\n\nTutorial and Examples\n\nA tutorial written as a jupyter-notebook_ is available from: tutorial-qmflows_. You can also access direclty more advanced examples_.\n\nInstallation\n\nDownload miniconda for python3: miniconda_ (also you can install the complete anaconda_ version).\n\nInstall according to: installConda_.\n\nCreate a new virtual environment using the following commands:\n\n`conda create -n qmflows\n\nActivate the new virtual environment\n\nsource activate qmflows\n\nTo exit the virtual environment type source deactivate.\n\n.. _dependecies:\n\nDependencies installation\n\nType in your terminal:\n\nconda activate qmflows\n\nUsing the conda environment the following packages should be installed:\n\ninstall rdkit_ and h5py_ using conda:\n\nconda install -y -q -c conda-forge rdkit h5py\n\nNote that rdkit is optional for Python 3.7 and later.\n\n.. _installation:\n\nPackage installation\n\nFinally install the package:\n\nInstall QMFlows using pip:\n\npip install qmflows\n\nNow you are ready to use qmflows.\n\nNotes:\n\nOnce the libraries and the virtual environment are installed, you only need to type\n\nconda activate qmflows` each time that you want to use the software.",
+      "section": "Introduction (part 2)",
+      "repo": "162_QMflows",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": ".. _documentation: https://qmflows.readthedocs.io/en/latest/ .. _miniconda: https://docs.conda.io/en/latest/miniconda.html .. _anaconda: https://www.anaconda.com/distribution/#download-section .. _installConda: https://conda.io/projects/conda/en/latest/user-guide/install/index.html .. _Noodles: http://nlesc.github.io/noodles/ .. _h5py: http://www.h5py.org/ .. _here: https://www.python.org/downloads/ .. _rdkit: http://www.rdkit.org .. _jupyter-notebook: http://jupyter.org/ .. _tutorial-qmflows: https://github.com/SCM-NV/qmflows/tree/master/jupyterNotebooks .. _examples: https://github.com/SCM-NV/qmflows/tree/master/src/qmflows/examples .. _PLAMS: https://github.com/SCM-NV/PLAMS",
+      "section": "Introduction (part 3)",
+      "repo": "162_QMflows",
+      "source_file": "readme.rst"
+    }
+  }
+]

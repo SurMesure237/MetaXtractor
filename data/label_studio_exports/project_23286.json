@@ -1,0 +1,721 @@
+[
+  {
+    "id": 1124,
+    "annotations": [
+      {
+        "id": 12048,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:51:34.936795Z",
+        "updated_at": "2025-11-09T07:51:34.936811Z",
+        "draft_created_at": null,
+        "lead_time": 13.06,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c3041bdd-d9b3-4c23-89e4-f0e0f3799462",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1124,
+        "project": 23286,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "kunefe developer documentation\n\nIf you're looking for user documentation, go [here] README.md.\n\n## Docker image\n\nIf you do not have an access to a HPC cluster with a SLURM service, you can build and use your own Docker image which is based on [xenonmiddleware/slurm] https://hub.docker.com/r/xenonmiddleware/slurm/.\n\nTo build the image run:\n\ndocker build --tag kunefe-slurm Docker\n\nYou can list the existing Docker images with:\n\ndocker images\n\nThe output you get should be similar to the one below:\n\nREPOSITORY TAG IMAGE ID CREATED SIZE kunefe-slurm latest be0cd0f582d7 2 hours ago 486MB\n\nTo start the SLURM service run:\n\ndocker run --detach --publish 10022:22 kunefe-slurm:latest\n\nIf you need to connect to the server via ssh run:\n\nssh -p 10022 xenon@localhost -t /bin/bash\n\nThe default user and the password for the SSH service are below.\n\nuser: xenon password: javagat\n\n### Pushing the Docker image to dockerhub\n\nLogin to dockerhub using your terminal\n\ndocker login -u YOURUSERNAME\n\nTag the new docker image\n\ndocker tag kunefe-slurm:latest nlesc/kunefe:slurm\n\nPush the image to dockerhub\n\ndocker push nlesc/kunefe:slurm\n\nDockerhub repository can be found at [https://hub.docker.com/repository/docker/nlesc/kunefe] https://hub.docker.com/repository/docker/nlesc/kunefe\n\n## Development install\n\nCreate a virtual environment, e.g. with python -m venv env\n\nactivate virtual environment source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools python -m pip install --upgrade pip setuptools\n\ninstall kunefe as an editable package python -m pip install --no-cache-dir --editable .",
+      "section": "`kunefe` developer documentation + Create a virtual environment, e.g. with + activate virtual environment (and 2 more)",
+      "repo": "376_kunefe",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.071197Z",
+    "updated_at": "2025-11-09T07:51:34.964837Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23286,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1125,
+    "annotations": [
+      {
+        "id": 12049,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:51:41.398537Z",
+        "updated_at": "2025-11-09T07:51:41.398549Z",
+        "draft_created_at": null,
+        "lead_time": 6.287,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "8f9a3f72-c683-4a12-99aa-a9d62c297e93",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1125,
+        "project": 23286,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "install development dependencies python -m pip install --no-cache-dir --editable .[dev]\n\nAfterwards check that the install directory is present in the PATH environment variable.\n\n## Running the tests\n\nThere are two ways to run tests.\n\nThe first way requires an activated virtual environment with the development tools installed:\n\npytest -v\n\nThe second is to use tox, which can be installed separately (e.g. with pip install tox), i.e. not necessarily inside the virtual environment you use for installing kunefe, but then builds the necessary virtual environments itself by simply running:\n\ntox\n\nTesting with tox allows for keeping the testing environment separate from your development environment. The development environment will typically accumulate (old) packages during development that interfere with testing; this problem is avoided by testing with tox.\n\n### Test coverage\n\nIn addition to just running the tests to see if they pass, they can be used for coverage statistics, i.e. to determine how much of the package's code is actually executed during tests. In an activated virtual environment with the development tools installed, inside the package directory, run:\n\ncoverage run\n\nThis runs tests and stores the result in a .coverage file. To see the results on the command line, run\n\ncoverage report\n\ncoverage can also generate output in HTML and other formats; see coverage help for more information.\n\n## Running linters locally\n\nFor linting and sorting imports we will use [ruff] https://beta.ruff.rs/docs/. Running the linters requires an activated virtual environment with the development tools installed.\n\nlinter ruff .",
+      "section": "install development dependencies + linter",
+      "repo": "376_kunefe",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.071242Z",
+    "updated_at": "2025-11-09T07:51:41.422658Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23286,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1126,
+    "annotations": [
+      {
+        "id": 12050,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:51:44.977353Z",
+        "updated_at": "2025-11-09T07:51:44.977371Z",
+        "draft_created_at": null,
+        "lead_time": 3.401,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b04ec755-5655-48da-af15-423215954511",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1126,
+        "project": 23286,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "linter with automatic fixing ruff . --fix\n\nTo fix readability of your code style you can use [yapf] https://github.com/google/yapf.\n\nYou can enable automatic linting with ruff on commit by enabling the git hook from .githooks/pre-commit, like so:\n\ngit config --local core.hooksPath .githooks\n\n## Generating the API docs\n\ncd docs make html\n\nThe documentation will be in docs/_build/html\n\nIf you do not have make use\n\nsphinx-build -b html docs docs/_build/html\n\nTo find undocumented Python objects run\n\ncd docs make coverage cat _build/coverage/python.txt\n\nTo [test snippets] https://www.sphinx-doc.org/en/master/usage/extensions/doctest.html in documentation run\n\ncd docs make doctest\n\n## Versioning\n\nBumping the version across all files is done with [bump-my-version] https://github.com/callowayproject/bump-my-version, e.g.\n\nbump-my-version major # bumps from e.g. 0.3.2 to 1.0.0 bump-my-version minor # bumps from e.g. 0.3.2 to 0.4.0 bump-my-version patch # bumps from e.g. 0.3.2 to 0.3.3\n\n## Making a release\n\nThis section describes how to make a release in 3 parts:\n\npreparation\n\nmaking a release on PyPI\n\nmaking a release on GitHub\n\n### (1/3) Preparation\n\nUpdate the (don't forget to update links at bottom of page)\n\nVerify that the information in [CITATION.cff] CITATION.cff is correct.\n\nMake sure the [version has been updated] #versioning.\n\nRun the unit tests with pytest -v\n\n### (2/3) PyPI\n\nIn a new terminal:\n\nhas the state of origin/main branch cd $(mktemp -d kunefe.XXXXXX) git clone git@github.com:mess-nlesc/kunefe .\n\nmake sure to have a recent version of pip and the publishing dependencies python -m pip install --upgrade pip python -m pip install .[publishing]\n\ncreate the source distribution and the wheel python -m build",
+      "section": "linter with automatic fixing + has the state of origin/main branch + make sure to have a recent version of pip and the publishing dependencies (and 1 more)",
+      "repo": "376_kunefe",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.071485Z",
+    "updated_at": "2025-11-09T07:51:45.005255Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23286,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1127,
+    "annotations": [
+      {
+        "id": 12051,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:51:46.356431Z",
+        "updated_at": "2025-11-09T07:51:46.356450Z",
+        "draft_created_at": null,
+        "lead_time": 1.194,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "66fdb539-c93f-4ca7-812f-dd13b1d3b17b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1127,
+        "project": 23286,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "upload to test pypi instance (requires credentials) python -m twine upload --repository testpypi dist/\n\n[https://test.pypi.org/project/kunefe] https://test.pypi.org/project/kunefe and verify that your package was uploaded successfully. Keep the terminal open, we'll need it later.\n\nIn a new terminal, without an activated virtual environment or an env directory:\n\ncd $(mktemp -d kunefe-test.XXXXXX)\n\nprepare a clean virtual environment and activate it python -m venv env source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools python -m pip install --upgrade pip\n\ninstall from test pypi instance: python -m pip -v install --no-cache-dir \\ --index-url https://test.pypi.org/simple/ \\ --extra-index-url https://pypi.org/simple kunefe\n\nCheck that the package works as it should when installed from pypitest.\n\nThen upload to pypi.org with:\n\nFINAL STEP: upload to PyPI (requires credentials) python -m twine upload dist/\n\n### (3/3) GitHub\n\nDon't forget to also make a [release on GitHub] https://github.com/mess-nlesc/kunefe/releases/new. If your repository uses the GitHub-Zenodo integration this will also trigger Zenodo into making a snapshot of your repository and sticking a DOI on it.",
+      "section": "upload to test pypi instance (requires credentials) + prepare a clean virtual environment and activate it + make sure to have a recent version of pip and setuptools (and 2 more)",
+      "repo": "376_kunefe",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.071514Z",
+    "updated_at": "2025-11-09T07:51:46.383993Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23286,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1128,
+    "annotations": [
+      {
+        "id": 12052,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 818,
+              "end": 824,
+              "text": "Docker",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "OJizrV5EiH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 868,
+              "end": 877,
+              "text": "Apptainer",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "CY8xhBrLjQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1035,
+              "end": 1044,
+              "text": "Apptainer",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "pD72QNUP2G",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1104,
+              "end": 1114,
+              "text": "SSH server",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "zKSWAYGLCS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1143,
+              "end": 1165,
+              "text": "Slurm Workload Manager",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "hQchRN9ZGx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 423,
+              "end": 432,
+              "text": "Apptainer",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "tQSO1FpQ6o",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 826,
+              "end": 865,
+              "text": "https://docs.docker.com/engine/install/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "4wphJ_fY9b",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 879,
+              "end": 934,
+              "text": "https://apptainer.org/docs/admin/main/installation.html",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "D_Fsr40jnC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1046,
+              "end": 1101,
+              "text": "https://apptainer.org/docs/admin/main/installation.html",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "zp8W3vpZGt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1116,
+              "end": 1140,
+              "text": "https://www.openssh.com/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "3trgQWTa_Y",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1167,
+              "end": 1211,
+              "text": "https://slurm.schedmd.com/documentation.html",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "11mq4Y2ORr",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 937,
+              "end": 945,
+              "text": "Python 3",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "-3xBIpMCZV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:52:49.986928Z",
+        "updated_at": "2025-11-17T00:23:56.638954Z",
+        "draft_created_at": "2025-11-09T07:52:00.029791Z",
+        "lead_time": 104.538,
+        "prediction": {},
+        "result_count": 12,
+        "unique_id": "554454e4-0137-4cfb-b0f1-0a796f37d9e9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1128,
+        "project": 23286,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Kunefe\n\nKunefe is a Python package that helps users run containerized applications (Docker) on HPC systems. It can:\n\nconvert an existing Docker image into an Apptainer image\n\nconnect to a remote host via SSH and run shell commands\n\ngenerate scripts for batch jobs\n\nsubmit generated job scripts to HPC batch queues (SLURM)\n\ncopy files and folders to a remote system\n\nretrieve files and folders from a remote system\n\ninstall Apptainer on a remote system\n\nmonitor the job queue (SLURM)\n\n## Requirements\n\nIn order to run your application with kunefe, you will need your application to be containerized. If your application is not containerized, you can follow this [guide] https://docs.docker.com/get-started/02_our_app/ to learn how to do that.\n\n### The host system requirements (e.g. your laptop or desktop computer):\n\n[Docker] https://docs.docker.com/engine/install/\n\n[Apptainer] https://apptainer.org/docs/admin/main/installation.html\n\n[Python 3] https://www.python.org/downloads/\n\n### Remote system requirements (e.g. HPC cluster):\n\n[Apptainer] https://apptainer.org/docs/admin/main/installation.html\n\n[SSH server] https://www.openssh.com/\n\n[Slurm Workload Manager] https://slurm.schedmd.com/documentation.html\n\nNote: If Apptainer is not available on the remote system, it can be installed using kunefe which will require the following packages to be installed on the remote system: curl rpm2cpio cpio",
+      "section": "Kunefe (part 1)",
+      "repo": "376_kunefe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.071538Z",
+    "updated_at": "2025-11-17T00:23:56.680436Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23286,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1129,
+    "annotations": [
+      {
+        "id": 12053,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 155,
+              "end": 208,
+              "text": "https://kunefe.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "vJa1QDV9jk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:53:01.051033Z",
+        "updated_at": "2025-11-16T05:57:22.367757Z",
+        "draft_created_at": null,
+        "lead_time": 17.151,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "c5cba229-532f-4087-93ee-c9e086519d4e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1129,
+        "project": 23286,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Badges\n\n[](https://github.com/mess-nlesc/kunefe/actions/workflows/tests.yml) [](https://github.com/mess-nlesc/kunefe/actions/workflows/examples.yml) [](https://kunefe.readthedocs.io/en/latest/?badge=latest) [](https://pypi.python.org/pypi/kunefe/)\n\n[](http://mypy-lang.org/) [](https://github.com/pre-commit/pre-commit)",
+      "section": "Kunefe (part 2)",
+      "repo": "376_kunefe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.071562Z",
+    "updated_at": "2025-11-16T05:57:22.400279Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23286,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1130,
+    "annotations": [
+      {
+        "id": 12054,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 378,
+              "end": 424,
+              "text": "https://zenodo.org/doi/10.5281/zenodo.10786467",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "OE-rsS9BwN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:53:15.813160Z",
+        "updated_at": "2025-11-09T07:53:15.813176Z",
+        "draft_created_at": "2025-11-09T07:53:15.661470Z",
+        "lead_time": 14.563,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "c4264310-c81a-4c78-97cc-cb90f9ea775f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1130,
+        "project": 23286,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| fair-software.eu recommendations | | | :-- | :-- | | howfairis | [](https://fair-software.eu) | | (1/5) code repository | [](https://github.com/mess-nlesc/kunefe) | | (2/5) license | [](https://github.com/mess-nlesc/kunefe) | | (3/5) community registry | [](https://www.research-software.nl/software/kunefe) [](https://pypi.python.org/project/kunefe/) | | (4/5) citation | [](https://zenodo.org/doi/10.5281/zenodo.10786467)  | (5/5) checklist | [](https://www.bestpractices.dev/projects/8629) |\n\n🚀 Click to see all the badges",
+      "section": "Kunefe (part 3)",
+      "repo": "376_kunefe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.071583Z",
+    "updated_at": "2025-11-09T07:53:15.841606Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23286,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1131,
+    "annotations": [
+      {
+        "id": 12055,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:53:27.261934Z",
+        "updated_at": "2025-11-09T07:53:27.261977Z",
+        "draft_created_at": null,
+        "lead_time": 11.251,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "3a48b4c5-0fa6-4412-8deb-c49c7d4e418d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1131,
+        "project": 23286,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| Code quality | | | :-- | :-- | | Static analysis | [](https://sonarcloud.io/dashboard?id=mess-nlesc_kunefe) [](https://sonarcloud.io/summary/new_code?id=mess-nlesc_kunefe) [](https://sonarcloud.io/summary/new_code?id=mess-nlesc_kunefe) [](https://sonarcloud.io/summary/new_code?id=mess-nlesc_kunefe) [](https://sonarcloud.io/summary/new_code?id=mess-nlesc_kunefe) [](https://sonarcloud.io/summary/new_code?id=mess-nlesc_kunefe) [](https://sonarcloud.io/summary/new_code?id=mess-nlesc_kunefe) [](https://sonarcloud.io/summary/new_code?id=mess-nlesc_kunefe) [](https://sonarcloud.io/summary/new_code?id=mess-nlesc_kunefe) | | Coverage | [](https://sonarcloud.io/dashboard?id=mess-nlesc_kunefe) |",
+      "section": "Kunefe (part 4)",
+      "repo": "376_kunefe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.071605Z",
+    "updated_at": "2025-11-09T07:53:27.291612Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23286,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1132,
+    "annotations": [
+      {
+        "id": 12056,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:53:35.520482Z",
+        "updated_at": "2025-11-09T07:53:35.520506Z",
+        "draft_created_at": null,
+        "lead_time": 8.076,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "a3928f76-01d2-4ec3-9085-dabd6c6fb215",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1132,
+        "project": 23286,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| GitHub Actions | &nbsp; | | :-- | :-- | | Build | [](https://github.com/mess-nlesc/kunefe/actions/workflows/build.yml) | | Howfairis | [](https://github.com/mess-nlesc/kunefe/actions/workflows/howfairis.yml) | | Citation data consistency | [](https://github.com/mess-nlesc/kunefe/actions/workflows/cffconvert.yml) | | SonarCloud | [](https://github.com/mess-nlesc/kunefe/actions/workflows/sonarcloud.yml) | | MarkDown link checker | [](https://github.com/mess-nlesc/kunefe/actions/workflows/markdown-link-check.yml) |",
+      "section": "Kunefe (part 5)",
+      "repo": "376_kunefe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.071625Z",
+    "updated_at": "2025-11-09T07:53:35.551373Z",
+    "inner_id": 9,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23286,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1133,
+    "annotations": [
+      {
+        "id": 12057,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 375,
+              "end": 415,
+              "text": "https://readthedocs.org/projects/kunefe/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "FjSYtuwbyW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:53:54.198055Z",
+        "updated_at": "2025-11-16T05:57:39.259974Z",
+        "draft_created_at": "2025-11-09T07:53:49.460189Z",
+        "lead_time": 25.487000000000002,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "84cf6fae-7b3a-475c-b650-1c2bc914e5cb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1133,
+        "project": 23286,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Installation\n\nTo install the latest kunefe release from PyPI, run:\n\npython -m pip install kunefe\n\nTo install the development version of kunefe from GitHub repository, do:\n\npython -m pip install git+https://github.com/mess-nlesc/kunefe.git@main\n\n## Examples\n\nSee the examples in [examples] examples folder.\n\n## Documentation\n\nSee [https://readthedocs.org/projects/kunefe/] https://readthedocs.org/projects/kunefe/ for the code documentation.\n\n## The project setup\n\nThe project setup is documented in [project_setup.md] project_setup.md. Feel free to remove this document (and/or the link to this document) if you don't need it.\n\n## Contributing\n\nIf you want to contribute to the development of kunefe, have a look at the [contribution guidelines] CONTRIBUTING.md.\n\n## Credits\n\nThis package was created with [Cookiecutter] https://github.com/audreyr/cookiecutter and the [NLeSC/python-template] https://github.com/NLeSC/python-template.",
+      "section": "Kunefe (part 6)",
+      "repo": "376_kunefe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.071646Z",
+    "updated_at": "2025-11-16T05:57:39.293767Z",
+    "inner_id": 10,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23286,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

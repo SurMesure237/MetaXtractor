@@ -1,0 +1,1407 @@
+[
+  {
+    "id": 2596,
+    "annotations": [
+      {
+        "id": 9984,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 121,
+              "end": 139,
+              "text": "Visual Studio Code",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "LpMiEtgVT-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1072,
+              "end": 1075,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "V8KabeICL5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1080,
+              "end": 1090,
+              "text": "setuptools",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "f-kO-CflEs",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1123,
+              "end": 1126,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "C6DhxdyXnb",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1127,
+              "end": 1137,
+              "text": "setuptools",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "h_xJ3cSQ_8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 151,
+              "end": 181,
+              "text": "https://code.visualstudio.com/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "EGNmvwcuvY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:11:23.956712Z",
+        "updated_at": "2025-11-14T11:53:41.105545Z",
+        "draft_created_at": "2025-11-02T20:10:38.930630Z",
+        "lead_time": 105.622,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "a7f484b0-8872-422f-958d-9d9dd2f98a2c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2596,
+        "project": 23572,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "annubes developer documentation\n\nIf you're looking for user documentation, go [here] README.md.\n\n## Code editor\n\nWe use [Visual Studio Code (VS Code)] https://code.visualstudio.com/ as code editor. The VS Code settings for this project can be found in [.vscode] .vscode. The settings will be automatically loaded and applied when you open the project with VS Code. See [the guide] https://code.visualstudio.com/docs/getstarted/settings for more info about workspace settings of VS Code.\n\n## Project setup\n\nThe project has been originally setup using the [Netherlands eScience Center python template] https://github.com/NLeSC/python-template. Most of the choices or the current setup are explained in our [guide] https://guide.esciencecenter.nl. For a quick reference on software development, we refer to [the software guide checklist] https://guide.esciencecenter.nl/#/best_practices/checklist.\n\n## Development install\n\nCreate a virtual environment, e.g. with python -m venv env\n\nactivate virtual environment source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools python -m pip install --upgrade pip setuptools\n\ninstall annubes as an editable package python -m pip install --no-cache-dir --editable .",
+      "section": "`annubes` developer documentation + Create a virtual environment, e.g. with + activate virtual environment (and 2 more)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.139968Z",
+    "updated_at": "2025-11-14T11:53:41.142766Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23572,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2597,
+    "annotations": [
+      {
+        "id": 9985,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:11:33.029943Z",
+        "updated_at": "2025-11-02T20:11:33.029962Z",
+        "draft_created_at": null,
+        "lead_time": 8.885,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "1f4500c1-1720-4078-81a3-bb482a769853",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2597,
+        "project": 23572,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "install development dependencies python -m pip install --no-cache-dir --editable .[dev]\n\nAfterwards check that the install directory is present in the PATH environment variable.\n\n## Running the tests\n\nThere are two ways to run tests.\n\nThe first way requires an activated virtual environment with the development tools installed:\n\npytest -v\n\nThe second is to use tox, which can be installed separately (e.g. with pip install tox), i.e. not necessarily inside the virtual environment you use for installing annubes, but then builds the necessary virtual environments itself by simply running:\n\ntox\n\nTesting with tox allows for keeping the testing environment separate from your development environment. The development environment will typically accumulate (old) packages during development that interfere with testing; this problem is avoided by testing with tox.\n\n### Test coverage\n\nIn addition to just running the tests to see if they pass, they can be used for coverage statistics, i.e. to determine how much of the package's code is actually executed during tests. In an activated virtual environment with the development tools installed, inside the package directory, run:\n\ncoverage run\n\nThis runs tests and stores the result in a .coverage file. To see the results on the command line, run\n\ncoverage report\n\ncoverage can also generate output in HTML and other formats; see coverage help for more information.",
+      "section": "install development dependencies (part 1)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.140010Z",
+    "updated_at": "2025-11-02T20:11:33.058069Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23572,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2598,
+    "annotations": [
+      {
+        "id": 9986,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 35,
+              "end": 39,
+              "text": "ruff",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "nqz8GiIyJG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 659,
+              "end": 663,
+              "text": "Mypy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "-1MA9jlXTY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 41,
+              "end": 69,
+              "text": "https://docs.astral.sh/ruff/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "M1m64Ifq3V",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 665,
+              "end": 686,
+              "text": "http://mypy-lang.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "mG3gMWwxox",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:11:51.359616Z",
+        "updated_at": "2025-11-14T11:53:54.178027Z",
+        "draft_created_at": "2025-11-02T20:11:42.042166Z",
+        "lead_time": 29.173000000000002,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "3b0ffd4c-2b2b-4e63-8e32-3b123ce8a854",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2598,
+        "project": 23572,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Linting and formatting\n\nWe use [ruff] https://docs.astral.sh/ruff/ for linting, sorting imports and formatting of python (notebook) files. The configurations of ruff are set in [ruff.toml] ruff.toml file.\n\nIf you are using VS code, please install and activate the [Ruff extension] https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff to automatically format and check linting.\n\nOtherwise, please ensure check both linting (ruff check .) and formatting (ruff format .) before requesting a review. Running the linters and formatters requires an activated virtual environment with the development tools installed.\n\n## Static typing\n\nWe use [Mypy] http://mypy-lang.org/ as static type checker:",
+      "section": "install development dependencies (part 2)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.140032Z",
+    "updated_at": "2025-11-14T11:53:54.212276Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23572,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2599,
+    "annotations": [
+      {
+        "id": 9987,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 25,
+              "end": 29,
+              "text": "mypy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "fk7xwu_TTO",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 8,
+              "end": 12,
+              "text": "mypy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "4kakQuEKIp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 335,
+              "end": 341,
+              "text": "MkDocs",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "t1TrdmZndO",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 382,
+              "end": 401,
+              "text": "Material for MkDocs",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "4w0zGF5zzG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 343,
+              "end": 366,
+              "text": "https://www.mkdocs.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "x4O8xRzA6k",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 403,
+              "end": 447,
+              "text": "https://squidfunk.github.io/mkdocs-material/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "G8RnFHoqan",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:12:18.319045Z",
+        "updated_at": "2025-11-14T11:54:36.661490Z",
+        "draft_created_at": "2025-11-02T20:12:02.739645Z",
+        "lead_time": 67.88499999999999,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "9968e41f-3f76-4a56-8de3-df0724b55af9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2599,
+        "project": 23572,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "install mypy pip install mypy\n\nrun mypy mypy path-to-source-code\n\nMypy configurations are set in [pyproject.toml] pyproject.toml file.\n\nFor more info about static typing and mypy, see:\n\n[Static typing with Python] https://typing.readthedocs.io/en/latest/index.html#\n\n[Mypy doc] https://mypy.readthedocs.io/en/stable/\n\n## Docs\n\nWe use [MkDocs] https://www.mkdocs.org/ and its theme [Material for MkDocs] https://squidfunk.github.io/mkdocs-material/ to generate documentations. The configurations of MkDocs are set in [mkdocs.yml] mkdocs.yml file.\n\nTo watch the changes of current doc in real time, run:\n\nmkdocs serve",
+      "section": "install mypy + run mypy",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.140053Z",
+    "updated_at": "2025-11-14T11:54:36.700767Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23572,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2600,
+    "annotations": [
+      {
+        "id": 9988,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 197,
+              "end": 201,
+              "text": "mike",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Ak736pYj4m",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1007,
+              "end": 1019,
+              "text": "bump2version",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "p07v_qfdDo",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 203,
+              "end": 236,
+              "text": "https://github.com/jimporter/mike",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "1eivf1q5Wx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1021,
+              "end": 1059,
+              "text": "https://pypi.org/project/bump2version/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "2AfBooF5FU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:13:04.130788Z",
+        "updated_at": "2025-11-14T11:54:53.164469Z",
+        "draft_created_at": "2025-11-02T20:12:41.592243Z",
+        "lead_time": 60.971000000000004,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "ddb041c9-e004-4ab3-be8a-41d506418495",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2600,
+        "project": 23572,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "or to watch src and docs directories mkdocs serve -w docs -w src\n\nThen open your browser and go to http://127.0.0.1:8000/.\n\n### Publishing the docs\n\nThe docs are published on GitHub Pages. We use [mike] https://github.com/jimporter/mike to deploy the docs to the gh-pages branch and to manage the versions of docs.\n\nFor example, to deploy the version 2.0 of the docs to the gh-pages branch and make it the latest version, run:\n\nmike deploy -p -u 2.0 latest\n\nIf you are not happy with the changes you can run mike delete [version]. All these mike operations will be recorded as git commits of branch gh-pages.\n\nmike serve is used to check all versions committed to branch gh-pages, which is for checking the production website. If you have changes but not commit them yet, you should use mkdocs serve instead of mike serve to check them.\n\n## Versioning\n\nBumping the version across all files is done before creating a new package release, running bump2version [part] from command line after having installed [bump2version] https://pypi.org/project/bump2version/ on your local environment. Instead of [part], type the part of the version to increase, e.g. minor. The settings in .bumpversion.cfg will take care of updating all the files containing version strings.\n\n## Making a release\n\nThis section describes how to make a release in 3 parts:\n\npreparation\n\nmaking a release on GitHub\n\nmaking a release on PyPI\n\n### (1/3) Preparation\n\nVerify that the information in CITATION.cff is correct, and that .zenodo.json contains equivalent data\n\n[Bump the version] https://github.com/DeepRank/deeprank2/blob/dev/README.dev.md#versioning.\n\nRun the unit tests with pytest -v\n\n### (2/3) GitHub\n\nMake a [release on GitHub] https://github.com/ANNUBS/annubes/releases/new.",
+      "section": "or to watch src and docs directories (part 1)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.140078Z",
+    "updated_at": "2025-11-14T11:54:53.202438Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23572,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2601,
+    "annotations": [
+      {
+        "id": 9989,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:13:13.078680Z",
+        "updated_at": "2025-11-02T20:13:13.078698Z",
+        "draft_created_at": null,
+        "lead_time": 8.748,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f971255a-1b5f-4a33-a6b2-970c8962da82",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2601,
+        "project": 23572,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### (3/3) PyPI\n\nThe GitHub release will trigger [a GitHub action] https://github.com/DeepRank/deeprank2/actions/workflows/release.yml that will take care of publishing the package on PyPi.\n\n## Development conventions\n\nBranching\n\nWhen creating a new branch, please use the following convention: __.\n\nAlways branch from dev branch, unless there is the need to fix an undesired status of main. See above for more details about the branching workflow adopted.\n\nPull Requests\n\nWhen creating a pull request, please use the following convention: : . Example _types_ are fix:, feat:, build:, chore:, ci:, docs:, style:, refactor:, perf:, test:, and others based on the [Angular convention] https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines.",
+      "section": "or to watch src and docs directories (part 2)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.140100Z",
+    "updated_at": "2025-11-02T20:13:13.104575Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23572,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2602,
+    "annotations": [
+      {
+        "id": 9990,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:13:18.420900Z",
+        "updated_at": "2025-11-02T20:13:18.420922Z",
+        "draft_created_at": null,
+        "lead_time": 5.166,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "2d847101-4209-460c-b1f9-4dd936bf74cf",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2602,
+        "project": 23572,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "⚠️ Repository Archived ⚠️\n\nThis repository is no longer actively maintained. All updates and future developments have been moved to [NeuroGym's main repository] https://github.com/neurogym/neurogym. Please visit [NeuroGym] https://github.com/neurogym/neurogym for the latest code, updates, and ongoing development efforts.",
+      "section": "⚠️ Repository Archived ⚠️",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.140121Z",
+    "updated_at": "2025-11-02T20:13:18.447414Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23572,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2603,
+    "annotations": [
+      {
+        "id": 9991,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:13:19.611311Z",
+        "updated_at": "2025-11-02T20:13:19.611327Z",
+        "draft_created_at": null,
+        "lead_time": 1.012,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "7817ccf9-f2a0-4dfb-8e2d-d362397320fb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2603,
+        "project": 23572,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "ANNUBeS",
+      "section": "ANNUBeS (part 1)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.140141Z",
+    "updated_at": "2025-11-02T20:13:19.634468Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23572,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2604,
+    "annotations": [
+      {
+        "id": 9992,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:13:20.547631Z",
+        "updated_at": "2025-11-02T20:13:20.547658Z",
+        "draft_created_at": null,
+        "lead_time": 0.759,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "d1a452cb-65ed-4e4e-aee3-7b7bdce1c7ec",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2604,
+        "project": 23572,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| Badges | |",
+      "section": "ANNUBeS (part 2)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.140161Z",
+    "updated_at": "2025-11-02T20:13:20.575037Z",
+    "inner_id": 9,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23572,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2605,
+    "annotations": [
+      {
+        "id": 9993,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:13:21.208264Z",
+        "updated_at": "2025-11-02T20:13:21.208279Z",
+        "draft_created_at": null,
+        "lead_time": 0.5,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "8cd445fd-dd50-4ac5-ab5b-efbde6249012",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2605,
+        "project": 23572,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| :------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |",
+      "section": "ANNUBeS (part 3)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.140184Z",
+    "updated_at": "2025-11-02T20:13:21.232462Z",
+    "inner_id": 10,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23572,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2606,
+    "annotations": [
+      {
+        "id": 9994,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:13:23.310534Z",
+        "updated_at": "2025-11-02T20:13:23.310554Z",
+        "draft_created_at": null,
+        "lead_time": 1.852,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c6b23a55-3757-4988-ac9d-2d1652b72f80",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2606,
+        "project": 23572,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| fairness | [](https://www.bestpractices.dev/projects/8861) [](https://fair-software.eu) |",
+      "section": "ANNUBeS (part 4)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.140204Z",
+    "updated_at": "2025-11-02T20:13:23.336963Z",
+    "inner_id": 11,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23572,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2607,
+    "annotations": [
+      {
+        "id": 9995,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:13:25.821587Z",
+        "updated_at": "2025-11-02T20:13:25.821604Z",
+        "draft_created_at": null,
+        "lead_time": 2.348,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c3ada82c-a653-43ca-9453-2ce59d7b94b1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2607,
+        "project": 23572,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| package | [](https://badge.fury.io/py/annubes) |",
+      "section": "ANNUBeS (part 5)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.140224Z",
+    "updated_at": "2025-11-02T20:13:25.848454Z",
+    "inner_id": 12,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23572,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2608,
+    "annotations": [
+      {
+        "id": 9996,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 118,
+              "end": 157,
+              "text": "https://doi.org/10.5281/zenodo.11098460",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "qPa4u549NV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 12,
+              "end": 52,
+              "text": "https://annubs.github.io/annubes/latest/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "9IKwzGzkql",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:13:44.345726Z",
+        "updated_at": "2025-11-14T11:55:05.678532Z",
+        "draft_created_at": "2025-11-02T20:13:36.833022Z",
+        "lead_time": 26.442,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "17889959-6708-4e4f-82d1-e15219bca3d5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2608,
+        "project": 23572,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| docs | [](https://annubs.github.io/annubes/latest/) [](https://research-software-directory.org/projects/annubes) [](https://doi.org/10.5281/zenodo.11098460) |",
+      "section": "ANNUBeS (part 6)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.140244Z",
+    "updated_at": "2025-11-14T11:55:05.711425Z",
+    "inner_id": 13,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23572,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2609,
+    "annotations": [
+      {
+        "id": 9997,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:14:04.216306Z",
+        "updated_at": "2025-11-02T20:14:04.216328Z",
+        "draft_created_at": null,
+        "lead_time": 11.951,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c9fa6346-ac35-4ede-974c-bf1c7333f24e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2609,
+        "project": 23572,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| tests | [](https://github.com/ANNUBS/annubes/actions/workflows/build.yml) [](https://github.com/ANNUBS/annubes/actions/workflows/sonarcloud.yml) [](https://github.com/ANNUBS/annubes/actions/workflows/markdown-links.yml) [](https://github.com/ANNUBS/annubes/actions/workflows/cffconvert.yml) [](https://github.com/ANNUBS/annubes/actions/workflows/linting.yml) [](https://github.com/ANNUBS/annubes/actions/workflows/static-typing.yml) [](https://sonarcloud.io/dashboard?id=ANNUBS_annubes) [](https://sonarcloud.io/dashboard?id=ANNUBS_annubes) |",
+      "section": "ANNUBeS (part 7)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.140264Z",
+    "updated_at": "2025-11-02T20:14:04.243831Z",
+    "inner_id": 14,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23572,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2610,
+    "annotations": [
+      {
+        "id": 9998,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:14:13.558383Z",
+        "updated_at": "2025-11-02T20:14:13.558399Z",
+        "draft_created_at": null,
+        "lead_time": 9.174,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "2ecd7b7e-7d37-4407-8bc0-c5aba2452f0d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2610,
+        "project": 23572,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| running on | [](https://github.com/actions/runner-images?tab=readme-ov-file#available-images) [](https://github.com/actions/runner-images?tab=readme-ov-file#available-images) [](https://github.com/actions/runner-images?tab=readme-ov-file#available-images) [](https://www.python.org/downloads/release/python-3110/) [](https://www.python.org/downloads/release/python-3120/) |",
+      "section": "ANNUBeS (part 8)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.140285Z",
+    "updated_at": "2025-11-02T20:14:13.584649Z",
+    "inner_id": 15,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23572,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2611,
+    "annotations": [
+      {
+        "id": 9999,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 15,
+              "end": 73,
+              "text": "https://github.com/ANNUBS/annubes?tab=Apache-2.0-1-ov-file",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "PFrhhi30gH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:14:32.489873Z",
+        "updated_at": "2025-11-02T20:14:32.489890Z",
+        "draft_created_at": "2025-11-02T20:14:28.076983Z",
+        "lead_time": 18.76,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "2ee2304a-e100-41bd-bfe1-ebffecb0da5a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2611,
+        "project": 23572,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| license | [](https://github.com/ANNUBS/annubes?tab=Apache-2.0-1-ov-file) |",
+      "section": "ANNUBeS (part 9)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.140304Z",
+    "updated_at": "2025-11-02T20:14:32.519715Z",
+    "inner_id": 16,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23572,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2612,
+    "annotations": [
+      {
+        "id": 10000,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1213,
+              "end": 1253,
+              "text": "https://annubs.github.io/annubes/latest/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "e9jUaekXwW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:14:45.712932Z",
+        "updated_at": "2025-11-14T11:55:14.513841Z",
+        "draft_created_at": "2025-11-02T20:14:42.161460Z",
+        "lead_time": 16.437,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "22279d96-8d3e-4e00-904f-b5aa0a137e11",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2612,
+        "project": 23572,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Overview\n\nThe use of animals in neuroscience research is a fundamental tool to understand the inner workings of the brain during perception and cognition in health and disease. Neuroscientists train animals, often rodents, in behavioral tasks over several months, however training protocols are sometimes not well defined and this leads to delays in research, additional costs, or the need of more animals. Finding strategies to optimize animal training in safe and ethical ways is therefore of crucial importance in neuroscience.\n\nANNUBeS, which stays for _Artificial Neural Networks to Uncover Behavioral Strategies_, is a deep learning framework meant to generate synthetic data and train on them neural networks aimed at developing and evaluating animals' training protocols in neuroscience. The package gives the users the possibility to generate behavioral data in a very flexible way, that can be used to train neural networks in the same way that animals are trained, and study whether the developed models can predict the behavior of the animals. The ultimate goal of the framework is to lead researchers to more efficient training protocols, thus improving neuroscience practices.\n\n📚 [Documentation] https://annubs.github.io/annubes/latest/\n\n🐛 Bugs reports and ⭐ features requests [here] https://github.com/ANNUBS/annubes/issues\n\n🔧 [Pull Requests] https://github.com/ANNUBS/annubes/pulls\n\nFor more details about how to contribute, see the [contribution guidelines] CONTRIBUTING.md.\n\n❗❗ DISCLAIMER ❗❗\n\nPlease note that this software is currently in its early stages of development. As such, some features may not work exactly as intended or envisioned yet. We appreciate your patience and understanding. If you encounter any issues or have suggestions for improvement, we encourage you to open an issue on our repository. Thank you for your support!",
+      "section": "ANNUBeS (part 10)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.140329Z",
+    "updated_at": "2025-11-14T11:55:14.547515Z",
+    "inner_id": 17,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23572,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2613,
+    "annotations": [
+      {
+        "id": 10001,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 533,
+              "end": 538,
+              "text": "conda",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "aYd9NUiwD8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 628,
+              "end": 632,
+              "text": "venv",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "3j2MEUKfSS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 754,
+              "end": 757,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "8-5nMBmlKi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 634,
+              "end": 677,
+              "text": "https://docs.python.org/3/library/venv.html",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "EWsNOzd3CS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 540,
+              "end": 623,
+              "text": "https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "7y1mqI6O7B",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 728,
+              "end": 749,
+              "text": "Python version >=3.11",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "Okxv_A5UZG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:15:26.692255Z",
+        "updated_at": "2025-11-17T00:00:54.262433Z",
+        "draft_created_at": "2025-11-02T20:15:00.995505Z",
+        "lead_time": 82.883,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "a2ab6e4a-87b3-490e-8f75-34586b2827a9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2613,
+        "project": 23572,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Table of contents\n\n[ANNUBeS] #annubes\n\n[Overview] #overview\n\n[Table of contents] #table-of-contents\n\n[Installation] #installation\n\n[Pip installation] #pip-installation\n\n[Repository installation] #repository-installation\n\n[Get started] #get-started\n\n[Generate synthetic data] #generate-synthetic-data\n\n[Train neural networks] #train-neural-networks\n\n[Contributing] #contributing\n\n[Credits] #credits\n\n[Package development] #package-development\n\n## Installation\n\nWe advise to install the package inside a virtual environment (using [conda] https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html or [venv] https://docs.python.org/3/library/venv.html). Make sure to create an environment containing a Python version >=3.11 and pip package installer.\n\nAfter having created and activated your environment, you have two ways for installing ANNUBeS.\n\n### Pip installation\n\nThis is the recommended installation for users.\n\npip install annubes\n\nThis command will install the latest version of the package [deployed on PyPI] https://pypi.org/project/annubes/.\n\n### Repository installation\n\ngit clone git@github.com:ANNUBS/annubes.git cd annubes pip install .\n\nThe above commands will install the most recent version of the repository, using the default branch (main).\n\n## Get started",
+      "section": "ANNUBeS (part 11)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.140352Z",
+    "updated_at": "2025-11-17T00:00:54.300985Z",
+    "inner_id": 18,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23572,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2614,
+    "annotations": [
+      {
+        "id": 10002,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1516,
+              "end": 1573,
+              "text": "https://github.com/ANNUBS/annubes/blob/main/README.dev.md",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "RuBOR9atcw",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:15:53.267323Z",
+        "updated_at": "2025-11-14T11:55:58.250968Z",
+        "draft_created_at": "2025-11-02T20:15:50.249058Z",
+        "lead_time": 33.849000000000004,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "e2e6e3e5-0dc2-41b9-811a-d0376f896a8b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2614,
+        "project": 23572,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Generate synthetic data\n\nThe Task data class can be used for defining a behavioral task, and many parameters can be set. The configuration of the trials that can appear during a session is given by a dictionary representing the ratio of the different trials within the task (session). Trials with a single modality (e.g., a visual trial) must be represented by single characters, while trials with multiple modalities (e.g., an audiovisual trial) are represented by the character combination of those trials. The probability of catch trials (denoted by X) in the session can be set using the catch_prob parameter.\n\nfrom annubes.task import Task\n\ntask = Task(name='example_task',  session={\"v\":0.5, \"a\":0.5},  stim_intensities=[0.7, 0.9],  stim_time=2000,  catch_prob=0.3)\n\nFor more details about the Task class parameters, see the [API Documentation] https://annubs.github.io/annubes/latest/api/task/#annubes.task.Task.\n\nThen, trials can be generated:\n\nNTRIALS = 10 trials = task.generate_trials(NTRIALS)\n\nAnd plotted:\n\ntask.plot_trials(NTRIALS)\n\n### Train neural networks\n\nThis functionality is still under development.\n\n## Contributing\n\nIf you want to contribute to the development of annubes, have a look at the [contribution guidelines] CONTRIBUTING.md.\n\n## Credits\n\nThis package was created with [Cookiecutter] https://github.com/audreyr/cookiecutter and the [NLeSC/python-template] https://github.com/NLeSC/python-template.\n\n## Package development\n\nIf you're looking for developer documentation, go [here] https://github.com/ANNUBS/annubes/blob/main/README.dev.md.",
+      "section": "ANNUBeS (part 12)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.140375Z",
+    "updated_at": "2025-11-14T11:55:58.284866Z",
+    "inner_id": 19,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23572,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

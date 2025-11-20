@@ -1,0 +1,798 @@
+[
+  {
+    "id": 795,
+    "annotations": [
+      {
+        "id": 11290,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 10,
+              "end": 48,
+              "text": "https://doi.org/10.5281/zenodo.3484711",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "IeFR4Wc1vf",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 260,
+              "end": 292,
+              "text": "https://arxiv.org/abs/1606.06642",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "QnuqnrkhUW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 387,
+              "end": 425,
+              "text": "https://doi.org/10.5281/zenodo.3484711",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "YZnfS8DTp8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 729,
+              "end": 769,
+              "text": "http://theory.gsi.de/~smash/doc/current/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "wnR2ZGa8ZE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1055,
+              "end": 1177,
+              "text": "[_A comprehensive guide to the physics and usage of PYTHIA 8.3_] https://scipost.org/SciPostPhysCodeb.8, C. Bierlich et al",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "ceLOgl7F0F",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1179,
+              "end": 1430,
+              "text": "SciPost Phys. Codebases 8 (2022), DOI: 10.21468/SciPostPhysCodeb.8, also available on [arXiv] https://arxiv.org/abs/2203.11601; [SciPost Phys. Codebases 8-r8.3] https://scipost.org/SciPostPhysCodeb.8-r8.3 (2022), DOI: 10.21468/SciPostPhysCodeb.8-r8.3",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "NMolyadEiS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T20:56:41.956318Z",
+        "updated_at": "2025-11-16T05:07:07.501233Z",
+        "draft_created_at": "2025-11-06T20:54:20.187010Z",
+        "lead_time": 192.054,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "2a677647-aa4f-49de-af85-2c51b0194c5e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 795,
+        "project": 23240,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "SMASH\n\n[](https://doi.org/10.5281/zenodo.3484711)\n\nSMASH (Simulating Many Accelerated Strongly-interacting Hadrons) is a relativistic hadronic transport approach for the dynamical description of heavy-ion reactions. Please see [Phys. Rev. C 94, 054905 (2016)] https://arxiv.org/abs/1606.06642 for details and, if you are using SMASH, cite this reference together with the [software DOI] https://doi.org/10.5281/zenodo.3484711 for the specific code version employed. A BibTeX entry for the software DOI is found on the respective Zenodo pages.\n\nSee [CONTRIBUTING] CONTRIBUTING.md for development hints. A complete [User Guide] https://theory.gsi.de/~smash/userguide/current/ as well as a more detailed [development documentation] http://theory.gsi.de/~smash/doc/current/ are available for the latest version of the code. For documentation of older versions, refer to links in the [releases pages] https://github.com/smash-transport/smash/releases.\n\nIf Pythia is used, please cite the following references (both article and the codebase release you used):  [_A comprehensive guide to the physics and usage of PYTHIA 8.3_] https://scipost.org/SciPostPhysCodeb.8, C. Bierlich et al; SciPost Phys. Codebases 8 (2022), DOI: 10.21468/SciPostPhysCodeb.8, also available on [arXiv] https://arxiv.org/abs/2203.11601;  [SciPost Phys. Codebases 8-r8.3] https://scipost.org/SciPostPhysCodeb.8-r8.3 (2022), DOI: 10.21468/SciPostPhysCodeb.8-r8.3.\n\nReport issues [on GitHub] https://github.com/smash-transport/smash/issues or contact us by [✉️ email] mailto:elfner@itp.uni-frankfurt.de.\n\n## How to build and install SMASH\n\nIn the following you can find a minimal quick start guide. Refer to the [INSTALL] INSTALL.md file for more detailed information.",
+      "section": "SMASH (part 1)",
+      "repo": "462_SMASH_-_A_hadronic_transport_approach",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.777599Z",
+    "updated_at": "2025-11-16T05:07:07.535680Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23240,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 796,
+    "annotations": [
+      {
+        "id": 11291,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 158,
+              "end": 163,
+              "text": "MacOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "KHLSvuLXSj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 147,
+              "end": 150,
+              "text": "GNU",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "3vuXVUGwos",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 151,
+              "end": 156,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "zYp83QJY1X",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 225,
+              "end": 230,
+              "text": "C++17",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "yvzhadNMWn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 646,
+              "end": 651,
+              "text": "CMake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "lpD3fuKv6C",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 693,
+              "end": 721,
+              "text": "GNU Scientific Library (GSL)",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "c-97nZKgkL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 778,
+              "end": 792,
+              "text": "Eigen3 library",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "UGQk8PHBOT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 842,
+              "end": 848,
+              "text": "Pythia",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Rz1r9_Iqks",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1046,
+              "end": 1050,
+              "text": "ROOT",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ipbMdLccRA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1072,
+              "end": 1078,
+              "text": "HepMC3",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "atsTdLNSXg",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1101,
+              "end": 1106,
+              "text": "Rivet",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "J3S6khdBAC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 653,
+              "end": 670,
+              "text": "https://cmake.org",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "0DQplnDCmU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 723,
+              "end": 756,
+              "text": "https://www.gnu.org/software/gsl/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "Qm-q_-iUwA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 794,
+              "end": 820,
+              "text": "http://eigen.tuxfamily.org",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "YYOUphNp-j",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 850,
+              "end": 868,
+              "text": "https://pythia.org",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "IJe4tD9Rpi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 673,
+              "end": 687,
+              "text": "3.16 or higher",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "Mppl8XnNao",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 871,
+              "end": 876,
+              "text": "8.315",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "x3mymuWNDl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 759,
+              "end": 772,
+              "text": "2.0 or higher",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "3sMGEjpo7S",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 823,
+              "end": 836,
+              "text": "3.0 or higher",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "-uiLnHztl1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1053,
+              "end": 1067,
+              "text": "5.34 or higher",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "LJ6Xtbo8E9",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1081,
+              "end": 1096,
+              "text": "3.2.3 or higher",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "HhNYj6pmIZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1109,
+              "end": 1124,
+              "text": "3.1.4 or higher",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "hBLmVmVesR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T20:58:00.949559Z",
+        "updated_at": "2025-11-16T05:08:31.953545Z",
+        "draft_created_at": "2025-11-06T20:56:57.601685Z",
+        "lead_time": 159.424,
+        "prediction": {},
+        "result_count": 22,
+        "unique_id": "4dab58e8-3dd7-4863-b743-c993503016c8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 796,
+        "project": 23240,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Prerequisites\n\nSMASH is known to compile and work on 64-bit little endian machines (most CPUs are such) with UNIX-like operating systems (e.g. GNU/Linux, MacOS) and one of the following compilers (which have the required C++17 features):\n\n| Compiler | Required version | | :---: | :---: | | GCC | 8.0 or higher | | Clang | 7.0 or higher | | Apple clang| 11.0 or higher |\n\nAny different operating system and/or compiler and/or endianness is not officially supported and SMASH will ask you to continue at your own risk before compilation.\n\nSMASH requires the following tools and libraries:\n\n| Software | Required version | | :---: | :---: | | [CMake] https://cmake.org | 3.16 or higher | | [GNU Scientific Library (GSL)] https://www.gnu.org/software/gsl/ | 2.0 or higher | | [Eigen3 library] http://eigen.tuxfamily.org | 3.0 or higher | | [Pythia] https://pythia.org | 8.315 |\n\nSupport for ROOT, HepMC3 and Rivet output is automatically enabled if a suitable version is found on the system:\n\n| Software | Required version | | :---: | :---: | | ROOT | 5.34 or higher | | HepMC3 | 3.2.3 or higher | | Rivet | 3.1.4 or higher |",
+      "section": "SMASH (part 2)",
+      "repo": "462_SMASH_-_A_hadronic_transport_approach",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.777637Z",
+    "updated_at": "2025-11-16T05:08:31.989745Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23240,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 797,
+    "annotations": [
+      {
+        "id": 11292,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T20:58:04.816148Z",
+        "updated_at": "2025-11-06T20:58:04.816160Z",
+        "draft_created_at": null,
+        "lead_time": 3.649,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "9ed0c313-0b50-4810-a35a-e7108aac1bbc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 797,
+        "project": 23240,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Compilation and installation\n\nClone the SMASH repository with the help of git clone. From within the cloned repository, use the following commands to build the codebase in a separate directory:\n\nmkdir build cd build cmake -DPythia_CONFIG_EXECUTABLE=/path/to/pythia8315/bin/pythia8-config .. make\n\nPlease note that the make command builds everything (executables, tests and libraries) and might take a while. You can use make smash if you are interest in the SMASH executable only or use make smash_shared to exclusively build the libraries (needed e.g. in another project using SMASH as library).\n\nYou can run SMASH with specific settings (e.g. at a given collision energy or impact parameter) by modifying the config.yaml file, for example with\n\nvi config.yaml ./smash\n\nRefer to the [section below] README.md#running-smash-with-example-input-files for more information.\n\nIf you want to install SMASH system-wide (into /usr/local) use\n\nmake install\n\n⚠️ NOTE: All commands above are the bare minimum needed for an installation. It is not guaranteed that this minimum setup is appropriate for your needs or your specific computing environment. For example, several different options can be passed e.g. to the cmake command. We strongly advise you to further refer to the [INSTALL] INSTALL.md file for more guidance, especially if you encounter any issues.",
+      "section": "SMASH (part 3)",
+      "repo": "462_SMASH_-_A_hadronic_transport_approach",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.777661Z",
+    "updated_at": "2025-11-06T20:58:04.842483Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23240,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 798,
+    "annotations": [
+      {
+        "id": 11293,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T20:58:20.423831Z",
+        "updated_at": "2025-11-06T20:58:20.423843Z",
+        "draft_created_at": null,
+        "lead_time": 15.444,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f63c7ddf-9f14-450f-aaad-b426cd6870af",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 798,
+        "project": 23240,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Using the Docker containers\n\nAs an alternative to building or installing SMASH, a Docker image of the latest or recently tagged version can be pulled from the Github container registry. Get the newest version with\n\ndocker pull ghcr.io/smash-transport/smash:newest\n\nStart the container with\n\ndocker run -it ghcr.io/smash-transport/smash:newest\n\nA ready-to-use executable of SMASH is found in the smash_bin directory. Run it as explained below. If needed, SMASH can also be built inside the container as explained in the previous section (the SMASH source files and Pythia are also found in the /SMASH directory).\n\nTwo container versions of SMASH are offered:  a small version (ghcr.io/smash-transport/smash) with a minimal set of dependencies pre-installed and  a large version with all possible external dependencies, e.g. ROOT, HepMC and Rivet, already included (ghcr.io/smash-transport/smash-max).\n\nNote that running SMASH inside of a Docker container might negatively affect performance. More information about containers usage can be found [here] containers/README.md.\n\n#### Note for users with ARM CPUs (e.g. Apple M1/M2 chips)\n\nOur Docker images are prepared for the x86-64 CPU architecture. To make them compatible with computers with ARM CPUs (like in the case of Apple M1 and M2 chips), docker must be launched with the --platform=linux/amd64 option. For example:\n\ndocker run --platform=linux/amd64 -it ghcr.io/smash-transport/smash:newest\n\nHowever, this is not always guaranteed to work and it might be necessary to build an image for the ARM architecture, as described [here] containers/README.md.",
+      "section": "SMASH (part 4)",
+      "repo": "462_SMASH_-_A_hadronic_transport_approach",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.777684Z",
+    "updated_at": "2025-11-06T20:58:20.447562Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23240,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 799,
+    "annotations": [
+      {
+        "id": 11294,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T20:58:22.841934Z",
+        "updated_at": "2025-11-06T20:58:22.841945Z",
+        "draft_created_at": null,
+        "lead_time": 2.239,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "be0fe5c6-593e-4d82-84c3-6c955e5643b0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 799,
+        "project": 23240,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Running SMASH with Example Input Files\n\nSMASH ships example configuration files for running in the collider, box, sphere, and list mode (Modus in the configuration jargon). By default, i.e. by running ./smash, the simulation is set up from the collider configuration file, called _config.yaml_, and using the default particles and decay modes files (_particles.txt_ and _decaymodes.txt_, respectively). They are located in the repository input folder.\n\nAdditionally, example configuration files for the box, sphere and list modus can be found in the respective directories input/{box,sphere,list}. If needed, e.g. in the case of a box simulation, different default particles and decay modes files can be used. Examples for these are also provided in input/box.\n\nFinally, for the list modus, an input list file to be read in is required and an example is provided as _input/list/example_list0_.\n\nIn general, to run SMASH with a non-default configuration file, use the -i command. For example, for the sphere or list example file, from the build folder, use:\n\n./smash -i ../input/sphere/config.yaml  ./smash -i ../input/list/config.yaml\n\nFurthermore, if using non-default particles and decay modes files is necessary, these can be specified through the -p and -d options. In the box and the dileptons example, always from the build folder, this means:\n\n./smash -i ../input/box/config.yaml -p ../input/box/particles.txt -d ../input/box/decaymodes.txt ./smash -i ../input/dileptons/config.yaml -d ../input/dileptons/decaymodes.txt",
+      "section": "SMASH (part 5)",
+      "repo": "462_SMASH_-_A_hadronic_transport_approach",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.777707Z",
+    "updated_at": "2025-11-06T20:58:22.867220Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23240,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 800,
+    "annotations": [
+      {
+        "id": 11295,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T20:58:24.236801Z",
+        "updated_at": "2025-11-06T20:58:24.236818Z",
+        "draft_created_at": null,
+        "lead_time": 1.228,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "2016d383-64f7-4ca0-911e-e1c401a76a1c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 800,
+        "project": 23240,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "All available command line options for SMASH can be viewed with\n\n./smash -h\n\nTo run SMASH completely silently for production runs, we recommend to suppress the standard output via e.g.\n\n./smash > /dev/null\n\nand it might be useful to redirect warnings and error messages, that will still be displayed, to a file:\n\n./smash > /dev/null 2> /path/to/error-and-warnings-file",
+      "section": "SMASH (part 6)",
+      "repo": "462_SMASH_-_A_hadronic_transport_approach",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.777728Z",
+    "updated_at": "2025-11-06T20:58:24.268849Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23240,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 801,
+    "annotations": [
+      {
+        "id": 11296,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 53,
+              "end": 99,
+              "text": "GNU General Public License, Version 3 or above",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "HONahZCrW7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 151,
+              "end": 171,
+              "text": "BSD 3-clause license",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "IHLX6gQLjG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T20:58:46.356308Z",
+        "updated_at": "2025-11-06T20:58:46.356338Z",
+        "draft_created_at": "2025-11-06T20:58:38.596223Z",
+        "lead_time": 21.795,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "5c16f031-7d63-4abd-acb0-64d7a495667f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 801,
+        "project": 23240,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## License\n\nSMASH is licensed under the terms of the GNU General Public License, Version 3 or above. The build scripts are licensed under terms of the BSD 3-clause license. For more information, see [LICENSE] LICENSE.\n\n## Projects Using SMASH\n\nSMASH source and documentation are provided to check and reproduce published results of the authors. Cooperation and joint projects with outside researchers are encouraged and comparison to results by experimental collaborations is supported. If you are interested in starting a project, please contact us to avoid interference with current thesis topics. If your project involves changes to the code, please refer to [CONTRIBUTING] CONTRIBUTING.md for coding guidelines and helpful tools. SMASH can also be used as a 3rd party library, for examples see the examples folder in the repository.",
+      "section": "SMASH (part 7)",
+      "repo": "462_SMASH_-_A_hadronic_transport_approach",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.777750Z",
+    "updated_at": "2025-11-06T20:58:46.380486Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23240,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

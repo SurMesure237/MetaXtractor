@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": "One button compute\n\n[](https://travis-ci.org/surf-eds/one-button-compute) [](https://doi.org/10.5281/zenodo.1033817)\n\nOne button compute is aweb site that runs a workflow.\n\nFeature/Limitations\n\nWorkflow is a single file in [Common Workflow format] http://www.commonwl.org/  Workflow must take single input file (--input option) and generates a single output file (--output option)  Web application runs workflow on directory of input files  The workflow, the directory with input files is downloaded from a remote storage server  The directory with output files is uploaded to a remote storage server\n\nThe remote storage server can be WebDAV or S3 or Swift.\n\nThe WebDAV server used for production is BeeHub (https://www.beehub.nl)  The WebDAV server used for local development can be the Docker container nlesc/xenon-webdav (https://hub.docker.com/r/nlesc/xenon-webdav/)  The S3 server used for local development is Minio (https://minio.io) instance, Minio is a single user S3 compliant server  The Swift server used for production is a Openstack Swift (http://swift.openstack.org) instance\n\nRequirements\n\nPython2  Docker  Read/write access to a remote storage server. Can be a WebDAV or S3 or Swift server/account.",
+      "section": "One button compute + Feature/Limitations + Requirements",
+      "repo": "469_One_button_compute",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Install\n\n## 1. Redis server\n\nRedis server is used to perform computation asynchronous from http request.\n\nUse Docker to start a redis server\n\ndocker run -d -p 6379:6379 redis\n\nNote!: When Celery workers are going to be run on different machines make sure they can connect to the redis server.\n\n## 2. Install dependencies\n\nInstall the Python dependencies with\n\npip install -r requirements.txt\n\n## 3. Configure the application\n\ncp settings.cfg-dist settings.cfg\n\nConfigure remote storage type, location and credentials in settings.cfg.\n\n## S3 development server (optional)\n\nA Minio server can be started with\n\nmkdir -p minio/export docker run -d --name obc-minio -p 9000:9000 -v $PWD/minio:/root minio/minio /root/export docker logs obc-minio\n\nThe log output contains the credentials, urls and access instructions.\n\nTo use known credentials from settings.cfg start it with\n\ndocker run -d --name obc-minio -p 9000:9000 -v $PWD/minio:/root -e \"MINIO_ACCESS_KEY=AKIAIOSFODNN7EXAMPLE\" \\  -e \"MINIO_SECRET_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY\" minio/minio /root/export\n\nUse mc (https://docs.minio.io/docs/minio-client-quickstart-guide) as CLI client.\n\n## WebDAV development server (optional)\n\nA WebDAV server can be started with\n\ndocker run -d nlesc/xenon-webdav\n\nRead/write can be done in ~/xenon/uploads path with xenon:javagat credentials.\n\nUse cadaver (http://www.webdav.org/cadaver/) as CLI client.\n\n## Reverse proxy (optional)\n\nConfigure Nginx as reverse proxy for the flask app port 5000.\n\nlocation / {  proxy_pass http://localhost:5000; }\n\n## Auto start (optional)\n\nAutomatically start one-button-compute on boot with upstart file\n\ncat /etc/init/onebuttoncompute.conf",
+      "section": "Install",
+      "repo": "469_One_button_compute",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Running on port 5000\n\ndescription \"One button compute\"\n\nstart on filesystem or runlevel [2345] stop on runlevel [!2345]\n\nscript  cd /opt/one-button-compute  python onebuttoncompute.py end script\n\nStart Celery worker and web server with\n\ncelery worker -A onebuttoncompute.celery & python onebuttoncompute.py\n\nAdd a CWL workflow and input files to remote storage. See example/ sub-directory for an example workflow.\n\nGo to http://localhost:5000/ (or http://&lt;server-name&gt;/ when reverse proxy is setup) to submit a computation.",
+      "section": "Running on port 5000 + Run + Usage",
+      "repo": "469_One_button_compute",
+      "source_file": "readme.md"
+    }
+  }
+]

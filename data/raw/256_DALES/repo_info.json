@@ -1,0 +1,28 @@
+{
+  "codeRepository": "https://github.com/dalesteam/dales",
+  "programmingLanguage": "Fortran",
+  "programmingLanguages": [
+    "Fortran",
+    "C",
+    "TeX",
+    "Shell",
+    "CMake",
+    "Roff",
+    "Yacc",
+    "Makefile",
+    "Lex",
+    "NCL",
+    "IDL"
+  ],
+  "downloadUrl": "https://api.github.com/repos/dalesteam/dales/zipball/main",
+  "author": "dalesteam",
+  "dateCreated": "2015-03-23T13:59:51Z",
+  "dateModified": "2025-10-13T13:30:46Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Dutch Atmospheric Large-Eddy Simulation model",
+  "identifier": 32735454,
+  "name": "dalesteam/dales",
+  "issueTracker": "https://api.github.com/repos/dalesteam/dales/issues",
+  "readme": "https://github.com/dalesteam/dales/blob/main/README.md"
+}

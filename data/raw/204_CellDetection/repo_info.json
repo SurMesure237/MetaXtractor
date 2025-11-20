@@ -1,0 +1,38 @@
+{
+  "codeRepository": "https://github.com/apptainer/singularity",
+  "programmingLanguage": "Go",
+  "programmingLanguages": [
+    "Go",
+    "C",
+    "Shell",
+    "Awk",
+    "Makefile",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/apptainer/singularity/zipball/main",
+  "author": "apptainer",
+  "dateCreated": "2015-10-09T22:15:12Z",
+  "dateModified": "2025-10-27T19:40:38Z",
+  "keywords": [
+    "cloud-native",
+    "container",
+    "containers",
+    "hpc",
+    "linux",
+    "parallel",
+    "portability",
+    "portable",
+    "reproducible",
+    "reproducible-science",
+    "rootless-containers",
+    "science",
+    "singularity",
+    "singularity-container"
+  ],
+  "license": null,
+  "description": "Singularity has been renamed to Apptainer as part of us moving the project to the Linux Foundation. This repo has been persisted as a snapshot right before the changes.",
+  "identifier": 43982667,
+  "name": "apptainer/singularity",
+  "issueTracker": "https://api.github.com/repos/apptainer/singularity/issues",
+  "readme": "https://github.com/apptainer/singularity/blob/master/README.md"
+}

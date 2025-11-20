@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "|GitHub Badge| |License Badge| |Python Build| |Documentation Status| |OpenSSF Best Practices|\n\n.. |GitHub Badge| image:: https://img.shields.io/badge/github-repo-000.svg?logo=github&labelColor=gray&color=blue  :target: https://github.com/GO-Eratosthenes/eratosthenes  :alt: GitHub Badge\n\n.. |License Badge| image:: https://img.shields.io/github/license/GO-Eratosthenes/start-code  :target: https://github.com/GO-Eratosthenes/start-code  :alt: License Badge\n\n.. |Python Build| image:: https://github.com/GO-Eratosthenes/start-code/workflows/Build/badge.svg  :target: https://github.com/GO-Eratosthenes/start-code/actions?query=workflow%3A%22build.yml%22  :alt: Python Build   .. |Documentation Status| image:: https://readthedocs.org/projects/dhdt/badge/?version=latest  :target: https://dhdt.readthedocs.io/en/latest/?badge=latest  :alt: Documentation Status\n\n.. |OpenSSF Best Practices| image:: https://bestpractices.coreinfrastructure.org/projects/7641/badge  :target: https://bestpractices.coreinfrastructure.org/projects/7641  :alt: OpenSSF Best Practices\n\n############ dhdt ############\n\nExtracting topography from mountain glaciers, through the use of shadow casted by surrounding mountains. Imagery from optical satellite systems are used, over all mountain ranges on Earth.\n\nInstallation\n\nDownload and access the package folder using git:\n\n.. code-block:: console\n\ngit clone https://github.com/GO-Eratosthenes/dhdt.git  cd dhdt\n\nThe dependencies are most easily installed with conda from the conda-forge channel (see Miniforge installers_ for a minimal Conda installation). Create and activate a virtual environment with all the required dependencies:\n\n.. code-block:: console\n\nconda env create -n dhdt -f environment.yml  conda activate dhdt\n\nInstall dhdt using pip (add the -e option to install in development mode):\n\n.. code-block:: console",
+      "section": "Introduction (part 1)",
+      "repo": "068_dhdt",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": "pip install .\n\n.. _Miniforge installers : https://github.com/conda-forge/miniforge/releases\n\nContributing\n\nIf you want to contribute to the development of this package, have a look at the contribution guidelines _.\n\nLicense *\n\nCopyright (c) 2023, Netherlands eScience Center, Utrecht University\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\n\nCredits\n\nThis package was created with Cookiecutter _ and the NLeSC/python-template _.",
+      "section": "Introduction (part 2)",
+      "repo": "068_dhdt",
+      "source_file": "readme.rst"
+    }
+  }
+]

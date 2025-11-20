@@ -1,0 +1,99 @@
+cff-version: 1.2.0
+title: asreview-simulation
+message: If you use this software, please cite it using the metadata from this file.
+type: software
+authors:
+  - given-names: Jurriaan H.
+    family-names: Spaaks
+    email: j.spaaks@esciencecenter.nl
+    affiliation: Netherlands eScience Center
+    orcid: https://orcid.org/0000-0002-7064-4069
+  - given-names: Abel
+    family-names: Soares Siqueira
+    affiliation: Netherlands eScience Center
+    orcid: https://orcid.org/0000-0003-4451-281X
+identifiers:
+  - type: url
+    value: https://github.com/asreview-simulation/asreview-simulation
+    description: Where the software is being developed
+  - type: url
+    value: https://github.com/asreview/asreview
+    description: Where the software for the parent project is being developed
+  - type: doi
+    value: 10.5281/zenodo.8042547
+    description: Collection of archived snapshots on Zenodo
+  - description: Version doi for this work.
+    value: 10.5281/zenodo.10619935
+    type: doi
+repository-code: https://github.com/asreview-simulation/asreview-simulation
+abstract: >-
+  Command line interface to simulate an ASReview analysis using a variety of
+  classifiers, feature extractors, queriers, and balancers, which can all be
+  configured to run with custom parameterizations.
+keywords:
+  - Automated Systematic Review
+  - ASReview
+  - NLP
+  - Natural Language Processing
+  - AI
+  - CLI
+  - hyperparameters
+license: Apache-2.0
+version: 0.4.0
+references:
+  - authors:
+      - given-names: ASReview LAB developers
+        affiliation: Utrecht University
+        email: asreview@uu.nl
+    title: ASReview LAB - A tool for AI-assisted systematic reviews
+    type: software
+    identifiers:
+      - type: doi
+        value: 10.1038/s42256-020-00287-7
+        description: >-
+          van de Schoot, R., de Bruin, J., Schram, R. et al. An open source
+          machine learning framework for efficient and transparent systematic
+          reviews. Nat Mach Intell 3, 125–133 (2021).
+    repository-code: https://github.com/asreview/asreview
+    url: https://asreview.ai
+    repository-artifact: https://pypi.org/project/asreview/
+    abstract: >-
+      The Active learning for Systematic Reviews (ASReview) project implements
+      learning algorithms that interactively query the researcher. This way of
+      interactive training is known as Active Learning. ASReview offers support
+      for classical learning algorithms and state-of-the-art learning algorithms
+      like neural networks. ASReview LAB is the graphical user interface of the
+      open-source research software and ships with an Oracle, Exploration, and
+      Simulation Mode.
+    keywords:
+      - systematic review
+      - prisma
+      - active learning
+      - statistics
+      - machine learning
+      - text data
+      - natural language processing
+      - human-in-the-loop
+    license: Apache-2.0
+  - authors:
+      - family-names: Bergstra
+        given-names: J.
+      - family-names: Yamins
+        given-names: D.
+      - family-names: Cox
+        given-names: D. D.
+    collection-title: Proceedings of the 30th International Conference on Machine Learning
+    collection-type: proceedings
+    conference:
+      date-end: 2013-06-21
+      date-start: 2013-06-16
+      location: Atlanta, Georgia, USA
+      name: ICML 2013
+    end: I-23
+    start: I-115
+    title: >-
+      Making a Science of Model Search: Hyperparameter Optimization in Hundreds
+      of Dimensions for Vision Architectures.
+    type: proceedings
+    url: http://proceedings.mlr.press/v28/bergstra13.pdf
+    year: 2013

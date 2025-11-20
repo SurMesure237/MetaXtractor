@@ -1,0 +1,165 @@
+[tool.somesy.project]
+name = "dirschema"
+version = "0.1.0"
+description = "Spec and validator for directories, files and metadata based on JSON Schema and regexes."
+license = "MIT"
+repository = "https://github.com/Materials-Data-Science-and-Informatics/dirschema"
+homepage = "https://materials-data-science-and-informatics.github.io/dirschema"
+documentation = "https://materials-data-science-and-informatics.github.io/dirschema"
+keywords = ["jsonschema", "validation", "directory", "structure", "fair", "metadata"]
+
+[[tool.somesy.project.people]]
+family-names = "Pirogov"
+given-names = "Anton"
+email = "a.pirogov@fz-juelich.de"
+orcid = "https://orcid.org/0000-0002-5077-7497"
+
+contribution_begin = "2021-09-22"
+contribution = "Main author and maintainer."
+contribution_types = ["code"]
+
+author = true
+maintainer = true
+
+[tool.poetry]
+# ---- DO NOT EDIT, managed by somesy ----
+name = "dirschema"
+version = "0.1.0"
+description = "Spec and validator for directories, files and metadata based on JSON Schema and regexes."
+authors = ["Anton Pirogov <a.pirogov@fz-juelich.de>"]
+license = "MIT"
+repository = "https://github.com/Materials-Data-Science-and-Informatics/dirschema"
+homepage = "https://materials-data-science-and-informatics.github.io/dirschema"
+documentation = "https://materials-data-science-and-informatics.github.io/dirschema"
+keywords = ["jsonschema", "validation", "directory", "structure", "fair", "metadata"]
+# ----------------------------------------
+readme = "README.md"
+classifiers = [ # see https://pypi.org/classifiers/
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: MIT License",
+  "Environment :: Console",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "Topic :: Software Development",
+  "Topic :: Scientific/Engineering",
+  "Typing :: Typed",
+]
+
+# the Python packages that will be included in a built distribution:
+packages = [{include = "dirschema", from = "src"}]
+
+# always include basic info for humans and core metadata in the distribution,
+# include files related to test and documentation only in sdist:
+include = [
+  "*.md",
+  "LICENSE", "LICENSES", ".reuse/dep5",
+  "CITATION.cff", "codemeta.json",
+  { path = "mkdocs.yml", format = "sdist" },
+  { path = "docs", format = "sdist" },
+  { path = "tests", format = "sdist" },
+]
+maintainers = ["Anton Pirogov <a.pirogov@fz-juelich.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.8,<3.11"
+pydantic = "^1.8.2"
+"ruamel.yaml" = "^0.17.16"
+jsonref = "^0.2"
+h5py = { version = "^3.4.0", optional = true }
+numpy = { version = "^1.21.2", optional = true }
+jsonschema = "^4.4.0"
+entrypoints = "^0.4"
+typing-extensions = "^4.5.0"
+typer = "^0.9.0"
+
+[tool.poetry.group.dev.dependencies]
+poethepoet = "^0.18.1"
+pre-commit = "^3.1.1"
+pytest = "^7.2.2"
+pytest-cov = "^4.0.0"
+hypothesis = "^6.68.2"
+licensecheck = "^2023.1.1"
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.4.2"
+mkdocstrings = {extras = ["python"], version = "^0.21.2"}
+mkdocs-material = "^9.1.6"
+mkdocs-gen-files = "^0.4.0"
+mkdocs-literate-nav = "^0.6.0"
+mkdocs-section-index = "^0.3.5"
+mkdocs-macros-plugin = "^0.7.0"
+markdown-include = "^0.8.1"
+pymdown-extensions = "^9.11"
+markdown-exec = {extras = ["ansi"], version = "^1.6.0"}
+mkdocs-coverage = "^0.2.7"
+mike = "^1.1.2"
+anybadge = "^1.14.0"
+black = "^23.3.0"
+
+[tool.poetry.group.all-extras.dependencies]
+h5py = "^3.8.0"
+numpy = "^1.24.3"
+
+[tool.poetry.extras]
+h5 = ["h5py", "numpy"]
+
+[tool.poetry.scripts]
+dirschema = 'dirschema.cli:app'
+
+[tool.poetry.plugins.dirschema_validator]
+# dirschema supports entry-point-based validation plugins.
+# The default pydantic handler can be subclassed or
+# can serve as a template for your custom validation plugins.
+pydantic = "dirschema.json.handler_pydantic:PydanticHandler"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# NOTE: You can run the following with "poetry poe TASK"
+[tool.poe.tasks]
+init-dev = { shell = "pre-commit install" }
+lint = "pre-commit run"  # pass --all-files to check everything
+test = "pytest"  # pass --cov to also collect coverage info
+docs = "mkdocs build"  # run this to generate local documentation
+licensecheck = "licensecheck"  # run this when you add new deps
+
+# Tool Configurations
+# -------------------
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "--cov-report=term-missing:skip-covered"
+filterwarnings = [
+# Example:
+# "ignore::DeprecationWarning:importlib_metadata.*"
+]
+
+[tool.coverage.run]
+source = ["dirschema"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "if settings.DEBUG",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if 0:",
+    "if TYPE_CHECKING:",
+    "if __name__ == .__main__.:",
+    "class .*\\bProtocol\\):",
+    "@(abc\\.)?abstractmethod",
+]
+
+[tool.ruff.lint]
+extend-select = ["B", "D", "I", "S"]
+ignore = ["D203", "D213", "D407", "B008"]
+
+[tool.ruff.lint.per-file-ignores]
+"**/{tests,docs}/*" = ["ALL"]
+
+[tool.licensecheck]
+using = "poetry"

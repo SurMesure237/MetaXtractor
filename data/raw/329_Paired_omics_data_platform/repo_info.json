@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/iomega/paired-data-form",
+  "programmingLanguage": "TypeScript",
+  "programmingLanguages": [
+    "TypeScript",
+    "JavaScript",
+    "HTML",
+    "Shell",
+    "CSS",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/iomega/paired-data-form/zipball/main",
+  "author": "iomega",
+  "dateCreated": "2018-11-02T16:55:28Z",
+  "dateModified": "2025-09-17T17:48:15Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Linking mas spectra and genomic information to discover new chemistry",
+  "identifier": 155896083,
+  "name": "iomega/paired-data-form",
+  "issueTracker": "https://api.github.com/repos/iomega/paired-data-form/issues",
+  "readme": "https://github.com/iomega/paired-data-form/blob/master/README.md"
+}

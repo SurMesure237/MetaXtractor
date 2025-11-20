@@ -1,0 +1,40 @@
+{
+  "codeRepository": "https://github.com/KeYProject/key",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java",
+    "HTML",
+    "ANTLR",
+    "Perl",
+    "SMT",
+    "Shell",
+    "Makefile",
+    "StringTemplate",
+    "TeX",
+    "Python",
+    "CSS",
+    "PHP",
+    "C",
+    "Smalltalk",
+    "Gnuplot",
+    "Dafny",
+    "Scilab",
+    "Isabelle"
+  ],
+  "downloadUrl": "https://api.github.com/repos/KeYProject/key/zipball/main",
+  "author": "KeYProject",
+  "dateCreated": "2022-12-20T17:32:07Z",
+  "dateModified": "2025-10-29T15:21:55Z",
+  "keywords": [
+    "formal-verification",
+    "key",
+    "smt-solver",
+    "static-analysis"
+  ],
+  "license": null,
+  "description": "KeY Theorem Prover for Deductive Java Verification",
+  "identifier": 580489837,
+  "name": "KeYProject/key",
+  "issueTracker": "https://api.github.com/repos/KeYProject/key/issues",
+  "readme": "https://github.com/KeYProject/key/blob/main/README.md"
+}

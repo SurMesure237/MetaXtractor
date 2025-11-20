@@ -1,0 +1,124 @@
+* Thomas White <taw@physics.org>
+  Lead author, architecture, "vision" and so on.
+
+* Kenneth Beyerlein <kenneth.beyerlein@desy.de>
+  Peak integration improvements
+  General bug finding and fixing
+
+* Richard Kirian <rkirian@asu.edu>
+  MOSFLM auto-indexing, bug fixing.
+
+* Andrew Aquila <andrew.aquila@cfel.de>
+  powder_plot (later moved to extra programs repository)
+  stream_grep
+
+* Andrew Martin <andrew.martin@desy.de>
+  Fixes to peak integration and Monte Carlo merging
+
+* Lorenzo Galli <lorenzo.galli@desy.de>
+  Improvements to process_hkl
+  Anomalous correlation ratio ("CRDano" in compare_hkl)
+
+* Chun Hong Yoon <chun.hong.yoon@desy.de>
+  Speed improvements to indexamajig
+  pattern_sim overhaul and SASE spectrum simulation
+  C++ compatibility
+
+* Nadia Zatsepin <nadia.zatsepin@asu.edu>
+  General bug finding and fixing
+
+* Karol Nass <karol.nass@desy.de>
+  General bug finding and fixing
+
+* Anton Barty <anton.barty@desy.de>
+  Median filter, peakfinder8
+
+* Cornelius Gati <cornelius.gati@cfel.de>
+  XDS auto-indexing
+
+* Fedor Chervinskii <fedor.chervinskii@gmail.com>
+  Rsplit_surface and clean-stream.py
+
+* Alexandra Tolstikova
+  SASE spectrum simulation
+
+* Wolfgang Brehm <wolfgang.brehm@gmail.com>
+  "Detwinning" algorithm (ambigator)
+  Fixes for d1sig and d2sig
+
+* Valerio Mariani <<alerio.mariani@desy.de>
+  Packaging and general bug fixing
+  hdfsee calibration mode
+  --version options
+  Multi-location and multi-event HDF5 files
+  Loads of other stuff
+
+* Parker de Waal <Parker.deWaal@vai.org>
+  A small (but important) bug fix
+
+* Takanori Nakane <nakane.t@gmail.com>
+  hdfsee ADSC export and scrollbars
+  Hit rate calculator (doc/hitrate.{html,png})
+  Mosflm prior-cell interface
+  Many other bits and pieces
+
+* Keitaro Yamashita <k.yamashita@spring8.or.jp>
+  Bug fixes
+  process_hkl --even-only/--odd-only
+  partialator --start-after/--stop-after
+  Other bits and pieces
+
+* Mamoru Suzuki <mamoru.suzuki@protein.osaka-u.ac.jp>
+  Improvements to scripts/detector-shift
+
+* Thomas Grant <tgrant@hwi.buffalo.edu>
+  Original version of scripts/peakogram-stream
+
+* Steve Aplin <steve.aplin@desy.de>
+  Original version of scripts/turbo-index-slurm
+
+* Oleksandr Yefanov <oleksandr.yefanov@desy.de>
+  geoptimiser
+  Peakfinder8 improvements
+
+* Helen Ginn  <helen@strubi.ox.ac.uk>
+  TakeTwo indexing algorithm
+
+* Nicolas Riebesel <nicolas.riebesel@tuhh.de>
+  CMake build system
+
+* Yaroslav Gevorkov <yaroslav.gevorkov@desy.de>
+  peakfinder9
+  xgandalf
+
+* Omri Mor <omor1@asu.edu>
+  Some work on make_pixelmap
+
+* Pascal Hogan-Lamarre <pascal.hogan.lamarre@mail.utoronto.ca>
+  "FromFile" indexer
+  Features for working with electron diffraction patterns
+
+* Robert Bücker <robert.buecker@cssb-hamburg.de>
+  stream2sol.py
+
+* Troy D. Hanson
+  uthash (http://troydhanson.github.com/uthash/)
+
+* Philipp Middendorf <philipp.middendorf@desy.de>
+  Gitlab continuous integration
+  General bug fixes
+
+* Nicholas Devenish <ndevenish@gmail.com>
+  Build system bug fixing
+
+* Silvan Schön <silvan.schoen@cfel.de>
+  Container images and CI
+
+* Parthasarathy Tirumalai <parthasarathy.tirumalai@desy.de>
+  Deployment, CI, MacOS testing
+
+* Hans-Christian Stadler
+  ffbidx interface
+
+* Isabel Costello
+  smallcell indexer

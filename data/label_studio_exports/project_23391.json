@@ -1,0 +1,196 @@
+[
+  {
+    "id": 1695,
+    "annotations": [
+      {
+        "id": 10707,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 181,
+              "end": 214,
+              "text": "GNU Lesser General Public License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "8q73OYS410",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:32:53.442687Z",
+        "updated_at": "2025-11-04T19:32:53.442708Z",
+        "draft_created_at": "2025-11-04T19:32:50.726167Z",
+        "lead_time": 15.687,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "841fa7d6-0a82-46f8-8582-2cb6067f7c85",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1695,
+        "project": 23391,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Copyright 2016-2022 James Paul Turner.\n\nThis file is part of the Arpra library.\n\nThe Arpra library is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThe Arpra library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public License along with the Arpra library. If not, see .\n\nFor any copyright year range specified as YYYY-ZZZZ in this package, note that the range specifies every single year in that closed interval.\n\nIntroduction\n\nArpra is a C library for (Ar)bitrary-(p)recision (r)ange (a)nalysis of IEEE-754 floating-point computations, based on GNU MPFR. The main use-case of Arpra is to maintain computed upper and lower bounds of numerical error for all variables, at all times, throughout a computation. Arpra uses mixed trimmed interval/affine arithmetic with deviation term reduction to accomplish this.\n\nAffine arithmetic is a variant of interval arithmetic which accounts for variable correlations. As such, it does not suffer from the so-called 'dependency problem', where intervals grow overly large due to lack of consideration for variable correlations. The problem is described further at . By combining the results of interval arithmetic and affine arithmetic, one avoids both the dependency problem of interval arithmetic, and the nonlinear function overshoot/undershoot problem of affine arithmetic.",
+      "section": "Introduction (part 1)",
+      "repo": "209_Arpra",
+      "source_file": "readme"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.340708Z",
+    "updated_at": "2025-11-04T19:32:53.466044Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23391,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1696,
+    "annotations": [
+      {
+        "id": 10708,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 728,
+              "end": 852,
+              "text": "Turner, J. P., & Nowotny, T. (2021). Arpra: An Arbitrary Precision Range Analysis Library. Frontiers in Neuroinformatics, 30",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "Nr4gwTwzR6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 855,
+              "end": 896,
+              "text": "https://doi.org/10.3389/fninf.2021.632729",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "8QjPkdKvBi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:33:33.440354Z",
+        "updated_at": "2025-11-04T19:33:33.440368Z",
+        "draft_created_at": "2025-11-04T19:33:09.378112Z",
+        "lead_time": 39.805,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "6370b14e-49a9-43e4-8974-d6f509af2b3f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1696,
+        "project": 23391,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Arpra implements affine arithmetic using a GNU MPFR backend. MPFR is an arbitrary-precision floating-point library, meaning the floating-point MPFR variables can be of arbitrary precision. For more information, refer to the MPFR project website at . By implementing affine arithmetic with an arbitrary-precision backend, one is able, for example, to test how a change in numerical precision or integration scheme affects local and global error during a long numerical simulation, without the interval 'explosion' problem regular interval arithmetic suffers from.\n\nFor further information on the implementation and features of Arpra, such as range trimming and deviation term reduction, refer to the original published article:\n\nTurner, J. P., & Nowotny, T. (2021). Arpra: An Arbitrary Precision Range Analysis Library. Frontiers in Neuroinformatics, 30.\n\nhttps://doi.org/10.3389/fninf.2021.632729\n\nQuickstart\n\nArpra follows the familiar GNU/Linux software building paradigm. The typical installation procedure consists of the following.\n\nIf installing from the Git source repository (i.e. not a dist tarball), the configure script and other auxillary files need to be generated by running the following command in the root of the repository:\n\nautoreconf -i -Wall\n\nThis generates the configuration files from the configure.ac and the Makefile.am files (note that the GNU Autotools must be installed in order to run autoreconf). Next run the configure, build and install commands:\n\n./configure  make  sudo make install\n\nAll installed Arpra files can be cleanly uninstalled from the system by running the following command:\n\nsudo make uninstall\n\nA suite of test programs can be executed with the following command:\n\nmake check\n\nContribute",
+      "section": "Introduction (part 2)",
+      "repo": "209_Arpra",
+      "source_file": "readme"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.340749Z",
+    "updated_at": "2025-11-04T19:33:33.469682Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23391,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1697,
+    "annotations": [
+      {
+        "id": 10709,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:33:36.166795Z",
+        "updated_at": "2025-11-04T19:33:36.166818Z",
+        "draft_created_at": null,
+        "lead_time": 2.609,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "7279adef-567c-4b20-be97-68b0d3de432d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1697,
+        "project": 23391,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "All contributions (e.g. bug reports, feature requests, expert knowledge, source code and documentation contributions) are gratefully received via the issue tracker or pull request.\n\nThe source code repository for Arpra is hosted at GitHub. Clone it using:\n\ngit clone https://github.com/arpra-project/arpra",
+      "section": "Introduction (part 3)",
+      "repo": "209_Arpra",
+      "source_file": "readme"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.340773Z",
+    "updated_at": "2025-11-04T19:33:36.197410Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23391,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

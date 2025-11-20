@@ -1,0 +1,432 @@
+[
+  {
+    "id": 1667,
+    "annotations": [
+      {
+        "id": 10727,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:37:12.433902Z",
+        "updated_at": "2025-11-04T19:37:12.433916Z",
+        "draft_created_at": null,
+        "lead_time": 11.563,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e77aea18-2301-469d-92e4-f8a887e35d85",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1667,
+        "project": 23387,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](FAReviews) [](https://github.com/davideceolin/FAReviews/actions/workflows/build.yml) [](https://fair-software.eu) [](https://github.com/davideceolin/FAReviews/actions/workflows/markdown-link-check.yml)",
+      "section": "Introduction",
+      "repo": "258_Review_Argumentation_at_Scale",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.042133Z",
+    "updated_at": "2025-11-04T19:37:12.462254Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23387,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1668,
+    "annotations": [
+      {
+        "id": 10728,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 45,
+              "end": 52,
+              "text": "python3",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "6ihMtsoIJn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 107,
+              "end": 113,
+              "text": "prolog",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "nHryhd33TW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 791,
+              "end": 796,
+              "text": "Spacy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "bH3jSKLbCC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 115,
+              "end": 141,
+              "text": "https://www.swi-prolog.org",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "-3uYiQ2i3Z",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 54,
+              "end": 76,
+              "text": "https://www.python.org",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "4zB174BBHK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 814,
+              "end": 840,
+              "text": "https://spacy.io/models/en",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "IcD0dUCYmQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 855,
+              "end": 869,
+              "text": "nltk stopwords",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "uOf84E7tVO",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 871,
+              "end": 891,
+              "text": "https://www.nltk.org",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "QtENiROaW9",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 255,
+              "end": 263,
+              "text": "Python 3",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "1ipi6uGKmI",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:38:01.850842Z",
+        "updated_at": "2025-11-17T00:13:57.602209Z",
+        "draft_created_at": "2025-11-04T19:37:23.535010Z",
+        "lead_time": 164.402,
+        "prediction": {},
+        "result_count": 9,
+        "unique_id": "1de31fa9-44db-444c-8d64-71e676a7d698",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1668,
+        "project": 23387,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "FAReviews\n\n## Prerequisites\n\nFAReviews uses [python3] https://www.python.org for argumentation mining and [prolog] https://www.swi-prolog.org for argument reasoning. The required prolog scripts can be found in the folder \"argue\".\n\nTo install the required Python 3 packages use:\n\npip3 install -r requirements.txt pip3 install --upgrade spacy pip3 install pytextrank\n\nDownload the pre-trained vectors trained on part of Google News dataset (about 100 billion words): [GoogleNews-vectors-negative300.bin.gz] https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?resourcekey=0-wjGZdNAUop6WykTtMip30g and save it in the FAREVIEWS folder.\n\nDownload the Amazon reviews data set:\n\nwget -c \"http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/AMAZON_FASHION_5.json.gz\"\n\nInstall the Spacy [en_core_web_md] https://spacy.io/models/en pipeline and [nltk stopwords] https://www.nltk.org\n\npython -m spacy download en_core_web_md python -m nltk.downloader stopwords\n\n## Run method 1:\n\n### Argument Mining\n\nPerform feature extraction:\n\npython3 ./utils/compute_scores.py\n\nThe script will ask you to provide the number of jobs, chunks, batch size, textrank threshold, and folder for output. It creates in the output folder:\n\n[datafile name]_prods.pkl [datafile name]_reviews.csv\n\nCreate the matrix with distance metrics:\n\npython3 ./utils/graph_creation.py\n\nThe script will ask you to provide the csv file with review data ([datafile name]_reviews.csv), the pkl file with the product list ([datafile name]_prods.pkl), the number of cores to use, and folder for output. It creates in the output folder:\n\n[datafile name]_prods_mc.pkl",
+      "section": "FAReviews (part 1)",
+      "repo": "258_Review_Argumentation_at_Scale",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.042168Z",
+    "updated_at": "2025-11-17T00:13:57.643107Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23387,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1669,
+    "annotations": [
+      {
+        "id": 10729,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:38:04.852508Z",
+        "updated_at": "2025-11-04T19:38:04.852528Z",
+        "draft_created_at": null,
+        "lead_time": 2.804,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "95ae2d48-633d-4466-8f5b-7305a325bdac",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1669,
+        "project": 23387,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Argument Reasoning\n\nDownload the ``argue`` folder, then run the following code to start the server:\n\ncd argue swipl server.pl ?- server(3333).\n\nWhile the server is running, solve the Argumentation Graph.\n\npython3 ./utils/graph_solver.py\n\nThe script will ask you to provide the csv file with review data ([datafile name]_reviews.csv), the pkl file with the product list and matrices and clusters ([datafile name]_prods_mc.pkl), the number of cores to use, the folder to use for the output, and whether or not to save the figures of the created graphs to png. It creates in the output folder:\n\n[datafile name]_reviews_results.csv [product asin].png [product asin_labels].png",
+      "section": "FAReviews (part 2)",
+      "repo": "258_Review_Argumentation_at_Scale",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.042189Z",
+    "updated_at": "2025-11-04T19:38:04.880541Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23387,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1670,
+    "annotations": [
+      {
+        "id": 10730,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:38:08.407065Z",
+        "updated_at": "2025-11-04T19:38:08.407088Z",
+        "draft_created_at": null,
+        "lead_time": 3.377,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "8382068d-a562-479a-bf84-a120f6694a26",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1670,
+        "project": 23387,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Run method 2:\n\nThe three scripts described above can be ran sequentially using the FAReviews.py. This allows the user to provide the input data and several input parameters. In order for the argument reasoning part to be able to start from FAReviews.py, you have to make sure to have the prolog server running.  The following arguments can be provided to FAReviews.py (only -f is a required argument, the others are optional):\n\n-f: Provide the location of the input data file (csv expected). Required argument.\n\n-nc: Number of cores to use for the various processes that are ran in parallel. Default = 8.\n\n-cs: Chunk size used in compute scores. Default = 100.\n\n-bs: Batch size used in compute scores. Default = 20.\n\n-trt: Minimum textrank score threshold for the tokens to be used. Tokens with a textrank score below the threshold are not used. The threshold is used in compute scores, and the resulting output is passed to the scripts that follow. Default = 0.0.\n\n-sn: Name of the output folder (within the current folder) where you want to save the output. If it does not yet exist, it will be created. Default is Output.\n\n-si: True/False If true, also save the output of compute scores and run_graph. If false, only the output of graph_creation_3 is saved. Default is False.\n\n-sf: True/False. Option to save the constructed graphs to png per product. Default is False.\n\nRun the script for example as follows, after you have started the prolog server:\n\npython3 FAReviews.py -f Data/mydata.csv -nc 4 -cs 50 -bs 40 -trt 0.10 -sn MyOutputFolder",
+      "section": "FAReviews (part 3)",
+      "repo": "258_Review_Argumentation_at_Scale",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.042211Z",
+    "updated_at": "2025-11-04T19:38:08.438813Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23387,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1671,
+    "annotations": [
+      {
+        "id": 10731,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:38:09.875288Z",
+        "updated_at": "2025-11-04T19:38:09.875307Z",
+        "draft_created_at": null,
+        "lead_time": 1.298,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "bbf66a70-8f70-4327-aa97-63ae849e3bf1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1671,
+        "project": 23387,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "The script will output the final results of graph_creation_3 (and intermediate results/graphs if respective arguments are set), and will print which part it is currently working on and how long the finished parts have taken to complete. Note that if you use the textrank threshold, tokens with a textrank score below the threshold are not used and therefore not saved in any of the output files.",
+      "section": "FAReviews (part 4)",
+      "repo": "258_Review_Argumentation_at_Scale",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.042230Z",
+    "updated_at": "2025-11-04T19:38:09.903461Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23387,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1672,
+    "annotations": [
+      {
+        "id": 10732,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:38:11.369781Z",
+        "updated_at": "2025-11-04T19:38:11.369799Z",
+        "draft_created_at": null,
+        "lead_time": 1.328,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "26049b2f-bc97-42dc-8873-e3e2669b1a79",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1672,
+        "project": 23387,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Contributing\n\nIf you want to contribute to the development of auto_extract, have a look at the [contribution guidelines] CONTRIBUTING.md.",
+      "section": "FAReviews (part 5)",
+      "repo": "258_Review_Argumentation_at_Scale",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.042249Z",
+    "updated_at": "2025-11-04T19:38:11.396979Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23387,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

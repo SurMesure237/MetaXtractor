@@ -1,0 +1,468 @@
+[
+  {
+    "id": 1189,
+    "annotations": [
+      {
+        "id": 11063,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 203,
+              "end": 242,
+              "text": "https://doi.org/10.5281/zenodo.13897560",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "c5p0vcSOOh",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 135,
+              "end": 198,
+              "text": "https://github.com/lorenzobonaguro/cyCONDOR/blob/master/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "cNOZ-ruLAC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T23:01:27.893175Z",
+        "updated_at": "2025-11-05T23:01:27.893187Z",
+        "draft_created_at": "2025-11-05T23:01:24.660408Z",
+        "lead_time": 12.075,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "3472041f-e817-4241-8491-90125b284ec7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1189,
+        "project": 23299,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/lorenzobonaguro/cyCONDOR/graphs/contributors) [](https://github.com/lorenzobonaguro/cyCONDOR/releases/latest) [](https://github.com/lorenzobonaguro/cyCONDOR/blob/master/LICENSE) [](https://doi.org/10.5281/zenodo.13897560)",
+      "section": "Introduction",
+      "repo": "359_cyCONDOR",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.946876Z",
+    "updated_at": "2025-11-05T23:01:27.917579Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23299,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1190,
+    "annotations": [
+      {
+        "id": 11064,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T23:01:29.740612Z",
+        "updated_at": "2025-11-05T23:01:29.740632Z",
+        "draft_created_at": null,
+        "lead_time": 1.667,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "9bceb1e1-188c-4033-95d5-64a21c6b3e20",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1190,
+        "project": 23299,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "cyCONDOR (HDC analysis ecosystem)",
+      "section": "cyCONDOR (HDC analysis ecosystem) (part 1)",
+      "repo": "359_cyCONDOR",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.946918Z",
+    "updated_at": "2025-11-05T23:01:29.770413Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23299,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1191,
+    "annotations": [
+      {
+        "id": 11065,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T23:01:31.678933Z",
+        "updated_at": "2025-11-05T23:01:31.678944Z",
+        "draft_created_at": null,
+        "lead_time": 1.772,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "0197ddd8-2c34-4977-954d-0ab4a8dba033",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1191,
+        "project": 23299,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "High-dimensional cytometry (HDC) is a powerful tool for studying single-cells phenotypes in a complex system. Although in recent years the combination of technological developments and affordability have made HDC broadly available, these technological advances were not paired with the adequate development of analytical methods to take full advantage of the data generated. While several platforms and bioinformatics tools are currently available for the analysis of HDC data, they are either web-hosted with limited scalability or designed for expert computational biologists, making them difficult to approach by wet lab scientists. Additionally, the need for end-to-end HDC data analysis tools within a unified ecosystem poses a significant challenge, as researchers must navigate multiple platforms and software packages to complete the analysis. We developed an easy-to-use computational framework (condor) covering not only all of the essential steps of cytometry data analysis but also including an array of downstream functions and tools to expand the biological interpretation of the data. condor's comprehensive suite of features, including guided pre-processing, clustering, dimensionality reduction, and machine learning algorithms, facilitates the seamless integration of condor into clinically relevant settings, where scalability and disease classification are paramount for the widespread adoption of HDC in clinical practice. Additionally, condor's advanced analytical features, such as pseudotime analysis and batch integration, provide researchers with the tools to extract deeper insights from their data. We used condor on a variety of data from different tissues and technologies demonstrating its versatility to assist the analysis of high dimensionality data from preprocessing to biological interpretation.",
+      "section": "cyCONDOR (HDC analysis ecosystem) (part 2)",
+      "repo": "359_cyCONDOR",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.946945Z",
+    "updated_at": "2025-11-05T23:01:31.702416Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23299,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1192,
+    "annotations": [
+      {
+        "id": 11066,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 74,
+              "end": 117,
+              "text": "https://lorenzobonaguro.github.io/cyCONDOR/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "6iwpCbJsS8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1314,
+              "end": 1320,
+              "text": "Rtools",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "1OLrtyaOOu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1324,
+              "end": 1331,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "VN4V4COd9F",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1335,
+              "end": 1340,
+              "text": "Xcode",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "5wNXqe5gU9",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1344,
+              "end": 1349,
+              "text": "MacOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "nf9v2KTD75",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T23:02:45.704204Z",
+        "updated_at": "2025-11-15T18:10:27.216019Z",
+        "draft_created_at": "2025-11-05T23:01:43.650353Z",
+        "lead_time": 95.646,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "c8acb42b-e21f-45eb-bd32-eabf0801e6fc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1192,
+        "project": 23299,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## How to use\n\nYou can find the detailed documentation of cyCONDOR [here] https://lorenzobonaguro.github.io/cyCONDOR/\n\nWe recommend using cyCONDOR from our pre-build Docker container [lorenzobonaguro/cycondor] https://hub.docker.com/r/lorenzobonaguro/cycondor, the latest version of the image can be pulled with:\n\ndocker pull lorenzobonaguro/cycondor:v030\n\nTo run the image you can then follow the following script\n\ndocker run -dp [YOURPORT]:8787 \\ -e USER=[YOURUSERNAME] -e PASSWORD=[YOURPASSWORD] \\ --name condor_analysis \\ -v [PATHTODATA]:/home/[YOURUSERNAME]/data/ \\ lorenzobonaguro/cycondor:v030\n\nYou can then access RStudio from your web browser at the address\n\nhttp://localhost:[YOURPORT]/\n\nIf you are starting the Docker container from a remote server exchange the localhost with the IP address or domain name of the server as exemplified below:\n\nhttp://[SERVERNAME]:[YOURPORT]/\n\nA detailed guide on how to get started with Docker and how to run cyCONDOR as Singulariy container are provided in the vignette: vignette(\"How_to_run_cyCONDOR_as_container\").\n\n## How to install locally\n\nThe tools was tested with R v4.3 or newer, older version should be compatible but were not tested\n\nTo install cyCONDOR you can follow few steps describe here below.\n\nIMPORTANT: For some package a compiler is required (e.g. Rtools on Windows or Xcode on MacOS)\n\nNOTE TO MAC SILICON USER  You might run into an issue when installing Rphenoannoy, please see the specific [issue] https://github.com/stuchly/Rphenoannoy/issues/2 Alternateively, we provide a pre-compiled version of Rphenoannoy which you can install with:\n\ninstall.packages(\"https://github.com/lorenzobonaguro/Rphenoannoy/releases/download/R4.4.X/Rphenoannoy_0.1.0.tgz\")\n\nOnce this package is installed you can continue with the standard installation",
+      "section": "cyCONDOR (HDC analysis ecosystem) (part 3)",
+      "repo": "359_cyCONDOR",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.946971Z",
+    "updated_at": "2025-11-15T18:10:27.248119Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23299,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1193,
+    "annotations": [
+      {
+        "id": 11067,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T23:03:10.315650Z",
+        "updated_at": "2025-11-15T18:10:52.144268Z",
+        "draft_created_at": "2025-11-05T23:03:00.321585Z",
+        "lead_time": 28.028,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f4a7eefa-4e5f-4646-a616-e1c37a4266fc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1193,
+        "project": 23299,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Install Bioconductor\n\nInstall Bioconductor, if you are sure Bioconductor is already installed in your system you can skip this step.\n\nif (!require(\"BiocManager\", quietly = TRUE))  install.packages(\"BiocManager\")   BiocManager::install(version = \"3.20\")\n\n### Install cyCONDOR\n\nNow you can install cyCONDOR and all its dependencies\n\nif (!require(\"BiocManager\", quietly = TRUE))  install.packages(\"BiocManager\")\n\ndevtools::install_github(\"lorenzobonaguro/cyCONDOR\",   build_vignettes = FALSE,   repos = BiocManager::repositories())\n\nIf you want to have early access to the new feature of cyCONDOR you can install the developmental version of cyCONDOR.\n\nif (!require(\"BiocManager\", quietly = TRUE))  install.packages(\"BiocManager\")\n\ndevtools::install_github(\"lorenzobonaguro/cyCONDOR@dev\",   build_vignettes = FALSE,   repos = BiocManager::repositories())\n\nNOTE: Keep in mind the developmental version if cyCONDOR is not fully tested, if you find any bug feel free to report it!\n\nTo see which changes are currently implemented in the dev branch see the [changelog] https://github.com/lorenzobonaguro/cyCONDOR/blob/dev/NEWS.md.",
+      "section": "cyCONDOR (HDC analysis ecosystem) (part 4)",
+      "repo": "359_cyCONDOR",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.946993Z",
+    "updated_at": "2025-11-15T18:10:52.172766Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23299,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1194,
+    "annotations": [
+      {
+        "id": 11068,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T23:03:18.107537Z",
+        "updated_at": "2025-11-05T23:03:18.107559Z",
+        "draft_created_at": null,
+        "lead_time": 7.593,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ad803cbe-9a44-46f0-849c-cdc24474b241",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1194,
+        "project": 23299,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Key cyCONDOR features include:\n\nData loading: Loading of .fcs or .csv files from a folder and match it with an annotation table. The data are structure in a flow cytometry dataset which is the structure needed for all the downstream functions. Also FlowJo Archives can be directly imported in cyCONDOR\n\nData Transformation: Data are transformed to be suitable for the downstream analysis, different transformation methods are provided for different data types (e.g. MCFC, CyTOF, Spectral Flow, CITE-seq).\n\nDimensionality Reduction: Several dimensionality reductions algorithms are provided with the cyCONDOR package: PCA, UMAP, tSNE, DM.\n\nBatch correction: cyCONDOR implements harmony for data integration.\n\nClustering: Phenograph clustering and FlowSOM clustering are included.\n\nPseudotime: Pseudotime and trajectory analysis with slingshot.\n\nStatistical Analysis: Differential protein expression and changes in frequencies can be tested with built in functions.\n\nData Visualization: cyCONDOR includes several data visualization function including: confusion matrix, marker heatmap, feature plot, boxplot and other visualization to also depict the data similarly to conventional cytometry data analysis software (e.g. FlowJo).\n\nScalability to large scale datasets: cyCONDOR can work with large scale datasets, and can integrate new data in existing models allowing population level integrated data analysis.\n\nDisease classifier: cyCONDOR can be applied as clinical classifier with easy to train machine learning models.\n\nMisc: cyCONDOR includes functions to check the integrity of the flow cytometry dataset, subset it or annotate metaclusters. Also includes several visualization tools to help in the interpretation of the data. Feel free to browse all the vignette in the Articles section.",
+      "section": "cyCONDOR (HDC analysis ecosystem) (part 5)",
+      "repo": "359_cyCONDOR",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.947017Z",
+    "updated_at": "2025-11-05T23:03:18.137091Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23299,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1195,
+    "annotations": [
+      {
+        "id": 11069,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 25,
+              "end": 202,
+              "text": "[Kroeger, Mueller, Leidner et al. Unveiling the Power of High-Dimensional Cytometry Data with cyCONDOR, Nature Communications] https://www.nature.com/articles/s41467-024-55179-w",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "QhIhLIQL8R",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T23:03:35.480138Z",
+        "updated_at": "2025-11-05T23:03:35.480152Z",
+        "draft_created_at": null,
+        "lead_time": 17.171,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "2da908e9-1ecb-4620-9a39-221e92a86827",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1195,
+        "project": 23299,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## How to cite cyCONDOR\n\n[Kroeger, Mueller, Leidner et al. Unveiling the Power of High-Dimensional Cytometry Data with cyCONDOR, Nature Communications] https://www.nature.com/articles/s41467-024-55179-w\n\n## Contact or follow us\n\nFor any problem or question regarding the cyCONDOR package or this repository or you just want to be up to date on what is coming next follow me:\n\n[@LorenzoBonaguro]()\n\nIf you want to directly chat with us join our [Slack Workspace] https://join.slack.com/t/cycondor/shared_invite/zt-2keb5ztaa-0aNKxP3OCglOTUiXDrtkhg\n\n[](https://github.com/lorenzobonaguro/cyCONDOR) [](https://github.com/lorenzobonaguro/cyCONDOR/fork)",
+      "section": "cyCONDOR (HDC analysis ecosystem) (part 6)",
+      "repo": "359_cyCONDOR",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.947070Z",
+    "updated_at": "2025-11-05T23:03:35.506611Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23299,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

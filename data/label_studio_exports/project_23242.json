@@ -1,0 +1,321 @@
+[
+  {
+    "id": 808,
+    "annotations": [
+      {
+        "id": 12117,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 522,
+              "end": 557,
+              "text": "https://singularity.hpcng.org/docs/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "Tpcj-r37-j",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 442,
+              "end": 503,
+              "text": "https://github.com/hpcng/singularity/actions/workflows/ci.yml",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "TnlD-l8abl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T08:53:15.982490Z",
+        "updated_at": "2025-11-16T05:36:25.898547Z",
+        "draft_created_at": "2025-11-09T08:53:11.417978Z",
+        "lead_time": 29.404,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "3b9a55e0-6d1c-42bd-b6ec-160fd8b1c054",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 808,
+        "project": 23242,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Singularity\n\nIMPORTANT NOTE: Singularity has been renamed to [Apptainer] https://apptainer.org/news/community-announcement-20211130. This repository is now for archiving the history in the release branches. The master branch is not in a consistent state. Submit all current issues and pull requests to [https://github.com/apptainer/apptainer] https://github.com/apptainer/apptainer. Any issue submitted here will be automatically closed.\n\n[](https://github.com/hpcng/singularity/actions/workflows/ci.yml)\n\n[Documentation] https://singularity.hpcng.org/docs/\n\n[Support] #support\n\n[Community Meetings / Minutes / Roadmap] https://drive.google.com/drive/u/0/folders/1npfBhIDxqeJIUHZ0tMeuHPvc_iB4T2B6\n\n[Project License] LICENSE.md\n\n[Guidelines for Contributing] CONTRIBUTING.md\n\n[Code of Conduct] CODE_OF_CONDUCT.md\n\n[Citation] #citing-singularity",
+      "section": "Singularity (part 1)",
+      "repo": "204_CellDetection",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.900897Z",
+    "updated_at": "2025-11-16T05:36:25.931573Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23242,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 809,
+    "annotations": [
+      {
+        "id": 12118,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 829,
+              "end": 841,
+              "text": "BSD License]",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "b1RMB12HcH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1188,
+              "end": 1253,
+              "text": "https://singularity.hpcng.org/admin-docs/master/installation.html",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "LnRHDSuKsO",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1492,
+              "end": 1539,
+              "text": "https://singularity.hpcng.org/user-docs/master/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "2pvEfdm4zC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T08:53:55.582316Z",
+        "updated_at": "2025-11-16T05:36:43.984261Z",
+        "draft_created_at": "2025-11-09T08:53:25.980107Z",
+        "lead_time": 53.903,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "b8dc1af1-427b-435e-a60e-4ce8431e5bd4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 809,
+        "project": 23242,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## What is Singularity?\n\nSingularity is an open source container platform designed to be simple, fast, and secure. Many container platforms are available, but Singularity is designed for ease-of-use on shared systems and in high performance computing (HPC) environments. It features:\n\nAn immutable single-file container image format, supporting cryptographic\n\nsignatures and encryption. Integration over isolation by default. Easily make use of GPUs, high speed\n\nnetworks, parallel filesystems on a cluster or server. Mobility of compute. The single file SIF container format is easy to transport\n\nand share. A simple, effective security model. You are the same user inside a container\n\nas outside, and cannot gain additional privilege on the host system by  default.\n\nSingularity is open source software, distributed under the [BSD License] LICENSE.md.\n\nCheck out [talks about Singularity] https://singularity.hpcng.org/talks and some [use cases of Singularity] https://singularity.hpcng.org/usecases on our website.\n\n## Getting Started with Singularity\n\nTo install Singularity from source, see the [installation instructions] INSTALL.md. For other installation options, see [our guide] https://singularity.hpcng.org/admin-docs/master/installation.html.\n\nSystem administrators can learn how to configure Singularity, and get an overview of its architecture and security features in the [administrator guide] https://singularity.hpcng.org/admin-docs/master/.\n\nFor users, see the [user guide] https://singularity.hpcng.org/user-docs/master/ for details on how to run and build containers with Singularity.",
+      "section": "Singularity (part 2)",
+      "repo": "204_CellDetection",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.900945Z",
+    "updated_at": "2025-11-16T05:36:44.015944Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23242,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 810,
+    "annotations": [
+      {
+        "id": 12119,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T09:08:56.663221Z",
+        "updated_at": "2025-11-09T09:08:56.663237Z",
+        "draft_created_at": null,
+        "lead_time": 900.827,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "342929e3-1032-4df2-82f6-a886b1bcc43c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 810,
+        "project": 23242,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Contributing to Singularity\n\nCommunity contributions are always greatly appreciated. To start developing Singularity, check out the [guidelines for contributing] CONTRIBUTING.md.\n\nPlease note we have a [code of conduct] CODE_OF_CONDUCT.md. Please follow it in all your interactions with the project members and users.\n\nOur roadmap, other documents, and user/developer meeting information can be found in the [singularity community page] https://singularity.hpcng.org/help.\n\nWe also welcome contributions to our [user guide] https://github.com/hpcng/singularity-userdocs and [admin guide] https://github.com/hpcng/singularity-admindocs.\n\n## Support\n\nTo get help with Singularity, check out the [Singularity Help] https://singularity.hpcng.org/help web page.\n\n## Go Version Compatibility\n\nSingularity aims to maintain support for the two most recent stable versions of Go. This corresponds to the Go [Release Maintenance Policy] https://github.com/golang/go/wiki/Go-Release-Cycle#release-maintenance and [Security Policy] https://golang.org/security, ensuring critical bug fixes and security patches are available for all supported language versions.",
+      "section": "Singularity (part 3)",
+      "repo": "204_CellDetection",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.900969Z",
+    "updated_at": "2025-11-09T09:08:56.695770Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23242,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 811,
+    "annotations": [
+      {
+        "id": 12120,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 480,
+              "end": 518,
+              "text": "https://doi.org/10.5281/zenodo.1310023",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "tQe7f-4et_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 599,
+              "end": 721,
+              "text": "Kurtzer GM, Sochat V, Bauer MW (2017) Singularity: Scientific containers for mobility of compute. PLoS ONE 12(5): e0177459",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "VIkfzPKZpz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 794,
+              "end": 814,
+              "text": "3-clause BSD license",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "di0RSM3Y7R",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T09:09:41.900463Z",
+        "updated_at": "2025-11-09T09:09:41.900478Z",
+        "draft_created_at": "2025-11-09T09:09:24.029301Z",
+        "lead_time": 45.034,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "72f592ac-f38d-4cce-9dec-36b4bf703b98",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 811,
+        "project": 23242,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Citing Singularity\n\nThe Singularity software may be cited using our Zenodo DOI 10.5281/zenodo.1310023:\n\nSingularity Developers (2021) Singularity. 10.5281/zenodo.1310023\n\nThis is an 'all versions' DOI for referencing Singularity in a manner that is not version-specific. You may wish to reference the particular version of Singularity used in your work. Zenodo creates a unique DOI for each release, and these can be found in the 'Versions' sidebar on the [Zenodo record page] https://doi.org/10.5281/zenodo.1310023.\n\nPlease also consider citing the original publication describing Singularity:\n\nKurtzer GM, Sochat V, Bauer MW (2017) Singularity: Scientific containers for mobility of compute. PLoS ONE 12(5): e0177459.\n\n## License\n\n_Unless otherwise noted, this project is licensed under a 3-clause BSD license found in the [license file] LICENSE.md._",
+      "section": "Singularity (part 4)",
+      "repo": "204_CellDetection",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.900993Z",
+    "updated_at": "2025-11-09T09:09:41.924257Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23242,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

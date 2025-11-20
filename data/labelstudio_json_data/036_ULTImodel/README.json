@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "ULTImodel\n\n[](https://github.com/DLR-VF/ULTImodel/blob/master/LICENSE) [](https://pypi.python.org/pypi/ultimodel) [](https://ultimodel.readthedocs.io/en/latest/?badge=latest) [](https://doi.org/10.5281/zenodo.7826486)   ULTImodel &mdash; A universal transport distribution model written in Python.\n\n## Description\n\nULTImodel is a distribution model that helps to spatially distribute road-based transport for countries, including border-crossing travel. It is set up using open data like [OSM] https://openstreetmap.org. The software includes modules for network generation, trip generation and trip distribution based on two main inputs:\n\nGeoreferenced traffic analysis zones (TAZ) for the respective region  Target value for national transport volume (i.e. person-kilometres or tonne-kilometres)\n\n## Installation\n\nThe __current version__ is [ultimodel-1.0.0] https://github.com/DLR-VF/ULTImodel/releases/tag/1.0.0.\n\nYou may __install ULTImodel__ by executing the following\n\n__pip__\n\npython -m pip install ultimodel\n\nYou may __download a copy or fork the code__ at [ULTImodel&apos;s github page] [link-to-github](https://github.com/DLR-VF/ULTImodel).\n\nBesides, you may __download the current release__ here:\n\n[ultimodel-1.0.1.zip] https://github.com/DLR-VF/ULTImodel/archive/refs/tags/1.0.1.zip  [ultimodel-1.0.1.tar.gz] https://github.com/DLR-VF/ULTImodel/archive/refs/tags/1.0.1.tar.gz",
+      "section": "ULTImodel (part 1)",
+      "repo": "036_ULTImodel",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Usage\n\nExamples of using ULTImodel can be found in the [tutorials repository] https://github.com/DLR-VF/ULTImodel-tutorials.\n\nAdditional documentation can be found at .\n\n## Authors and acknowledgment\n\nULTImodel was developed by Nina Thomsen.\n\nWe want to thank the following persons for the help during ULTImodel's development: Lars Hedemann, Simon Metzler, Gernot Liedtke, Christian Winkler, Tudor Mocanu, and Daniel Krajzewicz.\n\n## License\n\nULTImodel is licensed under the [MIT license] https://github.com/DLR-VF/ULTImodel/blob/master/LICENSE.\n\n## Links\n\nPlease find further information on the web:\n\nThe complete documentation is located at   The github repository is located at  The issue tracker is located at\n\n## Legal\n\nPlease find the legal information here:",
+      "section": "ULTImodel (part 2)",
+      "repo": "036_ULTImodel",
+      "source_file": "readme.md"
+    }
+  }
+]

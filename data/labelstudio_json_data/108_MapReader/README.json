@@ -1,0 +1,82 @@
+[
+  {
+    "data": {
+      "text": "MapReader\n\n[](#contributors) [](https://pypi.org/project/mapreader/) [](https://mapreader.readthedocs.io/en/latest)\n\n[](https://zenodo.org/records/13643609) [](https://codecov.io/gh/maps-as-data/MapReader) [](https://doi.org/10.21105/joss.06434)\n\n## Table of Contents\n\n[MapReader] #mapreader\n\n[Table of Contents] #table-of-contents\n\n[What is MapReader?] #what-is-mapreader\n\n[Overview] #overview\n\n[MapReader classification pipeline] #mapreader-classification-pipeline\n\n[MapReader text spotting pipeline] #mapreader-classification-pipeline\n\n[Documentation] #documentation\n\n[What is included in this repo?] #what-is-included-in-this-repo\n\n[What is not included in this repo?] #what-is-not-included-in-this-repo\n\n[How to cite MapReader] #how-to-cite-mapreader\n\n[Acknowledgements] #acknowledgements\n\n[Contributors] #contributors",
+      "section": "MapReader (part 1)",
+      "repo": "108_MapReader",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## What is MapReader?\n\nMapReader is a open-source python library for exploring and analyzing map images at scale.\n\nIt contains two different pipelines:\n\nClassification pipeline: This pipeline enables users to fine-tune a classification model and predict the labels of patches created from a parent image.\n\nText spotting pipeline: This pipeline enables users to detect and recognize text in map images.\n\nMapReader was developed in the [Living with Machines] https://livingwithmachines.ac.uk/ project to analyze large collections of historical maps but is a _generalizable_ computer vision tool which can be applied to _any images_ in a wide variety of domains.\n\n## Overview\n\n### MapReader classification pipeline\n\nThe MapReader classification pipeline enables users to train a classification model to recognize visual features within map images and to identify patches containing these features across entire map collections:\n\n### MapReader text spotting pipeline\n\nThe MapReader text spotting pipeline enables users to detect and recognize text in map images using a pre-trained text spotting model:",
+      "section": "MapReader (part 2)",
+      "repo": "108_MapReader",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Documentation\n\nThe MapReader documentation can be found at https://mapreader.readthedocs.io/en/latest/.\n\nNew users should refer to the [Installation instructions] https://mapreader.readthedocs.io/en/latest/getting-started/installation-instructions/index.html and [Input guidance] https://mapreader.readthedocs.io/en/latest/using-mapreader/input-guidance/ for help with the initial set up of MapReader.\n\nAll users should refer to our [User Guide] https://mapreader.readthedocs.io/en/latest/using-mapreader/ for guidance on how to use MapReader. This contains end-to-end instructions on how to use the MapReader pipeline.\n\nDevelopers and contributors may also want to refer to the [API documentation] https://mapreader.readthedocs.io/en/latest/in-depth-resources/api/mapreader/ and [Contribution guide] https://mapreader.readthedocs.io/en/latest/community-and-contributions/contribution-guide/ for guidance on how to contribute to the MapReader package.\n\n## Stay in touch\n\nAll users are encouraged to join our community! Please refer to the [Community and contributions] https://mapreader.readthedocs.io/en/latest/community-and-contributions/events.html page for information on ways to get involved.\n\nJoin our Slack workspace! Please fill out [this form] https://forms.gle/dXjECHZQkwrZ3Xpt9 to receive an invitation to the Slack workspace.\n\n## What is included in this repo?\n\nThis repository contains everything needed for running MapReader.\n\nThe repository is structured as follows:\n\nmapreader/: Contains the source code for the MapReader library.\n\ndocs/: Contains the documentation for the MapReader library.\n\ntests/ and test_text_spotting/: Contains the tests for the MapReader library.",
+      "section": "MapReader (part 3)",
+      "repo": "108_MapReader",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### What is not included in this repo?\n\nOur worked examples can be found in the [mapreader-examples] https://github.com/maps-as-data/MapReader-examples repository.\n\nWe also have a number of other MapReader and map related repositories which can be found on the [maps-as-data] https://github.com/maps-as-data GitHub organisation page.\n\n## How to cite MapReader\n\nIf you use MapReader in your work, please cite: Our [JOSS paper] https://doi.org/10.21105/joss.06434 - to acknowledge the software irrespective of the version you used.\n\nOur [Zenodo record] https://zenodo.org/records/13643609 - to acknowledge the specific version of the software you used (or use the \"Cite all versions?\" option if your specific version isn't there).\n\nOptionally, our [SIGSPATIAL paper] https://dl.acm.org/doi/10.1145/3557919.3565812 to acknowledge the development of the software and the research behind it.\n\n## Acknowledgements\n\nThis work was supported by Living with Machines (AHRC grant AH/S01179X/1), Data/Culture (AHRC grant AH/Y00745X/1) and The Alan Turing Institute (EPSRC grant EP/N510129/1).\n\nLiving with Machines, funded by the UK Research and Innovation (UKRI) Strategic Priority Fund, is a multidisciplinary collaboration delivered by the Arts and Humanities Research Council (AHRC), with The Alan Turing Institute, the British Library and the Universities of Cambridge, East Anglia, Exeter, and Queen Mary University of London.\n\nMaps above reproduced with the permission of the National Library of Scotland https://maps.nls.uk/index.html",
+      "section": "MapReader (part 4)",
+      "repo": "108_MapReader",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Contributors",
+      "section": "MapReader (part 5)",
+      "repo": "108_MapReader",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Katie McDonough\ud83d\udd2c \ud83e\udd14 \ud83d\udcd6 \ud83d\udcc6 \ud83d\udc40 \ud83d\udce2 \u2705  Daniel C.S. Wilson\ud83d\udd2c \ud83e\udd14 \ud83d\udce2 \ud83d\udcd6",
+      "section": "MapReader (part 6)",
+      "repo": "108_MapReader",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Kasra Hosseini\ud83d\udcbb \ud83e\udd14 \ud83d\udd2c \ud83d\udc40 \ud83d\udce2  Rosie Wood\ud83d\udcbb \ud83d\udcd6 \ud83e\udd14 \ud83d\udce2 \u2705 \ud83d\udc40 \ud83d\udea7 \ud83d\udd2c",
+      "section": "MapReader (part 7)",
+      "repo": "108_MapReader",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Kalle Westerling\ud83d\udcbb \ud83d\udcd6 \ud83d\udea7 \ud83d\udc40 \ud83d\udce2  Chris Fleet\ud83d\udd23  Kaspar Beelen\ud83e\udd14 \ud83d\udc40 \ud83d\udd2c",
+      "section": "MapReader (part 8)",
+      "repo": "108_MapReader",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Andy Smith\ud83d\udcbb \ud83d\udcd6 \ud83e\uddd1\u200d\ud83c\udfeb \ud83d\udc40  Adam Cox\ud83d\udcbb \u26a0\ufe0f",
+      "section": "MapReader (part 9)",
+      "repo": "108_MapReader",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "",
+      "section": "MapReader (part 10)",
+      "repo": "108_MapReader",
+      "source_file": "readme.md"
+    }
+  }
+]

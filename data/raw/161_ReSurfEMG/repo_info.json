@@ -1,0 +1,27 @@
+{
+  "codeRepository": "https://github.com/resurfemg-org/ReSurfEMG",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "TeX",
+    "Dockerfile",
+    "Batchfile",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/resurfemg-org/ReSurfEMG/zipball/main",
+  "author": "resurfemg-org",
+  "dateCreated": "2022-06-07T10:45:44Z",
+  "dateModified": "2025-10-06T15:02:21Z",
+  "keywords": [
+    "electromyogram",
+    "electromyography",
+    "healthcare-analysis"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "An open source library for analysis of respiratory EMG",
+  "identifier": 500798106,
+  "name": "resurfemg-org/ReSurfEMG",
+  "issueTracker": "https://api.github.com/repos/resurfemg-org/ReSurfEMG/issues",
+  "readme": "https://github.com/resurfemg-org/ReSurfEMG/blob/main/README.md"
+}

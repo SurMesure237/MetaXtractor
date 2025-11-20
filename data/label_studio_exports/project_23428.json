@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1887,
+    "annotations": [
+      {
+        "id": 10553,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:51:19.556687Z",
+        "updated_at": "2025-11-04T17:51:19.556698Z",
+        "draft_created_at": "2025-11-04T17:50:57.875559Z",
+        "lead_time": 46.484,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "9bd7ec45-9b3e-4e3c-ac7c-09dbc81c6dd3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1887,
+        "project": 23428,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# JDQZ++\n\nTemplated C++ implementation of the JDQZ generalized eigenvalue problem solver.\n\n## Introduction\n\nThis is an almost 1-1 port of the original FORTRAN code by Fokkema and van Gijzen, see   http://www.win.tue.nl/casa/research/scientificcomputing/topics/jd/software.html\n\nhttp://www.staff.science.uu.nl/~sleij101/JD_software/jd.html\n\nA few of the old routines survive and are compiled into a separate library.\n\nThe main difference with the original is that vectors are now templated. We require vectors to have a few standard members (e.g. dot(), axpy(), scale(), etc.) with complex arithmetic. For manipulations of the projected problem we use containers provided by the STL.\n\n## Installation\n\nThis project depends on cmake\n\nlapack\n\ngtest",
+      "section": "README",
+      "repo": "286_I-EMIC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.882266Z",
+    "updated_at": "2025-11-04T17:51:19.578879Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23428,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

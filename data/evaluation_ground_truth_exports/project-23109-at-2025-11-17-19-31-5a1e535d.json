@@ -1,0 +1,257 @@
+[
+    {
+        "id": 50,
+        "annotations": [
+            {
+                "id": 12254,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 147,
+                            "end": 185,
+                            "text": "https:\/\/doi.org\/10.5281\/zenodo.4734194",
+                            "labels": [
+                                "CITATION_URL"
+                            ]
+                        },
+                        "id": "2DZnPe0b7y",
+                        "from_name": "entities",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 190,
+                            "end": 225,
+                            "text": "https:\/\/doi.org\/10.21105\/joss.05293",
+                            "labels": [
+                                "CITATION_URL"
+                            ]
+                        },
+                        "id": "MopqcAYcpw",
+                        "from_name": "entities",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-11-17T19:23:40.655438Z",
+                "updated_at": "2025-11-17T19:23:40.655449Z",
+                "draft_created_at": "2025-11-17T19:23:38.649560Z",
+                "lead_time": 18.194,
+                "prediction": {},
+                "result_count": 2,
+                "unique_id": "f7eb479b-f1f8-47a5-8052-9daafe33fac9",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 50,
+                "project": 23109,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "Byteparsing\n\n[](https:\/\/pypi.python.org\/pypi\/byteparsing\/) [](https:\/\/codecov.io\/gh\/parallelwindfarms\/byteparsing) [](https:\/\/fair-software.eu) [](https:\/\/doi.org\/10.5281\/zenodo.4734194) [](https:\/\/doi.org\/10.21105\/joss.05293)\n\nByteparsing is a package for mixed text and binary parsing in Python. The main driver for developing this package was to write a parser for binary OpenFOAM files. The binary file format in OpenFOAM is \"special\". It is the same as the ASCII based text format, except where large blocks of floating point data are concerned.\n\nWhen not to use byteparsing:\n\nYou just need to parse some text: use pyparsing, it is the industry's standard.\n\nDo use byteparsing if:\n\nYou need to tinker with large binary OpenFOAM files directly from Python.  There is a different package that does not adhere to data standards and hacked together its own mixed ASCII\/binary file format. You will have to roll out your own parser. Byteparsing can make this easier.\n\nCoolest feature:\n\nWorks with mmap and numpy! This means you can open the file without reading it entirely into memory, change the NumPy array data and the changes are automatically saved to disk.",
+            "section": "Byteparsing (part 1)",
+            "repo": "418_byteparsing",
+            "source_file": "readme.md"
+        },
+        "meta": {},
+        "created_at": "2025-11-02T18:27:40.760018Z",
+        "updated_at": "2025-11-17T19:23:40.681976Z",
+        "inner_id": 1,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 23109,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 51,
+        "annotations": [
+            {
+                "id": 12255,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 38,
+                            "end": 85,
+                            "text": "https:\/\/parallelwindfarms.github.io\/byteparsing",
+                            "labels": [
+                                "DOCUMENTATION_URL"
+                            ]
+                        },
+                        "id": "zZlL3tt5eS",
+                        "from_name": "entities",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 1424,
+                            "end": 1471,
+                            "text": "https:\/\/parallelwindfarms.github.io\/byteparsing",
+                            "labels": [
+                                "DOCUMENTATION_URL"
+                            ]
+                        },
+                        "id": "1ZG_1DRgzI",
+                        "from_name": "entities",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 1513,
+                            "end": 1527,
+                            "text": "Python (>=3.9)",
+                            "labels": [
+                                "RUNTIME_PLATFORM"
+                            ]
+                        },
+                        "id": "GaHI08ShPT",
+                        "from_name": "entities",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 1544,
+                            "end": 1549,
+                            "text": "Numpy",
+                            "labels": [
+                                "SOFTWARE_REQUIREMENTS"
+                            ]
+                        },
+                        "id": "Q6YQcSAHlZ",
+                        "from_name": "entities",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-11-17T19:24:21.175101Z",
+                "updated_at": "2025-11-17T19:24:21.175129Z",
+                "draft_created_at": "2025-11-17T19:23:53.844278Z",
+                "lead_time": 39.153,
+                "prediction": {},
+                "result_count": 4,
+                "unique_id": "ead22598-17ef-49ae-af04-21b65f8723c7",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 51,
+                "project": 23109,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "## Documentation\n\nOur [documentation] https:\/\/parallelwindfarms.github.io\/byteparsing explains the architecture behind byteparsing and shows some examples of parsing mixed binary and ASCII data.\n\n## Example: PPM files\n\nByteparsing is a functional parser combinator (recursive descent) library. To show how we can mix ASCII and binary data, we have an example where we parse Portable PixMap files (PPM). These files have a small ASCII header and the image itself in binary. The header looks something like this:\n\nP6 # this marks the file type in the Netpbm family 640 480 256\n\nThe implementation of the parser:\n\nimport numpy as np from dataclasses import dataclass from byteparsing import parse_bytes from byteparsing.parsers import (  text_literal, integer, eol, named_sequence, sequence, construct,  tokenize, item, array, fmap, text_end_by, optional)\n\ncomment = sequence(text_literal(\"#\"), text_end_by(\"\\n\"))\n\n@dataclass class Header:  width: int  height: int  maxint: int\n\nheader = named_sequence(  _1 = tokenize(text_literal(\"P6\")),  _2 = optional(comment),  width = tokenize(integer),  height = tokenize(integer),  maxint = tokenize(integer)) >> construct(Header)\n\ndef image_bytes(header: Header):  shape = (header.height, header.width, 3)  size = header.height header.width 3  return array(np.uint8, size) >> fmap(lambda a: a.reshape(shape))\n\nppm_image = header >> image_bytes\n\nFor more, check out the [documentation] https:\/\/parallelwindfarms.github.io\/byteparsing!\n\n## Requirements\n\nThis package requires Python (>=3.9), and optionally Numpy.\n\n## Installation\n\n### With pip\n\nTo install the latest release of byteparsing, do:\n\n```{.console} pip install byteparsing",
+            "section": "Byteparsing (part 2)",
+            "repo": "418_byteparsing",
+            "source_file": "readme.md"
+        },
+        "meta": {},
+        "created_at": "2025-11-02T18:27:40.760054Z",
+        "updated_at": "2025-11-17T19:24:21.208536Z",
+        "inner_id": 2,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 23109,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 52,
+        "annotations": [
+            {
+                "id": 12256,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 510,
+                            "end": 537,
+                            "text": "Apache License, Version 2.0",
+                            "labels": [
+                                "LICENSE"
+                            ]
+                        },
+                        "id": "1Sxp0BM0Fx",
+                        "from_name": "entities",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-11-17T19:30:33.672395Z",
+                "updated_at": "2025-11-17T19:30:33.672408Z",
+                "draft_created_at": "2025-11-17T19:30:24.123746Z",
+                "lead_time": 26.905,
+                "prediction": {},
+                "result_count": 1,
+                "unique_id": "51bb4c82-78d8-4772-bb9c-4786345ad47f",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 52,
+                "project": 23109,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "### Development with Poetry\n\nThis project uses Poetry to maintain pyproject.toml.\n\n``{.console} git clone https:\/\/github.com\/parallelwindfarms\/byteparsing.git cd byteparsing poetry install\n\nRun tests (including coverage) with:\n\n`` {.console} poetry run pytest\n\n### Contributing\n\nIf you want to contribute to the development of byteparsing, have a look at the [contribution guidelines] CONTRIBUTING.rst.\n\n### License\n\nCopyright (c) 2019, Netherlands eScience Center, University of Groningen\n\nLicensed under the Apache License, Version 2.0 (the \\\"License\\\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \\\"AS IS\\\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\n\n### Credits\n\nThis package was created with [Cookiecutter] https:\/\/github.com\/audreyr\/cookiecutter and the [NLeSC\/python-template] https:\/\/github.com\/NLeSC\/python-template.",
+            "section": "Byteparsing (part 3)",
+            "repo": "418_byteparsing",
+            "source_file": "readme.md"
+        },
+        "meta": {},
+        "created_at": "2025-11-02T18:27:40.760077Z",
+        "updated_at": "2025-11-17T19:30:33.701182Z",
+        "inner_id": 3,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 23109,
+        "updated_by": 1,
+        "comment_authors": []
+    }
+]

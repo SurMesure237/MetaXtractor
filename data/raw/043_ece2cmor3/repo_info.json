@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/EC-Earth/ece2cmor3",
+  "programmingLanguage": "Shell",
+  "programmingLanguages": [
+    "Shell",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/EC-Earth/ece2cmor3/zipball/main",
+  "author": "EC-Earth",
+  "dateCreated": "2017-02-02T13:10:17Z",
+  "dateModified": "2025-10-16T22:24:56Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Post-processing and cmorization of ec-earth output",
+  "identifier": 80725861,
+  "name": "EC-Earth/ece2cmor3",
+  "issueTracker": "https://api.github.com/repos/EC-Earth/ece2cmor3/issues",
+  "readme": "https://github.com/EC-Earth/ece2cmor3/blob/master/README.md"
+}

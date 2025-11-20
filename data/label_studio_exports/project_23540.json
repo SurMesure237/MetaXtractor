@@ -1,0 +1,1015 @@
+[
+  {
+    "id": 2420,
+    "annotations": [
+      {
+        "id": 10135,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 155,
+              "end": 194,
+              "text": "https://jakobrunge.github.io/tigramite/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "KpozI8ytMw",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:50:58.019232Z",
+        "updated_at": "2025-11-14T11:40:47.707243Z",
+        "draft_created_at": null,
+        "lead_time": 18.643,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "1422999d-37db-485a-ae30-939b782dc3c8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2420,
+        "project": 23540,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Tigramite – Causal inference for time series datasets\n\nVersion 5.2 (Python Package)\n\n[Github] https://github.com/jakobrunge/tigramite.git\n\n[Documentation] https://jakobrunge.github.io/tigramite/\n\n[Tutorials] https://github.com/jakobrunge/tigramite/tree/master/tutorials/",
+      "section": "Tigramite – Causal inference for time series datasets (part 1)",
+      "repo": "332_Tigramite",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.762742Z",
+    "updated_at": "2025-11-14T11:40:47.744108Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23540,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2421,
+    "annotations": [
+      {
+        "id": 10136,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:51:15.505466Z",
+        "updated_at": "2025-11-03T05:51:15.505485Z",
+        "draft_created_at": null,
+        "lead_time": 17.301,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "be2bf646-43b8-47c5-90e9-8ea32296cf8c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2421,
+        "project": 23540,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Overview\n\nIt's best to start with our [Overview/review paper: Causal inference for time series] https://github.com/jakobrunge/tigramite/blob/master/tutorials/Runge_Causal_Inference_for_Time_Series_NREE.pdf\n\n__Update:__ Tigramite now has a new CausalEffects class that allows to estimate (conditional) causal effects and mediation based on assuming a causal graph. Have a look at the tutorial.\n\nFurther, Tigramite provides several causal discovery methods that can be used under different sets of assumptions. An application always consists of a method and a chosen conditional independence test, e.g. PCMCIplus together with ParCorr. The following two tables give an overview of the assumptions involved:\n\n| Method | Assumptions | Output | | :-- | :-- | :-- | | | (in addition to Causal Markov Condition and Faithfulness) | | | PCMCI | Causal stationarity, no contemporaneous causal links, no hidden variables | Directed lagged links, undirected contemporaneous links (for tau_min=0) | | PCMCIplus | Causal stationarity, no hidden variables | Directed lagged links, directed and undirected contemp. links (Time series CPDAG) | | LPCMCI | Causal stationarity | Time series PAG | | RPCMCI | No contemporaneous causal links, no hidden variables | Regime-variable and causal graphs for each regime with directed lagged links, undirected contemporaneous links (for tau_min=0) | | J-PCMCI+ | Multiple datasets, causal stationarity, no hidden system confounding, except if context-related | Directed lagged links, directed and undirected contemp. links (Joint time series CPDAG) |",
+      "section": "Tigramite – Causal inference for time series datasets (part 2)",
+      "repo": "332_Tigramite",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.762785Z",
+    "updated_at": "2025-11-03T05:51:15.533825Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23540,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2422,
+    "annotations": [
+      {
+        "id": 10137,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:51:18.189517Z",
+        "updated_at": "2025-11-03T05:51:18.189538Z",
+        "draft_created_at": null,
+        "lead_time": 2.513,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b6bd35ab-5244-498f-8de3-f890d3f47ac5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2422,
+        "project": 23540,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| Conditional independence test | Assumptions | | :-- | :-- |  | ParCorr | univariate, continuous variables with linear dependencies and Gaussian noise | | RobustParCorr | univariate, continuous variables with linear dependencies, robust for different marginal distributions | | ParCorrWLS | univariate, continuous variables with linear dependencies, can account for heteroskedastic data | | GPDC / GPDCtorch | univariate, continuous variables with additive dependencies | | CMIknn | multivariate, continuous variables with more general dependencies (permutation-based test) | | Gsquared | univariate discrete/categorical variables | | CMIsymb | multivariate discrete/categorical variables (permutation-based test) | | RegressionCI | mixed datasets with univariate discrete/categorical and (linear) continuous variables | | CMIknnMixed | mixed datasets with multivariate discr./cat./cont. variables with more general dependencies (permutation-based test) |\n\nRemark: With the conditional independence test wrapper class PairwiseMultCI you can turn every univariate test into a multivariate test.",
+      "section": "Tigramite – Causal inference for time series datasets (part 3)",
+      "repo": "332_Tigramite",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.762833Z",
+    "updated_at": "2025-11-03T05:51:18.217164Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23540,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2423,
+    "annotations": [
+      {
+        "id": 10138,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 601,
+              "end": 752,
+              "text": "Runge, J., Gerhardus, A., Varando, G. et al. Causal inference for time series. Nat Rev Earth Environ (2023). https://doi.org/10.1038/s43017-023-00431-y",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "77mZTPJph4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:51:37.703598Z",
+        "updated_at": "2025-11-03T05:51:37.703616Z",
+        "draft_created_at": "2025-11-03T05:51:31.001594Z",
+        "lead_time": 19.336,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "195266eb-a5de-40e9-bc55-7f1e99e68499",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2423,
+        "project": 23540,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## General Notes\n\nTigramite is a causal inference for time series python package. It allows to efficiently estimate causal graphs from high-dimensional time series datasets (causal discovery) and to use graphs for robust forecasting and the estimation and prediction of direct, total, and mediated effects. Causal discovery is based on linear as well as non-parametric conditional independence tests applicable to discrete or continuously-valued time series. Also includes functions for high-quality plots of the results. Please cite the following papers depending on which method you use:\n\nOverview: Runge, J., Gerhardus, A., Varando, G. et al. Causal inference for time series. Nat Rev Earth Environ (2023). https://doi.org/10.1038/s43017-023-00431-y",
+      "section": "Tigramite – Causal inference for time series datasets (part 4)",
+      "repo": "332_Tigramite",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.762941Z",
+    "updated_at": "2025-11-03T05:51:37.732088Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23540,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2424,
+    "annotations": [
+      {
+        "id": 10139,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 240,
+              "text": "PCMCI: J. Runge, P. Nowack, M. Kretschmer, S. Flaxman, D. Sejdinovic, Detecting and quantifying causal associations in large nonlinear time series datasets. Sci. Adv. 5, eaau4996 (2019). https://advances.sciencemag.org/content/5/11/eaau4996",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "AQCtGtYW-W",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 242,
+              "end": 555,
+              "text": "PCMCI+: J. Runge (2020): Discovering contemporaneous and lagged causal relations in autocorrelated nonlinear time series datasets. Proceedings of the 36th Conference on Uncertainty in Artificial Intelligence, UAI 2020,Toronto, Canada, 2019, AUAI Press, 2020. http://auai.org/uai2020/proceedings/579_main_paper.pdf",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "2cpkUCbHYi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 557,
+              "end": 829,
+              "text": "LPCMCI: Gerhardus, A. & Runge, J. High-recall causal discovery for autocorrelated time series with latent confounders Advances in Neural Information Processing Systems, 2020, 33. https://proceedings.neurips.cc/paper/2020/hash/94e70705efae423efda1088614128d0b-Abstract.html",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "p82aHlQ8NS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 831,
+              "end": 1062,
+              "text": "RPCMCI: Elena Saggioro, Jana de Wiljes, Marlene Kretschmer, Jakob Runge; Reconstructing regime-dependent causal relationships from observational time series. Chaos 1 November 2020; 30 (11): 113115. https://doi.org/10.1063/5.0020538",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "5eistWWy4z",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1064,
+              "end": 1314,
+              "text": "Generally: J. Runge (2018): Causal Network Reconstruction from Time Series: From Theoretical Assumptions to Practical Estimation. Chaos: An Interdisciplinary Journal of Nonlinear Science 28 (7): 075310. https://aip.scitation.org/doi/10.1063/1.5025050",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "-aoatWECc3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1409,
+              "end": 1593,
+              "text": "Mediation class: J. Runge et al. (2015): Identifying causal gateways and mediators in complex spatio-temporal systems. Nature Communications, 6, 8502. http://doi.org/10.1038/ncomms9502",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "f0bH0VARXp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1595,
+              "end": 1787,
+              "text": "Mediation class: J. Runge (2015): Quantifying information transfer and mediation along causal pathways in complex systems. Phys. Rev. E, 92(6), 62829. http://doi.org/10.1103/PhysRevE.92.062829",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "-aQgUuCYFW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1357,
+              "end": 1407,
+              "text": "https://www.nature.com/articles/s41467-019-10105-3",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "tMpBoTALF8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:52:15.115543Z",
+        "updated_at": "2025-11-03T05:52:15.115560Z",
+        "draft_created_at": "2025-11-03T05:51:46.999292Z",
+        "lead_time": 37.228,
+        "prediction": {},
+        "result_count": 8,
+        "unique_id": "f8201df2-65cc-4cd4-ab95-876a2ed784c6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2424,
+        "project": 23540,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "PCMCI: J. Runge, P. Nowack, M. Kretschmer, S. Flaxman, D. Sejdinovic, Detecting and quantifying causal associations in large nonlinear time series datasets. Sci. Adv. 5, eaau4996 (2019). https://advances.sciencemag.org/content/5/11/eaau4996\n\nPCMCI+: J. Runge (2020): Discovering contemporaneous and lagged causal relations in autocorrelated nonlinear time series datasets. Proceedings of the 36th Conference on Uncertainty in Artificial Intelligence, UAI 2020,Toronto, Canada, 2019, AUAI Press, 2020. http://auai.org/uai2020/proceedings/579_main_paper.pdf\n\nLPCMCI: Gerhardus, A. & Runge, J. High-recall causal discovery for autocorrelated time series with latent confounders Advances in Neural Information Processing Systems, 2020, 33. https://proceedings.neurips.cc/paper/2020/hash/94e70705efae423efda1088614128d0b-Abstract.html\n\nRPCMCI: Elena Saggioro, Jana de Wiljes, Marlene Kretschmer, Jakob Runge; Reconstructing regime-dependent causal relationships from observational time series. Chaos 1 November 2020; 30 (11): 113115. https://doi.org/10.1063/5.0020538\n\nGenerally: J. Runge (2018): Causal Network Reconstruction from Time Series: From Theoretical Assumptions to Practical Estimation. Chaos: An Interdisciplinary Journal of Nonlinear Science 28 (7): 075310. https://aip.scitation.org/doi/10.1063/1.5025050\n\nNature Communications Perspective paper: https://www.nature.com/articles/s41467-019-10105-3\n\nMediation class: J. Runge et al. (2015): Identifying causal gateways and mediators in complex spatio-temporal systems. Nature Communications, 6, 8502. http://doi.org/10.1038/ncomms9502\n\nMediation class: J. Runge (2015): Quantifying information transfer and mediation along causal pathways in complex systems. Phys. Rev. E, 92(6), 62829. http://doi.org/10.1103/PhysRevE.92.062829",
+      "section": "Tigramite – Causal inference for time series datasets (part 5)",
+      "repo": "332_Tigramite",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.762988Z",
+    "updated_at": "2025-11-03T05:52:15.144583Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23540,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2425,
+    "annotations": [
+      {
+        "id": 10140,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 272,
+              "text": "CMIknn: J. Runge (2018): Conditional Independence Testing Based on a Nearest-Neighbor Estimator of Conditional Mutual Information. In Proceedings of the 21st International Conference on Artificial Intelligence and Statistics. http://proceedings.mlr.press/v84/runge18a.html",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "7msYUnjDiL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 274,
+              "end": 577,
+              "text": "CausalEffects: J. Runge, Necessary and sufficient graphical conditions for optimal adjustment sets in causal graphical models with hidden variables, Advances in Neural Information Processing Systems, 2021, 34. https://proceedings.neurips.cc/paper/2021/hash/8485ae387a981d783f8764e508151cd9-Abstract.html",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "go64pZ63MG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 579,
+              "end": 724,
+              "text": "CMIknnMixed: Oana-Iuliana Popescu, Andreas Gerhardus, Martin Rabel, Jakob Runge (2024), submitted to CLEAR 2025, https://arxiv.org/abs/2310.11132",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "AvJx_vgDir",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:52:26.704590Z",
+        "updated_at": "2025-11-03T05:52:26.704606Z",
+        "draft_created_at": "2025-11-03T05:52:24.258140Z",
+        "lead_time": 11.385,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "97ee3fe9-71c7-46fc-b2fe-d3e4951f2d89",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2425,
+        "project": 23540,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "CMIknn: J. Runge (2018): Conditional Independence Testing Based on a Nearest-Neighbor Estimator of Conditional Mutual Information. In Proceedings of the 21st International Conference on Artificial Intelligence and Statistics. http://proceedings.mlr.press/v84/runge18a.html\n\nCausalEffects: J. Runge, Necessary and sufficient graphical conditions for optimal adjustment sets in causal graphical models with hidden variables, Advances in Neural Information Processing Systems, 2021, 34. https://proceedings.neurips.cc/paper/2021/hash/8485ae387a981d783f8764e508151cd9-Abstract.html\n\nCMIknnMixed: Oana-Iuliana Popescu, Andreas Gerhardus, Martin Rabel, Jakob Runge (2024), submitted to CLEAR 2025, https://arxiv.org/abs/2310.11132",
+      "section": "Tigramite – Causal inference for time series datasets (part 6)",
+      "repo": "332_Tigramite",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.763012Z",
+    "updated_at": "2025-11-03T05:52:26.730165Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23540,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2426,
+    "annotations": [
+      {
+        "id": 10141,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 533,
+              "end": 538,
+              "text": "numpy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "TGsAd4fPQi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 546,
+              "end": 551,
+              "text": "scipy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "bSrcGgZoHQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 561,
+              "end": 566,
+              "text": "numba",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "7xvOJpiVIC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 626,
+              "end": 638,
+              "text": "scikit-learn",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "_9GmBXtynu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 680,
+              "end": 690,
+              "text": "matplotlib",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "1kapgt4KW5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 710,
+              "end": 717,
+              "text": "seaborn",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "-ks750Bd0h",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 738,
+              "end": 746,
+              "text": "networkx",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "3EU8bk_doK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 764,
+              "end": 769,
+              "text": "torch",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "fGhUCg5MAy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 829,
+              "end": 837,
+              "text": "gpytorch",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Ki5ouh_6iM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 870,
+              "end": 874,
+              "text": "dcor",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "NAuRWhoAcC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 917,
+              "end": 923,
+              "text": "joblib",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "32EbRfjmq0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 966,
+              "end": 973,
+              "text": "ortools",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "os022-D76s",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 538,
+              "end": 544,
+              "text": ">=1.18",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "rR0QuT8ANp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 551,
+              "end": 559,
+              "text": ">=1.10.0",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "rYC8aWIe45",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 566,
+              "end": 574,
+              "text": ">=0.56.4",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "9TtNxM1DKM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 638,
+              "end": 643,
+              "text": ">=1.2",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "rbZw9B3GKV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 690,
+              "end": 697,
+              "text": ">=3.7.0",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "LZQkHbg5_u",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 717,
+              "end": 725,
+              "text": ">=0.12.2",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "y_5fujR_JN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 746,
+              "end": 751,
+              "text": ">=3.0",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "2F1nkO3PNB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 769,
+              "end": 777,
+              "text": ">=1.13.1",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "N2TMVmqIGH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 837,
+              "end": 844,
+              "text": ">=1.9.1",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "IsUHzkJTFy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 874,
+              "end": 879,
+              "text": ">=0.6",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "1UrFJvdW_m",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 923,
+              "end": 930,
+              "text": ">=1.2.0",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "CI4krYd58o",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 973,
+              "end": 978,
+              "text": ">=9.2",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "OySAedhiAO",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 519,
+              "end": 531,
+              "text": "python>=3.10",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "6FcZYtWegG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:53:20.770787Z",
+        "updated_at": "2025-11-17T00:03:52.704475Z",
+        "draft_created_at": "2025-11-03T05:52:37.181854Z",
+        "lead_time": 157.42499999999998,
+        "prediction": {},
+        "result_count": 25,
+        "unique_id": "a4f4f7e3-9ff5-421d-a851-36a3d87ce3d6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2426,
+        "project": 23540,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Features\n\nflexible conditional independence test statistics adapted to\n\ncontinuously-valued, discrete and mixed data, and different assumptions about  linear or nonlinear dependencies handling of missing values and masks\n\np-value correction and (bootstrap) confidence interval estimation\n\ncausal effect class to non-parametrically estimate (conditional) causal effects and also linear mediated causal effects\n\nprediction class based on sklearn models including causal feature selection\n\n## Required python packages\n\npython>=3.10\n\nnumpy>=1.18\n\nscipy>=1.10.0\n\nnumba>=0.56.4\n\n## Optional packages depending on used functions\n\nscikit-learn>=1.2 # Gaussian Process (GP) Regression\n\nmatplotlib>=3.7.0 # Plotting\n\nseaborn>=0.12.2 # Plotting\n\nnetworkx>=3.0 # Plotting\n\ntorch>=1.13.1 # GPDC pytorch version (in conda install pytorch)\n\ngpytorch>=1.9.1 # GPDC gpytorch version\n\ndcor>=0.6 # GPDC distance correlation version\n\njoblib>=1.2.0 # CMIsymb shuffle parallelization\n\nortools>=9.2 # RPCMCI\n\n## Installation\n\npython setup.py install\n\nThis will install tigramite in your path.\n\nTo use just the ParCorr, CMIknn, and CMIsymb independence tests, only numpy/numba and scipy are required. For other independence tests more packages are required:\n\nGPDC: scikit-learn is required for Gaussian Process regression and dcor for distance correlation\n\nGPDCtorch: gpytorch is required for Gaussian Process regression\n\nNote: Due to incompatibility issues between numba and numpy, we currently enforce soft dependencies on the versions.",
+      "section": "Tigramite – Causal inference for time series datasets (part 7)",
+      "repo": "332_Tigramite",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.763037Z",
+    "updated_at": "2025-11-17T00:03:52.737587Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23540,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2427,
+    "annotations": [
+      {
+        "id": 10142,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 427,
+              "end": 458,
+              "text": "GNU General Public License v3.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "9SEgR1dJmC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 552,
+              "end": 578,
+              "text": "GNU General Public License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "1vMQXhpysY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 882,
+              "end": 908,
+              "text": "GNU General Public License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "zbTzdw5dny",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:53:28.822152Z",
+        "updated_at": "2025-11-14T11:43:03.849693Z",
+        "draft_created_at": null,
+        "lead_time": 39.642,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "0e88b4c3-eeb1-4f07-805b-4b47a4cd0a06",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2427,
+        "project": 23540,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## User Agreement\n\nBy downloading TIGRAMITE you agree with the following points: TIGRAMITE is provided without any warranty or conditions of any kind. We assume no responsibility for errors or omissions in the results and interpretations following from application of TIGRAMITE.\n\nYou commit to cite above papers in your reports or publications.\n\n## License\n\nCopyright (C) 2014-2025 Jakob Runge\n\nSee license.txt for full text.\n\nGNU General Public License v3.0\n\nTIGRAMITE is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version. TIGRAMITE is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.",
+      "section": "Tigramite – Causal inference for time series datasets (part 8)",
+      "repo": "332_Tigramite",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.763060Z",
+    "updated_at": "2025-11-14T11:43:03.886922Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23540,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/sanctuuary/APE",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java",
+    "Common Workflow Language",
+    "ANTLR"
+  ],
+  "downloadUrl": "https://api.github.com/repos/sanctuuary/APE/zipball/main",
+  "author": "sanctuuary",
+  "dateCreated": "2019-12-13T14:50:58Z",
+  "dateModified": "2025-10-27T10:02:50Z",
+  "keywords": [
+    "automated-pipeline",
+    "java",
+    "program-synthesis",
+    "workflow-synthesis"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Tool for automated generation of computational workflows.",
+  "identifier": 227861653,
+  "name": "sanctuuary/APE",
+  "issueTracker": "https://api.github.com/repos/sanctuuary/APE/issues",
+  "readme": "https://github.com/sanctuuary/APE/blob/main/README.md"
+}

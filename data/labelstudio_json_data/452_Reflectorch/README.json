@@ -1,0 +1,42 @@
+[
+  {
+    "data": {
+      "text": "Reflectorch\n\n[](https://pytorch.org/) [](https://numpy.org/) [](https://scipy.org/) [](https://matplotlib.org/) [](https://yaml.org/) [](https://huggingface.co/valentinsingularity/reflectivity)\n\n[](https://www.python.org/)\n\n[](https://jupyterbook.org/) [](https://schreiber-lab.github.io/reflectorch/)",
+      "section": "Reflectorch (part 1)",
+      "repo": "452_Reflectorch",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Reflectorch is a machine learning Python package for the analysis of X-ray and neutron reflectometry data, written by [Vladimir Starostin] https://github.com/StarostinV/ & [Valentin Munteanu] https://github.com/valentinsingularity at the University of T\u00fcbingen. It provides functionality for the fast simulation of reflectometry curves on the GPU, customizable setup of the physical parameterization model and neural network architecture via YAML configuration files, and prior-aware training of neural networks as described in our paper [Neural network analysis of neutron and X-ray reflectivity data incorporating prior knowledge] https://doi.org/10.1107/S1600576724002115.",
+      "section": "Reflectorch (part 2)",
+      "repo": "452_Reflectorch",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Installation\n\nReflectorch can be installed from [](https://pypi.org/project/reflectorch/) via `pip`:\n\npip install reflectorch\n\nAlternatively, one can clone the entire Github repository and install the package in editable mode:\n\ngit clone https://github.com/schreiber-lab/reflectorch.git pip install -e .\n\nFor development purposes, the package can be installed together with the optional dependencies for building the distribution, testing and documentation:\n\ngit clone https://github.com/schreiber-lab/reflectorch.git pip install -e .[tests,docs,build]\n\nUsers with Nvidia GPUs need to additionally install Pytorch with CUDA support corresponding to their hardware and operating system according to the instructions from the [Pytorch website] https://pytorch.org/get-started/locally/",
+      "section": "Reflectorch (part 3)",
+      "repo": "452_Reflectorch",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Get started\n\n[](https://schreiber-lab.github.io/reflectorch/)  The full documentation of the package, containing tutorials and the API reference, was built with [Jupyter Book] https://jupyterbook.org/ and [Sphinx] https://www.sphinx-doc.org and it is hosted at the address: [https://schreiber-lab.github.io/reflectorch/] https://schreiber-lab.github.io/reflectorch/.\n\n[](https://colab.research.google.com/drive/1rf_M8S_5kYvUoK0-9-AYal_fO3oFl7ck?usp=sharing) We provide an interactive Google Colab notebook for exploring the basic functionality of the package: [](https://colab.research.google.com/drive/1rf_M8S_5kYvUoK0-9-AYal_fO3oFl7ck?usp=sharing)\n\n[](https://huggingface.co/valentinsingularity/reflectivity) Configuration files and the corresponding pretrained model weights are hosted on Huggingface: [https://huggingface.co/valentinsingularity/reflectivity] https://huggingface.co/valentinsingularity/reflectivity.\n\n## Contributing\n\nIf you'd like to contribute to the package, please see our [Contributing Guidelines] CONTRIBUTING.md for details.",
+      "section": "Reflectorch (part 4)",
+      "repo": "452_Reflectorch",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Citation\n\nIf you find our work useful in your research, please cite as follows:\n\n@Article{Munteanu2024,  author = {Munteanu, Valentin and Starostin, Vladimir and Greco, Alessandro and Pithan, Linus and Gerlach, Alexander and Hinderhofer, Alexander and Kowarik, Stefan and Schreiber, Frank},  journal = {Journal of Applied Crystallography},  title = {Neural network analysis of neutron and X-ray reflectivity data incorporating prior knowledge},  year = {2024},  issn = {1600-5767},  month = mar,  number = {2},  volume = {57},  doi = {10.1107/s1600576724002115},  publisher = {International Union of Crystallography (IUCr)}, }",
+      "section": "Reflectorch (part 5)",
+      "repo": "452_Reflectorch",
+      "source_file": "readme.md"
+    }
+  }
+]

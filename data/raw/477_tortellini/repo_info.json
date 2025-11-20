@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/tortellini-tools/action",
+  "programmingLanguage": "TypeScript",
+  "programmingLanguages": [
+    "TypeScript",
+    "JavaScript"
+  ],
+  "downloadUrl": "https://api.github.com/repos/tortellini-tools/action/zipball/main",
+  "author": "tortellini-tools",
+  "dateCreated": "2021-05-04T12:31:29Z",
+  "dateModified": "2022-04-19T12:45:30Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "GH action to check dependency licence issues using ort",
+  "identifier": 364249421,
+  "name": "tortellini-tools/action",
+  "issueTracker": "https://api.github.com/repos/tortellini-tools/action/issues",
+  "readme": "https://github.com/tortellini-tools/action/blob/main/README.md"
+}

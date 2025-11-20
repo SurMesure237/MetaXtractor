@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": "Byteparsing\n\n[](https://pypi.python.org/pypi/byteparsing/) [](https://codecov.io/gh/parallelwindfarms/byteparsing) [](https://fair-software.eu) [](https://doi.org/10.5281/zenodo.4734194) [](https://doi.org/10.21105/joss.05293)\n\nByteparsing is a package for mixed text and binary parsing in Python. The main driver for developing this package was to write a parser for binary OpenFOAM files. The binary file format in OpenFOAM is \"special\". It is the same as the ASCII based text format, except where large blocks of floating point data are concerned.\n\nWhen not to use byteparsing:\n\nYou just need to parse some text: use pyparsing, it is the industry's standard.\n\nDo use byteparsing if:\n\nYou need to tinker with large binary OpenFOAM files directly from Python.  There is a different package that does not adhere to data standards and hacked together its own mixed ASCII/binary file format. You will have to roll out your own parser. Byteparsing can make this easier.\n\nCoolest feature:\n\nWorks with mmap and numpy! This means you can open the file without reading it entirely into memory, change the NumPy array data and the changes are automatically saved to disk.",
+      "section": "Byteparsing (part 1)",
+      "repo": "418_byteparsing",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Documentation\n\nOur [documentation] https://parallelwindfarms.github.io/byteparsing explains the architecture behind byteparsing and shows some examples of parsing mixed binary and ASCII data.\n\n## Example: PPM files\n\nByteparsing is a functional parser combinator (recursive descent) library. To show how we can mix ASCII and binary data, we have an example where we parse Portable PixMap files (PPM). These files have a small ASCII header and the image itself in binary. The header looks something like this:\n\nP6 # this marks the file type in the Netpbm family 640 480 256\n\nThe implementation of the parser:\n\nimport numpy as np from dataclasses import dataclass from byteparsing import parse_bytes from byteparsing.parsers import (  text_literal, integer, eol, named_sequence, sequence, construct,  tokenize, item, array, fmap, text_end_by, optional)\n\ncomment = sequence(text_literal(\"#\"), text_end_by(\"\\n\"))\n\n@dataclass class Header:  width: int  height: int  maxint: int\n\nheader = named_sequence(  _1 = tokenize(text_literal(\"P6\")),  _2 = optional(comment),  width = tokenize(integer),  height = tokenize(integer),  maxint = tokenize(integer)) >> construct(Header)\n\ndef image_bytes(header: Header):  shape = (header.height, header.width, 3)  size = header.height header.width 3  return array(np.uint8, size) >> fmap(lambda a: a.reshape(shape))\n\nppm_image = header >> image_bytes\n\nFor more, check out the [documentation] https://parallelwindfarms.github.io/byteparsing!\n\n## Requirements\n\nThis package requires Python (>=3.9), and optionally Numpy.\n\n## Installation\n\n### With pip\n\nTo install the latest release of byteparsing, do:\n\n```{.console} pip install byteparsing",
+      "section": "Byteparsing (part 2)",
+      "repo": "418_byteparsing",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Development with Poetry\n\nThis project uses Poetry to maintain pyproject.toml.\n\n``{.console} git clone https://github.com/parallelwindfarms/byteparsing.git cd byteparsing poetry install\n\nRun tests (including coverage) with:\n\n`` {.console} poetry run pytest\n\n### Contributing\n\nIf you want to contribute to the development of byteparsing, have a look at the [contribution guidelines] CONTRIBUTING.rst.\n\n### License\n\nCopyright (c) 2019, Netherlands eScience Center, University of Groningen\n\nLicensed under the Apache License, Version 2.0 (the \\\"License\\\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \\\"AS IS\\\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\n\n### Credits\n\nThis package was created with [Cookiecutter] https://github.com/audreyr/cookiecutter and the [NLeSC/python-template] https://github.com/NLeSC/python-template.",
+      "section": "Byteparsing (part 3)",
+      "repo": "418_byteparsing",
+      "source_file": "readme.md"
+    }
+  }
+]

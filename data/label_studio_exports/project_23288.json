@@ -1,0 +1,465 @@
+[
+  {
+    "id": 1147,
+    "annotations": [
+      {
+        "id": 11135,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 67,
+              "end": 105,
+              "text": "https://doi.org/10.5281/zenodo.1193639",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "7U-IRirFgt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 110,
+              "end": 151,
+              "text": "https://doi.org/10.1186/s12859-018-2165-7",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "UXDUUYPkpZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 27,
+              "end": 62,
+              "text": "https://travis-ci.org/candYgene/QTM",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "aEZb4u9uXC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 833,
+              "end": 845,
+              "text": "Apache Maven",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "49YxBP4gua",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 879,
+              "end": 885,
+              "text": "SQLite",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "94PM0VTdHS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 913,
+              "end": 924,
+              "text": "Apache Solr",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "pvquqYPfAj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1044,
+              "end": 1057,
+              "text": "Gene Ontology",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "3sU5hus_yq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1101,
+              "end": 1121,
+              "text": "Plant Trait Ontology",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "2d1hwU3bZQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1165,
+              "end": 1192,
+              "text": "Phenotypic quality ontology",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "pzEXqWA4x8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1240,
+              "end": 1269,
+              "text": "Solanaceae Phenotype Ontology",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "xYcjIBLAwU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1322,
+              "end": 1341,
+              "text": "STATistics Ontology",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Hjw_mitLSr",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1391,
+              "end": 1431,
+              "text": "Chemical Entities of Biological Interest",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "zVqqqBv5Ss",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1123,
+              "end": 1157,
+              "text": "http://www.ontobee.org/ontology/TO",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "awSDJ14lQI",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1194,
+              "end": 1231,
+              "text": "http://www.ontobee.org/ontology/PATO ",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "6JfkMw_W0h",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1271,
+              "end": 1312,
+              "text": "http://purl.bioontology.org/ontology/SPTO",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "pfWSZGxgzY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1433,
+              "end": 1461,
+              "text": "https://www.ebi.ac.uk/chebi/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "QKADmIMBAx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1343,
+              "end": 1380,
+              "text": "http://www.ontobee.org/ontology/STATO",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "if_hkmRBRY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 887,
+              "end": 906,
+              "text": "https://sqlite.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "OZK7AWne4c",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 926,
+              "end": 957,
+              "text": "https://lucene.apache.org/solr/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "S-bnudkrmq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 847,
+              "end": 873,
+              "text": "https://maven.apache.org/ ",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "is9zvlwPgq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1059,
+              "end": 1093,
+              "text": "http://www.ontobee.org/ontology/GO",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "ECrST8ap0s",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T23:22:45.860376Z",
+        "updated_at": "2025-11-16T04:44:43.353992Z",
+        "draft_created_at": "2025-11-05T23:21:07.003629Z",
+        "lead_time": 367.955,
+        "prediction": {},
+        "result_count": 21,
+        "unique_id": "101f7258-fd23-4b2b-99c7-6bea6cbfe66c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1147,
+        "project": 23288,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "QTL TableMiner++ (QTM)\n\n[](https://travis-ci.org/candYgene/QTM) [](https://doi.org/10.5281/zenodo.1193639) [](https://doi.org/10.1186/s12859-018-2165-7)\n\n## Description\n\nA significant amount of experimental information about [_Quantitative Trait Locus_] https://en.wikipedia.org/wiki/Quantitative_trait_locus (QTL) studies are described in (heterogenous) tables of scientific articles. Briefly, a QTL is a genomic region that correlates with a trait of interest (phenotype). _QTM_ is a command-line tool to retrieve and semantically annotate results obtained from QTL mapping experiments. It takes full-text articles from the [Europe PMC] https://europepmc.org/ repository as input and outputs QTLs in a relational database (SQLite, see the [ER diagram] doc/ER_diagram.png) and a text file (CSV).\n\n## Requirements\n\nOracle/OpenJDK8  [Apache Maven] https://maven.apache.org/ 3.x  [SQLite] https://sqlite.org/ 3.x  [Apache Solr] https://lucene.apache.org/solr/ 6.x with cores based on domain-specific vocabularies and ontologies (_Solr cores_):  [Gene Ontology] http://www.ontobee.org/ontology/GO (GO)  [Plant Trait Ontology] http://www.ontobee.org/ontology/TO (TO)  [Phenotypic quality ontology] http://www.ontobee.org/ontology/PATO (PATO)  [Solanaceae Phenotype Ontology] http://purl.bioontology.org/ontology/SPTO (SPTO)  [STATistics Ontology] http://www.ontobee.org/ontology/STATO (STATO)  [Chemical Entities of Biological Interest] https://www.ebi.ac.uk/chebi/ (ChEBI) access to full-text articles (in XML) from [Europe PMC] https://europepmc.org/",
+      "section": "QTL TableMiner++ (QTM) (part 1)",
+      "repo": "230_QTLTableMiner__",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.214777Z",
+    "updated_at": "2025-11-16T04:44:43.390660Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23288,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1148,
+    "annotations": [
+      {
+        "id": 11136,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T23:22:51.944288Z",
+        "updated_at": "2025-11-05T23:22:51.944301Z",
+        "draft_created_at": null,
+        "lead_time": 5.865,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "42342e89-470c-40b0-af25-344c02e9bba9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1148,
+        "project": 23288,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Installation\n\ngit clone https://github.com/PBR/QTM.git cd QTM mvn clean install solr/install.sh\n\n## Usage\n\n./QTM -h usage: QTM [-h] [-v] [-o OUTPUT] [-c CONFIG] [-V VERBOSE] FILE\n\nSoftware to extract QTL data from full-text articles.\n\npositional arguments:  FILE input list of articles (PMCIDs, one per line)\n\nnamed arguments:  -h, --help show this help message and exit  -v, --version show version and exit  -o OUTPUT, --output OUTPUT  filename prefix for output in SQLite (.db) and text (.csv) files (default: qtl)  -c CONFIG, --config CONFIG  config file (default: config.properties)  -V VERBOSE, --verbose VERBOSE  verbosity console output: 0-7 for OFF, FATAL, ERROR, WARN, INFO, DEBUG, TRACE or ALL (default: 4 [INFO])\n\n## Example data\n\ninput: articles.txt and config.properties files\n\noutput: qtl.csv and qtl.db files\n\nNote: If you don't have access to Internet or Europe PMC, you can still run _QTM_ on XML files stored in the [data] data/ directory.",
+      "section": "QTL TableMiner++ (QTM) (part 2)",
+      "repo": "230_QTLTableMiner__",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.214814Z",
+    "updated_at": "2025-11-05T23:22:51.969988Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23288,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1149,
+    "annotations": [
+      {
+        "id": 11137,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T23:22:52.868008Z",
+        "updated_at": "2025-11-05T23:22:52.868028Z",
+        "draft_created_at": null,
+        "lead_time": 0.748,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "1d65d54a-e662-425b-94bf-90e74b720bbe",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1149,
+        "project": 23288,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "cp data/*.xml . ./QTM articles.txt",
+      "section": "cp data/*.xml .",
+      "repo": "230_QTLTableMiner__",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.214837Z",
+    "updated_at": "2025-11-05T23:22:52.896564Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23288,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

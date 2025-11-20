@@ -1,0 +1,27 @@
+{
+  "codeRepository": "https://github.com/geomedialab/atlascine",
+  "programmingLanguage": "JavaScript",
+  "programmingLanguages": [
+    "JavaScript",
+    "CSS",
+    "HTML"
+  ],
+  "downloadUrl": "https://api.github.com/repos/geomedialab/atlascine/zipball/main",
+  "author": "geomedialab",
+  "dateCreated": "2021-04-13T02:08:50Z",
+  "dateModified": "2025-10-08T18:39:26Z",
+  "keywords": [
+    "cartography",
+    "geovisualization",
+    "multimedia",
+    "storymapping",
+    "visualization-tools",
+    "webmapping"
+  ],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "This public repository contains a fully functional AtlasCine template. You will also find all documentation related to Atlascine's use and deployment in this repository's wiki.",
+  "identifier": 357396066,
+  "name": "geomedialab/atlascine",
+  "issueTracker": "https://api.github.com/repos/geomedialab/atlascine/issues",
+  "readme": "https://github.com/geomedialab/atlascine/blob/main/README.md"
+}

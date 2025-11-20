@@ -1,0 +1,38 @@
+{
+  "codeRepository": "https://github.com/openPMD/openPMD-api",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "Python",
+    "CMake",
+    "Dockerfile",
+    "Shell",
+    "PowerShell",
+    "Singularity",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/openPMD/openPMD-api/zipball/main",
+  "author": "openPMD",
+  "dateCreated": "2017-05-05T13:10:42Z",
+  "dateModified": "2025-10-28T17:47:42Z",
+  "keywords": [
+    "adios",
+    "cpp17",
+    "file-handling",
+    "hdf5",
+    "hpc",
+    "metadata",
+    "mpi",
+    "opendata",
+    "openpmd",
+    "openscience",
+    "python3",
+    "research"
+  ],
+  "license": "https://api.github.com/licenses/lgpl-3.0",
+  "description": ":floppy_disk: C++ & Python API for Scientific I/O",
+  "identifier": 90376890,
+  "name": "openPMD/openPMD-api",
+  "issueTracker": "https://api.github.com/repos/openPMD/openPMD-api/issues",
+  "readme": "https://github.com/openPMD/openPMD-api/blob/dev/README.md"
+}

@@ -1,0 +1,563 @@
+[
+  {
+    "id": 2244,
+    "annotations": [
+      {
+        "id": 10272,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:42:22.600214Z",
+        "updated_at": "2025-11-03T06:42:22.600232Z",
+        "draft_created_at": null,
+        "lead_time": 2.987,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "cfbc6930-48f3-4fa8-a7c5-a1e323cf00c0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2244,
+        "project": 23504,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "quafing developer documentation\n\nIf you're looking for user documentation, go [here] README.md.\n\n## Development install\n\nCreate a virtual environment, e.g. with python3 -m venv env\n\nactivate virtual environment source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools python3 -m pip install --upgrade pip setuptools\n\ninstall quafing as an editable package python3 -m pip install --no-cache-dir --editable .",
+      "section": "`quafing` developer documentation + Create a virtual environment, e.g. with + activate virtual environment (and 2 more)",
+      "repo": "163_quafing",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.160875Z",
+    "updated_at": "2025-11-03T06:42:22.628035Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23504,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2245,
+    "annotations": [
+      {
+        "id": 10273,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1469,
+              "end": 1479,
+              "text": "prospector",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "yhJVseGm32",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1551,
+              "end": 1556,
+              "text": "isort",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "N6CnBaCmte",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 363,
+              "end": 366,
+              "text": "tox",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "bW064Szh85",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1481,
+              "end": 1517,
+              "text": "https://pypi.org/project/prospector/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "eKGWnxGI9b",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1558,
+              "end": 1588,
+              "text": "https://pycqa.github.io/isort/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "yeka8ekF7q",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:43:02.332206Z",
+        "updated_at": "2025-11-14T11:29:21.143640Z",
+        "draft_created_at": "2025-11-03T06:42:35.774956Z",
+        "lead_time": 84.99,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "35bfc7d1-e91b-47a1-a5a3-2ecbd8742410",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2245,
+        "project": 23504,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "install development dependencies python3 -m pip install --no-cache-dir --editable .[dev]\n\nAfterwards check that the install directory is present in the PATH environment variable.\n\n## Running the tests\n\nThere are two ways to run tests.\n\nThe first way requires an activated virtual environment with the development tools installed:\n\npytest -v\n\nThe second is to use tox, which can be installed separately (e.g. with pip install tox), i.e. not necessarily inside the virtual environment you use for installing quafing, but then builds the necessary virtual environments itself by simply running:\n\ntox\n\nTesting with tox allows for keeping the testing environment separate from your development environment. The development environment will typically accumulate (old) packages during development that interfere with testing; this problem is avoided by testing with tox.\n\n### Test coverage\n\nIn addition to just running the tests to see if they pass, they can be used for coverage statistics, i.e. to determine how much of the package's code is actually executed during tests. In an activated virtual environment with the development tools installed, inside the package directory, run:\n\ncoverage run\n\nThis runs tests and stores the result in a .coverage file. To see the results on the command line, run\n\ncoverage report\n\ncoverage can also generate output in HTML and other formats; see coverage help for more information.\n\n## Running linters locally\n\nFor linting we will use [prospector] https://pypi.org/project/prospector/ and to sort imports we will use [isort] https://pycqa.github.io/isort/. Running the linters requires an activated virtual environment with the development tools installed.\n\nlinter prospector\n\nrecursively check import style for the quafing module only isort --recursive --check-only quafing",
+      "section": "install development dependencies + linter + recursively check import style for the quafing module only",
+      "repo": "163_quafing",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.160933Z",
+    "updated_at": "2025-11-14T11:29:21.182359Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23504,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2246,
+    "annotations": [
+      {
+        "id": 10274,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:43:15.022657Z",
+        "updated_at": "2025-11-03T06:43:15.022674Z",
+        "draft_created_at": null,
+        "lead_time": 12.496,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "950ba18a-8295-4f55-8cb0-6f88de2e8e41",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2246,
+        "project": 23504,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "any proposed changes as a diff isort --recursive --check-only --diff quafing\n\nrecursively fix import style for the quafing module only isort --recursive quafing\n\nTo fix readability of your code style you can use [yapf] https://github.com/google/yapf.\n\nYou can enable automatic linting with prospector and isort on commit by enabling the git hook from .githooks/pre-commit, like so:\n\ngit config --local core.hooksPath .githooks\n\n## Generating the API docs\n\ncd docs make html\n\nThe documentation will be in docs/_build/html\n\nIf you do not have make use\n\nsphinx-build -b html docs docs/_build/html\n\nTo find undocumented Python objects run\n\ncd docs make coverage cat _build/coverage/python.txt\n\nTo [test snippets] https://www.sphinx-doc.org/en/master/usage/extensions/doctest.html in documentation run\n\ncd docs make doctest\n\n## Versioning\n\nBumping the version across all files is done with [bumpversion] https://github.com/c4urself/bump2version, e.g.\n\nbumpversion major bumpversion minor bumpversion patch\n\n## Making a release\n\nThis section describes how to make a release in 3 parts:\n\npreparation\n\nmaking a release on PyPI\n\nmaking a release on GitHub\n\n### (1/3) Preparation\n\nUpdate the (don't forget to update links at bottom of page)\n\nVerify that the information in CITATION.cff is correct, and that .zenodo.json contains equivalent data\n\nMake sure the [version has been updated] #versioning.\n\nRun the unit tests with pytest -v\n\n### (2/3) PyPI\n\nIn a new terminal, without an activated virtual environment or an env directory:\n\nprepare a new directory cd $(mktemp -d quafing.XXXXXX)\n\nfresh git clone ensures the release has the state of origin/main branch git clone https://github.com/https://github.com/SDCCA/quafing .",
+      "section": "any proposed changes as a diff + recursively fix import style for the quafing module only + prepare a new directory (and 1 more)",
+      "repo": "163_quafing",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.160960Z",
+    "updated_at": "2025-11-03T06:43:15.047649Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23504,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2247,
+    "annotations": [
+      {
+        "id": 10275,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 143,
+              "end": 153,
+              "text": "setuptools",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "4coWA_t1BN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 135,
+              "end": 138,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "xnbKNxYILM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 187,
+              "end": 190,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Qfed-jV_SR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 191,
+              "end": 201,
+              "text": "setuptools",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "PcmgfIQDMA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:43:42.551285Z",
+        "updated_at": "2025-11-03T06:43:42.551297Z",
+        "draft_created_at": "2025-11-03T06:43:27.592555Z",
+        "lead_time": 27.358,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "e4bade2d-888b-4bfe-8b32-e7ac569521d3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2247,
+        "project": 23504,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "prepare a clean virtual environment and activate it python3 -m venv env source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools python3 -m pip install --upgrade pip setuptools\n\ninstall runtime dependencies and publishing dependencies python3 -m pip install --no-cache-dir . python3 -m pip install --no-cache-dir .[publishing]\n\nclean up any previously generated artefacts rm -rf quafing.egg-info rm -rf dist\n\ncreate the source distribution and the wheel python3 setup.py sdist bdist_wheel\n\nupload to test pypi instance (requires credentials) twine upload --repository-url https://test.pypi.org/legacy/ dist/\n\n[https://test.pypi.org/project/quafing] https://test.pypi.org/project/quafing and verify that your package was uploaded successfully. Keep the terminal open, we'll need it later.\n\nIn a new terminal, without an activated virtual environment or an env directory:\n\ncd $(mktemp -d quafing-test.XXXXXX)\n\nprepare a clean virtual environment and activate it python3 -m venv env source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools pip install --upgrade pip setuptools\n\ninstall from test pypi instance: python3 -m pip -v install --no-cache-dir \\ --index-url https://test.pypi.org/simple/ \\ --extra-index-url https://pypi.org/simple quafing\n\nCheck that the package works as it should when installed from pypitest.\n\nThen upload to pypi.org with:\n\nFINAL STEP: upload to PyPI (requires credentials) twine upload dist/\n\n### (3/3) GitHub\n\nDon't forget to also make a [release on GitHub] https://github.com/https://github.com/SDCCA/quafing/releases/new. If your repository uses the GitHub-Zenodo integration this will also trigger Zenodo into making a snapshot of your repository and sticking a DOI on it.",
+      "section": "prepare a clean virtual environment and activate it + make sure to have a recent version of pip and setuptools + install runtime dependencies and publishing dependencies (and 7 more)",
+      "repo": "163_quafing",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.160985Z",
+    "updated_at": "2025-11-03T06:43:42.579947Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23504,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2248,
+    "annotations": [
+      {
+        "id": 10276,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:43:49.850858Z",
+        "updated_at": "2025-11-03T06:43:49.850872Z",
+        "draft_created_at": null,
+        "lead_time": 7.119,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "2f363b91-44f9-40eb-ae6e-9d3cf94de151",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2248,
+        "project": 23504,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Badges\n\n(Customize these badges with your own links, and check https://shields.io/ or https://badgen.net/ to see which other badges are available.)",
+      "section": "Introduction (part 1)",
+      "repo": "163_quafing",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.161006Z",
+    "updated_at": "2025-11-03T06:43:49.872781Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23504,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2249,
+    "annotations": [
+      {
+        "id": 10277,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 365,
+              "end": 409,
+              "text": "https://zenodo.org/badge/latestdoi/492048903",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "HDbg66M4m6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:44:10.248393Z",
+        "updated_at": "2025-11-03T06:44:10.248421Z",
+        "draft_created_at": "2025-11-03T06:44:03.390117Z",
+        "lead_time": 20.22,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "1bdfb8de-6c2b-4431-80bb-5511678d6b3b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2249,
+        "project": 23504,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| fair-software.eu recommendations | | | :-- | :-- | | (1/5) code repository | [](https://github.com/https://github.com/SDCCA/quafing) | | (2/5) license | [](https://github.com/https://github.com/SDCCA/quafing) | | (3/5) community registry | [](https://www.research-software.nl/software/quafing) [](https://pypi.python.org/project/quafing/) | | (4/5) citation | [](https://zenodo.org/badge/latestdoi/492048903) | | (5/5) checklist | [](https://bestpractices.coreinfrastructure.org/projects/) | | howfairis | [](https://fair-software.eu) | | Other best practices | &nbsp; | | Static analysis | [](https://sonarcloud.io/dashboard?id=https://github.com/SDCCA_quafing) | | Coverage | [](https://sonarcloud.io/dashboard?id=https://github.com/SDCCA_quafing) |",
+      "section": "Introduction (part 2)",
+      "repo": "163_quafing",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.161028Z",
+    "updated_at": "2025-11-03T06:44:10.277392Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23504,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2250,
+    "annotations": [
+      {
+        "id": 12176,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 21,
+              "end": 75,
+              "text": "https://quafing.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "AkFNK1IgVq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-14T11:30:29.737037Z",
+        "updated_at": "2025-11-14T11:30:29.737056Z",
+        "draft_created_at": "2025-11-14T11:30:26.388935Z",
+        "lead_time": 8.581999999999999,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "f3606abd-0967-4f28-912a-c6d525eac31c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2250,
+        "project": 23504,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| Documentation | [](https://quafing.readthedocs.io/en/latest/?badge=latest) | | GitHub Actions | &nbsp; | | Build | [](https://github.com/https://github.com/SDCCA/quafing/actions/workflows/build.yml) | | Citation data consistency | [](https://github.com/https://github.com/SDCCA/quafing/actions/workflows/cffconvert.yml) | | SonarCloud | [](https://github.com/https://github.com/SDCCA/quafing/actions/workflows/sonarcloud.yml) | | MarkDown link checker | [](https://github.com/https://github.com/SDCCA/quafing/actions/workflows/markdown-link-check.yml) |",
+      "section": "Introduction (part 3)",
+      "repo": "163_quafing",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.161049Z",
+    "updated_at": "2025-11-14T11:30:29.766323Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23504,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2251,
+    "annotations": [
+      {
+        "id": 10279,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:44:38.892255Z",
+        "updated_at": "2025-11-03T06:44:38.892269Z",
+        "draft_created_at": null,
+        "lead_time": 12.645,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "457fc8e8-771b-4803-a915-f41572366943",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2251,
+        "project": 23504,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## How to use quafing\n\nQuestionnaire analysis using Fisher Information distance and non-parametric embedding\n\nThe project setup is documented in [project_setup.md] project_setup.md. Feel free to remove this document (and/or the link to this document) if you don't need it.\n\n## Installation\n\nTo install quafing from GitHub repository, do:\n\ngit clone https://github.com/https://github.com/SDCCA/quafing.git cd quafing python3 -m pip install .\n\n## Documentation\n\nInclude a link to your project's full documentation here.\n\n## Contributing\n\nIf you want to contribute to the development of quafing, have a look at the [contribution guidelines] CONTRIBUTING.md.\n\n## Credits\n\nThis package was created with [Cookiecutter] https://github.com/audreyr/cookiecutter and the [NLeSC/python-template] https://github.com/NLeSC/python-template.",
+      "section": "Introduction (part 4)",
+      "repo": "163_quafing",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.161071Z",
+    "updated_at": "2025-11-03T06:44:38.921631Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23504,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "codeRepository": "https://github.com/DeepRank/deeprank",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "R",
+    "C",
+    "Makefile",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/DeepRank/deeprank/zipball/main",
+  "author": "DeepRank",
+  "dateCreated": "2017-09-12T13:13:44Z",
+  "dateModified": "2025-08-04T16:08:53Z",
+  "keywords": [
+    "3d-cnn",
+    "docking",
+    "protein-protein-interaction",
+    "pytorch"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "This repository has been integrated in https://github.com/DeepRank/deeprank2",
+  "identifier": 103272485,
+  "name": "DeepRank/deeprank",
+  "issueTracker": "https://api.github.com/repos/DeepRank/deeprank/issues",
+  "readme": "https://github.com/DeepRank/deeprank/blob/master/README.md"
+}

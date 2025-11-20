@@ -1,0 +1,489 @@
+[
+  {
+    "id": 1302,
+    "annotations": [
+      {
+        "id": 12002,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 907,
+              "end": 1122,
+              "text": "Ramírez F, Ryan DP, Grüning B, Bhardwaj V, Kilpert F, Richter AS, Heyne S, Dündar F, Manke T. deepTools2: a next generation web server for deep-sequencing data analysis. __ Nucleic Acids Research. 2016 Apr 13:gkw257",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "hZrEoBnlHK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:36:43.057896Z",
+        "updated_at": "2025-11-09T07:36:43.057915Z",
+        "draft_created_at": null,
+        "lead_time": 7.246,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "11a4bb5c-24f4-40f1-bbff-d23e81700964",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1302,
+        "project": 23318,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "deepTools\n\nUser-friendly tools for exploring deep-sequencing data ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\ndeepTools addresses the challenge of handling the large amounts of data that are now routinely generated from DNA sequencing centers. deepTools contains useful modules to process the mapped reads data for multiple quality checks, creating normalized coverage files in standard bedGraph and bigWig file formats, that allow comparison between different files (for example, treatment and control). Finally, using such normalized and standardized files, deepTools can create many publication-ready visualizations to identify enrichments and for functional annotations of the genome.\n\nFor support or questions please make a post on Biostars __. For feature requests, please open an issue on github __.\n\nFor further documentation, please see our read the docs page __.\n\nCitation: ^^^^^^^^^\n\nRamírez F, Ryan DP, Grüning B, Bhardwaj V, Kilpert F, Richter AS, Heyne S, Dündar F, Manke T. deepTools2: a next generation web server for deep-sequencing data analysis. __ Nucleic Acids Research. 2016 Apr 13:gkw257.",
+      "section": "README",
+      "repo": "299_EnrichedHeatmap",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.252911Z",
+    "updated_at": "2025-11-09T07:36:43.088781Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23318,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1303,
+    "annotations": [
+      {
+        "id": 12003,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 13,
+              "end": 46,
+              "text": "http://deeptools.readthedocs.org/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "cSKy4Fav11",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:36:56.364804Z",
+        "updated_at": "2025-11-15T18:13:06.991979Z",
+        "draft_created_at": "2025-11-09T07:36:53.046964Z",
+        "lead_time": 17.648,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "2f41e9ab-9582-4e57-b649-18e685461267",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1303,
+        "project": 23318,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "deepTools [](http://deeptools.readthedocs.org/)  [](https://pypi.org/project/deepTools/)  [](http://bioconda.github.io/recipes/deeptools/README.html)",
+      "section": "deepTools (part 1)",
+      "repo": "299_EnrichedHeatmap",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.252957Z",
+    "updated_at": "2025-11-15T18:13:07.024185Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23318,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1304,
+    "annotations": [
+      {
+        "id": 12004,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:36:59.031798Z",
+        "updated_at": "2025-11-09T07:36:59.031821Z",
+        "draft_created_at": null,
+        "lead_time": 2.476,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "03569da7-1211-44c5-82c3-142ca99aa73f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1304,
+        "project": 23318,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://usegalaxy.eu/root?tool_id=deeptools_compute_matr",
+      "section": "deepTools (part 2)",
+      "repo": "299_EnrichedHeatmap",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.252985Z",
+    "updated_at": "2025-11-09T07:36:59.061134Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23318,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1305,
+    "annotations": [
+      {
+        "id": 12005,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:37:00.163124Z",
+        "updated_at": "2025-11-09T07:37:00.163144Z",
+        "draft_created_at": null,
+        "lead_time": 0.954,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "816a2c18-1bfc-423a-99ba-32b6e64429a4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1305,
+        "project": 23318,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "ix)",
+      "section": "deepTools (part 3)",
+      "repo": "299_EnrichedHeatmap",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.253010Z",
+    "updated_at": "2025-11-09T07:37:00.189145Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23318,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1306,
+    "annotations": [
+      {
+        "id": 12006,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:37:01.138626Z",
+        "updated_at": "2025-11-09T07:37:01.138665Z",
+        "draft_created_at": null,
+        "lead_time": 0.797,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "09e6d7df-fc2b-401d-a2b6-ede57b312aae",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1306,
+        "project": 23318,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "",
+      "section": "deepTools (part 4)",
+      "repo": "299_EnrichedHeatmap",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.253030Z",
+    "updated_at": "2025-11-09T07:37:01.166067Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23318,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1307,
+    "annotations": [
+      {
+        "id": 12007,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 836,
+              "end": 1126,
+              "text": "Ramírez F, Ryan DP, Grüning B, Bhardwaj V, Kilpert F, Richter AS, Heyne S, Dündar F, Manke T. [deepTools2: a next generation web server for deep-sequencing data analysis.] https://nar.oxfordjournals.org/content/early/2016/04/12/nar.gkw257.abstract Nucleic Acids Research. 2016 Apr 13:gkw257",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "uUBY8y9EMK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:37:11.140959Z",
+        "updated_at": "2025-11-09T07:37:11.140986Z",
+        "draft_created_at": null,
+        "lead_time": 9.833,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "cc51e67d-e147-49a0-84ca-7b65dec8626f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1307,
+        "project": 23318,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## User-friendly tools for exploring deep-sequencing data\n\ndeepTools addresses the challenge of handling the large amounts of data that are now routinely generated from DNA sequencing centers. deepTools contains useful modules to process the mapped reads data for multiple quality checks, creating normalized coverage files in standard bedGraph and bigWig file formats, that allow comparison between different files (for example, treatment and control). Finally, using such normalized and standardized files, deepTools can create many publication-ready visualizations to identify enrichments and for functional annotations of the genome.\n\nFor support or questions please post to [Biostars] http://biostars.org. For bug reports and feature requests please open an issue [on github] http://github.com/deeptools/deeptools.\n\n### Citation:\n\nRamírez F, Ryan DP, Grüning B, Bhardwaj V, Kilpert F, Richter AS, Heyne S, Dündar F, Manke T. [deepTools2: a next generation web server for deep-sequencing data analysis.] https://nar.oxfordjournals.org/content/early/2016/04/12/nar.gkw257.abstract Nucleic Acids Research. 2016 Apr 13:gkw257.",
+      "section": "deepTools (part 6)",
+      "repo": "299_EnrichedHeatmap",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.253053Z",
+    "updated_at": "2025-11-09T07:37:11.172469Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23318,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1308,
+    "annotations": [
+      {
+        "id": 12008,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 40,
+              "end": 73,
+              "text": "http://deeptools.readthedocs.org/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "lIis5MmbqW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1066,
+              "end": 1134,
+              "text": "https://deeptools.readthedocs.io/en/latest/content/installation.html",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "KOTjYnsJWh",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:37:56.866759Z",
+        "updated_at": "2025-11-15T18:13:15.419671Z",
+        "draft_created_at": "2025-11-09T07:37:23.645630Z",
+        "lead_time": 52.043,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "2a362530-b3cf-47a3-8bfb-68b3a9e81502",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1308,
+        "project": 23318,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Documentation:\n\nOur [documentation] http://deeptools.readthedocs.org/ contains more details on the [individual tool scopes and usages] http://deeptools.readthedocs.org/en/latest/content/list_of_tools.html and an [introduction to our deepTools Galaxy web server] http://deeptools.readthedocs.org/en/latest/content/help_galaxy_intro.html including [step-by-step protocols] http://deeptools.readthedocs.org/en/latest/content/example_usage.html.\n\nPlease see also the [FAQ] http://deeptools.readthedocs.org/en/latest/content/help_faq.html, which we update regularly. Our [Gallery] http://deeptools.readthedocs.org/en/latest/content/example_gallery.html may give you some more ideas about the scope of deepTools.\n\nFor more specific troubleshooting, feedback, and tool suggestions, please post [to Biostars] http://biostars.org.\n\n### Installation\n\ndeepTools are available for:\n\nCommand line usage (via pip / conda / github)  Integration into Galaxy servers (via toolshed/API/web-browser)\n\nThere are many easy ways to install deepTools. More details can be found [here] https://deeptools.readthedocs.io/en/latest/content/installation.html.\n\nIn Brief:\n\nInstall through pypi\n\n$ pip install deeptools\n\nInstall via conda\n\n$ conda install -c bioconda deeptools\n\nInstall by cloning the repository\n\n$ git clone https://github.com/deeptools/deepTools  $ cd deepTools  $ pip install .",
+      "section": "deepTools (part 7)",
+      "repo": "299_EnrichedHeatmap",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.253076Z",
+    "updated_at": "2025-11-15T18:13:15.454882Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23318,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1309,
+    "annotations": [
+      {
+        "id": 12009,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 569,
+              "end": 622,
+              "text": "http://deeptools.readthedocs.org/en/latest/index.html",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "cng69EbYtz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:38:37.858302Z",
+        "updated_at": "2025-11-15T18:13:20.971305Z",
+        "draft_created_at": "2025-11-09T07:38:13.213260Z",
+        "lead_time": 45.215999999999994,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "f6843b38-29bc-4936-b69e-409f94646bac",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1309,
+        "project": 23318,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Galaxy Installation\n\ndeepTools can be easily integrated into [Galaxy] http://galaxyproject.org. Please see the [installation instructions in our documentation] http://deeptools.readthedocs.io/en/latest/content/installation.html#galaxy-installation for further details.\n\nNote: From version 2.3 onwards, deepTools support python3.\n\nThis tool suite is developed by the [Bioinformatics Facility] http://www1.ie-freiburg.mpg.de/bioinformaticsfac at the [Max Planck Institute for Immunobiology and Epigenetics, Freiburg] http://www1.ie-freiburg.mpg.de/.\n\n[Documentation] http://deeptools.readthedocs.org/en/latest/index.html | [deepTools Galaxy] http://deeptools.ie-freiburg.mpg.de | [FAQ] http://deeptools.readthedocs.org/en/latest/content/help_faq.html",
+      "section": "deepTools (part 8)",
+      "repo": "299_EnrichedHeatmap",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.253115Z",
+    "updated_at": "2025-11-15T18:13:21.004360Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23318,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

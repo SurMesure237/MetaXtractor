@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/softwarepub/hermes",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/softwarepub/hermes/zipball/main",
+  "author": "softwarepub",
+  "dateCreated": "2022-03-07T10:10:02Z",
+  "dateModified": "2025-10-17T08:27:43Z",
+  "keywords": [
+    "automation",
+    "continuous-integration",
+    "fair-software",
+    "fair4rs",
+    "software-citation",
+    "software-metadata",
+    "software-publication"
+  ],
+  "license": null,
+  "description": "Implementation of the HERMES workflow",
+  "identifier": 467040440,
+  "name": "softwarepub/hermes",
+  "issueTracker": "https://api.github.com/repos/softwarepub/hermes/issues",
+  "readme": "https://github.com/softwarepub/hermes/blob/develop/README.md"
+}

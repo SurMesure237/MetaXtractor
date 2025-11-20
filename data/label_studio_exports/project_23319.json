@@ -1,0 +1,176 @@
+[
+  {
+    "id": 1310,
+    "annotations": [
+      {
+        "id": 11019,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 395,
+              "end": 416,
+              "text": "http://www.jemris.org",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "brPI26aC2w",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 525,
+              "end": 551,
+              "text": "GNU General Public License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "8gojytRIQB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 944,
+              "end": 970,
+              "text": "GNU General Public License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "RkvkDMPkDK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1373,
+              "end": 1394,
+              "text": "http://www.jemris.org",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "bsp-wi5gCQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1322,
+              "end": 1343,
+              "text": "http://www.jemris.org",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "4u8Ejrd9JK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:44:11.861651Z",
+        "updated_at": "2025-11-15T18:06:38.850167Z",
+        "draft_created_at": "2025-11-05T22:43:30.071417Z",
+        "lead_time": 94.506,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "8dc3e438-a08a-4d0f-8608-7d3e36d93e0d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1310,
+        "project": 23319,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "General Information\n\nJEMRIS is a general MRI simulation framework.\n\nThe general process of simulation consists of preparation by choice or implementation of sequence, sample and coil setup and the invocation of the simulation run itself.\n\nDocumentation\n\nIt is _highly_ recommended to read the provided documentation online. Please find the build, install, developer and user documentation under http://www.jemris.org.\n\nLicensing\n\nThis program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA\n\nFor an explicit declaration of licensing refer to the COPYING file in the root directory of this package.\n\nContact\n\nThis package is maintained by Tony Stoecker . Please find problem specific contact addresses on http://www.jemris.org.\n\nInstallation\n\nPlease visit http://www.jemris.org for detailed installation instructions.\n\nHow to report bugs\n\nIf you have identified a bug in JEMRIS you are welcome to send a detailed bug report to . Please include`\n\nInformation about your system\n\nWhich operating system and version (uname -a)\n\nWhich C compiler and version (gcc --version)\n\nAnd anything else you think is relevant.",
+      "section": "Introduction (part 1)",
+      "repo": "084_JEMRIS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.330821Z",
+    "updated_at": "2025-11-15T18:06:38.881345Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23319,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1311,
+    "annotations": [
+      {
+        "id": 11020,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:44:16.580003Z",
+        "updated_at": "2025-11-05T22:44:16.580020Z",
+        "draft_created_at": null,
+        "lead_time": 4.529,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "0e634200-98c2-4e14-82fc-8b1eccc07e0c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1311,
+        "project": 23319,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Information about your version of JEMRIS\n\nVersion and release number\n\nHow to reproduce the bug\n\nIf it is a systematical bug in JEMRIS please provide the\n\nsequence, the sample, the coils and the outputs from sequence or  simulation GUI to help us to reproduce the bug.\n\nPatches are most welcome. If possible please provide a pull request on github.",
+      "section": "Introduction (part 2)",
+      "repo": "084_JEMRIS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.330858Z",
+    "updated_at": "2025-11-05T22:44:16.609060Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23319,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

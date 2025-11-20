@@ -1,0 +1,409 @@
+[
+  {
+    "id": 1342,
+    "annotations": [
+      {
+        "id": 10937,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 980,
+              "end": 990,
+              "text": "PicoScenes",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "VuNdLeauZN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1013,
+              "end": 1039,
+              "text": "PicoScenes Python Toolbox]",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "j3HXX9flbW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1170,
+              "end": 1176,
+              "text": "espion",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "zTSK-ahS2F",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1222,
+              "end": 1228,
+              "text": "sensei",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "3cs7diQR7d",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1267,
+              "end": 1275,
+              "text": "usrpulse",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "5-5VRRUYpW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1312,
+              "end": 1318,
+              "text": "Nexmon",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "2EuwDsnzrO",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1103,
+              "end": 1131,
+              "text": "ath9k and iwl driver modules",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "b3chPyXBTq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 992,
+              "end": 1010,
+              "text": "https://ps.zpj.io/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "pYSEwbsgJX",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1040,
+              "end": 1100,
+              "text": "https://github.com/wifisensing/PicoScenes-Python-Toolbox.git",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "RdboMEa4Yl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1133,
+              "end": 1167,
+              "text": "https://github.com/nzqo/csi-go.git",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "HrueZY7mh6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1178,
+              "end": 1219,
+              "text": "https://github.com/benjamin-kl/ESPion.git",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "pQblBCJER5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1230,
+              "end": 1264,
+              "text": "https://github.com/nzqo/sensei.git",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "lCvN2sKqJF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1277,
+              "end": 1309,
+              "text": "https://github.com/nzqo/usrpulse",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "vQ1xoOegPl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1320,
+              "end": 1360,
+              "text": "https://github.com/seemoo-lab/nexmon.git",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "Dm3O1Epm6v",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:56:48.998606Z",
+        "updated_at": "2025-11-15T18:04:44.789648Z",
+        "draft_created_at": "2025-11-05T17:55:53.333515Z",
+        "lead_time": 128.84199999999998,
+        "prediction": {},
+        "result_count": 14,
+        "unique_id": "03f12de0-f6f0-45a2-8f3e-c964167ef941",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1342,
+        "project": 23327,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Sensession\n\nA completely over-engineered collection of scripts to run CSI capture experiments with receivers operated by multiple tools. Supports:\n\nMultiple tools (PicoScenes, Atheros QCA Tool, Nexmon-CSI, ESP32)\n\nDevice-level operation\n\nLow level shell scripts for common operations (e.g. putting devices into monitor mode)\n\nWiFi IQ-waveform generation and subsequent USRP transmission\n\nFrame caching\n\nConversion into a shared unified data format (parquet Dataframes)\n\nCommon CSI processing methods\n\nA helper submodule for long-running experiments (Campaigns)\n\nCampaign (de-)serialization, allowing to rerun failed parts of campaigns\n\n## Initial Setup\n\nBefore being able to use the things in this repo, some things have to be set up. If you are not using a Nexmon device, you should not need to install Nexmon, for example.\n\n### CSI Tools\n\nInstall the underlying tools. This framework only instruments them. Some of them are included as submodule. Links to the relevant pages:\n\n[PicoScenes] https://ps.zpj.io/\n\n[PicoScenes Python Toolbox] https://github.com/wifisensing/PicoScenes-Python-Toolbox.git\n\n[ath9k and iwl driver modules] https://github.com/nzqo/csi-go.git\n\n[espion] https://github.com/benjamin-kl/ESPion.git\n\n[sensei] https://github.com/nzqo/sensei.git\n\n[usrpulse] https://github.com/nzqo/usrpulse\n\n[Nexmon] https://github.com/seemoo-lab/nexmon.git\n\nSome installation hints:\n\nTo start, first initialize all submodules\n\n``bash  git submodule update --init --recursive  ``",
+      "section": "Sensession (part 1)",
+      "repo": "400_sensession",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.865690Z",
+    "updated_at": "2025-11-15T18:04:44.829049Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23327,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1343,
+    "annotations": [
+      {
+        "id": 10938,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:56:56.772507Z",
+        "updated_at": "2025-11-05T17:56:56.772524Z",
+        "draft_created_at": null,
+        "lead_time": 7.576,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "0b43605a-31d8-47f1-8122-c8153ace8ae1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1343,
+        "project": 23327,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### Picoscenes\n\nDon't forget to run switch5300Firmware csi\n\nDon't forget to build Picoscenes Python Toolbox\n\nIf you have PicoScenes license, put it in csi_tools/picoscenes-key.txt\n\nCheck sudo iw dev for wdev interfaces and delete if present (confuses PicoScenes)\n\nFor now, you need to manually set the monitor mode using array_prepare_for_picoscenes.\n\nWith recent updates, the basic monitor script doesn't do it for the tool anymore.. Install Picoscenes Toolbox cd csi_tools/PicoscenesToolbox && pip install -e .\n\n#### Nexmon\n\nNexmon is a firmware patching framework for broadcom chips. We use it to build a patched firmware that allows to extract CSI from e.g. rt-ac86u asus routers. To set up such a router from scratch first:\n\nStart by resetting the router (using the hard reset button)\n\nPossibly update firmware\n\nGo through the basic config via the web interface (e.g. at 192.168.0.1)\n\nPut the router in AP mode\n\nEnable ssh access through the web interface\n\nGive the router a static IP (e.g. 192.168.10.31)\n\nMake sure interface on host has compatible IP (with the subnet) assigned. You can\n\nset it manually in the settings or on the command line, e.g.:\n\n``bash  sudo ip addr add 192.168.10.1/24 dev eno1  `\n\nWe have moved to a new unreleased version of nexmon. We don't build it manually, but use a precompiled version shared with us that is found inside csi_tools/nexmon-csi. To set it up:\n\nDeploy the router directory onto router(s)\n\nLog onto routers, reload dhd and start ntp /jffs/CSING/reload.sh && /jffs/CSING/start_ntp.sh\n\nGeneral notes for using the routers:\n\nAsus routers must be power-cycled whenever you want to reload the kernel module\n\nNever store captures in /jffs, since exceeding its 36 MB` will brick the device",
+      "section": "Sensession (part 2)",
+      "repo": "400_sensession",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.865727Z",
+    "updated_at": "2025-11-05T17:56:56.802929Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23327,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1344,
+    "annotations": [
+      {
+        "id": 10939,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:56:59.685153Z",
+        "updated_at": "2025-11-05T17:56:59.685193Z",
+        "draft_created_at": null,
+        "lead_time": 2.722,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "35de737d-2376-4e2c-b389-a71d7dc385ee",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1344,
+        "project": 23327,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### MATLAB\n\nInstall Matlab together with WLan Toolbox into matlab_path\n\nPatch Toolbox using ./matlab/patch_wlan_toolbox.sh $matlab_path\n\nSet up a venv python -m venv .venv && source .venv/bin/activate\n\nInstall python engine cd $matlab_path/extern/engines/python && pip install .\n\n#### SDR\n\nWe recommend using usrpulse (see below) instead of the raw uhd SDR\n\nInstall uhd\n\n[Calibrate] https://files.ettus.com/manual/page_calibration.html the SDR\n\nBuild custom transmission script and make sure it aligns with path in\n\nscripts/transmit_from_sdr.sh For both receival and transmission, follow the usrp performance tips settings\n\n#### ESPion\n\nInstall esp-idf framework\n\nMake sure to use only the ESP32-S3 model for now, since it is the only non-buggy one\n\nInstall the appropriate esp-idf toolchain\n\nBuild and flash the espion/csilogger firmware\n\nGive yourself rights to access the serial ports:\n\nsudo usermod -a -G tty $USER sudo usermod -a -G dialout $USER\n\nYou might need to sudo apt remove brltty. Odd, but happens.\n\n#### Usrpulse\n\nThis one has to be installed on the machine on which you want to transmit from. Just make sure that the daemon is running when you start any sensession collection.\n\n#### Sensei\n\nSensei abstracts collection from a few different sources. We could either connect to a running sensei server instance using TCP/Websockets, or just use the binding for python directly. For now, we only do the latter.\n\nInstallation is simple: Make sure you have rust installed, then:",
+      "section": "Sensession (part 3)",
+      "repo": "400_sensession",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.865751Z",
+    "updated_at": "2025-11-05T17:56:59.715985Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23327,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1345,
+    "annotations": [
+      {
+        "id": 10940,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:57:02.683669Z",
+        "updated_at": "2025-11-05T17:57:02.683689Z",
+        "draft_created_at": null,
+        "lead_time": 2.82,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "a7272055-e004-4013-9ae2-c3f757771aac",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1345,
+        "project": 23327,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "make sure you are in your venv, then: cd ./csi_tools/sensei/py_binding pip install .\n\n### Framework config\n\nPopulate sense_config.toml with global settings (see EnvironmentConfig in /src/sensession/config.py for options)\n\nSet up passwordless SSH connections to remote devices in ~/.ssh/config, e.g.\n\n``config  Host sdr  HostName   PreferredAuthentications publickey  IdentityFile ~/.ssh/id_rsa  User   `\n\nObviously you will need a key and install that on the remote using ssh-copy-id.\n\n## Running the experiment\n\n### lib\n\nThe tools can be used programmatically. See the examples directory for a few examples.\n\n## General Information\n\n### QCA: Sounding Bit and address\n\nThe QCA card can not be used to extract CSI when the sounding bit in the phy preamble of the wifi frame is not set. Therefore, this card requires a separately crafted frame to be sent with the SDR compared to the others.\n\nWhen in monitor mode, the qca will only report CSI from frames with its actual MAC address set in the MAC header.\n\n### iwl5300: Magic MAC\n\nProbably as part of the firmware, the iwl5300 is not able to extract CSI in monitor mode from any frames not addressed to the weird magic MAC address 00:16:ea:12:34:56. We provide a dedicated frame config InterleavedIQFrameGroupConfig` to have alternating frames addressed to the iwl and the other cards.",
+      "section": "make sure you are in your venv, then:",
+      "repo": "400_sensession",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.865774Z",
+    "updated_at": "2025-11-05T17:57:02.710981Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23327,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

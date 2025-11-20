@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/CIPM-tools/CIPM",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java",
+    "Xtend",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/CIPM-tools/CIPM/zipball/main",
+  "author": "CIPM-tools",
+  "dateCreated": "2021-11-05T15:57:21Z",
+  "dateModified": "2025-06-21T09:38:51Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/epl-1.0",
+  "description": "commit-based Continuous Integration of Performance Models",
+  "identifier": 425005176,
+  "name": "CIPM-tools/CIPM",
+  "issueTracker": "https://api.github.com/repos/CIPM-tools/CIPM/issues",
+  "readme": "https://github.com/CIPM-tools/CIPM/blob/build-pipeline/README.md"
+}

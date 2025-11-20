@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/hoogenboom-group/Kievits-OSTEM-2023",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/hoogenboom-group/Kievits-OSTEM-2023/zipball/main",
+  "author": "hoogenboom-group",
+  "dateCreated": "2023-07-10T20:55:45Z",
+  "dateModified": "2024-09-24T14:33:29Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Code and analysis for publication titled \"Optical STEM detection for scanning electron microscopy\"",
+  "identifier": 664827921,
+  "name": "hoogenboom-group/Kievits-OSTEM-2023",
+  "issueTracker": "https://api.github.com/repos/hoogenboom-group/Kievits-OSTEM-2023/issues",
+  "readme": "https://github.com/hoogenboom-group/Kievits-OSTEM-2023/blob/main/README.md"
+}

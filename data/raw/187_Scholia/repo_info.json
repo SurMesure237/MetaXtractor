@@ -1,0 +1,40 @@
+{
+  "codeRepository": "https://github.com/WDscholia/scholia",
+  "programmingLanguage": "JavaScript",
+  "programmingLanguages": [
+    "JavaScript",
+    "Python",
+    "HTML",
+    "Jupyter Notebook",
+    "CSS",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/WDscholia/scholia/zipball/main",
+  "author": "WDscholia",
+  "dateCreated": "2016-10-09T21:07:00Z",
+  "dateModified": "2025-10-14T20:38:14Z",
+  "keywords": [
+    "bibliography",
+    "bibliometrics",
+    "bibtex",
+    "citations",
+    "code4lib",
+    "datacuration",
+    "dataviz",
+    "fairdata",
+    "hacktoberfest",
+    "latex",
+    "linked-open-data",
+    "literature",
+    "scientometrics",
+    "sparql",
+    "wikicite",
+    "wikidata"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Wikidata-based scholarly profiles ",
+  "identifier": 70430478,
+  "name": "WDscholia/scholia",
+  "issueTracker": "https://api.github.com/repos/WDscholia/scholia/issues",
+  "readme": "https://github.com/WDscholia/scholia/blob/main/README.rst"
+}

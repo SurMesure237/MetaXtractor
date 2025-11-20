@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1116,
+    "annotations": [
+      {
+        "id": 11138,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 104,
+              "end": 173,
+              "text": "https://hyperledger-fabric.readthedocs.io/en/release-2.2/install.html",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "hI2M3eUHOn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1327,
+              "end": 1338,
+              "text": "Kathara lab",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "fK_po5noqX",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1257,
+              "end": 1271,
+              "text": "Kathara binary",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "suYDvSjWNm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1293,
+              "end": 1317,
+              "text": "https://www.kathara.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "vd5iTwvqeO",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:07:33.395896Z",
+        "updated_at": "2025-11-16T13:30:22.743034Z",
+        "draft_created_at": "2025-11-06T05:06:43.991718Z",
+        "lead_time": 20741.779000000002,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "99cbcc6f-db24-4d4f-a14e-40373e9db892",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1116,
+        "project": 23284,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# Petrinet Smart Contract\n\nFirst get a fabric test network running by following th fabric online docs.\n\nhttps://hyperledger-fabric.readthedocs.io/en/release-2.2/install.html\n\nInstall fabric samples to build a test network with 3 organizations\n\ngit clone git clone https://github.com/dl4ld/fabric-samples.git\n\nInstall petrinet smart contract and application in fabric-samples\n\ncd fabric-samples git clone git clone https://github.com/dl4ld/petrinet.git\n\nStart test network with 3 organizations\n\ncd fabric-samples/test-network3 ./network.sh up createChannel -c mychannel -ca\n\nDeploy Petrinet smart contract\n\n./network.sh deployCC -ccn petrinet01 -ccp ~/fabric-samples/petrinet/chaincode-javascript/ -ccl javascript\n\nRun organization clients\n\ncd fabric-samples/petrinet/application-javascript/run_org3.sh petrinet01 cd fabric-samples/petrinet/application-javascript/run_org2.sh petrinet01 cd fabric-samples/petrinet/application-javascript/run_org1.sh petrinet01\n\nAccess web interface for each organization\n\nhttp://localhost:9391 http://localhost:9291 http://localhost:9191\n\nIf all works out, each url should show a web interface. click on NETS in the left side panel and click on the BLOCK network. This will show the DDoS Petri net use-case like so:\n\nInstall Kathara binary. Follow instructions https://www.kathara.org/\n\nInstall Kathara lab. We want to simulate a simple network like the following:\n\ngit clone https://github.com/dl4ld/network-lab.git\n\nStart lab\n\ncd network-lab kathara lstart\n\nStart mqtt server\n\n./start_mqtt.sh\n\nCreate control network\n\n./create_control_network.sh\n\nConnect nodes to control network\n\n./connect_nodes_to_control_network.sh",
+      "section": "README",
+      "repo": "266_Petri_Nets_on_Hyperledger",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.937035Z",
+    "updated_at": "2025-11-16T13:30:22.773047Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23284,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

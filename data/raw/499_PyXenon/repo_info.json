@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/xenon-middleware/pyxenon",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/xenon-middleware/pyxenon/zipball/main",
+  "author": "xenon-middleware",
+  "dateCreated": "2015-11-30T16:44:52Z",
+  "dateModified": "2024-01-16T13:04:13Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Python bindings for the Xenon API",
+  "identifier": 47132292,
+  "name": "xenon-middleware/pyxenon",
+  "issueTracker": "https://api.github.com/repos/xenon-middleware/pyxenon/issues",
+  "readme": "https://github.com/xenon-middleware/pyxenon/blob/master/README.rst"
+}

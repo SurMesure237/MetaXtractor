@@ -1,0 +1,162 @@
+[
+  {
+    "id": 2555,
+    "annotations": [
+      {
+        "id": 11728,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 616,
+              "end": 662,
+              "text": "https://juliaparallel.github.io/MPI.jl/stable/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "IfflW-fgGi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 699,
+              "end": 759,
+              "text": "https://juliaparallel.github.io/MPI.jl/stable/configuration/",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "QHiPb2vPys",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 92,
+              "end": 138,
+              "text": "https://juliaparallel.github.io/MPI.jl/stable/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "CETnHXWMXH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:44:50.272080Z",
+        "updated_at": "2025-11-14T12:36:34.641320Z",
+        "draft_created_at": "2025-11-09T05:44:25.239318Z",
+        "lead_time": 105.51,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "f3521168-d03e-422d-b549-585599f1a3ee",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2555,
+        "project": 23566,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "MPI interface for the Julia language\n\n[](https://juliaparallel.github.io/MPI.jl/latest/) [](https://juliaparallel.github.io/MPI.jl/stable/) [](https://github.com/JuliaParallel/MPI.jl/actions/workflows/UnitTests.yml) [](https://buildkite.com/julialang/mpi-dot-jl) [](https://codecov.io/github/JuliaParallel/MPI.jl?branch=master) [](https://coveralls.io/github/JuliaParallel/MPI.jl?branch=master)\n\nThis provides [Julia] https://julialang.org/ interface to the Message Passing Interface ([MPI] https://www.mpi-forum.org/), roughly inspired by [mpi4py] https://github.com/mpi4py/mpi4py/.\n\nPlease see the [documentation] https://juliaparallel.github.io/MPI.jl/stable/ for instructions on [configuration] https://juliaparallel.github.io/MPI.jl/stable/configuration/ and [usage] https://juliaparallel.github.io/MPI.jl/stable/usage/.\n\nBreaking changes with v0.20: The way how MPI.jl is configured to use different MPI implementations has changed from v0.19 to v0.20 in a non-backward-compatible manner. Specifically, most JULIA_MPI_XXX variables do not have an effect anymore. Please refer to the [docs] https://juliaparallel.org/MPI.jl/stable/configuration/#Migration-from-MPI.jl-v0.19-or-earlier for information on how to migrate your existing configuration.",
+      "section": "MPI interface for the Julia language",
+      "repo": "091_MPI.jl",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.662519Z",
+    "updated_at": "2025-11-14T12:36:34.680513Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23566,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2556,
+    "annotations": [
+      {
+        "id": 11729,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 835,
+              "end": 1049,
+              "text": "Simon Byrne, Lucas C. Wilcox, and Valentin Churavy (2021) \"MPI.jl: Julia bindings for the Message Passing Interface\". _JuliaCon Proceedings_, 1(1), 68, doi: [10.21105/jcon.00068] https://doi.org/10.21105/jcon.00068",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "SzY76OOPiq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:45:02.866317Z",
+        "updated_at": "2025-11-09T05:45:02.866332Z",
+        "draft_created_at": null,
+        "lead_time": 12.396,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "cbf448eb-7dde-4bce-9064-81d1ff3cf137",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2556,
+        "project": 23566,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Help and discussion\n\nFor help and discussion, we suggest asking on the following venues: [\"Julia at Scale\" topic on the Julia Discourse] https://discourse.julialang.org/c/domain/parallel/34\n\n#distributed channel on the [Julia Slack] https://julialang.slack.com/ (visit [https://julialang.org/slack/] https://julialang.org/slack/ to join).\n\nContributing\n\nContributions are encouraged. In particular, MPI provides several hundred functions, only a small number of which are currently exposed. If there are additional functions you would like to use, please open an [issue] https://github.com/JuliaParallel/MPI.jl/issues or [pull request] https://github.com/JuliaParallel/MPI.jl/pulls.\n\nAdditional examples and documentation improvements are also very welcome.\n\nCitation\n\nIf you use MPI.jl in your work, please cite the following paper:\n\nSimon Byrne, Lucas C. Wilcox, and Valentin Churavy (2021) \"MPI.jl: Julia bindings for the Message Passing Interface\". _JuliaCon Proceedings_, 1(1), 68, doi: [10.21105/jcon.00068] https://doi.org/10.21105/jcon.00068",
+      "section": "Help and discussion + Contributing + Citation",
+      "repo": "091_MPI.jl",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.662559Z",
+    "updated_at": "2025-11-09T05:45:02.902297Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23566,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "codeRepository": "https://github.com/nschloe/meshio",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Just",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/nschloe/meshio/zipball/main",
+  "author": "nschloe",
+  "dateCreated": "2015-11-10T00:08:11Z",
+  "dateModified": "2025-10-31T03:57:24Z",
+  "keywords": [
+    "engineering",
+    "mathematics",
+    "mesh",
+    "meshing",
+    "pypi",
+    "python",
+    "vtk"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": ":spider_web: input/output for many mesh formats",
+  "identifier": 45875786,
+  "name": "nschloe/meshio",
+  "issueTracker": "https://api.github.com/repos/nschloe/meshio/issues",
+  "readme": "https://github.com/nschloe/meshio/blob/main/README.md"
+}

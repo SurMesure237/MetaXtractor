@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "BaSiC\n\nMatlab code accompanying\n\nA BaSiC Tool for Background and Shading Correction of Optical Microscopy Images\n\nby Tingying Peng, Kurt Thorn, Timm Schroeder, Lichao Wang, Fabian J Theis, Carsten Marr\\, Nassir Navab\\, Nature Communication 8:14836 (2017). [doi: 10.1038/ncomms14836] http://www.nature.com/articles/ncomms14836.\n\nBaSiC is licensed under\n\n[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License] https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode\n\nIt is free for academic use and please contact us for any commercial use.\n\nA new Python implementation of BaSiC algorithm is [BaSiCPy] https://github.com/peng-lab/BaSiCPy, with documentation on [Pypi] https://basicpy.readthedocs.io/en/latest/.\n\n## Usage\n\n## Demo\n\nDownload demo data examples from [Dropbox] https://www.dropbox.com/s/plznvzdjglrse3h/Demoexamples.zip?dl=0 and run matlab files under example folder.\n\n## ImageJ/Fiji Plugin\n\nBaSiC is also available as a ImageJ/Fiji Plugin.\n\n### Installation instruction\n\nNote: If you do not have Fiji installed on your computer, you can download it from [Fiji website] http://fiji.sc/.",
+      "section": "BaSiC (part 1)",
+      "repo": "366_BaSiC",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Install via Fiji Updater\n\nStart Fiji and run the updater (\"Help->Update Fiji\")\n\nSelect the \"Manage Update Sites\" button at the bottom-left of the updater window\n\nScroll the list of available update sites to find \"BaSiC\" (Note: If you cannot find \"BaSiC\" in the list, select \"Add Update Sites\", Change the name field from default \"New\" to \"BaSiC\", set the URL field to http://sites.imagej.net/BaSiC/)\n\nCheck the box at the left of \"BaSiC\"\n\nSelect \"Close\"\n\nSelect \"Apply Changes\"\n\nRestart Fiji. BaSiC should appear in the Plugins menu.\n\nFrom now on, running the Fiji updater will also check for BaSiC updates, and install them if they are available.\n\n### Install manually\n\nPlease download [BaSiC Plugin] https://github.com/QSCD/BaSiC/blob/master/BaSiCPlugin.zip from this repository.\n\nCopy \u201cBaSiC_.jar\u201d to the \u201c$FIJIROOT/plugins\u201d folder of your Fiji/ImageJ installation.\n\nCopy all dependent jar files in the \"Dependent\" folder to your Fiji/ImageJ \"$FIJIROOT/jars\" directory.\n\n### Troubleshooting\n\nIf you get the error message\n\n\"java.lang.NoSuchMethodError: edu.emory.mathcs.utils.ConcurrencyUtils.submit\"\n\nmake sure that in your Fiji/ImageJ \"$FIJIROOT/jars\" directory, there is only one version of each jar from the \"Dependent\" folder. Particularly, delete jtransforms-2.4.jar and replace it with our jtransform.jar.\n\n## Issues\n\nIf you have any issues concerning BaSiC, please report them in the [Issues] https://github.com/QSCD/BaSiC/issues section of this GitHub repository and we will try to find a solution.\n\n## BaSiCPy\n\nPython version of BaSiC implementation (https://github.com/peng-lab/BaSiCPy)",
+      "section": "BaSiC (part 2)",
+      "repo": "366_BaSiC",
+      "source_file": "readme.md"
+    }
+  }
+]

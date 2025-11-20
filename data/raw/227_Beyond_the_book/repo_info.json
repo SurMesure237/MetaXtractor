@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/c-martinez/BeyondTheBook",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "JavaScript",
+    "CSS",
+    "HTML"
+  ],
+  "downloadUrl": "https://api.github.com/repos/c-martinez/BeyondTheBook/zipball/main",
+  "author": "c-martinez",
+  "dateCreated": "2014-08-14T11:30:21Z",
+  "dateModified": "2024-06-26T09:57:11Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Using Wikipedia to assess the translatability of text.",
+  "identifier": 22951337,
+  "name": "c-martinez/BeyondTheBook",
+  "issueTracker": "https://api.github.com/repos/c-martinez/BeyondTheBook/issues",
+  "readme": "https://github.com/c-martinez/BeyondTheBook/blob/master/README.md"
+}

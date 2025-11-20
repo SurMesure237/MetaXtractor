@@ -1,0 +1,165 @@
+[
+  {
+    "id": 2237,
+    "annotations": [
+      {
+        "id": 11800,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 47,
+              "text": "https://zenodo.org/badge/latestdoi/518852238",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "sfRX2WU7CM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:05:53.366209Z",
+        "updated_at": "2025-11-09T06:05:53.366224Z",
+        "draft_created_at": "2025-11-09T06:05:37.419317Z",
+        "lead_time": 25.869,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "b088e57c-952e-47f8-896b-2a250df96cf0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2237,
+        "project": 23502,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://zenodo.org/badge/latestdoi/518852238)\n\nRadiative forcing of hypersonic aircraft emission inventories The software quantifies climate impact of hypersonic aircraft emission inventories as a number and within seconds instead of very long numerical simulations that produce Petabytes of data. The input requires water vapor, hydrogen and nitrogen oxide emission data along flight trajectories. The repository provides a Python package, examples and an executable to calculate the climate impact (stratosphere adjusted radiative forcing) of hypersonic aircraft emission inventories. The radiative forcing of water vapour changes and ozone changes are calculated on the basis of water vapour, hydrogen and nitrogen oxide emissions. The current version is able to read in mat- and nc-files. NetCDF read in is currently optimised for data published online, e.g. for the aircraft design [STRATOFLY-MR3] https://zenodo.org/records/10818082.",
+      "section": "Introduction + Radiative forcing of hypersonic aircraft emission inventories",
+      "repo": "341_Radiative_forcing_of_hypersonic_aircraft_trajectories",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.027766Z",
+    "updated_at": "2025-11-09T06:05:53.396580Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23502,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2238,
+    "annotations": [
+      {
+        "id": 11801,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:06:05.110014Z",
+        "updated_at": "2025-11-09T06:06:05.110027Z",
+        "draft_created_at": null,
+        "lead_time": 11.566,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "7af317de-f805-44a0-8f02-86d9f5e05822",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2238,
+        "project": 23502,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Limitations Interpolation (30-38 km) and extrapolation surface-30 km are used. It is recommended to note the following: The atmospheric and radiative sensitivites are based on results from [Pletzer et al (2024)] https://acp.copernicus.org/articles/24/1743/2024/. The atmospheric composition of the numerical climate model is based on surface emission inventories for 2050.\n\nThe class includes a function (drop_vertical_levels()) that drops emission in the troposphere or below specified altitude levels and excludes it from the climate calculation. Its use is strongly recommended as long as sensitivities are not yet extended to altitudes below 30 km.\n\nThe climate impact of emission inventories where the average flight altitude does not correspond to the typical hypersonic flight altitudes (about 24-40 km) should not be estimated.\n\nMeaningful results can be expected for the radiative effect of water vapour changes due to water vapour emissions. This explicitly excludes the radiative effect of water vapour changes due to hydrogen and nitrogen oxide emissions.\n\nMeaningful results can be expected for the radiative effect of ozone changes due to water vapour, hydrogen and nitrogen oxide emissions.\n\nPlease keep these limitations in mind when using the software.\n\nGetting started The software can be installed via\n\npip install -e .\n\nThe repo contains two example notebooks for processing of emission inventories in mat- and nc-format. Otherwise, the user can various routines, e.g. one that reads all emission inventory files within the folder and returns the calculated radiative forcing in an xlsx file.",
+      "section": "Limitations + Getting started",
+      "repo": "341_Radiative_forcing_of_hypersonic_aircraft_trajectories",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.027810Z",
+    "updated_at": "2025-11-09T06:06:05.139306Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23502,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2239,
+    "annotations": [
+      {
+        "id": 11802,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:06:24.835605Z",
+        "updated_at": "2025-11-09T06:06:24.835629Z",
+        "draft_created_at": null,
+        "lead_time": 2.098,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "15beeeb5-a395-4950-966d-f0ef9d3b7150",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2239,
+        "project": 23502,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Acknowledgements Daniel Bodmer contributed with validation of model results by offering current state of the art hypersonic aircraft emission inventories on trajectory and route network level: [](https://doi.org/10.5281/zenodo.10818082 )",
+      "section": "Acknowledgements",
+      "repo": "341_Radiative_forcing_of_hypersonic_aircraft_trajectories",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.027833Z",
+    "updated_at": "2025-11-09T06:06:24.865083Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23502,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

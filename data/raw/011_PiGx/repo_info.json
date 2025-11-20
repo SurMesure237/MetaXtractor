@@ -1,0 +1,35 @@
+{
+  "codeRepository": "https://github.com/BIMSBbioinfo/pigx",
+  "programmingLanguage": "HTML",
+  "programmingLanguages": [
+    "HTML",
+    "Python",
+    "R",
+    "Shell",
+    "M4",
+    "Makefile",
+    "Scheme",
+    "CSS",
+    "Vim Script",
+    "TeX"
+  ],
+  "downloadUrl": "https://api.github.com/repos/BIMSBbioinfo/pigx/zipball/main",
+  "author": "BIMSBbioinfo",
+  "dateCreated": "2018-01-04T11:32:23Z",
+  "dateModified": "2024-12-27T16:50:35Z",
+  "keywords": [
+    "bisulfite-sequencing",
+    "chipseq",
+    "dropseq",
+    "genomics",
+    "guix",
+    "rnaseq",
+    "snakemake"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Pipelines in genomics",
+  "identifier": 116252631,
+  "name": "BIMSBbioinfo/pigx",
+  "issueTracker": "https://api.github.com/repos/BIMSBbioinfo/pigx/issues",
+  "readme": "https://github.com/BIMSBbioinfo/pigx/blob/master/README.md"
+}

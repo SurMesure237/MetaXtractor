@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/Crypto-TII/fhegen",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/Crypto-TII/fhegen/zipball/main",
+  "author": "Crypto-TII",
+  "dateCreated": "2022-05-27T08:46:09Z",
+  "dateModified": "2025-10-25T03:18:09Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": null,
+  "identifier": 496924071,
+  "name": "Crypto-TII/fhegen",
+  "issueTracker": "https://api.github.com/repos/Crypto-TII/fhegen/issues",
+  "readme": "https://github.com/Crypto-TII/fhegen/blob/main/README.md"
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "[](https://opensource.org/licenses/MIT) [](https://dcc.tudelft.nl) [](https://github.com/sedtrails/sedtrails/actions/workflows/publish.yml) [](https://github.com/sedtrails/sedtrails/actions/workflows/ruff.yml) [](https://github.com/sedtrails/sedtrails/actions/workflows/pytest.yml)",
+      "section": "Introduction",
+      "repo": "456_SedTRAILS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "SedTRAILS Sediment TRAnsport vIsualization and Lagrangian Simulator.\n\nSedTRAILS is an open-source Python package for modeling sediment transport that uses Lagrangian particle tracking to simulate sediment pathways in coastal and estuarine environments. The current version is a beta release, bugs and issues are expected. Please report any problems you encounter on the [GitHub Issues page] https://github.com/sedtrails/sedtrails/issues\n\n## Features\n\nLagrangian particle tracking for sediment transport simulation.\n\nDashboard for interactive visualization of simulation results in real-time.\n\nSupport for Delft3D Flexible Mesh (D3D-FM) hydrodynamic model outputs.\n\nSupport for various physics convertion methods.\n\nTerminal user interface (CLI) for easy setup and execution of simulations.\n\nModular design for easy integration and extension.\n\nComprehensive documentation and examples.\n\n## Installation\n\nRequirements: SedTRAILS is tested on Python 3.13 and above, but it is likely to work with Python 3.10 and above.\n\n### Using pip\n\nYou can install the latest beta version directly from PyPI using pip. Check the [releases page] https://pypi.org/project/sedtrails/#history for the latest version (x).\n\npip install sedtrails=1.0.0-beta.x\n\n### From Source\n\nTo install SedTRAILS from source, follow these steps:\n\nClone the repository:\n\ngit clone https://github.com/sedtrails/sedtrails.git\n\nChange to the sedtrails directory:\n\ncd sedtrails\n\nInstall the package using pip or conda:\n\nFor pip pip install .\n\nCreate and activate the conda environment conda env create -f environment.yml conda activate sedtrails\n\nVerify the installation by running:\n\nsedtrails --version",
+      "section": "SedTRAILS + For pip + Create and activate the conda environment",
+      "repo": "456_SedTRAILS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "E.g.: SedTRAILS 1.0.0-beta.0\n\n## Contributing Guidelines\n\nWe welcome contributions from the community! Read the [contributing guidelines] CONTRIBUTING.md to know how can you take part in developing SedTRAILS.\n\n## License\n\nSetTRAILS is licensed under the [MIT License] LICENSE. &copy; (2025) SedTRAILS Team, Delft, The Netherlands.\n\n## Citation\n\nPearson, S. G., Reyns, J., Garcia Alvarez, M. G., Urhan, A., van Westen, B., Pannozzo, N., & Shafiei, H. SedTRAILS (Version 1.0.0-beta.0) [Computer software]",
+      "section": "E.g.: SedTRAILS 1.0.0-beta.0 (part 1)",
+      "repo": "456_SedTRAILS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Author Contributions\n\n| [Role] https://credit.niso.org/contributor-roles-defined/ | Author | | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | | Conceptualization | Garcia Alvarez, M., Pannozzo N., Pearson, S. G., Reyns J., Shafiei, H., Urhan, A., & van Westen, B. | | Project management | Garcia Alvarez, M., & Pearson, S. G. | | Investigation | Pannozzo N., Pearson, S. G., Reyns J., Shafiei, H., & van Westen, B. | | Software | Garcia Alvarez, M., Pannozzo N., Pearson, S. G., Reyns J., Shafiei, H., Urhan, A., & van Westen, B. | | Visualization | Pearson, S. G., & van Westen, B. | | Supervision | Garcia Alvarez, M., Pearson, S., & Reyns, J. | | Funding acquisition | Pearson, S. G., & Reyns J. |\n\n## Acknowlegdements\n\n- The design and development of SedTRAILS Software was supported by the [Digital Competence Centre] https://dcc.tudelft.nl/, Delft University of Technology. - We want to thank Monica Aguilera Chaves from [Deltares] https://www.deltares.nl/en/ for partcipating in the initial design discussions of SedTRAILS.",
+      "section": "E.g.: SedTRAILS 1.0.0-beta.0 (part 2)",
+      "repo": "456_SedTRAILS",
+      "source_file": "readme.md"
+    }
+  }
+]

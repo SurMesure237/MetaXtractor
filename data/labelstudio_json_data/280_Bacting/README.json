@@ -1,0 +1,50 @@
+[
+  {
+    "data": {
+      "text": "Bacting\n\n[](https://opensource.org/licenses/EPL-1.0) [](https://doi.org/10.5281/zenodo.2638709) [](https://github.com/egonw/bacting/actions?query=workflow%3Abuild) [](https://search.maven.org/search?q=g:%22io.github.egonw.bacting%22%20AND%20a:%22bacting%22) [](https://codecov.io/gh/egonw/bacting)\n\nBacting := acting as the Bioclipse TNG (The Next Generation)\n\nBacting is an open-source platform for chemo- and bioinformatics based on [Bioclipse] https://scholia.toolforge.org/topic/Q1769726 that defines a number of common domain objects and wraps common functionality, providing a toolkit independent, scriptable solution to handle data from the life sciences. Like Bioclipse, Bacting is written in the Java language, making use in Java-derived languages like [Groovy] https://en.wikipedia.org/wiki/Apache_Groovy easy, but also accessible to Python. Deposition of the Bacting package on [Maven Central] https://search.maven.org/search?q=g:%22io.github.egonw.bacting%22%20AND%20a:%22bacting%22 allows it to be easily used in Groovy scripts with @Grab instructions.\n\n## How to cite\n\nIf you use this software, please cite the article in JOSS:\n\n[](https://doi.org/10.21105/joss.02558)",
+      "section": "Bacting",
+      "repo": "280_Bacting",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Install\n\nFor the below use cases, Bacting is actually installed on demand. In Groovy this is done with @Grab and in Python with from pybacting import cdk (see [pybacting] https://github.com/cthoyt/pybacting) or scyjava.config. This section explains how Bacting can be installed from the source code.\n\n## From the source code\n\nFirst, you need a working [Maven installation] https://www.google.nl/search?q=install+maven and the code is tested with Java 11, 17, and 19, and can be installed with:\n\nmvn clean install -Dgpg.skip -Dmaven.javadoc.skip=true\n\n## Making releases\n\nBefore making a release, update the version number in this README.md and in CITATION.cff.\n\nReleases are created by the release manager and requires permission to submit the release to Maven Central (using an approved Sonatype ([oss.sonatype.org] http://oss.sonatype.org/) account). If these requirements are fulfilled then the following commands to the job:\n\nexport MAVEN_OPTS=\"--add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.text=ALL-UNNAMED --add-opens=java.desktop/java.awt.font=ALL-UNNAMED\" mvn versions:set -DnewVersion=1.0.7 git commit -m \"New release\" -a mvn deploy -P release\n\n### Making snapshots\n\nmvn versions:set -DnewVersion=1.0.8-SNAPSHOT mvn deploy\n\n### Updating the JavaDoc\n\nAfter the release is avaiable on Maven Central, the [JavaDoc] https://egonw.github.io/bacting-api/ needs to be updated. The JavaDoc is generated with the below command, and the results are stored in the target/site/apidocs/ folder:\n\nmvn clean javadoc:javadoc javadoc:aggregate\n\nThat created content needs to be copied into the docs/ folder of [this git repository] https://github.com/egonw/bacting-api/.",
+      "section": "Install",
+      "repo": "280_Bacting",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Usage\n\n## Groovy\n\nIt can be used in [Groovy] https://en.wikipedia.org/wiki/Apache_Groovy by including the Bacting managers you need. The following example tells Groovy to download the CDKManager and instantiate it for the given workspace location (as it if was running in Bioclipse itself), and then converts a [SMILES] https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system string to a Bioclipse IMolecule data object:\n\n@Grab(group='io.github.egonw.bacting', module='managers-cdk', version='1.0.7')\n\nworkspaceRoot = \".\" def cdk = new net.bioclipse.managers.CDKManager(workspaceRoot);\n\nprintln cdk.fromSMILES(\"COC\")\n\n## Python\n\nBacting can also be used in Python 3.7 (and higher) with [pybacting] https://github.com/cthoyt/pybacting and [scyjava] https://github.com/scijava/scyjava.\n\n### Pybacting\n\nPybacting can be installed with pip install pybacting (or pip3, depending on your platform). The above code example looks like:\n\nfrom pybacting import cdk\n\nprint(cdk.fromSMILES(\"COC\"))\n\nPybacting uses a specific Bacting version, so check the [website] https://github.com/cthoyt/pybacting to see which Bacting version you are using.\n\n### Scyjava\n\nScyjava can be installed with pip install scyjava (or pip3, depending on your platform). The code example looks like:\n\nfrom scyjava import config, jimport config.add_endpoints('io.github.egonw.bacting:managers-cdk:1.0.7')\n\nworkspaceRoot = \".\" cdkClass = jimport(\"net.bioclipse.managers.CDKManager\") cdk = cdkClass(workspaceRoot)\n\nprint(cdk.fromSMILES(\"COC\"))",
+      "section": "Usage",
+      "repo": "280_Bacting",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Code examples\n\nFull code examples can be found in the following sources:\n\nOpen Notebooks for Wikidata, including:  [script that compares a SMILES string with Wikidata, and creates QuickStatements for missing information] https://github.com/egonw/ons-wikidata/blob/master/Wikidata/createWDitemsFromSMILES.groovy  [script that reads melting points from an Excel spreadsheet to enter into Wikidata] https://github.com/egonw/ons-wikidata/blob/master/MeltingPoints/createQuickStatements.groovy  Open Notebooks for WikiPathways:  [script to recognize IUPAC names in WikiPathways] https://github.com/egonw/ons-wikipathways/blob/master/WikiPathways/getLabelsWithIUPACNames.groovy  Some examples from [A lot of Bioclipse Scripting Language examples] https://bioclipse.github.io/bioclipse.scripting/:  [FullPathWikiPathways.groovy] https://bioclipse.github.io/bioclipse.scripting/code/FullPathWikiPathways.code.html  [XMLIsWellFormed.groovy] https://bioclipse.github.io/bioclipse.scripting/code/XMLIsWellFormed.code.html  [XMLListNamespaces.groovy] https://bioclipse.github.io/bioclipse.scripting/code/XMLListNamespaces.code.html  [PerceiveCDKAtomTypes.groovy] https://bioclipse.github.io/bioclipse.scripting/code/PerceiveCDKAtomTypes.code.html  [InChIKeyGenerate.groovy] https://bioclipse.github.io/bioclipse.scripting/code/InChIKeyGenerate.code.html  [ParseIUPACName.groovy] https://bioclipse.github.io/bioclipse.scripting/code/ParseIUPACName.code.html [ChemSpiderResolve.groovy] https://bioclipse.github.io/bioclipse.scripting/code/ChemSpiderResolve.code.html",
+      "section": "Code examples (part 1)",
+      "repo": "280_Bacting",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## API Coverage\n\nFor the time being, the coverage of the original API is incomplete. Particularly, manager functionality around graphical UX in the original Bioclipse may never be implemented. Each Bacting release will implement more APIs and the release notes will mention which managers and which methods have been added. An overview of the supports APIs can be found in [this overview] https://github.com/egonw/bacting/projects/2.\n\nFor a description of the API, I refer to the book [A lot of Bioclipse Scripting Language examples] https://bioclipse.github.io/bioclipse.scripting/ that Jonathan and I compiled. However, a [JavaDoc API] https://egonw.github.io/bacting-api/ is also available.\n\nAll Bacting scripts will be backwards compatible with Bioclipse. If you want to install Bioclipse and see its wonderful UX in actions, [download Bioclipse 2.6.2 here] https://sourceforge.net/projects/bioclipse/files/bioclipse2/bioclipse2.6.2/.\n\n## Using SNAPSHOT versions\n\nYou may need to occassionally delete the modules cached by Groovy, by doing something like, to remove earlier SNAPSHOT versions:\n\n\\rm -Rf ~/.groovy/grapes/io.github.egonw.bacting/",
+      "section": "Code examples (part 2)",
+      "repo": "280_Bacting",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Copyright and authors\n\nCode in this repository contains mostly code that originated from Bioclipse and the headers of the individual source code files describe who contributed to that code of that class, but unfortunately this code ownership is not always clear. I refer to the various [Bioclipse code repositories] https://github.com/bioclipse for the git history for detailed information.",
+      "section": "Copyright and authors",
+      "repo": "280_Bacting",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "# seahtrue\n\nseahtrue is a package for analyzing extracellular flux data. It organizes data from excel files into nested tibbles and allows for multi-experiment analysis, and detailed raw data processing.\n\n### Installation\n\nYou can install the latest version of seahtrue with the following command:\n\ndevtools::install_github(\"vcjdeboer/seahtrue\", ref = \"main\")\n\n### Getting Help\n\nIf you need assistance or want to learn more about the Seahtrue package you can utilize the documentation page of our package (?seahtrue). This will provide you with links to the documentation of our different functions as well as links to some general Seahorse background information related to our package.\n\n### Contributing and Feedback\n\nSuggestions and improvements are welcome! If you have any feedback on our Seahtrue package when it comes to improvements or bugs, let us know. Your input is valuable and can help us make Seahtrue better.",
+      "section": "README",
+      "repo": "491_seahtrue",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "output: github_document\n\n``{r, echo = FALSE} knitr::opts_chunk$set(  collapse = TRUE,  comment = \"#>\",  fig.path = \"man/figures/\" )\n\n# seahtrue\n\nseahtrue is a package for analyzing extracellular flux data. It organizes data from excel files into nested tibbles and allows for multi-experiment analysis, and detailed raw data processing.\n\n### Installation\n\nYou can install the latest version of seahtrue with the following command:\n\n``{r install_github, eval=FALSE, message=TRUE} devtools::install_github(\"vcjdeboer/seahtrue\", ref = \"main\")\n\n### Getting Help\n\nIf you need assistance or want to learn more about the Seahtrue package you can utilize the documentation page of our package (?seahtrue). This will provide  you with links to the documentation of our different functions as well as links to some general Seahorse background information related to our package.\n\n### Contributing and Feedback\n\nSuggestions and improvements are welcome! If you have any feedback on our Seahtrue  package when it comes to improvements or bugs, let us know. Your input is valuable and can help us make Seahtrue better.",
+      "section": "README",
+      "repo": "491_seahtrue",
+      "source_file": "readme.rmd"
+    }
+  }
+]

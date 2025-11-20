@@ -1,0 +1,35 @@
+{
+  "codeRepository": "https://github.com/kokkos/kokkos",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "CMake",
+    "Shell",
+    "Groovy",
+    "Python",
+    "C",
+    "Pawn",
+    "Cuda",
+    "HIP",
+    "Fortran"
+  ],
+  "downloadUrl": "https://api.github.com/repos/kokkos/kokkos/zipball/main",
+  "author": "kokkos",
+  "dateCreated": "2015-04-08T21:55:55Z",
+  "dateModified": "2025-10-30T15:47:36Z",
+  "keywords": [
+    "abstraction",
+    "c-plus-plus",
+    "high-performance-computing",
+    "hpsf",
+    "kokkos",
+    "parallel-computing",
+    "programming-model"
+  ],
+  "license": null,
+  "description": "Kokkos C++ Performance Portability Programming Ecosystem: The Programming Model - Parallel Execution and Memory Abstraction",
+  "identifier": 33634359,
+  "name": "kokkos/kokkos",
+  "issueTracker": "https://api.github.com/repos/kokkos/kokkos/issues",
+  "readme": "https://github.com/kokkos/kokkos/blob/develop/README.md"
+}

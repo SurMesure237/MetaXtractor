@@ -1,0 +1,100 @@
+[
+  {
+    "id": 2036,
+    "annotations": [
+      {
+        "id": 11845,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:19:34.012808Z",
+        "updated_at": "2025-11-09T06:19:34.012824Z",
+        "draft_created_at": null,
+        "lead_time": 21.018,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "81f37c0f-716e-423a-ad5e-3a1b0425a485",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2036,
+        "project": 23462,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "talkr\n\n[](https://cran.r-project.org/package=talkr) [](https://github.com/elpaco-escience/talkr) [](https://github.com/elpaco-escience/talkr/actions/workflows/R-CMD-check.yaml) [](https://app.codecov.io/github/elpaco-escience/talkr) [](https://elpaco-escience.github.io/talkr/) [](https://lifecycle.r-lib.org/articles/stages.html#maturing)\n\ntalkr offers a set of convenience functions for quality control, visualisation and analysis of conversational data. It provides support for at least two common needs of people working with conversational corpora: (1) quality control by offering rapid insights into the nature, timing, and quality of time-aligned annotations in a conversational corpus; and (2) compelling visualisations by offering a range of plotting functions that play well with ggplot and the tidyverse.\n\nNote: talkr plays well with its companion python package [scikit-talk] https://github.com/elpaco-escience/scikit-talk, which is focused more on processing conversational data and readying it for downstream analysis.\n\n## Installation\n\nThis package is available on CRAN and can be installed in R with\n\ninstall.packages(\"talkr\")\n\nDevelopment continues on GitHub, and you can install the development version of talkr with:",
+      "section": "talkr <a href=\"https://elpaco-escience.github.io/talkr/\"><img src=\"man/figures/logo.png\" align=\"right\" height=\"138\" /></a>",
+      "repo": "281_talkr",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.306012Z",
+    "updated_at": "2025-11-09T06:19:34.043334Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23462,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2037,
+    "annotations": [
+      {
+        "id": 11846,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:19:36.372973Z",
+        "updated_at": "2025-11-09T06:19:36.372986Z",
+        "draft_created_at": null,
+        "lead_time": 2.193,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "0b3759e2-7cf2-4a96-9137-9e4c7d5c82c8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2037,
+        "project": 23462,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "install.packages(\"devtools\") devtools::install_github(\"elpaco-escience/talkr\", build_vignettes = TRUE)\n\n## Workflows\n\nTwo workflows for talkr are described in [the workflows vignette] https://elpaco-escience.github.io/talkr/articles/workflows.html.\n\nYou can also access the vignette from RStudio, by running:\n\nvignette(\"workflows\", package = \"talkr\")\n\n## Contact\n\nQuestions? Comments? They are more than welcome! This package is under active development and still has some rough edges. Interact with us in the [issues] https://github.com/elpaco-escience/talkr/issues if you have any questions or suggestions.",
+      "section": "install.packages(\"devtools\")",
+      "repo": "281_talkr",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.306060Z",
+    "updated_at": "2025-11-09T06:19:36.396128Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23462,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

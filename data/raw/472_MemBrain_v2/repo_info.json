@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/teamtomo/membrain-seg",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/teamtomo/membrain-seg/zipball/main",
+  "author": "teamtomo",
+  "dateCreated": "2023-03-14T10:02:47Z",
+  "dateModified": "2025-10-30T00:09:59Z",
+  "keywords": [],
+  "license": null,
+  "description": "membrane segmentation in 3D for cryo-ET",
+  "identifier": 613805846,
+  "name": "teamtomo/membrain-seg",
+  "issueTracker": "https://api.github.com/repos/teamtomo/membrain-seg/issues",
+  "readme": "https://github.com/teamtomo/membrain-seg/blob/main/README.md"
+}

@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/deeptools/deepTools",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/deeptools/deepTools/zipball/main",
+  "author": "deeptools",
+  "dateCreated": "2013-07-08T12:30:28Z",
+  "dateModified": "2025-10-20T09:16:08Z",
+  "keywords": [
+    "bioinformatics",
+    "chip-seq",
+    "genomics",
+    "ngs",
+    "python",
+    "rna-seq"
+  ],
+  "license": null,
+  "description": "Tools to process and analyze deep sequencing data.",
+  "identifier": 11253779,
+  "name": "deeptools/deepTools",
+  "issueTracker": "https://api.github.com/repos/deeptools/deepTools/issues",
+  "readme": "https://github.com/deeptools/deepTools/blob/master/README.md"
+}

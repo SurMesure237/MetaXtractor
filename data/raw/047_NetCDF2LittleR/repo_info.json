@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/ERA-URBAN/netcdf2littler",
+  "programmingLanguage": "Fortran",
+  "programmingLanguages": [
+    "Fortran",
+    "CMake",
+    "Pascal"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ERA-URBAN/netcdf2littler/zipball/main",
+  "author": "ERA-URBAN",
+  "dateCreated": "2016-02-09T10:10:05Z",
+  "dateModified": "2025-10-12T15:43:37Z",
+  "keywords": [
+    "convert",
+    "littler",
+    "netcdf",
+    "wrf",
+    "wrfda"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "An application to convert NetCDF files to the Little-R format. The Little-R format is the accepted input format for the WRF data assimilation system (WRFDA) preprocessor (obsproc). Currently only the conversion of synoptical weather stations are supported by this application.",
+  "identifier": 51359212,
+  "name": "ERA-URBAN/netcdf2littler",
+  "issueTracker": "https://api.github.com/repos/ERA-URBAN/netcdf2littler/issues",
+  "readme": "https://github.com/ERA-URBAN/netcdf2littler/blob/master/README.md"
+}

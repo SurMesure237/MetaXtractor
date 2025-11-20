@@ -1,0 +1,38 @@
+{
+  "codeRepository": "https://github.com/KernelTuner/kernel_float",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "Cuda",
+    "Python",
+    "C",
+    "CMake",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/KernelTuner/kernel_float/zipball/main",
+  "author": "KernelTuner",
+  "dateCreated": "2023-02-21T08:52:34Z",
+  "dateModified": "2025-10-24T13:39:27Z",
+  "keywords": [
+    "bfloat16",
+    "cpp",
+    "cuda",
+    "floating-point",
+    "gpu",
+    "half-precision",
+    "header-only-library",
+    "hip",
+    "kernel-tuner",
+    "low-precision",
+    "mixed-precision",
+    "performance",
+    "reduced-precision",
+    "vectorization"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "CUDA/HIP header-only library for low-precision (16 bit, 8 bit)  and vectorized GPU kernel development",
+  "identifier": 604528869,
+  "name": "KernelTuner/kernel_float",
+  "issueTracker": "https://api.github.com/repos/KernelTuner/kernel_float/issues",
+  "readme": "https://github.com/KernelTuner/kernel_float/blob/main/README.md"
+}

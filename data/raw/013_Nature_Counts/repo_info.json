@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/BirdsCanada/naturecounts",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R",
+    "CSS"
+  ],
+  "downloadUrl": "https://api.github.com/repos/BirdsCanada/naturecounts/zipball/main",
+  "author": "BirdsCanada",
+  "dateCreated": "2019-01-24T21:25:11Z",
+  "dateModified": "2025-10-14T23:57:14Z",
+  "keywords": [],
+  "license": null,
+  "description": "R package to access data from the NatureCounts platform by Bird Studies Canada",
+  "identifier": 167440213,
+  "name": "BirdsCanada/naturecounts",
+  "issueTracker": "https://api.github.com/repos/BirdsCanada/naturecounts/issues",
+  "readme": "https://github.com/BirdsCanada/naturecounts/blob/main/README.md"
+}

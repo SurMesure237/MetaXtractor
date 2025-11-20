@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/NeuralEnsemble/elephant",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "C++",
+    "Cuda",
+    "C"
+  ],
+  "downloadUrl": "https://api.github.com/repos/NeuralEnsemble/elephant/zipball/main",
+  "author": "NeuralEnsemble",
+  "dateCreated": "2013-05-27T08:59:34Z",
+  "dateModified": "2025-10-30T14:36:42Z",
+  "keywords": [
+    "data-analysis",
+    "electrophysiology",
+    "hacktoberfest",
+    "neurophysiology",
+    "neuroscience",
+    "python",
+    "statistics"
+  ],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "Elephant is the Electrophysiology Analysis Toolkit",
+  "identifier": 10311278,
+  "name": "NeuralEnsemble/elephant",
+  "issueTracker": "https://api.github.com/repos/NeuralEnsemble/elephant/issues",
+  "readme": "https://github.com/NeuralEnsemble/elephant/blob/master/README.md"
+}

@@ -1,0 +1,24 @@
+{
+  "codeRepository": "https://github.com/Islandora/islandora",
+  "programmingLanguage": "PHP",
+  "programmingLanguages": [
+    "PHP",
+    "JavaScript",
+    "Twig",
+    "CSS"
+  ],
+  "downloadUrl": "https://api.github.com/repos/Islandora/islandora/zipball/main",
+  "author": "Islandora",
+  "dateCreated": "2010-11-23T21:56:01Z",
+  "dateModified": "2025-09-18T17:48:24Z",
+  "keywords": [
+    "islandora",
+    "islandora-legacy"
+  ],
+  "license": "https://api.github.com/licenses/gpl-2.0",
+  "description": "Drupal modules for browsing and managing digital repositories.",
+  "identifier": 1107291,
+  "name": "Islandora/islandora",
+  "issueTracker": "https://api.github.com/repos/Islandora/islandora/issues",
+  "readme": "https://github.com/Islandora/islandora/blob/2.x/README.md"
+}

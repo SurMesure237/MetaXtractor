@@ -1,0 +1,39 @@
+{
+  "codeRepository": "https://github.com/hifis-net/ansible-collection-toolkit",
+  "programmingLanguage": "Jinja",
+  "programmingLanguages": [
+    "Jinja"
+  ],
+  "downloadUrl": "https://api.github.com/repos/hifis-net/ansible-collection-toolkit/zipball/main",
+  "author": "hifis-net",
+  "dateCreated": "2022-05-24T06:30:53Z",
+  "dateModified": "2025-10-18T19:39:43Z",
+  "keywords": [
+    "ansible",
+    "ansible-collection",
+    "ansible-galaxy",
+    "ansible-role",
+    "collection",
+    "gitlab",
+    "gitlab-ci",
+    "gitlab-omnibus",
+    "gitlab-runner",
+    "haproxy",
+    "keepalived",
+    "netplan",
+    "redis",
+    "redis-cluster",
+    "redis-sentinel",
+    "redis-server",
+    "ssh-key",
+    "ssh-keys",
+    "unattended-upgrades",
+    "zammad"
+  ],
+  "license": null,
+  "description": "This Ansible collection provides production-ready Ansible roles used for providing services used in research and by research software engineers, but not exclusively.",
+  "identifier": 495697576,
+  "name": "hifis-net/ansible-collection-toolkit",
+  "issueTracker": "https://api.github.com/repos/hifis-net/ansible-collection-toolkit/issues",
+  "readme": "https://github.com/hifis-net/ansible-collection-toolkit/blob/main/README.md"
+}

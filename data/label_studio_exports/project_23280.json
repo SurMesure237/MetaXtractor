@@ -1,0 +1,657 @@
+[
+  {
+    "id": 1084,
+    "annotations": [
+      {
+        "id": 11185,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:48:20.322055Z",
+        "updated_at": "2025-11-06T05:48:20.322073Z",
+        "draft_created_at": null,
+        "lead_time": 3.307,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "2dee028e-22cd-4e31-ab54-5a04a0c01f65",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1084,
+        "project": 23280,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "format: commonmark bibliography: bibliography.bib",
+      "section": "Introduction",
+      "repo": "421_endogenous-macrodynamics-in-algorithmic-recourse",
+      "source_file": "readme.qmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.669265Z",
+    "updated_at": "2025-11-06T05:48:20.350863Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23280,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1085,
+    "annotations": [
+      {
+        "id": 11186,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 230,
+              "end": 269,
+              "text": "https://doi.org/10.5281/zenodo.15309163",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "LSD_5SlEsh",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 358,
+              "end": 390,
+              "text": "https://arxiv.org/pdf/2308.08187",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "_fgp7w7vHp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 438,
+              "end": 492,
+              "text": "https://ieeexplore.ieee.org/abstract/document/10136130",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "8v0aAydNdm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:48:54.727015Z",
+        "updated_at": "2025-11-06T05:48:54.727033Z",
+        "draft_created_at": "2025-11-06T05:48:32.362274Z",
+        "lead_time": 34.233,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "e5f6c2aa-2382-4439-b5b8-47e3131bdcb7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1085,
+        "project": 23280,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Endogenous Macrodynamics in Algorithmic Recourse\n\nThis repository contains all code, notebooks, data and empirical results for our conference paper \"Endogenous Macrodynamics in Algorithmic Recourse\" [@altmeyer2023endogenous].\n\n[](https://doi.org/10.5281/zenodo.15309163) [](LICENSE)\n\nBelow is a list of relevant resources hosted in this repository:\n\n[Paper] https://arxiv.org/pdf/2308.08187 on arxiv (up-to-date).\n\nOfficial [publication] https://ieeexplore.ieee.org/abstract/document/10136130 on IEEE.\n\n[Online Companion] https://www.patalt.org/endogenous-macrodynamics-in-algorithmic-recourse/\n\n[IEEE SaTML Presentation Slides] https://www.patalt.org/content/talks/posts/2023-ieee-satml/presentation.html\n\n[IEEE SaTML Poster] dev/poster/poster.pdf\n\nSoftware: [AlgorithmicRecourseDynamics.jl] https://github.com/JuliaTrustworthyAI/AlgorithmicRecourseDynamics.jl and [CounterfactualExplanations.jl] https://github.com/JuliaTrustworthyAI/CounterfactualExplanations.jl\n\n## Motivation\n\nThe chart below illustrates what we define as macrodynamics in Algorithmic Recourse: (a) we have a simple linear classifier trained for binary classification where samples from the negative class ($y=0$) are marked in orange and samples of the positive class ($y=1$) are marked in blue; (b) the implementation of AR for a random subset of individuals leads to a noticeable domain shift; (c) as the classifier is retrained we observe a corresponding model shift; (d) as this process is repeated, the decision boundary moves away from the target class.",
+      "section": "Endogenous Macrodynamics in Algorithmic Recourse (part 1)",
+      "repo": "421_endogenous-macrodynamics-in-algorithmic-recourse",
+      "source_file": "readme.qmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.669298Z",
+    "updated_at": "2025-11-06T05:48:54.759865Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23280,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1086,
+    "annotations": [
+      {
+        "id": 11187,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:48:57.120232Z",
+        "updated_at": "2025-11-06T05:48:57.120245Z",
+        "draft_created_at": null,
+        "lead_time": 2.192,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "cb69b889-2a99-48df-b063-cac252bd65fe",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1086,
+        "project": 23280,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Abstract\n\nExisting work on Counterfactual Explanations (CE) and Algorithmic Recourse (AR) has largely focused on single individuals in a static environment: given some estimated model, the goal is to find valid counterfactuals for an individual instance that fulfill various desiderata. The ability of such counterfactuals to handle dynamics like data and model drift remains a largely unexplored research challenge. There has also been surprisingly little work on the related question of how the actual implementation of recourse by one individual may affect other individuals. Through this work, we aim to close that gap. We first show that many of the existing methodologies can be collectively described by a generalized framework. We then argue that the existing framework does not account for a hidden external cost of recourse, that only reveals itself when studying the endogenous dynamics of recourse at the group level. Through simulation experiments involving various state-of-the-art counterfactual generators and several benchmark datasets, we generate large numbers of counterfactuals and study the resulting domain and model shifts. We find that the induced shifts are substantial enough to likely impede the applicability of Algorithmic Recourse in some situations. Fortunately, we find various strategies to mitigate these concerns. Our simulation framework for studying recourse dynamics is fast and open-sourced.\n\n## Key Findings\n\nOur findings indicate that state-of-the-art approaches to Algorithmic Recourse induce substantial domain and model shifts.\n\nWe would argue that the expected external costs of individual recourse should be shared by all stakeholders.\n\nA straightforward way to achieve this is to penalize external costs in the counterfactual search objective function (Equation 4).\n\nVarious simple strategies based on this notion can be effectively used to mitigate shifts.",
+      "section": "Endogenous Macrodynamics in Algorithmic Recourse (part 2)",
+      "repo": "421_endogenous-macrodynamics-in-algorithmic-recourse",
+      "source_file": "readme.qmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.669321Z",
+    "updated_at": "2025-11-06T05:48:57.146030Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23280,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1087,
+    "annotations": [
+      {
+        "id": 11188,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1250,
+              "end": 1257,
+              "text": "juliaup",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "_wZatAV7SW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1259,
+              "end": 1295,
+              "text": "https://github.com/JuliaLang/juliaup",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "fec623wVqu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1356,
+              "end": 1361,
+              "text": "Julia",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "0nhiuUxlQY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1362,
+              "end": 1365,
+              "text": "1.8",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "dQSAAUFc0p",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:49:22.597557Z",
+        "updated_at": "2025-11-16T04:54:18.648808Z",
+        "draft_created_at": "2025-11-06T05:49:10.957484Z",
+        "lead_time": 43.778000000000006,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "f7ea9772-cf7c-4a20-a0bb-282e8c81bd14",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1087,
+        "project": 23280,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Proposed Mitigation Strategies\n\nBy introducing a second penalty term in the counterfactual search objective, we can explicitly penalize external costs. The figure below illustrates how the mitigation strategies compared to the baseline approach, that is, Wachter (Generic) with γ = 0.5: choosing a higher decision threshold pushes the counterfactual a little further into the target domain; this effect is even stronger for ClaPROAR; finally, using the Gravitational generator the counterfactual ends up all the way inside the target domain. Find out more in the [paper] paper/paper.pdf.\n\n## Code\n\nThe results can be analysed, replicated or reproduced using the code provided in this repository.\n\n### Clone Repo\n\nTo begin with, simply clone this repository to you machine:\n\ngit clone https://github.com/pat-alt/endogenous-macrodynamics-in-algorithmic-recourse.git cd endogenous-macrodynamics-in-algorithmic-recourse/\n\n### Julia Legacy Version\n\nThe code base and its core dependency (AlgorithmicRecourseDynamics.jl) were built around 2022-2023 and have not been actively developed since then. For this reason, we recommend you to use one of the legacy versions of Julia specified in the [Project.toml] Project.toml file. You can use the recommend [juliaup] https://github.com/JuliaLang/juliaup version manager to do so. Specifically, we recommend to use Julia 1.8 as follows:\n\njuliaup add 1.8 julia +1.8\n\n### Instantiate and Use Package\n\nThe code in this repo is packaged. After cloning the repo and following the previous step to run an interactive Julia (1.8) session, you need to instantiate the package:\n\n``{.julia} using Pkg Pkg.activate(\".\") Plg.instantiate()\n\nYou can then start using the package:\n\n``{.julia} using EMAR",
+      "section": "Endogenous Macrodynamics in Algorithmic Recourse (part 3)",
+      "repo": "421_endogenous-macrodynamics-in-algorithmic-recourse",
+      "source_file": "readme.qmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.669346Z",
+    "updated_at": "2025-11-16T04:54:18.685852Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23280,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1088,
+    "annotations": [
+      {
+        "id": 11189,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:49:24.047115Z",
+        "updated_at": "2025-11-06T05:49:24.047135Z",
+        "draft_created_at": null,
+        "lead_time": 1.278,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c638d55f-8245-4448-ab7e-224318976b37",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1088,
+        "project": 23280,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Analysing Results\n\nResults are lazily loaded. To download all of them at once, simply run the following command:\n\n``{.julia} artifacts_to_local_dev()\n\nThis will create a local copy of the results in dev/artifacts/download/.\n\nAlternatively, you can download results selectively:\n\n``{.julia} synthetic = load_synthetic() # synthetic datasets real_world = load_real_world() # real-world datasets\n\n### Reproducing Results\n\nTo reproduce the results step-by-step, please consult the [online companion] https://www.patalt.org/endogenous-macrodynamics-in-algorithmic-recourse/.\n\n## References",
+      "section": "Endogenous Macrodynamics in Algorithmic Recourse (part 4)",
+      "repo": "421_endogenous-macrodynamics-in-algorithmic-recourse",
+      "source_file": "readme.qmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.669366Z",
+    "updated_at": "2025-11-06T05:49:24.069329Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23280,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1089,
+    "annotations": [
+      {
+        "id": 11190,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 227,
+              "end": 266,
+              "text": "https://doi.org/10.5281/zenodo.15309163",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "lnVuzYjeeH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 355,
+              "end": 387,
+              "text": "https://arxiv.org/pdf/2308.08187",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "qOxBN7yqAH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 436,
+              "end": 490,
+              "text": "https://ieeexplore.ieee.org/abstract/document/10136130",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "u-A0ytusAZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:49:53.499855Z",
+        "updated_at": "2025-11-06T05:49:53.499872Z",
+        "draft_created_at": "2025-11-06T05:49:36.243692Z",
+        "lead_time": 29.297,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "da47a65e-b094-4ade-9250-82164a9cd8b8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1089,
+        "project": 23280,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Endogenous Macrodynamics in Algorithmic Recourse\n\nThis repository contains all code, notebooks, data and empirical results for our conference paper “Endogenous Macrodynamics in Algorithmic Recourse” (Altmeyer et al. 2023).\n\n[](https://doi.org/10.5281/zenodo.15309163) [](LICENSE)\n\nBelow is a list of relevant resources hosted in this repository:\n\n[Paper] https://arxiv.org/pdf/2308.08187 on arxiv (up-to-date).\n\nOfficial\n\n[publication] https://ieeexplore.ieee.org/abstract/document/10136130  on IEEE. [Online\n\nCompanion] https://www.patalt.org/endogenous-macrodynamics-in-algorithmic-recourse/ [IEEE SaTML Presentation\n\nSlides] https://www.patalt.org/content/talks/posts/2023-ieee-satml/presentation.html [IEEE SaTML Poster] dev/poster/poster.pdf\n\nSoftware:\n\n[AlgorithmicRecourseDynamics.jl] https://github.com/JuliaTrustworthyAI/AlgorithmicRecourseDynamics.jl  and  [CounterfactualExplanations.jl] https://github.com/JuliaTrustworthyAI/CounterfactualExplanations.jl\n\n## Motivation\n\nThe chart below illustrates what we define as macrodynamics in Algorithmic Recourse: (a) we have a simple linear classifier trained for binary classification where samples from the negative class (y = 0) are marked in orange and samples of the positive class (y = 1) are marked in blue; (b) the implementation of AR for a random subset of individuals leads to a noticeable domain shift; (c) as the classifier is retrained we observe a corresponding model shift; (d) as this process is repeated, the decision boundary moves away from the target class.",
+      "section": "Endogenous Macrodynamics in Algorithmic Recourse (part 1)",
+      "repo": "421_endogenous-macrodynamics-in-algorithmic-recourse",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.669388Z",
+    "updated_at": "2025-11-06T05:49:53.525906Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23280,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1090,
+    "annotations": [
+      {
+        "id": 11191,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:49:55.238506Z",
+        "updated_at": "2025-11-06T05:49:55.238520Z",
+        "draft_created_at": null,
+        "lead_time": 1.563,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f38c6ea2-d16f-4e4f-a98c-ecb48e6ec190",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1090,
+        "project": 23280,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Abstract\n\nExisting work on Counterfactual Explanations (CE) and Algorithmic Recourse (AR) has largely focused on single individuals in a static environment: given some estimated model, the goal is to find valid counterfactuals for an individual instance that fulfill various desiderata. The ability of such counterfactuals to handle dynamics like data and model drift remains a largely unexplored research challenge. There has also been surprisingly little work on the related question of how the actual implementation of recourse by one individual may affect other individuals. Through this work, we aim to close that gap. We first show that many of the existing methodologies can be collectively described by a generalized framework. We then argue that the existing framework does not account for a hidden external cost of recourse, that only reveals itself when studying the endogenous dynamics of recourse at the group level. Through simulation experiments involving various state-of-the-art counterfactual generators and several benchmark datasets, we generate large numbers of counterfactuals and study the resulting domain and model shifts. We find that the induced shifts are substantial enough to likely impede the applicability of Algorithmic Recourse in some situations. Fortunately, we find various strategies to mitigate these concerns. Our simulation framework for studying recourse dynamics is fast and open-sourced.",
+      "section": "Endogenous Macrodynamics in Algorithmic Recourse (part 2)",
+      "repo": "421_endogenous-macrodynamics-in-algorithmic-recourse",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.669410Z",
+    "updated_at": "2025-11-06T05:49:55.265253Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23280,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1091,
+    "annotations": [
+      {
+        "id": 11192,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:49:58.471918Z",
+        "updated_at": "2025-11-06T05:49:58.471930Z",
+        "draft_created_at": null,
+        "lead_time": 3.05,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "351569a4-5198-4934-8576-b9371993a5b6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1091,
+        "project": 23280,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Key Findings\n\nOur findings indicate that state-of-the-art approaches to Algorithmic\n\nRecourse induce substantial domain and model shifts. We would argue that the expected external costs of individual recourse\n\nshould be shared by all stakeholders. A straightforward way to achieve this is to penalize external costs in\n\nthe counterfactual search objective function (Equation 4). Various simple strategies based on this notion can be effectively used\n\nto mitigate shifts.\n\n## Proposed Mitigation Strategies\n\nBy introducing a second penalty term in the counterfactual search objective, we can explicitly penalize external costs. The figure below illustrates how the mitigation strategies compared to the baseline approach, that is, Wachter (Generic) with γ = 0.5: choosing a higher decision threshold pushes the counterfactual a little further into the target domain; this effect is even stronger for ClaPROAR; finally, using the Gravitational generator the counterfactual ends up all the way inside the target domain. Find out more in the [paper] paper/paper.pdf.\n\n## Code\n\nThe results can be analysed, replicated or reproduced using the code provided in this repository.\n\n### Clone Repo\n\nTo begin with, simply clone this repository to you machine:\n\ngit clone https://github.com/pat-alt/endogenous-macrodynamics-in-algorithmic-recourse.git  cd endogenous-macrodynamics-in-algorithmic-recourse/",
+      "section": "Endogenous Macrodynamics in Algorithmic Recourse (part 3)",
+      "repo": "421_endogenous-macrodynamics-in-algorithmic-recourse",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.669432Z",
+    "updated_at": "2025-11-06T05:49:58.496789Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23280,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1092,
+    "annotations": [
+      {
+        "id": 11193,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 329,
+              "end": 336,
+              "text": "juliaup",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "N0TuS2Cbgj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1357,
+              "end": 1614,
+              "text": "Altmeyer, Patrick, Giovan Angela, Aleksander Buszydlik, Karol Dobiczek, Arie van Deursen, and Cynthia CS Liem. 2023. “Endogenous Macrodynamics in Algorithmic Recourse.” In 2023 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML), 418–31. IEEE",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "iR28QAcnkJ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 435,
+              "end": 440,
+              "text": "Julia",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "j7GHqNb3QW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 441,
+              "end": 444,
+              "text": "1.8",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "SgF_fklzZ4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:50:19.887554Z",
+        "updated_at": "2025-11-16T04:54:34.287349Z",
+        "draft_created_at": "2025-11-06T05:50:09.616060Z",
+        "lead_time": 30.317999999999998,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "f3255ffe-a26f-4844-bfde-e9cbd788053c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1092,
+        "project": 23280,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Julia Legacy Version\n\nThe code base and its core dependency (AlgorithmicRecourseDynamics.jl) were built around 2022-2023 and have not been actively developed since then. For this reason, we recommend you to use one of the legacy versions of Julia specified in the [Project.toml] Project.toml file. You can use the recommend [juliaup] https://github.com/JuliaLang/juliaup version manager to do so. Specifically, we recommend to use Julia 1.8 as follows:\n\njuliaup add 1.8  julia +1.8\n\n### Instantiate and Use Package\n\nThe code in this repo is packaged. After cloning the repo and following the previous step to run an interactive Julia (1.8) session, you need to instantiate the package:\n\nusing Pkg Pkg.activate(\".\") Plg.instantiate()\n\nYou can then start using the package:\n\nusing EMAR\n\n### Analysing Results\n\nResults are lazily loaded. To download all of them at once, simply run the following command:\n\nartifacts_to_local_dev()\n\nThis will create a local copy of the results in dev/artifacts/download/.\n\nAlternatively, you can download results selectively:\n\nsynthetic = load_synthetic() # synthetic datasets real_world = load_real_world() # real-world datasets\n\n### Reproducing Results\n\nTo reproduce the results step-by-step, please consult the [online companion] https://www.patalt.org/endogenous-macrodynamics-in-algorithmic-recourse/.\n\n## References\n\nAltmeyer, Patrick, Giovan Angela, Aleksander Buszydlik, Karol Dobiczek, Arie van Deursen, and Cynthia CS Liem. 2023. “Endogenous Macrodynamics in Algorithmic Recourse.” In 2023 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML), 418–31. IEEE.",
+      "section": "Endogenous Macrodynamics in Algorithmic Recourse (part 4)",
+      "repo": "421_endogenous-macrodynamics-in-algorithmic-recourse",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.669455Z",
+    "updated_at": "2025-11-16T04:54:34.328341Z",
+    "inner_id": 9,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23280,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

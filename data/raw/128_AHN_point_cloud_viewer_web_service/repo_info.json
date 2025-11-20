@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/NLeSC/ahn-pointcloud-viewer",
+  "programmingLanguage": "JavaScript",
+  "programmingLanguages": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/NLeSC/ahn-pointcloud-viewer/zipball/main",
+  "author": "NLeSC",
+  "dateCreated": "2015-05-07T08:07:58Z",
+  "dateModified": "2024-10-11T09:11:46Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "3D point cloud visualization of the Netherlands",
+  "identifier": 35207172,
+  "name": "NLeSC/ahn-pointcloud-viewer",
+  "issueTracker": "https://api.github.com/repos/NLeSC/ahn-pointcloud-viewer/issues",
+  "readme": "https://github.com/NLeSC/ahn-pointcloud-viewer/blob/master/README.md"
+}

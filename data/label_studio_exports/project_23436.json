@@ -1,0 +1,580 @@
+[
+  {
+    "id": 1918,
+    "annotations": [
+      {
+        "id": 10511,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 9,
+              "end": 46,
+              "text": "https://doi.org/10.5281/zenodo.996308",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "DCioWSwA7P",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 581,
+              "end": 586,
+              "text": "Minio",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "JvjRKEMPX_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 879,
+              "end": 884,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "dIGrVR3Syh",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 889,
+              "end": 896,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "DQOSZw-IWI",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 925,
+              "end": 930,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "cfN4lgze0c",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 588,
+              "end": 608,
+              "text": "https://www.minio.io",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "15yvhjGuwS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 951,
+              "end": 957,
+              "text": "Ubuntu",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "7xW9Shbs1W",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 968,
+              "end": 974,
+              "text": "Ubuntu",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "BpKKmNK7o1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:40:30.356166Z",
+        "updated_at": "2025-11-14T13:07:17.514311Z",
+        "draft_created_at": "2025-11-04T17:39:20.056200Z",
+        "lead_time": 116.93,
+        "prediction": {},
+        "result_count": 8,
+        "unique_id": "12ccb9e8-25ed-4c6c-9075-157f25d0bd31",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1918,
+        "project": 23436,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Emma\n\n[](https://doi.org/10.5281/zenodo.996308)\n\nEmma is a project to create a platform for development of application for Spark and DockerSwarm clusters. The platform runs on an infra-structure composed by virtual machines and Ansible playbooks are used to create a storage layer, processing layer and [JupyterHub] https://jupyter-notebook.readthedocs.io/en/latest/index.html services. The storage layer offers two flavors of storage, file-base by [GlusterFS] https://www.gluster.org/ and [Hadoop Distributed File System (HDFS)] http://hadoop.apache.org/, and object-based using [Minio] https://www.minio.io. The processing layer has a [Apache Spark cluster] http://spark.apache.org/ and a [Docker Swarm] https://docs.docker.com/engine/swarm/ sharing the storage instances.\n\n## Deployment\n\nAt the moment the deployment of clusters with emma was tested with two OSs environment, Linux and Windows.\n\n### Linux as host OS\n\nFor Linux it was tested using Ubuntu 14.04 and Ubuntu 16.04, however, it is recommended to use the latter. For Linux no special environment setup is required. Before deploying a cluster user needs to clone emma repository:\n\ngit clone https://github.com/nlesc-sherlock/emma",
+      "section": "Emma (part 1)",
+      "repo": "395_Emma",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.412457Z",
+    "updated_at": "2025-11-14T13:07:17.552084Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23436,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1919,
+    "annotations": [
+      {
+        "id": 10512,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 4,
+              "end": 11,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "qz3Czel2gN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 28,
+              "end": 35,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "uhHSYBCYEO",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 61,
+              "end": 71,
+              "text": "Windows 10",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "DfSm3KYmj8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:41:06.716445Z",
+        "updated_at": "2025-11-14T13:07:37.433599Z",
+        "draft_created_at": "2025-11-04T17:40:53.150329Z",
+        "lead_time": 38.736000000000004,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "34e15760-b0c7-48b2-8003-4638739561a3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1919,
+        "project": 23436,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Windows as host OS\n\nFor Windows, emma was only tested on Windows 10 using the embedded Ubuntu 16.04 environment. It setup is straight forward and it simple follows the steps listed in the [installation guide] https://msdn.microsoft.com/en-us/commandline/wsl/install_guide.\n\nOnce installed it recommended to verify if the version 16.04 is installed. For that the user simply needs to type bash in the search windows at the left bottom of Windows 10 Desktop-environment and press enter. Once the bash console is open the user should then type:\n\nlsb_release -a\n\nIf not 16.04, then do the following:\n\n#Powershell as administrator, and enter the command lxrun /uninstall /full .\n\nlxrun /install /y\n\n#Verify again the version: lsb_release -a\n\nAfter the installation the Ubuntu environment is accessible through the bash command of Windows. To add Windows executables to your Ubuntu $PATH, add the following to your ~/.bashrc in the bash console:\n\nvim ~/bashrc export PATH=$PATH:/mnt/c/Windows/System32/\n\nNote the C drive will be mounted with the files owned by root and file permissions set to 777. This means ssh keys will to open for Ansible. Hence, before you run ansible you need to call getHosts.sh.\n\nFor windows users need to change the line-ending setting for git, they should configure git to Checkout as-is, commit as-is:\n\ngit config --global core.autocrlf false\n\nBefore deploying a cluster user needs to clone emma repository:\n\ngit clone https://github.com/nlesc-sherlock/emma",
+      "section": "Emma (part 2)",
+      "repo": "395_Emma",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.412500Z",
+    "updated_at": "2025-11-14T13:07:37.476503Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23436,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1920,
+    "annotations": [
+      {
+        "id": 10513,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:41:25.226007Z",
+        "updated_at": "2025-11-04T17:41:25.226020Z",
+        "draft_created_at": null,
+        "lead_time": 7.996,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b0b15f38-f905-43bc-8732-375a50ee0307",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1920,
+        "project": 23436,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "The Windows Subsystem Linux will mount the C: drive as /mnt/c.  By default the file permissions will be read/write/executable for all, this is bad because to use ssh-keys stricter permissions are required. To solve this create the /etc/wsl.conf file with the following content and restart the shell.\n\n[automount] enable=true root=/mnt options=\"metadata\"",
+      "section": "Emma (part 3)",
+      "repo": "395_Emma",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.412526Z",
+    "updated_at": "2025-11-04T17:41:25.256247Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23436,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1921,
+    "annotations": [
+      {
+        "id": 10514,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:41:28.140330Z",
+        "updated_at": "2025-11-04T17:41:28.140356Z",
+        "draft_created_at": null,
+        "lead_time": 2.699,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "2514fdd3-3515-49ca-ba7a-364ff91758d5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1921,
+        "project": 23436,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Setup environment\n\nIndependently of which OS the user is using the following steps need to be done after the repository is cloned.\n\ncd emma\n\n#create and edit env_linux.sh cp env_linux.sh.template env_linux.sh vim env_linux.sh\n\n#Linux environments (also in the embedded Ubuntu environment in Windows). #On each bash . env_linux.sh",
+      "section": "Emma (part 4)",
+      "repo": "395_Emma",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.412547Z",
+    "updated_at": "2025-11-04T17:41:28.175928Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23436,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1922,
+    "annotations": [
+      {
+        "id": 10515,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1160,
+              "end": 1167,
+              "text": "Ansible",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "hdhhfa79a_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 840,
+              "end": 847,
+              "text": "Python2",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ukI5_SikVI",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1322,
+              "end": 1331,
+              "text": "GlusterFS",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Ja1lDRMom7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1348,
+              "end": 1353,
+              "text": "Minio",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "vpCwW5InHi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1366,
+              "end": 1372,
+              "text": "Hadoop",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "GS9y6rKavo",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1386,
+              "end": 1391,
+              "text": "Spark",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "iP7-5M6b5_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1423,
+              "end": 1435,
+              "text": "Docker Swarm",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "XxSVR23kLM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1454,
+              "end": 1464,
+              "text": "JupyterHub",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "a7HiWEGG_1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 204,
+              "end": 211,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "MwkMXq1wep",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 215,
+              "end": 220,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "_GGSMq8FHH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1169,
+              "end": 1192,
+              "text": "https://www.ansible.com",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "_GkzTYmU-1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:42:48.641043Z",
+        "updated_at": "2025-11-14T13:08:01.982931Z",
+        "draft_created_at": "2025-11-04T17:41:55.952997Z",
+        "lead_time": 101.253,
+        "prediction": {},
+        "result_count": 11,
+        "unique_id": "02ee8772-6ff4-4a30-a345-1d18de5d2abc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1922,
+        "project": 23436,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Key used by root, do not set passphrase when asked ssh-keygen -f ${CLUSTER_NAME}.key\n\nKey used by ${CLUSTER_NAME} user ssh-keygen -f files/${CLUSTER_NAME}.key\n\nEvery time the user opens a bash console on Windows or Linux the environment is set through the following commands:\n\n#Windows cd /emma . env_linux.sh ./env_windows.sh\n\n#Linux cd /emma . env_linux.sh\n\n### Infra-structure\n\nWith the environment set, the next step is to setup the infra-structure. The infra-structure, physical place where the platform runs, is composed by a set of virtual machines with the following characteristics: Ubuntu 16.04 OS\n\nPublic network interface\n\nOS disk, 200Mb for software + enough room in /tmp\n\nPasswordless login as root with ${CLUSTER_NAME}.key private key.\n\nXFS Partition mounted at /data/local (used for swapfile, GlusterFS brick, Docker root)\n\nPython2 to run Ansible tasks\n\nThe infrastructure is a collection of machines which must be reachable by ssh. The machines must be prepared/constructed by either [preparing cloud virtual machine] cloud.md or [constructing using Vagrant boxes] vagrant.md. Once the machines are prepared the servers are provisioned using [Ansible] https://www.ansible.com/, an automation tool for IT infra-structure. The roles defined for Ansible will create a platform with the following features:\n\n[GlusterFS] glusterfs.md  [Minio] minio.md  [Hadoop] hadoop.md  [Spark] spark.md Standalone cluster  [Docker Swarm] dockerswarm.md  [JupyterHub] jupyterhub.md\n\nPreceding the platform's installation, the user should click on each feature to understand the setup requirements for each of them. Once all the requirements have been fulfilled, the user should follow the platform's installation steps listed in [ansible.md] ansible.md.",
+      "section": "Key used by root, do not set passphrase when asked + Key used by ${CLUSTER_NAME} user",
+      "repo": "395_Emma",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.412572Z",
+    "updated_at": "2025-11-14T13:08:02.013778Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23436,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

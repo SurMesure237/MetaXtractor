@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/MD-Studio/cerise",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Common Workflow Language",
+    "Dockerfile",
+    "Shell",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/MD-Studio/cerise/zipball/main",
+  "author": "MD-Studio",
+  "dateCreated": "2017-03-01T10:55:22Z",
+  "dateModified": "2021-10-06T21:21:31Z",
+  "keywords": [],
+  "license": null,
+  "description": "A REST service for running CWL workflows on remote clusters",
+  "identifier": 83544633,
+  "name": "MD-Studio/cerise",
+  "issueTracker": "https://api.github.com/repos/MD-Studio/cerise/issues",
+  "readme": "https://github.com/MD-Studio/cerise/blob/develop/README.md"
+}

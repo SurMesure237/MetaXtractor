@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/Team-RADDISH/ParticleDA.jl",
+  "programmingLanguage": "Julia",
+  "programmingLanguages": [
+    "Julia",
+    "Jupyter Notebook",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/Team-RADDISH/ParticleDA.jl/zipball/main",
+  "author": "Team-RADDISH",
+  "dateCreated": "2020-01-08T18:02:03Z",
+  "dateModified": "2025-10-30T13:20:18Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": null,
+  "identifier": 232626497,
+  "name": "Team-RADDISH/ParticleDA.jl",
+  "issueTracker": "https://api.github.com/repos/Team-RADDISH/ParticleDA.jl/issues",
+  "readme": "https://github.com/Team-RADDISH/ParticleDA.jl/blob/main/README.md"
+}

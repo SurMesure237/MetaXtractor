@@ -1,0 +1,27 @@
+{
+  "codeRepository": "https://github.com/cdk/cdk",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java",
+    "Pawn",
+    "HTML"
+  ],
+  "downloadUrl": "https://api.github.com/repos/cdk/cdk/zipball/main",
+  "author": "cdk",
+  "dateCreated": "2010-05-11T08:30:07Z",
+  "dateModified": "2025-10-26T15:03:50Z",
+  "keywords": [
+    "bioinformatics",
+    "blueobelisk",
+    "cheminformatics",
+    "chemistry",
+    "code4lib",
+    "java"
+  ],
+  "license": "https://api.github.com/licenses/lgpl-2.1",
+  "description": "The Chemistry Development Kit",
+  "identifier": 660443,
+  "name": "cdk/cdk",
+  "issueTracker": "https://api.github.com/repos/cdk/cdk/issues",
+  "readme": "https://github.com/cdk/cdk/blob/main/README.md"
+}

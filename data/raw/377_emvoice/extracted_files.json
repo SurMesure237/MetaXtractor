@@ -1,0 +1,9 @@
+{
+  "extracted_files": [
+    "CITATION.cff",
+    "pyproject.toml",
+    "setup.py",
+    "README.dev.md",
+    "README.md"
+  ]
+}

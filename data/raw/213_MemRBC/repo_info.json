@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/atfric/MemRBC",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R",
+    "C"
+  ],
+  "downloadUrl": "https://api.github.com/repos/atfric/MemRBC/zipball/main",
+  "author": "atfric",
+  "dateCreated": "2025-03-27T09:23:15Z",
+  "dateModified": "2025-06-23T07:31:51Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "MembraneRBC - a numerical modeling laboratory for the stomatocyte-discocyte-echinocyte-transformation of Red Blood Cell shape, ZENODO, DOI: https://doi.org/10.5281/zenodo.13908340a numerical modeling laboratory for the stomatocyte-discocyte-echinocyte-transformation of Red Blood Cell shape, ZENODO, DOI: https://doi.org/10.5281/zenodo.13908340",
+  "identifier": 955836752,
+  "name": "atfric/MemRBC",
+  "issueTracker": "https://api.github.com/repos/atfric/MemRBC/issues",
+  "readme": "https://github.com/atfric/MemRBC/blob/master/README.md"
+}

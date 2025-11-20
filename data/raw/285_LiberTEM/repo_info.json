@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/ercius/openNCEM",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "HTML",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ercius/openNCEM/zipball/main",
+  "author": "ercius",
+  "dateCreated": "2016-11-19T00:05:28Z",
+  "dateModified": "2025-10-24T17:23:01Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "A collection of packages and tools for electron microscopy data analysis supported by the National Center for Electron Microscopy facility of the Molecular Foundry",
+  "identifier": 74176118,
+  "name": "ercius/openNCEM",
+  "issueTracker": "https://api.github.com/repos/ercius/openNCEM/issues",
+  "readme": "https://github.com/ercius/openNCEM/blob/main/README.rst"
+}

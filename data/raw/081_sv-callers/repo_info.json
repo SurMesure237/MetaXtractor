@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/Illumina/manta",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "Python",
+    "CMake",
+    "Shell",
+    "C",
+    "Dockerfile",
+    "Ruby"
+  ],
+  "downloadUrl": "https://api.github.com/repos/Illumina/manta/zipball/main",
+  "author": "Illumina",
+  "dateCreated": "2013-05-30T19:33:47Z",
+  "dateModified": "2025-10-30T03:27:55Z",
+  "keywords": [
+    "bioinformatics",
+    "indels",
+    "structural-variation",
+    "structural-variations"
+  ],
+  "license": null,
+  "description": "Structural variant and indel caller for mapped sequencing data",
+  "identifier": 10390195,
+  "name": "Illumina/manta",
+  "issueTracker": "https://api.github.com/repos/Illumina/manta/issues",
+  "readme": "https://github.com/Illumina/manta/blob/master/README.md"
+}

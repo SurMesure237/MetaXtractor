@@ -1,0 +1,336 @@
+[
+  {
+    "id": 1467,
+    "annotations": [
+      {
+        "id": 10884,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 15,
+              "end": 20,
+              "text": "Numpy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "mjJm9Xocuw",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 22,
+              "end": 27,
+              "text": "SciPy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "QEtMeUngW3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 29,
+              "end": 36,
+              "text": "Cantera",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "7VrS4_I1X9",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 66,
+              "end": 76,
+              "text": "Matplotlib",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "86Ub79-8C8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 58,
+              "end": 63,
+              "text": "2.6.0",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "p4hsbhqI_7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:39:09.418743Z",
+        "updated_at": "2025-11-15T17:35:28.049012Z",
+        "draft_created_at": "2025-11-05T17:38:59.719033Z",
+        "lead_time": 35.605999999999995,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "fc9d95f2-54be-451f-9f08-097bf8070672",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1467,
+        "project": 23348,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Prequisites -- Numpy\n\nSciPy\n\nCantera (tested with version 2.6.0)\n\nMatplotlib (used for plotting in the examples)\n\nDescription -- The Python script OMR_model.py allows to simulate oxygen membrane reactors with continuous gas flow rates as described in [1]. Model input values are the initial condition of the feed and sweep gas entering the chambers separated by the membrane, while the output values refer to the chemical equilibrium state in both chambers, which is affected by the oxygen flux through the membrane.\n\nChemical equilibrium and perfect mixing is assumed in the entire sweep and feed chamber on both sides of the membrane. The oxygen flux through the membrane is modelled using the Wagner equation and included into the chemical equilibrium calculation. The entire problem is then solved as a nested problem: The inner problem is the equilibrium calculation including an assumed oxygen flux using Cantera [2].  The outer problem is a root-finding problem to find the oxygen flux satisfying the Wagner equation in the equilibrium state which is solved using SciPy [3]. A detailed explanation of the assumptions, limitations and equations including experimental validation can be found in [1].\n\nThe implementation published here uses thermodynamic data from the Gri 3.0 mechanism [4] and subsequently considers 53 species.  Notable species herein include: [O2, H2O, H2, CH4, CO, CO2, N2, AR]\n\nUsage\n\nTo import the script into your Python code, download OMR_model.py and import the function Simulate_OMR at the beginning of the code as:\n\nfrom OMR_model import Simulate_OMR\n\nAfter defining the input parameters for the model [T,N_f0,x_f0,P_f,N_s0,x_s0,P_s,A_mem,sigma,L,Lc], a simulation can then be performed by calling:",
+      "section": "Introduction (part 1)",
+      "repo": "099_Ideal-Equilibrium-Oxygen-Membrane-Reactor",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.302432Z",
+    "updated_at": "2025-11-15T17:35:28.084582Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23348,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1468,
+    "annotations": [
+      {
+        "id": 10885,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:39:14.124334Z",
+        "updated_at": "2025-11-05T17:39:14.124347Z",
+        "draft_created_at": null,
+        "lead_time": 4.509,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6b2ddfa5-ac7b-45fd-8b8c-05bd0a9e6275",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1468,
+        "project": 23348,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "N_f, x_f, p_o2_f, N_s, x_s, p_o2_s, N_o2, dH, x_comp, conv = Simulate_OMR(T,N_f0,x_f0,P_f,N_s0,x_s0,P_s,A_mem,sigma,L,Lc)\n\nExamples for using the function with scalar input parameters, as well as array shaped input parameters are given in the Examples folder.\n\nInputs and outputs of the model --\n\nParameters (Inputs)\n\nT : Float (scalar or array with length n)  Temperature in °C.  N_f0 : Float (scalar or array with length n)  Initial feed gas molar flow rate in mol/min.  x_f0 : String or list of strings with length n  Initial feed gas mole fractions specified as a string in the format 'A:x_A_f0, B:x_B_f0, C:x_C_f0, ...', where x_A_f0, x_B_f0, x_C_f0 are the mole fractions of the respective species.  P_f : Float (scalar or array with length n)  Feed gas pressure in Pa.  N_s0 : Float (scalar or array with length n)  Initial sweep gas molar flow rate in mol/min.  x_s0 : String or list of strings with length n  Initial sweep gas mole fractions specified as a string in the format 'A:x_A_s0, B:x_B_s0, C:x_C_s0, ...', where x_A_s0, x_B_s0, x_C_s0 are the mole fractions of the respective species.  P_s : Float (scalar or array with length n)  Sweep gas pressure in Pa.  A_mem : Float (scalar or array with length n)  Active membrane area in cm^2.  sigma : Float (scalar or array with length n)  Ambipolar conductivity in S/m.  L : Float (scalar or array with length n)  Membrane thickness in mum.  Lc : Float (scalar or array with length n)  Characteristic length in mum.",
+      "section": "Introduction (part 2)",
+      "repo": "099_Ideal-Equilibrium-Oxygen-Membrane-Reactor",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.302471Z",
+    "updated_at": "2025-11-05T17:39:14.149764Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23348,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1469,
+    "annotations": [
+      {
+        "id": 10886,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1252,
+              "end": 1568,
+              "text": "Bittner, K., Margaritis, N., Schulze-Küppers, F., Wolters, J., & Natour, G. (2023). A mathematical model for initial design iterations and feasibility studies of oxygen membrane reactors by minimizing Gibbs free energy. Journal of Membrane Science, 685, 121955. DOI: https://doi.org/10.1016/j.memsci.2023.121955",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "OEaEVnBuQ2",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:39:24.041064Z",
+        "updated_at": "2025-11-05T17:39:24.041079Z",
+        "draft_created_at": null,
+        "lead_time": 9.742,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "6bd83037-13e8-4dfc-9d9d-b49e67580e1b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1469,
+        "project": 23348,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Returns (Outputs)\n\nN_f : Float (array with length n)  Feed gas molar flow rate in mol/min.  x_f : List of array of floats with size n53  Mole fraction array, consisting of the mole fractions of the feed gas, related to the composition array.  p_o2_f : Float (array with length n)  Feed gas oxygen partial pressure in Pa.  N_s : Float (array with length n)  Sweep gas molar flow rate in mol/min.  x_s : List of array of floats with size n53  Mole fraction array, consisting of the mole fractions of the sweep gas, related to the composition array.  p_o2_s : Float (array with length n)  Sweep gas oxygen partial pressure in Pa.  p_o2_f : Float (array with length n)  Feed gas oxygen partial pressure in Pa.  N_o2 : Float (array with length n)  Molar oxygen flux through the membrane in mol/min.  dH : List of array of floats with size n*53  Outlet-Inlet enthalpy flow difference (reaction heat) in W; If positive: The reaction is endothermic; If negative: The reaction is exothermic.  x_comp : List of strings with size 53  Composition array consisting of the considered species in the calculation.  conv : Integer (array with length n)  Check whether convergence was achieved for the respective array index; Equal to 1 if converged.\n\nReferences -- [1] Bittner, K., Margaritis, N., Schulze-Küppers, F., Wolters, J., & Natour, G. (2023).   A mathematical model for initial design iterations and feasibility studies of oxygen membrane reactors by minimizing Gibbs free energy.   Journal of Membrane Science, 685, 121955.  DOI: https://doi.org/10.1016/j.memsci.2023.121955",
+      "section": "Introduction (part 3)",
+      "repo": "099_Ideal-Equilibrium-Oxygen-Membrane-Reactor",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.302496Z",
+    "updated_at": "2025-11-05T17:39:24.072076Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23348,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1470,
+    "annotations": [
+      {
+        "id": 10887,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 4,
+              "end": 279,
+              "text": "David G. Goodwin, Harry K. Moffat, Ingmar Schoegl, Raymond L. Speth, and Bryan W. Weber. Cantera: An object-oriented software toolkit for chemical kinetics, thermodynamics, and transport processes. https://www.cantera.org, 2023. Version 3.0.0. DOI: 10.5281/zenodo.8137090",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "vGHgYkjDBA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 285,
+              "end": 1026,
+              "text": "Pauli Virtanen, Ralf Gommers, Travis E. Oliphant, Matt Haberland, Tyler Reddy, David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren Weckesser, Jonathan Bright, Stéfan J. van der Walt, Matthew Brett, Joshua Wilson, K. Jarrod Millman, Nikolay Mayorov, Andrew R. J. Nelson, Eric Jones, Robert Kern, Eric Larson, CJ Carey, İlhan Polat, Yu Feng, Eric W. Moore, Jake VanderPlas, Denis Laxalde, Josef Perktold, Robert Cimrman, Ian Henriksen, E.A. Quintero, Charles R Harris, Anne M. Archibald, Antônio H. Ribeiro, Fabian Pedregosa, Paul van Mulbregt, and SciPy 1.0 Contributors. (2020) SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python. Nature Methods, 17(3), 261-272. DOI: https://doi.org/10.1038/s41592-019-0686-2",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "-08qBC7NbR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1032,
+              "end": 1205,
+              "text": "G.P. Smith, D.M. Golden, M. Frenklach, N.W. Moriarty, B. Eiteneer, M. Goldenberg, C.T. Bowman, R.K. Hanson, S. Song, W.C.J. Gardiner, V.V. Lissianski, Z. Qin, Gri-Mech 3.0",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "oUvncmLZWI",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:39:37.322538Z",
+        "updated_at": "2025-11-05T17:39:37.322556Z",
+        "draft_created_at": "2025-11-05T17:39:34.472995Z",
+        "lead_time": 13.088,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "ca066e66-fd43-442a-b4b0-609c44322528",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1470,
+        "project": 23348,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[2] David G. Goodwin, Harry K. Moffat, Ingmar Schoegl, Raymond L. Speth, and Bryan W. Weber. Cantera: An object-oriented software toolkit for chemical kinetics,   thermodynamics, and transport processes.   https://www.cantera.org, 2023. Version 3.0.0. DOI: 10.5281/zenodo.8137090\n\n[3] Pauli Virtanen, Ralf Gommers, Travis E. Oliphant, Matt Haberland, Tyler Reddy, David Cournapeau, Evgeni Burovski, Pearu Peterson,  Warren Weckesser, Jonathan Bright, Stéfan J. van der Walt, Matthew Brett, Joshua Wilson, K. Jarrod Millman, Nikolay Mayorov,   Andrew R. J. Nelson, Eric Jones, Robert Kern, Eric Larson, CJ Carey, İlhan Polat, Yu Feng, Eric W. Moore, Jake VanderPlas,   Denis Laxalde, Josef Perktold, Robert Cimrman, Ian Henriksen, E.A. Quintero, Charles R Harris, Anne M. Archibald, Antônio H. Ribeiro,  Fabian Pedregosa, Paul van Mulbregt, and SciPy 1.0 Contributors.   (2020) SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python. Nature Methods, 17(3), 261-272.  DOI: https://doi.org/10.1038/s41592-019-0686-2\n\n[4] G.P. Smith, D.M. Golden, M. Frenklach, N.W. Moriarty, B. Eiteneer, M. Goldenberg, C.T. Bowman, R.K. Hanson, S. Song,   W.C.J. Gardiner, V.V. Lissianski, Z. Qin, Gri-Mech 3.0",
+      "section": "Introduction (part 4)",
+      "repo": "099_Ideal-Equilibrium-Oxygen-Membrane-Reactor",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.302519Z",
+    "updated_at": "2025-11-05T17:39:37.351923Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23348,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

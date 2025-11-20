@@ -1,0 +1,67 @@
+[
+  {
+    "id": 899,
+    "annotations": [
+      {
+        "id": 11148,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 95,
+              "end": 139,
+              "text": "https://zenodo.org/badge/latestdoi/257305994",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "QvigJlrCQ-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:12:09.598464Z",
+        "updated_at": "2025-11-06T05:12:09.598482Z",
+        "draft_created_at": "2025-11-06T05:12:06.521984Z",
+        "lead_time": 13.421,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "6183bf6d-fd13-4dee-9110-25dfe2e7007c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 899,
+        "project": 23257,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# Rocket: a Runtime System for All-Pair Computation on Heterogeneous Distributed Platforms\n\n[](https://zenodo.org/badge/latestdoi/257305994)\n\nThis repository contains the code for _Rocket_. Rocket is a runtime system based on Constellation for efficient execution of all-pair computations on heterogeneous distributed platform.\n\nAll-pair compute problems are a class of problems where one wants to compare each items from a data set to each other item in the data set using some user-defined comparison function. For example, given set of images, one could find all pairs of matching photos.\n\nRocket targets heterogeneous distributed platforms. In practice, this means any platform consisting of multiple nodes each equipped with at least one CUDA-enabled GPU.\n\nThree example applications are included with Rocket from different scientific domains: a bioinformatics application, a digital forensics application, and localization microscopy application.",
+      "section": "README",
+      "repo": "093_Rocket",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.955216Z",
+    "updated_at": "2025-11-06T05:12:09.629113Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23257,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

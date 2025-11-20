@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "[](https://github.com/merenlab/anvio/actions/workflows/daily-component-tests-and-migrations.yaml)\n\n### Releases\n\nGithub [releases page] https://github.com/merenlab/anvio/releases lists all the stable releases of anvi'o.\n\n### Installation and tutorials\n\nThe [anvi'o project page] https://anvio.org gives access to installation manuals, user tutorials, and other sweets.\n\n### Help on anvi'o programs and artifacts\n\n[The anvi'o help pages] https://anvio.org/help describe individual anvi'o programs as well as artifacts they consume or produce.\n\n### Coding style considerations\n\nPlease see [relevant discussions] https://github.com/merenlab/anvio/issues?q=label%3A%22coding+style%22+.\n\n### Community chat\n\nClick [this link] https://discord.gg/C6He6mSNY4 to join the anvi'o Discord channel.\n\n### Others on anvi'o\n\nRead our [user testimonials] http://merenlab.org/2017/07/12/testimonials/.",
+      "section": "README",
+      "repo": "375_anvi_o",
+      "source_file": "readme.md"
+    }
+  }
+]

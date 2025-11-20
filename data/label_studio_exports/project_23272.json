@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1060,
+    "annotations": [
+      {
+        "id": 11146,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 320,
+              "end": 327,
+              "text": "Nuxt.js",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "NKwdKOmOP3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 354,
+              "end": 360,
+              "text": "Vue.js",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "p2luakORXL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 566,
+              "end": 626,
+              "text": "https://github.com/esciencecenter-digital-skills/NEBULA-docs",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "8_BWw8D46Q",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 329,
+              "end": 348,
+              "text": "https://nuxtjs.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "HTwOt4fvq4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 362,
+              "end": 380,
+              "text": "https://vuejs.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "Sa5rYe3Ze_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:11:21.968254Z",
+        "updated_at": "2025-11-16T04:56:40.894550Z",
+        "draft_created_at": "2025-11-06T05:10:20.802500Z",
+        "lead_time": 102.82600000000001,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "8722346a-a48d-4057-93f4-2e56d3122df1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1060,
+        "project": 23272,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/esciencecenter-digital-skills/NEBULA/blob/main/LICENSE)\n\n# NEBULA\n\nCopyright 2023-2024 Netherlands eScience Center\n\nThe NEBULA (Nuxt & eScience Based Universal Learning Application) framework can be used to create an easily maintainable, version-controllable, web-based lesson collection. It uses [Nuxt.js] https://nuxtjs.org/ and [Vue.js] https://vuejs.org/.\n\nNEBULA is being created as part of the Netherlands eScience Center Digital Skills programme.\n\nFor elaborate setup instructions and other documentation, see the [NEBULA documentation] https://github.com/esciencecenter-digital-skills/NEBULA-docs\n\n# Quick setup\n\n## Content directory/repository\n\nTo use NEBULA you will need to setup a content directory or repository. See the [NEBULA content template repository] https://github.com/esciencecenter-digital-skills/NEBULA-content-template or the [NEBULA documentation on creating content] https://github.com/esciencecenter-digital-skills/NEBULA-docs/blob/main/content-repo-instantiation.md for more information.\n\n## Link to the content directory\n\nTo make sure that NEBULA knows which content to build, we create the following environment variable:\n\nexport CONTENT_PATH=\"~/path/to/your/content/directory\"\n\n## Install dependencies\n\nInstall the dependencies using the node package manager:\n\n# npm\n\nnpm install\n\n## Local development build\n\nStart the development server on http://localhost:3000:\n\n# npm\n\nnpm run dev\n\n# Contributing\n\nIf you want to contribute to the NEBULA framework, please read the [contributing guidelines] https://github.com/esciencecenter-digital-skills/NEBULA/blob/main/CONTRIBUTING.md.",
+      "section": "README",
+      "repo": "287_NEBULA",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.106717Z",
+    "updated_at": "2025-11-16T04:56:40.929149Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23272,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

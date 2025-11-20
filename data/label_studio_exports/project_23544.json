@@ -1,0 +1,321 @@
+[
+  {
+    "id": 2448,
+    "annotations": [
+      {
+        "id": 10117,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 38,
+              "text": "https://opensource.org/licenses/MIT",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "XnjL2qnIJE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:43:59.419048Z",
+        "updated_at": "2025-11-03T05:43:59.419076Z",
+        "draft_created_at": "2025-11-03T05:43:55.532686Z",
+        "lead_time": 18.133,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "401a758b-54d0-496d-984f-f0cec6102005",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2448,
+        "project": 23544,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://opensource.org/licenses/MIT) [](https://dcc.tudelft.nl) [](https://github.com/sedtrails/sedtrails/actions/workflows/publish.yml) [](https://github.com/sedtrails/sedtrails/actions/workflows/ruff.yml) [](https://github.com/sedtrails/sedtrails/actions/workflows/pytest.yml)",
+      "section": "Introduction",
+      "repo": "456_SedTRAILS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.108167Z",
+    "updated_at": "2025-11-03T05:43:59.448114Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23544,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2449,
+    "annotations": [
+      {
+        "id": 10118,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1096,
+              "end": 1099,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Mvap6T8mwL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1461,
+              "end": 1464,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Kx4fE9Om1s",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1468,
+              "end": 1473,
+              "text": "conda",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ewPu8_XNgn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 992,
+              "end": 1013,
+              "text": "Python 3.10 and above",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "3zNyjOP0pl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 939,
+              "end": 960,
+              "text": "Python 3.13 and above",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "h6HcNks2-g",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:44:47.124128Z",
+        "updated_at": "2025-11-17T00:03:08.689490Z",
+        "draft_created_at": "2025-11-03T05:44:21.397708Z",
+        "lead_time": 115.99199999999999,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "450048f9-2f54-4598-af43-a1267f24f2b0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2449,
+        "project": 23544,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "SedTRAILS Sediment TRAnsport vIsualization and Lagrangian Simulator.\n\nSedTRAILS is an open-source Python package for modeling sediment transport that uses Lagrangian particle tracking to simulate sediment pathways in coastal and estuarine environments. The current version is a beta release, bugs and issues are expected. Please report any problems you encounter on the [GitHub Issues page] https://github.com/sedtrails/sedtrails/issues\n\n## Features\n\nLagrangian particle tracking for sediment transport simulation.\n\nDashboard for interactive visualization of simulation results in real-time.\n\nSupport for Delft3D Flexible Mesh (D3D-FM) hydrodynamic model outputs.\n\nSupport for various physics convertion methods.\n\nTerminal user interface (CLI) for easy setup and execution of simulations.\n\nModular design for easy integration and extension.\n\nComprehensive documentation and examples.\n\n## Installation\n\nRequirements: SedTRAILS is tested on Python 3.13 and above, but it is likely to work with Python 3.10 and above.\n\n### Using pip\n\nYou can install the latest beta version directly from PyPI using pip. Check the [releases page] https://pypi.org/project/sedtrails/#history for the latest version (x).\n\npip install sedtrails=1.0.0-beta.x\n\n### From Source\n\nTo install SedTRAILS from source, follow these steps:\n\nClone the repository:\n\ngit clone https://github.com/sedtrails/sedtrails.git\n\nChange to the sedtrails directory:\n\ncd sedtrails\n\nInstall the package using pip or conda:\n\nFor pip pip install .\n\nCreate and activate the conda environment conda env create -f environment.yml conda activate sedtrails\n\nVerify the installation by running:\n\nsedtrails --version",
+      "section": "SedTRAILS + For pip + Create and activate the conda environment",
+      "repo": "456_SedTRAILS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.108206Z",
+    "updated_at": "2025-11-17T00:03:08.727739Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23544,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2450,
+    "annotations": [
+      {
+        "id": 10119,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 255,
+              "end": 266,
+              "text": "MIT License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "-EDIH7uXUw",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 345,
+              "end": 502,
+              "text": "Pearson, S. G., Reyns, J., Garcia Alvarez, M. G., Urhan, A., van Westen, B., Pannozzo, N., & Shafiei, H. SedTRAILS (Version 1.0.0-beta.0) [Computer software]",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "QsyBrNRAT2",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:45:05.370794Z",
+        "updated_at": "2025-11-03T05:45:05.370812Z",
+        "draft_created_at": "2025-11-03T05:44:59.970810Z",
+        "lead_time": 18.06,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "5b3cabaf-c7b5-4866-9c9e-d27b8fbd3f77",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2450,
+        "project": 23544,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "E.g.: SedTRAILS 1.0.0-beta.0\n\n## Contributing Guidelines\n\nWe welcome contributions from the community! Read the [contributing guidelines] CONTRIBUTING.md to know how can you take part in developing SedTRAILS.\n\n## License\n\nSetTRAILS is licensed under the [MIT License] LICENSE. &copy; (2025) SedTRAILS Team, Delft, The Netherlands.\n\n## Citation\n\nPearson, S. G., Reyns, J., Garcia Alvarez, M. G., Urhan, A., van Westen, B., Pannozzo, N., & Shafiei, H. SedTRAILS (Version 1.0.0-beta.0) [Computer software]",
+      "section": "E.g.: SedTRAILS 1.0.0-beta.0 (part 1)",
+      "repo": "456_SedTRAILS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.108227Z",
+    "updated_at": "2025-11-03T05:45:05.400694Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23544,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2451,
+    "annotations": [
+      {
+        "id": 10120,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:45:09.781133Z",
+        "updated_at": "2025-11-03T05:45:09.781155Z",
+        "draft_created_at": null,
+        "lead_time": 4.226,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "1ee30738-ced6-4d84-aff9-f699937c7772",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2451,
+        "project": 23544,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Author Contributions\n\n| [Role] https://credit.niso.org/contributor-roles-defined/ | Author | | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | | Conceptualization | Garcia Alvarez, M., Pannozzo N., Pearson, S. G., Reyns J., Shafiei, H., Urhan, A., & van Westen, B. | | Project management | Garcia Alvarez, M., & Pearson, S. G. | | Investigation | Pannozzo N., Pearson, S. G., Reyns J., Shafiei, H., & van Westen, B. | | Software | Garcia Alvarez, M., Pannozzo N., Pearson, S. G., Reyns J., Shafiei, H., Urhan, A., & van Westen, B. | | Visualization | Pearson, S. G., & van Westen, B. | | Supervision | Garcia Alvarez, M., Pearson, S., & Reyns, J. | | Funding acquisition | Pearson, S. G., & Reyns J. |\n\n## Acknowlegdements\n\n- The design and development of SedTRAILS Software was supported by the [Digital Competence Centre] https://dcc.tudelft.nl/, Delft University of Technology. - We want to thank Monica Aguilera Chaves from [Deltares] https://www.deltares.nl/en/ for partcipating in the initial design discussions of SedTRAILS.",
+      "section": "E.g.: SedTRAILS 1.0.0-beta.0 (part 2)",
+      "repo": "456_SedTRAILS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.108248Z",
+    "updated_at": "2025-11-03T05:45:09.807831Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23544,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

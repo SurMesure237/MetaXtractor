@@ -1,0 +1,41 @@
+{
+  "codeRepository": "https://github.com/TUDelft-CNS-ATM/bluesky",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "HTML",
+    "C++",
+    "GLSL",
+    "CSS",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/TUDelft-CNS-ATM/bluesky/zipball/main",
+  "author": "TUDelft-CNS-ATM",
+  "dateCreated": "2015-04-01T17:13:37Z",
+  "dateModified": "2025-10-28T11:23:54Z",
+  "keywords": [
+    "air-traffic-control",
+    "air-transport",
+    "aircraft",
+    "conflict-detection",
+    "conflict-resolution",
+    "drones",
+    "navaids",
+    "python",
+    "simulation",
+    "traffic",
+    "transportation",
+    "transportation-simulation",
+    "tudelft",
+    "urban-air-mobility",
+    "uspace",
+    "utm",
+    "wgs84"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "The open source air traffic simulator",
+  "identifier": 33261270,
+  "name": "TUDelft-CNS-ATM/bluesky",
+  "issueTracker": "https://api.github.com/repos/TUDelft-CNS-ATM/bluesky/issues",
+  "readme": "https://github.com/TUDelft-CNS-ATM/bluesky/blob/master/README.md"
+}

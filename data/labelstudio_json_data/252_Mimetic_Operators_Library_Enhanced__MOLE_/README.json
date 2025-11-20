@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "text": "MOLE: Mimetic Operators Library Enhanced\n\n[](https://doi.org/10.21105/joss.06288) [](https://www.mathworks.com/matlabcentral/fileexchange/124870-mole) [](https://www.gnu.org/licenses/gpl-3.0) [](https://github.com/csrc-sdsu/mole/actions/workflows/ci.yml) [](https://mole-docs.readthedocs.io/en/main/)\n\n## Description\n\nMOLE is a high-quality (C++ & MATLAB/Octave) library that implements high-order mimetic operators to solve partial differential equations. It provides discrete analogs of the most common vector calculus operators: Gradient, Divergence, Laplacian, Bilaplacian, and Curl. These operators (highly sparse matrices) act on staggered grids (uniform, non-uniform, curvilinear) and satisfy local and global conservation laws.\n\nMathematics is based on the work of [Corbino and Castillo] https://doi.org/10.1016/j.cam.2019.06.042. However, the user may find helpful previous publications, such as [Castillo and Grone] https://doi.org/10.1137/S0895479801398025, in which similar operators were derived using a matrix analysis approach.\n\n## Installation\n\n### Platform and Compiler Compatibility\n\nRefer to the table below for compiler support across different operating systems when building MOLE.\n\n| OS / Compiler | GCC 13.2.0 | AppleClang | IntelLLVM (icpx) | |---------------|------------|------------|------------------| | Linux | Yes | No | Yes | | macOS | No | Yes | Yes |",
+      "section": "MOLE: Mimetic Operators Library Enhanced (part 1)",
+      "repo": "252_Mimetic_Operators_Library_Enhanced__MOLE_",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Prerequisites\n\nTo install the MOLE library, you'll need the following packages:\n\nCMake (Minimum version 3.10)\n\nOpenBLAS (Minimum version 0.3.10)\n\nEigen3\n\nLAPACK (Mac only)\n\nlibomp (Mac only)\n\nFor documentation build requirements, please refer to the [Documentation Guide] https://github.com/csrc-sdsu/mole/blob/main/doc/sphinx/README.md.\n\n### Package Installation by OS\n\n#### Ubuntu/Debian Systems",
+      "section": "MOLE: Mimetic Operators Library Enhanced (part 2)",
+      "repo": "252_Mimetic_Operators_Library_Enhanced__MOLE_",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Install all required packages sudo apt install cmake libopenblas-dev libeigen3-dev\n\n#### macOS Systems\n\nInstall [Homebrew] https://brew.sh/ if you don't have it already, then run:\n\nInstall all required packages brew install cmake openblas eigen libomp lapack\n\nTroubleshooting Homebrew: If you encounter installation errors, try these steps: ``bash # Fix permissions issues\n\nsudo chown -R $(whoami) /usr/local/Cellar # Fix shallow clone issues\n\ngit -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core fetch --unshallow # Remove Java dependencies if they cause conflicts\n\nbrew uninstall --ignore-dependencies java brew update ``\n\n#### RHEL/CentOS/Fedora Systems",
+      "section": "Install all required packages + Install all required packages",
+      "repo": "252_Mimetic_Operators_Library_Enhanced__MOLE_",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Install all required packages sudo yum install cmake openblas-devel eigen3-devel lapack\n\n## Building and Installing\n\nClone the repository:\n\n``bash  git clone https://github.com/csrc-sdsu/mole.git  cd mole  `\n\nBuild the library:\n\n`bash  mkdir build && cd build  cmake ..  make  `\n\nInstall the library:\n\nFor a custom location:\n\n`bash  cmake --install . --prefix /path/to/location  ` For a system location (requires privileges):\n\n`bash  sudo cmake --install .  `  Or  `bash  sudo cmake --install . --prefix /path/to/privileged/location  `\n\nNote: Armadillo and SuperLU will be automatically installed in the build directory during the build process.\n\n## Testing\n\nRun from the build directory:\n\n### C++\n\nA suite of four automatic tests that verify MOLE's installation and dependencies. These tests run automatically during the C++ library construction.\n\nmake run_tests\n\n### MATLAB/Octave\n\nMATLAB/Octave equivalent of the C++ test suite. We recommend running these tests before using MOLE to ensure proper setup.\n\nmake run_matlab_octave_tests\n\n## Examples\n\nMany of the examples require 'gnuplot' to visualize the results. You can get gnuplot on macOSX with\n\nbrew install gnuplot\n\nand on Windows downlaoding and running the file from [here] https://sourceforge.net/projects/gnuplot/files/gnuplot/6.0.2/gp602-win64-mingw.exe/download\n\n### C++\n\nFour self-contained, well-documented examples demonstrating typical PDE solutions. These are automatically built with make` and serve as an excellent starting point for C++ users.\n\n### MATLAB/Octave Examples\n\nA collection of over 30 examples showcasing various PDE solutions, from simple linear one-dimensional problems to complex nonlinear multidimensional scenarios.",
+      "section": "Install all required packages (part 1)",
+      "repo": "252_Mimetic_Operators_Library_Enhanced__MOLE_",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Documentation\n\nMOLE comes with comprehensive documentation:\n\nAPI Reference & User Guide: Access our online [Documentation] https://mole-docs.readthedocs.io/en/latest/\n\nBuilding Documentation: To build documentation locally, follow our [Documentation Guide] https://github.com/csrc-sdsu/mole/blob/main/doc/sphinx/README.md.\n\nImportant Note: Performing non-unary operations involving operands constructed over different grids may lead to unexpected results. While MOLE allows such operations without throwing errors, users must exercise caution when manipulating operators across different grids.\n\n## Licensing\n\nMOLE is distributed under a GNU General Public License; please refer to the _LICENSE_ file for more details.\n\n## Community Guidelines\n\nWe welcome contributions to MOLE, including: Adding new functionalities\n\nProviding examples\n\nAddressing existing issues\n\nReporting bugs\n\nRequesting new features\n\nPlease refer to our [Contribution Guidelines] https://github.com/csrc-sdsu/mole/blob/main/CONTRIBUTING.md for more details.",
+      "section": "Install all required packages (part 2)",
+      "repo": "252_Mimetic_Operators_Library_Enhanced__MOLE_",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## How to Cite\n\nPlease cite our work if you use MOLE in your research or software. Citations are helpful for the continued development and maintenance of the library.\n\n@article{Corbino2024,   doi = {10.21105/joss.06288},   url = {https://doi.org/10.21105/joss.06288},   year = {2024},   publisher = {The Open Journal},   volume = {9},   number = {99},   pages = {6288},   author = {Corbino, Johnny and Dumett, Miguel A. and Castillo, Jose E.},   title = {MOLE: Mimetic Operators Library Enhanced},   journal = {Journal of Open Source Software} }\n\nThe archival copy of the MOLE User Manual is maintained on [Zenodo] https://zenodo.org/records/16898575. To cite the User Manual please use:\n\n@misc{MOLE_user_manual,  author = {Barra, Valeria and  Boada, Angel and  Brzenski, Jared and  Castillo, Jose and  Chakalasiya, Prit and  Singh, Surinder Chhabra and  Corbino, Johnny Delgado and  Drummond, Tony and  Dumett, Miguel and  Hellmers, Joe and  Ilaty, Arshia and  Kaviani, Katayoon and  Nzerem, Oluchi and  Pagallo, Giulia and  Paolini, Christopher and  Rosano, Valentina and  Srinivas, Aneesh Murthy and  Srinivasan, Janani Priyadharshini and  Valera, Manuel},  title = {{MOLE User Manual}},  month = aug,  year = 2025,  publisher = {Zenodo},  version = {1.1.0},  doi = {10.5281/zenodo.16898575},  url = {https://doi.org/10.5281/zenodo.16898575}, }",
+      "section": "Install all required packages (part 3)",
+      "repo": "252_Mimetic_Operators_Library_Enhanced__MOLE_",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Gallery\n\nNow, some cool pictures obtained with MOLE:",
+      "section": "Install all required packages (part 4)",
+      "repo": "252_Mimetic_Operators_Library_Enhanced__MOLE_",
+      "source_file": "readme.md"
+    }
+  }
+]

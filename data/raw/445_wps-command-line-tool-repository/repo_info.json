@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/riesgos/gfz-command-line-tool-repository",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java",
+    "Scheme",
+    "Python",
+    "Dockerfile",
+    "Shell",
+    "JavaScript"
+  ],
+  "downloadUrl": "https://api.github.com/repos/riesgos/gfz-command-line-tool-repository/zipball/main",
+  "author": "riesgos",
+  "dateCreated": "2019-03-21T14:39:05Z",
+  "dateModified": "2022-02-24T06:56:30Z",
+  "keywords": [
+    "docker",
+    "earthquakes",
+    "ogc",
+    "web-processing-service",
+    "wps"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": null,
+  "identifier": 176963979,
+  "name": "riesgos/gfz-command-line-tool-repository",
+  "issueTracker": "https://api.github.com/repos/riesgos/gfz-command-line-tool-repository/issues",
+  "readme": "https://github.com/riesgos/gfz-command-line-tool-repository/blob/master/README.md"
+}

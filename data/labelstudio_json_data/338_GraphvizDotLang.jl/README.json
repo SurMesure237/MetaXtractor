@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "# GraphvizDotLang.jl\n\n[](https://jhidding.github.io/GraphvizDotLang.jl)\n\nModule for generating graphs in the Dot language (aka GraphViz).\n\nusing GraphvizDotLang: digraph, node, edge, attr, save\n\ng = digraph(bgcolor=\"beige\", rankdir=\"LR\", ranksep=\"1\") |>  attr(:edge; fontname=\"Cantarell\") |>  attr(:node; shape=\"circle\", style=\"filled,wedged\") |>  node(\"start\"; label=\"\", fillcolor=\"red:green:blue\") |>  node(\"end\"; label=\"\", fillcolor=\"cyan:magenta:yellow\") |>  edge(\"start\", \"end\"; label=\"invert!\")\n\nsave(g, ARGS[1])\n\n## Installation\n\nInstall the package the usual way by typing ]add GraphvizDotLang in the REPL. The Graphviz_jll binary package will ensure that you have Graphviz installed.\n\n## Documentation\n\nPlease check the [documentation pages] https://jhidding.github.io/GraphvizDotLang.jl.\n\nYou will also need the extensive [documentation of Graphviz] https://graphviz.org/documentation/ itself.\n\nRun make all to build the documentation locally and also run the examples.\n\n## License\n\nCopyright 2022 Netherlands eScience Center, Johan Hidding. Licensed under Apache v2, see LICENSE",
+      "section": "README",
+      "repo": "338_GraphvizDotLang.jl",
+      "source_file": "readme.md"
+    }
+  }
+]

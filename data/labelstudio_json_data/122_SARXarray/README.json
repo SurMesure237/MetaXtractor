@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "# SarXarray\n\n[](https://doi.org/10.5281/zenodo.7717027) [](https://pypi.python.org/project/sarxarray/) [](https://sonarcloud.io/summary/new_code?id=TUDelftGeodesy_sarxarray) [](https://www.bestpractices.dev/projects/7980) [](https://github.com/TUDelftGeodesy/sarxarray/actions/workflows/build.yml) [](https://opensource.org/licenses/Apache-2.0)\n\nSARXarray is an open-source Xarray extension for Synthetic Aperture Radar (SAR) data. It is especially designed to work with large volume complex data, e.g. Single Look Complex (SLC) data, as well as derived products such as interferogram stacks.\n\n## Installation\n\nSARXarray can be installed from PyPI:\n\npip install sarxarray\n\nor from the source:\n\ngit clone git@github.com:TUDelftGeodesy/sarxarray.git cd sarxarray pip install .\n\nNote that Python version >=3.10 is required for SARXarray.\n\n## Documentation\n\nFor more information on usage and examples of SARXarray, please refer to the [documentation] https://tudelftgeodesy.github.io/sarxarray/.\n\n## License\n\nCopyright (c) 2022 - 2025, Netherlands eScience Center & Delft University of Technology\n\nApache Software License 2.0",
+      "section": "README",
+      "repo": "122_SARXarray",
+      "source_file": "readme.md"
+    }
+  }
+]

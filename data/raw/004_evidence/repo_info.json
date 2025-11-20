@@ -1,0 +1,30 @@
+{
+  "codeRepository": "https://github.com/ADAH-EviDENce/evidence",
+  "programmingLanguage": "TypeScript",
+  "programmingLanguages": [
+    "TypeScript",
+    "Go",
+    "Jupyter Notebook",
+    "Shell",
+    "Python",
+    "Dockerfile",
+    "CSS",
+    "HTML"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ADAH-EviDENce/evidence/zipball/main",
+  "author": "ADAH-EviDENce",
+  "dateCreated": "2020-07-08T12:37:40Z",
+  "dateModified": "2023-11-01T19:33:43Z",
+  "keywords": [
+    "close-reading",
+    "corpus",
+    "humanities",
+    "search"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "doc2vec-based assisted close reading with support for abstract concept-based search and context-based search",
+  "identifier": 278085258,
+  "name": "ADAH-EviDENce/evidence",
+  "issueTracker": "https://api.github.com/repos/ADAH-EviDENce/evidence/issues",
+  "readme": "https://github.com/ADAH-EviDENce/evidence/blob/master/README.md"
+}

@@ -1,0 +1,275 @@
+[
+  {
+    "id": 870,
+    "annotations": [
+      {
+        "id": 12105,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 651,
+              "end": 657,
+              "text": "Docker",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "1Gsy4aCPA0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 700,
+              "end": 706,
+              "text": "Docker",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "WKFOcLByD7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 744,
+              "end": 779,
+              "text": "https://docs.docker.com/get-docker/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "V6ChP2N11T",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T08:03:04.196359Z",
+        "updated_at": "2025-11-16T05:40:12.086170Z",
+        "draft_created_at": "2025-11-09T08:02:45.389884Z",
+        "lead_time": 41.613,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "21cce6c9-618f-4bf1-ae8e-85af44ac1ae9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 870,
+        "project": 23250,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Deep-BIAS: Bias In Algorithms, Structural ## A toolbox for detecting structural bias in continuous optimization heuristics.\n\nWith a deep-learning extension to better evaluate the type of bias and gain insights using explainable AI\n\n## Using the BIAS-Toolbox with Docker (Recommended)\n\nThe BIAS-Toolbox can be used inside a Docker container, eliminating the need to manually install all dependencies and packages. Follow the steps below to run the Docker image, and to start working with the toolbox in a Jupyter notebook environment. We provide the following prebuild container: ghcr.io/nikivanstein/bias:master\n\n### Prerequisites\n\nMake sure you have Docker installed on your system. You can install Docker by following the instructions [here] https://docs.docker.com/get-docker/.\n\n### Steps to Run the Docker Image\n\nPull the Prebuild Image\n\nThe following command will pull the prebuild image to your system.\n\n``bash  docker pull ghcr.io/nikivanstein/bias:master  `\n\nRun the Prebuild Docker Container:\n\nThe following command will start the container and expose the Jupyter notebook interface on port 8888:    `bash  docker run -p 8888:8888 ghcr.io/nikivanstein/bias:master  `\n\nAccess the Jupyter Notebook:\n\nAfter starting the container, you should see a message with instructions to access the Jupyter notebook. It will look something like this:    `  To access the notebook, open this file in a browser:  http://127.0.0.1:8888/?token=  ``    Open the provided URL in your web browser to start using the BIAS-Toolbox within Jupyter.",
+      "section": "Deep-BIAS: Bias In Algorithms, Structural (part 1)",
+      "repo": "041_BIAS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.479576Z",
+    "updated_at": "2025-11-16T05:40:12.122816Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23250,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 871,
+    "annotations": [
+      {
+        "id": 12106,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T08:03:12.601280Z",
+        "updated_at": "2025-11-09T08:03:12.601293Z",
+        "draft_created_at": null,
+        "lead_time": 8.206,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6ed234c3-f19a-4e3c-8c90-cd4fabef3e79",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 871,
+        "project": 23250,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Steps to Build the Dockerfile yourself\n\nClone the Repository:\n\nIf you haven't already cloned the BIAS repository, do so with the following command:    ``bash  git clone https://github.com/nikivanstein/BIAS.git  cd BIAS  `\n\nBuild the Docker Image:\n\nThe Dockerfile included in this repository will install all necessary dependencies (both Python and R), download required data and model files, and set up the environment.\n\nTo build the Docker image, run the following command from the root of the repository (where the Dockerfile is located):    `bash  docker build -t bias-toolbox .  `\n\nThis will create a Docker image named bias-toolbox.\n\nRun the Docker Container:\n\nOnce the image is built, you can run the container. The following command will start the container and expose the Jupyter notebook interface on port 8888:    `bash  docker run -p 8888:8888 bias-toolbox  `\n\nAccess the Jupyter Notebook:\n\nAfter starting the container, you should see a message with instructions to access the Jupyter notebook. It will look something like this:    `  To access the notebook, open this file in a browser:  http://127.0.0.1:8888/?token=  `    Open the provided URL in your web browser to start using the BIAS-Toolbox within Jupyter.\n\n### Stopping the Container\n\nTo stop the running Docker container, press CTRL+C` in the terminal where the container is running, or find the container's ID with the command:\n\ndocker ps\n\nThen stop the container with:\n\ndocker stop",
+      "section": "Deep-BIAS: Bias In Algorithms, Structural (part 2)",
+      "repo": "041_BIAS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.479613Z",
+    "updated_at": "2025-11-09T08:03:12.625465Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23250,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 872,
+    "annotations": [
+      {
+        "id": 12107,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T08:50:14.648896Z",
+        "updated_at": "2025-11-09T08:50:14.648911Z",
+        "draft_created_at": null,
+        "lead_time": 2821.832,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "06276f9a-46e9-48cb-b3d9-da3618a61279",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 872,
+        "project": 23250,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Additional Notes\n\nThe image is configured to use Jupyter Notebook with R and Python integrations.\n\nR version 4.1.2 is installed and configured along with the necessary R packages as specified in the install.r script.\n\nPython dependencies are handled via the requirements.txt file.\n\nBy using Docker, you can avoid issues related to dependency installation and system setup, providing a consistent environment for running the BIAS-Toolbox.\n\n## Setup using Pip\n\nAnother way of using the BIAS-Toolbox is by installing the pip package.\n\nThis package requires an R-installation to be present.\n\nThe package is tested with R 4.1.2 (install from source https://cran.r-project.org/src/base/R-4/R-4.1.2.tar.gz)\n\nThe R packages will be installed automatically upon first importing BIAS.\n\nInstall the BIAS toolbox using pip:\n\npip install struct-bias\n\nThis installs the following R packages:\n\nPoweR\n\nAutoSEARCH\n\nnortest\n\ndata.table\n\ngoftest\n\nddst\n\n### Detailed setup using virtual env\n\nDownload and install R from https://cran.r-project.org/ use version 4.1.2\n\nExample for Ubuntu based system:  ``sh  sudo wget https://cran.rstudio.com/src/base/R-4/R-4.1.2.tar.gz   tar zxvf R-4.1.2.tar.gz   cd R-4.1.2   ./configure --enable-R-shlib --with-blas --with-lapack  make   sudo make install   `   Download this repository (clone or as zip)\n\nCreate a python virtual env python -m venv env\n\nActivate the env (in powershell for example: env/Scripts/Activate.ps1 )\n\nInstall dependencies pip install -r requirements.txt\n\nCheckout the example.py` to start using the BIAS toolbox.",
+      "section": "Deep-BIAS: Bias In Algorithms, Structural (part 3)",
+      "repo": "041_BIAS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.479637Z",
+    "updated_at": "2025-11-09T08:50:14.675317Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23250,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 873,
+    "annotations": [
+      {
+        "id": 12108,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1047,
+              "end": 1420,
+              "text": "@ARTICLE{9828803, author={Vermetten, Diederick and van Stein, Bas and Caraffini, Fabio and Minku, Leandro L. and Kononova, Anna V.}, journal={IEEE Transactions on Evolutionary Computation}, title={BIAS: A Toolbox for Benchmarking Structural Bias in the Continuous Domain}, year={2022}, volume={26}, number={6}, pages={1380-1393}, doi={10.1109/TEVC.2022.3189848} }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "MyccLpHquS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1422,
+              "end": 1719,
+              "text": "@software{niki_van_stein_2023_7803623, author = {Niki van Stein and Diederick Vermetten}, title = {Basvanstein/BIAS: v1.1 Deep-BIAS Toolbox}, month = apr, year = 2023, publisher = {Zenodo}, version = {v1.1}, doi = {10.5281/zenodo.7803623}, url = {https://doi.org/10.5281/zenodo.7803623} }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "UoU8_7h7P0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T08:50:32.853514Z",
+        "updated_at": "2025-11-09T08:50:32.853526Z",
+        "draft_created_at": "2025-11-09T08:50:31.288679Z",
+        "lead_time": 18.001,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "5edbf68d-2972-4413-a30e-7177cf036848",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 873,
+        "project": 23250,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Example\n\n#example of using the BIAS toolbox to test a DE algorithm\n\nfrom scipy.optimize import differential_evolution import numpy as np from BIAS import BIAS, f0\n\nbounds = [(0,1), (0, 1), (0, 1), (0, 1), (0, 1)]\n\n#do 30 independent runs (5 dimensions) samples = [] print(\"Performing optimization method 30 times of f0.\") for i in np.arange(30):  result = differential_evolution(f0, bounds, maxiter=100)  samples.append(result.x)\n\nsamples = np.array(samples)\n\ntest = BIAS() print(test.predict(samples, show_figure=True))\n\ny, preds = test.predict_deep(samples) test.explain(samples, preds, filename=\"explanation.png\")\n\n## Additional files\n\nNote: The code for generating the RF used to predict the type of bias is included, but the full RF is not. These can be found on zenodo: https://doi.org/10.6084/m9.figshare.16546041. The RF models will be downloaded automatically the first time the predict function requires them.\n\n### Citation\n\nIf you use the BIAS toolbox in a scientific publication, we would appreciate using the following citations:\n\n@ARTICLE{9828803,  author={Vermetten, Diederick and van Stein, Bas and Caraffini, Fabio and Minku, Leandro L. and Kononova, Anna V.},  journal={IEEE Transactions on Evolutionary Computation},   title={BIAS: A Toolbox for Benchmarking Structural Bias in the Continuous Domain},   year={2022},  volume={26},  number={6},  pages={1380-1393},  doi={10.1109/TEVC.2022.3189848} }\n\n@software{niki_van_stein_2023_7803623,  author = {Niki van Stein and  Diederick Vermetten},  title = {Basvanstein/BIAS: v1.1 Deep-BIAS Toolbox},  month = apr,  year = 2023,  publisher = {Zenodo},  version = {v1.1},  doi = {10.5281/zenodo.7803623},  url = {https://doi.org/10.5281/zenodo.7803623} }",
+      "section": "Deep-BIAS: Bias In Algorithms, Structural (part 4)",
+      "repo": "041_BIAS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.479660Z",
+    "updated_at": "2025-11-09T08:50:32.878160Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23250,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/NLeSC/scriptcwl",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Common Workflow Language"
+  ],
+  "downloadUrl": "https://api.github.com/repos/NLeSC/scriptcwl/zipball/main",
+  "author": "NLeSC",
+  "dateCreated": "2016-10-12T08:30:20Z",
+  "dateModified": "2022-05-28T11:02:37Z",
+  "keywords": [
+    "cwl",
+    "python",
+    "workflow"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Create cwl workflows by writing a simple Python script",
+  "identifier": 70679474,
+  "name": "NLeSC/scriptcwl",
+  "issueTracker": "https://api.github.com/repos/NLeSC/scriptcwl/issues",
+  "readme": "https://github.com/NLeSC/scriptcwl/blob/master/README.rst"
+}

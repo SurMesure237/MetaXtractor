@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "[](https://github.com/phac-nml/irida/actions?query=branch%3Adevelopment) [](https://github.com/phac-nml/irida/releases/latest) [](https://gitter.im/irida-project/Lobby)\n\nIRIDA\n\nIRIDA is Canada\u2019s Integrated Rapid Infectious Disease Analysis Platform for Genomic Epidemiology. More information can be found in the following links.\n\nImportant Links\n\nMain Site:   Documentation  Main:   Download:   Available Pipeline Plugins:\n\nContributing to IRIDA\n\nIRIDA is primarily developed by the IRIDA consortium, but the development team is happy to accept contributions from the community. See our [contributing guide] CONTRIBUTING.md for more information.\n\nContact the IRIDA Team\n\nTo ask general or usage questions, email the IRIDA team at IRIDA-mail@sfu.ca  Report bugs, suggest features, or contribute code on [GitHub] http://github.com/phac-nml/irida  Chat with the developers on [Gitter] https://gitter.im/irida-project/\n\nCitation\n\nThe IRIDA manuscript is in preparation. A preprint is available on bioRxiv:",
+      "section": "Introduction (part 1)",
+      "repo": "424_IRIDA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Thomas C Matthews, Franklin R Bristow, Emma J Griffiths, Aaron Petkau, Josh Adam, Damion Dooley, Peter Kruczkiewicz, John Curatcha, Jennifer Cabral, Dan Fornika, Geoffrey L. Winsor, Melanie Courtot, Claire Bertelli, Ataollah Roudgar, Pedro Feijao, Philip Mabon, Eric Enns, Joel Thiessen, Alexander Keddy, Judith Isaac-Renton, Jennifer L. Gardy, Patrick Tang, The IRIDA Consortium, Jo\u00e3o A Carri\u00e7o, Leonid Chindelevitch, Cedric Chauve, Morag R Graham, Andrew G McArthur, Eduardo N Taboada, Robert G Beiko, Fiona SL Brinkman, William WL Hsiao, Gary Van Domselaar. 2018. The Integrated Rapid Infectious Disease Analysis (IRIDA) Platform. bioRxiv 381830; doi: .\n\nAdditional related publications are available on .",
+      "section": "Introduction (part 2)",
+      "repo": "424_IRIDA",
+      "source_file": "readme.md"
+    }
+  }
+]

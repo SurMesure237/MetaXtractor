@@ -1,0 +1,446 @@
+[
+  {
+    "id": 1079,
+    "annotations": [
+      {
+        "id": 11194,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 41,
+              "text": "https://doi.org/10.5281/zenodo.7534372",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "qcaxL936Ei",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 46,
+              "end": 82,
+              "text": "https://www.gnu.org/licenses/gpl-3.0",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "D4DYxMpNxT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:50:45.332932Z",
+        "updated_at": "2025-11-06T05:50:45.332951Z",
+        "draft_created_at": null,
+        "lead_time": 8.626,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "a367db00-a7ba-4f2a-8b35-34cc7fa16616",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1079,
+        "project": 23279,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://doi.org/10.5281/zenodo.7534372) [](https://www.gnu.org/licenses/gpl-3.0)",
+      "section": "Introduction",
+      "repo": "060_JUBE",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.604199Z",
+    "updated_at": "2025-11-06T05:50:45.365322Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23279,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1080,
+    "annotations": [
+      {
+        "id": 11195,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 753,
+              "end": 758,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "wxZ3GUV5dQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 762,
+              "end": 767,
+              "text": "MacOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "Cy4So4ymih",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:51:07.305010Z",
+        "updated_at": "2025-11-06T05:51:07.305026Z",
+        "draft_created_at": "2025-11-06T05:50:55.923228Z",
+        "lead_time": 21.783,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "f88bf3cb-f93e-43fd-80cd-3a07c8ec4001",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1080,
+        "project": 23279,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "What is JUBE?\n\nThe JUBE benchmarking environment provides a script-based framework for easily creating benchmark and workflow sets, running those sets on different computer systems, and evaluating the results. It is actively developed by the [Juelich Supercomputing Centre] https://www.fz-juelich.de/en/ias/jsc. It focuses on managing the complexity of combinatorial benchmarks and ensuring reproducibility of the benchmarks. JUBE provides support for different workflows and the ability to use vendor-supplied platform configurations. The benchmark configuration and scripts can be specified in either YAML or XML format. JUBE is primarily designed for use on supercomputers with scheduding systems like Slurm or PBS, but also works on laptops running Linux or MacOS operating systems.",
+      "section": "What is JUBE? (part 1)",
+      "repo": "060_JUBE",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.604245Z",
+    "updated_at": "2025-11-06T05:51:07.330206Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23279,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1081,
+    "annotations": [
+      {
+        "id": 11196,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 326,
+              "end": 329,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "GQoh1Vz2iZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 513,
+              "end": 580,
+              "text": "https://apps.fz-juelich.de/jsc/jube/docu/tutorial.html#installation",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "vjTC-apMEH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 724,
+              "end": 775,
+              "text": "https://apps.fz-juelich.de/jsc/jube/docu/index.html",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "Vwevqi5l65",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1180,
+              "end": 1240,
+              "text": "https://ebooks.iospress.nl/DOI/10.3233/978-1-61499-621-7-431",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "55i8Q_mi9C",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 393,
+              "end": 399,
+              "text": "SQLite",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "EpqMUITPDQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 408,
+              "end": 426,
+              "text": "3.35.0 (or higher)",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "p_bbw1Kpo8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 352,
+              "end": 372,
+              "text": "python 3.2 or higher",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "gBXRZRPE6Z",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:52:22.184182Z",
+        "updated_at": "2025-11-17T00:24:19.475263Z",
+        "draft_created_at": "2025-11-06T05:51:25.129148Z",
+        "lead_time": 117.265,
+        "prediction": {},
+        "result_count": 7,
+        "unique_id": "b257e50d-c8b7-4416-9d0b-a1af03e344e2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1081,
+        "project": 23279,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Documentation\n\nJUBE is not (yet) available on pypi (it is work in progress). The source code can be downloaded from any of the following places: [GitHub] https://github.com/FZJ-JSC/JUBE\n\n[JSC JUBE Webpage] https://www.fz-juelich.de/en/ias/jsc/services/user-support/software-tools/jube/download\n\nJUBE can be installed using pip or setup.py and needs python 3.2 or higher. You will also need SQLite version 3.35.0 (or higher) to use the database as a result output. Installation instructions can be found [here] https://apps.fz-juelich.de/jsc/jube/docu/tutorial.html#installation.\n\nThe documentation for JUBE is split into Beginner Tutorial, Advanced Tutorial,  FAQ, CLI, and Glossary and can be found in the  [User Guide] https://apps.fz-juelich.de/jsc/jube/docu/index.html.\n\nIn addition to the documentation, there are also  [tutorial examples] examples which are described in the tutorials of the user guide and  [benchmark examples] https://github.com/FZJ-JSC/jube-configs, which are curated examples of JUBE benchmarks (the latter will be either replaced or  updated/extended soon).\n\nFor more information on the design and architecture of JUBE, please refer to this [paper] https://ebooks.iospress.nl/DOI/10.3233/978-1-61499-621-7-431.",
+      "section": "What is JUBE? (part 2)",
+      "repo": "060_JUBE",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.604270Z",
+    "updated_at": "2025-11-17T00:24:19.511055Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23279,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1082,
+    "annotations": [
+      {
+        "id": 11197,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:52:25.680860Z",
+        "updated_at": "2025-11-06T05:52:25.680878Z",
+        "draft_created_at": null,
+        "lead_time": 3.285,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "4527b8b3-2611-40e4-8012-a7957716f59c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1082,
+        "project": 23279,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Community and Contributing\n\nJUBE is an open-source project and we welcome your questions, discussions and contributions. Questions can be asked directly to the JSC JUBE developers via mail to [jube.jsc@fz-juelich.de] mailto:jube.jsc@fz-juelich.de and issues can be reported in the issue tracker. We also welcome contributions in the form of pull requests. Contributions can include anything from bug fixes and documentation to new features.\n\nJUBE development is currently still taking place on an internal GitLab instance. However, we are in a transition phase to move development to GitHub. The complete move will take some time. In the meantime, we will decide individually how to proceed with Pull Requests opened on GitHub. Before you start implementing new features, we would recommended to contact us, as we still have several open branches in GitLab.\n\n[GitHub Issue Tracker] https://github.com/FZJ-JSC/JUBE/issues\n\n[Github Discussions] https://github.com/FZJ-JSC/JUBE/discussions\n\n[GitHub Pull Requests] https://github.com/FZJ-JSC/JUBE/pulls\n\nPlease ensure that your contributions to JUBE are compliant with the  [contribution] CONTRIBUTING.md,  [developer] https://apps.fz-juelich.de/jsc/jube/docu/devel.html and [community] CODE_OF_CONDUCT.md guidelines.",
+      "section": "What is JUBE? (part 3)",
+      "repo": "060_JUBE",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.604402Z",
+    "updated_at": "2025-11-06T05:52:25.706000Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23279,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1083,
+    "annotations": [
+      {
+        "id": 11198,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 78,
+              "end": 112,
+              "text": "https://zenodo.org/records/7534372",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "YlkUlaPvwp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 129,
+              "end": 189,
+              "text": "https://ebooks.iospress.nl/DOI/10.3233/978-1-61499-621-7-431",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "Neh6amskJB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:52:43.267994Z",
+        "updated_at": "2025-11-06T05:52:43.268010Z",
+        "draft_created_at": "2025-11-06T05:52:39.130896Z",
+        "lead_time": 17.418,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "848730bf-5dc3-4f75-8e8b-cb6ca2164d96",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1083,
+        "project": 23279,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Citing JUBE\n\nIf you use JUBE in your work, please cite the [software release] https://zenodo.org/records/7534372 and the [paper] https://ebooks.iospress.nl/DOI/10.3233/978-1-61499-621-7-431.\n\nAcknowledgments\n\nWe gratefully acknowledge the support of the following research projects and  institutions in the development of JUBE and for granting compute time to develop JUBE.\n\nUNSEEN (BMWi project, ID: 03EI1004A-F)\n\nGauss Centre for Supercomputing e.V. (www.gauss-centre.eu) and the John von\n\nNeumann Institute for Computing (NIC) on the GCS Supercomputer JUWELS at Jülich Supercomputing Centre (JSC)",
+      "section": "Citing JUBE + Acknowledgments",
+      "repo": "060_JUBE",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.604447Z",
+    "updated_at": "2025-11-06T05:52:43.292749Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23279,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

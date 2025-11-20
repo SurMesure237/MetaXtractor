@@ -1,0 +1,154 @@
+[
+  {
+    "data": {
+      "text": "BioAutoML: Automated Feature Engineering and Metalearning for Classification of Biological Sequences\n\nDemocratizing Machine Learning in Life Sciences\n\nHome \u2022  Documentation \u2022  Installing \u2022  How To Use \u2022  Citation\n\n## Update news!!!\n\nNew Website: [[https://bonidia.github.io/BioAutoML-WP/] https://bonidia.github.io/BioAutoML-WP/]\n\nNew Version - Protein: BioAutoML + iFeature[[Ref] https://github.com/Superzchen/iFeature]- Access on [[https://bonidia.github.io/BioAutoML/] https://bonidia.github.io/BioAutoML/]\n\nNew Version - Protein: Access on [[https://bonidia.github.io/BioAutoML/] https://bonidia.github.io/BioAutoML/]\n\nPublished Paper: Access on [[https://doi.org/10.1093/bib/bbac218] https://doi.org/10.1093/bib/bbac218]",
+      "section": "Introduction (part 1)",
+      "repo": "015_BioAutoML_-_Democratizing_Machine_Learning_in_Life_Sciences",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Awards\n\n\u2b50 Latin America Research Awards (LARA), Google, 2021. Project: BioAutoML: Automated Feature Engineering for Classification of Biological Sequences (24 awarded projects, from a base of 700 submissions). Elected by LARA-Google among the 24 most promising ideas in Latin America - 2021 - [[Link] https://blog.google/intl/pt-br/novidades/iniciativas/conheca-os-vencedores-do-premio-lara-2021-o-programa-de-bolsas-de-pesquisa-do-google/] [[Link] http://www.saocarlos.usp.br/programa-de-bolsas-do-google-premia-trabalhos-orientados-pelo-cemeai/].\n\n\u2b50 Finalist Project (Top 15 of 82), Falling Walls Lab Brazil 2022, DWIH S\u00e3o Paulo, Falling Walls Foundation, DAAD The German Center for Science and Innovation [[Link] https://www.youtube.com/watch?v=H5C_UIgVeQM].\n\n\u2b50 Helmholtz Visiting Researcher Grant/Award - Helmholtz Information & Data Science Academy (HIDA), 2023. Project Title: BioAutoML-Fast: End-to-End Multi-Threaded Machine Learning Package for Life Sciences [[Link] https://bonidia.github.io/website/Certificate%20HVRG_Bonidia-1.pdf].\n\n\u2b50 FEMS Research & Training Grant/Award - Federation of European Microbiological Societies (FEMS), 2023 (\u20ac: 5.000,00) [[Link] https://ibbsonline.org/wp-content/uploads/2023/10/IBBS-NL_Sep-2023-Issue.pdf].\n\n\u2b50 BioAutoML - Top 10 Finalist - Santander X Brazil Award - Selected among the top 10 university projects (from over 200 entries) in Brazil in the national innovation competition promoted by Banco Santander.\n\n\u2b50 BioAutoML received an honorable mention from the Young Bioinformatics Award 2024, being chosen among the best theses in Bioinformatics and Computational Biology in Brazil, 2024.\n\n\u2b50 BioAutoML received third place in the ARTUR ZIVIANI THESIS AWARD (SBCAS), being chosen among the best theses in computing applied to health in Brazil, 2024.",
+      "section": "Introduction (part 2)",
+      "repo": "015_BioAutoML_-_Democratizing_Machine_Learning_in_Life_Sciences",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Abstract",
+      "section": "Introduction (part 3)",
+      "repo": "015_BioAutoML_-_Democratizing_Machine_Learning_in_Life_Sciences",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Recent technological advances allowed an exponential expansion of biological sequence data and the extraction of meaningful information through Machine Learning (ML) algorithms.",
+      "section": "Introduction (part 4)",
+      "repo": "015_BioAutoML_-_Democratizing_Machine_Learning_in_Life_Sciences",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "This knowledge improved the understanding of the mechanisms related to several fatal diseases, e.g., Cancer and COVID-19, helping to develop innovative solutions, such as CRISPR-based gene editing, coronavirus vaccine, and precision medicine.",
+      "section": "Introduction (part 5)",
+      "repo": "015_BioAutoML_-_Democratizing_Machine_Learning_in_Life_Sciences",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "These advances benefit our society and economy, directly impacting people's lives in various areas, such as health care, drug discovery, forensic analysis, and food processing.",
+      "section": "Introduction (part 6)",
+      "repo": "015_BioAutoML_-_Democratizing_Machine_Learning_in_Life_Sciences",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Nevertheless, ML-based approaches to biological data require representative, quantitative, and informative features.",
+      "section": "Introduction (part 7)",
+      "repo": "015_BioAutoML_-_Democratizing_Machine_Learning_in_Life_Sciences",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Many ML algorithms can handle only numerical data, so sequences need to be translated into a numerical feature vector.",
+      "section": "Introduction (part 8)",
+      "repo": "015_BioAutoML_-_Democratizing_Machine_Learning_in_Life_Sciences",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "This process, known as feature extraction, is a fundamental step for elaborating high-quality ML-based models in bioinformatics, by allowing the feature engineering stage, with the design and selection of suitable features.",
+      "section": "Introduction (part 9)",
+      "repo": "015_BioAutoML_-_Democratizing_Machine_Learning_in_Life_Sciences",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Feature engineering, ML algorithm selection, and hyperparameter tuning are often manual and time-consuming processes, requiring extensive domain knowledge.",
+      "section": "Introduction (part 10)",
+      "repo": "015_BioAutoML_-_Democratizing_Machine_Learning_in_Life_Sciences",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "To deal with this problem, we present a new package, BioAutoML.",
+      "section": "Introduction (part 11)",
+      "repo": "015_BioAutoML_-_Democratizing_Machine_Learning_in_Life_Sciences",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "BioAutoML automatically runs an end-to-end ML pipeline, extracting numerical and informative features from biological sequence databases, using the MathFeature package, and automating the feature selection, ML algorithm(s) recommendation and tuning of the selected algorithm(s) hyperparameters, using Automated ML (AutoML).",
+      "section": "Introduction (part 12)",
+      "repo": "015_BioAutoML_-_Democratizing_Machine_Learning_in_Life_Sciences",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "BioAutoML has two components, divided into four modules, (1) automated feature engineering (feature extraction and selection modules) and (2) Metalearning (algorithm recommendation and hyper-parameter tuning modules).",
+      "section": "Introduction (part 13)",
+      "repo": "015_BioAutoML_-_Democratizing_Machine_Learning_in_Life_Sciences",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "We experimentally evaluate BioAutoML in two different scenarios: (i) prediction of the three main classes of ncRNAs and (ii) prediction of the seven categories of ncRNAs in bacteria, including housekeeping and regulatory types.",
+      "section": "Introduction (part 14)",
+      "repo": "015_BioAutoML_-_Democratizing_Machine_Learning_in_Life_Sciences",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "To assess BioAutoML predictive performance, it is experimentally compared with two other AutoML tools (RECIPE and TPOT).",
+      "section": "Introduction (part 15)",
+      "repo": "015_BioAutoML_-_Democratizing_Machine_Learning_in_Life_Sciences",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "According to the experimental results, BioAutoML can accelerate new studies, reducing the cost of feature engineering processing and either keeping or improving predictive performance.",
+      "section": "Introduction (part 16)",
+      "repo": "015_BioAutoML_-_Democratizing_Machine_Learning_in_Life_Sciences",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "First study to propose an automated feature engineering and metalearning pipeline for ncRNA sequences in bacteria;    BioAutoML can be applied in multi-class and binary problems;    BioAutoML can be used in other DNA/RNA sequences scenarios;    BioAutoML can accelerate new studies, reducing the feature engineering time-consuming stage and improving the design and performance of ML pipelines in bioinformatics;   BioAutoML does not require specialist human assistance.",
+      "section": "Introduction (part 17)",
+      "repo": "015_BioAutoML_-_Democratizing_Machine_Learning_in_Life_Sciences",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Authors\n\nRobson Parmezan Bonidia, Anderson Paulo Avila Santos, Breno L\u00edvio Silva de Almeida, Peter F. Stadler, Ulisses Nunes da Rocha, Danilo Sipoli Sanches, and Andr\u00e9 Carlos Ponce de Leon Ferreira de Carvalho.\n\nCorrespondence: bonidia@usp.br, andre@icmc.usp.br, ulisses.rocha@ufz.de\n\n## Publication\n\nRobson P Bonidia, Anderson P Avila Santos, Breno L S de Almeida, Peter F Stadler, Ulisses N da Rocha, Danilo S Sanches, Andr\u00e9 C P L F de Carvalho, BioAutoML: automated feature engineering and metalearning to predict noncoding RNAs in bacteria, Briefings in Bioinformatics, 2022, bbac218, [[DOI] https://doi.org/10.1093/bib/bbac218].\n\n## Installing dependencies and package\n\n## Conda - Terminal\n\nInstalling BioAutoML using miniconda, e.g.:\n\n$ git clone https://github.com/Bonidia/BioAutoML.git BioAutoML\n\n$ cd BioAutoML\n\n$ git submodule init\n\n$ git submodule update\n\n1 - Install Miniconda:\n\nSee documentation: https://docs.conda.io/en/latest/miniconda.html\n\n$ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh\n\n$ chmod +x Miniconda3-latest-Linux-x86_64.sh\n\n$ ./Miniconda3-latest-Linux-x86_64.sh\n\n$ export PATH=~/miniconda3/bin:$PATH\n\n2 - Create environment:\n\nconda env create -f BioAutoML-env.yml -n bioautoml\n\n3 - Activate environment:\n\nconda activate bioautoml\n\n4 - You can deactivate the environment, using:\n\nconda deactivate\n\n## How to use\n\nSee our [documentation] https://bonidia.github.io/BioAutoML/.",
+      "section": "Introduction (part 18)",
+      "repo": "015_BioAutoML_-_Democratizing_Machine_Learning_in_Life_Sciences",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Citation\n\nIf you use this code in a scientific publication, we would appreciate citations to the following paper:\n\nRobson P Bonidia, Anderson P Avila Santos, Breno L S de Almeida, Peter F Stadler, Ulisses N da Rocha, Danilo S Sanches, Andr\u00e9 C P L F de Carvalho, BioAutoML: automated feature engineering and metalearning to predict noncoding RNAs in bacteria, Briefings in Bioinformatics, 2022, bbac218, [[DOI] https://doi.org/10.1093/bib/bbac218].\n\n@article{10.1093/bib/bbac218,  author = {Bonidia, Robson P and Santos, Anderson P Avila and de Almeida, Breno L S and Stadler, Peter F and da Rocha, Ulisses N and Sanches, Danilo S and de Carvalho, Andr\u00e9 C P L F},  title = \"{BioAutoML: automated feature engineering and metalearning to predict noncoding RNAs in bacteria}\",  journal = {Briefings in Bioinformatics},  year = {2022},  month = {06},  issn = {1477-4054},  doi = {10.1093/bib/bbac218},  url = {https://doi.org/10.1093/bib/bbac218},  note = {bbac218}, }",
+      "section": "Introduction (part 19)",
+      "repo": "015_BioAutoML_-_Democratizing_Machine_Learning_in_Life_Sciences",
+      "source_file": "readme.md"
+    }
+  }
+]

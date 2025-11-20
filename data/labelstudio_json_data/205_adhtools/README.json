@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "[](https://zenodo.org/badge/latestdoi/118894019)",
+      "section": "Introduction",
+      "repo": "205_adhtools",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "adhtools: tools for Arabic Digital Humanities\n\nScripts for manipulating Arabic texts.\n\n## Installation\n\nThis software requires Python 3.\n\ngit clone git@github.com:arabic-digital-humanities/adhtools.git cd adhtools python setup.py develop\n\n### Installing SAFAR for morphological analysis\n\nTo analyze a text using SAFAR, you need to [download the SAFAR binaries from the website] http://arabic.emi.ac.ma/safar/?q=download, and extract the zip file. Add to your class path:\n\nthe SAFAR directory  the SAFAR/lib directory  the directory containing the compiled SafarAnalyze (from this repository (java/SafarAnalyze.java))\n\nThen run the analyzer:\n\njava -cp \".:/path/to/SAFAR/:/path/to/SAFAR/lib/*:/path/to/adhtools/bin/ SafarAnalyze\n\nOr use the CWL specification:\n\ncwltool /path/to/adhtools/java/cwl/SafarAnalyze.cwl --cp --in_dir --analyzer\n\n## Workflows\n\nExpected input for the complete workflows are texts in [openITI format] https://alraqmiyyat.github.io/2015/11-08.html. We assume that: There is one file per book in the corpus\n\nThere can be 'METADATA' headers at the top of the file which will be omitted/ignored\n\nThere are markers for chapters, that can be used to split the files and add to the metadata (by default we split on (### | (books) and ### || (chapters)))\n\nThe filename corresponds to the BookURI (the filename is .txt)\n\nThere is a separate .csv file with metadata, each row corresponding to one book. The column 'BookURI' can be used to couple with the OpenITI files.\n\nThe output of the workflows (list them here) are xml files that can be used for analysis, or indexed in Blacklab.",
+      "section": "adhtools: tools for Arabic Digital Humanities (part 1)",
+      "repo": "205_adhtools",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Running workflows\n\nThe workflows can be run with cwltool. This is a requirement of adhtools and therefore installed when adhtools is installed. The [nlppln documentation] https://nlppln.readthedocs.io/en/latest/running_workflows.html contains more information about running cwl workflows.\n\n## Top level workflows\n\nsafar-split-and-analyze-file.cwl Analyzes txt file, by first splitting in smaller pieces and chapters, and filtering obsolete fields in the resulting xml (reduces file size considerably!)\n\nNotebook: new-analysis-workflows.ipynb\n\nsafar-split-and-analyze-dir.cwl Analyzes directory of txt files, by first splitting in smaller pieces and chapters, and filtering obsolete fields in the resulting xml\n\nNotebook: new-analysis-workflows.ipynb\n\nsafar-split-and-stem-file.cwl Stems txt file, by first splitting in smaller pieces and chapters\n\nNotebook: new-analysis-workflows.ipynb\n\nsafar-split-and-stem-dir.cwl Stems directory of txt files, by first splitting in smaller pieces and chapters\n\nNotebook: new-analysis-workflows.ipynb\n\nsplit-xml-chapters-dir.cwl To split the outcome of the analyze or stem workflow in chapters\n\nNotebook: split-xml-chapters-dir-workflow.ipynb\n\nindex-corpus-specific.cwl Workflow to index an analyzed or stemmed corpus for Blacklab. Does not use any substeps from adhtools.\n\nNotebook: index-corpus-specific-formats.ipynb\n\n## Subworkflows\n\nsplit-file-chapters.cwl\n\nSplit a text in OpenITI format in smaller pieces\n\nUsed by safar-split-and-analyze-file.cwl and safar-split-and-stem-file.cwl\n\nNotebook: new-analysis-workflows.ipynb",
+      "section": "adhtools: tools for Arabic Digital Humanities (part 2)",
+      "repo": "205_adhtools",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Steps\n\nopeniti2txt.cwl Used by split-file-chapters.cwl\n\nsafar-add-metadata.cwl Existing python step that adds the metadata for dir instead of directory.\n\nsafar-add-metadata-file.cwl Used by safar-split-and-analyze-file.cwl and safar-split-and-stem-file.cwl\n\nsafar-filter-analyses.cwl Used by safar-split-and-analyze-file.cwl\n\nsplit-text-openiti-markers.cwl Used by split-file-chapters.cwl\n\nsplit-text-size.cwl Used by split-file-chapters.cwl\n\nsplit-xml-chapters.cwl Python step split-xml-chapters. Used by split-xml-chapters-dir.cwl\n\nmerge-safar-xml.cwl Used by safar-split-and-analyze-file.cwl and safar-split-and-stem-file.cwl\n\n## Other workflows / steps\n\nadd-metadata-dir.cwl Scatter of safar-add-metadata-file.cwl\n\nextract_metadata-xml.cwl Existing python step that extracts metdata from directory with xml and puts it into a csv file.\n\nsafar-add-metadata.cwl Existing python step that adds the metadata for dir instead of directory.\n\nsplit-dir-chapters.cwl Scatter of split-file-chapters.cwl.\n\nsplit-text.cwl Python step split-text.cwl that splits on regex. Potentially useful for different corpora.\n\nsafar-split-and-analyze-file-no-filtering.cwl Old version of safar-split-and-analyze-file.cwl, but retains all fields",
+      "section": "adhtools: tools for Arabic Digital Humanities (part 3)",
+      "repo": "205_adhtools",
+      "source_file": "readme.md"
+    }
+  }
+]

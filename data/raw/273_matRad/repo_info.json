@@ -1,0 +1,24 @@
+{
+  "codeRepository": "https://github.com/e0404/matRad",
+  "programmingLanguage": "MATLAB",
+  "programmingLanguages": [
+    "MATLAB",
+    "TeX",
+    "C++"
+  ],
+  "downloadUrl": "https://api.github.com/repos/e0404/matRad/zipball/main",
+  "author": "e0404",
+  "dateCreated": "2015-01-22T09:43:14Z",
+  "dateModified": "2025-10-30T12:04:45Z",
+  "keywords": [
+    "particle-therapy",
+    "radiotherapy",
+    "treatment-planning"
+  ],
+  "license": null,
+  "description": "An open source multi-modality radiation treatment planning sytem developed by e0404 @ DKFZ",
+  "identifier": 29671667,
+  "name": "e0404/matRad",
+  "issueTracker": "https://api.github.com/repos/e0404/matRad/issues",
+  "readme": "https://github.com/e0404/matRad/blob/master/README.md"
+}

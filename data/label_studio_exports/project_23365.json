@@ -1,0 +1,530 @@
+[
+  {
+    "id": 1547,
+    "annotations": [
+      {
+        "id": 10817,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 12,
+              "end": 56,
+              "text": "https://zenodo.org/badge/latestdoi/161313748",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "uvKnd6K28a",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 61,
+              "end": 99,
+              "text": "https://travis-ci.org/newsgac/platform",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "7CRNKyO7c-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:52:09.769083Z",
+        "updated_at": "2025-11-15T16:39:27.253337Z",
+        "draft_created_at": "2025-11-05T16:52:03.635453Z",
+        "lead_time": 35.980000000000004,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "43910073-9216-45f2-8ba5-1f883f711d49",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1547,
+        "project": 23365,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "NEWSGAC\n\n[](https://zenodo.org/badge/latestdoi/161313748) [](https://travis-ci.org/newsgac/platform) [](https://www.codacy.com/manual/eriktks/platform?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=newsgac/platform&amp;utm_campaign=Badge_Grade) [](https://codeclimate.com/github/newsgac/platform/maintainability) [](https://codeclimate.com/github/newsgac/platform/test_coverage)\n\n[NEWSGAC] https://www.esciencecenter.nl/project/newsgac is a research project which aims at transparent automatic classification of genres of newspaper articles. The project is a cooperation between the [University of Groningen] https://www.rug.nl/let/onze-faculteit/organisatie/vakgebieden/journalistiek-en-media-studies/, the Amsterdam [Center for Mathematics and Computer Science] https://www.cwi.nl/research/groups/human-centered-data-analytics and the [Netherlands eScience Center] https://www.esciencecenter.nl/.\n\nIn the project, we developed an online platform for applying machine learning models to text data, with the opportunity to closely analyze the performance of the models. This repository contains the code of this platform.",
+      "section": "NEWSGAC (part 1)",
+      "repo": "388_NEWSGAC_platform",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.566406Z",
+    "updated_at": "2025-11-15T16:39:27.289877Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23365,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1548,
+    "annotations": [
+      {
+        "id": 10819,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 253,
+              "end": 258,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "jmhrXSMShy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 88,
+              "end": 94,
+              "text": "docker",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "6p8lHrhmmy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 96,
+              "end": 142,
+              "text": "https://www.docker.com/products/docker-desktop",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "TDgwnrBpCM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:52:45.995295Z",
+        "updated_at": "2025-11-15T16:39:48.712512Z",
+        "draft_created_at": "2025-11-05T16:52:45.399324Z",
+        "lead_time": 54.480999999999995,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "95565c01-4ead-47c7-9a3c-0b063d9d52fa",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1548,
+        "project": 23365,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Setup Instructions\n\nIn order to run the platform at your computer, you need to have [docker] https://www.docker.com/products/docker-desktop available on your system. Then execute the following commands in a command line environment (instructions for Linux):\n\ngit clone https://github.com/newsgac/platform.git\n\ncd platform\n\ndocker build . -t \"newsgac/newsgac\"\n\nexport $(egrep -v '^#' .env.default | xargs)\n\ndocker stack deploy -c docker-compose.yml -c docker-compose.dev.yml newsgacdev\n\nWhen these commands have successfully completed, the platform will be available as a web server on the address: [http://YOUR-IP-ADDRESS:5050] http://YOUR-IP-ADDRESS:5050\n\nSteps 1, 2 and 3 need to be executed only once for installing the system. Both step 4 and step 5 are required each time when you start the system.\n\nOptional steps:\n\nFor adaption to local environment: edit file .env.default or create your own version  For Jupyter notebook support: docker build . -f jupyter/Dockerfile -t \"newsgac/jupyterhub\"  During production: docker build ./nginx -t newsgac/nginx  installation instructions for usage of a [kubernetes cluster] k8s/README.md (CLARIAH)\n\nStopping the system:\n\ndocker service rm newsgacdev_database newsgacdev_frog newsgacdev_frogworker newsgacdev_redis newsgacdev_web newsgacdev_worker\n\nNote that it takes a few seconds to completely stop all parts of the system.",
+      "section": "NEWSGAC (part 2)",
+      "repo": "388_NEWSGAC_platform",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.566441Z",
+    "updated_at": "2025-11-15T16:39:48.749137Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23365,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1549,
+    "annotations": [
+      {
+        "id": 10820,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 373,
+              "end": 383,
+              "text": "python 3.7",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "GvPE_LWlNs",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:57:50.933016Z",
+        "updated_at": "2025-11-17T00:18:06.632379Z",
+        "draft_created_at": "2025-11-05T16:53:31.102169Z",
+        "lead_time": 339.37399999999997,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "32304842-0ec8-4ecf-84ad-c702673dab0f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1549,
+        "project": 23365,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Run flask web app locally (through IDE)\n\nYou might want to run flask outside of Docker (because it is e.g. easier to attach a debugger).\n\nFollow Setup Instructions for DOCKER instructions so that all services are online (Mongo, Redis, FROG, celery workers).  Make sure the flask docker container is DOWN:\n\ndocker service rm newsgacdev_web\n\nSet up a virtual environment (python 3.7) and install the requirements:\n\npip install -r requirements.txt\n\nSetup the correct environmental variables (.env.local) e.g. by running\n\nexport $(cat .env.local | xargs)\n\nTo run from command line, navigate to platform/ and run:\n\nPYTHONPATH=. python newsgac/app.py\n\nThe local web server will be running on http://localhost:5050.\n\n## Debugging tasks\n\nTypically tasks are executed by celery workers. If you want to debug a task you can do one of two things:\n\nRun a celery worker in debug mode\n\nMake sure CELERY_EAGER=True (or unset). This will cause celery to run tasks in the main thread instead of offloading it to workers.\n\n## Running the tests (Docker)\n\ndocker run --name=mongo -it --rm -d mongo\n\n2.\n\ndocker run \\  --name=newsgactest \\  -it \\  --network=container:mongo \\  --mount type=bind,src=\"$(pwd)\"/newsgac,destination=/newsgac/newsgac \\  --entrypoint=sh \\  newsgac/newsgac -c pytest --cov=newsgac --cov-report=xml\n\ndocker stop newsgactest mongo\n\n## Running the tests (Local)\n\nSetup local (virtual) environment as when running flask locally  Load the test env vars:\n\nexport $(cat .env.test | xargs)\n\nMake sure the database, Frog and redis are running (e.g. docker stack deploy -c docker-compose.yml -c docker-compose.dev.yml newsgacdev  Load env variables, then run tests using\n\npytest .",
+      "section": "NEWSGAC (part 3)",
+      "repo": "388_NEWSGAC_platform",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.566464Z",
+    "updated_at": "2025-11-17T00:18:06.669500Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23365,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1550,
+    "annotations": [
+      {
+        "id": 10821,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:57:56.295806Z",
+        "updated_at": "2025-11-05T16:57:56.295819Z",
+        "draft_created_at": null,
+        "lead_time": 5.168,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "12d5d9d4-25ac-4d3f-8d11-d7ea00beab7f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1550,
+        "project": 23365,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Python console\n\nE.g. to create a user:\n\nStart console using docker (or from you local environment using python):\n\ndocker exec -it newsgac_dev web python\n\nImport database & user model\n\nfrom newsgac import database  from newsgac.users.models import User\n\nCreate new user\n\nu = User(email='testuser@test.com', password='testtest', name='Test', surname='User')  u.save()\n\nYou can now login from the frontend as this user.   ## Useful commands\n\ndocker stack ps newsgacdev\n\ndocker service ps newsgacdev_worker\n\ndocker service inspect newsgacdev_worker\n\ndocker service logs newsgacdev_worker",
+      "section": "NEWSGAC (part 4)",
+      "repo": "388_NEWSGAC_platform",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.566484Z",
+    "updated_at": "2025-11-05T16:57:56.321233Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23365,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1551,
+    "annotations": [
+      {
+        "id": 10822,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 15,
+              "end": 288,
+              "text": "A. Bilgin, E. Tjong Kim Sang, K. Smeenk, L. Hollink, J. van Ossenbruggen, F. Harbers and M. Broersma, [Utilizing a Transparency-driven Environment toward Trusted Automatic Genre Classification: A Case Study in Journalism History] https://arxiv.org/pdf/1810.00968.pdf (2018)",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "aly-5zOyPz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 290,
+              "end": 751,
+              "text": "@inproceedings{bilgin2018utilizing, title={Utilizing a Transparency-driven Environment toward Trusted Automatic Genre Classification: A Case Study in Journalism History}, author={Bilgin, Aysenur and Tjong Kim Sang, Erik and Smeenk, Kim and Hollink, Laura and van Ossenbruggen, Jacco and Harbers, Frank and Broersma, Marcel}, booktitle={2018 IEEE 14th International Conference on e-Science (e-Science)}, pages={486--496}, year={2018}, organization={IEEE} }\\n",
+              "labels": [
+                "REFERENCE_PUBLICATION_BIBTEX"
+              ]
+            },
+            "id": "WFa-mEimQX",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 753,
+              "end": 1062,
+              "text": "K. Smeenk, A. Bilgin, T. Klaver, E. Tjong Kim Sang, L. Hollink, J. van Ossenbruggen, F. Harbers and M. Broersma, [Grounding Paradigmatic Shifts In Newspaper Reporting In Big Data. Analysing Journalism History By Using Transparent Automatic Genre Classification] https://ifarm.nl/erikt/papers/2019dh.pdf (2019)",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "DuiuJkWlFS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1064,
+              "end": 1540,
+              "text": "@inproceedings{smeenk2019dh, author = \"Kim Smeenk and Aysenur Bilgin and Tom Klaver and Erik Tjong Kim Sang and Laura Hollink and Jacco van Ossenbruggen and Frank Harbers and Marcel Broersma\", title = \"{Grounding Paradigmatic Shifts In Newspaper Reporting In Big Data. Analysing Journalism History By Using Transparent Automatic Genre Classification}\", booktitle = \"{Digital Humanities Conference 2019 (DH2019)}\", publisher = \"{Utrecht, The Netherlands}\", year = \"2019\" }",
+              "labels": [
+                "REFERENCE_PUBLICATION_BIBTEX"
+              ]
+            },
+            "id": "38SHWNswKp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1542,
+              "end": 1819,
+              "text": "T. Klaver, E. Tjong Kim Sang, A. Bilgin, K. Smeenk, L. Hollink, J. van Ossenbruggen, F. Harbers and M. Broersma, [Introducing a transparency-driven platform for creating, comparing and explaining machine learning pipelines] https://ifarm.nl/erikt/papers/2019-ictopen.pdf (2019)",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "q5UEZVW0KT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:58:37.119306Z",
+        "updated_at": "2025-11-05T16:58:37.119322Z",
+        "draft_created_at": "2025-11-05T16:58:06.699885Z",
+        "lead_time": 40.651,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "679661b7-2e01-4a08-88c7-30ab186e2338",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1551,
+        "project": 23365,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## References\n\nA. Bilgin, E. Tjong Kim Sang, K. Smeenk, L. Hollink, J. van Ossenbruggen, F. Harbers and M. Broersma, [Utilizing a Transparency-driven Environment toward Trusted Automatic Genre Classification: A Case Study in Journalism History] https://arxiv.org/pdf/1810.00968.pdf (2018)\n\n@inproceedings{bilgin2018utilizing,  title={Utilizing a Transparency-driven Environment toward Trusted Automatic Genre Classification: A Case Study in Journalism History},  author={Bilgin, Aysenur and Tjong Kim Sang, Erik and Smeenk, Kim and Hollink, Laura and van Ossenbruggen, Jacco and Harbers, Frank and Broersma, Marcel},  booktitle={2018 IEEE 14th International Conference on e-Science (e-Science)},  pages={486--496},  year={2018},  organization={IEEE} }\n\nK. Smeenk, A. Bilgin, T. Klaver, E. Tjong Kim Sang, L. Hollink, J. van Ossenbruggen, F. Harbers and M. Broersma, [Grounding Paradigmatic Shifts In Newspaper Reporting In Big Data. Analysing Journalism History By Using Transparent Automatic Genre Classification] https://ifarm.nl/erikt/papers/2019dh.pdf (2019)\n\n@inproceedings{smeenk2019dh,  author = \"Kim Smeenk and Aysenur Bilgin and Tom Klaver and Erik Tjong Kim Sang and Laura Hollink and Jacco van Ossenbruggen and Frank Harbers and Marcel Broersma\",  title = \"{Grounding Paradigmatic Shifts In Newspaper Reporting In Big Data. Analysing Journalism History By Using Transparent Automatic Genre Classification}\",  booktitle = \"{Digital Humanities Conference 2019 (DH2019)}\",  publisher = \"{Utrecht, The Netherlands}\",  year = \"2019\" }\n\nT. Klaver, E. Tjong Kim Sang, A. Bilgin, K. Smeenk, L. Hollink, J. van Ossenbruggen, F. Harbers and M. Broersma, [Introducing a transparency-driven platform for creating, comparing and explaining machine learning pipelines] https://ifarm.nl/erikt/papers/2019-ictopen.pdf (2019)",
+      "section": "NEWSGAC (part 5)",
+      "repo": "388_NEWSGAC_platform",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.566506Z",
+    "updated_at": "2025-11-05T16:58:37.145536Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23365,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1552,
+    "annotations": [
+      {
+        "id": 10823,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 448,
+              "text": "@inproceedings{klaver2019ictopen, author = \"Tom Klaver and Erik Tjong Kim Sang and Aysenur Bilgin and Kim Smeenk and Laura Hollink and Jacco van Ossenbruggen and Frank Harbers and Marcel Broersma\", title = \"{Introducing a transparency-driven platform forcreating, comparing and explaining machinelearning pipelines}\", booktitle = \"{ICT-Open}\", publisher = \"{Hilversum, The Netherlands}\", year = \"2019\", note = \"(demo presentation abstract)\" }",
+              "labels": [
+                "REFERENCE_PUBLICATION_BIBTEX"
+              ]
+            },
+            "id": "zTfEp0CHvQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:58:48.899769Z",
+        "updated_at": "2025-11-05T16:58:48.899786Z",
+        "draft_created_at": null,
+        "lead_time": 11.593,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "c54f8cab-4de2-4a53-a327-7be87ed043c8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1552,
+        "project": 23365,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "@inproceedings{klaver2019ictopen,  author = \"Tom Klaver and Erik Tjong Kim Sang and Aysenur Bilgin and Kim Smeenk and Laura Hollink and Jacco van Ossenbruggen and Frank Harbers and Marcel Broersma\",  title = \"{Introducing a transparency-driven platform forcreating, comparing and explaining machinelearning pipelines}\",  booktitle = \"{ICT-Open}\",  publisher = \"{Hilversum, The Netherlands}\",  year = \"2019\",  note = \"(demo presentation abstract)\" }",
+      "section": "NEWSGAC (part 6)",
+      "repo": "388_NEWSGAC_platform",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.566525Z",
+    "updated_at": "2025-11-05T16:58:48.929611Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23365,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1553,
+    "annotations": [
+      {
+        "id": 10824,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:58:53.031282Z",
+        "updated_at": "2025-11-05T16:58:53.031300Z",
+        "draft_created_at": null,
+        "lead_time": 3.974,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c01f4e01-ba03-4ffd-967c-c9cc293926eb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1553,
+        "project": 23365,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Contributors\n\nAysenur Bilgin (aysenur.bilgin@cwi.nl)  Erik Tjong Kim Sang (e.tjongkimsang@esciencecenter.nl) Tom Klaver (t.klaver@esciencecenter.nl)",
+      "section": "NEWSGAC (part 7)",
+      "repo": "388_NEWSGAC_platform",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.566544Z",
+    "updated_at": "2025-11-05T16:58:53.058826Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23365,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

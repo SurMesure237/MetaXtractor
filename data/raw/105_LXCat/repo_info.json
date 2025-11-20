@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/LXCat-project/LXCat",
+  "programmingLanguage": "TypeScript",
+  "programmingLanguages": [
+    "TypeScript",
+    "Rust",
+    "CSS",
+    "JavaScript",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/LXCat-project/LXCat/zipball/main",
+  "author": "LXCat-project",
+  "dateCreated": "2023-06-27T14:08:48Z",
+  "dateModified": "2025-10-28T15:35:49Z",
+  "keywords": [],
+  "license": null,
+  "description": "An open-access website for collecting, displaying, and downloading electron and ion scattering data for modeling low temperature plasmas.",
+  "identifier": 659287597,
+  "name": "LXCat-project/LXCat",
+  "issueTracker": "https://api.github.com/repos/LXCat-project/LXCat/issues",
+  "readme": "https://github.com/LXCat-project/LXCat/blob/main/README.md"
+}

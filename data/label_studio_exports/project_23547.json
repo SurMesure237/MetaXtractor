@@ -1,0 +1,146 @@
+[
+  {
+    "id": 2459,
+    "annotations": [
+      {
+        "id": 10094,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 222,
+              "end": 420,
+              "text": "Brinckmann, Nils; Gomez-Zapata, Juan Camilo; Pittore, Massimiliano; Rüster, Matthias (2021): DEUS: Damage-Exposure-Update-Service. V. 1.0. GFZ Data Services. https://doi.org/10.5880/riesgos.2021.011",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "TYRbY5UHbG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 782,
+              "end": 809,
+              "text": "Apache License, Version 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "Omhvgvg-tD",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 933,
+              "end": 976,
+              "text": "https://www.apache.org/licenses/LICENSE-2.0",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "CTfiI-t8Ws",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T21:03:03.319627Z",
+        "updated_at": "2025-11-02T21:03:03.319644Z",
+        "draft_created_at": "2025-11-02T21:02:51.525524Z",
+        "lead_time": 22.558,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "bfba9d66-9941-4300-9fcb-8052f4f97914",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2459,
+        "project": 23547,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "deus\n\n[](https://codecov.io/gh/gfzriesgos/deus)\n\nDamage-Exposure-Update-Service\n\nCommand line program for the damage computation in a multi risk scenario pipeline for earthquakes, tsnuamis, ashfall & lahars.\n\n## Citation\n\nBrinckmann, Nils; Gomez-Zapata, Juan Camilo; Pittore, Massimiliano; Rüster, Matthias (2021): DEUS: Damage-Exposure-Update-Service. V. 1.0. GFZ Data Services. https://doi.org/10.5880/riesgos.2021.011\n\n## What is it?\n\nThis is the service to update a given exposure file (as it is the output of the assetmaster script) and update the building and damage classes with given fragility functions and intensity values.\n\n## Copyright & License\n\nCopyright © 2021 Helmholtz Centre Potsdam GFZ German Research Centre for Geosciences, Potsdam, Germany\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\nhttps://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\n\n## Project\n\nDeus was developed in the scope of the RIESGOS project: Multi-Risk Analysis and Information System Components for the Andes Region (https://www.riesgos.de/en)",
+      "section": "deus (part 1)",
+      "repo": "303_deus",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.369220Z",
+    "updated_at": "2025-11-02T21:03:03.347930Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23547,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2460,
+    "annotations": [
+      {
+        "id": 10095,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T21:03:15.829346Z",
+        "updated_at": "2025-11-02T21:03:15.829370Z",
+        "draft_created_at": null,
+        "lead_time": 12.313,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e9cae912-efba-49d4-adab-9a4118c9cb9b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2460,
+        "project": 23547,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Documentation\n\nYou can look up several documentation pages:\n\n[Setup and installation] doc/Setup.md\n\n[Example run] doc/ExposureModel.md\n\n[Shakemaps] doc/EarthQuakeShakemap.md and [Intensity files] doc/IntensityFile.md\n\n[Exposure models] doc/ExposureModel.md\n\n[Fragility functions] doc/FragilityFunctions.md\n\n[Loss] doc/LossData.md\n\n[Schema mappings] doc/SchemaMapping.md\n\n## Scope of deus\n\nDeus was created in the riesgos project for working in multi risk scenarios. It should be provided as a web processing service by the GFZ.\n\n## You still have questions\n\nIf we don't cover important things in the documentation, please feel free to create an issue or send a mail at  or .\n\n## Can I use deus for xyz?\n\nYes! But you may have to code a bit yourself. The code is written against interfaces and already provides several implementations for some of them.\n\nAims for the following development of deus is the support of more and more hazards with their intensity files, their fragility functions and their schemas.\n\nYou can also take a look into the [TODOs] TODO.md.\n\n## Will there only be one deus?\n\nThere is deus and there is volcanus (a special deus version \"volcanus\" that works with shapefiles for intensities - it uses a column LOAD and a unit of kPa - to allow a special ashfall service in the RIESGOS demonstrator).\n\nThe two services only differ in the intensity provider.",
+      "section": "deus (part 2)",
+      "repo": "303_deus",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.369260Z",
+    "updated_at": "2025-11-02T21:03:15.858148Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23547,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

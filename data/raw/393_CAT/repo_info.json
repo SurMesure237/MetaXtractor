@@ -1,0 +1,27 @@
+{
+  "codeRepository": "https://github.com/nlesc-nano/CAT",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/nlesc-nano/CAT/zipball/main",
+  "author": "nlesc-nano",
+  "dateCreated": "2019-02-08T09:06:13Z",
+  "dateModified": "2025-06-16T15:28:17Z",
+  "keywords": [
+    "automation",
+    "chemistry",
+    "molecular-mechanics",
+    "python",
+    "quantum-mechanics",
+    "science",
+    "scientific-workflows"
+  ],
+  "license": null,
+  "description": "A collection of tools designed for the automatic construction, and subsequent analysis, of chemical compounds.",
+  "identifier": 169708827,
+  "name": "nlesc-nano/CAT",
+  "issueTracker": "https://api.github.com/repos/nlesc-nano/CAT/issues",
+  "readme": "https://github.com/nlesc-nano/CAT/blob/master/README.rst"
+}

@@ -1,0 +1,524 @@
+[
+  {
+    "id": 2040,
+    "annotations": [
+      {
+        "id": 10394,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 624,
+              "end": 635,
+              "text": "MIT License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "L-2C8UVGMM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 766,
+              "end": 871,
+              "text": "[G. P. Müller et al., Phys. Rev. B 99, 224414 (2019)] https://link.aps.org/doi/10.1103/PhysRevB.99.224414",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "uTdIwenWT2",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:12:42.494712Z",
+        "updated_at": "2025-11-04T07:12:42.494728Z",
+        "draft_created_at": "2025-11-04T07:12:09.442463Z",
+        "lead_time": 62.131,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "46b05040-8347-479d-b00b-8d2f7701304e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2040,
+        "project": 23465,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "SPIRIT\n\nSPIN SIMULATION FRAMEWORK\n\n&nbsp;\n\nCore Library:\n\n| Branch | Build Status | Python Package Coverage | Core Library Coverage | | :------- | :----------: | :---------------------: | :-------------------: | | master: | | [](https://coveralls.io/github/spirit-code/spirit?branch=master) | [](https://codecov.io/gh/spirit-code/spirit/branch/master) | | develop: | | [](https://coveralls.io/github/spirit-code/spirit?branch=develop) | [](https://codecov.io/gh/spirit-code/spirit/branch/develop) |\n\n[Python package] https://pypi.org/project/spirit/: [](https://badge.fury.io/py/spirit)\n\n&nbsp;\n\nThe code is released under [MIT License] LICENSE.txt. If you intend to present and/or publish scientific results or visualisations for which you used Spirit, please cite [G. P. Müller et al., Phys. Rev. B 99, 224414 (2019)] https://link.aps.org/doi/10.1103/PhysRevB.99.224414 and read the [docs/REFERENCE.md] docs/REFERENCE.md.",
+      "section": "Introduction (part 1)",
+      "repo": "465_spirit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.502225Z",
+    "updated_at": "2025-11-04T07:12:42.520886Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23465,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2041,
+    "annotations": [
+      {
+        "id": 10395,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:12:50.021501Z",
+        "updated_at": "2025-11-04T07:12:50.021517Z",
+        "draft_created_at": null,
+        "lead_time": 7.341,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "3a646e82-81a4-4756-a90b-028450ae8cd5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2041,
+        "project": 23465,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "This is an open project and contributions and collaborations are always welcome!! See [docs/CONTRIBUTING.md] docs/CONTRIBUTING.md on how to contribute or write an email to m.sallermann@fz-juelich.de For contributions and affiliations, see [docs/CONTRIBUTORS.md] docs/CONTRIBUTORS.md.\n\nPlease note that a version of the Spirit Web interface is hosted by the Research Centre Jülich at http://juspin.de\n\n&nbsp;\n\n&nbsp;\n\nContents\n\n[Introduction] #Introduction\n\n[Getting started with the Desktop User Interface] #Desktop\n\n[Getting started with the Python Package] #Python\n\n&nbsp;\n\nIntroduction",
+      "section": "Introduction (part 2)",
+      "repo": "465_spirit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.502262Z",
+    "updated_at": "2025-11-04T07:12:50.052894Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23465,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2042,
+    "annotations": [
+      {
+        "id": 10396,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1341,
+              "end": 1346,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "x5b7mRNI3d",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1348,
+              "end": 1351,
+              "text": "OSX",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "OWH6xC73XK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1356,
+              "end": 1363,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "CZTA6QfQ6q",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:13:16.891701Z",
+        "updated_at": "2025-11-04T07:13:16.891719Z",
+        "draft_created_at": "2025-11-04T07:13:10.967039Z",
+        "lead_time": 26.696,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "20cce49b-aae6-41fd-bdee-b7224e5bd9c8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2042,
+        "project": 23465,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### A modern framework for magnetism science on clusters, desktops & laptops and even your Phone\n\nSpirit is a platform-independent framework for spin dynamics, written in C++14. It combines the traditional cluster work, using using the command-line, with modern visualisation capabilites in order to maximize scientists' productivity.\n\n\"It is unworthy of excellent men to lose hours like slaves in the labour of calculation which could safely be relegated to anyone else if machines were used.\" - Gottfried Wilhelm Leibniz\n\nOur goal is to build such machines. The core library of the Spirit framework provides an easy to use API, which can be used from almost any programming language, and includes ready-to-use python bindings. A powerful desktop user interface is available, providing real-time visualisation and control of parameters.\n\n### Physics Features\n\nAtomistic Spin Lattice Heisenberg Model including also DMI and dipole-dipole\n\nSpin Dynamics simulations obeying the\n\n[Landau-Lifschitz-Gilbert equation] https://en.wikipedia.org/wiki/Landau%E2%80%93Lifshitz%E2%80%93Gilbert_equation Direct Energy minimisation with different solvers\n\nMinimum Energy Path calculations for transitions between different\n\nspin configurations, using the GNEB method\n\n### Highlights of the Framework\n\nCross-platform: everything can be built and run on Linux, OSX and Windows\n\nStandalone core library with C API which can be used from almost any programming language\n\nPython package making complex simulation workflows easy\n\nDesktop UI with powerful, live 3D visualisations and direct control of most system parameters\n\nModular backends including parallelisation on GPU (CUDA) and CPU (OpenMP)",
+      "section": "Introduction (part 3)",
+      "repo": "465_spirit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.502286Z",
+    "updated_at": "2025-11-04T07:13:16.919794Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23465,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2043,
+    "annotations": [
+      {
+        "id": 10397,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 77,
+              "end": 110,
+              "text": "http://spirit-docs.readthedocs.io",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "g7c_nTv6Tj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 339,
+              "end": 385,
+              "text": "https://iffwiki.fz-juelich.de/index.php/Spirit",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "RD_pRuI67Z",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 561,
+              "end": 568,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "UJcQIi8x3l",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 524,
+              "end": 528,
+              "text": "Unix",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "wf9m3yW2u5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 529,
+              "end": 532,
+              "text": "OSX",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "Ge9PrHbMZ4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 713,
+              "end": 724,
+              "text": "VFRendering",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "8lxjGWaHTT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1427,
+              "end": 1431,
+              "text": "Unix",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "sLtdbVtQQ1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1432,
+              "end": 1435,
+              "text": "OSX",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "cy_kJIJxRG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1462,
+              "end": 1469,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "8_5Aj4TJPy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 726,
+              "end": 769,
+              "text": "https://github.com/FlorianRhiem/VFRendering",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "wKkfg-csI6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:14:28.307629Z",
+        "updated_at": "2025-11-14T12:50:47.328975Z",
+        "draft_created_at": "2025-11-04T07:13:27.417642Z",
+        "lead_time": 111.519,
+        "prediction": {},
+        "result_count": 10,
+        "unique_id": "b234a4ce-b84e-4bfc-9ab1-f7f1a136939f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2043,
+        "project": 23465,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Documentation\n\nMore details may be found at [spirit-docs.readthedocs.io] http://spirit-docs.readthedocs.io or in the [Reference section] docs/README.md including\n\n[Unix/OSX build instructions] docs/Build_Unix_OSX.md\n\n[Windows build instructions] docs/Build_Windows.md\n\n[Input File Reference] core/docs/Input.md\n\nThere is also a [Wiki] https://iffwiki.fz-juelich.de/index.php/Spirit \"Click me...\", hosted by the Research Centre Jülich.\n\n&nbsp;\n\nGetting started with the Desktop Interface\n\nSee the build instructions for [Unix/OSX] docs/Build_Unix_OSX.md or [Windows] docs/Build_Windows.md on how to get the desktop user interface.\n\nThe user interface provides a powerful OpenGL visualisation window using the [VFRendering] https://github.com/FlorianRhiem/VFRendering library. It provides functionality to\n\nControl Calculations\n\nLocally insert Configurations (homogeneous, skyrmions, spin spiral, ... )\n\nGenerate homogeneous Transition Paths\n\nChange parameters of the Hamiltonian\n\nChange parameters of the Method and Solver\n\nConfigure the Visualization (arrows, isosurfaces, lighting, ...)\n\nSee the [UI-QT Reference] docs/UI-Qt.md for the key bindings of the various features.\n\nUnfortunately, distribution of binaries for the Desktop UI is not possible due to the restrictive license on QT-Charts.\n\n&nbsp;\n\nGetting started with the Python Package\n\nTo install the Spirit python package, either build and install from source ([Unix/OSX] docs/Build_Unix_OSX.md, [Windows] docs/Build_Windows.md) or simply use\n\npip install spirit",
+      "section": "Introduction (part 4)",
+      "repo": "465_spirit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.502310Z",
+    "updated_at": "2025-11-14T12:50:47.366229Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23465,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2044,
+    "annotations": [
+      {
+        "id": 10398,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:14:34.857840Z",
+        "updated_at": "2025-11-04T07:14:34.857863Z",
+        "draft_created_at": null,
+        "lead_time": 6.358,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f3546f4d-77cc-41bf-8bed-a33f8485e27b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2044,
+        "project": 23465,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "With this package you have access to powerful Python APIs to run and control dynamics simulations or optimizations. This is especially useful for work on clusters, where you can now script your workflow, never having to re-compile when testing, debugging or adding features.\n\nThe most simple example of a spin dynamics simulation would be\n\nfrom spirit import state, simulation with state.State(\"input/input.cfg\") as p_state:  simulation.start(p_state, simulation.METHOD_LLG, simulation.SOLVER_SIB)\n\nWhere SOLVER_SIB denotes the semi-implicit method B and the starting configuration will be random.\n\nTo add some meaningful content, we can change the initial configuration by inserting a Skyrmion into a homogeneous background:\n\ndef skyrmion_on_homogeneous(p_state):  from spirit import configuration  configuration.plus_z(p_state)  configuration.skyrmion(p_state, 5.0, phase=-90.0)\n\nIf we want to calculate a minimum energy path for a transition, we need to generate a sensible initial guess for the path and use the GNEB method. Let us consider the collapse of a skyrmion to the homogeneous state:\n\nfrom spirit import state, chain, configuration, transition, simulation",
+      "section": "Introduction (part 5)",
+      "repo": "465_spirit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.502332Z",
+    "updated_at": "2025-11-04T07:14:34.888780Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23465,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2045,
+    "annotations": [
+      {
+        "id": 10399,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:14:41.837977Z",
+        "updated_at": "2025-11-04T07:14:41.837993Z",
+        "draft_created_at": null,
+        "lead_time": 6.785,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "1f62b70a-48ec-45ba-b019-7ad609e93586",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2045,
+        "project": 23465,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Copy the system and set chain length\n\nchain.image_to_clipboard(p_state) noi = 7 chain.set_length(p_state, noi)\n\n### First image is homogeneous with a Skyrmion in the center\n\nconfiguration.plus_z(p_state, idx_image=0) configuration.skyrmion(p_state, 5.0, phase=-90.0, idx_image=0) simulation.start(p_state, simulation.METHOD_LLG, simulation.SOLVER_VP, idx_image=0) ### Last image is homogeneous\n\nconfiguration.plus_z(p_state, idx_image=noi-1) simulation.start(p_state, simulation.METHOD_LLG, simulation.SOLVER_VP, idx_image=noi-1)\n\n### Create transition of images between first and last\n\ntransition.homogeneous(p_state, 0, noi-1)\n\n### GNEB calculation\n\nsimulation.start(p_state, simulation.METHOD_GNEB, simulation.SOLVER_VP)\n\nwhere SOLVER_VP denotes a direct minimization with the velocity projection algorithm.\n\nYou may also use Spirit order to extract quantitative data, such as the energy.\n\ndef evaluate(p_state):  from spirit import system, quantities  M = quantities.get_magnetization(p_state)  E = system.get_energy(p_state)  return M, E\n\nObviously you may easily create significantly more complex workflows and use Python to e.g. pre- or post-process data or to distribute your work on a cluster and much more!",
+      "section": "Introduction (part 6)",
+      "repo": "465_spirit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.502353Z",
+    "updated_at": "2025-11-04T07:14:41.864376Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23465,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

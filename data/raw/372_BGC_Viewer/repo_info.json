@@ -1,0 +1,24 @@
+{
+  "codeRepository": "https://github.com/medema-group/bgc-viewer",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Vue",
+    "TypeScript",
+    "HTML",
+    "Shell",
+    "CSS",
+    "JavaScript"
+  ],
+  "downloadUrl": "https://api.github.com/repos/medema-group/bgc-viewer/zipball/main",
+  "author": "medema-group",
+  "dateCreated": "2025-07-16T14:49:28Z",
+  "dateModified": "2025-10-29T13:51:29Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": null,
+  "identifier": 1020890715,
+  "name": "medema-group/bgc-viewer",
+  "issueTracker": "https://api.github.com/repos/medema-group/bgc-viewer/issues",
+  "readme": "https://github.com/medema-group/bgc-viewer/blob/main/README.md"
+}

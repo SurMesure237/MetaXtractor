@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/obriente/qgarden",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/obriente/qgarden/zipball/main",
+  "author": "obriente",
+  "dateCreated": "2017-12-19T13:39:38Z",
+  "dateModified": "2024-12-05T04:43:43Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": null,
+  "identifier": 114769465,
+  "name": "obriente/qgarden",
+  "issueTracker": "https://api.github.com/repos/obriente/qgarden/issues",
+  "readme": "https://github.com/obriente/qgarden/blob/master/README.md"
+}

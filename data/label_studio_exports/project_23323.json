@@ -1,0 +1,687 @@
+[
+  {
+    "id": 1319,
+    "annotations": [
+      {
+        "id": 10946,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 390,
+              "end": 421,
+              "text": "https://basicpy.readthedocs.io/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "ql6TFA7MbB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 194,
+              "end": 247,
+              "text": "https://github.com/peng-lab/BaSiCPy/blob/main/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "2aqrFqSDxH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 783,
+              "end": 1075,
+              "text": "A BaSiC Tool for Background and Shading Correction of Optical Microscopy Images\\n\\nby Tingying Peng, Kurt Thorn, Timm Schroeder, Lichao Wang, Fabian J Theis, Carsten Marr\\, Nassir Navab\\, Nature Communication 8:14836 (2017). [doi: 10.1038/ncomms14836] http://www.nature.com/articles/ncomms14836",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "FvKU-9HD4p",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T18:02:04.687085Z",
+        "updated_at": "2025-11-15T18:04:57.062039Z",
+        "draft_created_at": "2025-11-05T18:00:10.052141Z",
+        "lead_time": 138.958,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "e3deb1aa-cf89-487a-af08-cd50895ca8e1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1319,
+        "project": 23323,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "BaSiCPy A python package for background and shading correction of optical microscopy images\n\n[](https://pypi.org/project/basicpy) [](https://pypi.org/project/basicpy/) [](https://python.org) [](https://github.com/peng-lab/BaSiCPy/blob/main/LICENSE) [](https://github.com/peng-lab/basicpy/actions?workflow=CI) [](https://github.com/pre-commit/pre-commit) [](https://github.com/psf/black) [](https://basicpy.readthedocs.io/)\n\n[](#contributors-)\n\nBaSiCPy is a python package for background and shading correction of optical microscopy images. It is developed based on the Matlab version of [BaSiC] https://github.com/marrlab/BaSiC tool with major improvements in the algorithm.\n\nReference: BaSiCPy: A robust and scalable shadow correction tool for optical microscopy images (in prep.)\n\nA BaSiC Tool for Background and Shading Correction of Optical Microscopy Images\n\nby Tingying Peng, Kurt Thorn, Timm Schroeder, Lichao Wang, Fabian J Theis, Carsten Marr\\, Nassir Navab\\, Nature Communication 8:14836 (2017). [doi: 10.1038/ncomms14836] http://www.nature.com/articles/ncomms14836.",
+      "section": "BaSiCPy (part 1)",
+      "repo": "423_BaSiCPy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.593914Z",
+    "updated_at": "2025-11-15T18:04:57.096345Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23323,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1320,
+    "annotations": [
+      {
+        "id": 10947,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T18:02:17.883121Z",
+        "updated_at": "2025-11-05T18:02:17.883132Z",
+        "draft_created_at": null,
+        "lead_time": 13.016,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "7124a66a-0e9c-48f1-a749-087896072564",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1320,
+        "project": 23323,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Simple examples\n\n|Notebook|Description|Colab Link| | :------------------------: |:---------------:| :---------------------------------------------------: | | [timelapse_brightfield] https://github.com/peng-lab/BaSiCPy/tree/dev/docs/notebooks/timelapse_brightfield.ipynb| 100 continuous brightfield frames of a time-lapse movie of differentiating mouse hematopoietic stem cells. | [](https://colab.research.google.com/github/peng-lab/BaSiCPy/blob/dev/docs/notebooks/timelapse_brightfield.ipynb) | | [timelapse_nanog] https://github.com/peng-lab/BaSiCPy/tree/dev/docs/notebooks/timelapse_nanog.ipynb| 189 continuous fluorescence frames of a time-lapse movie of differentiating mouse embryonic stem cells, which move much more slower compared to the fast moving hematopoietic stem cells, resulting in a much larger correlation between frames. Note that in this challenging case, the automatic parameters are no longer optimal, so we use the manual parameter setting (larger smooth regularization on both flat-field and dark-field) to improve BaSiC’s performance. | [](https://colab.research.google.com/github/peng-lab/BaSiCPy/blob/dev/docs/notebooks/timelapse_nanog.ipynb) | | [WSI_brain] https://github.com/peng-lab/BaSiCPy/tree/dev/docs/notebooks/WSI_brain.ipynb| you can stitch image tiles together to view the effect of shading correction | [](https://colab.research.google.com/github/peng-lab/BaSiCPy/blob/dev/docs/notebooks/WSI_brain.ipynb) |",
+      "section": "BaSiCPy (part 2)",
+      "repo": "423_BaSiCPy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.593958Z",
+    "updated_at": "2025-11-05T18:02:17.908775Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23323,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1321,
+    "annotations": [
+      {
+        "id": 10948,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 209,
+              "end": 247,
+              "text": "https://doi.org/10.5281/zenodo.6334809",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "_rplkC7q4p",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T18:02:26.069916Z",
+        "updated_at": "2025-11-05T18:02:26.069934Z",
+        "draft_created_at": null,
+        "lead_time": 7.979,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "9135f1c0-6654-48f5-b310-ae81fe7b1233",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1321,
+        "project": 23323,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "You can also find examples of running the package at [notebooks folder] https://github.com/peng-lab/BaSiCPy/tree/dev/docs/notebooks. Data used in the examples and a description can be downloaded from [Zenodo] https://doi.org/10.5281/zenodo.6334809.",
+      "section": "BaSiCPy (part 3)",
+      "repo": "423_BaSiCPy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.593986Z",
+    "updated_at": "2025-11-05T18:02:26.098866Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23323,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1322,
+    "annotations": [
+      {
+        "id": 10949,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 731,
+              "end": 738,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "SDXN1aMGtu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 140,
+              "end": 145,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "-P172qER43",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 30,
+              "end": 71,
+              "text": "https://basicpy.readthedocs.io/en/latest/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "QIv3yFsseN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 375,
+              "end": 378,
+              "text": "jax",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "X2TVZWlArV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 490,
+              "end": 499,
+              "text": "Miniforge",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "SsrOn3Clfn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 764,
+              "end": 767,
+              "text": "jax",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "OG8rhne2lo",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 149,
+              "end": 153,
+              "text": "WSL2",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "LWHGHlX_d0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 380,
+              "end": 410,
+              "text": "https://github.com/google/jax/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "-TQxE1oUfS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 501,
+              "end": 541,
+              "text": "https://github.com/conda-forge/miniforge",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "8oCoGLeGQ1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 769,
+              "end": 799,
+              "text": "https://github.com/google/jax/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "P3-U4hrOnL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T18:03:23.327762Z",
+        "updated_at": "2025-11-15T18:05:42.127791Z",
+        "draft_created_at": "2025-11-05T18:02:37.267394Z",
+        "lead_time": 96.61,
+        "prediction": {},
+        "result_count": 10,
+        "unique_id": "f9807059-bc70-417e-8bac-7ee16c60d910",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1322,
+        "project": 23323,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Usage\n\nSee [Read the Docs] https://basicpy.readthedocs.io/en/latest/ for the detailed usage.\n\n## Installation\n\n### For Mac (Intel chip), Linux or WSL2 users\n\nInstall from PyPI\n\npip install basicpy\n\nor install the latest development version\n\ngit clone https://github.com/peng-lab/BaSiCPy.git cd BaSiCPy pip install .\n\n### For Mac users with M1 / M2 chip\n\nBaSiCPy requires [jax] https://github.com/google/jax/, which has potential build issue with M1 chips. One easiest solution is using [Miniforge] https://github.com/conda-forge/miniforge as explained [here] https://github.com/google/jax/issues/5501. In the Miniforge environment, please try the following:\n\nconda install -c conda-forge jax jaxlib pip install basicpy\n\n### For Windows users\n\nBaSiCPy requires [jax] https://github.com/google/jax/ which does not support Windows officially. However, thanks to [cloudhan/jax-windows-builder] https://github.com/cloudhan/jax-windows-builder, we can install BaSiCPy as follows:\n\npip install \"jax[cpu]==0.4.11\" -f https://whls.blob.core.windows.net/unstable/index.html --use-deprecated legacy-resolver pip install ml-dtypes==0.2.0 pip install basicpy\n\nOne may need to add\n\nimport jax jax.config.update('jax_platform_name', 'cpu')\n\nat the top of the script to ensure that JAX uses CPU.\n\nFor details and latest updates, see [this issue] https://github.com/google/jax/issues/438.\n\n### Install with dev dependencies\n\ngit clone https://github.com/peng-lab/BaSiCPy.git cd BaSiCPy python -m venv venv source venv/bin/activate pip install -e '.[dev]'\n\n## Development",
+      "section": "BaSiCPy (part 4)",
+      "repo": "423_BaSiCPy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.594010Z",
+    "updated_at": "2025-11-15T18:05:42.167035Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23323,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1323,
+    "annotations": [
+      {
+        "id": 10950,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 40,
+              "end": 52,
+              "text": "bump2version",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Bz83w3Iew3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 54,
+              "end": 94,
+              "text": "https://github.com/c4urself/bump2version",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "9Xxdf7Uv2c",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T18:03:35.693137Z",
+        "updated_at": "2025-11-15T18:05:49.109018Z",
+        "draft_created_at": "2025-11-05T18:03:34.631999Z",
+        "lead_time": 18.187,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "7e32c339-e7fa-4cef-8c73-5561ca618e9c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1323,
+        "project": 23323,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### bump2version\n\nThis repository uses [bump2version] https://github.com/c4urself/bump2version to manage dependencies. New releases are pushed to PyPi in the CI pipeline when a new version is committed with a version tag and pushed to the repo.\n\nThe development flow should use the following process: New features and bug fixes should be pushed to dev\n\nWhen tests have passed a new development version is ready to be release, use bump2version major|minor|patch. This will commit and create a new version tag with the -dev suffix.\n\nAdditional fixes/features can be added to the current development release by using bump2version build.\n\nOnce the new bugs/features have been tested and a main release is ready, use bump2version release to remove the -dev suffix.\n\nAfter creating a new tagged version, push to Github and the version will be built and pushed to PyPi.\n\n### All-contributors\n\nThis repository uses [All Contributors] https://allcontributors.org/ to manage the contributor list. Please execute the following to add/update contributors.\n\nyarn yarn all-contributors add username contribution yarn all-contributors generate # to reflect the changes to README.md\n\nFor the possible contribution types, see the [All Contributors documentation] https://allcontributors.org/docs/en/emoji-key.\n\n## Contributors",
+      "section": "BaSiCPy (part 5)",
+      "repo": "423_BaSiCPy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.594049Z",
+    "updated_at": "2025-11-15T18:05:49.141682Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23323,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1324,
+    "annotations": [
+      {
+        "id": 10951,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T18:03:38.112140Z",
+        "updated_at": "2025-11-05T18:03:38.112157Z",
+        "draft_created_at": null,
+        "lead_time": 2.219,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "33d84af7-41fa-4eba-b52f-3a99a4a20172",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1324,
+        "project": 23323,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Current version\n\nNicholas-Schaub📆 👀 🚇 ⚠️ 💻 🤔  Tim Morello💻 📖 👀 ⚠️ 🤔 🚇",
+      "section": "BaSiCPy (part 6)",
+      "repo": "423_BaSiCPy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.594120Z",
+    "updated_at": "2025-11-05T18:03:38.140738Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23323,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1325,
+    "annotations": [
+      {
+        "id": 10952,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T18:03:38.934480Z",
+        "updated_at": "2025-11-05T18:03:38.934496Z",
+        "draft_created_at": null,
+        "lead_time": 0.636,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e02153e5-afec-4700-bbf7-fc31cea2597b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1325,
+        "project": 23323,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Tingying Peng🔣 💵 📆 📢 💻  Yohsuke T. Fukai🔬 💻 🤔 👀 ⚠️ 💬 🚇  YuLiu-web📖 📓",
+      "section": "BaSiCPy (part 7)",
+      "repo": "423_BaSiCPy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.594144Z",
+    "updated_at": "2025-11-05T18:03:38.966757Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23323,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1326,
+    "annotations": [
+      {
+        "id": 10953,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T18:03:51.487602Z",
+        "updated_at": "2025-11-05T18:03:51.487618Z",
+        "draft_created_at": null,
+        "lead_time": 12.377,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "60357af4-b998-4e6e-b338-77041d75b14b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1326,
+        "project": 23323,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "For details on the contribution roles, see the [documentation] https://basicpy.readthedocs.io/en/latest/contributors.html.",
+      "section": "BaSiCPy (part 8)",
+      "repo": "423_BaSiCPy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.594164Z",
+    "updated_at": "2025-11-05T18:03:51.511250Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23323,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1327,
+    "annotations": [
+      {
+        "id": 10954,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T18:03:53.477786Z",
+        "updated_at": "2025-11-05T18:03:53.477801Z",
+        "draft_created_at": null,
+        "lead_time": 1.816,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "82dd8e5c-bdf4-40ed-8ddf-7d198be43afe",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1327,
+        "project": 23323,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Old version (f3fcf19), used as the reference implementation to check the approximate algorithm\n\nLorenz Lamm (@LorenzLamm)\n\nMohammad Mirkazemi (@Mirkazemi)",
+      "section": "BaSiCPy (part 9)",
+      "repo": "423_BaSiCPy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.594185Z",
+    "updated_at": "2025-11-05T18:03:53.503997Z",
+    "inner_id": 9,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23323,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

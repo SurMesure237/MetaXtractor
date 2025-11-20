@@ -1,0 +1,34 @@
+{
+  "codeRepository": "https://github.com/omuse-geoscience/omuse",
+  "programmingLanguage": "Fortran",
+  "programmingLanguages": [
+    "Fortran",
+    "Python",
+    "HTML",
+    "Makefile",
+    "C++",
+    "C",
+    "Perl",
+    "SourcePawn",
+    "Roff",
+    "Singularity",
+    "Shell",
+    "MATLAB",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/omuse-geoscience/omuse/zipball/main",
+  "author": "omuse-geoscience",
+  "dateCreated": "2020-03-03T12:43:52Z",
+  "dateModified": "2025-01-08T15:36:36Z",
+  "keywords": [
+    "earth-science",
+    "oceanography",
+    "python"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": " The Oceanographic Multi-purpose Software Environment: a package for multi-physics and multi-scale earth science simulations.",
+  "identifier": 244633552,
+  "name": "omuse-geoscience/omuse",
+  "issueTracker": "https://api.github.com/repos/omuse-geoscience/omuse/issues",
+  "readme": "https://github.com/omuse-geoscience/omuse/blob/master/README.md"
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "[](https://pubmed.ncbi.nlm.nih.gov/22770690/) [](https://www.sciencedirect.com/science/article/abs/pii/S0730725X12001816?via%3Dihub#preview-section-cited-by) [](https://github.com/Slicer/Slicer/actions/workflows/ci.yml) [](https://securityscorecards.dev/viewer/?uri=github.com/Slicer/Slicer)\n\nSlicer, or 3D Slicer, is a free, open source software package for visualization and image analysis.\n\n3D Slicer is natively designed to be available on multiple platforms, including Windows, Linux and macOS.\n\nBuild instructions for all platforms are available on the Slicer wiki: https://slicer.readthedocs.io/en/latest/developer_guide/build_instructions/index.html\n\nFor Slicer community announcements and support, visit: https://discourse.slicer.org\n\nFor documentation, tutorials, and more information, please see: https://www.slicer.org\n\nSee License.txt for information on using and contributing.",
+      "section": "README",
+      "repo": "171_3D_Slicer",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "088_AttentionLayer.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "BestieTemplate.jl\n\nYour best practices friend.\n\n[](https://JuliaBesties.github.io/BestieTemplate.jl/stable) [](https://JuliaBesties.github.io/BestieTemplate.jl/dev) [](https://github.com/JuliaBesties/BestieTemplate.jl/actions/workflows/Test.yml?query=branch%3Amain) [](https://codecov.io/gh/JuliaBesties/BestieTemplate.jl) [](https://github.com/JuliaBesties/BestieTemplate.jl/actions/workflows/Lint.yml?query=branch%3Amain) [](https://github.com/JuliaBesties/BestieTemplate.jl/actions/workflows/Docs.yml?query=branch%3Amain) [](https://doi.org/10.5281/zenodo.8350577) [](CODE_OF_CONDUCT.md) [](#contributors) [](https://github.com/JuliaBesties/BestieTemplate.jl)",
+      "section": "BestieTemplate.jl (part 1)",
+      "repo": "088_AttentionLayer.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## What does BestieTemplate do?\n\nCreating Julia packages involve the creation and edition of many tiny files. Wouldn't it be great to automate this?\n\nThis is exactly what BestieTemplate does.\n\n### FAQ\n\nHow is BestieTemplate different from PkgTemplates?\n\nit can be applied to existing packages\n\nit invites to follow some (opinionated) best practices\n\nit can be reapplied to acquire updates made to the template\n\nit is automatically reapplied through Pull Requests made by the Copier.yml workflow (Work in progress)\n\n### Architecture\n\nUnder the hood, BestieTemplate is no more and no less than:\n\na [copier] https://copier.readthedocs.io template/skeleton for Julia packages (see folder [template] template); and\n\na package that wraps copier in Julia using PythonCall with some convenience functions.\n\n## Quickstart\n\nInstall BestieTemplate in your chosen environment (we recommend globally) by entering pkg mode by pressing ] and then:\n\n``julia-repl julia> # press ] pkg> add BestieTemplate\n\nthen:\n\n`julia-repl julia> using BestieTemplate julia> BestieTemplate.generate(\"path/to/YourNewPackage.jl\") julia> # or BestieTemplate.apply(\"path/to/YourExistingPackage.jl\")\n\nplease note that \"YourPackage.jl\"` can either be a fresh new package or an existing one.\n\n[](https://asciinema.org/a/611189)\n\nIf you like what you see, check the [full usage guide] https://JuliaBesties.github.io/BestieTemplate.jl/stable/10-full-guide/.\n\n## Users and Examples\n\nThe following are users and examples of repos using this template, or other templates based on it. Feel free to create a pull request to add your repo.\n\nThis package itself uses the template.\n\n[TulipaIO.jl] https://github.com/TulipaEnergy/TulipaIO.jl",
+      "section": "BestieTemplate.jl (part 2)",
+      "repo": "088_AttentionLayer.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Contributing\n\nIf you would like to get involved in the BestieTemplate growth, please check our [contributing guide] docs/src/90-contributing.md. We welcome contributions of many types, including coding, reviewing, creating issues, creating tutorials, interacting with users, etc. Make sure to follow our [code of conduct] CODE_OF_CONDUCT.md.\n\nIf your interest is in developing the package, check the [development guide] docs/src/91-developer.md as well.\n\n### AI Coding Assistant Attribution\n\nWe use and accepts pull requests with AI coding assistants to help with development, but we expect the committers to understand and be responsible for the code that they introduce. All commits that receive AI assistance should be signed off with:\n\nCo-authored-by: MODEL NAME (FULL MODEL VERSION)\n\nFor example:\n\nCo-authored-by: Claude Code (claude-sonnet-4-20250514)",
+      "section": "BestieTemplate.jl (part 3)",
+      "repo": "088_AttentionLayer.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## References\n\nHere is a list of links/repos that include content that we have used for inspiration, or used directly. This is most likely not a complete list, since many of the things included here were based on existing packages and knowledge that we brought from other projects. This also doesn't explain where each file came from or why they are here. You can find some of that information in the [Explanation] https://JuliaBesties.github.io/BestieTemplate.jl/stable/20-explanation/ section of the docs.\n\n[PkgTemplates.jl] https://github.com/JuliaCI/PkgTemplates.jl, naturally. We used it for many years, and in particular for the initial TulipaEnergyModel.jl commit (see below).\n\n[Netherlands eScience Center's python template] https://github.com/NLeSC/python-template includes many of the best practices that we apply here. We used many of the ideas there in a Julia context, and took many non-Julia specific ideas from there.\n\n[TulipaEnergyModel.jl] https://github.com/TulipaEnergy/TulipaEnergyModel.jl was the project that motivated this version of a template. From the start we decide to implement many best practices and so we started from a PkgTemplates.jl template and started adding parts of the python template that made sense.\n\nThe [Julia Smooth Optimizers] https://jso.dev package ecosystem was one of the main motivations to look for a solution that could be applied and reapplied to existing packages, in particular to help maintainers.",
+      "section": "BestieTemplate.jl (part 4)",
+      "repo": "088_AttentionLayer.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Contributors",
+      "section": "BestieTemplate.jl (part 5)",
+      "repo": "088_AttentionLayer.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Abel Soares Siqueira\ud83d\udcbb \ud83d\udcc6 \ud83d\udcd6 \ud83d\udea7  Tangi Migot\ud83d\udcbb \ud83d\udcd6 \ud83d\udc40  Pablo Rodr\u00edguez-S\u00e1nchez\ud83d\udcd6 \ud83e\udd14  Olga Lyashevska\ud83d\udcbb \ud83d\udcd6 \ud83e\udd14",
+      "section": "BestieTemplate.jl (part 6)",
+      "repo": "088_AttentionLayer.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Luisa Orozco\ud83d\udcbb \ud83d\udcd6 \ud83e\udd14  Netherlands eScience Center\ud83d\udcb5  Suvayu Ali\ud83d\udc1b \ud83d\udc40 \ud83d\udcbb      Stefan Verhoeven\ud83d\udcbb \ud83e\udd14  Dominique\ud83e\udd14 \ud83d\udcbb",
+      "section": "BestieTemplate.jl (part 7)",
+      "repo": "088_AttentionLayer.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "fdiblen\ud83d\udcbb \ud83d\udc40  Greg Neustroev\ud83d\udcbb  Luca Ferranti\ud83e\udd14  Guillaume Dalle\ud83e\udd14  Johannes Hidding\ud83d\udc1b \ud83d\udc40",
+      "section": "BestieTemplate.jl (part 8)",
+      "repo": "088_AttentionLayer.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Frames White\ud83d\udcbb \ud83d\udc1b \ud83e\udd14  Lauren Clisby\ud83e\udd14 \ud83d\udcbb  Diego Alejandro Tejada Arango\ud83e\udd14  LeoXia\ud83d\udcbb  Stefan de Lange\ud83d\udcbb",
+      "section": "BestieTemplate.jl (part 9)",
+      "repo": "088_AttentionLayer.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Misha Mikhasenko\ud83d\udcbb \ud83d\udcd6 \ud83d\udc1b",
+      "section": "BestieTemplate.jl (part 10)",
+      "repo": "088_AttentionLayer.jl",
+      "source_file": "readme.md"
+    }
+  }
+]

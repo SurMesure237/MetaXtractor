@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": "[](https://www.repostatus.org/#wip)",
+      "section": "Introduction",
+      "repo": "463_hermes",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "hermes\n\nImplementation of the HERMES workflow to automatize software publication with rich metadata. For more extensive documentation, see our [HERMES workflow documentation] https://docs.software-metadata.pub/en/latest.\n\n(For more information about the HERMES [HMC] https://helmholtz-metadata.de project, see the [HERMES project website] https://software-metadata.pub.)\n\n## Installation\n\nhermes' primary use case is to [use it in a continuous integration environment] https://docs.software-metadata.pub/en/latest/tutorials/automated-publication-with-ci.html.\n\nIn case you still want to install on your machine, you can (for example) use pip:\n\npip install hermes\n\nNote: you must have Python 3.10 or newer installed. Older installations of Python will receive a non-related package because of PyPI limitations!\n\n### Development Snapshot\n\nTo install the most recent version that has not been released yet, please install from our sources on GitHub:\n\npip install git+https://github.com/hermes-hmc/hermes.git\n\n## Usage\n\nThe hermes application provides the entry point for the HERMES workflow. After installation, you can run it from your command line environment:\n\nhermes --help hermes harvest\n\nYou can also call the hermes package as a Python module:\n\npython -m hermes --help python -m hermes harvest\n\n## Contributions, Extension and Development\n\nWe welcome external contributions! Please follow our [contribution guidelines] CONTRIBUTING.md.\n\nHERMES was designed with extensibility in mind. Our [development guide] https://docs.software-metadata.pub/en/latest/dev/start.html contains in-depth information on how to get ready and start coding.",
+      "section": "hermes (part 1)",
+      "repo": "463_hermes",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Acknowledgements\n\nThis project (ZT-I-PF-3-006) was funded by the Initiative and Networking Fund of the [Helmholtz Association] https://www.helmholtz.de/en/about-us/structure-and-governance/initiating-and-networking in the framework of the [Helmholtz Metadata Collaboration] https://helmholtz-metadaten.de's [2020 project call] https://helmholtz-metadaten.de/en/projects/hmc-projects-2020.\n\n## License and Citation\n\nPlease see [LICENSE.md] LICENSE.md for legal information. We provide a [CITATION.cff] CITATION.cff containing all metadata for citation, which is also easy to use via the widget on the right-hand side.",
+      "section": "hermes (part 2)",
+      "repo": "463_hermes",
+      "source_file": "readme.md"
+    }
+  }
+]

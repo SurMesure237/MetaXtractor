@@ -1,0 +1,27 @@
+{
+  "codeRepository": "https://github.com/mess-nlesc/kunefe",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/mess-nlesc/kunefe/zipball/main",
+  "author": "mess-nlesc",
+  "dateCreated": "2024-02-27T14:02:19Z",
+  "dateModified": "2024-03-27T12:50:47Z",
+  "keywords": [
+    "apptainer",
+    "containers",
+    "docker",
+    "hpc",
+    "slurm",
+    "ssh"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "A Python package that helps users run containerized applications on HPC systems",
+  "identifier": 764113803,
+  "name": "mess-nlesc/kunefe",
+  "issueTracker": "https://api.github.com/repos/mess-nlesc/kunefe/issues",
+  "readme": "https://github.com/mess-nlesc/kunefe/blob/main/README.md"
+}

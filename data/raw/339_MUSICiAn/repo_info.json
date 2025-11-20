@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/joanagoncalveslab/MUSICiAn",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "R",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/joanagoncalveslab/MUSICiAn/zipball/main",
+  "author": "joanagoncalveslab",
+  "dateCreated": "2025-01-21T16:55:26Z",
+  "dateModified": "2025-10-10T11:52:24Z",
+  "keywords": [
+    "crispr",
+    "dna-repair",
+    "gene-perturbation",
+    "mutational-patterns",
+    "mutational-signatures",
+    "mutational-spectra",
+    "outlier-detection"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "MUSICiAn: Genome-wide Identification of Genes Involved in DNA Repair via Control-Free Mutational Spectra Analysis by Seale CF, Barazas M, van Schendel R, Tijsterman M, and Gonçalves JP (bioRxiv 2025)",
+  "identifier": 920155521,
+  "name": "joanagoncalveslab/MUSICiAn",
+  "issueTracker": "https://api.github.com/repos/joanagoncalveslab/MUSICiAn/issues",
+  "readme": "https://github.com/joanagoncalveslab/MUSICiAn/blob/main/README.md"
+}

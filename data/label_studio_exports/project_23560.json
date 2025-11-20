@@ -1,0 +1,256 @@
+[
+  {
+    "id": 2528,
+    "annotations": [
+      {
+        "id": 10060,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:38:39.157742Z",
+        "updated_at": "2025-11-02T20:38:39.157760Z",
+        "draft_created_at": null,
+        "lead_time": 48.552,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6d486033-2715-4870-977d-ff3ccd8c1e29",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2528,
+        "project": 23560,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "scriptcwl\n\n|codacy_grade| |codacy_coverage| |travis| |documentation| |pypi_version| |pypi_supported| |zenodo|\n\nscriptcwl is a Python package for creating workflows in Common Workflow Language (CWL) _. If you give it a number of CWL `CommandLineTools, you can create a workflow by writing a Python script. This can be done interactively using Jupyter Notebooks _. The full documentation can be found on Read the Docs _.\n\n.. image:: docs/images/add-multiply-example-workflow.png  :alt: add multiply example workflow  :align: center\n\nGiven CWL CommandLineTools for add and multiply (these are available in scriptcwl _), a CWL specification of this workflow can be written as:\n\n.. code-block:: python\n\nfrom scriptcwl import WorkflowGenerator\n\nwith WorkflowGenerator() as wf:  wf.load(steps_dir='/path_to_scriptcwl/scriptcwl/examples/')\n\nnum1 = wf.add_input(num1='int')  num2 = wf.add_input(num2='int')\n\nanswer1 = wf.add(x=num1, y=num2)  answer2 = wf.multiply(x=answer1, y=num2)\n\nwf.add_outputs(final_answer=answer2)\n\nwf.save('add_multiply_example_workflow.cwl')\n\nThe workflow has two integers as inputs (num1 and num2), and first adds these two numbers (wf.add(x=num1, y=num2)), and then multiplies the answer with the second input (num2`). The result of that processing step is the output of the workflow. Finally, the workflow is saved to a file. The result looks like:\n\n.. code-block:: sh",
+      "section": "Introduction (part 1)",
+      "repo": "389_scriptcwl",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.264473Z",
+    "updated_at": "2025-11-02T20:38:39.185272Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23560,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2529,
+    "annotations": [
+      {
+        "id": 10061,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1330,
+              "end": 1357,
+              "text": "Apache License, Version 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "fgfKiJNZ3B",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 755,
+              "end": 758,
+              "text": "CWL",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Ebjk2x_H1s",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 422,
+              "end": 425,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "K6od-WfepM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:39:45.997930Z",
+        "updated_at": "2025-11-14T11:50:09.393486Z",
+        "draft_created_at": "2025-11-02T20:39:15.657852Z",
+        "lead_time": 135.937,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "9beefabe-9f42-4a2a-8754-ae6afcb2ee76",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2529,
+        "project": 23560,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#!/usr/bin/env cwl-runner  cwlVersion: v1.0  class: Workflow  inputs:  num1: int  num2: int  outputs:  final_answer:  type: int  outputSource: multiply/answer  steps:  add:  run: add.cwl  in:  y: num2  x: num1  out: answer\n\nmultiply:  run: multiply.cwl  in:  y: num2  x: add/answer  out: answer\n\nThe Python and CWL files used in the example can be found in the examples folder _.\n\nInstallation ############\n\nInstall using pip:\n\n.. code-block:: sh\n\npip install scriptcwl\n\nFor development:\n\n.. code-block:: sh\n\ngit clone git@github.com:NLeSC/scriptcwl.git  cd scriptcwl  python setup.py develop\n\nRun tests (including coverage) with:\n\n.. code-block:: sh\n\npython setup.py test\n\nUseful tools ############\n\nTo use scriptcwl for creating CWL workflows, you need CWL `CommandLineTools. There are some software packages that help with generating those for existing command line tools written in Python:\n\nargparse2tool _: Generate CWL CommandLineTool wrappers (and/or Galaxy tool descriptions) from Python programs that use argparse. Also supports the click _ argument parser.  pypi2cwl _: Automatically run argparse2cwl on any package in PyPi. python-cwlgen `_: Generate CommandLineTool and DockerRequirement programmatically\n\nLicense #######\n\nCopyright (c) 2016-2018, Netherlands eScience Center, University of Twente\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at",
+      "section": "Introduction (part 2)",
+      "repo": "389_scriptcwl",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.264514Z",
+    "updated_at": "2025-11-14T11:50:09.438151Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23560,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2530,
+    "annotations": [
+      {
+        "id": 10062,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 42,
+              "text": "http://www.apache.org/licenses/LICENSE-2.0",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "IFWVyUdxXt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1119,
+              "end": 1174,
+              "text": "http://scriptcwl.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "V5XbAUuCa6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1486,
+              "end": 1529,
+              "text": "https://zenodo.org/badge/latestdoi/70679474",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "RpHijzwVp5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 978,
+              "end": 1015,
+              "text": "https://travis-ci.org/NLeSC/scriptcwl\\n",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "mvursq4ieR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:40:23.209544Z",
+        "updated_at": "2025-11-14T11:50:39.789385Z",
+        "draft_created_at": "2025-11-02T20:39:58.100079Z",
+        "lead_time": 66.411,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "0f3ce519-a91c-4ac5-b8e8-bd80ba91a46f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2530,
+        "project": 23560,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\n\n.. |codacy_grade| image:: https://api.codacy.com/project/badge/Grade/8f383bca18384d8187c10c27affa9d53  :target: https://www.codacy.com/app/jvdzwaan/scriptcwl?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NLeSC/scriptcwl&amp;utm_campaign=Badge_Grade\n\n.. |codacy_coverage| image:: https://api.codacy.com/project/badge/Coverage/8f383bca18384d8187c10c27affa9d53  :target: https://www.codacy.com/app/jvdzwaan/scriptcwl?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NLeSC/scriptcwl&amp;utm_campaign=Badge_Coverage\n\n.. |travis| image:: https://travis-ci.org/NLeSC/scriptcwl.svg?branch=master  :target: https://travis-ci.org/NLeSC/scriptcwl\n\n.. |documentation| image:: https://readthedocs.org/projects/scriptcwl/badge/?version=latest  :target: http://scriptcwl.readthedocs.io/en/latest/?badge=latest\n\n.. |pypi_version| image:: https://badge.fury.io/py/scriptcwl.svg  :target: https://badge.fury.io/py/scriptcwl\n\n.. |pypi_supported| image:: https://img.shields.io/pypi/pyversions/scriptcwl.svg  :target: https://pypi.python.org/pypi/scriptcwl\n\n.. |zenodo| image:: https://zenodo.org/badge/70679474.svg  :target: https://zenodo.org/badge/latestdoi/70679474  :alt: DOI",
+      "section": "Introduction (part 3)",
+      "repo": "389_scriptcwl",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.264539Z",
+    "updated_at": "2025-11-14T11:50:39.827316Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23560,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "codeRepository": "https://github.com/LimeSurvey/LimeSurvey",
+  "programmingLanguage": "JavaScript",
+  "programmingLanguages": [
+    "JavaScript",
+    "PHP",
+    "CSS",
+    "HTML",
+    "SCSS",
+    "Twig",
+    "Less",
+    "Stylus",
+    "Vue",
+    "Shell",
+    "Hack",
+    "Makefile",
+    "Batchfile",
+    "PowerShell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/LimeSurvey/LimeSurvey/zipball/main",
+  "author": "LimeSurvey",
+  "dateCreated": "2012-01-30T14:14:53Z",
+  "dateModified": "2025-10-30T22:36:15Z",
+  "keywords": [
+    "html5",
+    "javascript",
+    "limesurvey",
+    "mssql",
+    "mysql",
+    "php",
+    "postgres",
+    "react",
+    "responsive-design",
+    "survey"
+  ],
+  "license": null,
+  "description": "🔥 LimeSurvey – A powerful, open-source survey platform. A free alternative to SurveyMonkey, Typeform, Qualtrics, and Google Forms, making it simple to create online surveys and forms with unmatched flexibility.",
+  "identifier": 3305384,
+  "name": "LimeSurvey/LimeSurvey",
+  "issueTracker": "https://api.github.com/repos/LimeSurvey/LimeSurvey/issues",
+  "readme": "https://github.com/LimeSurvey/LimeSurvey/blob/master/README.md"
+}

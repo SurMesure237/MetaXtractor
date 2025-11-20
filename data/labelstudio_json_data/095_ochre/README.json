@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "text": "Ochre\n\nOchre is a toolbox for OCR post-correction. Please note that this software is experimental and very much a work in progress!\n\nOverview of OCR post-correction data sets  Preprocess data sets  Train character-based language models/LSTMs for OCR post-correction  Do the post-correction  Assess the performance of OCR post-correction  Analyze OCR errors\n\nOchre contains ready-to-use data processing workflows (based on [CWL] http://www.commonwl.org/). The software also allows you to create your own (OCR post-correction related) workflows. Examples of how to create these can be found in the [notebooks directory] https://github.com/KBNLresearch/ochre/tree/master/notebooks (to be able to use those, make sure you have [Jupyter Notebooks] http://jupyter.readthedocs.io/en/latest/install.html installed). This directory also contains notebooks that show how results can be analyzed and visualized.\n\n## Data sets\n\n[VU DNC corpus] http://tst-centrale.org/nl/tst-materialen/corpora/vu-dnc-corpus-detail Language: nl\n\nFormat: FoLiA\n\n~3340 newspaper articles, different genres, 5 newspapers, 1950/1951\n\nGold standard is noisy\n\n[ICDAR 2017 shared task on OCR post correction] https://sites.google.com/view/icdar2017-postcorrectionocr/dataset Language: en and fr\n\nFormat: txt (more info on the website)\n\nPeriodicals and monographs\n\n[Digitzed yearbooks of the Swiss Alpine Club (19th century)] https://files.ifi.uzh.ch/cl/OCR19thSAC/ Paper: http://www.zora.uzh.ch/124786/\n\nLanguages: de and fr\n\n[Sydney Morning Herald 1842-1954 (Overproof)] http://overproof.projectcomputing.com/datasets/ Paper: http://dl.acm.org/citation.cfm?id=2595200\n\nLanguages: en\n\nbyu synthetic ocr data\n\nPaper: http://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=2664&context=facpub\n\nNot (yet) available",
+      "section": "Ochre (part 1)",
+      "repo": "095_ochre",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Installation\n\ngit clone git@github.com:KBNLresearch/ochre.git cd ochre pip install -r requirements.txt python setup.py develop\n\nUsing the CWL workflows requires (the development version of) [nlppln] https://github.com/nlppln/nlppln and its requirements ([see installation guidelines] http://nlppln.readthedocs.io/en/latest/installation.html).  To run a CWL workflow type: cwltool|cwl-runner path/to/workflow.cwl (if you run the command without inputs, the tool will tell you about what inputs are required and how to specify them). For more information on running CWL workflows, have a look at the [nlppln documentation] http://nlppln.readthedocs.io/en/latest/. This is especially relevant for Windows users. Please note that some of the CWL workflows contain absolute paths, if you want to use them on your own machine, regenerate them using the associated Jupyter Notebooks.",
+      "section": "Ochre (part 2)",
+      "repo": "095_ochre",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Preprocessing\n\nThe software needs the data in the following formats:  ocr: text files containing the ocr-ed text, one file per unit (article, page, book, etc.)  gs: text files containing the gold standard (correct) text, one file per unit (article, page, book, etc.)  aligned: json files containing aligned character sequences:\n\n{  \"ocr\": [\"E\", \"x\", \"a\", \"m\", \"p\", \"\", \"c\"],  \"gs\": [\"E\", \"x\", \"a\", \"m\", \"p\", \"l\", \"e\"] }\n\nCorresponding files in these directories should have the same name (or at least the same prefix), for example:\n\n\u251c\u2500\u2500 gs \u2502\u00a0\u00a0 \u251c\u2500\u2500 1.txt \u2502\u00a0\u00a0 \u251c\u2500\u2500 2.txt \u2502\u00a0\u00a0 \u2514\u2500\u2500 3.txt \u251c\u2500\u2500 ocr \u2502\u00a0\u00a0 \u251c\u2500\u2500 1.txt \u2502\u00a0\u00a0 \u251c\u2500\u2500 2.txt \u2502\u00a0\u00a0 \u2514\u2500\u2500 3.txt \u2514\u2500\u2500 aligned  \u251c\u2500\u2500 1.json  \u251c\u2500\u2500 2.json  \u2514\u2500\u2500 3.json\n\nTo create data in these formats, CWL workflows are available. First run a preprocess workflow to create the gs and ocr directories containing the expected files. Next run an align workflow to create the align directory.\n\nVU DNC corpus: vudnc-preprocess-pack.cwl (can be run as stand-alone; associated notebook [vudnc-preprocess-workflow.ipynb] https://github.com/KBNLresearch/ochre/blob/master/notebooks/vudnc-preprocess-workflow.ipynb)  ICDAR 2017 shared task on OCR post correction: icdar2017st-extract-data-all.cwl (cannot be run as stand-alone;  regenerate with notebook [ICDAR2017_shared_task_workflows.ipynb] https://github.com/KBNLresearch/ochre/blob/master/notebooks/ICDAR2017_shared_task_workflows.ipynb)\n\nTo create the alignments, run one of:\n\nalign-dir-pack.cwl to align all files in the gs and ocr directories align-test-files-pack.cwl to align the test files in a data division\n\nThese workflows can be run as stand-alone; associated notebook [align-workflow.ipynb] notebooks/align-workflow.ipynb.",
+      "section": "Ochre (part 3)",
+      "repo": "095_ochre",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Training networks for OCR post-correction\n\nFirst, you need to divide the data into a train, validation and test set:\n\npython -m ochre.create_data_division /path/to/aligned\n\nThe result of this command is a json file containing lists of file names, for example:\n\n{  \"train\": [\"1.json\", \"2.json\", \"3.json\", \"4.json\", \"5.json\", ...],  \"test\": [\"6.json\", ...],  \"val\": [\"7.json\", ...] }\n\nScript: lstm_synched.py\n\n## OCR post-correction\n\nIf you trained a model, you can use it to correct OCR text using the lstm_synced_correct_ocr command:\n\npython -m ochre.lstm_synced_correct_ocr /path/to/keras/model/file /path/to/text/file/containing/the/characters/in/the/training/data /path/to/ocr/text/file\n\ncwltool /path/to/ochre/cwl/lstm_synced_correct_ocr.cwl --charset /path/to/text/file/containing/the/characters/in/the/training/data --model /path/to/keras/model/file --txt /path/to/ocr/text/file\n\nThe command creates a text file containing the corrected text.\n\nTo generate corrected text for the test files of a dataset, do:\n\ncwltool /path/to/ochre/cwl/post_correct_test_files.cwl --charset /path/to/text/file/containing/the/characters/in/the/training/data --model /path/to/keras/model/file --datadivision /path/to/data/division --in_dir /path/to/directory/with/ocr/text/files\n\nTo run it for a directory of text files, use:\n\ncwltool /path/to/ochre/cwl/post_correct_dir.cwl --charset /path/to/text/file/containing/the/characters/in/the/training/data --model /path/to/keras/model/file --in_dir /path/to/directory/with/ocr/text/files\n\n(these CWL workflows can be run as stand-alone; associated notebook [post_correction_workflows.ipynb] https://github.com/KBNLresearch/ochre/blob/master/notebooks/post_correction_workflows.ipynb)\n\nExplain merging of predictions",
+      "section": "Ochre (part 4)",
+      "repo": "095_ochre",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Performance\n\nTo calculate performance of the OCR (post-correction), the external tool [ocrevalUAtion] https://github.com/impactcentre/ocrevalUAtion is used. More information about this tool can be found on the [website] https://sites.google.com/site/textdigitisation/ and [wiki] https://github.com/impactcentre/ocrevalUAtion/wiki.\n\nTwo workflows are available for calculating performance. The first calculates performance for all files in a directory. To use it type:\n\ncwltool /path/to/ochre/cwl/ocrevaluation-performance-wf-pack.cwl#main --gt /path/to/dir/containing/the/gold/standard/ --ocr /path/to/dir/containing/ocr/texts/ [--out_name name-of-output-file.csv]\n\nThe second calculates performance for all files in the test set:\n\ncwltool /path/to/ochre/cwl/ocrevaluation-performance-test-files-wf-pack.cwl --datadivision /path/to/datadivision.json --gt /path/to/dir/containing/the/gold/standard/ --ocr /path/to/dir/containing/ocr/texts/ [--out_name name-of-output-file.csv]\n\nBoth of these workflows are stand-alone (packed). The corresponding Jupyter notebook is [ocr-evaluation-workflow.ipynb] https://github.com/KBNLresearch/ochre/blob/master/notebooks/ocr-evaluation-workflow.ipynb.\n\nTo use the ocrevalUAtion tool in your workflows, you have to add it to the WorkflowGenerator's steps library:\n\nwf.load(step_file='https://raw.githubusercontent.com/nlppln/ocrevaluation-docker/master/ocrevaluation.cwl')\n\nTODO: explain how to calculate performance with ignore case (or use lowercase-directory.cwl)",
+      "section": "Ochre (part 5)",
+      "repo": "095_ochre",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## OCR error analysis\n\nDifferent types of OCR errors exist, e.g., structural vs. random mistakes. OCR post-correction methods may be suitable for fixing different types of errors. Therefore, it is useful to gain insight into what types of OCR errors occur. We chose to approach this problem on the word level. In order to be able to compare OCR errors on the word level, words in the OCR text and gold standard text need to be mapped. CWL workflows are available to do this. To create word mappings for the test files of a dataset, use:\n\ncwltool /path/to/ochre/cwl/word-mapping-test-files.cwl --data_div /path/to/datadivision --gs_dir /path/to/directory/containing/the/gold/standard/texts --ocr_dir /path/to/directory/containing/the/ocr/texts/ --wm_name name-of-the-output-file.csv\n\nTo create word mappings for two directories of files, do:\n\ncwltool /path/to/ochre/cwl/word-mapping-wf.cwl --gs_dir /path/to/directory/containing/the/gold/standard/texts/ --ocr_dir /path/to/directory/containing/the/ocr/texts/ --wm_name name-of-the-output-file.csv\n\n(These workflows can be regenerated using the notebook [word-mapping-workflow.ipynb] https://github.com/KBNLresearch/ochre/blob/master/notebooks/word-mapping-workflow.ipynb.)\n\nThe result is a csv-file containing mapped words. The first column contains a word id, the second column the gold standard text and the third column contains the OCR text of the word:\n\n,gs,ocr 0,Hello,Hcllo 1,World,World 2,!,.\n\nThis csv file can be used to analyze the errors. See notebooks/categorize errors based on word mappings.ipynb for an example.\n\nWe use heuristics to categorize the following types of errors (ochre/ocrerrors.py):\n\nTODO: add error types\n\n## OCR quality measure\n\nJupyter notebook  better (more balanced) training data is needed.\n\n## Generating training data\n\nScramble gold standard text",
+      "section": "Ochre (part 6)",
+      "repo": "095_ochre",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Ideas\n\nVisualization of probabilities for each character (do the ocr mistakes have lower\n\nprobability?) (probability=color)\n\n## License\n\nCopyright (c) 2017-2018, Koninklijke Bibliotheek, Netherlands eScience Center\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.",
+      "section": "Ochre (part 7)",
+      "repo": "095_ochre",
+      "source_file": "readme.md"
+    }
+  }
+]

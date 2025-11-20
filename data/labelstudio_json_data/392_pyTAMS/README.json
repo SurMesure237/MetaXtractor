@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": "pyTAMS\n\n[](https://research-software-directory.org/software/pytams) [](https://zenodo.org/doi/10.5281/zenodo.15349506) [](https://github.com/nlesc-eTAOC/pyTAMS/actions/workflows/build.yml) [](https://badge.fury.io/py/pytams) [](https://github.com/nlesc-eTAOC/pyTAMS/actions/workflows/sonarcloud.yml) [](https://sonarcloud.io/dashboard?id=nlesc-eTAOC_pyTAMS) [](https://github.com/nlesc-eTAOC/pyTAMS)\n\n## Overview\n\npyTAMS is a modular implementation of the trajectory-adaptive multilevel splitting (TAMS) method introduced by [Lestang et al.] https://doi.org/10.1088/1742-5468/aab856. This method aims at predicting rare events probabilities in dynamical systems by biasing an ensemble of system trajectories.\n\nThe main objective of pyTAMS is to provide a general framework for applying TAMS to high-dimensional systems such as the ones encountered in geophysical or engineering applications.",
+      "section": "pyTAMS (part 1)",
+      "repo": "392_pyTAMS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Installation\n\nTo install pyTAMS from GitHub repository, do:\n\ngit clone git@github.com:nlesc-eTAOC/pyTAMS.git cd pyTAMS python -m pip install .\n\nNote that the latest version of pyTAMS is available on PyPI [here] https://pypi.org/project/pytams/ and can be installed with pip install pytams.\n\nFinally, a few example cases are shipped with pyTAMS, but additional dependencies are required. To install the examples dependencies, run:\n\npython -m pip install .[exec]\n\n## Quick start\n\nTo get started with pyTAMS, let's have a look at the classical double-well potential case. Although it is not a high-dimensional system, it provides a good overview of pyTAMS capabilities. A 3D version of the double-well is available in the [examples] examples folder. To run the case, simply do:\n\ncd examples python doubleWell3D.py -i input_dw3D.toml\n\nThis minimal example runs TAMS 10 times in order to get an estimate of the transition probability as well as the corresponding standard error. For a more in-depth explanation about this case, setting up the model and running the simulations, have a look at the tutorial [here] https://nlesc-eTAOC.github.io/pyTAMS/Tutorials.html.\n\n## Documentation\n\n[](https://github.com/nlesc-eTAOC/pyTAMS/actions/workflows/documentation.yml)\n\npyTAMS documentation is hosted on GitHub [here] https://nlesc-etaoc.github.io/pyTAMS/\n\n## Contributing\n\nIf you want to contribute to the development of pyTAMS, have a look at the [contribution guidelines] CONTRIBUTING.md.",
+      "section": "pyTAMS (part 2)",
+      "repo": "392_pyTAMS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Acknowledgements\n\nThe development of pyTAMS was supported by the Netherlands eScience Center in collaboration with the Institute for Marine and Atmospheric research Utrecht [IMAU] https://www.uu.nl/onderzoek/imau.\n\nThis package was created with [Cookiecutter] https://github.com/audreyr/cookiecutter and the [NLeSC/python-template] https://github.com/NLeSC/python-template.",
+      "section": "pyTAMS (part 3)",
+      "repo": "392_pyTAMS",
+      "source_file": "readme.md"
+    }
+  }
+]

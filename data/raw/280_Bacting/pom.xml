@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.egonw.bacting</groupId>
+    <artifactId>bacting</artifactId>
+    <name>Bacting</name>
+    <description>Bacting := acting as the Bioclipse TNG. Bioclipse version that can be used
+       from the command line, e.g. with Groovy.</description>
+    <url>http://www.github.com/egonw/bacting</url>
+    <version>1.0.7</version>
+    <packaging>pom</packaging>
+
+    <licenses>
+      <license>
+        <name>Eclipse Public License v1.0 + GPL Exception</name>
+        <url>https://github.com/egonw/bacting/blob/main/LICENSE.md</url>
+      </license>
+    </licenses>
+
+    <developers>
+      <developer>
+        <name>Egon Willighagen</name>
+        <email>egon.willighagen@maastrichtuniversity.nl</email>
+        <organization>Maastricht University</organization>
+        <organizationUrl>http://www.bigcat.unimaas.nl/</organizationUrl>
+      </developer>
+    </developers>
+
+    <scm>
+      <connection>scm:git:git://github.com/egonw/bacting.git</connection>
+      <developerConnection>scm:git:ssh://git@github.com/egonw/bacting.git</developerConnection>
+      <url>http://github.com/egonw/bacting/tree/main</url>
+      <tag>HEAD</tag>
+    </scm>
+
+    <properties>
+      <maven.compiler.source>17</maven.compiler.source>
+      <maven.compiler.target>17</maven.compiler.target>
+
+      <maven.compiler.version>3.13.0</maven.compiler.version>
+      <maven.shade.version>3.6.0</maven.shade.version>
+      <junit5.excludeGroups>pubchem,chemspider,mwmbl</junit5.excludeGroups>
+      <junit.version>5.13.3</junit.version>
+
+      <bioclipse.version>2.8.1.6</bioclipse.version>
+
+      <cdk.version>2.11</cdk.version>
+      <xom.version>1.3.9</xom.version>
+      <biojava.version>1.9.7</biojava.version>
+      <jena.version>5.4.0</jena.version>
+      <bridgedb.version>3.1.4</bridgedb.version>
+      <derby.version>10.15.2.0</derby.version>
+      <httpclient.version>5.5</httpclient.version>
+      <jqudt.version>1.5.1</jqudt.version>
+      <commonsio.version>2.20.0</commonsio.version>
+      <commonslogging.version>1.3.5</commonslogging.version>
+      <xerces.version>2.12.2</xerces.version>
+      <json.version>20250517</json.version>
+      <slf4j.version>2.0.17</slf4j.version>
+      <log4j.version>2.25.1</log4j.version>
+      <cmlxom.version>4.13</cmlxom.version>
+      <guava.version>33.4.8-jre</guava.version>
+      <opsin.version>2.8.0</opsin.version>
+      <jnainchi.version>1.3.1</jnainchi.version>
+      <woodstox.version>7.1.1</woodstox.version>
+    </properties>
+
+    <modules>
+        <module>bacting-core</module>
+        <module>managers-core</module>
+        <module>managers-semweb</module>
+        <module>managers-bioinfo</module>
+        <module>managers-cheminfo</module>
+        <module>managers-excel</module>
+        <module>managers-search</module>
+        <module>bundle</module>
+    </modules>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>central</id>
+            <url>https://central.sonatype.com/repository/maven-snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>central</id>
+            <url>https://central.sonatype.com</url>
+        </repository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>sonatypeSnapshots</id>
+            <name>Sonatype Snapshots</name>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <url>https://central.sonatype.com/repository/maven-snapshots/</url>
+        </repository>
+    </repositories>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-enforcer-plugin</artifactId>
+                <version>3.5.0</version>
+                <executions>
+                    <execution>
+                        <id>enforce-maven</id>
+                        <goals>
+                            <goal>enforce</goal>
+                        </goals>
+                        <configuration>
+                            <rules>
+                                <requireMavenVersion>
+                                    <version>3.6.3</version>
+                                </requireMavenVersion>
+                                <requireJavaVersion>
+                                    <version>17</version>
+                                </requireJavaVersion>
+                            </rules>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.sonatype.central</groupId>
+                <artifactId>central-publishing-maven-plugin</artifactId>
+                <version>0.8.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <publishingServerId>central</publishingServerId>
+                    <autoPublish>true</autoPublish>
+                    <waitUntil>published</waitUntil>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>3.3.1</version>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar-no-fork</goal>
+                       </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.7.0</version>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>aggregate</id>
+                        <goals>
+                            <goal>aggregate</goal>
+                        </goals>
+                        <phase>site</phase>
+                        <configuration>
+                        </configuration>
+                    </execution>
+                </executions>
+                <configuration>
+                    <source>17</source>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>3.2.4</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.3.0</version>
+                <configuration>
+                    <groups>${junit5.groups}</groups>
+                    <excludedGroups>${junit5.excludeGroups}</excludedGroups>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.12</version>
+                <executions>
+                    <execution>
+                        <id>start-agent</id>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>generate-report</id>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

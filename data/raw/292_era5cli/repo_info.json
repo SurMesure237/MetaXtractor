@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/eWaterCycle/era5cli",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/eWaterCycle/era5cli/zipball/main",
+  "author": "eWaterCycle",
+  "dateCreated": "2019-02-19T10:10:30Z",
+  "dateModified": "2025-09-24T18:35:59Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Command Line Interface to download ERA5 from Copernicus Climate Data Service",
+  "identifier": 171451221,
+  "name": "eWaterCycle/era5cli",
+  "issueTracker": "https://api.github.com/repos/eWaterCycle/era5cli/issues",
+  "readme": "https://github.com/eWaterCycle/era5cli/blob/main/README.md"
+}

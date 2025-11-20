@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "ESMValCore package\n\n[](https://esmvaltool.readthedocs.io/en/latest/?badge=latest) [](https://doi.org/10.5281/zenodo.3387139) [](https://matrix.to/#/#ESMValGroup_Lobby:gitter.im) [](https://circleci.com/gh/ESMValGroup/ESMValCore/tree/main) [](https://codecov.io/gh/ESMValGroup/ESMValCore) [](https://anaconda.org/conda-forge/esmvalcore) [](https://github.com/ESMValGroup/ESMValCore/actions/workflows/run-tests.yml) [](https://results.pre-commit.ci/latest/github/ESMValGroup/ESMValCore/main)\n\nESMValCore: core functionalities for the ESMValTool, a community diagnostic and performance metrics tool for routine evaluation of Earth System Models in the Climate Model Intercomparison Project (CMIP).",
+      "section": "ESMValCore package",
+      "repo": "049_ESMValCore",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Getting started\n\nPlease have a look at the [documentation] https://docs.esmvaltool.org/projects/esmvalcore/en/latest/quickstart/install.html to get started.\n\n## Using the ESMValCore package to run recipes\n\nThe ESMValCore package provides the esmvaltool command, which can be used to run [recipes] https://docs.esmvaltool.org/projects/esmvalcore/en/latest/recipe/overview.html for working with CMIP-like data. A large collection of ready to use [recipes and diagnostics] https://docs.esmvaltool.org/en/latest/recipes/index.html is provided by the [ESMValTool] https://github.com/ESMValGroup/ESMValTool package.\n\n## Using ESMValCore as a Python library\n\nThe ESMValCore package provides various functions for:\n\nFinding data in a directory structure typically used for CMIP data.\n\nReading CMIP/CMOR tables and using those to check model and observational data.\n\nESMValTool preprocessor functions based on\n\n[iris] https://scitools-iris.readthedocs.io for e.g. regridding,  vertical interpolation, statistics, correcting (meta)data errors, extracting  a time range, etcetera.\n\nread all about it in the [API documentation] https://docs.esmvaltool.org/projects/esmvalcore/en/latest/api/esmvalcore.html.\n\n## Getting help\n\nThe easiest way to get help if you cannot find the answer in the documentation on [readthedocs] https://docs.esmvaltool.org, is to open an [issue on GitHub] https://github.com/ESMValGroup/ESMValCore/issues.\n\n## Contributing\n\nContributions are very welcome, please read our [contribution guidelines] https://docs.esmvaltool.org/projects/ESMValCore/en/latest/contributing.html to get started.",
+      "section": "Getting started",
+      "repo": "049_ESMValCore",
+      "source_file": "readme.md"
+    }
+  }
+]

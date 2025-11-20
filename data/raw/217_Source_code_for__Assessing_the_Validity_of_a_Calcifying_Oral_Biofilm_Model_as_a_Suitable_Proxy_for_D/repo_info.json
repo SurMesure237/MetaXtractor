@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/bbartholdy/byoc-valid",
+  "programmingLanguage": "HTML",
+  "programmingLanguages": [
+    "HTML",
+    "TeX",
+    "R",
+    "JavaScript",
+    "Shell",
+    "Lua"
+  ],
+  "downloadUrl": "https://api.github.com/repos/bbartholdy/byoc-valid/zipball/main",
+  "author": "bbartholdy",
+  "dateCreated": "2021-11-12T10:26:08Z",
+  "dateModified": "2025-01-21T21:30:00Z",
+  "keywords": [],
+  "license": null,
+  "description": "Assessing the validity of a calcifying oral biofilm model as a suitable proxy for dental calculus",
+  "identifier": 427318341,
+  "name": "bbartholdy/byoc-valid",
+  "issueTracker": "https://api.github.com/repos/bbartholdy/byoc-valid/issues",
+  "readme": "https://github.com/bbartholdy/byoc-valid/blob/main/README.md"
+}

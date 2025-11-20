@@ -1,0 +1,353 @@
+[
+  {
+    "id": 1217,
+    "annotations": [
+      {
+        "id": 12025,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:45:06.523254Z",
+        "updated_at": "2025-11-09T07:45:06.523267Z",
+        "draft_created_at": null,
+        "lead_time": 14.799,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "cc7cfea0-48da-4e6a-b102-602beab583f0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1217,
+        "project": 23302,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "PyChelator v1.1.0: a Python-based Colab and web application for metal chelator calculations\n\n[](https://fairsoftwarechecklist.net/v0.2?f=31&a=32113&i=32322&r=123)\n\n## Description:\n\nPychelator is a helpful tool for researchers, scientists, and professionals working with metal-chelator interactions who need to obtain critical data related to these complexes. PyChelator Colab offers the Python version and extensive new features of the well-established [Maxchelator] https://owamoosa.com/maxchelator/ developed by Chris Patton and colleagues [1] #1. The JavaScript version is served in Github Pages [PyChelator Web] https://amrutelab.github.io/PyChelator/.",
+      "section": "PyChelator v1.1.0: a Python-based Colab and web application for metal chelator calculations (part 1)",
+      "repo": "009_PyChelator",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.159705Z",
+    "updated_at": "2025-11-09T07:45:06.549735Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23302,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1218,
+    "annotations": [
+      {
+        "id": 12026,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:45:09.808872Z",
+        "updated_at": "2025-11-09T07:45:09.808892Z",
+        "draft_created_at": null,
+        "lead_time": 3.108,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "39b26765-4721-4df4-8622-4eb6da72b5a9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1218,
+        "project": 23302,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Features:\n\nCalculation of Metal Chelator Complexes: PyChelator performs complex calculations involving chelators and metal ions, taking into account essential environmental parameters like pH, temperature, and ionic strength (the left panel).\n\nSelection of constants: Easily select the constants to be used from the dropdown menu located in the left panel. Available stability constants are sourced from the National Institute of Standards and Technology ‘NIST’ [2] #2, ‘SPECS’ by Fabiato [3] #3, ‘Chelator’ by Schoenmakers et al. [4] #4, and ‘Calcium’ by Föhr et al. [5] #5. Users can also manually input the constants. The download feature allows users to obtain a local JSON file containing the entries, facilitating the subsequent use by uploading the constants. Equipped with input fields for metal and chelator names, a versatile use of the calculator is allowed for a broader range of applications.\n\nSelection of input units: Convenient entry of chelator and metal concentrations in units ranging from Molar (M) to nano Molar range (M, mM, μM, and nM) (the left panel).\n\nIonic strength: Ionic strength as equivalence of ions can be calculated inside PyChelator\n\nPurity of chelators: Percent purity of chelators can be entered in the top panel\n\nStructured Output: The output are structured for selectability. An extra option for the logarithmic transformation of free metal concentration (-log10[free]) is incorporated. The subsequent calculations are appended to the middle panel and can be conveniently downloaded as a single Excel file.\n\nArbitrary precision arithmetic: The built-in Python Decimal module in Colab offers user-defined precision in the decimal place calculations",
+      "section": "PyChelator v1.1.0: a Python-based Colab and web application for metal chelator calculations (part 2)",
+      "repo": "009_PyChelator",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.159746Z",
+    "updated_at": "2025-11-09T07:45:09.837780Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23302,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1219,
+    "annotations": [
+      {
+        "id": 12027,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:45:14.883363Z",
+        "updated_at": "2025-11-09T07:45:14.883376Z",
+        "draft_created_at": null,
+        "lead_time": 4.911,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6dac26d2-f398-4c0a-bd10-2c858b3d977c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1219,
+        "project": 23302,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Find Free Mode - Example:\n\n[!NOTE]  PyChelator input data are simply written in the user interface, operations are caculated and the output is shown in the middle panel, with an option to download the report as an XLSX file.\n\nSolution A with a pH 7.4 with ionic equivalent 100 mM at 20°C containing: 5 mM EGTA (98% purity)\n\n1 mM CaCl2\n\n2 mM MgATP (97% purity)\n\n2 mM MgCl2\n\nSteps for free Calcium calculation in PyChelator:\n\nFrom \"Constants\" dropdown, select the preferred constants' source (ex.NIST)\n\nSelect mM as Input unit.\n\nWrite the Temperature as 20°C.\n\nWrite the pH as 7.4.\n\nWrite the Ionic (Ie) equivalent as 100 mM. If you do not know the ionic equivalent, you can calculate by using the \"Calculate Ie\" button.\n\nSelect the parameters to \"Show in report\", or keep defaults.\n\nUsing the top panel, write the Chelator concentration of ATP to 2 mM (97% purity), and EGTA to 5 mM (98% purity).\n\nWrite the Total metals given to the solution; Ca²⁺ as 2 mM and Mg²⁺ as 4 mM\n\nClick Calculate. You can copy the Free (M) concentration for Ca²⁺ or the -log10[free]. Alternatively, click Download to have a local copy of the results.",
+      "section": "PyChelator v1.1.0: a Python-based Colab and web application for metal chelator calculations (part 3)",
+      "repo": "009_PyChelator",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.159774Z",
+    "updated_at": "2025-11-09T07:45:14.906595Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23302,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1220,
+    "annotations": [
+      {
+        "id": 12028,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:45:16.778651Z",
+        "updated_at": "2025-11-09T07:45:16.778667Z",
+        "draft_created_at": null,
+        "lead_time": 1.718,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "8ae1ccf2-c440-4f16-8787-e0b76881774f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1220,
+        "project": 23302,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Manual entry of stability constants - Example:\n\nUsing the stability constants for Zinc and Calcium buffered using EDTA and EGTA, from NIST Critical Stability Constants. A useful table of frequently used chelators and metals can also be found under Maxchelator.\n\nSteps for manual entry of constants in PyChelator:\n\nFrom \"Constants\" dropdown, select \"Write custom constants\"\n\nWrite the Ligands (L1, L2) comma-separated as: EDTA, EGTA.\n\nWrite the Metals (M1, M2) comma-separated as: Zn, Ca.\n\nWrite the temperature that the constants were determined (Et) in °C: 20.\n\nWrite the ionic equivalent that the constants were determined (Ei) in mM: 100.\n\nWrite the protonation constant H1 (logK) for L1 and L2: 10.3, 9.5\n\nWrite the ΔH1 enthalpy (kcal/mol) for H1 for L1 and L2: -5.6, -5.9\n\nRepeat steps 6 and 7 for all protonation constants.\n\nWrite the stability constant ML (logK) for M1-L1,M1-L2,M2-L1,M2-L2: 16.6, 12.7, 10.7, 10.9\n\nWrite the ΔML enthalpy (kcal/mol) for M1-L1,M1-L2,M2-L1,M2-L2: -4.7, -4.3, -6.1, -8.4\n\nRepeat Steps 9 and 10 for MHL and ΔMHL, respectively.\n\nDownload the JSON file. You can use this file the next time using the command Upload constants under Constants dropdown.\n\n## Compatibility:\n\nPyChelator is designed to work with modern web browsers and supports JavaScript-based web applications. PyChelator Colab is versatile and can be integrated into various web projects related to metal-chelator interactions.\n\n## Disclaimer:\n\nWhile PyChelator aims to provide accurate and useful data, users are advised to validate the results obtained from the code with experimental data and consult the experts for critical applications.",
+      "section": "PyChelator v1.1.0: a Python-based Colab and web application for metal chelator calculations (part 4)",
+      "repo": "009_PyChelator",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.159798Z",
+    "updated_at": "2025-11-09T07:45:16.808462Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23302,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1221,
+    "annotations": [
+      {
+        "id": 12029,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 14,
+              "end": 177,
+              "text": "Spahiu, E., Kastrati, E. & Amrute-Nayak, M. PyChelator: a Python-based Colab and web application for metal chelator calculations. BMC Bioinformatics 25, 239 (2024)",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "EGjxeDZzLq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 223,
+              "end": 265,
+              "text": "https://doi.org/10.1186/s12859-024-05858-8",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "PXWLLMkMYl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 407,
+              "end": 528,
+              "text": "Bers DM, Patton CW, Nuccitelli R. A practical guide to the preparation of Ca(2+) buffers. Methods Cell Biol. 2010;99:1–26",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "KamG_wdLHM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 534,
+              "end": 646,
+              "text": "Smith RM, Martell AE. NIST Critically Selected Stability Constants of Metal Complexes Database Version 8.0. 2004",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "mlJhb1J3l7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 658,
+              "end": 888,
+              "text": "Computer programs for calculating total from specified free or free from specified total ionic concentrations in aqueous solutions containing multiple metals and ligands. In: Methods in Enzymology. Academic Press; 1988. p. 378–417",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "CAFr89s8FK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 896,
+              "end": 1047,
+              "text": "choenmakers TJM, Visser GJ, Flik G, Theuvenet APR. CHELATOR: an improved method for computing metal ion concentrations in physiological solutions. 1992",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "AJq1-O-rWA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1054,
+              "end": 1238,
+              "text": "Föhr KJ, Warchol W, Gratzl M. Calculation and control of free divalent cations in solutions used for membrane fusion studies. In: Methods in Enzymology. Academic Press; 1993. p. 149–57",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "HOQIA__Kd5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:46:14.719848Z",
+        "updated_at": "2025-11-09T07:46:14.719866Z",
+        "draft_created_at": "2025-11-09T07:45:40.043529Z",
+        "lead_time": 57.77,
+        "prediction": {},
+        "result_count": 7,
+        "unique_id": "7a10a6f6-9564-4215-a401-ce04139b4472",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1221,
+        "project": 23302,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Citation:\n\nSpahiu, E., Kastrati, E. & Amrute-Nayak, M. PyChelator: a Python-based Colab and web application for metal chelator calculations. BMC Bioinformatics 25, 239 (2024).[https://doi.org/10.1186/s12859-024-05858-8] https://doi.org/10.1186/s12859-024-05858-8   [!IMPORTANT]  To contribute to this software, please open a [Discussion] or file an [Issue] in this Github repository.\n\n## References:\n\n1: Bers DM, Patton CW, Nuccitelli R. A practical guide to the preparation of Ca(2+) buffers. Methods Cell Biol. 2010;99:1–26.   2:Smith RM, Martell AE. NIST Critically Selected Stability Constants of Metal Complexes Database Version 8.0. 2004.   3: [31] Computer programs for calculating total from specified free or free from specified total ionic concentrations in aqueous solutions containing multiple metals and ligands. In: Methods in Enzymology. Academic Press; 1988. p. 378–417.   4: Schoenmakers TJM, Visser GJ, Flik G, Theuvenet APR. CHELATOR: an improved method for computing metal ion concentrations in physiological solutions. 1992.   5: Föhr KJ, Warchol W, Gratzl M. Calculation and control of free divalent cations in solutions used for membrane fusion studies. In: Methods in Enzymology. Academic Press; 1993. p. 149–57.",
+      "section": "PyChelator v1.1.0: a Python-based Colab and web application for metal chelator calculations (part 5)",
+      "repo": "009_PyChelator",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.159825Z",
+    "updated_at": "2025-11-09T07:46:14.751248Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23302,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

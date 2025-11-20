@@ -1,0 +1,421 @@
+[
+  {
+    "id": 1845,
+    "annotations": [
+      {
+        "id": 10584,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 697,
+              "end": 959,
+              "text": "Tripathy, P., Rao, P., Balakrishnan, K., & Malladi, T. (2021). An open-source tool to extract natural continuity and hierarchy of urban street networks. Environment and Planning B: Urban Analytics and City Science, 48(8), 2188-2205. DOI: 10.1177/2399808320967680",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "hV_kzW6uVU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:07:00.442213Z",
+        "updated_at": "2025-11-04T18:07:00.442233Z",
+        "draft_created_at": null,
+        "lead_time": 33.158,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "30909998-5bc2-4cb3-b61c-8251035b90b9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1845,
+        "project": 23420,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "output: github_document\n\n``{r, include = FALSE} knitr::opts_chunk$set(  collapse = TRUE,  comment = \"#>\",  fig.path = \"man/figures/README-\",  out.width = \"100%\" )\n\n[](https://github.com/CityRiverSpaces/rcoins/actions/workflows/R-CMD-check.yaml) [](https://doi.org/10.5281/zenodo.14501804)\n\nIdentify continuous lines in a network using an approach based on the Continuity in Street Network (COINS) method[^1].\n\nrcoins is a R (re)implementation of the COINS algorithm, which is also available in Python as a module of the [momepy`] https://docs.momepy.org/en/latest/api/momepy.COINS.html library or in its original version: [PratyushTripathy/COINS] https://github.com/PratyushTripathy/COINS.\n\n[^1]: Tripathy, P., Rao, P., Balakrishnan, K., & Malladi, T. (2021). An open-source tool to extract natural continuity and hierarchy of urban street networks. Environment and Planning B: Urban Analytics and City Science, 48(8), 2188-2205. DOI: 10.1177/2399808320967680\n\n## Installation\n\nYou can install the released version of rcoins from [CRAN] https://cran.r-project.org with:\n\ninstall.packages(\"rcoins\")\n\nYou can install the development version of rcoins from the R terminal like so:",
+      "section": "Introduction + rcoins <a href=\"https://cityriverspaces.github.io/rcoins/\"><img src=\"man/figures/logo.png\" align=\"right\" height=\"137\" alt=\"rcoins website\" /></a>",
+      "repo": "022_rcoins",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.359268Z",
+    "updated_at": "2025-11-04T18:07:00.472868Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23420,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1846,
+    "annotations": [
+      {
+        "id": 10585,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 201,
+              "end": 206,
+              "text": "Conda",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Kl_0AhAaFm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 237,
+              "end": 242,
+              "text": "Mamba",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "TjC6i6IgKe",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:07:32.839421Z",
+        "updated_at": "2025-11-04T18:07:32.839438Z",
+        "draft_created_at": "2025-11-04T18:07:13.351191Z",
+        "lead_time": 32.208,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "2453c3e5-cb66-4103-825b-c6834cf34e22",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1846,
+        "project": 23420,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "install.packages(\"devtools\") devtools::install_github(\"CityRiverSpaces/rcoins\")\n\n### Alternative installation using conda\n\nAn environment including rcoins and all its dependencies can be created using Conda (or its faster implementation Mamba).\n\nConda can be installed using the Miniforge scripts provided [here] https://conda-forge.org/miniforge/ (download one of the Mambaforge scripts in order to install Mamba as well).\n\nFirst clone this repository and access it:\n\ngit clone https://github.com/CityRiverSpaces/rcoins.git cd rcoins/\n\nRun conda (or mamba, if using Mambaforge) to create an environment with all the required dependencies:\n\nconda env create -f environment.yml conda activate rcoins\n\nInstall the development version of rcoins (include dependencies = TRUE to install the example datasets):\n\nRscript -e 'devtools::install(dependencies = TRUE)'\n\n## Example\n\nGiven the street network of the city of Bucharest (data source: [OpenStreetMap][osm])\n\n``{r} library(rcoins) bucharest <- get_example_data() streets <- bucharest$streets\n\nPlot streets:\n\n`{r streets, echo=FALSE, out.width=\"100%\"} plot(sf::st_geometry(streets),  col = sf::sf.colors(n = nrow(streets), categorical = TRUE),  lwd = 2, xlim = c(418500, 437500), ylim = c(4909800, 4931500))\n\nDetermine continuous lines in the network as:\n\n`{r} continuous_streets <- stroke(streets)\n\nPlot continuous streets:\n\n``{r continuous-streets, echo=FALSE, out.width=\"100%\"} plot(continuous_streets,  col = sf::sf.colors(n = length(continuous_streets), categorical = TRUE),  lwd = 2, xlim = c(418500, 437500), ylim = c(4909800, 4931500))\n\n[osm]: https://www.openstreetmap.org/",
+      "section": "install.packages(\"devtools\") (part 1)",
+      "repo": "022_rcoins",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.359315Z",
+    "updated_at": "2025-11-04T18:07:32.866899Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23420,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1847,
+    "annotations": [
+      {
+        "id": 10586,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:07:37.688325Z",
+        "updated_at": "2025-11-04T18:07:37.688345Z",
+        "draft_created_at": null,
+        "lead_time": 4.666,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c988f12a-19dd-4762-974a-70403ad60c2b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1847,
+        "project": 23420,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Contributing\n\nWe look very much forward to contributions to the package. See the [Contributing Guide] https://github.com/CityRiverSpaces/rcoins/blob/main/.github/CONTRIBUTING.md for further details.\n\nThis package is released with a [Contributor Code of Conduct] https://github.com/CityRiverSpaces/rcoins/blob/main/.github/CODE_OF_CONDUCT.md. By contributing to this project you agree to abide by its terms.\n\n## Development\n\nWhen modifying the R source code, load the library as:\n\ndevtools::load_all()\n\nRun tests locally:\n\ndevtools::test()\n\nRun the linter locally:\n\nlintr::lint_package()",
+      "section": "install.packages(\"devtools\") (part 2)",
+      "repo": "022_rcoins",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.359338Z",
+    "updated_at": "2025-11-04T18:07:37.717457Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23420,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1848,
+    "annotations": [
+      {
+        "id": 10587,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 92,
+              "end": 131,
+              "text": "https://doi.org/10.5281/zenodo.14501804",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "fU1hIqmgYT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:07:51.603062Z",
+        "updated_at": "2025-11-04T18:07:51.603078Z",
+        "draft_created_at": "2025-11-04T18:07:49.990187Z",
+        "lead_time": 13.724,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "a80fadcd-ec4d-4f36-a700-275b34fd6084",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1848,
+        "project": 23420,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "rcoins\n\n[](https://github.com/CityRiverSpaces/rcoins/actions/workflows/R-CMD-check.yaml) [](https://doi.org/10.5281/zenodo.14501804)\n\nIdentify continuous lines in a network using an approach based on the Continuity in Street Network (COINS) method[^1].\n\nrcoins is a R (re)implementation of the COINS algorithm, which is also available in Python as a module of the [momepy] https://docs.momepy.org/en/latest/api/momepy.COINS.html library or in its original version: [PratyushTripathy/COINS] https://github.com/PratyushTripathy/COINS.\n\n## Installation\n\nYou can install the released version of rcoins from [CRAN] https://cran.r-project.org with:\n\ninstall.packages(\"rcoins\")\n\nYou can install the development version of rcoins from the R terminal like so:",
+      "section": "Introduction + rcoins <a href=\"https://cityriverspaces.github.io/rcoins/\"><img src=\"man/figures/logo.png\" align=\"right\" height=\"137\" alt=\"rcoins website\" /></a>",
+      "repo": "022_rcoins",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.359361Z",
+    "updated_at": "2025-11-04T18:07:51.629890Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23420,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1849,
+    "annotations": [
+      {
+        "id": 10588,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 201,
+              "end": 206,
+              "text": "Conda",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "XihhFI5a3c",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 279,
+              "end": 288,
+              "text": "Miniforge",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "FL308Z3ymx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 313,
+              "end": 347,
+              "text": "https://conda-forge.org/miniforge/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "6ty94hmg20",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:08:14.173800Z",
+        "updated_at": "2025-11-14T13:06:07.623495Z",
+        "draft_created_at": "2025-11-04T18:08:06.129643Z",
+        "lead_time": 37.41,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "aa0d539b-d3f4-44d1-9cea-33507223090d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1849,
+        "project": 23420,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "install.packages(\"devtools\") devtools::install_github(\"CityRiverSpaces/rcoins\")\n\n### Alternative installation using conda\n\nAn environment including rcoins and all its dependencies can be created using Conda (or its faster implementation Mamba).\n\nConda can be installed using the Miniforge scripts provided [here] https://conda-forge.org/miniforge/ (download one of the Mambaforge scripts in order to install Mamba as well).\n\nFirst clone this repository and access it:\n\ngit clone https://github.com/CityRiverSpaces/rcoins.git cd rcoins/\n\nRun conda (or mamba, if using Mambaforge) to create an environment with all the required dependencies:\n\nconda env create -f environment.yml conda activate rcoins\n\nInstall the development version of rcoins (include dependencies = TRUE to install the example datasets):\n\nRscript -e 'devtools::install(dependencies = TRUE)'\n\n## Example\n\nGiven the street network of the city of Bucharest (data source: [OpenStreetMap] https://www.openstreetmap.org/)\n\nlibrary(rcoins) bucharest\n\nDetermine continuous lines in the network as:\n\ncontinuous_streets\n\n## Contributing\n\nWe look very much forward to contributions to the package. See the [Contributing Guide] https://github.com/CityRiverSpaces/rcoins/blob/main/.github/CONTRIBUTING.md for further details.\n\nThis package is released with a [Contributor Code of Conduct] https://github.com/CityRiverSpaces/rcoins/blob/main/.github/CODE_OF_CONDUCT.md. By contributing to this project you agree to abide by its terms.",
+      "section": "install.packages(\"devtools\") (part 1)",
+      "repo": "022_rcoins",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.359385Z",
+    "updated_at": "2025-11-14T13:06:07.660034Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23420,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1850,
+    "annotations": [
+      {
+        "id": 10589,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 186,
+              "end": 451,
+              "text": "Tripathy, P., Rao, P., Balakrishnan, K., & Malladi, T. (2021). An open-source tool to extract natural continuity and hierarchy of urban street networks. Environment and Planning B: Urban Analytics and City Science, 48(8), 2188-2205. DOI: 10.1177/2399808320967680",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "QolTVbU9Nr",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:08:21.160662Z",
+        "updated_at": "2025-11-04T18:08:21.160682Z",
+        "draft_created_at": null,
+        "lead_time": 6.799,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "1143ba0e-7f2b-47af-81a6-3d23fadc54bb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1850,
+        "project": 23420,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Development\n\nWhen modifying the R source code, load the library as:\n\ndevtools::load_all()\n\nRun tests locally:\n\ndevtools::test()\n\nRun the linter locally:\n\nlintr::lint_package()\n\n[^1]: Tripathy, P., Rao, P., Balakrishnan, K., & Malladi, T. (2021). An  open-source tool to extract natural continuity and hierarchy of  urban street networks. Environment and Planning B: Urban Analytics  and City Science, 48(8), 2188-2205. DOI: 10.1177/2399808320967680",
+      "section": "install.packages(\"devtools\") (part 2)",
+      "repo": "022_rcoins",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.359406Z",
+    "updated_at": "2025-11-04T18:08:21.190093Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23420,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

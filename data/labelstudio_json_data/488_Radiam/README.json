@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "## WARNING - this repository is not currently maintained, and the code has known security dependances that need to be fixed before it is used\n\n## Radiam\n\nRadiam helps researchers keep track of their data, regardless of where it is stored.\n\n### Documentation\n\nThe documentation is automatically built from the /docs folder and deployed here for easy reading: https://radiam.readthedocs.io\n\n### License\n\nRadiam is released under the MIT open source license. Please see the LICENSE file.\n\n### Credits\n\nProject Team:\n\nAdam McKenzie  Alex Garnett  Jason Hlady  Jin Zhang  Joel Farthing  Jonathan Loewen  Justin Pointer  Lee Wilson  Mike Winter  Rama Periasamy  Todd Trann  Yang Zhou\n\nThis project was funded by [CANARIE] https://www.canarie.ca/rdm/, and also received computing and storage in kind from [Compute Canada] https://www.computecanada.ca/.\n\nDefault project avatars are courtesy https://www.swifticons.com\n\nCopyright 2019-2020 University of Saskatchewan and Simon Fraser University",
+      "section": "README",
+      "repo": "488_Radiam",
+      "source_file": "readme.md"
+    }
+  }
+]

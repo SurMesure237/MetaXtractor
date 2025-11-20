@@ -1,0 +1,37 @@
+{
+  "codeRepository": "https://github.com/eclipse-sumo/sumo",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "Python",
+    "C",
+    "Java",
+    "C#",
+    "CMake",
+    "Shell",
+    "Rich Text Format",
+    "SWIG",
+    "Batchfile",
+    "JavaScript",
+    "CSS",
+    "HTML",
+    "MATLAB",
+    "Makefile",
+    "xBase"
+  ],
+  "downloadUrl": "https://api.github.com/repos/eclipse-sumo/sumo/zipball/main",
+  "author": "eclipse-sumo",
+  "dateCreated": "2017-10-27T20:23:17Z",
+  "dateModified": "2025-10-30T16:58:49Z",
+  "keywords": [
+    "simulation",
+    "traffic",
+    "transport"
+  ],
+  "license": "https://api.github.com/licenses/epl-2.0",
+  "description": "Eclipse SUMO is an open source, highly portable, microscopic and continuous traffic simulation package designed to handle large networks. It allows for intermodal simulation including pedestrians and comes with a large set of tools for scenario creation.",
+  "identifier": 108592307,
+  "name": "eclipse-sumo/sumo",
+  "issueTracker": "https://api.github.com/repos/eclipse-sumo/sumo/issues",
+  "readme": "https://github.com/eclipse-sumo/sumo/blob/main/README.md"
+}

@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/Deep-MI/LaPy",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/Deep-MI/LaPy/zipball/main",
+  "author": "Deep-MI",
+  "dateCreated": "2020-05-25T10:52:26Z",
+  "dateModified": "2025-10-27T07:00:24Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Toolbox for Differential Geometry on Triangle and Tetrahedra Meshes (FEM, Laplace, Poisson, Heat Flow ...)",
+  "identifier": 266754993,
+  "name": "Deep-MI/LaPy",
+  "issueTracker": "https://api.github.com/repos/Deep-MI/LaPy/issues",
+  "readme": "https://github.com/Deep-MI/LaPy/blob/main/README.md"
+}

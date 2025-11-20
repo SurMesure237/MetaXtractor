@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "[](https://pypi.org/project/cookiecutter/) [](https://pypi.org/project/cookiecutter/) [](https://pepy.tech/projects/cookiecutter) [](https://codecov.io/github/cookiecutter/cookiecutter?branch=main) [](https://discord.gg/9BrxzPKuEW) [](https://readthedocs.org/projects/cookiecutter/?badge=latest) [](https://scrutinizer-ci.com/g/cookiecutter/cookiecutter/?branch=main)\n\nCookiecutter\n\nCreate projects swiftly from cookiecutters (project templates) with this command-line utility. Ideal for generating Python package projects and more.\n\n[Documentation] https://cookiecutter.readthedocs.io\n\n[GitHub] https://github.com/cookiecutter/cookiecutter\n\n[PyPI] https://pypi.org/project/cookiecutter/\n\n[License (BSD)] https://github.com/cookiecutter/cookiecutter/blob/main/LICENSE\n\n## Installation\n\nInstall cookiecutter using pip package manager:\n\npipx is strongly recommended. pipx install cookiecutter",
+      "section": "Introduction + Cookiecutter + pipx is strongly recommended.",
+      "repo": "215_Discuit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "If pipx is not available, install cookiecutter in your Python user directory using: python -m pip install --user cookiecutter\n\n## Features\n\nCross-Platform: Supports Windows, Mac, and Linux.\n\nUser-Friendly: No Python knowledge required.\n\nVersatile: Compatible with Python 3.8 to 3.12.\n\nMulti-Language Support: Use templates in any language or markup format.\n\n### For Users\n\n#### Quick Start\n\nThe recommended way to use Cookiecutter as a command line utility is to run it with [pipx] https://pypa.github.io/pipx/, which can be installed with pip install pipx, but if you plan to use Cookiecutter programmatically, please run pip install cookiecutter.\n\nUse a GitHub template\n\nFor the sake of brevity, repos on GitHub can just use the 'gh' prefix $ pipx run cookiecutter gh:audreyfeldroy/cookiecutter-pypackage\n\nUse a local template\n\n$ pipx run cookiecutter cookiecutter-pypackage/\n\nUse it from Python\n\nfrom cookiecutter.main import cookiecutter\n\nCreate project from the cookiecutter-pypackage/ template cookiecutter('cookiecutter-pypackage/')",
+      "section": "If pipx is not available, install cookiecutter in your Python user directory using: + For the sake of brevity, repos on GitHub can just use the 'gh' prefix + Create project from the cookiecutter-pypackage/ template",
+      "repo": "215_Discuit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Create project from the cookiecutter-pypackage.git repo template cookiecutter('gh:audreyfeldroy//cookiecutter-pypackage.git')\n\n#### Detailed Usage\n\nGenerate projects from local or remote templates.\n\nCustomize projects with cookiecutter.json prompts.\n\nUtilize pre-prompt, pre- and post-generate hooks.\n\n[Learn More] https://cookiecutter.readthedocs.io/en/latest/usage.html\n\n### For Template Creators\n\nUtilize unlimited directory nesting.\n\nEmploy Jinja2 for all templating needs.\n\nDefine template variables easily with cookiecutter.json.\n\n[Learn More] https://cookiecutter.readthedocs.io/en/latest/tutorials/\n\n## Available Templates\n\nDiscover a variety of ready-to-use templates on [GitHub] https://github.com/search?q=cookiecutter&type=Repositories.\n\n### Special Templates\n\n[cookiecutter-pypackage] https://github.com/audreyfeldroy/cookiecutter-pypackage\n\n[cookiecutter-django] https://github.com/pydanny/cookiecutter-django\n\n[cookiecutter-pytest-plugin] https://github.com/pytest-dev/cookiecutter-pytest-plugin\n\n[cookiecutter-plone-starter] https://github.com/collective/cookiecutter-plone-starter\n\n## Community\n\nJoin the community, contribute, or seek assistance.\n\n[Troubleshooting Guide] https://cookiecutter.readthedocs.io/en/latest/troubleshooting.html\n\n[Stack Overflow] https://stackoverflow.com/questions/tagged/cookiecutter\n\n[Discord] https://discord.gg/9BrxzPKuEW\n\n[File an Issue] https://github.com/cookiecutter/cookiecutter/issues?q=is%3Aopen\n\n[Contributors] AUTHORS.md\n\n[Contribution Guide] CONTRIBUTING.md",
+      "section": "Create project from the cookiecutter-pypackage.git repo template (part 1)",
+      "repo": "215_Discuit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Tutorials and Resources\n\nTo help users better understand how Cookiecutter works, you can check out the following resources:\n\nVideo Tutorial: [Watch on YouTube] https://www.youtube.com/watch?v=X8kXs5kthKw\n\nPresentation Slides: [View the Slides] https://docs.google.com/presentation/d/1r3oEmtbyYWvqZrn5y6cdbtIzaahhvAV0cKIqveMMMT8/edit#slide=id.g25f6af9dd6_0_0\n\n### Support\n\nStar us on [GitHub] https://github.com/cookiecutter/cookiecutter.\n\nStay tuned for upcoming support options.\n\n### Feedback\n\nWe value your feedback. Share your criticisms or complaints constructively to help us improve.\n\n[File an Issue] https://github.com/cookiecutter/cookiecutter/issues?q=is%3Aopen\n\n### Waiting for a Response?\n\nBe patient and consider reaching out to the community for assistance.\n\nFor urgent matters, contact [@audreyfeldroy] https://github.com/audreyfeldroy for consultation or custom development.\n\n## Code of Conduct\n\nAdhere to the [PyPA Code of Conduct] https://www.pypa.io/en/latest/code-of-conduct/ during all interactions in the project's ecosystem.\n\n## Acknowledgements\n\nCreated and led by [Audrey Roy Greenfeld] https://github.com/audreyfeldroy, supported by a dedicated team of maintainers and contributors.",
+      "section": "Create project from the cookiecutter-pypackage.git repo template (part 2)",
+      "repo": "215_Discuit",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: Please cite the following works when using this software.
+type: software
+authors:
+  - family-names: Nielsen
+    given-names: Finn Årup
+  - family-names: Mietchen
+    given-names: Daniel
+  - family-names: Willighagen
+    given-names: Egon
+doi: 10.5281/ZENODO.2647462
+identifiers:
+  - type: doi
+    value: 10.5281/ZENODO.2647462
+title: Scholia
+preferred-citation:
+  authors:
+    - family-names: Nielsen
+      given-names: Finn Årup
+    - family-names: Mietchen
+      given-names: Daniel
+    - family-names: Willighagen
+      given-names: Egon
+  doi: 10.1007/978-3-319-70407-4_36
+  collection-title: "The Semantic Web: ESWC 2017 Satellite Events"
+  conference:
+    name: ESWC 2017 Satellite Events
+    date-start: 2017-05-28
+    date-end: 2017-06-01
+    city: Portorož
+    country: SI
+  identifiers:
+    - type: doi
+      value: 10.1007/978-3-319-70407-4_36
+    - type: url
+      value: http://dx.doi.org/10.1007/978-3-319-70407-4_36
+  title: Scholia, Scientometrics and Wikidata
+  url: http://dx.doi.org/10.1007/978-3-319-70407-4_36
+  year: 2017
+  isbn: '9783319704067'
+  issn: 0302-9743
+  journal: Lecture Notes in Computer Science
+  publisher:
+    name: Springer International Publishing
+  start: '237'
+  end: '259'
+  type: conference-paper

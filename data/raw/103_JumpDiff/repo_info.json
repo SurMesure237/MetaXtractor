@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/LRydin/jumpdiff",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/LRydin/jumpdiff/zipball/main",
+  "author": "LRydin",
+  "dateCreated": "2020-03-19T10:01:38Z",
+  "dateModified": "2025-10-04T21:19:59Z",
+  "keywords": [
+    "conditional-moments",
+    "diffusion-term",
+    "estimator",
+    "jump-amplitude",
+    "jump-diffusion",
+    "jump-rate",
+    "kramers-moyal",
+    "non-parametric",
+    "python",
+    "stochastic-processes"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "JumpDiff: Non-parametric estimator for Jump-diffusion processes for Python",
+  "identifier": 248468411,
+  "name": "LRydin/jumpdiff",
+  "issueTracker": "https://api.github.com/repos/LRydin/jumpdiff/issues",
+  "readme": "https://github.com/LRydin/jumpdiff/blob/master/README.md"
+}

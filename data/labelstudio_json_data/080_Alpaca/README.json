@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "alpaca\n\n## Automated Lightweight Provenance Capture\n\n[](https://github.com/INM-6/alpaca/actions/workflows/CI.yml) [](https://alpaca-prov.readthedocs.io/en/latest/?badge=latest)\n\nAlpaca is a Python package for the capture of provenance information during the execution of Python scripts that process data.\n\nAlpaca provides a simple API for recording the details of the functions being executed, the data flow, and a description of parameters used. This is accomplished with minimal code instrumentation and user intervention.\n\nProvenance information is structured and serialized according to a model based on the [W3C PROV format] https://www.w3.org/TR/prov-overview.\n\n## Table of contents\n\n[Prerequisites] #prerequisites\n\n[Installation] #installation\n\n[Documentation] #documentation\n\n[How to run] #how-to-run\n\n[Collaborators] #collaborators\n\n[How to contribute] #how-to-contribute\n\n[Get support] #get-support\n\n[Acknowledgments] #acknowledgments\n\n[License] #license\n\n[Copyright] #copyright\n\n## Prerequisites\n\n### Requirements\n\nAlpaca requires Python 3.8 or higher and the packages specified in  [requirements.txt] requirements/requirements.txt.\n\n## Installation\n\nUse the package manager [pip] https://pip.pypa.io/en/stable/ to install Alpaca.\n\nPackage on [pypi] https://pypi.org/\n\npip install alpaca-prov\n\nMore detailed instructions on how to setup conda environments and additional install options can be checked in the [Installation] doc/install.rst page.\n\n## Documentation\n\nSee [https://alpaca-prov.readthedocs.io/en/latest/] https://alpaca-prov.readthedocs.io/en/latest/.",
+      "section": "alpaca (part 1)",
+      "repo": "080_Alpaca",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## How to run\n\nExamples showing how to use Alpaca can be found in the [examples] examples/ folder. Detailed instructions on how to set up and run are  [here] doc/examples.rst.\n\n## Colaborators\n\nAll the contributors to the development of Alpaca can be found in the  [Authors and contributors] doc/authors.rst page.\n\n## How to contribute\n\nIf you want to suggest new features, changes, or make a contribution, please first open an issue on the [project page on GitHub] https://github.com/INM-6/alpaca/issues to discuss your idea.\n\nPull requests are welcome. Any contribution should also be covered by appropriate unit tests in the [tests] alpaca/test folder.\n\n## Get support\n\nIf you experience any issue or wish to report a bug, please open an issue on the [project page on GitHub] https://github.com/INM-6/alpaca/issues.\n\n## Acknowledgments\n\nSee [acknowledgments] doc/acknowledgments.rst.\n\n## License\n\nBSD 3-Clause License, see [LICENSE.txt] LICENSE.txt for details.\n\n## Copyright\n\n:copyright: 2022-2023, Forschungszentrum J\u00fclich GmbH, INM-6, IAS-6. All rights reserved.",
+      "section": "alpaca (part 2)",
+      "repo": "080_Alpaca",
+      "source_file": "readme.md"
+    }
+  }
+]

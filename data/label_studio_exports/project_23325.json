@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1331,
+    "annotations": [
+      {
+        "id": 10941,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 19,
+              "end": 63,
+              "text": "https://zenodo.org/badge/latestdoi/132437444",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "tcwDRK0Wd_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:57:33.330484Z",
+        "updated_at": "2025-11-05T17:57:33.330503Z",
+        "draft_created_at": "2025-11-05T17:57:13.712971Z",
+        "lead_time": 27.855,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "6e72237d-aa9f-412b-95f6-b813d8510d86",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1331,
+        "project": 23325,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "PSRDada Python\n\n[](https://zenodo.org/badge/latestdoi/132437444)\n\nPython3 bindings to the ringbuffer implementation in [PSRDada] http://psrdada.sourceforge.net/\n\nIt allows you to connect to a ringbuffer, read header info, and read/write ringbuffer pages as numpy arrays. I aim to be interoperable, and bug-for-bug compattible, with PSRDADA. It also supports reading multiple datasets from a ringbuffer for connecting to dada\\_dbevent.\n\nThis is a proof-of-concept implementation, only functions from PSRDADA immediately necessary for my project will be implemented. The code is inspired by the example code in the [cython userguide] http://cython.readthedocs.io/en/latest/src/userguide/buffer.html\n\nError messages, together with a start-up and shutdown message, are written to the syslog. Depending on your OS, you can read those using:\n\n$ grep psrdada-python /var/log/syslog  $ journalctl --since \"10 minutes ago\" | grep psrdada-python\n\n[The documentation is available here] https://trasal.github.io/psrdada-python/ See the two scripts in the examples directory, and the tests.\n\n#!/usr/bin/env python3 import numpy as np from psrdada import Reader\n\nCreate a reader instace and connect to a running ringbuffer with key 'dada' reader = Reader(0xdada)\n\nloop over the pages for page in reader:  # read the page as numpy array  data = np.asarray(page)  print(np.sum(data))\n\nreader.disconnect()\n\nclone the repository   git clone git@github.com:TRASAL/psrdada-python.git change into the top-level directory   cd psrdada-python  install the dependencies (in a virtual env)  python -m venv env && . env/bin/activate && pip install -f requirements.txt build the package  make && make test && make install",
+      "section": "PSRDada Python + Documentation + Create a reader instace and connect to a running ringbuffer with key 'dada' (and 2 more)",
+      "repo": "174_PSRDADA_python",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.734049Z",
+    "updated_at": "2025-11-05T17:57:33.361737Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23325,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1332,
+    "annotations": [
+      {
+        "id": 10942,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 280,
+              "end": 319,
+              "text": "Jisk Attema Apache Software License 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "TsdPt-c6IU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:58:00.342052Z",
+        "updated_at": "2025-11-05T17:58:00.342063Z",
+        "draft_created_at": "2025-11-05T17:57:58.849254Z",
+        "lead_time": 26.717,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "05144bba-d4c7-424b-814b-d0d50b1c4c4e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1332,
+        "project": 23325,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Dependencies\n\nPSRDada, see their [website] https://sourceforge.net:\n\nPSRDada dada\\_db exectuable in the PATH for testing;\n\nPSRDada header files needed for compilation, set CPATH or CFLAGS.\n\nPSRDada library needed during runtime, set LD\\_LIBRARY\\_PATH\n\nLicense Copyright (c) 2018, Jisk Attema Apache Software License 2.0.\n\nContributing\n\nAll contributions are welcome! Please use the github issue tracker to get in touch.\n\nContributing authors so far:  Jisk Attema  Leon Oostrum  Liam Connor Wael Farah",
+      "section": "Dependencies + License + Contributing",
+      "repo": "174_PSRDADA_python",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.734108Z",
+    "updated_at": "2025-11-05T17:58:00.365266Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23325,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

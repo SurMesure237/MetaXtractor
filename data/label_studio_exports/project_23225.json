@@ -1,0 +1,762 @@
+[
+  {
+    "id": 703,
+    "annotations": [
+      {
+        "id": 11317,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 91,
+              "end": 133,
+              "text": "https://opensource.org/licenses/Apache-2.0",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "haw-tksJmH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 534,
+              "end": 566,
+              "text": "https://arxiv.org/abs/2311.15710",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "1iOYrygbuA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T07:55:30.294292Z",
+        "updated_at": "2025-11-07T07:55:30.294312Z",
+        "draft_created_at": "2025-11-07T07:54:28.254069Z",
+        "lead_time": 71.528,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "0f5f0c08-2e88-423f-bb47-a19cfa96b056",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 703,
+        "project": 23225,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "LOV3D\n\n[](https://matlab.mathworks.com/open/github/v1?repo=mroviranavarro/LOV3D_multi)\n\n[](https://opensource.org/licenses/Apache-2.0)\n\nLOV3D is a Matlab package for obtaining the tidal response of viscoelastic self-gravitating bodies with lateral variations of interior properties. For a given interior structure and tidal load, the software solves the mass conservation, momentum conservation and Poisson equations and computes the tidal Love numbers. This is done in the spectral domain as detailed in [Rovira-Navarro et al. 2023] https://arxiv.org/abs/2311.15710.",
+      "section": "LOV3D (part 1)",
+      "repo": "383_LOV3D",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.730495Z",
+    "updated_at": "2025-11-07T07:55:30.322426Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23225,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 704,
+    "annotations": [
+      {
+        "id": 11318,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 51,
+              "end": 63,
+              "text": " Ghostscript",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "GB6Q1SwPha",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 177,
+              "end": 184,
+              "text": "cmocean",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "L78LZ7Mwfz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 447,
+              "end": 452,
+              "text": "M_Map",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "77JWilrOJb",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 635,
+              "end": 645,
+              "text": "export_fig",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "2Du03FxiDY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 835,
+              "end": 844,
+              "text": "harmonicY",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "z7RNNRNhUd",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1013,
+              "end": 1028,
+              "text": "Wigner 3j-6j-9j",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "i0sC3SWPFV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 186,
+              "end": 224,
+              "text": "https://github.com/chadagreene/cmocean",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "dWhcuOFA8e",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 454,
+              "end": 484,
+              "text": "www.eoas.ubc.ca/~rich/map.html",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "ytuQmb13kT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 647,
+              "end": 703,
+              "text": "https://github.com/altmany/export_fig/releases/tag/v3.40",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "uOX32xFwf6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 846,
+              "end": 920,
+              "text": "https://www.mathworks.com/matlabcentral/fileexchange/74069-wigner-3j-6j-9j",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "Ncbipy6pYt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1030,
+              "end": 1104,
+              "text": "https://www.mathworks.com/matlabcentral/fileexchange/74069-wigner-3j-6j-9j",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "IMofFAiPxH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T07:56:08.005432Z",
+        "updated_at": "2025-11-16T05:15:59.334926Z",
+        "draft_created_at": "2025-11-07T07:55:42.688691Z",
+        "lead_time": 79.98400000000001,
+        "prediction": {},
+        "result_count": 11,
+        "unique_id": "67687993-eaf0-4bde-9f33-08705c47ae4d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 704,
+        "project": 23225,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Requirements\n\nThe code runs with MATLAB R2023a.  Ghostscript is required if the user wants to store plots in pdf format. The code uses the following third-party libraries:\n\n[cmocean] https://github.com/chadagreene/cmocean: Thyng, Kristen, et al. “True Colors of Oceanography: Guidelines for Effective and Accurate Colormap Selection.” Oceanography, vol. 29, no. 3, The Oceanography Society, Sept. 2016, pp. 9–13, doi:10.5670/oceanog.2016.66.\n\n[M_Map] www.eoas.ubc.ca/~rich/map.html: Pawlowicz, R., 2020. \"M_Map: A mapping package for MATLAB\", version 1.4m, [Computer software], available online at www.eoas.ubc.ca/~rich/map.html.\n\n[export_fig] https://github.com/altmany/export_fig/releases/tag/v3.40: Yair Altman (2023). export_fig (https://github.com/altmany/export_fig/releases/tag/v3.40), GitHub. Retrieved November 21, 2023.\n\n[harmonicY] https://www.mathworks.com/matlabcentral/fileexchange/74069-wigner-3j-6j-9j: Javier Montalt Tordera (2023). Spherical Harmonics, GitHub. Retrieved November 21, 2023.\n\n[Wigner 3j-6j-9j] https://www.mathworks.com/matlabcentral/fileexchange/74069-wigner-3j-6j-9j: Vladimir Sovkov (2023). Wigner 3j-6j-9j, MATLAB Central File Exchange. Retrieved October 4, 2023.",
+      "section": "LOV3D (part 2)",
+      "repo": "383_LOV3D",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.730536Z",
+    "updated_at": "2025-11-16T05:15:59.375311Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23225,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 705,
+    "annotations": [
+      {
+        "id": 11319,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T07:56:10.243391Z",
+        "updated_at": "2025-11-07T07:56:10.243407Z",
+        "draft_created_at": null,
+        "lead_time": 2.049,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "fd1fd555-56b0-41d7-9e0d-85e8ecb27b3b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 705,
+        "project": 23225,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Usage\n\nSee the manual in ./docs for information on inputs and outputs of the code.\n\nThe tests/ directory contains several examples",
+      "section": "LOV3D (part 3)",
+      "repo": "383_LOV3D",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.730558Z",
+    "updated_at": "2025-11-07T07:56:10.274629Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23225,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 706,
+    "annotations": [
+      {
+        "id": 11320,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T07:56:22.875184Z",
+        "updated_at": "2025-11-07T07:56:22.875198Z",
+        "draft_created_at": null,
+        "lead_time": 12.462,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "30532645-d36e-4b8b-b4d4-e8b0801ebbb9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 706,
+        "project": 23225,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[One layer, spherically-symmetric] ./tests/Test_One_Layer_Spherically_Symmetric.mlx: Compares LOV3D Love numbers against love numbers obtained analytically for a uniform spherically-symmetric body\n\n[Multi-layered Spherically-symmetric] ./tests/Test_Io_Multi_Layer_Spherically_Symmetric.mlx: Multi-layered Io model based on [Steinke et al. 2020] https://doi.org/10.1016/j.icarus.2019.05.001, consisting of core, deep mantle, asthenosphere and lithosphere. The script obtains the Love numbers and compares them against results obtained with the spherically-symmetric code of [Rovira-Navarro et al. 2022] https://doi.org/10.1029/2021JE007117.\n\n[Multi-layered Spherically-symmetric_Tidal_Heating] ./tests/Test_Io_Multi_Layer_Spherically_Symmetric_Tidal_Heating.mlx: Same as the previous test but:\n\n(1) tidal heating is computed using [get_energy.m] ./src/get_energy.m\n\n(2) the geographical distribution of tidal heating is shown using the [plot_energy_map.m] ./src/Plot_Tools/plot_energy_map.m plotting function.\n\n(3) the y functions are computed and plotted using [get_map.m] ../src/get_map.m and [plot_map.m] ./src/Plot_Tools/plot_map.m\n\n[Multi-layered spherically-symmetric icy moon] ./tests/Test_Europa_Titan_Spherically_Symmetric.mlx: Multi-layered icy moon model. The script computes the Love numbers for a multi-layered Europa and Titan models based on [Beuthe et al. 2013] https://www.sciencedirect.com/science/article/pii/S0019103512004745?casa_token=xg0XfpmaHT4AAAAA:Qau6ppdURvhX_Vgm_NiDZVwEtERNnqcosVviHYGaLIHJLBugG7ZgBEnHNPG921Qc5SZAktQ6kw.",
+      "section": "LOV3D (part 4)",
+      "repo": "383_LOV3D",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.730582Z",
+    "updated_at": "2025-11-07T07:56:22.901573Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23225,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 707,
+    "annotations": [
+      {
+        "id": 11321,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T07:56:28.210949Z",
+        "updated_at": "2025-11-07T07:56:28.210961Z",
+        "draft_created_at": null,
+        "lead_time": 5.176,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "28316673-507a-4b44-a955-df28cb0aab2b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 707,
+        "project": 23225,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[Enceladus with lateral variations] ./tests/Test_Enceladus_Two_Layers_Lateral_Variations.mlx: 3 layer Enceladus model consisting of a rigid core, ocean and ice-shell with lateral variations. Compares LOV3D Love numbers against love numbers obtained using the perturbation method of [Qin et al.] https://doi.org/10.1093/gji/ggu279 and the FEM model of [Berne et al.] https://doi.org/10.1029/2023GL106656. Reproduces Figure 2 of [Rovira et al. 2024] https://doi.org/10.48550/arXiv.2311.15710\n\n[Europa with lateral variations] ./tests/Test_Europa_Lateral_Variations.mlx: Europa model with lateral variations. The script computes the Love number spectra and the y functions. The script also uses the [plot_y.m] ./src/Plot_Tools/plot_y.m to plot the \"y\" functions (U,V,W,R,S,T, phi).\n\n[Consistency check tidal heating] Consistency_test_Energy.m: This script can computes tidal heating using the Love numbers or the direct integration of the product of stress and strain rate and compares the results.",
+      "section": "LOV3D (part 5)",
+      "repo": "383_LOV3D",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.730604Z",
+    "updated_at": "2025-11-07T07:56:28.234982Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23225,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 708,
+    "annotations": [
+      {
+        "id": 11322,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T07:56:29.950258Z",
+        "updated_at": "2025-11-07T07:56:29.950272Z",
+        "draft_created_at": null,
+        "lead_time": 1.588,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "2c65ffef-ea3a-4471-90cd-4ef824aea651",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 708,
+        "project": 23225,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "",
+      "section": "LOV3D (part 6)",
+      "repo": "383_LOV3D",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.730628Z",
+    "updated_at": "2025-11-07T07:56:29.971741Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23225,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 709,
+    "annotations": [
+      {
+        "id": 11323,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T07:56:33.111896Z",
+        "updated_at": "2025-11-07T07:56:33.111919Z",
+        "draft_created_at": null,
+        "lead_time": 2.974,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "45ad7230-0a63-4416-9124-1eeeeface320",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 709,
+        "project": 23225,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Structure\n\nIn this repository you can find the following directories:\n\ndata/ contains data used in the code, including the coupling coefficients\n\ndocs/ documentation, including a user manual\n\nlicenses/ licenses of current software and some external routines used in the code\n\nscripts/ some scripts that use the code\n\nsrc/ source code\n\ntests/ contains several tests an examples\n\n## Documentation\n\nThe theory behind the method is detailed in [Rovira-Navarro et al. 2023] https://arxiv.org/abs/2311.15710. A user manual can be found in Docs/\n\n## Author (s)\n\nThis software have been developed by:\n\nMarc Rovira-Navarro : [0000-0002-9980-5065] Conceptualization, methodology and software\n\nIsamu Matsuyama: [0000-0002-2917-8633] Conceptualization\n\nAllard Veenstra software",
+      "section": "LOV3D (part 7)",
+      "repo": "383_LOV3D",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.730650Z",
+    "updated_at": "2025-11-07T07:56:33.144173Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23225,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 710,
+    "annotations": [
+      {
+        "id": 11324,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 124,
+              "end": 133,
+              "text": "CC-BY 4.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "mPXRpcDfRB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 140,
+              "end": 149,
+              "text": "CC-BY-4.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "338ZW4g4Y1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 252,
+              "end": 271,
+              "text": "Apache License v2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "aleznUYc_w",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T07:58:21.276274Z",
+        "updated_at": "2025-11-07T07:58:21.276286Z",
+        "draft_created_at": "2025-11-07T07:56:45.755927Z",
+        "lead_time": 107.919,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "5f0833b5-fa38-4893-8c21-ffe06f9e0729",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 710,
+        "project": 23225,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## License\n\nThe contents in the docs/ directory together with all png files present in this repository are licensed under a CC-BY 4.0 (see [CC-BY-4.0] LICENSES/CC-BY-4.0.txt file).\n\nThe source code, data files and example scripts are licensed under an Apache License v2.0 (see [Apache-License-v2.0] LICENSES/Apache-License-v2.0.txt file).\n\nThe following copyright notice is applicable to employees of Technische Universiteit Delft only (Marc Rovira-Navarro and Allard Veenstra):\n\nCopyright notice:\n\nTechnische Universiteit Delft hereby disclaims all copyright interest in the program “LOV3D”. LOV3D is a Matlab package for obtaining the tidal response of bodies with lateral variations of interior properties by the Author(s).  Henri Werij, Dean of Faculty of Aerospace Engineering, Technische Universiteit Delft.\n\n&copy; 2023, M. Rovira-Navarro, I. Matsuyama, A. Veenstra\n\nThe code uses the following third party libraries:\n\nLicenses and copyright statements for [cmocean] https://github.com/chadagreene/cmocean, [export_fig] https://github.com/altmany/export_fig/releases/tag/v3.40, [harmonicY] https://www.mathworks.com/matlabcentral/fileexchange/74069-wigner-3j-6j-9j and [Wigner 3j-6j-9j] (https://www.mathworks.com/matlabcentral/fileexchange/74069-wigner-3j-6j-9j) can be found in the [LICENSES] LICENSES/ folder.",
+      "section": "LOV3D (part 8)",
+      "repo": "383_LOV3D",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.730679Z",
+    "updated_at": "2025-11-07T07:58:21.301555Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23225,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 711,
+    "annotations": [
+      {
+        "id": 11325,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 74,
+              "end": 299,
+              "text": "[Rovira-Navarro, M., Matsuyama, I., Dirkx, D., Berne, A., Calliess, D., Fayolle, S. 2025] https://doi.org/10.1029/2025GL114708 Prospects of Using Tidal Tomography to Constrain Ganymede's Interior, Geophysical Research Letters\\n",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "iFGejvLnH6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 301,
+              "end": 491,
+              "text": "[Rovira-Navarro, M., Matsuyama, I., Berne, A. 2024] https://doi.org/10.3847/PSJ/ad381f. A Spectral Method to Compute the Tides of Laterally-Heterogeneous Bodies. Planetary Science Journal, 5",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "1uh9ohMSs1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 493,
+              "end": 669,
+              "text": "Rovira-Navarro, M.,Matsuyama, I. & Berne, A., 2023 Revealing lateral structures in the interiors of planets and moons from tidal observations. AGU Fall Meeting Abstracts (2023)",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "2dF2nDDHHN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 672,
+              "end": 876,
+              "text": "[Rovira-Navarro, M. & Matsuyama, I. 2022] https://ui.adsabs.harvard.edu/abs/2022AGUFM.P45E2514R/abstract., A Spectral Method to Study the Tides of Laterally Heterogenous Bodies. AGU Fall Meeting Abstracts",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "O5Smg-_L9m",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 949,
+              "end": 1139,
+              "text": "[Rovira-Navarro, M., Matsuyama, I., Berne, A. 2023] https://doi.org/10.3847/PSJ/ad381f. A Spectral Method to Compute the Tides of Laterally-Heterogeneous Bodies. Planetary Science Journal, 5",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "fdZC_wnrv4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T07:59:20.635391Z",
+        "updated_at": "2025-11-07T07:59:20.635427Z",
+        "draft_created_at": "2025-11-07T07:58:48.291654Z",
+        "lead_time": 59.148,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "cffe2581-79cd-4801-8274-60bf3de90fe1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 711,
+        "project": 23225,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## References\n\nThis software have been used in the following publications [Rovira-Navarro, M., Matsuyama, I., Dirkx, D., Berne, A., Calliess, D., Fayolle, S. 2025] https://doi.org/10.1029/2025GL114708 Prospects of Using Tidal Tomography to Constrain Ganymede's Interior, Geophysical Research Letters\n\n[Rovira-Navarro, M., Matsuyama, I., Berne, A. 2024] https://doi.org/10.3847/PSJ/ad381f. A Spectral Method to Compute the Tides of Laterally-Heterogeneous Bodies. Planetary Science Journal, 5\n\nRovira-Navarro, M.,Matsuyama, I. & Berne, A., 2023 Revealing lateral structures in the interiors of planets and moons from tidal observations. AGU Fall Meeting Abstracts (2023).\n\n[Rovira-Navarro, M. & Matsuyama, I. 2022] https://ui.adsabs.harvard.edu/abs/2022AGUFM.P45E2514R/abstract., A Spectral Method to Study the Tides of Laterally Heterogenous Bodies. AGU Fall Meeting Abstracts.\n\n## Cite this repository\n\nIf you use this software please cite it as:\n\n[Rovira-Navarro, M., Matsuyama, I., Berne, A. 2023] https://doi.org/10.3847/PSJ/ad381f. A Spectral Method to Compute the Tides of Laterally-Heterogeneous Bodies. Planetary Science Journal, 5\n\n## Would you like to contribute?\n\nIf you have any questions or queries or would like to contribute contact M. Rovira-Navarrro at m.roviranavarro@tudelft.nl\n\nFuture developments include:  Extend the code to other loadings (e.g., surface loads)\n\nBenchmark with FEM-viscoelastic code\n\nFound a bug? Report and \"Issue\" in the issue's tab.",
+      "section": "LOV3D (part 9)",
+      "repo": "383_LOV3D",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.730705Z",
+    "updated_at": "2025-11-07T07:59:20.663882Z",
+    "inner_id": 9,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23225,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

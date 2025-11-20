@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/BlueObelisk/euclid",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java",
+    "HTML"
+  ],
+  "downloadUrl": "https://api.github.com/repos/BlueObelisk/euclid/zipball/main",
+  "author": "BlueObelisk",
+  "dateCreated": "2019-12-28T17:15:39Z",
+  "dateModified": "2025-09-07T08:47:31Z",
+  "keywords": [
+    "hacktoberfest"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "A Java library for 2D and 3D geometric calculations.",
+  "identifier": 230639684,
+  "name": "BlueObelisk/euclid",
+  "issueTracker": "https://api.github.com/repos/BlueObelisk/euclid/issues",
+  "readme": "https://github.com/BlueObelisk/euclid/blob/main/README.md"
+}

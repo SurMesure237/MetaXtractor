@@ -1,0 +1,817 @@
+[
+  {
+    "id": 2262,
+    "annotations": [
+      {
+        "id": 10261,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 732,
+              "end": 770,
+              "text": "https://doi.org/10.5281/zenodo.8286579",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "41tm_g1rvc",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:39:20.603135Z",
+        "updated_at": "2025-11-03T06:39:20.603154Z",
+        "draft_created_at": "2025-11-03T06:39:14.257295Z",
+        "lead_time": 22.456,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "4d9fe56e-9b86-44fa-9016-9c903f776f23",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2262,
+        "project": 23508,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/Transparency-in-the-non-profit-sector/nedextract) [](https://github.com/Transparency-in-the-non-profit-sector/nedextract) [](https://research-software-directory.org/projects/transparency-in-non-profit)  [](https://fair-software.eu) [](https://github.com/Transparency-in-the-non-profit-sector/nedextract/actions/workflows/build.yml) [](https://coveralls.io/github/Transparency-in-the-non-profit-sector/nedextract?branch=main) [](https://github.com/Transparency-in-the-non-profit-sector/nedextract/actions/workflows/cffconvert.yml) [](https://github.com/Transparency-in-the-non-profit-sector/nedextract/actions/workflows/markdown-link-check.yml) [](https://bestpractices.coreinfrastructure.org/projects/7733) [](https://doi.org/10.5281/zenodo.8286579)",
+      "section": "Introduction (part 1)",
+      "repo": "180_nedextract",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.425251Z",
+    "updated_at": "2025-11-03T06:39:20.630222Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23508,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2263,
+    "annotations": [
+      {
+        "id": 10262,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:39:30.607406Z",
+        "updated_at": "2025-11-03T06:39:30.607425Z",
+        "draft_created_at": null,
+        "lead_time": 9.811,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e8041e53-1edc-43d7-8e58-862262d0a957",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2263,
+        "project": 23508,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Nedextract\n\nnedextract is being developed to extract specific information from annual report PDF files that are written in Dutch. Currently it tries to do the following:\n\nRead the PDF file, and perform Named Entity Recognition (NER) using Stanza to extract all persons and all organisations named in the document, which are then processed by the processes listed below.\n\nExtract persons: using a rule-based method that searches for specific keywords, this module tries to identify:\n\nAmbassadors\n\nPeople in important positions in the organisation. The code tries to determine a main job description (e.g. director or board) and a sub-job description (e.g. chairman or treasurer). Note that these positions are identified and outputted in Dutch.\n\nThe main jobs that are considered are:  directeur\n\nraad van toezicht\n\nbestuur\n\nledenraad\n\nkascommissie\n\ncontrolecommisie.\n\nThe sub positions that are considered are: directeur\n\nvoorzitter\n\nvicevoorzitter\n\nlid\n\npenningmeester\n\ncommissaris\n\nadviseur\n\nFor each person that is identified, the code searches for keywords in the sentences in which the name appears to determine the main position, or the sentence directly before or after that. Subjobs are determine based on words appearing directly before or after the name of a person for whom a main job has been determined. For the main jobs and sub positions, various ways of writing are considered in the keywords. Also before the search for the job-identification starts, name-deduplication is performed by creating lists of names that (likely) refer to one and the same person (e.g. Jane Doe and J. Doe).",
+      "section": "Introduction (part 2)",
+      "repo": "180_nedextract",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.425290Z",
+    "updated_at": "2025-11-03T06:39:30.634021Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23508,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2264,
+    "annotations": [
+      {
+        "id": 10263,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:39:31.928684Z",
+        "updated_at": "2025-11-03T06:39:31.928706Z",
+        "draft_created_at": null,
+        "lead_time": 1.143,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "656232c7-fd3e-4462-9da3-8d64c1078fbc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2264,
+        "project": 23508,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Extract related organisations:\n\nAfter Stanza NER collects all candidates for mentioned organisations, postprocessing tasks try to determine which of these candidates are most likely true candidates. This is done by considering: how often the terms is mentioned in the document, how often the term was identified as an organisation by Stanza NER, whether the term contains keywords that make it likely to be a true positive, and whether the term contains keywords that make it likely to be a false positive. For candidates that are mentioned only once in the text, it is also considered whether the term by itself (i.e. without context) is identified as an organisation by Stanza NER. Additionally, for candidates that are mentioned only once, an extra check is performed to determine whether part of the candidate org is found to be a in the list of orgs that are already identified as true, and whether that true org is common within the text. In that case the candidate is found to be 'already part of another true org', and not added to the true orgs. This is done, because sometimes an additional random word is identified by NER as being part of an organisation's name.\n\nFor those terms that are identified as true organisations, the number of occurrences in the document of each of them (in it's entirety, enclosed by word boudaries) is determined.",
+      "section": "Introduction (part 3)",
+      "repo": "180_nedextract",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.425314Z",
+    "updated_at": "2025-11-03T06:39:31.956627Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23508,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2265,
+    "annotations": [
+      {
+        "id": 10264,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:39:33.016345Z",
+        "updated_at": "2025-11-03T06:39:33.016365Z",
+        "draft_created_at": null,
+        "lead_time": 0.92,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "74aca388-f08b-49d7-bbd5-1fc41ab005ca",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2265,
+        "project": 23508,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Finally, the identified organisations are attempted to be matched on a list of provided organisations using the anbis argument, to collect their rsin number for further analysis. An empty file ./Data/Anbis_clean.csv is availble that serves as template for such a file. Matching is attempted both on currentStatutoryName and shortBusinessName. Only full matches (independent of capitals) and full matches with the additional term 'Stichting' at the start of the identified organisation (again independent of capitals) are considered for matching. Fuzzy matching is not used here, because during testing, this was found to lead to a significant amount of false positives.",
+      "section": "Introduction (part 4)",
+      "repo": "180_nedextract",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.425336Z",
+    "updated_at": "2025-11-03T06:39:33.042614Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23508,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2266,
+    "annotations": [
+      {
+        "id": 10265,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:39:33.948926Z",
+        "updated_at": "2025-11-03T06:39:33.948952Z",
+        "draft_created_at": null,
+        "lead_time": 0.757,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "5469d624-6cea-45da-8418-ffb801871d11",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2266,
+        "project": 23508,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Classify the sector in which the organisation is active. The code uses a pre-trained model to identify one of eight sectors in which the organisation is active. The model is trained on the 2020 annual report pdf files of CBF certified organisations.",
+      "section": "Introduction (part 5)",
+      "repo": "180_nedextract",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.425357Z",
+    "updated_at": "2025-11-03T06:39:33.975540Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23508,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2267,
+    "annotations": [
+      {
+        "id": 10266,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 436,
+              "end": 439,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "wepKjIfgj6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 513,
+              "end": 523,
+              "text": "FuzzyWuzzy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "05nGR-Zk8Y",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 566,
+              "end": 571,
+              "text": "NumPy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "KyeQckduA2",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 593,
+              "end": 601,
+              "text": "openpyxl",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "R2hn1tD8Zn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 700,
+              "end": 706,
+              "text": "pandas",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "deCSQMOhBK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 648,
+              "end": 655,
+              "text": "poppler",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "oYTPZEUDhM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 736,
+              "end": 745,
+              "text": "pdftotext",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "TKCKFC40kj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 900,
+              "end": 906,
+              "text": "Stanza",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "QaiqeIm61m",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 784,
+              "end": 802,
+              "text": "python-Levenshtein",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Yrt70B2Jlp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 952,
+              "end": 962,
+              "text": "xlsxwriter",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "XbpqiO9iHz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 851,
+              "end": 863,
+              "text": "scikit-learn",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "0gt7255ie0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 525,
+              "end": 563,
+              "text": "https://github.com/seatgeek/fuzzywuzzy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "6cyqGY00D-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 573,
+              "end": 590,
+              "text": "https://numpy.org",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "04fIBLUyS_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 603,
+              "end": 645,
+              "text": "https://openpyxl.readthedocs.io/en/stable/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "Juo_XkTIdR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 657,
+              "end": 697,
+              "text": "https://anaconda.org/conda-forge/poppler",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "nvtXCKPFhl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 708,
+              "end": 733,
+              "text": "https://pandas.pydata.org",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "1vFi1y9eOH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 747,
+              "end": 781,
+              "text": "https://github.com/jalan/pdftotext",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "7qRHlU2Pf_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 865,
+              "end": 897,
+              "text": "https://scikit-learn.org/stable/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "Npx4an1ufk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 804,
+              "end": 848,
+              "text": "https://pypi.org/project/python-Levenshtein/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "m2vqkiPnVQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 908,
+              "end": 945,
+              "text": "https://github.com/stanfordnlp/stanza",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "qgn9YO6bgN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 964,
+              "end": 1003,
+              "text": "https://github.com/jmcnamara/XlsxWriter",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "yGwkygyHj4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 92,
+              "end": 99,
+              "text": "poppler",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ny_lqJcWdC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 210,
+              "end": 245,
+              "text": "https://pypi.org/project/pdftotext/",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "uT90kF5mWp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 19,
+              "end": 46,
+              "text": "Python 3.8, 3.9, 3.10, 3.11",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "8ZZN8fhKPz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:40:21.541594Z",
+        "updated_at": "2025-11-17T00:05:38.873140Z",
+        "draft_created_at": "2025-11-03T06:39:46.686390Z",
+        "lead_time": 204.663,
+        "prediction": {},
+        "result_count": 24,
+        "unique_id": "96b7eb51-dca5-49c0-a793-6b9c68d0945e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2267,
+        "project": 23508,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Prerequisites\n\n[Python 3.8, 3.9, 3.10, 3.11] https://www.python.org/downloads/\n\nPoppler; poppler is a prerequisite to install pdftotext, instructions can be found here: [https://pypi.org/project/pdftotext/] https://pypi.org/project/pdftotext/. Please note that to install poppler on a Windows machine using conda-forge, Microsoft Visual C++ build tools have to be installed first.\n\n## Installation\n\nnedextract can be installed using pip:\n\npip install nedextract\n\nThe required packages that are installed are: [FuzzyWuzzy] https://github.com/seatgeek/fuzzywuzzy, [NumPy] https://numpy.org, [openpyxl] https://openpyxl.readthedocs.io/en/stable/, [poppler] https://anaconda.org/conda-forge/poppler, [pandas] https://pandas.pydata.org, [pdftotext] https://github.com/jalan/pdftotext, [python-Levenshtein] https://pypi.org/project/python-Levenshtein/, [scikit-learn] https://scikit-learn.org/stable/, [Stanza] https://github.com/stanfordnlp/stanza, and [xlsxwriter] https://github.com/jmcnamara/XlsxWriter.[^1]\n\n[^1]: If you encounter problems with the installation, these often arise from the installation of poppler, which is a requirement for pdftotext. Help can generally be found on [pdftotext] https://pypi.org/project/pdftotext/.\n\n## Usage",
+      "section": "Introduction (part 6)",
+      "repo": "180_nedextract",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.425380Z",
+    "updated_at": "2025-11-17T00:05:38.911724Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23508,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2268,
+    "annotations": [
+      {
+        "id": 10267,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:40:26.278307Z",
+        "updated_at": "2025-11-03T06:40:26.278323Z",
+        "draft_created_at": null,
+        "lead_time": 4.523,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "0d772815-d091-4c88-b808-168b1cf02408",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2268,
+        "project": 23508,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### Input\n\nThe full pipeline can be executed from the command line using: python3 -m nedextract.run_nedextract Followed by one or more of the following arguments:\n\nInput data, one or more pdf files, using one of the following arguments:\n\n-f file: path to a single pdf file\n\n-d directory: path to a directory containing pdf files\n\n-u url: link to a pdf file\n\n-uf urlf: text file containing one or multiple urls to pdf files. The text file should contain one url per line, without headers and footers.\n\n-t tasks (optional): can either be 'people', 'orgs', 'sectors' or 'all'. Indicates which tasks to be performed. Defualts to 'people'.\n\n-a anbis (option): path to a .csv file which will be used with the orgs task. The file should contain (at least) the columns rsin, currentStatutoryName, and shortBusinessName. An empty example file, that is also the default file, can be found in the folder 'Data'. The data in the file will be used to try to match identified named organisations on to collect their rsin number provided in the file.\n\nmodel (-m), labels (-l), vectors (-v) (optional): each referring to a path containing a pretraining classifyer model, label encoding and tf-idf vectors respectively. These will be used for the sector classification task. A model can be trained using the classify_organisation.train function.\n\n-wo write_output: TRUE/FALSE, defaults to TRUE, setting weither to write the output data to an excel file.\n\nFor example: python3 -m nedextract.run_nedextract -f pathtomypdf.pdf -t all -a ansbis.csv",
+      "section": "Introduction (part 7)",
+      "repo": "180_nedextract",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.425434Z",
+    "updated_at": "2025-11-03T06:40:26.307815Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23508,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2269,
+    "annotations": [
+      {
+        "id": 10268,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1057,
+              "end": 1156,
+              "text": "Ootes, L.S. (2023). nedextract ([VERSION YOU USED]). Zenodo. https://doi.org/10.5281/zenodo.8286578",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "Udx7QVT8oY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1185,
+              "end": 1218,
+              "text": "https://zenodo.org/record/8286579",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "KOh1hVXzXb",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 855,
+              "end": 893,
+              "text": "https://doi.org/10.5281/zenodo.8286578",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "v8MoBpWyZ2",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:40:52.191810Z",
+        "updated_at": "2025-11-14T11:34:17.064152Z",
+        "draft_created_at": "2025-11-03T06:40:44.419281Z",
+        "lead_time": 69.847,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "2a5462a0-cb4a-4f54-bf5a-442f1f4e5905",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2269,
+        "project": 23508,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### Returns:\n\nThree dataframes, one for the 'people' task, one for the 'sectors' task, and one for the 'orgs' task. If write_output=True, the gathered information is written to auto-named xlsx files in de folder Output. The output of the different tasks are written to separate xlsx files with the following naming convention:\n\n'./Output/outputYYYYMMDD_HHMMSS_people.xlsx'\n\n'./Output/outputYYYYMMDD_HHMMSS_related_organisations.xlsx'\n\n'./Output/outputYYYYMMDD_HHMMSS_general.xlsx'\n\nHere YYYYMMDD and HHMMSS refer to the date and time at which the execution started.\n\n#### Turorials\n\nTutorials on the full pipeline and (individual) useful analysis tools can be found in the Tutorials folder.\n\n## Contributing\n\nIf you want to contribute to the development of nedextract, have a look at the [contribution guidelines] CONTRIBUTING.md.\n\n## How to cite us\n\n[](https://doi.org/10.5281/zenodo.8286578) [](https://research-software-directory.org/projects/transparency-in-non-profit)\n\nIf you use this package for your scientific work, please consider citing it as:\n\nOotes, L.S. (2023). nedextract ([VERSION YOU USED]). Zenodo. https://doi.org/10.5281/zenodo.8286578\n\nSee also the [Zenodo page] https://zenodo.org/record/8286579 for exporting the citation to BibTteX and other formats.\n\n## Credits\n\nThis package was created with [Cookiecutter] https://github.com/audreyr/cookiecutter and the [NLeSC/python-template] https://github.com/NLeSC/python-template.",
+      "section": "Introduction (part 8)",
+      "repo": "180_nedextract",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.425460Z",
+    "updated_at": "2025-11-14T11:34:17.103278Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23508,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

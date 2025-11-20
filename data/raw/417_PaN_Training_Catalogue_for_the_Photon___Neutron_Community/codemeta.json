@@ -1,0 +1,25 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "identifier": "PaN training-catalogue",
+  "description": "Browsing, discovering and organising PaN sciences training resources.",
+  "name": "PaN Training Catalogue",
+  "codeRepository": "https://github.com/pan-training/training-catalogue",
+  "issueTracker": "https://github.com/pan-training/training-catalogue/issues",
+  "license": "https://opensource.org/licenses/BSD-3-Clause",
+  "version": "1.0",
+  "author": [
+
+  ],
+  "contIntegration": "",
+  "developmentStatus": "active",
+  "downloadUrl": "https://github.com/pan-training/training-catalogue/archive/master.zip",
+  "keywords": [
+    "training",
+    "software"
+  ],
+  "softwareVersion":"1.1",
+  "dateCreated":"2021-06-11",
+  "datePublished":"2021-06-11",
+  "programmingLanguage": "Ruby"
+}

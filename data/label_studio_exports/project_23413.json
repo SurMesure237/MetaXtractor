@@ -1,0 +1,485 @@
+[
+  {
+    "id": 1805,
+    "annotations": [
+      {
+        "id": 10616,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 589,
+              "end": 598,
+              "text": "Snakemake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "XNyCxbg1Lm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 647,
+              "end": 652,
+              "text": "Mamba",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "nGH3t6EOHY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 862,
+              "end": 871,
+              "text": "Snakemake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "1ucmEOUTyO",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 876,
+              "end": 881,
+              "text": "Mamba",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Fw4A0UpBP4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 600,
+              "end": 643,
+              "text": "https://snakemake.readthedocs.io/en/stable/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "B4IZPpmd2G",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 654,
+              "end": 693,
+              "text": "https://mamba.readthedocs.io/en/latest/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "5oxtzNMvXA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:27:08.903096Z",
+        "updated_at": "2025-11-14T12:57:55.986162Z",
+        "draft_created_at": "2025-11-04T18:26:51.909579Z",
+        "lead_time": 69.857,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "44f06412-a494-47f5-975a-d6e78ea58eed",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1805,
+        "project": 23413,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "pantools-pipeline-v4 General purpose Snakemake pipeline for [PanTools] https://git.wur.nl/bioinformatics/pantools.\n\nThis pipeline can be used to run PanTools code for specific use cases and datasets. The pipeline uses PanTools version 4.3.1. This pipeline is used for reproducibility of  larger workflows in pangenomic analysis, and datasets provided by PanTools for tutorials and reproducibility of experiments often come with their own configuration file. More information is available below for setting up configuration for your own data and creating a unique workflow.\n\nRequirements: [Snakemake] https://snakemake.readthedocs.io/en/stable/,  [Mamba] https://mamba.readthedocs.io/en/latest/.\n\n## Installation\n\n### Clone this git\n\nFor cloning this git, run:\n\ngit clone https://github.com/PanUtils/pantools-pipeline-v4 cd pantools-pipeline-v4 ````\n\n### Install Snakemake and Mamba\n\nIf you don't have mamba, install it using\n\nconda install -n base -c conda-forge mamba\n\nThen, a Snakemake environment can be created using\n\nconda activate base mamba create -c conda-forge -c bioconda -n snakemake snakemake\n\nWhich can be activated and verified with\n\nconda activate snakemake snakemake --help\n\n## Run the pipeline\n\nThe pipeline can be run with\n\nsnakemake [rule] --use-conda --cores [--configfile ] [--conda-prefix ] [--until ]\n\nthreads: number of threads to use. \\ config: custom configuration file. \\ prefix: path to directory containing conda environments for reuse. \\ function: name of a pantools function, the pipeline stops if this function is complete.\n\nIf no config is provided, the pipeline will run on a small yeast test dataset. The possible rules are discussed below. The pipeline will run all major PanTools functions  for a pangenome if no rules are specified.\n\n## Rules",
+      "section": "pantools-pipeline-v4 (part 1)",
+      "repo": "144_PanTools-pipeline-v4",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.847517Z",
+    "updated_at": "2025-11-14T12:57:56.023549Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23413,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1806,
+    "annotations": [
+      {
+        "id": 10617,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:27:16.644508Z",
+        "updated_at": "2025-11-04T18:27:16.644525Z",
+        "draft_created_at": null,
+        "lead_time": 7.46,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "5d22c18d-d159-4c81-932a-d8b0124ea941",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1806,
+        "project": 23413,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### all_pangenome\n\nCreate a pangenome and run all major PanTools analysis functions for pangenomes.\n\n### all_panproteome\n\nCreate a panproteome and run all major PanTools analysis functions for panproteomes.\n\n### all_variants\n\nCreate a pangenome with variation and run all major PanTools commands.\n\n### panva\n\nCreate a pangenome and run all PanTools analysis functions required to make a  [PanVA] https://github.com/PanBrowse/PanVA instance.\n\n## Creating your own workflow\n\nIt is advised not to use this pipeline the first time you create and analyse a pangenome with new data. Often analysis during this process can alter the settings you want to use for different functions, and in-between  analysis and parameter adjustments are not possible when using this automated workflow. The advised course of action is to perform initial pangenome build and analysis steps without the pipeline, and if there is need for setting up a  reproducible workflow for experimental replication or repeating the process with updated or similar data a custom  configuration and workflow can be set up. You can store the commands options used in the initial experiment in your  config, or otherwise find them stored in the log files of PanTools. Important configuration parameters, and instructions for how to create your own workflow rules are discussed below. If  you want to follow these steps, and keep up to date with the newest versions of PanTools, and this pipeline, we  recommend setting up a [fork]  https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo of this  repository. Inside of this fork, you can set up you own rules and standard configurationsettings, while still being  able to pull in new developments if desired.\n\n## Configuration\n\nThe configuration file contains four sections, which are further discussed below.",
+      "section": "pantools-pipeline-v4 (part 2)",
+      "repo": "144_PanTools-pipeline-v4",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.847554Z",
+    "updated_at": "2025-11-04T18:27:16.673604Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23413,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1807,
+    "annotations": [
+      {
+        "id": 10618,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:27:20.383570Z",
+        "updated_at": "2025-11-04T18:27:20.383584Z",
+        "draft_created_at": null,
+        "lead_time": 3.573,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ee9f16f7-7a35-4c62-b448-f0c5d8fc43f0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1807,
+        "project": 23413,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Java settings\n\nSettings for how to run the PanTools java program. The most important settings are the Xmx heap size and nice priority. Larger datasets (pangenomes with many and/or large genomes) will need a higher heap space to not run out of  memory, especially for intensive processes such as the initial build step and homology grouping. If your process runs out of memory, you need to increase the value for this parameter. The [nice] https://ss64.com/bash/nice.html setting lets you set a priority for the PanTools commands on a server,  this is useful if you let large datasets run on a server with other traffic, so it can efficiently use more cores if  there are more available without taking up all the server's processing power from other processes. If you want to work with experimental, unreleased PanTools branches, this is possible by setting the jar file you want  to run in the config, which will override the PanTools version in the conda environment used by the pipeline.",
+      "section": "pantools-pipeline-v4 (part 3)",
+      "repo": "144_PanTools-pipeline-v4",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.847576Z",
+    "updated_at": "2025-11-04T18:27:20.411066Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23413,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1808,
+    "annotations": [
+      {
+        "id": 10619,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:27:22.309935Z",
+        "updated_at": "2025-11-04T18:27:22.309956Z",
+        "draft_created_at": null,
+        "lead_time": 1.761,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "de363263-8138-4a47-9c85-5ac2b7ab3851",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1808,
+        "project": 23413,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Output\n\nThree output directories can be set here. The results directory will contain your completed database. The construction  directory can be the same as the results directory, in which case the pangenome will be constructed in one place. If the construction directory differs from the results directory, the construction commands will be separated from  analysis commands. Commands that write data to the Neo4j graph database are often transaction-heavy and work much better  on a RAM or SSD disk, while for pangenome analysis functions there is no big difference. By setting separate  directories, the construction commands will be performed on your RAM or SSD, after which the database will be moved  over to the results directory for the analysis steps. This is recommended if space on your RAM or SSD is limited, or  these disks are for temporary use only.  Finally, a scratch directory can be set, which will be used for PanTools functions that create large amounts of  temporary files. For larger datasets, the default temporary disk might not be large enough, so assigning a different  directory is recommended.",
+      "section": "pantools-pipeline-v4 (part 4)",
+      "repo": "144_PanTools-pipeline-v4",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.847597Z",
+    "updated_at": "2025-11-04T18:27:22.338795Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23413,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1809,
+    "annotations": [
+      {
+        "id": 10620,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:27:58.947136Z",
+        "updated_at": "2025-11-04T18:27:58.947153Z",
+        "draft_created_at": null,
+        "lead_time": 36.459,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "bdaec2e9-bd00-4b1a-a094-24ce7f29f0e7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1809,
+        "project": 23413,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Parameters\n\nIn this section you can set the positional parameters available for PanTools, all of these are input files that are  required for several PanTools functions. It is recommended to use full paths for your own files here. These parameters are required for the following PanTools functions: genomes: [build_pangenome] https://pantools.readthedocs.io/en/stable/construction/build.html#build-pangenome\n\n(required for all_pangenome, all_variants and panva) annotations: [add_annotations] https://pantools.readthedocs.io/en/stable/construction/annotate.html#add-annotations\n\n(required for all_pangenome, all_variants and panva) proteomes: [build_panproteome] https://pantools.readthedocs.io/en/stable/construction/build.html#build-panproteome\n\n(required for all_panproteome) vcf: [add_variants] https://pantools.readthedocs.io/en/stable/construction/annotate.html#add-variants (optional)\n\npav: [add_pav] https://pantools.readthedocs.io/en/stable/construction/annotate.html#add-pavs (optional)\n\nphenotypes: [add_phenotypes] https://pantools.readthedocs.io/en/stable/construction/annotate.html#add-phenotypes (optional)\n\nphasing: [add_phasing] https://pantools.readthedocs.io/en/stable/construction/annotate.html#add-phasing (unused for preset workflows)\n\nrepeats: [add_repeats] https://pantools.readthedocs.io/en/stable/construction/annotate.html#add-repeats (unused for preset workflows )\n\nsynteny: [add_synteny] https://pantools.readthedocs.io/en/stable/construction/synteny.html#add-synteny (optional, unused for preset workflows)\n\nblast: [blast] https://pantools.readthedocs.io/en/stable/analysis/blast.html#blast (unused for preset workflows)\n\nshort read (1 and 2): [map] https://pantools.readthedocs.io/en/stable/analysis/mapping.html#map (required for all_pangenome and all_variants)",
+      "section": "pantools-pipeline-v4 (part 5)",
+      "repo": "144_PanTools-pipeline-v4",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.847619Z",
+    "updated_at": "2025-11-04T18:27:58.974577Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23413,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1810,
+    "annotations": [
+      {
+        "id": 10621,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:28:39.009720Z",
+        "updated_at": "2025-11-04T18:28:39.009746Z",
+        "draft_created_at": null,
+        "lead_time": 1.502,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6587aa49-3688-4fe3-a47e-121aadb5c916",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1810,
+        "project": 23413,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "gene_selection: Multiple PanTools commands have a `--homology-file` flag, which you can use to perform these\n\nfunctions only on a selection of homology groups of interest. It is not currently possible to use gene identifiers  instead of homology node IDs for homology selection of these commands, but this parameter can be used instead.   If you provide a file with comma-separated gene names for this parameter, the homology group identifiers for these   genes will be used for all functions that contain this option.",
+      "section": "pantools-pipeline-v4 (part 6)",
+      "repo": "144_PanTools-pipeline-v4",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.847639Z",
+    "updated_at": "2025-11-04T18:28:39.038143Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23413,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1811,
+    "annotations": [
+      {
+        "id": 10622,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:28:44.434099Z",
+        "updated_at": "2025-11-04T18:28:44.434118Z",
+        "draft_created_at": null,
+        "lead_time": 5.249,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ee61095e-5c6b-4e2f-9d89-4e1710a02fe2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1811,
+        "project": 23413,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Optional arguments\n\nHere you can set all optional arguments (or flags) used for every function. With the exception of a few special  arguments at the start of this section, they simply contain a string where you can put all command line options for any function, and are named after every function (function_name.opts). For instance, if you want to run the  gene_classification function with the following settings: \\ `pantools gene_classification --unique-threshold=5 --core-threshold=95 tomato_DB, the gene_classification.opts parameter would be \\ \"--unique-threshold=5 --core-threshold=95\".\n\nThe parameters that do not match this format are: group.relaxation: The value for the --relaxation option in pantools\n\n[group] https://pantools.readthedocs.io/en/stable/construction/group.html#group.  busco_protein.odb10: The value for the --obd10 option in pantools\n\n[busco_protein] https://pantools.readthedocs.io/en/stable/construction/group.html#busco-protein. core_phylogeny.mode: The value for the --clustering-mode option in pantools\n\n[core_phylogeny] https://pantools.readthedocs.io/en/stable/analysis/phylogeny.html#core-phylogeny.\n\nEither one of the group relaxation or BUSCO obd10 options is required. If the relaxation is not set, the pipeline will  run busco_protein and optimal_grouping to determine the best relaxation setting for the provided database. We recommend running busco_protein and optimal_grouping manually to determine a value for the grouping relaxation, then setting the relaxation in the configuration file to make subsequent runs faster. The core_phylogeny --clustering-mode` option changes the output this command generates, which is why it must be set separately from other core_phylogeny options. Make sure not to set any of these options in the list of optional  parameters below.",
+      "section": "pantools-pipeline-v4 (part 7)",
+      "repo": "144_PanTools-pipeline-v4",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.847661Z",
+    "updated_at": "2025-11-04T18:28:44.463463Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23413,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1812,
+    "annotations": [
+      {
+        "id": 10623,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:28:46.052883Z",
+        "updated_at": "2025-11-04T18:28:46.052896Z",
+        "draft_created_at": null,
+        "lead_time": 1.417,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "5606b000-0295-4a47-baf8-88fe8b52da38",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1812,
+        "project": 23413,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Custom rules\n\nYou can create a custom workflow by adding a new rule to workflow/Snakefile. All rules that run a PanTools command  create a \".done\" file to signal their successful completion; a workflow can then be created simply by setting a list of  done files for all PanTools functions you want to run in your workflow. The pipeline determines the order in which the PanTools commands need to run, and commands that are required for other commands (like group for gene_classification),  will automatically be added and do not need to be set. A .done file has the following naming convention: `/done/..done`. Here, results is the results directory set in the config file, database_type is either \"pangenome\" or  \"panproteome\" and command is the name of the PanTools command you want to add to your workflow. Use the existing rules as reference to create your own; it can then be run by adding the rule name to your Snakemake  command.",
+      "section": "pantools-pipeline-v4 (part 8)",
+      "repo": "144_PanTools-pipeline-v4",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.847682Z",
+    "updated_at": "2025-11-04T18:28:46.076328Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23413,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

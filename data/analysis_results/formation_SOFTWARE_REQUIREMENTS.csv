@@ -1,0 +1,483 @@
+text,count,percentage
+pip,43,5.45
+Docker,16,2.03
+setuptools,14,1.77
+conda,12,1.52
+cmake,11,1.39
+CMake,9,1.14
+numpy,9,1.14
+pandas,8,1.01
+tox,7,0.89
+matplotlib,7,0.89
+prospector,6,0.76
+isort,6,0.76
+pytest,5,0.63
+Ruby,5,0.63
+virtualenv,5,0.63
+PostgreSQL,5,0.63
+scipy,5,0.63
+PHP,4,0.51
+yarn,4,0.51
+Pandoc,4,0.51
+gcc,4,0.51
+torch,4,0.51
+Mamba,4,0.51
+scikit-learn,4,0.51
+Apptainer,4,0.51
+ruff,4,0.51
+Conda,4,0.51
+Matplotlib,4,0.51
+rdkit,4,0.51
+MPI,4,0.51
+git,4,0.51
+C++17,3,0.38
+Julia,3,0.38
+pipx,3,0.38
+h5py,3,0.38
+Apache Maven,3,0.38
+R,3,0.38
+miniconda,3,0.38
+NumPy,3,0.38
+Poetry,3,0.38
+Python,3,0.38
+LAPACK,3,0.38
+Ansible,3,0.38
+anaconda,3,0.38
+docker,3,0.38
+npm,3,0.38
+poetry,3,0.38
+Docker Compose,3,0.38
+GDAL,3,0.38
+renv,2,0.25
+libfreetype6-dev,2,0.25
+make,2,0.25
+libxml2-dev,2,0.25
+Orange3-network,2,0.25
+poppler,2,0.25
+prettier,2,0.25
+RStudio,2,0.25
+Orange3-text,2,0.25
+bower,2,0.25
+grunt-cli,2,0.25
+seaborn,2,0.25
+Python2,2,0.25
+BLAS,2,0.25
+gnuplot,2,0.25
+GNU Compiler,2,0.25
+libopenblas-dev,2,0.25
+python3,2,0.25
+Anaconda,2,0.25
+libomp,2,0.25
+python3-pip,2,0.25
+netCDF,2,0.25
+jax,2,0.25
+jupyter,2,0.25
+Snakemake,2,0.25
+ Docker,2,0.25
+Tailwind CSS,2,0.25
+mamba,2,0.25
+Miniforge,2,0.25
+Sphinx,2,0.25
+build-essential,2,0.25
+OTP,2,0.25
+Minio,2,0.25
+CWLTool,2,0.25
+Apache Tika,2,0.25
+SQLite,2,0.25
+OpenGL,2,0.25
+LaTeX,2,0.25
+unittest,2,0.25
+CUDA,2,0.25
+MySQL,2,0.25
+Java,2,0.25
+lapack,2,0.25
+http-server,2,0.25
+Cypress,2,0.25
+Microsoft Visual Studio,2,0.25
+juliaup,2,0.25
+Rust,2,0.25
+tensorflow,2,0.25
+SciPy,2,0.25
+python-Levenshtein,2,0.25
+jupytext,2,0.25
+Apache,2,0.25
+mypy,2,0.25
+mbstring,2,0.25
+imagemagick,2,0.25
+bump2version,2,0.25
+venv,2,0.25
+sphinx,2,0.25
+sphinx-rtd-theme,2,0.25
+sphinx-autoapi,2,0.25
+myst-nb,2,0.25
+nginx,2,0.25
+Z3,2,0.25
+nodejs,2,0.25
+Singularity,2,0.25
+Java SE,2,0.25
+MariaDB,2,0.25
+pygame,2,0.25
+torchvision,2,0.25
+miniforge,2,0.25
+Qt,2,0.25
+pytorch,2,0.25
+opencv,1,0.13
+XeLaTeX,1,0.13
+tesserocr,1,0.13
+Grunt,1,0.13
+PDAL,1,0.13
+GRIB_API,1,0.13
+pydicom,1,0.13
+DuMux,1,0.13
+yapf,1,0.13
+SimpleITK,1,0.13
+pylops,1,0.13
+Rtools,1,0.13
+Xcode,1,0.13
+Java/JDK,1,0.13
+SDKMAN,1,0.13
+libblas-dev,1,0.13
+utils,1,0.13
+Pentaho,1,0.13
+osmium,1,0.13
+osmium tool,1,0.13
+osmium-tool,1,0.13
+zlib1g-dev,1,0.13
+VUE.js,1,0.13
+libsqlite3-dev,1,0.13
+PHPRunner,1,0.13
+sqlite3,1,0.13
+pl/pgsql,1,0.13
+Google Test,1,0.13
+Dedispersion,1,0.13
+SNR,1,0.13
+Integration,1,0.13
+RFIm,1,0.13
+AstroData,1,0.13
+RedHat JBoss,1,0.13
+obspy,1,0.13
+OpenCL,1,0.13
+OpenJDK,1,0.13
+espion,1,0.13
+basemap,1,0.13
+ Java,1,0.13
+Vitest,1,0.13
+gd2,1,0.13
+imap,1,0.13
+intlayer,1,0.13
+ldap,1,0.13
+biome,1,0.13
+Qt WebChannel,1,0.13
+nuqs,1,0.13
+pnpm,1,0.13
+Vite,1,0.13
+zip,1,0.13
+zlib,1,0.13
+database,1,0.13
+NVIDIA CUDA Compiler,1,0.13
+uv,1,0.13
+doc,1,0.13
+Cantera,1,0.13
+PDO,1,0.13
+spaCy,1,0.13
+docker compose V2,1,0.13
+Tika,1,0.13
+ath9k and iwl driver modules,1,0.13
+Nexmon,1,0.13
+usrpulse,1,0.13
+Maven,1,0.13
+sensei,1,0.13
+Apache Solr,1,0.13
+PicoScenes Python Toolbox],1,0.13
+PicoScenes,1,0.13
+scyjava,1,0.13
+mingw-w64-ucrt-x86_64-libexodus,1,0.13
+pydoc-markdown,1,0.13
+pybacting,1,0.13
+ Singularity,1,0.13
+Podman,1,0.13
+PHP-ready web server,1,0.13
+check-manifest,1,0.13
+php-fpm,1,0.13
+Wigner 3j-6j-9j,1,0.13
+Slurm Workload Manager,1,0.13
+Gene Ontology,1,0.13
+Bower,1,0.13
+ruby-dev,1,0.13
+freetype-devel,1,0.13
+AHN2 viewer,1,0.13
+Git CLI/GUI clients,1,0.13
+Microsoft Edge,1,0.13
+Java Development Kit,1,0.13
+Google Chrome,1,0.13
+Compass,1,0.13
+NLeSC/python-template,1,0.13
+compass,1,0.13
+Numpy,1,0.13
+python-pip,1,0.13
+Black code style,1,0.13
+C++,1,0.13
+Twitter package,1,0.13
+libxml2-devel,1,0.13
+XCode,1,0.13
+xquartz X11,1,0.13
+libffi-dev,1,0.13
+mesa-libGLU-devel,1,0.13
+Nuxt.js,1,0.13
+libmagick++-dev,1,0.13
+gfortran,1,0.13
+libcurl4-openssl-dev,1,0.13
+libssh-dev,1,0.13
+liblapack-dev,1,0.13
+mesa-common-dev,1,0.13
+libglu1-mesa-dev,1,0.13
+libgl1-mesa-dev,1,0.13
+libx11-dev,1,0.13
+Eclipse Modelling Tools,1,0.13
+libX11-devel,1,0.13
+libgfortran4,1,0.13
+JDK,1,0.13
+FeatureIDE,1,0.13
+TestNG,1,0.13
+Mylyn,1,0.13
+Graphiti,1,0.13
+grunt,1,0.13
+ImageMagick-c++-devel,1,0.13
+Vue.js,1,0.13
+d3.js,1,0.13
+Plant Trait Ontology,1,0.13
+iwyu,1,0.13
+ Ghostscript,1,0.13
+NVHPC Compiler,1,0.13
+cmocean,1,0.13
+M_Map,1,0.13
+Cray Compiler,1,0.13
+export_fig,1,0.13
+Apple Clang,1,0.13
+clang,1,0.13
+clang-tidy,1,0.13
+NVHPC,1,0.13
+ oneDPL,1,0.13
+ oneMKL,1,0.13
+harmonicY,1,0.13
+SSH server,1,0.13
+Chemical Entities of Biological Interest,1,0.13
+STATistics Ontology,1,0.13
+Solanaceae Phenotype Ontology,1,0.13
+Phenotypic quality ontology,1,0.13
+uber cdk-bundle,1,0.13
+ROCm,1,0.13
+Miniconda,1,0.13
+Ionic,1,0.13
+GNU Scientific Library (GSL),1,0.13
+Eigen3 library,1,0.13
+Pythia,1,0.13
+Danfo.js,1,0.13
+ROOT,1,0.13
+HepMC3,1,0.13
+Kubernetes,1,0.13
+Rivet,1,0.13
+Angular,1,0.13
+ Elastic,1,0.13
+pixi,1,0.13
+Kathara binary,1,0.13
+Kathara lab,1,0.13
+MinGW,1,0.13
+Java SE Development Kit,1,0.13
+clang-format,1,0.13
+oneAPI,1,0.13
+ RabbitMQ,1,0.13
+Cookiecutter,1,0.13
+git-annex,1,0.13
+JSONATA,1,0.13
+Deno,1,0.13
+gpytorch,1,0.13
+networkx,1,0.13
+numba,1,0.13
+MATLAB,1,0.13
+mcx,1,0.13
+python3-matplotlib,1,0.13
+libpng-dev,1,0.13
+pkg-config,1,0.13
+Command Line Tools,1,0.13
+ar,1,0.13
+GCC,1,0.13
+Perl,1,0.13
+CWL,1,0.13
+notebooks,1,0.13
+colorednoise,1,0.13
+mike,1,0.13
+Material for MkDocs,1,0.13
+MkDocs,1,0.13
+Mypy,1,0.13
+Visual Studio Code,1,0.13
+torchaudio,1,0.13
+dcor,1,0.13
+joblib,1,0.13
+ortools,1,0.13
+sympy,1,0.13
+pdftotext,1,0.13
+openpyxl,1,0.13
+FuzzyWuzzy,1,0.13
+Fiji,1,0.13
+fastapi,1,0.13
+quasar cli,1,0.13
+node version manager,1,0.13
+node,1,0.13
+iris,1,0.13
+xarray,1,0.13
+Tree-sitter,1,0.13
+Flask,1,0.13
+AsyncSSH,1,0.13
+vantage6-client,1,0.13
+mini-conda,1,0.13
+SageMath,1,0.13
+JuliaCall,1,0.13
+openmpi,1,0.13
+gcc10,1,0.13
+libopenmpi-dev,1,0.13
+ pylab,1,0.13
+ numpy,1,0.13
+ matplotlib,1,0.13
+postgresql,1,0.13
+libcurl4-gnutls-dev,1,0.13
+apt-get,1,0.13
+apache2-dev,1,0.13
+Redis,1,0.13
+bundler,1,0.13
+RVM,1,0.13
+redis-server,1,0.13
+openjdk-8-jre,1,0.13
+libpq-dev,1,0.13
+mpi4py,1,0.13
+gnupg,1,0.13
+netCDF4,1,0.13
+Django,1,0.13
+Blender,1,0.13
+OCaml,1,0.13
+opam,1,0.13
+ssreflect,1,0.13
+coquelicot,1,0.13
+ProofGeneral Emacs,1,0.13
+TypeScript,1,0.13
+dirmngr,1,0.13
+apt-transport-https,1,0.13
+sklearn,1,0.13
+gribapi,1,0.13
+Princess,1,0.13
+CVC4,1,0.13
+cvc5,1,0.13
+toytree,1,0.13
+orographic precipitation,1,0.13
+fastscape,1,0.13
+netCDF4 cdo,1,0.13
+ XlsxWriter,1,0.13
+ openpyxl,1,0.13
+ eccodes,1,0.13
+ca-certificates,1,0.13
+ f90nml,1,0.13
+ pip,1,0.13
+ dreq,1,0.13
+cmor-3.8.0,1,0.13
+Fortran compiler,1,0.13
+Lapack,1,0.13
+libnginx-mod-http-passenger,1,0.13
+Nginx,1,0.13
+Passenger,1,0.13
+Stanza,1,0.13
+xlsxwriter,1,0.13
+OpenMPI,1,0.13
+ Packer,1,0.13
+pingouin,1,0.13
+Nunaliit,1,0.13
+brew,1,0.13
+python3-dev,1,0.13
+python3-venv,1,0.13
+audio toolbox,1,0.13
+signal processing toolbox,1,0.13
+MOSEK,1,0.13
+CVX,1,0.13
+Virtualbox,1,0.13
+Spacy,1,0.13
+ Vagrant,1,0.13
+VirtualBox,1,0.13
+micromamba,1,0.13
+python3-gdal,1,0.13
+gdal-bin,1,0.13
+gdal,1,0.13
+Docker Desktop,1,0.13
+GeoTIFF.js,1,0.13
+MapLibre GL JS,1,0.13
+prolog,1,0.13
+nltk stopwords,1,0.13
+ TypeScript,1,0.13
+pyenv,1,0.13
+Numba,1,0.13
+openvpn,1,0.13
+Rosetta 2,1,0.13
+Orange,1,0.13
+Orange3,1,0.13
+Docusaurus,1,0.13
+pre-commit,1,0.13
+pytype,1,0.13
+black,1,0.13
+ladle,1,0.13
+Erlang,1,0.13
+eigen3-devel,1,0.13
+openblas-devel,1,0.13
+eigen,1,0.13
+openblas,1,0.13
+Homebrew,1,0.13
+libeigen3-dev,1,0.13
+OpenBLAS,1,0.13
+Eigen3,1,0.13
+cuttlefish,1,0.13
+DaisyUI,1,0.13
+ SvelteKit,1,0.13
+pooch,1,0.13
+cypress,1,0.13
+pillow,1,0.13
+patchify,1,0.13
+opencv-python,1,0.13
+notebook,1,0.13
+jupyter notebook,1,0.13
+VFRendering,1,0.13
+anaconda-navigator,1,0.13
+mysql=connector-python,1,0.13
+SQLAlchemy,1,0.13
+Chrome,1,0.13
+keras,1,0.13
+GTest,1,0.13
+ZeroMQ,1,0.13
+Doxygen,1,0.13
+FairLogger,1,0.13
+FairCMakeModules,1,0.13
+Boost,1,0.13
+pypi,1,0.13
+pymatgen,1,0.13
+ase,1,0.13
+segmentation_models,1,0.13
+tifffile,1,0.13
+WinPython,1,0.13
+ HORTON,1,0.13
+Jupyter Book,1,0.13
+JupyterHub,1,0.13
+Docker Swarm,1,0.13
+Spark,1,0.13
+Hadoop,1,0.13
+GlusterFS,1,0.13
+ansible,1,0.13
+CWLTiny,1,0.13
+LFS,1,0.13
+ Nosetests,1,0.13
+scikit-image,1,0.13
+ Matplotlib,1,0.13
+ SymPy,1,0.13
+ NumPy,1,0.13
+ SciPy,1,0.13
+hypothesis,1,0.13
+python 3,1,0.13
+ultimodel,1,0.13
+ULTImodel,1,0.13
+pathlib,1,0.13
+MSSQL,1,0.13

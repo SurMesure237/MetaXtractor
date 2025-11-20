@@ -1,0 +1,324 @@
+[
+  {
+    "id": 1648,
+    "annotations": [
+      {
+        "id": 10744,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 47,
+              "text": "https://zenodo.org/badge/latestdoi/270940268",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "VpQJDoA2Qz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:19:08.196061Z",
+        "updated_at": "2025-11-05T16:19:08.196078Z",
+        "draft_created_at": null,
+        "lead_time": 5.739,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "87942c92-60fb-406d-84c2-af251c5841b6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1648,
+        "project": 23383,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://zenodo.org/badge/latestdoi/270940268)",
+      "section": "Introduction",
+      "repo": "282_Emo-spectre",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.779811Z",
+    "updated_at": "2025-11-05T16:19:08.228737Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23383,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1649,
+    "annotations": [
+      {
+        "id": 10745,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:19:17.425403Z",
+        "updated_at": "2025-11-05T16:19:17.425420Z",
+        "draft_created_at": null,
+        "lead_time": 9.049,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "136c7dc9-7a30-466a-92cb-052531d058f2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1649,
+        "project": 23383,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Emo-spectre\n\nA tool for visualizing and exploring multimodal features extracted from video.\n\n## Deployment\n\nThe application consists of two major components: the visualization tool (emo-spectre + api + database) and the data processing pipeline (erd-etl + cwltool + xenonflow). The global architecture is outlined in this image:\n\nTODO: update figure as xenonflow and cwltool are now running in a docker container and don't require local installation.\n\nFor production, the application can be launched as a set of Docker containers. For development, see below.\n\nClone these repositories:  emo-spectre: https://github.com/emrecdem/emo-spectre  erd-etl: https://github.com/emrecdem/erd-etl xenon-flow: https://github.com/emrecdem/xenon-flow and switch to the erd-changes branch.\n\n### Configure emo-spectre\n\nChange the api keys and passwords from their default, and make sure that they are matching between configuration files.\n\nEdit the .env file:\n\nXENON_API_KEY=in1uP28Y1Et9YGp95VLYzhm5Jgd5M1r0CKI7326RHwbVcHGa XENONFLOW_HOME=/home/peter/xenonflow\n\nDOCKER_NETWORK=emo-spectre_default\n\nWEBAPP_PORT=3000 WEBAPP_HOST=localhost WEBAPP_PROTOCOL=http\n\nPRODUCTION_POSTGRES_USER=postgres PRODUCTION_POSTGRES_PASSWORD=postgrespassword PRODUCTION_HASURA_GRAPHQL_ADMIN_SECRET=adminpassword\n\nERD_ETL_PATH=/Users/peter/repos/esc/emrecdem/erd-etl\n\nNODE_ENV=production\n\nERD_ETL_PATH points to the erd-etl repository, which is also used as the directory where the files for processing are stored. The upload server, xenonflow and cwltool will create/use some directories under $ERD_ETL_PATH for temporary storage, namely upload, running-jobs, output and tmp.",
+      "section": "Emo-spectre (part 1)",
+      "repo": "282_Emo-spectre",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.779858Z",
+    "updated_at": "2025-11-05T16:19:17.453902Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23383,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1650,
+    "annotations": [
+      {
+        "id": 10746,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:19:23.576502Z",
+        "updated_at": "2025-11-05T16:19:23.576524Z",
+        "draft_created_at": null,
+        "lead_time": 5.985,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "eac26bd2-9f73-41e2-9aa4-2fee6f8f91fc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1650,
+        "project": 23383,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Configure and build erd-etl\n\nIn erd-etl/merge_features.cwl, the database connection needs to be configured:\n\nDB_CONNECTION: postgresql://postgres:@:5432/postgres\n\nBuild erd-etl\n\nThis and below image are referred to by the CWL scripts that execute the data processing steps. They will be run by the Xenonflow container (as siblings).\n\ncd scripts docker build -t erd-etl . cd .. docker save erd-etl > erd-etl.tar\n\nBuild erd-praat\n\ncd praat docker build -t erd-praat cd .. docker save erd-praat > erd-praat.tar\n\n### Configure and build xenon-flow\n\nIn xenon-flow/config/application.properties, edit the following:  xenonflow.http.auth-token (should match XENON_API_KEY in emo-spectre/.env)  spring.datasource.password server.ssl.key-store-password\n\nBuild xenon-flow:\n\ndocker build -t xenonflow .\n\n## Start the docker containers\n\nThe command below executes two docker-compose files, one that launches Postgres and Hasura, the other launches Xenonflow, a simple upload server and the actual web application.\n\ndocker-compose -f docker-compose.yml -f docker-compose-production.yml up -d\n\nInitialize the database\n\ndocker exec -i erd-postgres psql --username postgres postgres < ./sql/seed.sql\n\nNote that the metadata for the Hasura container is auto-applied from ./hasura/metadata through the [cli-migrations Hasura image] https://hasura.io/docs/latest/graphql/core/migrations/config-v2/advanced/auto-apply-migrations.html#auto-apply-migrations-v2.",
+      "section": "Emo-spectre (part 2)",
+      "repo": "282_Emo-spectre",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.779993Z",
+    "updated_at": "2025-11-05T16:19:23.605774Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23383,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1651,
+    "annotations": [
+      {
+        "id": 10747,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1438,
+              "end": 1444,
+              "text": "Python",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "dJt5rjlio6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 35,
+              "end": 41,
+              "text": "docker",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ugtfuS6Pkx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 46,
+              "end": 50,
+              "text": "yarn",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "vpWUi8ZMXm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1426,
+              "end": 1433,
+              "text": "Java 11",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "doT1IZosez",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:20:10.060735Z",
+        "updated_at": "2025-11-17T00:14:21.168392Z",
+        "draft_created_at": "2025-11-05T16:19:40.585462Z",
+        "lead_time": 77.013,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "a8cc5706-a2fd-4c95-8628-2540978353d4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1651,
+        "project": 23383,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Development\n\nRequirements locally: docker and yarn.\n\n## First time setup\n\nyarn install yarn dev\n\non another terminal make reset-db-to-defaults yarn hasura-console #http://localhost:9596\n\n## Development\n\nyarn dev # http://localhost:3000\n\nOn another terminal, open hasura console (Will track hasura metadata changes) yarn hasura-console # http://localhost:9596 Password sits inside docker compose, by default: 'adminpassword'\n\n### To stop all docker containers you can use:\n\nyarn stop\n\nor docker-compose down\n\nBack up and restore Database\n\ndocker-compose needs to be running.\n\n### Back up (Create Dump)\n\ndocker exec -it erd-postgres pg_dump -n public --username postgres postgres > ./CI/dev-data-dump.sql\n\n### Restore PostgresDB data\n\n#### Automatically with make\n\nmake reset-db-to-defaults\n\n#### or run the commands manually\n\nNavigate to the folder containing the database dump and run psql from there.\n\ndocker exec -i erd-postgres psql --username postgres postgres < ./dump.sql\n\n### Need clean up everything?\n\ndelete completely the database: docker exec -i erd-postgres dropdb -U postgres postgres\n\nCreate it again docker exec -i erd-postgres createdb -U postgres postgres\n\nAnd then, import the data dump and apply the hasura metadata:\n\ndocker exec -i erd-postgres psql --username postgres postgres < ./CI/dev-data-dump.sql yarn hasura-metadata-apply\n\nRunning CWL Locally ## Install xenon-flow locally\n\nYou will need at least Java 11 and Python already in your machine\n\nClone the repository:\n\n$ gh repo clone xenon-middleware/xenon-flow $ pip install cwltool (you may need sudo permissions)\n\nDownload all the dependecies for CWL with Gradle\n\n./gradlew build --\n\nStart the server ./gradlew bootRun --",
+      "section": "Development + on another terminal + On another terminal, open hasura console (Will track hasura metadata changes) (and 7 more)",
+      "repo": "282_Emo-spectre",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.780043Z",
+    "updated_at": "2025-11-17T00:14:21.199967Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23383,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1652,
+    "annotations": [
+      {
+        "id": 10748,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:20:18.252934Z",
+        "updated_at": "2025-11-05T16:20:18.252948Z",
+        "draft_created_at": null,
+        "lead_time": 8.004,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "8bfbe361-3364-4efb-9115-c3463fcfbe94",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1652,
+        "project": 23383,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Running at (Swagger): open http://localhost:8080/\n\nadmin http://localhost:8080/admin/index.html user: api-key password: in1uP28Y1Et9YGp95VLYzhm5Jgd5M1r0CKI7326RHwbVcHGa\n\nMaking test api-calls: POST:\n\nurl: http://localhost:8080/jobs\n\nheader: \"api-key\":\"in1uP28Y1Et9YGp95VLYzhm5Jgd5M1r0CKI7326RHwbVcHGa\"\n\nbody/json: {\"name\": \"Workflow name test\",\"workflow\": \"cwl/sleep.cwl\",\"input\": {\"time\": \"3s\"}}\n\nOnce the response is received: you can call again with GET to the uri provided in the response.\n\nCreate a folder called cwl inside the xenon-flow folder (you got from cloning the repo) and place inside the sleep.cwl file you will find in the CI folder\n\nOpen application.properties file to disable ssl and choose the port (if needed it).\n\nserver.port=9050 server.ssl.enabled=false\n\nEdit the xenon config file, change your local's folder to access the input files.\n\nlocation: ${XENONFLOW_HOME}",
+      "section": "Running at (Swagger): + admin",
+      "repo": "282_Emo-spectre",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.780066Z",
+    "updated_at": "2025-11-05T16:20:18.277434Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23383,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

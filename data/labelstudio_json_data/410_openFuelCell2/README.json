@@ -1,0 +1,82 @@
+[
+  {
+    "data": {
+      "text": "openFuelCell2\n\n[openFuelCell2] https://openfuelcell2.github.io/ is a computational fluid dynamics (CFD) toolbox for simulating electrochemical devices such as fuel cells and electrolysis. The solver is based on the open-source library, OpenFOAM\u00ae.\n\n## About the code\n\nThe source code was developed from a previous open-source repository called [openFuelCell] http://openfuelcell.sourceforge.net/. It was also inspired by the standard solver \"reactingTwoPhaseEulerFoam\" in OpenFOAM\u00ae. The solver can consider coupled problems with multi-region and multi-physics issues, including single and two phase flows, multiple species components, charge transfer, and electrochemical reactions in different regions. More applications and solvers will be available in the future.\n\n## How to use\n\nThe code is compiled with the OpenFOAM libraries, either [ORG] https://openfoam.org/ or [COM] https://www.openfoam.com/ versions. The default branch is compatable with the COM version, while the other branches are also provided for different OpenFOAM environments. The available environments will include: OpenFOAM-v2012, OpenFOAM-v2106, OpenFOAM-v2306, OpenFOAM-v6, OpenFOAM-v8. Note: the main branch is only compatible with OpenFOAM-v2306, while the others are under preparation.\n\nChange dictionary to the repository cd openFuelCell2/src\n\nCompile the source code with ./Allwmake",
+      "section": "openFuelCell2 + Change dictionary to the repository + Compile the source code with",
+      "repo": "410_openFuelCell2",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Or compile in parallel ./Allwmake -j n\n\nYou can also clear the libraries and executable files with\n\ncd openFuelCell2/src\n\n./Allwclean",
+      "section": "Or compile in parallel (part 1)",
+      "repo": "410_openFuelCell2",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Computational domains\n\nTake the cross-section of a fuel cell as an example. The computational domain gives,\n\nIn a PEM fuel cell or other types, there are several domains/regions: air, fuel, electrolyte, and interconnect. This can be found from the repository [openFuelCell] http://openfuelcell.sourceforge.net/. However, additional domains/regions, e.g. phiEA, phiEC, and phiI are also necessary to account for electron/ion and dissolved water transfer.\n\nTo consider the coupling transfer problems in a PEM fuel cell, a global region, also called as parent mesh, and several local regions, also called as child meshes, are used. In the global region, only the energy equation is solved. In the local regions, corresponding partial differential equations will be discretized and solved. During the simulation, material properties, e.g. density, thermal conductivity, etc., are mapped from local regions to the global region, while the temperature field is mapped from the global region to the local regions.\n\nThe local regions can be classified as three different types, namely fluid, solid, and electric regions. See the [code] src/libSrc/fuelCellSystems/regions.\n\nFluid region:\n\nThis region represents the space where fluid flows by. In a fuel cell or electrolyzer, it consists with gas channels and/or porous regions. In this region, the following processes are addressed:\n\nFluid flow (single/two phase)\n\nSpecies transfer\n\nElectrochemical reaction\n\nHeat and mass transfer\n\nFor example, in a fuel cell, the following parts apply to this region,\n\nAir flow paths + porous electrodes\n\nFuel flow paths + porous electrodes\n\nCooling channels\n\nSolid region:",
+      "section": "Or compile in parallel (part 2)",
+      "repo": "410_openFuelCell2",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "This represents the solid components in fuel cell or electrolyzer. In the current solver, no equations will be solved here. However, stress analysis during assembly and thermal effects may be implemented in future applications.\n\nFor example. in a fuel cell, the following components apply to this region,\n\nElectrolyte/membrane\n\nInterconnect/Bipolar-plate\n\nEndplate\n\nElectric region:\n\nThis region accounts for the electric-conductive components. It is designed to consider electron/ion transfer specifically. However, it is found that the proton transfer region is the same as the region where dissolved water transfer takes place. Therefore, a switcher is enabled in the code to turn on/off the dissolved water transfer model. The following equations will be solved,\n\nPotential equations (Poisson equations)\n\nDissolved water transfer equations (diffusion and electro-osmotic-drag)\n\nFor example, in a fuel cell, the following components belong to this region:\n\nBipolar-plate, GDL, MPL, CL -> electron transfer regions\n\nCatalyst coated membrane, CCM, -> proton transfer and dissolved water transfer region\n\nGlobal region:\n\nThe heat source/sinks in local regions will be mapped to this region. And the obtained temperature is mapped back to the local regions. The heat source/sink include:\n\nJoule heat from the electron/proton regions.\n\nCondensation/evaporation in the fluid regions.\n\nElectrochemical reactions in the fluid regions.",
+      "section": "Or compile in parallel (part 3)",
+      "repo": "410_openFuelCell2",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Recent updates",
+      "section": "Or compile in parallel (part 4)",
+      "repo": "410_openFuelCell2",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[Oct. 2020] A new branch for openFOAM-ESI\n\nThe majority part of this update was conducted by Mr. Steffen Hess. The code is able to compile in the OpenFOAM-ESI environment. [Nov. 2020] The new branch for openFOAM-ESI\n\nSome bugs were found and fixed: The compiling sequence.\n\nThe locations of gravity fields, g. The files \"g\" move to constant/.\n\nThe functionObjects library is missing.\n\nRemove some warnings: apply new functions in OpenFOAM-ESI.\n\n[Nov. 2021] The new branch for openFOAM-2106\n\nSome bugs were found and fixed: The method heatTransfer(T, cellListIO) in class \"TwoResistanceHeatTransferPhaseSystem\" is fixed.\n\nDictionary structure is rearranged: src: source files\n\nappSrc: application source files\n\nlibSrc: libraries source files\n\nrun: test cases\n\n[Jun. 2022] Clean the source code for releasing\n\nBugs are found and fixed: The previous solver might predict results with singularities in phiI region. This is fixed.\n\nThe source code is updated: Change the phase name to none if single-phase flow is simulated. This makes the variable names change from _A.air_ to _A_.\n\nMoving the correction of diffusivity from MultiComponentPhaseModel to diffusivityModelList.\n\nMoving the definition of phase properties from phaseProperties to regionProperties.\n\nAvoiding redundant output of diffusivity coefficients.\n\nApplying a different method to Update the value of phi in phiI region --> use setReference of phiEqn. This seems to make the solution more stable.\n\nMaking the \"porousZone\" flexible to read. If the file doesn't exist, no porous zones are applied.\n\nUpdate the test cases: rewrite the scripts.\n\nChange the header of each file. openFuelCell is included.\n\n[Dec. 2022] Update the repository\n\nFixed a bug in diffusivityList\n\nUpdate the tutorial",
+      "section": "Or compile in parallel (part 5)",
+      "repo": "410_openFuelCell2",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[Sep. 2023] Update the repository for public release\n\nA new branch is included for OpenFOAM-v2306\n\nThe prescribed mean current density and voltage are now defined as a function of time. (Assailable functions can be found in OpenFOAM/primitives/functions/Function1).\n\nInclude the radiation model in solid region.\n\nCopy thermoTools to the repo. (need to remove this in next update.)\n\nIn test cases, when it comes to two-phase flow, a steadyState scheme is now used, specially for ddt term of species transfer.\n\nUpdate the preprocessing script for an easier usage.",
+      "section": "Or compile in parallel (part 6)",
+      "repo": "410_openFuelCell2",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Related publications\n\nJournal\n\nZhang, Shidong, Steffen Hess, Holger Marschall, Uwe Reimer, Steven Beale, and Werner Lehnert. \"openFuelCell2: A New Computational Tool for Fuel Cells, Electrolyzers, and other Electrochemical Devices and Processes.\" Computer Physics Communications, Forthcoming (2023).\n\nZhang, Shidong, Shangzhe Yu, Roland Peters, Steven B. Beale, Holger Marschall, Felix Kunz, and R\u00fcdiger-A. Eichel. \"A new procedure for rapid convergence in numerical performance calculations of electrochemical cells.\" Electrochimica Acta (2023): 143275.\n\nYu, Shangzhe, Shidong Zhang, Dominik Sch\u00e4fer, Roland Peters, Felix Kunz, and R\u00fcdiger-A. Eichel. \"Numerical Modeling and Simulation of the Solid Oxide Cell Stacks and Metal Interconnect Oxidation with OpenFOAM.\" Energies 16, no. 9 (2023): 3827.\n\nZhang, Shidong, Steven B. Beale, Uwe Reimer, Martine Andersson, and Werner Lehnert. \"Polymer electrolyte fuel cell modeling-A comparison of two models with different levels of complexity.\" International Journal of Hydrogen Energy 45, no. 38 (2020): 19761-19777.\n\nZhang, Shidong. \"Low-Temperature Polymer Electrolyte Fuel Cells.\" In Electrochemical Cell Calculations with OpenFOAM, pp. 59-85. Springer, Cham, 2022.\n\nConference\n\nHess, Steffen, Shidong Zhang, Thomas Kadyk, Werner Lehnert, Michael Eikerling, and Steven B. Beale. \"Numerical Two-Phase Simulations of Alkaline Water Electrolyzers.\" ECS Transactions 112, no. 4 (2023): 419.\n\nZhang, Shidong, Kai Wang, Shangzhe Yu, Nicolas Kruse, Roland Peters, Felix Kunz, and Rudiger-A. Eichel. \"Multiscale and Multiphysical Numerical Simulations of Solid Oxide Cell (SOC).\" ECS Transactions 111, no. 6 (2023): 937.\n\nZhang, Shidong, Steven B. Beale, Yan Shi, Holger Jan\u00dfen, Uwe Reimer, and Werner Lehnert. \"Development of an Open-Source Solver for Polymer Electrolyte Fuel Cells.\" ECS Transactions 98, no. 9 (2020): 317.\n\nThesis",
+      "section": "Or compile in parallel (part 7)",
+      "repo": "410_openFuelCell2",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Zhang, Shidong. Modeling and Simulation of Polymer Electrolyte Fuel Cells. No. FZJ-2020-02318. Elektrochemische Verfahrenstechnik, 2020.",
+      "section": "Or compile in parallel (part 8)",
+      "repo": "410_openFuelCell2",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Developers\n\nThe code is firstly developed by [Shidong Zhang] s.zhang@fz-juelich.de for the PhD thesis, supervised by Prof. [Werner Lehnert] w.lehnert@fz-juelich.de and Prof. [Steven Beale] s.beale@fz-juelich.de. The detailed model description and simulation results can be found in the thesis, Modeling and Simulation of Polymer Electrolyte Fuel Cells by FZJ. The following individuals also contribute to the optimization of the code,\n\nSteffen Hess (s.hess@fz-juelich.de), Forschungszentrum Juelich, IEK-14\n\nProf. Steven B. Beale (s.beale@fz-juelich.de), Forschungszentrum Juelich, IEK-13\n\nTo be continued...",
+      "section": "Or compile in parallel (part 9)",
+      "repo": "410_openFuelCell2",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "codeRepository": "https://github.com/InPhyT/UnrollingAverages.jl",
+  "programmingLanguage": "Julia",
+  "programmingLanguages": [
+    "Julia"
+  ],
+  "downloadUrl": "https://api.github.com/repos/InPhyT/UnrollingAverages.jl/zipball/main",
+  "author": "InPhyT",
+  "dateCreated": "2021-11-22T22:34:58Z",
+  "dateModified": "2024-11-26T19:16:27Z",
+  "keywords": [
+    "julia",
+    "julia-language",
+    "julia-package",
+    "reverse-engineering",
+    "statistics",
+    "stats",
+    "time-series",
+    "time-series-analysis",
+    "time-series-data",
+    "time-series-database",
+    "time-series-transformation"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "A Julia package to deconvolve (\"unroll\") moving averages of time series to get the original ones back.",
+  "identifier": 430885253,
+  "name": "InPhyT/UnrollingAverages.jl",
+  "issueTracker": "https://api.github.com/repos/InPhyT/UnrollingAverages.jl/issues",
+  "readme": "https://github.com/InPhyT/UnrollingAverages.jl/blob/main/README.md"
+}

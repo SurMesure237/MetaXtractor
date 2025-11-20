@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "Welcome to iqtools [](https://xaratustrah.github.io/iqtools)[](https://doi.org/10.5281/zenodo.7615693)\n\nCollection of code for working with offline complex valued time series data ([inphase and quadrature] https://en.wikipedia.org/wiki/In-phase_and_quadrature_components or IQ Data) with numpy written for Python3.\n\n## Installation and usage\n\n### Quick instructions\n\nThere are many ways to install iqtools either fully or partly. One way to do a complete install is this:\n\n#### TL;DR (for Linux and Mac):\n\nQuick but full installation if you have mamba installed. Tested on Linux and Mac. First clone the repo, then go to the directory and run these commands. Currently Python Version 3.10 works best:\n\nmamba create -n my_env mamba activate my_env mamba install -y python=3.10 root pyqt pyfftw pip install -r requirements.txt pip install .\n\nWhere my_env can be any name you like.\n\n#### Test your installation\n\nYou can test your installation by typing:\n\npython3 -c 'import ROOT;import PyQt5;from iqtools import*'\n\nIf the command returns without any error, then you are good, i.e. you should be able to use the library, or run one of the user interfaces.\n\n### Detailed installation instructions",
+      "section": "Welcome to `iqtools` (part 1)",
+      "repo": "498_iqtools",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### Preparation\n\nIf you do not need to use iqtools with ROOT features, you can skip to the next section. If you like to use iqtools with ROOT features within PyROOT, please make sure you have a proper installation of ROOT and PyROOT in your python environment. There are several alternatives of how to install ROOT:\n\nSystem wide installation on Linux (Please refer to the web site of [PyROOT] https://root.cern/manual/python/ ). This approach is not recommended  An easier way is to install ROOT using conda-forge as described [here] https://anaconda.org/conda-forge/root/ or [here] https://iscinumpy.gitlab.io/post/root-conda/. Most recommended is to use mamba. For that just install [mamba] https://mamba.readthedocs.io/en/latest/installation.html. Before installing, it is recommended to create a new mamba env and do your work there:\n\nmamba create -n my_env mamba activate my_env mamba install root pyqt\n\nSame goes with the installation of pyqt. If you are not interested in the GUI script, you can just ignore the installation of pyqt in the previous step. You will not be able to use the GUI, but you can still use the CLI and of course the library itself.\n\n#### Installing packages\n\nClone the repository or download the source from [GitHUB] https://github.com/xaratustrah/iqtools. Then use pip for installing and uninstalling iqtools.\n\npip install -r requirements.txt  pip install .",
+      "section": "Welcome to `iqtools` (part 2)",
+      "repo": "498_iqtools",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Windows\n\nUnder windows, ROOT / PyROOT needs to be installed in a different manner. Please refer to the installation instructions on the corresponding [web page] https://root.cern/ of the ROOT project. If you do not need the ROOT functions, you can still run the library, CLI and GUI under Windows. Specifically, it is recommended to download the latest version of [WinPython] https://winpython.github.io/ which contains the PyQt library. Just unpacking WinPython is enough, no installation is needed. After this, you can just follow the instructions above to install the requirements and packages via pip.\n\nSome stand alone static versions of the iqgui for windows may be made available in the future in the release section for the corresponding tags.\n\n### Quick usage\n\niqtools is a library that can be embedded in data analysis projects. You can use its full functionality in your own codes by importing it:\n\nfrom iqtools import *\n\nand use it accordingly.\n\niqtools offers user interface which do not implement the full functionality of the library, but can be useful for quick access or conversions, so it can be run as a command line program for processing data file as well. For example:\n\niqtools --help\n\nThe iqgui script is a graphical user interface (GUI) written in Qt with limited functionality, but nevertheless interesting features. You can run it by simply typing:\n\niqgui\n\nA simple window will appear, where you can accesss some quick feartures. For more information on the GUI frontend please refer to the [documentation page] https://xaratustrah.github.io/iqtools.\n\n## Documentation\n\nFor more information please refer to the [documentation page] https://xaratustrah.github.io/iqtools.",
+      "section": "Welcome to `iqtools` (part 3)",
+      "repo": "498_iqtools",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Citation for publications\n\nIf you are using this code in your publications, please refer to [DOI:10.5281/zenodo.7615693] https://doi.org/10.5281/zenodo.7615693 for citation, or cite as:\n\nShahab Sanjari. (2023). iqtools: Collection of code for working with offline complex valued time series data in Python. Zenodo. https://doi.org/10.5281/zenodo.7615693\n\n## Licensing\n\nPlease see the file [LICENSE.md] ./LICENSE.md for further information about how the content is licensed.\n\n## Acknowledgements\n\nMany thanks to @tfoerst3r for providing help with the project structure and licensing issues and to @carlkl for helping with creating a static Windows version of the GUI.",
+      "section": "Welcome to `iqtools` (part 4)",
+      "repo": "498_iqtools",
+      "source_file": "readme.md"
+    }
+  }
+]

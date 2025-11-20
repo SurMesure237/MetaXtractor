@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/Eventdisplay/Eventdisplay",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "C",
+    "Makefile",
+    "Shell",
+    "Perl",
+    "Awk"
+  ],
+  "downloadUrl": "https://api.github.com/repos/Eventdisplay/Eventdisplay/zipball/main",
+  "author": "Eventdisplay",
+  "dateCreated": "2019-11-12T13:17:01Z",
+  "dateModified": "2025-09-24T12:02:01Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "A reconstruction and analysis pipeline for ground-based imaging atmospheric Cherenkov Telescopes",
+  "identifier": 221222023,
+  "name": "Eventdisplay/Eventdisplay",
+  "issueTracker": "https://api.github.com/repos/Eventdisplay/Eventdisplay/issues",
+  "readme": "https://github.com/Eventdisplay/Eventdisplay/blob/main/README.md"
+}

@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "byteparsing"
+version = "0.2.0"
+description = "Parser for mixed ASCII/binary data formats"
+authors = ["Johan Hidding <j.hidding@esciencecenter.nl>",
+           "Pablo Rodríguez-Sánchez <p.rodriguez-sanchez@esciencecenter.nl>"]
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://parallelwindfarms.github.io/byteparsing"
+repository = "https://github.com/parallelwindfarms/byteparsing"
+keywords = ["parsing", "binary data"]
+classifiers = [
+        "Development Status :: 2 - Pre-Alpha",
+        "Intended Audience :: Developers",
+        "Natural Language :: English" ]
+
+[tool.poetry.dependencies]
+python = "^3.9.0"
+numpy = { version = "^1.21.0", optional = true }
+
+[tool.poetry.extras]
+numpy = ["numpy"]
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+pytest-cov = "^2.12.1"
+pytest-mypy = "^0.8.1"
+jupyterlab = "^3.2.9"
+matplotlib = "^3.5.1"
+ipympl = "^0.8.8"
+Pillow = "^9.3.0"
+Sphinx = "^5.3.0"
+nbsphinx = "^0.8.10"
+recommonmark = "^0.7.1"
+sphinx-rtd-theme = "^1.1.1"
+mypy = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

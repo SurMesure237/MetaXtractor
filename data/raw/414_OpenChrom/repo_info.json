@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/OpenChrom/openchrom",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java",
+    "HTML",
+    "CSS"
+  ],
+  "downloadUrl": "https://api.github.com/repos/OpenChrom/openchrom/zipball/main",
+  "author": "OpenChrom",
+  "dateCreated": "2019-08-14T08:02:42Z",
+  "dateModified": "2025-10-30T07:44:30Z",
+  "keywords": [
+    "chromatography",
+    "mass-spectrometry",
+    "nmr",
+    "nmr-spectroscopy",
+    "open-source"
+  ],
+  "license": "https://api.github.com/licenses/epl-2.0",
+  "description": "Visualization and Analysis of mass spectrometric and chromatographic data.",
+  "identifier": 202303561,
+  "name": "OpenChrom/openchrom",
+  "issueTracker": "https://api.github.com/repos/OpenChrom/openchrom/issues",
+  "readme": "https://github.com/OpenChrom/openchrom/blob/develop/README.md"
+}

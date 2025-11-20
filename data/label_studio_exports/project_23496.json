@@ -1,0 +1,499 @@
+[
+  {
+    "id": 2207,
+    "annotations": [
+      {
+        "id": 10299,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 402,
+              "end": 410,
+              "text": "Anaconda",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "6qkxQUCWjt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 445,
+              "end": 478,
+              "text": "https://www.anaconda.com/download",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "ww3gKex0_w",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 678,
+              "end": 689,
+              "text": "Python 3.12",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "55kogrkqnr",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 514,
+              "end": 535,
+              "text": "Python version 3.13.2",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "mLVnJSrcd6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:51:43.834409Z",
+        "updated_at": "2025-11-17T00:07:10.666509Z",
+        "draft_created_at": "2025-11-03T06:51:31.338613Z",
+        "lead_time": 75.854,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "1022a164-9305-47ed-8301-b135c69429e1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2207,
+        "project": 23496,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "ValidSense\n\n## Description\n\nThe ValidSense toolbox aims to assess the agreement between two quantitative methods or devices measuring the same quantity  using the Limits of Agreement analysis (LoA analysis), also known as the Bland-Altman analysis, using four existing variants.  Moreover, a Longitudinal analysis is developed to assess agreement over time.\n\n## Requirements\n\nAnaconda (you may install Anaconda by downloading the installer from https://www.anaconda.com/download and running it on your computer).\n\nPython version 3.13.2 is assumed to be available in the installation process. The Python package versions in the requirements.txt file have been tested to work for Python 3.12 as well. If these are not available in your environment, and you run into problems when using a different Python version, you might try to install after removing the versions from the requirements.txt file.",
+      "section": "ValidSense (part 1)",
+      "repo": "484_ValidSense",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.630127Z",
+    "updated_at": "2025-11-17T00:07:10.705996Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23496,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2208,
+    "annotations": [
+      {
+        "id": 10300,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 333,
+              "end": 340,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "Qvz1tQ888s",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 387,
+              "end": 390,
+              "text": "Mac",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "4EV4jixxmf",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 394,
+              "end": 399,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "0kvn_WT4JD",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 752,
+              "end": 766,
+              "text": "python==3.13.2",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "kdGsx08oKK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:52:23.539040Z",
+        "updated_at": "2025-11-17T00:07:24.496916Z",
+        "draft_created_at": "2025-11-03T06:52:00.539169Z",
+        "lead_time": 69.249,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "9edb9621-edc5-4f69-b3e4-9d5d5b124ff4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2208,
+        "project": 23496,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Installation process\n\nTo run ValidSense:  [Clone] https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository or [download] https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github and unzip the ValidSense repository to your computer\n\nOpen the Anaconda prompt on Windows, or your built-in command line application on Mac or Linux\n\nchange to the cloned or downloaded ValidSense folder, where the requirement.txt and 📄_Introduction.py files are (fill in the folder name in \\)\n\ncd  You probably want to create a separate environment for ValidSense (fill in a name for your environment in \\):\n\nconda create --name   conda activate  Install required software and versions\n\nconda install python==3.13.2   pip install -r requirements.txt Start ValidSense, this opens a webpage in your browser for the ValidSense application\n\nstreamlit run 📄_Introduction.py\n\n## Configuration\n\nNo additional configuration is required. However, if you will run the app on a server and share it with others, you may want to add custom information, for example to tell users how to contact you for support. You can create a \"custom_information.txt\" file in the root folder of the package with your information. This information is then displayed at the bottom of the Introduction page under the Information header. The text in the file is processed as Markdown text.",
+      "section": "ValidSense (part 2)",
+      "repo": "484_ValidSense",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.630194Z",
+    "updated_at": "2025-11-17T00:07:24.536298Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23496,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2209,
+    "annotations": [
+      {
+        "id": 10301,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:53:21.974262Z",
+        "updated_at": "2025-11-03T06:53:21.974279Z",
+        "draft_created_at": "2025-11-03T06:52:50.769136Z",
+        "lead_time": 58.233,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "15476200-497b-4c6f-873d-809c6252a0ba",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2209,
+        "project": 23496,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Usage\n\nValidSense is a webbased application, consisting of five pages, shown in the figure below. Follow the instructions on these pages sequentially.  Before the LoA analysis or the longitudinal analysis can be performed, the loading and preprocessing pages must be followed sequentially. Detailed instructions are given in the web interface. This is a summary of the usage of the five pages.  Introduction: Information about the ValidSense software and the statistical methods is given here\n\nLoading: Files must be uploaded here, and some filtering settings can be made. Use CSV or XLSX files\n\nPreprocessing: The analysis variant is chosen, as well as variables and settings. Variants available:\n\nLimits of Agreement:\n\nClassic: Assess agreement in single pair of measurements per patient, [Bland & Altman 1986] https://pubmed.ncbi.nlm.nih.gov/2868172/\n\nRepeated measurements: Assess agreement in multiple measurements per patient,\n\n[Bland & Altman 1999 section 5.2] https://pubmed.ncbi.nlm.nih.gov/10501650/, [Bland & Altman 2007 section 3] https://pubmed.ncbi.nlm.nih.gov/17613642/  Mixed-effects: Assess agreement based on the mixed-effects LoA analysis, allowing to correct, for example,\n\nmultiple measurements per patient or systematic relationship between the difference and mean, [Parker et al. 2016] https://pubmed.ncbi.nlm.nih.gov/27973556/ Regression of difference: Assess agreement in a single measurement per patient, with a linear relationship between difference and mean for bias\n\nand/or LoA, [Bland & Altman 1999 section 3.2] https://pubmed.ncbi.nlm.nih.gov/10501650/ Longitudinal analysis: a new method to assess agreement over time.\n\nLimits of Agreement Analysis: The Bland-Altman plot is shown, along with information helping to check assumptions of the analysis",
+      "section": "ValidSense (part 3)",
+      "repo": "484_ValidSense",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.630248Z",
+    "updated_at": "2025-11-03T06:53:22.001848Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23496,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2210,
+    "annotations": [
+      {
+        "id": 10302,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:53:23.166852Z",
+        "updated_at": "2025-11-03T06:53:23.166889Z",
+        "draft_created_at": null,
+        "lead_time": 1.029,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e371afc6-2b65-474d-b7ba-99e46c21cfcf",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2210,
+        "project": 23496,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Longitudinal Analysis: The newly developed Longitudinal analysis can assess non-constant agreement over time.\n\nThe longitudinal analysis involves breaking down a dataset into smaller parts over time and applying existing LoA analysis to each part.  A moving time window is applied, and based on the data included in the window, the bias and 95% LoA are calculated for each time window.  The agreement plot graphical visualises the results of the longitudinal analysis. A window can be selected using the time slider,   shown in the Bland-Altman plot of a selected window, and allows the user to navigate through the time domain.  In addition traditional Time series plots are also available (independent from the Longitudinal analysis),   to show the datapoints and trendlines of each cluster.",
+      "section": "ValidSense (part 4)",
+      "repo": "484_ValidSense",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.630302Z",
+    "updated_at": "2025-11-03T06:53:23.195551Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23496,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2211,
+    "annotations": [
+      {
+        "id": 10303,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:53:25.094149Z",
+        "updated_at": "2025-11-03T06:53:25.094169Z",
+        "draft_created_at": null,
+        "lead_time": 1.751,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "4680aca0-0688-42a2-914b-cf88706aced9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2211,
+        "project": 23496,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "More information is on the Introduction page within the app. You may find a preview of the content of the Introduction page here:  [ValidSense_Introduction.pfd] ValidSense_Introduction.pdf",
+      "section": "ValidSense (part 5)",
+      "repo": "484_ValidSense",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.630325Z",
+    "updated_at": "2025-11-03T06:53:25.121945Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23496,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2212,
+    "annotations": [
+      {
+        "id": 10304,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 736,
+              "end": 922,
+              "text": "@software{van_t_Ooster_ValidSense_2023, author = {van 't Ooster, Peter}, month = may, title = {{ValidSense}}, url = {https://github.com/umcu/ValidSense}, version = {1.0}, year = {2023} }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "Tcz64-zHSp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:53:36.243571Z",
+        "updated_at": "2025-11-03T06:53:36.243587Z",
+        "draft_created_at": null,
+        "lead_time": 10.976,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "f8364e8a-131d-488c-b732-d64db4bd85ec",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2212,
+        "project": 23496,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Contribution\n\nThis repo is offered as is. Unfortunately, no technical support for maintenance or new features is planned for. If you have ideas for improvement,  please fork the repo and create your own version. For conceptual consultation about improvements, you are very welcome to contact  Teus Kappen, who is a clinical epidemiologist and initiator of this repo: T.Kappen@umcutrecht.nl\n\n## Acknowledgement\n\nThis software was developed by Peter van 't Ooster as part of his Master Thesis project for the Technical Medicine MSc programme,  a cooperation between University of Twente and UMC Utrecht:  [Validation of Vital Sign Monitoring Devices - University of Twente Student Theses] https://essay.utwente.nl/94905/\n\n## Citation\n\n@software{van_t_Ooster_ValidSense_2023, author = {van 't Ooster, Peter}, month = may, title = {{ValidSense}}, url = {https://github.com/umcu/ValidSense}, version = {1.0}, year = {2023} }",
+      "section": "ValidSense (part 6)",
+      "repo": "484_ValidSense",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.630349Z",
+    "updated_at": "2025-11-03T06:53:36.275076Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23496,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2213,
+    "annotations": [
+      {
+        "id": 10305,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 12,
+              "end": 23,
+              "text": "MIT License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "RHbPtM2Nc0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:53:43.090090Z",
+        "updated_at": "2025-11-03T06:53:43.090113Z",
+        "draft_created_at": null,
+        "lead_time": 6.666,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "4e0afef5-b171-4d2c-841c-dce0347f3e0b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2213,
+        "project": 23496,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## License\n\nMIT License\n\nCopyright 2022 Peter van 't Ooster\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”),  to deal in the Software without restriction, including without limitation the rights to  use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,  and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+      "section": "ValidSense (part 7)",
+      "repo": "484_ValidSense",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.630373Z",
+    "updated_at": "2025-11-03T06:53:43.119921Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23496,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

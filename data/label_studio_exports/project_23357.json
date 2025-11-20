@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1519,
+    "annotations": [
+      {
+        "id": 10840,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 609,
+              "end": 652,
+              "text": "https://ecoextreml.github.io/STEMMUS_SCOPE/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "tsCDrUoIPW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 271,
+              "end": 320,
+              "text": "https://gmd.copernicus.org/articles/14/1379/2021/",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "USBBlKZYBO",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 464,
+              "end": 501,
+              "text": "https://pystemmusscope.readthedocs.io",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "r5dTLJa5Fe",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:25:43.864213Z",
+        "updated_at": "2025-11-15T16:53:31.062295Z",
+        "draft_created_at": "2025-11-05T17:25:00.407837Z",
+        "lead_time": 653.538,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "78f8dc17-4254-4ac4-8c36-f0725e9fb375",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1519,
+        "project": 23357,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# STEMMUS_SCOPE\n\nIntegrated code of SCOPE and STEMMUS.\n\nSCOPE is a radiative transfer and energy balance model, and STEMMUS model is a two-phase mass and heat transfer model. For more information about the coupling between these two models, please check [this reference] https://gmd.copernicus.org/articles/14/1379/2021/. Before running the model, you need to prepare input data and a configuration file. This can be done using the python package [PyStemmusScope] https://pystemmusscope.readthedocs.io.\n\n(by Zeng & Su, 2021)\n\n## Documentation\n\nThe documentation of the STEMMUS_SCOPE model can be found [here] https://ecoextreml.github.io/STEMMUS_SCOPE/.\n\n## Contributing\n\nIf you want to contribute to the development of STEMMUS_SCOPE, have a look at the [contribution guidelines] https://github.com/EcoExtreML/STEMMUS_SCOPE/blob/main/CONTRIBUTING.md.\n\n## How to cite us\n\n[](https://research-software-directory.org/projects/ecoextreml) .svg)](https://doi.org/) -->",
+      "section": "README",
+      "repo": "051_PyStemmusScope",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.000455Z",
+    "updated_at": "2025-11-15T16:53:31.097942Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23357,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

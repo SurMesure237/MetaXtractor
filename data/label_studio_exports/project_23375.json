@@ -1,0 +1,1198 @@
+[
+  {
+    "id": 1597,
+    "annotations": [
+      {
+        "id": 10771,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:32:05.667719Z",
+        "updated_at": "2025-11-05T16:33:45.377376Z",
+        "draft_created_at": "2025-11-05T16:31:53.180196Z",
+        "lead_time": 55.273,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "4e145a5b-90cd-4cec-9408-ec8cda406d55",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1597,
+        "project": 23375,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Rasa Open Source\n\n[](https://forum.rasa.com/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [](https://badge.fury.io/py/rasa) [](https://pypi.python.org/pypi/rasa) [](https://github.com/RasaHQ/rasa/actions) [](https://codeclimate.com/github/RasaHQ/rasa/) [](https://rasa.com/docs)\n\n[](https://app.fossa.com/projects/custom%2B8141%2Fgit%40github.com%3ARasaHQ%2Frasa.git?ref=badge_shield) [](https://github.com/orgs/RasaHQ/projects/23)\n\n💡 We're migrating issues to Jira 💡\n\nStarting January 2023, issues for Rasa Open Source are located in [this Jira board] https://rasa-open-source.atlassian.net/browse/OSS. You can browse issues without being logged in; if you want to create issues, you'll need to create a Jira account.",
+      "section": "Introduction (part 1)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.224070Z",
+    "updated_at": "2025-11-05T16:33:45.405487Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23375,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1598,
+    "annotations": [
+      {
+        "id": 10772,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 955,
+              "end": 982,
+              "text": "https://rasa.com/docs/rasa/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "cmEaAB_rUZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1372,
+              "end": 1547,
+              "text": "https://scholar.google.com/scholar?oi=bibs&hl=en&authuser=1&cites=16243802403383697687,353275993797024115,14567308604105196228,9067977709825839723,9855847065463746011&as_sdt=5",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "10HVaqmik_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1001,
+              "end": 1059,
+              "text": "https://rasa.com/docs/rasa/installation/environment-set-up",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "e9FE5bh4Gd",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:33:00.256205Z",
+        "updated_at": "2025-11-15T17:49:44.172671Z",
+        "draft_created_at": "2025-11-05T16:32:20.456800Z",
+        "lead_time": 88.715,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "7b645e8f-751d-43a8-aed9-6103ba27148e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1598,
+        "project": 23375,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Rasa is an open source machine learning framework to automate text and voice-based conversations. With Rasa, you can build contextual assistants on: Facebook Messenger\n\nSlack\n\nGoogle Hangouts\n\nWebex Teams\n\nMicrosoft Bot Framework\n\nRocket.Chat\n\nMattermost\n\nTelegram\n\nTwilio\n\nYour own custom conversational channels\n\nor voice assistants as: Alexa Skills\n\nGoogle Home Actions\n\nRasa helps you build contextual assistants capable of having layered conversations with lots of back-and-forth. In order for a human to have a meaningful exchange with a contextual assistant, the assistant needs to be able to use context to build on things that were previously discussed – Rasa enables you to build assistants that can do this in a scalable way.\n\nThere's a lot more background information in this [blog post] https://medium.com/rasa-blog/a-new-approach-to-conversational-software-2e64a5d05f2a.\n\n🤔 [Learn more about Rasa] https://rasa.community/\n\n🤓 [Read The Docs] https://rasa.com/docs/rasa/\n\n😁 [Install Rasa] https://rasa.com/docs/rasa/installation/environment-set-up\n\n🚀 [Dive deeper in the learning center] https://learning.rasa.com/\n\n🤗 [Contribute] #how-to-contribute\n\n❓ [Get enterprise-grade support] https://rasa.com/support/\n\n🏢 [Explore the features of our commercial platform] https://rasa.com/product/rasa-platform/\n\n📚 [Learn more about research papers that leverage Rasa] https://scholar.google.com/scholar?oi=bibs&hl=en&authuser=1&cites=16243802403383697687,353275993797024115,14567308604105196228,9067977709825839723,9855847065463746011&as_sdt=5",
+      "section": "Introduction (part 2)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.224173Z",
+    "updated_at": "2025-11-15T17:49:44.212327Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23375,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1599,
+    "annotations": [
+      {
+        "id": 10773,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 74,
+              "end": 100,
+              "text": "https://rasa.com/docs/rasa",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "xrkkxTPLV-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1407,
+              "end": 1413,
+              "text": "Poetry",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "aYVxPRj_HV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1512,
+              "end": 1518,
+              "text": "Poetry",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "FGSMA_LA0w",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:33:38.964618Z",
+        "updated_at": "2025-11-15T17:49:52.780881Z",
+        "draft_created_at": "2025-11-05T16:33:12.600623Z",
+        "lead_time": 42.922,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "0c1fbc10-e407-4089-9bc5-7f8bfd41d174",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1599,
+        "project": 23375,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Where to get help\n\nThere is extensive documentation in the [Rasa Docs] https://rasa.com/docs/rasa. Make sure to select the correct version so you are looking at the docs for the version you installed.\n\nPlease use [Rasa Community Forum] https://forum.rasa.com for quick answers to questions.\n\n### README Contents:\n\n[How to contribute] #how-to-contribute\n\n[Development Internals] #development-internals\n\n[Releases] #releases\n\n[License] #license\n\n### How to contribute\n\nWe are very happy to receive and merge your contributions into this repository!\n\nTo contribute via pull request, follow these steps:\n\nCreate an issue describing the feature you want to work on (or\n\nhave a look at the [contributor board] https://github.com/orgs/RasaHQ/projects/23) Write your code, tests and documentation, and format them with `black`\n\nCreate a pull request describing your changes\n\nFor more detailed instructions on how to contribute code, check out these [code contributor guidelines] CONTRIBUTING.md.\n\nYou can find more information about how to contribute to Rasa (in lots of different ways!) [on our website.] http://rasa.community.\n\nYour pull request will be reviewed by a maintainer, who will get back to you about any necessary changes or questions. You will also be asked to sign a [Contributor License Agreement] https://cla-assistant.io/RasaHQ/rasa.\n\n## Development Internals\n\n### Installing Poetry\n\nRasa uses Poetry for packaging and dependency management. If you want to build it from source, you have to install Poetry first. Please follow [the official guide] https://python-poetry.org/docs/#installation to see all possible options.\n\nTo update an existing poetry version to the [version] .github/poetry_version.txt, currently used in rasa, run:\n\npoetry self update",
+      "section": "Introduction (part 3)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.224213Z",
+    "updated_at": "2025-11-15T17:49:52.815094Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23375,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1600,
+    "annotations": [
+      {
+        "id": 10774,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 126,
+              "end": 131,
+              "text": "pyenv",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "83ZqCfSwzv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 133,
+              "end": 163,
+              "text": "https://github.com/pyenv/pyenv",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "L9BCkLQCh8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 314,
+              "end": 328,
+              "text": "Python 3.10.10",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "C1B1XbTwBP",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:34:33.738436Z",
+        "updated_at": "2025-11-17T00:15:43.799637Z",
+        "draft_created_at": "2025-11-05T16:34:02.948391Z",
+        "lead_time": 93.23100000000001,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "73518708-c68e-4b55-bb39-85dda1694eb2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1600,
+        "project": 23375,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Managing environments\n\nThe official [Poetry guide] https://python-poetry.org/docs/managing-environments/ suggests to use [pyenv] https://github.com/pyenv/pyenv or any other similar tool to easily switch between Python versions. This is how it can be done:\n\npyenv install 3.10.10 pyenv local 3.10.10 # Activate Python 3.10.10 for the current project\n\nNote: If you have trouble installing a specific version of python on your system it might be worth trying other supported versions.\n\nBy default, Poetry will try to use the currently activated Python version to create the virtual environment for the current project automatically. You can also create and activate a virtual environment manually — in this case, Poetry should pick it up and use it to install the dependencies. For example:\n\npython -m venv .venv source .venv/bin/activate\n\nYou can make sure that the environment is picked up by executing\n\npoetry env info\n\n### Building from source\n\nTo install dependencies and rasa itself in editable mode execute\n\nmake install\n\nNote for macOS users: under macOS Big Sur we've seen some compiler issues for dependencies. Using export SYSTEM_VERSION_COMPAT=1 before the installation helped.",
+      "section": "Introduction (part 4)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.224237Z",
+    "updated_at": "2025-11-17T00:15:43.836539Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23375,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1601,
+    "annotations": [
+      {
+        "id": 10775,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1339,
+              "end": 1344,
+              "text": "macOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "7WzW2KTOhU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1272,
+              "end": 1278,
+              "text": "Ubuntu",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "8MabKm93Pu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1283,
+              "end": 1289,
+              "text": "Debian",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "hzhd7mnYwQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:35:15.868334Z",
+        "updated_at": "2025-11-15T17:51:07.075261Z",
+        "draft_created_at": "2025-11-05T16:34:46.964003Z",
+        "lead_time": 61.175,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "40863b0d-bdc3-452a-b68e-c126c33c6bde",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1601,
+        "project": 23375,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### Installing optional dependencies\n\nIn order to install rasa's optional dependencies, you need to run:\n\nmake install-full\n\nNote for macOS users: The command make install-full could result in a failure while installing tokenizers (issue described in depth [here] https://github.com/huggingface/tokenizers/issues/1050).\n\nIn order to resolve it, you must follow these steps to install a Rust compiler:\n\nbrew install rustup rustup-init\n\nAfter initialising the Rust compiler, you should restart the console and check its installation:\n\nrustc --version\n\nIn case the PATH variable had not been automatically setup, run:\n\nexport PATH=\"$HOME/.cargo/bin:$PATH\"\n\n### Running and changing the documentation\n\nFirst of all, install all the required dependencies:\n\nmake install install-docs\n\nAfter the installation has finished, you can run and view the documentation locally using:\n\nmake livedocs\n\nIt should open a new tab with the local version of the docs in your browser; if not, visit http://localhost:3000 in your browser. You can now change the docs locally and the web page will automatically reload and apply your changes.\n\n### Running the Tests\n\nIn order to run the tests, make sure that you have the development requirements installed:\n\nmake prepare-tests-ubuntu # Only on Ubuntu and Debian based systems make prepare-tests-macos # Only on macOS\n\nThen, run the tests:\n\nmake test\n\nThey can also be run at multiple jobs to save some time:\n\nJOBS=[n] make test\n\nWhere [n] is the number of jobs desired. If omitted, [n] will be automatically chosen by pytest.",
+      "section": "Introduction (part 5)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.224260Z",
+    "updated_at": "2025-11-15T17:51:07.114026Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23375,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1602,
+    "annotations": [
+      {
+        "id": 10776,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 175,
+              "end": 181,
+              "text": "Ubuntu",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "bTLOpRzaIl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 186,
+              "end": 192,
+              "text": "Debian",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "oncS350y41",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 242,
+              "end": 247,
+              "text": "macOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "TtO6RRP8GO",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1206,
+              "end": 1211,
+              "text": "black",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "lOxxXcGbe1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1312,
+              "end": 1318,
+              "text": "pytype",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "minCsfDaAM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 324,
+              "end": 338,
+              "text": "Docker Compose",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "q7PMl76wdg",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 340,
+              "end": 380,
+              "text": "https://docs.docker.com/compose/install/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "gmTJiClVsI",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1213,
+              "end": 1242,
+              "text": "https://github.com/ambv/black",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "Ztzu-KMe4U",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1320,
+              "end": 1352,
+              "text": "https://github.com/google/pytype",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "yggLVZEpzj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:36:00.961486Z",
+        "updated_at": "2025-11-15T17:52:30.763655Z",
+        "draft_created_at": "2025-11-05T16:35:26.059898Z",
+        "lead_time": 91.148,
+        "prediction": {},
+        "result_count": 9,
+        "unique_id": "61f41c53-f1f0-4fb2-b515-396c6684a393",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1602,
+        "project": 23375,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Running the Integration Tests\n\nIn order to run the integration tests, make sure that you have the development requirements installed:\n\nmake prepare-tests-ubuntu # Only on Ubuntu and Debian based systems make prepare-tests-macos # Only on macOS\n\nThen, you'll need to start services with the following command which uses [Docker Compose] https://docs.docker.com/compose/install/:\n\nmake run-integration-containers\n\nFinally, you can run the integration tests like this:\n\nmake test-integration\n\n### Resolving merge conflicts\n\nPoetry doesn't include any solution that can help to resolve merge conflicts in the lock file poetry.lock by default. However, there is a great tool called [poetry-merge-lock] https://poetry-merge-lock.readthedocs.io/en/latest/. Here is how you can install it:\n\npip install poetry-merge-lock\n\nJust execute this command to resolve merge conflicts in poetry.lock automatically:\n\npoetry-merge-lock\n\n### Build a Docker image locally\n\nIn order to build a Docker image on your local machine execute the following command:\n\nmake build-docker\n\nThe Docker image is available on your local machine as rasa:localdev.\n\n### Code Style\n\nTo ensure a standardized code style we use the formatter [black] https://github.com/ambv/black. To ensure our type annotations are correct we use the type checker [pytype] https://github.com/google/pytype. If your code is not formatted properly or doesn't type check, GitHub will fail to build.",
+      "section": "Introduction (part 6)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.224283Z",
+    "updated_at": "2025-11-15T17:52:30.801694Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23375,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1603,
+    "annotations": [
+      {
+        "id": 10777,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 93,
+              "end": 103,
+              "text": "pre-commit",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "A6oU-_ufH0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 599,
+              "end": 609,
+              "text": "Docusaurus",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "62fF0GObbZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 611,
+              "end": 612,
+              "text": "2",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "YJysxdz6vO",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 105,
+              "end": 128,
+              "text": "https://pre-commit.com/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "K90icZsmC9",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 699,
+              "end": 711,
+              "text": "Node.js 12.x",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "NPK-sHU3aB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:36:32.574287Z",
+        "updated_at": "2025-11-17T00:16:08.347603Z",
+        "draft_created_at": "2025-11-05T16:36:15.007457Z",
+        "lead_time": 85.619,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "b9f091ef-afdb-4f13-934c-2992670c1a61",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1603,
+        "project": 23375,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### Formatting\n\nIf you want to automatically format your code on every commit, you can use [pre-commit] https://pre-commit.com/. Just install it via pip install pre-commit and execute pre-commit install in the root folder. This will add a hook to the repository, which reformats files on every commit.\n\nIf you want to set it up manually, install black via poetry install. To reformat files execute\n\nmake formatter\n\n#### Type Checking\n\nIf you want to check types on the codebase, install mypy using poetry install. To check the types execute\n\nmake types\n\n### Deploying documentation updates\n\nWe use Docusaurus v2 to build docs for tagged versions and for the main branch. To run Docusaurus, install Node.js 12.x. The static site that gets built is pushed to the documentation branch of this repo.\n\nWe host the site on netlify. On main branch builds (see .github/workflows/documentation.yml), we push the built docs to the documentation branch. Netlify automatically re-deploys the docs pages whenever there is a change to that branch.",
+      "section": "Introduction (part 7)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.224304Z",
+    "updated_at": "2025-11-17T00:16:08.383855Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23375,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1604,
+    "annotations": [
+      {
+        "id": 10778,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:36:39.344978Z",
+        "updated_at": "2025-11-05T16:36:39.344990Z",
+        "draft_created_at": null,
+        "lead_time": 6.586,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "feeb2812-5a8f-4813-a531-b9e484cdae88",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1604,
+        "project": 23375,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Releases\n\nRasa has implemented robust policies governing version naming, as well as release pace for major, minor, and patch releases.\n\nThe values for a given version number (MAJOR.MINOR.PATCH) are incremented as follows: MAJOR version for incompatible API changes or other breaking changes.\n\nMINOR version for functionality added in a backward compatible manner.\n\nPATCH version for backward compatible bug fixes.\n\nThe following table describes the version types and their expected release cadence:\n\n| Version Type | Description | Target Cadence | |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------| | Major | For significant changes, or when any backward-incompatible changes are introduced to the API or data model. | Every 1 - 2 yrs | | Minor | For when new backward-compatible functionality is introduced, a minor feature is introduced, or when a set of smaller features is rolled out. | +/- Quarterly | | Patch | For backward-compatible bug fixes that fix incorrect behavior. | As needed |\n\nWhile this table represents our target release frequency, we reserve the right to modify it based on changing market conditions and technical requirements.",
+      "section": "Introduction (part 8)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.224326Z",
+    "updated_at": "2025-11-05T16:36:39.368707Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23375,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1605,
+    "annotations": [
+      {
+        "id": 10779,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:36:53.052533Z",
+        "updated_at": "2025-11-05T16:36:53.052547Z",
+        "draft_created_at": null,
+        "lead_time": 13.552,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "1419c8a9-a9e0-4695-8d67-84ad9f39d38f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1605,
+        "project": 23375,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Maintenance Policy\n\nOur End of Life policy defines how long a given release is considered supported, as well as how long a release is considered to be still in active development or maintenance.\n\nThe maintentance duration and end of life for every release are shown on our website as part of the [Product Release and Maintenance Policy] https://rasa.com/rasa-product-release-and-maintenance-policy/.\n\n### Cutting a Major / Minor release\n\n#### A week before release day\n\nMake sure the [milestone] https://github.com/RasaHQ/rasa/milestones already exists and is scheduled for the\n\ncorrect date. Take a look at the issues & PRs that are in the milestone: does it look about right for the release highlights\n\nwe are planning to ship? Does it look like anything is missing? Don't worry about being aware of every PR that should be in, but it's useful to take a moment to evaluate what's assigned to the milestone. Post a message on the engineering Slack channel, letting the team know you'll be the one cutting the upcoming\n\nrelease, as well as: Providing the link to the appropriate milestone\n\nReminding everyone to go over their issues and PRs and please assign them to the milestone\n\nReminding everyone of the scheduled date for the release",
+      "section": "Introduction (part 9)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.224348Z",
+    "updated_at": "2025-11-05T16:36:53.074545Z",
+    "inner_id": 9,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23375,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1606,
+    "annotations": [
+      {
+        "id": 10780,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:36:58.930592Z",
+        "updated_at": "2025-11-05T16:36:58.930606Z",
+        "draft_created_at": null,
+        "lead_time": 5.69,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "494988f6-e11f-4011-9f5a-6f160598166c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1606,
+        "project": 23375,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### A day before release day\n\nGo over the milestone and evaluate the status of any PR merging that's happening. Follow up with people on their\n\nbugs and fixes. If the release introduces new bugs or regressions that can't be fixed in time, we should discuss on Slack about this and take a decision on how to move forward. If the issue is not ready to be merged in time, we remove the issue / PR from the milestone and notify the PR owner and the product manager on Slack about it. The PR / issue owners are responsible for communicating any issues which might be release relevant. Postponing the release should be considered as an edge case scenario.\n\n#### Release day! 🚀\n\nAt the start of the day, post a small message on slack announcing release day! Communicate you'll be handling\n\nthe release, and the time you're aiming to start releasing (again, no later than 4pm, as issues may arise and cause delays). This message should be posted early in the morning and before moving forward with any of the steps of the release,  in order to give enough time to people to check their PRs and issues. That way they can plan any remaining work. A template of the slack message can be found [here] https://rasa-hq.slack.com/archives/C36SS4N8M/p1613032208137500?thread_ts=1612876410.068400&cid=C36SS4N8M.  The release time should be communicated transparently so that others can plan potentially necessary steps accordingly. If there are bigger changes this should be communicated. Make sure the milestone is empty (everything has been either merged or moved to the next milestone)\n\nOnce everything in the milestone is taken care of, post a small message on Slack communicating you are about to\n\nstart the release process (in case anything is missing). You may now do the release by following the instructions outlined in the\n\n[Rasa Open Source README] #steps-to-release-a-new-version !",
+      "section": "Introduction (part 10)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.224371Z",
+    "updated_at": "2025-11-05T16:36:58.956557Z",
+    "inner_id": 10,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23375,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1607,
+    "annotations": [
+      {
+        "id": 10781,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:37:00.882479Z",
+        "updated_at": "2025-11-05T16:37:00.882499Z",
+        "draft_created_at": null,
+        "lead_time": 1.756,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b5202e56-30ad-4f50-9290-4444d3f91592",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1607,
+        "project": 23375,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### After a Major release\n\nAfter a Major release has been completed, please follow [these instructions to complete the documentation update] ./docs/README.md#manual-steps-after-a-new-version.",
+      "section": "Introduction (part 11)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.224392Z",
+    "updated_at": "2025-11-05T16:37:00.912355Z",
+    "inner_id": 11,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23375,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1608,
+    "annotations": [
+      {
+        "id": 10782,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:37:02.380753Z",
+        "updated_at": "2025-11-05T16:37:02.380776Z",
+        "draft_created_at": null,
+        "lead_time": 1.33,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "96d2bf9f-3f79-4d10-a11a-c2eb799a99ee",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1608,
+        "project": 23375,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Steps to release a new version\n\nReleasing a new version is quite simple, as the packages are build and distributed by GitHub Actions.",
+      "section": "Introduction (part 12)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.224411Z",
+    "updated_at": "2025-11-05T16:37:02.410915Z",
+    "inner_id": 12,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23375,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1609,
+    "annotations": [
+      {
+        "id": 10783,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:37:17.265543Z",
+        "updated_at": "2025-11-05T16:37:17.265559Z",
+        "draft_created_at": null,
+        "lead_time": 14.714,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "17699da9-3c30-414c-8db7-e54af13631fa",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1609,
+        "project": 23375,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Release steps: Make sure all dependencies are up to date (especially Rasa SDK)\n\nFor Rasa SDK, except in the case of a patch release, that means first creating a [new Rasa SDK release] https://github.com/RasaHQ/rasa-sdk#steps-to-release-a-new-version (make sure the version numbers between the new Rasa and Rasa SDK releases match)\n\nOnce the tag with the new Rasa SDK release is pushed and the package appears on [pypi] https://pypi.org/project/rasa-sdk/, the dependency in the rasa repository can be resolved (see below).\n\nIf this is a minor / major release: Make sure all fixes from currently supported minor versions have been merged from their respective release branches (e.g. 3.3.x) back into main.\n\nIn case of a minor release, create a new branch that corresponds to the new release, e.g.\n\n``bash  git checkout -b 1.2.x  git push origin 1.2.x  ` Switch to the branch you want to cut the release from (main in case of a major, the ..x branch for minors and patches)\n\nUpdate the rasa-sdk entry in pyproject.toml with the new release version and run poetry update. This creates a new poetry.lock file with all dependencies resolved.\n\nCommit the changes with git commit -am \"bump rasa-sdk dependency\" but do not push them. They will be automatically picked up by the following step.\n\nIf this is a major release, update the list of actively maintained versions [in the README] #actively-maintained-versions and in [the docs] ./docs/docs/actively-maintained-versions.mdx.\n\nRun make release\n\nCreate a PR against the release branch (e.g. 1.2.x)\n\nOnce your PR is merged, tag a new release (this SHOULD always happen on the release branch), e.g. using\n\n`bash  git checkout 1.2.x  git pull origin 1.2.x  git tag 1.2.0 -m \"next release\"  git push origin 1.2.0 --tags  ``",
+      "section": "Introduction (part 13)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.224433Z",
+    "updated_at": "2025-11-05T16:37:17.289102Z",
+    "inner_id": 13,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23375,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1610,
+    "annotations": [
+      {
+        "id": 10784,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:37:26.132603Z",
+        "updated_at": "2025-11-05T16:37:26.132615Z",
+        "draft_created_at": null,
+        "lead_time": 8.69,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "29ea15a9-f2b7-4016-8d80-d248f82617d8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1610,
+        "project": 23375,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "GitHub will build this tag and publish the build artifacts. After all the steps are completed and if everything goes well then we should see a message automatically posted in the company's Slack (product channel) like this [one] https://rasa-hq.slack.com/archives/C7B08Q5FX/p1614354499046600\n\nIf no message appears in the channel then you can do the following checks:\n\nCheck the workflows in [Github Actions] https://github.com/RasaHQ/rasa/actions and make sure that the merged PR of the current release is completed successfully. To easily find your PR you can use the filters event: push and branch: (example on release 2.4 you can see [here] https://github.com/RasaHQ/rasa/actions/runs/643344876)\n\nIf the workflow is not completed, then try to re run the workflow in case that solves the problem\n\nIf the problem persists, check also the log files and try to find the root cause of the issue\n\nIf you still cannot resolve the error, contact the infrastructure team by providing any helpful information from your investigation\n\nAfter the message is posted correctly in the product channel, check also in the product-engineering-alerts channel if there are any alerts related to the Rasa Open Source release like this [one] https://rasa-hq.slack.com/archives/C01585AN2NP/p1615486087001000",
+      "section": "Introduction (part 14)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.224482Z",
+    "updated_at": "2025-11-05T16:37:26.156038Z",
+    "inner_id": 14,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23375,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1611,
+    "annotations": [
+      {
+        "id": 10785,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:37:32.040251Z",
+        "updated_at": "2025-11-05T16:37:32.040262Z",
+        "draft_created_at": null,
+        "lead_time": 5.747,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "64f7cefe-53eb-4292-b280-271532696b4a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1611,
+        "project": 23375,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Cutting a Patch release\n\nPatch releases are simpler to cut, since they are meant to contain only bugfixes.\n\nThe only things you need to do to cut a patch release are:\n\nNotify the engineering team on Slack that you are planning to cut a patch, in case someone has an important fix\n\nto add. Make sure the bugfix(es) are in the release branch you will use (p.e if you are cutting a 2.0.4 patch, you will\n\nneed your fixes to be on the 2.0.x release branch). All patch releases must come from a .x branch! Once you're ready to release the Rasa Open Source patch, checkout the branch, run make release and follow the\n\nsteps + get the PR merged. Once the PR is in, pull the .x branch again and push the tag!\n\n### Additional Release Tasks\n\nNote: This is only required if the released version is the highest version available. For instance, perform the following steps when version > [version] https://github.com/RasaHQ/rasa/blob/main/rasa/version.py on main.\n\nIn order to check compatibility between the new released Rasa version to the latest version of Rasa X/Enterprise, we perform the following steps: Following a new Rasa release, an automated pull request is created in [Rasa-X-Demo] https://github.com/RasaHQ/rasa-x-demo/pulls.\n\nOnce the above PR is merged, follow instructions [here] https://github.com/RasaHQ/rasa-x-demo/blob/master/.github/VERSION_BUMPER_PR_COMMENT.md, to release a version.\n\nUpdate the new version in the Rasa X/Enterprise [env file] https://github.com/RasaHQ/rasa-x/blob/main/.env.\n\nThe [Rasa-X-Demo] https://github.com/RasaHQ/rasa-x-demo project uses the new updated Rasa version to train and test a model which in turn is used by our CI to run tests in the Rasa X/Enterprise repository,  thus validating compatibility between Rasa and Rasa X/Enterprise.",
+      "section": "Introduction (part 15)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.224521Z",
+    "updated_at": "2025-11-05T16:37:32.061967Z",
+    "inner_id": 15,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23375,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1612,
+    "annotations": [
+      {
+        "id": 10786,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 200,
+              "end": 227,
+              "text": "Apache License, Version 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "PsOnzMSjsY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:37:48.019259Z",
+        "updated_at": "2025-11-05T16:37:48.019277Z",
+        "draft_created_at": "2025-11-05T16:37:46.023334Z",
+        "lead_time": 15.812,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "bc75c686-b753-4d87-84a0-d728de3473aa",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1612,
+        "project": 23375,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Actively maintained versions\n\nPlease refer to the [Rasa Product Release and Maintenance Policy] https://rasa.com/rasa-product-release-and-maintenance-policy/ page.\n\n## License\n\nLicensed under the Apache License, Version 2.0. Copyright 2022 Rasa Technologies GmbH. [Copy of the license] LICENSE.txt.\n\nA list of the Licenses of the dependencies of the project can be found at the bottom of the [Libraries Summary] https://libraries.io/github/RasaHQ/rasa.",
+      "section": "Introduction (part 16)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.224552Z",
+    "updated_at": "2025-11-05T16:37:48.051106Z",
+    "inner_id": 16,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23375,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

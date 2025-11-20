@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "# CANFAR Processing Scripts\n\nThis repository is intended to contain:  scripts to help user setup the VM on CANFAR (in worker directory)  scripts and configuration to setup a central manager for batch processing (in manager directory)",
+      "section": "README",
+      "repo": "231_Canadian_Advanced_Network_for_Astronomical_Research__CANFAR_",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+# YAML 1.2
+# Metadata for citation of this software according to the CFF format (https://citation-file-format.github.io/)
+cff-version: 1.2.0
+message: If you use this software, please cite it using these metadata.
+title: 'Integrated Omics for MEtabolomics and Genomics Annotation: Pairing Omics Data Platform'
+doi: 10.5281/zenodo.2656630
+authors:
+- given-names: Stefan
+  family-names: Verhoeven
+  affiliation: Netherlands eScience Center
+  orcid: https://orcid.org/0000-0002-5821-2060
+- given-names: Michelle
+  family-names: Schorn
+  affiliation: Wageningen University and Research Center
+  orcid: https://orcid.org/0000-0001-8144-6052
+- given-names: Justin
+  family-names: van der Hooft
+  affiliation: Wageningen University and Research Center
+  orcid: https://orcid.org/0000-0002-9340-5511
+repository-code: https://github.com/iomega/paired-data-form
+license: Apache-2.0

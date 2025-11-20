@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/SMEISEN/AutoPQ",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/SMEISEN/AutoPQ/zipball/main",
+  "author": "SMEISEN",
+  "dateCreated": "2024-06-11T17:46:43Z",
+  "dateModified": "2025-03-13T20:54:35Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "This repository contains the Python implementation of AutoPQ for automated point forecast-based quantile forecasts.",
+  "identifier": 813766924,
+  "name": "SMEISEN/AutoPQ",
+  "issueTracker": "https://api.github.com/repos/SMEISEN/AutoPQ/issues",
+  "readme": "https://github.com/SMEISEN/AutoPQ/blob/main/README.md"
+}

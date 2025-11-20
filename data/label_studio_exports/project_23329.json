@@ -1,0 +1,195 @@
+[
+  {
+    "id": 1351,
+    "annotations": [
+      {
+        "id": 10929,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 36,
+              "end": 82,
+              "text": "https://zenodo.org/doi/10.5281/zenodo.10213943",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "SoRklSX1RM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 400,
+              "end": 442,
+              "text": "https://doi.org/10.4230/LIPIcs.SAT.2024.18",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "tiog8sVjxZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1224,
+              "end": 1268,
+              "text": "https://udopia.github.io/gbdc/doc/Index.html",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "bk0HKgAFP-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:54:15.805499Z",
+        "updated_at": "2025-11-15T17:06:32.254107Z",
+        "draft_created_at": "2025-11-05T17:53:42.602698Z",
+        "lead_time": 48.124,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "3328fccf-4718-40ab-9bb9-6eafb1895409",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1351,
+        "project": 23329,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Global Benchmark Database (GBD)\n\n[](https://zenodo.org/doi/10.5281/zenodo.10213943)\n\nGBD is a comprehensive suite of tools for provisioning and sustainably maintaining benchmark instances and their metadata for empirical research on hard algorithmic problem classes. For an introduction to the GBD concept, the underlying data model, and specific use cases, please refer to our [2024 SAT Tool Paper] https://doi.org/10.4230/LIPIcs.SAT.2024.18.\n\n## GBD contributes data to your algorithmic evaluations\n\nGBD provides benchmark instance identifiers, feature extractors, and instance transformers for hard algorithmic problem domains, now including propositional satisfiability (SAT) and optimization (MaxSAT), and pseudo-Boolean optimization (PBO).\n\n## GBD solves several problems\n\nbenchmark instance identification\n\nidentification of equivalence classes of benchmark instances\n\ndistribution of benchmark instances and benchmark metadata\n\ninitialization and maintenance of instance feature databases\n\ntransformation algorithms for benchmark instances\n\nGBD provides an extensible set of problem domains, feature extractors, and instance transformers. For a description of those currently supported, see the [GBDC documentation] https://udopia.github.io/gbdc/doc/Index.html. GBDC is a Python extension module for GBD's performance-critical code (written in C++), maintained in a separate [repository] https://github.com/Udopia/gbdc.",
+      "section": "Global Benchmark Database (GBD) (part 1)",
+      "repo": "182_Global_Benchmark_Database__GBD_",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.995346Z",
+    "updated_at": "2025-11-15T17:06:32.289042Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23329,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1352,
+    "annotations": [
+      {
+        "id": 10930,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:54:19.971153Z",
+        "updated_at": "2025-11-05T17:54:19.971175Z",
+        "draft_created_at": null,
+        "lead_time": 3.974,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c53490c7-e19a-44d8-8992-db71605aaae8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1352,
+        "project": 23329,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Installation and Configuration\n\nRun pip install gbd-tools\n\nRun pip install gbdc (optional, installation of extension module gbdc)\n\nObtain a GBD database, e.g. download [https://benchmark-database.de/getdatabase/meta.db] https://benchmark-database.de/getdatabase/meta.db.\n\nConfigure your environment by registering paths to databases like this export GBD_DB=path/to/database1:path/to/database2.\n\nTest the command line interface with the gbd info and gbd --help commands.\n\n## GBD Interfaces\n\nGBD provides the command-line tool gbd, the web interface gbd serve, and the Python interface gbd_core.api.GBD.\n\n### GBD Command-Line Interface\n\nCentral commands in gbd are those for data access gbd get and database initialization gbd init. See gbd --help for more commands. Once a database is registered in the environment variable GBD_DB, the gbd get command can be used to access data. See gbd get --help for more information. gbd init provides access to registered feature extractors, such as those provided by the gdbc extension module. All initialization routines can be run in parallel, and resource limits can be set per process. See gbd init --help for more information.\n\n### GBD Server\n\nThe GBD server can be started locally with gbd serve. Our instance of the GBD server is hosted at [https://benchmark-database.de/] https://benchmark-database.de/. You can download benchmark instances and prebuilt feature databases from there.",
+      "section": "Global Benchmark Database (GBD) (part 2)",
+      "repo": "182_Global_Benchmark_Database__GBD_",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.995400Z",
+    "updated_at": "2025-11-05T17:54:20.003542Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23329,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1353,
+    "annotations": [
+      {
+        "id": 10931,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:54:22.003328Z",
+        "updated_at": "2025-11-05T17:54:22.003338Z",
+        "draft_created_at": null,
+        "lead_time": 1.848,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f16c7a68-0a7d-48c0-8e08-d5bb18bdc0c9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1353,
+        "project": 23329,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### GBD Python Interface\n\nThe GBD Python interface is used by all programs in the GBD ecosystem. Important here is the query command, which returns GBD data in the form of a Pandas dataframe for further analysis, as shown in the following example.\n\nfrom gbd_core.api import GBD with GBD(['path/to/database1', 'path/to/database2', ..] as gbd:  df = gbd.query(\"family = hardware-bmc\", resolve=['verified-result', 'runtime-kissat'])\n\nScripts and use cases of GBD's Python interface are available on [https://udopia.github.io/gbdeval/] https://udopia.github.io/gbdeval/. The [evaluation demo] https://udopia.github.io/gbdeval/demo_evaluation.html demonstrates portfolio analysis and subsequent category-wise performance evaluation using the 2023 SAT competition data. The [prediction demo] https://udopia.github.io/gbdeval/demo_prediction.html demonstrates category prediction from instance features and subsequent feature importance evaluation.",
+      "section": "Global Benchmark Database (GBD) (part 3)",
+      "repo": "182_Global_Benchmark_Database__GBD_",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.995424Z",
+    "updated_at": "2025-11-05T17:54:22.025830Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23329,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

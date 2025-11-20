@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/EwoutH/shipping-data",
+  "programmingLanguage": "HTML",
+  "programmingLanguages": [
+    "HTML",
+    "Jupyter Notebook",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/EwoutH/shipping-data/zipball/main",
+  "author": "EwoutH",
+  "dateCreated": "2022-09-26T13:11:28Z",
+  "dateModified": "2024-11-13T01:08:08Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "A public collection of shipping data from South Africa to The Netherlands",
+  "identifier": 541593611,
+  "name": "EwoutH/shipping-data",
+  "issueTracker": "https://api.github.com/repos/EwoutH/shipping-data/issues",
+  "readme": "https://github.com/EwoutH/shipping-data/blob/main/README.md"
+}

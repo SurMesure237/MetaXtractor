@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/caselawanalytics/CaseLawAnalytics",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "HTML",
+    "CSS"
+  ],
+  "downloadUrl": "https://api.github.com/repos/caselawanalytics/CaseLawAnalytics/zipball/main",
+  "author": "caselawanalytics",
+  "dateCreated": "2016-10-11T12:16:05Z",
+  "dateModified": "2024-02-04T20:39:35Z",
+  "keywords": [],
+  "license": null,
+  "description": null,
+  "identifier": 70590009,
+  "name": "caselawanalytics/CaseLawAnalytics",
+  "issueTracker": "https://api.github.com/repos/caselawanalytics/CaseLawAnalytics/issues",
+  "readme": "https://github.com/caselawanalytics/CaseLawAnalytics/blob/master/README.md"
+}

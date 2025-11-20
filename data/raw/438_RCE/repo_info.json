@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/rcenvironment/rce",
+  "programmingLanguage": null,
+  "programmingLanguages": [],
+  "downloadUrl": "https://api.github.com/repos/rcenvironment/rce/zipball/main",
+  "author": "rcenvironment",
+  "dateCreated": "2015-08-19T11:58:12Z",
+  "dateModified": "2025-06-06T13:58:34Z",
+  "keywords": [
+    "aerospace",
+    "distributed-computing",
+    "distributed-systems",
+    "rce",
+    "rocket-science",
+    "workflow-engine"
+  ],
+  "license": null,
+  "description": "Distributed, workflow-driven integration environment",
+  "identifier": 41031201,
+  "name": "rcenvironment/rce",
+  "issueTracker": "https://api.github.com/repos/rcenvironment/rce/issues",
+  "readme": "https://github.com/rcenvironment/rce/blob/master/README.md"
+}

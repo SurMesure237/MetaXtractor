@@ -1,0 +1,162 @@
+[
+  {
+    "id": 2282,
+    "annotations": [
+      {
+        "id": 10182,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 136,
+              "end": 174,
+              "text": "https://doi.org/10.5281/zenodo.3252665",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "SfKDyBNF6R",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 180,
+              "end": 234,
+              "text": "https://era5cli.readthedocs.io/en/stable/?badge=stable",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "HppFrhCVNL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:16:48.356518Z",
+        "updated_at": "2025-11-14T09:26:32.991196Z",
+        "draft_created_at": "2025-11-03T06:16:26.734517Z",
+        "lead_time": 61.902,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "b749c363-16a4-4155-be3f-e46c151908a8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2282,
+        "project": 23513,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/eWaterCycle/era5cli) [](https://research-software-directory.org/software/era5cli) [](https://fair-software.eu) [](https://doi.org/10.5281/zenodo.3252665)\n\n[](https://era5cli.readthedocs.io/en/stable/?badge=stable) [](https://github.com/eWaterCycle/era5cli/actions/workflows/test_and_build.yml) [](https://codecov.io/gh/eWaterCycle/era5cli) [](https://badge.fury.io/py/era5cli)\n\n[!IMPORTANT] The old Climate Data Store (CDS) has been shut down. All era5cli versions up to v1.4.2 will no longer work.\n\nFor more information see: https://forum.ecmwf.int/t/goodbye-legacy-climate-data-store-hello-new-climate-data-store-cds/6380/14\n\nTo continue using era5cli, you will need to re-register at ECMWF and get a new API key, and transition to era5cli version 2. This can be installed with: pip install era5cli==2.0.1\n\n[!WARNING] netCDF files from the new Climate Data Store Beta are not formatted the same as the old CDS. Some variables might be missing. See the open issue [here] https://github.com/eWaterCycle/era5cli/issues/165, as well as the [ECMWF discussion forum] https://forum.ecmwf.int/.",
+      "section": "Introduction (part 1)",
+      "repo": "292_era5cli",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.760976Z",
+    "updated_at": "2025-11-14T09:26:33.027628Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23513,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2283,
+    "annotations": [
+      {
+        "id": 10183,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 572,
+              "end": 599,
+              "text": "Apache Software License 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "xlfgNHqqkk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 616,
+              "end": 646,
+              "text": "https://era5cli.readthedocs.io",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "pSPWfrNU6C",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:17:11.054241Z",
+        "updated_at": "2025-11-14T09:26:42.449954Z",
+        "draft_created_at": "2025-11-03T06:16:58.880691Z",
+        "lead_time": 29.533,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "4932e707-4418-4821-b507-52d0872ad1b6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2283,
+        "project": 23513,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "A command line interface to download ERA5 data from the [Copernicus Climate Data Store]().\n\nWith era5cli you can:\n\nDownload meteorological data in GRIB/NetCDF, including ERA5 data from the preliminary back extension, and ERA5-Land data.\n\nList and retrieve information on available variables and pressure levels\n\nSelect multiple variables for several months and years\n\nSplit outputs by years (and optionally months), producing a separate files instead of merging them in one file\n\nDownload multiple files at once\n\nExtract data for a sub-region of the globe\n\nFree software: Apache Software License 2.0\n\nDocumentation: https://era5cli.readthedocs.io",
+      "section": "Introduction (part 2)",
+      "repo": "292_era5cli",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.761021Z",
+    "updated_at": "2025-11-14T09:26:42.481996Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23513,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

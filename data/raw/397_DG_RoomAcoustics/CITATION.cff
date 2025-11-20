@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Schlömer"
+  given-names: "Nico"
+  orcid: "https://orcid.org/0000-0001-5228-0946"
+title: "meshio: Tools for mesh files"
+doi: 10.5281/zenodo.1173115
+url: https://github.com/nschloe/meshio
+license: MIT

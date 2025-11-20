@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": "[](https://varfish-server.readthedocs.io/en/latest/?badge=latest) [](https://codecov.io/gh/varfish-org/varfish-server) [](https://opensource.org/licenses/MIT)",
+      "section": "Introduction",
+      "repo": "219_VarFish",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "VarFish\n\nComprehensive DNA variant analysis for diagnostics and research.\n\nThis is the repository for the web server component.\n\nHoltgrewe, M.; Stolpe, O.; Nieminen, M.; Mundlos, S.; Knaus, A.; Kornak, U.; Seelow, D.; Segebrecht, L.; Spielmann, M.; Fischer-Zirnsak, B.; Boschann, F.; Scholl, U.; Ehmke, N.; Beule, D. VarFish: Comprehensive DNA Variant Analysis for Diagnostics and Research. Nucleic Acids Research 2020, gkaa241. .\n\n## Getting Started\n\n[VarFish Homepage] https://www.cubi.bihealth.org/software/varfish/\n\n[Manual] https://varfish-server.readthedocs.io/en/latest/\n\n[Installation Instructions] https://varfish-server.readthedocs.io/en/latest/admin_install.html.\n\n[Docker Compose Installer] https://github.com/varfish-org/varfish-docker-compose#run-varfish-server-using-docker-compose.\n\n## VarFish Repositories\n\n[varfish-server] https://github.com/varfish-org/varfish-server The VarFish Server is the web frontend used by the end users / data analysts.\n\n[varfish-annotator] https://github.com/varfish-org/varfish-annotator The VarFish Annotator is a command line utility used for annotating VCF files and converting them to files that can be imported into VarFish Server.\n\n[varfish-cli] https://github.com/varfish-org/varfish-cli The VarFish Command Line Interface allows to import data through the VarFish REST API.\n\n[varfish-db-downloader] https://github.com/varfish-org/varfish-db-downloader The VarFish DB Downloader is a command line tool for downloading the background database.\n\n[varfish-docker-compose] https://github.com/varfish-org/varfish-docker-compose Quickly get started running a VarFish server by using Docker Compose. We provide a prebuilt data set with some already imported data.",
+      "section": "VarFish (part 1)",
+      "repo": "219_VarFish",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## At a Glance\n\nLicense: MIT\n\nDependencies / Tech Stack\n\nPython \\>=3.8\n\nDjango 3\n\nPostgreSQL \\>=12\n\nGitHub is used for public issue tracking. Currently, development happens on internal infrastructure.\n\n## VarFish Component Compatibility Table\n\nThe following combinations have been validated / are supported to work.\n\n| VarFish Server | VarFish CLI | VarFish Annotator | | -------------- | ----------- | ----------------- | | v1.2.2 | v0.3.0 | v0.21 | | v1.2.1 | v0.3.0 | v0.21 | | v1.2.0 | v0.3.0 | v0.21 |\n\n## VarFish Data Release Compatibility Table\n\nThe following combinations have been validated / are supported to work.\n\n| VarFish Server | Data Release | VarFish DB Downloader | | -------------- | ------------ | --------------------- | | v1.2.2 | 20210728c | v0.3.\\ | | v1.2.1 | 20210728 | v0.3.\\ | | v1.2.1 | 20210728b | v0.3.\\ | | v1.2.0 | 20210728 | v0.3.\\ | | v1.2.0 | 20210728b | v0.3.\\* |",
+      "section": "VarFish (part 2)",
+      "repo": "219_VarFish",
+      "source_file": "readme.md"
+    }
+  }
+]

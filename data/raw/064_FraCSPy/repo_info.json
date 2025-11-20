@@ -1,0 +1,30 @@
+{
+  "codeRepository": "https://github.com/FraCSPy/FraCSPy",
+  "programmingLanguage": "GLSL",
+  "programmingLanguages": [
+    "GLSL",
+    "Python",
+    "Shell",
+    "Batchfile",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/FraCSPy/FraCSPy/zipball/main",
+  "author": "FraCSPy",
+  "dateCreated": "2023-03-27T06:54:39Z",
+  "dateModified": "2025-05-15T01:59:10Z",
+  "keywords": [
+    "earthquake",
+    "microseismic",
+    "microseismic-imaging",
+    "microseismicity",
+    "monitoring",
+    "passive-seismic",
+    "seismic"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "The main repository for FraCSPy (Framework for Conventional microSeismic Processing), an open-source Python library focused on providing conventional microseismic monitoring tools",
+  "identifier": 619447827,
+  "name": "FraCSPy/FraCSPy",
+  "issueTracker": "https://api.github.com/repos/FraCSPy/FraCSPy/issues",
+  "readme": "https://github.com/FraCSPy/FraCSPy/blob/main/README.md"
+}

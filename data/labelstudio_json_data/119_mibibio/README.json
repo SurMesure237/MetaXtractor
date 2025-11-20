@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "# mibibio\n\n[](https://github.com/MiBiPreT/mibibio) [](https://github.com/MiBiPreT/mibibio) [](https://www.research-software.nl/software/mibibio) [](https://doi.org/10.5281/zenodo.15174211) [](https://github.com/MiBiPreT/mibibio/actions/workflows/cffconvert.yml) [](https://github.com/MiBiPreT/mibibio/actions/workflows/markdown-link-check.yml)\n\nCollection of microbial analysis workflows to investigate microbiological community structure, characteristics and their degradation potential.\n\n## Getting a copy of mibibio\n\nTo get a copy of the mibibio repository, do:\n\ngit clone git@github.com:MiBiPreT/mibibio.git cd mibibio\n\n## Method Overview\n\nYou can find the overview of the methods implemented for comprehensive statistical, visual and meta-analysis of large and complex microbiome datasets [here] ./docs/methods/methods.md\n\n## Contributing\n\nIf you want to contribute to the development of mibibio, have a look at the [contribution guidelines] CONTRIBUTING.md.",
+      "section": "README",
+      "repo": "119_mibibio",
+      "source_file": "readme.md"
+    }
+  }
+]

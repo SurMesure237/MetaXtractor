@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/peng-lab/BaSiCPy",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/peng-lab/BaSiCPy/zipball/main",
+  "author": "peng-lab",
+  "dateCreated": "2021-04-08T14:45:30Z",
+  "dateModified": "2025-10-01T09:41:32Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": null,
+  "identifier": 355945893,
+  "name": "peng-lab/BaSiCPy",
+  "issueTracker": "https://api.github.com/repos/peng-lab/BaSiCPy/issues",
+  "readme": "https://github.com/peng-lab/BaSiCPy/blob/main/README.md"
+}

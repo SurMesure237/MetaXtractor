@@ -1,0 +1,871 @@
+[
+  {
+    "id": 2464,
+    "annotations": [
+      {
+        "id": 10096,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 222,
+              "end": 266,
+              "text": "https://zenodo.org/badge/latestdoi/472769298",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "TyJr8occc1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 677,
+              "end": 725,
+              "text": "https://github.com/KonradHoeffner/rickview-paper",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "ChTtzEFIwA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:36:14.396978Z",
+        "updated_at": "2025-11-03T05:36:14.397000Z",
+        "draft_created_at": "2025-11-03T05:35:32.918634Z",
+        "lead_time": 69.695,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "3cae02ba-3985-4c7a-999b-38be54e18489",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2464,
+        "project": 23549,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "RickView\n\n[](https://crates.io/crates/rickview) [](https://github.com/konradhoeffner/rickview/actions/workflows/lint_and_build.yml)\n\n[](https://www.youtube.com/watch?v=n8Kb2P8ilwg&t=8250s) [](https://saxfdm.de/wrapup/) [](https://zenodo.org/badge/latestdoi/472769298) [](https://archive.softwareheritage.org/swh:1:dir:1b84548b658e9c6752760e1796a36f9d217f3ba3;origin=https://github.com/KonradHoeffner/rickview;visit=swh:1:snp:782268deea403d27c2cc92fe981732aacf4be55a;anchor=swh:1:rev:2cdfe8d6b503db518ec2f01e59f93eedb378f7ce)\n\nEasy to deploy low-resource stand-alone RDF knowledge graph browser written in Rust. No SPARQL endpoint needed! See also the unpublished [paper draft] https://github.com/KonradHoeffner/rickview-paper. Layout copied from [LodView] https://github.com/LodLive/LodView.\n\n## Current deployments\n\nFeel free to browse around!\n\n[SNIK &mdash; Semantic Network of Hospital Information Management] https://www.snik.eu/ontology/bb  [HITO &mdash; Health IT Ontology] https://hitontology.eu/ontology/  [ANNO &mdash; Anthropological Notation Ontology] https://annosaxfdm.de/ontology/  [LinkedSpending] https://linkedspending.aksw.org/",
+      "section": "RickView (part 1)",
+      "repo": "101_RickView",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.505397Z",
+    "updated_at": "2025-11-03T05:36:14.424361Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23549,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2465,
+    "annotations": [
+      {
+        "id": 10097,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 163,
+              "end": 168,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "sI01S3cbul",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 340,
+              "end": 347,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "15BvxzVdjp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 309,
+              "end": 314,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "e18-YPyFwX",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 397,
+              "end": 402,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "4frNMSMNYh",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 207,
+              "end": 212,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "sLr4zfXxpU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 279,
+              "end": 284,
+              "text": "Apple",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "mNWXah858G",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 365,
+              "end": 370,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "r-Ww-Fb17z",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:37:18.086431Z",
+        "updated_at": "2025-11-03T05:37:18.086447Z",
+        "draft_created_at": "2025-11-03T05:36:34.190742Z",
+        "lead_time": 63.508,
+        "prediction": {},
+        "result_count": 7,
+        "unique_id": "7d147450-14e3-4a1c-a9f2-a8e3ff0fd389",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2465,
+        "project": 23549,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Requirements\n\n|CPU Architecture |OS |Compiles|Release|Docker | |--------------------|-------------|--------|-------|-------------------------| |AMD64 (x86-64) |Linux GNU |yes |yes |yes | |AMD64 (x86-64) |Linux MUSL |yes |yes |not anymore due to DNS problems| |AMD64 (x86-64) |Apple Darwin |yes |yes |use a Linux image | |AMD64 (x86-64) |Windows |yes |yes |use a Linux image | |ARM64 (AArch64) |Linux |yes |yes |yes | |IA-32 (i386, 32 Bit)| |no|||\n\n## Docker\n\nTry it out with the example knowledge base:\n\ndocker run --rm -p 8080:8080 ghcr.io/konradhoeffner/rickview\n\n### Docker Compose Example\n\nservices:  rickview:  image: ghcr.io/konradhoeffner/rickview  environment: RICKVIEW_KB_FILE=https://raw.githubusercontent.com/hitontology/ontology/dist/all.ttl\n\nRICKVIEW_NAMESPACE=http://hitontology.eu/ontology/\n\nRICKVIEW_BASE=/ontology\n\nRICKVIEW_TITLE=HITO\n\nRICKVIEW_SUBTITLE=Health IT Ontology\n\nRICKVIEW_EXAMPLES=Study SoftwareProduct ApplicationSystemTypeCatalogue\n\nRICKVIEW_HOMEPAGE=https://hitontology.eu\n\nRICKVIEW_ENDPOINT=https://hitontology.eu/sparql\n\nRICKVIEW_GITHUB=https://github.com/hitontology/ontology\n\nRICKVIEW_DOC=https://hitontology.github.io/ontology/\n\nports: \"127.0.0.1:8080:8080\"\n\nrestart: unless-stopped\n\n## Precompiled Binaries\n\nDownload the binary from the [latest release] https://github.com/konradhoeffner/rickview/releases/latest and run rickview. If you need binaries for a different operating system and CPU architecture combination, [let me know] https://github.com/konradhoeffner/rickview/issues/new.",
+      "section": "RickView (part 2)",
+      "repo": "101_RickView",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.505436Z",
+    "updated_at": "2025-11-03T05:37:18.116269Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23549,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2466,
+    "annotations": [
+      {
+        "id": 10098,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:37:38.790896Z",
+        "updated_at": "2025-11-03T05:37:38.790914Z",
+        "draft_created_at": null,
+        "lead_time": 20.501,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "082772ee-caf6-4568-973b-45229674357f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2466,
+        "project": 23549,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Compile it yourself\n\nAlternatively, you can compile it for your own platform with cargo install rickview. Or you can clone [the repository] https://github.com/konradhoeffner/rickview and then cargo build. This requires you to install [Rust including Cargo] https://www.rust-lang.org/tools/install.\n\n## Configure\n\nDefault configuration is stored in data/default.toml, which you can override with a custom data/config.toml or environment variables. Configuration keys are in lower\\_snake\\_case, while environment variables are prefixed with RICKVIEW\\_ and are in SCREAMING\\_SNAKE\\_CASE. For example, namespace = \"http://hitontology.eu/ontology/\" in config.toml is equivalent to RICKVIEW_NAMESPACE=http://hitontology.eu/ontology/ as an environment variable. You need to provide a knowledge base file path or URL, the default is data/kb.ttl. If you don't, RickView will show a minimal example knowledge base. You can add custom HTML to the index page by adding a data/body.html file. You can add embedded CSS using the css environment variable. By default, the Roboto font is used which RickView hosts locally for robustness, speed and to prevent conflicts with European privacy laws. If this is not an issue for you and, for example, you want to display Chinese or Japanese characters, you could import a Google Font:\n\ncss = \"@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap'); body {font-family: 'Noto Sans SC', sans-serif}\"\n\nCompile and run with cargo run and then open in your browser.\n\n## Supported File Formats\n\nThe recognized RDF serialization formats and extensions to load a knowledge base are Turtle (.ttl), N-Triples (.nt), RDF/XML (.rdf), HDT (.hdt) as created by [hdt-cpp] https://github.com/rdfhdt/hdt-cpp and zstd compressed HDT (.hdt.zst).",
+      "section": "RickView (part 3)",
+      "repo": "101_RickView",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.505464Z",
+    "updated_at": "2025-11-03T05:37:38.817121Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23549,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2467,
+    "annotations": [
+      {
+        "id": 10099,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:37:45.008942Z",
+        "updated_at": "2025-11-03T05:37:45.008960Z",
+        "draft_created_at": null,
+        "lead_time": 6.055,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "aaacba79-df03-4223-bea6-0d0ff9a2ca0c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2467,
+        "project": 23549,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Logging\n\nThe default log level is \"info\" for RickView and \"error\" for libraries. Change the log level of RickView with the log_level configuration key or the RICKVIEW_LOG_LEVEL environment variable. Override this setting using the RUST_LOG env var to configure the log levels of dependencies, see the [env\\_logger documentation] https://docs.rs/env_logger/latest/env_logger/, for example:\n\nRUST_LOG=rickview=debug cargo run\n\n## Motivation\n\nExisting RDF browsers like [LodView] https://github.com/LodLive/LodView/ look great but use too much hardware resources as they are based on interpreted or garbage collected languages. This leads to long wait times and out of memory errors on typical small scale research VMs with dozens of docker containers for longtime archival of finished research projects, whose results should still be available to enable reproducible science.\n\n## Goals\n\nImplement a basic RDF browser similar to LodView in Rust with the following properties:\n\nspeed  low resource utilization  good design  option to generate static HTML",
+      "section": "RickView (part 4)",
+      "repo": "101_RickView",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.505486Z",
+    "updated_at": "2025-11-03T05:37:45.035857Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23549,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2468,
+    "annotations": [
+      {
+        "id": 10100,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:37:56.781707Z",
+        "updated_at": "2025-11-03T05:37:56.781722Z",
+        "draft_created_at": null,
+        "lead_time": 4.937,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "4f2e1070-783d-4852-aed1-34c6bc588d48",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2468,
+        "project": 23549,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Stats\n\nAll values are rounded and were measured on an old RickView version on an Intel i9-12900k (16 cores, 24 threads) with 32 GB of DDR5-5200 RAM and a Samsung SSD 980 Pro 1 TB on Arch Linux, standard kernel 5.18. The qbench2 test URI is . Stats for HDT, which uses much less RAM, are not measured yet.\n\nLinux x86-64 release binary size (strip, fat link time optimization, all features): 4.1 MB  Linux x86-64 release binary size (strip, no link time optimization, all features): 5.8 MB  Docker image size: 9.7 MB  release compile time (strip, fat LTO, all features, cold): 52 s  release compile time (strip, no LTO, all features, cold): 19 s  RAM consumption (FastGraph, docker stats, HITO knowledge base 1.1 MB, idle): 10 MB  RAM consumption (FastGraph, docker stats, HITO knowledge base 1.1 MB, 30s max load): 15 MB  RAM consumption (LightGraph, docker stats, qbench2, 16.2 million triples, 3.6 GB N-Triples file): 2.568 GiB  RAM consumption (LightGraph, qbench2, normalized): 2.524 GiB  RAM consumption (FastGraph, docker stats, qbench2): 4.9 GB  graph loading time (FastGraph, qbench2, debug build): 548-552 s  graph loading time (FastGraph, qbench2): 47 s  graph loading time (LightGraph, qbench2): 40 s  HTML page generation time (LightGraph, qbench2): 1.9 s  HTML page generation time (FastGraph, qbench2): 6-58 ms  Turtle page generation time (FastGraph, qbench2): 6-35 ms",
+      "section": "RickView (part 5)",
+      "repo": "101_RickView",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.505511Z",
+    "updated_at": "2025-11-03T05:37:56.809960Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23549,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2469,
+    "annotations": [
+      {
+        "id": 10101,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:38:04.032746Z",
+        "updated_at": "2025-11-03T05:38:04.032764Z",
+        "draft_created_at": null,
+        "lead_time": 7.057,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6163f45d-64b3-47d6-936b-ffc7a57625dc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2469,
+        "project": 23549,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Throughput Single Resource, HTML\n\nThere is no page cache but there could still be internal caching benefits so this should be more elaborate in the future.\n\n$ wrk -t 24 -c 24 -d 30 http://localhost:8080/SoftwareProduct -H \"Accept: text/html\"  Running 30s test @ http://localhost:8080/SoftwareProduct  24 threads and 24 connections  Thread Stats Avg Stdev Max +/- Stdev  Latency 9.79ms 3.25ms 26.92ms 56.40%  Req/Sec 102.36 36.17 212.00 66.74%  73590 requests in 30.02s, 1.04GB read  Requests/sec: 2451.31  Transfer/sec: 35.43MB\n\n### Throughput Single Resource, RDF Turtle\n\n$ docker run --network=host -v $PWD/ontology/dist/hito.ttl:/app/data/kb.ttl rickview  $ wrk -t 24 -c 24 -d 30 http://localhost:8080/SoftwareProduct  Running 30s test @ http://localhost:8080/SoftwareProduct  24 threads and 24 connections  Thread Stats Avg Stdev Max +/- Stdev  Latency 13.96ms 4.74ms 37.20ms 55.04%  Req/Sec 71.77 26.17 121.00 66.43%  51572 requests in 30.02s, 567.72MB read  Requests/sec: 1717.72  Transfer/sec: 18.91MB\n\n## Stats of LodView\n\nFor comparison, here are the stats for the LodView RDF browser, written in Java and Swing.\n\nwar file: 21 MB (twice the size of RickView)  Docker image size: 246 MB (25 times the size of RickView)  compile and package time: 12 s (compiles 4 times faster than RickView with all optimizations)  RAM consumption (docker stats, HITO knowledge base 1.1 MB, idle, excluding Virtuoso): 482 MB (48 times more RAM usage)  RAM consumption (docker stats, HITO knowledge base 1.1 MB, 30s max load, excluding Virtuoso): 790 MB (53x)  RAM consumption (docker stats, HITO knowledge base 1.1 MB, idle, including Virtuoso): 655 MB (65x)",
+      "section": "RickView (part 6)",
+      "repo": "101_RickView",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.505537Z",
+    "updated_at": "2025-11-03T05:38:04.062238Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23549,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2470,
+    "annotations": [
+      {
+        "id": 10102,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:38:08.412095Z",
+        "updated_at": "2025-11-03T05:38:08.412117Z",
+        "draft_created_at": null,
+        "lead_time": 4.183,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "bd931af4-cd83-4110-a5af-e7819cc4208e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2470,
+        "project": 23549,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Throughput Single Resource\n\nAs data is loaded after page load via JavaScript, real world performance may be worse.\n\n$ wrk -t 24 -c 24 -d 30 http://localhost:8104/ontology/SoftwareProduct  Running 30s test @ http://localhost:8104/ontology/SoftwareProduct  24 threads and 24 connections  Thread Stats Avg Stdev Max +/- Stdev  Latency 1.97ms 2.40ms 44.84ms 88.08%  Req/Sec 713.62 353.46 1.24k 38.76%  511567 requests in 30.03s, 1.61GB read  Socket errors: connect 0, read 1, write 0, timeout 0  Non-2xx or 3xx responses: 511567  Requests/sec: 17037.90  Transfer/sec: 55.07MB\n\nLodView was not able to serve 24 threads and 24 connections, so try it with only 1 thread and 1 connection:\n\n$ wrk -t 1 -c 1 -d 30 http://localhost:8104/ontology/SoftwareProduct  Running 30s test @ http://localhost:8104/ontology/SoftwareProduct  1 threads and 1 connections  Thread Stats Avg Stdev Max +/- Stdev  Latency 2.90ms 13.30ms 250.66ms 97.34%  Req/Sec 715.41 251.08 1.48k 69.46%  21227 requests in 30.01s, 68.61MB read  Non-2xx or 3xx responses: 21227  Requests/sec: 707.24  Transfer/sec: 2.29MB\n\nEven a single thread and a single connection cause the container to report errors, this will be investigated in the future.\n\n## FAQ\n\n### Why can't I use RickView with a Hash Namespace like http://example.com\\#MyResource\n\nThis is technically impossible for a server-side application by [the definition of a URI] https://datatracker.ietf.org/doc/html/rfc3986#section-3.5 because the fragment (the part after the hash) is client-only and never sent to the server. If you have an existing knowledge graph with a hash namespace, I recommend replacing the hash '#' with a forward slash '/'.",
+      "section": "RickView (part 7)",
+      "repo": "101_RickView",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.505563Z",
+    "updated_at": "2025-11-03T05:38:08.440480Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23549,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2471,
+    "annotations": [
+      {
+        "id": 10103,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:38:12.491154Z",
+        "updated_at": "2025-11-03T05:38:12.491171Z",
+        "draft_created_at": null,
+        "lead_time": 3.912,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b82a1597-f42d-4ec4-bc14-f39c754d4d87",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2471,
+        "project": 23549,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Why is RickView necessary? Performance doesn't matter and RAM costs almost nothing!\n\nAccording to [Hitzler 2021] https://cacm.acm.org/magazines/2021/2/250085-a-review-of-the-semantic-web-field/fulltext?mobile=false, mainstream adoption of the Semantic Web field has stagnated due to a lack of freely available performant, accessible, robust and adaptable tools. Instead, limited duration research grants motivate the proliferation of countless research prototypes, which are not optimized for any of those criteria, are not maintained after the project ends and finally compete for resources on crowded servers if they do not break down completely.\n\n### Can you implement feature X?\n\nI am very interested in hearing from you using it for your knowledge bases and am happy to assist you setting it up. Feature and pull requests are welcome, however the goal of RickView is to stay minimalistic and not serve every use case. Please also consider filling out the [survey] https://forms.gle/wqxdVdn4pDLXgyYZA so I can see which features are most requested.\n\n### Why no .env support?\n\nI think this would be overkill, as there is already a default configuration file, a custom configuration file, environment variables and Docker Compose supports .env out of the box as well. So my assumption is that you use the configuration file for local development and .env with Docker Compose. However if you need .env support outside of Docker Compose, just create an issue with a motivation and I may implement it.",
+      "section": "RickView (part 8)",
+      "repo": "101_RickView",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.505586Z",
+    "updated_at": "2025-11-03T05:38:12.517583Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23549,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2472,
+    "annotations": [
+      {
+        "id": 10104,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:38:21.023589Z",
+        "updated_at": "2025-11-03T05:38:21.023607Z",
+        "draft_created_at": null,
+        "lead_time": 8.375,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "2a459db7-98f4-4a4e-9499-8f3fe325dc82",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2472,
+        "project": 23549,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### How can I use it with large knowledge bases?\n\nConvert your data to the default HDT format using [hdt-cpp] https://github.com/rdfhdt/hdt-cpp.\n\nDeactivate the title and type indexes by setting large = true in data/config.toml or setting the environment variable RICKVIEW_LARGE=true.\n\nWithout the indexes, RickView's memory usage is only a few MB above the underlying [HDT Sophia adapter] https://github.com/konradhoeffner/hdt in-memory graph, [see benchmarks] https://github.com/KonradHoeffner/sophia_benchmark/blob/master/benchmark_results.ipynb. For example, RickView on uses ~ 2.6 GB RAM and contains LinkedSpending 2015, which is 30 GB as uncompressed N-Triples and 413 MB as zstd compressed HDT.\n\n### When to use compression and why not support other compression formats?\n\n[HDT] https://www.rdfhdt.org/ is a compressed binary format that still supports fast querying. It can be further compressed but then RickView needs to decompress it before loading, which in a test with a large knowledge base increased loading time from ~15s to ~17s. Because decompression is done in streaming mode, this restricts the available compressors and may even result in faster loading if you use a slow drive such as an HDD and a fast CPU. zstd was chosen because it compresses and decompresses quickly with a high ratio, supports streaming, and adds little overhead to the RickView binary. Brotli compresses extremely slowly on high compression settings while GZip results in much larger file sizes. If you need support for another streaming compressor, please [create an issue] https://github.com/konradhoeffner/rickview/issues.",
+      "section": "RickView (part 9)",
+      "repo": "101_RickView",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.505610Z",
+    "updated_at": "2025-11-03T05:38:21.053108Z",
+    "inner_id": 9,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23549,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2473,
+    "annotations": [
+      {
+        "id": 10105,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:39:02.273003Z",
+        "updated_at": "2025-11-03T05:39:02.273018Z",
+        "draft_created_at": null,
+        "lead_time": 41.072,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f19d108d-e4b6-4b44-bbef-8f3f38c3cd8e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2473,
+        "project": 23549,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Why does it look exactly like LodView?\n\nLodView looks beautiful and works well, the only problems are performance and to a lesser degree simple containerized deployment.\n\nLodView is licensed under MIT, so that is allowed. LodView is Copyright (c) 2014 Diego Valerio Camarda and Alessandro Antonuccio.\n\nI can focus my limited time on programming instead of design decisions. Other designs may follow later.\n\nUsers of LodView can switch without training.\n\nPerformance comparisons are easier when the interface is very similar.\n\n### Can I deploy multiple knowledge graphs or one using OWL imports with a single instance of RickView?\n\nA single instance of RickView always loads a single file or URL and has a single namespace. All triples from the file that are within the namespace are displayed and mapped to the configured base path. OWL import statements are treated as normal triples and therefore have no special effects. URLs outside of the namespace are then resolved normally by the browser, so hopefully this ontology has an RDF browser behind it. If you want to host multiple ontologies or knowledge graphs with RickView, there are several options:",
+      "section": "RickView (part 10)",
+      "repo": "101_RickView",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.505631Z",
+    "updated_at": "2025-11-03T05:39:02.301341Z",
+    "inner_id": 10,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23549,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2474,
+    "annotations": [
+      {
+        "id": 10106,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:39:05.173174Z",
+        "updated_at": "2025-11-03T05:39:05.173194Z",
+        "draft_created_at": null,
+        "lead_time": 2.699,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b266b373-8e0e-401a-be0c-7c601d425ef6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2474,
+        "project": 23549,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### Same Domain\n\nIf they are on the same domain and you have control over the common prefix, you can specify that as the namespace. For example, the prefixes of [SNIK] https://github.com/snikproject/ontology include:\n\n@base . @prefix meta: . @prefix bb: . @prefix ob: .\n\nRickView now runs on the server that hosts the website and other things, and all requests to /ontology are redirected to RickView. We [set the base to /ontology] https://github.com/snikproject/docker/blob/master/docker-compose.yml and merge all SNIK files into a snik.ttl file, which is loaded by RickView. In the GitHub repository, the files are stored individually (meta.ttl, bb.ttl,...). There is a GitHub Workflow that runs [a merge script] https://github.com/snikproject/ontology/blob/master/.github/workflows/build.yml with every commit, which validates and merges the files and pushes the result to a separate branch \"dist\". When loading the file with RickView, you only need to make sure that the server from GitHub also provides the file and not HTML. If you take it directly from the branch, you may need to load the URL with GitHub pages or a service that maps GitHub URLs into ones that download as the raw content.",
+      "section": "RickView (part 11)",
+      "repo": "101_RickView",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.505656Z",
+    "updated_at": "2025-11-03T05:39:05.198736Z",
+    "inner_id": 11,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23549,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2475,
+    "annotations": [
+      {
+        "id": 10107,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:39:06.471781Z",
+        "updated_at": "2025-11-03T05:39:06.471794Z",
+        "draft_created_at": null,
+        "lead_time": 1.131,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "a4cc0a66-a6db-4913-8bc0-55290f357b45",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2475,
+        "project": 23549,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "In practical use, we don't do it that way with SNIK, but have integrated the ontology as a Git submodule in the GitHub repository. The reason for this is that during the parallel development of the ontology and the Docker container, you can immediately see the changes without having to wait for the pipeline. Furthermore, you can then also check out an old state of the Docker repository and have the correct ontology version from that time. For example, if there were changes to the namespace, the RickView configuration must follow the ontology change, and if you want to look at it from two years ago for some reason, you can do that. Alternatively instead of the latest commit you can use the latest release via the \"latest\" reference, which works directly via .",
+      "section": "RickView (part 12)",
+      "repo": "101_RickView",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.505681Z",
+    "updated_at": "2025-11-03T05:39:06.498759Z",
+    "inner_id": 12,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23549,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2476,
+    "annotations": [
+      {
+        "id": 10108,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 852,
+              "end": 896,
+              "text": "https://zenodo.org/badge/latestdoi/472769298",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "rupcFNzRK9",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1006,
+              "end": 1292,
+              "text": "@software{rickview, author = {Konrad H{\\'o}ffner}, title = {{R}ick{V}iew: {L}ightweight Standalone Knowledge Graph Browsing Powered by {R}ust}, year = 2023, publisher = {Zenodo}, version = {x.y.z}, doi = {10.5281/zenodo.8290117}, url = {https://doi.org/10.5281/zenodo.8290117} }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "ect3mXwnSc",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1316,
+              "end": 1452,
+              "text": "Konrad Höffner (2023). RickView: Lightweight Standalone Knowledge Graph Browsing Powered by Rust. https://doi.org/10.5281/zenodo.8290117",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "6rEpYevGbF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:39:46.743006Z",
+        "updated_at": "2025-11-03T05:39:46.743027Z",
+        "draft_created_at": "2025-11-03T05:39:21.491319Z",
+        "lead_time": 40.089,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "02c8891f-25fe-4c0d-8482-49ad1e700db5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2476,
+        "project": 23549,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### Different Domains\n\nIf there are different domains or there is no common path over which you have control or the above methods are too convoluted for your use case, you can just run different RickView instances, which should have a low overhead. It can also be easier to manage if the different ontologies are in different repositories. For example, then you don't need a separate CI pipeline that merges the files with every commit or release and then attaches the merged file to the release.\n\n## Community Guidelines\n\n### Issues and Support\n\nIf you have a problem with the software, want to report a bug or have a feature request, please use the [issue tracker] https://github.com/KonradHoeffner/rickview/issues. If have a different type of request, feel free to send an email to [Konrad] mailto:konrad.hoeffner@uni-leipzig.de.\n\n### Citation\n\n[](https://zenodo.org/badge/latestdoi/472769298)\n\nThere is no publication about RickView yet, so please cite our Zenodo archive for now.\n\n#### BibTeX entry\n\n@software{rickview,  author = {Konrad H{\\'o}ffner},  title = {{R}ick{V}iew: {L}ightweight Standalone Knowledge Graph Browsing Powered by {R}ust},  year = 2023,  publisher = {Zenodo},  version = {x.y.z},  doi = {10.5281/zenodo.8290117},  url = {https://doi.org/10.5281/zenodo.8290117}  }\n\n#### Citation string\n\nKonrad Höffner (2023). RickView: Lightweight Standalone Knowledge Graph Browsing Powered by Rust. https://doi.org/10.5281/zenodo.8290117",
+      "section": "RickView (part 13)",
+      "repo": "101_RickView",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.505703Z",
+    "updated_at": "2025-11-03T05:39:46.771874Z",
+    "inner_id": 13,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23549,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2477,
+    "annotations": [
+      {
+        "id": 10109,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:39:50.897575Z",
+        "updated_at": "2025-11-03T05:39:50.897592Z",
+        "draft_created_at": null,
+        "lead_time": 3.959,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f31607fa-8452-473b-8ba2-36bbc3641b8b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2477,
+        "project": 23549,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Contribute\n\nWe are happy to receive pull requests. Please use cargo +nightly fmt before committing and make sure that the code compiles on the newest stable and nightly toolchain with the default features. Browse the default knowledge base after cargo run and verify that nothing is broken. cargo clippy should not report any warnings. You can also contribute by recommending RickView and by [sharing your RickView deployments] https://github.com/KonradHoeffner/hdt/issues/35.",
+      "section": "RickView (part 14)",
+      "repo": "101_RickView",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.505723Z",
+    "updated_at": "2025-11-03T05:39:50.926288Z",
+    "inner_id": 14,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23549,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

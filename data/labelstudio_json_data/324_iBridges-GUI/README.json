@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "iBridges GUI\n\nDocumentation \u00bb .  Report Bug or Request Feature  .\n\n[](https://github.com/iBridges-for-iRods/iBridges-GUI/actions/workflows/linter.yml) [](https://github.com/iBridges-for-iRods/iBridges-GUI/actions/workflows/publish.yml) [](https://doi.org/10.5281/zenodo.17139123)\n\n## About\n\nThe git repository contains a generic iRODS graphical user interface. The iRODS functionality is based on [ibridges] https://github.com/UtrechtUniversity/iBridges and works with any iRODS instance.\n\n## Highlights\n\nWorks on Windows, Mac OS and Linux: [supported versions] https://doc.qt.io/qt-6/supported-platforms.html\n\nRuns on Python 3.9 or higher.\n\nSupported iRODS server versions: 4.2.11 or higher and 4.3.0 or higher.\n\nUpload and Download your data.\n\nManipulate the metadata on the iRODS server.\n\nSynchronize your data between your local computer and the iRODS server.\n\nSearch through all metadata for your dataset or collection.\n\nSafe default options when working with your data.",
+      "section": "iBridges GUI <img src=\"https://github.com/iBridges-for-iRods/iBridges-GUI/blob/3395dedf2c7b919e108356a3289eb2c2fc66af6d/ibridgesgui/icons/logo.png\" width=\"150\" align=\"right\"> (part 1)",
+      "repo": "324_iBridges-GUI",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Prebuild executable\n\nThere are prebuild executables available for Windows, macOS and Ubuntu. You can find the latest release [here] https://github.com/iBridges-for-iRODS/iBridges-GUI/releases/latest. The build was done using the latest version on an x64 architecture.\n\n## Installation\n\nThe python package\n\n``bash  pip install ibridgesgui  `   A specific branch of the git repository (testers, developers)\n\n`bash  pip install git+https://github.com/iBridges-for-iRODS/iBridges-GUI.git@branch-name  `   Locally from code (for developers)\n\n`bash  git clone git@github.com:iBridges-for-iRODS/iBridges-Gui.git  cd iBridges-Gui  pip install \".[all]\"  `   ## Start the GUI\n\nFrom a pip python package\n\n`bash  ibridges gui  ` From code (for developers)\n\n`bash  python ibridgesgui/__main__.py  `\n\n## Executables\n\nSince iBridges version 1.4.0 we offer pre-built executables. These executables can also be built from source. Please note, that this feature is still in experimental state.\n\n### Prebuilt executables\n\nGo to the [Releases page] https://github.com/iBridges-for-iRODS/iBridges-GUI/releases. In the latest releases you will find three zip-files, these contain the prebuilt application. Download the respective zip-file for your system and unpack it. In the unpacked folder there is a file ibridges_gui.[exe, sh] For Windows simply click on the exe-file, for Mac and Linux open the file with a shell bash ./ibridges_gui.sh`.",
+      "section": "iBridges GUI <img src=\"https://github.com/iBridges-for-iRods/iBridges-GUI/blob/3395dedf2c7b919e108356a3289eb2c2fc66af6d/ibridgesgui/icons/logo.png\" width=\"150\" align=\"right\"> (part 2)",
+      "repo": "324_iBridges-GUI",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Building Executables\n\nWe offer build scripts in case you would like to compile iBridges and distribute the executable.\n\npython3 build_tools/build_script.py -h\n\nusage: build_script.py [-h] [--debug_exe] [--rem_venv]  [--code_folder CODE_FOLDER] [--ui_folder UI_FOLDER]  [--icons_folder ICONS_FOLDER] [--venv VENV]\n\niBridges-Gui exe creator.\n\noptions:  -h, --help show this help message and exit  --debug_exe Build executable with debug console  --rem_venv remove virtual environment  --code_folder CODE_FOLDER  Full path to the directory with code  --ui_folder UI_FOLDER  Full path to the directory with ui files  --icons_folder ICONS_FOLDER  Full path to the directory with the icons  --venv VENV Full path to virtual python environment\n\nThis will create a virtual environment venv in your iBridges folder. Next to that you will find a new folder build and ibridgesgui_dist. The executable can be found and started like this for Mac and Linux:\n\n./output/ibridgesgui/ibridges_gui.bin\n\nFor Windows simply click on the file output/ibridgesgui/ibridges_gui.exe.\n\n## Extending iBridges-GUI (for developers)\n\niBridges-GUI supports Plugins. You can create a plugin for your own tab and it will be detected and run by the main application when it is installed. We provide a small guide and template structure [here] https://github.com/iBridges-for-iRODS/ibridges-gui-tab-example.",
+      "section": "iBridges GUI <img src=\"https://github.com/iBridges-for-iRods/iBridges-GUI/blob/3395dedf2c7b919e108356a3289eb2c2fc66af6d/ibridgesgui/icons/logo.png\" width=\"150\" align=\"right\"> (part 3)",
+      "repo": "324_iBridges-GUI",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Authors\n\nChristine Staiger (Maintainer) [ORCID] https://orcid.org/0000-0002-6754-7647\n\nWageningen University & Research 2021 - 2022\n\nUtrecht University 2022\n\nTim van Daalen, Wageningen University & Research 2021\n\nMaarten Schermer (Maintainer) [ORCID] https://orcid.org/my-orcid?orcid=0000-0001-6770-3155, Utrecht University 2023\n\nRaoul Schram (Maintainer) [ORCID] https://orcid.org/my-orcid?orcid=0000-0001-6616-230X.  Utrecht University 2023\n\n## Contributors\n\nJ.P. Mc Farland, University of Groningen, Center for Information Technology, 2022\n\n## Contributing\n\n### Code\n\nInstructions on how to extend the GUI or contribute to the code base can be found in the [documentation] https://ibridges-for-irods.github.io/iBridges-GUI/.\n\n## License\n\nThis project is licensed under the LGPL license. The full license can be found in [LICENSE] LICENSE.",
+      "section": "iBridges GUI <img src=\"https://github.com/iBridges-for-iRods/iBridges-GUI/blob/3395dedf2c7b919e108356a3289eb2c2fc66af6d/ibridgesgui/icons/logo.png\" width=\"150\" align=\"right\"> (part 4)",
+      "repo": "324_iBridges-GUI",
+      "source_file": "readme.md"
+    }
+  }
+]

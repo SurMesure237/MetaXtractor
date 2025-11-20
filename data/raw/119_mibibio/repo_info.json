@@ -1,0 +1,16 @@
+{
+  "codeRepository": "https://github.com/MiBiPreT/mibibio",
+  "programmingLanguage": null,
+  "programmingLanguages": [],
+  "downloadUrl": "https://api.github.com/repos/MiBiPreT/mibibio/zipball/main",
+  "author": "MiBiPreT",
+  "dateCreated": "2025-04-08T11:25:26Z",
+  "dateModified": "2025-06-24T14:33:46Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Collection of microbial analysis workflows to investigate microbiological community structure, characteristics and their degradation potential",
+  "identifier": 962584890,
+  "name": "MiBiPreT/mibibio",
+  "issueTracker": "https://api.github.com/repos/MiBiPreT/mibibio/issues",
+  "readme": "https://github.com/MiBiPreT/mibibio/blob/main/README.md"
+}

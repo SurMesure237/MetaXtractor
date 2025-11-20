@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1078,
+    "annotations": [
+      {
+        "id": 12061,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 26,
+              "end": 70,
+              "text": "https://zenodo.org/badge/latestdoi/110261678",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "wKp_Q63Y3g",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:54:55.896368Z",
+        "updated_at": "2025-11-09T07:54:55.896383Z",
+        "draft_created_at": "2025-11-09T07:54:55.720431Z",
+        "lead_time": 9.049,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "f33e7514-8c13-48a7-8c9c-859524f5d39b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1078,
+        "project": 23278,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# TwiNL: website code\n\n[](https://zenodo.org/badge/latestdoi/110261678) [](https://research-software.nl/software/twinl-website-code)\n\nThis repository contains the website code of the project [TwiNL] https://www.esciencecenter.nl/project/twinl  (2012-2013) of the Netherlands eScience Center. Apart  from the website, the project also produced a [Twitter crawler] https://github.com/twinl/crawler.\n\nThe main tweet search script in this repository is  cgi-bin/twitter. It collects a search query from a user, starts the search process, collects the results and displays them as a collection of web pages.\n\nThe contact person for this project is Erik Tjong Kim Sang.",
+      "section": "README",
+      "repo": "481_Twiqs",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.534667Z",
+    "updated_at": "2025-11-09T07:54:55.928220Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23278,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

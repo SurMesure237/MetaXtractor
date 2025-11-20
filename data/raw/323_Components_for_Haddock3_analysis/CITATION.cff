@@ -1,0 +1,23 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: haddock3 analysis components
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Stefan
+    family-names: Verhoeven
+    affiliation: Netherlands eScience center
+    orcid: "https://orcid.org/0000-0002-5821-2060"
+  - family-names: Alidoost
+    given-names: Fakhereh
+    orcid: "https://orcid.org/0000-0001-8407-6472"
+    affiliation: Netherlands eScience center
+license: Apache-2.0
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.10522421
+    description: Latest version of software

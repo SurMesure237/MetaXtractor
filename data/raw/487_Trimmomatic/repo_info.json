@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/usadellab/Trimmomatic",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/usadellab/Trimmomatic/zipball/main",
+  "author": "usadellab",
+  "dateCreated": "2020-10-12T15:21:54Z",
+  "dateModified": "2025-10-28T06:45:57Z",
+  "keywords": [],
+  "license": null,
+  "description": null,
+  "identifier": 303432470,
+  "name": "usadellab/Trimmomatic",
+  "issueTracker": "https://api.github.com/repos/usadellab/Trimmomatic/issues",
+  "readme": "https://github.com/usadellab/Trimmomatic/blob/main/README.md"
+}

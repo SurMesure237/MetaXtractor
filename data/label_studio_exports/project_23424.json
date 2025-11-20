@@ -1,0 +1,812 @@
+[
+  {
+    "id": 1858,
+    "annotations": [
+      {
+        "id": 10569,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 41,
+              "text": "https://doi.org/10.5281/zenodo.7034838",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "e3A3AJg7FG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 169,
+              "end": 209,
+              "text": "https://t8code.readthedocs.io/en/latest/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "xYnzCRLWM_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:54:36.122670Z",
+        "updated_at": "2025-11-14T13:06:21.450791Z",
+        "draft_created_at": "2025-11-04T17:54:31.440555Z",
+        "lead_time": 19.721,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "8d48d783-ccf2-4096-85ab-aec034e433b6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1858,
+        "project": 23424,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://doi.org/10.5281/zenodo.7034838) [](https://github.com/DLR-AMR/t8code/actions/workflows/tests_cmake_testsuite.yml) [](https://codecov.io/gh/dlr-amr/t8code) [](https://t8code.readthedocs.io/en/latest/)",
+      "section": "Introduction (part 1)",
+      "repo": "032_t8code",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.618779Z",
+    "updated_at": "2025-11-14T13:06:21.483792Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23424,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1859,
+    "annotations": [
+      {
+        "id": 10570,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 325,
+              "end": 364,
+              "text": "GNU General Public License 2.0 or later",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "BHExiqO2ed",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:55:04.008367Z",
+        "updated_at": "2025-11-04T17:55:04.008381Z",
+        "draft_created_at": "2025-11-04T17:54:49.952441Z",
+        "lead_time": 27.699,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "29c056d7-99c3-4e0a-990b-d5858400b04f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1859,
+        "project": 23424,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Introduction\n\nt8code (spoken as \"tetcode\") is a C/C++ library to manage parallel adaptive meshes with various element types. t8code uses a collection (a forest) of multiple connected adaptive space-trees in parallel and scales to at least one million MPI ranks and over 1 Trillion mesh elements. It is licensed under the GNU General Public License 2.0 or later. Copyright (c) 2015 the developers.\n\nt8code is intended to be used as a thirdparty library for numerical simulation codes or any other applications that require meshes.\n\nt8code, or T8 for short, supports the following element types (also different types in the same mesh):\n\n0D: vertices\n\n1D: lines\n\n2D: quadrilaterals and triangles\n\n3D: hexahedra, tetrahedra, prisms and pyramids\n\nAmong others, t8code offers the following functionalities:\n\nCreate distributed adaptive meshes over complex domain geometries\n\nAdapt meshes according to user given refinement/coarsening criteria\n\nEstablish a 2:1 balance\n\n(Re-)partition a mesh (and associated data) among MPI ranks\n\nManage ghost (halo) elements and data\n\nHierarchical search in the mesh\n\nCurved mesh elements",
+      "section": "Introduction (part 2)",
+      "repo": "032_t8code",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.618825Z",
+    "updated_at": "2025-11-04T17:55:04.036454Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23424,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1860,
+    "annotations": [
+      {
+        "id": 10571,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1257,
+              "end": 1313,
+              "text": "https://elib.dlr.de/194377/1/t8code_overview_IMR2023.pdf",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "slqoUiz-A7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1108,
+              "end": 1146,
+              "text": "https://github.com/DLR-AMR/t8code/wiki",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "1rVb81r8VT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:55:52.754887Z",
+        "updated_at": "2025-11-14T13:06:30.053899Z",
+        "draft_created_at": "2025-11-04T17:55:27.593609Z",
+        "lead_time": 53.323,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "d03b7bc7-db9e-4ac8-a65a-35dca4d05b91",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1860,
+        "project": 23424,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "t8code uses space-filling curves (SFCs) to manage the adaptive refinement and efficiently store the mesh elements and associated data. A modular approach makes it possible to exchange the underlying SFC without changing the high-level algorithms. Thus, we can use and compare different refinement schemes and users can implement their own refinement rules if so desired.\n\nCurrently t8code offers the following implementations by default: lines use a 1D Morton curve with 1:2 refinement\n\nquadrilateral/hexahedral elements are inherited from the p4est submodule, using the Morton curve 1:4, 1:8 refinement;\n\ntriangular/tetrahedral are implemented using the Tetrahedral Morton curve, 1:4, 1:8 refinement;\n\nprisms are implemented using the triangular TM curve and a line curve, 1:8 refinement.\n\npyramids are implemented using the Pyramidal Morton curve and the TM curve for its tetrahedral children, 1:10 (for pyramids) / 1:8 (for tetrahedra) refinement.\n\nThe code supports hybrid meshes including any of the above element types (of the same dimension).\n\nYou find more information on t8code in the [t8code Wiki] https://github.com/DLR-AMR/t8code/wiki.\n\nFor a brief introduction in AMR and the algorithms used by t8code we recommend to read our [overview paper] https://elib.dlr.de/194377/1/t8code_overview_IMR2023.pdf.",
+      "section": "Introduction (part 3)",
+      "repo": "032_t8code",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.618850Z",
+    "updated_at": "2025-11-14T13:06:30.087098Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23424,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1861,
+    "annotations": [
+      {
+        "id": 10572,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 991,
+              "end": 996,
+              "text": "GPLv2",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "bhh0IIgl6Q",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:56:24.484385Z",
+        "updated_at": "2025-11-04T17:56:24.484397Z",
+        "draft_created_at": "2025-11-04T17:56:11.056566Z",
+        "lead_time": 31.564,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "e05e6ec2-fccf-4789-b255-861dff63f755",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1861,
+        "project": 23424,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Setup\n\nWe provide a short guide to install t8code in our Wiki [Installation guide] https://github.com/DLR-AMR/t8code/wiki/Installation.\n\n### Getting started\n\nTo get familiar with t8code and its algorithms and data structures we recommend executing the tutorial examples in tutorials  and read the corresponding Wiki pages starting with [Step 0 - Helloworld] https://github.com/DLR-AMR/t8code/wiki/Step-0---Hello-World.    A sophisticated example of a complete numerical simulation is our finite volume solver of the advection equation in example/advection.\n\n### Documentation\n\nt8code uses [Doxygen] https://doxygen.nl/ to generate the code documentation.  You can find the documentation of our releases on the [t8code website] https://dlr-amr.github.io/t8code/pages/documentation.html. Follow the steps described in our Wiki [Documentation] https://github.com/DLR-AMR/t8code/wiki/Documentation to create the documentation locally.\n\n### License and contributing\n\nt8code is licensed under GPLv2 (see [COPYING] COPYING). We appreciate contributions from the community and refer to [CONTRIBUTING.md] CONTRIBUTING.md for more details.\n\nNote that we strive to be a friendly, inclusive open-source community and ask all members of our community to adhere to our [CODE_OF_CONDUCT.md] CODE_OF_CONDUCT.md.\n\nTo get in touch, [open an issue] https://github.com/DLR-AMR/t8code/issues/new or write an email to one of the principal developers.\n\n### Julia wrapper\n\nWe offer [T8code.jl] https://github.com/DLR-AMR/T8code.jl - an official [Julia] https://julialang.org/ package allowing to call t8code routines from the [Julia] https://julialang.org/ programming language. From within a Julia session do\n\njulia> import Pkg; Pkg.add([\"T8code\", \"MPI\"])\n\nto install the package on your system.",
+      "section": "Introduction (part 4)",
+      "repo": "032_t8code",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.618877Z",
+    "updated_at": "2025-11-04T17:56:24.506642Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23424,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1862,
+    "annotations": [
+      {
+        "id": 10573,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 81,
+              "end": 569,
+              "text": "Overview Paper: Holke, Johannes and Burstedde, Carsten and Knapp, David and Dreyer, Lukas and Elsweijer, Sandro and Ünlü, Veli and Markert, Johannes and Lilikakis, Ioannis and Böing, Niklas and Ponnusamy, Prasanna and Basermann, Achim (2023) t8code v. 1.0 - Modular Adaptive Mesh Refinement in the Exascale Era. SIAM International Meshing Round Table 2023, 06.03.2023 - 09.03.2023, Amsterdam, Niederlande. [Full text available] https://elib.dlr.de/194377/1/t8code_overview_IMR2023.pdf",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "VKFyiY5X-z",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 579,
+              "end": 840,
+              "text": "Original PhD thesis: Holke, Johannes Scalable algorithms for parallel tree-based adaptive mesh refinement with general element types, PhD thesis at University of Bonn, 2018, [Full text available] https://bonndoc.ulb.uni-bonn.de/xmlui/handle/20.500.11811/7661",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "M8aR-bAnq-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 850,
+              "end": 1117,
+              "text": "Tetrahedral and triangular Space-filling curve: Burstedde, Carsten and Holke, Johannes A Tetrahedral Space-Filling Curve for Nonconforming Adaptive Meshes, SIAM Journal on Scientific Computing, 2016, [10.1137/15M1040049] https://epubs.siam.org/doi/10.1137/15M1040049",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "7Fxb7b6V8L",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1127,
+              "end": 1348,
+              "text": "Coarse mesh partitioning: Burstedde, Carsten and Holke, Johannes Coarse mesh partitioning for tree-based AMR, SIAM Journal on Scientific Computing, 2017, [10.1137/16M1103518] https://epubs.siam.org/doi/10.1137/16M1103518",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "A1xzBiME3I",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1358,
+              "end": 1637,
+              "text": "Ghost computation: Holke, Johannes and Knapp, David and Burstedde, Carsten An Optimized, Parallel Computation of the Ghost Layer for Adaptive Hybrid Forest Meshes, SIAM Journal on Scientific Computing, 2021, [10.1137/20M1383033] https://epubs.siam.org/doi/abs/10.1137/20M1383033",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "9sQdBhp4LE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:59:38.148429Z",
+        "updated_at": "2025-11-04T18:03:44.944388Z",
+        "draft_created_at": "2025-11-04T17:59:24.181236Z",
+        "lead_time": 206.06400000000002,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "b7a106e7-7ff5-4a18-bd4d-8be28529ef5d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1862,
+        "project": 23424,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Publications\n\nAn (incomplete) list of publications related to t8code:    [1] Overview Paper:   Holke, Johannes and Burstedde, Carsten and Knapp, David and Dreyer, Lukas and Elsweijer, Sandro and Ünlü, Veli and Markert, Johannes and Lilikakis, Ioannis and Böing, Niklas and Ponnusamy, Prasanna and Basermann, Achim (2023) t8code v. 1.0 - Modular Adaptive Mesh Refinement in the Exascale Era. SIAM International Meshing Round Table 2023, 06.03.2023 - 09.03.2023, Amsterdam, Niederlande.   [Full text available] https://elib.dlr.de/194377/1/t8code_overview_IMR2023.pdf      [2] Original PhD thesis:   Holke, Johannes Scalable algorithms for parallel tree-based adaptive mesh refinement with general element types, PhD thesis at University of Bonn, 2018,  [Full text available] https://bonndoc.ulb.uni-bonn.de/xmlui/handle/20.500.11811/7661      [3] Tetrahedral and triangular Space-filling curve:  Burstedde, Carsten and Holke, Johannes A Tetrahedral Space-Filling Curve for Nonconforming Adaptive Meshes, SIAM Journal on Scientific Computing, 2016, [10.1137/15M1040049] https://epubs.siam.org/doi/10.1137/15M1040049      [4] Coarse mesh partitioning:  Burstedde, Carsten and Holke, Johannes Coarse mesh partitioning for tree-based AMR, SIAM Journal on Scientific Computing, 2017, [10.1137/16M1103518] https://epubs.siam.org/doi/10.1137/16M1103518      [5] Ghost computation:  Holke, Johannes and Knapp, David and Burstedde, Carsten An Optimized, Parallel Computation of the Ghost Layer for Adaptive Hybrid Forest Meshes, SIAM Journal on Scientific Computing, 2021, [10.1137/20M1383033] https://epubs.siam.org/doi/abs/10.1137/20M1383033      [6] Geometry controlled refinement for hexahedra:",
+      "section": "Introduction (part 5)",
+      "repo": "032_t8code",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.618901Z",
+    "updated_at": "2025-11-04T18:03:44.979851Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23424,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1863,
+    "annotations": [
+      {
+        "id": 10574,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 426,
+              "end": 683,
+              "text": "JOSS entry: Holke, Johannes and Markert, Johannes, et. al. (2025) t8code - modular adaptive mesh refinement in the exascale era. In: Journal of Open Source Software, [Full text available] https://www.theoj.org/joss-papers/joss.06887/10.21105.joss.06887.pdf",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "gnRpE-sqcW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 0,
+              "end": 418,
+              "text": "Elsweijer, Sandro and Holke, Johannes and Kleinert, Jan and Reith, Dirk (2022) Constructing a Volume Geometry Map for Hexahedra with Curved Boundary Geometries. In: SIAM International Meshing Roundtable Workshop 2022. SIAM International Meshing Roundtable Workshop 2022, 22. - 25. Feb. 2022, [Full text available] https://elib.dlr.de/186570/1/ConstructingAVolumeGeometryMapForHexahedraWithCurvedBoundaryGeometries.pdf ",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "UQItSSO4s5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:00:03.100194Z",
+        "updated_at": "2025-11-04T18:03:55.184958Z",
+        "draft_created_at": "2025-11-04T17:59:53.186166Z",
+        "lead_time": 32.472,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "a3fb8513-005d-4bd2-ab32-a14b6a0e1858",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1863,
+        "project": 23424,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Elsweijer, Sandro and Holke, Johannes and Kleinert, Jan and Reith, Dirk (2022) Constructing a Volume Geometry Map for Hexahedra with Curved Boundary Geometries. In: SIAM International Meshing Roundtable Workshop 2022. SIAM International Meshing Roundtable Workshop 2022, 22. - 25. Feb. 2022, [Full text available] https://elib.dlr.de/186570/1/ConstructingAVolumeGeometryMapForHexahedraWithCurvedBoundaryGeometries.pdf     [7] JOSS entry:  Holke, Johannes and Markert, Johannes, et. al. (2025) t8code - modular adaptive mesh refinement in the exascale era. In: Journal of Open Source Software, [Full text available] https://www.theoj.org/joss-papers/joss.06887/10.21105.joss.06887.pdf",
+      "section": "Introduction (part 6)",
+      "repo": "032_t8code",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.618924Z",
+    "updated_at": "2025-11-04T18:03:55.215417Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23424,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1864,
+    "annotations": [
+      {
+        "id": 10575,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 100,
+              "end": 248,
+              "text": "Prism space-filling curve: Knapp, David (2017) Adaptive Verfeinerung von Prismen. Bachelor's thesis, Rheinische Friedrich-Wilhems-Universität Bonn",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "xm5MHlg-_P",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 260,
+              "end": 571,
+              "text": "yramidal space-filling curve: Knapp, David (2020) A space-filling curve for pyramidal adaptive mesh refinement. Master's thesis, Rheinische Friedrich-Wilhems-Universität Bonn. [Full text available] https://www.researchgate.net/publication/346789160_A_space-filling_curve_for_pyramidal_adaptive_mesh_refinement",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "prHELUZvsG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 581,
+              "end": 867,
+              "text": "DG solver based on t8code: Dreyer, Lukas (2021) The local discontinuous galerkin method for the advection-diffusion equation on adaptive meshes. Master's thesis, Rheinische Friedrich-Wilhems-Universität Bonn. [Full text available] https://elib.dlr.de/143969/1/masterthesis_dreyer.pdf",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "fFvxegRBhv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 878,
+              "end": 1157,
+              "text": "Geometry controlled refinement for hexahedra (Part 1): Elsweijer, Sandro (2021) Curved Domain Adaptive Mesh Refinement with Hexahedra. Tech report, Hochschule Bonn-Rhein-Sieg. [Full text available] https://elib.dlr.de/186571/1/masterprojekt-2_elsweijer_ABGABEVERSION_TITEL.pdf",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "0lMeY0XqFj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:00:40.918360Z",
+        "updated_at": "2025-11-04T18:04:04.958296Z",
+        "draft_created_at": "2025-11-04T18:00:27.316007Z",
+        "lead_time": 45.440999999999995,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "23d05950-65c6-4339-bc00-602133cc7453",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1864,
+        "project": 23424,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Theses with t8code relations\n\nAn (incomplete) list of theses written with or about t8code:\n\n[A] Prism space-filling curve:   Knapp, David (2017) Adaptive Verfeinerung von Prismen. Bachelor's thesis, Rheinische Friedrich-Wilhems-Universität Bonn.      [B] Pyramidal space-filling curve:   Knapp, David (2020) A space-filling curve for pyramidal adaptive mesh refinement. Master's thesis, Rheinische Friedrich-Wilhems-Universität Bonn. [Full text available] https://www.researchgate.net/publication/346789160_A_space-filling_curve_for_pyramidal_adaptive_mesh_refinement      [C] DG solver based on t8code:   Dreyer, Lukas (2021) The local discontinuous galerkin method for the advection-diffusion equation on adaptive meshes. Master's thesis, Rheinische Friedrich-Wilhems-Universität Bonn.  [Full text available] https://elib.dlr.de/143969/1/masterthesis_dreyer.pdf       [D] Geometry controlled refinement for hexahedra (Part 1):   Elsweijer, Sandro (2021) Curved Domain Adaptive Mesh Refinement with Hexahedra. Tech report, Hochschule Bonn-Rhein-Sieg.  [Full text available] https://elib.dlr.de/186571/1/masterprojekt-2_elsweijer_ABGABEVERSION_TITEL.pdf",
+      "section": "Introduction (part 7)",
+      "repo": "032_t8code",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.618946Z",
+    "updated_at": "2025-11-04T18:04:04.993966Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23424,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1865,
+    "annotations": [
+      {
+        "id": 10576,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 4,
+              "end": 286,
+              "text": "Subelement and resolving hanging faces in 2D: Becker, Florian (2021) Removing hanging faces from tree-based adaptive meshes for numerical simulation, Master's thesis, Universität zu Köln. [Full text available] https://elib.dlr.de/187499/1/RemovingHangingFacesFromTreeBasedAMR.pdf",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "PtIyD0DstK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 296,
+              "end": 594,
+              "text": "Coarsening as post-processing to reduce simulation file size: Spataro, Luca (2021) Lossy data compression for atmospheric chemistry using adaptive mesh coarsening. Master's thesis, Technische Universität München. [Full text available] https://elib.dlr.de/144997/1/master-thesis-final-spataro.pdf",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "7xJrNf07Uo",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 604,
+              "end": 1019,
+              "text": "Geometry controlled refinement for hexahedra (Part 2): Elsweijer, Sandro (2022) Evaluation and generic application scenarios for curved hexahedral adaptive mesh refinement. Master's thesis, Hochschule Bonn-Rhein-Sieg. [10.13140/RG.2.2.34714.11203]() [Full text available] https://elib.dlr.de/186561/1/sandro_elsweijer-evaluation_and_generic_application_scenarios_for_curved_hexahedral_adaptive_mesh_refinement.pdf",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "J9eo_APO--",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1029,
+              "end": 1600,
+              "text": "Multigrid and other preconditioners for DG: Böing, Niklas (2022) Evaluation of preconditioners for implicit solvers of local DG for the advection-diffusion equation (Untersuchung von Präkonditionierern für implizite Löser für das Local DG-Verfahren zur Lösung der Advektions-Diffusionsgleichung). Master's thesis, Universität zu Köln. [Full text available] https://elib.dlr.de/186347/1/Untersuchung%20von%20Pr%C3%A4konditionierern%20f%C3%BCr%20implizite%20L%C3%B6ser%20f%C3%BCr%20das%20Local%20DG-Verfahren%20zur%20L%C3%B6sung%20der%20Advektions-Diffusionsgleichung.pdf",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "qjCFJ4ES_U",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:01:39.985589Z",
+        "updated_at": "2025-11-04T18:04:14.295007Z",
+        "draft_created_at": "2025-11-04T18:00:51.055725Z",
+        "lead_time": 66.41,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "9c0b41fc-3805-4cfa-a14b-e8f98195819b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1865,
+        "project": 23424,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[E] Subelement and resolving hanging faces in 2D:   Becker, Florian (2021) Removing hanging faces from tree-based adaptive meshes for numerical simulation, Master's thesis, Universität zu Köln.  [Full text available] https://elib.dlr.de/187499/1/RemovingHangingFacesFromTreeBasedAMR.pdf      [F] Coarsening as post-processing to reduce simulation file size:   Spataro, Luca (2021) Lossy data compression for atmospheric chemistry using adaptive mesh coarsening. Master's thesis, Technische Universität München.  [Full text available] https://elib.dlr.de/144997/1/master-thesis-final-spataro.pdf      [G] Geometry controlled refinement for hexahedra (Part 2):   Elsweijer, Sandro (2022) Evaluation and generic application scenarios for curved hexahedral adaptive mesh refinement. Master's thesis, Hochschule Bonn-Rhein-Sieg. [10.13140/RG.2.2.34714.11203]() [Full text available] https://elib.dlr.de/186561/1/sandro_elsweijer-evaluation_and_generic_application_scenarios_for_curved_hexahedral_adaptive_mesh_refinement.pdf      [H] Multigrid and other preconditioners for DG:   Böing, Niklas (2022) Evaluation of preconditioners for implicit solvers of local DG for the advection-diffusion equation (Untersuchung von Präkonditionierern für implizite Löser für das Local DG-Verfahren zur Lösung der Advektions-Diffusionsgleichung). Master's thesis, Universität zu Köln. [Full text available] https://elib.dlr.de/186347/1/Untersuchung%20von%20Pr%C3%A4konditionierern%20f%C3%BCr%20implizite%20L%C3%B6ser%20f%C3%BCr%20das%20Local%20DG-Verfahren%20zur%20L%C3%B6sung%20der%20Advektions-Diffusionsgleichung.pdf",
+      "section": "Introduction (part 8)",
+      "repo": "032_t8code",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.618971Z",
+    "updated_at": "2025-11-04T18:04:14.330397Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23424,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1866,
+    "annotations": [
+      {
+        "id": 10577,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 4,
+              "end": 520,
+              "text": "Removing elements from the mesh (cutting holes): Lilikakis, Ioannis (2022) Algorithms for tree-based adaptive meshes with incomplete trees. Master's thesis, Universität zu Köln. [Full text may be available in future] https://elib.dlr.de/191968/ [J] Curved tetrahedra: Fussbroich Jakob (2023) Towards high-order, hybrid adaptive mesh refinement: Implementation and evaluation of curved unstructured mesh elements. Master's thesis. Technische Hochschule Köln. [Full text available] https://elib.dlr.de/200442/",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "GE9EIQM206",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 526,
+              "end": 765,
+              "text": "Hanging node resolution 3D: Tabea Leistikow (2024) Derivation and implementation of a hanging nodes resolution scheme for hexahedral non-conforming meshes in t8code. Master's thesis, Universität zu Köln. Full text currently not available",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "zih4zYgvSX",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 872,
+              "end": 910,
+              "text": "https://doi.org/10.5281/zenodo.7034838",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "c6FrxDWLsM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:02:22.583199Z",
+        "updated_at": "2025-11-04T18:04:23.287548Z",
+        "draft_created_at": "2025-11-04T18:01:49.607019Z",
+        "lead_time": 49.705999999999996,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "93fc740f-742e-45cb-b680-01da9f27d3de",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1866,
+        "project": 23424,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[I] Removing elements from the mesh (cutting holes):   Lilikakis, Ioannis (2022) Algorithms for tree-based adaptive meshes with incomplete trees. Master's thesis, Universität zu Köln.   [Full text may be available in future] https://elib.dlr.de/191968/    [J] Curved tetrahedra:  Fussbroich Jakob (2023) Towards high-order, hybrid adaptive mesh refinement: Implementation and evaluation of curved unstructured mesh elements. Master's thesis. Technische Hochschule Köln.  [Full text available] https://elib.dlr.de/200442/\n\n[K] Hanging node resolution 3D:  Tabea Leistikow (2024) Derivation and implementation of a hanging nodes resolution scheme for hexahedral non-conforming meshes in t8code. Master's thesis, Universität zu Köln.  Full text currently not available.\n\n### Citing t8code    If you use t8code in any of your publications, please cite the [github repository] https://doi.org/10.5281/zenodo.7034838, [1] and [2]. For publications specifically related to  the tetrahedral index, please cite [3].\n\ncoarse mesh partitioning, please cite [4].\n\nconstruction and handling of the ghost layer, please cite [5].\n\ngeometry controlled refinement, please cite [6] (general) and [J] (tetrahedral).\n\nhanging node resolution and/or subelements, please cite [E] and [K].\n\nIf you use any functionality described in the theses, we encourage you to cite them as well.",
+      "section": "Introduction (part 9)",
+      "repo": "032_t8code",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.618995Z",
+    "updated_at": "2025-11-04T18:04:23.318843Z",
+    "inner_id": 9,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23424,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

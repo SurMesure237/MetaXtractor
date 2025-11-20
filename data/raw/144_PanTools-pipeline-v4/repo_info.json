@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/PanUtils/pantools-pipeline-v4",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Dockerfile",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/PanUtils/pantools-pipeline-v4/zipball/main",
+  "author": "PanUtils",
+  "dateCreated": "2023-06-30T10:59:55Z",
+  "dateModified": "2025-09-19T06:30:15Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "General purpose Snakemake pipeline for PanTools v4.",
+  "identifier": 660590992,
+  "name": "PanUtils/pantools-pipeline-v4",
+  "issueTracker": "https://api.github.com/repos/PanUtils/pantools-pipeline-v4/issues",
+  "readme": "https://github.com/PanUtils/pantools-pipeline-v4/blob/main/README.md"
+}

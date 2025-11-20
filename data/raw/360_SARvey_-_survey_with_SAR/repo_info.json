@@ -1,0 +1,30 @@
+{
+  "codeRepository": "https://github.com/luhipi/sarvey",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Makefile",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/luhipi/sarvey/zipball/main",
+  "author": "luhipi",
+  "dateCreated": "2024-07-15T12:27:48Z",
+  "dateModified": "2025-10-29T13:31:03Z",
+  "keywords": [
+    "displacement",
+    "engineering",
+    "insar",
+    "monitoring",
+    "radar",
+    "remote-sensing",
+    "sentinel-1",
+    "terrasar-x",
+    "time-series"
+  ],
+  "license": null,
+  "description": "Open-source research software for InSAR time series analysis",
+  "identifier": 828935977,
+  "name": "luhipi/sarvey",
+  "issueTracker": "https://api.github.com/repos/luhipi/sarvey/issues",
+  "readme": "https://github.com/luhipi/sarvey/blob/main/README.rst"
+}

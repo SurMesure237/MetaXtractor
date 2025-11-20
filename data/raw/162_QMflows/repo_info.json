@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/SCM-NV/qmflows",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Jupyter Notebook",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/SCM-NV/qmflows/zipball/main",
+  "author": "SCM-NV",
+  "dateCreated": "2016-06-10T11:39:01Z",
+  "dateModified": "2025-10-17T10:52:29Z",
+  "keywords": [
+    "automation",
+    "bioinformatics",
+    "chemistry",
+    "materials",
+    "python-3",
+    "quantum-mechanics",
+    "science",
+    "scientific-workflows"
+  ],
+  "license": null,
+  "description": "This library tackles the construction and efficient execution of computational chemistry workflows",
+  "identifier": 60843590,
+  "name": "SCM-NV/qmflows",
+  "issueTracker": "https://api.github.com/repos/SCM-NV/qmflows/issues",
+  "readme": "https://github.com/SCM-NV/qmflows/blob/master/README.rst"
+}

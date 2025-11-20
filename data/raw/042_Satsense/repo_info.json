@@ -1,0 +1,27 @@
+{
+  "codeRepository": "https://github.com/DynaSlum/satsense",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/DynaSlum/satsense/zipball/main",
+  "author": "DynaSlum",
+  "dateCreated": "2018-02-13T14:24:41Z",
+  "dateModified": "2024-11-18T06:32:51Z",
+  "keywords": [
+    "classification",
+    "earth-observation",
+    "land-cover",
+    "land-use",
+    "machine-learning",
+    "machine-learning-algorithms",
+    "satellite-images"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Satsense is a Python library for land use/cover classification using satellite imagery",
+  "identifier": 121391829,
+  "name": "DynaSlum/satsense",
+  "issueTracker": "https://api.github.com/repos/DynaSlum/satsense/issues",
+  "readme": "https://github.com/DynaSlum/satsense/blob/master/README.rst"
+}

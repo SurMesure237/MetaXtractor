@@ -1,0 +1,82 @@
+[
+  {
+    "id": 588,
+    "annotations": [
+      {
+        "id": 11171,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 237,
+              "end": 283,
+              "text": "https://zenodo.org/doi/10.5281/zenodo.11046339",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "jXQokDkRJL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 818,
+              "end": 1035,
+              "text": "Erik Tjong Kim Sang, [REE-HDSC: Recognizing Extracted Entities for the Historical Database Suriname Curacao] https://arxiv.org/abs/2401.02972. Technical Report, Netherlands eScience Center, doi: arXiv:2401.02972, 2023",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "HLAu4vkLUq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:24:39.816665Z",
+        "updated_at": "2025-11-06T05:24:39.816683Z",
+        "draft_created_at": "2025-11-06T05:24:25.340739Z",
+        "lead_time": 27.449,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "404ac3a0-5ee0-476e-9238-1e90bebe125e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 588,
+        "project": 23209,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/ree-hdsc/ree-hdsc) [](https://github.com/ree-hdsc/ree-hdsc) [](https://github.com/ree-hdsc/ree-hdsc)\n\n[](https://research-software-directory.org/software/ree-hdsc) [](https://www.bestpractices.dev/projects/8766) [](https://zenodo.org/doi/10.5281/zenodo.11046339)\n\n# REE-HDSC\n\nSoftware developed in the project [REE-HDSC] https://research-software-directory.org/projects/ree-hdsc (Recognizing Extracted Entities for the Historical Database Suriname Curacao) of the Radboud University Nijmegen and the Netherlands eScience Center. This repository contains two main sections:\n\n[Notebooks] https://github.com/ree-hdsc/ree-hdsc/tree/master/notebooks\n\n[Scripts] https://github.com/ree-hdsc/ree-hdsc/tree/master/scripts\n\nThe software purpose is described in the Software section of the project report:\n\nErik Tjong Kim Sang, [REE-HDSC: Recognizing Extracted Entities for the Historical Database Suriname Curacao] https://arxiv.org/abs/2401.02972. Technical Report, Netherlands eScience Center, doi: arXiv:2401.02972, 2023",
+      "section": "README",
+      "repo": "441_REE-HDSC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.613142Z",
+    "updated_at": "2025-11-06T05:24:39.848625Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23209,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

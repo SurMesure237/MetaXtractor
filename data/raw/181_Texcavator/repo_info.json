@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/CentreForDigitalHumanities/texcavator",
+  "programmingLanguage": "JavaScript",
+  "programmingLanguages": [
+    "JavaScript",
+    "Python",
+    "HTML",
+    "CSS"
+  ],
+  "downloadUrl": "https://api.github.com/repos/CentreForDigitalHumanities/texcavator/zipball/main",
+  "author": "CentreForDigitalHumanities",
+  "dateCreated": "2015-04-17T07:16:44Z",
+  "dateModified": "2025-09-10T11:36:31Z",
+  "keywords": [
+    "django",
+    "dojo",
+    "elasticsearch",
+    "python"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Text mining on the Royal Library newspaper corpus",
+  "identifier": 34102239,
+  "name": "CentreForDigitalHumanities/texcavator",
+  "issueTracker": "https://api.github.com/repos/CentreForDigitalHumanities/texcavator/issues",
+  "readme": "https://github.com/CentreForDigitalHumanities/texcavator/blob/develop/README.rst"
+}

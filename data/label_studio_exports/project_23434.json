@@ -1,0 +1,568 @@
+[
+  {
+    "id": 1902,
+    "annotations": [
+      {
+        "id": 11875,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 723,
+              "end": 782,
+              "text": "https://www.biorxiv.org/content/10.1101/2024.08.07.603274v1",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "MEN1DbeFCf",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 903,
+              "end": 943,
+              "text": "https://github.com/plaque2/PyPlaque/wiki",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "pu81y9zUFL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1119,
+              "end": 1124,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "JnDTY2eDzn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1112,
+              "end": 1117,
+              "text": "MacOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "A3nwuyV5Md",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1129,
+              "end": 1136,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "7oyVXiyliG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:25:36.364990Z",
+        "updated_at": "2025-11-14T13:37:21.389118Z",
+        "draft_created_at": "2025-11-09T06:25:10.536920Z",
+        "lead_time": 49.653999999999996,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "ff7b50f4-c200-4eba-b284-d1c1a60871f0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1902,
+        "project": 23434,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "PyPlaque We introduce PyPlaque, an open-source Python package focusing on flexibility and modularity rather than a bulky graphic user interface. Unlike previous methods, an abstracted architecture using object-oriented programming allows accommodation of various experimental containers and specimen carriers as data structures while focusing on phenotype-specific information. Aligned with the logical flow of experimental design and desired quantifications, it delivers insights at multiple granularity levels, facilitating detailed analysis. Furthermore, similar design is generalisable to diverse datasets in various biological contexts that fit our structural paradigm.\n\nFor further details please look at our paper: [https://www.biorxiv.org/content/10.1101/2024.08.07.603274v1]\n\n## Documentation\n\nThe documentation has been added in our GitHub Wiki page [https://github.com/plaque2/PyPlaque/wiki] https://github.com/plaque2/PyPlaque/wiki. Please refer to it for links to our modules and subsequent links to classes and methods/functions for their descriptions.\n\n## Installation\n\nThe instructions apply for MacOS, Linux and Windows\n\nYou can also look at the project's PyPi page [https://pypi.org/project/PyPlaque/] https://pypi.org/project/PyPlaque/\n\npip install PyPlaque\n\n## Local devloper installation\n\nClone repo\n\nrun pip install -e .",
+      "section": "PyPlaque (part 1)",
+      "repo": "428_PyPlaque",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.278351Z",
+    "updated_at": "2025-11-14T13:37:21.423325Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23434,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1903,
+    "annotations": [
+      {
+        "id": 11876,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:25:37.839394Z",
+        "updated_at": "2025-11-09T06:25:37.839410Z",
+        "draft_created_at": null,
+        "lead_time": 1.279,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "496beac8-6459-498c-9947-a09724d17a1e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1903,
+        "project": 23434,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Links to Google Colab notebooks for important workflows using the software\n\nThe ``load_data.ipynb` notebook shows briefly steps to download programmatically the sample data used for analysis in the following notebooks. It specifically used `curl` to download the data from publicly published website links. This notebook can be opened in Colab here.\n\nThe `synth.ipynb` notebook in PyPlaque generates synthetic shapes at random locations (that are seeded for reproducibility) to emulate segmentation masks. These simulated images are wrapped in standard PyPlaque classes like `FluorescenceMicroscopy`` that treats each image of consisting of synthetic shapes as a fluorescence plate well, enabling seamless integration with the package's analysis and visualization pipelines. This allows us to compare image analysis algorithms' area and perimeter calculations on standard known shapes without relying on real irregular shapes where the true measurements could be ambiguous. This notebook can be tried in Colab here.",
+      "section": "PyPlaque (part 2)",
+      "repo": "428_PyPlaque",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.278389Z",
+    "updated_at": "2025-11-09T06:25:37.869334Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23434,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1904,
+    "annotations": [
+      {
+        "id": 11877,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:25:38.671194Z",
+        "updated_at": "2025-11-09T06:25:38.671210Z",
+        "draft_created_at": null,
+        "lead_time": 0.654,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "5ad3b201-dd70-4e74-b60e-3f4d06c6ce60",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1904,
+        "project": 23434,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "The ``example_analysis.ipynb` notebook demonstrates a systematic and comprehensive analysis workflow using real plaque assay data. It illustrates how to load fluorescence microscopy images of viral plaques using the `FluorescenceMicroscopy`` class, generate plate level readouts (readouts for all wells of a plate) and filter them into viral and control groups based on well identifier metadata additionally stored in the class. We then use internal visualisation tools to validate our analysis by showcasing comparison barplots for readouts that indicate infectivity that should be different between viral and control wells. This notebook can be tried in Colab here.",
+      "section": "PyPlaque (part 3)",
+      "repo": "428_PyPlaque",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.278412Z",
+    "updated_at": "2025-11-09T06:25:38.697465Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23434,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1905,
+    "annotations": [
+      {
+        "id": 11878,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:25:39.353481Z",
+        "updated_at": "2025-11-09T06:25:39.353507Z",
+        "draft_created_at": null,
+        "lead_time": 0.506,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c05a86d8-d5fd-45be-a2e1-f4665a304d15",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1905,
+        "project": 23434,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "The ``cvp_detailed.ipynb` notebook demonstrates functionality provided by PyPlaque for the analysis of the crystal violet stained plaques using the `CrystalViolet`` class to load and store crystal violet stained, mobile photography images of viral plaques in 6-well plates available as individual wells. Using inbuilt classes and functions, steps are demonstrated to generate rudimentary binary detection masks for plaques if they are unavailable, stitching individual wells to create partial composite overviews of the plate, detection of plaques based on size criteria from available or generated detection masks, getting measures that describe the shape characteristics and spread of plaques in a well, visualise the spread of plaque measures in a well and finally generate individual well images and well and plaque detection masks from full plate images and full plate well and plaque detection masks in case they are unavailable. This notebook can be tried in Colab here.",
+      "section": "PyPlaque (part 4)",
+      "repo": "428_PyPlaque",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.278458Z",
+    "updated_at": "2025-11-09T06:25:39.383519Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23434,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1906,
+    "annotations": [
+      {
+        "id": 11879,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:25:40.810394Z",
+        "updated_at": "2025-11-09T06:25:40.810406Z",
+        "draft_created_at": null,
+        "lead_time": 1.291,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "7a5a3f21-7d1a-41a1-988c-381ee80c5fd6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1906,
+        "project": 23434,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "The ``fp_detailed.ipynb` notebook demonstrates functionality provided by PyPlaque for the analysis of the fluorescence microscopy plaques using the `FluorescenceMicroscopy` class to load and store fluorescence microscopy images of viral plaques in 384-well plates available as individual wells. Using inbuilt classes and functions, steps are demonstrated to load virus and nuclei channel images for the wells, generate binary detection masks for both channels if unavailable, stitching individual wells to create partial composite overviews of the plate, and generation of plate level, well level and plaque level readouts at these 3 granularity levels. This notebook can be tried in Colab here.\n\nNote : In notebooks, custom packages and additional data need to be loaded. Load your own data into the Colab environment by connecting via Google Drive or direct upload or using our sample analysis data using the code in the load_data.ipynb` notebook above and then run the analysis.",
+      "section": "PyPlaque (part 5)",
+      "repo": "428_PyPlaque",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.278483Z",
+    "updated_at": "2025-11-09T06:25:40.838961Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23434,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1907,
+    "annotations": [
+      {
+        "id": 11880,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:25:44.577296Z",
+        "updated_at": "2025-11-09T06:25:44.577321Z",
+        "draft_created_at": null,
+        "lead_time": 3.591,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "babc876d-1d44-4d66-ac25-b6b30853722b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1907,
+        "project": 23434,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Usage\n\n### Fluorescence Plaques\n\n#### 1. Loading packages\n\nimport matplotlib.pyplot as plt import numpy as np\n\nfrom PyPlaque.experiment import FluorescenceMicroscopy from PyPlaque.utils import remove_background, plot_virus_contours from PyPlaque.view import PlateReadout\n\nnp.random.seed(0)\n\n#### 2. Initialising parameters and data\n\nbase_dir = '../../../data_backup/samples_fluorescent_plaques/' exp = FluorescenceMicroscopy(base_dir+'images', base_dir+'masks', params = None)\n\nplate_dirs, plate_mask_dirs = exp.get_individual_plates(folder_pattern=r'^200601') print(plate_dirs, plate_mask_dirs) print(exp.get_number_of_plates())\n\n['200601-zplate-g2'] ['200601-zplate-g2'] 1\n\n#### 3. Loading and displaying an example image from the nuclei channel (plate_id indicates which one of the above read plates are chosen for further analysis)\n\nplate_dict_w1 = exp.load_wells_for_plate_nuclei(plate_id=0, additional_subfolders='2020-06-03/2072',  file_pattern=r'_A01_s1_w1') plt.imshow(plate_dict_w1['200601-zplate-g2']['img'][0])\n\n#### 4. Display the nuclei mask that is inferred based on flourescence microscopy image and pararmeters default in exp when we do exp.load_wells_for_plate_nuclei():\n\n_, ax = plt.subplots(figsize=(8, 8)) ax.imshow(plate_dict_w1[plate_dirs[0]]['mask'][0], cmap='gray') plt.show()",
+      "section": "PyPlaque (part 6)",
+      "repo": "428_PyPlaque",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.278505Z",
+    "updated_at": "2025-11-09T06:25:44.607053Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23434,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1908,
+    "annotations": [
+      {
+        "id": 11881,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:25:45.488392Z",
+        "updated_at": "2025-11-09T06:25:45.488408Z",
+        "draft_created_at": null,
+        "lead_time": 0.736,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "d4c92bad-fd31-4d1a-b591-449dcd7a5222",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1908,
+        "project": 23434,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### 5. Similarly for the virus channel\n\nplate_dict_w2 = exp.load_wells_for_plate_virus(plate_id=0, additional_subfolders='2020-06-03/2072',  file_pattern=r'_A01_s1_w2') plt.imshow(plate_dict_w2['200601-zplate-g2']['img'][0])\n\n_, ax = plt.subplots(figsize=(8, 8)) ax.imshow(plate_dict_w2[plate_dirs[0]]['mask'][0],cmap='gray') plt.show()\n\n#### 6. We can also plot the contours of the virus and a local maxima for each plaque\n\nplot_virus_contours(img, virus_params=exp.params['virus'])\n\n### Crystal Violet Plaques\n\n#### 1. Loading packages\n\nimport matplotlib.pyplot as plt import pandas as pd from tqdm.auto import tqdm\n\nfrom PyPlaque.experiment import CrystalViolet from PyPlaque.specimen import PlaquesMask from PyPlaque.utils import plot_bbox_plaques_mask, boxplot_quants\n\n#### 2. Initialising parameters and data\n\nbase_dir = '../../../data_backup/samples_crystal_violet_plaques/'\n\nexp = CrystalViolet(base_dir+'plaques_image_png/', base_dir+'plaques_mask_png/',  params = None)\n\nplate_dirs, plate_mask_dirs = exp.get_individual_plates(folder_pattern=r'6446$') print(plate_dirs, plate_mask_dirs) print(exp.get_number_of_plates())\n\n['IMG_6446'] ['IMG_6446'] 1",
+      "section": "PyPlaque (part 7)",
+      "repo": "428_PyPlaque",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.278560Z",
+    "updated_at": "2025-11-09T06:25:45.517409Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23434,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1909,
+    "annotations": [
+      {
+        "id": 11882,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:25:46.312936Z",
+        "updated_at": "2025-11-09T06:25:46.312952Z",
+        "draft_created_at": null,
+        "lead_time": 0.652,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6d0b1a01-40b2-49f4-92ff-eac6f613d923",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1909,
+        "project": 23434,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### 3. Loading and displaying an example image from the plate (plate_id indicates which one of the above read plates are chosen for further analysis)\n\nplate_dict = exp.load_well_images_and_masks_for_plate(plate_id=0, additional_subfolders=None,  all_grayscale=True, file_pattern=None) plt.figure() plt.imshow(plate_dict[plate_dirs[0]]['img'][0], cmap='gray')\n\nplt.figure() plt.imshow(plate_dict[plate_dirs[0]]['mask'][0],cmap='gray')\n\n#### 4. Display masked plaques based on flourescence microscopy image and mask stored when we ran in exp when we do exp.load_well_images_and_masks_for_plate():\n\nplate_dict = exp.extract_masked_wells(plate_id=0) i = 0 j = 0 plt.figure() plt.axis('off') plt.title(plate_dirs[0]+\"-\"+str(i)+\",\"+str(j)) plt.imshow(plate_dict[plate_dirs[0]]['masked_img'][0], cmap='gray')",
+      "section": "PyPlaque (part 8)",
+      "repo": "428_PyPlaque",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.278601Z",
+    "updated_at": "2025-11-09T06:25:46.339176Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23434,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1910,
+    "annotations": [
+      {
+        "id": 11883,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:25:48.018985Z",
+        "updated_at": "2025-11-09T06:25:48.019000Z",
+        "draft_created_at": null,
+        "lead_time": 1.552,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "822973e0-d365-474a-88fb-8fb324dce544",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1910,
+        "project": 23434,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### 5. Getting plaque counts\n\nplaques_mask_gt_list = [PlaquesMask(name = str(plate_dict[plate_dirs[0]]['image_name'][i]),  plaques_mask = plate_dict[plate_dirs[0]]['mask'][i])   for i in tqdm(range(len(plate_dict[plate_dirs[0]]['img'])))] plaques_count_gt_list = [len(plq_mask.get_plaques()) for plq_mask in tqdm(plaques_mask_gt_list)]\n\n[print(plq_mask.name, \" : \", plq_count, \"\\n\")   for (plq_mask, plq_count) in tqdm(list(zip(plaques_mask_gt_list, plaques_count_gt_list)))]\n\n100%|██████████| 6/6 [00:00 100%|██████████| 6/6 [00:01 100%|██████████| 6/6 [00:00 ../../../data_backup/samples_crystal_violet_plaques/plaques_image_png/IMG_6446/IMG_6446.png_1.png : 116\n\n../../../data_backup/samples_crystal_violet_plaques/plaques_image_png/IMG_6446/IMG_6446.png_2.png : 143\n\n../../../data_backup/samples_crystal_violet_plaques/plaques_image_png/IMG_6446/IMG_6446.png_3.png : 223\n\n../../../data_backup/samples_crystal_violet_plaques/plaques_image_png/IMG_6446/IMG_6446.png_4.png : 61\n\n../../../data_backup/samples_crystal_violet_plaques/plaques_image_png/IMG_6446/IMG_6446.png_5.png : 3\n\n../../../data_backup/samples_crystal_violet_plaques/plaques_image_png/IMG_6446/IMG_6446.png_6.png : 1",
+      "section": "PyPlaque (part 9)",
+      "repo": "428_PyPlaque",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.278625Z",
+    "updated_at": "2025-11-09T06:25:48.049385Z",
+    "inner_id": 9,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23434,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1911,
+    "annotations": [
+      {
+        "id": 11884,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:25:53.503407Z",
+        "updated_at": "2025-11-09T06:25:53.503427Z",
+        "draft_created_at": null,
+        "lead_time": 5.28,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "119f6ecb-dc4d-4814-8247-93767d894d4a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1911,
+        "project": 23434,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### 6. Generating and displaying generated mask of plaques in case one isn't available\n\n(simply set read_mask=False in exp.load_well_images_and_masks_for_plate())\n\nexp2 = CrystalViolet(base_dir+'plaques_image_png/', base_dir+'plaques_mask_png/',  params = None) # default values in class, option to update _, _ = exp2.get_individual_plates(folder_pattern=r'6446$') plate_dict_no_mask = exp2.load_well_images_and_masks_for_plate(plate_id=0,  additional_subfolders=None, read_mask=False, all_grayscale=True,   file_pattern=r'png_1') print(plate_dict_no_mask[plate_dirs[0]]['image_name'][0]) plt.imshow(plate_dict_no_mask[plate_dirs[0]]['mask'][0], cmap='gray')\n\n## Hierarchical Class Structure\n\n## For further clarifications or queries, please contact:\n\nTrina De (https://orcid.org/0000-0003-1111-9851)\n\nDr. Artur Yakimovich (https://orcid.org/0000-0003-2458-4904)\n\nDr. Vardan Andriasyan (https://orcid.org/0000-0002-9619-6655)",
+      "section": "PyPlaque (part 10)",
+      "repo": "428_PyPlaque",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.278647Z",
+    "updated_at": "2025-11-09T06:25:53.532455Z",
+    "inner_id": 10,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23434,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

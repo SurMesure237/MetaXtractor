@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/dlr-eoc/ukis-pysat",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/dlr-eoc/ukis-pysat/zipball/main",
+  "author": "dlr-eoc",
+  "dateCreated": "2020-04-28T12:51:59Z",
+  "dateModified": "2025-09-10T21:56:50Z",
+  "keywords": [
+    "gis",
+    "satellite-data",
+    "stac",
+    "ukis"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "The ukis-pysat package provides generic classes and functions to query, access and process multi-spectral and SAR satellite images",
+  "identifier": 259635994,
+  "name": "dlr-eoc/ukis-pysat",
+  "issueTracker": "https://api.github.com/repos/dlr-eoc/ukis-pysat/issues",
+  "readme": "https://github.com/dlr-eoc/ukis-pysat/blob/main/README.md"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "@i-vresse/haddock3-analysis-components",
+  "description": "React components for Haddock3 analysis",
+  "homepage": "https://github.com/i-vresse/haddock3-analysis-components",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-vresse/haddock3-analysis-components.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "Apache-2.0",
+  "version": "0.4.6",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "module": "./dist/haddock3-analysis-components.js",
+  "types": "./dist/lib.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/lib.d.ts",
+        "default": "./dist/haddock3-analysis-components.js"
+      }
+    },
+    "./dist/style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
+    }
+  },
+  "scripts": {
+    "dev": "ladlle serve",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "format": "prettier --write ."
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@ladle/react": "^4.1.1",
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-react-compiler": "^0.0.0-experimental-a97cca1-20240529",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vite-plugin-dts": "^2.3.0"
+  },
+  "dependencies": {
+    "ngl": "^2.1.1"
+  }
+}

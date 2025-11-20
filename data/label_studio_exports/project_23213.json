@@ -1,0 +1,490 @@
+[
+  {
+    "id": 601,
+    "annotations": [
+      {
+        "id": 11364,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:11:12.663313Z",
+        "updated_at": "2025-11-07T08:11:12.663324Z",
+        "draft_created_at": null,
+        "lead_time": 12.672,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "7cb0dad6-22a3-4777-94a5-056c2c8518d1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 601,
+        "project": 23213,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "`fairtally developer documentation\n\nIf you're looking for user documentation, go here _.\n\nThe project setup is documented in a separate document _. Feel free to remove this document (and/or the link to this document) if you don't need it.\n\nDevelopment install\n\n.. code:: shell\n\n# Create a virtualenv, e.g. with  python3 -m venv venv3\n\n# activate virtualenv  source venv3/bin/activate\n\n# make sure to have a recent version of pip  pip install --upgrade pip\n\n# (from the project root directory)  # install fairtally as an editable package  pip install --no-cache-dir --editable .  # install development dependencies  pip install --no-cache-dir --editable .[dev]\n\nAfterwards check that the install directory was added to the PATH environment variable. You should then be able to call the executable, like so:\n\n.. code:: shell\n\nfairtally --help\n\nRunning the tests\n\nRunning the tests requires an activated virtualenv with the development tools installed.\n\n.. code:: shell\n\n# unit tests with mocked representations of repository behavior  pytest\n\nThe test coverage report is available in htmlcov/index.html`. Running linters locally\n\nRunning the linters requires an activated virtualenv with the development tools installed.\n\n.. code:: shell\n\n# linter  prospector\n\n# recursively check import style for the fairtally module only  isort --recursive --check-only fairtally\n\n# recursively check import style for the fairtally module only and show  # any proposed changes as a diff  isort --recursive --check-only --diff fairtally\n\n# recursively fix import style for the fairtally module only  isort --recursive fairtally",
+      "section": "Introduction (part 1)",
+      "repo": "295_fairtally",
+      "source_file": "readme.dev.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.906747Z",
+    "updated_at": "2025-11-07T08:11:12.688534Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23213,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 602,
+    "annotations": [
+      {
+        "id": 11365,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:11:19.767873Z",
+        "updated_at": "2025-11-07T08:11:19.767887Z",
+        "draft_created_at": null,
+        "lead_time": 6.943,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ae82cce0-5895-466e-a300-c8a853f83510",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 602,
+        "project": 23213,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "You can enable automatic linting with `prospector and isort on commit like so:\n\n.. code:: shell\n\ngit config --local core.hooksPath .githooks\n\nVersioning\n\nBumping the version across all files is done with bump2version, e.g.\n\n.. code:: shell\n\nbump2version minor\n\nExample report\n\nThe example HTML report _ and its screenshot _ need to be updated when the User Interface or example command changes.\n\nUpdate example HTML report by running\n\n.. code:: shell\n\nfairtally -o docs/_static/fairtally_example.html https://github.com/fair-software/fairtally https://github.com/fair-software/howfairis\n\nUpdate screenshot (docs/_static/fairtally_example.png), for example by running Google Chrome screenshot command with:\n\n.. code:: shell\n\ngoogle-chrome --headless --disable-gpu --window-size=1150,280 --screenshot=docs/_static/fairtally_example.png docs/_static/fairtally_example.html\n\nIf size of report changed then adjust the --window-size argument value accordingly.\n\nMaking a release\n\nPreparation ^^^^^^^^^^^\n\nUpdate the CHANGELOG.md\n\nVerify that the information in CITATION.cff is correct, and that .zenodo.json contains equivalent data\n\nMake sure the version has been updated.\n\nRun the unit tests with pytest\n\nMake sure example report `_ is up to date\n\nPyPI ^^^^\n\nIn a new terminal, without an activated virtual environment or a venv3 directory:\n\n.. code:: shell\n\n# prepare a new directory  cd $(mktemp -d --tmpdir fairtally.XXXXXX)\n\n# fresh git clone ensures the release has the state of origin/main branch  git clone https://github.com/fair-software/fairtally.git .",
+      "section": "Introduction (part 2)",
+      "repo": "295_fairtally",
+      "source_file": "readme.dev.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.906791Z",
+    "updated_at": "2025-11-07T08:11:19.792164Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23213,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 603,
+    "annotations": [
+      {
+        "id": 11366,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:11:21.162360Z",
+        "updated_at": "2025-11-07T08:11:21.162380Z",
+        "draft_created_at": null,
+        "lead_time": 1.227,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b4aa23b8-bcb2-4010-a5bc-a548387422a8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 603,
+        "project": 23213,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# prepare a clean virtual environment and activate it  python3 -m venv venv3  source venv3/bin/activate\n\n# make sure to have a recent version of pip  pip install --upgrade pip\n\n# install runtime dependencies and publishing dependencies  pip install --no-cache-dir .  pip install --no-cache-dir .[publishing]\n\n# clean up any previously generated artefacts  rm -rf fairtally.egg-info  rm -rf dist\n\n# create the source distribution and the wheel  python setup.py sdist bdist_wheel\n\n# upload to test pypi instance (requires credentials)  twine upload --repository-url https://test.pypi.org/legacy/ dist/\n\nIn a new terminal, without an activated virtual environment or a venv3 directory:\n\n.. code:: shell\n\ncd $(mktemp -d --tmpdir fairtally-test.XXXXXX)\n\n# check you don't have an existing fairtally  which fairtally  python3 -m pip uninstall fairtally\n\n# install in user space from test pypi instance:  python3 -m pip -v install --user --no-cache-dir \\  --index-url https://test.pypi.org/simple/ \\  --extra-index-url https://pypi.org/simple fairtally\n\nCheck that the package works as it should when installed from pypitest.\n\nThen upload to pypi.org with:\n\n.. code:: shell\n\n# Back to the first terminal,  # FINAL STEP: upload to PyPI (requires credentials)  twine upload dist/\n\nGitHub ^^^^^^\n\nDon't forget to also make a release on GitHub _.\n\nDockerHub ^^^^^^^^^\n\nTo build the image, run:\n\n.. code:: shell\n\ndocker build -t fairsoftware/fairtally:latest .\n\n.. code:: shell\n\nVERSION=  docker tag fairsoftware/fairtally:latest fairsoftware/fairtally:${VERSION}\n\nCheck that you have the tags you want with:\n\n.. code:: shell\n\ndocker images\n\nTo push the image to DockerHub, run:\n\n.. code:: shell",
+      "section": "Introduction (part 3)",
+      "repo": "295_fairtally",
+      "source_file": "readme.dev.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.906831Z",
+    "updated_at": "2025-11-07T08:11:21.192464Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23213,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 604,
+    "annotations": [
+      {
+        "id": 11367,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:11:24.555852Z",
+        "updated_at": "2025-11-07T08:11:24.555863Z",
+        "draft_created_at": null,
+        "lead_time": 3.23,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f5ab3101-52f0-45cb-87d2-d1713e511dcf",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 604,
+        "project": 23213,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# (requires credentials)  docker login  docker push fairsoftware/fairtally:${VERSION}  docker push fairsoftware/fairtally:latest\n\nThe new image and its tags should now be listed here https://hub.docker.com/r/fairsoftware/fairtally/tags?page=1&ordering=last_updated.",
+      "section": "Introduction (part 4)",
+      "repo": "295_fairtally",
+      "source_file": "readme.dev.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.906851Z",
+    "updated_at": "2025-11-07T08:11:24.580905Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23213,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 605,
+    "annotations": [
+      {
+        "id": 11368,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:11:35.416745Z",
+        "updated_at": "2025-11-07T08:11:35.416758Z",
+        "draft_created_at": null,
+        "lead_time": 10.703,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "198c8b91-d042-4f22-b66d-d1987d9624bb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 605,
+        "project": 23213,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "################################################################################ fairtally ################################################################################\n\nPython application to analyze multiple GitHub and GitLab repositories compliance with the fair-software.eu _ recommendations.\n\n.. list-table::  :widths: 25 25  :header-rows: 1\n\nfair-software.nl recommendations\n\nBadges\n\n\\1. Code repository\n\n|GitHub Badge|\n\n\\2. License\n\n|License Badge|\n\n\\3. Community Registry\n\n|PyPI Badge| |Research Software Directory Badge|\n\n\\4. Enable Citation\n\n|Zenodo Badge|\n\n\\5. Checklist\n\n|CII Best Practices Badge|\n\nOther best practices\n\n- Continuous integration\n\n|Python Build| |Linter|\n\n- DockerHub\n\n|dockerhub badge|\n\n.. |GitHub Badge| image:: https://img.shields.io/badge/github-repo-000.svg?logo=github&labelColor=gray&color=blue  :target: https://github.com/fair-software/fairtally  :alt: GitHub Badge\n\n.. |License Badge| image:: https://img.shields.io/github/license/fair-software/fairtally  :target: https://github.com/fair-software/fairtally  :alt: License Badge\n\n.. |PyPI Badge| image:: https://img.shields.io/pypi/v/fairtally.svg?colorB=blue  :target: https://pypi.python.org/project/fairtally/  :alt: PyPI Badge .. |Research Software Directory Badge| image:: https://img.shields.io/badge/rsd-fairtally-00a3e3.svg  :target: https://www.research-software.nl/software/fairtally  :alt: Research Software Directory Badge",
+      "section": "Introduction (part 1)",
+      "repo": "295_fairtally",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.906878Z",
+    "updated_at": "2025-11-07T08:11:35.440098Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23213,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 606,
+    "annotations": [
+      {
+        "id": 11369,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 510,
+              "end": 548,
+              "text": "https://doi.org/10.5281/zenodo.4590882",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "nTtXkKPTAH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:12:10.703682Z",
+        "updated_at": "2025-11-07T08:12:10.703698Z",
+        "draft_created_at": "2025-11-07T08:11:49.492722Z",
+        "lead_time": 35.122,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "028af4e0-95d3-4fa5-8da4-bd812c421de2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 606,
+        "project": 23213,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "..  Goto https://zenodo.org/account/settings/github/ to enable Zenodo/GitHub integration.  After creation of a GitHub release at https://github.com/fair-software/fairtally/releases  there will be a Zenodo upload created at https://zenodo.org/deposit with a DOI, this DOI can be put in the Zenodo badge urls.  In the README, we prefer to use the concept DOI over versioned DOI, see https://help.zenodo.org/#versioning. .. |Zenodo Badge| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4590882.svg  :target: https://doi.org/10.5281/zenodo.4590882  :alt: Zenodo Badge\n\n..  A CII Best Practices project can be created at https://bestpractices.coreinfrastructure.org/en/projects/new .. |CII Best Practices Badge| image:: https://bestpractices.coreinfrastructure.org/projects/4690/badge  :target: https://bestpractices.coreinfrastructure.org/en/projects/4690  :alt: CII Best Practices Badge\n\n.. |Python Build| image:: https://github.com/fair-software/fairtally/actions/workflows/build.yml/badge.svg  :target: https://github.com/fair-software/fairtally/actions?query=workflow%3A%22build%22  :alt: Python Build\n\n.. |Linter| image:: https://github.com/fair-software/fairtally/actions/workflows/linting.yml/badge.svg  :target: https://github.com/fair-software/fairtally/actions?query=workflow%3A%22Linting%22  :alt: Linter\n\n.. |dockerhub badge| image:: https://img.shields.io/docker/pulls/fairsoftware/fairtally  :target: https://hub.docker.com/r/fairsoftware/fairtally  :alt: Docker Pulls\n\nInstallation\n\nTo install fairtally, do:\n\n.. code-block:: console\n\npip3 install --user fairtally\n\nUsage\n\nTo use fairtally to check the compliance of multiple repositories, one can use the command below.\n\n.. code-block:: console\n\nfairtally https://github.com/fair-software/fairtally https://github.com/fair-software/howfairis",
+      "section": "Introduction (part 2)",
+      "repo": "295_fairtally",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.906901Z",
+    "updated_at": "2025-11-07T08:12:10.732872Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23213,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 607,
+    "annotations": [
+      {
+        "id": 11370,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:12:15.773356Z",
+        "updated_at": "2025-11-07T08:12:15.773370Z",
+        "draft_created_at": null,
+        "lead_time": 4.872,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6655bc34-ecd2-412f-aa7b-5f4d350b5516",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 607,
+        "project": 23213,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "This command will generate a html report called tally.html which will contain the results of the checks for each repository.\n\nThen open the analysis in a web-browser, for example Firefox:\n\n.. code-block:: console\n\nfirefox tally.html\n\nThe report will look similar to the example below:\n\n.. image:: docs/_static/fairtally_example.png  :target: https://fair-software.github.io/fairtally/_static/fairtally_example.html\n\nYou can sort the table by clicking on the table headers. The purple plus signs provide access to log messages of each repository.\n\nChecking many repositories will quickly exceed the rate limit of the APIs of GitLab and GitHub and resulting in all remaining repositories to be fully non-compliantly.  See howfairis docs _ how setup environment variables to increase the rate limit.\n\nUsing Docker image\n\nYou can run fairtally Docker image using the command below.\n\n.. code:: console\n\ndocker pull fairsoftware/fairtally\n\nYou can run fairtally Docker image using the command below.\n\n.. code:: console\n\ndocker run --rm fairsoftware/fairtally --help\n\n--rm argument will remove Docker container after execution.\n\nTo tally 2 URLs and save the report as tally.html in the current working directory you can run the command below.\n\n.. code:: console\n\ndocker run --rm fairsoftware/fairtally -o - https://github.com/fair-software/fairtally https://github.com/fair-software/howfairis > tally.html\n\nSee developer documentation to learn how to modify the Docker image.\n\nResearch Software Directory ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\nTo FAIR tally the software listed on the Research Software Directory of the Netherlands eScience Center _.",
+      "section": "Introduction (part 3)",
+      "repo": "295_fairtally",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.906924Z",
+    "updated_at": "2025-11-07T08:12:15.796483Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23213,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 608,
+    "annotations": [
+      {
+        "id": 11371,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1360,
+              "end": 1402,
+              "text": "http://www.apache.org/licenses/LICENSE-2.0",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "2I7G5XMjJz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1209,
+              "end": 1236,
+              "text": "Apache License, Version 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "Liv_aMpp2n",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:12:30.808273Z",
+        "updated_at": "2025-11-07T08:12:30.808293Z",
+        "draft_created_at": "2025-11-07T08:12:27.290165Z",
+        "lead_time": 14.864,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "e074908f-626a-4c69-8032-0f4ac031786a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 608,
+        "project": 23213,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "First download a list of software by calling RSD API _\n\n.. code-block:: console\n\ncurl https://research-software.nl/api/software > software.json\n\nNext, extract the repository URLs with jq _.\n\n.. code-block:: console\n\ncat software.json | jq -r '[.[].repositoryURLs.github] | flatten | .[]' > urls.txt\n\nFinally run fairtally to generate a report.\n\n.. code-block:: console\n\nfairtally --output-file report.html --input-file urls.txt\n\nDocumentation\n\nCommand line interface help can be retrieved with\n\n.. code-block:: console\n\nfairtally --help\n\nThe output of the command will be something like:\n\n.. code-block:: console\n\nUsage: fairtally [OPTIONS] [URLS]...\n\nOptions:  -o, --output-file TEXT Filename of where to write the results. Use -  to write to standard out. [default: tally.html]\n\n-i, --input-file FILENAME Check URLs in file. One URL per line. Use - to  read from standard input.\n\n--format [html|json] Format of output. [default: html]  --version Show the version and exit.  --help Show this message and exit.\n\nContributing\n\nIf you want to contribute to the development of fairtally, have a look at the contribution guidelines _.\n\nLicense\n\nCopyright (c) 2021, Netherlands eScience Center\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0",
+      "section": "Introduction (part 4)",
+      "repo": "295_fairtally",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.906950Z",
+    "updated_at": "2025-11-07T08:12:30.835912Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23213,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 609,
+    "annotations": [
+      {
+        "id": 11372,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:12:34.633905Z",
+        "updated_at": "2025-11-07T08:12:34.633920Z",
+        "draft_created_at": null,
+        "lead_time": 3.631,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e57f11a3-edba-4a82-b5ee-6bc71c3249d9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 609,
+        "project": 23213,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\n\nCredits\n\nThis package was created with Cookiecutter _ and the NLeSC/python-template _.\n\nInstructions for developers\n\nThe developer documentation can be found in README.dev.rst _.",
+      "section": "Introduction (part 5)",
+      "repo": "295_fairtally",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.906973Z",
+    "updated_at": "2025-11-07T08:12:34.659015Z",
+    "inner_id": 9,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23213,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

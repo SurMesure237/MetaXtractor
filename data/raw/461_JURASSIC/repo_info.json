@@ -1,0 +1,31 @@
+{
+  "codeRepository": "https://github.com/slcs-jsc/jurassic",
+  "programmingLanguage": "C",
+  "programmingLanguages": [
+    "C",
+    "Shell",
+    "Makefile",
+    "Visual Basic 6.0"
+  ],
+  "downloadUrl": "https://api.github.com/repos/slcs-jsc/jurassic/zipball/main",
+  "author": "slcs-jsc",
+  "dateCreated": "2019-12-27T12:43:59Z",
+  "dateModified": "2025-09-05T20:36:15Z",
+  "keywords": [
+    "atmosphere",
+    "atmospheric-science",
+    "high-performance-computing",
+    "infrared",
+    "meteorology",
+    "radiative-transfer",
+    "remote-sensing",
+    "stratosphere",
+    "troposphere"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "The Juelich Rapid Spectral Simulation Code (JURASSIC) is a fast infrared radiative transfer model for the analysis of atmospheric remote sensing measurements.",
+  "identifier": 230442356,
+  "name": "slcs-jsc/jurassic",
+  "issueTracker": "https://api.github.com/repos/slcs-jsc/jurassic/issues",
+  "readme": "https://github.com/slcs-jsc/jurassic/blob/master/README.md"
+}

@@ -1,0 +1,261 @@
+[
+  {
+    "id": 2452,
+    "annotations": [
+      {
+        "id": 10113,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 231,
+              "end": 265,
+              "text": "https://manifoldai.github.io/merf/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "5W6ES4zd8Q",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:42:27.664579Z",
+        "updated_at": "2025-11-14T09:43:25.034562Z",
+        "draft_created_at": "2025-11-03T05:42:17.131036Z",
+        "lead_time": 33.604,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "13b00ff0-674e-477e-89aa-334c6cbcb4a7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2452,
+        "project": 23545,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Mixed Effects Random Forest\n\nThis repository contains a pure Python implementation of a mixed effects random forest (MERF) algorithm. It can be used, out of the box, to fit a MERF model and predict with it.\n\n[Sphinx documentation] https://manifoldai.github.io/merf/  [Blog post] https://towardsdatascience.com/mixed-effects-random-forests-6ecbb85cb177",
+      "section": "Mixed Effects Random Forest (part 1)",
+      "repo": "365_DumME",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.200560Z",
+    "updated_at": "2025-11-14T09:43:25.069232Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23545,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2453,
+    "annotations": [
+      {
+        "id": 10114,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1400,
+              "end": 1463,
+              "text": "http://www.tandfonline.com/doi/abs/10.1080/00949655.2012.741599",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "VGa3h5Nzza",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:42:49.149028Z",
+        "updated_at": "2025-11-03T05:42:49.149046Z",
+        "draft_created_at": null,
+        "lead_time": 21.297,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "b88ded73-560a-4eb6-a438-6f15498178eb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2453,
+        "project": 23545,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## MERF Model\n\nThe MERF model is:\n\ny_i = f(X_i) + Z_i b_i + e_i\n\nb_i ~ N(0, D)\n\ne_i ~ N(0, R_i)\n\nfor each cluster i out of n total clusters.\n\nIn the above:\n\ny_i -- the (n_i x 1) vector of responses for cluster i. These are given at at training.  X_i -- the (n_i x p) fixed effects covariates that are associated with the y_i. These are given at training.  Z_i -- the (n_i x q) random effects covariates that are associated with the y_i. These are given at training.  e_i -- the (n_i x 1) vector of errors for cluster i. This is unknown.  i is the cluster_id. This is given at training.\n\nThe learned parameters in MERF are:  f() -- which is a random forest that models the, potentially nonlinear, mapping from the fixed effect covariates to the response. It is common across all clusters.  D -- which is the covariance of the normal distribution from which each of the b_i are drawn. It is common across all clusters.  sigma^2 -- which is the variance of e_i, which is assumed to be white. It is common across all clusters.\n\nNote that one key assumption of the MERF model is that the random effect is linear*. Though, this is limiting in some regards, it is still broadly useful for many problems. It is better than not modelling the random effect at all.\n\nThe algorithms implemented in this repo were developed by Ahlem Hajjem, Francois Bellavance, and Denis Larocque and published in a paper [here] http://www.tandfonline.com/doi/abs/10.1080/00949655.2012.741599. Many thanks to Ahlem and Denis for providing an R reference and aiding in the debugging of this code. Quick note, the published paper has a small typo in the update equation for sigma^2 which is corrected in the source code here.",
+      "section": "Mixed Effects Random Forest (part 2)",
+      "repo": "365_DumME",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.200605Z",
+    "updated_at": "2025-11-03T05:42:49.177864Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23545,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2454,
+    "annotations": [
+      {
+        "id": 10115,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:43:04.160713Z",
+        "updated_at": "2025-11-03T05:43:04.160730Z",
+        "draft_created_at": null,
+        "lead_time": 14.832,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "5e696744-5946-4548-88bb-a7fd37aa87e9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2454,
+        "project": 23545,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Using the Code\n\nThe MERF code is modelled after scikit-learn estimators. To use, you instantiate a MERF object. As of 1.0, you can pass any non-linear estimator for the fixed effect. By default this is a scikit-learn random forest, but you can pass any model you wish that conforms to the scikit-learn estimator API, e.g. LightGBM, XGBoost, a properly wrapped PyTorch neural net,\n\nThen you fit the model using training data. As of 1.0, you can also pass a validation set to see the validation performance on it. This is meant to feel similar to PyTorch where you can view the validation loss after each epoch of training. After fitting you can predict responses from data, either from known (cluster in training set) or new (cluster not in training set) clusters.\n\nFor example:\n\nfrom merf import MERF merf = MERF() merf.fit(X_train, Z_train, clusters_train, y_train) y_hat = merf.predict(X_test, Z_test, clusters_test)\n\nAlternatively:\n\nfrom lightgbm import LGBMRegressor lgbm = LGBMRegressor() mrf_lgbm = MERF(lgbm, max_iterations=15) mrf_lgbm.fit(X_train, Z_train, clusters_train, y_train, X_val, Z_val, clusters_val, y_val) y_hat = merf.predict(X_test, Z_test, clusters_test)\n\nNote that training is slow because the underlying expectation-maximization (EM) algorithm requires many calls to the non-linear fixed effects model, e.g. random forest. That being said, this implemtataion has early stopping which aborts the EM algorithm if the generalized log-likelihood (GLL) stops significantly improving.",
+      "section": "Mixed Effects Random Forest (part 3)",
+      "repo": "365_DumME",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.200630Z",
+    "updated_at": "2025-11-03T05:43:04.190935Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23545,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2455,
+    "annotations": [
+      {
+        "id": 10116,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 754,
+              "end": 817,
+              "text": "http://www.tandfonline.com/doi/abs/10.1080/00949655.2012.741599",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "ocuqZqcewa",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 382,
+              "end": 445,
+              "text": "http://www.tandfonline.com/doi/abs/10.1080/00949655.2012.741599",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "B1aK12rHKE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:43:38.565681Z",
+        "updated_at": "2025-11-03T05:43:38.565699Z",
+        "draft_created_at": "2025-11-03T05:43:21.003758Z",
+        "lead_time": 30.314,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "d4afcb5d-36ae-4ea2-b4b0-5efa9c6f419d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2455,
+        "project": 23545,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Tour of the Source Code\n\nThe \\merf directory contains all the source code:\n\nmerf.py is the key module that contains the MERF class. It is imported at the package level.  merf_test.py contain some simple unit tests.  utils.py contains a class for generating synthetic data that can be used to test the accuracy of MERF. The process implemented is the same as that in this [paper] http://www.tandfonline.com/doi/abs/10.1080/00949655.2012.741599.  viz.py contains a plotting function that takes in a trained MERF object and plots various metrics of interest.\n\nThe \\notebooks directory contains some useful notebooks that show you how to use the code and evaluate MERF performance. Most of the techniques implemented are the same as those in this [paper] http://www.tandfonline.com/doi/abs/10.1080/00949655.2012.741599.",
+      "section": "Mixed Effects Random Forest (part 4)",
+      "repo": "365_DumME",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.200654Z",
+    "updated_at": "2025-11-03T05:43:38.595573Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23545,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

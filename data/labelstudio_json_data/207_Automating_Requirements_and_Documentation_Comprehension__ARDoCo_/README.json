@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "# ArDoCo Traceability Link Recovery\n\nThe goal of this project is to create trace links between informal and formal artifacts like software architecture documentation, software architecture, and code. For more information about the ArDoCo project visit the core website at [ArDoCo/Core] https://github.com/ArDoCo/Core.\n\nArDoCo is actively developed by researchers of the _[Modelling for Continuous Software Engineering (MCSE) group] https://mcse.kastel.kit.edu_ of _[KASTEL - Institute of Information Security and Dependability] https://kastel.kit.edu_ at the [KIT] https://www.kit.edu.",
+      "section": "README",
+      "repo": "207_Automating_Requirements_and_Documentation_Comprehension__ARDoCo_",
+      "source_file": "readme.md"
+    }
+  }
+]

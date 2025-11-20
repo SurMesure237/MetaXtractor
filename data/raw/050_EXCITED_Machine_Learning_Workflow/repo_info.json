@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/EXCITED-CO2/excited-workflow",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/EXCITED-CO2/excited-workflow/zipball/main",
+  "author": "EXCITED-CO2",
+  "dateCreated": "2023-06-05T11:26:37Z",
+  "dateModified": "2025-03-26T13:02:33Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "A Machine Learning workflow to produce a dataset of global net ecosystem CO2 exchange fluxes.",
+  "identifier": 649666628,
+  "name": "EXCITED-CO2/excited-workflow",
+  "issueTracker": "https://api.github.com/repos/EXCITED-CO2/excited-workflow/issues",
+  "readme": "https://github.com/EXCITED-CO2/excited-workflow/blob/main/README.md"
+}

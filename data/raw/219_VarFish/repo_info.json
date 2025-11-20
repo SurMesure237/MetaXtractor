@@ -1,0 +1,35 @@
+{
+  "codeRepository": "https://github.com/varfish-org/varfish-server",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Vue",
+    "TypeScript",
+    "JavaScript",
+    "HTML",
+    "Shell",
+    "Dockerfile",
+    "Makefile",
+    "Smarty",
+    "SCSS",
+    "CSS",
+    "HCL"
+  ],
+  "downloadUrl": "https://api.github.com/repos/varfish-org/varfish-server/zipball/main",
+  "author": "varfish-org",
+  "dateCreated": "2019-06-05T06:57:33Z",
+  "dateModified": "2025-10-29T10:07:22Z",
+  "keywords": [
+    "genetics",
+    "varfish",
+    "variant-filtration",
+    "variant-prioritization",
+    "vcf"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "VarFish: comprehensive DNA variant analysis for diagnostics and research",
+  "identifier": 190342238,
+  "name": "varfish-org/varfish-server",
+  "issueTracker": "https://api.github.com/repos/varfish-org/varfish-server/issues",
+  "readme": "https://github.com/varfish-org/varfish-server/blob/main/README.md"
+}

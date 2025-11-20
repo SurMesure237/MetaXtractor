@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/ComputeCanada/magic_castle",
+  "programmingLanguage": "HCL",
+  "programmingLanguages": [
+    "HCL",
+    "Shell",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ComputeCanada/magic_castle/zipball/main",
+  "author": "ComputeCanada",
+  "dateCreated": "2019-08-26T15:01:12Z",
+  "dateModified": "2025-10-30T16:13:56Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Terraform modules to replicate the HPC user experience in the cloud",
+  "identifier": 204500239,
+  "name": "ComputeCanada/magic_castle",
+  "issueTracker": "https://api.github.com/repos/ComputeCanada/magic_castle/issues",
+  "readme": "https://github.com/ComputeCanada/magic_castle/blob/main/README.md"
+}

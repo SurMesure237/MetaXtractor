@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/tpronk/splithalfr",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R"
+  ],
+  "downloadUrl": "https://api.github.com/repos/tpronk/splithalfr/zipball/main",
+  "author": "tpronk",
+  "dateCreated": "2019-05-23T19:49:00Z",
+  "dateModified": "2025-08-29T01:19:20Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/lgpl-3.0",
+  "description": "splithalfr: Estimates split-half reliabilities for scoring algorithms of cognitive tasks and questionnaires",
+  "identifier": 188296890,
+  "name": "tpronk/splithalfr",
+  "issueTracker": "https://api.github.com/repos/tpronk/splithalfr/issues",
+  "readme": "https://github.com/tpronk/splithalfr/blob/main/README.md"
+}

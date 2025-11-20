@@ -1,0 +1,327 @@
+[
+  {
+    "id": 496,
+    "annotations": [
+      {
+        "id": 11383,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:21:37.444882Z",
+        "updated_at": "2025-11-07T08:21:37.444897Z",
+        "draft_created_at": null,
+        "lead_time": 1.754,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "3c80230a-c565-4a13-95bf-1a241738c545",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 496,
+        "project": 23199,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "214_atoMEC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.938202Z",
+    "updated_at": "2025-11-07T08:21:37.471597Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23199,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 497,
+    "annotations": [
+      {
+        "id": 11384,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:21:39.044836Z",
+        "updated_at": "2025-11-07T08:21:39.044850Z",
+        "draft_created_at": null,
+        "lead_time": 1.378,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "9e9df077-3518-4a0a-86f8-c595e2db5543",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 497,
+        "project": 23199,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "atoMEC: Average-Atom Code for Matter under Extreme Conditions\n\n[](https://github.com/atomec-project/atoMEC/actions/workflows/gh-pages.yml) [](https://www.python.org/downloads/release/python-3100/) [](https://opensource.org/licenses/BSD-3-Clause) [](https://codecov.io/gh/atomec-project/atoMEC) [](https://www.codefactor.io/repository/github/atomec-project/atomec)\n\natoMEC is a python-based average-atom code for simulations of high energy density phenomena such as in warm dense matter. It is designed as an open-source and modular python package.\n\natoMEC uses Kohn-Sham density functional theory, in combination with an average-atom approximation, to solve the electronic structure problem for single-element materials at finite temperature.\n\nMore information on the average-atom methodology and Kohn-Sham density functional theory can be found (for example) in this [paper] https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.023055 and references therein.\n\nThis repository is structured as follows:\n\n├── atoMEC : source code ├── docs : sphinx documentation ├── examples : simple examples to get you started with the package └── tests : CI tests",
+      "section": "atoMEC: Average-Atom Code for Matter under Extreme Conditions (part 1)",
+      "repo": "214_atoMEC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.938237Z",
+    "updated_at": "2025-11-07T08:21:39.066354Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23199,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 498,
+    "annotations": [
+      {
+        "id": 11385,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:21:40.554207Z",
+        "updated_at": "2025-11-07T08:21:40.554218Z",
+        "draft_created_at": null,
+        "lead_time": 1.351,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f31435b5-041b-445d-8bf4-c09ef83a861d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 498,
+        "project": 23199,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Installation\n\nThe latest stable release of atoMEC can be installed via pip. It is first necessary to install the libxc package from a tarball source, because it currently has no official wheels distribution on PyPI. This step takes some time.\n\n$ pip install https://gitlab.com/libxc/libxc/-/archive/6.2.2/libxc-6.2.2.tar.gz $ pip install atoMEC\n\nNote that atoMEC does not (yet) support Windows installation (please see the section below on supported operating systems).\n\nRead on for instructions on how to install atoMEC from source, using the recommended pipenv installation route.\n\n### Installation via pipenv\n\nFirst, clone the atoMEC repository and `cd into the main directory.\n\nIt is recommended to install atoMEC inside a virtual environment. Below, we detail how to achive this with [pipenv] https://pypi.org/project/pipenv/.\n\nThis route is recommended because pipenv automatically creates a virtual environment and manages dependencies. Note that pyblibxc is automatically installed in this case, so there is no need to install it separately.\n\nFirst, install pipenv if it is not already installed, for example via pip install pipenv (or see [pipenv] https://pypi.org/project/pipenv/ for installation instructions)\n\nNext, install atoMEC's dependencies with pipenv install (use --dev option to install the test dependencies in the same environment)\n\nUse pipenv shell to activate the virtual environment\n\nInstall atoMEC with pip install atoMEC (for developers: pip install -e .)\n\nNow run scripts from inside the atoMEC virtual environment, e.g. python examples/simple.py`\n\nRun the tests (see Testing section below) and report any failures (for example by raising an issue).",
+      "section": "atoMEC: Average-Atom Code for Matter under Extreme Conditions (part 2)",
+      "repo": "214_atoMEC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.938260Z",
+    "updated_at": "2025-11-07T08:21:40.576643Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23199,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 499,
+    "annotations": [
+      {
+        "id": 11386,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:21:44.220625Z",
+        "updated_at": "2025-11-07T08:21:44.220692Z",
+        "draft_created_at": null,
+        "lead_time": 3.492,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "27d73b9a-dee0-4893-9828-774543213d48",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 499,
+        "project": 23199,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Supported operating systems\n\nLinux and macOS: atoMEC has been installed on various linux distributions and macOS, and is expected to work for most distributions and versions  Windows: atoMEC does not support Windows installation. This is due to the dependency on pylibxc which currently lacks Windows support. We are looking into ways to make the dependency on pylibxc optional, in order to allow installation on Windows. However, this is not currently a priority.\n\n### Supported Python versions\n\natoMEC has been tested and is expected to work for all Python versions >= 3.8 and = 1.4.0, since this is used for the current testing and development environment\n\n## Running\n\nYou can familiarize yourself with the usage of this package by running the example scripts in examples/.\n\n## Contributing to atoMEC\n\nWe welcome your contributions, please adhere to the following guidelines when contributing to the code:  In general, contributors should develop on branches based off of develop and merge requests should be to develop  Please choose a descriptive branch name  Merges from develop to master will be done after prior consultation of the core development team  Merges from develop to master are only done for code releases. This way we always have a clean master that reflects the current release  Code should be formatted using [black] https://pypi.org/project/black/ style\n\n## Testing\n\nFirst, install the test requirements (if not already installed in the virtual env with pipenv install --dev):",
+      "section": "atoMEC: Average-Atom Code for Matter under Extreme Conditions (part 3)",
+      "repo": "214_atoMEC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.938282Z",
+    "updated_at": "2025-11-07T08:21:44.250552Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23199,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 500,
+    "annotations": [
+      {
+        "id": 11387,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:21:46.369507Z",
+        "updated_at": "2025-11-07T08:21:46.369518Z",
+        "draft_created_at": null,
+        "lead_time": 1.987,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "d0116695-ff3c-48e4-a9db-fdad45e74860",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 500,
+        "project": 23199,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "activate environment first (optional) $ pipenv shell\n\ninstall atoMEC as editable project in current directory (for developers) $ pip install -e .[tests]",
+      "section": "activate environment first (optional) + install atoMEC as editable project in current directory (for developers)",
+      "repo": "214_atoMEC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.938302Z",
+    "updated_at": "2025-11-07T08:21:46.392149Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23199,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 501,
+    "annotations": [
+      {
+        "id": 11388,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1384,
+              "end": 1638,
+              "text": "T. J. Callow, D. Kotik, E. Kraisler, and A. Cangi, \"atoMEC: An open-source average-atom Python code\", _Proceedings of the 21st Python in Science Conference_, edited by Meghann Agarwal, Chris Calloway, Dillon Niederhut, and David Shupe (2022), pp. 31 – 39",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "n9W2mfIWim",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1640,
+              "end": 1782,
+              "text": "The DOI corresponding to the specific version of atoMEC that you used (DOIs are listed at [Zenodo.org] https://doi.org/10.5281/zenodo.5205718)",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "l_DFDYc73u",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:22:36.117312Z",
+        "updated_at": "2025-11-07T08:22:36.117325Z",
+        "draft_created_at": "2025-11-07T08:21:59.518436Z",
+        "lead_time": 49.503,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "5f287526-8a2e-4101-bfcc-358e62a7476e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 501,
+        "project": 23199,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "alternatively install package from PyPI with test dependencies $ pip install atoMEC[tests]\n\nTo run the tests:\n\n$ pytest --cov=atoMEC --random-order tests/\n\n### Build documentation locally (for developers)\n\nInstall the prerequisites:\n\n$ pip install -r docs/requirements.txt\n\nChange into docs/ folder.\n\nRun make apidocs.\n\nRun make html. This creates a _build folder inside docs. You may also want to use make html SPHINXOPTS=\"-W\" sometimes. This treats warnings as errors and stops the output at first occurrence of an error (useful for debugging rST syntax).\n\nOpen docs/_build/html/index.html.\n\nmake clean if required (e.g. after fixing errors) and building again.\n\n## Developers\n\n### Scientific Supervision\n\nAttila Cangi ([Center for Advanced Systems Understanding] https://www.casus.science/)\n\nEli Kraisler ([Hebrew University of Jerusalem] https://en.huji.ac.il/en)\n\n### Core Developers and Maintainers\n\nTim Callow ([Center for Advanced Systems Understanding] https://www.casus.science/)\n\nDaniel Kotik ([Center for Advanced Systems Understanding] https://www.casus.science/)\n\n### Contributions (alphabetical)\n\nNathan Rahat ([Hebrew University of Jerusalem] https://en.huji.ac.il/en)\n\nEkaterina Tsvetoslavova Stankulova ([Center for Advanced Systems Understanding] https://www.casus.science/)\n\n## Citing atoMEC\n\nIf you use code from this repository in a published work, please cite\n\nT. J. Callow, D. Kotik, E. Kraisler, and A. Cangi, \"atoMEC: An open-source average-atom Python code\", _Proceedings of the 21st Python in Science Conference_, edited by Meghann Agarwal, Chris Calloway, Dillon Niederhut, and David Shupe (2022), pp. 31 – 39\n\nThe DOI corresponding to the specific version of atoMEC that you used (DOIs are listed at [Zenodo.org] https://doi.org/10.5281/zenodo.5205718)",
+      "section": "alternatively install package from PyPI with test dependencies",
+      "repo": "214_atoMEC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.938324Z",
+    "updated_at": "2025-11-07T08:22:36.142267Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23199,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

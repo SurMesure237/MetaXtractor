@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/TRASAL/AMBER",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "CMake"
+  ],
+  "downloadUrl": "https://api.github.com/repos/TRASAL/AMBER/zipball/main",
+  "author": "TRASAL",
+  "dateCreated": "2015-03-27T14:59:41Z",
+  "dateModified": "2025-07-24T08:41:09Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "A many-core transient searching pipeline, designed to search in real-time for Fast Radio Bursts.",
+  "identifier": 32992365,
+  "name": "TRASAL/AMBER",
+  "issueTracker": "https://api.github.com/repos/TRASAL/AMBER/issues",
+  "readme": "https://github.com/TRASAL/AMBER/blob/master/README.md"
+}

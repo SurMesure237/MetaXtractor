@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/xaratustrah/iqtools",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/xaratustrah/iqtools/zipball/main",
+  "author": "xaratustrah",
+  "dateCreated": "2014-10-22T13:25:55Z",
+  "dateModified": "2025-06-24T07:34:36Z",
+  "keywords": [],
+  "license": null,
+  "description": "Collection of code for working with offline complex valued time series data in Python.",
+  "identifier": 25582693,
+  "name": "xaratustrah/iqtools",
+  "issueTracker": "https://api.github.com/repos/xaratustrah/iqtools/issues",
+  "readme": "https://github.com/xaratustrah/iqtools/blob/main/README.md"
+}

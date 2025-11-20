@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": "Cesium-NcWMS\n\n[](http://dx.doi.org/10.5281/zenodo.60031) [](https://travis-ci.org/NLeSC/Cesium-NcWMS) [](https://codeclimate.com/github/NLeSC/Cesium-NcWMS) [](https://codeclimate.com/github/NLeSC/Cesium-NcWMS) [](https://david-dm.org/NLeSC/Cesium-NcWMS#info=devDependencies)\n\nCesium (cesiumjs.org) based visualization using ncWMS to serve NetCDF data and D3 (d3js.org) to display graphs.  A live running version of this software can be found here: http://forecast.ewatercycle.org",
+      "section": "Introduction (part 1)",
+      "repo": "276_Cesium-ncWMS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Getting started (windows, from scratch)\n\nInstall Git : http://git-scm.com/downloads\n\nInstall Node.js : http://nodejs.org/ (Make sure add node to PATH option is checked)\n\nCreate '$HOME/npm' folder (Where $HOME is c:\\Users\\\\AppData\\Roaming).\n\nOpen node command prompt and run npm install -g bower grunt-cli\n\nInstall Apache Tomcat (http://tomcat.apache.org/) 8.0 or higher.\n\nAdd C:\\Users\\{YOUR USERNAME HERE}\\node_modules\\bower\\bin to your PATH\n\nStart Git bash\n\nChange directory to your \"apache tomcat installation directory\"/webapps/ROOT\n\nType: \"git clone https://github.com/NLeSC/Cesium-NcWMS.git\"\n\nType: \"cd Cesium-NcWMS\"\n\nType: \"npm install -g grunt grunt-cli\"\n\nType: \"npm install\"\n\nType: \"bower install\"\n\nType: \"bower update\"\n\nCopy the ncWMS-2.0-rc1.war from the ncWMS_dist directory to your apache-tomcat/webapps directory.\n\nEdit the tomcat-users.xml in your apache-tomcat/conf directory and add ncWMS-admin as a role to your username\n\nServe some netcdf data with ncWMS via the admin interface, make sure it is CF-1.7 compliant.\n\nEdit the serverconfig.json file in the app/ subdirectory to reflect the location of your ncWMS server.\n\nType: \"grunt serve\"\n\nGetting started (Linux, Debian and Ubuntu based)",
+      "section": "Introduction (part 2)",
+      "repo": "276_Cesium-ncWMS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Prerequisites:\n\nnodejs, http://nodejs.org/\n\nbower, http://bower.io\n\nJava Development Kit, https://www.java.com/\n\n### Installation:\n\n##### Install nodejs\n\nFollow instructions at joyents github website: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager#debian-and-ubuntu-based-linux-distributions\n\n##### Install bower and grunt-cli globally\n\nsudo npm install -g bower grunt-cli\n\n##### Fetch git repository\n\ngit clone https://github.com/NLeSC/Cesium-NcWMS.git\n\n##### Install Apache Tomcat\n\nGo to http://tomcat.apache.org/ and install version 8.0 or higher.\n\nCopy the ncWMS-2.0-rc1.war file from the ncWMS_dist directory to your apache/webapps directory.\n\nEdit the tomcat-users.xml in your apache-tomcat/conf directory and add ncWMS-admin as a role to your username.\n\nEdit the serverconfig.json file in the app/ subdirectory to point to the location of your ncWMS server.\n\n##### setup with bower\n\ncd Cesium-NcWMS npm install bower install\n\nIf you already have a installed the bower packages before, but need to update them for a new version of the code, run\n\nbower update\n\n##### Start development server & open browser\n\ngrunt serve\n\nChanges made to code will automatically reload web page.\n\n##### Run unit tests\n\ngrunt test\n\nGenerates test report and coverage inside test/reports folder.\n\n##### Build a distro\n\ngrunt build\n\nThe dist folder has production ready distribution.\n\nCopyrights & Disclaimers\n\nCesium-NcWMS is copyrighted by the Netherlands eScience Center and releases under the Apache License, Version 2.0.\n\nSee for more information on the Netherlands eScience Center.\n\nSee the \"LICENSE\" file for more information.",
+      "section": "Introduction (part 3)",
+      "repo": "276_Cesium-ncWMS",
+      "source_file": "readme.md"
+    }
+  }
+]

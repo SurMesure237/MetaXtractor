@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/icatproject/python-icat",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "XSLT",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/icatproject/python-icat/zipball/main",
+  "author": "icatproject",
+  "dateCreated": "2015-06-11T08:51:54Z",
+  "dateModified": "2025-08-03T15:31:38Z",
+  "keywords": [
+    "metadata",
+    "metadata-catalogue",
+    "python",
+    "scientific-data"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Python interface to ICAT and IDS",
+  "identifier": 37250056,
+  "name": "icatproject/python-icat",
+  "issueTracker": "https://api.github.com/repos/icatproject/python-icat/issues",
+  "readme": "https://github.com/icatproject/python-icat/blob/develop/README.rst"
+}

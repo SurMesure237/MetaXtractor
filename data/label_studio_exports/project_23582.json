@@ -1,0 +1,789 @@
+[
+  {
+    "id": 2661,
+    "annotations": [
+      {
+        "id": 11698,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 41,
+              "text": "https://doi.org/10.5281/zenodo.7015078",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "pG_e2VIkbT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-08T00:07:22.438056Z",
+        "updated_at": "2025-11-08T00:07:22.438068Z",
+        "draft_created_at": null,
+        "lead_time": 5.1,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "a39f1725-321c-46ec-abdc-75f28dd807af",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2661,
+        "project": 23582,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://doi.org/10.5281/zenodo.7015078)",
+      "section": "Introduction",
+      "repo": "417_PaN_Training_Catalogue_for_the_Photon___Neutron_Community",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.853101Z",
+    "updated_at": "2025-11-08T00:07:22.470255Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23582,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2662,
+    "annotations": [
+      {
+        "id": 11699,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 684,
+              "end": 688,
+              "text": "Ruby",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "O_hnC4CzR1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 465,
+              "end": 468,
+              "text": "git",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "qG2Aphkk1P",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 469,
+              "end": 479,
+              "text": "postgresql",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "TnwewnW7ky",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 480,
+              "end": 489,
+              "text": "libpq-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ai4sD-EDAm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 490,
+              "end": 501,
+              "text": "imagemagick",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "lGRbSRxkPz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 502,
+              "end": 515,
+              "text": "openjdk-8-jre",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "WbQU1iLH7x",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 516,
+              "end": 522,
+              "text": "nodejs",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "UPcn3R3d02",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 523,
+              "end": 535,
+              "text": "redis-server",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "qQXnJxUOMm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1054,
+              "end": 1058,
+              "text": "Ruby",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "zKCzf0HKme",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1059,
+              "end": 1064,
+              "text": "2.4.5",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "CKl_Wkt06B",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1093,
+              "end": 1098,
+              "text": "2.7.4",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "orVoydMqZr",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:33:04.144662Z",
+        "updated_at": "2025-11-14T12:39:51.692635Z",
+        "draft_created_at": "2025-11-09T05:31:37.690150Z",
+        "lead_time": 105993.296,
+        "prediction": {},
+        "result_count": 11,
+        "unique_id": "4aef8eb6-8af0-4b21-80c0-1a245eb17fa8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2662,
+        "project": 23582,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "PaN Training Catalogue (based on the TeSS Trainning Catalogue from ELIXIR)\n\nThis repository contains the sourcecode of our [PaN Training Catalogue] https://pan-training.eu. This catalogue is based on the [TeSS Trainning Catalogue] https://github.com/ElixirTeSS/TeSS from the [ELIXIR] https://elixir-europe.org project and is used in our Photon and Neutron (PaN) projects [ExPaNDS] https://expands.eu and [PaNOSC] https://panosc.eu.   ## Setup\n\nsudo apt-get install git postgresql libpq-dev imagemagick openjdk-8-jre nodejs redis-server\n\nClone the TeSS source code via git:\n\ngit clone https://github.com/ElixirTeSS/TeSS.git\n\n### RVM, Ruby, Gems\n\nIt is typically recommended to install Ruby with RVM. With RVM, you can specify the version of Ruby you want installed, plus a whole lot more (e.g. gemsets). Full installation instructions for RVM are available online. In short:\n\nsudo apt-get install software-properties-common sudo apt-add-repository -y ppa:rael-gc/rvm sudo apt-get update sudo apt-get install rvm rvm user gemsets\n\nTeSS was developed using Ruby 2.4.5. We recommend using version 2.7.4 for our PaN catalague. To install recommended version of ruby and create a gemset, you can do something like the following:\n\nrvm install cat .ruby-version /bin/bash --login rvm get stable --auto-dotfiles rvm use --create cat .ruby-version@cat .ruby-gemset\n\nBundler provides a consistent environment for Ruby projects by tracking and installing the exact gems and versions that are needed for your Ruby application.\n\ngem install bundler",
+      "section": "PaN Training Catalogue (based on the TeSS Trainning Catalogue from ELIXIR) (part 1)",
+      "repo": "417_PaN_Training_Catalogue_for_the_Photon___Neutron_Community",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.853141Z",
+    "updated_at": "2025-11-14T12:39:51.729678Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23582,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2663,
+    "annotations": [
+      {
+        "id": 11700,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 377,
+              "end": 381,
+              "text": "Ruby",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "3eDoW7qKJP",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 383,
+              "end": 386,
+              "text": "RVM",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "3QGvL_1VJP",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 391,
+              "end": 398,
+              "text": "bundler",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "WXdJ3E1xcF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 32,
+              "end": 37,
+              "text": "Redis",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "MqOHr7RqmE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:34:12.199696Z",
+        "updated_at": "2025-11-09T05:34:12.199714Z",
+        "draft_created_at": "2025-11-09T05:33:48.182272Z",
+        "lead_time": 67.829,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "402693f6-42a5-431d-a724-fee7d68811c0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2663,
+        "project": 23582,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Redis/Sidekiq\n\nWe installed Redis before... but start Sidekiq!\n\nbundle exec sidekiq\n\n...or as a daemon in the background for production:\n\nbundle exec sidekiq -d -L log/sidekiq.log -e production\n\nNote that program 'gem' (a package management framework for Ruby called RubyGems) gets installed when you install RVM so you do not have to install it separately.\n\nOnce you have Ruby, RVM and bundler installed, from the root folder of the app do:\n\nbundle install\n\nFollow the steps on the official GitHub and setup PostgrSQL [repo] https://github.com/ElixirTeSS/TeSS, Solr, ... In a first development instance is is necessary to add the database login information in secrets.yml.\n\n### Set up environment\n\nbin/rails db:environment:set RAILS_ENV=development or production!!!\n\n### Solr\n\nTeSS uses Apache Solr to power its search and filtering system.\n\nTo start solr, run:\n\nbundle exec rake sunspot:solr:start\n\nYou can replace start with stop or restart to stop or restart solr. You can use reindex to reindex all records.\n\nbundle exec rake sunspot:solr:reindex",
+      "section": "PaN Training Catalogue (based on the TeSS Trainning Catalogue from ELIXIR) (part 2)",
+      "repo": "417_PaN_Training_Catalogue_for_the_Photon___Neutron_Community",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.853165Z",
+    "updated_at": "2025-11-09T05:34:12.228419Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23582,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2664,
+    "annotations": [
+      {
+        "id": 11701,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:34:18.534345Z",
+        "updated_at": "2025-11-09T05:34:18.534368Z",
+        "draft_created_at": null,
+        "lead_time": 6.146,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "cda6db6c-e7d0-46d8-a4cf-757bd93afd74",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2664,
+        "project": 23582,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Database and Config\n\nFrom the app's root directory, create several config files by copying the example files.\n\ncp config/tess.example.yml config/tess.yml cp config/sunspot.example.yml config/sunspot.yml cp config/secrets.example.yml config/secrets.yml\n\nCreate Postgres DB with user tess_user and edit config/secrets.yml to configure the database name, user and password defined before.\n\nEdit config/secrets.yml to configure the app's secret_key_base which you can generate with:\n\nbundle exec rake secret\n\nCreate the databases:\n\nbundle exec rake db:create:all\n\nStart Solr:\n\nbundle exec rake sunspot:solr:start bundle exec rake sunspot:solr:reindex\n\nCreate the database structure and load in seed data:\n\nNote: Ensure you have started Solr before running this command!\n\n$ bundle exec rake db:setup\n\n### Dev Server\n\nThe dev server can evaluated with\n\nbundle exec sidekiq\n\nbundle exec rails server\n\nand accessed via: http://localhost:3000\n\n#### Setup Administrators\n\nOnce you have a local TeSS succesfully running, you may want to setup administrative users. To do this register a new account in TeSS through the registration page. Then go to the applications Rails console:\n\nbundle exec rails c\n\nFind the user and assign them the administrative role. This can be completed by running this (where myemail@domain.co is the email address you used to register with):\n\n2.2.6 :001 > User.find_by_email('myemail@domain.co').update_attributes(role: Role.find_by_name('admin'))",
+      "section": "PaN Training Catalogue (based on the TeSS Trainning Catalogue from ELIXIR) (part 3)",
+      "repo": "417_PaN_Training_Catalogue_for_the_Photon___Neutron_Community",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.853189Z",
+    "updated_at": "2025-11-09T05:34:18.564629Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23582,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2665,
+    "annotations": [
+      {
+        "id": 11702,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 370,
+              "end": 381,
+              "text": "apache2-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "I4mjGN5Lo8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 382,
+              "end": 389,
+              "text": "apt-get",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "R9VQw6Aaa7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 398,
+              "end": 417,
+              "text": "libcurl4-gnutls-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "flmmzt9kkv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 513,
+              "end": 520,
+              "text": "dirmngr",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "PA3yeAsaEg",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 521,
+              "end": 526,
+              "text": "gnupg",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "wnf3jlUySH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 639,
+              "end": 658,
+              "text": "apt-transport-https",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "B445Uureuw",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 659,
+              "end": 674,
+              "text": "ca-certificates",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "tZS3qYXVKn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:35:42.948282Z",
+        "updated_at": "2025-11-09T05:35:42.948301Z",
+        "draft_created_at": "2025-11-09T05:34:55.892995Z",
+        "lead_time": 84.221,
+        "prediction": {},
+        "result_count": 7,
+        "unique_id": "d33e9db1-b3ae-4f32-8084-37286787b5df",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2665,
+        "project": 23582,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Deployment: Providing TeSS using an Application Server\n\nAfter setting up TeSS, the configuration of an application server (Phusion Passenger is an application server and it is often used to power Ruby sites) is required.\n\nOr my prefered setup with Nginx:\n\nhttps://www.phusionpassenger.com/library/config/nginx/intro.html\n\nWe need additinal packages:\n\napt-get install apache2-dev apt-get install libcurl4-gnutls-dev\n\nAfter successfull development deployment add the Passenger Gem with:\n\nsudo apt-get install -y dirmngr gnupg sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 561F9B9CAC40B2F7 sudo apt-get install -y apt-transport-https ca-certificates",
+      "section": "PaN Training Catalogue (based on the TeSS Trainning Catalogue from ELIXIR) (part 4)",
+      "repo": "417_PaN_Training_Catalogue_for_the_Photon___Neutron_Community",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.853210Z",
+    "updated_at": "2025-11-09T05:35:42.980620Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23582,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2666,
+    "annotations": [
+      {
+        "id": 11703,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:35:46.235293Z",
+        "updated_at": "2025-11-09T05:35:46.235316Z",
+        "draft_created_at": null,
+        "lead_time": 3.075,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "a232297b-0792-42c7-9b6b-2c32d887e082",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2666,
+        "project": 23582,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Add our APT repository sudo sh -c 'echo deb https://oss-binaries.phusionpassenger.com/apt/passenger bionic main > /etc/apt/sources.list.d/passenger.list' sudo apt-get update",
+      "section": "Add our APT repository",
+      "repo": "417_PaN_Training_Catalogue_for_the_Photon___Neutron_Community",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.853230Z",
+    "updated_at": "2025-11-09T05:35:46.265068Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23582,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2667,
+    "annotations": [
+      {
+        "id": 11704,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 8,
+              "end": 17,
+              "text": "Passenger",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "iYmp8na6mR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 20,
+              "end": 25,
+              "text": "Nginx",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "QNAkO3_c70",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 57,
+              "end": 84,
+              "text": "libnginx-mod-http-passenger",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "bJXah2iDHj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:36:16.459795Z",
+        "updated_at": "2025-11-09T05:36:16.459813Z",
+        "draft_created_at": "2025-11-09T05:35:56.687316Z",
+        "lead_time": 30.038,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "a97ef8cc-98e7-4c7d-9685-e549af8b7e03",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2667,
+        "project": 23582,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Install Passenger + Nginx module sudo apt-get install -y libnginx-mod-http-passenger\n\nCheck the installation with:\n\nsudo /usr/bin/passenger-config validate-install sudo /usr/sbin/passenger-memory-stats\n\n...and add the recommended lines to your Nginx configuration file and finish the Passenger setup.\n\nserver {  # SSL configuration  listen 443;  ssl on;  proxy_set_header X_FORWARDED_PROTO https;  proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;  proxy_set_header Host $http_host;  proxy_set_header X-Url-Scheme $scheme;  proxy_redirect off;  proxy_max_temp_file_size 0;  server_name pan-training.hzdr.de;  ssl_certificate /etc/ssl/certs/pan.cert;  ssl_certificate_key /etc/ssl/private/pan.key;  ssl_session_timeout 1d;  ssl_session_cache shared:MozSSL:10m; # about 40000 sessions  ssl_session_tickets off;  ssl_protocols TLSv1.2 TLSv1.3;  ssl_ciphers ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384;  ssl_prefer_server_ciphers off;  root /var/www/catalogue/public;  passenger_enabled on;  passenger_ruby /usr/share/rvm/gems/ruby-2.4.5@tess/wrappers/ruby;  passenger_document_root /var/www/catalogue/public/;  passenger_sticky_sessions on;  }\n\nThen we initialize the production environment:\n\nbundle exec rake db:setup RAILS_ENV=production\n\nor clean init:\n\nbundle exec rake db:reset RAILS_ENV=production\n\n...and reindex Solr:\n\nbundle exec rake sunspot:solr:start RAILS_ENV=production bundle exec rake sunspot:solr:reindex RAILS_ENV=production",
+      "section": "Install Passenger + Nginx module (part 1)",
+      "repo": "417_PaN_Training_Catalogue_for_the_Photon___Neutron_Community",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.853254Z",
+    "updated_at": "2025-11-09T05:36:16.489902Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23582,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2668,
+    "annotations": [
+      {
+        "id": 11705,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:36:17.738378Z",
+        "updated_at": "2025-11-09T05:36:17.738397Z",
+        "draft_created_at": null,
+        "lead_time": 1.073,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "cfa827eb-4699-4b06-b2af-534a4ba17e31",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2668,
+        "project": 23582,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Create an admin user and assign it appropriate 'admin' role bu looking up that role in console in model Role (default roles should be created automatically):\n\nbundle exec rails c -e production\n\nThe first time and each time a css or js file is updated:\n\nbundle exec rake assets:clean RAILS_ENV=production bundle exec rake assets:precompile RAILS_ENV=production\n\nand reindexing the matadata:\n\nbundle exec rake sunspot:solr:reindex RAILS_ENV=production\n\nStatus Check and restart:\n\nbundle exec rake sunspot:solr:start RAILS_ENV=production service nginx restart bundle exec sidekiq -d -L log/sidekiq.log -C config/sidekiq.yml -e production service redis-server restart passenger-memory-stats  passenger-status\n\nLogfiles:\n\n/var/log/redis/redis-server.log /var/log/nginx/error.log /var/log/catalogue/passenger.log /var/log/catalogue/sidekiq.log /var/log/catalogue/production.log /var/log/catalogue/sunspot-solr-production.log",
+      "section": "Install Passenger + Nginx module (part 2)",
+      "repo": "417_PaN_Training_Catalogue_for_the_Photon___Neutron_Community",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.853276Z",
+    "updated_at": "2025-11-09T05:36:17.768516Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23582,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

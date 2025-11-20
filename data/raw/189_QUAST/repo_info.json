@@ -1,0 +1,37 @@
+{
+  "codeRepository": "https://github.com/ablab/quast",
+  "programmingLanguage": "AMPL",
+  "programmingLanguages": [
+    "AMPL",
+    "C++",
+    "Python",
+    "C",
+    "Perl",
+    "JavaScript",
+    "HTML",
+    "TeX",
+    "Makefile",
+    "CSS",
+    "Roff",
+    "Shell",
+    "Cython",
+    "Gnuplot",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ablab/quast/zipball/main",
+  "author": "ablab",
+  "dateCreated": "2012-06-25T09:09:13Z",
+  "dateModified": "2025-10-30T22:58:20Z",
+  "keywords": [
+    "bioinformatics",
+    "contigs",
+    "genome-assembly-evaluation",
+    "visualization"
+  ],
+  "license": null,
+  "description": "Genome assembly evaluation tool",
+  "identifier": 4779828,
+  "name": "ablab/quast",
+  "issueTracker": "https://api.github.com/repos/ablab/quast/issues",
+  "readme": "https://github.com/ablab/quast/blob/master/README.md"
+}

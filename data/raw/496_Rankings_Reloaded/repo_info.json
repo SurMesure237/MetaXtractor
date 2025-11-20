@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/wiesenfa/challengeR",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R"
+  ],
+  "downloadUrl": "https://api.github.com/repos/wiesenfa/challengeR/zipball/main",
+  "author": "wiesenfa",
+  "dateCreated": "2019-09-06T12:48:20Z",
+  "dateModified": "2025-07-06T11:24:43Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-2.0",
+  "description": null,
+  "identifier": 206792576,
+  "name": "wiesenfa/challengeR",
+  "issueTracker": "https://api.github.com/repos/wiesenfa/challengeR/issues",
+  "readme": "https://github.com/wiesenfa/challengeR/blob/master/README.md"
+}

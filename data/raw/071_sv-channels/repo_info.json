@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/GooglingTheCancerGenome/sv-channels",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Jupyter Notebook",
+    "R",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/GooglingTheCancerGenome/sv-channels/zipball/main",
+  "author": "GooglingTheCancerGenome",
+  "dateCreated": "2017-09-14T11:32:53Z",
+  "dateModified": "2025-03-29T02:42:44Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Deep learning-based structural variant filtering method",
+  "identifier": 103524603,
+  "name": "GooglingTheCancerGenome/sv-channels",
+  "issueTracker": "https://api.github.com/repos/GooglingTheCancerGenome/sv-channels/issues",
+  "readme": "https://github.com/GooglingTheCancerGenome/sv-channels/blob/master/README.md"
+}

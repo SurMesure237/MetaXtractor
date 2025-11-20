@@ -1,0 +1,84 @@
+{
+  "name": "cwrc-writer-base",
+  "version": "8.2.0",
+  "description": "intuitive document editing with xml and rdf",
+  "keywords": [
+    "xml",
+    "rdf",
+    "editor",
+    "annotation"
+  ],
+  "homepage": "https://github.com/cwrc/CWRC-WriterBase#readme",
+  "bugs": {
+    "url": "https://github.com/cwrc/CWRC-WriterBase/issues"
+  },
+  "license": "GPL-2.0",
+  "author": "Andrew MacDonald <andrewjames.code@gmail.com>",
+  "contributors": [
+    "James Chartrand <jc.chartrand@gmail.com>",
+    "Luciano Frizzera <lucaju@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cwrc/CWRC-WriterBase.git"
+  },
+  "main": "src/js/writer.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build": "npm run build-editor-css",
+    "build-editor-css": "lessc src/css/editor.less src/css/build/editor.css",
+    "build-editor-css-dev": "less-watch-compiler src/css src/css/build editor.less",
+    "cm": "git-cz",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "report-coverage": "cat ./coverage/coverage-final.json | codecov",
+    "semantic-release": "semantic-release",
+    "build-dependency-graph": "depcruise --include-only \"^src\" --output-type dot src | dot -Gsplines=ortho -T svg | depcruise-wrap-stream-in-html > ./dependency-graph/dependency-graph.html",
+    "prepare": ""
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "css": "^3.0.0",
+    "fscreen": "^1.2.0",
+    "iso-639-2": "^3.0.0",
+    "jquery": "^3.6.0",
+    "jquery-contextmenu": "^2.9.2",
+    "jquery-ui": "^1.12.1",
+    "js-cookie": "^3.0.0",
+    "jstree": "^3.3.11",
+    "moment": "^2.29.1",
+    "openseadragon": "^2.4.2",
+    "prism-themes": "^1.8.0",
+    "prismjs": "^1.24.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "tinymce": "4.9.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@jest-runner/electron": "^3.0.1",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "babel-jest": "^26.6.3",
+    "codecov": "^3.8.3",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "electron": "^13.1.8",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.24.0",
+    "fetch-mock": "^9.11.0",
+    "git-cz": "^4.7.6",
+    "husky": "^7.0.1",
+    "jest": "^26.6.3",
+    "jest-transform-stub": "^2.0.0",
+    "less": "^4.1.1",
+    "less-watch-compiler": "^1.16.2",
+    "semantic-release": "^17.4.4"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "codeRepository": "https://github.com/johannespletzer/hypersonic-effects",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/johannespletzer/hypersonic-effects/zipball/main",
+  "author": "johannespletzer",
+  "dateCreated": "2022-07-28T13:13:02Z",
+  "dateModified": "2025-04-17T12:33:43Z",
+  "keywords": [
+    "atmosphere",
+    "climate",
+    "hydrogen",
+    "hypersonic-aircraft",
+    "liquid-hydrogen",
+    "ozone",
+    "radiation",
+    "stratosphere",
+    "trajectories-optimisation",
+    "water-vapour"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Python package to calculate the radiative effect of hypersonic aircraft emissions",
+  "identifier": 518852238,
+  "name": "johannespletzer/hypersonic-effects",
+  "issueTracker": "https://api.github.com/repos/johannespletzer/hypersonic-effects/issues",
+  "readme": "https://github.com/johannespletzer/hypersonic-effects/blob/master/README.md"
+}

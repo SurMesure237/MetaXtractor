@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/CCB-SB/Aviator",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "HTML",
+    "JavaScript",
+    "R",
+    "CSS",
+    "Shell",
+    "Dockerfile",
+    "Java"
+  ],
+  "downloadUrl": "https://api.github.com/repos/CCB-SB/Aviator/zipball/main",
+  "author": "CCB-SB",
+  "dateCreated": "2021-04-25T21:11:38Z",
+  "dateModified": "2025-06-15T14:43:08Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": null,
+  "identifier": 361539596,
+  "name": "CCB-SB/Aviator",
+  "issueTracker": "https://api.github.com/repos/CCB-SB/Aviator/issues",
+  "readme": "https://github.com/CCB-SB/Aviator/blob/main/README.md"
+}

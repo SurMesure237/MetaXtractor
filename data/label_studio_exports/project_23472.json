@@ -1,0 +1,196 @@
+[
+  {
+    "id": 2102,
+    "annotations": [
+      {
+        "id": 10384,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 318,
+              "end": 356,
+              "text": "https://doi.org/10.5281/zenodo.4534043",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "Hq2UGpwUJP",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 104,
+              "end": 161,
+              "text": "https://pyglotaran.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "wT1-nzxw5P",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:06:41.741524Z",
+        "updated_at": "2025-11-04T07:06:41.741543Z",
+        "draft_created_at": "2025-11-04T07:06:28.342321Z",
+        "lead_time": 24.999,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "8db4a79d-63b0-468b-a779-f2b8111a172a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2102,
+        "project": 23472,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "pyglotaran\n\n[](https://badge.fury.io/py/pyglotaran) [](https://anaconda.org/conda-forge/pyglotaran)\n\n[](https://pyglotaran.readthedocs.io/en/latest/?badge=latest) [](https://codecov.io/gh/glotaran/pyglotaran) [](https://github.com/glotaran/pyglotaran/actions/workflows/codeql.yml) [](https://discord.gg/KfnEYRSTJx) [](https://doi.org/10.5281/zenodo.4534043)\n\nA framework written in Python for global and target analysis; commonly used for the analysis of time-resolved spectroscopy measurements in the study of energy transfer pathways in photosynthesis, or the characterization of energy transfer (in-)efficiencies in photovoltaics.",
+      "section": "pyglotaran (part 1)",
+      "repo": "305_Glotaran",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.000672Z",
+    "updated_at": "2025-11-04T07:06:41.769315Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23472,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2103,
+    "annotations": [
+      {
+        "id": 10385,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 863,
+              "end": 907,
+              "text": "https://pyglotaran.readthedocs.io/en/latest/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "3QlX5Zk6Ql",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:08:06.018378Z",
+        "updated_at": "2025-11-14T13:11:47.232865Z",
+        "draft_created_at": "2025-11-04T07:07:31.541351Z",
+        "lead_time": 99.337,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "3bed4433-8f39-426d-a7db-17fa3601c8a5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2103,
+        "project": 23472,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## The Future of Global and Target Analysis\n\nA scientific publication titled \"pyglotaran: a lego-like Python framework for global and target analysis of time-resolved spectra\" (DOI: [10.1007/s43630-023-00460-y] https://doi.org/10.1007/s43630-023-00460-y) covers aspects of the architecture and the design of the software while illustrating its flexibility as an analysis tool through some exciting case studies. This publication, along with other [pyglotaran-publications] https://github.com/glotaran/pyglotaran-publications demonstrates why we believe this framework is the future of global and target analysis.\n\n## Usage of pyglotaran\n\nIf you just want to get started analyzing your data, jump straight to the [getting started] https://pyglotaran.readthedocs.io/en/latest/notebooks/getting_started/getting_started.html guide that is part of our [documentation] https://pyglotaran.readthedocs.io/en/latest/.\n\nAfterwards, you may also want to have a look at our comprehensive collection of real-world examples in the [pyglotaran-examples] https://github.com/glotaran/pyglotaran-examples repository. There most like is an example that aligns well with your use case.\n\nFor state of the art usage of this framework you may want to check out the list of [pyglotaran-publications] https://github.com/glotaran/pyglotaran-publications.",
+      "section": "pyglotaran (part 2)",
+      "repo": "305_Glotaran",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.000720Z",
+    "updated_at": "2025-11-14T13:11:47.269848Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23472,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2104,
+    "annotations": [
+      {
+        "id": 10386,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:08:24.675728Z",
+        "updated_at": "2025-11-04T07:08:24.675745Z",
+        "draft_created_at": null,
+        "lead_time": 18.464,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6d5e9d26-5cb1-4cb2-9ea5-9491b1a23b93",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2104,
+        "project": 23472,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Example analysis results\n\nResults of a target analysis of Photosystem I (see [study_florescence] https://github.com/glotaran/pyglotaran-examples/tree/main/pyglotaran_examples/study_fluorescence in the [examples] https://github.com/glotaran/pyglotaran-examples/tree/main/pyglotaran_examples.)\n\nPlot created with the plot_overview function of the [pyglotaran-extras] https://github.com/glotaran/pyglotaran-extras package.\n\nNotice: This is (still) an _early access_ release, please refer to the [usage notice] NOTICE.md#usage-notice prior to committing to use pyglotaran to avoid surprises down the line.\n\n## Glotaran legacy\n\nThe pyglotaran package derives its name from the Glotaran software package (now called [glotaran-legacy] https://github.com/glotaran/glotaran-legacy), first released in 2011 and described in a highly-cited publication in the Journal of Statistical Software, under the title [Glotaran: A Java-Based Graphical User Interface for the R Package TIMP] https://www.jstatsoft.org/article/view/v049i03 ([DOI: 10.18637/jss.v049.i03] https://dx.doi.org/10.18637/jss.v049.i03).\n\nThe [pyglotaran] https://github.com/glotaran/pyglotaran framework can be considered the spiritual successor of the [glotaran-legacy] https://github.com/glotaran/glotaran-legacy software and has the backing of many of its original creators.\n\n## Community Support\n\nFor questions / suggestion please reach out to us via:\n\n[GitHub issues] https://github.com/glotaran/pyglotaran/issues\n\n[Discord] https://discord.gg/KfnEYRSTJx\n\n[Google-Groups mailing list] https://groups.google.com/forum/#!forum/glotaran\n\n## Credits\n\nThe credits can be found in the documentation [authors section] https://pyglotaran.readthedocs.io/en/latest/authors.html",
+      "section": "pyglotaran (part 3)",
+      "repo": "305_Glotaran",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.000744Z",
+    "updated_at": "2025-11-04T07:08:24.703402Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23472,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

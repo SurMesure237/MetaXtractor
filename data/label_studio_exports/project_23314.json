@@ -1,0 +1,496 @@
+[
+  {
+    "id": 1290,
+    "annotations": [
+      {
+        "id": 12010,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 282,
+              "end": 292,
+              "text": "setuptools",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "HlAvynQs4x",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 274,
+              "end": 277,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "qdL1OXhfQa",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 325,
+              "end": 328,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "p5Or1rvOCk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 329,
+              "end": 339,
+              "text": "setuptools",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "dWoRxP_jgt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:39:00.644747Z",
+        "updated_at": "2025-11-09T07:39:00.644770Z",
+        "draft_created_at": "2025-11-09T07:38:53.945408Z",
+        "lead_time": 19.775,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "cf58281c-a929-4a73-b9ec-b36cd0b22f86",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1290,
+        "project": 23314,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "mibiremo developer documentation\n\nIf you're looking for user documentation, go [here] README.md.\n\n## Development install\n\nCreate a virtual environment, e.g. with python -m venv env\n\nactivate virtual environment source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools python -m pip install --upgrade pip setuptools\n\ninstall mibiremo as an editable package python -m pip install --no-cache-dir --editable .\n\ninstall development dependencies python -m pip install --no-cache-dir --editable .[dev]",
+      "section": "`mibiremo` developer documentation + Create a virtual environment, e.g. with + activate virtual environment (and 3 more)",
+      "repo": "120_mibiremo",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.988023Z",
+    "updated_at": "2025-11-09T07:39:00.678552Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23314,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1291,
+    "annotations": [
+      {
+        "id": 12011,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 564,
+              "end": 567,
+              "text": "tox",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "eKrQg9FV5k",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 532,
+              "end": 538,
+              "text": "pytest",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ZMxIT__Wnz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1689,
+              "end": 1693,
+              "text": "ruff",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "1b2sUYRYMD",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1695,
+              "end": 1721,
+              "text": "https://beta.ruff.rs/docs/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "BKzwAGfSn0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:39:41.131215Z",
+        "updated_at": "2025-11-15T18:12:24.158979Z",
+        "draft_created_at": "2025-11-09T07:39:30.236410Z",
+        "lead_time": 46.531,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "d0fcf5ed-f78b-451b-89a3-cad56ecebc1c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1291,
+        "project": 23314,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "install documentation dependencies only python -m pip install --no-cache-dir --editable .[docs]\n\nAfterwards check that the install directory is present in the PATH environment variable.\n\n## Quick Start\n\nFor a quick overview of available development commands, run:\n\nmake help\n\nThis will show shortcuts to common development tasks like testing, linting, and building documentation.\n\n## Running the tests\n\nThere are two ways to run tests.\n\nThe first way requires an activated virtual environment with the development tools installed:\n\npytest -v\n\nThe second is to use tox, which can be installed separately (e.g. with pip install tox), i.e. not necessarily inside the virtual environment you use for installing mibiremo, but then builds the necessary virtual environments itself by simply running:\n\ntox\n\nTesting with tox allows for keeping the testing environment separate from your development environment. The development environment will typically accumulate (old) packages during development that interfere with testing; this problem is avoided by testing with tox.\n\n### Test coverage\n\nIn addition to just running the tests to see if they pass, they can be used for coverage statistics, i.e. to determine how much of the package's code is actually executed during tests. In an activated virtual environment with the development tools installed, inside the package directory, run:\n\ncoverage run\n\nThis runs tests and stores the result in a .coverage file. To see the results on the command line, run\n\ncoverage report\n\ncoverage can also generate output in HTML and other formats; see coverage help for more information.## Running linters locally\n\nFor linting and sorting imports we will use [ruff] https://beta.ruff.rs/docs/. Running the linters requires an activated virtual environment with the development tools installed.",
+      "section": "install documentation dependencies only",
+      "repo": "120_mibiremo",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.988070Z",
+    "updated_at": "2025-11-15T18:12:24.194351Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23314,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1292,
+    "annotations": [
+      {
+        "id": 12012,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 121,
+              "end": 125,
+              "text": "yapf",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "9AW7QAc4Mu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 127,
+              "end": 157,
+              "text": "https://github.com/google/yapf",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "AWrdDf-3zB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:40:06.734911Z",
+        "updated_at": "2025-11-15T18:12:33.074030Z",
+        "draft_created_at": "2025-11-09T07:39:51.261441Z",
+        "lead_time": 31.166,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "f6fd8f4f-a65e-4e03-8290-2b863df6d5c6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1292,
+        "project": 23314,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "linter ruff check .\n\nlinter with automatic fixing ruff check . --fix\n\nTo fix readability of your code style you can use [yapf] https://github.com/google/yapf.\n\n## Testing docs locally\n\nTo build the documentation locally, first make sure mkdocs and its dependencies are installed:\n\npython -m pip install .[doc]\n\nThen you can build the documentation and serve it locally with\n\nmkdocs serve\n\nThis will return a URL (e.g. http://127.0.0.1:8000/mibiremo/) where the docs site can be viewed.\n\n## Versioning\n\nBumping the version across all files is done with [bump-my-version] https://github.com/callowayproject/bump-my-version, e.g.\n\nbump-my-version bump major # bumps from e.g. 0.3.2 to 1.0.0 bump-my-version bump minor # bumps from e.g. 0.3.2 to 0.4.0 bump-my-version bump patch # bumps from e.g. 0.3.2 to 0.3.3\n\n## Making a release\n\nBefore you make a new release: Verify that the information in [CITATION.cff] CITATION.cff is correct.\n\nMake sure the [version has been updated] #versioning.\n\nRun the unit tests with pytest -v\n\nNow, make a [release on GitHub] https://github.com/MiBiPret/mibiremo/releases/new. The publish.yml workflow will publish the software on PyPI. GitHub-Zenodo integration will also trigger Zenodo into making a snapshot of your repository and sticking a DOI on it.",
+      "section": "linter + linter with automatic fixing",
+      "repo": "120_mibiremo",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.988112Z",
+    "updated_at": "2025-11-15T18:12:33.105125Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23314,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1293,
+    "annotations": [
+      {
+        "id": 12013,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 189,
+              "end": 228,
+              "text": "https://doi.org/10.5281/zenodo.15180602",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "oEQ2WAR8Di",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:40:47.374646Z",
+        "updated_at": "2025-11-09T07:40:47.374660Z",
+        "draft_created_at": "2025-11-09T07:40:39.945793Z",
+        "lead_time": 22.56,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "c691b671-3ee3-4aeb-ba9c-55ce1077dd43",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1293,
+        "project": 23314,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/MiBiPreT/mibiremo) [](https://github.com/MiBiPreT/mibiremo)  [](https://www.research-software.nl/software/mibiremo)  [](https://pypi.python.org/project/mibiremo/)  [](https://doi.org/10.5281/zenodo.15180602) [](https://bestpractices.coreinfrastructure.org/projects/10401)  [](https://fair-software.eu)  [](https://sonarcloud.io/dashboard?id=MiBiPreT_mibiremo)  [](https://sonarcloud.io/dashboard?id=MiBiPreT_mibiremo)\n\n[](https://github.com/MiBiPreT/mibiremo/actions/workflows/build.yml) [](https://github.com/MiBiPreT/mibiremo/actions/workflows/cffconvert.yml)",
+      "section": "Introduction (part 1)",
+      "repo": "120_mibiremo",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.988138Z",
+    "updated_at": "2025-11-09T07:40:47.402435Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23314,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1294,
+    "annotations": [
+      {
+        "id": 12014,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:40:50.825041Z",
+        "updated_at": "2025-11-09T07:40:50.825057Z",
+        "draft_created_at": null,
+        "lead_time": 3.245,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c2b4ba8e-a9fa-4d64-8bf0-fbb59222b031",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1294,
+        "project": 23314,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/MiBiPreT/mibiremo/actions/workflows/sonarcloud.yml) [](https://github.com/MiBiPreT/mibiremo/actions/workflows/link-check.yml)",
+      "section": "Introduction (part 2)",
+      "repo": "120_mibiremo",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.988159Z",
+    "updated_at": "2025-11-09T07:40:50.853414Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23314,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1295,
+    "annotations": [
+      {
+        "id": 12015,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 438,
+              "end": 441,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "baCYy6VMrf",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1044,
+              "end": 1080,
+              "text": "https://mibipret.github.io/mibiremo/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "nYIgwJ5A0P",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:41:37.748858Z",
+        "updated_at": "2025-11-15T18:12:50.574240Z",
+        "draft_created_at": "2025-11-09T07:41:25.499586Z",
+        "lead_time": 53.309,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "cc5b65f4-827a-47fb-8676-cca59fc1a19d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1295,
+        "project": 23314,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "mibiremo\n\nMiBiReMo (Microbiome Bioremediation Reaction Module) is a Python interface to the PhreeqcRM library. The package is designed to be coupled with transport models to simulate reactive transport in porous media, with applications in environmental and geochemical engineering. Developed as part of the [MIBIREM] https://www.mibirem.eu/ toolbox for Bioremediation.\n\n## Installation\n\n### Installation of stable release from PyPI\n\nUse pip to install the most recent stable release of mibiremo from PyPI as follows:\n\npip install mibiremo\n\n### Installation of most recent development version\n\nTo install mibiremo from the GitHub repository directly, do:\n\ngit clone git@github.com:MiBiPreT/mibiremo.git cd mibiremo python -m pip install .\n\nNote that this is the (possibly unstable) development version from the main branch. If you want a stable release, use the PyPI installation method instead.\n\n## Examples\n\nExamples are available in the [examples] examples/ directory.\n\n## Documentation\n\nThe project's full documentation is available [here] https://mibipret.github.io/mibiremo/.\n\n## Contributing\n\nIf you want to contribute to the development of mibiremo, have a look at the [contribution guidelines] CONTRIBUTING.md.\n\n## Credits\n\nThis package was created with [Copier] https://github.com/copier-org/copier and the [NLeSC/python-template] https://github.com/NLeSC/python-template.",
+      "section": "`mibiremo`",
+      "repo": "120_mibiremo",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.988182Z",
+    "updated_at": "2025-11-15T18:12:50.605133Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23314,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

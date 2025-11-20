@@ -1,0 +1,161 @@
+[
+  {
+    "id": 2111,
+    "annotations": [
+      {
+        "id": 10329,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 42,
+              "text": "https://doi.org/10.5281/zenodo.11563149",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "aYK2drB2iH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 131,
+              "end": 149,
+              "text": "anaconda-navigator",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "9LWcrEq-eO",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 151,
+              "end": 176,
+              "text": "https://www.anaconda.com/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "eWgfG3J4x2",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 110,
+              "end": 123,
+              "text": "python >= 3.8",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "ORK-Cuf9OW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:34:34.954724Z",
+        "updated_at": "2025-11-17T00:09:32.151016Z",
+        "draft_created_at": "2025-11-04T06:33:58.353446Z",
+        "lead_time": 74.204,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "c1edd11b-1e98-40ed-9925-588100d74bc4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2111,
+        "project": 23475,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://doi.org/10.5281/zenodo.11563149)\n\nmicromechanics-indentationGUI\n\nInstall Create a new environment (python >= 3.8) using anaconda-navigator (https://www.anaconda.com/). In Anaconda's documentation (https://docs.anaconda.com/free/navigator/) you will learn:\n\nhow to install anaconda-navigator in the section of \"Anaconda Navigator => Installation\" (reading takes ~5 min),\n\nhow to create and activate a new environment in the section of \"Anaconda Navigator => Tutorials => How to create a Python 3.5 environment from Anaconda2 or Anaconda3\" (reading takes ~5 min).\n\nIn the terminal of the environment created by Anaconda Navigator, keyboard type the following command and press Enter\n\npip install micromechanics-indentationGUI\n\nIn the terminal, keyboard type the following command and press Enter\n\npip install --upgrade micromechanics-indentationGUI",
+      "section": "Introduction + Install + Upgrade",
+      "repo": "378_micromechanics-indentationGUI",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.197881Z",
+    "updated_at": "2025-11-17T00:09:32.182170Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23475,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2112,
+    "annotations": [
+      {
+        "id": 10330,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:34:39.451999Z",
+        "updated_at": "2025-11-04T06:34:39.452045Z",
+        "draft_created_at": null,
+        "lead_time": 4.304,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c7f37fc1-20c1-4693-af95-4d86e1b97dad",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2112,
+        "project": 23475,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Usage Users need to know: For fast reading using HDF5 files:\n\nUsing the given original file (e.g. the XLSX file for G200X), the HDF5 file will be automatically generated at the first calibration/calculation (or when an HDF5 file with the same name as the XLSX file does not exist).\n\nThe automatically generated HDF5 file has the same file name as the original file (e.g. the XLSX file for G200X) except the file extension of \".h5\" and locates in the same folder as the original file.\n\nThe original file extension (e.g. '.xlsx' for G200X) should be given in the path instead of the file extension of the HDF5 file (\".h5\").\n\n[Important] If you changed the content of the original file, please delete the correspoding HDF5 file.\n\nRunning by keyboard typing the following command and pressing Enter in the terminal\n\nmicromechanics-indentationGUI\n\nIn the terminal, keyboard type the following command and press Enter\n\npip uninstall micromechanics-indentationGUI\n\nPrepare and create a new version Delete RecentFiles.txt in /indentationGUI/micromechanics_indentationGUI\n\nDelete .hf in /indentationGUI/micromechanics_indentationGUI/Examples\n\nSet \"# pylint: skip-file\" for all files named \"**_ui.py\"\n\nTest the code: linting, documentation and then the tests from the project's main directory\n\npylint micromechanics_indentationGUI/ make -C docs html\n\npython tests/testVerification.py\n\nThen upload/create-pull-request to GitHub, via\n\n./commit.py 'my message'",
+      "section": "Usage + Uninstall + Prepare and create a new version (and 1 more)",
+      "repo": "378_micromechanics-indentationGUI",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.197923Z",
+    "updated_at": "2025-11-04T06:34:39.480488Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23475,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

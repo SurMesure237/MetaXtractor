@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/carbon-budget-explorer/cabe",
+  "programmingLanguage": "Svelte",
+  "programmingLanguages": [
+    "Svelte",
+    "TypeScript",
+    "Python",
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "downloadUrl": "https://api.github.com/repos/carbon-budget-explorer/cabe/zipball/main",
+  "author": "carbon-budget-explorer",
+  "dateCreated": "2023-05-24T09:21:44Z",
+  "dateModified": "2024-07-02T13:06:03Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Web application to explore carbon budgets",
+  "identifier": 644796777,
+  "name": "carbon-budget-explorer/cabe",
+  "issueTracker": "https://api.github.com/repos/carbon-budget-explorer/cabe/issues",
+  "readme": "https://github.com/carbon-budget-explorer/cabe/blob/main/README.md"
+}

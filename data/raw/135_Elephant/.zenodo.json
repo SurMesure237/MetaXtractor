@@ -1,0 +1,51 @@
+{
+    "creators": [
+        {
+            "orcid": "0000-0003-1255-7300",
+            "affiliation": "Institute for Advanced Simulation (IAS-6), Jülich Research Centre, Jülich, Germany",
+            "name": "Denker, Michael"
+        },
+        {
+            "orcid": "0000-0001-7292-1982",
+            "affiliation": "Institute for Advanced Simulation (IAS-6), Jülich Research Centre, Jülich, Germany",
+            "name": "Kern, Moritz"
+        },
+        {
+            "orcid": "0009-0003-9352-9826",
+            "affiliation": "BioMEMS Lab, University of Applied Sciences Aschaffenburg, Germany",
+            "name": "Richter, Felician"
+        }
+    ],
+
+    "title": "Elephant 1.1.1",
+
+    "keywords": [
+    "neuroscience",
+    "neurophysiology",
+    "electrophysiology",
+    "statistics",
+    "data-analysis"
+    ],
+
+    "license": {
+      "id": "BSD-3-Clause"
+    },
+
+    "related_identifiers": [
+        {
+            "scheme": "doi",
+            "identifier": "10.12751/incf.ni2018.0019",
+            "relation": "isDocumentedBy",
+            "resource_type": "publication-article"
+        }
+    ],
+
+    "grants": [
+        {"id": "604102"},
+        {"id": "720270"},
+        {"id": "785907"},
+        {"id": "945539"}
+    ],
+
+    "upload_type": "software"
+}

@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/TREX-CoE/aiida-champ",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/TREX-CoE/aiida-champ/zipball/main",
+  "author": "TREX-CoE",
+  "dateCreated": "2021-07-09T10:25:02Z",
+  "dateModified": "2022-03-07T20:22:43Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "aiida-champ plugin to handle workflow of CHAMP using AiiDA.",
+  "identifier": 384401684,
+  "name": "TREX-CoE/aiida-champ",
+  "issueTracker": "https://api.github.com/repos/TREX-CoE/aiida-champ/issues",
+  "readme": "https://github.com/TREX-CoE/aiida-champ/blob/master/README.md"
+}

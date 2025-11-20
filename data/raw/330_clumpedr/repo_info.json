@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/isoverse/clumpedr",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R",
+    "Makefile",
+    "Rez"
+  ],
+  "downloadUrl": "https://api.github.com/repos/isoverse/clumpedr/zipball/main",
+  "author": "isoverse",
+  "dateCreated": "2019-01-30T05:56:58Z",
+  "dateModified": "2025-08-27T02:16:53Z",
+  "keywords": [
+    "analysis",
+    "clumped",
+    "data",
+    "isotope",
+    "processing",
+    "r",
+    "stable",
+    "stable-isotopes"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Clumped isotope data analysis in R",
+  "identifier": 168287629,
+  "name": "isoverse/clumpedr",
+  "issueTracker": "https://api.github.com/repos/isoverse/clumpedr/issues",
+  "readme": "https://github.com/isoverse/clumpedr/blob/master/README.md"
+}

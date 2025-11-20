@@ -1,0 +1,66 @@
+[
+  {
+    "data": {
+      "text": "BlenderProc2\n\n[](https://dlr-rm.github.io/BlenderProc/) [](https://colab.research.google.com/github/DLR-RM/BlenderProc/blob/main/examples/basics/basic/basic_example.ipynb) [](https://www.gnu.org/licenses/gpl-3.0)\n\nA procedural Blender pipeline for photorealistic rendering.\n\n[Documentation] https://dlr-rm.github.io/BlenderProc | [Tutorials] #tutorials | [Examples] #examples | [ArXiv paper] https://arxiv.org/abs/1911.01911 | [Workshop paper] https://sim2real.github.io/assets/papers/2020/denninger.pdf | [JOSS article] https://joss.theoj.org/papers/10.21105/joss.04901\n\n## Features\n\nLoading: .obj, .ply, .blend, .fbx, BOP, ShapeNet, Haven, 3D-FRONT, etc.  Objects: Set or sample object poses, apply physics and collision checking.  Materials: Set or sample physically-based materials and textures  Lighting: Set or sample lights, automatic lighting of 3D-FRONT scenes.  Cameras: Set, sample or load camera poses from file.  Rendering: RGB, stereo, depth, normal and segmentation images/sequences. Writing: .hdf5 containers, COCO & BOP annotations.\n\n## Installation\n\n### Via pip\n\nThe simplest way to install blenderproc is via pip:\n\npip install blenderproc",
+      "section": "BlenderProc2 (part 1)",
+      "repo": "034_BlenderProc",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Via git\n\nAlternatively, if you need to make changes to blenderproc or you want to make use of the most recent version on the main-branch, clone the repository:\n\ngit clone https://github.com/DLR-RM/BlenderProc\n\nTo still make use of the blenderproc command and therefore use blenderproc anywhere on your system, make a local pip installation:\n\ncd BlenderProc pip install -e .\n\n## Usage\n\nBlenderProc has to be run inside the blender python environment, as only there we can access the blender API.  Therefore, instead of running your script with the usual python interpreter, the command line interface of BlenderProc has to be used.\n\nblenderproc run\n\nIn general, one run of your script first loads or constructs a 3D scene, then sets some camera poses inside this scene and renders different types of images (RGB, distance, semantic segmentation, etc.) for each of those camera poses. Usually, you will run your script multiple times, each time producing a new scene and rendering e.g. 5-20 images from it. With a little more experience, it is also possible to change scenes during a single script call, read [here] docs/tutorials/key_frames.md#render-multiple-times how this is done.\n\n## Quickstart\n\nYou can test your BlenderProc pip installation by running\n\nblenderproc quickstart\n\nThis is an alias to blenderproc run quickstart.py where quickstart.py is:\n\nimport blenderproc as bproc import numpy as np\n\nbproc.init()",
+      "section": "BlenderProc2 (part 2)",
+      "repo": "034_BlenderProc",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Create a simple object: obj = bproc.object.create_primitive(\"MONKEY\")\n\nCreate a point light next to it light = bproc.types.Light() light.set_location([2, -2, 0]) light.set_energy(300)\n\nSet the camera to be in front of the object cam_pose = bproc.math.build_transformation_mat([0, -5, 0], [np.pi / 2, 0, 0]) bproc.camera.add_camera_pose(cam_pose)\n\nRender the scene data = bproc.renderer.render()",
+      "section": "Create a simple object: + Create a point light next to it + Set the camera to be in front of the object (and 1 more)",
+      "repo": "034_BlenderProc",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Write the rendering into an hdf5 file bproc.writer.write_hdf5(\"output/\", data)\n\nBlenderProc creates the specified scene and renders the image into output/0.hdf5. To visualize that image, simply call:\n\nblenderproc vis hdf5 output/0.hdf5\n\nThats it! You rendered your first image with BlenderProc!\n\n### Debugging in the Blender GUI\n\nTo understand what is actually going on, BlenderProc has the great feature of visualizing everything inside the blender UI. To do so, simply call your script with the debug instead of run subcommand:\n\nblenderproc debug quickstart.py\n\nMake sure that quickstart.py actually exists in your working directory.\n\nNow the Blender UI opens up, the scripting tab is selected and the correct script is loaded. To start the BlenderProc pipeline, one now just has to press Run BlenderProc (see red circle in image). As in the normal mode, print statements are still printed to the terminal.\n\nThe pipeline can be run multiple times, as in the beginning of each run the scene is cleared.\n\n### Breakpoint-Debugging in IDEs\n\nAs blenderproc runs in blenders separate python environment, debugging your blenderproc script cannot be done in the same way as with any other python script. Therefore, remote debugging is necessary, which is explained for vscode and PyCharm in the following:",
+      "section": "Write the rendering into an hdf5 file (part 1)",
+      "repo": "034_BlenderProc",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### Debugging with vscode\n\nFirst, install the debugpy package in blenders python environment.\n\nblenderproc pip install debugpy\n\nNow add the following configuration to your vscode [launch.json] https://code.visualstudio.com/docs/python/debugging#_initialize-configurations.\n\n{   \"name\": \"Attach\",  \"type\": \"python\",  \"request\": \"attach\",  \"connect\": {  \"host\": \"localhost\",  \"port\": 5678  } }\n\nFinally, add the following lines to the top (after the imports) of your blenderproc script which you want to debug.\n\nimport debugpy debugpy.listen(5678) debugpy.wait_for_client()\n\nNow run your blenderproc script as usual via the CLI and then start the added \"Attach\" configuration in vscode. You are now able to add breakpoints and go through the execution step by step.",
+      "section": "Write the rendering into an hdf5 file (part 2)",
+      "repo": "034_BlenderProc",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### Debugging with PyCharm Professional\n\nIn Pycharm, go to Edit configurations... and create a [new configuration] https://www.jetbrains.com/help/pycharm/remote-debugging-with-product.html#remote-debug-config based on Python Debug Server. The configuration will show you, specifically for your version, which pip package to install and which code to add into the script. The following assumes Pycharm 2021.3:\n\nFirst, install the pydevd-pycharm package in blenders python environment.\n\nblenderproc pip install pydevd-pycharm~=212.5457.59\n\nNow, add the following code to the top (after the imports) of your blenderproc script which you want to debug.\n\nimport pydevd_pycharm pydevd_pycharm.settrace('localhost', port=12345, stdoutToServer=True, stderrToServer=True)\n\nThen, first run your Python Debug Server configuration in PyCharm and then run your blenderproc script as usual via the CLI. PyCharm should then go in debug mode, blocking the next code line. You are now able to add breakpoints and go through the execution step by step.\n\n## What to do next?\n\nAs you now ran your first BlenderProc script, your ready to learn the basics:\n\n### Tutorials\n\nRead through the tutorials, to get to know with the basic principles of how BlenderProc is used:\n\n[Loading and manipulating objects] docs/tutorials/loader.md\n\n[Configuring the camera] docs/tutorials/camera.md\n\n[Rendering the scene] docs/tutorials/renderer.md\n\n[Writing the results to file] docs/tutorials/writer.md\n\n[How key frames work] docs/tutorials/key_frames.md\n\n[Positioning objects via the physics simulator] docs/tutorials/physics.md",
+      "section": "Write the rendering into an hdf5 file (part 3)",
+      "repo": "034_BlenderProc",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Examples\n\nWe provide a lot of [examples] examples/README.md which explain all features in detail and should help you understand how BlenderProc works. Exploring our examples is the best way to learn about what you can do with BlenderProc. We also provide support for some datasets.\n\n[Basic scene] examples/basics/basic/README.md: Basic example, this is the ideal place to start for beginners  [Camera sampling] examples/basics/camera_sampling/README.md: Sampling of different camera positions inside of a shape with constraints for the rotation.  [Object manipulation] examples/basics/entity_manipulation/README.md: Changing various parameters of objects.  [Material manipulation] examples/basics/material_manipulation/README.md: Material selecting and manipulation.  [Physics positioning] examples/basics/physics_positioning/README.md: Enabling simple simulated physical interactions between objects in the scene.  [Semantic segmentation] examples/basics/semantic_segmentation/README.md: Generating semantic segmentation labels for a given scene.  [BOP Challenge] README_BlenderProc4BOP.md: Generate the pose-annotated data used at the BOP Challenge 2020  [COCO annotations] examples/advanced/coco_annotations/README.md: Write COCO annotations to a .json file for selected objects in the scene.\n\nand much more, see our [examples] examples/README.md for more details.\n\n## Contributions\n\nFound a bug? help us by reporting it. Want a new feature in the next BlenderProc release? Create an issue. Made something useful or fixed a bug? Start a PR. Check the [contributions guidelines] CONTRIBUTING.md.\n\n## Change log\n\nSee our [change log] change_log.md.",
+      "section": "Write the rendering into an hdf5 file (part 4)",
+      "repo": "034_BlenderProc",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Citation\n\nIf you use BlenderProc in a research project, please cite as follows:\n\n@article{Denninger2023,   doi = {10.21105/joss.04901},  url = {https://doi.org/10.21105/joss.04901},  year = {2023},  publisher = {The Open Journal},   volume = {8},  number = {82},  pages = {4901},   author = {Maximilian Denninger and Dominik Winkelbauer and Martin Sundermeyer and Wout Boerdijk and Markus Knauer and Klaus H. Strobl and Matthias Humt and Rudolph Triebel},  title = {BlenderProc2: A Procedural Pipeline for Photorealistic Rendering},   journal = {Journal of Open Source Software} }",
+      "section": "Write the rendering into an hdf5 file (part 5)",
+      "repo": "034_BlenderProc",
+      "source_file": "readme.md"
+    }
+  }
+]

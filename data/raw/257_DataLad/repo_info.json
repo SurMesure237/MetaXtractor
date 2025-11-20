@@ -1,0 +1,31 @@
+{
+  "codeRepository": "https://github.com/datalad/datalad",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell",
+    "Makefile",
+    "Singularity",
+    "Batchfile",
+    "Jinja",
+    "PowerShell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/datalad/datalad/zipball/main",
+  "author": "datalad",
+  "dateCreated": "2013-11-01T19:40:08Z",
+  "dateModified": "2025-10-30T12:01:02Z",
+  "keywords": [
+    "closember",
+    "data-storage",
+    "dataset",
+    "git-annex",
+    "python",
+    "usable"
+  ],
+  "license": null,
+  "description": "Keep code, data, containers under control with git  and git-annex",
+  "identifier": 14052034,
+  "name": "datalad/datalad",
+  "issueTracker": "https://api.github.com/repos/datalad/datalad/issues",
+  "readme": "https://github.com/datalad/datalad/blob/maint/README.md"
+}

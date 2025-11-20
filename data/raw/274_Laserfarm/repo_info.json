@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/eEcoLiDAR/Laserfarm",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Jupyter Notebook",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/eEcoLiDAR/Laserfarm/zipball/main",
+  "author": "eEcoLiDAR",
+  "dateCreated": "2020-01-30T14:34:09Z",
+  "dateModified": "2025-10-16T11:54:47Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Laserchicken Framework for Applications in Research in Macro-ecology",
+  "identifier": 237231731,
+  "name": "eEcoLiDAR/Laserfarm",
+  "issueTracker": "https://api.github.com/repos/eEcoLiDAR/Laserfarm/issues",
+  "readme": "https://github.com/eEcoLiDAR/Laserfarm/blob/master/README.md"
+}

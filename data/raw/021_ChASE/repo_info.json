@@ -1,0 +1,32 @@
+{
+  "codeRepository": "https://github.com/ChASE-library/ChASE",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "Cuda",
+    "CMake",
+    "Fortran",
+    "NASL",
+    "C"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ChASE-library/ChASE/zipball/main",
+  "author": "ChASE-library",
+  "dateCreated": "2021-03-18T13:00:59Z",
+  "dateModified": "2025-09-10T08:26:14Z",
+  "keywords": [
+    "chebyshev-filter",
+    "dense-matrices",
+    "density-functional-theory",
+    "eigensolver",
+    "gpu",
+    "high-performance-computing",
+    "iterative-methods",
+    "self-consistent-field"
+  ],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "This repository mirrors the principal Gitlab repository of the Chebyshev Accelerated Subspace iteration Eigensolver. If you want to contribute as developer to this project please contact e.di.napoli@fz-juelich.de.",
+  "identifier": 349075288,
+  "name": "ChASE-library/ChASE",
+  "issueTracker": "https://api.github.com/repos/ChASE-library/ChASE/issues",
+  "readme": "https://github.com/ChASE-library/ChASE/blob/master/README.md"
+}

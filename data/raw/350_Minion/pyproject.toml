@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools>=40.8.0", "wheel", "scikit-build", "cmake>=3.14",  "pybind11", "auditwheel-symbols"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minionpy"
+version = "0.2.7"
+description = "MinionPy is the Python implementation of the Minion C++ library, designed for derivative-free optimization."
+readme = "minionpy.md"
+license = { file = "LICENSE.txt" }
+authors = [
+    { name = "Khoirul Faiq Muzakka", email = "khoirul.muzakka@gmail.com" }
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: Unix",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development"
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.21.0"
+]
+
+[tool.setuptools.packages.find]
+include = ["minionpy"]
+
+[tool.setuptools.package-data]
+"minionpy" = ["lib/*", "cec_input_data/**/*"]
+
+[tool.setuptools]
+license-files = []
+
+[tool.scikit-build]
+cmake_minimum_required = "3.18"
+cmake_args = [
+    "-DCMAKE_BUILD_TYPE=Release",
+    "-DCMAKE_CXX_STANDARD=17"
+]
+cmake-options = [
+    "-DPython3_EXECUTABLE=${PYTHON_EXECUTABLE}",
+    "-DPython3_INCLUDE_DIRS=${Python3_INCLUDE_DIR}",
+    "-DPython3_LIBRARIES=${Python3_LIBRARY}"
+]
+cmake-verbose-makefile = "ON"
+include-package-data = true
+
+[tool.scikit-build.find]
+include = ["minionpy"]
+
+#[tool.cibuildwheel] #for test purpose
+#build = [ "cp39-*", "cp310-*", "cp311-*","cp312-*","cp313-*"] 
+#build = [ "cp312-*"] 
+
+[project.urls]
+homepage = "https://github.com/khoirulmuzakka/Minion"
+documentation = "https://minion-py.readthedocs.io/"
+source = "https://github.com/khoirulmuzakka/Minion"

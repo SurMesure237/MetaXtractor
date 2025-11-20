@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "Optical STEM detection for scanning electron microscopy Arent J. Kievits, 13-07-2023\n\nThis repository contains the code for analysis of the experimental data from the publication titled 'Optical STEM detection for scanning electron microscopy'. The results of the publication can be verified and visualized using Jupyter Notebooks.  The data can be found in the 4TU.Research repository: [10.4121/9c98aee1-608e-4c71-8b89-dcb1e8eb3e5e] https://doi.org/10.4121/9c98aee1-608e-4c71-8b89-dcb1e8eb3e5e\n\n### Installation\n\nIt is recommended (and currently only supported) to install this repository with conda (https://docs.conda.io/en/latest/miniconda.html) via the command line. Install miniconda first and then open the terminal. In Windows, search for anaconda prompt in the search bar and in Mac OS search for terminal in the finder. Enter the following commands in the terminal:\n\nInstall git with conda to be able to clone the GitHub repository\n\nconda install git\n\nClone GitHub repository into suitable directory\n\ngit clone https://github.com/arentkievits/Kievits-OSTEM-2023\n\nCreate and activate new conda environment called ostem\n\nconda env create --file=environment.yml conda activate ostem\n\nInstall package from GitHub\n\npip install git+git://github.com/arentkievits/Kievits-OSTEM-2023\n\n### Use\n\nTo start the environment, use the command line to get to the git folder and type jupyter lab or search jupyter notebook via the Windows/Mac programs tab and go to the respective repository location. The notebook can be executed at once by hitting the play button or by selecting Run > 'Run All Cells'.",
+      "section": "Optical STEM detection for scanning electron microscopy (part 1)",
+      "repo": "317_Microscopy_data__code_and_analysis_underlying_the_publication__Optical_STEM_detection_for_scanning_e",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### /data\n\nDirectory that contains the experimental data. Replace with data from Repository.\n\n1_Optimization-OSTEM -- OSTEM images acquired at different landing energies (LEs), to find the optimal landing energy (Figure 2). 5 images per landing energy.\n\n| LE (keV) | Dwell (ns) | Pixel size (nm/px) | |:--------:|:----------:|:------------------:| | 2.53.03.54.04.55.05.56.06.57.07.58.0| 01002005001000150020003000 | 1 |\n\n2_Qualitative-comparison -- Backscattered electron images (BSD) and optical scanning transmission electron microscopy images of rat pancreas and zebrafish larval tissue.\n\n| LE (keV) | Dwell (ns) | Pixel size (nm/px) | |:--------:|:----------:|:------------------:| | 1.52.04.0| 500010000 | 4 |\n\n3_SNR-comparison-detectors -- Backscattered electron images acquired with the CBS detector (BSD), Secondary electron images acquired with the through-the-lens or Everhart-Thornley detector (SE), backscatter electron images acquired with stage bias (BSE-SB) and optical scanning transmission electron microscopy images acquired with the photon detector (OSTEM). 5 images per setting. Both field-free (HR) and immersion modes (UHR).\n\n| Detection mode | LE (keV) | Dwell (ns) | Pixel size (nm/px) | |:--------------:|:--------:|:----------:|:------------------:| | BSDBSD-SBSEOSTEMADF-STEM | 1.5 (BSD, BSD-SB, SE)4 (OSTEM)25 (ADF-STEM)| 10020030050010003000500010000 | 1 |\n\n4_Image-resolution-detectors -- Backscattered electron images acquired with the CBS detector (BSD), Secondary electron images acquired with the through-the-lens detector (SE) and optical scanning transmission electron microscopy images acquired with the photon detector (OSTEM). Immersion mode (UHR).",
+      "section": "Optical STEM detection for scanning electron microscopy (part 2)",
+      "repo": "317_Microscopy_data__code_and_analysis_underlying_the_publication__Optical_STEM_detection_for_scanning_e",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Detection mode | LE (keV) | Dwell (ns) | Pixel size (nm/px) | |:--------------:|:-------:|:----------:|:------------------:| | BSDSEOSTEMADF-STEM | 1.54 (BSD, SE)4 (OSTEM)25 (ADF-STEM) | 1000020000 (BSD, SE, OSTEM)3000 (ADF-STEM) | 0.5 (BSD, SE, OSTEM)0.2 (ADF-STEM) |\n\n5_Current-SNR-relation -- Optical scanning transmission electron microscopy images acquired with increasing dwell times and increasing currents\n\n| LE (keV) | Current (nA) | Dwell (ns) | Pixel size (nm/px) | |:--------:|:------------:|:----------:|:------------------:| | 4 | 0.050.10.20.40.8 | 10020030050010003000500010000 | 1 |",
+      "section": "Optical STEM detection for scanning electron microscopy (part 3)",
+      "repo": "317_Microscopy_data__code_and_analysis_underlying_the_publication__Optical_STEM_detection_for_scanning_e",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### /code\n\nContains the code used in the notebooks\n\n### /notebooks\n\nContains the notebooks used to analyze the data and plot the results\n\n1_Optimization-OSTEM -- Performs the landing energy optimization by calculating the SNR and plots the SNR vs landing energy and histogram of selected images (Figure 2)  2_Qualitative-comparison -- Visualizes backscattered electron images (BSD) and optical scanning transmission electron microscopy images of the same biological tissues (Figure 3).   3_SNR-comparison-detectors -- Computes SNR for all detection methods and plots comparison (Figure 4, Figure S3).  4_Image-resolution-detectors -- Computes histogram of edgewidths from FEI Image (Figure 5).  5_Current-SNR-relation -- Computes SNR for all images and plots SNR vs dwell time and beam current (Figure 6).  A1_SSNR_streaking_analysis.ipynb -- Computes SNR with and without streaking effect and shows streaking effect in Fourier Transform (Figure S1 and S2).",
+      "section": "Optical STEM detection for scanning electron microscopy (part 4)",
+      "repo": "317_Microscopy_data__code_and_analysis_underlying_the_publication__Optical_STEM_detection_for_scanning_e",
+      "source_file": "readme.md"
+    }
+  }
+]

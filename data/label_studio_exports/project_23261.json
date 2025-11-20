@@ -1,0 +1,551 @@
+[
+  {
+    "id": 908,
+    "annotations": [
+      {
+        "id": 11249,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 102,
+              "end": 121,
+              "text": "http://vitessce.io/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "8X6ow9nLj_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1097,
+              "end": 1133,
+              "text": "http://vitessce.io/docs/js-overview/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "U46G1uFDGa",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:30:26.262126Z",
+        "updated_at": "2025-11-16T04:58:49.948554Z",
+        "draft_created_at": "2025-11-06T06:30:01.004664Z",
+        "lead_time": 48.208999999999996,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "56799e4e-8471-4093-b6d2-571eb8717296",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 908,
+        "project": 23261,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Visual Integration Tool for Exploration of Spatial Single-Cell Experiments\n\n[Documentation and demos] http://vitessce.io/\n\n[Online configuration editor] http://vitessce.io/#?edit=true\n\n[Older releases and demos] https://github.com/vitessce/vitessce/releases\n\n[Older releases on NPM] https://www.npmjs.com/package/vitessce?activeTab=versions\n\n## Why Vitessce\n\n### Interactive\n\nVitessce consists of reusable interactive views including a scatterplot, spatial+imaging plot, genome browser tracks, statistical plots, and control views, built on web technologies such as WebGL.\n\n### Integrative\n\nVitessce enables visual analysis of multi-modal assay types which probe biological systems through techniques such as microscopy, genomics, and transcriptomics.\n\n### Serverless\n\nVisualize large datasets stored in static cloud object stores such as AWS S3. No need to manage or pay for expensive compute infrastructure for visualization purposes.\n\n## Usage\n\nVitessce can be used in React projects by installing the package from NPM:\n\nnpm install vitessce\n\nFor more details, please visit the [documentation] http://vitessce.io/docs/js-overview/.\n\n## How to Contribute\n\nWe welcome contributions! Please check out our [Contributing Guide] CONTRIBUTING.md for detailed instructions.",
+      "section": "Introduction (part 1)",
+      "repo": "492_SpatialData_framework",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.219362Z",
+    "updated_at": "2025-11-16T04:58:49.979701Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23261,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 909,
+    "annotations": [
+      {
+        "id": 11250,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 31,
+              "end": 35,
+              "text": "PNPM",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "QAGjcKZ2U0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 119,
+              "end": 129,
+              "text": "NPM 8.13.2",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "ooT9GcjFGm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 100,
+              "end": 114,
+              "text": "NodeJS v18.6.0",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "NrPkb3g3xC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:30:52.600562Z",
+        "updated_at": "2025-11-06T06:30:52.600573Z",
+        "draft_created_at": "2025-11-06T06:30:34.376578Z",
+        "lead_time": 26.122,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "df5c1bc3-2b5a-4cfe-8e49-41e91834dc71",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 909,
+        "project": 23261,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Development\n\nFirst install [PNPM] https://pnpm.io/installation v9.5. We develop and test against NodeJS v18.6.0 and NPM 8.13.2.\n\nNote NodeJS may require the [max_old_space_size] https://stackoverflow.com/a/59572966 value to be increased.  ``sh  . ./scripts/set-node-options.sh  `\n\nCheckout the project, cd, and then:\n\npnpm install pnpm run build pnpm run start-demo\n\nThe development server will refresh the browser as you edit the code.\n\nTo get started creating a new view:\n\npnpm run create-view line-plot\n\nFurther details for internal developers can be found within [dev-docs] ./dev-docs/.\n\n### Changesets\n\nWe use [changesets] https://github.com/changesets/changesets to manage the changelog. Therefore, when making code changes, do not edit CHANGELOG.md directly. Instead, run pnpm changeset, follow the prompts, and commit the resulting markdown files along with the code changes.\n\n### Branches\n\nPlease use one of the following naming conventions for new branches: {github-username}/{feature-name}\n\n{github-username}/fix-{issue-num}\n\n### Pull requests\n\nWe use squash merging for pull requests.\n\n### Monorepo organization\n\nSee pnpm-workspace.yaml for more information. We are using PNPM [catalogs] https://pnpm.io/catalogs which are available from v9.5.0 of PNPM.\n\n### Testing\n\nFor the end-to-end tests, they depend on\n\ncd sites/demo && pnpm run build-demo\n\nTo run all the tests, both unit and e2e: ./scripts/test.sh\n\nTo run just the unit tests: pnpm run test\n\n### Linting\n\npnpm run lint\n\nTo allow the linter to perform automated fixes during linting: pnpm run lint-fix`",
+      "section": "Introduction (part 2)",
+      "repo": "492_SpatialData_framework",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.219404Z",
+    "updated_at": "2025-11-06T06:30:52.627815Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23261,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 910,
+    "annotations": [
+      {
+        "id": 11251,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:30:57.060033Z",
+        "updated_at": "2025-11-06T06:30:57.060045Z",
+        "draft_created_at": null,
+        "lead_time": 4.279,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "74715eff-cd88-4809-88b1-151da052a4c3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 910,
+        "project": 23261,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Troubleshooting\n\nThe following commands can be helpful in case the local environment gets into a broken state:\n\npnpm install\n\npnpm run clean: removes build/bundle directories and all tsconfig.tsbuildinfo files (used by TypeScript's Project References).\n\npnpm run build: need to re-build subpackages after this type of cleanup.\n\npnpm run clean-deps: removes all node_modules directories, including those nested inside subpackages.\n\npnpm install: need to re-install dependencies after this type of cleanup.\n\n## Deployment\n\nBefore running any of the deployment scripts, confirm that you have installed the AWS CLI and are in the appropriate AWS account:\n\n$ aws iam list-account-aliases --query 'AccountAliases[0]' \"hdv-vitessce\"\n\n### Staging\n\nTo build the current branch and push the \"minimal\" demo and docs sites to S3, run this script:\n\n./scripts/push-demos.sh\n\nThis will build the demo and docs, push both to S3, and finally open the docs deployment in your browser.\n\n#### Publish staged development site\n\nAfter doing a [manual test] ./dev-docs/manual-testing.md of the deployment of the dev site, if it looks good, copy it to dev.vitessce.io:\n\n./scripts/copy-dev.sh https://{url returned by scripts/deploy-release.sh or scripts/push-demos.sh}\n\nNote: if you need to obtain this URL later:\n\nCopy dev to https://legacy.vitessce.io/demos/$DATE/$HASH/index.html\n\n#### Publish staged docs to vitessce.io\n\nAfter doing a manual test of the deployment of the docs, if it looks good, copy it to vitessce.io:\n\n./scripts/copy-docs.sh https://{url returned by scripts/deploy-release.sh or scripts/push-demos.sh}\n\nNote: if you need to obtain this URL later:\n\nCopy docs to https://data-1.vitessce.io/docs-root/$DATE/$HASH/index.html",
+      "section": "Introduction (part 3)",
+      "repo": "492_SpatialData_framework",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.219430Z",
+    "updated_at": "2025-11-06T06:30:57.082193Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23261,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 911,
+    "annotations": [
+      {
+        "id": 11252,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:30:59.540413Z",
+        "updated_at": "2025-11-06T06:30:59.540434Z",
+        "draft_created_at": null,
+        "lead_time": 2.314,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "79003f4d-9376-4a55-a496-4d3009dd7933",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 911,
+        "project": 23261,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Release\n\nReleasing refers to publishing all sub-packages to NPM and creating a corresponding GitHub release.\n\nNote: releasing does not currently result in automatic deployment of the documentation or development sites (see the [Deployment] #deployment section above).\n\n### From GitHub Actions\n\nWhen there are changesets on the main branch, the [changesets/action] https://github.com/changesets/action bot will run ./scripts/changeset-version.sh --action and make a pull request titled \"Create release\".\n\nThis pull request remains open until ready to make a release. The bot will update the pull request as new changesets are added to main.\n\nOnce this \"Create release\" pull request is merged, the next time release.yml is executed on GitHub Actions, the following will occur: [changesets/action] https://github.com/changesets/action will run ./scripts/changeset-publish.sh --action, which:\n\npublishes to NPM\n\ncreates a new git tag for the release\n\n[softprops/action-gh-release] https://github.com/softprops/action-gh-release will generate a GitHub release based on the git tag, using the latest changelog entries for the release notes.\n\n### From local machine\n\npnpm run build pnpm run bundle pnpm run build-json-schema\n\n./scripts/changeset-version.sh ./scripts/changeset-publish.sh # runs pnpm publish internally\n\n## Version bumps\n\nIn this project we try to follow semantic versioning. The following are examples of things that would require a major, minor, or patch type of bump.",
+      "section": "Introduction (part 4)",
+      "repo": "492_SpatialData_framework",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.219454Z",
+    "updated_at": "2025-11-06T06:30:59.569109Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23261,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 912,
+    "annotations": [
+      {
+        "id": 11253,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:31:05.538186Z",
+        "updated_at": "2025-11-06T06:31:05.538208Z",
+        "draft_created_at": null,
+        "lead_time": 5.817,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "3f453a57-87e5-421c-868a-924cac8ae1af",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 912,
+        "project": 23261,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Patch version bumps\n\nBug fixes, minor feature improvements, additional view types, additional coordination types, and additional file type implementations are possible in a patch version bump.\n\nWhen a coordination type is added, it must be reflected by a new view config JSON schema with an incremented version property, and a new view config upgrade function to enable previous view config versions to remain compatible. The default schema version parameter of the VitessceConfig constructor may also change to reflect the new schema version.\n\n### Minor version bumps\n\nAn exported helper function or React component for plugin views had a change in props or function signature. Major feature improvements or additions.\n\n### Major version bumps\n\nThe exported constant values changed, such as view types and coordination types, such that previous code using these values may no longer run successfully. React props of the main ` component changed. Major behavior changes or interface updates. Changes to the directory structure or filenames in the dist/` directory that could result in broken import statements.\n\n## Related repositories\n\n[Viv] https://github.com/hms-dbmi/viv: A library for multiscale visualization of high-resolution multiplexed tissue data on the web.\n\n[HiGlass] https://github.com/higlass/higlass: A library for multiscale visualization of genomic data on the web.\n\n[vitessce-python] https://github.com/vitessce/vitessce-python: Python API and Jupyter widget.\n\n[vitessce-r] https://github.com/vitessce/vitessce-r: R API and R htmlwidget.\n\n[vitessce-data] https://github.com/hms-dbmi/vitessce-data: Scripts to generate sample data",
+      "section": "Introduction (part 5)",
+      "repo": "492_SpatialData_framework",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.219478Z",
+    "updated_at": "2025-11-06T06:31:05.572350Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23261,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 913,
+    "annotations": [
+      {
+        "id": 11254,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:31:06.646081Z",
+        "updated_at": "2025-11-06T06:31:06.646106Z",
+        "draft_created_at": null,
+        "lead_time": 0.919,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "08b85502-4f11-4c58-ab0c-8e2f104dafba",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 913,
+        "project": 23261,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Old presentations",
+      "section": "Introduction (part 6)",
+      "repo": "492_SpatialData_framework",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.219498Z",
+    "updated_at": "2025-11-06T06:31:06.675759Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23261,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 914,
+    "annotations": [
+      {
+        "id": 11255,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:31:12.960241Z",
+        "updated_at": "2025-11-06T06:31:12.960258Z",
+        "draft_created_at": null,
+        "lead_time": 1.333,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "409703cb-18ab-46f8-889f-ab254a0123ff",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 914,
+        "project": 23261,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[May 2022: Mark Keller's lab meeting update] https://docs.google.com/presentation/d/1qfd0rc6bF9nFIvOMp2YacpbJ7F8_UYhSYjLn26AlH7k/edit?usp=sharing\n\n[February 2022: Mark Keller's lab meeting update] https://docs.google.com/presentation/d/1J4lcWxD1GRGLBm0RLkGmEGcuQvXX9yBVBsQo2rXPTVM/edit?usp=sharing\n\n[October 2021: Mark Keller's lab meeting update] https://docs.google.com/presentation/d/1bibMLiR5aW_MgXn6ydhXWJsEN3tG5gJSw9xuYa49x5U/edit?usp=sharing\n\n[September 2021: HuBMAP Consortium Sci-Tech Webinar (Mark)] https://docs.google.com/presentation/d/1iPXSGEGT9HNNSrXT5uu0x_9Jq6L3cnhrpaz1Pge5O50/edit?usp=sharing\n\n[June 2021: Mark Keller's lab meeting update] https://docs.google.com/presentation/d/1P--F_MLeWK2n3JrY21mGn9FBgI2u60nQGN_XZtniSnc/edit?usp=sharing\n\n[April 2021: Spatial Biology Europe (Mark)] https://docs.google.com/presentation/d/1s33dKMCdE3LtC43IWBw48ZDmmtYJarDPtUOhH9T3D6Q/edit?usp=sharing\n\n[January 2021: Ilan Gold's lab meeting update] https://docs.google.com/presentation/d/10kmjLxQh5ji-4TVMq06KRpXek3uje_fQpTXBqjFj0p4/edit?usp=sharing\n\n[December 2020: Mark Keller's lab meeting update] https://docs.google.com/presentation/d/1rG0s5eH_NrFSk3_7lpmc9dsaUPFvnakYD59ff9D-G1M/edit?usp=sharing\n\n[November 2020: Ilan Gold's lab meeting update] https://docs.google.com/presentation/d/1egAwCR8UwdRCWiGYVRelebwNDH9boBX1nJIX5auvf1w/edit?usp=sharing\n\n[October 2020: Mark Keller's lab meeting update] https://docs.google.com/presentation/d/1M8dGbIGA_cfa3uZnGLnk3iMzMNVbxzza33OKBqwwlNQ/edit?usp=sharing\n\n[July 2020: Ilan Gold's lab meeting update] https://docs.google.com/presentation/d/1QzKYP6sXPefBMNfY4PW4H0AMoWVbw9HeNoweLmJg17Y/edit?usp=sharing\n\n[June 2020: NLM Informatics Training Conference (Trevor)] https://docs.google.com/presentation/d/1eYslI4y1LbnEGwj4XHXxqYcRKpYgqc9Y2mZTd5iCzMc/edit?usp=sharing",
+      "section": "Introduction (part 7)",
+      "repo": "492_SpatialData_framework",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.219522Z",
+    "updated_at": "2025-11-06T06:31:12.989497Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23261,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 915,
+    "annotations": [
+      {
+        "id": 11256,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:31:13.839706Z",
+        "updated_at": "2025-11-06T06:31:13.839730Z",
+        "draft_created_at": null,
+        "lead_time": 0.7,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "cc1a6961-7bc4-4927-a8a0-258f265bc6af",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 915,
+        "project": 23261,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[May 2020: Trevor Manz's overview of multimodal imaging in Vitessce] https://docs.google.com/presentation/d/1NPYZPduymN7wzgN-NYRQwd15D-nUZYILJTgBR2oNb04/edit?usp=sharing\n\n[January 2020: Ilan Gold's overview of IF Imagery] https://docs.google.com/presentation/d/1BSz2JefN2WSF_RwVpOrIhYD2V8D7ZLc5b21VTy2Xmlo/edit#slide=id.p\n\n[January 2020: Trevor Manz's wrap-up on Arrow, Zarr, and IMS] https://docs.google.com/presentation/d/1H2hff-bW4SZ3KFD5_q0iN-Dv1yew7pVe0MbdMsA2gko/edit\n\n[September 2019: HuBMAP Poster] https://drive.google.com/open?id=1pRiTN99-wZ6QuEMWzorcD4fA2Fi-7eW4\n\n[August 2019: SIBMI Presentations] https://docs.google.com/presentation/d/1IRWDofdvKS3qbLY-s0a1EUijha3m-JopMYgmETOIHq0/edit?usp=sharing\n\n[July 2019: Intern progress reports and HuBMAP collaboration] https://docs.google.com/presentation/d/10zanc_cHh-OcFvBeuJdKBpLnazjVh64pbbdD4kJQ7GY/edit?usp=sharing\n\n[May 2019: Harvard IT Summit] https://docs.google.com/presentation/d/1eYDMedzhQtcClB2cIBo17hlaSSAu_-vzkG4LY_mGGQ8/edit#slide=id.p\n\n[May 2019: Misc. tools] https://docs.google.com/presentation/d/1TaC68-r6bosnwi05BZ5bNh9tzeXsxyqmBo1gFZDxhGM/edit#slide=id.p\n\n[April 2019: Software engineering] https://docs.google.com/presentation/d/1uW3J83LYaa67M9ZKe15AQw_h06QiFJBzpBickbRFcCY/edit#slide=id.p",
+      "section": "Introduction (part 8)",
+      "repo": "492_SpatialData_framework",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.219545Z",
+    "updated_at": "2025-11-06T06:31:13.876397Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23261,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 916,
+    "annotations": [
+      {
+        "id": 11257,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 57,
+              "end": 413,
+              "text": "@article{keller2024vitessce, title = {{Vitessce: integrative visualization of multimodal and spatially resolved single-cell data}}, author = {Keller, Mark S. and Gold, Ilan and McCallum, Chuck and Manz, Trevor and Kharchenko, Peter V. and Gehlenborg, Nils}, journal = {Nature Methods}, year = {2024}, month = sep, doi = {10.1038/s41592-024-02436-x} }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "2riWJxwnCZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 492,
+              "end": 907,
+              "text": "@article{manz2022viv, title = {{Viv: multiscale visualization of high-resolution multiplexed bioimaging data on the web}}, author = {Manz, Trevor and Gold, Ilan and Patterson, Nathan Heath and McCallum, Chuck and Keller, Mark S. and Herr, II, Bruce W. and Börner, Kay and Spraggins, Jeffrey M. and Gehlenborg, Nils}, journal = {Nature Methods}, year = {2022}, month = may, doi = {10.1038/s41592-022-01482-7} }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "Z3dGtC81nd",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:31:27.544070Z",
+        "updated_at": "2025-11-06T06:31:27.544088Z",
+        "draft_created_at": "2025-11-06T06:31:25.090533Z",
+        "lead_time": 13.444,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "6ed49872-e53c-42b6-a348-92a6cf0b26dc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 916,
+        "project": 23261,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Citation\n\nTo cite Vitessce in your work, please use:\n\n@article{keller2024vitessce,  title = {{Vitessce: integrative visualization of multimodal and spatially resolved single-cell data}},  author = {Keller, Mark S. and Gold, Ilan and McCallum, Chuck and Manz, Trevor and Kharchenko, Peter V. and Gehlenborg, Nils},  journal = {Nature Methods},  year = {2024},  month = sep,  doi = {10.1038/s41592-024-02436-x} }\n\nIf you use the image rendering functionality, please additionally cite Viv:\n\n@article{manz2022viv,  title = {{Viv: multiscale visualization of high-resolution multiplexed bioimaging data on the web}},  author = {Manz, Trevor and Gold, Ilan and Patterson, Nathan Heath and McCallum, Chuck and Keller, Mark S. and Herr, II, Bruce W. and Börner, Kay and Spraggins, Jeffrey M. and Gehlenborg, Nils},  journal = {Nature Methods},  year = {2022},  month = may,  doi = {10.1038/s41592-022-01482-7} }",
+      "section": "Introduction (part 9)",
+      "repo": "492_SpatialData_framework",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.219568Z",
+    "updated_at": "2025-11-06T06:31:27.575273Z",
+    "inner_id": 9,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23261,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

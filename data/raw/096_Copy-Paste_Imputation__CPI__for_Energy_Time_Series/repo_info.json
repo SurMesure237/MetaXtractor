@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/KIT-IAI/CopyPasteImputation",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/KIT-IAI/CopyPasteImputation/zipball/main",
+  "author": "KIT-IAI",
+  "dateCreated": "2020-12-16T07:50:29Z",
+  "dateModified": "2025-04-21T15:39:41Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/lgpl-3.0",
+  "description": null,
+  "identifier": 321908340,
+  "name": "KIT-IAI/CopyPasteImputation",
+  "issueTracker": "https://api.github.com/repos/KIT-IAI/CopyPasteImputation/issues",
+  "readme": "https://github.com/KIT-IAI/CopyPasteImputation/blob/main/README.md"
+}

@@ -1,0 +1,28 @@
+{
+  "codeRepository": "https://github.com/MassBank/MassBank-web",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java",
+    "JavaScript",
+    "Perl",
+    "CSS",
+    "C++",
+    "HTML",
+    "R",
+    "Batchfile",
+    "Shell",
+    "Python",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/MassBank/MassBank-web/zipball/main",
+  "author": "MassBank",
+  "dateCreated": "2015-02-04T15:30:57Z",
+  "dateModified": "2025-10-06T08:59:32Z",
+  "keywords": [],
+  "license": null,
+  "description": "The web server application and directly connected components for a MassBank web server",
+  "identifier": 30305717,
+  "name": "MassBank/MassBank-web",
+  "issueTracker": "https://api.github.com/repos/MassBank/MassBank-web/issues",
+  "readme": "https://github.com/MassBank/MassBank-web/blob/dev/README.md"
+}

@@ -1,0 +1,28 @@
+{
+  "codeRepository": "https://github.com/NPLinker/nplinker",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "TeX",
+    "Shell",
+    "Makefile",
+    "Mustache"
+  ],
+  "downloadUrl": "https://api.github.com/repos/NPLinker/nplinker/zipball/main",
+  "author": "NPLinker",
+  "dateCreated": "2018-10-19T18:43:21Z",
+  "dateModified": "2025-08-18T01:05:19Z",
+  "keywords": [
+    "data-harmonization",
+    "data-integration",
+    "genomics",
+    "metabolomics",
+    "multi-omics-integration"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "A python framework for microbial natural products data mining by integrating genomics and metabolomics data",
+  "identifier": 153827069,
+  "name": "NPLinker/nplinker",
+  "issueTracker": "https://api.github.com/repos/NPLinker/nplinker/issues",
+  "readme": "https://github.com/NPLinker/nplinker/blob/dev/README.md"
+}

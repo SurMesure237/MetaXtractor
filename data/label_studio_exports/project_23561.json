@@ -1,0 +1,67 @@
+[
+  {
+    "id": 2531,
+    "annotations": [
+      {
+        "id": 10149,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 41,
+              "text": "https://doi.org/10.5281/zenodo.1400274",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "qXmJHLg-J8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:59:07.597608Z",
+        "updated_at": "2025-11-03T05:59:07.597627Z",
+        "draft_created_at": "2025-11-03T05:58:32.446821Z",
+        "lead_time": 44.512,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "f8c9e30b-5c98-4d99-be3c-e425f764b755",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2531,
+        "project": 23561,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://doi.org/10.5281/zenodo.1400274)\n\n# frbcat-web\n\nThis is the web frontend to the FRB Catalogue. This catalogue contains up to date information for the published population of Fast Radio Bursts (FRBs). The catalog connects to a postgres database, which is defined in the frbcatdb python package. For detailed information on the database format, see the frbcatdb package, or directly the [create table script] https://github.com/TRASAL/frbcatdb/blob/master/db/create_db_tables.sql.\n\n### Configuration:\n\nfrbcat-web has two configuration files.\n\nserver/config.js\n\nThis file contains the postgres connection string. Modify it to connect to your postgres installation and table. The connectionstring has the following format: 'postgres://someuser:somepassword@somehost:someport/somedatabase'    In addition, the file contains a link to the CSV location at Zenodo, e.g. https://doi.org/10.5281/zenodo.xxxxxxxx    server.js    This file contains the express web server configuration. Here you can define the port the server is running on.\n\nFor further details on how to tune the express server for performance in a production environment see the [expressjs homepage] https://expressjs.com/en/advanced/best-practice-performance.html. This link contains information on how to set the NODE_ENV to production for different systems and how to make sure the server gets automatically restarted if it crashes.\n\n### Installation:\n\nTo install frbcat-web, please follow the following steps. First we need to install the dependencies of frbcat-web using the following commands:\n\nnpm ci\n\nNext, we build the package using:\n\nnpm run webpack\n\n### Running the express server with frbcat-web:\n\nTo start the express server with frbcat-web loaded use the following command:\n\nnpm run start",
+      "section": "README",
+      "repo": "188_frbcat-web",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.329855Z",
+    "updated_at": "2025-11-03T05:59:07.627166Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23561,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

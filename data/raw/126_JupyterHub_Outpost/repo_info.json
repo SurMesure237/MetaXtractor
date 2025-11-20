@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/NERSC/sshspawner",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/NERSC/sshspawner/zipball/main",
+  "author": "NERSC",
+  "dateCreated": "2016-08-11T20:42:25Z",
+  "dateModified": "2025-09-09T11:26:34Z",
+  "keywords": [
+    "jupyter",
+    "jupyterhub",
+    "spawner"
+  ],
+  "license": null,
+  "description": "Spawn JupyterHub single-user servers with ssh",
+  "identifier": 65500258,
+  "name": "NERSC/sshspawner",
+  "issueTracker": "https://api.github.com/repos/NERSC/sshspawner/issues",
+  "readme": "https://github.com/NERSC/sshspawner/blob/master/README.md"
+}

@@ -1,0 +1,24 @@
+{
+  "codeRepository": "https://github.com/uw-comphys/opencmp",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "TeX"
+  ],
+  "downloadUrl": "https://api.github.com/repos/uw-comphys/opencmp/zipball/main",
+  "author": "uw-comphys",
+  "dateCreated": "2021-03-26T19:25:26Z",
+  "dateModified": "2025-09-04T09:15:35Z",
+  "keywords": [
+    "computational-fluid-dynamics",
+    "finite-element-methods",
+    "modeling",
+    "simulation"
+  ],
+  "license": "https://api.github.com/licenses/lgpl-2.1",
+  "description": "OpenCMP is a computational multiphysics software package based on the finite element method. It is primarily intended for physicochemical processes involving significant convective flow.",
+  "identifier": 351890311,
+  "name": "uw-comphys/opencmp",
+  "issueTracker": "https://api.github.com/repos/uw-comphys/opencmp/issues",
+  "readme": "https://github.com/uw-comphys/opencmp/blob/main/README.md"
+}

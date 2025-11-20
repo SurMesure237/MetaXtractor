@@ -1,0 +1,42 @@
+[
+  {
+    "data": {
+      "text": "Introduction\n\nCPlantBox is a functional-structural plant model that is built in a modular way that can be used at several levels of complexity. CPlantBox describes the geometry of plants by their individual organs, such as roots, stems, and leaves, which evolve over time. It can model functional aspects such as water and carbon dynamics within the plant, and provides gerneral tools to build plant soil-interaction models. To solve partial differential equations CPlantBox can use the finite volume solver DuMux and offers simplified Python interfaces in the repository _dumux-rosi_.",
+      "section": "Introduction + Introduction",
+      "repo": "149_CPlantBox",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Installation\n\n## Linux - with Python script\n\nThis installation method requires Ubuntu >= 20.04 and Python >= 3.7. For CPlantBox without _dumux-rosi_, download the Python file \"installCPlantBox.py\", and run it:\n\nsudo apt-get update sudo apt-get upgrade [ ! -d 'cpbenv' ] && python3 -m venv cpbenv && source cpbenv/bin/activate || source cpbenv/bin/activate wget https://raw.githubusercontent.com/Plant-Root-Soil-Interactions-Modelling/CPlantBox/master/installCPlantBox.py python3 installCPlantBox.py\n\nFor CPlantBox with _dumux-rosi_, download and run the Python file \"installDumuxRosi_Ubuntu.py\" (the file is based on the DuMu$^x$ installation file).\n\nsudo apt-get update sudo apt-get upgrade [ ! -d 'cpbenv' ] && python3 -m venv cpbenv && source cpbenv/bin/activate || source cpbenv/bin/activate wget https://raw.githubusercontent.com/Plant-Root-Soil-Interactions-Modelling/CPlantBox/master/installDumuxRosi_Ubuntu.py python3 installDumuxRosi_Ubuntu.py\n\nThe script will install DuMux and CPlantBox, and CPlantBox is setup within the virtual environment 'cpbenv'.  Activate the 'cpbenv' environment when using CPlantBox:\n\nsource cpbenv/bin/activate\n\nThe scripts might work on other Linux OS but has not been tested.",
+      "section": "Installation (part 1)",
+      "repo": "149_CPlantBox",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Linux - with conda environment\n\nThis installation method uses ``conda` to setup the building environment for CPlantBox. It'll pull the packages from the `conda-forge`` channel to avoid licensing restrictions from default channels. For more info on conda restrictions, check this [article] https://www.fz-juelich.de/en/rse/the_latest/the-anaconda-is-squeezing-us\n\nClone the repository:\n\ngit clone --depth 1 -b master https://github.com/Plant-Root-Soil-Interactions-Modelling/CPlantBox.git\n\nCreate the conda environment and build CPlantBox:\n\ncd CPlantBox conda env create -f environment.yml conda activate cpb git submodule update --init --recursive cmake . make\n\nTest the installation by running a tutorial example, e.g.:\n\ncd tutorial/examples/ python example1a_small.py\n\n## Linux - manual installation\n\nClone the repository by running\n\ngit clone --depth 1 -b master https://github.com/Plant-Root-Soil-Interactions-Modelling/CPlantBox.git\n\nand use CMake to configure and compile the CPlantBox libraries\n\ncmake . && make\n\nTo test the installation run a tutorial example, e.g\n\ncd tutorial/examples/python python3 example1a.py\n\nDependecies are listed in the requirements.txt file.\n\n## Windows\n\nCPlantBox is currently not available on windows. Some pointers to setup a Linux environment on windows are given on the [wiki] https://github.com/Plant-Root-Soil-Interactions-Modelling/CPlantBox/wiki/Help-for-windows-users.\n\n## Installation on the JSC agrocluster\n\nPlease refer to the [wiki] https://github.com/Plant-Root-Soil-Interactions-Modelling/CPlantBox/wiki/CPlantBox-on-the-J%C3%BClich-Supercomputer-cluster",
+      "section": "Installation (part 2)",
+      "repo": "149_CPlantBox",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Folder sructure\n\n/modelparameter Plant parameter files\\ /src CPlantBox C++ codes\\ /test Python tests for all CPlantBox classes\\ /tutorial learn to use CPlantBox\\ /experimental Specific applications (in sub-folders). contrary to scripts in /tutorial, might not be kept up to date\n\nCode documentation\n\nCreate the documentation by running doxygen in the docs/ folder\n\ndoxygen doxy_config\n\nThe documentation will be created in this folder. Compile doc/latex/refman.tex to generate the full doxygen documentation in doc/latex/refman.pdf. Additionally, collaboration diagrams give an overview of the code in folder /docs.",
+      "section": "Folder sructure + Code documentation",
+      "repo": "149_CPlantBox",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Online resources\n\n## WebApps\n\nThe official [CPlantBox webapp] https://cplantbox.fz-juelich.de helps to demonstrate the impact of various CPlantBox parameters and to analyse and explore the resulting 3D plant geometry.\n\nAnother [web application] http://cplantbox.com was designed to conduct simulations and visualize the dynamics of plant growth. The source code is avialable at [github-xiaoranzhou] https://github.com/xiaoranzhou/cpb.\n\n## Jupyter notebooks\n\nDirect links to notebooks from the summer school of 2025: [Structure definition and analysis] https://mybinder.org/v2/gh/Plant-Root-Soil-Interactions-Modelling/CPlantBox/ss2025?urlpath=%2Fdoc%2Ftree%2Ftutorial%2Fjupyter%2Fsummer_school_2025%2F1_root_architecture.ipynb\n\n[Water flow in CPlantBox] https://mybinder.org/v2/gh/Plant-Root-Soil-Interactions-Modelling/CPlantBox/ss2025?urlpath=%2Fdoc%2Ftree%2Ftutorial%2Fjupyter%2Fsummer_school_2025%2F2_root_hydraulics.ipynb\n\n[Online repository] https://mybinder.org/v2/gh/Plant-Root-Soil-Interactions-Modelling/CPlantBox/ss2025_binder\n\nFor the third repository, you need to go the folder dumux/CPlantBox/tutorial/jupyter/summer_school_2025 to access the notebooks.\n\n## Videos\n\nSimulation videos availabe in [Youtube channel] https://www.youtube.com/channel/UCPK-pFfpK94jiamgwHxX32Q.",
+      "section": "Online resources",
+      "repo": "149_CPlantBox",
+      "source_file": "readme.md"
+    }
+  }
+]

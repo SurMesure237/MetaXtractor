@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/MycoAI/taxotagger",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Makefile",
+    "Mustache"
+  ],
+  "downloadUrl": "https://api.github.com/repos/MycoAI/taxotagger/zipball/main",
+  "author": "MycoAI",
+  "dateCreated": "2024-08-02T09:56:26Z",
+  "dateModified": "2025-05-27T23:53:50Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "DNA taxonomy identification, powered by deep learning and semantic search",
+  "identifier": 837143096,
+  "name": "MycoAI/taxotagger",
+  "issueTracker": "https://api.github.com/repos/MycoAI/taxotagger/issues",
+  "readme": "https://github.com/MycoAI/taxotagger/blob/main/README.md"
+}

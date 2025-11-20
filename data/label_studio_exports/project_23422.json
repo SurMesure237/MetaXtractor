@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1856,
+    "annotations": [
+      {
+        "id": 11891,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 969,
+              "end": 976,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "RWoGzpZKdK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 978,
+              "end": 983,
+              "text": "macOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "iAOLYG3dPb",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 988,
+              "end": 993,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "wwLC3HVe1z",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 912,
+              "end": 955,
+              "text": "https://github.com/OpenChrom/openchrom/wiki",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "CdpHIx0bDw",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:28:18.803467Z",
+        "updated_at": "2025-11-14T13:36:25.473831Z",
+        "draft_created_at": "2025-11-09T06:28:04.978013Z",
+        "lead_time": 42.182,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "d9337e27-76c7-4098-9d3a-1027fccc984f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1856,
+        "project": 23422,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# OpenChrom®\n\n[OpenChrom®] https://en.wikipedia.org/wiki/OpenChrom is an Open Source tool for the analysis and visualization of mass spectrometric and chromatographic data developed by [Lablicate GmbH] https://lablicate.com.\n\nIt is based on [ChemClipse] https://github.com/eclipse/chemclipse but offers additional features that cannot be part of the ChemClipse project due to licencing constrains. This is the free base version provided to the community. It does not contain vendor specific file format converters nor commercial extensions.\n\nPlease see our [Code of Conduct] https://github.com/OpenChrom/openchrom/blob/develop/CODE_OF_CONDUCT.md for rules on how to interact on this site.\n\nIf you would like to contribute to this project, please have a look at the [guideline] https://github.com/OpenChrom/openchrom/blob/develop/CONTRIBUTING.md.\n\nFor user- and developer documentation, have a look at our [wiki] https://github.com/OpenChrom/openchrom/wiki.\n\nBuilds for Windows, macOS and Linux can be [downloaded] https://openchrom.net/download including proprietary converter bundles.\n\nPerformance measurements provided by the [YourKit Java Profiler] https://www.yourkit.com/java/profiler/",
+      "section": "README",
+      "repo": "414_OpenChrom",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.488637Z",
+    "updated_at": "2025-11-14T13:36:25.507085Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23422,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

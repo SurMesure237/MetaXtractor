@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/MINE-DD/dashboard",
+  "programmingLanguage": "Svelte",
+  "programmingLanguages": [
+    "Svelte",
+    "TypeScript",
+    "Python",
+    "JavaScript",
+    "CSS",
+    "Shell",
+    "HTML",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/MINE-DD/dashboard/zipball/main",
+  "author": "MINE-DD",
+  "dateCreated": "2025-03-10T12:49:30Z",
+  "dateModified": "2025-10-27T20:12:10Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "MINE-DD Plan-EO Dashboard",
+  "identifier": 945990149,
+  "name": "MINE-DD/dashboard",
+  "issueTracker": "https://api.github.com/repos/MINE-DD/dashboard/issues",
+  "readme": "https://github.com/MINE-DD/dashboard/blob/main/README.md"
+}

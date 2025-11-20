@@ -1,0 +1,211 @@
+[
+  {
+    "id": 712,
+    "annotations": [
+      {
+        "id": 12132,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:45:50.740456Z",
+        "updated_at": "2025-11-09T10:45:50.740478Z",
+        "draft_created_at": null,
+        "lead_time": 1.538,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f4d1ec1d-dc90-466d-9f78-dd2c90eb3cd3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 712,
+        "project": 23226,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "",
+      "section": "Introduction (part 1)",
+      "repo": "450_ROOT",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.799514Z",
+    "updated_at": "2025-11-09T10:45:50.771594Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23226,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 713,
+    "annotations": [
+      {
+        "id": 12133,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1616,
+              "end": 1654,
+              "text": "https://www.gnu.org/licenses/lgpl.html",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "ElTxnjjHrg",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:46:18.678394Z",
+        "updated_at": "2025-11-09T10:46:18.678405Z",
+        "draft_created_at": "2025-11-09T10:46:04.496752Z",
+        "lead_time": 27.759,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "15bf22a4-17dc-4af9-9185-2f4447622286",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 713,
+        "project": 23226,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## About\n\nROOT is a unified software package for the storage, processing, and analysis of  scientific data: from its acquisition to the final visualization in form of highly  customizable, publication-ready plots. It is reliable, performant and well supported, easy to use and obtain, and strives to maximize the quantity and impact of scientific  results obtained per unit cost, both of human effort and computing resources.\n\nROOT provides a very efficient storage system for data models,  that demonstrated to scale at the Large Hadron Collider experiments: Exabytes  of scientific data are written in columnar ROOT format. ROOT comes with histogramming capabilities in an arbitrary number of  dimensions, curve fitting, statistical modelling, minimization, to allow the easy setup of a data analysis system that can query and process the data interactively or in batch mode, as well as a general parallel processing framework, RDataFrame, that can considerably speed up an analysis, taking  full advantage of multi-core and distributed systems.\n\nROOT is performance critical software written in C++ and enables rapid prototyping  powered by a unique C++ compliant interpreter called Cling.  Cling also enables performant C++ type introspection which is a building block of automatic  interoperability with Python. Thanks to its dynamic Python bindings, leveraging the cppyy technology,  ROOT offers efficient, on-demand C++/Python interoperability in a uniform cross-language  execution environment.\n\nROOT fully embraces open-source, it's made with passion by its community, for the benefit of its community.\n\n[](https://www.gnu.org/licenses/lgpl.html) [](https://bestpractices.coreinfrastructure.org/projects/5060)",
+      "section": "Introduction (part 2)",
+      "repo": "450_ROOT",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.799575Z",
+    "updated_at": "2025-11-09T10:46:18.702996Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23226,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 714,
+    "annotations": [
+      {
+        "id": 12134,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 314,
+              "end": 503,
+              "text": "Rene Brun and Fons Rademakers, ROOT - An Object Oriented Data Analysis Framework, Proceedings AIHENP'96 Workshop, Lausanne, Sep. 1996, Nucl. Inst. & Meth. in Phys. Res. A 389 (1997) 81-86",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "1JUmrgG1DI",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 805,
+              "end": 830,
+              "text": "https://root.cern/install",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "hW37Dx4wKz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1353,
+              "end": 1393,
+              "text": "https://root.cern/guides/reference-guide",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "ubtI_8cJw6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:46:59.001149Z",
+        "updated_at": "2025-11-16T05:33:54.901783Z",
+        "draft_created_at": "2025-11-09T10:46:31.046012Z",
+        "lead_time": 51.92,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "1ab66828-3fb5-4032-bd3f-f08795cc1145",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 714,
+        "project": 23226,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Contribution Guidelines\n\n[How to contribute] https://github.com/root-project/root/blob/master/CONTRIBUTING.md\n\n[Coding conventions] https://root.cern/contribute/coding_conventions/\n\n[Meetings] https://root.cern/for_developers/meetings/\n\n## Cite\n\nIf you use ROOT for your work, we kindly ask you to cite it as:\n\nRene Brun and Fons Rademakers, ROOT - An Object Oriented Data Analysis Framework,  Proceedings AIHENP'96 Workshop, Lausanne, Sep. 1996,  Nucl. Inst. & Meth. in Phys. Res. A 389 (1997) 81-86.\n\nSee the reference in BibTeX format [here] README/root_citation.bib.\n\n## Live Demo for CERN Users\n\n[](http://cern.ch/swanserver/cgi-bin/go?projurl=https://github.com/cernphsft/rootbinder.git)\n\nSee more screenshots on our [gallery] https://root.cern/gallery.\n\n## Installation and Getting Started\n\nSee https://root.cern/install for installation instructions. For instructions on how to build ROOT from these source files, see https://root.cern/install/build_from_source.\n\nOur [\"Getting started with ROOT\"] https://root.cern/learn page is then the perfect place to get familiar with ROOT.\n\n## Help and Support\n\n[Forum] https://root-forum.cern.ch/\n\n[Issue tracker] https://github.com/root-project/root/issues\n\n[Previous now read-only Jira issue tracker] https://sft.its.cern.ch/jira/projects/ROOT/issues/ROOT-5820?filter=allopenissues\n\n[Documentation] https://root.cern/guides/reference-guide\n\n[Tutorials] https://root.cern/doc/master/group__Tutorials.html",
+      "section": "Introduction (part 3)",
+      "repo": "450_ROOT",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.799601Z",
+    "updated_at": "2025-11-16T05:33:54.933892Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23226,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

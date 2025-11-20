@@ -1,0 +1,947 @@
+[
+  {
+    "id": 2379,
+    "annotations": [
+      {
+        "id": 10206,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 61,
+              "text": "https://github.com/ChASE-library/ChASE/blob/master/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "KGcKvC8giV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 66,
+              "end": 110,
+              "text": "https://zenodo.org/badge/latestdoi/349075288",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "KoyEXnNzia",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 210,
+              "end": 242,
+              "text": "https://doi.org/10.1002/cpe.3394",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "vfn9d_pO8i",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 174,
+              "end": 205,
+              "text": "https://doi.org/10.1145/3313828",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "1lHio06N0Q",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:28:16.266306Z",
+        "updated_at": "2025-11-03T06:28:16.266322Z",
+        "draft_created_at": "2025-11-03T06:27:29.432600Z",
+        "lead_time": 58.252,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "6011e390-889d-4233-a95b-f03fa395577b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2379,
+        "project": 23529,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/ChASE-library/ChASE/blob/master/LICENSE) [](https://zenodo.org/badge/latestdoi/349075288) [](https://github.com/ChASE-library/ChASE/releases/latest) [](https://doi.org/10.1145/3313828) [](https://doi.org/10.1002/cpe.3394) [](https://gitlab.jsc.fz-juelich.de/chase/chase-library/ChASE/badges/master/coverage.svg)",
+      "section": "Introduction",
+      "repo": "021_ChASE",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.007495Z",
+    "updated_at": "2025-11-03T06:28:16.293162Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23529,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2380,
+    "annotations": [
+      {
+        "id": 10207,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:28:23.359250Z",
+        "updated_at": "2025-11-03T06:28:23.359273Z",
+        "draft_created_at": null,
+        "lead_time": 6.91,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "7d5a0936-ecfb-47c7-a4ec-77964bcbee24",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2380,
+        "project": 23529,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "ChASE: a Chebyshev Accelerated Subspace Eigensolver for Dense Eigenproblems\n\nThe Chebyshev Accelerated Subspace Eigensolver (ChASE) is a modern and scalable library based on subspace iteration with polynomial acceleration to solve dense Hermitian (Symmetric) algebraic eigenvalue problems, especially solving dense Hermitian eigenproblems arragend in a sequence. Novel to ChASE is the computation of the spectral estimates that enter in the filter and an optimization of the polynomial degree that further reduces the necessary floating-point operations.\n\nChASE is written in C++ using the modern software engineering concepts that favor a simple integration in application codes and a straightforward portability over heterogeneous platforms. When solving sequences of Hermitian eigenproblems for a portion of their extremal spectrum, ChASE greatly benefits from the sequence’s spectral properties and outperforms direct solvers in many scenarios. The library ships with two distinct parallelization schemes, supports execution over distributed GPUs, and is easily extensible to other parallel computing architectures.",
+      "section": "ChASE: a Chebyshev Accelerated Subspace Eigensolver for Dense Eigenproblems (part 1)",
+      "repo": "021_ChASE",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.007533Z",
+    "updated_at": "2025-11-03T06:28:23.384425Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23529,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2381,
+    "annotations": [
+      {
+        "id": 10208,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:28:29.555690Z",
+        "updated_at": "2025-11-03T06:28:29.555711Z",
+        "draft_created_at": null,
+        "lead_time": 6.024,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "269be3f5-5f0a-425d-9e17-c9d58ecd2e73",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2381,
+        "project": 23529,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Use Case and Features\n\nReal and Complex: ChASE is templated for real and complex numbers. So it can be used to solve real symmetric eigenproblems as well as complex Hermitian ones.\n\nEigespectrum: ChASE algorithm is designed to solve for the extremal portion of the eigenspectrum of matrix A. The library is particularly efficient when no more than 20% of the extremal portion of the eigenspectrum is sought after. For larger fractions the subspace iteration algorithm may struggle to be competitive. Converge could become an issue for fractions close to or larger than 50%.\n\nType of Problem: ChASE can currently handle only standard eigenvalue problems.\n\nSequences: ChASE is particularly efficient when dealing with sequences of eigenvalue problems, where the eigenvectors solving for one problem can be use as input to accelerate the solution of the next one.\n\nVectors input: Since it is based on subspace iteration, ChASE can receive as input a matrix of vector equal to the number of desired eigenvalues. ChASE can experience substantial speed-ups when this input matrix contains some information about the sought after eigenvectors.\n\nDegree optimization: For a fixed accuracy level, ChASE can optimize the degree of the Chebyshev polynomial filter so as to minimize the number of FLOPs necessary to reach convergence.\n\nPrecision: ChASE is also templated to work in Single Precision (SP) or Double Precision (DP).",
+      "section": "ChASE: a Chebyshev Accelerated Subspace Eigensolver for Dense Eigenproblems (part 2)",
+      "repo": "021_ChASE",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.007556Z",
+    "updated_at": "2025-11-03T06:28:29.584413Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23529,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2382,
+    "annotations": [
+      {
+        "id": 10209,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 817,
+              "end": 821,
+              "text": "NCCL",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "RFi9On5nbt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:29:01.571055Z",
+        "updated_at": "2025-11-03T06:29:01.571068Z",
+        "draft_created_at": "2025-11-03T06:28:42.804126Z",
+        "lead_time": 31.857,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "b47cb595-4ba3-47f9-87b8-359fa9e33758",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2382,
+        "project": 23529,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Builds of ChASE\n\nChASE supports different builds for different systems with different architectures: Shared memory build: This is the simplest configuration and should be exclusively selected when ChASE is used on only one computing node or on a single GPU.\n\nMPI+Threads build: On multi-core homogeneous CPU clusters, ChASE is best used in its pure MPI build. In this configuration, ChASE is typically used with one MPI rank per NUMA domain and as many threads as number of available cores per NUMA domain.\n\nMulti-GPU build: ChASE can be configured to take advantage of GPUs on heterogeneous computing clusters. Currently we support the use of one GPU per MPI rank. Multiple-GPU per computing node can be used when MPI rank number per node equals to the GPU number per node.\n\nNCCL Backend: by default, ChASE uses [NCCL] https://developer.nvidia.com/nccl as backend for the collective communications across different GPUs.\n\nCUDA-Aware MPI Backend: alternatively, CUDA-Aware MPI can be used for the communications.\n\n## Supported Data types\n\nChASE supports different data types: Shared memory build requires dense matrices to be column major.\n\nDistributed-memory build support two types of data distribution of matrix A across 2D MPI/GPU grid:\n\nBlock Distribution: each MPI rank of 2D grid is assigned a block of dense matrix A.\n\nBlock-Cyclic Distribution: an distribution scheme for implementation of dense matrix computations on distributed-memory machines, to improve the load balance of matrix computation if the amount of work differs for different entries of a matrix. For more details, please refer to [Netlib] https://www.netlib.org/scalapack/slug/node75.html .\n\n## Quick Start",
+      "section": "ChASE: a Chebyshev Accelerated Subspace Eigensolver for Dense Eigenproblems (part 3)",
+      "repo": "021_ChASE",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.007579Z",
+    "updated_at": "2025-11-03T06:29:01.591514Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23529,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2383,
+    "annotations": [
+      {
+        "id": 10210,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 30,
+              "end": 35,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "4ZXnehJPyw",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 74,
+              "end": 79,
+              "text": "cmake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "qEsbFtRCqR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 89,
+              "end": 94,
+              "text": "CMake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Eqr9PY5-HL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 141,
+              "end": 153,
+              "text": "GNU Compiler",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "6--uGHcyX_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 175,
+              "end": 190,
+              "text": "libopenblas-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "A_KcpyH443",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 200,
+              "end": 204,
+              "text": "BLAS",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "se55s8zTtC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 209,
+              "end": 215,
+              "text": "LAPACK",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "LXlqSyzevT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 237,
+              "end": 251,
+              "text": "libopenmpi-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "9DRB27TATl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 267,
+              "end": 276,
+              "text": "Apple Mac",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "oSwJeEK_Rz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 313,
+              "end": 318,
+              "text": "cmake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "KBwlwOlLwj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 328,
+              "end": 333,
+              "text": "CMake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "VXY500CkZm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 352,
+              "end": 357,
+              "text": "gcc10",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "_6C3nK_akW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 367,
+              "end": 379,
+              "text": "GNU Compiler",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "4PwcxIerNk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 493,
+              "end": 497,
+              "text": "BLAS",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "A20V-7sZyM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 502,
+              "end": 508,
+              "text": "LAPACK",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "1-av7K1ZFV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 527,
+              "end": 534,
+              "text": "openmpi",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "gjZYFK0lTk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 544,
+              "end": 547,
+              "text": "MPI",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "0PEm6ZJXf5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1063,
+              "end": 1117,
+              "text": "https://chase-library.github.io/ChASE/quick-start.html",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "wjXRJhbfTB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:30:56.579190Z",
+        "updated_at": "2025-11-14T09:17:56.588400Z",
+        "draft_created_at": "2025-11-03T06:29:11.357174Z",
+        "lead_time": 164.826,
+        "prediction": {},
+        "result_count": 18,
+        "unique_id": "707031b9-031d-4706-b4fe-c9dbc558cc00",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2383,
+        "project": 23529,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Installing Dependencies\n\n#Linux Operating System sudo apt-get install cmake #install CMake sudo apt-get install build-essential #install GNU Compiler sudo apt-get install libopenblas-dev #install BLAS and LAPACK sudo apt-get install libopenmpi-dev #install MPI\n\n#Apple Mac Operating System  sudo port install cmake #install CMake sudo port install gcc10 #install GNU Compiler sudo port select --set gcc mp-gcc10 #Set installed GCC as C compiler sudo port install OpenBLAS +native #install BLAS and LAPACK sudo port install openmpi #install MPI sudo port select --set mpi openmpi-mp-fortran #Set installed MPI as MPI compiler\n\n### Cloning ChASE source code\n\ngit clone https://github.com/ChASE-library/ChASE #cloning the ChASE repository git checkout v1.0.0 #it is recommended to check out the latest stable tag.\n\n### Building and Installing the ChASE library\n\ncd ChASE/ mkdir build cd build/ cmake .. -DCMAKE_INSTALL_PREFIX=${ChASEROOT} make install\n\nMore details about the installation on both local machine and clusters, please refer to [User Documentation] https://chase-library.github.io/ChASE/quick-start.html (⚠️To be updated).",
+      "section": "ChASE: a Chebyshev Accelerated Subspace Eigensolver for Dense Eigenproblems (part 4)",
+      "repo": "021_ChASE",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.007600Z",
+    "updated_at": "2025-11-14T09:17:56.624330Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23529,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2384,
+    "annotations": [
+      {
+        "id": 10211,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:31:03.657101Z",
+        "updated_at": "2025-11-03T06:31:03.657120Z",
+        "draft_created_at": null,
+        "lead_time": 6.838,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "d863912f-7ef2-4ddd-842c-26fb58321b0a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2384,
+        "project": 23529,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Examples\n\nMultiple examples are provided, which helps user get familiar with ChASE.\n\nBuild ChASE with Examples requires enable -DCHASE_BUILD_WITH_EXAMPLES=ON flag when compiling ChASE library:\n\ncmake .. -DCHASE_BUILD_WITH_EXAMPLES=ON\n\n5 examples are available in folder [examples] https://github.com/ChASE-library/ChASE/tree/master/examples:\n\nThe example [0_hello_world] https://github.com/ChASE-library/ChASE/tree/master/examples/0_hello_world constructs a simple Clement matrix and find a given number of its eigenpairs.\n\nThe example [1_sequence_eigenproblems] https://github.com/ChASE-library/ChASE/tree/master/examples/1_sequence_eigenproblems illustrates how ChASE can be used to solve a sequence of eigenproblems. (⚠️To be included).\n\nThe example [2_input_output] https://github.com/ChASE-library/ChASE/tree/master/examples/2_input_output provides the configuration of parameters of ChASE from command line (supported by Boost); the parallel I/O which loads the local matrices into the computing nodes in parallel.\n\nThe example [3_installation] https://github.com/ChASE-library/ChASE/tree/master/examples/3_installation shows the way to link ChASE to other applications.\n\nThe example [4_interface] https://github.com/ChASE-library/ChASE/tree/master/examples/4_interface shows examples to use the C and Fortran interfaces of ChASE.\n\n## Developers\n\n### Main developers\n\nEdoardo Di Napoli – Algorithm design and development\n\nXinzhe Wu – Algorithm development, advanced parallel (MPI and GPU) implementation and optimization, developer documentation\n\n### Current contributors\n\nClément Richefort - Integration of ChASE into [YAMBO] https://www.yambo-code.eu/ code.\n\nDavor Davidović – Advanced parallel GPU implementation and optimization\n\nNenad Mijić – ARM-based implementation and optimization, CholeskyQR, unitests, parallel IO",
+      "section": "ChASE: a Chebyshev Accelerated Subspace Eigensolver for Dense Eigenproblems (part 5)",
+      "repo": "021_ChASE",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.007624Z",
+    "updated_at": "2025-11-03T06:31:03.685353Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23529,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2385,
+    "annotations": [
+      {
+        "id": 10212,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:31:05.342412Z",
+        "updated_at": "2025-11-03T06:31:05.342427Z",
+        "draft_created_at": null,
+        "lead_time": 1.507,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "5406ed59-e0b0-4ee1-9db7-48971abc8106",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2385,
+        "project": 23529,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Past contributors\n\nXiao Zhang – Integration of ChASE into Jena BSE code\n\nMiriam Hinzen, Daniel Wortmann – Integration of ChASE into FLEUR code\n\nSebastian Achilles – Library benchmarking on parallel platforms, documentation\n\nJan Winkelmann – DoS algorithm development and advanced C++ implementation\n\nPaul Springer – Advanced GPU implementation\n\nMarija Kranjcevic – OpenMP C++ implementation\n\nJosip Zubrinic – Early GPU algorithm development and implementation\n\nJens Rene Suckert – Lanczos algorithm and GPU implementation\n\nMario Berljafa – Early C and MPI implementation using the Elemental library",
+      "section": "ChASE: a Chebyshev Accelerated Subspace Eigensolver for Dense Eigenproblems (part 6)",
+      "repo": "021_ChASE",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.007644Z",
+    "updated_at": "2025-11-03T06:31:05.367948Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23529,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2386,
+    "annotations": [
+      {
+        "id": 10213,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:31:07.100416Z",
+        "updated_at": "2025-11-03T06:31:07.100430Z",
+        "draft_created_at": null,
+        "lead_time": 1.586,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "1f1644a5-90f9-41dd-bf7c-80bc4312e5f0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2386,
+        "project": 23529,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Contribution\n\nThis Github repository mirrors the principal Gitlab repository hosted at the Juelich Supercomputing Centre. There are two main ways you can contribute:\n\nyou can fork the open source ChASE repository on Github (https://github.com/ChASE-library/ChASE). Modify the source code (and relative inlined documentation, if necessary) and then submit a pull request. If you have not contributed to the ChASE library before, we will ask you to agree to a Collaboration Agreement (CLA) before the pull request can be approved. Currentlly there is no automatic mechanism to sign such an agreement and we need you to download the file CLA.pdf (that is part of the repository), print it, sign it, scan it and send it back to chase@fz-juelich.de. Upon reception of your signed CLA, your pull request will be reviewed and then eventually approved.\n\nAlternatively, if you want to contribute as a developer stably integrated into this project please contact us at chase@fz-juelich.de with a motivated request of collaboration. We will consider your request and get in touch with you to evaluate if and how to give you access directly to the Gitlab repository where the major developments of this software is carried out.\n\nAn automatic process to approve a pull request and sign a CLA is under development and will soon substitute option 1. In the meantime, we ask you for your patience and understanding in having to follow such a time consuming procedure.",
+      "section": "ChASE: a Chebyshev Accelerated Subspace Eigensolver for Dense Eigenproblems (part 7)",
+      "repo": "021_ChASE",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.007666Z",
+    "updated_at": "2025-11-03T06:31:07.129061Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23529,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2387,
+    "annotations": [
+      {
+        "id": 10214,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 298,
+              "end": 633,
+              "text": "J. Winkelmann, P. Springer, and E. Di Napoli. ChASE: a Chebyshev Accelerated Subspace iteration Eigensolver for sequences of Hermitian eigenvalue problems. ACM Transaction on Mathematical Software, 45 Num.2, Art.21, (2019). [DOI:10.1145/3313828] https://doi.org/10.1145/3313828 , [[arXiv:1805.10121] https://arxiv.org/abs/1805.10121/ ]",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "ibZV9RzHee",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 639,
+              "end": 968,
+              "text": "M. Berljafa, D. Wortmann, and E. Di Napoli. An Optimized and Scalable Eigensolver for Sequences of Eigenvalue Problems. Concurrency & Computation: Practice and Experience 27 (2015), pp. 905-922. [DOI:10.1002/cpe.3394] https://onlinelibrary.wiley.com/doi/pdf/10.1002/cpe.3394 , [[arXiv:1404.4161] https://arxiv.org/abs/1404.4161 ]",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "1561sAUCum",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 975,
+              "end": 1334,
+              "text": "X. Wu, D. Davidović, S. Achilles,E. Di Napoli. ChASE: a distributed hybrid CPU-GPU eigensolver for large-scale hermitian eigenvalue problems. Proceedings of the Platform for Advanced Scientific Computing Conference (PASC22). [DOI:10.1145/3539781.3539792] https://dl.acm.org/doi/10.1145/3539781.3539792 , [[arXiv:2205.02491] https://arxiv.org/pdf/2205.02491/ ]",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "fC3_7AWD0u",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1341,
+              "end": 1742,
+              "text": "X. Wu, E. Di Napoli. Advancing the distributed Multi-GPU ChASE library through algorithm optimization and NCCL library. Proceedings of the SC'23 Workshops of The International Conference on High Performance Computing, Network, Storage, and Analysis (pp. 1688-1696). [DOI:10.1145/3624062.3624249] https://dl.acm.org/doi/abs/10.1145/3624062.3624249, [[arXiv:2309.15595] https://arxiv.org/pdf/2309.15595]",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "xr3eUkd6yy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:31:43.373918Z",
+        "updated_at": "2025-11-03T06:31:43.373940Z",
+        "draft_created_at": "2025-11-03T06:31:33.087075Z",
+        "lead_time": 36.075,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "90204e74-e0d5-45d7-b04f-19b4dde88dc6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2387,
+        "project": 23529,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## How to Cite the Code\n\nThe main reference of ChASE is [1] while [2] provides some early results on scalability and usage on sequences of eigenproblems generated by Materials Science applications. [3] and [5] provides the distributed-memory multi-GPU implementation and performance analysis.\n\n[1] J. Winkelmann, P. Springer, and E. Di Napoli. ChASE: a Chebyshev Accelerated Subspace iteration Eigensolver for sequences of Hermitian eigenvalue problems. ACM Transaction on Mathematical Software, 45 Num.2, Art.21, (2019). [DOI:10.1145/3313828] https://doi.org/10.1145/3313828 , [[arXiv:1805.10121] https://arxiv.org/abs/1805.10121/ ]\n\n[2] M. Berljafa, D. Wortmann, and E. Di Napoli. An Optimized and Scalable Eigensolver for Sequences of Eigenvalue Problems. Concurrency & Computation: Practice and Experience 27 (2015), pp. 905-922. [DOI:10.1002/cpe.3394] https://onlinelibrary.wiley.com/doi/pdf/10.1002/cpe.3394 , [[arXiv:1404.4161] https://arxiv.org/abs/1404.4161 ].\n\n[3] X. Wu, D. Davidović, S. Achilles,E. Di Napoli. ChASE: a distributed hybrid CPU-GPU eigensolver for large-scale hermitian eigenvalue problems. Proceedings of the Platform for Advanced Scientific Computing Conference (PASC22). [DOI:10.1145/3539781.3539792] https://dl.acm.org/doi/10.1145/3539781.3539792 , [[arXiv:2205.02491] https://arxiv.org/pdf/2205.02491/ ].\n\n[4] X. Wu, E. Di Napoli. Advancing the distributed Multi-GPU ChASE library through algorithm optimization and NCCL library. Proceedings of the SC'23 Workshops of The International Conference on High Performance Computing, Network, Storage, and Analysis (pp. 1688-1696). [DOI:10.1145/3624062.3624249] https://dl.acm.org/doi/abs/10.1145/3624062.3624249, [[arXiv:2309.15595] https://arxiv.org/pdf/2309.15595].",
+      "section": "ChASE: a Chebyshev Accelerated Subspace Eigensolver for Dense Eigenproblems (part 8)",
+      "repo": "021_ChASE",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.007688Z",
+    "updated_at": "2025-11-03T06:31:43.401462Z",
+    "inner_id": 9,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23529,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2388,
+    "annotations": [
+      {
+        "id": 10215,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 27,
+              "end": 47,
+              "text": "3-Clause BSD License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "Mlq-6hAmrT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 49,
+              "end": 64,
+              "text": "BSD License 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "KQ2k998XBV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 67,
+              "end": 125,
+              "text": "https://github.com/ChASE-library/ChASE/blob/master/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "OMoqXgM1HJ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:32:43.918045Z",
+        "updated_at": "2025-11-03T06:32:43.918062Z",
+        "draft_created_at": "2025-11-03T06:32:40.053038Z",
+        "lead_time": 14.993,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "0f2730ba-ebc3-4370-9691-5851ab002cd6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2388,
+        "project": 23529,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Copyright and License\n\n[3-Clause BSD License (BSD License 2.0)] https://github.com/ChASE-library/ChASE/blob/master/LICENSE",
+      "section": "ChASE: a Chebyshev Accelerated Subspace Eigensolver for Dense Eigenproblems (part 9)",
+      "repo": "021_ChASE",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.007708Z",
+    "updated_at": "2025-11-03T06:32:43.947144Z",
+    "inner_id": 10,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23529,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

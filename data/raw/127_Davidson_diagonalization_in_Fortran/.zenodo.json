@@ -1,0 +1,25 @@
+{
+    "creators": [
+        {
+            "name": "Zapata, Felipe",
+            "orcid": "0000-0001-8286-677X"
+        },
+        {
+            "name": "Renaud, Nicolas",
+	    "orcid": "0000-0001-9589-2694"
+        },
+	{
+	    "name":  "López-Tarifa, Pablo",
+	    "orcid": "0000-0002-4136-1860"
+	}
+    ],
+    "keywords": [
+        "Eigenvalues",
+        "Computational Chemistry",
+        "Fortran"
+    ],
+    "license": {
+        "id": "Apache-2.0"
+    },
+    "title": "Fortran Davidson"
+}

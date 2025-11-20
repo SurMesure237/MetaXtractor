@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/dianna-ai/dianna",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "TeX"
+  ],
+  "downloadUrl": "https://api.github.com/repos/dianna-ai/dianna/zipball/main",
+  "author": "dianna-ai",
+  "dateCreated": "2021-07-06T12:49:11Z",
+  "dateModified": "2025-10-03T07:53:03Z",
+  "keywords": [
+    "explainable-artificial-intelligence",
+    "scientific-research"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Deep Insight And Neural Network Analysis",
+  "identifier": 383466811,
+  "name": "dianna-ai/dianna",
+  "issueTracker": "https://api.github.com/repos/dianna-ai/dianna/issues",
+  "readme": "https://github.com/dianna-ai/dianna/blob/main/README.md"
+}

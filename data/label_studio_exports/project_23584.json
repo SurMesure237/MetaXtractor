@@ -1,0 +1,332 @@
+[
+  {
+    "id": 2681,
+    "annotations": [
+      {
+        "id": 9941,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 122,
+              "end": 157,
+              "text": "https://opensource.org/licenses/MIT",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "FUl1FKXHSv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 3,
+              "end": 64,
+              "text": "https://varfish-server.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "tHXZSaBwkY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:13:57.063465Z",
+        "updated_at": "2025-11-14T11:58:01.525818Z",
+        "draft_created_at": "2025-11-02T19:08:29.285221Z",
+        "lead_time": 342.25,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "d2ec050e-cc76-42eb-9a77-5ad6aa5518c8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2681,
+        "project": 23584,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://varfish-server.readthedocs.io/en/latest/?badge=latest) [](https://codecov.io/gh/varfish-org/varfish-server) [](https://opensource.org/licenses/MIT)",
+      "section": "Introduction",
+      "repo": "219_VarFish",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:14.002088Z",
+    "updated_at": "2025-11-14T11:58:01.558593Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23584,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2682,
+    "annotations": [
+      {
+        "id": 9942,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 129,
+              "end": 427,
+              "text": "Holtgrewe, M.; Stolpe, O.; Nieminen, M.; Mundlos, S.; Knaus, A.; Kornak, U.; Seelow, D.; Segebrecht, L.; Spielmann, M.; Fischer-Zirnsak, B.; Boschann, F.; Scholl, U.; Ehmke, N.; Beule, D. VarFish: Comprehensive DNA Variant Analysis for Diagnostics and Research. Nucleic Acids Research 2020, gkaa241",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "PMEfA_epJX",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 471,
+              "end": 518,
+              "text": "https://www.cubi.bihealth.org/software/varfish/",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "d7y-b8BzLM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 529,
+              "end": 577,
+              "text": "https://varfish-server.readthedocs.io/en/latest/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "aOgw2YyA7K",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 607,
+              "end": 673,
+              "text": "https://varfish-server.readthedocs.io/en/latest/admin_install.html",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "Mt9ogqc31E",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:14:31.779202Z",
+        "updated_at": "2025-11-14T11:58:10.092224Z",
+        "draft_created_at": "2025-11-02T19:14:17.978049Z",
+        "lead_time": 41.245999999999995,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "745a1568-200a-4135-be29-8acce5fb8f6e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2682,
+        "project": 23584,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "VarFish\n\nComprehensive DNA variant analysis for diagnostics and research.\n\nThis is the repository for the web server component.\n\nHoltgrewe, M.; Stolpe, O.; Nieminen, M.; Mundlos, S.; Knaus, A.; Kornak, U.; Seelow, D.; Segebrecht, L.; Spielmann, M.; Fischer-Zirnsak, B.; Boschann, F.; Scholl, U.; Ehmke, N.; Beule, D. VarFish: Comprehensive DNA Variant Analysis for Diagnostics and Research. Nucleic Acids Research 2020, gkaa241. .\n\n## Getting Started\n\n[VarFish Homepage] https://www.cubi.bihealth.org/software/varfish/\n\n[Manual] https://varfish-server.readthedocs.io/en/latest/\n\n[Installation Instructions] https://varfish-server.readthedocs.io/en/latest/admin_install.html.\n\n[Docker Compose Installer] https://github.com/varfish-org/varfish-docker-compose#run-varfish-server-using-docker-compose.\n\n## VarFish Repositories\n\n[varfish-server] https://github.com/varfish-org/varfish-server The VarFish Server is the web frontend used by the end users / data analysts.\n\n[varfish-annotator] https://github.com/varfish-org/varfish-annotator The VarFish Annotator is a command line utility used for annotating VCF files and converting them to files that can be imported into VarFish Server.\n\n[varfish-cli] https://github.com/varfish-org/varfish-cli The VarFish Command Line Interface allows to import data through the VarFish REST API.\n\n[varfish-db-downloader] https://github.com/varfish-org/varfish-db-downloader The VarFish DB Downloader is a command line tool for downloading the background database.\n\n[varfish-docker-compose] https://github.com/varfish-org/varfish-docker-compose Quickly get started running a VarFish server by using Docker Compose. We provide a prebuilt data set with some already imported data.",
+      "section": "VarFish (part 1)",
+      "repo": "219_VarFish",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:14.002156Z",
+    "updated_at": "2025-11-14T11:58:10.125427Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23584,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2683,
+    "annotations": [
+      {
+        "id": 9943,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 25,
+              "end": 28,
+              "text": "MIT",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "e460yhsEyZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 72,
+              "end": 78,
+              "text": "Django",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "VssLKcUBYM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 82,
+              "end": 92,
+              "text": "PostgreSQL",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "gD7hgb78U7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 79,
+              "end": 80,
+              "text": "3",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "bRifngAhcR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 94,
+              "end": 98,
+              "text": ">=12",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "AZumxFPGQU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 57,
+              "end": 70,
+              "text": "Python \\>=3.8",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "k_ETW4T8zv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:14:51.336654Z",
+        "updated_at": "2025-11-16T23:58:23.555487Z",
+        "draft_created_at": "2025-11-02T19:14:41.409378Z",
+        "lead_time": 54.26299999999999,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "75fe5897-e7bd-41dc-bf02-d2f07cdeccac",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2683,
+        "project": 23584,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## At a Glance\n\nLicense: MIT\n\nDependencies / Tech Stack\n\nPython \\>=3.8\n\nDjango 3\n\nPostgreSQL \\>=12\n\nGitHub is used for public issue tracking. Currently, development happens on internal infrastructure.\n\n## VarFish Component Compatibility Table\n\nThe following combinations have been validated / are supported to work.\n\n| VarFish Server | VarFish CLI | VarFish Annotator | | -------------- | ----------- | ----------------- | | v1.2.2 | v0.3.0 | v0.21 | | v1.2.1 | v0.3.0 | v0.21 | | v1.2.0 | v0.3.0 | v0.21 |\n\n## VarFish Data Release Compatibility Table\n\nThe following combinations have been validated / are supported to work.\n\n| VarFish Server | Data Release | VarFish DB Downloader | | -------------- | ------------ | --------------------- | | v1.2.2 | 20210728c | v0.3.\\ | | v1.2.1 | 20210728 | v0.3.\\ | | v1.2.1 | 20210728b | v0.3.\\ | | v1.2.0 | 20210728 | v0.3.\\ | | v1.2.0 | 20210728b | v0.3.\\* |",
+      "section": "VarFish (part 2)",
+      "repo": "219_VarFish",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:14.002188Z",
+    "updated_at": "2025-11-16T23:58:23.593337Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23584,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

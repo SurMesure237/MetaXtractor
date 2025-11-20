@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "text": "A MOOSE-based application\n\nA numerical simulator for modelling coupled THM processes in faulted geothermal reservoirs based on MOOSE.",
+      "section": "Introduction (part 1)",
+      "repo": "195_GOLEM",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## About\n\nGOLEM is a numerical simulator for modelling coupled Thermo-Hydro-Mechanical processes in faulted geothermal reservoirs. The simulator is developed by [Antoine Jacquey] http://www.gfz-potsdam.de/en/staff/antoine-jacquey/ and [Mauro Cacace] http://www.gfz-potsdam.de/en/section/basin-modeling/staff/profil/mauro-cacace/ at the [GFZ German Research Centre for Geosciences] http://www.gfz-potsdam.de/en/home/ from the section [Basin Modelling] http://www.gfz-potsdam.de/en/section/basin-modeling/.\n\nGOLEM is a MOOSE-based application. Visit the [MOOSE framework] http://mooseframework.org page for more information.\n\n## Licence\n\nGOLEM is distributed under the [GNU GENERAL PUBLIC LICENSE v3] https://github.com/ajacquey/Golem/blob/master/LICENSE.\n\n## Getting Started",
+      "section": "Introduction (part 2)",
+      "repo": "195_GOLEM",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### Minimum System Requirements\n\nThe following system requirements are from the MOOSE framework (see [Getting Started] http://mooseframework.inl.gov/getting_started/ for more information):  Compiler: C++11 Compliant GCC 4.8.4, Clang 3.4.0, Intel20130607  Python 2.7+  Memory: 16 GBs (debug builds)  Processor: 64-bit x86  Disk: 30 GBs  OS: UNIX compatible (OS X, most flavors of Linux)\n\n#### 1. Setting Up a MOOSE Installation\n\nTo install GOLEM, you need first to have a working and up-to-date installation of the MOOSE framework.  To do so, please visit the [Getting Started] http://mooseframework.inl.gov/getting_started/ page of the MOOSE framework and follow the instructions. If you encounter difficulties at this step, you can ask for help on the [MOOSE-users Google group] https://groups.google.com/forum/#!forum/moose-users.\n\n#### 2. Clone GOLEM\n\nGOLEM can be cloned directly from [GitHub] https://github.com/ajacquey/Golem using [Git] https://git-scm.com/. In the following, we refer to the directory projects which you created during the MOOSE installation (by default ~/projects):\n\ncd ~/projects  git clone https://github.com/ajacquey/Golem.git  cd ~/projects/golem  git checkout master\n\nNote: the \"master\" branch of GOLEM is the \"stable\" branch which is updated only if all tests are passing.\n\n#### 3. Compile GOLEM\n\nYou can compile GOLEM by following these instructions:\n\ncd ~/projects/golem  make -j4\n\n#### 4. Test GOLEM\n\nTo make sure that everything was installed properly, you can run the tests suite of GOLEM:\n\ncd ~/projects/golem  ./run_tests -j2\n\nIf all the tests passed, then your installation is working properly. You can now use the GOLEM simulator!",
+      "section": "Introduction (part 3)",
+      "repo": "195_GOLEM",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Usage\n\nTo run GOLEM from the command line with multiple processors, use the following command:\n\nmpiexec -n ~/projects/golem/golem-opt -i\n\nWhere ` is the number of processors you want to use and is the path to your input file (extension .i`).\n\nInformation about the structure of the GOLEM input files can be found in the documentation (link to follow). ## Cite\n\nIf you use GOLEM for your work please cite:  This repository:  Antoine B. Jacquey, & Mauro Cacace. (2017, September 29). GOLEM, a MOOSE-based application. Zenodo. http://doi.org/10.5281/zenodo.999401  The publication presenting GOLEM:   Cacace, M. and Jacquey, A. B.: Flexible parallel implicit modelling of coupled thermal\u2013hydraulic\u2013mechanical processes in fractured rocks, Solid Earth, 8, 921-941, https://doi.org/10.5194/se-8-921-2017, 2017.\n\nPlease read the [CITATION] https://github.com/ajacquey/Golem/blob/master/CITATION file for more information.",
+      "section": "Introduction (part 4)",
+      "repo": "195_GOLEM",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Publications using GOLEM",
+      "section": "Introduction (part 5)",
+      "repo": "195_GOLEM",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Freymark, J., Bott, J., Cacace, M., Ziegler, M., Scheck-Wenderoth, M.: Influence of the Main Border Faults on the 3D Hydraulic Field of the Central Upper Rhine Graben, Geofluids, 2019.  Bl\u00f6cher, G., Cacace, M., Jacquey, A. B., Zang, A., Heidbach, O., Hofmann, H., Kluge, C., Zimmermann, G.: Evaluating Micro-Seismic Events Triggered by Reservoir Operations at the Geothermal Site of Gro\u00df Sch\u00f6nebeck (Germany), Rock Mechanics and Rock Engineering, 2018.  Jacquey, A. B., Urpi, L., Cacace, M., Bl\u00f6cher, G., Zimmermann, G., Scheck-Wenderoth, M.: Far field poroelastic response of geothermal reservoirs to hydraulic stimulation treatment: Theory and application at the Gro\u00df Sch\u00f6nebeck geothermal research facility, International Journal of Rock Mechanics and Mining Sciences, 2018.  Peters, E., Bl\u00f6cher, G., Salimzadeh, S., Egberts, P. J. P., Cacace, M.: Modelling of multi-lateral well geometries for geothermal applications, Advances in Geosciences, 2018.  Magri, F., Cacace, M., Fischer, T., Kolditz, O., Wang, W., Watanabe, N.: Thermal convection of viscous fluids in a faulted system: 3D benchmark for numerical codes, Energy Procedia, 2017.  Cacace, M. and Jacquey, A. B.: Flexible parallel implicit modelling of coupled Thermal-Hydraulic-Mechanical processes in fractured rocks, Solid Earth, 2017.  Jacquey, A. B.: Coupled Thermo-Hydro-Mechanical Processes in Geothermal Reservoirs: a Multiphysic and Multiscale Approach Linking Geology and 3D Numerical Modelling, PhD thesis, RWTH Aachen, 2017.  Jacquey, A. B., Cacace, M., Bl\u00f6cher, G.: Modelling coupled fluid flow and heat transfer in fractured reservoirs: description of a 3D benchmark numerical case, Energy Procedia, 2017.",
+      "section": "Introduction (part 6)",
+      "repo": "195_GOLEM",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Jacquey, A. B., Cacace, M., Bl\u00f6cher, G., Milsch, H., Deon, F., Scheck-Wenderoth, M.: Processes Responsible for Localized Deformation within Porous Rocks: Insights from Laboratory Experiments and Numerical Modelling, 6th Biot Conference on Poromechanics, Paris 2017.",
+      "section": "Introduction (part 7)",
+      "repo": "195_GOLEM",
+      "source_file": "readme.md"
+    }
+  }
+]

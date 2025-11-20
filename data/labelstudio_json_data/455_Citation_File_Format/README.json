@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "SPDX-License-Identifier: CC-BY-4.0 -->\n\n:warning: Due to changes in the GitHub Search API, these data currently aren't reliable.",
+      "section": "Introduction",
+      "repo": "455_Citation_File_Format",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "cfftracker\n\nTracks CITATION.cff files across public repositories on GitHub.\n\n## Current count: 0\n\nNote: This plot has been produced on cleaned up data that disregards drops in counts of > 100. These steep drops are due to temporal unreliabilities in results from the GitHub Search API,  caused by backend work on GitHub at the time of the query (source: personal communication with GitHub staff). For a plot of the uncleaned data, see [cff_counts.png] cff_counts.png.\n\n## Documentation\n\nThe tracker uses a [GitHub Action workflow] .github/workflows/update.yml to [query] query_api.py the [GitHub Search API] https://docs.github.com/en/rest/reference/search (basically an authenticated call to https://api.github.com/search/code?q=filename:CITATION.cff) for files with the filename CITATION.cff.\n\nThe total count is then extracted from the API response, added with the current date to a [CSV file] cff_counts.csv, written to a [text file] current_count.txt (for easy extraction), and put in README.md using regex replacement for the ## Current count: nnnn line.\n\n[Another script] clean_plot.py using [pandas] https://pandas.pydata.org/ and [matplotlib] https://matplotlib.org/ creates the graph you see above.\n\nAnd finally, all updated files are committed and pushed back into this repository.\n\n## Licenses\n\nCopyright \u00a9 2021 Stephan Druskat\n\nThis work is licensed under multiple licenses:\n\nCode is licensed under MIT. Documentation files and images are licensed under CC-BY-4.0. The remaining files are licensed under CC0-1.0.\n\nPlease see the individual files for more accurate information.",
+      "section": "cfftracker",
+      "repo": "455_Citation_File_Format",
+      "source_file": "readme.md"
+    }
+  }
+]

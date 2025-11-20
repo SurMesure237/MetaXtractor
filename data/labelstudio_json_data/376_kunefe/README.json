@@ -1,0 +1,82 @@
+[
+  {
+    "data": {
+      "text": "kunefe developer documentation\n\nIf you're looking for user documentation, go [here] README.md.\n\n## Docker image\n\nIf you do not have an access to a HPC cluster with a SLURM service, you can build and use your own Docker image which is based on [xenonmiddleware/slurm] https://hub.docker.com/r/xenonmiddleware/slurm/.\n\nTo build the image run:\n\ndocker build --tag kunefe-slurm Docker\n\nYou can list the existing Docker images with:\n\ndocker images\n\nThe output you get should be similar to the one below:\n\nREPOSITORY TAG IMAGE ID CREATED SIZE kunefe-slurm latest be0cd0f582d7 2 hours ago 486MB\n\nTo start the SLURM service run:\n\ndocker run --detach --publish 10022:22 kunefe-slurm:latest\n\nIf you need to connect to the server via ssh run:\n\nssh -p 10022 xenon@localhost -t /bin/bash\n\nThe default user and the password for the SSH service are below.\n\nuser: xenon password: javagat\n\n### Pushing the Docker image to dockerhub\n\nLogin to dockerhub using your terminal\n\ndocker login -u YOURUSERNAME\n\nTag the new docker image\n\ndocker tag kunefe-slurm:latest nlesc/kunefe:slurm\n\nPush the image to dockerhub\n\ndocker push nlesc/kunefe:slurm\n\nDockerhub repository can be found at [https://hub.docker.com/repository/docker/nlesc/kunefe] https://hub.docker.com/repository/docker/nlesc/kunefe\n\n## Development install\n\nCreate a virtual environment, e.g. with python -m venv env\n\nactivate virtual environment source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools python -m pip install --upgrade pip setuptools\n\ninstall kunefe as an editable package python -m pip install --no-cache-dir --editable .",
+      "section": "`kunefe` developer documentation + Create a virtual environment, e.g. with + activate virtual environment (and 2 more)",
+      "repo": "376_kunefe",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "install development dependencies python -m pip install --no-cache-dir --editable .[dev]\n\nAfterwards check that the install directory is present in the PATH environment variable.\n\n## Running the tests\n\nThere are two ways to run tests.\n\nThe first way requires an activated virtual environment with the development tools installed:\n\npytest -v\n\nThe second is to use tox, which can be installed separately (e.g. with pip install tox), i.e. not necessarily inside the virtual environment you use for installing kunefe, but then builds the necessary virtual environments itself by simply running:\n\ntox\n\nTesting with tox allows for keeping the testing environment separate from your development environment. The development environment will typically accumulate (old) packages during development that interfere with testing; this problem is avoided by testing with tox.\n\n### Test coverage\n\nIn addition to just running the tests to see if they pass, they can be used for coverage statistics, i.e. to determine how much of the package's code is actually executed during tests. In an activated virtual environment with the development tools installed, inside the package directory, run:\n\ncoverage run\n\nThis runs tests and stores the result in a .coverage file. To see the results on the command line, run\n\ncoverage report\n\ncoverage can also generate output in HTML and other formats; see coverage help for more information.\n\n## Running linters locally\n\nFor linting and sorting imports we will use [ruff] https://beta.ruff.rs/docs/. Running the linters requires an activated virtual environment with the development tools installed.\n\nlinter ruff .",
+      "section": "install development dependencies + linter",
+      "repo": "376_kunefe",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "linter with automatic fixing ruff . --fix\n\nTo fix readability of your code style you can use [yapf] https://github.com/google/yapf.\n\nYou can enable automatic linting with ruff on commit by enabling the git hook from .githooks/pre-commit, like so:\n\ngit config --local core.hooksPath .githooks\n\n## Generating the API docs\n\ncd docs make html\n\nThe documentation will be in docs/_build/html\n\nIf you do not have make use\n\nsphinx-build -b html docs docs/_build/html\n\nTo find undocumented Python objects run\n\ncd docs make coverage cat _build/coverage/python.txt\n\nTo [test snippets] https://www.sphinx-doc.org/en/master/usage/extensions/doctest.html in documentation run\n\ncd docs make doctest\n\n## Versioning\n\nBumping the version across all files is done with [bump-my-version] https://github.com/callowayproject/bump-my-version, e.g.\n\nbump-my-version major # bumps from e.g. 0.3.2 to 1.0.0 bump-my-version minor # bumps from e.g. 0.3.2 to 0.4.0 bump-my-version patch # bumps from e.g. 0.3.2 to 0.3.3\n\n## Making a release\n\nThis section describes how to make a release in 3 parts:\n\npreparation\n\nmaking a release on PyPI\n\nmaking a release on GitHub\n\n### (1/3) Preparation\n\nUpdate the (don't forget to update links at bottom of page)\n\nVerify that the information in [CITATION.cff] CITATION.cff is correct.\n\nMake sure the [version has been updated] #versioning.\n\nRun the unit tests with pytest -v\n\n### (2/3) PyPI\n\nIn a new terminal:\n\nhas the state of origin/main branch cd $(mktemp -d kunefe.XXXXXX) git clone git@github.com:mess-nlesc/kunefe .\n\nmake sure to have a recent version of pip and the publishing dependencies python -m pip install --upgrade pip python -m pip install .[publishing]\n\ncreate the source distribution and the wheel python -m build",
+      "section": "linter with automatic fixing + has the state of origin/main branch + make sure to have a recent version of pip and the publishing dependencies (and 1 more)",
+      "repo": "376_kunefe",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "upload to test pypi instance (requires credentials) python -m twine upload --repository testpypi dist/\n\n[https://test.pypi.org/project/kunefe] https://test.pypi.org/project/kunefe and verify that your package was uploaded successfully. Keep the terminal open, we'll need it later.\n\nIn a new terminal, without an activated virtual environment or an env directory:\n\ncd $(mktemp -d kunefe-test.XXXXXX)\n\nprepare a clean virtual environment and activate it python -m venv env source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools python -m pip install --upgrade pip\n\ninstall from test pypi instance: python -m pip -v install --no-cache-dir \\ --index-url https://test.pypi.org/simple/ \\ --extra-index-url https://pypi.org/simple kunefe\n\nCheck that the package works as it should when installed from pypitest.\n\nThen upload to pypi.org with:\n\nFINAL STEP: upload to PyPI (requires credentials) python -m twine upload dist/\n\n### (3/3) GitHub\n\nDon't forget to also make a [release on GitHub] https://github.com/mess-nlesc/kunefe/releases/new. If your repository uses the GitHub-Zenodo integration this will also trigger Zenodo into making a snapshot of your repository and sticking a DOI on it.",
+      "section": "upload to test pypi instance (requires credentials) + prepare a clean virtual environment and activate it + make sure to have a recent version of pip and setuptools (and 2 more)",
+      "repo": "376_kunefe",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Kunefe\n\nKunefe is a Python package that helps users run containerized applications (Docker) on HPC systems. It can:\n\nconvert an existing Docker image into an Apptainer image\n\nconnect to a remote host via SSH and run shell commands\n\ngenerate scripts for batch jobs\n\nsubmit generated job scripts to HPC batch queues (SLURM)\n\ncopy files and folders to a remote system\n\nretrieve files and folders from a remote system\n\ninstall Apptainer on a remote system\n\nmonitor the job queue (SLURM)\n\n## Requirements\n\nIn order to run your application with kunefe, you will need your application to be containerized. If your application is not containerized, you can follow this [guide] https://docs.docker.com/get-started/02_our_app/ to learn how to do that.\n\n### The host system requirements (e.g. your laptop or desktop computer):\n\n[Docker] https://docs.docker.com/engine/install/\n\n[Apptainer] https://apptainer.org/docs/admin/main/installation.html\n\n[Python 3] https://www.python.org/downloads/\n\n### Remote system requirements (e.g. HPC cluster):\n\n[Apptainer] https://apptainer.org/docs/admin/main/installation.html\n\n[SSH server] https://www.openssh.com/\n\n[Slurm Workload Manager] https://slurm.schedmd.com/documentation.html\n\nNote: If Apptainer is not available on the remote system, it can be installed using kunefe which will require the following packages to be installed on the remote system: curl rpm2cpio cpio",
+      "section": "Kunefe (part 1)",
+      "repo": "376_kunefe",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Badges\n\n[](https://github.com/mess-nlesc/kunefe/actions/workflows/tests.yml) [](https://github.com/mess-nlesc/kunefe/actions/workflows/examples.yml) [](https://kunefe.readthedocs.io/en/latest/?badge=latest) [](https://pypi.python.org/pypi/kunefe/)\n\n[](http://mypy-lang.org/) [](https://github.com/pre-commit/pre-commit)",
+      "section": "Kunefe (part 2)",
+      "repo": "376_kunefe",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| fair-software.eu recommendations | | | :-- | :-- | | howfairis | [](https://fair-software.eu) | | (1/5) code repository | [](https://github.com/mess-nlesc/kunefe) | | (2/5) license | [](https://github.com/mess-nlesc/kunefe) | | (3/5) community registry | [](https://www.research-software.nl/software/kunefe) [](https://pypi.python.org/project/kunefe/) | | (4/5) citation | [](https://zenodo.org/doi/10.5281/zenodo.10786467)  | (5/5) checklist | [](https://www.bestpractices.dev/projects/8629) |\n\n\ud83d\ude80 Click to see all the badges",
+      "section": "Kunefe (part 3)",
+      "repo": "376_kunefe",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Code quality | | | :-- | :-- | | Static analysis | [](https://sonarcloud.io/dashboard?id=mess-nlesc_kunefe) [](https://sonarcloud.io/summary/new_code?id=mess-nlesc_kunefe) [](https://sonarcloud.io/summary/new_code?id=mess-nlesc_kunefe) [](https://sonarcloud.io/summary/new_code?id=mess-nlesc_kunefe) [](https://sonarcloud.io/summary/new_code?id=mess-nlesc_kunefe) [](https://sonarcloud.io/summary/new_code?id=mess-nlesc_kunefe) [](https://sonarcloud.io/summary/new_code?id=mess-nlesc_kunefe) [](https://sonarcloud.io/summary/new_code?id=mess-nlesc_kunefe) [](https://sonarcloud.io/summary/new_code?id=mess-nlesc_kunefe) | | Coverage | [](https://sonarcloud.io/dashboard?id=mess-nlesc_kunefe) |",
+      "section": "Kunefe (part 4)",
+      "repo": "376_kunefe",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| GitHub Actions | &nbsp; | | :-- | :-- | | Build | [](https://github.com/mess-nlesc/kunefe/actions/workflows/build.yml) | | Howfairis | [](https://github.com/mess-nlesc/kunefe/actions/workflows/howfairis.yml) | | Citation data consistency | [](https://github.com/mess-nlesc/kunefe/actions/workflows/cffconvert.yml) | | SonarCloud | [](https://github.com/mess-nlesc/kunefe/actions/workflows/sonarcloud.yml) | | MarkDown link checker | [](https://github.com/mess-nlesc/kunefe/actions/workflows/markdown-link-check.yml) |",
+      "section": "Kunefe (part 5)",
+      "repo": "376_kunefe",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Installation\n\nTo install the latest kunefe release from PyPI, run:\n\npython -m pip install kunefe\n\nTo install the development version of kunefe from GitHub repository, do:\n\npython -m pip install git+https://github.com/mess-nlesc/kunefe.git@main\n\n## Examples\n\nSee the examples in [examples] examples folder.\n\n## Documentation\n\nSee [https://readthedocs.org/projects/kunefe/] https://readthedocs.org/projects/kunefe/ for the code documentation.\n\n## The project setup\n\nThe project setup is documented in [project_setup.md] project_setup.md. Feel free to remove this document (and/or the link to this document) if you don't need it.\n\n## Contributing\n\nIf you want to contribute to the development of kunefe, have a look at the [contribution guidelines] CONTRIBUTING.md.\n\n## Credits\n\nThis package was created with [Cookiecutter] https://github.com/audreyr/cookiecutter and the [NLeSC/python-template] https://github.com/NLeSC/python-template.",
+      "section": "Kunefe (part 6)",
+      "repo": "376_kunefe",
+      "source_file": "readme.md"
+    }
+  }
+]

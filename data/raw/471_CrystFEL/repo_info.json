@@ -1,0 +1,37 @@
+{
+  "codeRepository": "https://github.com/taw10/crystfel",
+  "programmingLanguage": "C",
+  "programmingLanguages": [
+    "C",
+    "Julia",
+    "Python",
+    "Shell",
+    "Meson",
+    "Perl",
+    "GLSL",
+    "Yacc",
+    "Gnuplot",
+    "Dockerfile",
+    "Lex",
+    "R"
+  ],
+  "downloadUrl": "https://api.github.com/repos/taw10/crystfel/zipball/main",
+  "author": "taw10",
+  "dateCreated": "2020-08-01T19:47:26Z",
+  "dateModified": "2025-10-28T14:37:06Z",
+  "keywords": [
+    "biochemistry",
+    "crystallography",
+    "desy",
+    "science",
+    "science-research",
+    "xray-crystallography",
+    "xray-diffraction"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Data processing for serial crystallography",
+  "identifier": 284328391,
+  "name": "taw10/crystfel",
+  "issueTracker": "https://api.github.com/repos/taw10/crystfel/issues",
+  "readme": "https://github.com/taw10/crystfel/blob/master/README.md"
+}

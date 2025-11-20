@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/evanberkowitz/supervillain",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "TeX",
+    "Batchfile",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/evanberkowitz/supervillain/zipball/main",
+  "author": "evanberkowitz",
+  "dateCreated": "2023-08-16T17:25:12Z",
+  "dateModified": "2024-09-23T12:17:07Z",
+  "keywords": [
+    "monte-carlo",
+    "physics",
+    "quantum-field-theory",
+    "research"
+  ],
+  "license": null,
+  "description": "MCMC for modified Villain constructions",
+  "identifier": 679369801,
+  "name": "evanberkowitz/supervillain",
+  "issueTracker": "https://api.github.com/repos/evanberkowitz/supervillain/issues",
+  "readme": "https://github.com/evanberkowitz/supervillain/blob/main/README.md"
+}

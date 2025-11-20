@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "# Example repo for a GitHub self-hosted runner\n\nContains a Python package called justatest and a unit test for it.\n\nTo test with your own runner\n\n[Duplicate] https://help.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository this repo\n\nChange visibility to private\n\nSet up runner as described in [https://github.com/ci-for-research/self-hosted-runners] https://github.com/ci-for-science/self-hosted-runners\n\nMake change to repo to trigger [GitHub Action workflow] .github/workflows/ci.yml to run.\n\n## Install\n\npoetry install\n\n## Usage\n\nfrom justatest import sum assert sum(2, 4) == 6\n\n## Run tests\n\npoetry run pytest tests",
+      "section": "README",
+      "repo": "240_self-hosted_runners",
+      "source_file": "readme.md"
+    }
+  }
+]

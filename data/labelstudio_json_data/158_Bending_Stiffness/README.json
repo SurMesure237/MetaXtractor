@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "[](https://doi.org/10.5281/zenodo.12808969) [](https://archive.softwareheritage.org/swh:1:dir:65f4716d51672926f9ae328ea314d969e37534c6;origin=https://github.com/Ramy-Badr-Ahmed/bendingStiffness;visit=swh:1:snp:cf3a5710e567c74b08a7144be79796fb78e9743c;anchor=swh:1:rev:ae6455bbac2db3f8838eb0d69b5ba09e5f50d06e)\n\n### Summary\n\nA java code analysing the Bending Stiffness of Actin Filament Experiment.\n\nReads coordinates from snake.txt of a measured filament (an example is in the images directory)\n\nCalculates the mean squared displacement (MSD) and contour length from data\n\nError calculation in persistence length and contour length are saved in mathematica directory.\n\n(optional) Modify config.properties as needed.\n\n### Running the Demo\n\nPlace your snake.txt and elongation.txt files in the data directory (an example exists).\n\nCompile and run the Snake class.\n\njavac -d out src/Snake.java java -cp out Snake",
+      "section": "README",
+      "repo": "158_Bending_Stiffness",
+      "source_file": "readme.md"
+    }
+  }
+]

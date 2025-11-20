@@ -1,0 +1,356 @@
+[
+  {
+    "id": 589,
+    "annotations": [
+      {
+        "id": 12149,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 12,
+              "end": 56,
+              "text": "https://zenodo.org/badge/latestdoi/619447827",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "L4u68rifvM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 733,
+              "end": 736,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "yzEm84L7X-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 790,
+              "end": 795,
+              "text": "Conda",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ff4cwrUbuS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 849,
+              "end": 858,
+              "text": "miniforge",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "G3OidQO5l4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 920,
+              "end": 923,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "XMLvQl6ZIf",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 963,
+              "end": 968,
+              "text": "conda",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "bCOMIbiIEn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 974,
+              "end": 979,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "QqZcjAp0wa",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1139,
+              "end": 1146,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "v3D5Le9UWg",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1101,
+              "end": 1106,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "8obA-nFm84",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 651,
+              "end": 657,
+              "text": "pylops",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Z7isD000Ea",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 659,
+              "end": 664,
+              "text": "torch",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "2vyuN-tekz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 666,
+              "end": 671,
+              "text": "obspy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "JA9eWVoVGq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 738,
+              "end": 767,
+              "text": "https://pypi.org/project/pip/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "JDzSA2kw9L",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 797,
+              "end": 813,
+              "text": "https://conda.io",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "3emwmOH0sp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 860,
+              "end": 900,
+              "text": "https://github.com/conda-forge/miniforge",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "cSvzfmTFi3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1184,
+              "end": 1193,
+              "text": "miniforge",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ZYLkaHKV6G",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1195,
+              "end": 1235,
+              "text": "https://github.com/conda-forge/miniforge",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "7mrFwBa69g",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:49:53.121844Z",
+        "updated_at": "2025-11-16T05:31:40.733540Z",
+        "draft_created_at": "2025-11-09T10:49:05.225491Z",
+        "lead_time": 98.00200000000001,
+        "prediction": {},
+        "result_count": 17,
+        "unique_id": "0092bfcf-f582-4bb6-a367-b177542fe5a0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 589,
+        "project": 23210,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "FraCSPy\n\n[](https://zenodo.org/badge/latestdoi/619447827)\n\nFraCSPy stands for Python Framework for Conventional microSeismic Processing.\n\nIt is a single python toolbox for the full microseismic pipeline from modelling to post-event analysis. This library is a single location leveraging the excellent work of other scientists (software developers) and adapts them for the specific use case of microseismic monitoring.\n\nSome functionalities include:\n\nmodelling script generation (for accompanying [SOFI3D] https://docs.csc.fi/apps/sofi3d/)\n\nevent imaging: detection, location\n\nmoment tensor inversion\n\nSome python libraries that are utilised include:\n\npylops\n\ntorch\n\nobspy\n\nand more...\n\n## Requirements\n\nInstallation requires either [pip] https://pypi.org/project/pip/ package installer or [Conda] https://conda.io package manager, e.g. one can use [miniforge] https://github.com/conda-forge/miniforge.\n\n## Install using pip\n\npip install fracspy\n\n## Install using conda\n\n### Linux\n\nSimply run\n\nmake install\n\nIt will create a new conda environment fracspy with all the required packages:\n\nSimilarly, on Linux you can run:\n\n./install.sh\n\n### Windows\n\nOn Windows, the best way is to use [miniforge] https://github.com/conda-forge/miniforge prompt and run:\n\ninstall.bat\n\nIt will install the package to environment fracspy and activate it.\n\nTo install development version use\n\ninstall-dev.bat\n\nNow you are ready to use the package.\n\n### Uninstall\n\nIf you need to add/change packages:\n\nconda deactivate conda remove -n fracspy -all",
+      "section": "FraCSPy (part 1)",
+      "repo": "064_FraCSPy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.677394Z",
+    "updated_at": "2025-11-16T05:31:40.768109Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23210,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 590,
+    "annotations": [
+      {
+        "id": 12150,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:50:01.316578Z",
+        "updated_at": "2025-11-09T10:50:01.316591Z",
+        "draft_created_at": null,
+        "lead_time": 8.002,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "4c5306c6-89a0-4fa5-a2ba-1cd249680f22",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 590,
+        "project": 23210,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Documentation\n\nThe latest stable documentation based on [Sphinx] https://www.sphinx-doc.org is available online at:\n\nOne can also build the documentation locally:\n\ncd docs make html\n\nIf you want to rebuild the documentation:\n\nmake clean make html\n\nAfter a successful build, one can serve the documentation website locally:\n\ncd build/html python -m http.server\n\nand open in browser:\n\nTo build/rebuild documentation on Windows you can simply run\n\nbuild_docs.bat\n\nNote: check the exact port number in the output",
+      "section": "FraCSPy (part 2)",
+      "repo": "064_FraCSPy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.677429Z",
+    "updated_at": "2025-11-09T10:50:01.341010Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23210,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

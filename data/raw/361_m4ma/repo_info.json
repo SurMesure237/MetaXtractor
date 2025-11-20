@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/m4ma/m4ma",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "R",
+    "C"
+  ],
+  "downloadUrl": "https://api.github.com/repos/m4ma/m4ma/zipball/main",
+  "author": "m4ma",
+  "dateCreated": "2022-06-23T11:54:37Z",
+  "dateModified": "2024-07-18T14:49:59Z",
+  "keywords": [],
+  "license": null,
+  "description": "An R package containing C++ implementations to speed up the simulation and parameter estimation of the Predictive Pedestrian model.",
+  "identifier": 506619919,
+  "name": "m4ma/m4ma",
+  "issueTracker": "https://api.github.com/repos/m4ma/m4ma/issues",
+  "readme": "https://github.com/m4ma/m4ma/blob/main/README.md"
+}

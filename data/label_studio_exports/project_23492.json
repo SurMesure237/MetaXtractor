@@ -1,0 +1,419 @@
+[
+  {
+    "id": 2184,
+    "annotations": [
+      {
+        "id": 10331,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 168,
+              "end": 203,
+              "text": "https://opensource.org/licenses/MIT",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "Ik6G1H0av4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 279,
+              "end": 317,
+              "text": "https://doi.org/10.5281/zenodo.7779883",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "nRbYuMA3qD",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:35:01.515477Z",
+        "updated_at": "2025-11-04T06:35:01.515494Z",
+        "draft_created_at": "2025-11-04T06:34:55.944582Z",
+        "lead_time": 17.138,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "9e8379f3-84e7-45c5-bd60-dfc53f9f1e34",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2184,
+        "project": 23492,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Climate Index Collection\n\n[](https://github.com/MarcoLandtHayen/climate_index_collection/actions) [](https://codecov.io/gh/MarcoLandtHayen/climate_index_collection) [](https://opensource.org/licenses/MIT) [](https://hub.docker.com/r/mlandthayen/climate_index_collection/tags) [](https://doi.org/10.5281/zenodo.7779883)\n\nCollection of climate indices derived from climate model outputs.",
+      "section": "Climate Index Collection (part 1)",
+      "repo": "114_CICMoD_-_A_Climate_Index_Collection_based_on_Model_Data",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.336510Z",
+    "updated_at": "2025-11-04T06:35:01.544346Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23492,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2185,
+    "annotations": [
+      {
+        "id": 10332,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 145,
+              "end": 183,
+              "text": "https://doi.org/10.5281/zenodo.7779883",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "ZoJBH7aBjA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 315,
+              "end": 320,
+              "text": "pooch",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "nq1bGk_6ps",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 322,
+              "end": 360,
+              "text": "https://www.fatiando.org/pooch/latest/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "yqW9umrqAG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:35:38.561447Z",
+        "updated_at": "2025-11-14T13:19:41.268825Z",
+        "draft_created_at": "2025-11-04T06:35:22.744357Z",
+        "lead_time": 56.032,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "dc957f68-717a-4900-ae79-164ff7d4665d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2185,
+        "project": 23492,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Quickstart: Using the climate indices\n\nThe resulting climate-index time series are published to Zenodo under the DOI [10.5281/zenodo.7779883] https://doi.org/10.5281/zenodo.7779883 and you can obtain the index timeseries by manually downloading the file climate_indices.csv from this dataset.\n\nYou can also use [pooch] https://www.fatiando.org/pooch/latest/ to obtain the published index time series programmatically:\n\nimport pooch\n\nclimate_indices_file = pooch.retrieve(  url=\"doi:10.5281/zenodo.7779883/climate_indices.csv\",  known_hash=None, )\n\nWith climate_indices_file containing the path to the CSV file either resulting from the code above or from manually setting it to the location of the manually downloaded data, we recommend using [Pandas] https://pandas.pydata.org/docs/ for reading the data:\n\nimport pandas as pd",
+      "section": "Climate Index Collection (part 2)",
+      "repo": "114_CICMoD_-_A_Climate_Index_Collection_based_on_Model_Data",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.336550Z",
+    "updated_at": "2025-11-14T13:19:41.308083Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23492,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2186,
+    "annotations": [
+      {
+        "id": 10333,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:35:41.505675Z",
+        "updated_at": "2025-11-04T06:35:41.505692Z",
+        "draft_created_at": null,
+        "lead_time": 2.744,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "235e096d-e1e0-4c64-a434-43c5090b0df9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2186,
+        "project": 23492,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "climate_indices = pd.read_csv(climate_indices_file)\n\nThis results in a dataframe with the following structure:\n\nprint(climate_indices)\n\nmodel year month index long_name value 0 FOCI 1 1 SAM_ZM southern_annular_mode_zonal_mean -0.295492 1 FOCI 1 2 SAM_ZM southern_annular_mode_zonal_mean 0.530890 2 FOCI 1 3 SAM_ZM southern_annular_mode_zonal_mean 1.684005 3 FOCI 1 4 SAM_ZM southern_annular_mode_zonal_mean 1.409169 4 FOCI 1 5 SAM_ZM southern_annular_mode_zonal_mean 0.984511 ... ... ... ... ... ... ... 695647 CESM 999 8 NP north_pacific -0.210202 695648 CESM 999 9 NP north_pacific 0.206541 695649 CESM 999 10 NP north_pacific -0.331067 695650 CESM 999 11 NP north_pacific 0.487844 695651 CESM 999 12 NP north_pacific -0.782657",
+      "section": "Climate Index Collection (part 3)",
+      "repo": "114_CICMoD_-_A_Climate_Index_Collection_based_on_Model_Data",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.336574Z",
+    "updated_at": "2025-11-04T06:35:41.535613Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23492,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2187,
+    "annotations": [
+      {
+        "id": 10334,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:35:43.656686Z",
+        "updated_at": "2025-11-04T06:35:43.656703Z",
+        "draft_created_at": null,
+        "lead_time": 1.97,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "707c0b70-7d2c-43ec-b680-d4a152449e9d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2187,
+        "project": 23492,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[695652 rows x 6 columns]\n\nTo apply statistics or to plot all indices, you can apply standard modifications provided by Pandas. Calculating, e.g., the standard deviation of all indices amounts to\n\nprint(climate_indices.groupby([\"model\", \"index\"])[[\"value\"]].std())\n\nmodel index CESM AMO 0.109084  ENSO_12 0.603481  ENSO_3 0.881938  ENSO_34 0.933544  ENSO_4 0.909434  NAO_PC 1.000042  NAO_ST 1.554596  NP 0.569459  PDO_PC 1.000042 ... ... ... FOCI AMO 0.128715  ENSO_12 0.342368  ENSO_3 0.600242  ENSO_34 0.759405  ENSO_4 0.923854  NAO_PC 1.000042  NAO_ST 1.459676  NP 0.644014  PDO_PC 1.000042 ... ... ... Name: value, dtype: float64",
+      "section": "Climate Index Collection (part 4)",
+      "repo": "114_CICMoD_-_A_Climate_Index_Collection_based_on_Model_Data",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.336602Z",
+    "updated_at": "2025-11-04T06:35:43.685094Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23492,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2188,
+    "annotations": [
+      {
+        "id": 10335,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 102,
+              "end": 105,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "KX_kp9EGTx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 399,
+              "end": 437,
+              "text": "https://doi.org/10.5281/zenodo.7060385",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "NnOjc-H0Dk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 107,
+              "end": 183,
+              "text": "https://pip.pypa.io/en/stable/getting-started/#install-a-package-from-github",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "DSEwuVMXmA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:36:37.440027Z",
+        "updated_at": "2025-11-14T13:20:20.635196Z",
+        "draft_created_at": "2025-11-04T06:35:56.564959Z",
+        "lead_time": 90.144,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "897d264b-bcc7-43b3-88ea-3053c8e78489",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2188,
+        "project": 23492,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Quickstart: Reproducing the dataset\n\nThe Python package in this repository can be installed using [pip] https://pip.pypa.io/en/stable/getting-started/#install-a-package-from-github:\n\n$ python -m pip install git+https://github.com/MarcoLandtHayen/climate_index_collection.git@v2023.03.29.1\n\nThe data from which the indices have been calculated are published under the DOI [10.5281/zenodo.7060385] https://doi.org/10.5281/zenodo.7060385. After downloading the data to, e.g., ./cicmod_data/, you can run the command line version of this package by\n\n$ climate_index_collection_run --input-path ./cicmod_data/ --output-path .\n\nwhich will create a file climate_indices.csv.\n\nPlease see either $ climate_index_collection_run --help on the command line, or the tutorial notebook in [notebooks/Tutorial.ipynb] notebooks/Tutorial.ipynb for more details.\n\n## Development\n\nFor now, we're developing in the Pangeo notebook container. More details: https://github.com/pangeo-data/pangeo-docker-images\n\nTo start a JupyterLab within this container, run\n\n$ docker pull pangeo/pangeo-notebook:2022.07.27 $ docker run -p 8888:8888 --rm -it -v $PWD:/work -w /work pangeo/pangeo-notebook:2022.07.27 jupyter lab --ip=0.0.0.0\n\nand open the URL starting on http://127.0.0.1....\n\nThen, open a Terminal within JupyterLab and run\n\n$ python -m pip install -e .\n\nto have a local editable installation of the package.\n\n## Container Image\n\nThere's a container image: https://hub.docker.com/r/mlandthayen/climate_index_collection\n\n### Use with Docker\n\nYou can use it wherever Docker is installed by running:\n\n$ docker pull mlandthayen/climate_index_collection: $ docker run --rm -v $PWD:/work -w /work mlandthayen/climate_index_collection: climate_index_collection_run --help\n\nHere, ` can either be latest` or a more specific tag.",
+      "section": "Climate Index Collection (part 5)",
+      "repo": "114_CICMoD_-_A_Climate_Index_Collection_based_on_Model_Data",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.336629Z",
+    "updated_at": "2025-11-14T13:20:20.672580Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23492,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2189,
+    "annotations": [
+      {
+        "id": 10336,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:36:55.947746Z",
+        "updated_at": "2025-11-14T13:20:34.354920Z",
+        "draft_created_at": "2025-11-04T06:36:47.746384Z",
+        "lead_time": 27.570999999999998,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "9889b987-93c9-43b5-8dfc-03f4eb1c73b5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2189,
+        "project": 23492,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Use with Singularity\n\nYou can use it wherever Singularity is installed by essentially running:\n\n$ singularity pull --disable-cache --dir \"${PWD}\" docker://mlandthayen/climate_index_collection: $ singularity run climate_index_collection_.sif climate_index_collection_run --help\n\nHere, ` can either be latest or a more specific tag.\n\n_Note_ that for NESH, it's currently necessary to specify the version of singularity to use, and\n\nto make sure to bind mount various parts of the file system explicitly.\n\nSo the full call on NESH would look like:\n\n$ module load singularity/3.5.2 $ singularity pull --disable-cache --dir \"${PWD}\" docker://mlandthayen/climate_index_collection: $ singularity run -B /sfs -B /gxfs_work1 -B ${PWD}:/work --pwd /work climate_index_collection_.sif climate_index_collection_run --help\n\n## Release Procedure\n\nA release will contain the specific version of the package (taken care of automatically) and the CSV file created with the full data.\n\n_Draft a release:_ Go to https://github.com/MarcoLandtHayen/climate_index_collection/releases/new and draft a new release (don't publish yet).\n\n_Prepeare data:_ For the commit in main for which the release is planned, pull the container on NESH (see above) and run:\n\n$ singularity run -B /sfs -B /gxfs_work1 -B ${PWD}:/work --pwd /work climate_index_collection_.sif climate_index_collection_run --input-path\n\n_Attach data:_ Attach the CSV file to the drafted release.\n\n_Publish:_ By clicking on the Publish release` button.\n\nProject based on the cookiecutter science project template.",
+      "section": "Climate Index Collection (part 6)",
+      "repo": "114_CICMoD_-_A_Climate_Index_Collection_based_on_Model_Data",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.336659Z",
+    "updated_at": "2025-11-14T13:20:34.386849Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23492,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

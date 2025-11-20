@@ -1,0 +1,146 @@
+[
+  {
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "269_cleanX",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "CleanX\n\n[](https://doi.org/10.5281/zenodo.4725904) [](https://raw.githubusercontent.com/drcandacemakedamoore/cleanX/main/LICENSE) [](https://anaconda.org/doctormakeda/cleanx) [](https://joss.theoj.org/papers/47ee52ff835dcd67c1f0b4c9cb74225a) [](https://anaconda.org/doctormakeda/cleanx) [](https://pypi.org/project/cleanX) [](https://anaconda.org/doctormakeda/cleanx) [](https://github.com/drcandacemakedamoore/cleanX/actions/workflows/on-commit.yml) [](https://github.com/drcandacemakedamoore/cleanX/actions/workflows/on-tag.yml) [](https://drcandacemakedamoore.github.io/cleanX) [](https://github.com/drcandacemakedamoore/cleanX/issues) [](https://github.com/drcandacemakedamoore/cleanX/discussions)",
+      "section": "CleanX (part 1)",
+      "repo": "269_cleanX",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "CleanX is an open-source python library for exploring, cleaning and augmenting large datasets of X-rays, or certain other types of radiological images. The images can be extracted from [DICOM] https://www.dicomstandard.org/ files or used  directly. The primary authors are Candace Makeda H. Moore, Oleg Sivokon, and Andrew Murphy.",
+      "section": "CleanX (part 2)",
+      "repo": "269_cleanX",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Documentation\n\nOnline documentation is at https://drcandacemakedamoore.github.io/cleanX/. You can also build up-to-date documentation, which will be generated in ./build/sphinx/html directory, by command as follows:\n\npython setup.py apidoc  python setup.py build_sphinx\n\nSpecial additional documentation for medical professionals with limited programming ability is available [here] https://github.com/drcandacemakedamoore/cleanX/wiki/Legacy-medical-professional-documentation on the project wiki. To get a high level overview of some of the functionality of the program you can look at the Jupyter notebooks inside [workflow_demo folder] https://github.com/drcandacemakedamoore/cleanX/tree/main/workflow_demo.\n\n## Requirements\n\n[Python] https://www.python.org/downloads/ 3.7, 3.8, 3.9. Python\n\n3.10 has not been tested yet. Ability to create virtual environments (recommended, not absolutely\n\nnecessary) [tesserocr] https://github.com/sirfz/tesserocr,\n\n[matplotlib] https://matplotlib.org/,  [pandas] https://pandas.pydata.org/, and  [opencv] https://opencv.org/ Optional recommendation of [SimpleITK] https://simpleitk.org/ or\n\n[pydicom] https://github.com/pydicom/pydicom for DICOM/dcm to JPG  conversion Anaconda is now supported, but not technically necessary\n\n### Supported Platforms\n\nCleanX is a pure Python package, but it has many dependencies on native libraries. We try to test it on as many platforms as we can to see if dependencies can be installed there. Below is the list of platforms that will potentially work. Please note that where python.org Python or Anaconda Python stated as supported, it means that versions 3.7, 3.8 and 3.9 (but not 3.10) are supported.",
+      "section": "CleanX (part 3)",
+      "repo": "269_cleanX",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### AMD64 (x86)\n\n| | Linux | Win | OSX | |:---------------------------:|:---------:|:---------:|:---------:| | | Supported | Unknown | Unknown | | | Supported | Supported | Supported |\n\n#### ARM64\n\nUnsupported at the moment on both Linux and OSX, but it's likely that support will be added in the future.\n\n#### 32-bit Intell and ARM\n\nWe don't know if either one of these is supported. There's a good chance that 32-bit Intell will work. There's a good chance that ARM won't. It's unlikely that the support for ARM will be added in the future.\n\n## Installation\n\nsetting up a virtual environment is desirable, but not absolutely\n\nnecessary\n\nactivate the environment\n\n### Anaconda Installation\n\nuse command for conda as below\n\nconda install -c doctormakeda -c conda-forge cleanx\n\nYou need to specify both channels because there are some cleanX dependencies that exist in both Anaconda main channel and in conda-forge\n\n### pip installation\n\nuse pip as below\n\npip install cleanX\n\nYou can install some optional dependencies.\n\nTo have CLI functionality:\n\npip install cleanX[cli]\n\nTo have PyDicom installed and used to process DICOM files:\n\npip install cleanX[pydicom]\n\nSimilarly, if you want SimpleITK used to process DICOM files:\n\npip install cleanX[simpleitk]\n\nThe tesserocr package deserves a special mention. It is not possible to install tesseract library from PyPI server. The tesserocr is simply a binding to the library. You will need to install the library yourself. For example, on Debian flavor Linux, this might work:\n\nsudo apt-get install libleptonica-dev \\  tesseract-ocr-all \\  libtesseract-dev\n\nWe've heard that\n\nbrew install tesseract\n\nworks on Mac.",
+      "section": "CleanX (part 4)",
+      "repo": "269_cleanX",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Getting Started\n\nWe will imagine a very simple scenario, where we need to automate normalization of the images we have. We stored the images in directory /images/to/clean/ and they all have a jpg extension. We want the cleaned images to be saved in the cleaned directory.\n\nNormalization here means ensuring that the lowest pixel value (the darkest part of the image) is as dark as possible and that the lightest part of the image is as light as possible.",
+      "section": "CleanX (part 5)",
+      "repo": "269_cleanX",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Docker\n\nDocker images are available from Dockerhub. You should be able to run them using:\n\ndocker run --rm -v \"$(pwd)\":/cleanx drcandacemakedamoore/cleanx --help\n\nThe /cleanx directory in the image is intentionaly left to be used as a mount point. The image, by default, runs as root, but doesn't require root privileged. In the future, it's possible that the image will come with a non-root user and will default to running as a non-root user.\n\nAdditionally, there is a Docker image with several examples in a form of Jupyter notebooks. To run this image:\n\ndocker run --rm -ti -p 8888:8888 \\  drcandacemakedamoore/cleanx-jupyter-examples\n\nThere is usually a more up-to-date image available built from develop branch _(use at your own risk:)_\n\ndocker run --rm -ti -p 8888:8888 \\  drcandacemakedamoore/cleanx-jupyter-examples:develop\n\nThis will generate output similar to:\n\n[I 12:59:52.383 NotebookApp] Writing notebook server cookie secret \\ to /home/jupyter/.local/share/jupyter/runtime/notebook_cookie_secret [I 12:59:52.704 NotebookApp] Serving notebooks from local directory:\\ /home/jupyter [I 12:59:52.704 NotebookApp] Jupyter Notebook 6.4.11 is running at: [I 12:59:52.705 NotebookApp] http://localhost:8888/?token=... [I 12:59:52.705 NotebookApp] or http://127.0.0.1:8888/?token=... [I 12:59:52.705 NotebookApp] Use Control-C to stop this server and \\ shut down all kernels (twice to skip confirmation). [W 12:59:52.709 NotebookApp] No web browser found: could not locate\\ runnable browser. [C 12:59:52.709 NotebookApp]\n\nTo access the notebook, open this file in a browser:  file:///.../nbserver-1-open.html  Or copy and paste one of these URLs:  http://localhost:8888/?token=...  or http://127.0.0.1:8888/?token=...",
+      "section": "CleanX (part 6)",
+      "repo": "269_cleanX",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Copy the text that starts with http://127.0.0.1:8888 (including the token) and paste it into your browser's address bar. The demos should be fully operational (you may interact with them, re-evaluate them, change available parameters etc.)",
+      "section": "CleanX (part 7)",
+      "repo": "269_cleanX",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### CLI Example\n\nThe problem above doesn't require writing any new Python code. We can accomplish our task by calling the cleanX command like this:\n\nmkdir cleaned\n\npython -m cleanX images run-pipeline \\  -s Acquire \\  -s Normalize \\  -s \"Save(target='cleaned')\" \\  -j \\  -r \"/images/to/clean/.jpg\"\n\nLet's look at the command's options and arguments:\n\npython -m cleanX is the Python's command-line option for loading  the cleanX package. All command-line arguments that follow this  part are interpreted by cleanX.  images sub-command is used for processing of images.  run-pipeline sub-command is used to start a Pipeline to process  the images.  -s (repeatable) option specifies Pipeline Step. Steps map to  their class names as found in the cleanX.image_work.steps module.  If the __init__ function of a step doesn't take any arguments, only  the class name is necessary. If, however, it takes arguments, they  must be given using Python's literals, using Python's named arguments  syntax.  -j option instructs to create journaling pipeline. Journaling  pipelines can be restarted from the point where they failed, or had  been interrupted. -r allows to specify source for the pipeline. While, normally, we\n\nwill want to start with Acquire step, if the pipeline was  interrupted, we need to tell it where to look for the initial  sources.   Once the command finishes, we should see the cleaned directory filled with images with the same names they had in the source directory.\n\nLet's consider another simple task: batch-extraction of images from DICOM files:\n\nmkdir extracted\n\npython -m cleanX dicom extract \\  -i dir /path/to/dicoms/  -o extracted\n\nThis calls cleanX CLI in the way similar to the example above, however, it calls the dicom sub-command with extract-images subcommand.",
+      "section": "CleanX (part 8)",
+      "repo": "269_cleanX",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "-i tells cleanX to look for directory named /path/to/dicoms  -o tells cleanX to save extracted JPGs in extracted directory.\n\nIf you have any problems with this check [#40] https://github.com/drcandacemakedamoore/cleanX/issues/40 and add issues or discussions.",
+      "section": "CleanX (part 9)",
+      "repo": "269_cleanX",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Coding Example\n\nBelow is the equivalent code in Python:\n\nimport os\n\nfrom cleanX.image_work import (  Acquire,  Save,  GlobSource,  Normalize,  create_pipeline, )\n\ndst = 'cleaned'",
+      "section": "CleanX (part 10)",
+      "repo": "269_cleanX",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "reasonable code to remove this directory if it already exist. try:  os.rmdir(dst) except FileNotFoundError:  pass\n\nos.mkdir(dst)\n\nsrc = GlobSource('/images/to/clean/*.jpg') p = create_pipeline(  steps=(  Acquire(),  Normalize(),  Save(dst),  ),  journal=True, )\n\np.process(src)\n\nLet's look at what's going on here. As before, we've created a pipeline using create_pipeline with three steps: Acquire, Normalize and Save. There are several kinds of sources available for pipelines. We'll use the GlobSource to match our CLI example. We'll specify journal=True to match the -j flag in our CLI example.\n\nAnd for the DICOM extraction we might use similar code:\n\nimport os\n\nfrom cleanX.dicom_processing import DicomReader, DirectorySource\n\ndst = 'extracted' os.mkdir(dst)\n\nreader = DicomReader() reader.rip_out_jpgs(DirectorySource('/path/to/dicoms/', 'file'), dst)\n\nThis will look for the files with dcm extension in /path/to/dicoms/ and try to extract images found in those files, saving them in extracted directory.\n\n## Developer's Guide\n\nPlease refer to [Developer's Guide] https://drcandacemakedamoore.github.io/cleanX/developers.html for more detailed explanation.",
+      "section": "reasonable code to remove this directory if it already exist. (part 1)",
+      "repo": "269_cleanX",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Developing Using Anaconda's Python\n\nUse Git to check out the project's source, then, in the source directory run:\n\nconda create -n cleanx conda activate cleanx python ./setup.py genconda python ./setup.py install_dev\n\nNote that the last command may result in errors related to conda-build being unable to delete Microsoft's C++ runtime DLL. This is typical behavior of conda-build as can be seen here:  https://github.com/conda/conda/issues/7682\n\nThe workaround is to add:\n\nconda config --set always_copy true\n\nAnd re-run the last step (this will make virtual environment created with conda noticeably bigger).\n\nYou may have to do this for Python 3.7, Python 3.8 and Python 3.9 if you need to check that your changes will work in all supported versions.\n\nThe genconda command needs to run only once per checkout and version of Python used. At the moment, it's not possible to have multiple conda package configurations generated at the same time. So, if you are switching Python versions, you will need to rerun this command.\n\nAlso note that the build will package only the changes committed to the Git repository. This means that if you are building with uncommitted changes, they will not make it into the built package. The decision to do this was motivated by the presence of symbolic links in the working directory, which makes it impossible to build without superuser permissions on MS Windows. It is possible that in the future we will add a flag to setup.py install to allow \"dirty\" builds.\n\nTo run unit test and linter you may use:\n\npython setup.py lint\n\npython setup.py test\n\nrespectively. Note that by default, these commands will try to install cleanX and its dependencies before doing any work. This may take a very long time, especially on MS Windows. There is a way to skip the installation part by running:",
+      "section": "reasonable code to remove this directory if it already exist. (part 2)",
+      "repo": "269_cleanX",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "python setup.py lint --fast\n\npython setup.py test --fast",
+      "section": "reasonable code to remove this directory if it already exist. (part 3)",
+      "repo": "269_cleanX",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Developing Using python.org's Python\n\nUse Git to check out the project's source, then in the source directory run:\n\npython -m venv .venv . ./.venv/bin/activate python ./setup.py install_dev\n\nSimilar to conda based setup, you may have to use Python versions 3.7, 3.8 and 3.9 to create three different environments to recreate our CI process.\n\n### Build up-to-date documentation\n\nDocumentation can be [generated by command] #documentation. The documentation  will be generated in a ./build/sphinx/html directory. Documentation is generated automatically as new functions are added.",
+      "section": "reasonable code to remove this directory if it already exist. (part 4)",
+      "repo": "269_cleanX",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## About using this library\n\nIf you use the library, please cite the package. CleanX is free ONLY when used according to license. If you use any of the image data from the workflow_demos or additional_demos, those  images are licensed seperately from the package. Chest X-ray images that have been taken downloaded from Kaggle's CoronaHack -Chest X-Ray-Dataset and are lisenced with the [Creative Commons Attribution 4.0 International (CC BY 4.0)] https://creativecommons.org/licenses/by/4.0/.\n\nYou can get in touch with me by starting a [discussion] https://github.com/drcandacemakedamoore/cleanX/discussions/37 if you have a legitimate reason to use my library without open-sourcing your code base, or following other conditions, and I can make you, specifically, a different license.\n\nWe are adding new functions and classes all the time. Many unit tests are available in the test folder. Test coverage is currently partial. Some newly added functions allow for rapid automated data augmentation (in ways that are realistic for radiological data) and some preliminary image quality checks. Some other classes and functions are for cleaning datasets including ones that:",
+      "section": "reasonable code to remove this directory if it already exist. (part 5)",
+      "repo": "269_cleanX",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Get image and metadata out of dcm (DICOM) files into jpeg and csv  files  Process datasets from csv or json or other formats to generate  reports  Run on dataframes to make sure there is no image leakage  Run on a dataframe to look for demographic or other biases in  patients  Crop off excessive black frames (run this on single images) one at a  time  Run on a list to make a prototype tiny Xray others can be compared  to  Run on image files which are inside a folder to check if they are  \"clean\"  Take a dataframe with image names and return plotted(visualized)  images  Run to make a dataframe of pics in a folder (assuming they all have  the same 'label'/diagnosis)  Normalize images in terms of pixel values (multiple methods)\n\nAll important functions are documented in the online documentation for programmers. You can also check out one of our videos by clicking the linked picture below:",
+      "section": "reasonable code to remove this directory if it already exist. (part 6)",
+      "repo": "269_cleanX",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### cleanX: video demonstration\n\n[](https://www.youtube.com/watch?v=jaX5tXmiWrQ)",
+      "section": "reasonable code to remove this directory if it already exist. (part 7)",
+      "repo": "269_cleanX",
+      "source_file": "readme.md"
+    }
+  }
+]

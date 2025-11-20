@@ -1,0 +1,34 @@
+{
+  "codeRepository": "https://github.com/bridgedb/BridgeDb",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java",
+    "Perl",
+    "Shell",
+    "CSS",
+    "Raku",
+    "HTML",
+    "R",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/bridgedb/BridgeDb/zipball/main",
+  "author": "bridgedb",
+  "dateCreated": "2013-10-28T11:15:16Z",
+  "dateModified": "2025-09-18T06:17:26Z",
+  "keywords": [
+    "bioinformatics",
+    "bridgedb",
+    "database",
+    "hacktoberfest",
+    "identifier-mapping",
+    "java",
+    "mysql-backend",
+    "uri"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "The BridgeDb Library source code",
+  "identifier": 13923694,
+  "name": "bridgedb/BridgeDb",
+  "issueTracker": "https://api.github.com/repos/bridgedb/BridgeDb/issues",
+  "readme": "https://github.com/bridgedb/BridgeDb/blob/main/README.md"
+}

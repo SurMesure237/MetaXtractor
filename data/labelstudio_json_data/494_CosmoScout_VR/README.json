@@ -1,0 +1,66 @@
+[
+  {
+    "data": {
+      "text": "JSONCPP is required to build a VRPN server for the Vrpn Android widgets (see android_widgets directory).\n\nIf you've done a recursive clone, JSONCPP is in the submodules directory, will be built automatically, and you can completely ignore the rest of this file.\n\nGet the latest JSONCPP (r156 has been used successfully) from   http://jsoncpp.svn.sourceforge.net/svnroot/jsoncpp/trunk/jsoncpp\n\nYou will also need Scons and Python\n\nTo build jsoncpp, see README.txt in the JSONCPP directory, but : 1/ Get scons-local (2.0.1 is OK) from http://www.scons.org/download.php   instead of the link in the README, then  extract scons-local into the jsoncpp directory as mentionned in the README 2/ To avoid LNK2005 errors when building VRPN, you will need to edit jsoncpp/Sconstruct  locate the section relative to your build environment, for instance :  elif platform == 'msvc90':  in this instruction block, replace the line :  env['CXXFLAGS']='xxxxxxx /MT'  by :   env['CXXFLAGS']='xxxxxxx /MD' 3/ To build with Visual Studio, run the Visual Studio command that configures environment variables  (on VS-2008-32, look for a file named vsvars32.bat), otherwise scons may not find the compiler   Then build, for instance with the command  c:\\Python27\\python.exe scons.py platform=msvc90\n\nThe values allowed for platform are   suncc vacpp mingw msvc6 msvc7 msvc71 msvc80 msvc90 linux-gcc\n\nWARNING:  the JSONCPP build system builds a Release version. Using this release library with a  Debug VRPN server crashes.   To clean, use the command  c:\\Python271\\python.exe scons.py platform=msvc90 -c\n\nThen, run CMAKE for VRPN, define VRPN_USE_JSONNET and JSONCPP_ROOT_DIR.",
+      "section": "README",
+      "repo": "494_CosmoScout_VR",
+      "source_file": "readme.jsoncpp"
+    }
+  },
+  {
+    "data": {
+      "text": "python_vrpn:  VRPN wrapped in Python using Swig. Works with Python 2.7.\n\npython:  Hand-written Python classes that work with Python 2.7 and 3.2.  This is integrated into the CMake build. When the Python libraries are found, options to VRPN_BUILD_PYTHON_HANCODED_2 (obsolete) and VRPN_BUILD_PYTHON_HANDCODED_3 become available. Choose only one of them to produce a vrpn.so library in the python subdirectory of the build directory that can be loaded as a module.  (obsolete) Compile the main library (ie.: root of VRPN) and the quat library. Then, go to the \"python\" folder. Before making the binary, you have to define the \"PYTHON_VERSION\" environment variable to the version of python you want to compile it for (ie.: \"3.2\", \"2.7\" ...). And you have to put the resulting vrpn.so shared library (found in $HW_OS/$PYTHON_VERSION) in the python module folder or in a path defined in the PYTHONPATH environment variable.\n\nThe \"essai_*.py\" are simple python files that show you how to use this module (the single difference is a call to python3.2 or python2.7 interpreter).",
+      "section": "README",
+      "repo": "494_CosmoScout_VR",
+      "source_file": "readme.python"
+    }
+  },
+  {
+    "data": {
+      "text": "VRPN has had a CMake-based build system since version 07.23. CMake is similar in purpose but not in implementation to the Autoconf collection of tools, and permits building on multiple platforms by creating native project files for MSVC, XCode, Eclipse, Code::Blocks, makefiles, and more.\n\nGet CMake from your Linux distribution and/or from www.cmake.org\n\nUse the current directory (vrpn_XX_XX) as the \"source code\" directory in the CMake GUI; the quat directory (vrpn_XX_XX/quat) will be automatically detected and built as well. Choose any directory you want (the source directory followed by /build is suggested) as the \"build binaries\" directory: generated build files will be placed there rather than cluttering up your source tree.\n\nMany options can be fully configured using CMake as of Dec 2009, and more are sure to come. Until then, if you need specific compilation needs that CMake doesn't appear to provide an interface for, look in the vrpn_Configure.h.cmake_in file.\n\nIf you'd rather use the command line, here's the basics:  mkdir build  cd build  ccmake ../ Press 'c' to run the initial configuration\n\nChange any options, pressing 'c' to re-configure after each change\n\nwhen satisfied, after configuring, press 'g' to create makefiles, etc\n\nmake\n\nand any/all of these if desired:  make package Create binary install packages of your configured build using CPack\n\nmake package_source Create source code packages using CPack\n\nmake install Install all libraries, executables, and headers (as configured)\n\nto your system, to the configured path. Add DESTDIR=whatever/  to place the installation tree somewhere other than root.\n\nInstructions for the original Makefile-based or project-based build follow.\n\nFor those not at UNC, you compile by doing the following:",
+      "section": "Introduction (part 1)",
+      "repo": "494_CosmoScout_VR",
+      "source_file": "readme.compiling"
+    }
+  },
+  {
+    "data": {
+      "text": "for Visual C++:  Open the vrpn.dsw file.  Compile the quat project.  Compile the VRPN project.  Then compile whichever of vrpn_server, printvals, etc you want.\n\nfor Unix/Cygwin:  Go to ../quat.  Edit 'makefile' to uncomment the architecture you are on.  gmake  Come back here (cd ../vrpn)  Edit Makefile to uncomment your architecture  gmake  Go to client_src  Edit Makefile to uncomment your architecture  gmake  Go to server_src  Edit Makefile to uncomment your architecture  gmake\n\nedit the vrpn.cfg file to set it to start tracker you want  See the file vrpn.cfg.SAMPLE for examples.  Example: vrpn_Tracker_NULL Tracker0@MYHOSTNAME 2 2  (Run the server: sgi_irix/vrpn_server -millisleep 1 -f vrpn.cfg)\n\nGo to client_src  Run printvals to check the server  Example: sgi_irix/printvals localhost\n\nFor those wanting to build client code for Android, see the README_Android.txt in the java_vrpn directory.",
+      "section": "Introduction (part 2)",
+      "repo": "494_CosmoScout_VR",
+      "source_file": "readme.compiling"
+    }
+  },
+  {
+    "data": {
+      "text": "The initial release of VRPN (The Virtual Reality Peripheral Network) was placed into the public domain on 5/4/1998 by the copyright holder Russell M. Taylor II at the University of North Carolina at Chapel Hill.\n\nTo protect all VRPN contributors from liability without restricting the use of VRPN, as of July 22, 2010, future versions of VRPN (versions 7.27 and higher) are being released under the Boost Software License 1.0.\n\nCopyright the VRPN contributors.\n\nBoost Software License 1.0 (BSL1.0)   Permission is hereby granted, free of charge, to any person or organization obtaining a copy of the software and accompanying documentation covered by this license (the \"Software\") to use, reproduce, display, distribute, execute, and transmit the Software, and to prepare derivative works of the Software, and to permit third-parties to whom the Software is furnished to do so, all subject to the following:\n\nThe copyright notices in the Software and this entire statement, including the above license grant, this restriction and the following disclaimer, must be included in all copies of the Software, in whole or in part, and all derivative works of the Software, unless such copies or derivative works are solely in the form of machine-executable object code generated by a source language processor.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nAdditional requests follow:",
+      "section": "Introduction (part 1)",
+      "repo": "494_CosmoScout_VR",
+      "source_file": "readme.legal"
+    }
+  },
+  {
+    "data": {
+      "text": "Please acknowledge this library in any publication, written, videotaped,\n\nor otherwise produced, that results from making programs using it.  The acknowledgement will credit\n\nCISMM Project  University of North Carolina at Chapel Hill,  Supported by the NIH/NCRR and the NIH/NIBIB.\n\nPlease furnish us a copy of any publication, including videotape,\n\nthat you produce and disseminate outside your group using our  program. These should be addressed to Professor R.M. Taylor  at taylorr@cs.unc.edu.\n\nPlease send us derived classes and drivers for new devices that you\n\ncreate for the library. We will attempt to include them in  future releases of the library for you and others to use. This  is the fastest way to get a working system for everyone.",
+      "section": "Introduction (part 2)",
+      "repo": "494_CosmoScout_VR",
+      "source_file": "readme.legal"
+    }
+  },
+  {
+    "data": {
+      "text": "vrpn_devel is currently accessed over https:// at git.cs.unc.edu. Use a password to push changes.\n\nGetting to the Git repository using a public/private key pair from a UNC Linux host.\n\n1) Generate a public/private key pair and store them securely on your AFS space:\n\ncd ~  mkdir .ssh-private  fs sa .ssh-private system:anyuser none  fs sa .ssh-private system:administrators none  cd ~/.ssh-private  ssh-keygen -t dsa -b 1024 -f ./git_dsa  (Decide if you want a passphrase on the key, enter it if so  or blank if not.)\n\n2) Tell SSH to share this key with the other side when you're connecting to the server by adding the following lines into the file ~/.ssh/config under Linux:\n\nHost cvs.cs.unc.edu  IdentityFile ~/.ssh-private/git_dsa\n\nHost git.cs.unc.edu  IdentityFile ~/.ssh-private/git_dsa\n\n3) Send the public key to Murray to be added to the list of users who can log on to CVS as the git user. You can paste the text of the key into an email to him.\n\n4) Use the following name for the repository: git@git.cs.unc.edu:vrpn.git, for example:\n\ngit clone git@git.cs.unc.edu:vrpn.git  git push git@git.cs.unc.edu:vrpn.git master\n\nRandom: If you end up pushing in a way that requires a password, you may need to do the following in your shell ahead of time to avoid having it attempt to display via an X server: unset DISPLAY unset SSH_ASKPASS",
+      "section": "README",
+      "repo": "494_CosmoScout_VR",
+      "source_file": "readme.git"
+    }
+  },
+  {
+    "data": {
+      "text": "IMPORTANT LEGAL INFORMATION for offsite use is in README.Legal IMPORTANT compiling at other sites information in README.Compile\n\nNOTE: See https://github.com/vrpn/vrpn/wiki for information on VRPN.\n\nJoin the chat at https://gitter.im/vrpn/vrpn",
+      "section": "README",
+      "repo": "494_CosmoScout_VR",
+      "source_file": "readme"
+    }
+  }
+]

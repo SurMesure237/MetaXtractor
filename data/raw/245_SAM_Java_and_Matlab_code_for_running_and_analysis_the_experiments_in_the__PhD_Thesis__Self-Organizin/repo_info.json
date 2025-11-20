@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/coenvl/jSAM",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java"
+  ],
+  "downloadUrl": "https://api.github.com/repos/coenvl/jSAM/zipball/main",
+  "author": "coenvl",
+  "dateCreated": "2014-02-07T12:15:27Z",
+  "dateModified": "2024-01-17T10:58:45Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Toolbox for Distributed Constraint Optimization Problems (DCOP)",
+  "identifier": 16613725,
+  "name": "coenvl/jSAM",
+  "issueTracker": "https://api.github.com/repos/coenvl/jSAM/issues",
+  "readme": "https://github.com/coenvl/jSAM/blob/master/README.md"
+}

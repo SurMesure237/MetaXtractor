@@ -1,0 +1,97 @@
+[
+  {
+    "id": 2308,
+    "annotations": [
+      {
+        "id": 10172,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 751,
+              "end": 796,
+              "text": "https://jhidding.github.io/GraphvizDotLang.jl",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "tniX6pcEWI",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1067,
+              "end": 1076,
+              "text": "Apache v2",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "RvYlgdcPjV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 25,
+              "end": 70,
+              "text": "https://jhidding.github.io/GraphvizDotLang.jl",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "BeRrHteFVE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:11:37.983727Z",
+        "updated_at": "2025-11-14T12:19:55.245933Z",
+        "draft_created_at": "2025-11-03T06:11:18.653885Z",
+        "lead_time": 51.637,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "2df3bb91-742e-4d11-b669-f7877a6494d7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2308,
+        "project": 23519,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# GraphvizDotLang.jl\n\n[](https://jhidding.github.io/GraphvizDotLang.jl)\n\nModule for generating graphs in the Dot language (aka GraphViz).\n\nusing GraphvizDotLang: digraph, node, edge, attr, save\n\ng = digraph(bgcolor=\"beige\", rankdir=\"LR\", ranksep=\"1\") |>  attr(:edge; fontname=\"Cantarell\") |>  attr(:node; shape=\"circle\", style=\"filled,wedged\") |>  node(\"start\"; label=\"\", fillcolor=\"red:green:blue\") |>  node(\"end\"; label=\"\", fillcolor=\"cyan:magenta:yellow\") |>  edge(\"start\", \"end\"; label=\"invert!\")\n\nsave(g, ARGS[1])\n\n## Installation\n\nInstall the package the usual way by typing ]add GraphvizDotLang in the REPL. The Graphviz_jll binary package will ensure that you have Graphviz installed.\n\n## Documentation\n\nPlease check the [documentation pages] https://jhidding.github.io/GraphvizDotLang.jl.\n\nYou will also need the extensive [documentation of Graphviz] https://graphviz.org/documentation/ itself.\n\nRun make all to build the documentation locally and also run the examples.\n\n## License\n\nCopyright 2022 Netherlands eScience Center, Johan Hidding. Licensed under Apache v2, see LICENSE",
+      "section": "README",
+      "repo": "338_GraphvizDotLang.jl",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.172292Z",
+    "updated_at": "2025-11-14T12:19:55.282645Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23519,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

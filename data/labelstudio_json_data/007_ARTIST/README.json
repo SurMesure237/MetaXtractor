@@ -1,0 +1,42 @@
+[
+  {
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "007_ARTIST",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "AI-enhanced differentiable Ray Tracer for Irradiation Prediction in Solar Tower Digital Twins\n\n[](https://doi.org/10.5281/zenodo.17381222)\n\n[](https://opensource.org/licenses/MIT) [](https://www.bestpractices.dev/projects/11131) [](https://fair-software.eu) [](https://fairsoftwarechecklist.net/v0.2?f=31&a=32113&i=32221&r=133) [](https://www.python.org/downloads/) [](https://github.com/astral-sh/ruff) [](https://codecov.io/gh/ARTIST-Association/ARTIST) [](https://results.pre-commit.ci/latest/github/ARTIST-Association/ARTIST/main) [](https://artist.readthedocs.io/en/latest/?badge=latest) [](artist@lists.kit.edu)",
+      "section": "AI-enhanced differentiable Ray Tracer for Irradiation Prediction in Solar Tower Digital Twins (part 1)",
+      "repo": "007_ARTIST",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## What `ARTIST can do for you\n\nThe ARTIST package provides an implementation of a differentiable ray tracer using the PyTorch machine-learning framework in Python. Leveraging automatic differentiation and GPU computation, it facilitates the optimization of heliostats, towers, and camera parameters within a solar field by combining gradient-based optimization methods with smooth parametric descriptions of heliostats.\n\nOur contributions include:\n\nEfficient heliostat calibration: We develop a parallelized geometric kinematic model that enables efficient\n\ncalibration via either ray tracing-based or motor position data. This offers a flexible and robust approach to  heliostat calibration.\n\nSurface reconstruction and flux density prediction: Leveraging learning Non-Uniform Rational B-Splines (NURBS),\n\nARTIST reconstructs heliostat surfaces accurately using calibration images commonly available in solar thermal power plants.  Thus, we can achieve sub-millimeter accuracy in mirror reconstruction from focal spot images, contributing to improved  operational safety and efficiency. The reconstructed surfaces can be used for predicting unique heliostat flux densities  with state-of-the-art accuracy. Check out [this paper] https://doi.org/10.21203/rs.3.rs-2554998/v1 for more details.\n\nImmediate deployment: ARTIST enables deployment at the beginning of a solar thermal plant's operation,\n\nallowing for in situ calibration and subsequent improvements in energy efficiencies and cost reductions.\n\nOptimized flux density: ARTIST` enables flux density optimization across an entire heliostat field by optimizing\n\nthe motor positions of all heliostats to distribute the flux optimally over the receiver.",
+      "section": "AI-enhanced differentiable Ray Tracer for Irradiation Prediction in Solar Tower Digital Twins (part 2)",
+      "repo": "007_ARTIST",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Installation\n\nWe heavily recommend installing the ARTIST package in a dedicated Python3.10+ virtual environment. You can install `ARTIST directly from the GitHub repository via:\n\npip install artist\n\nAlternatively, you can install ARTIST locally. To achieve this, there are two steps you need to follow: Clone the ARTIST repository:\n\n`bash  git clone https://github.com/ARTIST-Association/ARTIST.git  ` Install the package from the main branch. There are multiple installation options available:\n\nInstall basic dependencies: pip install .\n\nInstall with optional dependencies to run the tutorials: pip install .\"[tutorials]\"\n\nInstall an editable version with developer dependencies: pip install -e .\"[dev]\"\n\n## Structure\n\nThe ARTIST` repository is structured as shown below:\n\n. \u251c\u2500\u2500 artist # Parent package \u2502 \u251c\u2500\u2500 core # Core functionality of ARTIST, e.g. raytracing, optimizers etc. \u2502 \u251c\u2500\u2500 data_loader # Deals with loading data into ARTIST from different sources. \u2502 \u251c\u2500\u2500 field # Objects in the field, e.g. heliostats and target areas like receivers and calibration targets. \u2502 \u251c\u2500\u2500 scenario # Functionality to create and load scenarios in ARTIST. \u2502 \u251c\u2500\u2500 scene # Light sources and factors influencing the surroundings. \u2502 \u2514\u2500\u2500 util \u251c\u2500\u2500 tests \u2502 \u251c\u2500\u2500 data \u2502 \u2502 \u251c\u2500\u2500 field_data # Real measurements from the PAINT database and STRAL that can be used in ARTIST. \u2502 \u2502 \u251c\u2500\u2500 scenarios # Scenarios describing an environment that can be loaded by ARTIST. \u2502 \u2502 \u2514\u2500\u2500 ... \u2502 \u251c\u2500\u2500 core \u2502 \u251c\u2500\u2500 data_loader \u2502 \u2514\u2500\u2500 ... \u2514\u2500\u2500 tutorials # Tutorials to help you get started with ARTIST.  \u251c\u2500\u2500 data # Data accessed in the tutorials.  \u2502 \u251c\u2500\u2500 paint # Real measurements from the PAINT database.  \u2502 \u251c\u2500\u2500 scenarios # Scenarios describing an environment that can be loaded by ARTIST.  \u2502 \u2514\u2500\u2500 stral Real # Measurements from STRAL.  \u2514\u2500\u2500 ...",
+      "section": "AI-enhanced differentiable Ray Tracer for Irradiation Prediction in Solar Tower Digital Twins (part 3)",
+      "repo": "007_ARTIST",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Documentation\n\nYou can check out the full `ARTIST documentation at [https://artist.readthedocs.io/en/latest/index.html] https://artist.readthedocs.io/en/latest/index.html :rocket:! The ARTIST documentation includes: Installation instructions\n\nTutorials\n\nSome theoretical background information\n\nAPI reference\n\n## How to contribute\n\nCheck out our [contribution guidelines] CONTRIBUTING.md if you are interested in contributing to the ARTIST` project :fire:. Please also carefully check our [code of conduct] CODE_OF_CONDUCT.md :blue_heart:.\n\n## Acknowledgments\n\nThis work is supported by the [Helmholtz AI] https://www.helmholtz.ai/ platform grant.",
+      "section": "AI-enhanced differentiable Ray Tracer for Irradiation Prediction in Solar Tower Digital Twins (part 4)",
+      "repo": "007_ARTIST",
+      "source_file": "readme.md"
+    }
+  }
+]

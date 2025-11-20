@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "# OpenChrom\u00ae\n\n[OpenChrom\u00ae] https://en.wikipedia.org/wiki/OpenChrom is an Open Source tool for the analysis and visualization of mass spectrometric and chromatographic data developed by [Lablicate GmbH] https://lablicate.com.\n\nIt is based on [ChemClipse] https://github.com/eclipse/chemclipse but offers additional features that cannot be part of the ChemClipse project due to licencing constrains. This is the free base version provided to the community. It does not contain vendor specific file format converters nor commercial extensions.\n\nPlease see our [Code of Conduct] https://github.com/OpenChrom/openchrom/blob/develop/CODE_OF_CONDUCT.md for rules on how to interact on this site.\n\nIf you would like to contribute to this project, please have a look at the [guideline] https://github.com/OpenChrom/openchrom/blob/develop/CONTRIBUTING.md.\n\nFor user- and developer documentation, have a look at our [wiki] https://github.com/OpenChrom/openchrom/wiki.\n\nBuilds for Windows, macOS and Linux can be [downloaded] https://openchrom.net/download including proprietary converter bundles.\n\nPerformance measurements provided by the [YourKit Java Profiler] https://www.yourkit.com/java/profiler/",
+      "section": "README",
+      "repo": "414_OpenChrom",
+      "source_file": "readme.md"
+    }
+  }
+]

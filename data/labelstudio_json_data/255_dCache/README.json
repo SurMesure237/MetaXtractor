@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "dCache\n\n__dCache__ is a system for storing and retrieving huge amounts of data, distributed among a large number of heterogeneous server nodes, under a single virtual filesystem tree with a variety of standard access methods. Depending on the Persistency Model, dCache provides methods for exchanging data with backend (tertiary) Storage Systems as well as space management, pool attraction, dataset replication, hot spot determination and recovery from disk or node failures. Connected to a tertiary storage system, the cache simulates unlimited direct access storage space. Data exchanges to and from the underlying HSM are performed automatically and invisibly to the user. Beside HEP specific protocols, data in dCache can be accessed via __NFSv4.1 (pNFS)__, __FTP__ as well as through __WebDav__.\n\n[](https://zenodo.org/badge/latestdoi/9113580)\n\nDocumentation\n\n[The dCache book] docs/TheBook/src/main/markdown/index.md\n\n[User Guide] docs/UserGuide/src/main/markdown/index.md\n\nGetting Started\n\nThe file [BUILDING.md] BUILDING.md describes how to compile dCache code and build various packages.\n\nThe file also describes how to create the __system-test__ deployment, which provides a quick and easy way to get a working dCache. Running system-test requires no special privileges and all the generated files reside within the code-base.\n\nThere are also packages of stable releases at https://www.dcache.org/downloads/.\n\nLicense\n\nThe project is licensed under __AGPL v3__. Some parts licensed under __BSD__ and __LGPL__. See the source code for details.\n\nFor more info, check the official [dCache.ORG] http://www.dcache.org web page.",
+      "section": "Introduction (part 1)",
+      "repo": "255_dCache",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Contributors\n\ndCache is a joint effort between [Deutsches Elektronen-Synchrotron DESY] http://www.desy.de, [Fermi National Accelerator Laboratory] http://www.fnal.gov and [Nordic DataGrid Facility] http://www.ndgf.org.\n\nContributions are welcome! Please check out our [CONTRIBUTING guide] CONTRIBUTING.md.",
+      "section": "Introduction (part 2)",
+      "repo": "255_dCache",
+      "source_file": "readme.md"
+    }
+  }
+]

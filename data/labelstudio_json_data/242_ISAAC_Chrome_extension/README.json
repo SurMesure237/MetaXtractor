@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": "[](https://doi.org/10.5281/zenodo.6350382)",
+      "section": "Introduction",
+      "repo": "242_ISAAC_Chrome_extension",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "isaac-chrome-extension\n\nChrome Web Extension for support of the [NWO ISAAC platform] https://www.nwo.nl/aanvraagsysteem-isaac. This extension is not endorsed or developed by the NWO.\n\n# \u26a0\ufe0f Alpha version. Not tested for patents, contracts or publications aimed at the general public\n\n## Install\n\n### Installing from the Chrome Web Store\n\nThe extension is [available in the Chrome Web Store] https://chrome.google.com/webstore/detail/isaac-chrome-extension/kiljfbiapahlahhilgcgfkfjnkgggode.\n\n### Installing from GitHub\n\nTo install the latest release:\n\nGo to the [latest release] https://github.com/citation-js/isaac-chrome-extension/releases and download the zip file (e.g. isaac-chrome-extension-1.0.0.zip)\n\nOpen Chrome and type chrome://extensions/ (or brave://extensions/ or chromium://extensions/ or edge://extensions/) in the browser location bar\n\nEnable Developer mode in the top right of this page\n\nDrag the zip file to the extensions tab\n\nTo install the development version:\n\nMake a check out of this source code repository\n\nOpen Chrome and type chrome://extensions/ (or brave://extensions/ or chromium://extensions/ or edge://extensions/) in the browser location bar\n\nEnable Developer mode in the top right of this page\n\nClick Load unpacked and open the isaac-chrome folder in the source code repo with the manifest.json file",
+      "section": "<img src=\"assets/icon.svg\" width=\"48\" alt=\"Icon: Black serif font 'I' on a background of four colored squares: brown, gold, green and platinum\" /> isaac-chrome-extension (part 1)",
+      "repo": "242_ISAAC_Chrome_extension",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Usage\n\nClick \"Projects\", select your project and go to the \"Product\" tab. There, click \"Add\".\n\nSelect the type of product. The extension can do this automatically, but this process is fallible.\n\nClick the icon of the extension in the top right.\n\nFill in your DOI, PubMed identifer, or ISBN and click \"Search\". This takes you to the information of the first author.\n\nReview the author information, optionally add additional info such as the gender and DAI, and click \"Next\". Repeat until all authors are added.\n\nReview the product information, optionally add additional info such as Open Access status.\n\nSubmit.\n\nSee also the ISAAC manual ([Dutch] https://www.nwo.nl/sites/nwo/files/media-files/ISAAC_Handleiding_NL.pdf, [English] https://www.nwo.nl/sites/nwo/files/media-files/ISAAC_User_manual_EN.pdf).\n\n## Dependencies\n\nThis code uses [Citation.js] https://citation.js.org, license MIT. Information is collected from Crossref, DataCite, and mEDRA (DOI), Google Books and OpenLibrary (ISBN), PubMed (PubMed identifiers) and Unpaywall (OA status).",
+      "section": "<img src=\"assets/icon.svg\" width=\"48\" alt=\"Icon: Black serif font 'I' on a background of four colored squares: brown, gold, green and platinum\" /> isaac-chrome-extension (part 2)",
+      "repo": "242_ISAAC_Chrome_extension",
+      "source_file": "readme.md"
+    }
+  }
+]

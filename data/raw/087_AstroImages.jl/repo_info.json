@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/JuliaAstro/AstroImages.jl",
+  "programmingLanguage": "Julia",
+  "programmingLanguages": [
+    "Julia"
+  ],
+  "downloadUrl": "https://api.github.com/repos/JuliaAstro/AstroImages.jl/zipball/main",
+  "author": "JuliaAstro",
+  "dateCreated": "2018-03-12T21:01:09Z",
+  "dateModified": "2025-10-27T03:40:21Z",
+  "keywords": [
+    "astronomy",
+    "cfitsio",
+    "fits",
+    "fitsio",
+    "image-processing",
+    "julia"
+  ],
+  "license": null,
+  "description": "Visualization of astronomical images",
+  "identifier": 124951007,
+  "name": "JuliaAstro/AstroImages.jl",
+  "issueTracker": "https://api.github.com/repos/JuliaAstro/AstroImages.jl/issues",
+  "readme": "https://github.com/JuliaAstro/AstroImages.jl/blob/master/README.md"
+}

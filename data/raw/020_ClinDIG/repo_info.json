@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/CanDIG/CanDIGv2",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell",
+    "Smarty",
+    "JavaScript",
+    "Makefile",
+    "CSS",
+    "Common Workflow Language",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/CanDIG/CanDIGv2/zipball/main",
+  "author": "CanDIG",
+  "dateCreated": "2018-10-30T18:52:39Z",
+  "dateModified": "2025-10-29T00:49:54Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/lgpl-3.0",
+  "description": "The CanDIG v2 platform",
+  "identifier": 155439792,
+  "name": "CanDIG/CanDIGv2",
+  "issueTracker": "https://api.github.com/repos/CanDIG/CanDIGv2/issues",
+  "readme": "https://github.com/CanDIG/CanDIGv2/blob/develop/README.md"
+}

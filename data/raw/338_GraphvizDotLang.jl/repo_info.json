@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/jhidding/GraphvizDotLang.jl",
+  "programmingLanguage": "Julia",
+  "programmingLanguages": [
+    "Julia",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/jhidding/GraphvizDotLang.jl/zipball/main",
+  "author": "jhidding",
+  "dateCreated": "2022-11-19T14:05:41Z",
+  "dateModified": "2025-02-02T17:49:48Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Module for generating graphs in the Dot language (aka GraphViz)",
+  "identifier": 568117849,
+  "name": "jhidding/GraphvizDotLang.jl",
+  "issueTracker": "https://api.github.com/repos/jhidding/GraphvizDotLang.jl/issues",
+  "readme": "https://github.com/jhidding/GraphvizDotLang.jl/blob/main/README.md"
+}

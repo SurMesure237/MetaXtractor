@@ -1,0 +1,82 @@
+[
+  {
+    "id": 2280,
+    "annotations": [
+      {
+        "id": 10185,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 136,
+              "end": 166,
+              "text": "https://wadpac.github.io/GGIR/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "pO16MLzIDB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 896,
+              "end": 962,
+              "text": "Creative Commons Attribution 4.0 International (CC BY 4.0) license",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "oQlCcrm0NU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:18:52.147104Z",
+        "updated_at": "2025-11-14T12:20:52.752409Z",
+        "draft_created_at": "2025-11-03T06:18:13.813549Z",
+        "lead_time": 64.22,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "ed1e512d-1e87-49a0-aadb-1134d1307d2a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2280,
+        "project": 23511,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://app.codecov.io/gh/wadpac/GGIR) [](https://cran.r-project.org/package=GGIR)\n\n## Getting started:\n\nThe package [documentation] https://wadpac.github.io/GGIR/ provides extensive documentation on GGIR and its functionalities.\n\n## Getting help:\n\nFor guidance on how to seek help see [this page] https://wadpac.github.io/GGIR/articles/chapter0_Support.html.\n\n## Contribution guidelines:\n\nWe always welcome contributions to the package. If you want to contribute to the development of GGIR, have a look at the [contribution guidelines] https://github.com/wadpac/GGIR/blob/master/CONTRIBUTING.md.\n\n### Images usaged\n\nThe copyright of the GGIR logo as contained in the file vignettes/GGIR-MASTERLOGO-RGB.png lies with Accelting (Almere, The Netherlands), please contact v.vanhees@accelting.com to ask for permission to use this logo.\n\nAll other images in this repository are released under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.",
+      "section": "README",
+      "repo": "495_GGIR",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.631264Z",
+    "updated_at": "2025-11-14T12:20:52.790377Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23511,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

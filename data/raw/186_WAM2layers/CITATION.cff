@@ -1,0 +1,69 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: WAM2layers
+message: >-
+  Please use the citation information if you used the
+  WAM2layers code in your (academic) work.
+type: software
+authors:
+  - given-names: Ruud J
+    family-names: van der Ent
+    affiliation: Delft University of Technology
+    orcid: 'https://orcid.org/0000-0001-5450-4333'
+  - given-names: Imme Bo
+    family-names: Benedict
+    affiliation: Wageningen University
+    orcid: 'https://orcid.org/0000-0002-1946-6332'
+  - given-names: Chris
+    family-names: Weijenborg
+    affiliation: Wageningen University
+    orcid: 'https://orcid.org/0000-0003-1663-2806'
+  - given-names: Bart
+    family-names: Schilperoort
+    affiliation: Netherlands eScience Center
+    orcid: 'https://orcid.org/0000-0003-4487-9822'
+  - given-names: Yang
+    family-names: Liu
+    affiliation: Netherlands eScience Center
+    orcid: 'https://orcid.org/0000-0002-1966-8460'
+  - given-names: Elizabeth
+    family-names: Barnes
+    affiliation: Colorado State University
+    orcid: 'https://orcid.org/0000-0001-7471-9980'
+  - given-names: Tolga
+    family-names: Cömert
+  - given-names: Niek
+    family-names: van de Koppel
+  - given-names: Liang
+    family-names: Guo
+    orcid: 'https://orcid.org/0000-0002-6004-3884'
+  - given-names: Vincent
+    family-names: de Feiter
+    affiliation: Wageningen University
+    orcid: 'https://orcid.org/0009-0006-6363-7932'
+  - given-names: Peter
+    family-names: Kalverla
+    affiliation: Netherlands eScience Center
+    orcid: 'https://orcid.org/0000-0002-5025-7862'
+repository-code: 'https://github.com/WAM2layers/WAM2layers'
+abstract: >-
+  WAM2layers is an atmospheric moisture-tracking
+  model that can be used to determine where
+  precipitation originally evaporated (backward tracking),
+  or where evaporated moisture eventually ends up
+  (forward tracking).
+keywords:
+  - moisture tracking
+  - hydrological cycle
+  - meteorology
+  - python
+  - moisture recycling
+  - atmospheric rivers
+  - Eulerian
+license: Apache-2.0
+identifiers:
+  - description: Latest version of software
+    type: doi
+    value: '10.5281/zenodo.7010594'

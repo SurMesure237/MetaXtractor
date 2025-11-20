@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/pycomlink/pycomlink",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/pycomlink/pycomlink/zipball/main",
+  "author": "pycomlink",
+  "dateCreated": "2016-11-08T15:19:22Z",
+  "dateModified": "2025-10-09T12:33:26Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "Tools for deriving rainfall information from commercial microwave link (CML) data.",
+  "identifier": 73198765,
+  "name": "pycomlink/pycomlink",
+  "issueTracker": "https://api.github.com/repos/pycomlink/pycomlink/issues",
+  "readme": "https://github.com/pycomlink/pycomlink/blob/master/README.md"
+}

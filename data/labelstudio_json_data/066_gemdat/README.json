@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "[](https://gemdat.readthedocs.io/en/latest/?badge=latest) [](https://github.com/GEMDAT-repos/GEMDAT/actions/workflows/tests.yaml)\n\n[](https://pypi.org/project/gemdat/) [](https://pypi.org/project/gemdat/) [](https://doi.org/10.5281/zenodo.8401669)",
+      "section": "Introduction",
+      "repo": "066_gemdat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "GEMDAT\n\nGemdat is a Python library for the analysis of diffusion in solid-state electrolytes from Molecular Dynamics simulations. Gemdat is built on top of [Pymatgen] https://pymatgen.org/, making it straightforward to integrate it into your Pymatgen-based workflows.\n\nWith Gemdat, you can:\n\nExplore your MD simulation via an easy-to-use Python API\n\nLoad and analyze trajectories from VASP and LAMMPS simulation data\n\nFind jumps and transitions between sites\n\nEffortlessly calculate tracer and jump diffusivity\n\nCharacterize and visualize diffusion pathways\n\nPlot radial distribution functions\n\nTo install:\n\npip install gemdat\n\nThe source code is available from [Github] https://github.com/GEMDAT-repos/GEMDAT.\n\nSuggestions, improvements, and edits are most welcome.",
+      "section": "GEMDAT (part 1)",
+      "repo": "066_gemdat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Usage\n\nThe following snippet to analyze the diffusion trajectory from VASP data.\n\nfrom gemdat import Trajectory\n\ntrajectory = Trajectory.from_vasprun('../example/vasprun.xml')\n\ntrajectory.plot_displacement_per_element()\n\ndiff_trajectory = trajectory.filter('Li')\n\ndiff_trajectory.plot_displacement_per_atom() diff_trajectory.plot_displacement_histogram() diff_trajectory.plot_frequency_vs_occurence() diff_trajectory.plot_vibrational_amplitudes()\n\nCharacterize transitions and jumps between sites:\n\nfrom gemdat.io import load_known_material\n\nsites = load_known_material('argyrodite', supercell=(2, 1, 1))\n\ntransitions = trajectory.transitions_between_sites(  sites=sites,  floating_specie='Li', )\n\njumps = transitions.jumps()\n\njumps.plot_jumps_vs_distance() jumps.plot_jumps_vs_time() jumps.plot_collective_jumps() jumps.plot_jumps_3d()\n\njumps.jump_diffusivity(dimensions=3)\n\nTo calculate different metrics, such as tracer diffusivity:\n\nfrom gemdat import TrajectoryMetrics\n\nmetrics = TrajectoryMetrics(diff_trajectory)\n\nmetrics.tracer_diffusivity(dimensions=3) metrics.haven_ratio(dimensions=3) metrics.tracer_conductivity(dimensions=3) metrics.particle_density() metrics.vibration_amplitude()\n\n## Development\n\nCheck out our [Contributing Guidelines] CONTRIBUTING.md#Getting-started-with-development to get started with development.\n\n## How to Cite\n\nV. Azizi, S. Smeets, A. K. Lavrinenko, S. Ciarella, T. Famprikis, V. Landgraf, & A. Vasileiadis. GEMDAT (Version 1.6.2) [Computer software]. https://github.com/GEMDAT-repos/GEMDAT, doi: [10.5281/zenodo.8401669] https://dx.doi.org/10.5281/zenodo.8401669\n\n## Dissemination\n\nLorentz workshop 7-11 April (2025): [Molecular Dynamics for Materials Science (pdf)] https://github.com/GEMDAT-repos/gemdat-dissemination/blob/fcf9c43e779deda0073846b4835e73066303210e/20250409_lorentz-workshop-gemdat.pdf?raw=true",
+      "section": "GEMDAT (part 2)",
+      "repo": "066_gemdat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Credits\n\nThe code in this repository is based on [Matlab code to analyse Molecular Dynamics simulations] https://bitbucket.org/niekdeklerk/md-analysis-with-matlab/src/master/.\n\nFor background information on how some of the properties are calculated, check out the accompanying paper:\n\nNiek J.J. de Klerk, Eveline van der Maas and Marnix Wagemaker, ACS Applied Energy Materials, (2018), doi: [10.1021/acsaem.8b00457] https://doi.org/10.1021/acsaem.8b00457",
+      "section": "GEMDAT (part 3)",
+      "repo": "066_gemdat",
+      "source_file": "readme.md"
+    }
+  }
+]

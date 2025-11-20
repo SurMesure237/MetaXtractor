@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "[](https://birdscanada.r-universe.dev/) [](https://birdscanada.r-universe.dev/motus) [](https://github.com/MotusWTS/motus/actions/workflows/R-CMD-check.yaml) [](https://app.codecov.io/gh/MotusWTS/motus?branch=main)",
+      "section": "Introduction",
+      "repo": "123_Motus_Wildlife_Tracking_System",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "motus\n\nAn R package for handling [Motus] https://motus.org automated radio-telemetry data.\n\nSee the [motus package site] https://motuswts.github.io/motus/ for detailed usage information.\n\n## Installation\n\nThe easiest way to install motus is from Birds Canada's [R-Universe] https://birdscanada.r-universe.dev:\n\ninstall.packages(\"motus\",   repos = c(birdscanada = 'https://birdscanada.r-universe.dev',  CRAN = 'https://cloud.r-project.org'))\n\nIf you want to check out work-in-progress, you can install the development  branches (betaX and sandbox) using remotes.\n\ninstall.packages(\"remotes\") # if don't already have it remotes::install_github(\"motusWTS/motus@beta3\") # the beta branch for v3+\n\nRunning into problems? Check out the [Troubleshooting article] https://motuswts.github.io/motus/articles/troubleshooting.html",
+      "section": "motus <img src=\"man/figures/logo.png\" align=\"right\" />",
+      "repo": "123_Motus_Wildlife_Tracking_System",
+      "source_file": "readme.md"
+    }
+  }
+]

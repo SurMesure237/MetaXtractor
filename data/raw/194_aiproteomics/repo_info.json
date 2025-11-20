@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/aiproteomics/aiproteomics",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/aiproteomics/aiproteomics/zipball/main",
+  "author": "aiproteomics",
+  "dateCreated": "2022-03-30T19:19:20Z",
+  "dateModified": "2025-02-13T14:44:16Z",
+  "keywords": [
+    "deep-learning",
+    "mass-spectrometry",
+    "msms",
+    "spectral-library"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "A package for MSMS spectral library prediction models from the field of (phospho-)proteomics, intended to facilitate the testing and comparison of different neural network architectures and existing models.",
+  "identifier": 476020606,
+  "name": "aiproteomics/aiproteomics",
+  "issueTracker": "https://api.github.com/repos/aiproteomics/aiproteomics/issues",
+  "readme": "https://github.com/aiproteomics/aiproteomics/blob/main/README.md"
+}

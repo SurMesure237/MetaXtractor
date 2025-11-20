@@ -1,0 +1,436 @@
+[
+  {
+    "id": 2301,
+    "annotations": [
+      {
+        "id": 11771,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 109,
+              "end": 164,
+              "text": "https://jumpdiff.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "ybG1qWRARz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 765,
+              "end": 770,
+              "text": "numpy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "g4gBTQAHaT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 775,
+              "end": 780,
+              "text": "scipy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "TtkO78QH6k",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 825,
+              "end": 830,
+              "text": "sympy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "7Vg74vLzmt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1004,
+              "end": 1036,
+              "text": "https://jumpdiff.readthedocs.io/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "UfQJIEq-h2",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 3,
+              "end": 62,
+              "text": "https://github.com/LRydin/jumpdiff/actions/workflows/CI.yml",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "0xAs-L7R-3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:57:05.326199Z",
+        "updated_at": "2025-11-14T12:28:16.920446Z",
+        "draft_created_at": "2025-11-09T05:56:28.588525Z",
+        "lead_time": 79.96,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "43c8cf9e-94f0-4fb1-8a96-b59bb2b44513",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2301,
+        "project": 23518,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/LRydin/jumpdiff/actions/workflows/CI.yml) [](https://codecov.io/gh/LRydin/jumpdiff) [](https://jumpdiff.readthedocs.io/en/latest/?badge=latest)\n\njumpdiff jumpdiff is a python library with non-parametric Nadaraya─Watson estimators to extract the parameters of jump-diffusion processes. With jumpdiff one can extract the parameters of a jump-diffusion process from one-dimensional timeseries, employing both a kernel-density estimation method combined with a set on second-order corrections for a precise retrieval of the parameters for short timeseries.\n\n## Installation\n\nTo install jumpdiff, run\n\npip install jumpdiff\n\nThen on your favourite editor just use\n\nimport jumpdiff as jd\n\n## Dependencies\n\nThe library parameter estimation depends on numpy and scipy solely. The mathematical formulae depend on sympy. It stems from [kramersmoyal] https://github.com/LRydin/KramersMoyal project, but functions independently from it3.\n\n## Documentation\n\nYou can find the documentation [here] https://jumpdiff.readthedocs.io/.",
+      "section": "Introduction + jumpdiff",
+      "repo": "103_JumpDiff",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.092344Z",
+    "updated_at": "2025-11-14T12:28:16.958864Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23518,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2302,
+    "annotations": [
+      {
+        "id": 11772,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:57:08.023982Z",
+        "updated_at": "2025-11-09T05:57:08.024000Z",
+        "draft_created_at": null,
+        "lead_time": 2.505,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "135148d6-3871-4bca-a62b-67358f9f350f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2302,
+        "project": 23518,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Jump-diffusion processes ## The theory\n\nJump-diffusion processes1, as the name suggest, are a mixed type of stochastic processes with a diffusive and a jump term. One form of these processes which is mathematically traceable is given by the [Stochastic Differential Equation] https://en.wikipedia.org/wiki/Stochastic_differential_equation\n\nwhich has 4 main elements: a drift term , a diffusion term , and jump amplitude term , which is given by a Gaussian distribution, and finally a jump rate . You can find a good review on this topic in Ref. 2.\n\n## Integrating a jump-diffusion process\n\nLet us use the functions in jumpdiff to generate a jump-difussion process, and subsequently retrieve the parameters. This is a good way to understand the usage of the integrator and the non-parametric retrieval of the parameters.\n\nFirst we need to load our library. We will call it jd\n\nimport jumpdiff as jd\n\nLet us thus define a jump-diffusion process and use jd_process to integrate it. Do notice here that we need the drift and diffusion as functions.\n\nintegration time and time sampling t_final = 10000 delta_t = 0.001\n\nA drift function def a(x):  return -0.5*x\n\nand a (constant) diffusion term def b(x):  return 0.75\n\nNow define a jump amplitude and rate xi = 2.5 lamb = 1.75",
+      "section": "Jump-diffusion processes + integration time and time sampling + A drift function (and 2 more)",
+      "repo": "103_JumpDiff",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.092392Z",
+    "updated_at": "2025-11-09T05:57:08.050295Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23518,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2303,
+    "annotations": [
+      {
+        "id": 11773,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:57:09.112611Z",
+        "updated_at": "2025-11-09T05:57:09.112632Z",
+        "draft_created_at": null,
+        "lead_time": 0.91,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "7e9ddfb4-684e-47e0-920a-0c2ee0295035",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2303,
+        "project": 23518,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "and simply call the integration function X = jd.jd_process(t_final, delta_t, a=a, b=b, xi=xi, lamb=lamb)\n\nThis will generate a jump diffusion process X of length int(10000/0.001) with the given parameters.\n\n## Using jumpdiff to retrieve the parameters\n\n### Moments and Kramers─Moyal coefficients\n\nTake the timeseries X and use the function moments to retrieve the conditional moments of the process. For now let us focus on the shortest time lag, so we can best approximate the Kramers─Moyal coefficients. For this case we can simply employ\n\nedges, moments = jd.moments(timeseries = X)\n\nIn the array edges are the limits of our space, and in our array moments are recorded all 6 powers/order of our conditional moments. Let us take a look at these before we proceed, to get acquainted with them.\n\nWe can plot the first moment with any conventional plotter, so lets use here plotly from matplotlib\n\nimport matplotlib.plotly as plt",
+      "section": "and simply call the integration function",
+      "repo": "103_JumpDiff",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.092644Z",
+    "updated_at": "2025-11-09T05:57:09.141673Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23518,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2304,
+    "annotations": [
+      {
+        "id": 11774,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:57:10.240487Z",
+        "updated_at": "2025-11-09T05:57:10.240515Z",
+        "draft_created_at": null,
+        "lead_time": 0.94,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "270a2eb5-c5f3-4643-bfbc-74e81c30889f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2304,
+        "project": 23518,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "we want the first power, so we need 'moments[1,...]' plt.plot(edges, moments[1,...])\n\nThe first moment here (i.e., the first Kramers─Moyal coefficient) is given solely by the drift term that we have selected -0.5*x\n\nAnd the second moment (i.e., the second Kramers─Moyal coefficient) is a mixture of both the contributions of the diffusive term and the jump terms and .\n\nYou have this stored in moments[2,...].\n\n### Retrieving the jump-related terms\n\nNaturally one of the most pertinent questions when addressing jump-diffusion processes is the possibility of recovering these same parameters from data. For the given jump-diffusion process we can use the jump_amplitude and jump_rate functions to non-parametrically estimate the jump amplitude and jump rate terms.\n\nAfter having the moments in hand, all we need is\n\nfirst estimate the jump amplitude xi_est = jd.jump_amplitude(moments = moments)",
+      "section": "we want the first power, so we need 'moments[1,...]' + first estimate the jump amplitude",
+      "repo": "103_JumpDiff",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.092689Z",
+    "updated_at": "2025-11-09T05:57:10.271845Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23518,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2305,
+    "annotations": [
+      {
+        "id": 11775,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:57:11.430226Z",
+        "updated_at": "2025-11-09T05:57:11.430241Z",
+        "draft_created_at": null,
+        "lead_time": 1.015,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "8ee042bb-826f-49a3-9197-3a6f7b6f73eb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2305,
+        "project": 23518,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "and now estimated the jump rate lamb_est = jd.jump_rate(moments = moments)\n\nwhich resulted in our case in (xi_est) ξ = 2.43 ± 0.17 and (lamb_est) λ = 1.744 * delta_t (don't forget to divide lamb_est by delta_t)!\n\n### Other functions and options\n\nInclude in this package is also the [Milstein scheme] https://en.wikipedia.org/wiki/Milstein_method of integration, particularly important when the diffusion term has some spacial x dependence. moments can actually calculate the conditional moments for different lags, using the parameter lag.\n\nIn formulae the set of formulas needed to calculate the second order corrections are given (in sympy).\n\nContributions We welcome reviews and ideas from everyone. If you want to share your ideas, upgrades, doubts, or simply report a bug, open an [issue] https://github.com/LRydin/jumpdiff/issues here on GitHub, or contact us directly. If you need help with the code, the theory, or the implementation, drop us an email. We abide to a [Conduct of Fairness] contributions.md.\n\nChangelog Version 0.4 - Designing a set of self-consistency checks, the documentation, examples, and a trial code. Code at PyPi.\n\nVersion 0.3 - Designing a straightforward procedure to retrieve the jump amplitude and jump rate functions, alongside with a easy sympy displaying the correction.\n\nVersion 0.2 - Introducing the second-order corrections to the moments\n\nVersion 0.1 - Design an implementation of the moments functions, generalising kramersmoyal km.",
+      "section": "and now estimated the jump rate + Contributions + Changelog",
+      "repo": "103_JumpDiff",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.092715Z",
+    "updated_at": "2025-11-09T05:57:11.459258Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23518,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2306,
+    "annotations": [
+      {
+        "id": 11776,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:57:18.446965Z",
+        "updated_at": "2025-11-09T05:57:18.446989Z",
+        "draft_created_at": null,
+        "lead_time": 6.839,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b90a439d-1091-4fa5-bb3e-fc685fb68a97",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2306,
+        "project": 23518,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Literature and Support\n\n### History\n\nThis project was started in 2017 at the [neurophysik] https://www.researchgate.net/lab/Klaus-Lehnertz-Lab-2 by Leonardo Rydin Gorjão, Jan Heysel, Klaus Lehnertz, and M. Reza Rahimi Tabar, and separately by Pedro G. Lind, at the Department of Computer Science, Oslo Metropolitan University. From 2019 to 2021, Pedro G. Lind, Leonardo Rydin Gorjão, and Dirk Witthaut developed a set of corrections and an implementation for python, presented here.\n\n### Funding\n\nHelmholtz Association Initiative _Energy System 2050 - A Contribution of the Research Field Energy_ and the grant No. VH-NG-1025 and STORM - Stochastics for Time-Space Risk Models project of the Research Council of Norway (RCN) No. 274410.\n\n##### Bibliography\n\n1 Tabar, M. R. R. Analysis and Data-Based Reconstruction of Complex Nonlinear Dynamical Systems. Springer, International Publishing (2019), Chapter [Stochastic Processes with Jumps and Non-vanishing Higher-Order Kramers–Moyal Coefficients] https://doi.org/10.1007/978-3-030-18472-8_11.\n\n2 Friedrich, R., Peinke, J., Sahimi, M., Tabar, M. R. R. Approaching complexity by stochastic methods: From biological systems to turbulence, [Physics Reports 506, 87–162 (2011)] https://doi.org/10.1016/j.physrep.2011.05.003.\n\n3 Rydin Gorjão, L., Meirinhos, F. kramersmoyal: Kramers–Moyal coefficients for stochastic processes. [Journal of Open Source Software, 4(44) (2019)] https://doi.org/10.21105/joss.01693.",
+      "section": "Literature and Support (part 1)",
+      "repo": "103_JumpDiff",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.092738Z",
+    "updated_at": "2025-11-09T05:57:18.480121Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23518,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2307,
+    "annotations": [
+      {
+        "id": 11777,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:57:22.620885Z",
+        "updated_at": "2025-11-09T05:57:22.620898Z",
+        "draft_created_at": null,
+        "lead_time": 3.995,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f4e2a2f1-229f-449f-a81a-5435000dc2a8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2307,
+        "project": 23518,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "##### Extended Literature\n\nYou can find further reading on SDE, non-parametric estimatons, and the general principles of the Fokker–Planck equation, Kramers–Moyal expansion, and related topics in the classic (physics) books\n\nRisken, H. The Fokker–Planck equation. Springer, Berlin, Heidelberg (1989).\n\nGardiner, C.W. Handbook of Stochastic Methods. Springer, Berlin (1985).\n\nAnd an extensive review on the subject [here] http://sharif.edu/~rahimitabar/pdfs/80.pdf",
+      "section": "Literature and Support (part 2)",
+      "repo": "103_JumpDiff",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.092760Z",
+    "updated_at": "2025-11-09T05:57:22.649174Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23518,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

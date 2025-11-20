@@ -1,0 +1,535 @@
+[
+  {
+    "id": 2640,
+    "annotations": [
+      {
+        "id": 9967,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 747,
+              "end": 770,
+              "text": "https://key-project.org",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "7zgDxiJblM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 861,
+              "end": 899,
+              "text": "https://keyproject.github.io/key-docs/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "E1fHQKYROu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1408,
+              "end": 1414,
+              "text": "GPL v2",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "VKrnSTBgru",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:04:07.397074Z",
+        "updated_at": "2025-11-14T11:56:21.996722Z",
+        "draft_created_at": "2025-11-02T20:03:40.251155Z",
+        "lead_time": 54.308,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "2d29d203-9505-4eca-ba51-c925989218e0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2640,
+        "project": 23576,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "KeY -- Deductive Java Program Verifier\n\n[](https://github.com/KeYProject/key/actions/workflows/tests.yml) [](https://github.com/KeYProject/key/actions/workflows/codeql.yml) [](https://github.com/KeYProject/key/actions/workflows/code_quality.yml)\n\nThis repository is the home of the interactive theorem prover KeY for formal verification and analysis of Java programs. KeY comes as a standalone GUI application, which allows you to verify the functional correctness of Java programs with respect to formal specifications formulated in the Java Modeling Language JML. Moreover, KeY can also be used as a library e.g. for symbolic program execution, first order reasoning, or test case generation.\n\nFor more information, refer to\n\n[The KeY homepage] https://key-project.org   [The KeY book] https://www.key-project.org/thebook2/  [The KeY developer documentation] https://keyproject.github.io/key-docs/  KeY's success stories:  [Severe bug discovered in JDK sorting routine (TimSort)] http://www.envisage-project.eu/proving-android-java-and-python-sorting-algorithm-is-broken-and-how-to-fix-it/,   [Verification of java.util.IdentityHashMap] https://doi.org/10.1007/978-3-031-07727-2_4, [Google Award for analysing a bug in LinkedList] https://www.key-project.org/2023/07/23/cwi-researchers-win-google-award-for-finding-a-bug-in-javas-linkedlist-using-key/\n\nThe current version of KeY is 2.12.2, licensed under GPL v2.",
+      "section": "KeY -- Deductive Java Program Verifier (part 1)",
+      "repo": "349_KeY",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.429840Z",
+    "updated_at": "2025-11-14T11:56:22.030543Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23576,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2641,
+    "annotations": [
+      {
+        "id": 9968,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:04:15.514347Z",
+        "updated_at": "2025-11-02T20:04:15.514370Z",
+        "draft_created_at": null,
+        "lead_time": 7.912,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "eb82a427-eff0-43aa-bb76-56d7860dd27a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2641,
+        "project": 23576,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Feel free to use the project templates to get started using KeY:  [For Verification Projects] https://github.com/KeYProject/verification-project-template  [Using as a Library] https://github.com/KeYProject/key-java-example [Using as a Symbolic Execution Backend] https://github.com/KeYProject/symbex-java-example",
+      "section": "KeY -- Deductive Java Program Verifier (part 2)",
+      "repo": "349_KeY",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.429878Z",
+    "updated_at": "2025-11-02T20:04:15.541967Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23576,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2642,
+    "annotations": [
+      {
+        "id": 9969,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 57,
+              "end": 62,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "o027FWXJ9u",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 63,
+              "end": 67,
+              "text": "Unix",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "Xt6QIbOGol",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 69,
+              "end": 75,
+              "text": "MacOSX",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "i669bHVp2s",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 77,
+              "end": 84,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "VptCL5d0rP",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 176,
+              "end": 178,
+              "text": "Z3",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "2Kmcr2UDt2",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 216,
+              "end": 220,
+              "text": "cvc5",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "nV-6SIMxMx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 248,
+              "end": 252,
+              "text": "CVC4",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "c0kHFmFSef",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 280,
+              "end": 288,
+              "text": "Princess",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "xMAi-mqheA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 180,
+              "end": 213,
+              "text": "https://github.com/Z3Prover/z3#z3",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "LijdMyMu3A",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 290,
+              "end": 335,
+              "text": "http://www.philipp.ruemmer.org/princess.shtml",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "5td9Ei9rQi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 254,
+              "end": 277,
+              "text": "https://cvc4.github.io/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "lEjX7SXlYe",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 222,
+              "end": 245,
+              "text": "https://cvc5.github.io/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "c9L3jAD6Yk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 86,
+              "end": 102,
+              "text": "Java 17 or newer",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "_xRlDFS5oH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:04:54.836529Z",
+        "updated_at": "2025-11-17T00:34:32.944083Z",
+        "draft_created_at": "2025-11-02T20:04:25.837049Z",
+        "lead_time": 78.92,
+        "prediction": {},
+        "result_count": 13,
+        "unique_id": "6af3ced1-dca4-4821-be66-c23a764c24e7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2642,
+        "project": 23576,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Requirements\n\nHardware: >=2 GB RAM  Operating System: Linux/Unix, MacOSX, Windows  Java 17 or newer  Optionally, KeY can make use of the following binaries:  SMT Solvers:  [Z3] https://github.com/Z3Prover/z3#z3  [cvc5] https://cvc5.github.io/  [CVC4] https://cvc4.github.io/  [Princess] http://www.philipp.ruemmer.org/princess.shtml\n\n## Content of the KeY folder\n\nThis folder provides a [gradle] https://gradle.org-managed project following [Maven's standard folder layout] https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html. There are several subprojects in this folder. In general, every key./ subproject contains a core component of KeY. Additional and optional components are in keyext.*/ folders. The file build.gradle is the root build script describing the dependencies and common build tasks for all subprojects.\n\nkey.util, key.core and key.ui are the base for the product \"KeY Prover\". Special care is needed if you plan to make changes here.",
+      "section": "KeY -- Deductive Java Program Verifier (part 3)",
+      "repo": "349_KeY",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.429910Z",
+    "updated_at": "2025-11-17T00:34:32.979353Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23576,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2643,
+    "annotations": [
+      {
+        "id": 9970,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:04:59.130493Z",
+        "updated_at": "2025-11-02T20:04:59.130509Z",
+        "draft_created_at": null,
+        "lead_time": 4.089,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "cf128faf-6596-4d35-a403-a98fd2a02d21",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2643,
+        "project": 23576,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Compile and Run KeY\n\nAssuming you are in the directory of this README file, you can create a runnable and deployable version with one of these commands:\n\nWith ./gradlew key.ui:run you can run the user interface of KeY directly from the repository.\n\nUse ./gradlew key.ui:run --args='--experimental' to enable experimental features.\n\nUse ./gradlew classes to compile KeY, which includes running JavaCC and Antlr.\n\nLikewise, use ./gradlew testClasses if you also want to compile the JUnit test classes.\n\nTest your installation with ./gradlew test. Be aware that this will usually take multiple hours to complete.\n\nWith ./gradlew testFast, you can run a more lightweight test suite that should complete in a few minutes.\n\nYou can select a specific test case with the --tests argument. Wildcards are allowed.  ``sh  ./gradlew :key.:test --tests \".\"  `\n\nYou can debug KeY by adding the --debug-jvm option, then attaching a debugger at localhost:5005.\n\nYou can create a single jar-version, aka fat jar, of KeY with\n\n`sh  ./gradlew :key.ui:shadowJar  `  The file is generated in key.ui/build/libs/key-*-exe.jar.\n\nA distribution is build with\n\n`sh  ./gradlew :key.ui:installDist :key.ui:distZip  `  The distribution can be tested by calling key.ui/install/key/bin/key.ui  and is zipped in key.ui/build/distributions`.\n\nThe distribution gives you potential of using single jar files.",
+      "section": "KeY -- Deductive Java Program Verifier (part 4)",
+      "repo": "349_KeY",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.429933Z",
+    "updated_at": "2025-11-02T20:04:59.157150Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23576,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2644,
+    "annotations": [
+      {
+        "id": 9971,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1507,
+              "end": 1533,
+              "text": "GNU General Public License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "_f_C-H-Pyu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1055,
+              "end": 1099,
+              "text": "https://keyproject.github.io/key-docs/devel/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "mxWEo79sKe",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 368,
+              "end": 412,
+              "text": "https://keyproject.github.io/key-docs/devel/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "vjlGkZ6s1x",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:05:43.782677Z",
+        "updated_at": "2025-11-14T11:57:31.488372Z",
+        "draft_created_at": "2025-11-02T20:05:14.927394Z",
+        "lead_time": 65.494,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "8d927cd6-60dc-4b91-8b91-201789954f66",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2644,
+        "project": 23576,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Developing KeY\n\nQuality is automatically assessed using [SonarQube] https://sonarqube.org on each pull request.  The results of the assessments (pass/fail) can be inspected in the checks section of the PR.\n\nThe rules and quality gate are maintained by Alexander Weigl  currently.\n\nMore guideline and documentation for the KeY development can be found under [key-docs] https://keyproject.github.io/key-docs/devel/.\n\nIssues and Bug Reports\n\nFor bug reports, please use the [issue tracker] https://github.com/KeYProject/key/issues or send a mail to support@key-project.org.\n\nFor discussions, you may want to subscribe and use the mailing list or use [GitHub discussions] https://github.com/KeYProject/key/discussions.\n\nContributing to KeY\n\nFeel free to submit [pull requests] https://github.com/KeYProject/key/pulls via GitHub. Pull requests are assessed using automatic tests, formatting and static source checkers, as well as a manual review by one of the developers. More guidelines and documentation for the KeY development can be found under [key-docs] https://keyproject.github.io/key-docs/devel/.\n\nLicense Remark\n\nThis is the KeY project - Integrated Deductive Software Design Copyright (C) 2001-2011 Universität Karlsruhe, Germany  Universität Koblenz-Landau, Germany  and Chalmers University of Technology, Sweden Copyright (C) 2011-2024 Karlsruhe Institute of Technology, Germany  Technical University Darmstadt, Germany  Chalmers University of Technology, Sweden\n\nThe KeY system is protected by the GNU General Public License. See LICENSE.TXT for details.",
+      "section": "Developing KeY + Issues and Bug Reports + Contributing to KeY (and 1 more)",
+      "repo": "349_KeY",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.429957Z",
+    "updated_at": "2025-11-14T11:57:31.526334Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23576,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

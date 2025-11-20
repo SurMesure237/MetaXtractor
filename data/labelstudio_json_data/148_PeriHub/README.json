@@ -1,0 +1,42 @@
+[
+  {
+    "data": {
+      "text": "SPDX-License-Identifier: Apache-2.0 -->",
+      "section": "Introduction",
+      "repo": "148_PeriHub",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "PeriHub - Empowering Research with Peridynamic Modeling\n\n[](https://github.com/PeriHub/PeriLab.jl/actions) [](https://perihub.github.io/PeriHub/) [](https://github.com/PeriHub/PeriHub/blob/main/LICENSE.md) [](https://doi.org/10.5281/zenodo.8159334) [](https://hub.docker.com/r/perihub/frontend) [](https://www.youtube.com/@PeriHub)\n\nPeriHub is a powerful software solution that can significantly benefit research in various fields. It is an extension of the open-source PeriLab software, providing a numerical implementation of the peridynamic theory. With PeriHub, researchers gain access to a valuable tool for addressing specific challenges and exploring diverse use cases in materials science, engineering, and related disciplines.",
+      "section": "PeriHub - Empowering Research with Peridynamic Modeling (part 1)",
+      "repo": "148_PeriHub",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Key Features\n\nPeridynamic Modeling: PeriHub excels at facilitating peridynamic modeling, enabling researchers to analyze material behavior and complex systems. Its unique approach empowers users to explore new frontiers and deepen their understanding of material behavior.\n\nUser-Friendly Interface: PeriHub offers a user-friendly interface, making it accessible to both experienced researchers and newcomers in the field. The platform's ease of use ensures efficient simulations, analysis of results, and gaining valuable insights into material behavior.\n\nREST API and GUI Support: Researchers can seamlessly interact with PeriHub using its REST API and GUI support, providing flexibility and convenience in conducting simulations and research tasks.\n\nHigh-Quality and Reliable: Developed collaboratively by a dedicated group of experts, PeriHub adheres to high standards of quality, reliability, and FAIRness (Findability, Accessibility, Interoperability, and Reusability). The German Aerospace Center (DLR) has played a significant role in fostering an environment that encourages innovation and interdisciplinary collaboration throughout the software's development process.\n\nPortability and Scalability: PeriHub utilizes Docker containers, ensuring seamless integration and deployment across various computing environments. This approach enhances the software's portability, scalability, and ease of use, making it even more practical for research purposes.\n\n### Overview\n\n### Generate model\n\n### View generated mesh\n\n### Edit input deck\n\n### Submit model\n\n### Analyse results\n\n### Plot results",
+      "section": "PeriHub - Empowering Research with Peridynamic Modeling (part 2)",
+      "repo": "148_PeriHub",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Analyse fracture",
+      "section": "PeriHub - Empowering Research with Peridynamic Modeling (part 3)",
+      "repo": "148_PeriHub",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Getting Started with PeriHub Services\n\nTo get started with PeriHub, you can use Docker Compose to easily set up the required services. Here's a step-by-step guide:\n\nClone the repository\n\ngit clone https://github.com/PeriHub/PeriHub.git\n\nGo into the PeriHub folder.\n\ncd PeriHub\n\nCopy the .env file and edit its contents (Optional).\n\ncp .env.example .env\n\nRun docker-compose.\n\ndocker-compose up\n\nIf docker finished starting PeriHub, go to http://localhost:8080\n\nContributing\n\nIf you like to start PeriHub in a development mode, you will need to install following requirements\n\n## Requirements\n\nInstall the [node version manager] https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script and node itself\n\ncurl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash source ~/.bashrc nvm install node\n\nNow you can get the [quasar cli] https://quasar.dev/start/quick-start and install the node packages\n\ncd frontend/app npm i -g @quasar/cli npm install\n\nFor the python backend we need to make sure that [pip] https://pip.pypa.io/en/stable/installation/, [fastapi] https://fastapi.tiangolo.com/ and further dependencies are installed\n\ncd backend pip install \"fastapi[standard]\" pip install -r requirements.txt pip install git+https://github.com/JTHesse/crackpy.git\n\nNow you are able to start the services\n\n## Starting the services\n\ncd frontend/app quasar dev\n\ncd backend/app fastapi dev main.py\n\nIf you also want to submit any simulations, make sure to start the perilab container:\n\ndocker compose up perilab -d\n\n## Contact\n\n[Jan-Timo Hesse] mailto:Jan-Timo.Hesse@dlr.de\n\n## License\n\nPlease see the file [LICENSE.md] LICENSE.md for further information about how the content is licensed.",
+      "section": "Getting Started with PeriHub Services + Contributing",
+      "repo": "148_PeriHub",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/abrupt-climate/hyper-canny",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "C",
+    "Python",
+    "Shell",
+    "Makefile",
+    "Meson"
+  ],
+  "downloadUrl": "https://api.github.com/repos/abrupt-climate/hyper-canny/zipball/main",
+  "author": "abrupt-climate",
+  "dateCreated": "2017-03-31T15:39:57Z",
+  "dateModified": "2021-02-18T09:24:35Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "High dimensional Canny edge detection",
+  "identifier": 86834996,
+  "name": "abrupt-climate/hyper-canny",
+  "issueTracker": "https://api.github.com/repos/abrupt-climate/hyper-canny/issues",
+  "readme": "https://github.com/abrupt-climate/hyper-canny/blob/master/README.md"
+}

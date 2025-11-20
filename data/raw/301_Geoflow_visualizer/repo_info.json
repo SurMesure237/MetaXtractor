@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/geoflow-visualizer/geoflow-visualizer",
+  "programmingLanguage": "JavaScript",
+  "programmingLanguages": [
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "downloadUrl": "https://api.github.com/repos/geoflow-visualizer/geoflow-visualizer/zipball/main",
+  "author": "geoflow-visualizer",
+  "dateCreated": "2022-04-13T14:15:58Z",
+  "dateModified": "2023-02-01T12:59:06Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": null,
+  "identifier": 481245154,
+  "name": "geoflow-visualizer/geoflow-visualizer",
+  "issueTracker": "https://api.github.com/repos/geoflow-visualizer/geoflow-visualizer/issues",
+  "readme": "https://github.com/geoflow-visualizer/geoflow-visualizer/blob/main/README.md"
+}

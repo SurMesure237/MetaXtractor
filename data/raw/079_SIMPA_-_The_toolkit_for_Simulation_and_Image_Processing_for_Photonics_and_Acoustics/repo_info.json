@@ -1,0 +1,28 @@
+{
+  "codeRepository": "https://github.com/IMSY-DKFZ/simpa",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "MATLAB",
+    "Shell",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/IMSY-DKFZ/simpa/zipball/main",
+  "author": "IMSY-DKFZ",
+  "dateCreated": "2021-02-10T14:01:42Z",
+  "dateModified": "2025-10-16T12:42:00Z",
+  "keywords": [
+    "acoustics",
+    "image-processing",
+    "photoacoustic-imaging",
+    "photonics",
+    "research-software",
+    "simulation"
+  ],
+  "license": null,
+  "description": "The Simulation and Image Processing for Photonics and Acoustics (SIMPA) toolkit.",
+  "identifier": 337741424,
+  "name": "IMSY-DKFZ/simpa",
+  "issueTracker": "https://api.github.com/repos/IMSY-DKFZ/simpa/issues",
+  "readme": "https://github.com/IMSY-DKFZ/simpa/blob/main/README.md"
+}

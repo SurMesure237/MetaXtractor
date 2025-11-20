@@ -1,0 +1,499 @@
+[
+  {
+    "id": 2230,
+    "annotations": [
+      {
+        "id": 10284,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 16,
+              "end": 54,
+              "text": "https://doi.org/10.5281/zenodo.4584796",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "VhOIyfXShd",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 59,
+              "end": 139,
+              "text": "https://github.com/GooglingTheCancerGenome/sv-channels/actions/workflows/ci.yaml",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "F9xDhFsnDf",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:47:10.894039Z",
+        "updated_at": "2025-11-14T09:28:50.502356Z",
+        "draft_created_at": "2025-11-03T06:46:57.033368Z",
+        "lead_time": 87.624,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "e1f6492b-3b3c-4e0c-b414-e00590fe6308",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2230,
+        "project": 23501,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "sv-channels\n\n[](https://doi.org/10.5281/zenodo.4584796) [](https://github.com/GooglingTheCancerGenome/sv-channels/actions/workflows/ci.yaml)\n\nsv-channels is a Deep Learning workflow for filtering structural variants (SVs) in short read alignment data using a one-dimensional Convolutional Neural Network (CNN). Currently, only deletions (DEL) called with [Manta] https://github.com/Illumina/manta are supported. The workflow includes the following key steps:\n\nTransform read alignments into channels\n\nFor each pair of SV breakpoints, a 2D Numpy array called window-pair is constructed. The shape of a window is [window_size2+buffer_size, number_of_channels], where the genomic interval encompassing each window is centered on the breakpoint position with a context of [-window_size/2, +window_size/2]. window_size is 124 bp by default. From all the reads overlapping this genomic interval and from the relative segment subsequence of the reference sequence number_of_channels channels are constructed, where each channel encode a signal that can be used for SV calling. The list of channels can be found [here] doc/channels_list.md. The two windows are joined as window-pair with a buffer, a 2D array of zeros with shape [8, number_of_channels] in between to avoid artifacts related to the CNN kernel passing at the interface between the two windows. The window-pairs are labelled as DEL when the breakpoint positions overlap the DEL callset used as ground truth and noDEL* otherwise.\n\nLabelling\n\nWindow-pairs are labelled as DEL (a true deletion) or noDEL (a false positive call) based on the overlap of the DEL breakpoints of the window-pair with the truth set.\n\nModel training",
+      "section": "sv-channels (part 1)",
+      "repo": "071_sv-channels",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.963203Z",
+    "updated_at": "2025-11-14T09:28:50.533724Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23501,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2231,
+    "annotations": [
+      {
+        "id": 10285,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:47:15.711338Z",
+        "updated_at": "2025-11-03T06:47:15.711358Z",
+        "draft_created_at": null,
+        "lead_time": 4.626,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "cfe7c86e-4cbc-4ab7-ae71-0859d2a327c3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2231,
+        "project": 23501,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "The labelled window-pairs are used to train a 1D CNN to classify Manta SVs as either DEL (true deletions) or noDEL (false positives).\n\nScoring Manta DELs\n\nThe model is run on the window-pairs of a test sample. The SV qualities for the Manta DELs (QUAL) of the test sample are substituted with the posterior probabilities obtained by the model.",
+      "section": "sv-channels (part 2)",
+      "repo": "071_sv-channels",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.963238Z",
+    "updated_at": "2025-11-03T06:47:15.737566Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23501,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2232,
+    "annotations": [
+      {
+        "id": 10286,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 19,
+              "end": 27,
+              "text": "Python 3",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "mf71Co801M",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 55,
+              "end": 60,
+              "text": "Conda",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "nKqlRmTfpM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 29,
+              "end": 52,
+              "text": "https://www.python.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "rhkswzLVBf",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 62,
+              "end": 79,
+              "text": "https://conda.io/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "YWpZ5HDDbF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:47:25.386420Z",
+        "updated_at": "2025-11-14T09:29:11.697148Z",
+        "draft_created_at": null,
+        "lead_time": 24.42,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "6a07a8cc-5131-494e-9388-9fa678a365bd",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2232,
+        "project": 23501,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Dependencies\n\n[Python 3] https://www.python.org/\n\n[Conda] https://conda.io/ including [environment.yaml] /environment.yaml\n\nClone this repo.\n\ngit clone https://github.com/GooglingTheCancerGenome/sv-channels.git cd sv-channels\n\nInstall dependencies.",
+      "section": "sv-channels (part 3)",
+      "repo": "071_sv-channels",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.963259Z",
+    "updated_at": "2025-11-14T09:29:11.734539Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23501,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2233,
+    "annotations": [
+      {
+        "id": 10287,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 130,
+              "end": 135,
+              "text": "Conda",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Q4sRjbz1aR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 218,
+              "end": 223,
+              "text": "Mamba",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "0I1B50uxpf",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:47:51.734223Z",
+        "updated_at": "2025-11-03T06:47:51.734239Z",
+        "draft_created_at": "2025-11-03T06:47:36.993213Z",
+        "lead_time": 26.17,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "6c28d610-0bd1-4824-abc3-73cb9fa36442",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2233,
+        "project": 23501,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "download Miniconda3 installer wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh\n\ninstall Conda (respond by 'yes') bash miniconda.sh\n\nupdate Conda conda update -y conda\n\ninstall Mamba conda install -n base -c conda-forge -y mamba\n\ncreate a new environment with dependencies & activate it mamba env create -n sv-channels -f environment.yaml conda activate sv-channels",
+      "section": "download Miniconda3 installer + install Conda (respond by 'yes') + update Conda (and 2 more)",
+      "repo": "071_sv-channels",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.963280Z",
+    "updated_at": "2025-11-03T06:47:51.763375Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23501,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2234,
+    "annotations": [
+      {
+        "id": 10288,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:48:04.047106Z",
+        "updated_at": "2025-11-03T06:48:04.047136Z",
+        "draft_created_at": null,
+        "lead_time": 12.108,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "3eb7614a-5d44-42f8-8da0-28d400c0b726",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2234,
+        "project": 23501,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "install svchannels CLI python setup.py install\n\nExecution.\n\ninput:\n\nread alignment in [BAM] https://samtools.github.io/hts-specs/SAMv1.pdf format\n\nreference genome used to map the reads in [FASTA] https://www.ncbi.nlm.nih.gov/BLAST/fasta.shtml format\n\noutput:\n\nSV callset generated by [Manta] https://github.com/GooglingTheCancerGenome/sv-callers in [VCF] https://samtools.github.io/hts-specs/VCFv4.3.pdf format\n\nRun on test data\n\nExtract signals.\n\nsvchannels extract-signals reference.fasta sample.bam -o signals\n\nConvert VCF file (Manta callset) to BEDPE format.\n\nRscript svchannels/utils/R/vcf2bedpe.R -i manta.vcf -o manta.bedpe\n\nGenerate channels.\n\nsvchannels generate-channels --reference reference.fasta signals channels manta.bedpe\n\nUse the [pretrained model] svchannels/trained_model.\n\nScore SVs.\n\nsvchannels score channels model.keras manta.vcf sv-channels.vcf\n\nTrain a new model\n\nExtract signals.\n\nsvchannels extract-signals reference.fasta training_sample.bam -o signals\n\nConvert VCF files (Manta callset and truth set) to BEDPE format.\n\nRscript svchannels/utils/R/vcf2bedpe.R -i training_sample_ground_truth.vcf \\  -o training_sample_ground_truth.bedpe Rscript svchannels/utils/R/vcf2bedpe.R -i training_sample_manta.vcf \\  -o training_sample_manta.bedpe\n\nGenerate channels.\n\nsvchannels generate-channels --reference reference.fasta signals channels training_sample_manta.bedpe\n\nLabel SVs.\n\nsvchannels label -f reference.fasta.fai -o labels channels/sv_positions.bedpe training_sample_ground_truth.bedpe\n\nTrain the model.\n\nsvchannels train channels/channels.zarr.zip labels/labels.json.gz -m model.keras",
+      "section": "install svchannels CLI (part 1)",
+      "repo": "071_sv-channels",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.963303Z",
+    "updated_at": "2025-11-03T06:48:04.075472Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23501,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2235,
+    "annotations": [
+      {
+        "id": 10289,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:48:05.940453Z",
+        "updated_at": "2025-11-03T06:48:05.940481Z",
+        "draft_created_at": null,
+        "lead_time": 1.726,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "921f79e9-e61e-4a32-be70-9b3ebb208a33",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2235,
+        "project": 23501,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "If there are multiple training samples, step 1-4 are repeated for each sample to generate channels and labels. The channels and labels for the training samples are added as comma-separated arguments in step 5. See an example below:\n\nsvchannels train \\  channels_sample1/channels.zarr.zip,channels_sample2/channels.zarr.zip \\  labels_sample1/labels.json.gz,labels_sample2/labels.json.gz \\  -m model.keras\n\n_Note_: For the purpose of CI testing, the same [BAM file] data/test.bam is used for both model training and testing.",
+      "section": "install svchannels CLI (part 2)",
+      "repo": "071_sv-channels",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.963323Z",
+    "updated_at": "2025-11-03T06:48:05.969045Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23501,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2236,
+    "annotations": [
+      {
+        "id": 10290,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 215,
+              "end": 242,
+              "text": "Apache License, Version 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "IopVyLCYD6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 366,
+              "end": 408,
+              "text": "http://www.apache.org/licenses/LICENSE-2.0",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "O3Sk__HZrG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:48:20.804239Z",
+        "updated_at": "2025-11-03T06:48:20.804251Z",
+        "draft_created_at": "2025-11-03T06:48:17.373419Z",
+        "lead_time": 14.704,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "12941c99-917f-49db-b310-2245323b895d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2236,
+        "project": 23501,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Contributing\n\nIf you want to contribute to the development of _sv-channels_, have a look at the [CONTRIBUTING.md] CONTRIBUTING.md.\n\n## License\n\nCopyright (c) 2023, Netherlands eScience Center\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.",
+      "section": "install svchannels CLI (part 3)",
+      "repo": "071_sv-channels",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.963344Z",
+    "updated_at": "2025-11-03T06:48:20.828347Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23501,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

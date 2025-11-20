@@ -1,0 +1,122 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "FairMQ",
+  "description": "C++ Message Queuing Library and Framework",
+  "license": "./COPYRIGHT",
+  "datePublished": "2018-04-15",
+  "developmentStatus": "active",
+  "softwareVersion": "master",
+  "releaseNotes": "https://github.com/FairRootGroup/FairMQ/releases",
+  "codeRepository": "https://github.com/FairRootGroup/FairMQ/",
+  "readme": "https://github.com/FairRootGroup/FairMQ/#readme",
+  "issueTracker": "https://github.com/FairRootGroup/FairMQ/issues",
+  "identifier": "https://doi.org/10.5281/zenodo.1689985",
+  "maintainer": [
+    {
+      "@type": "ResearchOrganisation",
+      "@id": "https://ror.org/02k8cbn47",
+      "name": "GSI Helmholtz Centre for Heavy Ion Research"
+    }
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8071-4497",
+      "givenName": "Mohammad",
+      "familyName": "Al-Turany"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3787-1910",
+      "givenName": "Dennis",
+      "familyName": "Klein"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Thorsten",
+      "familyName": "Kollegger"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6249-155X",
+      "givenName": "Alexey",
+      "familyName": "Rybalchenko"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Nicolas",
+      "familyName": "Winckler"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "givenName": "Laurent",
+      "familyName": "Aphecetche"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Sebastien",
+      "familyName": "Binet"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Giulio",
+      "familyName": "Eulisse"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Radoslaw",
+      "familyName": "Karabowicz"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Matthias",
+      "familyName": "Kretz",
+      "email": "kretz@kde.org"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Mikolaj",
+      "familyName": "Krzewicki"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Andrey",
+      "familyName": "Lebedev"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Teo",
+      "familyName": "Mrnjavac",
+      "email": "teo.m@cern.ch"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Gvozden",
+      "familyName": "Neskovic"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Matthias",
+      "familyName": "Richter"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5321-8404",
+      "givenName": "Christian",
+      "familyName": "Tacke"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Florian",
+      "familyName": "Uhlig"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Sandro",
+      "familyName": "Wenzel"
+    }
+  ]
+}

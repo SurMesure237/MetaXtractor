@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "Overview\n\n.. start-badges\n\n.. list-table::\n\nDocs\n\n|docs|\n\nTests\n\n|tests|\n\nPackage\n\n| |version| |conda-forge| |supported-versions| |commits-since|\n\nCitable\n\n|zenodo|\n\n- Example notebooks\n\n|example-notebooks|\n\n.. |docs| image:: https://readthedocs.org/projects/python-dts-calibration/badge/?style=flat  :target: https://python-dts-calibration.readthedocs.io/en/latest/  :alt: Documentation Status\n\n.. |tests| image:: https://github.com/dtscalibration/python-dts-calibration/actions/workflows/build.yml/badge.svg  :target: https://github.com/dtscalibration/python-dts-calibration/actions/workflows/build.yml  :alt: Test Status\n\n.. |version| image:: https://img.shields.io/pypi/v/dtscalibration.svg  :alt: PyPI Package latest release  :target: https://pypi.python.org/pypi/dtscalibration\n\n.. |commits-since| image:: https://img.shields.io/github/commits-since/dtscalibration/python-dts-calibration/v3.1.0.svg  :alt: Commits since latest release  :target: https://github.com/dtscalibration/python-dts-calibration/compare/v3.1.0...main\n\n.. |wheel| image:: https://img.shields.io/pypi/wheel/dtscalibration.svg  :alt: PyPI Wheel  :target: https://pypi.python.org/pypi/dtscalibration\n\n.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/dtscalibration.svg  :alt: Supported versions  :target: https://pypi.python.org/pypi/dtscalibration\n\n.. |zenodo| image:: https://zenodo.org/badge/143077491.svg  :alt: It would be greatly appreciated if you could cite this package in eg articles presentations  :target: https://zenodo.org/badge/latestdoi/143077491\n\n.. |example-notebooks| image:: https://mybinder.org/badge.svg  :alt: Interactively run the example notebooks online  :target: https://mybinder.org/v2/gh/dtscalibration/python-dts-calibration/main?labpath=docs%2Fnotebooks",
+      "section": "Introduction (part 1)",
+      "repo": "270_dtscalibration",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": ".. |conda-forge| image:: https://anaconda.org/conda-forge/dtscalibration/badges/version.svg  :alt: Conda-forge package  :target: https://anaconda.org/conda-forge/dtscalibration\n\n.. end-badges\n\nA Python package to load Distributed Temperature Sensing files, perform a calibration, and plot the result. A detailed description of the calibration procedure can be found at https://doi.org/10.3390/s20082235 .\n\nDo you have questions, ideas or just want to say hi? Please leave a message on the discussions page _!\n\nInstallation\n\nYou can install the package in a python (virtual) environment with:\n\n.. code-block:: zsh\n\npip install dtscalibration\n\nOr the development version directly from GitHub\n\n.. code-block:: zsh\n\npip install https://github.com/dtscalibration/python-dts-calibration/zipball/main --upgrade\n\nThe package is also available on conda-forge. Install it in a conda or mamba environment with:\n\n.. code-block:: sh\n\nconda install -c conda-forge dtscalibration\n\nPackage features\n\nDTS measures temperature by calibrating backscatter measurements to sections with a known temperature. DTS devices provide a simple interface to perform a limited calibration. Re-calibrating your measurements with this Python package gives you better temperature estimates and additional options.",
+      "section": "Introduction (part 2)",
+      "repo": "270_dtscalibration",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": "Advanced calibration routine  Supports single _- and double-ended _ setups  Compute uncertainty of the calibrated temperature  All measurements are used to estimate parameter values that are constant over time.  Weighted least-squares calibration  Fixing parameters to a previously determined value _  (Asymmetric) step loss correction _ so that fiber connectors can be used instead of welds/splices.  Matching temperature sections _ to support J-configurations  Dynamic reference section definition  Tools for merging and aligning double-ended setups  Data formats of most manufacturers are supported\n\nDevices currently supported\n\nSilixa Ltd.: Ultima & XT-DTS .xml files (up to version 8.1)  Sensornet Ltd.: Oryx, Halo & Sentinel .ddf files  AP Sensing: N4386B .xml files (single ended only)  SensorTran: SensorTran 5100 .dat binary files (single ended only)*\n\nDocumentation",
+      "section": "Introduction (part 3)",
+      "repo": "270_dtscalibration",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": "A full calibration procedure for single-ended setups is presented in notebook 07Calibrate_single_ended.ipynb _ and for double-ended setups in 08Calibrate_double_ended.ipynb _.  Documentation at readthedocs _. Example notebooks (./docs/notebooks) that work within the browser can be viewed here _.\n\nHow to cite\n\nThe following article explains and discusses the calibration procedure:\n\ndes Tombe, B., Schilperoort, B., & Bakker, M. (2020). Estimation of Temperature and Associated Uncertainty from Fiber-Optic Raman-Spectrum Distributed Temperature Sensing. Sensors, 20(8), 2235. https://doi.org/10.3390/s20082235\n\nCite the specific implementation / repository via Zenodo:\n\nCheck the version of dtscalibration that is used in your Python console with:\n\n# The following line introduces the .dts accessor for xarray datasets\n\nimport dtscalibration # noqa: E401 dtscalibration.__version__  '3.0.1' Go to Zenodo _ and follow the link to the version of interest.\n\nThe citation is found on the bottom right of the page.",
+      "section": "Introduction (part 4)",
+      "repo": "270_dtscalibration",
+      "source_file": "readme.rst"
+    }
+  }
+]

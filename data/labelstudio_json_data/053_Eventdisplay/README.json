@@ -1,0 +1,50 @@
+[
+  {
+    "data": {
+      "text": "Eventdisplay - An Analysis and Reconstruction Package for Ground-based Gamma-ray Astronomy\n\n[](https://zenodo.org/doi/10.5281/zenodo.3559075) [](https://ascl.net/2212.002) [](https://opensource.org/licenses/BSD-3-Clause)\n\n[](https://fair-software.eu) [](https://bestpractices.coreinfrastructure.org/projects/6753)\n\n[](https://github.com/Eventdisplay/Eventdisplay/actions/workflows/ci.yml) [](https://github.com/Eventdisplay/Eventdisplay/actions/workflows/packages-cta-prod5.yml) [](https://github.com/Eventdisplay/Eventdisplay/actions/workflows/packages-cta-slib.yml)\n\nAuthors and contributors: [CITATION.cff] CITATION.cff  Licence: [LICENSE] LICENSE",
+      "section": "Eventdisplay - An Analysis and Reconstruction Package for Ground-based Gamma-ray Astronomy (part 1)",
+      "repo": "053_Eventdisplay",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Overview\n\nEventdisplay is a reconstruction and analysis pipeline for data of Imaging Atmospheric Cherenkov Telescopes (IACT). It has been primarily developed for VERITAS and CTA analysis and used in many VERITAS and CTA publications. This repository contains the Eventdisplay version used for CTA and other analyses. For the VERITAS version, please go to [https://github.com/VERITAS-Observatory/EventDisplay_v4] https://github.com/VERITAS-Observatory/EventDisplay_v4\n\nOriginal developers: Gernot Maier and Jamie Holder\n\nIn case Eventdisplay is used in a research project, please cite this repository and the following publication:\n\nMaier, G.; Holder, J., Eventdisplay: An Analysis and Reconstruction Package for Ground-based Gamma-ray Astronomy, 35th International Cosmic Ray Conference. 10-20 July, 2017. Bexco, Busan, Korea, Proceedings of Science, Vol. 301. Online at [https://pos.sissa.it/cgi-bin/reader/conf.cgi?confid=301], id.747 [https://arxiv.org/abs/1708.04048]\n\nFor guidelines on installation, see [INSTALL.md] INSTALL.md. For further information, see files in [README] ./README directory\n\nThe package consists of several analysis steps and tools:",
+      "section": "Eventdisplay - An Analysis and Reconstruction Package for Ground-based Gamma-ray Astronomy (part 2)",
+      "repo": "053_Eventdisplay",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "evndisp: calibrate and parametrize images, event reconstruction, stereo analysis\n\ntrainTMVAforAngularReconstruction: train boosted decision trees for direction and energy reconstruction\n\nmscw_energy: fill and use lookup tables for mean scaled with and length calculation, energy reconstruction, stereo reconstruction\n\ntrainTMVAforGammaHadronSeparation: train boosted decision trees for gamma/hadron separation\n\nmakeEffectiveArea: calculation of the instrument response functions (effective areas, angular point-spread function, energy resolution)\n\nmakeRadialAcceptance: calculation of radial camera acceptance from data files\n\nanasum: analysis to calculate sky maps and spectral energy distribution\n\nlibVAnaSum: shared library tools (to be used with [ROOT] https://root.cern/ to e.g., plot instrument response function, spectral energy distributions, light curves, sky maps)",
+      "section": "Eventdisplay - An Analysis and Reconstruction Package for Ground-based Gamma-ray Astronomy (part 3)",
+      "repo": "053_Eventdisplay",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Documentation\n\n[INSTALL.md] INSTALL.md: information on installation the analysis package, dependencies, environmental variables\n\n[README.CTA] README/README.CTA: description of a typical CTA analysis\n\nREADME.VERITAS.quick_summary: description of a typical VERITAS analysis\n\nAUTHORS: author description\n\nDescription and command line options for the different software parts:\n\n[README.EVNDISP] README/README.EVNDISP\n\n[README.MSCW_ENERGY] README/README.MSCW_ENERGY\n\n[README.EFFECTIVEAREA] README/README.EFFECTIVEAREA\n\n[README.ANALYSISLIBRARY] README/README.ANALYSISLIBRARY\n\n## The Eventdisplay Ecosystem\n\nReconstruction and analysis can be complex; it requires inputs from different sources and execution of several independent stages. Eventdisplay is in use since roughly 2004 and an ecosystem of libraries and repositories grew around the core code base. Below an overview of those repositories. Some are internal to VERITAS and not accessible to the general public.\n\nFor almost every use case, Eventdisplay consists of at least three major components:\n\nthe code (Eventdisplay),\n\na library of scripts,\n\na set of auxiliary files.\n\nCare should be taken in using the correct versions (releases, tags, branches) combining these three types of repositories. A blending of different versions of components will lead to incorrect results.",
+      "section": "Eventdisplay - An Analysis and Reconstruction Package for Ground-based Gamma-ray Astronomy (part 4)",
+      "repo": "053_Eventdisplay",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Docker images\n\nDocker images are made available for the following use cases.\n\nCTA prod5 analysis: analysis of prod5 CTA simulations; [Dockerfile] dockerfiles/Dockerfile-cta-prod5; docker image available from [container page] https://github.com/Eventdisplay/Eventdisplay/pkgs/container/eventdisplay with tag cta-prod5\n\nCTA slib: analysis library used for CTA; [Dockerfile] dockerfiles/Dockerfile-cta-slib; docker image available from [container page] https://github.com/Eventdisplay/Eventdisplay/pkgs/container/eventdisplay with tag cta-slib\n\nSee [dockerfiles/README.md] dockerfiles/README.md on usage.\n\n### Code, tools, library\n\nThe core library consist of all code, tools, and libraries required to run the analysis.\n\n### Analysis scripts\n\nTypical use cases for Eventdisplay require the processing of many files (tens to several 100,000 in the case of CTA). A library of scripts for the efficient execution is available and recommended to be used as the main access to the tools described in the section above.\n\nThe analysis scripts depend on the specific observatory use cases. The following repositories of scripts are available:\n\nfor CTA: [https://github.com/Eventdisplay/Eventdisplay_AnalysisScripts_CTA] https://github.com/Eventdisplay/Eventdisplay_AnalysisScripts_CTA\n\nfor the CTA pSCT (incomplete): [https://github.com/Eventdisplay/Eventdisplay_AnalysisScripts_pSCT] https://github.com/Eventdisplay/Eventdisplay_AnalysisScripts_pSCT",
+      "section": "Eventdisplay - An Analysis and Reconstruction Package for Ground-based Gamma-ray Astronomy (part 5)",
+      "repo": "053_Eventdisplay",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Auxiliary files for parameters, definitions, calibration values\n\nThe reconstruction of analysis requires information on the instrument (e.g., telescope positions), access information to data bases, parameters for the analysis (e.g., image cleaning parameters or instruction for the gamma/hadron separation), or basic calibration values.\n\nThis information is accessible through repositories for auxiliary files, again dependent on the observatory of interest:\n\nfor CTA: [https://github.com/Eventdisplay/Eventdisplay_AnalysisFiles_CTA] https://github.com/Eventdisplay/Eventdisplay_AnalysisFiles_CTA\n\n### Converters\n\nTools to convert event lists into DL2 or DL3 format are collected in the converter repositories:\n\nfor CTA (DL2): [https://github.com/Eventdisplay/Converters] https://github.com/Eventdisplay/Converters\n\nfor VERITAS (converter to GADF DL3 Format): [https://github.com/VERITAS-Observatory/V2DL3] https://github.com/VERITAS-Observatory/V2DL3\n\n## Contact\n\nFor any questions, contact Gernot Maier",
+      "section": "Eventdisplay - An Analysis and Reconstruction Package for Ground-based Gamma-ray Astronomy (part 6)",
+      "repo": "053_Eventdisplay",
+      "source_file": "readme.md"
+    }
+  }
+]

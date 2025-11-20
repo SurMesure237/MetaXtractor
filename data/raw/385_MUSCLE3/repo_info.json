@@ -1,0 +1,24 @@
+{
+  "codeRepository": "https://github.com/multiscale/muscle3",
+  "programmingLanguage": "Fortran",
+  "programmingLanguages": [
+    "Fortran",
+    "C++",
+    "Python",
+    "Makefile",
+    "Dockerfile",
+    "Shell",
+    "C"
+  ],
+  "downloadUrl": "https://api.github.com/repos/multiscale/muscle3/zipball/main",
+  "author": "multiscale",
+  "dateCreated": "2018-02-25T21:07:17Z",
+  "dateModified": "2025-09-25T11:31:14Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "The third major version of the MUltiScale Coupling Library and Environment",
+  "identifier": 122876985,
+  "name": "multiscale/muscle3",
+  "issueTracker": "https://api.github.com/repos/multiscale/muscle3/issues",
+  "readme": "https://github.com/multiscale/muscle3/blob/develop/README.rst"
+}

@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/asreview-simulation/asreview-simulation",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/asreview-simulation/asreview-simulation/zipball/main",
+  "author": "asreview-simulation",
+  "dateCreated": "2023-05-24T16:45:52Z",
+  "dateModified": "2023-10-30T09:11:03Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Command line interface to simulate an AI assisted systematic review with ASReview",
+  "identifier": 644977553,
+  "name": "asreview-simulation/asreview-simulation",
+  "issueTracker": "https://api.github.com/repos/asreview-simulation/asreview-simulation/issues",
+  "readme": "https://github.com/asreview-simulation/asreview-simulation/blob/main/README.md"
+}

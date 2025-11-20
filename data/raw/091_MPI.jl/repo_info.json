@@ -1,0 +1,27 @@
+{
+  "codeRepository": "https://github.com/JuliaParallel/MPI.jl",
+  "programmingLanguage": "Julia",
+  "programmingLanguages": [
+    "Julia",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/JuliaParallel/MPI.jl/zipball/main",
+  "author": "JuliaParallel",
+  "dateCreated": "2012-08-03T22:30:24Z",
+  "dateModified": "2025-10-27T13:49:49Z",
+  "keywords": [
+    "hpc",
+    "julia",
+    "julia-language",
+    "microsoft-mpi",
+    "mpi",
+    "mpich",
+    "openmpi"
+  ],
+  "license": "https://api.github.com/licenses/unlicense",
+  "description": "MPI wrappers for Julia",
+  "identifier": 5291188,
+  "name": "JuliaParallel/MPI.jl",
+  "issueTracker": "https://api.github.com/repos/JuliaParallel/MPI.jl/issues",
+  "readme": "https://github.com/JuliaParallel/MPI.jl/blob/master/README.md"
+}

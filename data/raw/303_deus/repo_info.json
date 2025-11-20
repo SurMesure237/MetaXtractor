@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/gfzriesgos/deus",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/gfzriesgos/deus/zipball/main",
+  "author": "gfzriesgos",
+  "dateCreated": "2019-08-08T12:03:33Z",
+  "dateModified": "2021-12-06T09:36:00Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Damage-Exposure-Update-Service",
+  "identifier": 201249614,
+  "name": "gfzriesgos/deus",
+  "issueTracker": "https://api.github.com/repos/gfzriesgos/deus/issues",
+  "readme": "https://github.com/gfzriesgos/deus/blob/master/README.md"
+}

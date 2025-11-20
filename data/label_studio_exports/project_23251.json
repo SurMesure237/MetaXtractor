@@ -1,0 +1,553 @@
+[
+  {
+    "id": 874,
+    "annotations": [
+      {
+        "id": 11265,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 621,
+              "end": 657,
+              "text": "https://github.com/KIT-TVA/CorC/wiki",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "GgUECibnZH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:34:04.218243Z",
+        "updated_at": "2025-11-16T05:40:22.356823Z",
+        "draft_created_at": "2025-11-06T06:33:56.214642Z",
+        "lead_time": 25.23,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "7b2554d9-a7c2-4ef3-bca3-a16f4f810282",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 874,
+        "project": 23251,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "CorC\n\nCbC is an approach to create correct programs incrementally. Guided by pre-/postcondition specifications, a program is developed using refinement rules, guaranteeing the implementation is correct. With [CorC] https://github.com/KIT-TVA/CorC/wiki, we implemented a graphical and textual IDE to create programs following the CbC approach. Starting with an abstract specification, CorC supports CbC developers in refining a program by a sequence of refinement steps and in verifying the correctness of these refinement steps using a deductive verifier.\n\nLearn more about CorC and the underlying concepts in the [wiki] https://github.com/KIT-TVA/CorC/wiki.",
+      "section": "CorC",
+      "repo": "097_CorC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.543011Z",
+    "updated_at": "2025-11-16T05:40:22.387458Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23251,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 875,
+    "annotations": [
+      {
+        "id": 11266,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 363,
+              "end": 365,
+              "text": "Z3",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Ie117lkGaT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 604,
+              "end": 612,
+              "text": "Graphiti",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "k6abfqLL_F",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 795,
+              "end": 800,
+              "text": "Mylyn",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "wICQtVfWg6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 896,
+              "end": 902,
+              "text": "TestNG",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "E-Uww8d8R1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 697,
+              "end": 707,
+              "text": "FeatureIDE",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "OC2neVXjRH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 50,
+              "end": 108,
+              "text": "https://www.oracle.com/java/technologies/downloads/#java21",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "DhCLwWCyYP",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 42,
+              "end": 45,
+              "text": "JDK",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "nyggnvAB6g",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 46,
+              "end": 48,
+              "text": "21",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "NMLLBprXdm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 201,
+              "end": 224,
+              "text": "Eclipse Modelling Tools",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "wiDHHXihD5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 232,
+              "end": 315,
+              "text": "https://www.eclipse.org/downloads/packages/release/2024-03/r/eclipse-modeling-tools",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "NXtFj5PyGY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 325,
+              "end": 332,
+              "text": "2024-03",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "aIYYEcusV2",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 367,
+              "end": 406,
+              "text": "https://github.com/Z3Prover/z3/releases",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "HyeeLLCozR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 743,
+              "end": 793,
+              "text": "https://marketplace.eclipse.org/content/featureide",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "aEPvbpPkOu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 635,
+              "end": 695,
+              "text": "https://download.eclipse.org/graphiti/updates/release/0.18.0",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "QCVI4Sb4So",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 836,
+              "end": 881,
+              "text": "https://marketplace.eclipse.org/content/mylyn",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "H1cNUx022-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 938,
+              "end": 992,
+              "text": "https://marketplace.eclipse.org/content/testng-eclipse",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "KOMaiTrHyx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:35:01.115050Z",
+        "updated_at": "2025-11-16T05:48:15.948800Z",
+        "draft_created_at": "2025-11-06T06:34:14.706523Z",
+        "lead_time": 529.4929999999999,
+        "prediction": {},
+        "result_count": 16,
+        "unique_id": "e0f40765-7cae-47aa-9647-863399b892e3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 875,
+        "project": 23251,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Getting Started ## Java Version\n\nInstall [JDK 21] https://www.oracle.com/java/technologies/downloads/#java21. CorC may not work out of the box with newer versions. ## Eclipse Modelling Tools\n\nInstall [Eclipse Modelling Tools (EMT)] https://www.eclipse.org/downloads/packages/release/2024-03/r/eclipse-modeling-tools (Version 2024-03).\n\nGet the latest release of [Z3] https://github.com/Z3Prover/z3/releases and add the */z3-[cur-version]-[x64/x32]-win/bin folder to the environment variable [PATH] https://www.wikihow.com/Change-the-PATH-Environment-Variable-on-Windows\n\n## EMT Plugins\n\nGraphiti Install Graphiti using the update site https://download.eclipse.org/graphiti/updates/release/0.18.0\n\nFeatureIDE Available in [Eclipse Marketplace] https://marketplace.eclipse.org/content/featureide\n\nMylyn Available in [Eclipse Marketplace] https://marketplace.eclipse.org/content/mylyn (Mylyn 3.23)\n\nTestNG Available in [Eclipse Marketplace] https://marketplace.eclipse.org/content/testng-eclipse",
+      "section": "Getting Started (part 1)",
+      "repo": "097_CorC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.543050Z",
+    "updated_at": "2025-11-16T05:48:15.984206Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23251,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 876,
+    "annotations": [
+      {
+        "id": 11267,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:35:03.913650Z",
+        "updated_at": "2025-11-06T06:35:03.913662Z",
+        "draft_created_at": null,
+        "lead_time": 2.58,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b1023b47-a260-4f68-a669-f090e49e3341",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 876,
+        "project": 23251,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## CorC Setup\n\nClone the repo:\n\n``sh  git clone https://github.com/KIT-TVA/CorC.git  ` In EMT, select Open Projects... -> CorC and check the boxes for the following packages:\n\nde.tu-bs.cs.isf.cbc.exceptions\n\nde.tu-bs.cs.isf.cbc.model\n\nde.tu-bs.cs.isf.cbc.mutation\n\nde.tu-bs.cs.isf.cbc.tool\n\nde.tu-bs.cs.isf.cbc.util\n\nde.tu-bs.cs.isf.cbcclass.tool\n\nde.tu-bs.cs.isf.wizards\n\nde.tu_bs.cs.isf.cbc.parser\n\nde.tu_bs.cs.isf.cbc.statistics\n\nde.tu_bs.cs.isf.cbc.statistics.ui\n\nde.tu_bs.cs.isf.commands.toolbar\n\nde.tu_bs.cs.isf.lattice\n\nde.tu_bs.cs.isf.proofrepository\n\nde.kit.tva.lost\n\nOpen:\n\n.cbc.model -> model -> genmodel.genmodel\n\n.cbc.statistics -> model -> cbcstatistics.genmodel\n\nRight click and Generate Model/Edit/Editor Code for all files listed.  If EMT still displays errors, clean and rebuild all projects as described in the [common issues] #common-issues section.\n\nSelect any package and run project as Eclipse Application`.",
+      "section": "Getting Started (part 2)",
+      "repo": "097_CorC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.543079Z",
+    "updated_at": "2025-11-06T06:35:03.940681Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23251,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 877,
+    "annotations": [
+      {
+        "id": 11268,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:35:09.930284Z",
+        "updated_at": "2025-11-06T06:35:09.930305Z",
+        "draft_created_at": null,
+        "lead_time": 5.848,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "3f7b307f-a09c-4ebf-94ae-0c104c896494",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 877,
+        "project": 23251,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Contribution Create a fork.\n\nCreate a new branch with a name that describes your new feature.\n\nEnsure that the command mvn compile spotless:apply runs successfully.\n\nStart a pull request.\n\n## Formatting\n\nWe use the default Eclipse formatting style with [spotless] https://github.com/diffplug/spotless/blob/main/plugin-maven/README.md#eclipse-jdt. Run mvn spotless:apply to format all src files automatically if needed.",
+      "section": "Contribution",
+      "repo": "097_CorC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.543115Z",
+    "updated_at": "2025-11-06T06:35:09.959079Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23251,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 878,
+    "annotations": [
+      {
+        "id": 11269,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:35:13.068534Z",
+        "updated_at": "2025-11-06T06:35:13.068545Z",
+        "draft_created_at": null,
+        "lead_time": 2.974,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "424f1cac-0182-4e64-882e-ecb280a4c7d9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 878,
+        "project": 23251,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Examples & Case Study Introduction We provide different examples and case studies to explore CorC! ## Examples\n\nCreate CorC-examples via File -> New -> Other... -> CorC -> CorC Examples. ## Case studies\n\nThe repository you checked out contains various software product line case studies in the folder CaseStudies. They can be loaded via File -> Open project from file system.  ### BankAccount\n\nThe BankAccount implements basic functions of a bank account such as withdrawals, limits, money transfers and checking the account balance. BankAccount Object-oriented implementation with class structure and CbC-Classes.\n\nBankAccountOO Object-oriented implementation with class structure and CbC-Classes. Non-SPL implementation.\n\n### Elevator\n\nThe Elevator implements basic functions of an elevator such as the movement and entering and leaving of persons. Elevator Object-oriented implementation with class structure and CbC-Classes.\n\n### Email\n\nThe product line Email implements basic functions of an email system including server- and client-side interactions. EmailOO Object-oriented implementation with class structure and CbC-Classes. Non-SPL implementation.\n\nEmailFeatureInteraction Java-Implementation without implementation with CbC.\n\n### IntegerList\n\nThe IntegerList implements a list of integers with add and sort operations. IntegerList Object-oriented implementation with class structure and CbC-Classes.\n\nIntegerListOO Object-oriented implementation with class structure and CbC-Classes. Non-SPL implementation.",
+      "section": "Examples & Case Study Introduction",
+      "repo": "097_CorC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.543139Z",
+    "updated_at": "2025-11-06T06:35:13.091780Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23251,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 879,
+    "annotations": [
+      {
+        "id": 11270,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:35:14.231210Z",
+        "updated_at": "2025-11-06T06:35:14.231231Z",
+        "draft_created_at": null,
+        "lead_time": 0.993,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "fb4e0ffe-19a1-4077-ad08-96edc38e0e0b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 879,
+        "project": 23251,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Common Issues Problem: Multiple errors resulting from forbidden references or undefined types.\n\nSolution: In Eclipse Modelling Tools:  Preferences -> Java -> Compiler -> Errors/Warnings -> Deprecated and restricted API: Set Forbidden References to ‘Warning’.\n\nPreferences -> Java -> Installed JREs: Select the correct JDK21 folder on your system and set the checkmark.\n\nPreferences -> Java -> Installed JREs -> Execution Environment: Select JavaSE-21 and check the ‚jre [perfect match]‘ box.\n\nClean and rebuild all projects via Project -> Clean....\n\nProblem: EMT gets stuck while trying to generate a model.\n\nSolution: Terminate EMT using any process manager and generate the model again.\n\nProblem: Multiple resolving errors after generating model files.\n\nSolution: Clean and rebuild all projects via Project -> Clean....\n\nProblem: Cycling depedency issues.\n\nSolution: Navigate to: Project -> Properties -> Java Compiler -> Building -> Configure Workspace Settings -> Build path problems -> Circular dependencies and set the listbox to Warning.\n\nProblem: Errors in certain files about undefined methods and classes.\n\nSolution: Changing the compliance: Project -> Java Compiler -> JDK Complicance -> Use compliance from execution environment 'JavaSE-16'.\n\nProblem: Errors involving the message 'Cannot modify resource set without a write transaction'.\n\nSolution: Delete the folder .settings in org.eclipse.core.runtime within the current workspace. If that doesn't resolve the issue, delete all .settings folders and the .project file in the CorC folder.\n\nProblem: Some library file or package that is in the git is not shown locally in eclipse and there are errors missing that file\n\nSolution: Press F5 when hovering over the parent directory of the missing file. The file should appear.",
+      "section": "Common Issues",
+      "repo": "097_CorC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.543164Z",
+    "updated_at": "2025-11-06T06:35:14.259745Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23251,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

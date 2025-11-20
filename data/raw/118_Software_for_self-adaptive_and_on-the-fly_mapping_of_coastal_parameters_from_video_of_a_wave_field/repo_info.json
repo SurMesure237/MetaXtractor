@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/MatthijsGawehn/COCOS",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/MatthijsGawehn/COCOS/zipball/main",
+  "author": "MatthijsGawehn",
+  "dateCreated": "2021-08-20T12:55:16Z",
+  "dateModified": "2023-05-25T14:29:01Z",
+  "keywords": [],
+  "license": null,
+  "description": "on-the-fly estimation of coastal parameters from video of a wave field",
+  "identifier": 398276118,
+  "name": "MatthijsGawehn/COCOS",
+  "issueTracker": "https://api.github.com/repos/MatthijsGawehn/COCOS/issues",
+  "readme": "https://github.com/MatthijsGawehn/COCOS/blob/main/README.md"
+}

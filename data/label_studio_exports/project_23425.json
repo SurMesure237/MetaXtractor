@@ -1,0 +1,569 @@
+[
+  {
+    "id": 1867,
+    "annotations": [
+      {
+        "id": 10559,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 856,
+              "end": 892,
+              "text": "https://arxiv.org/pdf/2404.09556.pdf",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "FMtJTVYRzk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 484,
+              "end": 489,
+              "text": "torch",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "kwflBXmTxo",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 490,
+              "end": 504,
+              "text": "2.8.0 or lower",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "iFtUJ3nat7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:53:00.748104Z",
+        "updated_at": "2025-11-14T12:56:47.061838Z",
+        "draft_created_at": "2025-11-04T17:52:42.743173Z",
+        "lead_time": 70.086,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "acc1908a-e226-4b01-8c95-c7de8730c184",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1867,
+        "project": 23425,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Welcome to the new nnU-Net!\n\nClick [here] https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1 if you were looking for the old one instead.\n\nComing from V1? Check out the [TLDR Migration Guide] documentation/tldr_migration_guide_from_v1.md. Reading the rest of the documentation is still strongly recommended ;-)\n\n## 2025-10-23 There seems to be a [severe performance regression with torch 2.9.0 and 3D convs] https://github.com/pytorch/pytorch/issues/166122 (when using AMP). Please use torch 2.8.0 or lower with nnU-Net!\n\n## 2024-04-18 UPDATE: New residual encoder UNet presets available!\n\nResidual encoder UNet presets substantially improve segmentation performance. They ship for a variety of GPU memory targets. It's all awesome stuff, promised!  Read more :point_right: [here] documentation/resenc_presets.md :point_left:\n\nAlso check out our [new paper] https://arxiv.org/pdf/2404.09556.pdf on systematically benchmarking recent developments in medical image segmentation. You might be surprised!",
+      "section": "Welcome to the new nnU-Net!",
+      "repo": "110_nnU-Net",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.684477Z",
+    "updated_at": "2025-11-14T12:56:47.100356Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23425,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1868,
+    "annotations": [
+      {
+        "id": 10560,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:53:14.296363Z",
+        "updated_at": "2025-11-04T17:53:14.296386Z",
+        "draft_created_at": null,
+        "lead_time": 13.349,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b1e2754b-0b5a-4e8d-a955-f8e1bd77da02",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1868,
+        "project": 23425,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "What is nnU-Net? Image datasets are enormously diverse: image dimensionality (2D, 3D), modalities/input channels (RGB image, CT, MRI, microscopy, ...),  image sizes, voxel sizes, class ratio, target structure properties and more change substantially between datasets.  Traditionally, given a new problem, a tailored solution needs to be manually designed and optimized - a process that  is prone to errors, not scalable and where success is overwhelmingly determined by the skill of the experimenter. Even  for experts, this process is anything but simple: there are not only many design choices and data properties that need to  be considered, but they are also tightly interconnected, rendering reliable manual pipeline optimization all but impossible!\n\nnnU-Net is a semantic segmentation method that automatically adapts to a given dataset. It will analyze the provided  training cases and automatically configure a matching U-Net-based segmentation pipeline. No expertise required on your  end! You can simply train the models and use them for your application.\n\nUpon release, nnU-Net was evaluated on 23 datasets belonging to competitions from the biomedical domain. Despite competing  with handcrafted solutions for each respective dataset, nnU-Net's fully automated pipeline scored several first places on  open leaderboards! Since then nnU-Net has stood the test of time: it continues to be used as a baseline and method  development framework ([9 out of 10 challenge winners at MICCAI 2020] https://arxiv.org/abs/2101.00232 and 5 out of 7  in MICCAI 2021 built their methods on top of nnU-Net,   [we won AMOS2022 with nnU-Net] https://amos22.grand-challenge.org/final-ranking/)!",
+      "section": "What is nnU-Net? (part 1)",
+      "repo": "110_nnU-Net",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.684515Z",
+    "updated_at": "2025-11-04T17:53:14.327398Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23425,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1869,
+    "annotations": [
+      {
+        "id": 10561,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 34,
+              "end": 184,
+              "text": "https://www.google.com/url?q=https://www.nature.com/articles/s41592-020-01008-z&sa=D&source=docs&ust=1677235958581755&usg=AOvVaw3dWL0SrITLhCJUBiNIHCQO",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "DQG1xeJEJL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 206,
+              "end": 411,
+              "text": "Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "IZZtK6ylqJ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:53:58.999901Z",
+        "updated_at": "2025-11-04T17:53:58.999916Z",
+        "draft_created_at": "2025-11-04T17:53:36.476725Z",
+        "lead_time": 44.526,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "2e324066-e5ae-42b2-9c89-31381d840dd5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1869,
+        "project": 23425,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Please cite the [following paper] https://www.google.com/url?q=https://www.nature.com/articles/s41592-020-01008-z&sa=D&source=docs&ust=1677235958581755&usg=AOvVaw3dWL0SrITLhCJUBiNIHCQO when using nnU-Net:\n\nIsensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring   method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.",
+      "section": "What is nnU-Net? (part 2)",
+      "repo": "110_nnU-Net",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.684536Z",
+    "updated_at": "2025-11-04T17:53:59.028977Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23425,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1870,
+    "annotations": [
+      {
+        "id": 10562,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:54:02.603864Z",
+        "updated_at": "2025-11-04T17:54:02.603893Z",
+        "draft_created_at": null,
+        "lead_time": 3.413,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "36ab0951-52f2-4a38-a231-aec00c93af11",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1870,
+        "project": 23425,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## What can nnU-Net do for you?\n\nIf you are a domain scientist (biologist, radiologist, ...) looking to analyze your own images, nnU-Net provides  an out-of-the-box solution that is all but guaranteed to provide excellent results on your individual dataset. Simply  convert your dataset into the nnU-Net format and enjoy the power of AI - no expertise required!\n\nIf you are an AI researcher developing segmentation methods, nnU-Net: offers a fantastic out-of-the-box applicable baseline algorithm to compete against\n\ncan act as a method development framework to test your contribution on a large number of datasets without having to\n\ntune individual pipelines (for example evaluating a new loss function) provides a strong starting point for further dataset-specific optimizations. This is particularly used when competing\n\nin segmentation challenges provides a new perspective on the design of segmentation methods: maybe you can find better connections between\n\ndataset properties and best-fitting segmentation pipelines?",
+      "section": "What is nnU-Net? (part 3)",
+      "repo": "110_nnU-Net",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.684558Z",
+    "updated_at": "2025-11-04T17:54:02.633173Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23425,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1871,
+    "annotations": [
+      {
+        "id": 10563,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:54:06.779792Z",
+        "updated_at": "2025-11-04T17:54:06.779806Z",
+        "draft_created_at": null,
+        "lead_time": 3.931,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "aef176f1-ec39-4979-ab18-d5c204e67210",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1871,
+        "project": 23425,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## What is the scope of nnU-Net?\n\nnnU-Net is built for semantic segmentation. It can handle 2D and 3D images with arbitrary  input modalities/channels. It can understand voxel spacings, anisotropies and is robust even when classes are highly imbalanced.\n\nnnU-Net relies on supervised learning, which means that you need to provide training cases for your application. The number of  required training cases varies heavily depending on the complexity of the segmentation problem. No  one-fits-all number can be provided here! nnU-Net does not require more training cases than other solutions - maybe  even less due to our extensive use of data augmentation.\n\nnnU-Net expects to be able to process entire images at once during preprocessing and postprocessing, so it cannot  handle enormous images. As a reference: we tested images from 40x40x40 pixels all the way up to 1500x1500x1500 in 3D  and 40x40 up to ~30000x30000 in 2D! If your RAM allows it, larger is always possible.",
+      "section": "What is nnU-Net? (part 4)",
+      "repo": "110_nnU-Net",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.684580Z",
+    "updated_at": "2025-11-04T17:54:06.807312Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23425,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1872,
+    "annotations": [
+      {
+        "id": 10564,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:54:09.365903Z",
+        "updated_at": "2025-11-04T17:54:09.365920Z",
+        "draft_created_at": null,
+        "lead_time": 2.419,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "72785ca4-c2f1-45d2-8f48-3400e6c6f35a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1872,
+        "project": 23425,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## How does nnU-Net work?\n\nGiven a new dataset, nnU-Net will systematically analyze the provided training cases and create a 'dataset fingerprint'.  nnU-Net then creates several U-Net configurations for each dataset:  2d: a 2D U-Net (for 2D and 3D datasets)\n\n3d_fullres: a 3D U-Net that operates on a high image resolution (for 3D datasets only)\n\n3d_lowres → 3d_cascade_fullres: a 3D U-Net cascade where first a 3D U-Net operates on low resolution images and\n\nthen a second high-resolution 3D U-Net refined the predictions of the former (for 3D datasets with large image sizes only)\n\nNote that not all U-Net configurations are created for all datasets. In datasets with small image sizes, the  U-Net cascade (and with it the 3d_lowres configuration) is omitted because the patch size of the full  resolution U-Net already covers a large part of the input images.\n\nnnU-Net configures its segmentation pipelines based on a three-step recipe: Fixed parameters are not adapted. During development of nnU-Net we identified a robust configuration (that is, certain architecture and training properties) that can\n\nsimply be used all the time. This includes, for example, nnU-Net's loss function, (most of the) data augmentation strategy and learning rate. Rule-based parameters use the dataset fingerprint to adapt certain segmentation pipeline properties by following\n\nhard-coded heuristic rules. For example, the network topology (pooling behavior and depth of the network architecture)  are adapted to the patch size; the patch size, network topology and batch size are optimized jointly given some GPU  memory constraint.  Empirical parameters are essentially trial-and-error. For example the selection of the best U-net configuration\n\nfor the given dataset (2D, 3D full resolution, 3D low resolution, 3D cascade) and the optimization of the postprocessing strategy.",
+      "section": "What is nnU-Net? (part 5)",
+      "repo": "110_nnU-Net",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.684605Z",
+    "updated_at": "2025-11-04T17:54:09.393173Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23425,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1873,
+    "annotations": [
+      {
+        "id": 10565,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:54:11.509390Z",
+        "updated_at": "2025-11-04T17:54:11.509409Z",
+        "draft_created_at": null,
+        "lead_time": 1.974,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "76f45c2f-b984-436f-aa54-525a43bfc096",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1873,
+        "project": 23425,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## How to get started?\n\nRead these: [Installation instructions] documentation/installation_instructions.md\n\n[Dataset conversion] documentation/dataset_format.md\n\n[Usage instructions] documentation/how_to_use_nnunet.md\n\nAdditional information: [Learning from sparse annotations (scribbles, slices)] documentation/ignore_label.md\n\n[Region-based training] documentation/region_based_training.md\n\n[Manual data splits] documentation/manual_data_splits.md\n\n[Pretraining and finetuning] documentation/pretraining_and_finetuning.md\n\n[Intensity Normalization in nnU-Net] documentation/explanation_normalization.md\n\n[Manually editing nnU-Net configurations] documentation/explanation_plans_files.md\n\n[Extending nnU-Net] documentation/extending_nnunet.md\n\n[What is different in V2?] documentation/changelog.md\n\nCompetitions: [AutoPET II] documentation/competitions/AutoPETII.md\n\n[//]: # (- [Ignore label]&#40;documentation/ignore_label.md&#41;)",
+      "section": "What is nnU-Net? (part 6)",
+      "repo": "110_nnU-Net",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.684627Z",
+    "updated_at": "2025-11-04T17:54:11.537526Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23425,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1874,
+    "annotations": [
+      {
+        "id": 10566,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:54:12.769556Z",
+        "updated_at": "2025-11-04T17:54:12.769579Z",
+        "draft_created_at": null,
+        "lead_time": 1.043,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "adfd2f63-ed3a-4839-bd07-373ba6cb8568",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1874,
+        "project": 23425,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Where does nnU-Net perform well and where does it not perform?\n\nnnU-Net excels in segmentation problems that need to be solved by training from scratch,  for example: research applications that feature non-standard image modalities and input channels, challenge datasets from the biomedical domain, majority of 3D segmentation problems, etc . We have yet to find a  dataset for which nnU-Net's working principle fails!\n\nNote: On standard segmentation  problems, such as 2D RGB images in ADE20k and Cityscapes, fine-tuning a foundation model (that was pretrained on a large corpus of  similar images, e.g. Imagenet 22k, JFT-300M) will provide better performance than nnU-Net! That is simply because these  models allow much better initialization. Foundation models are not supported by nnU-Net as  they 1) are not useful for segmentation problems that deviate from the standard setting (see above mentioned  datasets), 2) would typically only support 2D architectures and 3) conflict with our core design principle of carefully adapting  the network topology for each dataset (if the topology is changed one can no longer transfer pretrained weights!)",
+      "section": "What is nnU-Net? (part 7)",
+      "repo": "110_nnU-Net",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.684648Z",
+    "updated_at": "2025-11-04T17:54:12.805545Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23425,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1875,
+    "annotations": [
+      {
+        "id": 10567,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:54:17.433927Z",
+        "updated_at": "2025-11-04T17:54:17.433945Z",
+        "draft_created_at": null,
+        "lead_time": 4.473,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "60c9bddb-888c-4c39-a5ad-732a5d6cbf5f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1875,
+        "project": 23425,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## What happened to the old nnU-Net?\n\nThe core of the old nnU-Net was hacked together in a short time period while participating in the Medical Segmentation  Decathlon challenge in 2018. Consequently, code structure and quality were not the best. Many features  were added later on and didn't quite fit into the nnU-Net design principles. Overall quite messy, really. And annoying to work with.\n\nnnU-Net V2 is a complete overhaul. The \"delete everything and start again\" kind. So everything is better  (in the author's opinion haha). While the segmentation performance [remains the same] https://docs.google.com/spreadsheets/d/13gqjIKEMPFPyMMMwA1EML57IyoBjfC3-QCTn4zRN_Mg/edit?usp=sharing, a lot of cool stuff has been added.  It is now also much easier to use it as a development framework and to manually fine-tune its configuration to new  datasets. A big driver for the reimplementation was also the emergence of [Helmholtz Imaging] http://helmholtz-imaging.de,  prompting us to extend nnU-Net to more image formats and domains. Take a look [here] documentation/changelog.md for some highlights.",
+      "section": "What is nnU-Net? (part 8)",
+      "repo": "110_nnU-Net",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.684668Z",
+    "updated_at": "2025-11-04T17:54:17.467348Z",
+    "inner_id": 9,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23425,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1876,
+    "annotations": [
+      {
+        "id": 10568,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:54:18.940019Z",
+        "updated_at": "2025-11-04T17:54:18.940125Z",
+        "draft_created_at": null,
+        "lead_time": 1.297,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "56903500-d803-4a0f-a4b1-7b4e8ec1466d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1876,
+        "project": 23425,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Acknowledgements\n\nnnU-Net is developed and maintained by the Applied Computer Vision Lab (ACVL) of [Helmholtz Imaging] http://helmholtz-imaging.de  and the [Division of Medical Image Computing] https://www.dkfz.de/en/mic/index.php at the  [German Cancer Research Center (DKFZ)] https://www.dkfz.de/en/index.html.",
+      "section": "Acknowledgements",
+      "repo": "110_nnU-Net",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.684688Z",
+    "updated_at": "2025-11-04T17:54:18.967716Z",
+    "inner_id": 10,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23425,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

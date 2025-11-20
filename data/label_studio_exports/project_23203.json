@@ -1,0 +1,603 @@
+[
+  {
+    "id": 509,
+    "annotations": [
+      {
+        "id": 11446,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 138,
+              "end": 181,
+              "text": "https://exploreasl.github.io/Documentation/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "0PjNuYQQt4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 22,
+              "end": 60,
+              "text": "https://doi.org/10.5281/zenodo.3905262",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "ZXuqWg5YA0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:32:50.378806Z",
+        "updated_at": "2025-11-16T05:29:21.371181Z",
+        "draft_created_at": "2025-11-07T08:32:49.236267Z",
+        "lead_time": 16.323999999999998,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "55be69d8-faf9-4a7f-8d86-f8c086eee320",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 509,
+        "project": 23203,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](#contributors-) [](https://doi.org/10.5281/zenodo.3905262) [](https://nl.mathworks.com/matlabcentral/fileexchange/83203-exploreasl) [](https://exploreasl.github.io/Documentation/)",
+      "section": "Introduction (part 1)",
+      "repo": "055_ExploreASL",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.198914Z",
+    "updated_at": "2025-11-16T05:29:21.403457Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23203,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 510,
+    "annotations": [
+      {
+        "id": 11447,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:32:55.224447Z",
+        "updated_at": "2025-11-07T08:32:55.224460Z",
+        "draft_created_at": null,
+        "lead_time": 1.718,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "837982a0-5980-41cb-999c-39543eb1abca",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 510,
+        "project": 23203,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Description\n\nExploreASL is a pipeline and toolbox for image processing and statistics of arterial spin labeling perfusion MR images. It is designed as a multi-OS, open-source, collaborative framework that facilitates cross-pollination between image processing method developers and clinical investigators.\n\nThe software provides a complete head-to-tail approach that runs fully automatically, encompassing all necessary tasks from data import and structural segmentation, registration, and normalization, up to CBF quantification. In addition, the software package includes quality control (QC) procedures and region-of-interest (ROI) as well as voxel-wise analysis of the extracted data. To date, ExploreASL has been used for processing ~10000 ASL datasets from all major MRI vendors and ASL sequences and a variety of patient populations, representing ~30 studies. The ultimate goal of ExploreASL is to combine data from multiple studies to identify disease-related perfusion patterns that may prove crucial in using ASL as a diagnostic tool and enhance our understanding of the interplay of perfusion and structural changes in neurodegenerative pathophysiology.\n\nAdditionally, this (semi-)automatic pipeline allows us to minimize manual intervention, which increases the reproducibility of studies.",
+      "section": "Introduction (part 2)",
+      "repo": "055_ExploreASL",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.198956Z",
+    "updated_at": "2025-11-07T08:32:55.251621Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23203,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 511,
+    "annotations": [
+      {
+        "id": 11448,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 111,
+              "end": 153,
+              "text": "https://exploreasl.github.io/Documentation",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "VgSJUQ6N4b",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 220,
+              "end": 261,
+              "text": "https://pubmed.ncbi.nlm.nih.gov/32526385/",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "3nKD-LnqI_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:33:52.902133Z",
+        "updated_at": "2025-11-16T05:29:25.927176Z",
+        "draft_created_at": "2025-11-07T08:33:23.819478Z",
+        "lead_time": 60.714999999999996,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "17ad71a7-3015-499d-8f0a-4641515c9ff2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 511,
+        "project": 23203,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Documentation\n\nReference manual and tutorials for each ExploreASL version are found on the [GitHub website] https://exploreasl.github.io/Documentation. A general description of ExploreASL is in the [Neuroimage paper] https://pubmed.ncbi.nlm.nih.gov/32526385/. Additional resources are on the [ExploreASL website] https://www.ExploreASL.org including the walkthrough document and how-to videos, but these are not regularly updated with new versions. For any help please use the [GitHub Discussion] https://github.com/ExploreASL/ExploreASL/discussions or contact the ExploreASL team at [exploreasl.lab@gmail.com] mailto:exploreasl.lab@gmail.com.\n\n## Installation\n\nTo use ExploreASL within Matlab, you can download a stable release version from the [GitHub releases section] https://github.com/ExploreASL/ExploreASL/releases or from [Zenodo] https://doi.org/10.5281/zenodo.7702237. Alternatively the software can also be found on [Dockerhub] https://hub.docker.com/r/exploreasl/xasl. Navigate within Matlab to the ExporeASL directory, to make ExploreASL the current working directory. To start ExploreASL from Matlab, type:\n\n## Workflow",
+      "section": "Introduction (part 3)",
+      "repo": "055_ExploreASL",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.198980Z",
+    "updated_at": "2025-11-16T05:29:25.956710Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23203,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 512,
+    "annotations": [
+      {
+        "id": 11449,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:34:02.382649Z",
+        "updated_at": "2025-11-07T08:34:02.382679Z",
+        "draft_created_at": null,
+        "lead_time": 9.299,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "639a5ae6-851f-4954-bac2-008c85b31d7e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 512,
+        "project": 23203,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Acknowledgments\n\nThis project is supported by the Dutch Heart Foundation (2020T049), the Eurostars-2 joint programme with co-funding from the European Union Horizon 2020 research and innovation programme ([ASPIRE E!113701] http://aspire-mri.eu/, including the Netherlands Enterprise Agency (RvO), and by the EU Joint Program for Neurodegenerative Disease Research, including the Netherlands Organisation for health Research and Development and Alzheimer Nederland ([DEBBIE JPND2020-568-106] https://www.neurodegenerationresearch.eu/wp-content/uploads/2021/03/Project-DEBBIE.pdf.\n\nThis project has previously received support from the following EU/EFPIA Innovative Medicines Initiatives (1 and 2) Joint Undertakings: [EPAD] http://ep-ad.org/ grant no. 115736, [AMYPAD] https://amypad.eu/ grant no. 115952 and [Amsterdam Neuroscience] https://www.amsterdamresearch.org/web/neuroscience/home.htm. The authors wish to thank the [COST-AID] https://asl-network.org/ (European Cooperation in Science and Technology - Arterial spin labeling Initiative in Dementia) Action BM1103 and the Open Source Initiative for Perfusion Imaging [(OSIPI)] https://www.osipi.org/ and the [ISMRM Perfusion Study groups] https://www.ismrm.org/study-groups/perfusion-mr/ for facilitating meetings for researchers to discuss the implementation of ExploreASL. The authors acknowledge Guillaume Flandin, Robert Dahnke, and Paul Schmidt for reviewing the structural module for its implementation of [SPM12] https://www.fil.ion.ucl.ac.uk/spm/software/spm12/, [CAT12] http://www.neuro.uni-jena.de/cat/, and [LST] https://www.applied-statistics.de/lst.html, respectively; Krzysztof Gorgolewksi for his advice on the [BIDS] https://bids.neuroimaging.io/ implementation; Jens Maus for help with MEX compilation; Cyril Pernet for providing the [SPM Univariate Plus] https://osf.io/wn3h8/ QC scripts.",
+      "section": "Introduction (part 4)",
+      "repo": "055_ExploreASL",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.199039Z",
+    "updated_at": "2025-11-07T08:34:02.409761Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23203,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 513,
+    "annotations": [
+      {
+        "id": 11579,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:47:31.186923Z",
+        "updated_at": "2025-11-07T23:47:31.186940Z",
+        "draft_created_at": null,
+        "lead_time": 3.874,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e536d0be-b519-4ff1-963e-b61427376dc5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 513,
+        "project": 23203,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## How to cite\n\nThe following provides an example as how to correctly cite ExploreASL and its third-party tools. The versions of the included third-party tools are described in [CHANGES.md] https://github.com/ExploreASL/ExploreASL/blob/main/CHANGES.md for each ExploreASL release. The bare minimum of references (refs) are ref1 and ref2.\n\nThe data were analysed using ExploreASL ref1 version x.x.x ref2, including SPM12 version xxxx ref3, CAT12 version xxxxref4, and LST version x.x.xref5. This Matlab-based software was used with Matlab (MathWorks, MA, USA) version x.x (yearx)ref6.\n\n### References\n\nThe release numbers of ExploreASL (e.g. 1.9.0) follow [semantic versioning] https://semver.org/.\n\nThe [ExploreASL paper] https://www.sciencedirect.com/science/article/pii/S1053811920305176, describing the full pipeline and decisions for processing steps.\n\nThe Zenodo DOI for the actual ExploreASL release used to analyse the data, e.g. the [latest release] https://doi.org/10.5281/zenodo.3905262).\n\nThe SPM12 references [Ashburner, 2012] https://doi.org/10.1016/j.neuroimage.2011.10.025 & [Flandin and Friston, 2008] https://doi.org/10.4249/scholarpedia.6232. Note that the SPM version (e.g. 7219) is adapted and extended for use with ExploreASL.\n\nThe CAT12 reference [Gaser, 2009] https://doi.org/10.1016/S1053-8119(0971151-6). Note that the CAT12 version (e.g. 1364) is adapted for use with ExploreASL.\n\nThe LST references [Schmidt, 2017] https://www.statistical-modelling.de/LST_documentation.pdf & [de Sitter, 2017] https://doi.org/10.1016/j.neuroimage.2017.09.011. Note that the LST version (e.g. 2.0.15) is adapted for use with ExploreASL.\n\nMatlab publishes a [release] https://www.mathworks.com/help/matlab/release-notes.html twice yearly. You can provide the release number (e.g. 9.4) or year number (e.g. 2018a), or both.",
+      "section": "Introduction (part 5)",
+      "repo": "055_ExploreASL",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.199125Z",
+    "updated_at": "2025-11-07T23:47:31.212199Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23203,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 514,
+    "annotations": [
+      {
+        "id": 11580,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:47:33.593799Z",
+        "updated_at": "2025-11-07T23:47:33.593815Z",
+        "draft_created_at": null,
+        "lead_time": 2.236,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "2e35e0a3-61e3-441b-8556-e86f8e5d12d7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 514,
+        "project": 23203,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Contributors ✨\n\nThanks goes to these wonderful people ([emoji key] https://allcontributors.org/docs/en/emoji-key):",
+      "section": "Introduction (part 6)",
+      "repo": "055_ExploreASL",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.199158Z",
+    "updated_at": "2025-11-07T23:47:33.620116Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23203,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 515,
+    "annotations": [
+      {
+        "id": 11581,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:47:34.729860Z",
+        "updated_at": "2025-11-07T23:47:34.729877Z",
+        "draft_created_at": null,
+        "lead_time": 0.979,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "18b043b2-e30b-48cb-b150-57dc88094740",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 515,
+        "project": 23203,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Henk Mutsaerts👨‍🔬 🖋 💻  Jan Petr👨‍🔬 🖋 💻  Michael Stritt💻 🖋 📖  Mathijs Dijsselhof🖋 🧠",
+      "section": "Introduction (part 7)",
+      "repo": "055_ExploreASL",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.199179Z",
+    "updated_at": "2025-11-07T23:47:34.756191Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23203,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 516,
+    "annotations": [
+      {
+        "id": 11582,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:47:35.385293Z",
+        "updated_at": "2025-11-07T23:47:35.385309Z",
+        "draft_created_at": null,
+        "lead_time": 0.484,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "152d1594-3399-42db-b261-612cfbc68d2e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 516,
+        "project": 23203,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Beatriz Padrela🖋 🧠      Paul Groot💻 🖋  Pieter Vandemaele💻 🤔 🧠  MauricePasternak📊 💻 🎨",
+      "section": "Introduction (part 8)",
+      "repo": "055_ExploreASL",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.199199Z",
+    "updated_at": "2025-11-07T23:47:35.411840Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23203,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 517,
+    "annotations": [
+      {
+        "id": 11583,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:47:35.957258Z",
+        "updated_at": "2025-11-07T23:47:35.957272Z",
+        "draft_created_at": null,
+        "lead_time": 0.412,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "40c9e250-e21f-4977-badf-26ae6a5f5bf9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 517,
+        "project": 23203,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Patricia Clement 🧠 🤔 📖   Sandeep Ganji🖋 🤔 🧠      Martin Craig🖋 💻 🧠  DaveThoma5🤔 🧠",
+      "section": "Introduction (part 9)",
+      "repo": "055_ExploreASL",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.199218Z",
+    "updated_at": "2025-11-07T23:47:35.984288Z",
+    "inner_id": 9,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23203,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 518,
+    "annotations": [
+      {
+        "id": 11584,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:47:36.599108Z",
+        "updated_at": "2025-11-07T23:47:36.599123Z",
+        "draft_created_at": null,
+        "lead_time": 0.475,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "2289e8e0-7d70-42be-92eb-97b158828228",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 518,
+        "project": 23203,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Amnah Mahroo🤔 🧠  luislorenzini💻 🔧  jozsait💻 🚧",
+      "section": "Introduction (part 10)",
+      "repo": "055_ExploreASL",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.199238Z",
+    "updated_at": "2025-11-07T23:47:36.625999Z",
+    "inner_id": 10,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23203,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 519,
+    "annotations": [
+      {
+        "id": 11585,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:47:37.240266Z",
+        "updated_at": "2025-11-07T23:47:37.240280Z",
+        "draft_created_at": null,
+        "lead_time": 0.479,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "debffe6c-22f7-422b-8bcb-03a304c9a3b0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 519,
+        "project": 23203,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "This project follows the [all-contributors] https://github.com/all-contributors/all-contributors specification. Contributions of any kind welcome!",
+      "section": "Introduction (part 11)",
+      "repo": "055_ExploreASL",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.199257Z",
+    "updated_at": "2025-11-07T23:47:37.269697Z",
+    "inner_id": 11,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23203,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

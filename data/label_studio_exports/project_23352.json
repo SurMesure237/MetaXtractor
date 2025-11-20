@@ -1,0 +1,414 @@
+[
+  {
+    "id": 1497,
+    "annotations": [
+      {
+        "id": 10854,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:32:53.993489Z",
+        "updated_at": "2025-11-05T17:32:53.993502Z",
+        "draft_created_at": null,
+        "lead_time": 7.734,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c6024bd4-ef52-4924-a4b2-5b1d1646e578",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1497,
+        "project": 23352,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "SUbStack ANalysis (SUSAN): High performance Subtomogram Averaging (Personal/Development version)\n\n## Contents\n\n[Description] #description\n\n[Building and setup instructions] #building-and-setup-instructions\n\n[Dependencies] #dependencies\n\n[Setup and compilation] #initial-setup-and-compilation\n\n[Python setup] #python-setup\n\n[Matlab setup] #matlab-setup\n\n[Installing in a conda environment (Python)] #installing-susan-in-a-conda-environment-for-python\n\n[Tutorial] #tutorial\n\n## Description\n\nSUSAN is a low-level/mid-level framework for fast Subtomogram Averaging (StA) for CryoEM. It uses susbtacks instead of subtomograms that are cropped on-the-fly from the aligned stacks to reduce the computational complexity and to increase the overall performace of the StA pipeline.\n\nSUSAN was designed to be modular, flexible and fast. It is conformed by two layers: Low-level layer: Set of executables that perform the demanding computations. They were written in C++ using a minimal set of dependencies: Eigen, as a header-only mathemetical engine, CUDA for GPU acceleration, and PThreads for lightweight multi-threading. Optionally, they can be built with [MPI] https://en.wikipedia.org/wiki/Message_Passing_Interface support to run in multi-node environments.\n\nMid-level layer: Set of wrappers to the previous layer that simplify its use and provides a set of non time-critical operations. It is used to create the workflows or pipelines as scripts with wrappers for Matlab and for Python. The Matlab one was designed to complement [DYNAMO] https://wiki.dynamo.biozentrum.unibas.ch/w/index.php/Main_Page, while the Python one is provided to enable integration to other pipelines based on this language.",
+      "section": "SUbStack ANalysis (SUSAN): High performance Subtomogram Averaging (part 1)",
+      "repo": "447_TomoBEAR",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.676212Z",
+    "updated_at": "2025-11-05T17:32:54.021792Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23352,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1498,
+    "annotations": [
+      {
+        "id": 10856,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 732,
+              "end": 740,
+              "text": "AGPLv3.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "YIULhG1ggC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:33:29.091069Z",
+        "updated_at": "2025-11-05T17:33:29.091089Z",
+        "draft_created_at": "2025-11-05T17:33:26.535068Z",
+        "lead_time": 31.817000000000004,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "c89731c4-13b0-46f8-b36a-dcb72581cbca",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1498,
+        "project": 23352,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### About\n\nI started the development of SUSAN at the [Independent Research Group (Sofja Kovaleskaja) of Dr. Misha Kudryashev] https://www.biophys.mpg.de/2149775/members at the Department of Structural Biology [Max Planck Institute of Biophysics (MPIBP)] https://www.biophys.mpg.de/en in Frankfurt am Main, Germany. Currently, I am an ARISE fellow at the [Kreshuk group] https://www.embl.org/groups/kreshuk/members/ at the [European Molecular Biology Laboratory (EMBL)] https://www.embl.org/ in Heidelberg, Germany. Dr. Misha Kudryashev has a new [group] https://www.mdc-berlin.de/kudryashev at the [Max Delbrück Center of Molecular Medicine (MDCMM)] https://www.mdc-berlin.de/ in Berlin, Germany.\n\nSUSAN is an Open Source project ([AGPLv3.0] LICENSE)\n\n## Building and setup instructions\n\n### Dependencies\n\nCUDA.\n\ngcc.\n\ncmake.\n\ngit.\n\n#### Optional\n\nOpenMPI, or equivalent, for multi-node support\n\nMatlab\n\n### Initial setup and compilation\n\nWe assume that SUSAN will be installed in the LOCAL_SUSAN_PATH folder (LOCAL_SUSAN_PATH can be /home/user/Software/, for example) Install the desired dependencies.\n\nClone SUSAN to LOCAL_SUSAN_PATH:\n\n``  cd LOCAL_SUSAN_PATH  git clone https://github.com/rkms86/SUSAN  ` Compile SUSAN:\n\n`  mkdir bin  cd bin  cmake ../  make -j  `  Note: The cmake procedure detects the availabilty of OpenMPI and Matlab and compiles their functionalities accordingly.    HINT: You can use ` cmake ../ -DCMAKE_CUDA_COMPILER=$(which nvcc) ` in order to avoid problems with CMake and Cuda.\n\n### Python` setup",
+      "section": "SUbStack ANalysis (SUSAN): High performance Subtomogram Averaging (part 2)",
+      "repo": "447_TomoBEAR",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.676250Z",
+    "updated_at": "2025-11-05T17:33:29.118676Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23352,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1499,
+    "annotations": [
+      {
+        "id": 10857,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 285,
+              "end": 288,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ult8OCUPfS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 107,
+              "end": 112,
+              "text": "NumPy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "_rzhOocGcX",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 138,
+              "end": 143,
+              "text": "Numba",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "fSlPE9ULq8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 203,
+              "end": 208,
+              "text": "conda",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "aXF73UW7H1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 145,
+              "end": 170,
+              "text": "https://numba.pydata.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "QjN5e2UBJX",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 290,
+              "end": 307,
+              "text": "https://pypi.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "DOIZyPZyfa",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 210,
+              "end": 226,
+              "text": "https://conda.io",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "eKaJtaMGDJ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 114,
+              "end": 132,
+              "text": "https://numpy.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "3fQLqU8Dfk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 741,
+              "end": 744,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "SScalAhCc9",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 746,
+              "end": 763,
+              "text": "https://pypi.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "9WIFnGL6N5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:34:03.567560Z",
+        "updated_at": "2025-11-15T17:36:21.802766Z",
+        "draft_created_at": "2025-11-05T17:33:41.033831Z",
+        "lead_time": 75.786,
+        "prediction": {},
+        "result_count": 10,
+        "unique_id": "58ede864-4525-4d4e-9546-357a553b92cb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1499,
+        "project": 23352,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### Dependencies\n\nBesides the standard libraries, the SUSAN module for Python has only two dependencies: [NumPy] https://numpy.org/ and [Numba] https://numba.pydata.org/. Install them if needed: Using [conda] https://conda.io (or equivalent):\n\n``  conda install numpy numba  ` Using [pip] https://pypi.org/\n\n`  pip install numpy numba  `\n\n#### Option 1: Using susan without installation\n\nLOCAL_SUSAN_PATH must be added to path first and then the susan module can be imported. On the Python command line, or on a Python script:\n\nimport sys sys.path.insert(1,'LOCAL_SUSAN_PATH') import susan\n\n#### Option 2: Install susan in the current Python environment\n\nAfter executing the optional steps for the Python module, it can be installed using [pip] https://pypi.org/ and the provided [setup.py] setup.py file. In the LOCAL_SUSAN_PATH execute:\n\npip install .\n\nAfter this step, the module susan should be available to be imported.\n\n### Matlab setup\n\nLOCAL_SUSAN_PATH must be added to path. On the Matlab command line, or on a Matlab` script:\n\naddpath LOCAL_SUSAN_PATH",
+      "section": "SUbStack ANalysis (SUSAN): High performance Subtomogram Averaging (part 3)",
+      "repo": "447_TomoBEAR",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.676275Z",
+    "updated_at": "2025-11-15T17:36:21.841929Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23352,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1500,
+    "annotations": [
+      {
+        "id": 10858,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:34:08.749140Z",
+        "updated_at": "2025-11-05T17:34:08.749157Z",
+        "draft_created_at": null,
+        "lead_time": 4.986,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e236d5ea-8828-4b86-8de4-434647b8111b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1500,
+        "project": 23352,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Installing SUSAN in a conda environment (for Python)\n\nSUSAN can be built and installed inside a [conda environment] https://conda.io/projects/conda/en/latest/user-guide/concepts/environments.html:\n\n(Optional) Create a new conda environment and activate it:\n\n``  conda create -n susan_env  conda activate susan_env  ` Install the basic packages needed for building and using SUSAN\n\n`  conda install -c conda-forge git cmake make cudatoolkit-dev=11 gxx=10 numpy numba  ` (Optional) Install openmpi:\n\n`  conda install -c conda-forge openmpi  ` (Optional) Install packages to run the examples and tutorials:\n\n`  conda install -c conda-forge jupyter scipy matplotlib scikit-image  ` Go to the directory LOCAL_SUSAN_PATH, where SUSAN will be compiled. For example, LOCAL_SUSAN_PATH can be ~/Software/:\n\n`  cd LOCAL_SUSAN_PATH  ` Clone SUSAN, compile it and install it:\n\n`  git clone https://github.com/rkms86/SUSAN  mkdir SUSAN/bin  cd SUSAN/bin  cmake ../  make -j  pip install ../  ` After these step the module susan should be available on the current environment.\n\n## Tutorial\n\nA tutorial is available for Python and Matlab for the mixedCTEM dataset from the [EMPIAR-10064] https://www.ebi.ac.uk/empiar/EMPIAR-10064/. It is assumed that the wget and gunzip commands and the IMOD framework are installed in the system.\n\n### Preparing the data\n\nDownload the dataset (uses wget):\n\n`  cd LOCAL_SUSAN_PATH/tutorials/empiar_10064/data  ./download_data.sh  ` Create the aligned stacks (uses IMOD):\n\n`  ./create_binned_aligned_stacks.sh  ` Uncompress the initial reference (uses gunzip):\n\n`  cd LOCAL_SUSAN_PATH/tutorials/empiar_10064  gunzip emd_3420_b4.mrc.gz  ``",
+      "section": "SUbStack ANalysis (SUSAN): High performance Subtomogram Averaging (part 4)",
+      "repo": "447_TomoBEAR",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.676299Z",
+    "updated_at": "2025-11-05T17:34:08.776496Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23352,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1501,
+    "annotations": [
+      {
+        "id": 10859,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:34:10.292948Z",
+        "updated_at": "2025-11-05T17:34:10.292965Z",
+        "draft_created_at": null,
+        "lead_time": 1.335,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "34a62d5c-39da-44eb-9f9e-994b9a33f1a6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1501,
+        "project": 23352,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Running the Tutorial\n\nDepending on the system setup: For Matlab use [workflow.m] tutorials/empiar_10064/workflow.m.\n\nFor Python use [workflow.ipynb] tutorials/empiar_10064/workflow.ipynb (as a [Jupyter Notebook] https://jupyter.org/install).",
+      "section": "SUbStack ANalysis (SUSAN): High performance Subtomogram Averaging (part 5)",
+      "repo": "447_TomoBEAR",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.676322Z",
+    "updated_at": "2025-11-05T17:34:10.323477Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23352,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "codeRepository": "https://github.com/ginkgo-project/ginkgo",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "CMake",
+    "Cuda",
+    "Python",
+    "Shell",
+    "NASL",
+    "R"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ginkgo-project/ginkgo/zipball/main",
+  "author": "ginkgo-project",
+  "dateCreated": "2018-01-11T16:14:21Z",
+  "dateModified": "2025-10-29T13:14:02Z",
+  "keywords": [
+    "cuda",
+    "dpcpp",
+    "gpu-computing",
+    "hip",
+    "hpc",
+    "krylov-methods",
+    "linear-algebra",
+    "oneapi",
+    "openmp",
+    "preconditioning",
+    "sparse-linear-systems",
+    "spmv"
+  ],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "Numerical linear algebra software package",
+  "identifier": 117122510,
+  "name": "ginkgo-project/ginkgo",
+  "issueTracker": "https://api.github.com/repos/ginkgo-project/ginkgo/issues",
+  "readme": "https://github.com/ginkgo-project/ginkgo/blob/develop/README.md"
+}

@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/MyDigiTwinNL/CDF2Medmij-Mapping-tool",
+  "programmingLanguage": "TypeScript",
+  "programmingLanguages": [
+    "TypeScript",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/MyDigiTwinNL/CDF2Medmij-Mapping-tool/zipball/main",
+  "author": "MyDigiTwinNL",
+  "dateCreated": "2023-06-12T07:10:24Z",
+  "dateModified": "2025-06-24T08:49:42Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Tool for transforming Cohort-study Data (CDF) into FHIR/MedMij compliant resource bundles",
+  "identifier": 652487256,
+  "name": "MyDigiTwinNL/CDF2Medmij-Mapping-tool",
+  "issueTracker": "https://api.github.com/repos/MyDigiTwinNL/CDF2Medmij-Mapping-tool/issues",
+  "readme": "https://github.com/MyDigiTwinNL/CDF2Medmij-Mapping-tool/blob/main/README.md"
+}

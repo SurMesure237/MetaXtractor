@@ -1,0 +1,161 @@
+[
+  {
+    "id": 1473,
+    "annotations": [
+      {
+        "id": 11972,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 751,
+              "end": 755,
+              "text": "Deno",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "VpXzfwjG-4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 757,
+              "end": 822,
+              "text": "https://docs.deno.com/runtime/manual/getting_started/installation",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "DW1Ajl0u20",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 270,
+              "end": 277,
+              "text": "JSONATA",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "nkO8hFYmlc",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 279,
+              "end": 299,
+              "text": "https://jsonata.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "gfH2ojx4M_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:00:13.387659Z",
+        "updated_at": "2025-11-15T18:17:05.508428Z",
+        "draft_created_at": "2025-11-09T06:58:56.934515Z",
+        "lead_time": 156.491,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "3fd85e6a-ab55-4465-8ab0-c72bb7f37f77",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1473,
+        "project": 23350,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "EXCEL to FHIR\n\nA typescript package to convert spreadsheet (EXCEL) to FHIR resources in JSON.\n\nThe workflow is as follows:\n\nconvert format: read the spreadsheet and convert it to JSON\n\ntransform schema: transform the JSON using JSONATA to FHIR resources (JSON)\n\nWe use [JSONATA] https://jsonata.org/ to transform schemas with mapping rules defined in a .jsonata file.\n\nThis package aims to transform GameBus Excel to FHIR R4 (ConceptMap) resources, for which the mapping rules have been defined in [this folder] jsonata. If there are changes on GameBus Excel schema (e.g. changes on sheets and colomns), the mapping rules must be updated accordingly. An example of the GameBus Excel file is provided as [gamebus.xlsx] gamebus.xlsx.\n\n## Requirements\n\n[Deno] https://docs.deno.com/runtime/manual/getting_started/installation\n\nIf you have deno installed, it's a good practice to update it to lastest version using the command: deno upgrade.\n\n## Usage\n\n### Run the typescript package directly:\n\nrun conversion deno run --allow-read --allow-write https://raw.githubusercontent.com/nwo-strap/excel-to-fhir/main/excel-to-fhir.ts -f example-excel.xlsx -s sheetname1 sheetname2 -j mapping1.jsonata mapping2.jsonata\n\nshow help deno run --allow-read --allow-write https://raw.githubusercontent.com/nwo-strap/excel-to-fhir/main/excel-to-fhir.ts -h\n\n### Run the typescript package as a command line tool\n\nIf you want to install the package as CLI tool and run:\n\ninstall deno install --allow-read --allow-write https://raw.githubusercontent.com/nwo-strap/excel-to-fhir/main/excel-to-fhir.ts\n\nrun conversion excel-to-fhir -f example-excel.xlsx -s sheetname1 sheetname2 -j mapping1.jsonata mapping2.jsonata",
+      "section": "EXCEL to FHIR + run conversion + show help (and 2 more)",
+      "repo": "399_Excel-to-fhir",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.429740Z",
+    "updated_at": "2025-11-15T18:17:05.546544Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23350,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1474,
+    "annotations": [
+      {
+        "id": 11973,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:00:22.862801Z",
+        "updated_at": "2025-11-09T07:00:22.862818Z",
+        "draft_created_at": null,
+        "lead_time": 9.286,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e8007f98-4f67-40fe-adaa-e85f7f2e819e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1474,
+        "project": 23350,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "show help excel-to-fhir --help\n\n### Use Deno tasks in repo\n\nYou can define [Deno tasks] https://docs.deno.com/runtime/manual/tools/task_runner in the [deno.json] deno.json file with specific inputs and options.\n\nIn the file you can find the task transform, which is defined to convert [gamebus.xlsx] gamebus.xlsx file to FHIR resources with all valid sheets (with all corresponding jsonata files). You can run the conversion with the following command:\n\nclone the repo git clone https://github.com/nwo-strap/excel-to-fhir.git cd excel-to-fhir\n\nrun the task deno task transform\n\n## Development\n\nTo run unit tests, use the following command:\n\ndeno test --allow-read --allow-write\n\nTo watch file changes and check output during development, use the following command:\n\ndeno task dev",
+      "section": "show help + clone the repo + run the task",
+      "repo": "399_Excel-to-fhir",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.429777Z",
+    "updated_at": "2025-11-09T07:00:22.893114Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23350,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Aydin"
+  given-names: "Alina"
+- family-names: "Hageman"
+  given-names: "Bart"
+- family-names: "Lankhorst"
+  given-names: "Bram"
+- family-names: "Hendriksen"
+  given-names: "Jarno"
+- family-names: "Donkers"
+  given-names: "Quinn"
+- family-names: "Schouten"
+  given-names: "Rowin"
+- family-names: "Bolhuis"
+  given-names: "Tjibbe"
+- family-names: "Bykova"
+  given-names: "Valia"
+- name: "The FAIRSECO contributors"
+  website: "https://github.com/QDUNI/FairSECO/graphs/contributors"
+title: "FAIRSECO"
+version: 1.0.0
+date-released: 2023-02-01
+url: "https://github.com/QDUNI/FairSECO"

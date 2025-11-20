@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": "Brei [](https://github.com/entangled/brei) [](https://github.com/entangled/brei/actions/workflows/python-package.yml) [](https://pypi.org/project/brei) [](https://entangled.github.io/)\n\nMinimal workflow system and alternative to Make.\n\nRead from TOML or JSON (also pyproject.toml in [tool.brei] section)\n\nOnly Python &ge; 3.11 required\n\nRuns task lazily and in parallel\n\nSupports variables, templates, includes and custom runners\n\nRead more: [documentation] https://entangled.github.io/brei\n\n## Why (yet another workflow tool)\n\nThis tool was developed as part of the Entangled project, but can be used on its own. Brei is meant to perform small scale automisations for literate programming in Entangled, like generating figures, and performing computations locally. It requires no setup to work with and workflows are easy to understand by novice users. If you have any more serious needs than that, we'd recommend to use a more tried and proven system, of which there are too many to count.\n\n## When to use\n\nYou're running a project, there's lots of odds and ends that need automisation. You'd use a Makefile but your friend is on Windows and doesn't have GNU Make installed. You try to ship a product that needs this, but don't want to confront people trying it for the first time with a tonne of stuff they've never heard of.\n\n## Install\n\nTo install, you may:\n\npip install brei\n\nOr you use a tool for virtual environments, we recommend [Poetry] https://python-poetry.org/, after creating a new project with poetry init:\n\npoetry add brei",
+      "section": "Brei (part 1)",
+      "repo": "283_Brei",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Development\n\nTo run unit tests and type checker:\n\npoetry install poetry shell brei test\n\nTo build the documentation, run the brei weave workflow:",
+      "section": "Brei (part 2)",
+      "repo": "283_Brei",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "poetry shell brei weave\n\nSome parts of Brei are literate. Run the entangled watch daemon while editing code,\n\nentangled watch\n\nor else, as a batch job, stitch changes before committing:\n\nentangled stitch\n\n## License\n\nCopyright Netherlands eScience Center, Apache License, see LICENSE.",
+      "section": "poetry shell",
+      "repo": "283_Brei",
+      "source_file": "readme.md"
+    }
+  }
+]

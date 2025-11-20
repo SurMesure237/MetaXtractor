@@ -1,0 +1,51 @@
+cff-version: "1.2.0"
+date-released: 2023-02
+message: "If you use this software, please cite it as follows."
+title: "Inseq: An Interpretability Toolkit for Sequence Generation Models"
+url: "https://github.com/inseq-team/inseq"
+license: Apache-2.0
+authors:
+  - family-names: Sarti
+    given-names: Gabriele
+    orcid: "https://orcid.org/0000-0001-8715-2987"
+  - family-names: Feldhus
+    given-names: Nils
+  - family-names: Sickert
+    given-names: Ludwig
+  - family-names: "van der Wal"
+    given-names: Oskar
+    orcid: "https://orcid.org/0000-0003-4087-3714"
+  - family-names: Nissim
+    given-names: Malvina
+    orcid: "https://orcid.org/0000-0001-5289-0971"
+  - family-names: Bisazza
+    given-names: Arianna
+    orcid: "https://orcid.org/0000-0003-1270-3048"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: Sarti
+    given-names: Gabriele
+    orcid: "https://orcid.org/0000-0001-8715-2987"
+  - family-names: Feldhus
+    given-names: Nils
+  - family-names: Sickert
+    given-names: Ludwig
+  - family-names: "van der Wal"
+    given-names: Oskar
+    orcid: "https://orcid.org/0000-0003-4087-3714"
+  - family-names: Nissim
+    given-names: Malvina
+    orcid: "https://orcid.org/0000-0001-5289-0971"
+  - family-names: Bisazza
+    given-names: Arianna
+    orcid: "https://orcid.org/0000-0003-1270-3048"
+  booktitle: "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)"
+  month: 7
+  title: "Inseq: An Interpretability Toolkit for Sequence Generation Models"
+  year: 2023
+  url: "https://aclanthology.org/2023.acl-demo.40"
+  start: 421
+  end: 435
+  publisher: "Association for Computational Linguistics"
+  address: "Toronto, Canada"

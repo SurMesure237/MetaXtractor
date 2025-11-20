@@ -1,0 +1,32 @@
+{
+  "codeRepository": "https://github.com/PMEAL/porespy",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "C",
+    "Shell",
+    "Meson",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/PMEAL/porespy/zipball/main",
+  "author": "PMEAL",
+  "dateCreated": "2015-05-06T20:35:41Z",
+  "dateModified": "2025-10-30T05:05:23Z",
+  "keywords": [
+    "3d-images",
+    "image-analysis",
+    "porespy",
+    "porous-materials",
+    "porous-media",
+    "python",
+    "scientific-visualization",
+    "tomography",
+    "voxel-generator"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "A set of tools for characterizing and analyzing 3D images of porous materials",
+  "identifier": 35181546,
+  "name": "PMEAL/porespy",
+  "issueTracker": "https://api.github.com/repos/PMEAL/porespy/issues",
+  "readme": "https://github.com/PMEAL/porespy/blob/dev/README.md"
+}

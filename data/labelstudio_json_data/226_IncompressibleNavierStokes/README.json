@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": "Energy-conserving Finite Volume method for the incompressible Navier-Stokes equations This is the 2D version. [For 3D, click here] https://github.com/bsanderse/INS3D.\n\nThis is the Matlab version. [For Julia, click here] https://github.com/agdestein/IncompressibleNavierStokes.jl.\n\n## Quick installation and run\n\nMATLAB is required, but no specific toolboxes. The code has been tested succesfully under Octave in the past (no guarantees).\n\nRun one of the existing case files by typing main('casename'), e.g. main('LDC') to run the lid-driven cavity test case\n\nIn general, in order to run simulations:\n\ncreate a folder in the case_files directory, preferably by copying an existing folder. The files present in this folder should be at least parameters\n\nIC (initial conditions)\n\nBCtype (type of boundary conditions)\n\nuBC and vBC (boundary condition values)\n\nmesh\n\nand optionally: pp (postprocessing)\n\nrtp (real time plot)\n\nforce (body force)\n\nduBCdt and dvBCdt (time-derivative of boundary conditions)\n\n## Spatial discretization\n\nenergy-conserving convection\n\nsecond order and fourth order spatial discretization, [paper] https://www.sciencedirect.com/science/article/pii/S0021999113006670\n\nstaggered cartesian grid (uniform or non-uniform)\n\ngeneral boundary conditions, including wall, inflow, periodic, outflow, symmetry\n\nbody forces: actuator methods and immersed boundary method\n\n(also: moving actuators and adapted RK time integration) turbulence with RANS-like models, e.g. algebraic eddy viscosity model and k-epsilon model\n\nturbulence with regularization modeling",
+      "section": "Energy-conserving Finite Volume method for the incompressible Navier-Stokes equations (part 1)",
+      "repo": "226_IncompressibleNavierStokes",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Temporal discretization\n\ntime integration methods:\n\ngeneric explicit Runge-Kutta, [paper] https://www.sciencedirect.com/science/article/pii/S0021999111006838\n\ngeneric implicit Runge-Kutta, [paper] https://www.sciencedirect.com/science/article/pii/S002199911200424X\n\none-leg beta\n\nAdams-Bashforth / Crank-Nicolson\n\nfor RANS only backward Euler available (timestepping to steady state)\n\npressure solver: direct (LU), preconditioned CG, or fast Fourier.\n\nsteady solver solves the entire non-linear saddlepoint system with mixed Picard / Newton\n\nfor RANS solution of fully coupled system (u,v,p,k,e) this is in general slow and convergence   is not guaranteed; better to use unsteady time-stepping to steady state\n\n## Reduced-order model\n\nenergy-conserving reduced order modeling (ROM) in POD-Galerkin framework, [paper] https://www.sciencedirect.com/science/article/pii/S0021999120305106\n\npressure-free\n\nprecomputation of operators including projection of boundary vectors\n\n## Results and testsuite\n\n### Writing results\n\nThere are different ways to get results out of the code. use the syntax [V,p,options]=main('testcase'); to get the velocity and pressure at the end of the simulation. Useful when the code is called several times from another script, but returns only velocity and pressure (plus code settings given in options).\n\nuse the save_ options in the parameter file to determine output writing; in this way a new folder in the results folder is created for each run, for example with all time-dependent data and convergence information. Useful for detailed analysis of a testcase with different parameter settings.\n\nuse the realtimeplotting (rtp) file (executed after each time step). Useful for example to make movies.\n\nuse the postprocessing file (executed at the end of the simulation). Useful to generate paper-ready plots for a given testcase.",
+      "section": "Energy-conserving Finite Volume method for the incompressible Navier-Stokes equations (part 2)",
+      "repo": "226_IncompressibleNavierStokes",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Running testsuite\n\nTo compare with previously obtained benchmark data, use: run_testsuite('case_name') or\n\nrun_testsuite({'case_name1','case_name2'})",
+      "section": "Energy-conserving Finite Volume method for the incompressible Navier-Stokes equations (part 3)",
+      "repo": "226_IncompressibleNavierStokes",
+      "source_file": "readme.md"
+    }
+  }
+]

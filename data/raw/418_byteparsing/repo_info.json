@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/parallelwindfarms/byteparsing",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "C++",
+    "TeX",
+    "Makefile",
+    "Batchfile",
+    "Dhall",
+    "CSS"
+  ],
+  "downloadUrl": "https://api.github.com/repos/parallelwindfarms/byteparsing/zipball/main",
+  "author": "parallelwindfarms",
+  "dateCreated": "2019-08-19T08:23:43Z",
+  "dateModified": "2024-12-15T14:59:47Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Parser for mixed binary/ASCII data in Python",
+  "identifier": 203130084,
+  "name": "parallelwindfarms/byteparsing",
+  "issueTracker": "https://api.github.com/repos/parallelwindfarms/byteparsing/issues",
+  "readme": "https://github.com/parallelwindfarms/byteparsing/blob/master/README.md"
+}

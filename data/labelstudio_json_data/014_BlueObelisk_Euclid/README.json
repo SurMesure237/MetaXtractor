@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "# CML Euclid\n\n[](https://maven-badges.herokuapp.com/maven-central/org.blueobelisk/euclid) [](https://github.com/BlueObelisk/euclid/actions/workflows/maven.yml) [](https://doi.org/10.5281/zenodo.5815148) [](https://codecov.io/gh/BlueObelisk/euclid)\n\nA library of numeric, geometric and XML routines\n\nEuclid was written ca. 1994 as Java had no useful libraries then. Much of the functionality is now present in Apache and other libraries and in an ideal world Euclid maths and geometry could be replaced. However, there are additions that are valuable.\n\nIt's used a lot in CML tools (JUMBO, JUMBO-converters) and also AMI (for extracting semantics from PDFs).\n\n## Releases\n\nInstructions to increase the version:\n\nmvn versions:set -DnewVersion=2.13-SNAPSHOT\n\nDeploy to Sonatype with the following commands, for snapshots and releases respectively:\n\nmvn clean deploy",
+      "section": "README",
+      "repo": "014_BlueObelisk_Euclid",
+      "source_file": "readme.md"
+    }
+  }
+]

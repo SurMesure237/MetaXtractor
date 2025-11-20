@@ -1,0 +1,50 @@
+[
+  {
+    "data": {
+      "text": "[](https://travis-ci.org/joenio/holodev)",
+      "section": "Introduction",
+      "repo": "340_holodev",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "holodev\n\nholodev is a command-line tool to simplify the creation of Linux Containers.\n\nIt is developed under the [UNIX][unix] philosophy (Do One Thing and Do It Well) and the [GNU][gnu] principles (free as in freedom).",
+      "section": "holodev (part 1)",
+      "repo": "340_holodev",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## A holodeck for software development\n\nA tool to facilitate the creation of Linux Containers for local development environments, it supports only Linux Containers running Debian distribution.\n\nThe name holodev is a reference to the Holodeck from Star Trek:\n\nhttp://en.wikipedia.org/wiki/Holodeck\n\nSupported GNU/Linux distributions:",
+      "section": "holodev (part 2)",
+      "repo": "340_holodev",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Distro | holodev 0.9 | holodev 1.0 | holodev 1.1 | | ------------------- | --------------- | --------------- | --------------- | | Debian Squeezy | not supported | not supported | not supported | | Debian Wheezy | not supported | not supported | not supported | | Debian Jessie | supported | supported | not supported | | Debian Stretch | not tested | not tested | supported | | Debian Buster | supported | supported | supported | | Ubuntu Precise | not supported | not supported | not supported | | Ubuntu Trusty | supported | supported | not supported | | Ubuntu Utopic | not tested | not tested | not tested | | Ubuntu Vivid | supported | not tested | | | Ubuntu Wily | supported | not tested | | | Ubuntu Xenial | supported | supported | | | Archlinux | supported | not tested | supported | | openSUSE 42.1 | not tested | supported | | | openSUSE 42.2 | not tested | supported | | | openSUSE 42.3 | not tested | not supported | not supported | | openSUSE Tumbleweed | supported | supported | | | Fedora 24 | supported | supported | | | Fedora 25 | supported | supported | | | Fedora 26 | not tested | supported | | | Fedora 27 | not tested | supported | |",
+      "section": "holodev (part 3)",
+      "repo": "340_holodev",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## sudo\n\nUnfortunately, support for \"unprivileged containers\" in Debian Jessie is not mature enough, then holodev needs sudo to create and run \"privileged containers\".\n\n## Installing in Debian\n\nAdd the following repository to the sources.list:\n\ndeb http://debian.joenio.me unstable/\n\nDownload the key from the Debian repo:\n\n# wget -O - http://debian.joenio.me/signing.asc | apt-key add -\n\nInstall:\n\n# apt-get update  # apt-get install holodev\n\n## Installing in OpenSUSE\n\n### Development release\n\nFor development releases, you'll need to add the devel:tools equivalent to your distro version:\n\n#### Tumbleweed\n\n# zypper ar http://download.opensuse.org/repositories/devel:/tools/openSUSE_Tumbleweed/devel:tools.repo\n\n#### Leap\n\n# zypper ar http://download.opensuse.org/repositories/devel:/tools/openSUSE_Leap_42.1/devel:tools.repo\n\n#### 13.2\n\n# zypper ar http://download.opensuse.org/repositories/devel:/tools/openSUSE_13.2/devel:tools.repo\n\n#### 13.1\n\n# zypper ar http://download.opensuse.org/repositories/devel:/tools/openSUSE_13.1/devel:tools.repo\n\nThen update your repo list:\n\n# zypper ref\n\nAnd finally install holodev:\n\n# zypper in holodev\n\n### Stable release\n\nholodev is part of the default repositories for current OpenSUSE distros (Leap and Tumbleweed), so no additional repo is needed.\n\nMake sure your repos are updated:\n\n# zypper ref\n\nAnd install holodev:\n\n# zypper in holodev",
+      "section": "holodev (part 4)",
+      "repo": "340_holodev",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Installing in Archlinux\n\nTo install holodev on Archlinux it is necessary to have access to the AUR repository, and have any wrapper of pacman that watches AUR. If you are using Archlinux, it is almost safe to assume that you already have AUR and yaourt already configured to use. In any case, if you don't:\n\nTo watch AUR, edit the following file:\n\n# vi /etc/pacman.conf\n\nThen add:\n\n[archlinuxfr]  SigLevel = Never  Server = http://repo.archlinux.fr/$arch\n\nTo install yaourt follow this [link] https://archlinux.fr/yaourt-en instructions\n\nFinally, install holodev:\n\nyaourt -Syy  yaourt -S holodev\n\nor:\n\nyaourt -S holodev-git\n\nif you want the bleeding edge version.\n\n## Installing in Fedora\n\n(pending)\n\n## Using\n\n(see manpage)\n\n## Development\n\nholodev has a small test suite implemented based on shunit2:\n\nhttp://github.com/kward/shunit2\n\nTo run these tests you need to install vagrant, virtualbox and run the command vagrant up. In some cases you may need to install Virtualbox-guest-utils and perform the following:\n\n\u00a0\u00a0\u00a0\u00a0dpkg-reconfigure virtualbox-dkms\n\nUse the script development-setup.sh (as root) to install development dependencies on your system.\n\n### Running tests\n\nvagrant up  make test-vagrant\n\n### Building Debian package\n\nTo avoid running tests when building package run:\n\nDEB_BUILD_OPTIONS=nocheck gbp buildpackage\n\n## Authors\n\nJoenio Costa   Carlos Coelho   Lucas Severo  Alessandro Caetano\n\n## License\n\nGNU GPLv2+\n\n[unix]: https://en.wikipedia.org/wiki/Unix_philosophy#Do_One_Thing_and_Do_It_Well [gnu]: https://www.gnu.org/philosophy/",
+      "section": "holodev (part 5)",
+      "repo": "340_holodev",
+      "source_file": "readme.md"
+    }
+  }
+]

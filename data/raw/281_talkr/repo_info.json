@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/elpaco-escience/talkr",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R",
+    "Rez"
+  ],
+  "downloadUrl": "https://api.github.com/repos/elpaco-escience/talkr/zipball/main",
+  "author": "elpaco-escience",
+  "dateCreated": "2023-03-13T08:52:36Z",
+  "dateModified": "2025-07-28T08:02:35Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": null,
+  "identifier": 613273151,
+  "name": "elpaco-escience/talkr",
+  "issueTracker": "https://api.github.com/repos/elpaco-escience/talkr/issues",
+  "readme": "https://github.com/elpaco-escience/talkr/blob/main/README.md"
+}

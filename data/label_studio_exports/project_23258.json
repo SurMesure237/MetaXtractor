@@ -1,0 +1,211 @@
+[
+  {
+    "id": 900,
+    "annotations": [
+      {
+        "id": 12095,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T08:00:34.781069Z",
+        "updated_at": "2025-11-09T08:00:34.781089Z",
+        "draft_created_at": null,
+        "lead_time": 5.623,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b3444213-92a6-430d-aa71-ff8574c540d0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 900,
+        "project": 23258,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Satsense\n\n|Build Status| |Codacy Badge| |Maintainability| |Test Coverage| |Documentation Status| |DOI|\n\nSatsense is an open source Python library for patch based land-use and land-cover classification, initially developed for a project on deprived neighborhood detection. However, many of the algorithms made available through Satsense can be applied in other domains, such as ecology and climate science.\n\nSatsense is based on readily available open source libraries, such as opencv for machine learning and the rasterio/gdal and netcdf libraries for data access. It has a modular design that makes it easy to add your own hand-crafted feature or use deep learning instead.\n\nDetection of deprived neighborhoods is a land-use classification problem that is traditionally solved using hand crafted features like HoG, Lacunarity, NDXI, Pantex, Texton, and SIFT, computed from very high resolution satellite images. One of the goals of Satsense is to facilitate assessing the performance of these features on practical applications. To achieve this Satsense provides an easy to use open source reference implementation for these and other features, as well as facilities to distribute feature computation over multiple cpu’s. In the future the library will also provide easy access to metrics for assessing algorithm performance.\n\nsatsense - library for analysing satellite images, performance\n\nevaluation, etc. notebooks - IPython notebooks for illustrating and testing the usage\n\nof Satsense\n\nWe are using python 3.6/3.7 and jupyter notebook for our code.\n\nDocumentation\n\nCan be found on readthedocs __.\n\nInstallation\n\nPlease see the installation guide on readthedocs __.\n\nContributing",
+      "section": "Introduction (part 1)",
+      "repo": "042_Satsense",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.022507Z",
+    "updated_at": "2025-11-09T08:00:34.811009Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23258,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 901,
+    "annotations": [
+      {
+        "id": 12096,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 329,
+              "end": 663,
+              "text": "J. Graesser, A. Cheriyadat, R. R. Vatsavai, V. Chandola, J. Long and E. Bright, \"Image Based Characterization of Formal and Informal Neighborhoods in an Urban Landscape\", in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 5, no. 4, pp. 1164-1176, Aug. 2012. doi: 10.1109/JSTARS.2012.2190383",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "0hK0z2UL5i",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T08:01:04.635292Z",
+        "updated_at": "2025-11-09T08:01:04.635308Z",
+        "draft_created_at": "2025-11-09T08:00:59.987618Z",
+        "lead_time": 29.671,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "d1aa4c1d-b732-444d-95b2-549a2411b356",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 901,
+        "project": 23258,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Contributions are very welcome! Please see CONTRIBUTING.md __ for our contribution guidelines.\n\nCiting Satsense\n\nIf you use Satsense for scientific research, please cite it. You can download citation files from research-software.nl __.\n\nReferences\n\nThe collection of algorithms made available trough this package is inspired by\n\nJ. Graesser, A. Cheriyadat, R. R. Vatsavai, V. Chandola,  J. Long and E. Bright, \"Image Based Characterization of Formal and  Informal Neighborhoods in an Urban Landscape\", in IEEE Journal of  Selected Topics in Applied Earth Observations and Remote Sensing,  vol. 5, no. 4, pp. 1164-1176, Aug. 2012. doi:  10.1109/JSTARS.2012.2190383\n\nJordan Graesser himself also maintains a library __ with many of these algorithms.\n\nTest Data ~~~~~~~~~\n\nThe test data has been extracted from the Copernicus Sentinel data 2018.",
+      "section": "Introduction (part 2)",
+      "repo": "042_Satsense",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.022547Z",
+    "updated_at": "2025-11-09T08:01:04.667758Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23258,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 902,
+    "annotations": [
+      {
+        "id": 12097,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 987,
+              "end": 1025,
+              "text": "https://doi.org/10.5281/zenodo.1463015",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "kx82pyucA-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 848,
+              "end": 903,
+              "text": "https://satsense.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "1syr5u4ich",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 94,
+              "end": 133,
+              "text": "https://travis-ci.com/DynaSlum/satsense",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "_4ATUPFjHd",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T08:01:33.513147Z",
+        "updated_at": "2025-11-16T05:50:30.374461Z",
+        "draft_created_at": "2025-11-09T08:01:17.422506Z",
+        "lead_time": 45.537,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "ac4670e8-f154-4971-a6f3-7ad40a945cc7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 902,
+        "project": 23258,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": ".. |Build Status| image:: https://travis-ci.com/DynaSlum/satsense.svg?branch=master  :target: https://travis-ci.com/DynaSlum/satsense .. |Codacy Badge| image:: https://api.codacy.com/project/badge/Grade/458c8543cd304b8387b7b114218dc57c  :target: https://www.codacy.com/app/DynaSlum/satsense?utm_source=github.com&utm_medium=referral&utm_content=DynaSlum/satsense&utm_campaign=Badge_Grade .. |Maintainability| image:: https://api.codeclimate.com/v1/badges/ed3655f6056f89f5e107/maintainability  :target: https://codeclimate.com/github/DynaSlum/satsense/maintainability .. |Test Coverage| image:: https://api.codeclimate.com/v1/badges/ed3655f6056f89f5e107/test_coverage  :target: https://codeclimate.com/github/DynaSlum/satsense/test_coverage .. |Documentation Status| image:: https://readthedocs.org/projects/satsense/badge/?version=latest  :target: https://satsense.readthedocs.io/en/latest/?badge=latest .. |DOI| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.1463015.svg  :target: https://doi.org/10.5281/zenodo.1463015",
+      "section": "Introduction (part 3)",
+      "repo": "042_Satsense",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.022573Z",
+    "updated_at": "2025-11-16T05:50:30.406917Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23258,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

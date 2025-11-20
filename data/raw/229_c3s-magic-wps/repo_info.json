@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/c3s-magic/c3s-magic-wps",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Makefile",
+    "Shell",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/c3s-magic/c3s-magic-wps/zipball/main",
+  "author": "c3s-magic",
+  "dateCreated": "2019-04-30T12:02:23Z",
+  "dateModified": "2025-04-29T17:05:40Z",
+  "keywords": [],
+  "license": null,
+  "description": null,
+  "identifier": 184254565,
+  "name": "c3s-magic/c3s-magic-wps",
+  "issueTracker": "https://api.github.com/repos/c3s-magic/c3s-magic-wps/issues",
+  "readme": "https://github.com/c3s-magic/c3s-magic-wps/blob/master/README.rst"
+}

@@ -1,0 +1,50 @@
+abstract: "The pySDC project is a Python implementation of the spectral deferred correction (SDC) approach and its flavors, esp. the multilevel extension MLSDC and PFASST. It is intended for rapid prototyping and educational purposes. New ideas like e.g. sweepers or predictors can be tested and first toy problems can be easily implemented."
+authors: 
+  - family-names: Speck
+    given-names: Robert
+    orcid: https://orcid.org/0000-0002-3879-1210
+    affiliation: "Jülich Supercomputing Centre, Forschungszentrum Jülich GmbH, 52425 Jülich, Germany"
+  - family-names: Lunet
+    given-names: Thibaut
+    orcid: https://orcid.org/0000-0003-1745-0780
+    affiliation: "Hamburg University of Technology, Institute of Mathematics, 21073 Hamburg, Germany"
+  - family-names: Baumann
+    given-names: Thomas
+    orcid: https://orcid.org/0000-0002-4676-7659
+    affiliation: "Jülich Supercomputing Centre, Forschungszentrum Jülich GmbH, 52425 Jülich, Germany"
+  - family-names: Wimmer
+    given-names: Lisa
+    orcid: https://orcid.org/0000-0001-8829-0978
+    affiliation: "University of Wuppertal, School of Mathematics and Natural Science, 42119 Wuppertal, Germany"
+  - family-names: Akramov
+    given-names: Ikrom
+    orcid: https://orcid.org/0000-0002-8869-0784
+    affiliation: "Hamburg University of Technology, Institute of Mathematics, 21073 Hamburg, Germany"
+  - family-names: Rosilho de Souza
+    given-names: Giacomo
+    orcid: https://orcid.org/0000-0002-0176-8455
+    affiliation: "Università della Svizzera italiana, Via la Santa 1, 6962 Lugano-Viganello, Switzerland"
+  - family-names: Fritz
+    given-names: Jakob
+    orcid: https://orcid.org/0000-0001-6280-8396
+    affiliation: "Jülich Supercomputing Centre, Forschungszentrum Jülich GmbH, 52425 Jülich, Germany"
+  - family-names: Shipton
+    given-names: Jemma
+    orcid: https://orcid.org/0000-0002-8635-0831
+    affiliation: "Department of Mathematics and Statistics, University of Exeter, Exeter, UK"
+
+
+version: 5.6
+doi: 10.5281/zenodo.594191
+date-released: 2025-04-11
+keywords: 
+  - "parallel-in-time"
+  - "spectral deferred corrections"
+  - "parallel full approximation scheme in space and time"
+  - multigrid
+  - collocation
+license: BSD-2-Clause
+message: "If you use this software, please cite it using these metadata."
+repository-code: https://github.com/Parallel-in-Time/pySDC
+title: "Parallel-in-Time/pySDC"
+cff-version: 1.2.0

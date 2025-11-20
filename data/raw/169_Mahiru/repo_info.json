@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/SecConNet/mahiru",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Makefile",
+    "Dockerfile",
+    "Shell",
+    "C"
+  ],
+  "downloadUrl": "https://api.github.com/repos/SecConNet/mahiru/zipball/main",
+  "author": "SecConNet",
+  "dateCreated": "2019-12-10T14:40:15Z",
+  "dateModified": "2024-02-23T14:31:11Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "A proof-of-concept digital data exchange",
+  "identifier": 227143738,
+  "name": "SecConNet/mahiru",
+  "issueTracker": "https://api.github.com/repos/SecConNet/mahiru/issues",
+  "readme": "https://github.com/SecConNet/mahiru/blob/develop/README.rst"
+}

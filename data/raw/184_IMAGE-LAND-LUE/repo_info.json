@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/UtrechtUniversity/IMAGE-LAND-LUE",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/UtrechtUniversity/IMAGE-LAND-LUE/zipball/main",
+  "author": "UtrechtUniversity",
+  "dateCreated": "2023-10-19T09:54:58Z",
+  "dateModified": "2024-08-07T16:06:24Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Land cover model from the IMAGE 3.1 Integrated Assessment Model, implemented with the LUE framework.",
+  "identifier": 707139840,
+  "name": "UtrechtUniversity/IMAGE-LAND-LUE",
+  "issueTracker": "https://api.github.com/repos/UtrechtUniversity/IMAGE-LAND-LUE/issues",
+  "readme": "https://github.com/UtrechtUniversity/IMAGE-LAND-LUE/blob/main/README.md"
+}

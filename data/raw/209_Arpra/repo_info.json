@@ -1,0 +1,28 @@
+{
+  "codeRepository": "https://github.com/arpra-project/arpra",
+  "programmingLanguage": "C",
+  "programmingLanguages": [
+    "C",
+    "Makefile",
+    "M4"
+  ],
+  "downloadUrl": "https://api.github.com/repos/arpra-project/arpra/zipball/main",
+  "author": "arpra-project",
+  "dateCreated": "2016-09-30T12:04:26Z",
+  "dateModified": "2025-06-03T03:35:09Z",
+  "keywords": [
+    "affine-arithmetic",
+    "arbitrary-precision",
+    "mpfr",
+    "numerical-analysis",
+    "range-analysis",
+    "scientific-computing",
+    "static-analysis"
+  ],
+  "license": "https://api.github.com/licenses/lgpl-3.0",
+  "description": "Arpra is a C library for analyzing the propagation of numerical error in arbitrary precision IEEE-754 floating-point computations.",
+  "identifier": 69663368,
+  "name": "arpra-project/arpra",
+  "issueTracker": "https://api.github.com/repos/arpra-project/arpra/issues",
+  "readme": "https://github.com/arpra-project/arpra/blob/master/README.md"
+}

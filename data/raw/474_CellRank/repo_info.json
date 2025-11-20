@@ -1,0 +1,32 @@
+{
+  "codeRepository": "https://github.com/theislab/cellrank",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/theislab/cellrank/zipball/main",
+  "author": "theislab",
+  "dateCreated": "2020-03-12T15:28:39Z",
+  "dateModified": "2025-10-30T21:23:19Z",
+  "keywords": [
+    "bioinformatics",
+    "cell-fate-determination",
+    "cell-fate-transitions",
+    "data-science",
+    "fuzzy-clustering-analyses",
+    "genetics",
+    "machine-learning",
+    "manifold-learning",
+    "markov-chains",
+    "rna-velocity",
+    "single-cell-genomics",
+    "single-cell-rna-seq",
+    "trajectory-generation"
+  ],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "CellRank: dynamics from multi-view single-cell data",
+  "identifier": 246868751,
+  "name": "theislab/cellrank",
+  "issueTracker": "https://api.github.com/repos/theislab/cellrank/issues",
+  "readme": "https://github.com/theislab/cellrank/blob/main/README.rst"
+}

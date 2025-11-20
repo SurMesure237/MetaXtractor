@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/transientskp/tkp",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "PLpgSQL",
+    "Mako",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/transientskp/tkp/zipball/main",
+  "author": "transientskp",
+  "dateCreated": "2012-05-21T12:01:49Z",
+  "dateModified": "2025-06-21T15:17:53Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/bsd-2-clause",
+  "description": "A transients-discovery pipeline for astronomical image-based surveys",
+  "identifier": 4393078,
+  "name": "transientskp/tkp",
+  "issueTracker": "https://api.github.com/repos/transientskp/tkp/issues",
+  "readme": "https://github.com/transientskp/tkp/blob/master/README.rst"
+}

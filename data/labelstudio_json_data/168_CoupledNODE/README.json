@@ -1,0 +1,442 @@
+[
+  {
+    "data": {
+      "text": "SciML Style Guide for Julia\n\n[](https://github.com/SciML/SciMLStyle) [](https://docs.sciml.ai/SciMLStyle/stable/)\n\nThe SciML Style Guide is a style guide for the Julia programming language. It is used by the [SciML Open Source Scientific Machine Learning Organization] https://sciml.ai/. It covers proper styles to allow for easily high-quality, readable, robust, safety, and fast code that is easy to maintain for production and deployment.\n\nIt is open to discussion with the community. Please file an issue or open a PR to discuss changes to the style guide.",
+      "section": "SciML Style Guide for Julia (part 1)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Table of Contents",
+      "section": "SciML Style Guide for Julia (part 2)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[SciML Style Guide for Julia] #SciML-Style-Guide-for-Julia\n\n[Code Style Badge] #Code-Style-Badge\n\n[Overarching Dogmas of the SciML Style] #Overarching-Dogmas-of-the-SciML-Style\n\n[Consistency vs Adherence] #Consistency-vs-Adherence\n\n[Community Contribution Guidelines] #Community-Contribution-Guidelines\n\n[Open source contributions are allowed to start small and grow over time] #Open-source-contributions-are-allowed-to-start-small-and-grow-over-time\n\n[Generic code is preferred unless code is known to be specific] #Generic-code-is-preferred-unless-code-is-known-to-be-specific\n\n[Internal types should match the types used by users when possible] #Internal-types-should-match-the-types-used-by-users-when-possible\n\n[Trait definition and adherence to generic interface is preferred when possible] #Trait-definition-and-adherence-to-generic-interface-is-preferred-when-possible\n\n[Macros should be limited and only be used for syntactic sugar] #Macros-should-be-limited-and-only-be-used-for-syntactic-sugar\n\n[Errors should be caught as high as possible, and error messages should be contextualized for newcomers] #Errors-should-be-caught-as-high-as-possible,-and-error-messages-should-be-contextualized-for-newcomers\n\n[Subpackaging and interface packages is preferred over conditional modules via Requires.jl] #Subpackaging-and-interface-packages-is-preferred-over-conditional-modules-via-Requires.jl\n\n[Functions should either attempt to be non-allocating and reuse caches, or treat inputs as immutable] #Functions-should-either-attempt-to-be-non-allocating-and-reuse-caches,-or-treat-inputs-as-immutable\n\n[Out-Of-Place and Immutability is preferred when sufficient performant] #Out-Of-Place-and-Immutability-is-preferred-when-sufficient-performant",
+      "section": "SciML Style Guide for Julia (part 3)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[Tests should attempt to cover a wide gamut of input types] #Tests-should-attempt-to-cover-a-wide-gamut-of-input-types\n\n[When in doubt, a submodule should become a subpackage or separate package] #When-in-doubt,-a-submodule-should-become-a-subpackage-or-separate-package\n\n[Globals should be avoided whenever possible] #Globals-should-be-avoided-whenever-possible\n\n[Type-stable and Type-grounded code is preferred wherever possible] #Type-stable-and-Type-grounded-code-is-preferred-wherever-possible\n\n[Closures should be avoided whenever possible] #Closures-should-be-avoided-whenever-possible\n\n[Numerical functionality should use the appropriate generic numerical interfaces] #Numerical-functionality-should-use-the-appropriate-generic-numerical-interfaces\n\n[Functions should capture one underlying principle] #Functions-should-capture-one-underlying-principle\n\n[Internal choices should be exposed as options whenever possible] #Internal-choices-should-be-exposed-as-options-whenever-possible\n\n[Prefer code reuse over rewrites whenever possible] #Prefer-code-reuse-over-rewrites-whenever-possible\n\n[Prefer to not shadow functions] #Prefer-to-not-shadow-functions\n\n[Avoid unmaintained dependencies] #Avoid-unmaintained-dependencies\n\n[Avoid unsafe operations] #Avoid-unsafe-operations\n\n[Avoid non public operations in Julia Base and packages] #Avoid-non-public-operations-in-Julia-Base-and-packages\n\n[Always default to constructs which initialize data] #Always-default-to-constructs-which-initialize-data\n\n[Use extra precaution when running external processes] #Use-extra-precaution-when-running-external-processes\n\n[Avoid eval whenever possible] #Avoid-eval-whenever-possible",
+      "section": "SciML Style Guide for Julia (part 4)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[Avoid bounds check removal, and if done, add appropriate manual checks] #Avoid-bounds-check-removal,-and-if-done,-add-appropriate-manual-checks\n\n[Avoid ccall unless necessary, and use safe ccall practices when required] #Avoid-ccall-unless-necessary,-and-use-safe-ccall-practices-when-required\n\n[Validate all user inputs to avoid code injection] #Validate-all-user-inputs-to-avoid-code-injection\n\n[Ensure secure random number generators are used when required] #Ensure-secure-random-number-generators-are-used-when-required\n\n[Be aware of distributed computing encryption principles] #Be-aware-of-distributed-computing-encryption-principles\n\n[Always immediately flush secret data after handling] #Always-immediately-flush-secret-data-after-handling\n\n[Specific Rules] #Specific-Rules\n\n[High Level Rules] #High-Level-Rules\n\n[General Naming Principles] #General-Naming-Principles\n\n[Comments] #Comments\n\n[Modules] #Modules\n\n[Functions] #Functions\n\n[Function Argument Precedence] #Function-Argument-Precedence\n\n[Tests and Continuous Integration] #Tests-and-Continuous-Integration\n\n[Whitespace] #Whitespace\n\n[NamedTuples] #NamedTuples\n\n[Numbers] #Numbers\n\n[Ternary Operator] #Ternary-Operator\n\n[For loops] #For-loops\n\n[Function Type Annotations] #Function-Type-Annotations\n\n[Struct Type Annotations] #Struct-Type-Annotations\n\n[Macros] #Macros\n\n[Types and Type Annotations] #Types-and-Type-Annotations\n\n[Package version specifications] #Package-version-specifications\n\n[Documentation] #Documentation\n\n[Error Handling] #Error-Handling\n\n[Arrays] #Arrays\n\n[Line Endings] #Line-Endings\n\n[VS-Code Settings] #VS-Code-Settings\n\n[JuliaFormatter] #JuliaFormatter\n\n[References] #References",
+      "section": "SciML Style Guide for Julia (part 5)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Code Style Badge\n\nLet contributors know your project is following the SciML Style Guide by adding the badge to your README.md.\n\n[](https://github.com/SciML/SciMLStyle)\n\n## Overarching Dogmas of the SciML Style\n\n### Consistency vs Adherence\n\nAccording to PEP8:\n\nA style guide is about consistency. Consistency with this style guide is important. Consistency within a project is more important. Consistency within one module or function is the most important.\n\nBut most importantly: know when to be inconsistent -- sometimes the style guide just doesn't apply. When in doubt, use your best judgment. Look at other examples and decide what looks best. And don't hesitate to ask!\n\nSome code within the SciML organization is old, on life support, donated by researchers to be maintained. Consistency is the number one goal, so updating to match the style guide should happen on a repo-by-repo basis, i.e. do not update one file to match the style guide (leaving all other files behind).\n\n### Community Contribution Guidelines\n\nFor a comprehensive set of community contribution guidelines, refer to [ColPrac] https://github.com/SciML/ColPrac. A relevant point to highlight PRs should do one thing. In the context of style, this means that PRs that update the style of a package's code should not be mixed with fundamental code contributions. This separation makes it easier to ensure that large style improvements are isolated from substantive (and potentially breaking) code changes.",
+      "section": "SciML Style Guide for Julia (part 6)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Open source contributions are allowed to start small and grow over time\n\nIf the standard for code contributions is that every PR needs to support every possible input type that anyone can think of, the barrier would be too high for newcomers. Instead, the principle is to be as correct as possible to begin with, and grow the generic support over time. All recommended functionality should be tested, and any known generality issues should be documented in an issue (and with a @test_broken test when possible). However, a function that is known to not be GPU-compatible is not grounds to block merging, rather it is encouraged for a follow-up PR to improve the general type support!\n\n### Generic code is preferred unless code is known to be specific\n\nFor example, the code:\n\nfunction f(A, B)  for i in 1:length(A)  A[i] = A[i] + B[i]  end end\n\nwould not be preferred for two reasons. One is that it assumes A uses one-based indexing, which would fail in cases like [OffsetArrays] https://github.com/JuliaArrays/OffsetArrays.jl and [FFTViews] https://github.com/JuliaArrays/FFTViews.jl. Another issue is that it requires indexing, while not all array types support indexing (for example, [CuArrays] https://github.com/JuliaGPU/CuArrays.jl). A more generic and compatible implementation of this function would be to use broadcast, for example:\n\nfunction f(A, B)  @. A = A + B end\n\nwhich would allow support for a wider variety of array types.",
+      "section": "SciML Style Guide for Julia (part 7)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Internal types should match the types used by users when possible\n\nIf f(A) takes the input of some collections and computes an output from those collections, then it should be expected that if the user gives A as an Array, the computation should be done via Arrays. If A was a CuArray, then it should be expected that the computation should be internally done using a CuArray (or appropriately error if not supported). For these reasons, constructing arrays via generic methods, like similar(A), is preferred when writing f instead of using non-generic constructors like Array(undef,size(A)) unless the function is documented as being non-generic.",
+      "section": "SciML Style Guide for Julia (part 8)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Trait definition and adherence to generic interface is preferred when possible\n\nJulia provides many different interfaces, for example:\n\n[Iteration] https://docs.julialang.org/en/v1/manual/interfaces/#man-interface-iteration\n\n[Indexing] https://docs.julialang.org/en/v1/manual/interfaces/#Indexing\n\n[Broadcast] https://docs.julialang.org/en/v1/manual/interfaces/#man-interfaces-broadcasting\n\nThose interfaces should be followed when possible. For example, when defining broadcast overloads, one should implement a BroadcastStyle as suggested by the documentation instead of simply attempting to bypass the broadcast system via copyto! overloads.\n\nWhen interface functions are missing, these should be added to Base Julia or an interface package, like [ArrayInterface.jl] https://github.com/JuliaArrays/ArrayInterface.jl. Such traits should be declared and used when appropriate. For example, if a line of code requires mutation, the trait ArrayInterface.ismutable(A) should be checked before attempting to mutate, and informative error messages should be written to capture the immutable case (or, an alternative code that does not mutate should be given).\n\nOne example of this principle is demonstrated in the generation of Jacobian matrices. In many scientific applications, one may wish to generate a Jacobian cache from the user's input u0. A naive way to generate this Jacobian is J = similar(u0,length(u0),length(u0)). However, this will generate a Jacobian J such that J isa Matrix.",
+      "section": "SciML Style Guide for Julia (part 9)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Macros should be limited and only be used for syntactic sugar\n\nMacros define new syntax, and for this reason, they tend to be less composable than other coding styles and require prior familiarity to be easily understood. One principle to keep in mind is, \u201ccan the person reading the code easily picture what code is being generated?\u201d. For example, a user of Soss.jl may not know what code is being generated by:\n\n@model (x, \u03b1) begin  \u03c3 ~ Exponential()  \u03b2 ~ Normal()  y ~ For(x) do xj  Normal(\u03b1 + \u03b2 xj, \u03c3)  end  return y end\n\nand thus using such a macro as the interface is not preferred when possible. However, a macro like [@muladd] https://github.com/SciML/MuladdMacro.jl is trivial to picture on a code (it recursively transforms ab + c to muladd(a,b,c) for more [accuracy and efficiency] https://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation), so using such a macro, for example:\n\njulia> @macroexpand(@muladd k3 = f(t + c3 dt, @. uprev + dt (a031 k1 + a032 k2))) :(k3 = f((muladd)(c3, dt, t), (muladd).(dt, (muladd).(a032, k2, (*).(a031, k1)), uprev)))\n\nis recommended. Some macros in this category are:\n\n@inbounds\n\n[@muladd] https://github.com/SciML/MuladdMacro.jl\n\n@view\n\n[@named] https://github.com/SciML/ModelingToolkit.jl\n\n@.\n\n[@..] https://github.com/YingboMa/FastBroadcast.jl\n\nSome performance macros, like @simd, @threads, or [@turbo from LoopVectorization.jl] https://github.com/JuliaSIMD/LoopVectorization.jl, make an exception in that their generated code may be foreign to many users. However, they still are classified as appropriate uses as they are syntactic sugar since they do (or should) not change the behavior of the program in measurable ways other than performance.",
+      "section": "SciML Style Guide for Julia (part 10)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Errors should be caught as high as possible, and error messages should be contextualized for newcomers\n\nWhenever possible, defensive programming should be used to check for potential errors before they are encountered deeper within a package. For example, if one knows that f(u0,p) will error unless u0 is the size of p, this should be caught at the start of the function to throw a domain specific error, for example \u201cparameters and initial condition should be the same size\u201d.\n\nThis contextualization should result in error messages that use terminology related to the user facing API (vs. referencing internal implementation details). Ideally, such error messages should not only describe the issue in language that will be familiar to the user but also include suggestions, where possible, of how to correct the issue.",
+      "section": "SciML Style Guide for Julia (part 11)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Subpackaging and interface packages is preferred over conditional modules via Requires.jl\n\nRequires.jl should be avoided at all costs. If an interface package exists, such as [ChainRulesCore.jl] https://github.com/JuliaDiff/ChainRulesCore.jl for defining automatic differentiation rules without requiring a dependency on the whole ChainRules.jl system, or [RecipesBase.jl] https://github.com/JuliaPlots/RecipesBase.jl which allows for defining Plots.jl plot recipes without a dependency on Plots.jl, a direct dependency on these interface packages is preferred.\n\nOtherwise, instead of resorting to a conditional dependency using Requires.jl, it is preferred to create subpackages, i.e. smaller independent packages kept within the same Github repository with independent versioning and package management. An example of this is seen in [Optimization.jl] https://github.com/SciML/Optimization.jl which has subpackages like [OptimizationBBO.jl] https://github.com/SciML/Optimization.jl/tree/master/lib/OptimizationBBO for BlackBoxOptim.jl support.\n\nSome important interface packages to know about are:\n\n[ChainRulesCore.jl] https://github.com/JuliaDiff/ChainRulesCore.jl\n\n[RecipesBase.jl] https://github.com/JuliaPlots/RecipesBase.jl\n\n[ArrayInterface.jl] https://github.com/JuliaArrays/ArrayInterface.jl\n\n[CommonSolve.jl] https://github.com/SciML/CommonSolve.jl\n\n[SciMLBase.jl] https://github.com/SciML/SciMLBase.jl",
+      "section": "SciML Style Guide for Julia (part 12)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Functions should either attempt to be non-allocating and reuse caches, or treat inputs as immutable\n\nMutating codes and non-mutating codes fall into different worlds. When a code is fully immutable, the compiler can better reason about dependencies, optimize the code, and check for correctness. However, many times a code that makes the fullest use of mutation can outperform even what the best compilers of today can generate. That said, the worst of all worlds is when code mixes mutation with non-mutating code. Not only is this a mishmash of coding styles, but it also has the potential non-locality and compiler proof issues of mutating code while not fully benefiting from the mutation.\n\n### Out-Of-Place and Immutability is preferred when sufficient performant\n\nMutation is used to get more performance by decreasing the number of heap allocations. However, if it's not helpful for heap allocations in a given spot, do not use mutation. Mutation is scary and should be avoided unless it gives an immediate benefit. For example, if matrices are sufficiently large, then AB is as fast as mul!(C,A,B), and thus writing AB is preferred (unless the rest of the function is being careful about being fully non-allocating, in which case this should be mul! for consistency).\n\nSimilarly, when defining types, using struct is preferred to mutable struct unless mutating the struct is a common occurrence. Even if mutating the struct is a common occurrence, see whether using [Setfield.jl] https://github.com/jw3126/Setfield.jl is sufficient. The compiler will optimize the construction of immutable structs, and thus this can be more efficient if it's not too much of a code hassle.",
+      "section": "SciML Style Guide for Julia (part 13)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Tests should attempt to cover a wide gamut of input types\n\nCode coverage numbers are meaningless if one does not consider the input types. For example, one can hit all the code with Array, but that does not test whether CuArray is compatible! Thus it's always good to think of coverage not in terms of lines of code but in terms of type coverage. A good list of number types to think about are:\n\nFloat64\n\nFloat32\n\nComplex\n\n[Dual] https://github.com/JuliaDiff/ForwardDiff.jl\n\nBigFloat\n\nArray types to think about testing are:\n\nArray\n\n[OffsetArray] https://github.com/JuliaArrays/OffsetArrays.jl\n\n[CuArray] https://github.com/JuliaGPU/CUDA.jl\n\n### When in doubt, a submodule should become a subpackage or separate package\n\nKeep packages focused on one core idea. If there's something separate enough to be a submodule, could it instead be a separate, well-tested and documented package to be used by other packages? Most likely yes.\n\n### Globals should be avoided whenever possible\n\nGlobal variables should be avoided whenever possible. When required, global variables should be constants and have an all uppercase name separated with underscores (e.g. MY_CONSTANT). They should be defined at the top of the file, immediately after imports and exports but before an __init__ function. If you truly want mutable global style behavior you may want to look into mutable containers.\n\n### Type-stable and Type-grounded code is preferred wherever possible\n\nType-stable and type-grounded code helps the compiler create not only more optimized code, but also faster to compile code. Always keep containers well-typed, functions specializing on the appropriate arguments, and types concrete.",
+      "section": "SciML Style Guide for Julia (part 14)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Closures should be avoided whenever possible\n\nClosures can cause accidental type instabilities that are difficult to track down and debug; in the long run, it saves time to always program defensively and avoid writing closures in the first place, even when a particular closure would not have been problematic. A similar argument applies to reading code with closures; if someone is looking for type instabilities, this is faster to do when code does not contain closures. Furthermore, if you want to update variables in an outer scope, do so explicitly with Refs or self defined structs. For example,\n\nmap(Base.Fix2(getindex, i), vector_of_vectors)\n\nis preferred over\n\nmap(v -> v[i], vector_of_vectors)\n\n[v[i] for v in vector_of_vectors]\n\n### Numerical functionality should use the appropriate generic numerical interfaces\n\nWhile you can use A\\b to do a linear solve inside a package, that does not mean that you should. This interface is only sufficient for performing factorizations, and so that limits the scaling choices, the types of A that can be supported, etc. Instead, linear solves within packages should use LinearSolve.jl. Similarly, nonlinear solves should use NonlinearSolve.jl. Optimization should use Optimization.jl. Etc. This allows the full generic choice to be given to the user without depending on every solver package (effectively recreating the generic interfaces within each package).\n\n### Functions should capture one underlying principle\n\nFunctions mean one thing. Every dispatch of + should be \u201cthe meaning of addition on these types\u201d. While in theory you could add dispatches to + that mean something different, that will fail in generic code for which + means addition. Thus, for generic code to work, code needs to adhere to one meaning for each function. Every dispatch should be an instantiation of that meaning.",
+      "section": "SciML Style Guide for Julia (part 15)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Internal choices should be exposed as options whenever possible\n\nWhenever possible, numerical values and choices within scripts should be exposed as options to the user. This promotes code reusability beyond the few cases the author may have expected.\n\n### Prefer code reuse over rewrites whenever possible\n\nIf a package has a function you need, use the package. Add a dependency if you need to. If the function is missing a feature, prefer to add that feature to said package and then add it as a dependency. If the dependency is potentially troublesome, for example because it has a high load time, prefer to spend time helping said package fix these issues and add the dependency. Only when it does not seem possible to make the package \u201cgood enough\u201d should using the package be abandoned. If it is abandoned, consider building a new package for this functionality as you need it, and then make it a dependency.\n\n### Prefer to not shadow functions\n\nTwo functions can have the same name in Julia by having different namespaces. For example, X.f and Y.f can be two different functions, with different dispatches, but the same name. This should be avoided whenever possible. Instead of creating MyPackage.sort, consider adding dispatches to Base.sort for your types if these new dispatches match the underlying principle of the function. If it doesn't, prefer to use a different name. While using MyPackage.sort is not conflicting, it is going to be confusing for most people unfamiliar with your code, so MyPackage.special_sort would be more helpful to newcomers reading the code.",
+      "section": "SciML Style Guide for Julia (part 16)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Avoid unmaintained dependencies\n\nPackages should only be depended on if they have maintainers who are responsive. Good code requires good communities. If maintainers do not respond to breakage within 2 weeks with multiple notices, then all dependencies from that organization should be considered for removal. Note that some issues may take a long time to fix, so it may take more time than 2 weeks to fix, it's simply that the communication should be open, consistent, and timely.\n\n### Avoid unsafe operations\n\nLike other high-level languages that provide strong safety guarantees by default, Julia nevertheless has a small set of operations that bypass normal checks. These operations are clearly marked with the prefix unsafe_. By using an \u201cunsafe\u201d operation, the programmer asserts that they know the operation is valid even though the language cannot automatically ensure it. For high reliability these constructs should be avoided or carefully inspected during code review. They are:\n\nunsafe_load\n\nunsafe_store!\n\nunsafe_read\n\nunsafe_write\n\nunsafe_string\n\nunsafe_wrap\n\nunsafe_convert\n\nunsafe_copyto!\n\nunsafe_pointer_to_objref\n\nccall\n\n@ccall\n\n@inbounds",
+      "section": "SciML Style Guide for Julia (part 17)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Avoid non public operations in Julia Base and packages\n\nThe Julia standard library and packages developed in the Julia programming language have an intended public API indicated by marking symbols with the export keyword or [in v1.11+ with the new public keyword] https://github.com/JuliaLang/julia/pull/50105. However, it is possible to use non public names via explicit qualification, e.g. Base.foobar. This practice is not necessarily unsafe, but should be avoided since non public operations may have unexpected invariants and behaviors, and are subject to changes in future releases of the language.\n\nNote that qualified names are commonly used in method definitions to clarify that a function is being extended, e.g. function Base.getindex(...) \u2026 end. Such uses do not fall under this concern.",
+      "section": "SciML Style Guide for Julia (part 18)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Always default to constructs which initialize data\n\nFor certain newly-allocated data structures, such as numeric arrays, the Julia compiler and runtime do not check whether data is accessed before it has been initialized. Therefore such data structures can \u201cleak\u201d information from one part of a program to another. Uninitialized structures should be avoided in favor of functions like zeros and fill that create data with well-defined contents. If code does allocate uninitialized memory, it should ensure that this memory is fully initialized before being returned from the function in which it is allocated.\n\nConstructs which create uninitialized memory should only be used if there is a demonstrated performance impact and it should ensure that all memory is initialized in the same function in which the array is intended to be used.\n\nExample:\n\nfunction make_array(n::Int)  A = Vector{Int}(undef, n)  # function body  return A end\n\nThis function allocates an integer array with undefined initial contents (note the language forces you to request this explicitly). A code reviewer should ensure that the function body assigns every element of the array. One can similarly create structs with undefined fields, and if used this way, one should ensure all fields are initialized:\n\nstruct Foo  x::Int  Foo() = new() end\n\njulia> Foo().x 139736495677280",
+      "section": "SciML Style Guide for Julia (part 19)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Use extra precaution when running external processes\n\nThe Julia standard library contains a run function and other facilities for running external processes. Any program that does this is only as safe as the external process it runs. If this cannot be avoided, then best practices for using these features are:\n\nOnly run fixed, known executables, and do not derive the path of the executable to run from user input or other outside sources.\n\nMake sure the executables used have also passed required audit procedures.\n\nMake sure to handle process failure (non-zero exit code).\n\nIf possible, run external processes in a sandbox or \u201cjail\u201d environment with access only to what they need in terms of files, file handles and ports.\n\nWhen run in a sandbox or jail, external processes can actually improve security since the subprocess is isolated from the rest of the system by the kernel.",
+      "section": "SciML Style Guide for Julia (part 20)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Avoid eval whenever possible\n\nJulia contains an eval function that executes program expressions constructed at run time. This is not in itself unsafe, but because the code it will run is not textually evident in the surrounding program, it can be difficult to determine what it will do. For example, a Julia program could construct and eval an expression that performs an unsafe operation without the operation being clearly evident to a code reviewer or analysis tool.\n\nIn general, programs should try to avoid using eval in ways that are influenced by user input because there are many subtle ways this can lead to arbitrary code execution. If user input must influence eval, the input should only be used to select from a known list of possible behaviors. Approaches using pattern matching to try to validate expressions should be viewed with extreme suspicion because they tend to be brittle and/or exploitable.\n\nNote: it is common for Julia programs to invoke eval or @eval at the top level, in order to generate global definitions programmatically. Such uses are generally safe.",
+      "section": "SciML Style Guide for Julia (part 21)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Avoid bounds check removal, and if done, add appropriate manual checks\n\nWhile Julia checks the bounds of all array operations by default, it is possible to manually disable bounds checks in a program using @inbounds. Note that in early versions of Julia (pre v1.9) this could be used as a performance optimization, but in later versions it can demonstrably reduce performance and thus one should never immediately default to bounds check removal as a performance habit.\n\nUses of this construct should be carefully audited during code review. For maximum safety, it should be avoided or programs should be run with the command line option --check-bounds=yes to enable all checks regardless of manual annotations.\n\nTo check a use of @inbounds for correctness, it suffices to examine all array indexing expressions (e.g. a[i]) within the expression it applies to, and ensure that each index will always be within the bounds of the indexed array. For example the following common use pattern is valid:\n\n@inbounds for i in eachindex(A)  A[i] = i end\n\nBy inspection, the variable i will always be a valid index for A.\n\nFor contrast, the following use is invalid unless A is known to be a specific type (e.g.: Vector)\n\n@inbounds for i in 1:length(A)  A[i] = i end\n\n@inbounds should be applied to as narrow a region of code as possible. When applied to a large block of code, it can be difficult to identify and verify all indexing expressions.",
+      "section": "SciML Style Guide for Julia (part 22)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Avoid ccall unless necessary, and use safe ccall practices when required\n\nCalling C (and Fortran) libraries from Julia is very easy: the ccall syntax (and the more convenient @ccall macro) allow calling C libraries without any need for glue files or boilerplate. They do require caution, however: the programmer tells Julia what the signature of each library function is and if this is not done correctly, it can be the cause of crashes and thus security vulnerabilities. An exploit is just a crash that an attacker has arranged to fail in a worse way than it would have randomly.\n\nSafe use of ccall depends on both automated and manual measures.\n\nWhat Julia does (automated):\n\nJulia provides aliases for C types like Cint, Clong, Cchar, Csize_t, etc. It makes sure that these match what the C ABI on the machine that code is running on expects them to be.\n\nThe Clang.jl package automates the process of turning C header files into valid ccall invocations.\n\nPkg+BinaryBuilder.jl allows precise versioning of binary dependencies.\n\nJulia objects passed directly to ccall are protected from garbage collection (GC) for the duration of the call.\n\nWhat you must do (manual):\n\nWhen writing ccall signatures, programmers should always look at the signature in the C header file and make sure the signature used in Julia matches exactly.\n\nUse Julia\u2019s C type aliases. For example, if an argument in C is of type int then the corresponding type in Julia is Cint, not Int \u2014 on most platforms Int will be the same size as Clong rather than Cint.\n\nIf a raw pointer to memory managed by Julia\u2019s GC is passed to C via ccall, the owning object must be preserved using GC.@preserve around the use of ccall. See the documentation of this macro for more information and examples of proper usage.",
+      "section": "SciML Style Guide for Julia (part 23)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Validate all user inputs to avoid code injection\n\nWhen writing programs that construct any kind of code based on user input, extra caution is required and the user input must be validated or escaped. For example, a common type of attack in web applications written in all programming languages is SQL injection: a user input is spliced into an SQL query to construct a customized query based on the user\u2019s input. If raw user input is spliced into an SQL query as a string, it is easy to craft inputs that will execute arbitrary SQL commands, including destructive ones or ones that will reveal private data to an attacker. To prevent this, the user input should be passed as parameters to SQL prepared statements; a package such as SqlStrings.jl can be used to do this without a syntax burden. This protects against malicious input, but also encourages systematic marshaling of Julia types into SQL types. If string interpolation must be used, all user input should be either validated to match a strict, safe pattern (e.g. only consists of decimal digits or ASCII letters), or it should be escaped to ensure that SQL treats it only as data, not as code (e.g. turn a user input into an escaped string literal).",
+      "section": "SciML Style Guide for Julia (part 24)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "While we have talked specifically about SQL here, this issue is not limited to SQL. The same concern occurs when executing programs via shells, for example. Julia is more secure than most programming languages in this respect because the default mechanism for running external code (see Cmd objects in the Julia manual) is carefully designed to not be susceptible to this kind of injection, but programmers may be tempted to use a shell to call external code for convenience sake. The fact that a shell must be explicitly invoked in Julia helps catch these kinds of circumstances. Using a shell like this is usually a bad idea and can typically be avoided. If an external shell must be used, be certain that any user data used to construct the shell command is carefully validated or escaped to avoid shell injection attacks.",
+      "section": "SciML Style Guide for Julia (part 25)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Ensure secure random number generators are used when required\n\nThe default pseudo-random number generator in Julia, which can be accessed by calling rand() and randn(), for example, is intended for simulation purposes and not for applications requiring cryptographic security. An attacker can, by observing a series of random values, construct its internal state and predict future pseudo-random values. For security-sensitive applications like generating secret values used for authentication, the RandomDevice() random-number generator should be used. This produces genuinely random numbers which cannot be predicted.\n\n### Be aware of distributed computing encryption principles\n\nJulia\u2019s distributed computing uses unencrypted TCP/IP sockets for communication by default and expects to be running on a fully trusted cluster. If using Distributed in your code through @distributed, pmap, etc., be aware that the communication channels are not encrypted. Julia opens ports for communication between processes in a distributed cluster. A pre-generated random cookie is necessary to successfully connect (Julia v0.5 onwards), which defeats arbitrary external connections. This mechanism is described in detail in .\n\nFor additional security, these communication channels can be encrypted through the use of a custom ClusterManager which enables SSH port forwarding, or uses some other mechanism to encrypt the communication channel.",
+      "section": "SciML Style Guide for Julia (part 26)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Always immediately flush secret data after handling\n\nWhen it\u2019s necessary to manage secret data (for example, a user\u2019s password) it\u2019s desirable to have this erased from memory immediately after finishing with the data. However, when a normal String or Array is used as a container for such data, the underlying bytes persist after the container is deallocated and in principle could be recovered by an attacker at a later time. There are also situations where a string or array may be implicitly copied, for example, if it is assigned to a location with a compatible but different type, it will be converted, thus creating a copy of the original data. Normally this is harmless and convenient, but making copies of secrets is obviously bad for security. To prevent this, Julia provides the type Base.SecretBuffer and a shred! function which should be called immediately after the data is finished with. The contents of a SecretBuffer must be explicitly extracted \u2014 it is never implicitly copied \u2014 and its contents will be automatically shredded upon garbage collection of the SecretBuffer object if the shred! function was never called on it, with a warning indicating that the buffer should have been explicitly shredded by the programmer.\n\n## Specific Rules\n\n### High Level Rules\n\nUse 4 spaces per indentation level, no tabs.\n\nTry to adhere to a 92 character line length limit.",
+      "section": "SciML Style Guide for Julia (part 27)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### General Naming Principles\n\nAll type names should be CamelCase.\n\nAll struct names should be CamelCase.\n\nAll module names should be CamelCase.\n\nAll function names should be snake_case (all lowercase).\n\nAll variable names should be snake_case (all lowercase).\n\nAll constant names should be SNAKE_CASE (all uppercase).\n\nAll abstract type names should begin with Abstract.\n\nAll type variable names should be a single capital letter, preferably related to the value being typed.\n\nWhole words are usually better than abbreviations or single letters.\n\nVariables meant to be internal or private to a package should be denoted by prepending two underscores, i.e. __.\n\nSingle letters can be okay when naming a mathematical entity, i.e. an entity whose purpose or non-mathematical \u201cmeaning\u201d is likely only known by downstream callers. For example, a and b would be appropriate names when implementing *(a::AbstractMatrix, b::AbstractMatrix), since the \u201cmeaning\u201d of those arguments (beyond their mathematical meaning as matrices, which is already described by the type) is only known by the caller.\n\nUnicode is fine within code where it increases legibility, but in no case should Unicode be used in public APIs.\n\nThis is to allow support for terminals that cannot use Unicode: if a keyword argument must be \u03b7, then it can be  exclusionary to uses on clusters which do not support Unicode inputs.",
+      "section": "SciML Style Guide for Julia (part 28)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Comments\n\nTODO to mark todo comments and XXX to mark comments about currently broken code\n\nQuote code in comments using backticks (e.g. `` variable_name `).\n\nWhen possible, code should be changed to incorporate information that would have been in\n\na comment. For example, instead of commenting # fx applies the effects to a tree, simply  change the function and variable names apply_effects(tree). Comments referring to Github issues and PRs should add the URL in the comments.\n\nOnly use inline comments if they fit within the line length limit. If your comment  cannot be fitted inline, then place the comment above the content to which it refers:\n\n`julia  # Yes:\n\n# Number of nodes to predict. Again, an issue with the workflow order. Should be updated  # after data is fetched.  p = 1\n\n# No:\n\np = 1 # Number of nodes to predict. Again, an issue with the workflow order. Should be  # updated after data is fetched.  ``\n\nIn general, comments above a line of code or function are preferred to inline comments.",
+      "section": "SciML Style Guide for Julia (part 29)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Modules\n\nModule imports should occur at the top of a file or right after a module declaration.\n\nModule imports in packages should either use import or explicitly declare the imported functionality, for example\n\nusing Dates: Year, Month, Week, Day, Hour, Minute, Second, Millisecond. Import and using statements should be separated, and should be divided by a blank line.\n\n``julia  # Yes:  import A: a  import C\n\nusing B  using D: d\n\n# No:  import A: a  using B  import C  using D: d  `\n\nLarge sets of imports are preferred to be written in space filling lines separated by commas.\n\n`julia  # Yes:  using A, B, C, D\n\n# No:  using A  using B  using C  using D\n\n# No:  using A,  B,  C,  D  `\n\nExported variables should be considered part of the public API, and changing their interface constitutes a\n\nbreaking change. Any exported variables should be sufficiently unique. I.e., do not export f as that is very likely to clash with\n\nsomething else. A file that includes the definition of a module, should not include any other code that runs outside that module.\n\ni.e. the module should be declared at the top of the file with the module keyword and end` at the bottom of the file.  No other code before, or after (except for module docstring before).  In this case, the code within the module block should not be indented. Sometimes, e.g. for tests, or for namespacing an enumeration, it is desirable to declare a submodule midway through a file.\n\nIn this case, the code within the submodule should be indented.",
+      "section": "SciML Style Guide for Julia (part 30)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Functions\n\nOnly use short-form function definitions when they fit on a single line:\n\n``julia  # Yes:  foo(x::Int64) = abs(x) + 3\n\n# No:  foobar(array_data::AbstractArray{T}, item::T) where {T <: Int64} = T[  abs(x) * abs(item) + 3 for x in array_data  ]  ``",
+      "section": "SciML Style Guide for Julia (part 31)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Inputs should be required unless a default is historically expected or likely to be applicable to >95% of use cases.\n\nFor example, the tolerance of a differential equation solver was set to a default of abstol=1e-6,reltol=1e-3 as a  generally correct plot in most cases, and is an expectation from back in the 90's. In that case, using the historically  expected and most often useful default tolerances is justified. However, if one implements GradientDescent, the learning  rate needs to be adjusted for each application (based on the size of the gradient), and thus a default of  GradientDescent(learning_rate = 1) is not recommended. Arguments that do not have defaults should preferably be made into positional arguments. The newer syntax of required\n\nkeyword arguments can be useful, but should not be abused. Notable exceptions are cases where \u201ceither or\u201d arguments are  accepted, for example, if defining g or dgdu is sufficient, then making them both keyword arguments with = nothing  and checking that either is not nothing (and throwing an appropriate error) is recommended if distinct dispatches with  different types is not possible. When calling a function, always separate your keyword arguments from your positional arguments with a semicolon.\n\nThis avoids mistakes in ambiguous cases (such as splatting a Dict). When writing a function that sends a lot of keyword arguments to another function, say sending keyword arguments to a\n\ndifferential equation solver, use a named tuple keyword argument instead of splatting the keyword arguments. For example,  use diffeq_solver_kwargs = (; abstol=1e-6, reltol=1e-6,) as the API and use solve(prob, alg; diffeq_solver_kwargs...)  instead of splatting all keyword arguments. Functions that mutate arguments should be appended with !.",
+      "section": "SciML Style Guide for Julia (part 32)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[Avoid type piracy] https://docs.julialang.org/en/v1/manual/style-guide/#Avoid-type-piracy. I.e., do not add methods\n\nto functions you don't own on types you don't own. Either own the types or the function. Functions should prefer instances instead of types for arguments. For example, for a solver type Tsit5, the interface\n\nshould use solve(prob,Tsit5()), not solve(prob,Tsit5). The reason for this is multifold. For one, passing a type  has different specialization rules, so functionality can be slower unless ::Type{Tsit5} is written in the dispatches  that use it. Secondly, this allows for default and keyword arguments to extend the choices, which may become useful  for some types down the line. Using this form allows for adding more options in a non-breaking manner. If the number of arguments is too large to fit into a 92 character line, then use as many arguments as possible within\n\na line and start each new row with the same indentation, preferably at the same column as the ( but this can be moved  left if the function name is very long. For example:",
+      "section": "SciML Style Guide for Julia (part 33)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "``julia  # Yes  function my_large_function(argument1, argument2,  argument3, argument4,  argument5, x, y, z)\n\n# No  function my_large_function(argument1,  argument2,  argument3,  argument4,  argument5,  x,  y,  z)  ``",
+      "section": "SciML Style Guide for Julia (part 34)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Function Argument Precedence\n\nFunction argument.\n\nPutting a function argument first permits the use of [do] https://docs.julialang.org/en/v1/base/base/#do blocks for passing  multiline anonymous functions.\n\nI/O stream.\n\nSpecifying the IO object first permits passing the function to functions such as  [sprint] https://docs.julialang.org/en/v1/base/io-network/#Base.sprint, e.g. sprint(show, x).\n\nInput being mutated.\n\nFor example, in [fill!(x, v)] https://docs.julialang.org/en/v1/base/arrays/#Base.fill!, x is the object being mutated and it  appears before the value to be inserted into x.\n\nType.\n\nPassing a type typically means that the output will have the given type.  In [parse(Int, \"1\")] https://docs.julialang.org/en/v1/base/numbers/#Base.parse, the type comes before the string to parse.  There are many such examples where the type appears first, but it's useful to note that  in [read(io, String)] https://docs.julialang.org/en/v1/base/io-network/#Base.read, the IO argument appears before the type, which is  in keeping with the order outlined here.\n\nInput not being mutated.\n\nIn fill!(x, v), v is not being mutated and it comes after x.\n\nKey.\n\nFor associative collections, this is the key of the key-value pair(s).  For other indexed collections, this is the index.\n\nValue.\n\nFor associative collections, this is the value of the key-value pair(s).  In cases like [fill!(x, v)] https://docs.julialang.org/en/v1/base/arrays/#Base.fill!, this is v.\n\nEverything else.\n\nAny other arguments.",
+      "section": "SciML Style Guide for Julia (part 35)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Varargs.\n\nThis refers to arguments that can be listed indefinitely at the end of a function call.  For example, in Matrix{T}(undef, dims), the dimensions can be given as a  [Tuple] https://docs.julialang.org/en/v1/base/base/#Core.Tuple, e.g. Matrix{T}(undef, (1,2)), or as [Vararg] https://docs.julialang.org/en/v1/base/base/#Core.Varargs,  e.g. Matrix{T}(undef, 1, 2).\n\nKeyword arguments.\n\nIn Julia keyword arguments have to come last anyway in function definitions; they're  listed here for the sake of completeness.\n\nThe vast majority of functions will not take every kind of argument listed above; the numbers merely denote the precedence that should be used for any applicable arguments to a function.",
+      "section": "SciML Style Guide for Julia (part 36)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Tests and Continuous Integration\n\nThe high level runtests.jl file should only be used to shuttle to other test files.\n\nEvery set of tests should be included into a [@safetestset] https://github.com/YingboMa/SafeTestsets.jl.\n\nA standard @testset does not fully enclose all defined values, such as functions defined in a @testset, and  thus can \u201cleak\u201d. Test includes should be written in one line, for example:\n\n``julia  @time @safetestset \"Jacobian Tests\" include(\"interface/jacobian_tests.jl\")  ``",
+      "section": "SciML Style Guide for Julia (part 37)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Every test script should be fully reproducible in isolation. I.e., one should be able to copy paste that script\n\nand receive the results. Test scripts should be grouped based on categories, for example tests of the interface vs tests for numerical\n\nconvergence. Grouped tests should be kept in the same folder. A GROUP environment variable should be used to specify test groups for parallel testing in continuous integration.\n\nA fallback group All should be used to specify all the tests that should be run when a developer runs ]test Package  locally. As an example, see the  [OrdinaryDiffEq.jl test structure] https://github.com/SciML/OrdinaryDiffEq.jl/blob/v6.10.0/test/runtests.jl Tests should include downstream tests to major packages which use the functionality, to ensure continued support.\n\nAny update that breaks the downstream tests should follow with a notification to the downstream package of why the  support was broken (preferably in the form of a PR that fixes support), and the package should be given a major  version bump in the next release if the changed functionality was part of the public API. CI scripts should use the default settings unless required.\n\nCI scripts should test the Long-Term Support (LTS) release and the current stable release. Nightly tests are only\n\nnecessary for packages with a heavy reliance on specific compiler details. Any package supporting GPUs should include continuous integration for GPUs.\n\n[Doctests] https://documenter.juliadocs.org/stable/man/doctests/ should be enabled except for the examples\n\nthat are computationally-prohibitive to have as part of continuous integration.",
+      "section": "SciML Style Guide for Julia (part 38)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Whitespace\n\nAvoid extraneous whitespace immediately inside parentheses, square brackets or braces.\n\n``julia  # Yes:  spam(ham[1], [eggs])\n\n# No:  spam( ham[ 1 ], [ eggs ] )  `\n\nAvoid extraneous whitespace immediately before a comma or semicolon:\n\n`julia  # Yes:  if x == 4 @show(x, y); x, y = y, x end\n\n# No:  if x == 4 @show(x , y) ; x , y = y , x end  `\n\nAvoid whitespace around : in ranges. Use brackets to clarify expressions on either side.\n\n`julia  # Yes:  ham[1:9]  ham[9:-3:0]  ham[1:step:end]  ham[lower:upper-1]  ham[lower:upper - 1]  ham[lower:(upper + offset)]  ham[(lower + offset):(upper + offset)]\n\n# No:  ham[1: 9]  ham[9 : -3: 1]  ham[lower : upper - 1]  ham[lower + offset:upper + offset] # Avoid as it is easy to read as ham[lower + (offset:upper) + offset]  `\n\nAvoid using more than one space around an assignment (or other) operator to align it with another:\n\n`julia  # Yes:  x = 1  y = 2  long_variable = 3\n\n# No:  x = 1  y = 2  long_variable = 3  `\n\nSurround most binary operators with a single space on either side: assignment (=), [updating operators] https://docs.julialang.org/en/v1/manual/mathematical-operations/#Updating-operators-1 (+=, -=, etc.), [numeric comparisons operators] https://docs.julialang.org/en/v1/manual/mathematical-operations/#Numeric-Comparisons-1 (==, , !=, etc.), [lambda operator] https://docs.julialang.org/en/v1/manual/functions/#man-anonymous-functions-1 (->`).",
+      "section": "SciML Style Guide for Julia (part 39)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Binary operators may be excluded from this guideline include: the [range operator] https://docs.julialang.org/en/v1/base/math/#Base.:: (:), [rational operator] https://docs.julialang.org/en/v1/base/math/#Base.:// (//), [exponentiation operator] https://docs.julialang.org/en/v1/base/math/#Base.:^-Tuple{Number,%20Number} (^), [optional arguments/keywords] https://docs.julialang.org/en/v1/manual/functions/#Optional-Arguments-1 (e.g. f(x = 1; y = 2)).\n\n``julia  # Yes:  i = j + 1  submitted += 1  x^2 < y\n\n# No:  i=j+1  submitted +=1  x^2<y  `\n\nAvoid using whitespace between unary operands and the expression:\n\n`julia  # Yes:  -1  [1 0 -1]\n\n# No: 1\n\n[1 0 - 1] # Note: evaluates to [1 -1]  ``\n\nAvoid extraneous empty lines. Avoid empty lines between single line method definitions\n\nand otherwise separate functions with one empty line, plus a comment if required:",
+      "section": "SciML Style Guide for Julia (part 40)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Note: an empty line before the first long-form domaths method is optional. domaths(x::Number) = x + 5 domaths(x::Int) = x + 10 function domaths(x::String)  return \"A string is a one-dimensional extended object postulated in string theory.\" end\n\ndophilosophy() = \"Why?\"",
+      "section": "Note: an empty line before the first long-form `domaths` method is optional.",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "No: domath(x::Number) = x + 5\n\ndomath(x::Int) = x + 10\n\nfunction domath(x::String)  return \"A string is a one-dimensional extended object postulated in string theory.\" end\n\ndophilosophy() = \"Why?\"\n\nFunction calls that cannot fit on a single line within the line limit should be broken up such that the lines containing the opening and closing brackets are indented to the same level while the parameters of the function are indented one level further.\n\nIn most cases, the arguments and/or keywords should each be placed on separate lines.  Note that this rule conflicts with the typical Julia convention of indenting the next line to align with the open bracket in which the parameter is contained.  If working in a package with a different convention, follow the convention used in the package over using this guideline.\n\n``julia  # Yes:  f(a, b)  constraint = conic_form!(SOCElemConstraint(temp2 + temp3, temp2 - temp3, 2 temp1),  unique_conic_forms)\n\n# No:  # Note: f call is short enough to be on a single line  f(  a,  b,  )  constraint = conic_form!(SOCElemConstraint(temp2 + temp3,  temp2 - temp3, 2 temp1),  unique_conic_forms)  `\n\nGroup similar one line statements together.\n\n`julia  # Yes:  foo = 1  bar = 2  baz = 3\n\n# No:  foo = 1\n\nbar = 2\n\nbaz = 3  `\n\nUse blank-lines to separate different multi-line blocks.\n\n`julia  # Yes:  if foo  println(\"Hi\")  end\n\nfor i in 1:10  println(i)  end\n\n# No:  if foo  println(\"Hi\")  end  for i in 1:10  println(i)  end  `\n\nAfter a function definition, and before an end statement do not include a blank line.\n\n``julia  # Yes:  function foo(bar::Int64, baz::Int64)  return bar + baz  end\n\n# No:  function foo(bar::Int64, baz::Int64)",
+      "section": "No: (part 1)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "return bar + baz  end\n\n# No:  function foo(bar::In64, baz::Int64)  return bar + baz\n\nend  ``\n\nUse line breaks between control flow statements and returns.\n\n`julia  # Yes:  function foo(bar; verbose = false)  if verbose  println(\"baz\")  end\n\nreturn bar  end\n\n# Ok:  function foo(bar; verbose = false)  if verbose  println(\"baz\")  end  return bar  end  ``",
+      "section": "No: (part 2)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### NamedTuples\n\nThe = character in NamedTuples should be spaced as in keyword arguments. Space should be put between the name and its value. The empty NamedTuple should be written NamedTuple() not (;)",
+      "section": "No: (part 3)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Yes: xy = (x = 1, y = 2) x = (x = 1,) # Trailing comma required for correctness. x = (; kwargs...) # Semicolon required to splat correctly.\n\nNo: xy = (x=1, y=2) xy = (;x=1,y=2)\n\n### Numbers\n\nFloating-point numbers should always include a leading and/or trailing zero:\n\n``julia  # Yes:  0.1  2.0  3.0f0\n\n# No:  .1  2.  3.f0  `\n\nAlways prefer the type Int to Int32 or Int64 unless one has a specific reason\n\nto choose the bit size.\n\n### Ternary Operator\n\nTernary operators (?:) should generally only consume a single line. Do not chain multiple ternary operators. If chaining many conditions, consider using an if-elseif-else conditional, dispatch, or a dictionary.\n\nYes: foobar = foo == 2 ? bar : baz\n\nNo: foobar = foo == 2 ?  bar :  baz foobar = foo == 2 ? bar : foo == 3 ? qux : baz\n\nAs an alternative, you can use a compound boolean expression:\n\nYes: foobar = if foo == 2  bar else  baz end\n\nfoobar = if foo == 2  bar elseif foo == 3  qux else  baz end\n\n### For loops\n\nFor loops should always use in, never = or \u2208`. This also applies to list and generator comprehensions\n\nYes for i in 1:10  #... end\n\n[foo(x) for x in xs]\n\nNo: for i = 1:10  #... end\n\n[foo(x) for x \u2208 xs]\n\n### Function Type Annotations\n\nAnnotations for function definitions should be as general as possible.\n\nYes: splicer(arr::AbstractArray, step::Integer) = arr[begin:step:end]",
+      "section": "Yes: + No: + Yes: (and 5 more)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "No: splicer(arr::Array{Int}, step::Int) = arr[begin:step:end]\n\nUsing as many generic types as possible allows for a variety of inputs and allows your code to be more general:\n\njulia> splicer(1:10, 2) 1:2:9\n\njulia> splicer([3.0, 5, 7, 9], 2) 2-element Array{Float64,1}:  3.0  7.0\n\n### Struct Type Annotations\n\nAnnotations on type fields need to be given a little more thought, since field access is not concrete unless the compiler can infer the type (see [type-dispatch design] https://www.stochasticlifestyle.com/type-dispatch-design-post-object-oriented-programming-julia/ for details). Since well-inferred code is preferred, abstract type annotations, i.e.\n\nmutable struct MySubString <: AbstractString  string::AbstractString  offset::Integer  endof::Integer end\n\nare not recommended. Instead a concretely-typed struct:\n\nmutable struct MySubString <: AbstractString  string::String  offset::Int  endof::Int end\n\nis preferred. If generality is required, then parametric typing is preferred, i.e.:\n\nmutable struct MySubString{T<:Integer} <: AbstractString  string::String  offset::T  endof::T end\n\nUntyped fields should be explicitly typed Any, i.e.:\n\nstruct StructA  a::Any end\n\n### Macros\n\nDo not add spaces between assignments when there are multiple assignments.\n\n``julia  Yes:  @parameters a = b  @parameters a=b c=d\n\nNo:  @parameters a = b c = d  `\n\n### Types and Type Annotations\n\nAvoid elaborate union types. Vector{Union{Int,AbstractString,Tuple,Array}} should probably\n\nbe Vector{Any}. This will reduce the amount of extra strain on compilation checking many  branches. Unions should be kept to two or three types only for branch splitting. Unions of three types\n\nshould be kept to a minimum for compile times. Do not use === to compare types. Use isa or <:` instead.",
+      "section": "No: (part 1)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Package version specifications\n\nUse [Semantic Versioning] https://semver.org/\n\nFor simplicity, avoid including the default caret specifier when specifying package version requirements.\n\n``julia  # Yes:  DataFrames = \"0.17\"\n\n# No:  DataFrames = \"^0.17\"  `\n\nFor accuracy, do not use constructs like >=` to avoid upper bounds.\n\nEvery dependency should have a bound.\n\nAll packages should use [CompatHelper] https://github.com/JuliaRegistries/CompatHelper.jl and attempt to\n\nstay up to date with the dependencies. The lower bound on dependencies should be the last tested version.",
+      "section": "No: (part 2)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Documentation",
+      "section": "No: (part 3)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Documentation should always attempt to be at the highest level possible. I.e., documentation of an interface that\n\nall methods follow is preferred to documenting every method, and documenting the interface of an abstract type is  preferred to documenting all the subtypes individually. All instances should then refer to the higher level  documentation. Documentation should use [Documenter.jl] https://juliadocs.github.io/Documenter.jl/stable/.\n\nTutorials should come before reference materials.\n\nEvery package should have a starting tutorial that covers \u201cthe 90% use case\u201d, i.e. the ways that most people will\n\nwant to use the package. The tutorial should show a complete workflow and be opinionated about said workflow. For example, when writing a tutorial\n\nabout a simulator, pick a plotting package and show how to plot it. Variable names in tutorials are important. If you use u0, then all other codes will copy that naming scheme.\n\nShow potential users the right way to use your code with the right naming. When applicable, tutorials on how to use the \u201chigh performance advanced features\u201d should be separated from the beginning tutorial.\n\nAll documentation should summarize the contents before going into specifics of API docstrings.\n\nMost modules, types and functions should have [docstrings] http://docs.julialang.org/en/v1/manual/documentation/.\n\nPrefer documenting accessor functions instead of fields when possible. Documented fields are part of the public API\n\nand changing their contents/name constitutes a breaking change. Only exported functions are required to be documented.\n\nAvoid documenting commonly overloaded methods, such as ==.\n\nTry to document a function and not individual methods where possible, as typically all methods will have similar docstrings.\n\nIf you are adding a method to a function that already has a docstring only add a docstring if the",
+      "section": "No: (part 4)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "behavior of your function deviates from the existing docstring. Docstrings are written in [Markdown] https://en.wikipedia.org/wiki/Markdown and should be concise.\n\nDocstring lines should be wrapped at 92 characters.",
+      "section": "No: (part 5)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "``julia  \"\"\"  bar(x[, y])\n\nCompute the Bar index between x and y. If y is missing, compute the Bar index between  all pairs of columns of x.  \"\"\"  function bar(x, y) ...  `\n\nIt is recommended that you have a blank line between the headings and the content when the content is of sufficient length.\n\nTry to be consistent within a docstring whether you use this additional whitespace.\n\nFollow one of the following templates for types and functions when possible:\n\nType Template (should be skipped if it is redundant with the constructor(s) docstring):\n\n`julia  \"\"\"  MyArray{T, N}\n\nMy super awesome array wrapper!\n\n# Fields data::AbstractArray{T, N}: stores the array being wrapped\n\nmetadata::Dict: stores metadata about the array\n\n\"\"\"  struct MyArray{T, N} Int\n\nSearches the array for the val. For some reason we don't want to use Julia's  builtin search :)\n\n# Arguments array::MyArray{T}: the array to search\n\nval::T: the value to search for\n\n# Keywords verbose::Bool = true: print out progress details\n\n# Returns Int: the index where val is located in the array\n\n# Throws NotFoundError: I guess we could throw an error if val isn't found.\n\n\"\"\"  function mysearch(array::AbstractArray{T}, val::T) where {T}  ...  end  ``",
+      "section": "No: (part 6)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "The @doc doc\"\"\" \"\"\" formulation from the Markdown standard library should be used whenever\n\nthere is LaTeX. Only public fields of types must be documented. Undocumented fields are considered non-public internals.\n\nIf your method contains lots of arguments or keywords, you may want to exclude them from the method\n\nsignature on the first line and instead use args... and/or kwargs....\n\n``julia  \"\"\"  Manager(args...; kwargs...) -> Manager\n\nA cluster manager which spawns workers.\n\n# Arguments\n\nmin_workers::Integer: The minimum number of workers to spawn or an exception is thrown\n\nmax_workers::Integer: The requested number of workers to spawn\n\n# Keywords\n\ndefinition::AbstractString: Name of the job definition to use. Defaults to the\n\ndefinition used within the current instance. name::AbstractString: ...\n\nqueue::AbstractString: ...\n\n\"\"\"  function Manager(...)  ...  end  `\n\nFeel free to document multiple methods for a function within the same docstring. Be careful to only do this for functions you have defined.\n\n`julia  \"\"\"  Manager(max_workers; kwargs...)  Manager(min_workers:max_workers; kwargs...)  Manager(min_workers, max_workers; kwargs...)\n\nA cluster manager which spawns workers.\n\n# Arguments\n\nmin_workers::Int: The minimum number of workers to spawn or an exception is thrown\n\nmax_workers::Int: The requested number of workers to spawn\n\n# Keywords\n\ndefinition::AbstractString: Name of the job definition to use. Defaults to the\n\ndefinition used within the current instance. name::AbstractString: ...\n\nqueue::AbstractString: ...\n\n\"\"\"  function Manager end\n\n`\n\nIf the documentation for bullet-point exceeds 92 characters, the line should be wrapped and slightly indented.\n\nAvoid aligning the text to the :.\n\n``julia  \"\"\"  ...",
+      "section": "No: (part 7)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "# Keywords definition::AbstractString: Name of the job definition to use. Defaults to the\n\ndefinition used within the current instance.  \"\"\"  ```",
+      "section": "No: (part 8)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Error Handling\n\nerror(\"string\") should be avoided. Defining and throwing exception types is preferred. See the\n\n[manual on exceptions for more details] https://docs.julialang.org/en/v1/manual/control-flow/#Exception-Handling. Try to avoid try/catch. Use it as minimally as possible. Attempt to catch potential issues before running\n\ncode, not after.\n\n### Arrays\n\nAvoid splatting (...) whenever possible. Prefer iterators such as collect, vcat, hcat, etc. instead.\n\n### Line Endings\n\nAlways use Unix style \\n line ending.\n\n### VS-Code Settings\n\nIf you are a user of VS Code we recommend that you have the following options in your Julia syntax specific settings. To modify these settings, open your VS Code Settings with CMD+, (Mac OS) or CTRL+, (other OS), and add to your settings.json:\n\n{  \"[julia]\": {  \"editor.detectIndentation\": false,  \"editor.insertSpaces\": true,  \"editor.tabSize\": 4,  \"files.insertFinalNewline\": true,  \"files.trimFinalNewlines\": true,  \"files.trimTrailingWhitespace\": true,  \"editor.rulers\": [92],  \"files.eol\": \"\\n\"  }, }\n\nAdditionally, you may find the [Julia VS-Code plugin] https://github.com/julia-vscode/julia-vscode useful.",
+      "section": "No: (part 9)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### JuliaFormatter\n\nNote: the sciml style is only available in JuliaFormatter v1.0 or later\n\nOne can add .JuliaFormatter.toml with the content\n\nstyle = \"sciml\"\n\nin the root of a repository, and run\n\nusing JuliaFormatter, SomePackage format(joinpath(dirname(pathof(SomePackage)), \"..\"))\n\nto format the package automatically.\n\nAdd [FormatCheck.yml] https://github.com/SciML/ModelingToolkit.jl/blob/master/.github/workflows/FormatCheck.yml to enable the formatting CI. The CI will fail if the repository needs additional formatting. Thus, one should run format before committing.\n\n## References\n\nMany of these style choices were derived from the [Julia style guide] https://docs.julialang.org/en/v1/manual/style-guide/, the [YASGuide] https://github.com/jrevels/YASGuide, and the [Blue style guide] https://github.com/JuliaDiff/BlueStyle.",
+      "section": "No: (part 10)",
+      "repo": "168_CoupledNODE",
+      "source_file": "readme.md"
+    }
+  }
+]

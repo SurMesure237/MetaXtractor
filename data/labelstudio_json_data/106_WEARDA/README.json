@@ -1,0 +1,66 @@
+[
+  {
+    "data": {
+      "text": "[](https://fairsoftwarechecklist.net/v0.2?f=31&a=32113&i=31320&r=123)\n\nIntroduction\n\nAs part of the Dementia project at Liacs, Leiden University, we developed the WEARDA package: an app and back ground service to capture sensor data with the Samsung Gear Fit2 Pro wearable running on Tizen OS version 2.3.1:13. This OS is developed by Samsung and is based on the Linux OS.\n\nFor a nice introduction of the WEARDA package, please see the \"WEARDA software paper.pdf\" in this repository.\n\nFor installation of the development environment, installation of the WEARDA package, remarks how to use the applications and remarks about the Samsung certificates, see below. This information can also be found in the UserManual.pdf added to this repository as well.",
+      "section": "Introduction + Introduction",
+      "repo": "106_WEARDA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Installation of Tizen Studio environment\n\nThe exact installation steps are (in a nutshell):\n\nInstall Tizen Studio 4.1. At the end of the installation the package manager will be prompted.\n\nInstall the Tizen extensions for native development for version 2.3.1 (tab: Main SDK)\n\nInstall the Tizen extension for Certificates (tab: Extension SDK)\n\nMake a Samsung developer account: https://developer.samsung.com/sa/signIn.do\n\nRun package manager (Tizen Studio -> tools), go through the wizard steps.\n\nSet up the Mobile hotspot of Windows (part of Network & Internet settings), switch Wifi on.\n\nTake a Watch, put it in debug mode, switch on Wifi and connect to the Hotspot (pass word is shown).\n\nRun device manager (Tizen Studio -> tools), press middle button on right top (\"remote device manager\"\"), add a watch to the list (plus sign). You can either add the info manually or use a button to \"scan\" for devices. Switch connection to \"on\". If a watch is connected for the first time: confirm connection on the watch, too.\n\nAfter a while the device manager tool shows connection activity.\n\nNotes: Installation guide of the Tizen Studio development environment can be found in https://developer.samsung.com/tizen/Galaxy-Watch/certificate/creating-certificate.html and then hover up to > installation.\n\nTip Windows Installations:  In case you cannot run the Device Manager and get a message that msvcr120dll is missing, you will have to load an extension for your OS: https://answers.microsoft.com/en-us/windows/forum/windows_10-performance/msvcr120dll-is-missing-or-error/aafe820f-4dbb-4043-aba2-e4ac2dcf69c1\n\nIn case you cannot run the Device Manager and get a message that msvcp120dll is missing, you will have to load an extension for your OS: https://answers.microsoft.com/en-us/windows/forum/windows_7-windows_install/missing-msvcp120dll-file/f0a14d55-73f0-4a21-879e-1cbacf05e906",
+      "section": "Installation of Tizen Studio environment (part 1)",
+      "repo": "106_WEARDA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "The watches have version 2.3.1:13 of the Tizen OS, so choose to install the 2.3.1 SDK together with the certificate SDK.",
+      "section": "Installation of Tizen Studio environment (part 2)",
+      "repo": "106_WEARDA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Installation of Liacs sensor app and sensor service\n\nThe exact installation steps are (in a nutshell):\n\nMake a GitHub account.\n\nMake a fork of this repository.\n\nDownload from the main branch the software project sensor application and sensor service. Click on \"code\" and download zip file.\n\nOpen the project files one by one with the Tizen Studio 4.1\n\nOpen the device manager, make connection to the watch (step 8 + 9 of installation Tizen Studio environment).\n\nFor the next steps, you will need to get certificates to run the app on the watches. Check \"Certificates\" for more information.  Select the sensor application project, click on the right button of your mouse, choose run-as, choose native device. The software is now downloaded to the watch.\n\nSelect the sensor service project, click on the right button of your mouse, choose run-as, choose native device.\n\nThe sensor application is found at the bottom of all applications.\n\nPut watch in debug mode, switch all app off with settings only switch on wifi.\n\nPush - with the device manager - a configuration file with name \"configuration.dat\" on folder \"/opt/var/tmp/\".\n\nNotes about the configuration file:  Write timer can be set to a higher frequency than the data is collected to miss fewer signals The privacy circle has a max range of 10000 mt, anything higher sets the privacy circle to 100 mt Do a zero measurement (for calibration offline) for 15 minutes, upload the sensor + con files.\n\nNOTE: You can also use the sdb (Smart Development Bridge) tool which come with Tizen Studio instead of the Device Manager. See the HOW-TO-USE-SDB.md.",
+      "section": "Installation of Liacs sensor app and sensor service",
+      "repo": "106_WEARDA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Information about Certificates\n\nRequires a Samsung Developer Account\n\nConnect watch(es) via device manager\n\nOpen Certificate Manager\n\nHover over the little plus to add a new certificate\n\nClick Samsung Certificate\n\nYou will be asked to make an author certificate and a distributor certificate\n\nIf you want to add a watch: click on the plus sign as if adding a new certificate, click samsung certificate, select use existing certificate profile, click no when asked if you want to create a new author certificate, create new distributor certificate, you will be asked to chose a password and either add a DUID manually or connect to the new device. Alternatively, you can use a .txt file with a new DUID per line to create certificates.\n\nTip: consider setting the date to one day in the future while setting up the watch to avoid certification date issues.",
+      "section": "Information about Certificates",
+      "repo": "106_WEARDA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Information about the sensor application / service\n\n## The configuration file\n\nThe sensor service always measures based on a configuration file. You can stop the measurement only by shutting down the watch (press the smallest button on the side for a few seconds).\n\nThe sensor application starts the service if the watch is switched on from shut down. So the watch is not measuring immediately. The configuration file is read after clicking on the RESTART button of the sensor application (so at the beginning of each measurement). So it is possible to measure with different configurations while not shutting down the watch all the time.",
+      "section": "Information about the sensor application / service (part 1)",
+      "repo": "106_WEARDA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Possible workflow for measurement, sensor app + service already installed:\n\nSwitch on the watch after charging to 100% (press small button on side long).\n\nCheck that the date time is correct.\n\nCheck that the wifi is off and location off if you do not use GPS (prolongs the measurement time to 15 hours).\n\nActivate the sensor app and \"snip\" the patient identifier.\n\nClick on the RESTART button.\n\nPut the watch around the wrist / upper arm / ankle of the patient.\n\nWrite down watch identifier (last 4 characters name of watch in Mobile hotspot, see picture below), patient identifier, date + time in Excel (shadow administration).\n\nAfter 3 hours / 15 hours collect the watch and put another watch around the wrist of the patient which went through step 1-6.\n\nSwitch the collected watch off (power off) and charge to 100% (so charging time is very low).\n\nAfter battery 100%, switch on the watch and wifi to make connection with the laptop.\n\nPull the sensor files (aag + bar + gps) and con file to the laptop from \"/opt/usr/apps/liacs.sensorservice/data/\". This can be done with the Device Manager but better with the sdb tool (see HOW-TO-USE-SDB.md).\n\nRemove the sensor- and con files from the watch if it exceeds 500 MB by pressing the CLEAN button 3x (sensor app).\n\nSwitch the wifi off and continu with step 2.",
+      "section": "Information about the sensor application / service (part 2)",
+      "repo": "106_WEARDA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Device Manager\n\nSee below an example of the Device Manager tool. The list of files are containing the sensor data and copy of the configuration file used.\n\nInformation about sensors\n\nHere you can read about the sensors, scroll down until you passed the API description.\n\nhttps://docs.tizen.org/application/native/guides/location-sensors/device-sensors/\n\nRelated publications\n\nhttps://www.universiteitleiden.nl/en/news/2021/11/improving-the-environment-of-people-with-dementia-with-the-help-of-new-software",
+      "section": "Device Manager + Information about sensors + Related publications",
+      "repo": "106_WEARDA",
+      "source_file": "readme.md"
+    }
+  }
+]

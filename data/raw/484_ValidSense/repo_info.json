@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/umcu/ValidSense",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/umcu/ValidSense/zipball/main",
+  "author": "umcu",
+  "dateCreated": "2025-05-07T11:15:07Z",
+  "dateModified": "2025-09-15T08:21:05Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "The ValidSense toolbox aims to assess the agreement between two quantitative methods or devices measuring the same quantity using the Limits of Agreement analysis (LoA analysis), also known as the Bland-Altman analysis, using four existing variants. Moreover, a Longitudinal analysis is developed to assess agreement over time.",
+  "identifier": 979341214,
+  "name": "umcu/ValidSense",
+  "issueTracker": "https://api.github.com/repos/umcu/ValidSense/issues",
+  "readme": "https://github.com/umcu/ValidSense/blob/main/README.md"
+}

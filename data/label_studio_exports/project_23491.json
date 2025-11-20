@@ -1,0 +1,263 @@
+[
+  {
+    "id": 2179,
+    "annotations": [
+      {
+        "id": 10337,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 42,
+              "text": "https://doi.org/10.5281/zenodo.15582367",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "GQRxJxLtpE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:37:06.906344Z",
+        "updated_at": "2025-11-04T06:37:06.906385Z",
+        "draft_created_at": null,
+        "lead_time": 8.16,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "a3d76430-40b9-4849-8d48-0ac7374cd56b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2179,
+        "project": 23491,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://doi.org/10.5281/zenodo.15582367) [](https://bio.tools/addFeatures)",
+      "section": "Introduction",
+      "repo": "362_addFeatures",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.273419Z",
+    "updated_at": "2025-11-04T06:37:06.938333Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23491,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2180,
+    "annotations": [
+      {
+        "id": 10338,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:37:15.328013Z",
+        "updated_at": "2025-11-04T06:37:15.328036Z",
+        "draft_created_at": null,
+        "lead_time": 8.228,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "94bec18c-6f30-4dca-850c-19b9b42367eb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2180,
+        "project": 23491,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "addFeatures addFeatures adds spot images to a SCiLS Lab dataset from a list of defined mass spectral features.\n\n[1. Introduction] #1-Introduction  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.1 What is addFeatures?] #11-What-is-addFeatures  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2 What can addFeatures be used for?] #12-What-can-addFeatures-be-used-for  [2. Installing addFeatures] #2-Installing-addFeatures  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1 Running addFeatures] #21-Running-addFeatures  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2 Running addFeatures from within RStudio] #22-Running-addFeatures-from-within-RStudio  [3. Using addFeatures] #3-Using-addFeatures  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.1 Selecting the feature file] #31-Selecting-the-feature-file  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.2 Selecting the SCiLS Lab dataset] #32-Selecting-the-SCiLS-Lab-dataset  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.3 Normalization] #33-Normalization  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.4 Renaming features] #34-Renaming-features  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.5 Adding total intensity] #35-Adding-total-intensity  [4. Acknowledgements ] #4-Acknowledgements  [5. Further reading] #5-Further-reading\n\n## 1. Introduction\n\n### 1.1 What is addFeatures?\n\naddFeatures adds spot images to a SCiLS Lab dataset from a list of defined mass spectral features, also generated in SCiLS Lab and saved to a CSV file.\n\n### 1.2 What can addFeatures be used for?\n\naddFeatures automates the otherwise tedious process of creating and naming spot images from defined regions in mass spectra, typically corresponding to one or more peaks. The spot images are written to the SCiLS Lab dataset, and are immediately available from withing SCiLS Lab. addFeatures can also normalize the intensities across the spot images to the total of all features, and create an additional image for this total intensity.",
+      "section": "addFeatures (part 1)",
+      "repo": "362_addFeatures",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.273456Z",
+    "updated_at": "2025-11-04T06:37:15.357347Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23491,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2181,
+    "annotations": [
+      {
+        "id": 10339,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:37:20.546355Z",
+        "updated_at": "2025-11-04T06:37:20.546375Z",
+        "draft_created_at": null,
+        "lead_time": 5.053,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "74f6817d-ead5-4d7c-86fb-f0976c3c2a95",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2181,
+        "project": 23491,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## 2. Installing addFeatures\n\nTo install addFeatures, simply download the R script and place it in an arbitrary folder, e.g. ``C:\\Program Files\\SCiLS Lab tools\\addFeatures` on a Windows system. Create a batch (.bat) file calling the R program with `Rscript.exe`` for a version of R currently installed on your system that is compatible with the SCiLS Lab R API, e.g. R-4.3.2:\n\n@echo off \"C:\\Program Files\\R\\R-4.3.2\\bin\\Rscript.exe\" \"C:\\Program Files\\SCiLS Lab tools\\addFeatures\\addFeatures.R\" pause\n\nIf making a shortcut to this batch file, you can change its properties to run in \"minimized\" mode. This will automatically hide the command line interface, which is only used for debugging and troubleshooting by addFeatures.\n\n### 2.1 Running addFeatures\n\nTo run addFeatures, simply launch the software by running the batch file or double-clicking on the shortcut. The first time addFeatures is run, any necessary R libraries will be installed. This may require manual removal of some lock files from previous R package installations.\n\n### 2.2 Running addFeatures from within RStudio\n\nIt is also possible to run addFeatures from within RStudio. Simply launch RStudio and open the R script. Remember to use the same version of R compatible with the SCiLS Lab API. However, addFeatures is designed to be run from its graphical user interface, hiding the complexity of the R code from the user.\n\n## 3. Using addFeatures\n\naddFeatures has a clean graphical user interface (GUI):\n\nTooltips provide additional cues on the different elements of the GUI. Hover with the mouse pointer over a button to see what action it will trigger.",
+      "section": "addFeatures (part 2)",
+      "repo": "362_addFeatures",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.273480Z",
+    "updated_at": "2025-11-04T06:37:20.573421Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23491,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2182,
+    "annotations": [
+      {
+        "id": 10340,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:37:22.743166Z",
+        "updated_at": "2025-11-04T06:37:22.743196Z",
+        "draft_created_at": null,
+        "lead_time": 2.023,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "4752490c-c8b1-4702-9291-b339eee77c7b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2182,
+        "project": 23491,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### 3.1 Selecting the feature file\n\nClick on the \"Select features (.csv) file\" button and select the CSV file defining and naming the features for which you wish to add a spot image to the SCiLS Lab dataset. This is a feature list exported from SCiLS Lab in the CSV format, with a metadata header followed by the features, each with four values in the four columns: \"m/z\", \"Interval Width (+/- Da)\", \"Color\" and \"Name\". \"m/z\" is the center of the feature m/z region (peak position). \"Interval Width (+/- Da)\" is half of the width of the feature (or peak), measured from the center. \"Color\" defines the color box in the list of spot images in SCiLS Lab. \"Name\" is an arbitrary string containing the name of the feature. If no name is provided, all features will be named \"NA\" in SCiLS Lab (see below for how to automatically (re)name the features). For an example feature file, suitable for the \"cerebella\" sample dataset, see [example features] files/example_features.csv. Technically, these files are not comma-separated, but rather uses semicolons as the field separators.\n\n### 3.2 Selecting the SCiLS Lab dataset\n\nNext, click on the \"Select SCiLS Lab .slx file\" button and navigate to the SCiLS Lab dataset (SLX file). Make sure the actual data (SBD file) is in the same directory. Make sure the settings (checkboxes) are correct and click on \"Add features as spot images\" to add the defined features to the SCiLS Lab dataset. After completion, addFeatures will automatically close, to release the SCiLS Lab software license and the lock on the SCiLS Lab files. The SLX file can now be opened in SCiLS Lab proper. The features should now appear in the \"Spot Images\" list (here showing the [example features] files/example_features.csv on the example cerebella dataset, which can also be found in the [files] files/ folder):",
+      "section": "addFeatures (part 3)",
+      "repo": "362_addFeatures",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.273503Z",
+    "updated_at": "2025-11-04T06:37:22.773212Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23491,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2183,
+    "annotations": [
+      {
+        "id": 10341,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:37:26.161026Z",
+        "updated_at": "2025-11-04T06:37:26.161043Z",
+        "draft_created_at": null,
+        "lead_time": 3.25,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "78de46ee-56a6-4a53-89ee-925609cace41",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2183,
+        "project": 23491,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### 3.3 Normalization\n\nTo express all features as a fraction of the total intensity of all features for each pixel, check the \"Normalize features to 1\" box. This divides the intensity for each feature in each pixel by the sum of feature intensities for the pixel.\n\n### 3.4 Renaming features\n\nIf no names are provided in the feature (CSV) file, addFeatures will still add the features, but all names being \"NA\". To instead use the m/z midpoint as a name, tick the \"(Re)name features by m/z\" box. This will override any names provided in the CSV file.\n\n### 3.5 Adding total intensity\n\nTo add a separate spot image containing the sum of all selected feature intensities in each pixel, check the \"Include total intensity\" box. This spot image is named \"sum of all peaks\", and can be found in the same spot image group \"Peaks (normalized to 1)\" as the images corresponding to individual features.\n\n## 4. Acknowledgements\n\nThe developer wishes to thank Rob Marissen for help and support during the development of addFeatures.\n\n## 5. Further reading\n\naddFeatures has not been described or used in any publications as yet.",
+      "section": "addFeatures (part 4)",
+      "repo": "362_addFeatures",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.273524Z",
+    "updated_at": "2025-11-04T06:37:26.188591Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23491,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

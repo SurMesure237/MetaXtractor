@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/WAM2layers/WAM2layers",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Jupyter Notebook",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/WAM2layers/WAM2layers/zipball/main",
+  "author": "WAM2layers",
+  "dateCreated": "2022-03-17T13:31:28Z",
+  "dateModified": "2025-10-22T14:05:46Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Atmospheric moisture tracking",
+  "identifier": 471007521,
+  "name": "WAM2layers/WAM2layers",
+  "issueTracker": "https://api.github.com/repos/WAM2layers/WAM2layers/issues",
+  "readme": "https://github.com/WAM2layers/WAM2layers/blob/main/README.md"
+}

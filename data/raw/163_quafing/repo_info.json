@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/SDCCA/quafing",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Jupyter Notebook",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/SDCCA/quafing/zipball/main",
+  "author": "SDCCA",
+  "dateCreated": "2022-05-13T21:48:58Z",
+  "dateModified": "2024-04-22T10:37:29Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": null,
+  "identifier": 492048903,
+  "name": "SDCCA/quafing",
+  "issueTracker": "https://api.github.com/repos/SDCCA/quafing/issues",
+  "readme": "https://github.com/SDCCA/quafing/blob/main/README.md"
+}

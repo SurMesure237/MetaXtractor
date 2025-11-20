@@ -1,0 +1,290 @@
+[
+  {
+    "data": {
+      "text": "\"If you liked it then you \"should have put a\"_test on it\", Beyonce rule",
+      "section": "Introduction",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "UT / \u03bct\n\n| [Motivation] #motivation | [Quick Start] #quick-start | [Overview] #overview | [Tutorial] #tutorial | [Examples] #examples | [User Guide] #user-guide | [FAQ] #faq | [Benchmarks] #benchmarks |\n\nC++ single header/single module, macro-free \u03bc(micro)/Unit Testing Framework\n\n#include // import boost.ut;\n\nconstexpr auto sum(auto... values) { return (values + ...); }\n\nint main() {  using namespace boost::ut;\n\n\"sum\"_test = [] {  expect(sum(0) == 0_i);  expect(sum(1, 2) == 3_i);  expect(sum(1, 2) > 0_i and 41_i == sum(40, 2));  }; }\n\nRunning \"sum\"...  sum.cpp:11:FAILED [(3 > 0 and 41 == 42)] FAILED\n\ntests: 1 | 1 failed asserts: 3 | 2 passed | 1 failed\n\nhttps://godbolt.org/z/f4jEcv9vo\n\nMotivation\n\nTesting is a very important part of the Software Development, however, C++ doesn't provide any good testing facilities out of the box, which often leads into a poor testing experience for develops and/or lack of tests/coverage in general.\n\nOne should treat testing code as production code!\n\nAdditionally, well established testing practises such as [Test Driven Development (TDD)] https://en.wikipedia.org/wiki/Test-driven_development/[Behaviour Driven Development (BDD)] https://en.wikipedia.org/wiki/Behavior-driven_development are often not followed due to the same reasons.\n\nThe following snippet is a common example of testing with projects in C++.\n\nint main() {  // should sum numbers  {  assert(3 == sum(1, 2));  } }\n\nThere are quite a few problems with the approach above",
+      "section": "UT / \u03bct (part 1)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "No names for tests (Hard to follow intentions by further readers)  No automatic registration of tests (No way to run specific tests)  Hard to debug (Assertions don't provide any information why it failed)  Hard to scale (No easy path forward for parameterized tests, multiple suites, parallel execution, etc...)  Hard to integrate (No easy way to have a custom output such as XML for CI integration)  Easy to make mistakes (With implicit casting, floating point comparison, pointer comparison for strings, etc...)  Hard to follow good practises such as TDD/BDD (Lack of support for sections and declarative expressions)  ...\n\nUT is trying to address these issues by simplifying testing experience with a few simple steps:\n\nJust get a single [header] https://github.com/boost-ext/ut/blob/master/include/boost/ut.hpp or [module+header] https://github.com/boost-ext/ut/blob/master/include/boost/ut.cppm  Integrate it into your project  Learn a few simple concepts ([expect, test, suite] #api)\n\nAnd you good to go!\n\nOkay, great, but why I would use UT over other/similar testing frameworks already available in C++?\n\n[Boost.Test] https://github.com/boostorg/test  [GoogleTest] https://github.com/google/googletest  [Catch] https://github.com/catchorg/Catch2 [...] https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#C++\n\nGreat question! There are a few unique features which makes UT worth trying",
+      "section": "UT / \u03bct (part 2)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Firstly, it supports all the basic Unit Testing Framework features (automatic registration of tests, assertions, suites, etc...)  It's easy to integrate (it's just one [header/module] https://github.com/boost-ext/ut/blob/master/include/boost/ut.hpp)  It's macro free which makes testing experience that much nicer (it uses modern C++ features instead, macros are opt-in rather than being compulsory - [Can I still use macros?] #macros)  It's flexible (all parts of the framework such as: [runner, reporter, printer] #examples can be customized, basically most other Unit Testing Frameworks can be implemented on top of UT primitives)  It has smaller learning curve (just a few simple concepts ([expect, test, suite] #api))  It leverages C++ features to support more complex testing ([parameterized] #examples)  It's faster to compile and execute than similar frameworks which makes it suitable for bigger projects without additional hassle ([Benchmarks] #benchmarks)  It supports [TDD/BDD] #examples workflows  It supports [Gherkin] #examples specification  It supports [Spec] #examples  ...\n\nSounds intriguing/interesting? Learn more at\n\n[Tutorial] #tutorial  [Examples] #examples  [User-Guide] #user-guide\n\nQuick Start\n\nhttps://bit.ly/ut-quick-start (slides)\n\nOverview",
+      "section": "UT / \u03bct (part 3)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "No dependencies ([C++20] #cpp-20, Tested Compilers: GCC-9+, Clang-9.0+, Apple Clang-11.0.0+, MSVC-2019+, Clang-cl-9.0+  Single header/module ([boost/ut.hpp] https://github.com/boost-ext/ut/blob/master/include/boost/ut.hpp)  Macro-free ([How does it work?] #how-it-works)  Easy to use ([Minimal API] #api - test, suite, operators, literals, [expect])  Fast to compile/execute ([Benchmarks] #benchmarks)  Features ([Assertions] https://github.com/boost-ext/ut/blob/master/example/expect.cpp, [Suites] https://github.com/boost-ext/ut/blob/master/example/suite.cpp, [Tests] https://github.com/boost-ext/ut/blob/master/example/test.cpp, [Sections] https://github.com/boost-ext/ut/blob/master/example/section.cpp, [Parameterized] https://github.com/boost-ext/ut/blob/master/example/parameterized.cpp, [BDD] https://github.com/boost-ext/ut/blob/master/example/BDD.cpp, [Gherkin] https://github.com/boost-ext/ut/blob/master/example/gherkin.cpp, [Spec] https://github.com/boost-ext/ut/blob/master/example/spec.cpp, [Matchers] https://github.com/boost-ext/ut/blob/master/example/matcher.cpp, [Logging] https://github.com/boost-ext/ut/blob/master/example/log.cpp, [Runners] https://github.com/boost-ext/ut/blob/master/example/cfg/runner.cpp, [Reporters] https://github.com/boost-ext/ut/blob/master/example/cfg/reporter.cpp, [...] https://github.com/boost-ext/ut/blob/master/example)  Integrations ([ApprovalTests.cpp] https://github.com/approvals/ApprovalTests.cpp/releases/tag/v.7.0.0)\n\nTutorial\n\n&nbsp;&nbsp;&nbsp;&nbsp;Step 0: Get it...\n\nGet the latest latest header/module from [here!] https://github.com/boost-ext/ut/blob/master/include/boost/ut.hpp\n\nInclude/Import\n\n// #include // single header // import boost.ut; // single module (C++20)",
+      "section": "UT / \u03bct (part 4)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "int main() { }\n\nCompile & Run\n\n$CXX main.cpp && ./a.out\n\nAll tests passed (0 assert in 0 test)\n\n[Optional] Install it\n\ncmake -Bbuild -H. cd build && make # run tests cd build && make install # install\n\n[Optional] CMake integration\n\nThis project provides a CMake config and target. Just load ut with find_package to import the Boost::ut target. Linking against this target will add the necessary include directory for the single header file. This is demonstrated in the following example.\n\nfind_package(ut REQUIRED) add_library(my_test my_test.cpp) target_link_libraries(my_test PRIVATE Boost::ut)\n\n[Optional] [Conan] https://conan.io integration\n\nThe [boost-ext-ut] https://conan.io/center/boost-ext-ut package is available from [Conan Center] https://conan.io/center/. Just include it in your project's Conanfile with boost-ext-ut/2.3.1.\n\n&nbsp;&nbsp;&nbsp;&nbsp;Step 1: Expect it...\n\nLet's write our first assertion, shall we?\n\nint main() {  boost::ut::expect(true); }\n\nAll tests passed (1 asserts in 0 test)\n\nhttps://godbolt.org/z/vfx-eB\n\nOkay, let's make it fail now?\n\nint main() {  boost::ut::expect(1 == 2); }\n\nmain.cpp:4:FAILED [false]\n\ntests: 0 | 0 failed asserts: 1 | 0 passed | 1 failed\n\nhttps://godbolt.org/z/7qTePx\n\nNotice that expression 1 == 2 hasn't been printed. Instead we got false?\n\nLet's print it then?\n\nint main() {  using namespace boost::ut;  expect(1_i == 2); }\n\nmain.cpp:4:FAILED [1 == 2]\n\ntests: 0 | 0 failed asserts: 1 | 0 passed | 1 failed\n\nhttps://godbolt.org/z/7MXVzu",
+      "section": "UT / \u03bct (part 5)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Okay, now we have it! 1 == 2 has been printed as expected. Notice the User Defined Literal (UDL) 1_i was used. _i is a compile-time constant integer value\n\nIt allows to override comparison operators \ud83d\udc4d  It disallow comparison of different types \ud83d\udc4d\n\nSee the [User-guide] #user-guide for more details.\n\nAlternatively, a terse notation (no expect required) can be used.\n\nint main() {  using namespace boost::ut::literals;  using namespace boost::ut::operators::terse;\n\n1_i == 2; // terse notation }\n\nmain.cpp:7:FAILED [1 == 2]\n\ntests: 0 | 0 failed asserts: 1 | 0 passed | 1 failed\n\nhttps://godbolt.org/z/s77GSm\n\nOther expression syntaxes are also available.\n\nexpect(1_i == 2); // UDL syntax expect(1 == 2_i); // UDL syntax expect(that % 1 == 2); // Matcher syntax expect(eq(1, 2)); // eq/neq/gt/ge/lt/le\n\nmain.cpp:6:FAILED [1 == 2] main.cpp:7:FAILED [1 == 2] main.cpp:8:FAILED [1 == 2] main.cpp:9:FAILED [1 == 2]\n\ntests: 0 | 0 failed asserts: 4 | 0 passed | 4 failed\n\nhttps://godbolt.org/z/QbgGtc\n\nOkay, but what about the case if my assertion is fatal. Meaning that the program will crash unless the processing will be terminated. Nothing easier, let's just add fatal call to make the test fail immediately.\n\nexpect(fatal(1 == 2_i)); // fatal assertion expect(1_i == 2); // not executed\n\nmain.cpp:6:FAILED [1 == 2]\n\ntests: 1 | 1 failed asserts: 2 | 0 passed | 2 failed\n\nhttps://godbolt.org/z/WMe8Y1\n\nBut my expression is more complex than just simple comparisons. Not a problem, logic operators are also supported in the expect \ud83d\udc4d.",
+      "section": "UT / \u03bct (part 6)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "expect(42l == 42_l and 1 == 2_i); // compound expression\n\nmain.cpp:5:FAILED [(42 == 42 and 1 == 2)]\n\ntests: 0 | 0 failed asserts: 1 | 0 passed | 1 failed\n\nhttps://godbolt.org/z/aEhX4t\n\nCan I add a custom message though? Sure, expect calls are streamable!\n\nint main() {  expect(42l == 42_l and 1 == 2_i) That's nice, can I use custom messages and fatal assertions? Yes, stream the fatal!\n\nexpect(fatal(1 == 2_i)) I use std::expected, can I stream its error() upon failure? Yes, since std::expected's error() can only be called when there is no value it requires lazy evaluation.\n\n\"lazy log\"_test = [] {  std::expected e = std::unexpected(\"lazy evaluated\");  expect(e.has_value()) https://godbolt.org/z/v2PDuU\n\n&nbsp;&nbsp;&nbsp;&nbsp;Step 2: Group it...",
+      "section": "UT / \u03bct (part 7)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Assertions are great, but how to combine them into more cohesive units? Test cases are the way to go! They allow to group expectations for the same functionality into coherent units.\n\n\"hello world\"_test = [] { };\n\nAlternatively test(\"hello world\") = [] {} can be used.\n\nAll tests passed (0 asserts in 1 tests)\n\nhttps://godbolt.org/z/Bh-EmY\n\nNotice 1 tests but 0 asserts.\n\nLet's make our first end-2-end test case, shall we?\n\nint main() {  \"hello world\"_test = [] {  int i = 43;  expect(42_i == i);  }; }\n\nRunning \"hello world\"...  main.cpp:8:FAILED [42 == 43] FAILED\n\ntests: 1 | 1 failed asserts: 1 | 0 passed | 1 failed\n\nhttps://godbolt.org/z/Y43mXz\n\n\ud83d\udc4d We are done here!\n\nI'd like to nest my tests, though and share setup/tear-down. With lambdas used to represents tests/sections we can easily achieve that. Let's just take a look at the following example.\n\nint main() {  \"[vector]\"_test = [] {  std::vector v(5);\n\nexpect(fatal(5_ul == std::size(v)));\n\nshould(\"resize bigger\") = [v] { // or \"resize bigger\"_test  mut(v).resize(10);  expect(10_ul == std::size(v));  };\n\nexpect(fatal(5_ul == std::size(v)));\n\nshould(\"resize smaller\") = [=]() mutable { // or \"resize smaller\"_test  v.resize(0);  expect(0_ul == std::size(v));  };  } }\n\nAll tests passed (4 asserts in 1 tests)\n\nhttps://godbolt.org/z/XWAdYt\n\nNice! That was easy, but I'm a believer into Behaviour Driven Development (BDD). Is there a support for that? Yes! Same example as above just with the BDD syntax.\n\nint main() {  \"vector\"_test = [] {  given(\"I have a vector\") = [] {  std::vector v(5);  expect(fatal(5_ul == std::size(v)));",
+      "section": "UT / \u03bct (part 8)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "when(\"I resize bigger\") = [=] {  mut(v).resize(10);\n\nthen(\"The size should increase\") = [=] {  expect(10_ul == std::size(v));  };  };  };  }; }\n\nAll tests passed (2 asserts in 1 tests)\n\nhttps://godbolt.org/z/dnvxsE\n\nOn top of that, feature/scenario aliases can be leveraged.\n\nint main() {  feature(\"vector\") = [] {  scenario(\"size\") = [] {  given(\"I have a vector\") = [] {  std::vector v(5);  expect(fatal(5_ul == std::size(v)));\n\nwhen(\"I resize bigger\") = [=] {  mut(v).resize(10);\n\nthen(\"The size should increase\") = [=] {  expect(10_ul == std::size(v));  };  };  };  };  }; }\n\nAll tests passed (2 asserts in 1 tests)\n\nhttps://godbolt.org/z/T4cWss\n\nCan I use Gherkin? Yeah, let's rewrite the example using Gherkin specification\n\nint main() {  bdd::gherkin::steps steps = [](auto& steps) {  steps.feature(\"Vector\") = [&] {  steps.scenario(\"*\") = [&] {  steps.given(\"I have a vector\") = [&] {  std::vector v(5);  expect(fatal(5_ul == std::size(v)));\n\nsteps.when(\"I resize bigger\") = [&] {  v.resize(10);  };\n\nsteps.then(\"The size should increase\") = [&] {  expect(10_ul == std::size(v));  };  };  };  };  };\n\n\"Vector\"_test = steps |  R\"(  Feature: Vector  Scenario: Resize  Given I have a vector  When I resize bigger  Then The size should increase  )\"; }\n\nAll tests passed (2 asserts in 1 tests)\n\nhttps://godbolt.org/z/jb1d8P\n\nNice, is Spec notation supported as well?\n\nint main() {  describe(\"vector\") = [] {  std::vector v(5);  expect(fatal(5_ul == std::size(v)));",
+      "section": "UT / \u03bct (part 9)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "it(\"should resize bigger\") = [v] {  mut(v).resize(10);  expect(10_ul == std::size(v));  };  }; }\n\nAll tests passed (2 asserts in 1 tests)\n\nhttps://godbolt.org/z/6jKKzT\n\nThat's great, but how can call the same tests with different arguments/types to be DRY (Don't Repeat Yourself)? Parameterized tests to the rescue!\n\nint main() {  for (auto i : std::vector{1, 2, 3}) {  test(\"parameterized \" + std::to_string(i)) = [i] { // 3 tests  expect(that % i > 0); // 3 asserts  };  } }\n\nAll tests passed (3 asserts in 3 tests)\n\nhttps://godbolt.org/z/Utnd6X\n\nThat's it \ud83d\ude2e! Alternatively, a convenient test syntax is also provided \ud83d\udc4d\n\nint main() {  \"args\"_test = [](const auto& arg) {  expect(arg > 0_i) https://godbolt.org/z/6FHtpq\n\nCheck [Examples] #examples for further reading.\n\n&nbsp;&nbsp;&nbsp;&nbsp;Step 3: Scale it...\n\nOkay, but my project is more complex than that. How can I scale? Test suites will make that possible. By using suite in translation units tests defined inside will be automatically registered \ud83d\udc4d\n\nsuite errors = [] { // or suite  \"exception\"_test = [] {  expect(throws([] { throw 0; })) https://godbolt.org/z/_ccGwZ\n\nWhat's next? [Examples] #examples [User-Guide] #user-guide\n\nExamples\n\n&nbsp;&nbsp;&nbsp;&nbsp;Assertions",
+      "section": "UT / \u03bct (part 10)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "// operators expect(0_i == sum()); expect(2_i != sum(1, 2)); expect(sum(1) >= 0_i); expect(sum(1) 3);\n\n// eq/neq/gt/ge/lt/le expect(eq(42, sum(40, 2))); expect(neq(1, 2)); expect(eq(sum(1), 1) and neq(sum(1, 2), 2)); expect(eq(1, 1) and that % 1 == 1 and 1_i == 1);\n\n// floating points expect(42.1_d == 42.101) and run_time_v == 99_i);\n\n// failure expect(1_i == 2) https://godbolt.org/z/E1c7G5\n\n&nbsp;&nbsp;&nbsp;&nbsp;Tests\n\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Run/Skip/Tag\n\n\"run UDL\"_test = [] {  expect(42_i == 42); };\n\nskip / \"don't run UDL\"_test = [] {  expect(42_i == 43) << \"should not fire!\"; };\n\nAll tests passed (1 asserts in 1 tests) 1 tests skipped\n\ntest(\"run function\") = [] {  expect(42_i == 42); };\n\nskip / test(\"don't run function\") = [] {  expect(42_i == 43) << \"should not fire!\"; };",
+      "section": "UT / \u03bct (part 11)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "All tests passed (1 asserts in 1 tests) 1 tests skipped\n\ntag(\"nightly\") / tag(\"slow\") / \"performance\"_test= [] {  expect(42_i == 42); };\n\ntag(\"slow\") / \"run slowly\"_test= [] {  expect(42_i == 43) = {.tag = {\"nightly\"}};\n\nAll tests passed (1 asserts in 1 tests) 1 tests skipped\n\nhttps://godbolt.org/z/X3_kG4\n\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sections\n\n\"[vector]\"_test = [] {  std::vector v(5);\n\nexpect(fatal(5_ul == std::size(v)));\n\nshould(\"resize bigger\") = [=] { // or \"resize bigger\"_test  mut(v).resize(10);  expect(10_ul == std::size(v));  };\n\nexpect(fatal(5_ul == std::size(v)));\n\nshould(\"resize smaller\") = [=]() mutable { // or \"resize smaller\"_test  v.resize(0);  expect(0_ul == std::size(v));  }; };\n\nAll tests passed (4 asserts in 1 tests)\n\nhttps://godbolt.org/z/cE91bj\n\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Behavior Driven Development (BDD)\n\n\"Scenario\"_test = [] {  given(\"I have...\") = [] {  when(\"I run...\") = [] {  then(\"I expect...\") = [] { expect(1_i == 1); };  then(\"I expect...\") = [] { expect(1 == 1_i); };  };  }; };\n\nAll tests passed (2 asserts in 1 tests)\n\nhttps://godbolt.org/z/mNBySr\n\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gherkin",
+      "section": "UT / \u03bct (part 12)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "int main() {  bdd::gherkin::steps steps = [](auto& steps) {  steps.feature(\"\") = [&] {  steps.scenario(\"\") = [&] {  steps.given(\"I have a number {value}\") = [&] int value {  auto number = value;  steps.when(\"I add {value} to it\") = [&] int value {  number += value;  };  steps.then(\"I expect number to be {value}\") = [&] int value {  expect(that % number == value);  };  };  };  };  };\n\n\"Gherkin\"_test = steps |  R\"(  Feature: Number  Scenario: Addition  Given I have a number 40  When I add 2 to it  Then I expect number to be 42  )\"; }\n\nAll tests passed (1 asserts in 1 tests)\n\nhttps://godbolt.org/z/BP3hyt\n\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Spec\n\nint main() {  describe(\"equality\") = [] {  it(\"should be equal\") = [] { expect(0_i == 0); };  it(\"should not be equal\") = [] { expect(1_i != 0); };  }; }\n\nAll tests passed (2 asserts in 1 tests)\n\nhttps://godbolt.org/z/BXYJ3a\n\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Parameterized\n\nfor (auto i : std::vector{1, 2, 3}) {  test(\"parameterized \" + std::to_string(i)) = [i] {  expect(that % i > 0);  }; }\n\n\"args\"_test =  [](auto arg) {  expect(arg >= 1_i);  }  | std::vector{1, 2, 3};\n\n\"types\"_test =  [] {  expect(std::is_integral_v) {};",
+      "section": "UT / \u03bct (part 13)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "\"args and types\"_test =  [](TArg arg) {  expect(fatal(std::is_integral_v));  expect(42_i == arg or \"is true\"_b == arg);  expect(type == type or type == type);  }  | std::tuple{true, 42};\n\nWhen using the operator| syntax instead of a for loop, the test name will automatically be extended to avoid duplicate names. For example, the test name for the args and types test will be args and types (true, bool) for the first parameter and args and types (42, int) for the second parameter. For simple built-in types (integral types and floating point numbers), the test name will contain the parameter values. For other types, the parameters will simply be enumerated. For example, if we would extend the test above to use std::tuple{true, 42, std::complex{0.5, 1}}, the test name in the third run would be args and types (3rd parameter, std::complex). If you want to have the actual value of a non-integral type included in the test name, you can overload the format_test_parameter function. See the [example on parameterized tests] https://github.com/boost-ext/ut/blob/master/example/parameterized.cpp for details.\n\nAll tests passed (14 asserts in 10 tests)\n\nhttps://godbolt.org/z/4xGGdo\n\nAnd whenever I need to know the specific type for which the test failed, I can use reflection::type_name(), like this:\n\n\"types with type name\"_test =  []() {  expect(std::is_unsigned_v) () {};\n\nRunning \"types with type name\"...PASSED Running \"types with type name\"...  :10:FAILED [false] float is unsigned FAILED\n\nhttps://godbolt.org/z/MEnGnbTY4\n\n&nbsp;&nbsp;&nbsp;&nbsp;Suites",
+      "section": "UT / \u03bct (part 14)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "namespace ut = boost::ut;\n\nut::suite errors = [] {  using namespace ut;\n\n\"throws\"_test = [] {  expect(throws([] { throw 0; }));  };\n\n\"doesn't throw\"_test = [] {  expect(nothrow([]{}));  }; };\n\nint main() { }\n\nAll tests passed (2 asserts in 2 tests)\n\nhttps://godbolt.org/z/CFbTP9\n\n&nbsp;&nbsp;&nbsp;&nbsp;Misc\n\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Logging using streams\n\n\"logging\"_test = [] {  log https://godbolt.org/z/26fPSY\n\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Logging using formatting\n\nThis requires using C++20 with a standard library with std::format support.\n\n\"logging\"_test = [] {  log(\"\\npre {} == {}\\n\", 42, 43);  expect(42_i == 43) {}\\n\", 42, 43, 42 == 43); };\n\nRunning \"logging\"... pre 42 == 43  logging.cpp:8:FAILED [42 == 43] message on failure post 42 == 43 -> false FAILED\n\ntests: 1 | 1 failed asserts: 1 | 0 passed | 1 failed\n\nhttps://godbolt.org/z/26fPSY\n\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Matchers\n\n\"matchers\"_test = [] {  constexpr auto is_between = [](auto lhs, auto rhs) {  return [=] auto value {  return that % value >= lhs and that % value <= rhs;  };  };",
+      "section": "UT / \u03bct (part 15)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "expect(is_between(1, 100)(42));  expect(not is_between(1, 100)(0)); };\n\nAll tests passed (2 asserts in 1 tests)\n\nhttps://godbolt.org/z/4qwrCi\n\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exceptions/Aborts\n\n\"exceptions/aborts\"_test = [] {  expect(throws([] { throw std::runtime_error{\"\"}; }))  https://godbolt.org/z/A2EehK\n\n&nbsp;&nbsp;&nbsp;&nbsp;Config\n\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Runner\n\nnamespace ut = boost::ut;\n\nnamespace cfg {  class runner {  public:  template auto on(ut::events::test test) { test(); }  template auto on(ut::events::skip) {}  template   auto on(ut::events::assertion) -> bool { return true; }  auto on(ut::events::fatal_assertion) {}  template auto on(ut::events::log) {}  }; } // namespace cfg\n\ntemplate<> auto ut::cfg = cfg::runner{};\n\nhttps://godbolt.org/z/jdg687\n\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reporter\n\nnamespace ut = boost::ut;",
+      "section": "UT / \u03bct (part 16)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "namespace cfg {  class reporter {  public:  auto on(ut::events::test_begin) -> void {}  auto on(ut::events::test_run) -> void {}  auto on(ut::events::test_skip) -> void {}  auto on(ut::events::test_end) -> void {}  template auto on(ut::events::log) -> void {}  template   auto on(ut::events::assertion_pass) -> void {}  template   auto on(ut::events::assertion_fail) -> void {}  auto on(ut::events::fatal_assertion) -> void {}  auto on(ut::events::exception) -> void {}  auto on(ut::events::summary) -> void {}  }; } // namespace cfg\n\ntemplate <> auto ut::cfg = ut::runner{};\n\nhttps://godbolt.org/z/gsAPKg\n\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Printer\n\nnamespace ut = boost::ut;\n\nnamespace cfg { struct printer : ut::printer {  template   auto& operator(t);  return this;  } }; } // namespace cfg\n\ntemplate <> auto ut::cfg = ut::runner>{};\n\nint main() {  using namespace ut;  \"printer\"_test = [] {}; }\n\nhttps://godbolt.org/z/XCscF9\n\nUser Guide\n\n&nbsp;&nbsp;&nbsp;&nbsp;API\n\nexport module boost.ut; /// __cpp_modules\n\nnamespace boost::inline ext::ut::inline v2_3_1 {  /  Represents test suite object  /  struct suite final {  /  Creates and executes test suite  @example suite _ = [] {};  @param suite test suite function  */  constexpr explicit(false) suite(auto suite);  };",
+      "section": "UT / \u03bct (part 17)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "/*  Creates a test  @example \"name\"_test = [] {};  @return test object to be executed  /  constexpr auto operator\"\"_test;\n\n/  Creates a test  @example test(\"name\") = [] {};  @return test object to be executed  /  constexpr auto test = [](const auto name);\n\n/  Creates a test  @example should(\"name\") = [] {};  @return test object to be executed  /  constexpr auto should = [](const auto name);\n\n/  Behaviour Driven Development (BDD) helper functions  @param name step name  @return test object to be executed  /  constexpr auto given = [](const auto name);  constexpr auto when = [](const auto name);  constexpr auto then = [](const auto name);\n\n/  Evaluates an expression  @example expect(42 == 42_i and 1 != 2_i);  @param expr expression to be evaluated  @param source location https://en.cppreference.com/w/cpp/utility/source_location  @return stream  /  constexpr OStream& expect(  Expression expr,  const std::source_location& location = std::source_location::current()  );\n\nstruct {  /  @example (that % 42 == 42);  @param expr expression to be evaluated  /  [[nodiscard]] constexpr auto operator%(Expression expr) const;  } that{};",
+      "section": "UT / \u03bct (part 18)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "inline namespace literals {  /*  User defined literals to represent constant values  @example 42_i, 0_uc, 1.23_d  /  constexpr auto operator\"\"_i; /// int  constexpr auto operator\"\"_s; /// short  constexpr auto operator\"\"_c; /// char  constexpr auto operator\"\"_l; /// long  constexpr auto operator\"\"_ll; /// long long  constexpr auto operator\"\"_u; /// unsigned  constexpr auto operator\"\"_uc; /// unsigned char  constexpr auto operator\"\"_us; /// unsigned short  constexpr auto operator\"\"_ul; /// unsigned long  constexpr auto operator\"\"_f; /// float  constexpr auto operator\"\"_d; /// double  constexpr auto operator\"\"_ld; /// long double\n\n/*  Represents dynamic values  @example _i(42), _f(42.)  /  constexpr auto _b(bool);  constexpr auto _c(char);  constexpr auto _s(short);  constexpr auto _i(int);  constexpr auto _l(long);  constexpr auto _ll(long long);  constexpr auto _u(unsigned);  constexpr auto _uc(unsigned char);  constexpr auto _us(unsigned short);  constexpr auto _ul(unsigned long);  constexpr auto _f(float);  constexpr auto _d(double);  constexpr auto _ld(long double);\n\n/*  Logical representation of constant boolean (true) value  @example \"is set\"_b : true  not \"is set\"_b : false  */  constexpr auto operator \"\"_b;  } // namespace literals",
+      "section": "UT / \u03bct (part 19)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "inline namespace operators {  /*  Comparison functions to be used in expressions  @example eq(42, 42), neq(1, 2)  /  constexpr auto eq(Operator lhs, Operator rhs); /// ==  constexpr auto neq(Operator lhs, Operator rhs); /// !=  constexpr auto gt(Operator lhs, Operator rhs); /// >  constexpr auto ge(Operator lhs, Operator rhs); /// >=  constexpr auto lt(Operator lhs, Operator rhs); /// ;  constexpr auto operator>=;  constexpr auto operator> fatal  /  constexpr auto operator>>;  } // namespace operators\n\n/  Creates skippable test object  @example skip / \"don't run\"_test = [] { };  /  constexpr auto skip = tag(\"skip\");\n\nstruct {  /*  @example log auto mut(const T& t) -> T&;",
+      "section": "UT / \u03bct (part 20)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "/*  Default execution flow policy  /  class runner {  public:  /  @example cfg = {  .filter = \"test.section.\",  .colors = { .none = \"\" },  .dry__run = true  };  @param options.filter {default: \"\"} runs all tests which names  matches test.section. filter  @param options.colors {default: {  .none = \"\\033[0m\",  .pass = \"\\033[32m\",  .fail = \"\\033[31m\"  } if specified then overrides default color values  @param options.dry_run {default: false} if true then print test names to be  executed without running them  /  auto operator=(options);\n\n/  @example suite _ = [] {};  @param suite() executes suite  /  template  auto on(ut::events::suite);\n\n/*  @example \"name\"_test = [] {};  @param test.type [\"test\", \"given\", \"when\", \"then\"]  @param test.name \"name\"  @param test.arg parameterized argument  @param test() executes test  /  template  auto on(ut::events::test);\n\n/  @example skip / \"don't run\"_test = []{};  @param skip.type [\"test\", \"given\", \"when\", \"then\"]  @param skip.name \"don't run\"  @param skip.arg parameterized argument  /  template  auto on(ut::events::skip);\n\n/*  @example file.cpp:42: expect(42_i == 42);  @param assertion.expr 42_i == 42  @param assertion.location { \"file.cpp\", 42 }  @return true if expr passes, false otherwise  /  template   auto on(ut::events::assertion) -> bool;",
+      "section": "UT / \u03bct (part 21)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "/*  @example expect((2_i == 1) >> fatal)  @note triggered by fatal  should std::exit  /  auto on(ut::events::fatal_assertion);\n\n/  @example log   auto on(ut::events::log);\n\n/*  Explicitly runs registered test suites  If not called directly test suites are executed with run's destructor  @example return run({.report_errors = true})  @param run_cfg.report_errors {default: false} if true it prints the summary after running  /  auto run(run_cfg);\n\n/*  Runs registered test suites if they haven't been explicitly executed already  /  ~run();  };\n\n/  Default reporter policy  /  class reporter {  public:  /  @example file.cpp:42: \"name\"_test = [] {};  @param test_begin.type [\"test\", \"given\", \"when\", \"then\"]  @param test_begin.name \"name\"  @param test_begin.location { \"file.cpp\", 42 }  /  auto on(ut::events::test_begin) -> void;\n\n/*  @example \"name\"_test = [] {};  @param test_run.type [\"test\", \"given\", \"when\", \"then\"]  @param test_run.name \"name\"  /  auto on(ut::events::test_run) -> void;\n\n/  @example \"name\"_test = [] {};  @param test_skip.type [\"test\", \"given\", \"when\", \"then\"]  @param test_skip.name \"name\"  /  auto on(ut::events::test_skip) -> void;\n\n/  @example \"name\"_test = [] {};  @param test_end.type [\"test\", \"given\", \"when\", \"then\"]  @param test_end.name \"name\"  /  auto on(ut::events::test_end) -> void;\n\n/  @example log   auto on(ut::events::log) -> void;",
+      "section": "UT / \u03bct (part 22)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "/*  @example file.cpp:42: expect(42_i == 42);  @param assertion_pass.expr 42_i == 42  @param assertion_pass.location { \"file.cpp\", 42 }  /  template   auto on(ut::events::assertion_pass) -> void;\n\n/  @example file.cpp:42: expect(42_i != 42);  @param assertion_fail.expr 42_i != 42  @param assertion_fail.location { \"file.cpp\", 42 }  /  template   auto on(ut::events::assertion_fail) -> void;\n\n/  @example expect((2_i == 1) >> fatal)  @note triggered by fatal  should std::exit  /  auto on(ut::events::fatal_assertion) -> void;\n\n/  @example \"exception\"_test = [] { throw std::runtime_error{\"\"}; };  /  auto on(ut::events::exception) -> void;\n\n/  @note triggered on destruction of runner  /  auto on(ut::events::summary) -> void;  };\n\n/  Used to override default running policy  @example template <> auto cfg = runner{};  /  struct override {};\n\n/*  Default UT execution policy  Can be overwritten with override  /  template auto cfg = runner{}; }\n\n&nbsp;&nbsp;&nbsp;&nbsp;Configuration\n\n| Option | Description | Example | |-|-|-| | BOOST_UT_VERSION | Current version | 2'3'1 |\n\nFAQ\n\n&nbsp;&nbsp;&nbsp;&nbsp;How does it work?\n\nsuite\n\n``cpp  /*  Represents suite object  @example suite _ = []{};  /  struct suite final {  /*  Assigns and executes test suite  */  [[nodiscard]] constexpr explicit(false) suite(Suite suite) {  suite();  }  };  `\n\ntest`",
+      "section": "UT / \u03bct (part 23)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "``cpp  /*  Creates named test object  @example \"hello world\"_test  @return test object  /  [[nodiscard]] constexpr Test operator \"\"_test(const char name, std::size_t size) {  return test{{name, size}};  }  `\n\n`cpp  /*  Represents test object  /  struct test final {  std::string_view name{}; /// test case name\n\n/  Assigns and executes test function  @param test function  /  constexpr auto operator=(const Test& test) {  std::cout expect\n\n`cpp  /*  Evaluates an expression  @example expect(42_i == 42);  @param expr expression to be evaluated  @param source location https://en.cppreference.com/w/cpp/utility/source_location  @return stream  /  constexpr OStream& expect(  Expression expr,  const std::source_location& location = std::source_location::current()  ) {  if (not static_cast(expr) {  std::cerr   [[nodiscard]] constexpr Operator operator\"\"_i() -> integral_constant>;  `\n\n`cpp  /  Overloads comparison if at least one of {lhs, rhs} is an Operator  @example (42_i == 42)  @param lhs Left-hand side operator  @param rhs Right-hand side operator  @return Comparison object  */  [[nodiscard]] constexpr auto operator==(Operator lhs, Operator rhs) {  return eq{lhs, rhs};  }  ``",
+      "section": "UT / \u03bct (part 24)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "``cpp  /*  Comparison Operator  /  template   struct eq final {  TLhs lhs{}; // Left-hand side operator  TRhs rhs{}; // Right-hand side operator\n\n/  Performs comparison operation  @return true if expression is successful  /  [[nodiscard]] constexpr explicit operator bool() const {  return lhs == rhs;  }\n\n/*  Nicely prints the operation  /  friend auto operator Ostream& {  return (os Sections\n\n`cpp  /  Convenient aliases for creating test named object  @example should(\"return true\") = [] {};  /  constexpr auto should = [](const auto name) { return test{name}; };  `\n\nBehaviour Driven Development (BDD)\n\n`cpp  /*  Convenient aliases for creating BDD tests  @example feature(\"Feature\") = [] {};  @example scenario(\"Scenario\") = [] {};  @example given(\"I have an object\") = [] {};  @example when(\"I call it\") = [] {};  @example then(\"I should get\") = [] {};  /  constexpr auto feature = [](const auto name) { return test{name}; };  constexpr auto scenario = [](const auto name) { return test{name}; };  constexpr auto given = [](const auto name) { return test{name}; };  constexpr auto when = [](const auto name) { return test{name}; };  constexpr auto then = [](const auto name) { return test{name}; };  `\n\nhttps://godbolt.org/z/6Nk5Mi\n\nSpec\n\n`cpp  /*  Convenient aliases for creating Spec tests  @example describe(\"test\") = [] {};  @example it(\"should...\") = [] {};  */  constexpr auto describe = [](const auto name) { return test{name}; };  constexpr auto it = [](const auto name) { return test{name}; };  ``",
+      "section": "UT / \u03bct (part 25)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[Example implementation] https://github.com/boost-ext/ut/tree/gh-pages/denver-cpp-2020/example\n\nTry it online\n\nHeader - https://godbolt.org/z/x96n8b  Module - https://wandbox.org/permlink/LrV7WwIgghTP1nrs\n\n&nbsp;&nbsp;&nbsp;&nbsp;Fast compilation times (Benchmarks)?\n\nImplementation\n\nLeveraging [C++20] #cpp-20 features\n\nAvoiding unique types for lambda expressions\n\ntemplate   requires not std::convertible_to>  constexpr auto operator=(Test test);\n\nvs\n\n// Compiles 5x faster because it doesn't introduce a new type for each lambda  constexpr auto operator=(void (test)());\n\nType-name erasure (allows types/function memoization)\n\neq, int>{ {}, 42 }\n\nvs\n\n// Can be memoized - faster to compile  eq{42, 42}\n\nLimiting preprocessor work  Single header/module  Minimal number of include files\n\nSimplified versions of  std::function  std::string_view\n\n&nbsp;&nbsp;&nbsp;&nbsp;C++20 features?\n\nAPI\n\n[Source Location] https://eel.is/c++draft/support.srcloc#source.location.syn  Assertions - expect(false) - __FILE__:__LINE__:FAILED [false]\n\n[Designated initializers] https://eel.is/c++draft/dcl.init#nt:designated-initializer-list  Configuration - cfg = {.filter = \"test\"}\n\n[Non-Type Template Parameter] https://eel.is/c++draft/temp.arg.nontype  Constant matchers - constant\n\n[Template Parameter List for generic lambdas] https://eel.is/c++draft/expr.prim.lambda  Parameterized tests - \"types\"_test = []() {};\n\n[Concepts] https://eel.is/c++draft/concepts.lang Operators - Operator @ Operator",
+      "section": "UT / \u03bct (part 26)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[Modules] https://eel.is/c++draft/module  import boost.ut;\n\n&nbsp;&nbsp;&nbsp;&nbsp;C++2X integration?\n\nParameterized tests with Expansion statements (https://wg21.link/P1306r1)\n\ntemplate for (auto arg : std::tuple{}) {  test(\"types \" + std::to_string(arg)) = [arg] {  expect(type(arg) == type or type(arg) == type);  }; }\n\nAll tests passed (2 asserts in 2 tests)\n\nhttps://cppx.godbolt.org/z/dMmqmM\n\n&nbsp;&nbsp;&nbsp;&nbsp;Is standardization an option?\n\nPersonally, I believe that C++ standard could benefit from common testing primitives (expect, \"\"_test) because\n\nIt lowers the entry-level to the language (no need for third-party libraries)  It improves the education aspect (one standard way of doing it)  It makes the language more coherent/stable (consistent design with other features, stable API)  It makes the testing a first class citizen (shows that the community cares about this aspect of the language)  It allows to publish tests for the Standard Library (STL) in the standard way (coherency, easier to extend)  It allows to act as additional documentation as a way to verify whether a particular implementation is conforming (quality, self-verification)  It helps with establishing standard vocabulary for testing (common across STL and other projects)\n\n&nbsp;&nbsp;&nbsp;&nbsp;Can I still use macros?\n\nSure, although please notice that there are negatives of using macros such as\n\nError messages might be not clear and/or point to the wrong line  Global scope will be polluted  Type safety will be ignored",
+      "section": "UT / \u03bct (part 27)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#define EXPECT(...) ::boost::ut::expect(::boost::ut::that % __VA_ARGS__) #define SUITE ::boost::ut::suite _ = [] #define TEST(name) ::boost::ut::detail::test{\"test\", name} = [=]() mutable\n\nSUITE {  TEST(\"suite\") {  EXPECT(42 == 42);  }; };\n\nint main() {  TEST(\"macro\") {  EXPECT(1 != 2);  };\n\nTEST(\"vector\") {  std::vector v(5);\n\nEXPECT(fatal(5u == std::size(v))) https://godbolt.org/z/WcEKTr\n\n&nbsp;&nbsp;&nbsp;&nbsp;What about Mocks/Stubs/Fakes?\n\nConsider using one of the following frameworks\n\nhttps://github.com/cpp-testing/GUnit/blob/master/docs/GMock.md  https://github.com/eranpeer/FakeIt  https://github.com/dascandy/hippomocks\n\n&nbsp;&nbsp;&nbsp;&nbsp;What about Microbenchmarking?\n\n[Example benchmark] example/benchmark.cpp\n\nConsider using one of the following frameworks\n\nhttps://github.com/google/benchmark  https://github.com/DigitalInBlue/Celero  https://github.com/libnonius/nonius https://github.com/martinus/nanobench\n\n&nbsp;&nbsp;&nbsp;&nbsp;Related materials/talks?",
+      "section": "UT / \u03bct (part 28)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[[Boost].UT - Unit Testing Framework - Kris Jusiak](https://boost-ext.github.io/ut/denver-cpp-2019)  [Future of Testing with C++20 - Kris Jusiak] https://boost-ext.github.io/ut/meeting-cpp-2020  [Macro-Free Testing with C++20 - Kris Jusiak] https://www.youtube.com/watch?v=irdgFyxOs_Y  [\"If you liked it then you \"should have put a\"_test on it\", Beyonce rule - Kris Jusiak] https://www.youtube.com/watch?v=yCI8MjvOMeE  [Principles of Unit Testing With C++ - Dave Steffen and Kris Jusiak] https://www.youtube.com/watch?v=oOcuJdJJ33g  [Empirical Unit Testing - Dave Steffen] https://www.twitch.tv/videos/686512433\n\n&nbsp;&nbsp;&nbsp;&nbsp;How to contribute?\n\n[CONTRIBUTING] .github/CONTRIBUTING.md\n\nBenchmarks\n\n| Framework | Version | Standard | License | Linkage | Test configuration | |-|-|-|-|-|-| | [Boost.Test] https://github.com/boostorg/test | [1.71.0] https://www.boost.org/users/history/version_1_71_0.html | C++03 | Boost 1.0 | single header/library | static library | | [GoogleTest] https://github.com/google/googletest | [1.10.0] https://github.com/google/googletest/releases/tag/release-1.10.0 | C++11 | BSD-3 | library | static library | | [Catch] https://github.com/catchorg/Catch2 | [2.10.2] https://github.com/catchorg/Catch2/releases/download/v2.10.2/catch.hpp | C++11 | Boost 1.0 | single header | CATCH_CONFIG_FAST_COMPILE | | [Doctest] https://github.com/onqtam/doctest | [2.3.5] https://github.com/onqtam/doctest/blob/master/doctest/doctest.h | C++11 | MIT | single header | DOCTEST_CONFIG_SUPER_FAST_ASSERTS | | [UT] https://github.com/boost-ext/ut | [1.1.0] https://github.com/boost-ext/ut/blob/master/include/boost/ut.hpp | C++20 | Boost 1.0 | single header/module | |",
+      "section": "UT / \u03bct (part 29)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Include / 0 tests, 0 asserts, 1 cpp file\n\nAssert / 1 test, 1'000'000 asserts, 1 cpp file",
+      "section": "UT / \u03bct (part 30)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Test / 1'000 tests, 0 asserts, 1 cpp file\n\nSuite / 10'000 tests, 0 asserts, 100 cpp files",
+      "section": "UT / \u03bct (part 31)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Suite+Assert / 10'000 tests, 40'000 asserts, 100 cpp files",
+      "section": "UT / \u03bct (part 32)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Suite+Assert+STL / 10'000 tests, 20'000 asserts, 100 cpp files",
+      "section": "UT / \u03bct (part 33)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Incremental Build - Suite+Assert+STL / 1 cpp file change (1'000 tests, 20'000 asserts, 100 cpp files)",
+      "section": "UT / \u03bct (part 34)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Suite+Assert+STL / 10'000 tests, 20'000 asserts, 100 cpp files(Headers vs Precompiled headers vs C++20 Modules)\n\nhttps://github.com/cpp-testing/ut-benchmark\n\nDisclaimer UT is not an official Boost library.",
+      "section": "UT / \u03bct (part 35)",
+      "repo": "222_GridFormat",
+      "source_file": "readme.md"
+    }
+  }
+]

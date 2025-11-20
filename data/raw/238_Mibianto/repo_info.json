@@ -1,0 +1,16 @@
+{
+  "codeRepository": "https://github.com/CCB-SB/mibianto",
+  "programmingLanguage": null,
+  "programmingLanguages": [],
+  "downloadUrl": "https://api.github.com/repos/CCB-SB/mibianto/zipball/main",
+  "author": "CCB-SB",
+  "dateCreated": "2023-02-16T14:46:39Z",
+  "dateModified": "2025-09-15T05:57:20Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": null,
+  "identifier": 602596031,
+  "name": "CCB-SB/mibianto",
+  "issueTracker": "https://api.github.com/repos/CCB-SB/mibianto/issues",
+  "readme": "https://github.com/CCB-SB/mibianto/blob/main/README.md"
+}

@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/FZJ-IEK3-VSA/DataDesc",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell",
+    "Jupyter Notebook"
+  ],
+  "downloadUrl": "https://api.github.com/repos/FZJ-IEK3-VSA/DataDesc/zipball/main",
+  "author": "FZJ-IEK3-VSA",
+  "dateCreated": "2023-01-23T12:21:03Z",
+  "dateModified": "2025-04-27T11:58:17Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Key components of the ecosystem are a metadata schema for software documentation with focus on interfaces, a machine-actionable metadata exchange format and a software  toolkit supporting the documentation, extraction and publication of software metadata.",
+  "identifier": 592293755,
+  "name": "FZJ-IEK3-VSA/DataDesc",
+  "issueTracker": "https://api.github.com/repos/FZJ-IEK3-VSA/DataDesc/issues",
+  "readme": "https://github.com/FZJ-IEK3-VSA/DataDesc/blob/main/README.md"
+}

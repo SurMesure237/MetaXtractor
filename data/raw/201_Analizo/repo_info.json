@@ -1,0 +1,27 @@
+{
+  "codeRepository": "https://github.com/analizo/analizo",
+  "programmingLanguage": "Perl",
+  "programmingLanguages": [
+    "Perl",
+    "C++",
+    "C",
+    "Gherkin",
+    "C#",
+    "Python",
+    "Java",
+    "Shell",
+    "Makefile",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/analizo/analizo/zipball/main",
+  "author": "analizo",
+  "dateCreated": "2009-11-02T23:17:01Z",
+  "dateModified": "2025-01-29T16:01:46Z",
+  "keywords": [],
+  "license": null,
+  "description": "multi-language source code analysis suite",
+  "identifier": 358678,
+  "name": "analizo/analizo",
+  "issueTracker": "https://api.github.com/repos/analizo/analizo/issues",
+  "readme": "https://github.com/analizo/analizo/blob/dev/README.md"
+}

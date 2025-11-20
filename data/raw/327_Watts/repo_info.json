@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/indigo-dc/tts",
+  "programmingLanguage": "Erlang",
+  "programmingLanguages": [
+    "Erlang",
+    "HTML",
+    "Elm",
+    "CSS",
+    "JavaScript",
+    "Python",
+    "Shell",
+    "Makefile",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/indigo-dc/tts/zipball/main",
+  "author": "indigo-dc",
+  "dateCreated": "2016-02-03T07:56:55Z",
+  "dateModified": "2023-09-29T11:43:31Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "WaTTS - the INDIGO Token Translation Service",
+  "identifier": 50983751,
+  "name": "indigo-dc/tts",
+  "issueTracker": "https://api.github.com/repos/indigo-dc/tts/issues",
+  "readme": "https://github.com/indigo-dc/tts/blob/master/README.md"
+}

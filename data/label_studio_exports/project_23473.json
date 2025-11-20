@@ -1,0 +1,192 @@
+[
+  {
+    "id": 2105,
+    "annotations": [
+      {
+        "id": 10382,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 243,
+              "end": 285,
+              "text": "https://juaml.github.io/julearn/index.html",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "u5LfPjMZJX",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 550,
+              "end": 553,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "EtuH8FlJ0J",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:05:08.601707Z",
+        "updated_at": "2025-11-14T12:47:39.104478Z",
+        "draft_created_at": "2025-11-04T07:05:00.283470Z",
+        "lead_time": 34.986999999999995,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "f3980ede-034e-4d66-8f28-bed949be8b6c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2105,
+        "project": 23473,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "julearn\n\n[](https://anaconda.org/conda-forge/julearn)\n\n[](https://github.com/charliermarsh/ruff) [](https://github.com/pre-commit/pre-commit)\n\n## About\n\nThe Forschungszentrum Jülich Machine Learning Library\n\nCheck our full documentation here: https://juaml.github.io/julearn/index.html\n\nIt is currently being developed and maintained at the [Applied Machine Learning] https://www.fz-juelich.de/en/inm/inm-7/research-groups/applied-machine-learning-aml group at [Forschungszentrum Juelich] https://www.fz-juelich.de/en, Germany.\n\n## Installation\n\nUse pip to install from PyPI like so:\n\npip install julearn\n\nYou can also install via conda, like so:\n\nconda install -c conda-forge julearn",
+      "section": "julearn (part 1)",
+      "repo": "344_Julearn",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.065957Z",
+    "updated_at": "2025-11-14T12:47:39.136501Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23473,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2106,
+    "annotations": [
+      {
+        "id": 10383,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 44,
+              "end": 59,
+              "text": "AGPL v3 license",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "ZQkgP1SGud",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 247,
+              "end": 280,
+              "text": "GNU Affero General Public License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "AywxPsIHPn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 663,
+              "end": 696,
+              "text": "GNU Affero General Public License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "TxIg9TJdVl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 832,
+              "end": 1110,
+              "text": "Sami Hamdan,Shammi More,Leonard Sasse,Vera Komeyer,Kaustubh R. Patil,Federico Raimondo,for the Alzheimer’s Disease Neuroimaging Initiative,Julearn: an easy-to-use library for leakage-free evaluation and inspection of ML models,Gigabyte,2024 https://doi.org/10.46471/gigabyte.113",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "LsinQ4F5rQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:06:13.246567Z",
+        "updated_at": "2025-11-04T07:06:13.246586Z",
+        "draft_created_at": "2025-11-04T07:05:19.122551Z",
+        "lead_time": 64.454,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "36f95d77-8741-4e39-b72a-a2602866ad6c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2106,
+        "project": 23473,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Licensing\n\njulearn is released under the AGPL v3 license:\n\njulearn, FZJuelich AML machine learning library. Copyright (C) 2020, authors of julearn.\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License along with this program. If not, see .\n\n## Citing\n\nIf you use julearn in a scientific publication, please use the following reference\n\nSami Hamdan,Shammi More,Leonard Sasse,Vera Komeyer,Kaustubh R. Patil,Federico Raimondo,for the Alzheimer’s Disease Neuroimaging Initiative,Julearn: an easy-to-use library for leakage-free evaluation and inspection of ML models,Gigabyte,2024 https://doi.org/10.46471/gigabyte.113\n\nSince julearn is also heavily reliant on scikit-learn, please also cite them: https://scikit-learn.org/stable/about.html#citing-scikit-learn",
+      "section": "julearn (part 2)",
+      "repo": "344_Julearn",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.065994Z",
+    "updated_at": "2025-11-04T07:06:13.276804Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23473,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

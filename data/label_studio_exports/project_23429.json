@@ -1,0 +1,257 @@
+[
+  {
+    "id": 1888,
+    "annotations": [
+      {
+        "id": 10550,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 219,
+              "end": 254,
+              "text": "https://doi.org/10.21105/joss.07313",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "jEapCwhIJk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 259,
+              "end": 305,
+              "text": "https://zenodo.org/doi/10.5281/zenodo.10255543",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "qpdLP6hLYZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 165,
+              "end": 214,
+              "text": "https://peak-performance.readthedocs.io/en/latest",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "yOywvef8-G",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:48:54.265716Z",
+        "updated_at": "2025-11-14T12:56:07.730873Z",
+        "draft_created_at": "2025-11-04T17:48:05.801651Z",
+        "lead_time": 71.794,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "b36c690d-53e8-4950-b3bb-fdfe2cc03625",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1888,
+        "project": 23429,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://pypi.org/project/peak-performance/) [](https://github.com/JuBiotech/peak-performance/actions) [](https://app.codecov.io/gh/JuBiotech/peak-performance) [](https://peak-performance.readthedocs.io/en/latest) [](https://doi.org/10.21105/joss.07313) [](https://zenodo.org/doi/10.5281/zenodo.10255543)\n\nAbout PeakPerformance PeakPerformance employs Bayesian modeling for chromatographic peak data fitting. This has the innate advantage of providing uncertainty quantification while jointly estimating all peak parameters united in a single peak model. As Markov Chain Monte Carlo (MCMC) methods are utilized to infer the posterior probability distribution, convergence checks and the aformentioned uncertainty quantification are applied as novel quality metrics for a robust peak recognition.",
+      "section": "Introduction + About PeakPerformance",
+      "repo": "085_PeakPerformance",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.948026Z",
+    "updated_at": "2025-11-14T12:56:07.763464Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23429,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1889,
+    "annotations": [
+      {
+        "id": 10551,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 158,
+              "end": 163,
+              "text": "Mamba",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "KZWAtQAY9B",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1329,
+              "end": 1378,
+              "text": "https://peak-performance.readthedocs.io/en/latest",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "6kkdQLPaaQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 165,
+              "end": 214,
+              "text": "https://github.com/conda-forge/miniforge/releases",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "8SJerhIej4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:50:13.949695Z",
+        "updated_at": "2025-11-14T12:56:20.373706Z",
+        "draft_created_at": "2025-11-04T17:49:04.279349Z",
+        "lead_time": 89.878,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "5a19580e-4288-4394-8293-9829804c1e1a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1889,
+        "project": 23429,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Installation\n\nIt is highly recommended to follow the following steps and install `PeakPerformance in a fresh Python environment: Install the package manager [Mamba] https://github.com/conda-forge/miniforge/releases.\n\nChoose the latest installer at the top of the page, click on \"show all assets\", and download an installer denominated by \"Mambaforge-version number-name of your OS.exe\", so e.g. \"Mambaforge-23.3.1-1-Windows-x86_64.exe\" for a Windows 64 bit operating system. Then, execute the installer to install mamba and activate the option \"Add Mambaforge to my PATH environment variable\".\n\n⚠ If you have already installed Miniconda, you can install Mamba on top of it but there are compatibility issues with Anaconda.\n\nℹ The newest conda version should also work, just replace mamba with conda in step 2.\n\nCreate a new Python environment in the command line using the provided [environment.yml] https://github.com/JuBiotech/peak-performance/blob/main/environment.yml file from the repo.\n\nDownload environment.yml first, then navigate to its location on the command line interface and run the following command:\n\nmamba env create -f environment.yml\n\nNaturally, it is alternatively possible to just install PeakPerformance` via pip:\n\npip install peak-performance\n\nFirst steps Be sure to check out our thorough [documentation] https://peak-performance.readthedocs.io/en/latest. It contains not only information on how to install PeakPerformance and prepare raw data for its application but also detailed treatises about the implemented model structures, validation with both synthetic and experimental data against a commercially available vendor software, exemplary usage of diagnostic plots and investigation of various effects. Furthermore, you will find example notebooks and data sets showcasing different aspects of PeakPerformance.",
+      "section": "Installation + First steps",
+      "repo": "085_PeakPerformance",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.948066Z",
+    "updated_at": "2025-11-14T12:56:20.409622Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23429,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1890,
+    "annotations": [
+      {
+        "id": 10552,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 439,
+              "end": 478,
+              "text": "https://doi.org/10.5281/zenodo.10255543",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "RbDN4oY_AN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:50:30.687755Z",
+        "updated_at": "2025-11-04T17:50:30.687770Z",
+        "draft_created_at": "2025-11-04T17:50:28.991077Z",
+        "lead_time": 16.543,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "8567aaa2-9fc7-49d3-aba8-aa6b27aa3700",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1890,
+        "project": 23429,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "How to contribute If you encounter bugs while using PeakPerformance, please bring them to our attention by opening an issue. When doing so, describe the problem in detail and add screenshots/code snippets and whatever other helpful material you can provide. When contributing code, create a local clone of PeakPerformance, create a new branch, and open a pull request (PR).\n\nHow to cite Head over to Zenodo to [generate a BibTeX citation] https://doi.org/10.5281/zenodo.10255543 for the latest release. In addition to the utilized software version, please cite our scientific publication over at the Journal of Open Source Software (JOSS). A detailed citation can be found in CITATION.cff and in the sidebar.",
+      "section": "How to contribute + How to cite",
+      "repo": "085_PeakPerformance",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.948097Z",
+    "updated_at": "2025-11-04T17:50:30.717027Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23429,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

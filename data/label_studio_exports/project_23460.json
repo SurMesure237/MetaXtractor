@@ -1,0 +1,214 @@
+[
+  {
+    "id": 2019,
+    "annotations": [
+      {
+        "id": 10402,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 80,
+              "end": 124,
+              "text": "https://zenodo.org/badge/latestdoi/163412836",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "tVay4MAJgS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:16:33.486405Z",
+        "updated_at": "2025-11-04T07:16:33.486422Z",
+        "draft_created_at": null,
+        "lead_time": 7.19,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "47b1c8bb-aa3d-4c32-b036-29fddaba120b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2019,
+        "project": 23460,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://mybinder.org/v2/gh/carpentries-lab/deep-learning-intro/scaffolds) [](https://zenodo.org/badge/latestdoi/163412836) [](https://github.com/carpentries-lab/reviews/issues/25)",
+      "section": "Introduction",
+      "repo": "234_Introduction_to_deep_learning_lesson",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.168276Z",
+    "updated_at": "2025-11-04T07:16:33.517816Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23460,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2020,
+    "annotations": [
+      {
+        "id": 10403,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:16:44.751211Z",
+        "updated_at": "2025-11-04T07:16:44.751226Z",
+        "draft_created_at": null,
+        "lead_time": 11.077,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "fd2f71fd-69e7-40d1-b934-423cf207e369",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2020,
+        "project": 23460,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Introduction to deep learning This lesson gives an introduction to deep learning.\n\n## Teaching this lesson?\n\nDo you want to teach deep learning? This material is open-source and freely available.  Are you planning on using our material in your teaching?  We would love to help you prepare to teach the lesson and receive feedback on how it could be further improved, based on your experience in the workshop.\n\nYou can notify us that you plan to teach this lesson by creating an issue in this repository or by sending an email to deep-learning-lesson-dev@esciencecenter.nl. Also, it would great if you can update [this overview of all workshops taught with this lesson material] workshops.md. This helps us show the impact of developing open-source lessons to our funders.\n\n## Lesson Design\n\nThe design of this lesson can be found in the [lesson design] https://carpentries-lab.github.io/deep-learning-intro/design.html\n\n## Target Audience\n\nThe main audience of this carpentry lesson is PhD students that have little to no experience with deep learning. In addition, we expect them to know basics of statistics and machine learning.\n\n## Lesson development sprints\n\nWe regularly host lesson development sprints, in which we work together at the lesson. The next one is scheduled for the 13th and 14th of January 2025. We kickoff with an online meeting at 10:00 CEST. If you want to join (you are very welcome to join even if you have never contributed so far) send an email to deep-learning-lesson-dev@esciencecenter.nl .",
+      "section": "Introduction to deep learning (part 1)",
+      "repo": "234_Introduction_to_deep_learning_lesson",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.168315Z",
+    "updated_at": "2025-11-04T07:16:44.781182Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23460,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2021,
+    "annotations": [
+      {
+        "id": 10404,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:16:57.867100Z",
+        "updated_at": "2025-11-04T07:16:57.867159Z",
+        "draft_created_at": null,
+        "lead_time": 12.822,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "0195971a-50e3-49b0-a71d-809ddbfc33ee",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2021,
+        "project": 23460,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Contributing\n\nWe welcome all contributions to improve the lesson! Maintainers will do their best to help you if you have any questions, concerns, or experience any difficulties along the way.\n\nWe'd like to ask you to familiarize yourself with our [Contribution Guide] CONTRIBUTING.md and have a look at the [more detailed guidelines][lesson-example] on proper formatting, ways to render the lesson locally, and even how to write new episodes.\n\nPlease see the current list of [issues] https://github.com/carpentries-lab/deep-learning-intro/issues for ideas for contributing to this repository.\n\nPlease also familiarize yourself with the [lesson design] https://carpentries-lab.github.io/deep-learning-intro/design.html\n\nFor making your contribution, we use the GitHub flow, which is nicely explained in the chapter [Contributing to a Project] http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project in Pro Git by Scott Chacon. Look for the tag . This indicates that the maintainers will welcome a pull request fixing this issue.\n\n## Setup the Workshop Website locally\n\nTo build this lesson locally, you should follow the [setup instructions for the workbench] https://carpentries.github.io/sandpaper-docs/#overview. In short, make sure you have R, Git, and Pandoc installed, open R and use the following commands to install/update the packages needed for the infrastructure:",
+      "section": "Introduction to deep learning (part 2)",
+      "repo": "234_Introduction_to_deep_learning_lesson",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.168401Z",
+    "updated_at": "2025-11-04T07:16:57.896701Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23460,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2022,
+    "annotations": [
+      {
+        "id": 10405,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:17:09.288732Z",
+        "updated_at": "2025-11-04T07:17:09.288748Z",
+        "draft_created_at": null,
+        "lead_time": 11.255,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "9be5fa12-aa97-44da-84d6-92592e20ffad",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2022,
+        "project": 23460,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "register the repositories for The Carpentries and CRAN options(repos = c(  carpentries = \"https://carpentries.r-universe.dev/\",  CRAN = \"https://cran.rstudio.com/\" ))\n\nInstall the template packages to your R library install.packages(c(\"sandpaper\", \"varnish\", \"pegboard\", \"tinkr\"))\n\n## Rendering the website locally\n\nSee the [Carpentries Workbench usage instructions] https://carpentries.github.io/workbench/#usage on how to render the website locally.\n\n## Maintainer(s)\n\nCurrent maintainer of this lesson is\n\nCarsten Schnober ()\n\n## Citation and authors\n\nTo cite this lesson, please consult with [CITATION.cff] CITATION.cff. This also holds a list of contributors to the lesson.\n\n[cdh]: https://cdh.carpentries.org [community-lessons]: https://carpentries.org/community-lessons [lesson-example]: https://carpentries.github.io/lesson-example",
+      "section": "register the repositories for The Carpentries and CRAN + Install the template packages to your R library",
+      "repo": "234_Introduction_to_deep_learning_lesson",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.168441Z",
+    "updated_at": "2025-11-04T07:17:09.316036Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23460,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

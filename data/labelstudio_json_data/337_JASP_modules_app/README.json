@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "text": "Welcome to JASP stats modules web app!\n\n[](https://opensource.org/licenses/Apache-2.0) [](https://biomejs.dev) [](https://github.com/jasp-stats-modules/modules-app/actions/workflows/deploy.yml) [](https://github.com/jasp-stats-modules/modules-app/actions/workflows/quality.yml) [](https://fairsoftwarechecklist.net/v0.2?f=31&a=32113&i=22300&r=113) [](https://research-software-directory.org/software/jasp-modules-app) [](https://doi.org/10.5281/zenodo.17305936)\n\nA web application hosted at https://module-library.jasp-stats.org/ that allows you to search/filter all the available JASP modules and install them.\n\n[](screenshot.png)",
+      "section": "Introduction",
+      "repo": "337_JASP_modules_app",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Usage",
+      "section": "Usage (part 1)",
+      "repo": "337_JASP_modules_app",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Search parameters\n\nThe web application is designed to be opened from inside JASP desktop application, but it can also be used as a standalone web application.\n\nThe JASP desktop application can tell the web application which version/architecture it is and which modules are installed by using search parameters (?key=val) in the URL.\n\nv: the version of the JASP desktop application for example 0.95.0\n\na: the architecture of the JASP desktop application for example Windows_x86-64\n\ni: installed modules. A JSON object with the module names as keys and their versions as values. The object has to be [URL encoded] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent. For example, {\"jaspEquivalenceTTests\":\"0.95.0\",\"jaspTTests\":\"0.94.0\"} becomes %7B%22jaspEquivalenceTTests%22%3A%220.95.0%22%2C%22jaspTTests%22%3A%220.94.0%22%7D.\n\np: show pre-releases initially. Use true to show pre-releases and use false to hide them initially.\n\nc: URL for the catalog aka index.json.\n\nWhen not set uses index.json (public/index.json in local development or on deployed site uses https://jasp-stats-modules.github.io/modules-app/index.json).  If URL is not a relative path aka other server then make sure correct [CORS headers] https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS are returned on server that hosts index.json. t: Theme. Use dark for dark theme, light for light theme, and system to match system theme (default).\n\nl: Language. Use en for English (default). For example use nl for Dutch.\n\nf: Font name. Use the name of a font installed on your system. For example use SansSerif. Besides OS fonts also FreeSans, Fira Code and Fira Code Retina fonts are available.",
+      "section": "Usage (part 2)",
+      "repo": "337_JASP_modules_app",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "A full URL could look like [https://jasp-stats-modules.github.io/modules-app/?a=Windows_x86-64&v=0.95.0&i=%7B%22jaspEquivalenceTTests%22%3A%220.95.0%22%2C%22jaspTTests%22%3A%220.94.0%22%7D&p=0] https://jasp-stats-modules.github.io/modules-app/?a=Windows_x86-64&v=0.95.0&i=%7B%22jaspEquivalenceTTests%22%3A%220.95.0%22%2C%22jaspTTests%22%3A%220.94.0%22%7D&p=0&t=dark&l=nl.",
+      "section": "Usage (part 3)",
+      "repo": "337_JASP_modules_app",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Update list of modules\n\nThe list of modules can be updated by running the GitHub workflow at https://github.com/jasp-stats-modules/modules-app/actions/workflows/deploy.yml . Use the \"Run workflow\" button to trigger the workflow manually.",
+      "section": "Usage (part 4)",
+      "repo": "337_JASP_modules_app",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Architecture\n\nThe web application is a single page application (SPA) with the following characteristics:\n\nBuilt with [React] https://reactjs.org/ and [TypeScript] https://www.typescriptlang.org/\n\nUses [Vite] https://vitejs.dev/ as the build tool\n\nUses [pnpm] https://pnpm.io/ as the package manager\n\nUses [Tailwind CSS] https://tailwindcss.com/ for styling\n\nUses [nuqs] https://nuqs.dev/ for URL query string parsing\n\nUses [Qt WebChannel] https://doc.qt.io/qt-6/qtwebchannel-index.html for communication between the web app and the JASP desktop app\n\nUses [biome] https://biomejs.dev/ for linting and formatting\n\nUses [intlayer] https://intlayer.org/ for multi language support. Unique texts of modules themselves are not translated.\n\nUses [Vitest] https://vitest.dev/ for testing\n\nFetches data from the [GitHub GraphQL API] https://docs.github.com/en/graphql to get available JASP modules and their release assets\n\nTo get a list of available JASP modules, it does the following with the help of the src/scrape.ts script:\n\nFetches the git submodules of the https://github.com/jasp-stats-modules/modules-registry repository.\n\nthe directory in which a submodule is located is the channel\n\nFor each submodule fetches its releases\n\nFetches the release data, paged per 100 repositories using GitHub GraphQL API\n\nFilter the release assets ending with .JASPModule extension\n\nLooks in release description for the JASP version range the module is compatible with. The [version range] https://semver.npmjs.com/ is specified in front matter header as for example:\n\n``markdown\n\njasp: '>=0.95.0'\n\n` Split releases into latest release for each JASP version range and latest pre release.\n\nSaves data in src/index.json` for the web application to use\n\nGetting Started\n\nTo run this application:\n\npnpm install",
+      "section": "Architecture + Getting Started",
+      "repo": "337_JASP_modules_app",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Scrape a list of JASP module and their release assets from GitHub and save as src/index.json export GITHUB_TOKEN= pnpm scrape pnpm start\n\nApplication will be running at http://localhost:3000 (unless stated otherwise).\n\nSee [CONTRIBUTING.md] CONTRIBUTING.md#you-want-to-develop-web-app-inside-jasp-stats for development within JASP stats desktop application.\n\nBuilding For Production\n\nTo build run:\n\npnpm scrape pnpm build\n\n## Testing\n\nYou can run the tests with:\n\npnpm test\n\n## Linting and Formatting\n\nCan be typechecked with:\n\npnpm typecheck\n\nCan be formatted and linted with:\n\npnpm check\n\n## Multi language Support\n\nThe ./intlayer.config.ts file contains list of supported locales. Translations are stored in src/*/.content.tsx files.\n\nThe linting is done with TypeScript. Types for translations can be generated with:\n\npnpm dev or\n\npnpm typecheck or\n\npnpx intlayer build or\n\n[VS code extension] https://intlayer.org/doc/vs-code-extension\n\n## Contributing\n\nContributions are welcome! Please read the [contributing guidelines] CONTRIBUTING.md for more information.",
+      "section": "Scrape a list of JASP module and their release assets from GitHub and save as src/index.json + Building For Production",
+      "repo": "337_JASP_modules_app",
+      "source_file": "readme.md"
+    }
+  }
+]

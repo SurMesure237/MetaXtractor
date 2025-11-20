@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/reactive-systems/RTLola-Frontend",
+  "programmingLanguage": "Rust",
+  "programmingLanguages": [
+    "Rust",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/reactive-systems/RTLola-Frontend/zipball/main",
+  "author": "reactive-systems",
+  "dateCreated": "2021-05-21T12:42:42Z",
+  "dateModified": "2025-07-03T15:46:11Z",
+  "keywords": [],
+  "license": null,
+  "description": null,
+  "identifier": 369531938,
+  "name": "reactive-systems/RTLola-Frontend",
+  "issueTracker": "https://api.github.com/repos/reactive-systems/RTLola-Frontend/issues",
+  "readme": "https://github.com/reactive-systems/RTLola-Frontend/blob/main/README.md"
+}

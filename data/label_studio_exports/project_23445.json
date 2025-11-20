@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1969,
+    "annotations": [
+      {
+        "id": 10487,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 14,
+              "end": 49,
+              "text": "https://doi.org/10.21105/joss.03742",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "FIUkyXgDUg",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:22:30.779612Z",
+        "updated_at": "2025-11-04T17:22:30.779625Z",
+        "draft_created_at": null,
+        "lead_time": 5.222,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "4f320c9f-b316-4793-9cb7-18699e643b83",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1969,
+        "project": 23445,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# OpenCMP\n\n[](https://doi.org/10.21105/joss.03742)\n\nOpenCMP is a computational multiphysics software package based on the finite element method. It is primarily intended for physicochemical processes involving significant convective flow. OpenCMP uses the NGSolve finite element library for spatial discretization and provides a configuration file-based interface to pre-implemented models and time discretization schemes. It provides built-in post-processing and error analysis and also integrates with Netgen, Gmsh, and ParaView for meshing and visualization of simulation results.\n\nOpenCMP development follows the principles of ease of use, performance, and extensibility. The configuration file-based user interface is intended to be concise, readable, and intuitive. Similarly, the code base is structured such that experienced users can add their own models with minimal modifications to existing code. Inclusion of the finite element method enables the use of high-order polynomial interpolants for increased simulation accuracy. OpenCMP also offers the discontinuous Galerkin method which is locally conservative and improves simulation stability for convection-dominated problems. Finally, OpenCMP implements the diffuse interface method, a form of immersed boundary method which allows the use of non-conforming structured meshes for even complex simulation domains to improve simulation stability and sometimes speed.\n\nExamples and tutorial files can be found in the \"Examples\" directory. For more information on how to use and contribute to OpenCMP visit our website .",
+      "section": "README",
+      "repo": "489_Open_Computational_Multiphysics",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:04.160901Z",
+    "updated_at": "2025-11-04T17:22:30.810251Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23445,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

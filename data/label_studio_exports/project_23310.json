@@ -1,0 +1,384 @@
+[
+  {
+    "id": 1259,
+    "annotations": [
+      {
+        "id": 12016,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:41:43.065041Z",
+        "updated_at": "2025-11-09T07:41:43.065058Z",
+        "draft_created_at": null,
+        "lead_time": 2.818,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c2198614-a0ba-4642-89fc-ef3ffb3c6672",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1259,
+        "project": 23310,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Introduction\n\nCPlantBox is a functional-structural plant model that is built in a modular way that can be used at several levels of complexity. CPlantBox describes the geometry of plants by their individual organs, such as roots, stems, and leaves, which evolve over time. It can model functional aspects such as water and carbon dynamics within the plant, and provides gerneral tools to build plant soil-interaction models. To solve partial differential equations CPlantBox can use the finite volume solver DuMux and offers simplified Python interfaces in the repository _dumux-rosi_.",
+      "section": "Introduction + Introduction",
+      "repo": "149_CPlantBox",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.719858Z",
+    "updated_at": "2025-11-09T07:41:43.094695Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23310,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1260,
+    "annotations": [
+      {
+        "id": 12017,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 17,
+              "end": 22,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "kbK9NogTDI",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 79,
+              "end": 85,
+              "text": "Ubuntu",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "ZjJCzgQMlq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 978,
+              "end": 983,
+              "text": "DuMux",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "EazeIgr-hy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1181,
+              "end": 1186,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "u9B7MvDyg2",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 99,
+              "end": 112,
+              "text": "Python >= 3.7",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "8E0saykJme",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:42:45.566328Z",
+        "updated_at": "2025-11-17T00:22:30.834167Z",
+        "draft_created_at": "2025-11-09T07:41:53.352780Z",
+        "lead_time": 95.975,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "0cc6e478-49d7-4813-a79b-f62d62740969",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1260,
+        "project": 23310,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Installation\n\n## Linux - with Python script\n\nThis installation method requires Ubuntu >= 20.04 and Python >= 3.7. For CPlantBox without _dumux-rosi_, download the Python file \"installCPlantBox.py\", and run it:\n\nsudo apt-get update sudo apt-get upgrade [ ! -d 'cpbenv' ] && python3 -m venv cpbenv && source cpbenv/bin/activate || source cpbenv/bin/activate wget https://raw.githubusercontent.com/Plant-Root-Soil-Interactions-Modelling/CPlantBox/master/installCPlantBox.py python3 installCPlantBox.py\n\nFor CPlantBox with _dumux-rosi_, download and run the Python file \"installDumuxRosi_Ubuntu.py\" (the file is based on the DuMu$^x$ installation file).\n\nsudo apt-get update sudo apt-get upgrade [ ! -d 'cpbenv' ] && python3 -m venv cpbenv && source cpbenv/bin/activate || source cpbenv/bin/activate wget https://raw.githubusercontent.com/Plant-Root-Soil-Interactions-Modelling/CPlantBox/master/installDumuxRosi_Ubuntu.py python3 installDumuxRosi_Ubuntu.py\n\nThe script will install DuMux and CPlantBox, and CPlantBox is setup within the virtual environment 'cpbenv'.  Activate the 'cpbenv' environment when using CPlantBox:\n\nsource cpbenv/bin/activate\n\nThe scripts might work on other Linux OS but has not been tested.",
+      "section": "Installation (part 1)",
+      "repo": "149_CPlantBox",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.719896Z",
+    "updated_at": "2025-11-17T00:22:30.867646Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23310,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1261,
+    "annotations": [
+      {
+        "id": 12018,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 8,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "rPV00qcA9S",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 67,
+              "end": 72,
+              "text": "conda",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Ulqo5-raEz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 950,
+              "end": 955,
+              "text": "CMake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "XVc4oCuHPl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1184,
+              "end": 1191,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "DEsKT6rkuy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:43:35.114693Z",
+        "updated_at": "2025-11-09T07:43:39.979068Z",
+        "draft_created_at": "2025-11-09T07:42:56.505947Z",
+        "lead_time": 50.775999999999996,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "f70c0553-44ba-4b82-bcf2-2e71dc94623a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1261,
+        "project": 23310,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Linux - with conda environment\n\nThis installation method uses ``conda` to setup the building environment for CPlantBox. It'll pull the packages from the `conda-forge`` channel to avoid licensing restrictions from default channels. For more info on conda restrictions, check this [article] https://www.fz-juelich.de/en/rse/the_latest/the-anaconda-is-squeezing-us\n\nClone the repository:\n\ngit clone --depth 1 -b master https://github.com/Plant-Root-Soil-Interactions-Modelling/CPlantBox.git\n\nCreate the conda environment and build CPlantBox:\n\ncd CPlantBox conda env create -f environment.yml conda activate cpb git submodule update --init --recursive cmake . make\n\nTest the installation by running a tutorial example, e.g.:\n\ncd tutorial/examples/ python example1a_small.py\n\n## Linux - manual installation\n\nClone the repository by running\n\ngit clone --depth 1 -b master https://github.com/Plant-Root-Soil-Interactions-Modelling/CPlantBox.git\n\nand use CMake to configure and compile the CPlantBox libraries\n\ncmake . && make\n\nTo test the installation run a tutorial example, e.g\n\ncd tutorial/examples/python python3 example1a.py\n\nDependecies are listed in the requirements.txt file.\n\n## Windows\n\nCPlantBox is currently not available on windows. Some pointers to setup a Linux environment on windows are given on the [wiki] https://github.com/Plant-Root-Soil-Interactions-Modelling/CPlantBox/wiki/Help-for-windows-users.\n\n## Installation on the JSC agrocluster\n\nPlease refer to the [wiki] https://github.com/Plant-Root-Soil-Interactions-Modelling/CPlantBox/wiki/CPlantBox-on-the-J%C3%BClich-Supercomputer-cluster",
+      "section": "Installation (part 2)",
+      "repo": "149_CPlantBox",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.719920Z",
+    "updated_at": "2025-11-09T07:43:40.006366Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23310,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1262,
+    "annotations": [
+      {
+        "id": 12019,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:43:42.724871Z",
+        "updated_at": "2025-11-09T07:43:42.724886Z",
+        "draft_created_at": null,
+        "lead_time": 2.572,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "7da2cd9a-8822-405b-8076-3511d6f2dd84",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1262,
+        "project": 23310,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Folder sructure\n\n/modelparameter Plant parameter files\\ /src CPlantBox C++ codes\\ /test Python tests for all CPlantBox classes\\ /tutorial learn to use CPlantBox\\ /experimental Specific applications (in sub-folders). contrary to scripts in /tutorial, might not be kept up to date\n\nCode documentation\n\nCreate the documentation by running doxygen in the docs/ folder\n\ndoxygen doxy_config\n\nThe documentation will be created in this folder. Compile doc/latex/refman.tex to generate the full doxygen documentation in doc/latex/refman.pdf. Additionally, collaboration diagrams give an overview of the code in folder /docs.",
+      "section": "Folder sructure + Code documentation",
+      "repo": "149_CPlantBox",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.719941Z",
+    "updated_at": "2025-11-09T07:43:42.754145Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23310,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1263,
+    "annotations": [
+      {
+        "id": 12020,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:43:46.061629Z",
+        "updated_at": "2025-11-09T07:43:46.061645Z",
+        "draft_created_at": null,
+        "lead_time": 3.172,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "398f96aa-e9e1-4fee-aeff-04f73c5cf684",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1263,
+        "project": 23310,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Online resources\n\n## WebApps\n\nThe official [CPlantBox webapp] https://cplantbox.fz-juelich.de helps to demonstrate the impact of various CPlantBox parameters and to analyse and explore the resulting 3D plant geometry.\n\nAnother [web application] http://cplantbox.com was designed to conduct simulations and visualize the dynamics of plant growth. The source code is avialable at [github-xiaoranzhou] https://github.com/xiaoranzhou/cpb.\n\n## Jupyter notebooks\n\nDirect links to notebooks from the summer school of 2025: [Structure definition and analysis] https://mybinder.org/v2/gh/Plant-Root-Soil-Interactions-Modelling/CPlantBox/ss2025?urlpath=%2Fdoc%2Ftree%2Ftutorial%2Fjupyter%2Fsummer_school_2025%2F1_root_architecture.ipynb\n\n[Water flow in CPlantBox] https://mybinder.org/v2/gh/Plant-Root-Soil-Interactions-Modelling/CPlantBox/ss2025?urlpath=%2Fdoc%2Ftree%2Ftutorial%2Fjupyter%2Fsummer_school_2025%2F2_root_hydraulics.ipynb\n\n[Online repository] https://mybinder.org/v2/gh/Plant-Root-Soil-Interactions-Modelling/CPlantBox/ss2025_binder\n\nFor the third repository, you need to go the folder dumux/CPlantBox/tutorial/jupyter/summer_school_2025 to access the notebooks.\n\n## Videos\n\nSimulation videos availabe in [Youtube channel] https://www.youtube.com/channel/UCPK-pFfpK94jiamgwHxX32Q.",
+      "section": "Online resources",
+      "repo": "149_CPlantBox",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.719964Z",
+    "updated_at": "2025-11-09T07:43:46.085345Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23310,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

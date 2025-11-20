@@ -1,0 +1,67 @@
+[
+  {
+    "id": 2119,
+    "annotations": [
+      {
+        "id": 10312,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 67,
+              "end": 98,
+              "text": "https://docs.rs/rtlola-frontend",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "G52luMVHGt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T08:07:28.673957Z",
+        "updated_at": "2025-11-14T12:47:17.653787Z",
+        "draft_created_at": "2025-11-03T08:07:19.920550Z",
+        "lead_time": 47.821999999999996,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "26438ecf-8c42-4254-8b4f-5c35c1ba3a5d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2119,
+        "project": 23477,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# RTLola Frontend\n\n[](https://crates.io/crates/rtlola-frontend) [](https://docs.rs/rtlola-frontend) [](https://crates.io/crates/rtlola-frontend)\n\nRTLola is a stream-based runtime verification framework. It parses an RTLola specification, analyses it, and generates executable monitors for it. The framework is separated into a front-end and several back-ends.\n\nThis crate summarizes the entire RTLola front-end, which includes several sub-modules:  A parser for RTLola specifications: [rtlola-parser] https://crates.io/crates/rtlola-parser   The RTLola high-level intermediate representation including a strong static analysis: [rtlola-hir] https://crates.io/crates/rtlola-hir  The RTLola error reporting: [rtlola-reporting] https://crates.io/crates/rtlola-reporting  Procedural macros: [rtlola-macros] https://crates.io/crates/rtlola-macros\n\n# Copyright\n\nCopyright (C) CISPA - Helmholtz Center for Information Security 2021-2023. Authors: Jan Baumeister, Florian Kohn, Stefan Oswald, Frederik Scheerer, Malte Schledjewski, Maximilian Schwenger. Based on original work at Universität des Saarlandes (C) 2020. Authors: Jan Baumeister, Florian Kohn, Malte Schledjewski, Maximilian Schwenger, Marvin Stenger, and Leander Tentrup.",
+      "section": "README",
+      "repo": "439_RTLola_Frontend",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.324603Z",
+    "updated_at": "2025-11-14T12:47:17.687418Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23477,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

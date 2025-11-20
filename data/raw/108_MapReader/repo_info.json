@@ -1,0 +1,32 @@
+{
+  "codeRepository": "https://github.com/maps-as-data/MapReader",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "TeX",
+    "Dockerfile",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/maps-as-data/MapReader/zipball/main",
+  "author": "maps-as-data",
+  "dateCreated": "2021-11-22T10:29:48Z",
+  "dateModified": "2025-10-14T11:07:01Z",
+  "keywords": [
+    "article",
+    "computer-vision",
+    "deep-learning",
+    "digital-humanities",
+    "hut23",
+    "hut23-96",
+    "machine-learning",
+    "maps",
+    "pytorch",
+    "spatial-data"
+  ],
+  "license": null,
+  "description": "A computer vision pipeline for exploring and analyzing images at scale",
+  "identifier": 430661738,
+  "name": "maps-as-data/MapReader",
+  "issueTracker": "https://api.github.com/repos/maps-as-data/MapReader/issues",
+  "readme": "https://github.com/maps-as-data/MapReader/blob/main/README.md"
+}

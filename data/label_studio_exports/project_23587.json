@@ -1,0 +1,82 @@
+[
+  {
+    "id": 2688,
+    "annotations": [
+      {
+        "id": 9939,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 229,
+              "end": 268,
+              "text": "https://doi.org/10.5281/zenodo.13938389",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "B0march147",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 297,
+              "end": 354,
+              "text": "https://GalerkinToolkit.github.io/GalerkinToolkit.jl/dev/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "KXTl814WI0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:07:06.143834Z",
+        "updated_at": "2025-11-14T12:03:14.894236Z",
+        "draft_created_at": "2025-11-02T19:06:58.609971Z",
+        "lead_time": 25.196,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "7dd6000a-9181-4d46-a047-818324783a43",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2688,
+        "project": 23587,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://GalerkinToolkit.github.io/GalerkinToolkit.jl/dev/) [](https://github.com/GalerkinToolkit/GalerkinToolkit.jl/actions/workflows/CI.yml?query=branch%3Amain) [](https://codecov.io/gh/GalerkinToolkit/GalerkinToolkit.jl) [](https://doi.org/10.5281/zenodo.13938389)\n\nGo to the [documentation] https://GalerkinToolkit.github.io/GalerkinToolkit.jl/dev/ to learn about GalerkinToolkit.",
+      "section": "README",
+      "repo": "069_GalerkinToolkit.jl",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:14.190184Z",
+    "updated_at": "2025-11-14T12:03:14.926369Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23587,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

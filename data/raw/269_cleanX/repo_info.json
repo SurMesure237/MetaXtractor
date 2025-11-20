@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/drcandacemakedamoore/cleanX",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "TeX",
+    "Shell",
+    "Dockerfile",
+    "Roff"
+  ],
+  "downloadUrl": "https://api.github.com/repos/drcandacemakedamoore/cleanX/zipball/main",
+  "author": "drcandacemakedamoore",
+  "dateCreated": "2021-04-12T07:13:55Z",
+  "dateModified": "2024-02-24T14:18:52Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Python library for exploring, cleaning, normalizing, and augmenting large datasets of radiological data.",
+  "identifier": 357094031,
+  "name": "drcandacemakedamoore/cleanX",
+  "issueTracker": "https://api.github.com/repos/drcandacemakedamoore/cleanX/issues",
+  "readme": "https://github.com/drcandacemakedamoore/cleanX/blob/main/README.md"
+}

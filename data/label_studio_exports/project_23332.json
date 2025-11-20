@@ -1,0 +1,403 @@
+[
+  {
+    "id": 1357,
+    "annotations": [
+      {
+        "id": 10922,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:51:13.756728Z",
+        "updated_at": "2025-11-05T17:51:13.756742Z",
+        "draft_created_at": null,
+        "lead_time": 6.272,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "69beaf33-a4c3-4d10-8fc4-0f2a2da26284",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1357,
+        "project": 23332,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Effort Sharing\n\nCompute fair national emissions allocations using transparent, reproducible workflows. Designed by researchers for researchers.\n\n[Introduction] #introduction\n\n[Installation Instructions] #installation-instructions\n\n[Obtaining Input Data] #obtaining-input-data\n\n[Usage Overview] #usage-overview\n\n[Command Line Interface (CLI)] #command-line-interface-cli\n\n[Scripts] #scripts\n\n[Interactive Notebooks \\& API] #interactive-notebooks--api\n\n[Configuration File] #configuration-file\n\n[Developer Instructions] #developer-instructions\n\n[Source Installation] #source-installation\n\n[Code Style / Formatting] #code-style--formatting\n\n[Documentation] #documentation\n\n[Testing] #testing\n\n[Making a Release] #making-a-release\n\n[Referencing this Repository] #referencing-this-repository\n\n## Introduction\n\nThis package combines a variety of data sources to compute fair national emissions allocations, study variability, and compare results with NDC estimates and cost-optimal scenario projections.\n\nGather country-level data (population, GDP, historical emissions, etc.)\n\nCompute global future emission pathways based on configurable scenarios\n\nCalculate allocations for countries/regions using various effort-sharing rules\n\nCompare allocations, NDCs, and cost-optimal scenarios\n\nConduct variance decomposition (Sobol analysis)\n\n## Installation Instructions\n\nIf you want to use some of the existing functionality, simply install from PyPI:\n\npip install effort-sharing\n\nIf you plan to develop the code or modify notebooks/scripts, install from source (see [Developer Instructions] #developer-instructions).\n\n## Obtaining Input Data\n\nWe're working to provide input data directly or via original sources. For now, contact for quick access.\n\n## Usage Overview",
+      "section": "Effort Sharing (part 1)",
+      "repo": "326_Effort_Sharing",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.190168Z",
+    "updated_at": "2025-11-05T17:51:13.783071Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23332,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1358,
+    "annotations": [
+      {
+        "id": 10923,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:51:15.008206Z",
+        "updated_at": "2025-11-05T17:51:15.008225Z",
+        "draft_created_at": null,
+        "lead_time": 1.063,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "a070f4f4-9159-41a6-ab8c-a4054b3c1959",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1358,
+        "project": 23332,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Command Line Interface (CLI)\n\nRun step-by-step workflows using the CLI:\n\neffortsharing --help effortsharing generate-config effortsharing get-input-data effortsharing global-pathways effortsharing policy-scenarios effortsharing allocate NLD effortsharing aggregate 2040",
+      "section": "Effort Sharing (part 2)",
+      "repo": "326_Effort_Sharing",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.190204Z",
+    "updated_at": "2025-11-05T17:51:15.037254Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23332,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1359,
+    "annotations": [
+      {
+        "id": 10924,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:51:15.940167Z",
+        "updated_at": "2025-11-05T17:51:15.940184Z",
+        "draft_created_at": null,
+        "lead_time": 0.754,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "52ddd06c-d7aa-464d-a8da-41a408f9c689",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1359,
+        "project": 23332,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "You can also overwrite defaults effortsharing allocate NLD --config config.yml --log-level WARNING --gas CO2 --lulucf excl",
+      "section": "You can also overwrite defaults",
+      "repo": "326_Effort_Sharing",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.190227Z",
+    "updated_at": "2025-11-05T17:51:15.969355Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23332,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1360,
+    "annotations": [
+      {
+        "id": 10925,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:51:17.421404Z",
+        "updated_at": "2025-11-05T17:51:17.421417Z",
+        "draft_created_at": null,
+        "lead_time": 1.308,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "2ca7488c-272d-416e-9a43-3ef5067394ff",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1360,
+        "project": 23332,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Or ask for help to see all options: effortsharing aggregate --help\n\nThe CLI lets you quickly run complete workflows or focus on specific countries/years.\n\n### Scripts\n\nAutomate workflows using scripts in the scripts folder.  Example: scripts/cabe_export.py loads data, calculates pathways/allocations, aggregates results, and exports everything.  Edit parameters at the top of the script, then run with:\n\npython scripts/cabe_export.py\n\nScripts are not included in the PyPI package.\n\n### Interactive Notebooks & API\n\nImport high-level and low-level functions in Python or Jupyter notebooks for custom analysis and visualization.\n\nThe internal structure of the effortsharing package is documented in [apidocs.md] apidocs.md. While unpolished, it may serve as a starting point when diving into the internals of the code.\n\nSee the notebooks folder for examples.  Note: Notebooks may be outdated as the package evolves, but dedicated releases ensure reproducibility for published results.\n\n### Configuration File\n\nMany commands require a configuration file.  Generate a default config:\n\neffortsharing generate-config\n\nThe config file controls:\n\nData paths\n\nWhether to load/save intermediate results\n\nExperiment parameters\n\nDimension ranges for pathway parameters (shorter ranges = faster runs, but less variability)\n\nSee comments in the generated config for details.\n\n## Developer Instructions\n\nIf you plan to contribute, please follow these guidelines and respect the [code of conduct] CODE_OF_CONDUCT.md.",
+      "section": "Or ask for help to see all options: (part 1)",
+      "repo": "326_Effort_Sharing",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.190253Z",
+    "updated_at": "2025-11-05T17:51:17.448043Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23332,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1361,
+    "annotations": [
+      {
+        "id": 10926,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 468,
+              "end": 472,
+              "text": "ruff",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "FUZ4BxgtpK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 751,
+              "end": 765,
+              "text": "pydoc-markdown",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "G4O54fLKfK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 474,
+              "end": 502,
+              "text": "https://docs.astral.sh/ruff/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "WIePqDNqX_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 767,
+              "end": 817,
+              "text": "https://niklasrosenstein.github.io/pydoc-markdown/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "N7HhQ1T5__",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:52:16.301729Z",
+        "updated_at": "2025-11-15T17:31:28.586747Z",
+        "draft_created_at": "2025-11-05T17:51:26.955577Z",
+        "lead_time": 82.69,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "ec99cb5c-562b-47db-899a-e80c1a5873ad",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1361,
+        "project": 23332,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Source Installation\n\nClone the repo and set up a (conda) environment:\n\ngit clone https://github.com/imagepbl/effort-sharing cd effort-sharing conda env create --file environment.yml conda activate effortsharing_env conda env update -f environment.yml\n\nFor reproducibility, use the conda-lock file:\n\nconda-lock lock conda-lock install --name effortsharing_env pip install -e .[dev] # conda-lock doesn't install local libraries\n\n### Code Style / Formatting\n\nWe use [ruff] https://docs.astral.sh/ruff/ for linting and formatting.  Configuration is in pyproject.toml.\n\nruff check src ruff check --fix src ruff format src\n\nVS Code users: install the ruff plugin for in-editor feedback.\n\n### Documentation\n\nAPI docs are generated from docstrings using [pydoc-markdown] https://niklasrosenstein.github.io/pydoc-markdown/:\n\nuvx pydoc-markdown -I src --render-toc > apidocs.md\n\n### Testing\n\nA test script is included to quickly check if / how the results have been affected since a previous run. Use it as such:\n\npytest -v --confcutdir=$PWD/scripts/compare_dirs \\  scripts/compare_dirs/test.py \\  --reference-dir data/reference \\  --current-dir data/current \\  --atol 1e-9 --rtol 1e-5\n\nwhere you replace the paths to reference and current with actual folders you want to compare.\n\n### Making a Release\n\nWe release at least when publishing new results (e.g. journal, Carbon Budget Explorer). To generate a new release, open a [new issue using the release template] https://github.com/imagepbl/effort-sharing/issues/new?template=01_release.md and follow the steps in the checklist.",
+      "section": "Or ask for help to see all options: (part 2)",
+      "repo": "326_Effort_Sharing",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.190287Z",
+    "updated_at": "2025-11-15T17:31:28.623707Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23332,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1362,
+    "annotations": [
+      {
+        "id": 10927,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 224,
+              "end": 361,
+              "text": "Dekker, M., Würschinger, C., Kalverla, P., & Verhoeven, S. Effort sharing [Computer software]. https://github.com/imagepbl/effort-sharing",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "GqtLXTbXy9",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 41,
+              "end": 80,
+              "text": "https://doi.org/10.5281/zenodo.13640303",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "-uHNcX_dA7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 100,
+              "end": 139,
+              "text": "https://doi.org/10.5281/zenodo.12188104",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "oQkHrNRgeA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:53:02.701469Z",
+        "updated_at": "2025-11-05T17:53:02.701488Z",
+        "draft_created_at": "2025-11-05T17:52:36.355482Z",
+        "lead_time": 46.196,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "ccee1dcf-3a36-4f0a-b207-c34bffbc4930",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1362,
+        "project": 23332,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Referencing this Repository\n\nCode: [](https://doi.org/10.5281/zenodo.13640303)   Output data: [](https://doi.org/10.5281/zenodo.12188104)\n\nIf you use this code in your work, please cite it using the following reference:\n\nDekker, M., Würschinger, C., Kalverla, P., & Verhoeven, S. Effort sharing [Computer software]. https://github.com/imagepbl/effort-sharing",
+      "section": "Or ask for help to see all options: (part 3)",
+      "repo": "326_Effort_Sharing",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.190374Z",
+    "updated_at": "2025-11-05T17:53:02.732509Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23332,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

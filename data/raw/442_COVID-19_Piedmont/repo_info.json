@@ -1,0 +1,16 @@
+{
+  "codeRepository": "https://github.com/regione-piemonte/gescovid19",
+  "programmingLanguage": null,
+  "programmingLanguages": [],
+  "downloadUrl": "https://api.github.com/repos/regione-piemonte/gescovid19/zipball/main",
+  "author": "regione-piemonte",
+  "dateCreated": "2020-09-21T08:39:40Z",
+  "dateModified": "2024-05-02T11:03:43Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/eupl-1.2",
+  "description": "Piattaforma Gestione Covid19",
+  "identifier": 297279212,
+  "name": "regione-piemonte/gescovid19",
+  "issueTracker": "https://api.github.com/repos/regione-piemonte/gescovid19/issues",
+  "readme": "https://github.com/regione-piemonte/gescovid19/blob/master/README.md"
+}

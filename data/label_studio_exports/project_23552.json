@@ -1,0 +1,162 @@
+[
+  {
+    "id": 2484,
+    "annotations": [
+      {
+        "id": 10087,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 103,
+              "end": 158,
+              "text": "https://github.com/DLR-SC/tigl/blob/cpacs_3/LICENSE.txt",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "tFLUrGvGGd",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 220,
+              "end": 262,
+              "text": "https://doi.org/10.1007/s11786-019-00401-y",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "IpMCRIWE9S",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:59:12.654815Z",
+        "updated_at": "2025-11-02T20:59:12.654832Z",
+        "draft_created_at": "2025-11-02T20:59:03.653961Z",
+        "lead_time": 29.279,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "4499429f-d10f-4ab2-9b5d-598d25a253e3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2484,
+        "project": 23552,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/DLR-SC/tigl/actions/workflows/main.yml) [](https://codecov.io/gh/dlr-sc/tigl) [](https://github.com/DLR-SC/tigl/blob/cpacs_3/LICENSE.txt) [](https://anaconda.org/dlr-sc/tigl3/badges/version.svg) [](https://doi.org/10.1007/s11786-019-00401-y)  [](https://dlr-sc.github.io/tigl/doc/latest/)\n\nThe TiGL Geometry Library can be used for the computation and processing of aircraft geometries  stored inside [CPACS] https://github.com/DLR-LY/CPACS files. TiGL offers many geometry related functions such as Point retrieval functions to compute points on the aircraft surface\n\nIntersection functions to compute the intersection of the aircraft with planes\n\nExport functions for standard CAD file formats (STEP + IGES) or mesh formats,\n\nincluding VTK, Collada, and STL.   The TiGL library uses the OpenCASCADE CAD kernel to represent the airplane geometry  by NURBS surfaces. The library provides external interfaces for C, C++, Python, Java, MATLAB, and FORTRAN.\n\nTiGL is shipped with the Qt based _TiGLCreator_ for visualizing and editing aircraft geometries or viewing CAD files.",
+      "section": "Introduction",
+      "repo": "035_TiGL",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.724652Z",
+    "updated_at": "2025-11-02T20:59:12.680675Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23552,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2485,
+    "annotations": [
+      {
+        "id": 10088,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 485,
+              "end": 686,
+              "text": "Siggel, M., Kleinert, J., Stollenwerk, T. et al.: TiGL: An Open Source Computational Geometry Library for Parametric Aircraft Design, Math.Comput.Sci. (2019). https://doi.org/10.1007/s11786-019-00401-y",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "vnZGloF74T",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 730,
+              "end": 751,
+              "text": "https://rdcu.be/bIGUH",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "yfaeDbmS8-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T21:00:24.626886Z",
+        "updated_at": "2025-11-02T21:00:24.626906Z",
+        "draft_created_at": "2025-11-02T20:59:30.562003Z",
+        "lead_time": 71.791,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "cd5fcd70-eb14-43f0-9bf3-0bc043c8d161",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2485,
+        "project": 23552,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Downloads\n\nPre-Compiled Releases: https://github.com/DLR-SC/tigl/wiki/Downloads\n\nNightly Builds: https://github.com/DLR-SC/tigl/actions?query=workflow%3A%22Continuous+Integration%22+event%3Aschedule\n\nNews\n\nPlease head over to our TiGL website: https://dlr-sc.github.io/tigl/#news\n\nCite us\n\nTiGL is available as Open Source and we encourage anyone to make use of it. If you are applying TiGL in a scientific environment and publish any related work, please cite the following article:\n\nSiggel, M., Kleinert, J., Stollenwerk, T. et al.: TiGL: An Open Source Computational Geometry Library for Parametric Aircraft Design, Math.Comput.Sci. (2019). https://doi.org/10.1007/s11786-019-00401-y\n\nA free copy of the paper is offered here: https://rdcu.be/bIGUH",
+      "section": "Downloads + News + Cite us",
+      "repo": "035_TiGL",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.724694Z",
+    "updated_at": "2025-11-02T21:00:24.653885Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23552,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

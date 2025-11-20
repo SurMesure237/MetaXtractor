@@ -1,0 +1,31 @@
+{
+  "codeRepository": "https://github.com/psf/black",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Vim Script",
+    "Jupyter Notebook",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/psf/black/zipball/main",
+  "author": "psf",
+  "dateCreated": "2018-03-14T19:54:45Z",
+  "dateModified": "2025-10-31T04:05:48Z",
+  "keywords": [
+    "autopep8",
+    "code",
+    "codeformatter",
+    "formatter",
+    "gofmt",
+    "hacktoberfest",
+    "pre-commit-hook",
+    "python",
+    "yapf"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "The uncompromising Python code formatter",
+  "identifier": 125266328,
+  "name": "psf/black",
+  "issueTracker": "https://api.github.com/repos/psf/black/issues",
+  "readme": "https://github.com/psf/black/blob/main/README.md"
+}

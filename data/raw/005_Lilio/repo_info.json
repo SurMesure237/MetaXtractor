@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/AI4S2S/lilio",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/AI4S2S/lilio/zipball/main",
+  "author": "AI4S2S",
+  "dateCreated": "2023-01-12T09:37:54Z",
+  "dateModified": "2025-09-25T08:16:47Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Calendar generator for machine learning with timeseries data",
+  "identifier": 588084019,
+  "name": "AI4S2S/lilio",
+  "issueTracker": "https://api.github.com/repos/AI4S2S/lilio/issues",
+  "readme": "https://github.com/AI4S2S/lilio/blob/main/README.md"
+}

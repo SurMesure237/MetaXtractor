@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/kalininalab/DataSAIL",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Smarty"
+  ],
+  "downloadUrl": "https://api.github.com/repos/kalininalab/DataSAIL/zipball/main",
+  "author": "kalininalab",
+  "dateCreated": "2023-02-06T12:24:01Z",
+  "dateModified": "2025-10-28T17:55:05Z",
+  "keywords": [
+    "dataset-split",
+    "ilp",
+    "ilp-problem",
+    "machine-learning",
+    "optimization",
+    "scip"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "DataSAIL is a tool to split datasets while reducing information leakage.",
+  "identifier": 598109632,
+  "name": "kalininalab/DataSAIL",
+  "issueTracker": "https://api.github.com/repos/kalininalab/DataSAIL/issues",
+  "readme": "https://github.com/kalininalab/DataSAIL/blob/main/README.md"
+}

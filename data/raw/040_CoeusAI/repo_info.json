@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/DroneML/CoeusAI",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/DroneML/CoeusAI/zipball/main",
+  "author": "DroneML",
+  "dateCreated": "2024-10-09T09:51:53Z",
+  "dateModified": "2025-06-30T13:26:23Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "QGIS plugin for exploratory and iterative segmentation of geo raster data",
+  "identifier": 870018586,
+  "name": "DroneML/CoeusAI",
+  "issueTracker": "https://api.github.com/repos/DroneML/CoeusAI/issues",
+  "readme": "https://github.com/DroneML/CoeusAI/blob/main/README.md"
+}

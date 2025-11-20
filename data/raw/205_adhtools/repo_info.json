@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/arabic-digital-humanities/adhtools",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "Common Workflow Language",
+    "Java"
+  ],
+  "downloadUrl": "https://api.github.com/repos/arabic-digital-humanities/adhtools/zipball/main",
+  "author": "arabic-digital-humanities",
+  "dateCreated": "2018-01-25T09:47:41Z",
+  "dateModified": "2025-03-04T09:16:41Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Scripts for manipulating Arabic texts",
+  "identifier": 118894019,
+  "name": "arabic-digital-humanities/adhtools",
+  "issueTracker": "https://api.github.com/repos/arabic-digital-humanities/adhtools/issues",
+  "readme": "https://github.com/arabic-digital-humanities/adhtools/blob/master/README.md"
+}

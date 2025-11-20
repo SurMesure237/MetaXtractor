@@ -1,0 +1,274 @@
+[
+  {
+    "id": 476,
+    "annotations": [
+      {
+        "id": 12172,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:53:31.630764Z",
+        "updated_at": "2025-11-09T10:53:31.630783Z",
+        "draft_created_at": null,
+        "lead_time": 2.443,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c409cc0e-d01f-4cb1-a17a-ec3be3ba5482",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 476,
+        "project": 23194,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://pypi.org/project/lapy/)",
+      "section": "Introduction",
+      "repo": "038_BrainPrint",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.609878Z",
+    "updated_at": "2025-11-09T10:53:31.661947Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23194,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 477,
+    "annotations": [
+      {
+        "id": 12173,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:53:47.592619Z",
+        "updated_at": "2025-11-09T10:53:47.592641Z",
+        "draft_created_at": null,
+        "lead_time": 15.768,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "dc092f3f-787a-4a8f-8966-f507a27d95f2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 477,
+        "project": 23194,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "LaPy\n\nLaPy is an open-source Python package for differential geometry on triangle and tetrahedra meshes. It includes an FEM solver to estimate the Laplace, Poisson or Heat equations. Further functionality includes the computations of gradients, divergence, mean-curvature flow, conformal mappings,  geodesics, ShapeDNA (Laplace spectra), and IO and plotting methods.\n\nLaPy is written purely in Python 3 without sacrificing speed as almost all loops are vectorized, drawing upon efficient and sparse mesh data structures.\n\n## Contents:\n\nTriaMesh: a class for triangle meshes offering various operations, such as\n\nfixing orientation, smoothing, curvature, boundary, quality, normals, and  various efficient mesh datastructures (edges, adjacency matrices). IO from  OFF, VTK and other formats. TetMesh: a class for tetrahedral meshes (orientation, boundary, IO ...)\n\nSolver: a class for linear FEM computation (Laplace stiffness and mass\n\nmatrix, fast and sparse eigenvalue solver, anisotropic Laplace, Poisson) io: module for IO of vertex functions and eigenvector files\n\ndiffgeo: module for gradients, divergence, mean curvature flow, etc.\n\nheat: module for heat kernel and diffusion\n\nshapedna: module for the ShapeDNA descriptor of surfaces and solids\n\nplot: module for interactive visualizations (wrapping plotly)\n\n## Usage:\n\nThe LaPy package is a comprehensive collection of scripts, so we refer to the 'help' function and docstring of each module / function / class for usage info. For example:\n\nimport lapy as lp help(lp.TriaMesh) help(lp.Solver)\n\nIn the examples subdirectory, we provide several Jupyter notebooks that illustrate prototypical use cases of the toolbox.",
+      "section": "LaPy (part 1)",
+      "repo": "038_BrainPrint",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.609922Z",
+    "updated_at": "2025-11-09T10:53:47.615327Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23194,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 478,
+    "annotations": [
+      {
+        "id": 12174,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:53:59.495779Z",
+        "updated_at": "2025-11-09T10:53:59.495789Z",
+        "draft_created_at": null,
+        "lead_time": 11.74,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f80f928a-ded6-4cd2-8c18-bac44e7911f9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 478,
+        "project": 23194,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Installation:\n\nUse the following code to install the latest release of LaPy into your local Python package directory:\n\npython3 -m pip install lapy\n\nUse the following code to install the dev package in editable mode to a location of your choice:\n\npython3 -m pip install --user --src /my/preferred/location --editable git+https://github.com/Deep-MI/Lapy.git#egg=lapy\n\nSeveral functions, e.g. the Solver, require a sparse matrix decomposition, for which either the LU decomposition (from scipy sparse, default) or the faster Cholesky decomposition (from scikit-sparse cholmod, recommended) can be used. If the parameter flag use_cholmod is True, the code will try to import cholmod from the scikit-sparse package. If this fails, an error will be thrown. If you would like to use cholmod, you need to install scikit-sparse separately, as pip currently cannot install it (conda can). scikit-sparse requires numpy and scipy to be installed separately beforehand.\n\n## API Documentation\n\nThe API Documentation can be found at https://deep-mi.org/LaPy .",
+      "section": "LaPy (part 2)",
+      "repo": "038_BrainPrint",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.609948Z",
+    "updated_at": "2025-11-09T10:53:59.517909Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23194,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 479,
+    "annotations": [
+      {
+        "id": 12175,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 95,
+              "end": 279,
+              "text": "Laplace-Beltrami spectra as 'Shape-DNA' of surfaces and solids. Reuter M, Wolter F-E, Peinecke N. Computer-Aided Design. 2006;38(4):342-366. http://dx.doi.org/10.1016/j.cad.2005.10.011",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "HNYmwC_Fcc",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 285,
+              "end": 529,
+              "text": "BrainPrint: a discriminative characterization of brain morphology. Wachinger C, Golland P, Kremen W, Fischl B, Reuter M. Neuroimage. 2015;109:232-48. http://dx.doi.org/10.1016/j.neuroimage.2015.01.032 http://www.ncbi.nlm.nih.gov/pubmed/25613439",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "giQ5WvfLER",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 709,
+              "end": 890,
+              "text": "Crane K, Weischedel C, Wardetzky M. Geodesics in heat: A new approach to computing distance based on heat flow. ACM Transactions on Graphics. https://doi.org/10.1145/2516971.2516977",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "biFOvCLoC6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 947,
+              "end": 1130,
+              "text": "Kazhdan M, Solomon J, Ben-Chen M. 2012. Can Mean-Curvature Flow be Modified to be Non-singular? Comput. Graph. Forum 31, 5, 1745–1754. https://doi.org/10.1111/j.1467-8659.2012.03179.x",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "BO4XdTVRFN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1172,
+              "end": 1396,
+              "text": "Choi PT, Lam KC, Lui LM. FLASH: Fast Landmark Aligned Spherical Harmonic Parameterization for Genus-0 Closed Brain Surfaces. SIAM Journal on Imaging Sciences, vol. 8, no. 1, pp. 67-94, 2015. https://doi.org/10.1137/130950008",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "nkqGBqoNH-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:54:34.123809Z",
+        "updated_at": "2025-11-09T10:54:34.123821Z",
+        "draft_created_at": "2025-11-09T10:54:14.477475Z",
+        "lead_time": 34.467,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "6d04624a-a4e3-4c42-802f-4cd25c48d114",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 479,
+        "project": 23194,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## References:\n\nIf you use this software for a publication please cite both these papers:\n\n[1] Laplace-Beltrami spectra as 'Shape-DNA' of surfaces and solids. Reuter M, Wolter F-E, Peinecke N. Computer-Aided Design. 2006;38(4):342-366. http://dx.doi.org/10.1016/j.cad.2005.10.011\n\n[2] BrainPrint: a discriminative characterization of brain morphology. Wachinger C, Golland P, Kremen W, Fischl B, Reuter M. Neuroimage. 2015;109:232-48. http://dx.doi.org/10.1016/j.neuroimage.2015.01.032 http://www.ncbi.nlm.nih.gov/pubmed/25613439\n\nShape-DNA [1] introduces the FEM methods and the Laplace spectra for shape analysis, while BrainPrint [2] focusses on medical applications.\n\nFor Geodesics please also cite:\n\n[3] Crane K, Weischedel C, Wardetzky M. Geodesics in heat: A new approach to computing distance based on heat flow. ACM Transactions on Graphics. https://doi.org/10.1145/2516971.2516977\n\nFor non-singular mean curvature flow please cite:\n\n[4] Kazhdan M, Solomon J, Ben-Chen M. 2012. Can Mean-Curvature Flow be Modified to be Non-singular? Comput. Graph. Forum 31, 5, 1745–1754. https://doi.org/10.1111/j.1467-8659.2012.03179.x\n\nFor conformal mapping please cite:\n\n[5] Choi PT, Lam KC, Lui LM. FLASH: Fast Landmark Aligned Spherical Harmonic Parameterization for Genus-0 Closed Brain Surfaces. SIAM Journal on Imaging Sciences, vol. 8, no. 1, pp. 67-94, 2015. https://doi.org/10.1137/130950008\n\nWe invite you to check out our lab webpage at https://deep-mi.org",
+      "section": "LaPy (part 3)",
+      "repo": "038_BrainPrint",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.609978Z",
+    "updated_at": "2025-11-09T10:54:34.148612Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23194,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

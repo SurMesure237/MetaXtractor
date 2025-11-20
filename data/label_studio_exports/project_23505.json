@@ -1,0 +1,100 @@
+[
+  {
+    "id": 2252,
+    "annotations": [
+      {
+        "id": 10270,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:41:53.606857Z",
+        "updated_at": "2025-11-03T06:41:53.606880Z",
+        "draft_created_at": null,
+        "lead_time": 9.848,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e7f49741-36f2-4355-8f2a-4a2cddf3a9c3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2252,
+        "project": 23505,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/phac-nml/irida/actions?query=branch%3Adevelopment) [](https://github.com/phac-nml/irida/releases/latest) [](https://gitter.im/irida-project/Lobby)\n\nIRIDA\n\nIRIDA is Canada’s Integrated Rapid Infectious Disease Analysis Platform for Genomic Epidemiology. More information can be found in the following links.\n\nImportant Links\n\nMain Site:   Documentation  Main:   Download:   Available Pipeline Plugins:\n\nContributing to IRIDA\n\nIRIDA is primarily developed by the IRIDA consortium, but the development team is happy to accept contributions from the community. See our [contributing guide] CONTRIBUTING.md for more information.\n\nContact the IRIDA Team\n\nTo ask general or usage questions, email the IRIDA team at IRIDA-mail@sfu.ca  Report bugs, suggest features, or contribute code on [GitHub] http://github.com/phac-nml/irida  Chat with the developers on [Gitter] https://gitter.im/irida-project/\n\nCitation\n\nThe IRIDA manuscript is in preparation. A preprint is available on bioRxiv:",
+      "section": "Introduction (part 1)",
+      "repo": "424_IRIDA",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.226423Z",
+    "updated_at": "2025-11-03T06:41:53.637334Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23505,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2253,
+    "annotations": [
+      {
+        "id": 10271,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:42:16.592692Z",
+        "updated_at": "2025-11-03T06:42:16.592712Z",
+        "draft_created_at": null,
+        "lead_time": 22.791,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f7c9c326-2a45-4f24-9964-c1d8407fd9b2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2253,
+        "project": 23505,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Thomas C Matthews, Franklin R Bristow, Emma J Griffiths, Aaron Petkau, Josh Adam, Damion Dooley, Peter Kruczkiewicz, John Curatcha, Jennifer Cabral, Dan Fornika, Geoffrey L. Winsor, Melanie Courtot, Claire Bertelli, Ataollah Roudgar, Pedro Feijao, Philip Mabon, Eric Enns, Joel Thiessen, Alexander Keddy, Judith Isaac-Renton, Jennifer L. Gardy, Patrick Tang, The IRIDA Consortium, João A Carriço, Leonid Chindelevitch, Cedric Chauve, Morag R Graham, Andrew G McArthur, Eduardo N Taboada, Robert G Beiko, Fiona SL Brinkman, William WL Hsiao, Gary Van Domselaar. 2018. The Integrated Rapid Infectious Disease Analysis (IRIDA) Platform. bioRxiv 381830; doi: .\n\nAdditional related publications are available on .",
+      "section": "Introduction (part 2)",
+      "repo": "424_IRIDA",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.226460Z",
+    "updated_at": "2025-11-03T06:42:16.619875Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23505,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/EcoExtreML/STEMMUS_SCOPE",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "MATLAB",
+    "Python",
+    "Dockerfile",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/EcoExtreML/STEMMUS_SCOPE/zipball/main",
+  "author": "EcoExtreML",
+  "dateCreated": "2021-11-19T12:47:42Z",
+  "dateModified": "2025-10-06T09:12:30Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Integrated code of SCOPE and STEMMUS ",
+  "identifier": 429795196,
+  "name": "EcoExtreML/STEMMUS_SCOPE",
+  "issueTracker": "https://api.github.com/repos/EcoExtreML/STEMMUS_SCOPE/issues",
+  "readme": "https://github.com/EcoExtreML/STEMMUS_SCOPE/blob/main/README.md"
+}

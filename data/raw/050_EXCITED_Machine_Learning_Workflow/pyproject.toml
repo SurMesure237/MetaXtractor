@@ -1,0 +1,108 @@
+[build-system]
+requires = ["hatchling>=1.8.0", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "src/excited_workflow/__init__.py"
+
+[project]
+name = "excited-workflow"
+description = " A Machine Learning workflow to produce a dataset of global net ecosystem CO2 exchange fluxes."
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10, <3.12"
+authors = [
+  {email = "b.schilperoort@esciencecenter.nl"},
+  {name = "Bart Schilperoort, Yang Liu, Claire Donnelly"}
+]
+maintainers = [
+  {name = "Bart Schilperoort", email = "b.schilperoort@esciencecenter.nl"},
+  {name = "Yang Liu", email = "y.liu@esciencecenter.nl"},
+  {name = "Claire Donnelly", email = "c.donnelly@esciencecenter.nl"}
+]
+keywords = [
+  "machine learning",
+  "co2 exchange",
+  "NEE",
+  "GPP",
+]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Apache Software License",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "scikit-learn==1.2.2",
+    "lightgbm==3.3.5",
+    "pandas",
+    "openpyxl", # Excel file compatibility.
+    "xarray",
+    "dask[distributed]",
+    "bokeh<3",
+    "netcdf4",
+    "matplotlib",
+    "pyyaml",
+    "timezonefinder",
+    "skl2onnx",
+    "onnxruntime",
+    "onnxmltools",
+    "flox", # Makes xarray groupby (and resample) faster.
+    "bottleneck", # required for some xarray functionality.
+    "xarray-regrid",
+    "pycaret",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = [
+  "ruff",
+  "mypy",
+  "types-PyYAML",
+]
+docs = [
+    "mkdocs",
+    "mkdocs-material",
+    "mkdocs-gen-files",
+    "mkdocs-jupyter",
+]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 88
+exclude = ["docs", "build"]
+
+[tool.ruff.lint]
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+select = ["E", "F", "B", "D", "C90", "I", "N", "UP", "PLE", "PLR", "PLW"]
+extend-select = ["D401", "D400", "D404", "TID252"]
+# Allow unused variables when underscore-prefixed.
+ignore = ["PLR2004", "PLR0913", "N813", "N803"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["D"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.isort]
+known-first-party = ["excited_workflow"]
+force-single-line = true
+lines-after-imports = 2
+
+[tool.mypy]
+python_version = "3.10"
+plugins = "numpy.typing.mypy_plugin"
+disallow_untyped_defs = true
+disallow_any_unimported = false
+no_implicit_optional = true
+check_untyped_defs = true
+warn_return_any = true
+warn_unused_ignores = true
+show_error_codes = true
+ignore_missing_imports = true

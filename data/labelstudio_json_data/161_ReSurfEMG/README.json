@@ -1,0 +1,74 @@
+[
+  {
+    "data": {
+      "text": "[](https://doi.org/10.5281/zenodo.6811553) [](https://pypi.python.org/pypi/resurfemg/) [](https://github.com/resurfemg-org/ReSurfEMG/actions/workflows/on-commit.yml) [](https://github.com/resurfemg-org/ReSurfEMG/actions/workflows/on-tag.yml) [](https://opensource.org/licenses/Apache-2.0) [](https://bestpractices.coreinfrastructure.org/projects/10985) [](https://fair-software.eu) [](https://joss.theoj.org/papers/5f08d1f2bb717b7d05762296e37ded3d) [](https://scorecard.dev/viewer/?uri=github.com/resurfemg-org/ReSurfEMG) [](https://codecov.io/gh/resurfemg-org/ReSurfEMG)\n\nReSurfEMG is an open source collaborative python library for analysis of respiratory electromyography (EMG). On the same site as  the repository for this library we keep [related resources] https://github.com/ReSurfEMG?tab=repositories.",
+      "section": "Introduction (part 1)",
+      "repo": "161_ReSurfEMG",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "ReSurfEMG includes a [main code library] https://github.com/resurfemg-org/ReSurfEMG where the user can access the code to change various filter and analysis settings directly and/or in our [researcher interface notebooks] https://github.com/resurfemg-org/ReSurfEMG/tree/main/notebooks/researcher_interface. In addition, ReSurfEMG has a [dashboard interface] https://github.com/resurfemg-org/ReSurfEMG-dashboard which contains default settings for preprocessing and analysis which can be changed through a graphical (no code) interface. We have some functionality available through a [command line interface] #command-line-interface as well.\n\nThe library was initially built for surface EMG, however many functions will also work for invasively measured respiratory EMG. This library supports the ongoing research at University of Twente on respiratory EMG.",
+      "section": "Introduction (part 2)",
+      "repo": "161_ReSurfEMG",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Program files\n\nThe core functions of ReSurfEMG are in the folder [resurfemg] https://github.com/resurfemg-org/ReSurfEMG/tree/main/resurfemg:\n\ncli: Scripts for the command line interface\n\ndata_connector: Converter functions for discovering, loading, simulating and handling data.\n\nhelper_functions: General functions to support the functions in this repository\n\npreprocessing: Process the raw respiratory EMG signal\n\nfiltering: low-, high- and bandpass filters, notch filter, computer power loss\n\necg-removal: gating and wavelet denoising\n\nenvelope: root-mean-square (RMS), average rectified (ARV)\n\npostprocessing: Aspects of pre-processed the respiratory EMG data:\n\nmoving baselines\n\nevent detection: find pneumatic and EMG breaths, on- and offset detection\n\nfeatures: amplitude, area under the curve, slope, area under the baseline, respiratory rate\n\nquality assessment: signal-to-noise ratio, end-expiratory occlussion manoeuvre quality, interpeak distance, area under the baseline, consecutive manoeuvres, bell-curve error, relative peak timing, relative area under the baseline, relative ETP\n\n### Folders and Notebooks\n\nOur [guide to notebooks] https://github.com/resurfemg-org/ReSurfEMG/blob/main/notebooks_guide.md is under construction. To look around keep in mind the following distinction on folders:\n\ndev: These notebooks are used in feature development and debugging by core members of the ReSurfEMG team. They can provide a basic example how to use some of the functionality.\n\nopen_work: This folder contains experimental work by core members of the ReSurfEMG\n\nteam that is not deployed yet.\n\nresearcher_interface: These are a growing series of interactive notebooks that allow\n\nresearchers to investigate questions about their own EMG data",
+      "section": "Introduction (part 3)",
+      "repo": "161_ReSurfEMG",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Data sets\n\nThe notebooks are configured to run on various datasets. Contact Dr. Eline Mos-Oppersma( \ud83d\udceb e.mos-oppersma@utwente.nl) to discuss any questions on data configuration for your datasets.\n\nIf you want to use a standardized dataset for any purpose we recommend the data in the [ReSurfEMG/test_data] https://github.com/resurfemg-org/ReSurfEMG/blob/main/test_data, which is also used in testing the ReSurfEMG functions.  Data there can be used with any respiratory EMG algorithms in any program. Thus that data can function as a benchmarking set to compare algorithms across different programs.\n\nAlternatively, the data in the ReSurfEMG/synthetic_data repository:\n\n[](https://zenodo.org/badge/latestdoi/635680008)",
+      "section": "Introduction (part 4)",
+      "repo": "161_ReSurfEMG",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Configuring (to work with your data)\n\nIn order to preprocess and/or to train models the code needs to be able to locate the raw data you want it to find.\n\nThere are several ways to specify the location of the following directories:\n\nroot_data: Special directory. The rest of the directory layout can be derived from its location.\n\npreprocessed_data: The directory that will be used by preprocessing\n\ncode to output to. test_data: The directory for running sanity tests.\n\nYou can store this information persistently in several locations.\n\nIn the same directory where you run the script (or the notebook).\n\ne.g. ./config.json. In home directory, e.g. ~/.resurfemg/config.json.\n\nIn global directory, e.g. /etc/resurfemg/config.json.\n\nHowever, we highly recommend using the home directory. This file can have this or similar contents:\n\n{  \"root_data\": \"/mnt/data\",  \"patient_data\": \"/mnt/patient_data\",  \"simulated_data\": \"/mnt/simulated_data\",  \"preprocessed_data\": \"/mnt/data/preprocessed\",  \"output_data\": \"/mnt/data/output\", }\n\nThe file is read as follows: if the files specifies root_data directory, then the missing entries are assumed to be relative to the root. You do not need to specify all entries.\n\n### Test data\n\nTest data is provided in the repository in the test_data folder.\n\n### Supported Platforms\n\nReSurfEMG is a pure Python package. Below is the list of platforms that should work. Other platforms may work, but have had less extensive testing. Please note that where python.org Python stated as supported, it means that versions 3.9 - 3.12 are supported.",
+      "section": "Introduction (part 5)",
+      "repo": "161_ReSurfEMG",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### AMD64 (x86)\n\n| | Linux | Win | OSX | |:---------------------------:|:---------:|:---------:|:---------:| | | Supported | Supported | Supported | | | Discontinued | Discontinued | Discontinued |\n\n### Installation for all supported platforms\n\nInstallation with Anaconda/conda and/or mamba are the preffered methods. They are covered in [the \"Getting Started\" section] #Getting-Started.  If you wish to install with pip:\n\nCreate and activate a virtual environment (see developer setup section for more details)\n\nInstall ResurfEMG package by running pip install resurfemg.\n\n## Getting Started\n\n### With the recommended Python venv setup\n\nHow to get the notebooks running? Assuming the raw data set and metadata is available.\n\n### 0a. Create a virtual environment using Python\n\n#### On Linux/OSX:\n\npython3 -m venv .venv\n\nThis might require the python3-venv.    #### On Windows:  `` sh  python -m venv .venv  `\n\n### 0b. Activate the virtual environment and install ReSurfEMG\n\n#### On Linux/OSX:\n\nsource .venv/bin/activate pip install resurfemg[dev]\n\n#### On Windows:  ` sh  .venv\\Scripts\\activate.bat  pip install resurfemg[dev]  `\n\n### 1. Open a notebook\n\nStart a local Jupyter Notebook server by running the jupyter notebook`   command in your terminal. This opens a browser window where you can browse,   open and run the notebooks. (We use [Jupyter notebooks] https://jupyter.org/try-jupyter/retro/notebooks/?path=notebooks/Intro.ipynb)  The ReSurfEMG notebooks are located in the notebooks folder. Navigate there   and open a notebook of interest. The [basic_emg_analysis] https://github.com/resurfemg-org/ReSurfEMG/blob/main/researcher_interface/basic_emg_analysis.ipynb   notebook can be used to understand how to use the package.",
+      "section": "Introduction (part 6)",
+      "repo": "161_ReSurfEMG",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Advanced contributor's setup / \"Developer's setup\"\n\nWe distinguish between people who want to use this library in their own code  and/or analysis, and people who also want to develop this library who we call  developers, be it as members of our team or independent contributors. People  who simply want to use our library need to install the packaged version from  one of the package indexes to which we publish released versions (eg. PyPI).  This section of the readme is for advanced developers who want to modify the  library code (and possibly contribute their changes back or eventually publish  thier own modified fork). NB: You can accomplish modifications of the code,  submit pull-requests (PRs) and soforth without a 'developer's setup' but we  feel this setup will make advanced contributions easier.\n\nWe have transitioned to a fully Python 3.9+ environment.  (For older instructions with venv please see versions below 0.2.0, and adapt them if using Windows and/or a different Python version than Python.org Python. e.g. you may need to use .venv\\Scripts\\activate.bat in place of .venv/bin/activate)  The instructions below are for our newer versions above 1.0.0. This will create  a distributable package from the source code, then install it in the currently active environment. This will also install development tools we use s.a. pytest and codestyle and will also install tools we use for working with the library, such as jupyter.\n\n### On Linux/OSX:\n\npython3 -m venv .venv source .venv/bin/activate pip install -e .[dev]",
+      "section": "Introduction (part 7)",
+      "repo": "161_ReSurfEMG",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### On Windows:\n\npython -m venv .venv .venv\\Scripts\\activate.bat pip install -e .[dev]\n\nThese installs differ in two ways from the regular install: 1) The .[dev] (as compared to resurfemg[dev])  installs the library as it currently is including all your local changes,  instead of pulling it from the PyPI repository. 2) The -e flag ensures an  editable install, such that any changes to the library are automatically  applied to your environment.\n\nNow you should have everything necessary to start working on the source code.\n\n## Generating documentation\n\nOnline documentation can be found at https://resurfemg-org.github.io/ReSurfEMG/ or on https://readthedocs.org/ by searching for ReSurfEMG. Up-to-date  documentation can be generated in command-line as follows in terminal:\n\n### On Linux/OSX:\n\npython3 -m venv .venv source .venv/bin/activate pip install -e .[docs] python setup.py apidoc python setup.py build_sphinx\n\n### On Windows:\n\npython -m venv .venv .venv\\Scripts\\activate.bat pip install -e .[docs] python setup.py apidoc python setup.py build_sphinx\n\n## Automation\n\nThe project comes with several modifications to the typical default setup.py.\n\nThe project has a sub-project of a related dashboard. Dashboard is a GUI that exposes some of the project's functionality. In the past, we kept a a legacy  dashboard in the same repository with ReSurfEMG code but we have deleted it.  The current version of the dashboard into it's own repository: https://github.com/resurfemg-org/ReSurfEMG-dashboard\n\n### New commands\n\nisort resurfemg --check --diff checks that the imports are properly   formatted and sorted.  python setup.py apidoc generates RST outlines necessary to generate  documentation.\n\n### Testing\n\nThe project includes testing data. This test data is synthetic and generated by the ReSurfEMG data_connector.synthetic_data methods.",
+      "section": "Introduction (part 8)",
+      "repo": "161_ReSurfEMG",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### On Linux/OSX:\n\npython3 -m venv .venv source .venv/bin/activate pip install -e .[tests] pytest\n\n#### On Windows:\n\npython -m venv .venv .venv\\Scripts\\activate.bat pip install -e .[tests] pytest\n\nTest coverage can be obtained via:\n\ncoverage run -m pytest coverage report\n\n## Command-Line Interface\n\nYou will be able to preprocess data using command-line interface. You can also, in some cases, create files in the correct format for our Dashboard in a per  folder batch process.\n\nYou can make synthetic data. To explore this start with\n\npython -m resurfemg simulate_emg --help\n\npython -m resurfemg simulate_ventilator --help\n\n\u2728Copyright 2022 Netherlands eScience Center and U. Twente Licensed under the Apache License, version 2.0. See LICENSE for details.\u2728",
+      "section": "Introduction (part 9)",
+      "repo": "161_ReSurfEMG",
+      "source_file": "readme.md"
+    }
+  }
+]

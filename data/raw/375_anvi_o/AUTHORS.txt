@@ -1,0 +1,13 @@
+Code contributions to anvi'o as recognized by GitHub can be viewed here:
+
+    https://github.com/merenlab/anvio/graphs/contributors
+
+Although, code contributions represent only a fraction of the investment the
+anvi'o community has made into this platform. For instance, the list by GitHub
+does not include those who contributed to the platform by submitting issues,
+writing tutorials, making suggestions, or helping other anvi'o users, even
+though it is these kinds of contributions that keeps a software platform
+alive and relevant. Thus, we maintain a more comprehensive and up-to-date
+list of the "anvi'o people" here:
+
+    https://anvio.org

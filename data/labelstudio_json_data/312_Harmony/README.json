@@ -1,0 +1,130 @@
+[
+  {
+    "data": {
+      "text": "\ud83c\udf10 harmonydata.ac.uk\n\n[](https://twitter.com/harmony_data)",
+      "section": "Introduction",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Harmony Python library\n\n[](https://pypi.org/project/harmonydata/) [](https://github.com/harmonydata/harmony/blob/main/LICENSE) [](https://github.com/harmonydata/harmony/actions/workflows/test.yml) [](https://github.com/harmonydata/harmony/releases) [](https://pypi.org/project/harmonydata/)  [](https://github.com/harmonydata/harmony/releases) [](https://pypi.org/project/harmonydata/) [](https://github.com/harmonydata/harmony/forks) [](https://hub.docker.com/r/harmonydata/harmonyapi)\n\nYou can also join [our Discord server] https://discord.gg/harmonydata! If you found Harmony helpful, you can [leave us a review] https://g.page/r/CaRWc2ViO653EBM/review!",
+      "section": "Harmony Python library",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "What does Harmony do?\n\nPsychologists and social scientists often have to match items in different questionnaires, such as \"I often feel anxious\" and \"Feeling nervous, anxious or afraid\".   This is called harmonisation.  Harmonisation is a time consuming and subjective process.  Going through long PDFs of questionnaires and putting the questions into Excel is no fun. Enter [Harmony] https://harmonydata.ac.uk/app, a tool that uses [natural language processing] naturallanguageprocessing.com and generative AI models to help researchers harmonise questionnaire items, even in different languages.\n\nQuick start with the code\n\n[Read our guide to contributing to Harmony here] https://harmonydata.ac.uk/contributing-to-harmony/ or read [CONTRIBUTING.md] ./CONTRIBUTING.md.\n\nYou can run the walkthrough Python notebook in [Google Colab] https://colab.research.google.com/github/harmonydata/harmony/blob/main/Harmony_example_walkthrough.ipynb with a single click:\n\nYou can also download an R markdown notebook to run in R Studio:\n\nYou can run the walkthrough R notebook in Google Colab with a single click: [View the PDF documentation of the R package on CRAN] https://cran.r-project.org/web/packages/harmonydata/harmonydata.pdf",
+      "section": "What does Harmony do? + Quick start with the code",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Looking for examples?\n\nCheck out our examples repository at [https://github.com/harmonydata/harmony_examples] https://github.com/harmonydata/harmony_examples",
+      "section": "Looking for examples?",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "The Harmony Project\n\nHarmony is a tool using AI which allows you to compare items from questionnaires and identify similar content. You can try Harmony at https://harmonydata.ac.uk/app and you can read our blog at https://harmonydata.ac.uk/blog/.\n\n## Who to contact?\n\nYou can contact Harmony team at https://harmonydata.ac.uk/, or Thomas Wood at https://fastdatascience.com/.\n\n## \ud83d\udda5 Installation instructions (video)\n\n[](https://www.youtube.com/watch?v=enWh0-4I0Sg \"Installing Harmony\")\n\n## \ud83d\uddb1 Looking to try Harmony in the browser?\n\nVisit: https://harmonydata.ac.uk/app/\n\nYou can also visit our blog at https://harmonydata.ac.uk/\n\n## \u2705 You need Tika if you want to extract instruments from PDFs\n\nDownload and install Java if you don't have it already. Download and install Apache Tika and run it on your computer https://tika.apache.org/download.html\n\njava -jar tika-server-standard-2.3.0.jar\n\n## Requirements\n\nYou need a Windows, Linux or Mac system with\n\nPython 3.8 or above  the requirements in [requirements.txt] ./requirements.txt  Java (if you want to extract items from PDFs)  [Apache Tika] https://tika.apache.org/download.html (if you want to extract items from PDFs)\n\n## \ud83d\udda5 Installing Harmony Python package\n\nYou can install from [PyPI] https://pypi.org/project/harmonydata/.\n\npip install harmonydata\n\n## Loading all models\n\nHarmony uses spaCy to help with text extraction from PDFs. spaCy models can be downloaded with the following command in Python:\n\nimport harmony harmony.download_models()",
+      "section": "The Harmony Project (part 1)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Matching example instruments\n\ninstruments = harmony.example_instruments[\"CES_D English\"], harmony.example_instruments[\"GAD-7 Portuguese\"] match_response = harmony.match_instruments(instruments)\n\nquestions = match_response.questions similarity = match_response.similarity_with_polarity\n\n## How to load a PDF, Excel or Word into an instrument\n\nharmony.load_instruments_from_local_file(\"gad-7.pdf\")\n\n## Optional environment variables\n\nAs an alternative to downloading models, you can set environment variables so that Harmony calls spaCy on a remote server. This is only necessary if you are making a server deployment of Harmony.\n\nHARMONY_DATA_PATH - determines where data files are stored. Defaults to HOME DIRECTORY/harmony  HARMONY_NO_PARSING - set to 1 to import a lightweight variant of Harmony which doesn't support PDF parsing. HARMONY_NO_MATCHING - set to 1 to import a lightweight variant of Harmony which doesn't support matching.\n\n## Creating instruments from a list of strings\n\nYou can also create instruments quickly from a list of strings\n\nfrom harmony import create_instrument_from_list, match_instruments instrument1 = create_instrument_from_list([\"I feel anxious\", \"I feel nervous\"]) instrument2 = create_instrument_from_list([\"I feel afraid\", \"I feel worried\"])\n\nmatch_response = match_instruments([instrument1, instrument2])\n\n## Loading instruments from PDFs\n\nIf you have a local file, you can load it into a list of Instrument instances:\n\nfrom harmony import load_instruments_from_local_file instruments = load_instruments_from_local_file(\"gad-7.pdf\")",
+      "section": "The Harmony Project (part 2)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Matching instruments\n\nOnce you have some instruments, you can match them with each other with a call to match_instruments.\n\nfrom harmony import match_instruments match_response = match_instruments(instruments)\n\nmatch_response.questions is a list of the questions passed to Harmony, in order.  match_response.similarity_with_polarity is the similarity matrix returned by Harmony. match_response.query_similarity is the degree of similarity of each item to an optional query passed as argument to match_instruments.\n\n## \u21d7\u21d7 Using a different vectorisation function\n\nHarmony defaults to sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 ([HuggingFace link] https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2). However you can use other sentence transformers from HuggingFace by setting the environment HARMONY_SENTENCE_TRANSFORMER_PATH before importing Harmony:\n\nexport HARMONY_SENTENCE_TRANSFORMER_PATH=sentence-transformers/distiluse-base-multilingual-cased-v2",
+      "section": "The Harmony Project (part 3)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Using OpenAI or other LLMs for vectorisation\n\nAny word vector representation can be used by Harmony. The below example works for OpenAI's [text-embedding-ada-002] https://openai.com/blog/new-and-improved-embedding-model model as of Apri 2025, provided you have create a paid OpenAI account. However, since LLMs are progressing rapidly, we have chosen not to integrate Harmony directly into the OpenAI client libraries, but instead allow you to pass Harmony any vectorisation function of your choice.\n\nimport numpy as np from harmony import match_instruments_with_function, example_instruments from openai import OpenAI\n\nclient = OpenAI() model_name = \"text-embedding-ada-002\" def convert_texts_to_vector(texts):  vectors = client.embeddings.create(input = texts, model=model_name).data  return np.asarray([vectors[i].embedding for i in range(len(vectors))]) instruments = example_instruments[\"CES_D English\"], example_instruments[\"GAD-7 Portuguese\"] match_response = match_instruments_with_function(instruments, None, convert_texts_to_vector)\n\n## \ud83d\udcbb Do you want to run Harmony in your browser locally?\n\nDownload and install Docker:\n\nhttps://docs.docker.com/desktop/install/mac-install/  https://docs.docker.com/desktop/install/windows-install/  https://docs.docker.com/desktop/install/linux-install/\n\nOpen a Terminal and run\n\ndocker run -p 8000:80 harmonydata/harmonyapi\n\nThen go to http://localhost:8000 in your browser to see the API.\n\nYou can now install and run the front end locally: https://www.youtube.com/watch?v=1xp3Uh6dptg\n\n## Looking for the Harmony API?\n\nVisit: https://github.com/harmonydata/harmonyapi\n\n\ud83d\udcf0 The code for training the PDF extraction is here: https://github.com/harmonydata/pdf-questionnaire-extraction",
+      "section": "The Harmony Project (part 4)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Docker images\n\nIf you are a Docker user, you can run Harmony from a pre-built Docker image.\n\nhttps://hub.docker.com/repository/docker/harmonydata/harmonyapi - just the Harmony API  https://hub.docker.com/repository/docker/harmonydata/harmonylocal - Harmony API and React front end\n\n## Contributing to Harmony\n\nIf you'd like to contribute to this project, you can contact us at https://harmonydata.ac.uk/ or make a pull request on our [Github repository] https://github.com/harmonydata/harmonyapi. You can also [raise an issue] https://github.com/harmonydata/harmony/issues.\n\n## Developing Harmony\n\n### \ud83e\uddea Automated tests\n\nTest code is in tests/ folder using [unittest] https://docs.python.org/3/library/unittest.html.\n\nThe testing tool tox is used in the automation with GitHub Actions CI/CD. Since the PDF extraction also needs Java and Tika installed, you cannot run the unit tests without first installing Java and Tika. See above for instructions.\n\n### \ud83e\uddea Use tox locally\n\nInstall tox and run it:\n\npip install tox tox\n\nIn our configuration, tox runs a check of source distribution using [check-manifest] https://pypi.org/project/check-manifest/ (which requires your repo to be git-initialized (git init) and added (git add .) at least), setuptools's check, and unit tests using pytest. You don't need to install check-manifest and pytest though, tox will install them in a separate environment.\n\nThe automated tests are run against several Python versions, but on your machine, you might be using only one version of Python, if that is Python 3.9, then run:\n\ntox -e py39\n\nThanks to GitHub Actions' automated process, you don't need to generate distribution files locally.",
+      "section": "The Harmony Project (part 5)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### \u2699\ufe0fContinuous integration/deployment to PyPI\n\nThis package is based on the template https://pypi.org/project/example-pypi-package/\n\nThis package\n\nuses GitHub Actions for both testing and publishing\n\nis tested when pushing master or main branch, and is published when create a release\n\nincludes test files in the source distribution\n\nuses setup.cfg for [version single-sourcing] https://packaging.python.org/guides/single-sourcing-package-version/ (setuptools 46.4.0+)\n\n## \u2699\ufe0fRe-releasing the package manually\n\nThe code to re-release Harmony on PyPI is as follows:\n\nsource activate py311 pip install twine rm -rf dist python setup.py sdist twine upload dist/\n\n## \u200e\ud83d\ude03\ud83d\udc81 Who worked on Harmony?\n\nHarmony is a collaboration project between [Ulster University] https://ulster.ac.uk/, [University College London] https://ucl.ac.uk/, the [Universidade Federal de Santa Maria] https://www.ufsm.br/, and [Fast Data Science] http://fastdatascience.com/. Harmony has been funded by [Wellcome] https://wellcome.org/ as part of the [Wellcome Data Prize in Mental Health] https://wellcome.org/grant-funding/schemes/wellcome-mental-health-data-prize and by [Economic and Social Research Council (ESRC)] https://www.ukri.org/councils/esrc/.\n\nThe core team at Harmony is made up of:\n\n[Dr Bettina Moltrecht, PhD] https://profiles.ucl.ac.uk/60736-bettina-moltrecht (UCL)  [Dr Eoin McElroy] https://www.ulster.ac.uk/staff/e-mcelroy (University of Ulster)  [Dr George Ploubidis] https://profiles.ucl.ac.uk/48171-george-ploubidis (UCL)  [Dr Mauricio Scopel Hoffmann] https://ufsmpublica.ufsm.br/docente/18264 (Universidade Federal de Santa Maria, Brazil)  [Thomas Wood] https://freelancedatascientist.net/ ([Fast Data Science] https://fastdatascience.com)",
+      "section": "The Harmony Project (part 6)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## \ud83d\udcdc License\n\nHarmony itself is under [MIT License] https://github.com/harmonydata/harmony/blob/main/LICENSE. Copyright (c) 2023 Ulster University (https://www.ulster.ac.uk). The third party resources used include:",
+      "section": "The Harmony Project (part 7)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Licenses of third party software\n\nAll of the components in the below table are open source.",
+      "section": "The Harmony Project (part 8)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Third party dependency | License | Use | | --- | --- | --- | | Python | [BSD-style custom license] https://en.wikipedia.org/wiki/Python_Software_Foundation_License | Programming language - all of Harmony runs based on Python and so this can't be replaced | | Java | Different options available such as Oracle and IBM | Programming language used to run Tika, used for PDF parsing. If we replace Tika we may no longer need Java. | | Sentence Transformers | [Apache] https://github.com/UKPLab/sentence-transformers/blob/master/LICENSE | Library for running transformer models | | Transformers | [Apache] https://github.com/huggingface/transformers/blob/main/LICENSE | Library for running transformer models | | Pandas | [BSD 3-Clause] https://github.com/pandas-dev/pandas/blob/main/LICENSE | Handling tables inside Harmony - mainly for reading/writing Excels | | Tika | [Apache] https://github.com/apache/tika/blob/main/LICENSE.txt | Parsing PDFs into plain text including OCR. Runs in Java | | LXML | [BSD] https://github.com/lxml/lxml/blob/master/LICENSES.txt | Reading the output of Tika's PDF parsing | | Langdetect | [Apache] https://github.com/Mimino666/langdetect/blob/master/LICENSE | Detecting language of text | | XlsxWriter | [BSD 2-Clause] https://xlsxwriter.readthedocs.io/license.html | Writing Excels | | Openpyxl | [MIT] https://github.com/fluidware/openpyxl/blob/master/LICENCE | Writing Excels | | Numpy | [custom license which appears to be BSD 3-Clause] https://numpy.org/doc/stable/license.html | Dependency of the transformers libraries | | Scikit-Learn | [BSD 3-Clause] https://github.com/scikit-learn/scikit-learn/blob/main/COPYING | Machine learning models for extracting the questions from PDFs | | Scikit-Learn CRFSuite | [MIT] https://sklearn-crfsuite.readthedocs.io/en/latest/contributing.html#license | Machine learning models for extracting the questions from PDFs |",
+      "section": "The Harmony Project (part 9)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Scipy | [custom license which appears to be BSD 3-Clause] https://github.com/scipy/scipy/blob/main/LICENSE.txt | Machine learning models for extracting the questions from PDFs | | Huggingface Hub | [Apache] https://github.com/huggingface/huggingface_hub/blob/main/LICENSE | Connects to HuggingFace Hub, online catalogue of transformer models |",
+      "section": "The Harmony Project (part 10)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Third party software only used for the API\n\nAll of the components in the below table are open source.\n\n| Third party dependency | License | Use | | --- | --- | --- | | FastAPI | [MIT] https://github.com/fastapi/fastapi/blob/master/LICENSE | Runs the API | | Pydantic | [MIT] https://github.com/pydantic/pydantic/blob/main/LICENSE | Ensures that data going in and out of the API is consistently formatted | | Pydantic Settings | [MIT] https://github.com/pydantic/pydantic-settings/blob/main/LICENSE | Ensures that data going in and out of the API is consistently formatted | | Uvicorn | [BSD 3-Clause] https://github.com/encode/uvicorn/blob/master/LICENSE.md | Runs the API | | APScheduler | [MIT] https://github.com/agronholm/apscheduler/blob/master/LICENSE.txt | Periodically downloads Mental Health Catalogue data and similar - could potentially be removed |\n\n### Third party software only used for using LLMs from cloud providers\n\nThe components in the below table are closed source but are optional dependencies - Harmony can optionally integrate with OpenAI but can be used without OpenAI.\n\n| Third party dependency | License | Use | | --- | --- | --- | | VertexAI | [Apache] https://github.com/googleapis/python-aiplatform/blob/main/LICENSE | Calls Google Vertex API LLMs | | OpenAI | [Apache] https://github.com/openai/openai-python/blob/main/LICENSE | Calls OpenAI LLMs |",
+      "section": "The Harmony Project (part 11)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## \ud83d\udcdc How do I cite Harmony?\n\nYou can cite our validation paper:\n\nMcElroy, Wood, Bond, Mulvenna, Shevlin, Ploubidis, Scopel Hoffmann, Moltrecht, [Using natural language processing to facilitate the harmonisation of mental health questionnaires: a validation study using real-world data] https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-024-05954-2#citeas. BMC Psychiatry 24, 530 (2024), https://doi.org/10.1186/s12888-024-05954-2\n\nA BibTeX entry for LaTeX users is\n\n@article{mcelroy2024using,  title={Using natural language processing to facilitate the harmonisation of mental health questionnaires: a validation study using real-world data},  author={McElroy, Eoin and Wood, Thomas and Bond, Raymond and Mulvenna, Maurice and Shevlin, Mark and Ploubidis, George B and Hoffmann, Mauricio Scopel and Moltrecht, Bettina},  journal={BMC psychiatry},  volume={24},  number={1},  pages={530},  year={2024},  publisher={Springer} }",
+      "section": "The Harmony Project (part 12)",
+      "repo": "312_Harmony",
+      "source_file": "readme.md"
+    }
+  }
+]

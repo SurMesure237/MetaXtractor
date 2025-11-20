@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/Open-MSS/MSS",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "HTML",
+    "Shell",
+    "Mako"
+  ],
+  "downloadUrl": "https://api.github.com/repos/Open-MSS/MSS/zipball/main",
+  "author": "Open-MSS",
+  "dateCreated": "2020-12-03T21:52:50Z",
+  "dateModified": "2025-09-03T16:58:18Z",
+  "keywords": [
+    "conda-forge",
+    "flight-planning",
+    "mission-support-system",
+    "python"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "A QT application, a OGC web map server, a collaboration server to plan atmospheric research flights.",
+  "identifier": 318329421,
+  "name": "Open-MSS/MSS",
+  "issueTracker": "https://api.github.com/repos/Open-MSS/MSS/issues",
+  "readme": "https://github.com/Open-MSS/MSS/blob/develop/README.md"
+}

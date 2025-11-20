@@ -1,0 +1,66 @@
+[
+  {
+    "data": {
+      "text": "[](https://github.com/seisbench/seisbench/blob/main/LICENSE) [](https://github.com/seisbench/seisbench) [](https://seisbench.readthedocs.io/en/latest/) [](https://pypi.org/project/seisbench/) [](https://www.python.org/downloads/release/python-390/) [](https://doi.org/10.5281/zenodo.5568813)\n\nThe Seismology Benchmark collection (SeisBench) is an open-source python toolbox for machine learning in seismology. It provides a unified API for accessing seismic datasets and both training and applying machine learning algorithms to seismic data. SeisBench has been built to reduce the overhead when applying or developing machine learning techniques for seismological tasks.",
+      "section": "Introduction (part 1)",
+      "repo": "457_SeisBench__A_toolbox_for_machine_learning_in_seismology",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Getting started\n\nSeisBench offers three core modules, data, models, and generate. data provides access to benchmark datasets and offers functionality for loading datasets. models offers a collection of machine learning models for seismology. You can easily create models, load pretrained models or train models on any dataset. generate contains tools for building data generation pipelines. They bridge the gap between data and models.\n\nThe easiest way of getting started is through our colab notebooks.",
+      "section": "Introduction (part 2)",
+      "repo": "457_SeisBench__A_toolbox_for_machine_learning_in_seismology",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Examples | | |--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | Dataset basics | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/01a_dataset_basics.ipynb) | | Model API | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/01b_model_api.ipynb) | | Generator Pipelines | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/01c_generator_pipelines.ipynb) | | Applied picking | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/02a_deploy_model_on_streams_example.ipynb) | | Using DeepDenoiser | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/02b_deep_denoiser.ipynb) |",
+      "section": "Introduction (part 3)",
+      "repo": "457_SeisBench__A_toolbox_for_machine_learning_in_seismology",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Depth phases and earthquake depth | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/02c_depth_phases.ipynb) | | Training PhaseNet (advanced) | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/03a_training_phasenet.ipynb) | | Creating a dataset (advanced) | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/03b_creating_a_dataset.ipynb) | | Training Denoiser (advanced) | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/03e_training_denoiser.ipynb) | | Building an event catalog with GaMMA (advanced) | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/03c_catalog_seisbench_gamma.ipynb) | | Building an event catalog with PyOcto (advanced) | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/03d_catalog_seisbench_pyocto.ipynb) |",
+      "section": "Introduction (part 4)",
+      "repo": "457_SeisBench__A_toolbox_for_machine_learning_in_seismology",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Alternatively, you can clone the repository and run the same [examples] https://github.com/seisbench/seisbench/tree/main/examples locally.\n\nFor more detailed information on Seisbench check out the [SeisBench documentation] https://seisbench.readthedocs.io/.",
+      "section": "Introduction (part 5)",
+      "repo": "457_SeisBench__A_toolbox_for_machine_learning_in_seismology",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Installation\n\nSeisBench can be installed in two ways. In both cases, you might consider installing SeisBench in a virtual environment, for example using [conda] https://docs.conda.io/en/latest/.\n\nThe recommended way is installation through pip. Simply run:\n\npip install seisbench\n\nAlternatively, you can install the latest version from source. For this approach, clone the repository, switch to the repository root and run:\n\npip install .\n\nwhich will install SeisBench in your current python environment.\n\n### CPU only installation\n\nSeisBench is built on pytorch, which in turn runs on CUDA for GPU acceleration. Sometimes, it might be preferable to install pytorch without CUDA, for example, because CUDA will not be used and the CUDA binaries are rather large. To install such a pure CPU version, the easiest way is to follow a two-step installation. First, install pytorch in a pure CPU version [as explained here] https://pytorch.org/. Second, install SeisBench the regular way through pip. Example instructions would be:\n\npip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu pip install seisbench\n\n## Contributing\n\nThere are many ways to contribute to SeisBench and we are always looking forward to your contributions. Check out the [contribution guidelines] https://github.com/seisbench/seisbench/blob/main/CONTRIBUTING.md for details on how to contribute.",
+      "section": "Introduction (part 6)",
+      "repo": "457_SeisBench__A_toolbox_for_machine_learning_in_seismology",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Known issues\n\nSome institutions and internet providers are blocking access to our data and model repository, as it is running on a non-standard port (2880).\n\nThis usually manifests in timeouts when trying to download data or model weights.  To verify the issue, try accessing [https://hifis-storage.desy.de:2880/] https://hifis-storage.desy.de:2880/ directly from the same machine.  As a mitigation, you can use our backup repository. Just run seisbench.use_backup_repository().  Please note that the backup repository will usually show lower download speeds.  We recommend contacting your network administrator to allow outgoing access to TCP port 2880 on our server as a higher performance solution. We've recently changed the URL of the SeisBench repository. To use the new URL update to SeisBench 0.4.1.\n\nIt this is not possible, you can use the following commands within your runtime to update the URL manually:  ``python  import seisbench  from urllib.parse import urljoin\n\nseisbench.remote_root = \"https://hifis-storage.desy.de:2880/Helmholtz/HelmholtzAI/SeisBench/\"  seisbench.remote_data_root = urljoin(seisbench.remote_root, \"datasets/\")  seisbench.remote_model_root = urljoin(seisbench.remote_root, \"models/v3/\")  ` On the Apple M1 and M2 chips, pytorch seems to not always work when installed directly within pip install seisbench.\n\nAs a workaround, follow the instructions at (https://pytorch.org/) to install pytorch and then install SeisBench as usual through pip. EQTransformer model weights \"original\" in version 1 and 2 are incompatible with SeisBench >=0.2.3. Simply use from_pretrained(\"original\", version=\"3\") or from_pretrained(\"original\", update=True)`. The weights will not differ in their predictions.",
+      "section": "Introduction (part 7)",
+      "repo": "457_SeisBench__A_toolbox_for_machine_learning_in_seismology",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## References\n\nReference publications for SeisBench:\n\n[SeisBench - A Toolbox for Machine Learning in Seismology] https://doi.org/10.1785/0220210324\n\n_Reference publication for software._\n\n[Which picker fits my data? A quantitative evaluation of deep learning based seismic pickers] https://doi.org/10.1029/2021JB023499\n\n_Example of in-depth bencharking study of deep learning-based picking routines using the SeisBench framework._\n\n## Acknowledgement\n\nThe initial version of SeisBench has been developed at [GFZ Potsdam] https://www.gfz-potsdam.de/ and [KIT] https://www.gpi.kit.edu/ with funding from [Helmholtz AI] https://www.helmholtz.ai/. The SeisBench repository is hosted by [HIFIS - Helmholtz Federated IT Services] https://www.hifis.net/.",
+      "section": "Introduction (part 8)",
+      "repo": "457_SeisBench__A_toolbox_for_machine_learning_in_seismology",
+      "source_file": "readme.md"
+    }
+  }
+]

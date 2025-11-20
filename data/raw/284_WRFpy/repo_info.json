@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/ERA-URBAN/wrfpy",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ERA-URBAN/wrfpy/zipball/main",
+  "author": "ERA-URBAN",
+  "dateCreated": "2015-10-15T12:25:18Z",
+  "dateModified": "2025-07-20T17:08:05Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": null,
+  "identifier": 44315673,
+  "name": "ERA-URBAN/wrfpy",
+  "issueTracker": "https://api.github.com/repos/ERA-URBAN/wrfpy/issues",
+  "readme": "https://github.com/ERA-URBAN/wrfpy/blob/master/README.rst"
+}

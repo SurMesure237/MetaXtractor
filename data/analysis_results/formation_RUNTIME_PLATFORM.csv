@@ -1,0 +1,79 @@
+text,count,percentage
+Python 3,11,10.78
+Node.js,6,5.88
+NodeJs,3,2.94
+Java 11,3,2.94
+Python 3.9,2,1.96
+python=3.12,2,1.96
+Python 2.7,2,1.96
+Python 3.9.12+,2,1.96
+node.js,2,1.96
+Python 3.8.x or 3.9.x,1,0.98
+Java 17,1,0.98
+NodeJS,1,0.98
+Java (versions 8 and up although 17 is recommended),1,0.98
+Python 3.8 or above,1,0.98
+Python 3.10 or higher,1,0.98
+nodejs,1,0.98
+Python 3.11+,1,0.98
+"Python 3.10, 3.11, 3.12",1,0.98
+"Python >= 3.10, <= 3.12",1,0.98
+Python >= 3.7,1,0.98
+Python 3.8 or higher,1,0.98
+python 3.7,1,0.98
+"python version (3.8, 3.9, 3.10, 3.11)",1,0.98
+Node.js (version 12 or higher),1,0.98
+Python 2.7+,1,0.98
+Node.js 12.x,1,0.98
+"Java 11, 17, and 19",1,0.98
+Python v3.8 or v3.9,1,0.98
+Python v3.8,1,0.98
+Python 3.6,1,0.98
+"Python versions 3.7, 3.8 and 3.9",1,0.98
+Python,1,0.98
+Java 1.7 or later,1,0.98
+Python 3.9 and above,1,0.98
+Python 3.14,1,0.98
+Python &ge; 3.11,1,0.98
+Python >=3.7,1,0.98
+Nodejs,1,0.98
+python 3.2 or higher,1,0.98
+Python version >= 3.11,1,0.98
+Python >= 3.5,1,0.98
+Python 3+,1,0.98
+"Python version of 3.7, 3.8 or 3.9",1,0.98
+Python 3.10.10,1,0.98
+Python3 (3.3 or higher),1,0.98
+"Python 3.8, 3.9, 3.10, 3.11",1,0.98
+"Python 3.7, 3.8, 3.9 and 3.10",1,0.98
+python>=3.10,1,0.98
+Python 3.13 and above,1,0.98
+Python 3.10 and above,1,0.98
+Java 1.8 or later,1,0.98
+Python versions 3.7 - 3.11,1,0.98
+Python version 3.9 to 3.13,1,0.98
+Python version >=3.11,1,0.98
+python==3.8,1,0.98
+Java 17 or newer,1,0.98
+Python (3.9 or later is recommended),1,0.98
+python >= 3.10,1,0.98
+Python \>=3.8,1,0.98
+Python 3.8 to 3.12,1,0.98
+Python <3.8,1,0.98
+Python 3.8,1,0.98
+Python 3.5,1,0.98
+Python 3.7 and later,1,0.98
+Bun.js,1,0.98
+python=3.10,1,0.98
+Python Version 3.10,1,0.98
+Python 3.10 or later,1,0.98
+Python 3.5 or up,1,0.98
+Python >= 2.7,1,0.98
+Python 3.12,1,0.98
+Python (v3.9 or newer),1,0.98
+python >= 3.8,1,0.98
+Python >= 3.8,1,0.98
+Python version >= 3.8,1,0.98
+python==3.13.2,1,0.98
+Python version 3.13.2,1,0.98
+Python 3.7 (and higher),1,0.98

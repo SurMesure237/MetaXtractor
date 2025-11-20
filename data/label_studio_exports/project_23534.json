@@ -1,0 +1,67 @@
+[
+  {
+    "id": 2410,
+    "annotations": [
+      {
+        "id": 11761,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 148,
+              "end": 187,
+              "text": "https://doi.org/10.5281/zenodo.15174211",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "bI7ET92peb",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:53:45.196952Z",
+        "updated_at": "2025-11-09T05:53:45.196969Z",
+        "draft_created_at": "2025-11-09T05:53:35.167181Z",
+        "lead_time": 20.419,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "b4446c85-13f2-47cf-941c-ce6b0372091f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2410,
+        "project": 23534,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# mibibio\n\n[](https://github.com/MiBiPreT/mibibio) [](https://github.com/MiBiPreT/mibibio) [](https://www.research-software.nl/software/mibibio) [](https://doi.org/10.5281/zenodo.15174211) [](https://github.com/MiBiPreT/mibibio/actions/workflows/cffconvert.yml) [](https://github.com/MiBiPreT/mibibio/actions/workflows/markdown-link-check.yml)\n\nCollection of microbial analysis workflows to investigate microbiological community structure, characteristics and their degradation potential.\n\n## Getting a copy of mibibio\n\nTo get a copy of the mibibio repository, do:\n\ngit clone git@github.com:MiBiPreT/mibibio.git cd mibibio\n\n## Method Overview\n\nYou can find the overview of the methods implemented for comprehensive statistical, visual and meta-analysis of large and complex microbiome datasets [here] ./docs/methods/methods.md\n\n## Contributing\n\nIf you want to contribute to the development of mibibio, have a look at the [contribution guidelines] CONTRIBUTING.md.",
+      "section": "README",
+      "repo": "119_mibibio",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.349346Z",
+    "updated_at": "2025-11-09T05:53:45.228277Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23534,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

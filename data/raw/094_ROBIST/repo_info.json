@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/JustinStarreveld/ROBIST",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/JustinStarreveld/ROBIST/zipball/main",
+  "author": "JustinStarreveld",
+  "dateCreated": "2022-05-19T12:53:49Z",
+  "dateModified": "2025-05-16T19:21:30Z",
+  "keywords": [
+    "algorithm",
+    "data-driven",
+    "robust-optimization"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Simple, yet effective, data-driven algorithm for optimization under parametric uncertainty",
+  "identifier": 494070848,
+  "name": "JustinStarreveld/ROBIST",
+  "issueTracker": "https://api.github.com/repos/JustinStarreveld/ROBIST/issues",
+  "readme": "https://github.com/JustinStarreveld/ROBIST/blob/main/README.md"
+}

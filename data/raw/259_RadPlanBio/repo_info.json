@@ -1,0 +1,30 @@
+{
+  "codeRepository": "https://github.com/ddRPB/rpb",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ddRPB/rpb/zipball/main",
+  "author": "ddRPB",
+  "dateCreated": "2015-12-28T14:24:37Z",
+  "dateModified": "2025-09-30T00:25:28Z",
+  "keywords": [
+    "clinical-research",
+    "clinical-trial-management-system",
+    "clinical-trials",
+    "ctms",
+    "dicom",
+    "radiotherapy",
+    "randomisation",
+    "trial-management"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "RPB platform for clinical trial management (CTMS) - mirror/sync repo only, active development in internal repo",
+  "identifier": 48696148,
+  "name": "ddRPB/rpb",
+  "issueTracker": "https://api.github.com/repos/ddRPB/rpb/issues",
+  "readme": "https://github.com/ddRPB/rpb/blob/master/README.md"
+}

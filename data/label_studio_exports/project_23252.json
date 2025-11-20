@@ -1,0 +1,706 @@
+[
+  {
+    "id": 880,
+    "annotations": [
+      {
+        "id": 11152,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 28,
+              "end": 77,
+              "text": "https://travis-ci.org/NLeSC/ahn-pointcloud-viewer",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "uxajwh2Kt8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 217,
+              "end": 254,
+              "text": "https://doi.org/10.5281/zenodo.910448",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "nAyIiyzi7e",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 493,
+              "end": 538,
+              "text": "http://dx.doi.org/10.13140/RG.2.1.1731.4326/1",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "1NfE1jK2B5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1037,
+              "end": 1044,
+              "text": "Node.js",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "NvylSBQaIV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1067,
+              "end": 1072,
+              "text": "Bower",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Al3MlxR9fK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1092,
+              "end": 1099,
+              "text": "Compass",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "UqbY1w5XNS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1199,
+              "end": 1212,
+              "text": "Google Chrome",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "8WducKovNq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1128,
+              "end": 1148,
+              "text": "Java Development Kit",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "TNFfAXCNhT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1247,
+              "end": 1261,
+              "text": "Microsoft Edge",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "932W7syO-f",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1332,
+              "end": 1339,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "5nfygXvK3-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1046,
+              "end": 1064,
+              "text": "http://nodejs.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "5aUNa94wWW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1074,
+              "end": 1089,
+              "text": "http://bower.io",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "xvw1DzaYW5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1101,
+              "end": 1125,
+              "text": "http://compass-style.org",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "JzjznAN0zJ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1150,
+              "end": 1171,
+              "text": "https://www.java.com/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "RLpGPMvmG1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1214,
+              "end": 1244,
+              "text": "https://www.google.com/chrome/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "DVrjGwKeo5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1263,
+              "end": 1316,
+              "text": "http://www.microsoft.com/en-us/windows/microsoft-edge",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "TwhO0O8Q1j",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:15:21.135603Z",
+        "updated_at": "2025-11-16T05:01:51.750416Z",
+        "draft_created_at": "2025-11-06T05:14:28.007005Z",
+        "lead_time": 93.14699999999999,
+        "prediction": {},
+        "result_count": 16,
+        "unique_id": "7c8285d8-ce91-4ef7-af22-ebab0c062fdc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 880,
+        "project": 23252,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "AHN2 point cloud viewer\n\n[](https://travis-ci.org/NLeSC/ahn-pointcloud-viewer) [](https://codeclimate.com/github/NLeSC/ahn-pointcloud-viewer) [](https://codeclimate.com/github/NLeSC/ahn-pointcloud-viewer/coverage) [](https://doi.org/10.5281/zenodo.910448)\n\nPoint cloud visualization of the current digital elevation model of the Netherlands ([Actueel Hoogtebestand Nederland or AHN2] http://www.ahn.nl/). For further details, please refer to the publication by [Martinez-Rubi _et al._ (2015)] http://dx.doi.org/10.13140/RG.2.1.1731.4326/1.\n\nRelated repositories\n\n[Massive-PotreeConverter] https://github.com/NLeSC/Massive-PotreeConverter extends the [PotreeConverter] https://github.com/potree/PotreeConverter to handle massive point cloud data such as AHN2.\n\n[ahn-pointcloud-viewer-ws] https://github.com/NLeSC/ahn-pointcloud-viewer-ws corresponds to a RESTful web service that enables communication between this web application (viewer) and database of point cloud (meta)data.\n\nPrerequisites\n\nPoint cloud data in the _potree_ format  [Node.js] http://nodejs.org/  [Bower] http://bower.io  [Compass] http://compass-style.org  [Java Development Kit] https://www.java.com/  Supported web browsers:  [Google Chrome] https://www.google.com/chrome/  [Microsoft Edge] http://www.microsoft.com/en-us/windows/microsoft-edge\n\nInstallation: Windows",
+      "section": "Introduction (part 1)",
+      "repo": "128_AHN_point_cloud_viewer_web_service",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.617473Z",
+    "updated_at": "2025-11-16T05:01:51.789646Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23252,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 881,
+    "annotations": [
+      {
+        "id": 11153,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 13,
+              "end": 32,
+              "text": "Git CLI/GUI clients",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Q_oSFqF1Cq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 77,
+              "end": 84,
+              "text": "Node.js",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "peU30UvJb4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 296,
+              "end": 300,
+              "text": "Ruby",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Kl-jYXog_1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 435,
+              "end": 446,
+              "text": "AHN2 viewer",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "DFtvQPT2OR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 722,
+              "end": 728,
+              "text": "Debian",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "4JZiYU4eRm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 742,
+              "end": 747,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "zr214cainz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 729,
+              "end": 735,
+              "text": "Ubuntu",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "op4UiC4JxG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 769,
+              "end": 776,
+              "text": "Node.js",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "b1fHda9dO4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1065,
+              "end": 1069,
+              "text": "Ruby",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "84bGdnjMJm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1113,
+              "end": 1121,
+              "text": "ruby-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "QVRkg5TGVV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1122,
+              "end": 1132,
+              "text": "libffi-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "TYFU4boveS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1133,
+              "end": 1148,
+              "text": "build-essential",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "l3bfyMO7Oj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1166,
+              "end": 1173,
+              "text": "compass",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "VzvQxr9BB_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1036,
+              "end": 1041,
+              "text": "bower",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "9UwLE2VCOr",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1042,
+              "end": 1051,
+              "text": "grunt-cli",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "tneMrwnaDA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1009,
+              "end": 1015,
+              "text": "nodejs",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "CAH8VXYpAK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 302,
+              "end": 327,
+              "text": "http://rubyinstaller.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "-abBV2JpfK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 34,
+              "end": 62,
+              "text": "http://git-scm.com/downloads",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "90rdKJpwSQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 551,
+              "end": 560,
+              "text": "grunt-cli",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "GSYm9byTKN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 573,
+              "end": 578,
+              "text": "bower",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "DOVMupQ9qT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 545,
+              "end": 550,
+              "text": "grunt",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "PMmqJPBNSA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:17:18.071729Z",
+        "updated_at": "2025-11-16T05:03:12.873457Z",
+        "draft_created_at": "2025-11-06T05:15:35.132049Z",
+        "lead_time": 190.016,
+        "prediction": {},
+        "result_count": 21,
+        "unique_id": "be97d27d-6e62-42ed-a6f0-b8dcebbaa9d9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 881,
+        "project": 23252,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Install [Git CLI/GUI clients] http://git-scm.com/downloads\n\n### Install [Node.js] http://nodejs.org/ and required modules\n\nMake sure the _Add node to PATH_ option is checked.  Create '$HOME/npm' folder (where $HOME is C:\\Users\\\\AppData\\Roaming).\n\nnpm install -g bower grunt-cli\n\n### Install [Ruby] http://rubyinstaller.org/ and required package\n\nMake sure the _Add Ruby to PATH_ option is checked\n\ngem install compass\n\n### Install AHN2 viewer\n\ngit clone https://github.com/NLeSC/ahn-pointcloud-viewer cd ahn-pointcloud-viewer npm install -g grunt grunt-cli npm install bower install bower update\n\n### Test AHN2 viewer\n\ngrunt serve # starts the web server and opens http://localhost:9000 in your browser\n\nInstallation: Debian/Ubuntu-based Linux distros\n\n### Install Node.js and required modules\n\nSee the documentation [here] https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions.\n\ncurl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash - sudo apt-get install -y nodejs sudo npm install -g bower grunt-cli\n\n### Install Ruby and required package\n\nsudo apt-get install ruby-dev libffi-dev build-essential sudo gem install compass\n\n### Install AHN2 viewer\n\ngit clone https://github.com/NLeSC/ahn-pointcloud-viewer cd ahn-pointcloud-viewer npm install phantomjs npm install bower install #bower update\n\n### Test AHN2 viewer\n\ngrunt serve # starts the web server and opens http://localhost:9000 in your browser\n\n### Run unit tests\n\ngrunt test\n\nNote: This generates test and coverage reports (see the test/reports folder).",
+      "section": "Introduction (part 2)",
+      "repo": "128_AHN_point_cloud_viewer_web_service",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.617511Z",
+    "updated_at": "2025-11-16T05:03:12.911787Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23252,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 882,
+    "annotations": [
+      {
+        "id": 11154,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:17:25.949332Z",
+        "updated_at": "2025-11-06T05:17:25.949345Z",
+        "draft_created_at": null,
+        "lead_time": 7.643,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b66d2bdd-09a9-4cc7-93e4-a0ecb0c2b865",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 882,
+        "project": 23252,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Run end-to-end tests locally\n\ngrunt e2e-local\n\nNote: Both the point cloud and minimap use a canvas and can't be tested automatically so they must be verified manually using the screenshots in the report (open e2e/reports/report.html in your browser).\n\n### Run end-to-end tests remotely on [Sauce Labs] https://saucelabs.com/\n\nConnect to Sauce Labs using the sauce-connect program. Further details on how to install and run this tool can be found [here] https://docs.saucelabs.com/reference/sauce-connect/.\n\nSetup Sauce Labs credentials before running the tests.\n\nexport SAUCE_USERNAME= export SAUCE_ACCESS_KEY=\n\nRun the tests in Google Chrome (Linux).\n\ngrunt e2e-sauce\n\nBoth the point cloud window and minimap use a canvas, which can't be tested automatically. Therefore, the tests must be verified manually using the screencast in the report at https://saucelabs.com/u/.\n\nAlso Travis-CI runs end-to-end tests on Sauce Labs.\n\nNote: Executing grunt e2e-sauce locally will undo all changes in app/ folder.\n\n### Build a distro\n\ngrunt build\n\nThe dist folder has production ready distribution.\n\n### Generate API documentation\n\ngrunt jsdoc\n\nAPI documentation is generated in doc/ directory.\n\nFrame rate report\n\nUse Chrome FPS plotting to get the frame rate. Open developer tools\n\nOn Console tab goto Rendering tab (bottom screen)\n\nCheck the Show FPS meter checkbox\n\n### Deploy to GitHub pages\n\nDeploy distribution to gh-pages branch. Make it available as http://nlesc.github.io/ahn-pointcloud-viewer\n\ngrunt build grunt gh-pages",
+      "section": "Introduction (part 3)",
+      "repo": "128_AHN_point_cloud_viewer_web_service",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.617535Z",
+    "updated_at": "2025-11-06T05:17:25.973323Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23252,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

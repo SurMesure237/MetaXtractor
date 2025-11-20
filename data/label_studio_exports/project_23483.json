@@ -1,0 +1,100 @@
+[
+  {
+    "id": 2140,
+    "annotations": [
+      {
+        "id": 10315,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:28:40.914872Z",
+        "updated_at": "2025-11-04T06:28:40.914896Z",
+        "draft_created_at": null,
+        "lead_time": 7.052,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "7405debe-1856-4d80-ad94-73c1118fe871",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2140,
+        "project": 23483,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://birdscanada.r-universe.dev/) [](https://birdscanada.r-universe.dev/motus) [](https://github.com/MotusWTS/motus/actions/workflows/R-CMD-check.yaml) [](https://app.codecov.io/gh/MotusWTS/motus?branch=main)",
+      "section": "Introduction",
+      "repo": "123_Motus_Wildlife_Tracking_System",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.741192Z",
+    "updated_at": "2025-11-04T06:28:40.943018Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23483,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2141,
+    "annotations": [
+      {
+        "id": 10316,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:28:56.149123Z",
+        "updated_at": "2025-11-04T06:28:56.149146Z",
+        "draft_created_at": null,
+        "lead_time": 15.05,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "9981fdc6-8e23-4df1-a01c-99e8cc7036f5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2141,
+        "project": 23483,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "motus\n\nAn R package for handling [Motus] https://motus.org automated radio-telemetry data.\n\nSee the [motus package site] https://motuswts.github.io/motus/ for detailed usage information.\n\n## Installation\n\nThe easiest way to install motus is from Birds Canada's [R-Universe] https://birdscanada.r-universe.dev:\n\ninstall.packages(\"motus\",   repos = c(birdscanada = 'https://birdscanada.r-universe.dev',  CRAN = 'https://cloud.r-project.org'))\n\nIf you want to check out work-in-progress, you can install the development  branches (betaX and sandbox) using remotes.\n\ninstall.packages(\"remotes\") # if don't already have it remotes::install_github(\"motusWTS/motus@beta3\") # the beta branch for v3+\n\nRunning into problems? Check out the [Troubleshooting article] https://motuswts.github.io/motus/articles/troubleshooting.html",
+      "section": "motus <img src=\"man/figures/logo.png\" align=\"right\" />",
+      "repo": "123_Motus_Wildlife_Tracking_System",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.741229Z",
+    "updated_at": "2025-11-04T06:28:56.179770Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23483,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

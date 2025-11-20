@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/nlppln/nlppln",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Common Workflow Language",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/nlppln/nlppln/zipball/main",
+  "author": "nlppln",
+  "dateCreated": "2016-08-08T11:29:33Z",
+  "dateModified": "2025-09-30T06:30:48Z",
+  "keywords": [
+    "cwl",
+    "nlp",
+    "pipeline",
+    "text-mining",
+    "workflow"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "NLP pipeline software using common workflow language",
+  "identifier": 65198876,
+  "name": "nlppln/nlppln",
+  "issueTracker": "https://api.github.com/repos/nlppln/nlppln/issues",
+  "readme": "https://github.com/nlppln/nlppln/blob/master/README.rst"
+}

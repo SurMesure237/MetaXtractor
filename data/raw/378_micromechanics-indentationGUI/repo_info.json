@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/micromechanics/indentationGUI",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/micromechanics/indentationGUI/zipball/main",
+  "author": "micromechanics",
+  "dateCreated": "2023-04-05T07:33:56Z",
+  "dateModified": "2025-01-21T22:02:46Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "A GUI for the indentation library",
+  "identifier": 623836374,
+  "name": "micromechanics/indentationGUI",
+  "issueTracker": "https://api.github.com/repos/micromechanics/indentationGUI/issues",
+  "readme": "https://github.com/micromechanics/indentationGUI/blob/main/README.md"
+}

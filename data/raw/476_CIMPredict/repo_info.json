@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/tonitacker/CIMPredict",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "R"
+  ],
+  "downloadUrl": "https://api.github.com/repos/tonitacker/CIMPredict/zipball/main",
+  "author": "tonitacker",
+  "dateCreated": "2024-09-05T08:00:53Z",
+  "dateModified": "2025-01-29T20:10:40Z",
+  "keywords": [],
+  "license": null,
+  "description": null,
+  "identifier": 852669501,
+  "name": "tonitacker/CIMPredict",
+  "issueTracker": "https://api.github.com/repos/tonitacker/CIMPredict/issues",
+  "readme": "https://github.com/tonitacker/CIMPredict/blob/main/README.md"
+}

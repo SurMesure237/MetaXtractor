@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/undark-lab/swyft",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/undark-lab/swyft/zipball/main",
+  "author": "undark-lab",
+  "dateCreated": "2020-05-25T21:19:48Z",
+  "dateModified": "2025-05-20T17:26:57Z",
+  "keywords": [
+    "likelihood-free-inference",
+    "machine-learning",
+    "marginal-neural-ratio-estimation",
+    "neural-ratio-estimation",
+    "parameter-estimation",
+    "python",
+    "pytorch",
+    "simulation-based-inference",
+    "truncated-neural-ratio-estimation"
+  ],
+  "license": null,
+  "description": "A system for scientific simulation-based inference at scale.",
+  "identifier": 266882295,
+  "name": "undark-lab/swyft",
+  "issueTracker": "https://api.github.com/repos/undark-lab/swyft/issues",
+  "readme": "https://github.com/undark-lab/swyft/blob/master/README.rst"
+}

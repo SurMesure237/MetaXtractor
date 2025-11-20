@@ -1,0 +1,369 @@
+[
+  {
+    "id": 2479,
+    "annotations": [
+      {
+        "id": 10089,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 185,
+              "end": 242,
+              "text": "https://ukis-pysat.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "3biTJOeu3i",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 307,
+              "end": 351,
+              "text": "https://zenodo.org/badge/latestdoi/259635994",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "3ZFgdInpo6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 963,
+              "end": 1007,
+              "text": "https://ukis-pysat.readthedocs.io/en/latest/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "KpqagfgCOa",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T21:01:06.397573Z",
+        "updated_at": "2025-11-14T12:13:43.567155Z",
+        "draft_created_at": "2025-11-02T21:00:47.109688Z",
+        "lead_time": 59.736999999999995,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "5a9a67d4-87c6-4093-b09c-704e0380b456",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2479,
+        "project": 23551,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://www.dlr.de/eoc/en/desktopdefault.aspx/tabid-5413/10560_read-21914/) UKIS-pysat\n\n[](https://codecov.io/gh/dlr-eoc/ukis-pysat)\n\n[](https://pypi.python.org/pypi/ukis-pysat/) [](https://ukis-pysat.readthedocs.io/en/latest/?badge=latest) [](LICENSE.txt) [](https://black.readthedocs.io/en/stable/) [](https://zenodo.org/badge/latestdoi/259635994)\n\nThe UKIS-pysat package provides generic classes and functions to access and process multi-spectral and SAR satellite images.\n\n### file\n\nWork with you local satellite data files and read information out of file names and metadata files. Currently, focusing on Sentinel-1.\n\n### raster\n\nReading satellite data and performing simple, but cumbersome tasks. This is just a layer on top of [rasterio] https://github.com/mapbox/rasterio for stuff we often need. It can very well be that using rasterio directly is often the better choice.\n\nRead the documentation for more details: [https://ukis-pysat.readthedocs.io] https://ukis-pysat.readthedocs.io/en/latest/.",
+      "section": "Introduction (part 1)",
+      "repo": "267_ukis-csmask",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.648999Z",
+    "updated_at": "2025-11-14T12:13:43.609643Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23551,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2480,
+    "annotations": [
+      {
+        "id": 10090,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T21:01:14.430753Z",
+        "updated_at": "2025-11-02T21:01:14.430777Z",
+        "draft_created_at": null,
+        "lead_time": 7.838,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e2d4360a-71dc-4cfd-a796-e2f512359a3d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2480,
+        "project": 23551,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Example\n\nHere's an example about some basic features, it might also help to read through the [tests] https://github.com/dlr-eoc/ukis-pysat/blob/master/tests. ###Sentinel Dataset",
+      "section": "Introduction (part 2)",
+      "repo": "267_ukis-csmask",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.649037Z",
+    "updated_at": "2025-11-02T21:01:14.458702Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23551,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2481,
+    "annotations": [
+      {
+        "id": 10091,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T21:01:15.657690Z",
+        "updated_at": "2025-11-02T21:01:15.657710Z",
+        "draft_created_at": null,
+        "lead_time": 1.054,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "60a0b4d3-8a1b-41e3-b001-514e326a04b7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2481,
+        "project": 23551,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "import all the required libraries from ukis_pysat.file import get_sentinel_scene_from_dir from ukis_pysat.raster import Image",
+      "section": "import all the required libraries",
+      "repo": "267_ukis-csmask",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.649060Z",
+    "updated_at": "2025-11-02T21:01:15.686872Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23551,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2482,
+    "annotations": [
+      {
+        "id": 10092,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1582,
+              "end": 1600,
+              "text": "Apache 2.0 License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "dYv9UQUciF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1602,
+              "end": 1663,
+              "text": "https://github.com/dlr-eoc/ukis-pysat/blob/master/LICENSE.txt",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "E5DilRsGCU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 535,
+              "end": 539,
+              "text": "GDAL",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Ev07jDAEk4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 540,
+              "end": 547,
+              "text": ">= 1.11",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "bJhPgstCkm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 549,
+              "end": 554,
+              "text": "< 3.1",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "9OCx5slYcS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T21:01:59.685678Z",
+        "updated_at": "2025-11-14T12:14:14.272355Z",
+        "draft_created_at": "2025-11-02T21:01:28.293111Z",
+        "lead_time": 73.306,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "5b7422f1-cbe1-4473-a77d-efef80dc36f0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2482,
+        "project": 23551,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "get sentinel scene from directory with get_sentinel_scene_from_dir(\"/users/username/tmp\") as (full_path, ident):  with Image(full_path.join(\"pre_nrcs.tif\")) as img:  # scale the image array, having one band  img.arr = img.arr 0.3\n\nFor working with the Landsat we need an item id for downloading the product Check [Pystac] https://pystac.readthedocs.io/en/1.0/ documentation for more functionality on [STAC] https://stacspec.org/.\n\n## Installation\n\nThe easiest way to install ukis-pysat is through pip. Be aware, that Rasterio requires GDAL >= 1.11, < 3.1.\n\nMost users will want to do this:\n\npip install ukis-pysat[complete] # install everything\n\nThere's also some lighter versions with less dependencies:\n\npip install ukis-pysat # only install core dependencies (ukis_pysat.file can be used)\n\npip install ukis-pysat[data] # also install dependencies for ukis_pysat.data\n\npip install ukis-pysat[raster] # also install dependencies for ukis_pysat.raster\n\nSome helper functions might need additional dependencies like pandas, dask[array] or utm. If this is the case you will receive an ImportError.\n\n### Dependencies\n\nFor the latest list of dependencies check the [requirements] https://github.com/dlr-eoc/ukis-pysat/blob/master/requirements.txt.\n\n## Contributors\n\nThe UKIS team creates and adapts libraries which simplify the usage of satellite data. Our team includes (in alphabetical order):  Boehnke, Christian  Fichtner, Florian  Mandery, Nico  Martinis, Sandro  Riedlinger, Torsten  Wieland, Marc\n\nGerman Aerospace Center (DLR)\n\n## Licenses\n\nThis software is licensed under the [Apache 2.0 License] https://github.com/dlr-eoc/ukis-pysat/blob/master/LICENSE.txt.\n\nCopyright (c) 2020 German Aerospace Center (DLR) German Remote Sensing Data Center * Department: Geo-Risks and Civil Security",
+      "section": "get sentinel scene from directory (part 1)",
+      "repo": "267_ukis-csmask",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.649087Z",
+    "updated_at": "2025-11-14T12:14:14.310594Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23551,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2483,
+    "annotations": [
+      {
+        "id": 10093,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T21:02:33.562745Z",
+        "updated_at": "2025-11-02T21:02:33.562766Z",
+        "draft_created_at": null,
+        "lead_time": 11.063,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c8ea3c18-4311-4933-9c83-abfe870bff41",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2483,
+        "project": 23551,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Changelog\n\nSee [changelog] https://github.com/dlr-eoc/ukis-pysat/blob/master/CHANGELOG.rst.\n\n## Contributing\n\nThe UKIS team welcomes contributions from the community. For more detailed information, see our guide on [contributing] https://github.com/dlr-eoc/ukis-pysat/blob/master/CONTRIBUTING.md if you're interested in getting involved.\n\n## What is UKIS?\n\nThe DLR project Environmental and Crisis Information System (the German abbreviation is UKIS, standing for [Umwelt- und Kriseninformationssysteme] https://www.dlr.de/eoc/en/desktopdefault.aspx/tabid-5413/10560_read-21914/ aims at harmonizing the development of information systems at the German Remote Sensing Data Center (DFD) and setting up a framework of modularized and generalized software components.\n\nUKIS is intended to ease and standardize the process of setting up specific information systems and thus bridging the gap from EO product generation and information fusion to the delivery of products and information to end users.\n\nFurthermore, the intention is to save and broaden know-how that was and is invested and earned in the development of information systems and components in several ongoing and future DFD projects.",
+      "section": "get sentinel scene from directory (part 2)",
+      "repo": "267_ukis-csmask",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.649110Z",
+    "updated_at": "2025-11-02T21:02:33.589237Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23551,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

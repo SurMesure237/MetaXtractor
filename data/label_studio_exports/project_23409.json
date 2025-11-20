@@ -1,0 +1,583 @@
+[
+  {
+    "id": 1783,
+    "annotations": [
+      {
+        "id": 10631,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 140,
+              "end": 181,
+              "text": "https://doi.org/10.1101/2024.04.14.589409",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "vi1uzqZTA_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:59:41.483360Z",
+        "updated_at": "2025-11-04T18:59:41.483378Z",
+        "draft_created_at": "2025-11-04T18:59:40.434149Z",
+        "lead_time": 914.589,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "1c655069-d2f6-4a25-8e78-cc07fd407f88",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1783,
+        "project": 23409,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/mahan-hosseini/AutoGaitA/actions/workflows/autogaita_test_and_black.yml)\n\n[](https://pypi.org/project/autogaita/)\n\n[](https://doi.org/10.1101/2024.04.14.589409)\n\n[](https://youtube.com/playlist?list=PLCn5T7K_H8K56NIcEsfDK664OP7cN_Bad&feature=shared) [](https://x.com/autogaita)",
+      "section": "Introduction",
+      "repo": "363_AutoGaitA",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.584058Z",
+    "updated_at": "2025-11-04T18:59:41.512220Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23409,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1784,
+    "annotations": [
+      {
+        "id": 10632,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:59:53.750694Z",
+        "updated_at": "2025-11-04T18:59:53.750707Z",
+        "draft_created_at": null,
+        "lead_time": 12.08,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c7ba6d93-f469-40c0-8a2c-dc8b8c5d9f3c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1784,
+        "project": 23409,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Automated Gait Analysis in Python 🐸\n\nAutoGaitA simplifies, accelerates, and standardises gait analyses (as well as the analysis of other rhythmic behaviours) after body posture tracking in 2D with [DeepLabCut] https://github.com/DeepLabCut/DeepLabCut and [SLEAP] https://github.com/talmolab/sleap or marker-based as well as marker-less methods for obtaining 3D coordinates.\n\nAutoGaitA's first-level tools provide a wide range of automated kinematic analyses for each input video and AutoGaitA Group allows the comparison of up to six groups.\n\nAutoGaitA enables comparisons to be made across experimental conditions, species, disease states or genotypes.\n\nDespite being developed with gait data, AutoGaitA can be utilised for the analysis of any motor behaviour.",
+      "section": "Automated Gait Analysis in Python 🐸 (part 1)",
+      "repo": "363_AutoGaitA",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.584113Z",
+    "updated_at": "2025-11-04T18:59:53.771905Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23409,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1785,
+    "annotations": [
+      {
+        "id": 10633,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 211,
+              "end": 218,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "-k139Eatu3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 341,
+              "end": 344,
+              "text": "Mac",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "EOw8NwpWex",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 46,
+              "end": 164,
+              "text": "https://docs.google.com/document/d/1iQxSwqBW3VdIXHm-AtV4TGlgpJPDldogVx6qzscsGxA/edit?usp=sharing provides step-by-step",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "aWa-QXgZgH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:00:38.681590Z",
+        "updated_at": "2025-11-14T12:58:20.907517Z",
+        "draft_created_at": "2025-11-04T19:00:10.484009Z",
+        "lead_time": 53.451,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "33c23e29-b797-4ce7-8cd9-42c9dff84de4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1785,
+        "project": 23409,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Getting Started\n\nNote! [Our documentation] https://docs.google.com/document/d/1iQxSwqBW3VdIXHm-AtV4TGlgpJPDldogVx6qzscsGxA/edit?usp=sharing provides step-by-step walkthroughs of how to install autogaita for [Windows] https://docs.google.com/document/d/1iQxSwqBW3VdIXHm-AtV4TGlgpJPDldogVx6qzscsGxA/edit?tab=t.0#heading=h.28j6wu2vamre and [Mac] https://docs.google.com/document/d/1iQxSwqBW3VdIXHm-AtV4TGlgpJPDldogVx6qzscsGxA/edit?tab=t.0#heading=h.ljmdh7hfayyx\n\nIt is strongly recommended that a separate virtual environment for AutoGaitA is created (note that the approach below creates the virtual environment to your current directory):\n\nCreate the virtual environment:\n\npython -m venv env_gaita\n\nAfter creation, activate the virtual environment via:\n\nWindows: env_gaita\\Scripts\\activate\n\nMac: source env_gaita/bin/activate\n\nOnce activated, install AutoGaitA in the virtual environment via pip: pip install autogaita.\n\nAccess the main user interface via: python -m autogaita.\n\nTo update to the latest release (see the Releases panel on the right for the latest release) activate the virtual environment and: pip install autogaita -U.\n\n## Demo Video\n\nCheck out the video below for a demonstration of AutoGaitA's main workflow!\n\n## Tutorials & Examples",
+      "section": "Automated Gait Analysis in Python 🐸 (part 2)",
+      "repo": "363_AutoGaitA",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.584138Z",
+    "updated_at": "2025-11-14T12:58:20.941735Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23409,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1786,
+    "annotations": [
+      {
+        "id": 10634,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:00:50.129446Z",
+        "updated_at": "2025-11-04T19:00:50.129463Z",
+        "draft_created_at": null,
+        "lead_time": 11.256,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "bd2e1787-4eda-4449-887b-195c97329af2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1786,
+        "project": 23409,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Walkthrough Tutorial Videos\n\n[The AutoGaitA YouTube Channel] https://youtube.com/playlist?list=PLCn5T7K_H8K56NIcEsfDK664OP7cN_Bad&si=mV5p2--nYvbofkPh provides tutorials for file preparation and instructions on how to use AutoGaitA. This includes in-depth explanations of all details, (main & advanced) configurations, possibilities, and outputs.\n\nPlease note that tutorial videos might not always reflect the most up-to-date version of our toolbox, especially in the beginning when things are regularly changing. We will make sure to record new videos whenever there are major changes though. If updates are just minor we refer to them in the notes below each video. Last tutorial-update was with v1.4.0. (September 2025).\n\n### Example Data\n\nWe provide an example dataset in the example data folder of this repository, with a set of mice walking over differently wide beams and both the beam as well as body coordinates being tracked with DLC. Note that this dataset was used in our tutorial videos introducing AutoGaitA DLC, AutoGaitA Group and in our video explaining file preparation for AutoGaitA DLC. We further provide a group folder there that can be used alongside the AutoGaitA Group tutorial to confirm that users generate the same set of results following our instructions.",
+      "section": "Automated Gait Analysis in Python 🐸 (part 3)",
+      "repo": "363_AutoGaitA",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.584163Z",
+    "updated_at": "2025-11-04T19:00:50.158018Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23409,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1787,
+    "annotations": [
+      {
+        "id": 10635,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 730,
+              "end": 826,
+              "text": "https://docs.google.com/document/d/1iQxSwqBW3VdIXHm-AtV4TGlgpJPDldogVx6qzscsGxA/edit?usp=sharing",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "G6MDQlWFfa",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:01:23.795509Z",
+        "updated_at": "2025-11-14T12:58:39.454376Z",
+        "draft_created_at": "2025-11-04T19:01:19.282112Z",
+        "lead_time": 38.568,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "3a2c44ce-5793-4102-8859-c075519c9573",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1787,
+        "project": 23409,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Annotation Table Examples and Templates\n\nAnnotation Table example and template files for AutoGaitA DLC and AutoGaitA Universal 3D can be found in the [annotation tables] https://github.com/mahan-hosseini/AutoGaitA/tree/main/annotation%20tables folder of this repository.\n\nUsers are advised to read the General Recommendations section of that folder, use the template to enter their data's timestamp information and to then compare the resulting table with our example to check formatting. Users working with ImageJ/FIJI are encouraged to check out the [AnnotationTable-Plugin] https://github.com/luca-flemming/AnnotationTable-Plugin developed by our contributor Luca Flemming.\n\n## Documentation\n\n[The AutoGaitA Documentation] https://docs.google.com/document/d/1iQxSwqBW3VdIXHm-AtV4TGlgpJPDldogVx6qzscsGxA/edit?usp=sharing provides complete guidelines on installation, file preparation, AutoGaitA GUIs, using AutoGaitA via the command line, installing FFmpeg for rotating 3D PCA videos, lists known issues and FAQ.\n\n## Two important options",
+      "section": "Automated Gait Analysis in Python 🐸 (part 4)",
+      "repo": "363_AutoGaitA",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.584189Z",
+    "updated_at": "2025-11-14T12:58:39.489496Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23409,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1788,
+    "annotations": [
+      {
+        "id": 10636,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:02:11.163393Z",
+        "updated_at": "2025-11-14T12:59:03.965167Z",
+        "draft_created_at": "2025-11-04T19:01:44.238557Z",
+        "lead_time": 56.24,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "bbf6c3b6-9fc9-4af1-8953-5528fc24b2ab",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1788,
+        "project": 23409,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Custom joints & angles\n\nWe strongly advise users to pay attention to the custom joints and angles windows of AutoGaitA's first level toolboxes. Please see the relevant links below. These windows allow users to customise which columns of their data should be analysed and how angles should be computed.\n\nBy default, AutoGaitA DLC and AutoGaitA Universal 3D implement standard values for mouse and human locomotion, respectively. If your analysis deviates from these standards (e.g. by focussing on another behaviour or a different species) you must change these values!\n\n*Find out more about AutoGaitA's custom joints and angles:*** [YouTube - AutoGaitA DLC/SLEAP Advanced Configuration] https://youtu.be/MP9g9kXRE_Q?feature=shared\n\n[YouTube - AutoGaitA Universal 3D] https://youtu.be/vZyWmPcI6ao\n\n[Documentation - AutoGaitA DLC/SLEAP] https://docs.google.com/document/d/1iQxSwqBW3VdIXHm-AtV4TGlgpJPDldogVx6qzscsGxA/edit?tab=t.0#heading=h.20bg7b7ymt0b\n\n[Documentation - AutoGaitA Universal 3D] https://docs.google.com/document/d/1iQxSwqBW3VdIXHm-AtV4TGlgpJPDldogVx6qzscsGxA/edit?tab=t.0#heading=h.uz61bpmua7qz",
+      "section": "Automated Gait Analysis in Python 🐸 (part 5)",
+      "repo": "363_AutoGaitA",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.584213Z",
+    "updated_at": "2025-11-14T12:59:04.000824Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23409,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1789,
+    "annotations": [
+      {
+        "id": 10637,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:02:15.989270Z",
+        "updated_at": "2025-11-04T19:02:15.989292Z",
+        "draft_created_at": null,
+        "lead_time": 4.636,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b280b92c-5179-4cb9-9f8c-95ba50d2673a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1789,
+        "project": 23409,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Bin number of step cycle normalisation\n\nAn important step in AutoGaitA is normalising step cycles (or instances of other behaviours) to a uniform length before calculating the video-level average. This uniform length is called bin number, must be set by users and defaults to a value of 25.\n\nStep cycles are normalised via averaging temporally adjacent data points if their original length was larger than the bin number and repeating values if they were shorter originally. Examples are provided here:  [Documentation/AutoGaitA DLC/Main Configuration/Option #6] https://docs.google.com/document/d/1iQxSwqBW3VdIXHm-AtV4TGlgpJPDldogVx6qzscsGxA/edit?tab=t.0#heading=h.bboivsfqr2lz.\n\nWe strongly advise users to think carefully about an appropriate bin number for their datasets. The correct value varies and depends strongly on the studied species, behaviour and the frame rate of cameras.\n\n## 2D Kinematics in AutoGaitA Universal 3D\n\nWe strongly advise AutoGaitA Universal 3D users to carefully consider how our toolbox computes kinematics in 2D, i.e., angles along the y/z-plane and velocities along the y-dimensions. For more information, please see the corresponding [important note on 2D kinematics in our documentation] https://docs.google.com/document/d/1iQxSwqBW3VdIXHm-AtV4TGlgpJPDldogVx6qzscsGxA/edit?tab=t.0#heading=h.xc5ome7hzfid.\n\n## Analysing other behaviours - AutoCyclA 🚴\n\nEven though AutoGaitA's main focus is to automate and standardise gait analyses, our toolbox can be used to automate the analyses of any rhythmic behaviour of interest. For a proof-of-principle demonstration and an introduction of the general workflow of such analyses, see [AutoCyclA - Automated Cycling Analysis with AutoGaitA.] https://github.com/mahan-hosseini/AutoGaitA/tree/main/autocycla",
+      "section": "Automated Gait Analysis in Python 🐸 (part 6)",
+      "repo": "363_AutoGaitA",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.584238Z",
+    "updated_at": "2025-11-04T19:02:16.019170Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23409,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1790,
+    "annotations": [
+      {
+        "id": 10638,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 699,
+              "end": 740,
+              "text": "https://doi.org/10.1101/2024.04.14.589409",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "jYJTsNNR0G",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 784,
+              "end": 792,
+              "text": "GPL v3.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "-Wufc-sbGp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 794,
+              "end": 855,
+              "text": "https://github.com/mahan-hosseini/AutoGaitA/blob/main/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "kiYK_UzZJA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:02:35.685217Z",
+        "updated_at": "2025-11-04T19:02:35.685235Z",
+        "draft_created_at": "2025-11-04T19:02:26.982851Z",
+        "lead_time": 19.519,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "0823f71e-be53-40fb-9dd8-9b51288dc0d0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1790,
+        "project": 23409,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Updating AutoGaitA\n\nIt is strongly recommended that AutoGaitA is kept up to date since new features and important bugfixes are provided regularly.\n\nAutoGaitA's cfg files and dictionaries sometimes change as a result, which means that previously generated first-level Results folders cannot always be analysed with AutoGaitA Group after an update. In such cases, it is recommended to re-run first-level analyses.\n\nWe document each version's cfg-changes in [AutoGaitA Releases] https://github.com/mahan-hosseini/AutoGaitA/releases, which is particularly relevant for users wrapping custom scripts around AutoGaitA's functions.\n\n## Reference\n\nIf you use this code or data please [cite our preprint] https://doi.org/10.1101/2024.04.14.589409.\n\n## License\n\nAutoGaitA is licensed under [GPL v3.0] https://github.com/mahan-hosseini/AutoGaitA/blob/main/LICENSE and Forschungszentrum Jülich GmbH holds all copyrights.\n\nThe AutoGaitA software is provided without warranty of any kind, express or implied, including, but not limited to, the implied warranty of fitness for a particular purpose.\n\n## Authors\n\n[Mahan Hosseini] https://github.com/mahan-hosseini\n\n## Contributors\n\n[Sarah Sabbagh] https://github.com/sarahhsabbagh - Undergraduate Student\n\n[Luca Flemming] https://github.com/luca-flemming - Undergraduate Student\n\n[Nicholas del Grosso] https://github.com/nickdelgrosso - RSE Advisor\n\n## Contributing\n\nIf you would like to contribute to the AutoGaitA toolbox, feel free to open a pull request or contact us at autogaita@fz-juelich.de!\n\nWe are looking forward to your input and ideas 😊",
+      "section": "Automated Gait Analysis in Python 🐸 (part 7)",
+      "repo": "363_AutoGaitA",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.584263Z",
+    "updated_at": "2025-11-04T19:02:35.715065Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23409,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1791,
+    "annotations": [
+      {
+        "id": 10639,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 106,
+              "end": 202,
+              "text": "https://docs.google.com/document/d/1Y4wrrsjs0ybLDKPzE2LAatqPDq9jtwjIuk4M0jRZ3wE/edit?usp=sharing",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "xT7timq5fQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:02:45.630986Z",
+        "updated_at": "2025-11-04T19:02:45.631008Z",
+        "draft_created_at": null,
+        "lead_time": 9.746,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "845cc1df-1386-43ac-a27f-9abb039662e7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1791,
+        "project": 23409,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Archive\n\nWe have archived the resources of outdated AutoGaitA versions here:\n\nv0.4.1 - [Documentation] https://docs.google.com/document/d/1Y4wrrsjs0ybLDKPzE2LAatqPDq9jtwjIuk4M0jRZ3wE/edit?usp=sharing\n\nv0.3.1 - [YouTube Tutorials] https://youtube.com/playlist?list=PLCn5T7K_H8K776DLuXKoPsUpI6Yb0NU33&si=7ZAAvcrPxR7WsB8a & [Documentation] https://docs.google.com/document/d/11mJd7jUHk7joQ0BdZT98CJRrIANdyosMQMJGFtp6yR4/edit?usp=sharing",
+      "section": "Automated Gait Analysis in Python 🐸 (part 8)",
+      "repo": "363_AutoGaitA",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.584285Z",
+    "updated_at": "2025-11-04T19:02:45.662713Z",
+    "inner_id": 9,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23409,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

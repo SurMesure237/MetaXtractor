@@ -1,0 +1,195 @@
+[
+  {
+    "id": 2415,
+    "annotations": [
+      {
+        "id": 10144,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 77,
+              "end": 115,
+              "text": "https://doi.org/10.5281/zenodo.1033817",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "gGDaDBhjeO",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1106,
+              "end": 1113,
+              "text": "Python2",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "WIl7rlPoJY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1115,
+              "end": 1121,
+              "text": "Docker",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "2cBoIcWvAM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:55:54.529404Z",
+        "updated_at": "2025-11-14T09:16:12.306776Z",
+        "draft_created_at": "2025-11-03T05:54:43.218239Z",
+        "lead_time": 301.528,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "3ae4635f-3b4d-4b8c-a94b-0366c5b84228",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2415,
+        "project": 23537,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "One button compute\n\n[](https://travis-ci.org/surf-eds/one-button-compute) [](https://doi.org/10.5281/zenodo.1033817)\n\nOne button compute is aweb site that runs a workflow.\n\nFeature/Limitations\n\nWorkflow is a single file in [Common Workflow format] http://www.commonwl.org/  Workflow must take single input file (--input option) and generates a single output file (--output option)  Web application runs workflow on directory of input files  The workflow, the directory with input files is downloaded from a remote storage server  The directory with output files is uploaded to a remote storage server\n\nThe remote storage server can be WebDAV or S3 or Swift.\n\nThe WebDAV server used for production is BeeHub (https://www.beehub.nl)  The WebDAV server used for local development can be the Docker container nlesc/xenon-webdav (https://hub.docker.com/r/nlesc/xenon-webdav/)  The S3 server used for local development is Minio (https://minio.io) instance, Minio is a single user S3 compliant server  The Swift server used for production is a Openstack Swift (http://swift.openstack.org) instance\n\nRequirements\n\nPython2  Docker  Read/write access to a remote storage server. Can be a WebDAV or S3 or Swift server/account.",
+      "section": "One button compute + Feature/Limitations + Requirements",
+      "repo": "469_One_button_compute",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.550115Z",
+    "updated_at": "2025-11-14T09:16:12.344898Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23537,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2416,
+    "annotations": [
+      {
+        "id": 10145,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:56:57.274965Z",
+        "updated_at": "2025-11-03T05:56:57.274980Z",
+        "draft_created_at": null,
+        "lead_time": 62.549,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "33c6efda-51dd-40dc-b3fa-0b785a7917d4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2416,
+        "project": 23537,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Install\n\n## 1. Redis server\n\nRedis server is used to perform computation asynchronous from http request.\n\nUse Docker to start a redis server\n\ndocker run -d -p 6379:6379 redis\n\nNote!: When Celery workers are going to be run on different machines make sure they can connect to the redis server.\n\n## 2. Install dependencies\n\nInstall the Python dependencies with\n\npip install -r requirements.txt\n\n## 3. Configure the application\n\ncp settings.cfg-dist settings.cfg\n\nConfigure remote storage type, location and credentials in settings.cfg.\n\n## S3 development server (optional)\n\nA Minio server can be started with\n\nmkdir -p minio/export docker run -d --name obc-minio -p 9000:9000 -v $PWD/minio:/root minio/minio /root/export docker logs obc-minio\n\nThe log output contains the credentials, urls and access instructions.\n\nTo use known credentials from settings.cfg start it with\n\ndocker run -d --name obc-minio -p 9000:9000 -v $PWD/minio:/root -e \"MINIO_ACCESS_KEY=AKIAIOSFODNN7EXAMPLE\" \\  -e \"MINIO_SECRET_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY\" minio/minio /root/export\n\nUse mc (https://docs.minio.io/docs/minio-client-quickstart-guide) as CLI client.\n\n## WebDAV development server (optional)\n\nA WebDAV server can be started with\n\ndocker run -d nlesc/xenon-webdav\n\nRead/write can be done in ~/xenon/uploads path with xenon:javagat credentials.\n\nUse cadaver (http://www.webdav.org/cadaver/) as CLI client.\n\n## Reverse proxy (optional)\n\nConfigure Nginx as reverse proxy for the flask app port 5000.\n\nlocation / {  proxy_pass http://localhost:5000; }\n\n## Auto start (optional)\n\nAutomatically start one-button-compute on boot with upstart file\n\ncat /etc/init/onebuttoncompute.conf",
+      "section": "Install",
+      "repo": "469_One_button_compute",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.550162Z",
+    "updated_at": "2025-11-03T05:56:57.301898Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23537,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2417,
+    "annotations": [
+      {
+        "id": 10146,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:56:59.570146Z",
+        "updated_at": "2025-11-03T05:56:59.570165Z",
+        "draft_created_at": null,
+        "lead_time": 2.12,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f4a91d38-1a4b-40a9-beed-72d7a0d4289c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2417,
+        "project": 23537,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Running on port 5000\n\ndescription \"One button compute\"\n\nstart on filesystem or runlevel [2345] stop on runlevel [!2345]\n\nscript  cd /opt/one-button-compute  python onebuttoncompute.py end script\n\nStart Celery worker and web server with\n\ncelery worker -A onebuttoncompute.celery & python onebuttoncompute.py\n\nAdd a CWL workflow and input files to remote storage. See example/ sub-directory for an example workflow.\n\nGo to http://localhost:5000/ (or http://&lt;server-name&gt;/ when reverse proxy is setup) to submit a computation.",
+      "section": "Running on port 5000 + Run + Usage",
+      "repo": "469_One_button_compute",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.550185Z",
+    "updated_at": "2025-11-03T05:56:59.598326Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23537,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

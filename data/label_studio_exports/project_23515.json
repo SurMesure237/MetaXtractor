@@ -1,0 +1,191 @@
+[
+  {
+    "id": 2292,
+    "annotations": [
+      {
+        "id": 10180,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 114,
+              "end": 325,
+              "text": "by Tingying Peng, Kurt Thorn, Timm Schroeder, Lichao Wang, Fabian J Theis, Carsten Marr\\, Nassir Navab\\, Nature Communication 8:14836 (2017). [doi: 10.1038/ncomms14836] http://www.nature.com/articles/ncomms14836",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "0F7PuJjMxR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 354,
+              "end": 443,
+              "text": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "0bgr0YOjHt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 445,
+              "end": 504,
+              "text": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "VWXWQCRpCk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 707,
+              "end": 748,
+              "text": "https://basicpy.readthedocs.io/en/latest/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "cITTlPIo0r",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1049,
+              "end": 1053,
+              "text": "Fiji",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "20gjzy4-kP",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1122,
+              "end": 1137,
+              "text": "http://fiji.sc/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "mgeqoeD6e9",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:15:54.122075Z",
+        "updated_at": "2025-11-14T12:20:37.354668Z",
+        "draft_created_at": "2025-11-03T06:14:49.480056Z",
+        "lead_time": 117.64500000000001,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "cfd7aeed-7937-42f8-8ab8-7b6edcc073b2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2292,
+        "project": 23515,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "BaSiC\n\nMatlab code accompanying\n\nA BaSiC Tool for Background and Shading Correction of Optical Microscopy Images\n\nby Tingying Peng, Kurt Thorn, Timm Schroeder, Lichao Wang, Fabian J Theis, Carsten Marr\\, Nassir Navab\\, Nature Communication 8:14836 (2017). [doi: 10.1038/ncomms14836] http://www.nature.com/articles/ncomms14836.\n\nBaSiC is licensed under\n\n[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License] https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode\n\nIt is free for academic use and please contact us for any commercial use.\n\nA new Python implementation of BaSiC algorithm is [BaSiCPy] https://github.com/peng-lab/BaSiCPy, with documentation on [Pypi] https://basicpy.readthedocs.io/en/latest/.\n\n## Usage\n\n## Demo\n\nDownload demo data examples from [Dropbox] https://www.dropbox.com/s/plznvzdjglrse3h/Demoexamples.zip?dl=0 and run matlab files under example folder.\n\n## ImageJ/Fiji Plugin\n\nBaSiC is also available as a ImageJ/Fiji Plugin.\n\n### Installation instruction\n\nNote: If you do not have Fiji installed on your computer, you can download it from [Fiji website] http://fiji.sc/.",
+      "section": "BaSiC (part 1)",
+      "repo": "366_BaSiC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.893314Z",
+    "updated_at": "2025-11-14T12:20:37.390499Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23515,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2293,
+    "annotations": [
+      {
+        "id": 10181,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:16:13.220104Z",
+        "updated_at": "2025-11-03T06:16:13.220120Z",
+        "draft_created_at": null,
+        "lead_time": 18.902,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "dbe562bb-b801-48c9-99c7-21880516de4b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2293,
+        "project": 23515,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Install via Fiji Updater\n\nStart Fiji and run the updater (\"Help->Update Fiji\")\n\nSelect the \"Manage Update Sites\" button at the bottom-left of the updater window\n\nScroll the list of available update sites to find \"BaSiC\" (Note: If you cannot find \"BaSiC\" in the list, select \"Add Update Sites\", Change the name field from default \"New\" to \"BaSiC\", set the URL field to http://sites.imagej.net/BaSiC/)\n\nCheck the box at the left of \"BaSiC\"\n\nSelect \"Close\"\n\nSelect \"Apply Changes\"\n\nRestart Fiji. BaSiC should appear in the Plugins menu.\n\nFrom now on, running the Fiji updater will also check for BaSiC updates, and install them if they are available.\n\n### Install manually\n\nPlease download [BaSiC Plugin] https://github.com/QSCD/BaSiC/blob/master/BaSiCPlugin.zip from this repository.\n\nCopy “BaSiC_.jar” to the “$FIJIROOT/plugins” folder of your Fiji/ImageJ installation.\n\nCopy all dependent jar files in the \"Dependent\" folder to your Fiji/ImageJ \"$FIJIROOT/jars\" directory.\n\n### Troubleshooting\n\nIf you get the error message\n\n\"java.lang.NoSuchMethodError: edu.emory.mathcs.utils.ConcurrencyUtils.submit\"\n\nmake sure that in your Fiji/ImageJ \"$FIJIROOT/jars\" directory, there is only one version of each jar from the \"Dependent\" folder. Particularly, delete jtransforms-2.4.jar and replace it with our jtransform.jar.\n\n## Issues\n\nIf you have any issues concerning BaSiC, please report them in the [Issues] https://github.com/QSCD/BaSiC/issues section of this GitHub repository and we will try to find a solution.\n\n## BaSiCPy\n\nPython version of BaSiC implementation (https://github.com/peng-lab/BaSiCPy)",
+      "section": "BaSiC (part 2)",
+      "repo": "366_BaSiC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.893364Z",
+    "updated_at": "2025-11-03T06:16:13.246125Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23515,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

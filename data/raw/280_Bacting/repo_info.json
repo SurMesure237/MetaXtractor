@@ -1,0 +1,27 @@
+{
+  "codeRepository": "https://github.com/egonw/bacting",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java",
+    "TeX"
+  ],
+  "downloadUrl": "https://api.github.com/repos/egonw/bacting/zipball/main",
+  "author": "egonw",
+  "dateCreated": "2019-04-11T06:38:07Z",
+  "dateModified": "2025-08-28T15:11:42Z",
+  "keywords": [
+    "bioclipse",
+    "bioinformatics",
+    "blueobelisk",
+    "cheminformatics",
+    "excel",
+    "hacktoberfest",
+    "rdf"
+  ],
+  "license": null,
+  "description": "Bacting is an open-source platform for chemo- and bioinformatics based on Bioclipse that defines a number of common domain objects and wraps common functionality, providing a toolkit independent, scriptable solution to handle data from the life sciences.",
+  "identifier": 180730168,
+  "name": "egonw/bacting",
+  "issueTracker": "https://api.github.com/repos/egonw/bacting/issues",
+  "readme": "https://github.com/egonw/bacting/blob/main/README.md"
+}

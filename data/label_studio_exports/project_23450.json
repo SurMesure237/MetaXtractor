@@ -1,0 +1,501 @@
+[
+  {
+    "id": 1981,
+    "annotations": [
+      {
+        "id": 11860,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 283,
+              "end": 321,
+              "text": "https://doi.org/10.5281/zenodo.3879615",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "QV0znjlbhy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 343,
+              "end": 386,
+              "text": "https://zenodo.org/badge/latestdoi/29671667",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "irE2f37bnJ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:21:20.095516Z",
+        "updated_at": "2025-11-14T13:39:34.379071Z",
+        "draft_created_at": "2025-11-09T06:21:14.037924Z",
+        "lead_time": 37.664,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "b2156d1f-f5d8-42f3-b3c2-73f3ec53303a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1981,
+        "project": 23450,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/e0404/matRad/releases)  [](https://github.com/e0404/matRad/releases)  [](https://github.com/e0404/matRad/graphs/contributors)\n\n[](https://github.com/e0404/matRad/actions/workflows/tests.yml) [](https://codecov.io/gh/e0404/matRad)\n\nCitable DOIs: General DOI: [](https://doi.org/10.5281/zenodo.3879615)\n\nLatest Release: [](https://zenodo.org/badge/latestdoi/29671667)\n\nGeneral information\n\nmatRad is an open source treatment planning system for radiation therapy written in Matlab. It supports planning of intensity-modulated radiation therapy for mutliple modalities and is meant for educational and research purposes. IT IS NOT SUITABLE FOR CLINICAL USE (also see the no-warranty clause in the GPL license). The source code is maintained by a development team at the German Cancer Reserach Center - DKFZ in Heidelberg, Germany, and other contributors around the world. We are always looking for more people willing to help improve matRad. Do not hesitate and [get in touch] mailto:contact@matRad.org.\n\nMore information can be found on the project page at ; a wiki documentation is under constant development at .",
+      "section": "Introduction + General information",
+      "repo": "273_matRad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:04.491671Z",
+    "updated_at": "2025-11-14T13:39:34.421852Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23450,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1982,
+    "annotations": [
+      {
+        "id": 11861,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:21:25.855695Z",
+        "updated_at": "2025-11-09T06:21:25.855716Z",
+        "draft_created_at": null,
+        "lead_time": 5.568,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "91d10f72-d272-4b8f-8d24-b2a30559c314",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1982,
+        "project": 23450,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Getting Started If you want to quickly run matRad, start with the Quick Start below. Some information on the structure of matRad for more sustainable use is given afterwards.\n\n## Quick Start\n\nIt’s the first time you want to use matRad?\n\nFirst, get a local copy of matRad by download or git cloning. Having done that, we recommend you navigate into the folder in Matlab and execute\n\nwhich will setup the path & configuration and tell you the current version.\n\nThen there’re three options for a pleasant start with matRad. Choose one or try out each of them.\n\n### Option 1: Using the GUI\n\nFor an intuitive workflow with the graphical user interface, type\n\nin your command window. An empty GUI should be opened. Click the _Load.mat_ data-Button in the Workflow-section to load a patient. Set the plan and optimization parameters, calculate the dose influence matrix and execute the fluence optimization in the GUI.\n\n### Option 2: Using the main script\n\nIf you prefer scripting, open the default script matRad.m from the main matRad folder:\n\nedit matRad.m\n\nUse it to learn something about the code structure and execute it section by section.\n\nYou can also run the full script for an example photon plan by just typing\n\nin your command window.\n\n### Option 3: Using the examples\n\nThe most time consuming but also most educational approach to matRad.\n\nWhen in the main matRad folder, navigate to the folder examples*. Open one of the examples given there. Execute it section by section. Move on to the next example afterwards.\n\n## Advanced information for new users\n\n### Folder Structure",
+      "section": "Getting Started (part 1)",
+      "repo": "273_matRad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:04.491717Z",
+    "updated_at": "2025-11-09T06:21:25.885290Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23450,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1983,
+    "annotations": [
+      {
+        "id": 11862,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:21:26.897351Z",
+        "updated_at": "2025-11-09T06:21:26.897369Z",
+        "draft_created_at": null,
+        "lead_time": 0.867,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "3a90ed9d-3a1c-442a-9463-c91cc292ddfb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1983,
+        "project": 23450,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### Core Source Code\n\nMost of the source code of matRad is located in the \"matRad\" subfolder. Within the first level of matRad, you find the functions handling the basic workflow steps. These functions have simple interfaces relying on matRad's main data structures ct, cst, stf, dij, resultGUI, and pln. Additionally, it contains MatRad_Config.m which is a singleton class implementation to handle global configuration of matRad. Check out the infos further below.\n\nWe try to keep the main workflow functions as consistent as possible, while the fine-grained implementation in the subfolders within matRad/* may undergo larger changes. #### User Directory\n\nBy default, matRad adds the \"userdata\" folder to the path. It is the place to put your custom scripts, machine data, imported patients etc. Just follow the README files in the folders. Contents of this folder are added to the .gitignore and will thus be ignored during your development efforts, keeping your repository clean. #### Third-Party & Submodules\n\nOur ThirdParty-Tools used in matRad are stored in the thirdParty folder including licenses. Submodules contains references to used git repositories, and you might recognize that some dependencies appear both in submodules and thirdParty. This is mainly to maintain operation if the code is downloaded (and not cloned), and also helps us to maintain the build process of mex files built from source in the submodules (and then added to ThirdParty).  #### Tests\n\nThe \"test\" folder contains xUnit-Style tests based on the MOxUnit framework. You can run those tests by running matRad_runTests from the root directory. Check the README file within the test folder for more information.",
+      "section": "Getting Started (part 2)",
+      "repo": "273_matRad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:04.491742Z",
+    "updated_at": "2025-11-09T06:21:26.927973Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23450,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1984,
+    "annotations": [
+      {
+        "id": 11863,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:21:27.808324Z",
+        "updated_at": "2025-11-09T06:21:27.808346Z",
+        "draft_created_at": null,
+        "lead_time": 0.734,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "88083a98-6143-4d17-a5a3-0031abc23242",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1984,
+        "project": 23450,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### MatRad_Config / matRad_cfg\n\nmatRad maintains its global configuration, including some default parameters, as well as a logging mechanism with different levels, in the MatRad_Config.m class serving as a \"singleton\" throughout matRad. You will see many functions using a call like matRad_cfg = MatRad_Config.instance();, which will get you the global configuration anywhere in the code or in the command window. Alternatively, matRad_rc will return matRad_cfg as well.",
+      "section": "Getting Started (part 3)",
+      "repo": "273_matRad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:04.491764Z",
+    "updated_at": "2025-11-09T06:21:27.838429Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23450,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1985,
+    "annotations": [
+      {
+        "id": 11864,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:21:28.907661Z",
+        "updated_at": "2025-11-09T06:21:28.907689Z",
+        "draft_created_at": null,
+        "lead_time": 0.917,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "5ded44c9-0677-45b5-946f-b3ae2bc02a24",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1985,
+        "project": 23450,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Need help? If you encounter problems with matRad, please consider the following guidelines before submitting issues on our github page.\n\nCheck you are using the newest version of matRad.  Please check the description of how to set up matRad and its technical documentation in the [wiki] https://github.com/e0404/matRad/wiki.  Go through the relevant examples and see if they answer your question (see Option 3 above!)  Check open and closed issues for your question.\n\nStill having problems? Then create an issue, provide a minimum example of your attempted workflow / what causes the problems and be patient!",
+      "section": "Need help?",
+      "repo": "273_matRad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:04.491786Z",
+    "updated_at": "2025-11-09T06:21:28.937223Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23450,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1986,
+    "annotations": [
+      {
+        "id": 11865,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 123,
+              "end": 271,
+              "text": "Wieser, Hans-Peter, et al. \"Development of the open-source dose calculation and optimization toolkit matRad.\" Medical Physics 44.6 (2017): 2556-2568",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "zBxa3R3Szz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 277,
+              "end": 309,
+              "text": "https://doi.org/10.1002/mp.12251",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "0lP3A8_gdX",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 327,
+              "end": 828,
+              "text": "@article{wieser2017development, title={Development of the open-source dose calculation and optimization toolkit matRad}, author={Wieser, Hans-Peter and Cisternas, Eduardo and Wahl, Niklas and Ulrich, Silke and Stadler, Alexander and Mescher, Henning and M{\\\"u}ller, Lucas-Raphael and Klinge, Thomas and Gabrys, Hubert and Burigo, Lucas and others}, journal={Medical Physics}, volume={44}, number={6}, pages={2556--2568}, year={2017}, publisher={Wiley Online Library}, doi={10.1002/mp.12251} }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "8NMW3RGwnl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 914,
+              "end": 952,
+              "text": "https://doi.org/10.5281/zenodo.3879615",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "XDErkLMoKE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1090,
+              "end": 1133,
+              "text": "https://zenodo.org/badge/latestdoi/29671667",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "zpkJ4TTc3J",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:22:08.761301Z",
+        "updated_at": "2025-11-09T06:22:08.761316Z",
+        "draft_created_at": "2025-11-09T06:21:45.124677Z",
+        "lead_time": 39.667,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "be9c1983-c4ce-43b6-906e-a0e880f882e4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1986,
+        "project": 23450,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Citing matRad\n\n### Scientific papers\n\nIf you use matRad in a scientific publication, consider citing the following paper:\n\nWieser, Hans-Peter, et al. \"Development of the open-source dose calculation and optimization toolkit matRad.\" Medical Physics 44.6 (2017): 2556-2568.\n\n[](https://doi.org/10.1002/mp.12251)\n\nBibTex entry:\n\n@article{wieser2017development,  title={Development of the open-source dose calculation and optimization toolkit matRad},  author={Wieser, Hans-Peter and Cisternas, Eduardo and Wahl, Niklas and Ulrich, Silke and Stadler, Alexander and Mescher, Henning and M{\\\"u}ller, Lucas-Raphael and Klinge, Thomas and Gabrys, Hubert and Burigo, Lucas and others},  journal={Medical Physics},  volume={44},  number={6},  pages={2556--2568},  year={2017},  publisher={Wiley Online Library},  doi={10.1002/mp.12251} }\n\n### Citing as Software\n\nmatRad's code also has its own general DOI with Zenodo:\n\n[](https://doi.org/10.5281/zenodo.3879615)\n\nYou can cite specific versions of matRad in your work! For example, Here is the badge that lead's to the latest release of matRad:\n\n[](https://zenodo.org/badge/latestdoi/29671667)",
+      "section": "Citing matRad",
+      "repo": "273_matRad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:04.491807Z",
+    "updated_at": "2025-11-09T06:22:08.791579Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23450,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1987,
+    "annotations": [
+      {
+        "id": 11866,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:22:13.313016Z",
+        "updated_at": "2025-11-09T06:22:13.313033Z",
+        "draft_created_at": null,
+        "lead_time": 4.364,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f88801eb-23f3-4170-8d68-4e805e486538",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1987,
+        "project": 23450,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Funding Sources matRad developments (on this branch) were (in parts) funded by: The German Research Foundation (DFG), Project No. 265744405 & 443188743\n\nThe German Cancer Aid, Project No. 70113094\n\nThe German Federal Ministry of Education and Research (BMBF), Project No. 01DN17048\n\nMathworks Academic Research Support\n\nCopyright 2022 the matRad development team.\n\nmatrad@dkfz.de\n\nAll the elements of the compilation of matRad and Ipopt are free software. You can redistribute and/or modify matRad's source code version provided as files with .m and .mat extension under the terms of the GNU GENERAL PUBLIC LICENSE Version 3 (GPL v3). You can also add to matRad the Ipopt functionality by using the precompiled mex files of the Ipopt optimizer in object code version which are licensed under the Eclipse Public License Version 1.0 (EPL v1.0), also made available for download via https://projects.coin-or.org/Ipopt. matRad also contains interfaces to an open-source photon Monte Carlo dose calculation engine developed by Edgardo Dörner hosted on GitHub (http://github.com/edoerner/ompMC) and to the open-source proton Monte Carlo project MCsquare (www.openmcsquare.org) from UCLouvain, Louvain-la-Neuve, Belgium. Both interfaces are integrated into matRad as submodules.\n\nIn addition, we provide a matlab standalone version of the compilation of matRad and Ipopt, where the files of matRad and Ipopt are licensed under GPL v3 and EPL v1.0 respectively. The matlab standalone version is meant to be used by students for learning and practicing scientific programming and does not yet contain the interfaces to the aforementioned Monte Carlo dose calculation engines.\n\nmatRad is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.",
+      "section": "Funding Sources (part 1)",
+      "repo": "273_matRad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:04.491831Z",
+    "updated_at": "2025-11-09T06:22:13.341658Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23450,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1988,
+    "annotations": [
+      {
+        "id": 11867,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:22:19.885965Z",
+        "updated_at": "2025-11-09T06:22:19.885978Z",
+        "draft_created_at": null,
+        "lead_time": 6.378,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "462599ad-5b5c-493c-bc4d-6407ddafb0e5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1988,
+        "project": 23450,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Please note that we treat the compilation of matRad and Ipopt as separate and independent works (or modules, components, programs). Therefore, to the best of our understanding, the compilation of matRad and Ipopt is subject to the \"Mere Aggregation\" exception in section 5 of the GNU v3 and the exemption from \"Contributions\" in section 1. b) ii) of the EPL v1.0. Should this interpretation turn out to be not in compliance with the applicable laws in force, we have provided you with an additional permission under GNU GPL version 3 section 7 to allow you to use the work resulting from combining matRad with Ipopt.\n\nYou will receive a copy of the GPL v3 and a copy of the EPL v1.0 in the file LICENSE.md along with the compilation. If not, see http://www.gnu.org/licenses/ and/or http://opensource.org/licenses/EPL-1.0/.",
+      "section": "Funding Sources (part 2)",
+      "repo": "273_matRad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:04.491855Z",
+    "updated_at": "2025-11-09T06:22:19.916242Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23450,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

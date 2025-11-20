@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "# Agate [](https://app.travis-ci.com/github/obiba/agate)\n\nCentral authentication server for OBiBa applications.\n\nSee [download instructions] http://www.obiba.org/pages/products/agate/#download.  Read the [documentation] http://agatedoc.obiba.org.  Have a bug or a question? Please create an issue on [GitHub] https://github.com/obiba/agate/issues.  Continuous integration is on [Travis] https://travis-ci.org/obiba/agate.\n\n## For developers\n\nInstall NodeJS, Grunt\n\nsudo add-apt-repository -y ppa:chris-lea/node.js sudo apt-get install -y nodejs sudo npm install -g grunt-cli\n\nIf you run agate for the first time, run make npm-install.\n\nMake sure you use Java 17:\n\nsudo update-alternatives --config java sudo update-alternatives --config javac\n\nOr use [SDKMAN!] https://sdkman.io/.\n\nDuring development, run in debug mode:\n\nmake all debug in one terminal to start a fresh empty agate REST server on [HTTP port 8081] http://localhost:8081 or [HTTPS port 8444] https://localhost:8444  make grunt in another terminal to start Grunt server with live reload on port 9000\n\nSee make help for other targets.\n\n## Mailing list\n\nHave a question? Ask on our mailing list!\n\nobiba-users@googlegroups.com\n\n[http://groups.google.com/group/obiba-users] http://groups.google.com/group/obiba-users\n\n## License\n\nOBiBa software are open source and made available under the [GPL3 licence] http://www.obiba.org/node/62. OBiBa software are free of charge.\n\n## OBiBa acknowledgments\n\nIf you are using OBiBa software, please cite our work in your code, websites, publications or reports.\n\n\"The work presented herein was made possible using the OBiBa suite (www.obiba.org), a software suite developed by Maelstrom Research (www.maelstrom-research.org)\"",
+      "section": "README",
+      "repo": "402_OBiBa_Agate",
+      "source_file": "readme.md"
+    }
+  }
+]

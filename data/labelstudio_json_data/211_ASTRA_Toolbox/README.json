@@ -1,0 +1,42 @@
+[
+  {
+    "data": {
+      "text": "The ASTRA Toolbox\n\nThe ASTRA Toolbox is a Python and MATLAB toolbox of high-performance GPU primitives for 2D and 3D tomography.\n\nWe support 2D parallel and fan beam geometries, and 3D parallel and cone beam. All of them have highly flexible source/detector positioning.\n\nA large number of 2D and 3D algorithms are available, including FBP, SIRT, SART, CGLS.\n\nThe basic forward and backward projection operations are GPU-accelerated, and directly callable from MATLAB and Python to enable building new algorithms.\n\n## Documentation / samples\n\nSee the Python and MATLAB code samples in the samples/ directory and https://www.astra-toolbox.com/docs/.\n\n## Installation instructions\n\n### Windows/Linux, using conda for Python packages\n\nRequirements: [conda] https://conda.io/ Python environment, with 64 bit Python 3.9-3.13.\n\nWe provide packages for the ASTRA Toolbox in the astra-toolbox channel for the conda package manager. We depend on CUDA packages available from the nvidia channel. To install ASTRA into the current conda environement, run:\n\nconda install -c astra-toolbox -c nvidia astra-toolbox\n\nWe also provide development packages between releases occasionally:\n\nconda install -c astra-toolbox/label/dev -c nvidia astra-toolbox\n\n### Linux, using pip for Python packages\n\nRequirements: Python environment with 64 bit Python 3.9-3.13.\n\npip install astra-toolbox\n\nNote that, unlike conda packages, we only provide packages built for Linux platform, and only with a single reasonably recent version of CUDA toolkit. These packages depend on PyPI CUDA distribution provided by NVIDIA.",
+      "section": "The ASTRA Toolbox (part 1)",
+      "repo": "211_ASTRA_Toolbox",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Windows, binary\n\nDownload and unpack .zip archive for the desired version from https://astra-toolbox.com/downloads/. Add the mex\\ and tools\\ subdirectories to your MATLAB path, or install the Python wheel using pip. We require the Microsoft Visual Studio 2017 redistributable package. If this is not already installed on your system, it is included as vc_redist.x64.exe in the ASTRA zip file.\n\n### Linux, from source\n\nRequirements: automake, libtool, g++ (7 or higher), CUDA (11.0 or higher)\n\nBuild dependencies can be obtained via the OS package manager or via conda. For example, a conda environment with a full set of dependencies can be created with:\n\nconda create -n astra-build automake libtool gxx cuda-minimal-build libcufft-dev python cython scipy -c conda-forge\n\nYou can then do conda activate astra-build and use --with-cuda=$CONDA_PREFIX in the build configuration.",
+      "section": "The ASTRA Toolbox (part 2)",
+      "repo": "211_ASTRA_Toolbox",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### For MATLAB\n\nAdditional requirements: MATLAB (R2012a or higher)\n\ncd build/linux ./autogen.sh # when building a git version ./configure --with-cuda=/usr/local/cuda \\  --with-matlab=/usr/local/MATLAB/R2012a \\  --prefix=$HOME/astra \\  --with-install-type=module make make install\n\nAdd $HOME/astra/matlab and its subdirectories (tools, mex) to your MATLAB path.\n\nIf you want to build the Octave interface instead of the MATLAB interface, specify --enable-octave instead of --with-matlab=.... The Octave files will be installed into $HOME/astra/octave . On some Linux distributions building the Astra Octave interface will require the Octave development package to be installed (e.g., liboctave-dev on Ubuntu).\n\nNB: Each MATLAB version only supports a specific range of g++ versions. Despite this, if you have a newer g++ and if you get errors related to missing GLIBCXX_3.4.xx symbols, it is often possible to work around this requirement by deleting the version of libstdc++ supplied by MATLAB in MATLAB_PATH/bin/glnx86 or MATLAB_PATH/bin/glnxa64 (at your own risk), or setting LD_PRELOAD=/usr/lib64/libstdc++.so.6 (or similar) when starting MATLAB.\n\n#### For Python\n\nAdditional requirements: Python (3.x), setuptools, Cython, scipy\n\ncd build/linux ./autogen.sh # when building a git version ./configure --with-cuda=/usr/local/cuda \\  --with-python \\  --with-install-type=module make make install\n\nThis will install Astra into your current Python environment.\n\n#### As a C++ library\n\ncd build/linux ./autogen.sh # when building a git version ./configure --with-cuda=/usr/local/cuda make make install-dev\n\nThis will install the Astra library and C++ headers.",
+      "section": "The ASTRA Toolbox (part 3)",
+      "repo": "211_ASTRA_Toolbox",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### macOS, from source\n\nUse the Homebrew package manager to install libtool, autoconf, automake.\n\ncd build/linux ./autogen.sh CPPFLAGS=\"-I/usr/local/include\" NVCCFLAGS=\"-I/usr/local/include\" ./configure \\  --with-cuda=/usr/local/cuda \\  --with-matlab=/Applications/MATLAB_R2016b.app \\  --prefix=$HOME/astra \\  --with-install-type=module make make install\n\n### Windows, from source using Visual Studio 2017\n\nRequirements: Visual Studio 2017 (full or community),  CUDA (11.0 or higher), MATLAB (R2012a or higher)  and/or Python 3.x + setuptools + Cython + scipy.\n\n#### Using the Visual Studio IDE:\n\nSet the environment variable MATLAB_ROOT to your MATLAB install location.\n\nOpen build\\msvc\\astra_vc14.sln in Visual Studio.\n\nSelect the appropriate solution configuration (typically Release_CUDA|x64).\n\nBuild the solution.\n\nInstall by copying AstraCuda64.dll and all .mexw64 files from build\\msvc\\bin\\x64\\Release_CUDA\n\nand the entire matlab\\tools directory to a directory to be added to your MATLAB path.\n\n#### Using .bat scripts in build\\msvc:\n\nEdit build_env.bat and set up the correct library versions and paths.\n\nFor MATLAB: Run build_matlab.bat. The .dll and .mexw64 files will be in build\\msvc\\bin\\x64\\Release_Cuda.\n\nFor Python: Run build_python3.bat. This will produce a Wheel file in python\\dist directory, which can be installed using pip.\n\n### Conda packages\n\nSee the instructions [here] build/conda/README.md.\n\n## Testing your installation\n\nTo perform a (very) basic test of your ASTRA installation in Python, you can run the following Python command.\n\nimport astra astra.test()\n\nTo test your ASTRA installation in MATLAB, the equivalent command is:",
+      "section": "The ASTRA Toolbox (part 4)",
+      "repo": "211_ASTRA_Toolbox",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## References\n\nIf you use the ASTRA Toolbox for your research, we would appreciate it if you would refer to the following papers:\n\nW. van Aarle, W. J. Palenstijn, J. Cant, E. Janssens, F. Bleichrodt, A. Dabravolski, J. De Beenhouwer, K. J. Batenburg, and J. Sijbers, \u201cFast and Flexible X-ray Tomography Using the ASTRA Toolbox\u201d, Optics Express, 24(22), 25129-25147, (2016), https://dx.doi.org/10.1364/OE.24.025129\n\nW. van Aarle, W. J. Palenstijn, J. De Beenhouwer, T. Altantzis, S. Bals, K. J. Batenburg, and J. Sijbers, \u201cThe ASTRA Toolbox: A platform for advanced algorithm development in electron tomography\u201d, Ultramicroscopy, 157, 35\u201347, (2015), https://dx.doi.org/10.1016/j.ultramic.2015.05.002\n\nAdditionally, if you use parallel beam GPU code, we would appreciate it if you would refer to the following paper:\n\nW. J. Palenstijn, K J. Batenburg, and J. Sijbers, \"Performance improvements for iterative electron tomography reconstruction using graphics processing units (GPUs)\", Journal of Structural Biology, vol. 176, issue 2, pp. 250-253, 2011, https://dx.doi.org/10.1016/j.jsb.2011.07.017\n\n## License\n\nThe ASTRA Toolbox is open source under the GPLv3 license.\n\n## Contact\n\nemail: astra@astra-toolbox.com website: https://www.astra-toolbox.com/\n\nCopyright: 2010-2024, imec Vision Lab, University of Antwerp  2014-2024, CWI, Amsterdam  https://visielab.uantwerpen.be/ and https://www.cwi.nl/",
+      "section": "The ASTRA Toolbox (part 5)",
+      "repo": "211_ASTRA_Toolbox",
+      "source_file": "readme.md"
+    }
+  }
+]

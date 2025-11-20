@@ -1,0 +1,46 @@
+C3S MAGIC WPS
+=============
+.. image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
+    :target: https://opensource.org/licenses/Apache-2.0
+    :alt: License
+
+.. image:: https://img.shields.io/badge/docs-latest-brightgreen.svg
+   :target: http://c3s-magic-wps.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+
+.. image:: https://travis-ci.com/c3s-magic/c3s-magic-wps.svg?branch=master
+   :target: https://travis-ci.com/c3s-magic/c3s-magic-wps
+   :alt: Travis Build
+
+.. image:: https://badge.fury.io/py/c3s-magic-wps.svg
+    :target: https://badge.fury.io/py/c3s-magic-wps
+
+.. image:: https://zenodo.org/badge/184254565.svg
+   :target: https://zenodo.org/badge/latestdoi/184254565
+
+.. inclusion-marker-start-do-not-remove
+
+Web Processing Service for Climate Data Analysis in the MAGIC project. The software in this WPS powers the processes behind the C3S-MAGIC portal. This software was designed to be run on a resource with access to data produced by the CP4CDS project.
+
+.. inclusion-marker-end-do-not-remove
+
+* Free software: Apache Software License 2.0
+* Documentation: https://c3s-magic-wps.readthedocs.io.
+
+Links
+-----
+
+* `Climate Data Store`_
+* `C3S MAGIC Portal`_
+* `CP4CDS Quality Control`_
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `bird-house/cookiecutter-birdhouse`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`bird-house/cookiecutter-birdhouse`: https://github.com/bird-house/cookiecutter-birdhouse
+.. _`Climate Data Store`: https://cds.climate.copernicus.eu
+.. _`C3S MAGIC Portal`: http://portal.c3s-magic.eu
+.. _`CP4CDS Quality Control`: https://cp4cds-qcapp.ceda.ac.uk

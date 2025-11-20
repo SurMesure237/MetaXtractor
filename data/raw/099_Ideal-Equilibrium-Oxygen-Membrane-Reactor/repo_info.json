@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/KabitGit/Ideal-Equilibrium-Oxygen-Membrane-Reactor",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/KabitGit/Ideal-Equilibrium-Oxygen-Membrane-Reactor/zipball/main",
+  "author": "KabitGit",
+  "dateCreated": "2023-12-18T11:34:05Z",
+  "dateModified": "2023-12-19T09:54:50Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": null,
+  "identifier": 733019368,
+  "name": "KabitGit/Ideal-Equilibrium-Oxygen-Membrane-Reactor",
+  "issueTracker": "https://api.github.com/repos/KabitGit/Ideal-Equilibrium-Oxygen-Membrane-Reactor/issues",
+  "readme": "https://github.com/KabitGit/Ideal-Equilibrium-Oxygen-Membrane-Reactor/blob/main/README.md"
+}

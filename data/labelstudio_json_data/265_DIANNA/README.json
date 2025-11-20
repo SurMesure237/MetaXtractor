@@ -1,0 +1,250 @@
+[
+  {
+    "data": {
+      "text": "",
+      "section": "Introduction (part 1)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[](https://github.com/dianna-ai/dianna/actions/workflows/build.yml) [](https://dianna.readthedocs.io/en/latest/?badge=latest) [](https://sonarcloud.io/dashboard?id=dianna-ai_dianna) [](https://bestpractices.coreinfrastructure.org/projects/5542) [](https://fair-software.eu) [](https://doi.org/10.21105/joss.04493)\n\n[Introducing DIANNA video] https://youtu.be/9VM5acip2s8",
+      "section": "Introduction (part 2)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Deep Insight And Neural Network Analysis\n\nDIANNA is a Python package that brings explainable AI (XAI) to your research project. It wraps carefully selected XAI methods in a simple, uniform interface. It's built by, with and for (academic) researchers and research software engineers working on machine learning projects.",
+      "section": "Deep Insight And Neural Network Analysis (part 1)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Why DIANNA?\n\nDIANNA software is addressing needs of both (X)AI researchers and mostly the various domains scientists who are using or will use AI models for their research without being experts in (X)AI. DIANNA is future-proof: one of the very few XAI library supporting the [Open Neural Network Exchange (ONNX)] https://onnx.ai/ format.\n\nAfter studying the vast XAI landscape we have made choices in the parts of the [XAI Taxonomy] https://doi.org/10.3390/make3030032 on which methods, data modalities and problems types to focus. Our choices, based on the largest usage in scientific literature, are shown graphically in the XAI taxonomy below:\n\nThe key points of DIANNA:\n\nProvides an easy-to-use interface for non (X)AI experts  Implements well-known XAI methods LIME, RISE and KernelSHAP, chosen by systematic and objective evaluation criteria  Comes with a dashboard where results of different explainers can be compared for all data types  Supports the de-facto standard of neural network models - ONNX  Supports images, text, time series, tabular data modalities and embeddings (in a related [package] https://github.com/dianna-ai/explainable_embedding)  Comes with simple intuitive image, text, time series, and tabular benchmarks, so can help you with your XAI research  Includes scientific use-cases tutorials  Easily extendable to other XAI methods\n\nFor more information on the unique strengths of DIANNA with comparison to other tools, please see the [context landscape] https://dianna.readthedocs.io/en/latest/CONTEXT.html.",
+      "section": "Deep Insight And Neural Network Analysis (part 2)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Installation\n\n[](https://pypi.python.org/project/dianna/) [](https://pypi.python.org/project/dianna/)\n\nDIANNA can be installed from PyPI using [pip] https://pip.pypa.io/en/stable/installation/ on any of the supported Python versions (see badge):\n\npython3 -m pip install dianna\n\nTo install the most recent development version directly from the GitHub repository run:\n\npython3 -m pip install git+https://github.com/dianna-ai/dianna.git\n\nIf you get an error related to OpenMP when importing dianna, have a look at [this issue] https://github.com/dianna-ai/dianna/issues/376 for possible workarounds.\n\nPre-requisites only for Macbook Pro with M1 Pro chip users\n\nTo install TensorFlow you can follow this [tutorial] https://betterdatascience.com/install-tensorflow-2-7-on-macbook-pro-m1-pro/.\n\nTo install TensorFlow Addons you can follow these [steps] https://github.com/tensorflow/addons/pull/2504. For further reading see this [issue] https://github.com/tensorflow/addons/issues/2503. Note that this temporary solution works only for macOS versions >= 12.0. Note that this step may have changed already, see https://github.com/dianna-ai/dianna/issues/245.\n\nBefore installing DIANNA, comment tensorflow requirement in setup.cfg file (tensorflow package for M1 is called tensorflow-macos).\n\n## Getting started\n\nYou need:\n\nyour trained ONNX model ([convert my pytorch/tensorflow/keras/scikit-learn model to ONNX] https://github.com/dianna-ai/dianna#onnx-models)\n\na data item to be explained\n\nYou get:\n\na relevance map overlayed over the data item",
+      "section": "Deep Insight And Neural Network Analysis (part 3)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Template example for any data modality and explainer\n\nProvide your trained model and data item ( text, image, time series or tabular )\n\nmodel_path = 'your_model.onnx' # model trained on your data modality data_item = # data item for which the model's prediction needs to be explained\n\nIf the task is classification: which are the classes your model has been trained for?\n\nlabels = [class_a, class_b] # example of binary classification labels\n\nWhich of these classes do you want an explanation for?\n\nexplained_class_index = labels.index() # explained_class can be any of the labels\n\nRun dianna with the explainer of your choice ( 'LIME', 'RISE' or 'KernalSHAP') and visualize the output:\n\nexplanation = dianna.(model_path, data_item, explainer) dianna.visualization.(explanation[explained_class_index], data_item)\n\n### Text and image usage\n\nExamples\n\nLets illustrate the template above with textual data. The data item of interest is a sentence being (a part of) a movie review and the model has been trained to classify reviews into positive and negative sentiment classes. We are intersted which words are contributing positively (red) and which - negatively (blue) towards the model's desicion to classify the review as positive and we would like to use the LIME explainer:\n\nmodel_path = 'your_text_model.onnx'",
+      "section": "Deep Insight And Neural Network Analysis (part 4)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "also define a model runner here (details in dedicated notebook) review = 'The movie started great but the ending is boring and unoriginal.' labels = [\"negative\", \"positive\"] explained_class_index = labels.index(\"positive\") explanation = dianna.explain_text(model_path, text, 'LIME') dianna.visualization.highlight_text(explanation[explained_class_index], model_runner.tokenizer.tokenize(review))\n\nHere is another illustration on how to use dianna to explain which parts of a bee image contributied positively (red) or negativey (blue) towards a classifying the image as a 'bee' using RISE. The Imagenet model has been trained to distinguish between 1000 classes (specified in ``labels``). For images, which are data of higher dimention compared to text, there are also some specifics to consider:\n\nmodel_path = 'your_image_model.onnx' image = PIL.Image.open('your_bee_image.jpeg') axis_labels = {2: 'channels'} explained_class_index = labels.index('bee') explanation = dianna.explain_image(model_path, image, 'RISE', axis_labels=axis_labels, labels=labels) dianna.visualization.plot_image(explanation[explained_class_index], utils.img_to_array(image)/255., heatmap_cmap='bwr') plt.show()\n\nAnd why would Imagenet think the same image would be a garden spider?\n\nexplained_class_index = labels.index('garden_spider') # interested in the image being classified as a garden spider explanation = dianna.explain_image(model_path, image, 'RISE', axis_labels=axis_labels, labels=labels) dianna.visualization.plot_image(explanation[explained_class_index], utils.img_to_array(image)/255., heatmap_cmap='bwr') plt.show()",
+      "section": "also define a model runner here (details in dedicated notebook) (part 1)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Overview tutorial\n\nThere are full working examples on how to use the supported explainers and how to use dianna for all supported data modalities in our [overview tutorial] ./tutorials/overview.ipynb.\n\n### IMPORTANT: Sensitivity to hyperparameters\n\nThe explainers are sensitive to the choice of their hyperparameters! In this [work] https://staff.fnwi.uva.nl/a.s.z.belloum/MSctheses/MScthesis_Willem_van_der_Spec.pdf, this sensitivity to hyperparameters is researched and useful conclusions are drawn. The default hyperparameters used in DIANNA for each explainer as well as the values for our tutorial examples are given in the Tutorials [README] ./tutorials/README.md#important-hyperparameters.\n\n### Introductory video\n\nThis video shows the main functionality of DIANNA and shows you how to use DIANNA also from its dashboard.\n\n[Watch the video on YouTube] https://youtu.be/9VM5acip2s8\n\n## Dashboard\n\nExplore the explanations of your trained model using the DIANNA dashboard. [Click here] https://github.com/dianna-ai/dianna/tree/main/dianna/dashboard for more information.",
+      "section": "also define a model runner here (details in dedicated notebook) (part 3)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Datasets\n\nDIANNA comes with simple datasets. Their main goal is to provide intuitive insight into the working of the XAI methods. They can be used as benchmarks for evaluation and comparison of existing and new XAI methods.\n\nImages",
+      "section": "also define a model runner here (details in dedicated notebook) (part 4)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Dataset | Description | Examples | Generation | | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- |",
+      "section": "also define a model runner here (details in dedicated notebook) (part 5)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Binary MNIST | Greyscale images of the digits \"1\" and \"0\" - a 2-class subset from the famous[MNIST dataset] http://yann.lecun.com/exdb/mnist/ for handwritten digit classification. | | [Binary MNIST dataset generation] https://github.com/dianna-ai/dianna-exploration/tree/main/example_data/dataset_preparation/MNIST | | [Simple Geometric (circles and triangles)] https://doi.org/10.5281/zenodo.5012824 | Images of circles and triangles for 2-class geometric shape classificaiton. The shapes of varying size and orientation and the background have varying uniform gray levels. | | [Simple geometric shapes dataset generation] https://github.com/dianna-ai/dianna-exploration/tree/main/example_data/dataset_preparation/geometric_shapes |",
+      "section": "also define a model runner here (details in dedicated notebook) (part 6)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| [Simple Scientific (LeafSnap30)] https://zenodo.org/record/5061353/ | Color images of tree leaves - a 30-class post-processed subset from the LeafSnap dataset for automatic identification of North American tree species. | | [LeafSnap30 dataset generation] https://github.com/dianna-ai/dianna-exploration/blob/main/example_data/dataset_preparation/LeafSnap/ |",
+      "section": "also define a model runner here (details in dedicated notebook) (part 7)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Text\n\n| Dataset | Description | Examples | Generation | | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------- | :--------------------------------------------------------------- | :------------------------------------------------------------------ | | [Stanford sentiment treebank] https://nlp.stanford.edu/sentiment/index.html | Dataset for predicting the sentiment, positive or negative, of movie reviews. | _This movie was actually neither that funny, nor super witty._ | [Sentiment treebank] https://nlp.stanford.edu/sentiment/treebank.html | | [EU-law statements] https://zenodo.org/records/8200000 | Reproducibility data for a quantitative study on EU legislation. | _A Member State wishing to grant exemptions referred to in paragraph 6 shall notify the Council in writing_ | [EU legislation strictness analysis] https://github.com/nature-of-eu-rules/eu-legislation-strictness-analysis |\n\nTime series",
+      "section": "also define a model runner here (details in dedicated notebook) (part 8)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Dataset | Description | Examples | Generation | | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------ | | [Coffee dataset] https://www.timeseriesclassification.com/description.php?Dataset=Coffee | Food spectographs time series dataset for a two class problem to distinguish between Robusta and Arabica coffee beans. | | [data source] https://github.com/QIBChemometrics/Benchtop-NMR-Coffee-Survey |",
+      "section": "also define a model runner here (details in dedicated notebook) (part 9)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| [Weather dataset] https://zenodo.org/record/7525955 | The light version of the weather prediciton dataset, which contains daily observations (89 features) for 11 European locations through the years 2000 to 2010. | | [data source] https://github.com/florian-huber/weather_prediction_dataset |",
+      "section": "also define a model runner here (details in dedicated notebook) (part 10)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Tabular",
+      "section": "also define a model runner here (details in dedicated notebook) (part 11)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Dataset | Description | Examples | Generation | | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------ | | [Pengiun dataset] https://www.kaggle.com/code/parulpandey/penguin-dataset-the-new-iris | Palmer Archipelago (Antarctica) penguin dataset is a great intro dataset for data exploration & visualization similar to the famous Iris dataset. | | [data source] https://github.com/allisonhorst/palmerpenguins |",
+      "section": "also define a model runner here (details in dedicated notebook) (part 12)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| [Weather dataset] https://zenodo.org/record/7525955 | The light version of the weather prediciton dataset, which contains daily observations (89 features) for 11 European locations through the years 2000 to 2010. | | [data source] https://github.com/florian-huber/weather_prediction_dataset | | [Land atmosphere dataset] https://zenodo.org/records/12623257 | It contains land-atmosphere variables and latent heat flux (LEtot) simulated by STEMMUS-SCOPE (soil-plant model), version 1.5.0, over 19 Fluxnet sites and for the year 2014 with hourly intervals. | | [data source] https://zenodo.org/records/12623257 |",
+      "section": "also define a model runner here (details in dedicated notebook) (part 13)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Models\n\nWe work with ONNX! ONNX is a great unified neural network standard which can be used to boost reproducible science. Using ONNX for your model also gives you a boost in performance! In case your models are still in another popular DNN (deep neural network) format, here are some simple recipes to convert them:\n\n[pytorch and pytorch-lightning] https://github.com/dianna-ai/dianna/blob/main/tutorials/conversion_onnx/pytorch2onnx.ipynb - use the built-in [torch.onnx.export] https://pytorch.org/docs/stable/onnx.html function to convert pytorch models to onnx, or call the built-in [to_onnx] https://pytorch-lightning.readthedocs.io/en/latest/deploy/production_advanced.html function on your [LightningModule] https://lightning.ai/docs/pytorch/latest/api/lightning.pytorch.core.LightningModule.html#lightning.pytorch.core.LightningModule to export pytorch-lightning models to onnx.  [tensorflow] https://github.com/dianna-ai/dianna/blob/main/tutorials/conversion_onnx/tensorflow2onnx.ipynb - use the [tf2onnx] https://github.com/onnx/tensorflow-onnx package to convert tensorflow models to onnx.  [keras] https://github.com/dianna-ai/dianna/blob/main/tutorials/conversion_onnx/keras2onnx.ipynb - same as the conversion from tensorflow to onnx, the [tf2onnx] https://github.com/onnx/tensorflow-onnx package also supports keras.  [scikit-learn] https://github.com/dianna-ai/dianna/blob/main/tutorials/conversion_onnx/skl2onnx.ipynb - use the [skl2onnx] https://github.com/onnx/sklearn-onnx package to scikit-learn models to onnx.\n\nMore converters with examples and tutorials can be found on the [ONNX tutorial page] https://github.com/onnx/tutorials.\n\nAnd here are links to notebooks showing how we created our models on the benchmark datasets:\n\nImages",
+      "section": "also define a model runner here (details in dedicated notebook) (part 14)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Models | Generation | | :-------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- | | [Binary MNIST model] https://zenodo.org/record/5907177 | [Binary MNIST model generation] https://github.com/dianna-ai/dianna-exploration/blob/main/example_data/model_generation/MNIST/generate_model_binary.ipynb | | [Simple Geometric model] https://zenodo.org/deposit/5907059 | [Simple geometric shapes model generation] https://github.com/dianna-ai/dianna-exploration/blob/main/example_data/model_generation/geometric_shapes/generate_model.ipynb | | [Simple Scientific model] https://zenodo.org/record/5907196 | [LeafSnap30 model generation] https://github.com/dianna-ai/dianna-exploration/blob/main/example_data/model_generation/LeafSnap/generate_model.ipynb |\n\nText",
+      "section": "also define a model runner here (details in dedicated notebook) (part 15)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Models | Generation | |:---------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | [Movie reviews model] https://zenodo.org/record/5910598 | [Stanford sentiment treebank model generation] https://github.com/dianna-ai/dianna-exploration/blob/main/example_data/model_generation/movie_reviews/generate_model.ipynb | | [Regalatory statement classifier] https://zenodo.org/record/8200001 | [EU-law regulatory-statement-classification] https://github.com/nature-of-eu-rules/regulatory-statement-classification |\n\nTime series",
+      "section": "also define a model runner here (details in dedicated notebook) (part 16)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Models | Generation | | :-------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- | | [Coffee model] https://zenodo.org/records/10579458 | [Coffee model generation] https://github.com/dianna-ai/dianna-exploration/blob/main/example_data/model_generation/coffee/generate_model.ipynb | | [Season prediction model] https://zenodo.org/record/7543883 | [Season prediction model generation] https://github.com/dianna-ai/dianna-exploration/blob/main/example_data/model_generation/season_prediction/generate_model.ipynb | | [Fast Radio Burst classification model] https://zenodo.org/records/10656614 | [Fast Radio Burst classification model generation] https://doi.org/10.3847/1538-3881/aae649 |\n\nTabular",
+      "section": "also define a model runner here (details in dedicated notebook) (part 17)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Models | Generation | | :-------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- | | [Penguin model (classification)] https://zenodo.org/records/10580743 | [Penguin model generation] https://github.com/dianna-ai/dianna-exploration/blob/main/example_data/model_generation/penguin_species/generate_model.ipynb | | [Sunshine hours prediction model (regression)] https://zenodo.org/records/10580833 | [Sunshine hours prediction model generation] https://github.com/dianna-ai/dianna-exploration/blob/main/example_data/model_generation/sunshine_prediction/generate_model.ipynb | | [Latent heat flux prediction model (regression)] https://zenodo.org/records/12623257 | [Latent heat flux prediction model] doi:10.5281/zenodo.12623256/stemmus_scope_emulator_model_LEtot.onnx |\n\n_We envision the birth of the ONNX Scientific models zoo soon..._",
+      "section": "also define a model runner here (details in dedicated notebook) (part 18)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Tutorials\n\nDIANNA supports different data modalities and XAI methods (explainers). We have evaluated many explainers using objective criteria (see the [How to find your AI explainer] https://blog.esciencecenter.nl/how-to-find-your-artificial-intelligence-explainer-dbb1ac608009 blog-post). The table below contains links to the relevant XAI method's papers (for some explanatory videos on the methods, please see [tutorials] ./tutorials). The DIANNA [tutorials] ./tutorials cover each supported method and data modality on a least one dataset using the default or tuned [hyperparameters] ./tutorials/README.md#important-hyperparameters. Our plans to expand DIANNA with more data modalities and explainers are given in the [ROADMAP] https://dianna.readthedocs.io/en/latest/ROADMAP.html.",
+      "section": "also define a model runner here (details in dedicated notebook) (part 19)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Data \\ XAI | [RISE] http://bmvc2018.org/contents/papers/1064.pdf | [LIME] https://www.kdd.org/kdd2016/papers/files/rfp0573-ribeiroA.pdf | [KernelSHAP] https://proceedings.neurips.cc/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Paper.pdf | | :--------- | :------------------------------------------------ | :----------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------- | | Images | \u2705 | \u2705 | \u2705 | | Text | \u2705 | \u2705 | | | Timeseries | \u2705 | \u2705 | | | Tabular | \u2705 | \u2705 | \u2705 | | Embedding | *inspired by RISE in [distance_explainer] https://github.com/dianna-ai/distance_explainer | | |",
+      "section": "also define a model runner here (details in dedicated notebook) (part 20)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Graphs* | next steps | ... | ... |",
+      "section": "also define a model runner here (details in dedicated notebook) (part 21)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[LRP] https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0130140&type=printable and [PatternAttribution] https://arxiv.org/pdf/1705.05598.pdf also feature in the top 5 of our thoroughly evaluated explainers. Also [GradCAM] https://openaccess.thecvf.com/content_ICCV_2017/papers/Selvaraju_Grad-CAM_Visual_Explanations_ICCV_2017_paper.pdf) has been recently found to be semantically continous! Contributing by adding these and more (new) post-hoc explainability methods on ONNX models is very welcome!",
+      "section": "also define a model runner here (details in dedicated notebook) (part 22)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Scientific use-cases\n\nOur goal is that the scientific community embrases XAI as a source for novel and unexplored perspectives on scientific problems. Here, we offer [tutorials] ./tutorials on specific scientific use-cases of uisng XAI:",
+      "section": "also define a model runner here (details in dedicated notebook) (part 23)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Use-case (data) \\ XAI | [RISE] http://bmvc2018.org/contents/papers/1064.pdf | [LIME] https://www.kdd.org/kdd2016/papers/files/rfp0573-ribeiroA.pdf | [KernelSHAP] https://proceedings.neurips.cc/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Paper.pdf | |:-------------------------------------------------------------------|:-----------------------------------------------------| :---------------------------------------------------------------------| :-------------------------------------------------------------------------------------------------------| | Biology (Phytomorphology): Tree Leaves classification (images) | | \u2705 | | | Astronomy: Fast Radio Burst detection (timeseries) | \u2705 | | | | Land-atmosphere modeling: Latent heat flux prediction (tabular) | | | \u2705 | | Social sciences: EU-law regulatory statement classification (text) | | \u2705 | |",
+      "section": "also define a model runner here (details in dedicated notebook) (part 24)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Climate | planned | ... | ... |",
+      "section": "also define a model runner here (details in dedicated notebook) (part 25)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Reference documentation\n\nFor detailed information on using specific DIANNA functions, please visit the [documentation page hosted at Readthedocs] https://dianna.readthedocs.io/en/latest.\n\n## Contributing\n\nIf you want to contribute to the development of DIANNA, have a look at the [contribution guidelines] https://dianna.readthedocs.io/en/latest/CONTRIBUTING.html. See our [developer documentation] docs/developer_info.rst for information on developer installation, running tests, generating documentation, versioning and making a release.\n\n## How to cite us\n\n[](https://zenodo.org/record/5592606) [](https://www.research-software.nl/software/dianna)\n\nIf you use this package for your scientific work, please consider citing directly the software as:\n\nRanguelova, E., Bos, P., Liu, Y., Meijer, C., Oostrum, L., Crocioni, G., Ootes, L., Chandramouli, P., Jansen, A., Smeets, S. (2023). dianna ([VERSION YOU USED]). Zenodo. https://zenodo.org/record/5592606\n\nor the JOSS paper as:\n\nRanguelova et al., (2022). DIANNA: Deep Insight And Neural Network Analysis. Journal of Open Source Software, 7(80), 4493, https://doi.org/10.21105/joss.04493\n\nSee also the [Zenodo page] https://zenodo.org/record/5592606 or the [JOSS page] https://joss.theoj.org/papers/10.21105/joss.04493 for exporting the software citation to BibTteX and other formats.\n\n## Credits\n\nThis package was created with [Cookiecutter] https://github.com/audreyr/cookiecutter and the [NLeSC/python-template] https://github.com/NLeSC/python-template.",
+      "section": "also define a model runner here (details in dedicated notebook) (part 26)",
+      "repo": "265_DIANNA",
+      "source_file": "readme.md"
+    }
+  }
+]

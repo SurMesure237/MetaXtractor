@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/Ramy-Badr-Ahmed/Bending-Stiffness",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java"
+  ],
+  "downloadUrl": "https://api.github.com/repos/Ramy-Badr-Ahmed/Bending-Stiffness/zipball/main",
+  "author": "Ramy-Badr-Ahmed",
+  "dateCreated": "2024-07-11T13:55:52Z",
+  "dateModified": "2025-03-20T17:40:17Z",
+  "keywords": [
+    "actin",
+    "cytoskeleton",
+    "javase",
+    "soft-matter"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Bending Stiffness of Actin Filaments - https://doi.org/10.5281/zenodo.12808969",
+  "identifier": 827359807,
+  "name": "Ramy-Badr-Ahmed/Bending-Stiffness",
+  "issueTracker": "https://api.github.com/repos/Ramy-Badr-Ahmed/Bending-Stiffness/issues",
+  "readme": "https://github.com/Ramy-Badr-Ahmed/Bending-Stiffness/blob/main/README.md"
+}

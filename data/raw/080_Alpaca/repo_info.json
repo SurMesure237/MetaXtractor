@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/INM-6/alpaca",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/INM-6/alpaca/zipball/main",
+  "author": "INM-6",
+  "dateCreated": "2021-11-24T14:08:27Z",
+  "dateModified": "2025-03-05T16:09:59Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "Automated Lightweight Provenance Capture",
+  "identifier": 431508375,
+  "name": "INM-6/alpaca",
+  "issueTracker": "https://api.github.com/repos/INM-6/alpaca/issues",
+  "readme": "https://github.com/INM-6/alpaca/blob/main/README.md"
+}

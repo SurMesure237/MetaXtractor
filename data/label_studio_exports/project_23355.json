@@ -1,0 +1,384 @@
+[
+  {
+    "id": 1512,
+    "annotations": [
+      {
+        "id": 10843,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:28:16.421463Z",
+        "updated_at": "2025-11-05T17:28:16.421477Z",
+        "draft_created_at": null,
+        "lead_time": 2.548,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e7f3185e-5880-491b-94de-943752fc98c2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1512,
+        "project": 23355,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## This repository has been deprecated in favor of individual repos for the different components of the library.\n\n👉 https://github.com/QuantumApplicationLab/",
+      "section": "README",
+      "repo": "155_qalcore",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.869966Z",
+    "updated_at": "2025-11-05T17:28:16.447347Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23355,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1513,
+    "annotations": [
+      {
+        "id": 10844,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 282,
+              "end": 292,
+              "text": "setuptools",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "XmumOVOCKb",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 274,
+              "end": 277,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "UpdjM19YXW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 330,
+              "end": 340,
+              "text": "setuptools",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "uO8u3GjE2B",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 326,
+              "end": 329,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "j1aWY_69WG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:28:48.972705Z",
+        "updated_at": "2025-11-05T17:28:48.972724Z",
+        "draft_created_at": "2025-11-05T17:28:42.571085Z",
+        "lead_time": 32.357,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "3ee0b1de-fd58-4845-9818-a65e1106f3d2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1513,
+        "project": 23355,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "qalcore developer documentation\n\nIf you're looking for user documentation, go [here] README.md.\n\n## Development install\n\nCreate a virtual environment, e.g. with python3 -m venv env\n\nactivate virtual environment source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools python3 -m pip install --upgrade pip setuptools\n\ninstall qalcore as an editable package python3 -m pip install --no-cache-dir --editable .",
+      "section": "`qalcore` developer documentation + Create a virtual environment, e.g. with + activate virtual environment (and 2 more)",
+      "repo": "155_qalcore",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.870002Z",
+    "updated_at": "2025-11-05T17:28:49.003563Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23355,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1514,
+    "annotations": [
+      {
+        "id": 10845,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1469,
+              "end": 1479,
+              "text": "prospector",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "oioB9ZQzoP",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1551,
+              "end": 1556,
+              "text": "isort",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "zkUZr4vOig",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 363,
+              "end": 366,
+              "text": "tox",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "sK4HUdOq8h",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1481,
+              "end": 1517,
+              "text": "https://pypi.org/project/prospector/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "o7qpi6qcki",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1558,
+              "end": 1588,
+              "text": "https://pycqa.github.io/isort/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "H7tCrZIpUX",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:29:41.488467Z",
+        "updated_at": "2025-11-15T17:59:24.685421Z",
+        "draft_created_at": "2025-11-05T17:29:07.140914Z",
+        "lead_time": 67.292,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "b7ab35de-2567-46b7-a200-e51b76645e40",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1514,
+        "project": 23355,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "install development dependencies python3 -m pip install --no-cache-dir --editable .[dev]\n\nAfterwards check that the install directory is present in the PATH environment variable.\n\n## Running the tests\n\nThere are two ways to run tests.\n\nThe first way requires an activated virtual environment with the development tools installed:\n\npytest -v\n\nThe second is to use tox, which can be installed separately (e.g. with pip install tox), i.e. not necessarily inside the virtual environment you use for installing qalcore, but then builds the necessary virtual environments itself by simply running:\n\ntox\n\nTesting with tox allows for keeping the testing environment separate from your development environment. The development environment will typically accumulate (old) packages during development that interfere with testing; this problem is avoided by testing with tox.\n\n### Test coverage\n\nIn addition to just running the tests to see if they pass, they can be used for coverage statistics, i.e. to determine how much of the package's code is actually executed during tests. In an activated virtual environment with the development tools installed, inside the package directory, run:\n\ncoverage run\n\nThis runs tests and stores the result in a .coverage file. To see the results on the command line, run\n\ncoverage report\n\ncoverage can also generate output in HTML and other formats; see coverage help for more information.\n\n## Running linters locally\n\nFor linting we will use [prospector] https://pypi.org/project/prospector/ and to sort imports we will use [isort] https://pycqa.github.io/isort/. Running the linters requires an activated virtual environment with the development tools installed.\n\nlinter prospector\n\nrecursively check import style for the qalcore module only isort --recursive --check-only qalcore",
+      "section": "install development dependencies + linter + recursively check import style for the qalcore module only",
+      "repo": "155_qalcore",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.870029Z",
+    "updated_at": "2025-11-15T17:59:24.720307Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23355,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1515,
+    "annotations": [
+      {
+        "id": 10846,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:29:50.431376Z",
+        "updated_at": "2025-11-05T17:29:50.431396Z",
+        "draft_created_at": null,
+        "lead_time": 8.752,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "4258f3f2-d08b-4adf-805e-c3a6e22a43fb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1515,
+        "project": 23355,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "any proposed changes as a diff isort --recursive --check-only --diff qalcore\n\nrecursively fix import style for the qalcore module only isort --recursive qalcore\n\nTo fix readability of your code style you can use [yapf] https://github.com/google/yapf.\n\nYou can enable automatic linting with prospector and isort on commit by enabling the git hook from .githooks/pre-commit, like so:\n\ngit config --local core.hooksPath .githooks\n\n## Generating the API docs\n\ncd docs make html\n\nThe documentation will be in docs/_build/html\n\nIf you do not have make use\n\nsphinx-build -b html docs docs/_build/html\n\nTo find undocumented Python objects run\n\ncd docs make coverage cat _build/coverage/python.txt\n\nTo [test snippets] https://www.sphinx-doc.org/en/master/usage/extensions/doctest.html in documentation run\n\ncd docs make doctest\n\n## Versioning\n\nBumping the version across all files is done with [bumpversion] https://github.com/c4urself/bump2version, e.g.\n\nbumpversion major bumpversion minor bumpversion patch\n\n## Making a release\n\nThis section describes how to make a release in 3 parts:\n\npreparation\n\nmaking a release on PyPI\n\nmaking a release on GitHub\n\n### (1/3) Preparation\n\nUpdate the (don't forget to update links at bottom of page)\n\nVerify that the information in CITATION.cff is correct, and that .zenodo.json contains equivalent data\n\nMake sure the [version has been updated] #versioning.\n\nRun the unit tests with pytest -v\n\n### (2/3) PyPI\n\nIn a new terminal, without an activated virtual environment or an env directory:\n\nprepare a new directory cd $(mktemp -d qalcore.XXXXXX)\n\nfresh git clone ensures the release has the state of origin/main branch git clone https://github.com/QuantumApplicationLab/qal_core .",
+      "section": "any proposed changes as a diff + recursively fix import style for the qalcore module only + prepare a new directory (and 1 more)",
+      "repo": "155_qalcore",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.870053Z",
+    "updated_at": "2025-11-05T17:29:50.460190Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23355,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1516,
+    "annotations": [
+      {
+        "id": 10847,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:29:57.294471Z",
+        "updated_at": "2025-11-05T17:29:57.294492Z",
+        "draft_created_at": null,
+        "lead_time": 6.689,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "8880cbc3-2210-4171-9d80-e3229adb9cc3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1516,
+        "project": 23355,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "prepare a clean virtual environment and activate it python3 -m venv env source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools python3 -m pip install --upgrade pip setuptools\n\ninstall runtime dependencies and publishing dependencies python3 -m pip install --no-cache-dir . python3 -m pip install --no-cache-dir .[publishing]\n\nclean up any previously generated artefacts rm -rf qalcore.egg-info rm -rf dist\n\ncreate the source distribution and the wheel python3 setup.py sdist bdist_wheel\n\nupload to test pypi instance (requires credentials) twine upload --repository-url https://test.pypi.org/legacy/ dist/\n\n[https://test.pypi.org/project/qalcore] https://test.pypi.org/project/qalcore and verify that your package was uploaded successfully. Keep the terminal open, we'll need it later.\n\nIn a new terminal, without an activated virtual environment or an env directory:\n\ncd $(mktemp -d qalcore-test.XXXXXX)\n\nprepare a clean virtual environment and activate it python3 -m venv env source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools pip install --upgrade pip setuptools\n\ninstall from test pypi instance: python3 -m pip -v install --no-cache-dir \\ --index-url https://test.pypi.org/simple/ \\ --extra-index-url https://pypi.org/simple qalcore\n\nCheck that the package works as it should when installed from pypitest.\n\nThen upload to pypi.org with:\n\nFINAL STEP: upload to PyPI (requires credentials) twine upload dist/\n\n### (3/3) GitHub\n\nDon't forget to also make a [release on GitHub] https://github.com/QuantumApplicationLab/qal_core/releases/new. If your repository uses the GitHub-Zenodo integration this will also trigger Zenodo into making a snapshot of your repository and sticking a DOI on it.",
+      "section": "prepare a clean virtual environment and activate it + make sure to have a recent version of pip and setuptools + install runtime dependencies and publishing dependencies (and 7 more)",
+      "repo": "155_qalcore",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.870078Z",
+    "updated_at": "2025-11-05T17:29:57.321966Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23355,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

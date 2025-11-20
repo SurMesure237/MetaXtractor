@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/davideceolin/FAReviews",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Prolog",
+    "Shell",
+    "OpenEdge ABL"
+  ],
+  "downloadUrl": "https://api.github.com/repos/davideceolin/FAReviews/zipball/main",
+  "author": "davideceolin",
+  "dateCreated": "2020-05-05T08:14:21Z",
+  "dateModified": "2024-04-15T07:32:19Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Formal Argumentation Analysis of Product Reviews",
+  "identifier": 261397752,
+  "name": "davideceolin/FAReviews",
+  "issueTracker": "https://api.github.com/repos/davideceolin/FAReviews/issues",
+  "readme": "https://github.com/davideceolin/FAReviews/blob/master/README.md"
+}

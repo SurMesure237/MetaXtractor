@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "Computational Modelling of Primary School Segregation (COMPASS)\n\n[](https://zenodo.org/badge/latestdoi/483226861)\n\nThis Python implementation tries to model school choice and resulting school segregation based on the work of Schelling (1971) and Stoica & Flache (2014).\n\n## Usage\n\n### Install and Run\n\nIt's required to firstly install [GDAL] https://gdal.org/index.html on your computer.\n\nTo install the package, run pip install compass-school.\n\nTo run a demo with web-based GUI, run python run.py from the root directory of the project. This will start a local server to automatically open your web browser and show the program as a webpage. If not seeing the webpage open, manually input http://localhost:5004/ in the link bar.\n\n### Update Documentation\n\nInstall pdoc3 if you haven't already done so. Browse to the compassproject folder in your terminal and run pdoc3 --html --force --output-dir docs compass. The documentation should be updated now.\n\n### Overview\n\nThe repository consists of:  run.py: a script that runs the model interactively with a visualisation (browser)  testrun.py: a test script (work in progress)  household.py: the household class  student.py: the student class  neighbourhood.py: the neighbourhood class  school.py the school class  allocator.py: allocates the students to their school of choice  agents_base.py: overarching agent used for inheritance  model.py: initialises the entire system and all of its components  parameters.py: contains all the parameter values for the simulation  scheduler.py: takes care of the activation, sequence and placement of all agents  visualisation.py: browser based visualisation  utils.py: containing all measurements  functions.py: containing some math functions to be used by the classes",
+      "section": "Computational Modelling of Primary School Segregation (COMPASS) (part 1)",
+      "repo": "136_Compass-school",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Simulations\n\nInformation on how to run the code here.\n\n### Testing and development\n\nSetup a virtualenv with the required dependencies.\n\n$ python -m venv env $ . env/bin/activate $ pip install -r requirements.txt\n\nInstall the package locally (in developement, or editing mode):\n\n$ pip install -e .\n\nThen run the tests with:\n\n$ pytest\n\n### Profiling\n\nSome profiling result can be found in this [notebook] https://github.com/ODISSEI-School-Choice/school-choice/blob/jisk-v2/profile.ipynb. Also, some scaling graphs can be found in this [notebook] https://github.com/ODISSEI-School-Choice/school-choice/blob/jisk-v2/scaling_graph.ipynb.",
+      "section": "Computational Modelling of Primary School Segregation (COMPASS) (part 2)",
+      "repo": "136_Compass-school",
+      "source_file": "readme.md"
+    }
+  }
+]

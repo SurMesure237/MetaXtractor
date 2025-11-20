@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/jokergoo/sfcurve",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R",
+    "C++",
+    "C"
+  ],
+  "downloadUrl": "https://api.github.com/repos/jokergoo/sfcurve/zipball/main",
+  "author": "jokergoo",
+  "dateCreated": "2024-07-04T14:52:33Z",
+  "dateModified": "2025-05-01T20:21:51Z",
+  "keywords": [],
+  "license": null,
+  "description": "2x2, 3x3 and nxn Space-Filling Curves",
+  "identifier": 824193180,
+  "name": "jokergoo/sfcurve",
+  "issueTracker": "https://api.github.com/repos/jokergoo/sfcurve/issues",
+  "readme": "https://github.com/jokergoo/sfcurve/blob/master/readme.md"
+}

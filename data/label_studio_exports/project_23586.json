@@ -1,0 +1,332 @@
+[
+  {
+    "id": 2685,
+    "annotations": [
+      {
+        "id": 11695,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 332,
+              "end": 386,
+              "text": "https://qmflows.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "Yzh4UNAFbZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 492,
+              "end": 530,
+              "text": "https://doi.org/10.5281/zenodo.3274284",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "64l3P4aBdM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-08T00:06:06.003661Z",
+        "updated_at": "2025-11-14T12:40:59.170625Z",
+        "draft_created_at": "2025-11-08T00:06:01.234053Z",
+        "lead_time": 31.514000000000003,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "fbf83cba-6547-4055-9651-0342e0a56883",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2685,
+        "project": 23586,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": ".. image:: https://github.com/SCM-NV/qmflows/workflows/Tests/badge.svg  :target: https://github.com/SCM-NV/qmflows/actions .. image:: https://codecov.io/gh/SCM-NV/qmflows/branch/master/graph/badge.svg  :target: https://codecov.io/gh/SCM-NV/qmflows .. image:: https://readthedocs.org/projects/qmflows/badge/?version=latest  :target: https://qmflows.readthedocs.io/en/latest/?badge=latest  :alt: Documentation Status .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.3274284.svg  :target: https://doi.org/10.5281/zenodo.3274284 .. image:: https://badge.fury.io/py/qmflows.svg  :target: https://badge.fury.io/py/qmflows .. image:: qmflows.png\n\nQMFlows ####### See documentation_ for tutorials and documentation.\n\nMotivation\n\nResearch on modern computational quantum chemistry relies on a set of computational tools to carry out calculations. The complexity of the calculations usually requires intercommunication between the aforementioned tools, such communication is usually done through shell scripts that try to automate input/output actions like: launching the computations in a cluster, reading the resulting output and feeding the relevant numerical result to another program. Such scripts are difficult to maintain and extend, requiring a significant programming expertise to work with them. Being then desirable a set of automatic and extensible tools that allows to perform complex simulations in heterogeneous hardware platforms.\n\nThis library tackles the construction and efficient execution of computational chemistry workflows. This allows computational chemists to use the emerging massively parallel compute environments in an easy manner and focus on interpretation of scientific data rather than on tedious job submission procedures and manual data processing.",
+      "section": "Introduction (part 1)",
+      "repo": "162_QMflows",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:14.130102Z",
+    "updated_at": "2025-11-14T12:40:59.211607Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23586,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2686,
+    "annotations": [
+      {
+        "id": 11696,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 479,
+              "end": 488,
+              "text": "miniconda",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Zdi_WN-Qpd",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 991,
+              "end": 996,
+              "text": "rdkit",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "5M2ACTrClv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1002,
+              "end": 1006,
+              "text": "h5py",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "PgCmQnoSWx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1014,
+              "end": 1019,
+              "text": "conda",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "GmlEj1wwvQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 548,
+              "end": 556,
+              "text": "anaconda",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "UhRxw2nl_r",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1217,
+              "end": 1220,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "_NMARamtIw",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1057,
+              "end": 1062,
+              "text": "rdkit",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "k6hFg-oSUa",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1063,
+              "end": 1067,
+              "text": "h5py",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "z7LeyEEzqx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1101,
+              "end": 1121,
+              "text": "Python 3.7 and later",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "qOihTixRTq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-08T00:06:57.942371Z",
+        "updated_at": "2025-11-16T23:58:00.864512Z",
+        "draft_created_at": "2025-11-08T00:06:24.313971Z",
+        "lead_time": 162.50199999999998,
+        "prediction": {},
+        "result_count": 9,
+        "unique_id": "d89964b8-c2f7-4956-9bf3-a17d7a9fbda4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2686,
+        "project": 23586,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Description\n\nThis library consists of a set of modules written in Python3 to automate the following tasks:\n\nInput generation.\n\nHandle tasks dependencies (Noodles_).\n\nAdvanced molecular manipulation capabilities with (rdkit_).\n\nJobs failure detection and recovery.\n\nNumerical data storage (h5py_).\n\nTutorial and Examples\n\nA tutorial written as a jupyter-notebook_ is available from: tutorial-qmflows_. You can also access direclty more advanced examples_.\n\nInstallation\n\nDownload miniconda for python3: miniconda_ (also you can install the complete anaconda_ version).\n\nInstall according to: installConda_.\n\nCreate a new virtual environment using the following commands:\n\n`conda create -n qmflows\n\nActivate the new virtual environment\n\nsource activate qmflows\n\nTo exit the virtual environment type source deactivate.\n\n.. _dependecies:\n\nDependencies installation\n\nType in your terminal:\n\nconda activate qmflows\n\nUsing the conda environment the following packages should be installed:\n\ninstall rdkit_ and h5py_ using conda:\n\nconda install -y -q -c conda-forge rdkit h5py\n\nNote that rdkit is optional for Python 3.7 and later.\n\n.. _installation:\n\nPackage installation\n\nFinally install the package:\n\nInstall QMFlows using pip:\n\npip install qmflows\n\nNow you are ready to use qmflows.\n\nNotes:\n\nOnce the libraries and the virtual environment are installed, you only need to type\n\nconda activate qmflows` each time that you want to use the software.",
+      "section": "Introduction (part 2)",
+      "repo": "162_QMflows",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:14.130141Z",
+    "updated_at": "2025-11-16T23:58:00.902246Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23586,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2687,
+    "annotations": [
+      {
+        "id": 11697,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 19,
+              "end": 60,
+              "text": "https://qmflows.readthedocs.io/en/latest/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "1YUTNxhKBC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-08T00:07:14.665050Z",
+        "updated_at": "2025-11-14T12:42:46.926760Z",
+        "draft_created_at": "2025-11-08T00:07:07.853630Z",
+        "lead_time": 25.796,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "6c65f033-dbae-42cc-810c-ff57365966cb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2687,
+        "project": 23586,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": ".. _documentation: https://qmflows.readthedocs.io/en/latest/ .. _miniconda: https://docs.conda.io/en/latest/miniconda.html .. _anaconda: https://www.anaconda.com/distribution/#download-section .. _installConda: https://conda.io/projects/conda/en/latest/user-guide/install/index.html .. _Noodles: http://nlesc.github.io/noodles/ .. _h5py: http://www.h5py.org/ .. _here: https://www.python.org/downloads/ .. _rdkit: http://www.rdkit.org .. _jupyter-notebook: http://jupyter.org/ .. _tutorial-qmflows: https://github.com/SCM-NV/qmflows/tree/master/jupyterNotebooks .. _examples: https://github.com/SCM-NV/qmflows/tree/master/src/qmflows/examples .. _PLAMS: https://github.com/SCM-NV/PLAMS",
+      "section": "Introduction (part 3)",
+      "repo": "162_QMflows",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:14.130163Z",
+    "updated_at": "2025-11-14T12:42:46.964544Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23586,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

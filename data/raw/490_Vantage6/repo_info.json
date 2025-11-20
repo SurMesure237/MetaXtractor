@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/vantage6/vantage6",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "TypeScript",
+    "HTML",
+    "SCSS",
+    "Makefile",
+    "Dockerfile",
+    "Jinja",
+    "Shell",
+    "JavaScript"
+  ],
+  "downloadUrl": "https://api.github.com/repos/vantage6/vantage6/zipball/main",
+  "author": "vantage6",
+  "dateCreated": "2022-05-16T12:09:26Z",
+  "dateModified": "2025-10-28T09:22:54Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "The main vantage6 repository: code for the central server, nodes, CLI and Python Client",
+  "identifier": 492818831,
+  "name": "vantage6/vantage6",
+  "issueTracker": "https://api.github.com/repos/vantage6/vantage6/issues",
+  "readme": "https://github.com/vantage6/vantage6/blob/main/README.md"
+}

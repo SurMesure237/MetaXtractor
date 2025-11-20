@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/tudasc/CUAS-MPI",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "CMake",
+    "C",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/tudasc/CUAS-MPI/zipball/main",
+  "author": "tudasc",
+  "dateCreated": "2023-01-19T09:45:17Z",
+  "dateModified": "2025-08-28T12:07:33Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "MPI-parallel implementation of confined–unconfined aquifer system",
+  "identifier": 590822401,
+  "name": "tudasc/CUAS-MPI",
+  "issueTracker": "https://api.github.com/repos/tudasc/CUAS-MPI/issues",
+  "readme": "https://github.com/tudasc/CUAS-MPI/blob/main/README.md"
+}

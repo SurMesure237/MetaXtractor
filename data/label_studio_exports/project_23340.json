@@ -1,0 +1,256 @@
+[
+  {
+    "id": 1422,
+    "annotations": [
+      {
+        "id": 10913,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 737,
+              "end": 1059,
+              "text": "J. M. Hoekstra and J. Ellerbroek, \"[BlueSky ATC Simulator Project: an Open Data and Open Source Approach] https://www.researchgate.net/publication/304490055_BlueSky_ATC_Simulator_Project_an_Open_Data_and_Open_Source_Approach\", Proceedings of the seventh International Conference for Research on Air Transport (ICRAT), 2016",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "hOYLVlRxUa",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:47:31.626622Z",
+        "updated_at": "2025-11-05T17:47:31.626638Z",
+        "draft_created_at": "2025-11-05T17:47:27.887183Z",
+        "lead_time": 24.821,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "fa95e44f-f437-46a3-a169-02fb017b35fd",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1422,
+        "project": 23340,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "BlueSky - The Open Air Traffic Simulator\n\n[](https://open.vscode.dev/TUDelft-CNS-ATM/bluesky) [](https://GitHub.com/TUDelft-CNS-ATM/bluesky/releases/)\n\n[](https://discord.gg/wkBKgXCHYN)\n\n[](https://pypi.python.org/pypi/bluesky-simulator/)\n\n[](https://pypi.python.org/pypi/bluesky-simulator/) [](https://pypi.python.org/pypi/bluesky-simulator/)\n\nBlueSky is meant as a tool to perform research on Air Traffic Management and Air Traffic Flows, and is distributed under the MIT license.\n\nThe goal of BlueSky is to provide everybody who wants to visualize, analyze or simulate air traffic with a tool to do so without any restrictions, licenses or limitations. It can be copied, modified, cited, etc. without any limitations.\n\nCitation info: J. M. Hoekstra and J. Ellerbroek, \"[BlueSky ATC Simulator Project: an Open Data and Open Source Approach] https://www.researchgate.net/publication/304490055_BlueSky_ATC_Simulator_Project_an_Open_Data_and_Open_Source_Approach\", Proceedings of the seventh International Conference for Research on Air Transport (ICRAT), 2016.",
+      "section": "BlueSky - The Open Air Traffic Simulator (part 1)",
+      "repo": "177_Bluesky_software__underlying_the_publication__Distributed_Conflict_Resolution_at_High_Traffic_Densit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.764364Z",
+    "updated_at": "2025-11-05T17:47:31.657722Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23340,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1423,
+    "annotations": [
+      {
+        "id": 10914,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 499,
+              "end": 546,
+              "text": "https://github.com/TUDelft-CNS-ATM/bluesky/wiki",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "LSlPGhXppZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 686,
+              "end": 691,
+              "text": "numpy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "wfhN6pfhIf",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 703,
+              "end": 709,
+              "text": "pygame",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "WG59s59jgM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 713,
+              "end": 715,
+              "text": "Qt",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "oszustTGFA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 716,
+              "end": 722,
+              "text": "OpenGL",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "zfGbk18cdl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 670,
+              "end": 678,
+              "text": "Python 3",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "AeCVU9Rg2k",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:48:43.157391Z",
+        "updated_at": "2025-11-17T00:19:36.825601Z",
+        "draft_created_at": "2025-11-05T17:48:10.544086Z",
+        "lead_time": 111.46100000000001,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "2bbcfaea-0172-4884-aaf4-801b73d4c9ec",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1423,
+        "project": 23340,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## BlueSky Releases\n\nBlueSky is also available as a pip package, for which periodically version releases are made. You can find the latest release here: https://github.com/TUDelft-CNS-ATM/bluesky/releases The BlueSky pip package is installed with the following command:\n\npip install bluesky-simulator[full]\n\nUsing ZSH? Add quotes around the package name: \"bluesky-simulator[full]\". For more installation instructions go to the Wiki.\n\n## BlueSky Wiki\n\nInstallation and user guides are accessible at: https://github.com/TUDelft-CNS-ATM/bluesky/wiki\n\n## Some features of BlueSky:\n\nWritten in the freely available, ultra-simple-hence-easy-to-learn, multi-platform language\n\nPython 3 (using numpy and either pygame or Qt+OpenGL for visualisation) with source Extensible by means of self-contained [plugins] https://github.com/TUDelft-CNS-ATM/bluesky/wiki/plugin\n\nContains open source data on navaids, performance data of aircraft and geography\n\nGlobal coverage navaid and airport data\n\nContains simulations of aircraft performance, flight management system (LNAV, VNAV under construction),\n\nautopilot, conflict detection and resolution and airborne separation assurance systems Compatible with BADA 3.x data\n\nCompatible wth NLR Traffic Manager TMX as used by NLR and NASA LaRC\n\nTraffic is controlled via user inputs in a console window or by playing scenario files (.SCN)\n\ncontaining the same commands with a time stamp before the command (\"HH:MM:SS.hh>\") Mouse clicks in traffic window are use in console for lat/lon/heading and position inputs\n\n## Questions or suggestions?\n\nVisit us on [Discord] https://discord.gg/wkBKgXCHYN, open a topic on the GitHub discussion board, or open an issue.",
+      "section": "BlueSky - The Open Air Traffic Simulator (part 2)",
+      "repo": "177_Bluesky_software__underlying_the_publication__Distributed_Conflict_Resolution_at_High_Traffic_Densit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.764414Z",
+    "updated_at": "2025-11-17T00:19:36.864014Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23340,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1424,
+    "annotations": [
+      {
+        "id": 10915,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:48:44.915790Z",
+        "updated_at": "2025-11-05T17:48:44.915803Z",
+        "draft_created_at": null,
+        "lead_time": 1.57,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "973594b1-1b88-4dd9-8813-6f751bd5ebed",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1424,
+        "project": 23340,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Contributions\n\nBlueSky can be considered 'perpetual beta'. We would like to encourage anyone with a strong interest in ATM and/or Python to join us. Please feel free to comment, criticise, and contribute to this project. Please send suggestions, proposed changes or contributions through GitHub pull requests, preferably after debugging it and optimising it for run-time performance.",
+      "section": "BlueSky - The Open Air Traffic Simulator (part 3)",
+      "repo": "177_Bluesky_software__underlying_the_publication__Distributed_Conflict_Resolution_at_High_Traffic_Densit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.764437Z",
+    "updated_at": "2025-11-05T17:48:44.940910Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23340,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

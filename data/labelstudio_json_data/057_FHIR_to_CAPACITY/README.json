@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "## Badges\n\n| fair-software.eu recommendations | | | :-- | :-- | | code repository | [](https://github.com/FAIR-data-for-CAPACITY/FHIR-to-CAPACITY) | | license | [](https://github.com/FAIR-data-for-CAPACITY/FHIR-to-CAPACITY) | | community registry | [](https://www.research-software.nl/software/fhir-to-capacity) | | citation | [](https://doi.org/10.5281/zenodo.4818370) | | howfairis | [](https://fair-software.eu) | | Other best practices | &nbsp; | | Coverage | [](https://coveralls.io/github/FAIR-data-for-CAPACITY/FHIR-to-CAPACITY?branch=master)| | GitHub Actions | &nbsp; | | Build | [](https://github.com/FAIR-data-for-CAPACITY/FHIR-to-CAPACITY/actions/workflows/build.yml)|\n\n## Installation\n\nTo install FHIR-to-CAPACITY from GitHub repository, do:\n\ngit clone https://github.com/FAIR-data-for-CAPACITY/FHIR-to-CAPACITY.git cd FHIR-to-CAPACITY python3 -m pip install .",
+      "section": "Introduction (part 1)",
+      "repo": "057_FHIR_to_CAPACITY",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Usage\n\nTo upload records from a FHIR server to a CAPACITY registry, execute the following command:\n\nfhir-to-capacity FHIR_BASE_URL CAPACITY_API_URL CAPACITY_TOKEN\n\nUsing the --help option will give you more information:\n\nfhir-to-capacity --help\n\nUsage: scripts/fhir_to_capacity fhir-base-url capacity-url capacity-token\n\nQueries a FHIR server for patients, converts this to records matching the CAPACITY codebook, and uploads the result to a REDCAP server.\n\nArguments:  fhir-base-url  capacity-url  capacity-token\n\nOther actions:  -h, --help Show the help\n\n## Development\n\nThere is an additional command available for filling a FHIR server with synthetic data. It can  be run as follows:\n\nfill-server FHIR_BASE_URL\n\nThe --help option will show you more information:\n\nUsage: scripts/fill_server fhir-base [n]\n\nFills the server with n ramdom patients.\n\nArguments:  fhir-base the url to the FHIR api  n number of patients to create (type: INT, default: 10)\n\nOther actions:  -h, --help Show the help\n\n## Contributing\n\nIf you want to contribute to the development of FHIR-to-CAPACITY, have a look at the [contribution guidelines] CONTRIBUTING.rst.\n\n## Credits\n\nThis package was created with [Cookiecutter] https://github.com/audreyr/cookiecutter and the [NLeSC/python-template] https://github.com/NLeSC/python-template.",
+      "section": "Introduction (part 2)",
+      "repo": "057_FHIR_to_CAPACITY",
+      "source_file": "readme.md"
+    }
+  }
+]

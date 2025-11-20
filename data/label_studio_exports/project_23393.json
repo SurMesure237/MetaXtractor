@@ -1,0 +1,358 @@
+[
+  {
+    "id": 1702,
+    "annotations": [
+      {
+        "id": 10697,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:25:03.796146Z",
+        "updated_at": "2025-11-04T19:25:03.796164Z",
+        "draft_created_at": null,
+        "lead_time": 1.514,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "2e94e1ba-365a-4e37-a4fb-23d9190fe6eb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1702,
+        "project": 23393,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "316_Ansible_Collection_-_hifis.toolkit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.472049Z",
+    "updated_at": "2025-11-04T19:25:03.823307Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23393,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1703,
+    "annotations": [
+      {
+        "id": 10698,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:25:04.798341Z",
+        "updated_at": "2025-11-04T19:25:04.798363Z",
+        "draft_created_at": null,
+        "lead_time": 0.82,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f93431af-8a7d-44db-a20e-f82ff5385ba8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1703,
+        "project": 23393,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Ansible Collection - hifis.toolkit",
+      "section": "Ansible Collection - hifis.toolkit (part 1)",
+      "repo": "316_Ansible_Collection_-_hifis.toolkit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.472097Z",
+    "updated_at": "2025-11-04T19:25:04.827764Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23393,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1704,
+    "annotations": [
+      {
+        "id": 10699,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:25:22.201443Z",
+        "updated_at": "2025-11-04T19:25:22.201465Z",
+        "draft_created_at": null,
+        "lead_time": 17.22,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "cd13955f-efd5-4823-8ff6-a0c613281732",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1704,
+        "project": 23393,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/hifis-net/ansible-collection-toolkit/releases) [](https://github.com/hifis-net/ansible-collection-toolkit/actions/workflows/gitlab_runner.yml) [](https://github.com/hifis-net/ansible-collection-toolkit/actions/workflows/gitlab.yml) [](https://github.com/hifis-net/ansible-collection-toolkit/actions/workflows/haproxy.yml) [](https://github.com/hifis-net/ansible-collection-toolkit/actions/workflows/keepalived.yml) [](https://github.com/hifis-net/ansible-collection-toolkit/actions/workflows/netplan.yml) [](https://github.com/hifis-net/ansible-collection-toolkit/actions/workflows/redis.yml) [](https://github.com/hifis-net/ansible-collection-toolkit/actions/workflows/ssh_keys.yml) [](https://github.com/hifis-net/ansible-collection-toolkit/actions/workflows/unattended_upgrades.yml)",
+      "section": "Ansible Collection - hifis.toolkit (part 2)",
+      "repo": "316_Ansible_Collection_-_hifis.toolkit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.472121Z",
+    "updated_at": "2025-11-04T19:25:22.229501Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23393,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1705,
+    "annotations": [
+      {
+        "id": 10700,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 92,
+              "end": 138,
+              "text": "https://zenodo.org/doi/10.5281/zenodo.11147483",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "s113P-UOQN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:25:30.391368Z",
+        "updated_at": "2025-11-04T19:25:30.391386Z",
+        "draft_created_at": null,
+        "lead_time": 8.016,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "2d9acb2d-870c-40af-b0c0-5da3e1bef93a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1705,
+        "project": 23393,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/hifis-net/ansible-collection-toolkit/actions/workflows/zammad.yml) [](https://zenodo.org/doi/10.5281/zenodo.11147483)",
+      "section": "Ansible Collection - hifis.toolkit (part 3)",
+      "repo": "316_Ansible_Collection_-_hifis.toolkit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.472146Z",
+    "updated_at": "2025-11-04T19:25:30.420690Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23393,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1706,
+    "annotations": [
+      {
+        "id": 10701,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:31:08.953825Z",
+        "updated_at": "2025-11-04T19:31:08.953838Z",
+        "draft_created_at": null,
+        "lead_time": 338.368,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "54cdbc81-72e9-430c-b3fd-2fce9f27a3d8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1706,
+        "project": 23393,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "This collection provides production-ready Ansible roles used for providing services used in research and by research software engineers, but not exclusively. The following use cases are supported:\n\nDevOps platform:  [GitLab] roles/gitlab  deploy [GitLab-Runner] roles/gitlab_runner with a focus, but not limited, on Openstack autoscaling  [Redis] roles/redis  Help desk:  [Zammad] roles/zammad  High Availability (HA) / Load Balancing:  [HAProxy] roles/haproxy  [Keepalived] roles/keepalived  OS-related:  [unattended-upgrades] roles/unattended_upgrades  [netplan] roles/netplan distribute authorized [SSH keys] roles/ssh_keys to users",
+      "section": "Ansible Collection - hifis.toolkit (part 4)",
+      "repo": "316_Ansible_Collection_-_hifis.toolkit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.472169Z",
+    "updated_at": "2025-11-04T19:31:08.980752Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23393,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1707,
+    "annotations": [
+      {
+        "id": 10702,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 595,
+              "end": 605,
+              "text": "Apache-2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "fZ0l-1hQ3W",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 399,
+              "end": 406,
+              "text": "Ansible",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "vMyN7fjGo6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 407,
+              "end": 414,
+              "text": ">= 2.17",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "PZvs8x96RQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:31:35.582642Z",
+        "updated_at": "2025-11-16T13:41:23.770882Z",
+        "draft_created_at": "2025-11-04T19:31:25.498665Z",
+        "lead_time": 58.539,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "a45e99a7-a1ae-4c2b-b0a6-a64d81260e3d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1707,
+        "project": 23393,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Looking for the unattended_upgrades role?\n\nYou can now find it under [roles/unattended_upgrades] roles/unattended_upgrades.\n\nWe moved our existing Ansible roles into a single collection to deduplicate code and have a common test suite for all roles. We decided to reuse the unattended_upgrades repository as a collection repo as it is our most popular role.\n\n## Minimum required Ansible-version\n\nAnsible >= 2.17\n\n## Installation\n\nInstall the collection via ansible-galaxy:\n\nansible-galaxy collection install hifis.toolkit\n\n## Contributing\n\nSee [CONTRIBUTING.md] CONTRIBUTING.md.\n\n## License\n\nApache-2.0\n\n## Author\n\nThis collection is maintained by [HIFIS Software Services] https://hifis.net/.",
+      "section": "Ansible Collection - hifis.toolkit (part 5)",
+      "repo": "316_Ansible_Collection_-_hifis.toolkit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.472191Z",
+    "updated_at": "2025-11-16T13:41:23.802928Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23393,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

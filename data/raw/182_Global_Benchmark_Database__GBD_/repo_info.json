@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/Udopia/gbd",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/Udopia/gbd/zipball/main",
+  "author": "Udopia",
+  "dateCreated": "2018-07-18T07:16:12Z",
+  "dateModified": "2025-10-06T09:21:18Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Management of Benchmark Instances and Instance Attributes",
+  "identifier": 141396410,
+  "name": "Udopia/gbd",
+  "issueTracker": "https://api.github.com/repos/Udopia/gbd/issues",
+  "readme": "https://github.com/Udopia/gbd/blob/main/README.md"
+}

@@ -1,0 +1,16 @@
+{
+  "codeRepository": "https://github.com/simphony/reaxpro-framework-ontology",
+  "programmingLanguage": null,
+  "programmingLanguages": [],
+  "downloadUrl": "https://api.github.com/repos/simphony/reaxpro-framework-ontology/zipball/main",
+  "author": "simphony",
+  "dateCreated": "2023-07-20T14:08:46Z",
+  "dateModified": "2025-07-18T11:39:52Z",
+  "keywords": [],
+  "license": null,
+  "description": "Application ontology for the multiscale simulation platform of the ReaxPro EU Project.",
+  "identifier": 668751856,
+  "name": "simphony/reaxpro-framework-ontology",
+  "issueTracker": "https://api.github.com/repos/simphony/reaxpro-framework-ontology/issues",
+  "readme": "https://github.com/simphony/reaxpro-framework-ontology/blob/main/README.md"
+}

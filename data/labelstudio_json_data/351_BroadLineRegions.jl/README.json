@@ -1,0 +1,42 @@
+[
+  {
+    "data": {
+      "text": "BroadLineRegions.jl\n\n[](https://github.com/kirklong/BroadLineRegions.jl/actions/workflows/CI.yml)\n\nA fast and flexible toolkit for modeling the broad-line region (BLR) in Julia.\n\n[](https://www.kirklong.space/BroadLineRegions.jl/dev/ \"Go to project documentation\") ## Installation\n\n### Julia\n\nusing Pkg Pkg.add(\"BroadLineRegions\")\n\nOr install from the GitHub repo directly:\n\nusing Pkg Pkg.add(\"https://github.com/kirklong/BroadLineRegions.jl\")\n\n### Python\n\nTo access BroadLineRegions from within your Python installation, first you must install [JuliaCall] https://juliapy.github.io/PythonCall.jl/stable/juliacall/. After successfully installing JuliaCall you can add BroadLineRegions to your new Julia installation in Python with:\n\nfrom juliacall import Main as jl from juliacall import Pkg as jlPkg jlPkg.add(\"BroadLineRegions\") #or use the github link",
+      "section": "BroadLineRegions.jl (part 1)",
+      "repo": "351_BroadLineRegions.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Quickstart\n\nWhile this code is designed to be very flexible and modular such that you can implement your own bespoke models of the BLR easier, two popular models of the BLR are included as default models which one can play with.\n\nTo generate a \"cloud\" model similar to that of Pancoast+ 2011 and 2014, use syntax like:\n\nusing BroadLineRegions #exports itself as both BroadLineRegions and the shorter acronym BLR mClouds = BLR.cloudModel(100_000,\u03bc=500.,\u03b2=1.,F=0.5,\u03b8\u2092=30/180\u03c0,\u03b3=1.,\u03be=1.,i=0.,  I=BLR.IsotropicIntensity,v=BLR.vCircularCloud,rescale=1e-5,\u03c4=0.0)\n\nTo generate a \"disk-wind\" model similar to that of Chiang and Murray 1996 and 1997 following the prescription laid out in Long+ 2023 and 2025 use syntax like:\n\nmDisk = BLR.DiskWindModel(500.,5.,1.,30/180\u03c0,nr=24,n\u03d5=48,scale=:log,  f1=1.0,f2=1.0,f3=1.0,f4=1.0,reflect=false,\u03c4=5.)\n\nYou can of course define fully custom models by passing your own \"rings\" (on a camera) and optionally any default profiles, a camera struct, and submodel start indices:\n\nmCustom = BLR.model(myCustomRings,nothing,myCustomCamera,[1]) #a custom model with no profiles, a user-defined camera for raytracing/visualization, and with no submodels\n\nModels can be combined simply by writing mCombined = m1 + m2.\n\nGenerate profiles (i.e. line, phase, delay, or whatever else your heart desires) for models with syntax like:\n\np = BLR.getProfile(m,:line) #generate line profile with default parameters BLR.setProfile!(m,p) #optinally store the profile in model data structure",
+      "section": "BroadLineRegions.jl (part 2)",
+      "repo": "351_BroadLineRegions.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "A few default visualization recipes exist as well:\n\nprofiles = BLR.profile(m) #plot all of the model's stored profiles  img = BLR.image(m,:I) #make an image of the model intensity, can pass any other parameter as well to \"image\" them geometry = BLR.plot3d(m) #visualize the geometry of the system in a 3d plot, can also color points according to any parameter\n\nNote that no functions are exported by default into the global namespace to prevent overlap with other modules, and you must prepend the module name to all methods to access them. BroadLineRegions.jl exports itself as both BroadLineRegions and BLR, so both of these prefixes are equivalent, i.e. BroadLineRegions.model == BLR.model. If adding this prefix annoys you, you can avoid this by specifying the functions you want added to the global namespace in your import/Using statement. For example:\n\nusing BLR: DiskWindModel, cloudModel mDisk = DiskWindModel(parms...) #instead of BLR.DiskWindModel\n\nFor more detailed examples, see the [Usage and Examples] https://www.kirklong.space/BroadLineRegions.jl/dev/usage_examples/ page.\n\nFull documentation is available in the [API] https://www.kirklong.space/BroadLineRegions.jl/dev/api/ section.\n\nAlso note that if you are using BroadLineRegions from within Python you will need to modify all the code examples with the corresponding name that you imported julia with, i.e. the simple cloud example in the quickstart above in Python would become:\n\nfrom juliacall import Main as jl import numpy as np jl.seval(\"Using BroadLineRegions\") #load BLR into Main\n\nmClouds = jl.BLR.cloudModel(100_000,\u03bc=500.,\u03b2=1.,F=0.5,\u03b8\u2092=30/180*np.pi,\u03b3=1.,\u03be=1.,i=0.,  I=jl.BLR.IsotropicIntensity,v=jl.BLR.vCircularCloud,rescale=1e-5,\u03c4=0.0)",
+      "section": "BroadLineRegions.jl (part 3)",
+      "repo": "351_BroadLineRegions.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "You may also consider starting Julia with a sysimage to improve performance (see pure Julia example [here] https://julialang.github.io/PackageCompiler.jl/dev/sysimages.html, and instructions for enabling the functionality in juliacall [here] https://juliapy.github.io/PythonCall.jl/stable/juliacall/#julia-config).",
+      "section": "BroadLineRegions.jl (part 4)",
+      "repo": "351_BroadLineRegions.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Referencing\n\nIf you find this code useful in your work, please cite it as:\n\nlorem ipsum\n\n## Contributing\n\nIf you would like to contribute to the package, please open a pull request. For bug reports and feature requests, please open an issue.",
+      "section": "BroadLineRegions.jl (part 5)",
+      "repo": "351_BroadLineRegions.jl",
+      "source_file": "readme.md"
+    }
+  }
+]

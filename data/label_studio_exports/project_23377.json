@@ -1,0 +1,1026 @@
+[
+  {
+    "id": 1615,
+    "annotations": [
+      {
+        "id": 10762,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 45,
+              "end": 80,
+              "text": "https://doi.org/10.21105/joss.06288",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "F6WdmQvANj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 154,
+              "end": 190,
+              "text": "https://www.gnu.org/licenses/gpl-3.0",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "3EPIINiQCY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 258,
+              "end": 299,
+              "text": "https://mole-docs.readthedocs.io/en/main/",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "caaLrbzgeF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 796,
+              "end": 837,
+              "text": "https://doi.org/10.1016/j.cam.2019.06.042",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "euuRv5fwT1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 926,
+              "end": 967,
+              "text": "https://doi.org/10.1137/S0895479801398025",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "Zq6k0Uhxpc",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1332,
+              "end": 1337,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "f0fX6D7Fn5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1359,
+              "end": 1364,
+              "text": "macOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "tNqjjWeYbF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 195,
+              "end": 253,
+              "text": "https://github.com/csrc-sdsu/mole/actions/workflows/ci.yml",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "nbDJ01Jlxc",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:26:36.656052Z",
+        "updated_at": "2025-11-15T16:34:40.130972Z",
+        "draft_created_at": "2025-11-05T16:25:46.098787Z",
+        "lead_time": 111.46199999999999,
+        "prediction": {},
+        "result_count": 8,
+        "unique_id": "b9c544e9-72fb-4c62-add3-86ccfe0ad788",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1615,
+        "project": 23377,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "MOLE: Mimetic Operators Library Enhanced\n\n[](https://doi.org/10.21105/joss.06288) [](https://www.mathworks.com/matlabcentral/fileexchange/124870-mole) [](https://www.gnu.org/licenses/gpl-3.0) [](https://github.com/csrc-sdsu/mole/actions/workflows/ci.yml) [](https://mole-docs.readthedocs.io/en/main/)\n\n## Description\n\nMOLE is a high-quality (C++ & MATLAB/Octave) library that implements high-order mimetic operators to solve partial differential equations. It provides discrete analogs of the most common vector calculus operators: Gradient, Divergence, Laplacian, Bilaplacian, and Curl. These operators (highly sparse matrices) act on staggered grids (uniform, non-uniform, curvilinear) and satisfy local and global conservation laws.\n\nMathematics is based on the work of [Corbino and Castillo] https://doi.org/10.1016/j.cam.2019.06.042. However, the user may find helpful previous publications, such as [Castillo and Grone] https://doi.org/10.1137/S0895479801398025, in which similar operators were derived using a matrix analysis approach.\n\n## Installation\n\n### Platform and Compiler Compatibility\n\nRefer to the table below for compiler support across different operating systems when building MOLE.\n\n| OS / Compiler | GCC 13.2.0 | AppleClang | IntelLLVM (icpx) | |---------------|------------|------------|------------------| | Linux | Yes | No | Yes | | macOS | No | Yes | Yes |",
+      "section": "MOLE: Mimetic Operators Library Enhanced (part 1)",
+      "repo": "252_Mimetic_Operators_Library_Enhanced__MOLE_",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.384641Z",
+    "updated_at": "2025-11-15T16:34:40.166678Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23377,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1616,
+    "annotations": [
+      {
+        "id": 10763,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 150,
+              "end": 156,
+              "text": "Eigen3",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "cu88TRH17f",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 158,
+              "end": 164,
+              "text": "LAPACK",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "UCLtribWd8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 177,
+              "end": 183,
+              "text": "libomp",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "NYy-kHyFjl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 276,
+              "end": 340,
+              "text": "https://github.com/csrc-sdsu/mole/blob/main/doc/sphinx/README.md",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "m28rKEE848",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 380,
+              "end": 386,
+              "text": "Ubuntu",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "5d05ow3TZx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 387,
+              "end": 393,
+              "text": "Debian",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "IzpBGV8LLe",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 85,
+              "end": 90,
+              "text": "CMake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ep4G73jDbS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 108,
+              "end": 112,
+              "text": "3.10",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "8vVZVDeg4E",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 115,
+              "end": 123,
+              "text": "OpenBLAS",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "2_Sh4dSPGz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 141,
+              "end": 147,
+              "text": "0.3.10",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "MqOZ9ACUII",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:27:18.998402Z",
+        "updated_at": "2025-11-15T16:35:17.315026Z",
+        "draft_created_at": "2025-11-05T16:26:48.328561Z",
+        "lead_time": 78.142,
+        "prediction": {},
+        "result_count": 10,
+        "unique_id": "939af714-335c-4d5d-a3d1-d535b69a31b0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1616,
+        "project": 23377,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Prerequisites\n\nTo install the MOLE library, you'll need the following packages:\n\nCMake (Minimum version 3.10)\n\nOpenBLAS (Minimum version 0.3.10)\n\nEigen3\n\nLAPACK (Mac only)\n\nlibomp (Mac only)\n\nFor documentation build requirements, please refer to the [Documentation Guide] https://github.com/csrc-sdsu/mole/blob/main/doc/sphinx/README.md.\n\n### Package Installation by OS\n\n#### Ubuntu/Debian Systems",
+      "section": "MOLE: Mimetic Operators Library Enhanced (part 2)",
+      "repo": "252_Mimetic_Operators_Library_Enhanced__MOLE_",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.384678Z",
+    "updated_at": "2025-11-15T16:35:17.350124Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23377,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1617,
+    "annotations": [
+      {
+        "id": 10764,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 89,
+              "end": 94,
+              "text": "macOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "jnsFyGgUhx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 47,
+              "end": 52,
+              "text": "cmake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "XmuyRhv7t1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 53,
+              "end": 68,
+              "text": "libopenblas-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "hBUr7TFR81",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 69,
+              "end": 82,
+              "text": "libeigen3-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "LyEtGpzTFC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 113,
+              "end": 121,
+              "text": "Homebrew",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "gvpRaItgj2",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 224,
+              "end": 229,
+              "text": "cmake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "BiFk9qbEq-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 230,
+              "end": 238,
+              "text": "openblas",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "TcFvyI9KTP",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 239,
+              "end": 244,
+              "text": "eigen",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "pME-EpK0vy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 245,
+              "end": 251,
+              "text": "libomp",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "9EhO3ml33a",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 252,
+              "end": 258,
+              "text": "lapack",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "_i1CiwV354",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 640,
+              "end": 644,
+              "text": "RHEL",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "s3DqjHR12S",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 645,
+              "end": 651,
+              "text": "CentOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "aihHV7l3hY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 652,
+              "end": 658,
+              "text": "Fedora",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "8i46KSKrnK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 123,
+              "end": 139,
+              "text": "https://brew.sh/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "xo4Hk8gUPM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:28:06.370888Z",
+        "updated_at": "2025-11-16T13:32:02.330132Z",
+        "draft_created_at": "2025-11-05T16:27:27.262458Z",
+        "lead_time": 88.112,
+        "prediction": {},
+        "result_count": 14,
+        "unique_id": "3fd8b3dd-c411-48b6-849c-208721ab388f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1617,
+        "project": 23377,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Install all required packages sudo apt install cmake libopenblas-dev libeigen3-dev\n\n#### macOS Systems\n\nInstall [Homebrew] https://brew.sh/ if you don't have it already, then run:\n\nInstall all required packages brew install cmake openblas eigen libomp lapack\n\nTroubleshooting Homebrew: If you encounter installation errors, try these steps: ``bash # Fix permissions issues\n\nsudo chown -R $(whoami) /usr/local/Cellar # Fix shallow clone issues\n\ngit -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core fetch --unshallow # Remove Java dependencies if they cause conflicts\n\nbrew uninstall --ignore-dependencies java brew update ``\n\n#### RHEL/CentOS/Fedora Systems",
+      "section": "Install all required packages + Install all required packages",
+      "repo": "252_Mimetic_Operators_Library_Enhanced__MOLE_",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.384701Z",
+    "updated_at": "2025-11-16T13:32:02.360662Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23377,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1618,
+    "annotations": [
+      {
+        "id": 10765,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 47,
+              "end": 52,
+              "text": "cmake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "mkd6nbU__G",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 53,
+              "end": 67,
+              "text": "openblas-devel",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "tlYUSXePXA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 68,
+              "end": 80,
+              "text": "eigen3-devel",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Wb6syOnEE8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 81,
+              "end": 87,
+              "text": "lapack",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "7CPJ2r20TT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1139,
+              "end": 1145,
+              "text": "macOSX",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "YFca_ArTOC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1165,
+              "end": 1172,
+              "text": "gnuplot",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "1G8CUjh7UA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1181,
+              "end": 1188,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "PviPbOJsds",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1081,
+              "end": 1088,
+              "text": "gnuplot",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "V-Wwr_5Slu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:29:09.131738Z",
+        "updated_at": "2025-11-15T16:37:28.715822Z",
+        "draft_created_at": "2025-11-05T16:28:16.872774Z",
+        "lead_time": 154.004,
+        "prediction": {},
+        "result_count": 8,
+        "unique_id": "2a22c7c9-f594-4810-889f-362364011910",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1618,
+        "project": 23377,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Install all required packages sudo yum install cmake openblas-devel eigen3-devel lapack\n\n## Building and Installing\n\nClone the repository:\n\n``bash  git clone https://github.com/csrc-sdsu/mole.git  cd mole  `\n\nBuild the library:\n\n`bash  mkdir build && cd build  cmake ..  make  `\n\nInstall the library:\n\nFor a custom location:\n\n`bash  cmake --install . --prefix /path/to/location  ` For a system location (requires privileges):\n\n`bash  sudo cmake --install .  `  Or  `bash  sudo cmake --install . --prefix /path/to/privileged/location  `\n\nNote: Armadillo and SuperLU will be automatically installed in the build directory during the build process.\n\n## Testing\n\nRun from the build directory:\n\n### C++\n\nA suite of four automatic tests that verify MOLE's installation and dependencies. These tests run automatically during the C++ library construction.\n\nmake run_tests\n\n### MATLAB/Octave\n\nMATLAB/Octave equivalent of the C++ test suite. We recommend running these tests before using MOLE to ensure proper setup.\n\nmake run_matlab_octave_tests\n\n## Examples\n\nMany of the examples require 'gnuplot' to visualize the results. You can get gnuplot on macOSX with\n\nbrew install gnuplot\n\nand on Windows downlaoding and running the file from [here] https://sourceforge.net/projects/gnuplot/files/gnuplot/6.0.2/gp602-win64-mingw.exe/download\n\n### C++\n\nFour self-contained, well-documented examples demonstrating typical PDE solutions. These are automatically built with make` and serve as an excellent starting point for C++ users.\n\n### MATLAB/Octave Examples\n\nA collection of over 30 examples showcasing various PDE solutions, from simple linear one-dimensional problems to complex nonlinear multidimensional scenarios.",
+      "section": "Install all required packages (part 1)",
+      "repo": "252_Mimetic_Operators_Library_Enhanced__MOLE_",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.384733Z",
+    "updated_at": "2025-11-15T16:37:28.752214Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23377,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1619,
+    "annotations": [
+      {
+        "id": 10766,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 126,
+              "end": 169,
+              "text": "https://mole-docs.readthedocs.io/en/latest/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "lJXvv0jNUs",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 641,
+              "end": 667,
+              "text": "GNU General Public License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "oe7m9hmzAP",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:29:49.750091Z",
+        "updated_at": "2025-11-15T16:38:23.274272Z",
+        "draft_created_at": "2025-11-05T16:29:29.191789Z",
+        "lead_time": 93.594,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "0a112747-e5a9-4e41-92ca-5a08db0723bc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1619,
+        "project": 23377,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Documentation\n\nMOLE comes with comprehensive documentation:\n\nAPI Reference & User Guide: Access our online [Documentation] https://mole-docs.readthedocs.io/en/latest/\n\nBuilding Documentation: To build documentation locally, follow our [Documentation Guide] https://github.com/csrc-sdsu/mole/blob/main/doc/sphinx/README.md.\n\nImportant Note: Performing non-unary operations involving operands constructed over different grids may lead to unexpected results. While MOLE allows such operations without throwing errors, users must exercise caution when manipulating operators across different grids.\n\n## Licensing\n\nMOLE is distributed under a GNU General Public License; please refer to the _LICENSE_ file for more details.\n\n## Community Guidelines\n\nWe welcome contributions to MOLE, including: Adding new functionalities\n\nProviding examples\n\nAddressing existing issues\n\nReporting bugs\n\nRequesting new features\n\nPlease refer to our [Contribution Guidelines] https://github.com/csrc-sdsu/mole/blob/main/CONTRIBUTING.md for more details.",
+      "section": "Install all required packages (part 2)",
+      "repo": "252_Mimetic_Operators_Library_Enhanced__MOLE_",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.384758Z",
+    "updated_at": "2025-11-15T16:38:23.310225Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23377,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1620,
+    "annotations": [
+      {
+        "id": 10767,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 168,
+              "end": 545,
+              "text": "@article{Corbino2024, doi = {10.21105/joss.06288}, url = {https://doi.org/10.21105/joss.06288}, year = {2024}, publisher = {The Open Journal}, volume = {9}, number = {99}, pages = {6288}, author = {Corbino, Johnny and Dumett, Miguel A. and Castillo, Jose E.}, title = {MOLE: Mimetic Operators Library Enhanced}, journal = {Journal of Open Source Software} }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "yqmC_kiGJA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 689,
+              "end": 1347,
+              "text": "@misc{MOLE_user_manual, author = {Barra, Valeria and Boada, Angel and Brzenski, Jared and Castillo, Jose and Chakalasiya, Prit and Singh, Surinder Chhabra and Corbino, Johnny Delgado and Drummond, Tony and Dumett, Miguel and Hellmers, Joe and Ilaty, Arshia and Kaviani, Katayoon and Nzerem, Oluchi and Pagallo, Giulia and Paolini, Christopher and Rosano, Valentina and Srinivas, Aneesh Murthy and Srinivasan, Janani Priyadharshini and Valera, Manuel}, title = {{MOLE User Manual}}, month = aug, year = 2025, publisher = {Zenodo}, version = {1.1.0}, doi = {10.5281/zenodo.16898575}, url = {https://doi.org/10.5281/zenodo.16898575}, }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "MyfL5UPurF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 615,
+              "end": 650,
+              "text": "https://zenodo.org/records/16898575",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "xiJQd51QGl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:30:17.717260Z",
+        "updated_at": "2025-11-05T16:30:17.717270Z",
+        "draft_created_at": "2025-11-05T16:30:00.054453Z",
+        "lead_time": 27.769,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "d8955ac0-701c-46c6-ba19-05dc4c93dbd3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1620,
+        "project": 23377,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## How to Cite\n\nPlease cite our work if you use MOLE in your research or software. Citations are helpful for the continued development and maintenance of the library.\n\n@article{Corbino2024,   doi = {10.21105/joss.06288},   url = {https://doi.org/10.21105/joss.06288},   year = {2024},   publisher = {The Open Journal},   volume = {9},   number = {99},   pages = {6288},   author = {Corbino, Johnny and Dumett, Miguel A. and Castillo, Jose E.},   title = {MOLE: Mimetic Operators Library Enhanced},   journal = {Journal of Open Source Software} }\n\nThe archival copy of the MOLE User Manual is maintained on [Zenodo] https://zenodo.org/records/16898575. To cite the User Manual please use:\n\n@misc{MOLE_user_manual,  author = {Barra, Valeria and  Boada, Angel and  Brzenski, Jared and  Castillo, Jose and  Chakalasiya, Prit and  Singh, Surinder Chhabra and  Corbino, Johnny Delgado and  Drummond, Tony and  Dumett, Miguel and  Hellmers, Joe and  Ilaty, Arshia and  Kaviani, Katayoon and  Nzerem, Oluchi and  Pagallo, Giulia and  Paolini, Christopher and  Rosano, Valentina and  Srinivas, Aneesh Murthy and  Srinivasan, Janani Priyadharshini and  Valera, Manuel},  title = {{MOLE User Manual}},  month = aug,  year = 2025,  publisher = {Zenodo},  version = {1.1.0},  doi = {10.5281/zenodo.16898575},  url = {https://doi.org/10.5281/zenodo.16898575}, }",
+      "section": "Install all required packages (part 3)",
+      "repo": "252_Mimetic_Operators_Library_Enhanced__MOLE_",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.384788Z",
+    "updated_at": "2025-11-05T16:30:17.747714Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23377,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1621,
+    "annotations": [
+      {
+        "id": 10768,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:30:21.057392Z",
+        "updated_at": "2025-11-05T16:30:21.057406Z",
+        "draft_created_at": null,
+        "lead_time": 3.103,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "68d05aae-2f99-48a1-a503-f248fdaebbb4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1621,
+        "project": 23377,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Gallery\n\nNow, some cool pictures obtained with MOLE:",
+      "section": "Install all required packages (part 4)",
+      "repo": "252_Mimetic_Operators_Library_Enhanced__MOLE_",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.384807Z",
+    "updated_at": "2025-11-05T16:30:21.085014Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23377,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

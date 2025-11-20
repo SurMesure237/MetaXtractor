@@ -1,0 +1,51 @@
+[
+  {
+    "id": 2214,
+    "annotations": [
+      {
+        "id": 10298,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:51:14.248026Z",
+        "updated_at": "2025-11-03T06:51:14.248046Z",
+        "draft_created_at": null,
+        "lead_time": 10.483,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "5d9cba4e-2a9b-4db0-a203-356542f09d69",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2214,
+        "project": 23497,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# Example repo for a GitHub self-hosted runner\n\nContains a Python package called justatest and a unit test for it.\n\nTo test with your own runner\n\n[Duplicate] https://help.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository this repo\n\nChange visibility to private\n\nSet up runner as described in [https://github.com/ci-for-research/self-hosted-runners] https://github.com/ci-for-science/self-hosted-runners\n\nMake change to repo to trigger [GitHub Action workflow] .github/workflows/ci.yml to run.\n\n## Install\n\npoetry install\n\n## Usage\n\nfrom justatest import sum assert sum(2, 4) == 6\n\n## Run tests\n\npoetry run pytest tests",
+      "section": "README",
+      "repo": "240_self-hosted_runners",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.693231Z",
+    "updated_at": "2025-11-03T06:51:14.275590Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23497,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

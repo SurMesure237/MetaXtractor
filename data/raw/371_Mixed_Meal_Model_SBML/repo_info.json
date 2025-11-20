@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/max-de-rooij/MealModel.jl",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Julia"
+  ],
+  "downloadUrl": "https://api.github.com/repos/max-de-rooij/MealModel.jl/zipball/main",
+  "author": "max-de-rooij",
+  "dateCreated": "2023-07-11T09:07:41Z",
+  "dateModified": "2023-10-19T13:23:06Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": null,
+  "identifier": 665021464,
+  "name": "max-de-rooij/MealModel.jl",
+  "issueTracker": "https://api.github.com/repos/max-de-rooij/MealModel.jl/issues",
+  "readme": "https://github.com/max-de-rooij/MealModel.jl/blob/main/README.md"
+}

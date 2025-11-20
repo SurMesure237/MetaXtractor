@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/shlomenu/raven-gen",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/shlomenu/raven-gen/zipball/main",
+  "author": "shlomenu",
+  "dateCreated": "2022-09-25T22:57:35Z",
+  "dateModified": "2025-06-01T09:58:58Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "A tool for programmatic and customizable generation of variable-resolution visual puzzles testing abstract visual reasoning",
+  "identifier": 541332501,
+  "name": "shlomenu/raven-gen",
+  "issueTracker": "https://api.github.com/repos/shlomenu/raven-gen/issues",
+  "readme": "https://github.com/shlomenu/raven-gen/blob/main/README.md"
+}

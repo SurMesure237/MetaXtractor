@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "voxgan\n\n[](https://doi.org/10.25919/cdgf-cw44)\n\nvoxgan is a Python package to generate 2D and 3D images using Generative Adversarial Networks and PyTorch. It was developed to help along the project [FluvGAN] https://github.com/grongier/fluvgan, with no specific development planned beyond this project.\n\n## Installation\n\nYou can directly install voxgan from pip:\n\npip install voxgan\n\nOr from GitHub using pip:\n\npip install git+https://github.com/grongier/voxgan.git\n\nTo run the Jupyter notebook in [examples] examples you will also need pandas, matplotlib, and jupyter, which you can install from pip too:\n\npip install pandas matplotlib jupyter\n\n## Usage\n\nHere's a basic example of voxgan's API:\n\nfrom voxgan.models.dcgan import DCGAN3d\n\nDefine a PyTorch dataset for training training_dataset = # TO DEFINE\n\nDefine a GAN based on DCGAN, which includes generator and discriminator gan = DCGAN3d()\n\nConfigure the GAN for training, including the optimizers gan.configure()\n\nTrain the GAN gan.train(training_dataset)",
+      "section": "voxgan + Define a PyTorch dataset for training + Define a GAN based on DCGAN, which includes generator and discriminator (and 2 more)",
+      "repo": "309_FluvGAN__Python_scripts_to_test_generating_and_inverting_fluvial_deposits_using_GANs",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Generate 10 samples samples = gan.predict(num_samples=10)\n\nFor a more complete example, see the Jupyter notebook [using_voxgan.ipynb] examples/using_voxgan.ipynb in [examples] examples. For more advanced uses of voxgan, see [FluvGAN] https://github.com/grongier/fluvgan.\n\n## Citation\n\nIf you use voxgan in your research, please cite the original article(s) describing the method(s) you used (see the docstrings for the references). You can also cite voxgan itself:\n\nRongier, G. (2021) voxgan. v1. CSIRO. Software Collection. https://doi.org/10.25919/cdgf-cw44\n\nHere is the corresponding BibTex entry if you use LaTex:\n\n@misc{Rongier2021,  author = \"Rongier, Guillaume\",  title = \"voxgan\",  number = \"v1\",  institution = \"CSIRO\",  type = \"Software Collection\",  year = \"2021\",  doi = \"10.25919/cdgf-cw44\"  }\n\n## Credits\n\nThis software was written by:\n\n| [Guillaume Rongier] https://github.com/grongier [](https://orcid.org/0000-0002-5910-6868) | | :---: |\n\n## License\n\nCopyright notice: Technische Universiteit Delft hereby disclaims all copyright interest in the program voxgan written by the Author(s). Prof.dr.ir. S.G.J. Aarninkhof, Dean of the Faculty of Civil Engineering and Geosciences\n\n&#169; 2021-2025, Guillaume Rongier  &#169; 2020-2021, Commonwealth Scientific and Industrial Research Organisation (CSIRO) ABN 41 687 119 230\n\nThis work is licensed under a MIT OSS licence, see [LICENSE] LICENSE for more information.",
+      "section": "Generate 10 samples",
+      "repo": "309_FluvGAN__Python_scripts_to_test_generating_and_inverting_fluvial_deposits_using_GANs",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/kentonl/e2e-coref",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "C++",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/kentonl/e2e-coref/zipball/main",
+  "author": "kentonl",
+  "dateCreated": "2017-07-21T00:25:05Z",
+  "dateModified": "2025-09-25T18:11:21Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "End-to-end Neural Coreference Resolution",
+  "identifier": 97889074,
+  "name": "kentonl/e2e-coref",
+  "issueTracker": "https://api.github.com/repos/kentonl/e2e-coref/issues",
+  "readme": "https://github.com/kentonl/e2e-coref/blob/master/README.md"
+}

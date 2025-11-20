@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/SecureSECO/FAIRSECO",
+  "programmingLanguage": "TypeScript",
+  "programmingLanguages": [
+    "TypeScript",
+    "EJS",
+    "JavaScript"
+  ],
+  "downloadUrl": "https://api.github.com/repos/SecureSECO/FAIRSECO/zipball/main",
+  "author": "SecureSECO",
+  "dateCreated": "2022-09-19T13:28:05Z",
+  "dateModified": "2025-10-01T14:58:52Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/agpl-3.0",
+  "description": null,
+  "identifier": 538515959,
+  "name": "SecureSECO/FAIRSECO",
+  "issueTracker": "https://api.github.com/repos/SecureSECO/FAIRSECO/issues",
+  "readme": "https://github.com/SecureSECO/FAIRSECO/blob/main/README.md"
+}

@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/NLESC-JCER/Fortran_Davidson",
+  "programmingLanguage": "Fortran",
+  "programmingLanguages": [
+    "Fortran",
+    "CMake",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/NLESC-JCER/Fortran_Davidson/zipball/main",
+  "author": "NLESC-JCER",
+  "dateCreated": "2019-01-09T17:24:33Z",
+  "dateModified": "2025-07-09T06:36:43Z",
+  "keywords": [
+    "davidson-eigensolver",
+    "eigenvalues",
+    "linear-algebra",
+    "modern-fortran",
+    "research-and-development"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Davidson eigensolver implemented in Fortran",
+  "identifier": 164907178,
+  "name": "NLESC-JCER/Fortran_Davidson",
+  "issueTracker": "https://api.github.com/repos/NLESC-JCER/Fortran_Davidson/issues",
+  "readme": "https://github.com/NLESC-JCER/Fortran_Davidson/blob/master/README.md"
+}

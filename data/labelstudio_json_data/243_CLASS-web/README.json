@@ -1,0 +1,50 @@
+[
+  {
+    "data": {
+      "text": "CLASS-web\n\n[]([https://github.com//classmodel/class-web] https://github.com//classmodel/class-web) [](https://github.com/classmodel/class-web/actions/workflows/quality.yml) [](https://www.npmjs.com/package/@classmodel/class) [](https://biomejs.dev) [](https://research-software-directory.org/software/class-web) [](https://classmodel.github.io/class-web/docs/) [](https://doi.org/10.5281/zenodo.15609038)\n\nThis is an implementation of the Chemistry Land-surface Atmosphere Soil Slab (CLASS) model that runs entirely in the browser.\n\nFor more information on CLASS, see https://classmodel.github.io/.\n\n## Web application\n\nThe CLASS web application (from [apps/class-solid] apps/class-solid directory) is available at https://classmodel.github.io/class-web.\n\n## Command line usage\n\nThe class model can be run from the command line, see [packages/class/README.md] packages/class/README.md#command-line-usage for more information.\n\n## Package usage\n\nThe class model can be used a package or library, see [packages/class/README.md] packages/class/README.md#package-usage for more information.\n\nThe app uses a form component that has been generalized into a package, see [packages/form/README.md] packages/form/README.md for more information.",
+      "section": "CLASS-web (part 1)",
+      "repo": "243_CLASS-web",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Developers\n\nThis repository is a so-called monorepo, where multiple packages and application can easily be developed in tandem.\n\nWe used [TurboRepo] https://turbo.build/repo for the initial setup, which uses [pnpm workspaces] https://pnpm.io/workspaces under the hood. As such, it is possible to do advanced tricks with Turbo, such as \"lint/test/build all apps/packages at once with turbo build\", and share tooling configurations across packages/apps, but since this repo is small, we will not rely too much on these features.\n\nCurrently the repo is home to the following:\n\npackages/\n\nclass: reimplementation of CLASS in typescript\n\napps/\n\nclass-solid: web application with a graphical user interface for CLASS\n\n### Publish package\n\nTo publish a new version of the class package:\n\nBump version in **/package.json files. They should all have same version.\n\nCommit & push changes to main branch.\n\nCreate a new [GitHub release] https://github.com/classmodel/class-web/releases\n\nTag version and title should be the same as the version in the package.json file with v prefix.\n\nUse Implementation of the Chemistry Land-surface Atmosphere Soil Slab (CLASS) model that runs entirely in the browser. as the description with generated release notes.\n\nA GitHub CI workflow will publish the package to [npmjs] https://www.npmjs.com/package/@classmodel/class\n\n## Local build\n\nTo run a local development version:\n\ngit clone git@github.com:classmodel/class-web.git cd class-web pnpm install pnpm dev\n\n## Linter & formatter\n\nWe use [biome] https://biomejs.dev/ to lint and format the code.  The following commands are available",
+      "section": "CLASS-web (part 2)",
+      "repo": "243_CLASS-web",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "To run linter and formatter use pnpm format-and-lint\n\nTo fix formatting and some lint errors run pnpm format-and-lint:fix",
+      "section": "To run linter and formatter use + To fix formatting and some lint errors run",
+      "repo": "243_CLASS-web",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "To run other biome comands use pnpm exec biome --help\n\nTo check types, you can run the pnpm typecheck command as other commands ignore types.\n\n## Tests\n\nThe tests can be run with the following command:\n\npnpm test",
+      "section": "To run other biome comands use (part 1)",
+      "repo": "243_CLASS-web",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Tech stack\n\nThe CLASS package is written in typescript. It uses a [JSON schema] https://json-schema.org/ to define the shape and constraints of a configuration. JSON schema is cross-langanuage and is ideal for sharing the configuration between web-app, library code, and perhaps other implementations of CLASS as well. To validate a configuration it uses the JSON schema together with [ajv] https://ajv.js.org/. Ajv is the reference JSON schema validator in then JS ecosystem.\n\nThe CLI uses [Commander] https://www.npmjs.com/package/commander to parse the command line arguments. Commander is the most popular package for building command line interfaces with sub-command support in Mode.js.\n\nThe web application is build with [solid.js] https://docs.solidjs.com/. Solid is a relatively simple framework for building reactive web applications. With its metaframework [SolidStart] https://docs.solidjs.com/solid-start it is quite easy to pre-render the web application as static pages that can be hosted on github pages. To keep track of form state and errors it uses [modular forms] https://modularforms.dev/ package.\n\nWe've chosen [SolidUI] https://www.solid-ui.com/ as the basis for the UI. Build after [ShadCN](), SolidUI provides good-looking, accessible components (powered by [Kobalte] https://kobalte.dev/docs/core/overview/introduction and [tailwind] https://tailwindcss.com/) that can be copy-pasted into the web application and tweaked further as seen fit. It can also do charts, using [chart.js] https://www.chartjs.org/, though we might deviate from that later.",
+      "section": "To run other biome comands use (part 2)",
+      "repo": "243_CLASS-web",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "To prevent the user interface from getting blocked by running the model we use a [Web worker] https://developer.mozilla.org/en-US/docs/Web/API/Worker to run the computation in a background task/thread. We use [comlink] https://github.com/GoogleChromeLabs/comlink to wrap the Web Worker so it behaves the same as if the runner was used directly inside the main thread.\n\nTo format and lint the code, we use [biome] https://biomejs.dev/ as it combines eslint, prettier in one package.\n\nFurther plans/ideas\n\nUse [auto] https://intuit.github.io/auto/index for managing versions/releases\n\nUse [d3.js] https://d3js.org/ for more low-level charting\n\nUse [AssemblyScript] https://www.assemblyscript.org/ or\n\n[rust] https://www.rust-lang.org/what/wasm for a faster implementation of  CLASS running on web assembly. Use [storybook] https://storybook.js.org/ for UI component package",
+      "section": "To run other biome comands use (part 3)",
+      "repo": "243_CLASS-web",
+      "source_file": "readme.md"
+    }
+  }
+]

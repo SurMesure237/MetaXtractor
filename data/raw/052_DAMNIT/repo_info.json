@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/European-XFEL/DAMNIT",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/European-XFEL/DAMNIT/zipball/main",
+  "author": "European-XFEL",
+  "dateCreated": "2023-06-15T09:33:14Z",
+  "dateModified": "2025-10-30T16:55:38Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "Data And Metadata iNspection Interactive Thing",
+  "identifier": 654050686,
+  "name": "European-XFEL/DAMNIT",
+  "issueTracker": "https://api.github.com/repos/European-XFEL/DAMNIT/issues",
+  "readme": "https://github.com/European-XFEL/DAMNIT/blob/master/README.md"
+}

@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/hpgem/hpgem",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "CMake",
+    "TeX",
+    "Python",
+    "Shell",
+    "C",
+    "HTML",
+    "GLSL",
+    "CSS"
+  ],
+  "downloadUrl": "https://api.github.com/repos/hpgem/hpgem/zipball/main",
+  "author": "hpgem",
+  "dateCreated": "2019-10-16T13:44:49Z",
+  "dateModified": "2024-03-29T18:23:55Z",
+  "keywords": [],
+  "license": null,
+  "description": "Finite element library for DG ",
+  "identifier": 215558757,
+  "name": "hpgem/hpgem",
+  "issueTracker": "https://api.github.com/repos/hpgem/hpgem/issues",
+  "readme": "https://github.com/hpgem/hpgem/blob/master/README.md"
+}

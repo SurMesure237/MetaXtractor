@@ -1,0 +1,853 @@
+[
+  {
+    "id": 1020,
+    "annotations": [
+      {
+        "id": 11225,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1429,
+              "end": 1434,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "_RDSdOiYPR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1439,
+              "end": 1445,
+              "text": "MacOSX",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "0VRN18-Y-3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1308,
+              "end": 1323,
+              "text": "Twitter package",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "yOFZUiEUwS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1368,
+              "end": 1403,
+              "text": "https://github.com/sixohsix/twitter",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "WiW-qiuZCT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:24:00.638094Z",
+        "updated_at": "2025-11-16T04:57:10.790141Z",
+        "draft_created_at": "2025-11-06T06:17:59.879195Z",
+        "lead_time": 398.555,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "bdfe1b8c-06d5-4c6c-8245-1c4bc7f7b345",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1020,
+        "project": 23269,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Hercules: Tweet Retrieval and Machine Learning\n\nThis directory contains the software developed in the main Machine Learning part of the project [Automated Analysis of Online Behaviour on Social Media] https://www.esciencecenter.nl/project/automated-analysis-of-online-behaviour-on-social-media, a cooperation of the University of Groningen and the Netherlands eScience Center. This project also has a software repository regarding [finding journalists] https://github.com/online-behaviour/find-journalists.\n\nThe software consist of a collection of Python scripts. These can be divided in three groups:\n\ntweet-fetching scripts\n\nscripts related to the IEEE paper (Auckland)\n\nscripts related to the Casablanca paper\n\nThere are also several unrelated scripts, which have been left undocumented.\n\n## Tweet-fetching scripts\n\n### getTweetsUser.py\n\nThe Python script getTweetsUser.py can be used for obtaining tweets from certain users. Run like:\n\n./getTweetsUser.py barackobama realdonaldtrump > file\n\nIt will retrieve all available tweets from the specified users and store these in the specified file. The tweets are stored in the data format [JSON] https://en.wikipedia.org/wiki/JSON. The command may require several minutes to complete.\n\nThe script needs two things to run:\n\nFirst: you will need to install the Twitter package from: [https://github.com/sixohsix/twitter] https://github.com/sixohsix/twitter The commands for this on Linux and MacOSX are:\n\ngit clone https://github.com/sixohsix/twitter cd twitter python setup.py build sudo python setup.py install\n\nSecond: you need to store your Twitter account data in a file named \"definitions.py\" in the same directory as getTweetsUser.py. The file should contain the following lines:",
+      "section": "Hercules: Tweet Retrieval and Machine Learning",
+      "repo": "409_Hercules",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.895008Z",
+    "updated_at": "2025-11-16T04:57:10.826611Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23269,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1021,
+    "annotations": [
+      {
+        "id": 11226,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:24:04.321867Z",
+        "updated_at": "2025-11-06T06:24:04.321886Z",
+        "draft_created_at": null,
+        "lead_time": 3.474,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "93e84a55-4b4f-47a7-a4e9-3894b543b13a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1021,
+        "project": 23269,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "twitter.com authentication keys token = \"???\" token_secret = \"???\" consumer_key = \"???\" consumer_secret = \"???\"\n\nReplace the strings \"???\" with the key information from  https://apps.twitter.com , see https://www.slickremix.com/docs/how-to-get-api-keys-and-tokens-for-twitter/ for instructions\n\n### getTweetText.py\n\nThe Python script getTweetText.py can be used for extracting the tweets from the JSON output of getTweetsUser.py:\n\n./getTweetText.py file",
+      "section": "twitter.com authentication keys (part 1)",
+      "repo": "409_Hercules",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.895045Z",
+    "updated_at": "2025-11-06T06:24:04.350272Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23269,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1022,
+    "annotations": [
+      {
+        "id": 11227,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:24:59.159884Z",
+        "updated_at": "2025-11-06T06:24:59.159895Z",
+        "draft_created_at": null,
+        "lead_time": 54.581,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "91734a6d-cd9b-47b6-bcec-efd9b8fc56ef",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1022,
+        "project": 23269,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Scripts related to the IEEE paper (Auckland)\n\nErik Tjong Kim Sang, Herbert Kruitbosch, Marcel Broersma and Marc Esteve del Valle, Determining the function of political tweets. In: Proceedings of the 13th IEEE International Conference on eScience (eScience 2017), IEEE, Auckland, New Zealand, 2017, pages 438-439, ISBN 978-1-5386-2686-3, doi:10.1109/eScience.2017.60.  ([PDF] https://ifarm.nl/erikt/papers/2017-escience.pdf, [bibtex] https://ifarm.nl/erikt/papers/2017-escience.txt]\n\nFirst, the data needs to be converted to the format required by the machine learner [fasttext] https://github.com/facebookresearch/fastText. We use tokenized text preceded by the class label, for  example __label__1 this is a tweet !:\n\nfor FILE in test train do  ./expandReplies.py -t dutch-2012.$FILE.csv -r EMPTY |\\  cut -d' ' -f1,4- | sed 's/ RAWTEXT /$/' > dutch-2012.$FILE.txt done\n\nNote that the data files with annotated tweets  (dutch-2012.) are unavailable.\n\nNext, [fasttext] https://github.com/facebookresearch/fastText can be applied to the data:\n\nfasttext supervised -input dutch-2012.train.txt -output MODEL \\  -dim 5 -minCount 300 fasttext predict MODEL.bin dutch-2012.test.txt |\\  paste -d ' ' - dutch-2012.test.txt | cut -d' ' -f1,2 |  ./eval.py | head -1 | rev | sed 's/^ *//' | cut -d' ' -f1 | rev\n\nFor most of the experiments mentioned in Table II of the paper, these two commands can be reused with a different training file. Only the language modeling experiments require an extra step, for creating the language models:",
+      "section": "twitter.com authentication keys (part 2)",
+      "repo": "409_Hercules",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.895067Z",
+    "updated_at": "2025-11-06T06:24:59.185470Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23269,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1023,
+    "annotations": [
+      {
+        "id": 11228,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:25:01.097199Z",
+        "updated_at": "2025-11-06T06:25:01.097210Z",
+        "draft_created_at": null,
+        "lead_time": 1.769,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "8a6f26ad-d127-43bc-9586-4ad3844766e6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1023,
+        "project": 23269,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "fasttext skipgram -input EXTRADATA -output VECTORS -dim 5 \\  -minCount 300 fasttext supervised -input dutch-2012.train.txt -output MODEL \\  -dim 5 -minCount 300 -pretrainedVectors VECTORS.vec fasttext predict MODEL.bin dutch-2012.test.txt |\\  paste -d ' ' - dutch-2012.test.txt | cut -d' ' -f1,2 |\\  ./eval.py | head -1 | rev | sed 's/^ *//' | cut -d' ' -f1 | rev\n\nWe always remove the labels from the EXTRADATA files.",
+      "section": "twitter.com authentication keys (part 3)",
+      "repo": "409_Hercules",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.895108Z",
+    "updated_at": "2025-11-06T06:25:01.118067Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23269,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1024,
+    "annotations": [
+      {
+        "id": 11229,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 44,
+              "end": 314,
+              "text": "Erik Tjong Kim Sang, Marc Esteve del Valle, Herbert Kruitbosch, and Marcel Broersma, Active Learning for Classifying Political Tweets. In: Proceedings of the International Conference on Natural Language, Signal and Speech Processing (ICNLSSP), Casablanca, Morocco, 2017",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "jRuBnkHtah",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:25:11.982743Z",
+        "updated_at": "2025-11-06T06:25:11.982760Z",
+        "draft_created_at": null,
+        "lead_time": 10.702,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "1fab9ff5-0b93-4f40-9f06-420a5bec9b84",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1024,
+        "project": 23269,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Scripts related to the Casablanca paper\n\nErik Tjong Kim Sang, Marc Esteve del Valle, Herbert Kruitbosch, and Marcel Broersma, Active Learning for Classifying Political  Tweets. In: Proceedings of the International Conference on Natural Language, Signal and Speech Processing (ICNLSSP), Casablanca, Morocco, 2017.\n\nThe experiments related to Figure 1 and Table 1 of the paper, were performed with the bash script run.sh.\n\nAfter annotating a file for active learning, the next data file was generated with the bash script run-make-batch.\n\n## Contact\n\nErik Tjong Kim Sang, e.tjongkimsang(at)esciencecenter.nl",
+      "section": "twitter.com authentication keys (part 4)",
+      "repo": "409_Hercules",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.895129Z",
+    "updated_at": "2025-11-06T06:25:12.017150Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23269,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1025,
+    "annotations": [
+      {
+        "id": 11230,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:25:13.621454Z",
+        "updated_at": "2025-11-06T06:25:13.621472Z",
+        "draft_created_at": null,
+        "lead_time": 1.454,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "4497d5f5-044e-4774-84af-d6526137fefa",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1025,
+        "project": 23269,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Information added by the python template",
+      "section": "Information added by the python template (part 1)",
+      "repo": "409_Hercules",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.895148Z",
+    "updated_at": "2025-11-06T06:25:13.653956Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23269,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1026,
+    "annotations": [
+      {
+        "id": 11231,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:25:14.527848Z",
+        "updated_at": "2025-11-06T06:25:14.527863Z",
+        "draft_created_at": null,
+        "lead_time": 0.727,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b275039c-4d65-4253-8ac5-a7ccae906b05",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1026,
+        "project": 23269,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Badges",
+      "section": "Information added by the python template (part 2)",
+      "repo": "409_Hercules",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.895167Z",
+    "updated_at": "2025-11-06T06:25:14.553476Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23269,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1027,
+    "annotations": [
+      {
+        "id": 11232,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 348,
+              "end": 391,
+              "text": "https://zenodo.org/badge/latestdoi/87834727",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "TMUxZhoF6k",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:25:35.208937Z",
+        "updated_at": "2025-11-06T06:25:35.208953Z",
+        "draft_created_at": "2025-11-06T06:25:26.906938Z",
+        "lead_time": 20.413,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "364c5c54-9260-48bc-a63e-820ffc887cda",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1027,
+        "project": 23269,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| fair-software.eu recommendations | | | :-- | :-- | | (1/5) code repository | [](https://github.com/online-behaviour/machine-learning) | | (2/5) license | [](https://github.com/online-behaviour/machine-learning) | | (3/5) community registry | [](https://www.research-software.nl/software/online-behaviour-machine-learning) | | (4/5) citation | [](https://zenodo.org/badge/latestdoi/87834727) | | (5/5) checklist | [](https://bestpractices.coreinfrastructure.org/projects/4837) | | howfairis | [](https://fair-software.eu) | | Other best practices | &nbsp; | | Static analysis | [](https://sonarcloud.io/dashboard?id=online-behaviour_machine-learning) | | Coverage | [](https://sonarcloud.io/dashboard?id=online-behaviour_machine-learning) | | GitHub Actions | &nbsp; |",
+      "section": "Information added by the python template (part 3)",
+      "repo": "409_Hercules",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.895192Z",
+    "updated_at": "2025-11-06T06:25:35.239833Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23269,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1028,
+    "annotations": [
+      {
+        "id": 11233,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:25:48.077117Z",
+        "updated_at": "2025-11-06T06:25:48.077131Z",
+        "draft_created_at": null,
+        "lead_time": 12.667,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "486ca627-f9fa-4f2b-9b1b-79c368371725",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1028,
+        "project": 23269,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| Build | [](https://github.com/online-behaviour/machine-learning/actions/workflows/build.yml) | | Metadata consistency | [](https://github.com/online-behaviour/machine-learning/actions/workflows/cffconvert.yml) | | Lint | [](https://github.com/online-behaviour/machine-learning/actions/workflows/lint.yml) | | Publish | [](https://github.com/online-behaviour/machine-learning/actions/workflows/publish.yml) | | SonarCloud | [](https://github.com/online-behaviour/machine-learning/actions/workflows/sonarcloud.yml) | | MarkDown link checker | [](https://github.com/online-behaviour/machine-learning/actions/workflows/markdown-link-check.yml) |",
+      "section": "Information added by the python template (part 4)",
+      "repo": "409_Hercules",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.895212Z",
+    "updated_at": "2025-11-06T06:25:48.104330Z",
+    "inner_id": 9,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23269,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1029,
+    "annotations": [
+      {
+        "id": 11234,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:26:42.878080Z",
+        "updated_at": "2025-11-06T06:26:42.878094Z",
+        "draft_created_at": null,
+        "lead_time": 54.537,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "dd65e452-53b2-4956-9607-54e6bbad61e7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1029,
+        "project": 23269,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## How to use machine_learning\n\nThe project setup is documented in [project_setup.md] project_setup.md. Feel free to remove this document (and/or the link to this document) if you don't need it.\n\n## Installation\n\nTo install machine_learning from GitHub repository, do:\n\ngit clone https://github.com/online-behaviour/machine-learning.git cd machine-learning python3 -m pip install .\n\n## Documentation\n\nInclude a link to your project's full documentation here.\n\n## Contributing\n\nIf you want to contribute to the development of machine-learning, have a look at the [contribution guidelines] CONTRIBUTING.md.\n\n## Credits\n\nThis package was created with [Cookiecutter] https://github.com/audreyr/cookiecutter and the [NLeSC/python-template] https://github.com/NLeSC/python-template.",
+      "section": "Information added by the python template (part 5)",
+      "repo": "409_Hercules",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.895235Z",
+    "updated_at": "2025-11-06T06:26:42.903324Z",
+    "inner_id": 10,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23269,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1030,
+    "annotations": [
+      {
+        "id": 11235,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 838,
+              "end": 848,
+              "text": "prospector",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Fu8471Li6y",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 920,
+              "end": 925,
+              "text": "isort",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "BN9qwNC4hk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 291,
+              "end": 301,
+              "text": "setuptools",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "4ErU6r8pOz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 283,
+              "end": 286,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "T3XuEq8g-C",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 339,
+              "end": 349,
+              "text": "setuptools",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "vyqhF5otUZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 335,
+              "end": 338,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "9FGz0H7nUS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 850,
+              "end": 886,
+              "text": "https://pypi.org/project/prospector/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "8OK99C4__S",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 927,
+              "end": 957,
+              "text": "https://pycqa.github.io/isort/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "_d8s_olns3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:27:23.354015Z",
+        "updated_at": "2025-11-16T04:57:29.611798Z",
+        "draft_created_at": "2025-11-06T06:26:57.964832Z",
+        "lead_time": 51.143,
+        "prediction": {},
+        "result_count": 8,
+        "unique_id": "312ab56b-7a01-4390-90f4-35d8ee835557",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1030,
+        "project": 23269,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "machine_learning developer documentation\n\nIf you're looking for user documentation, go [here] README.md.\n\n## Development install\n\nCreate a virtual environment, e.g. with python3 -m venv env\n\nactivate virtual environment source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools python3 -m pip install --upgrade pip setuptools\n\ninstall machine_learning as an editable package python3 -m pip install --no-cache-dir --editable .\n\ninstall development dependencies python3 -m pip install --no-cache-dir --editable .[dev]\n\nAfterwards check that the install directory is present in the PATH environment variable.\n\n## Running the tests\n\nRunning the tests requires an activated virtual environment with the development tools installed.\n\nunit tests pytest pytest tests/\n\n## Running linters locally\n\nFor linting we will use [prospector] https://pypi.org/project/prospector/ and to sort imports we will use [isort] https://pycqa.github.io/isort/. Running the linters requires an activated virtual environment with the development tools installed.\n\nlinter prospector\n\nrecursively check import style for the machine_learning module only isort --recursive --check-only machine_learning\n\nany proposed changes as a diff isort --recursive --check-only --diff machine_learning",
+      "section": "`machine_learning` developer documentation + Create a virtual environment, e.g. with + activate virtual environment (and 7 more)",
+      "repo": "409_Hercules",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.895257Z",
+    "updated_at": "2025-11-16T04:57:29.647922Z",
+    "inner_id": 11,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23269,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1031,
+    "annotations": [
+      {
+        "id": 11236,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:27:27.147183Z",
+        "updated_at": "2025-11-06T06:27:27.147200Z",
+        "draft_created_at": null,
+        "lead_time": 3.568,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ab22c9f9-7b90-4a3b-8b6b-5c7c7504d416",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1031,
+        "project": 23269,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "recursively fix import style for the machine_learning module only isort --recursive machine_learning\n\nYou can enable automatic linting with prospector and isort on commit by enabling the git hook from .githooks/pre-commit, like so:\n\ngit config --local core.hooksPath .githooks\n\n## Generating the API docs\n\ncd docs make html\n\nThe documentation will be in docs/_build/\n\n## Versioning\n\nBumping the version across all files is done with bumpversion, e.g.\n\nbumpversion major bumpversion minor bumpversion patch\n\n## Making a release\n\nThis section describes how to make a release in 3 parts:\n\npreparation\n\nmaking a release on PyPI\n\nmaking a release on GitHub\n\n### (1/3) Preparation\n\nUpdate the CHANGELOG.md\n\nVerify that the information in CITATION.cff is correct, and that .zenodo.json contains equivalent data\n\nMake sure the version has been updated.\n\nRun the unit tests with pytest tests/\n\n### (2/3) PyPI\n\nIn a new terminal, without an activated virtual environment or an env directory:\n\nprepare a new directory cd $(mktemp -d --tmpdir machine_learning.XXXXXX)\n\nfresh git clone ensures the release has the state of origin/main branch git clone https://github.com/online-behaviour/machine-learning .\n\nprepare a clean virtual environment and activate it python3 -m venv env source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools python3 -m pip install --upgrade pip setuptools\n\ninstall runtime dependencies and publishing dependencies python3 -m pip install --no-cache-dir . python3 -m pip install --no-cache-dir .[publishing]\n\nclean up any previously generated artefacts rm -rf machine_learning.egg-info rm -rf dist\n\ncreate the source distribution and the wheel python3 setup.py sdist bdist_wheel",
+      "section": "recursively fix import style for the machine_learning module only + prepare a new directory + fresh git clone ensures the release has the state of origin/main branch (and 5 more)",
+      "repo": "409_Hercules",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.895279Z",
+    "updated_at": "2025-11-06T06:27:27.175742Z",
+    "inner_id": 12,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23269,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1032,
+    "annotations": [
+      {
+        "id": 11237,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:27:28.123120Z",
+        "updated_at": "2025-11-06T06:27:28.123156Z",
+        "draft_created_at": null,
+        "lead_time": 0.787,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "a7494a86-0af0-4a5c-a6ea-d73a24f30062",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1032,
+        "project": 23269,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "upload to test pypi instance (requires credentials) twine upload --repository-url https://test.pypi.org/legacy/ dist/\n\n[https://test.pypi.org/project/machine_learning] https://test.pypi.org/project/machine_learning and verify that your package was uploaded successfully. Keep the terminal open, we'll need it later.\n\nIn a new terminal, without an activated virtual environment or an env directory:\n\ncd $(mktemp -d --tmpdir machine_learning-test.XXXXXX)\n\nprepare a clean virtual environment and activate it python3 -m venv env source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools pip install --upgrade pip setuptools\n\ninstall from test pypi instance: python3 -m pip -v install --no-cache-dir \\ --index-url https://test.pypi.org/simple/ \\ --extra-index-url https://pypi.org/simple machine_learning\n\nCheck that the package works as it should when installed from pypitest.\n\nThen upload to pypi.org with:\n\nFINAL STEP: upload to PyPI (requires credentials) twine upload dist/\n\n### (3/3) GitHub\n\nDon't forget to also make a release on GitHub. If your repository uses the GitHub-Zenodo integration this will also trigger Zenodo into making a snapshot of your repository and sticking a DOI on it.",
+      "section": "upload to test pypi instance (requires credentials) + prepare a clean virtual environment and activate it + make sure to have a recent version of pip and setuptools (and 2 more)",
+      "repo": "409_Hercules",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.895300Z",
+    "updated_at": "2025-11-06T06:27:28.153773Z",
+    "inner_id": 13,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23269,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

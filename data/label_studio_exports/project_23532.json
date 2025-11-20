@@ -1,0 +1,964 @@
+[
+  {
+    "id": 2395,
+    "annotations": [
+      {
+        "id": 10192,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:23:03.832554Z",
+        "updated_at": "2025-11-03T06:23:03.832578Z",
+        "draft_created_at": null,
+        "lead_time": 6.817,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "a5efe42f-1fa7-44d9-81d7-8a3f8cf3d160",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2395,
+        "project": 23532,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Historiographing the Era of the American Revolution\n\n[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![Apache License][license-shield]][license-url] [![LinkedIn][linkedin-shield]][linkedin-url]\n\nTable of Contents      About The Project    Documentation        Getting Started    Prerequisites  Installation      Data  Usage  Contributing  License  Sources  Contact  Authors  Acknowledgments",
+      "section": "Historiographing the Era of the American Revolution (part 1)",
+      "repo": "310_H-gear",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.214548Z",
+    "updated_at": "2025-11-03T06:23:03.859969Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23532,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2396,
+    "annotations": [
+      {
+        "id": 10193,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:23:07.847389Z",
+        "updated_at": "2025-11-03T06:23:07.847410Z",
+        "draft_created_at": null,
+        "lead_time": 3.848,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "4018c809-ee10-487a-bcef-81106582ffa6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2396,
+        "project": 23532,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## About the Project\n\nThe historical concept of democracy, liberry and freedom and its development through time is important to our understanding of the past. The goal of the HGEAR project is to chart shifts in the character and structure of political discourse during the era of the American Revolution. By comparing shifts in language usage (via [ShiCo] https://github.com/h-gear/ShiCo/ (Shifting Concepts Through Time) with changing formations in  correspondence networks, we are able to measure how networks of communication within the [Founders Online] https://founders.archives.gov/ corpus and other resources such as the [Letters of Delegates to Congress] https://memory.loc.gov/ammem/amlaw/lwdg.html shaped the character, distribution, and spread of political ideas  during the Revolutionary era. This project and associated analyses offer powerful new methods for addressing longstanding debates in the field of early American history. Also, by  means of additional collected data, we show how the  here included scripts and analyses can be easily accomodated to include other letter correspondence sources as well. Ultimately, this allows researchers to get a more complete picture of the fluxes in the political discourse during the American Revolution.\n\nThe project is organized as follows:\n\n## Documentation\n\nHere's the link to learn more about the [project's background] documentation/BACKGROUND.md.",
+      "section": "Historiographing the Era of the American Revolution (part 2)",
+      "repo": "310_H-gear",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.214592Z",
+    "updated_at": "2025-11-03T06:23:07.873220Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23532,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2397,
+    "annotations": [
+      {
+        "id": 10194,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:23:08.627507Z",
+        "updated_at": "2025-11-03T06:23:08.627524Z",
+        "draft_created_at": null,
+        "lead_time": 0.608,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b0b2003c-9ec3-44e5-9e9e-eb7b842a4c5c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2397,
+        "project": 23532,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Repository Structure",
+      "section": "Historiographing the Era of the American Revolution (part 3)",
+      "repo": "310_H-gear",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.214618Z",
+    "updated_at": "2025-11-03T06:23:08.654671Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23532,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2398,
+    "annotations": [
+      {
+        "id": 10195,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:23:10.239569Z",
+        "updated_at": "2025-11-03T06:23:10.239643Z",
+        "draft_created_at": null,
+        "lead_time": 1.426,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c47b8b53-2135-43cd-afdd-318a8f2f6a50",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2398,
+        "project": 23532,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "├── LICENSE  ├── README.md <- The top-level README for developers and users using this project.  ├── data  │   ├── external <- Data from third party sources.  │   ├── interim <- Intermediate data that has been transformed.  │   ├── processed <- The final, canonical data sets for modeling.  │   └── raw <- The original, immutable data dump.  │  ├── w2v_models <- word2vec models to be used with shico software.  │   ├── delegates <- Delegates of Congress.  │   ├── ecco <- Eighteenth Century Collections Online.  │   ├── evans <- Evans Early American Imprints.  │   └── founders <- Founders Online.  │  ├── documentation <- Data dictionaries, manuals, and all other explanatory materials.  │  ├── output <- Generated analysis as HTML, PDF, LaTeX, etc.  │   └── figures <- Generated graphics and figures to be used in reporting.  │   ├── logs <- Place for logs.  │   ├── tables <- Location for documents describing results of data exploration, including tables.  │  ├── requirements.txt <- The requirements file for reproducing the analysis environment  │  ├── scripts <- Source code for use in this project.  │   ├── 1. data_collection <- Including scraping data.  │   ├── 2. data_preparation <- Data cleaning/preprocessing to enhance the data quality by organizing raw data in a suitable format.  │   ├── 3. exploratory_data_analysis <- Getting a first and deeper understanding of the data.  │   └── 4. analysis_and_modeling <- Data analysis and modeling.  │   └── 5. deployment <- Geographical analysis.  │   └── functions <- Applied accross the project and sourced in the code.  │",
+      "section": "Historiographing the Era of the American Revolution (part 4)",
+      "repo": "310_H-gear",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.214644Z",
+    "updated_at": "2025-11-03T06:23:10.271341Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23532,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2399,
+    "annotations": [
+      {
+        "id": 10196,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:23:11.066815Z",
+        "updated_at": "2025-11-03T06:23:11.066833Z",
+        "draft_created_at": null,
+        "lead_time": 0.654,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b444ad63-6cb6-4a7c-9053-fc8f586d27dd",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2399,
+        "project": 23532,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "├── notebooks <- Example of analysis)",
+      "section": "Historiographing the Era of the American Revolution (part 5)",
+      "repo": "310_H-gear",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.214665Z",
+    "updated_at": "2025-11-03T06:23:11.093983Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23532,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2400,
+    "annotations": [
+      {
+        "id": 10197,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 714,
+              "end": 721,
+              "text": "RStudio",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "9R3HTG8nPm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 814,
+              "end": 822,
+              "text": "anaconda",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "dryJSgMV7t",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 309,
+              "end": 316,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "4xBy_w8rkO",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 723,
+              "end": 765,
+              "text": "https://posit.co/download/rstudio-desktop/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "EIyHJ-Z3JK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 824,
+              "end": 857,
+              "text": "https://www.anaconda.com/download",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "28R4DKjkfv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:23:58.214559Z",
+        "updated_at": "2025-11-14T11:39:17.398869Z",
+        "draft_created_at": "2025-11-03T06:23:33.103615Z",
+        "lead_time": 68.711,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "0b3b5090-c9f3-424a-b4aa-0be2b7ba1a38",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2400,
+        "project": 23532,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Getting Started\n\n### Prerequisites\n\nThese instructions will get you a copy of the project up and running on your local machine for development and testing purposes.\n\nTo install hgear from this GitHub repository, go to a directory where you want to install your files. From there, go to a command prompt in Windows (e.g., powershell), for example by right-clicking the mouse and select 'Open in terminal'. Next, paste the following after the prompt:\n\ngit clone git@github.com:h-gear/revolution.git\n\nThis will download all the files from github\n\n### Installation\n\nNext, we give a step by step instructions that tell you how to get you up and running. The code is written mostly in R and parts in Python. For R , [RStudio] https://posit.co/download/rstudio-desktop/ is recommended, while for Python, we recommend [anaconda] https://www.anaconda.com/download.",
+      "section": "Historiographing the Era of the American Revolution (part 6)",
+      "repo": "310_H-gear",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.214689Z",
+    "updated_at": "2025-11-14T11:39:17.440230Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23532,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2401,
+    "annotations": [
+      {
+        "id": 10198,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 426,
+              "end": 430,
+              "text": "renv",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "lvj7E7ZYJe",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 361,
+              "end": 365,
+              "text": "renv",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "kQMPlGkqlX",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:24:27.853461Z",
+        "updated_at": "2025-11-03T06:24:27.853477Z",
+        "draft_created_at": "2025-11-03T06:24:19.452502Z",
+        "lead_time": 29.45,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "9a548a36-4d89-41e1-aa6c-ade7d7b4b3c6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2401,
+        "project": 23532,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### Setting up the Virtual Environment for R\n\nTo ensure a consistent and reproducible environment, this project uses the venv package in R. The following will install the renv package, create and activate the virtual environment, and install the required R packages as specified in renv.lock.\n\n_1 Navigate to the project directory:_\n\ncd revolution\n\n_2 Install renv (if not already installed):_\n\nOpen R or RStudio and install renv:\n\ninstall.packages(\"renv\")\n\n_3 Initialize or load renv:_\n\nIn the RStudio console, navigate to the project directory () and activate renv:\n\nrenv::activate()\n\n_4 Restore the environment:_\n\nRestore the project environment using the renv.lock file:\n\nrenv::restore()\n\nThis will:\n\nAutomatically download and install all required packages as specified in the renv.lock file.\n\nUse the appropriate versions for compatibility.\n\n_5 Verify setup:_\n\nAfter restoration, check for any missing packages using:\n\nrenv::status()\n\nTest whether the installtion is succesful by loading some key packages to ensure the environment works as expected:\n\nlibrary(dplyr) # Replace with any other package name you just installed\n\n_6 Run the project:_\n\nOnce renv is fully set up, you are ready to run the code within the virtual environment. Execute your R scripts or run your Rmarkdown documents as usual.\n\n_7 Deactivate the Virtual Environment:_\n\nWhen you are done, deactivate the virtual environment:\n\nvenv::deactivate()",
+      "section": "Historiographing the Era of the American Revolution (part 7)",
+      "repo": "310_H-gear",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.214711Z",
+    "updated_at": "2025-11-03T06:24:27.883015Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23532,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2402,
+    "annotations": [
+      {
+        "id": 10199,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 203,
+              "end": 210,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "OzzUoEFbrU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 243,
+              "end": 247,
+              "text": "Unix",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "Hi5m4GwWQL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 251,
+              "end": 256,
+              "text": "MacOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "pLG8Kg_XLF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 370,
+              "end": 374,
+              "text": "Unix",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "6yPOKm1OWh",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 378,
+              "end": 383,
+              "text": "MacOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "ansPU-CyKf",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 326,
+              "end": 333,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "R8U_19rGtm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:25:07.067340Z",
+        "updated_at": "2025-11-03T06:25:07.067383Z",
+        "draft_created_at": "2025-11-03T06:24:40.652246Z",
+        "lead_time": 39.016,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "b83f78e3-103f-4b8e-9b6c-64eea7282502",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2402,
+        "project": 23532,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### Python: Setting up a Virtual Environment\n\nWe recommend installing hgear in a new virtual environment to avoid dependency conflicts.\n\nRun the following commands to create a virtual environment: For _Windows_:\n\npython -m venv ./.venv\n\nFor _Unix or MacOS_:\n\npython3 -m venv ./.venv\n\n_Activate the Virtual Environment:_ For _Windows_:\n\n.venv\\Scripts\\activate.bat\n\nFor _Unix or MacOS_:\n\nsource .venv/bin/activate\n\n_Install Dependencies:_ Once the virtual environment is created and activated you can install the dependencies by running:\n\npip install -r requirements.txt\n\nAt this stage, you should be able to run the scripts.\n\n_Deactivate the Virtual Environment:_ When you are done, deactivate the virtual environment:\n\n## Data\n\nIf you are interested in learning more about the data used in the project, then go [here] documentation/DATA.md.",
+      "section": "Historiographing the Era of the American Revolution (part 8)",
+      "repo": "310_H-gear",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.214732Z",
+    "updated_at": "2025-11-03T06:25:07.095921Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23532,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2403,
+    "annotations": [
+      {
+        "id": 10200,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1406,
+              "end": 1424,
+              "text": "Apache License 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "3OqvnlcK-V",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:25:25.977712Z",
+        "updated_at": "2025-11-03T06:25:25.977734Z",
+        "draft_created_at": "2025-11-03T06:25:18.636234Z",
+        "lead_time": 18.683,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "f3c65209-074d-415e-965f-a9862e2ee699",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2403,
+        "project": 23532,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Usage\n\nThe code for the analyses can be found in the subfolder scripts. It is structured in parallel to the structure explained above:\n\n[1_data_collection] https://github.com/h-gear/revolution/tree/main/scripts/1_data_collection  [2_data_preparation] https://github.com/h-gear/revolution/tree/main/scripts/2_data_preparation  [3_exploratory_data_analysis] https://github.com/h-gear/revolution/tree/main/scripts/3_exploratory_data_analysis  [4_analysis_and_modeling] https://github.com/h-gear/revolution/tree/main/scripts/4_analysis_and_modeling  [5_deployment] https://github.com/h-gear/revolution/tree/main/scripts/5_deployment  [functions] https://github.com/h-gear/revolution/tree/main/scripts/functions (applied accross the project and sourced in the code)\n\nIn adition, the code and procedures to create the word2vec models needed as input for running shico  can be found in the subfolder w2v_models/delegates. The code is applied to the data from the delegates of congress, but can be easily adapted and eqaully applied to create word2vec models for all other datasets in this project as well.\n\n## Contributing\n\nIf you want to contribute to the development of hgear, have a look at the [contribution guidelines] CONTRIBUTING.md.Please submit pull requests to us in case you want to participate. Suggestions, improvements, and edits are most welcome!\n\n## License\n\nThis project is licensed under the Apache License 2.0 - see the [licence] LICENSE.md file for details. This means that this project can be used, modified and redistributed for free, even for commercial purposes.\n\n## Other sources\n\n#### Founders Online\n\nJay Timm: https://github.com/jaytimm/founders-online-corpus  People of the founding era: https://pfe.upress.virginia.edu/ Thomas Hoekstra: https://github.com/Rohrym/letters_of_the_revolution_project",
+      "section": "Historiographing the Era of the American Revolution (part 9)",
+      "repo": "310_H-gear",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.214756Z",
+    "updated_at": "2025-11-03T06:25:26.008600Z",
+    "inner_id": 9,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23532,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2404,
+    "annotations": [
+      {
+        "id": 10201,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 642,
+              "end": 815,
+              "text": "Vroegh, T., Tjong Kim Sang, E.,Olthof, J., & Thompson, M.L. (in progress). Drivers and dynamics of liberal and republican thought: Social Networks in the American Revolution",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "E9hKUdd_5J",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1051,
+              "end": 1126,
+              "text": "Vroegh, T. h-gear [Computer software]. https://github.com/h-gear/revolution",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "goDT85jzoM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1128,
+              "end": 1263,
+              "text": "@software{Vroegh_hgear,author = {Vroegh, Thijs},license = {Apache 2.0},title = {{h-gear}},url = {https://github.com/h-gear/revolution}}",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "VuoR7fWCck",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:26:09.620114Z",
+        "updated_at": "2025-11-03T06:26:09.620133Z",
+        "draft_created_at": "2025-11-03T06:25:52.186033Z",
+        "lead_time": 43.443,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "7e466144-d554-4935-a75b-78a1a8615c0f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2404,
+        "project": 23532,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### Shifting Concepts in Time (Shico)\n\nShico: https://github.com/NLeSC/ShiCo  Shico deployment: https://github.com/c-martinez/ShiCo-deploy Shico updated for Python 3: https://github.com/h-gear/ShiCo/\n\n## Contact\n\nIf you find any bugs or experience difficulties when using the code in this project, please create a issue on this Github page. If you have any specific questions with respect to our research, or methodology used, please email Thijs Vroegh t.vroegh@esciencecenter.nl\n\n## Authors\n\n[Thijs Vroegh] https://www.esciencecenter.nl/team/thijs-vroegh/\n\n## Impact and citation\n\nThis code has been used in the upcoming research article:\n\nVroegh, T., Tjong Kim Sang, E.,Olthof, J., & Thompson, M.L. (in progress). Drivers and dynamics of liberal and republican thought: Social Networks in the American Revolution.\n\nPlease cite if you use it. You can do this easily with one of these options:\n\nThe cite this repository menu in the right tab.\n\nThe [citation file] CITATION.cff.\n\nIf you prefer to copypaste, here you have the APA and BibTex strings:\n\nVroegh, T. h-gear [Computer software]. https://github.com/h-gear/revolution\n\n@software{Vroegh_hgear,author = {Vroegh, Thijs},license = {Apache 2.0},title = {{h-gear}},url = {https://github.com/h-gear/revolution}}",
+      "section": "Historiographing the Era of the American Revolution (part 10)",
+      "repo": "310_H-gear",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.214778Z",
+    "updated_at": "2025-11-03T06:26:09.645905Z",
+    "inner_id": 10,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23532,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2405,
+    "annotations": [
+      {
+        "id": 10202,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:26:11.606242Z",
+        "updated_at": "2025-11-03T06:26:11.606261Z",
+        "draft_created_at": null,
+        "lead_time": 1.776,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "a5ada596-3b47-4c02-9fbf-b3dde2b260d3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2405,
+        "project": 23532,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Acknowledgments\n\nThis code is being developed by the Netherlands eScience Center in collaboration with the faculty of American Studies at the University of Groningen. Our thanks go out to the authors that shared or open-sourced their code, enabling us to create this project that can hopefully be of service to many. Particularly, we like to thank the following people:  Cristian Marocico  Thomas Hoekstra Ramona Roller",
+      "section": "Historiographing the Era of the American Revolution (part 11)",
+      "repo": "310_H-gear",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.214800Z",
+    "updated_at": "2025-11-03T06:26:11.631717Z",
+    "inner_id": 11,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23532,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2406,
+    "annotations": [
+      {
+        "id": 10203,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 767,
+              "end": 827,
+              "text": "https://github.com/h-gear/revolution/blob/master/LICENSE.txt",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "Bn3z4hbLWp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:27:03.862206Z",
+        "updated_at": "2025-11-03T06:27:03.862219Z",
+        "draft_created_at": "2025-11-03T06:26:28.835994Z",
+        "lead_time": 52.087,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "3d52315b-7f7f-4e3e-ab9a-ed98a4d0e2ea",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2406,
+        "project": 23532,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[contributors-shield]: https://img.shields.io/github/contributors/h-gear/revolution.svg?style=for-the-badge [contributors-url]: https://github.com/h-gear/revolution/graphs/contributors [forks-shield]: https://img.shields.io/github/forks/h-gear/revolution.svg?style=for-the-badge [forks-url]: https://github.com/h-gear/revolution/network/members [stars-shield]: https://img.shields.io/github/stars/h-gear/revolution.svg?style=for-the-badge [stars-url]: https://github.com/h-gear/revolution/stargazers [issues-shield]: https://img.shields.io/github/issues/h-gear/revolution.svg?style=for-the-badge [issues-url]: https://github.com/h-gear/revolution/issues [license-shield]: https://img.shields.io/github/license/h-gear/revolution.svg?style=for-the-badge [license-url]: https://github.com/h-gear/revolution/blob/master/LICENSE.txt [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555 [linkedin-url]: https://linkedin.com/in/thijsvroegh [product-screenshot]: images/screenshot.png [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white [Next-url]: https://nextjs.org/ [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB [React-url]: https://reactjs.org/ [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D [Vue-url]: https://vuejs.org/ [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white [Angular-url]: https://angular.io/ [Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00 [Svelte-url]: https://svelte.dev/",
+      "section": "Historiographing the Era of the American Revolution (part 12)",
+      "repo": "310_H-gear",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.214822Z",
+    "updated_at": "2025-11-03T06:27:03.888523Z",
+    "inner_id": 12,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23532,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2407,
+    "annotations": [
+      {
+        "id": 10204,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:27:12.913258Z",
+        "updated_at": "2025-11-03T06:27:12.913271Z",
+        "draft_created_at": null,
+        "lead_time": 8.858,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "3922879c-bc42-4e60-937c-6e9378f2bf82",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2407,
+        "project": 23532,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white [Laravel-url]: https://laravel.com [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white [Bootstrap-url]: https://getbootstrap.com [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white [JQuery-url]: https://jquery.com",
+      "section": "Historiographing the Era of the American Revolution (part 13)",
+      "repo": "310_H-gear",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.214843Z",
+    "updated_at": "2025-11-03T06:27:12.938350Z",
+    "inner_id": 13,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23532,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2408,
+    "annotations": [
+      {
+        "id": 10205,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:27:14.352360Z",
+        "updated_at": "2025-11-03T06:27:14.352377Z",
+        "draft_created_at": null,
+        "lead_time": 1.244,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e5a42fe3-20ef-487e-a7fc-d6b1e387884f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2408,
+        "project": 23532,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[🔼 Back to top] #about-the-project",
+      "section": "Historiographing the Era of the American Revolution (part 14)",
+      "repo": "310_H-gear",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.214863Z",
+    "updated_at": "2025-11-03T06:27:14.378131Z",
+    "inner_id": 14,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23532,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

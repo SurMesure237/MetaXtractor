@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "[](https://github.com/oidc-mytoken/lib/blob/master/LICENSE)\n\n[](https://goreportcard.com/report/github.com/oidc-mytoken/lib) [](https://deepsource.io/gh/oidc-mytoken/lib/?ref=repository-badge) [](https://github.com/oidc-mytoken/lib/releases/latest) [](https://github.com/oidc-mytoken/lib/releases/latest)\n\n# mytokenlib\n\nmytokenlib is a go library for communicating with a mytoken server. mytoken is a central web service with the goal to easily obtain OpenID Connect access tokens across devices.\n\nA mytoken command line client can be found at [https://github.com/oidc-mytoken/client] https://github.com/oidc-mytoken/client.\n\nThe mytoken server can be found at [https://github.com/oidc-mytoken/server] https://github.com/oidc-mytoken/server.\n\nA demo instance of mytoken is running at [https://mytoken.data.kit.edu/] https://mytoken.data.kit.edu/.",
+      "section": "README",
+      "repo": "405_mytoken",
+      "source_file": "readme.md"
+    }
+  }
+]

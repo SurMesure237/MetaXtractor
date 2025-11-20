@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/surf-eds/one-button-compute",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "HTML",
+    "Common Workflow Language"
+  ],
+  "downloadUrl": "https://api.github.com/repos/surf-eds/one-button-compute/zipball/main",
+  "author": "surf-eds",
+  "dateCreated": "2015-10-01T09:31:05Z",
+  "dateModified": "2018-03-23T09:59:23Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Web API for dynamic compute",
+  "identifier": 43488461,
+  "name": "surf-eds/one-button-compute",
+  "issueTracker": "https://api.github.com/repos/surf-eds/one-button-compute/issues",
+  "readme": "https://github.com/surf-eds/one-button-compute/blob/master/README.md"
+}

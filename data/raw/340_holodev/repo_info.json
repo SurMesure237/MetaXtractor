@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/joenio/holodev",
+  "programmingLanguage": "Shell",
+  "programmingLanguages": [
+    "Shell",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/joenio/holodev/zipball/main",
+  "author": "joenio",
+  "dateCreated": "2015-07-20T17:16:55Z",
+  "dateModified": "2024-09-28T14:35:29Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-2.0",
+  "description": "Tool that makes it easier to create Linux containers for development using Debian systems.",
+  "identifier": 39397578,
+  "name": "joenio/holodev",
+  "issueTracker": "https://api.github.com/repos/joenio/holodev/issues",
+  "readme": "https://github.com/joenio/holodev/blob/master/README.md"
+}

@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/Dvermetten/BIAS",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "Dockerfile",
+    "R"
+  ],
+  "downloadUrl": "https://api.github.com/repos/Dvermetten/BIAS/zipball/main",
+  "author": "Dvermetten",
+  "dateCreated": "2021-08-10T10:24:41Z",
+  "dateModified": "2025-10-16T09:03:55Z",
+  "keywords": [],
+  "license": null,
+  "description": null,
+  "identifier": 394611103,
+  "name": "Dvermetten/BIAS",
+  "issueTracker": "https://api.github.com/repos/Dvermetten/BIAS/issues",
+  "readme": "https://github.com/Dvermetten/BIAS/blob/master/README.md"
+}

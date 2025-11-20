@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/EPiCs-group/chemspax",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/EPiCs-group/chemspax/zipball/main",
+  "author": "EPiCs-group",
+  "dateCreated": "2020-09-17T09:37:56Z",
+  "dateModified": "2024-10-15T10:53:24Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "A Python tool for local chemical space exploration of any structure based on their 3D geometry",
+  "identifier": 296282558,
+  "name": "EPiCs-group/chemspax",
+  "issueTracker": "https://api.github.com/repos/EPiCs-group/chemspax/issues",
+  "readme": "https://github.com/EPiCs-group/chemspax/blob/master/docs/README.md"
+}

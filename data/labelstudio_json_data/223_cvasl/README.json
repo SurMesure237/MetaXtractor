@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "text": "[](https://zenodo.org/badge/latestdoi/618300539) [](https://pypi.python.org/pypi/cvasl/) [](https://anaconda.org/brainspinner-org/cvasl/badges/version.svg) [](https://github.com/brainspinner/cvasl/actions/workflows/on-commit.yml) [](https://github.com/brainspinner/cvasl/actions/workflows/on-tag.yml)\n\ncvasl is an open source collaborative python library for analysis of brain MRIs. Many functions relate to arterial spin labeled sequences.\n\nThis library supports the ongoing research at University of Amsterdam Medical Center on brain ageing, but is being buit for the entire community of radiology researchers across all university and academic medical centers and beyond.\n\n### Supported Platforms\n\ncvasl is not a pure Python package. If you want to run all possibilities you will need R, and therefore the conda version.  The current conda version release v0.0.4 has the limitation that it is missing the nipy  and k-means-constrained python libraries. We are working to update this, but the user should add these to their environment. Below is the list of platforms that should work in terms of the Python code. Other platforms may work, but have had less extensive testing. Please note that where python.org Python or Anaconda Python stated as supported, it means that versions 3.10 and above are supported.",
+      "section": "Introduction (part 1)",
+      "repo": "223_cvasl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### AMD64 (x86)\n\n| | Linux | Win | OSX | |:---------------------------:|:---------:|:---------:|:---------:| | | Supported | Unknown | Unknown | | | Supported | Supported | Supported |\n\n### Program files\n\nThe main program in this repository (made of the modules in the cvasl folder) contains functions for analysis of MRIs.\n\n### Folders and Notebooks\n\nTo look around keep in mind the following distinction on folders:\n\nresearcher_interface: This folder will be added in the future for\n\na growing series of interactive notebooks that allow  researchers to investigate questions about their own MRI data   open_work: This folder contains experimental work by core members of the cvasl\n\nteam (including Dr. Candace Makeda Moore, Dr. Dani Bodor, Dr. Henk Mutsaerts)\n\nharmonization_paper: This folder contains experimental work for a forthcoming paper by core members of the cvasl\n\nteam (including Dr. Candace Makeda Moore, Dr. Dani Bodor, Dr. Henk Mutsaerts,  and Mathijs Dijsselhof) which deals with radiological image harmonization.\n\nlab_datasets: This folder contains notebooks which show how image datasets were assembled in notebooks.\n\nPlease keep in mind that at present you will only be able to scroll images in the notebooks with a browser based approach i.e. run Jupyter in a browser but not in VSCode or another IDE to scroll the brain MRIs.",
+      "section": "Introduction (part 2)",
+      "repo": "223_cvasl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Data sets\n\nThe notebooks are configured to run on various datasets. Contact Dr. Candace Makeda Moore( \ud83d\udceb c.moore@esciencecenter.nl) to discuss any questions on data configuration for your datasets. In terms of  derived value datasets (which use measurements instead of images) You will need tsv and/or csv file  datasets arranged in a particular format as specified in [seperated_values_specifications.md] seperated_values_specifications.md If you plan to make pull requests to the library or use it to show your work you should take care not to use tabular data in such a way as patient identifying data is revealed.",
+      "section": "Introduction (part 3)",
+      "repo": "223_cvasl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Configuring (to work with your data)\n\nIn order to preprocess and/or to train models the code needs to be able to locate the raw data you want it to work with.\n\nThere are several ways to specify the location of the following directories:\n\nbids: Special directory. The rest of the directory layout can\n\nbe derived from its location.\n\nYou can store this information persistently in several locations.\n\nIn the same directory where you run the script (or the notebook).\n\ne.g. ./config.json. In home directory, e.g. ~/.cvasl/config.json.\n\nIn global directory, e.g. /etc/cvasl/config.json.\n\nHowever, we highly recommend you use the home directory. This file can have this or similar contents:\n\n{    \"bids\": \"/mnt/source_data\",  \"raw_data\": \"/mnt/source_data/raw_data\",  \"derivatives\": \"/mnt/source_data/derivates/\",  \"explore_asl\": \"/mnt/source_data/derivates/explore_asl\",  \"cvage\": \"/mnt/source_data/derivates/cvage\",  \"cvage_inputs\": \"/mnt/source_data/derivates/cvage/cvage_inputs\",  \"cvage_outputs\": \"/mnt/source_data/derivates/cvage/cvage_outputs\",\n\n}\n\nThe file is read as follows: if the file only specifies bids directory, then the derivative missing entries are assumed to be relative to the root in a BIDS compliant format order You don't need to specify all entries. If you do, you can overwrite the ALS-BIDS format order but this is not reccomended.\n\nWhen working from command line, it may be useful to experiment with different directory layouts or to quickly override the existing options. To do so, you can invoke the program like this:\n\npython -m cvasl -C raw_data:/path/to/data\n\nThe snippet above allows using existing config.json but overrides the location of raw_data directory.\n\npython -m cvasl -C bids:/path/to/data -n",
+      "section": "Introduction (part 4)",
+      "repo": "223_cvasl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "The snippet above ignores any existing config.json files and sets the BIDS directory to /path/to/data (the rest will be derived from it).\n\npython -m cvasl \\  -C raw_data:/path/to/data \\  -C derivatives:/path/to/derivatives \\  -c /custom/config/location \\\n\nThe snippet above looks for configuration file in the alternative location: /custom/config/location while overriding the locations of raw_data aand of derivatives directories.\n\nIf you aren't sure where the data would be read or stored, you can run:\n\npython -m cvasl dump_config\n\nThe above will print the effective configuration that will be used by the program.",
+      "section": "Introduction (part 5)",
+      "repo": "223_cvasl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Test data\n\nYou can get test data by contacting the cvage team. Please email Dr. Moore at c.moore@esciencecenter.nl\n\n## Getting started\n\nHow to get the notebooks running? Assuming the raw data set and metadata is available.\n\nAssuming you are using conda for package management:\n\nMake sure you are in no environment:\n\n``sh  conda deactivate  `\n\n_(optional repeat if you are in the base environment)_\n\nYou should be in no environment or the base environment now\n\n1.   Option A: Fastest option:  In a base-like environment with mamba installed, you can install all Python packages required, using mamba and the environment.yml file.\n\nIf you do not have mamba installed you can follow instructions (here)[https://anaconda.org/conda-forge/mamba]\n\nThe command for Windows/Anaconda/Mamba users can be something like:\n\n`sh  mamba env create -f environment.yml  `\n\nOption B: To work with the most current versions with the possibility for development:  Install all Python packages required, using conda and the environment.yml file.\n\nThe command for Windows/Anaconda users can be something like:\n\n`sh  conda env create -f environment.yml  `\n\nCurrently, you will then need to clone the repository to run the cvasl from repo.   We will soon have an option to create the entire environment at once from conda.\n\nOption C:  Linux users can create their own environment by hand (use  install_dev as in setup). If you want to work with command-line, you can do so in your terminal, but\n\nif you would like to run our pre-made notebooks, then you can start them by entering  jupyter lab` into the terminal\n\n### Documentation:\n\nYou can look at our [online documentation] https://brainspinner.github.io/cvasl or build it by hand (see the setup file, the workflows, and it may be clear)",
+      "section": "Introduction (part 6)",
+      "repo": "223_cvasl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Testing\n\nThe testing framework is pytest. If you wish to run  automated testing of the notebooks then you must run it in the dedicated testing environment mriland which can be built from the test_environment.yml file. All other testing and automated testing  can be run in the regular environment.   The project doesn't include complete testing data yet.\n\n### Command-Line Interface\n\nYou will eventually be be able to preprocess, train and use models, and perform other functions using command-line interface. As of now (April 2023) this module is still being built.\n\nBelow is an example of how to look at the help for that in general: python -m cvasl --help\n\nAnd here is an example for a specific function: python -m cvasl hash_over --help\n\nAnd here are examples of a working commands (file names can be changed): to hash over files (assuming no config file): python -m cvasl -n -C raw_data:test_data hash_over --extension tsv --output some_ignored_folder\n\nto run a debiasing algorithm over files: python -m cvasl -n -C raw_data:image_data debias_over --preprocessing N4_debias_sitk --output ignrd_flder\n\nto recode sex on csv files in a folder: python -m cvasl -n sex_recode_over -i folder_w_files_to_be_recoded\n\nto log columns 'gm_vol' and 'wm_vol' in csvs in a folder: python -m cvasl -n log_recode_over -i loged1 -l gm_vol -l wm_vol\n\nAll long options have short aliases.\n\n\u2728Copyright 2023 Netherlands eScience Center and U. Amsterdam Medical Center Licensed under See LICENSE for details.\u2728",
+      "section": "Introduction (part 7)",
+      "repo": "223_cvasl",
+      "source_file": "readme.md"
+    }
+  }
+]

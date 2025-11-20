@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "[](https://doi.org/10.5281/zenodo.11563149)\n\nmicromechanics-indentationGUI\n\nInstall Create a new environment (python >= 3.8) using anaconda-navigator (https://www.anaconda.com/). In Anaconda's documentation (https://docs.anaconda.com/free/navigator/) you will learn:\n\nhow to install anaconda-navigator in the section of \"Anaconda Navigator => Installation\" (reading takes ~5 min),\n\nhow to create and activate a new environment in the section of \"Anaconda Navigator => Tutorials => How to create a Python 3.5 environment from Anaconda2 or Anaconda3\" (reading takes ~5 min).\n\nIn the terminal of the environment created by Anaconda Navigator, keyboard type the following command and press Enter\n\npip install micromechanics-indentationGUI\n\nIn the terminal, keyboard type the following command and press Enter\n\npip install --upgrade micromechanics-indentationGUI",
+      "section": "Introduction + Install + Upgrade",
+      "repo": "378_micromechanics-indentationGUI",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Usage Users need to know: For fast reading using HDF5 files:\n\nUsing the given original file (e.g. the XLSX file for G200X), the HDF5 file will be automatically generated at the first calibration/calculation (or when an HDF5 file with the same name as the XLSX file does not exist).\n\nThe automatically generated HDF5 file has the same file name as the original file (e.g. the XLSX file for G200X) except the file extension of \".h5\" and locates in the same folder as the original file.\n\nThe original file extension (e.g. '.xlsx' for G200X) should be given in the path instead of the file extension of the HDF5 file (\".h5\").\n\n[Important] If you changed the content of the original file, please delete the correspoding HDF5 file.\n\nRunning by keyboard typing the following command and pressing Enter in the terminal\n\nmicromechanics-indentationGUI\n\nIn the terminal, keyboard type the following command and press Enter\n\npip uninstall micromechanics-indentationGUI\n\nPrepare and create a new version Delete RecentFiles.txt in /indentationGUI/micromechanics_indentationGUI\n\nDelete .hf in /indentationGUI/micromechanics_indentationGUI/Examples\n\nSet \"# pylint: skip-file\" for all files named \"**_ui.py\"\n\nTest the code: linting, documentation and then the tests from the project's main directory\n\npylint micromechanics_indentationGUI/ make -C docs html\n\npython tests/testVerification.py\n\nThen upload/create-pull-request to GitHub, via\n\n./commit.py 'my message'",
+      "section": "Usage + Uninstall + Prepare and create a new version (and 1 more)",
+      "repo": "378_micromechanics-indentationGUI",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "codeRepository": "https://github.com/common-workflow-language/cwltool",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Common Workflow Language",
+    "Shell",
+    "Makefile",
+    "Dockerfile",
+    "JavaScript",
+    "Tcl"
+  ],
+  "downloadUrl": "https://api.github.com/repos/common-workflow-language/cwltool/zipball/main",
+  "author": "common-workflow-language",
+  "dateCreated": "2015-10-07T13:03:05Z",
+  "dateModified": "2025-10-30T15:28:09Z",
+  "keywords": [
+    "common-workflow-language",
+    "commonwl",
+    "containers",
+    "cwl",
+    "science",
+    "sciworkflows",
+    "workflows"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Common Workflow Language reference implementation",
+  "identifier": 43816051,
+  "name": "common-workflow-language/cwltool",
+  "issueTracker": "https://api.github.com/repos/common-workflow-language/cwltool/issues",
+  "readme": "https://github.com/common-workflow-language/cwltool/blob/main/README.rst"
+}

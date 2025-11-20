@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "ClimSight\n\nClimSight is an advanced tool that integrates Large Language Models (LLMs) with climate data to provide localized climate insights for decision-making. ClimSight transforms complex climate data into actionable insights for agriculture, urban planning, disaster management, and policy development.\n\nThe target audience includes researchers, providers of climate services, policymakers, agricultural planners, urban developers, and other stakeholders who require detailed climate information to support decision-making. ClimSight is designed to democratize access to climate  data, empowering users with insights relevant to their specific contexts.\n\nClimSight distinguishes itself through several key advancements: Integration of LLMs: ClimSight leverages state-of-the-art LLMs to interpret complex climate-related queries, synthesizing information from diverse data sources.\n\nMulti-Source Data Integration: Unlike conventional systems that rely solely on structured climate data, ClimSight integrates information from multiple sources.\n\nEvidence-Based Approach: ClimSight ensures contextually accurate answers by retrieving relevant knowledge from scientific reports, IPCC documents, and geographical databases.\n\nModular Architecture: Specialized components handle distinct tasks, such as data retrieval, contextual understanding, and result synthesis, leading to more accurate outputs.\n\nReal-World Applications: ClimSight is validated through practical examples, such as assessing climate risks for specific agricultural activities and urban planning scenarios.",
+      "section": "ClimSight (part 1)",
+      "repo": "023_ClimSight",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Installation Options\n\nYou can use ClimSight in three ways: Run a pre-built Docker container (simplest approach)\n\nBuild and run a Docker container from source\n\nInstall the Python package (via pip or conda/mamba)\n\nUsing ClimSight requires an OpenAI API key unless using the skipLLMCall mode for testing. The API key is only needed when running the application, not during installation.\n\n## Batch Processing\n\nFor batch processing of climate questions, the sequential directory contains specialized tools for generating, validating, and processing questions in bulk. These tools are particularly useful for research and analysis requiring multiple climate queries. See the [sequential/README.md] sequential/README.md for detailed usage instructions.\n\n## 1. Running with Docker (Pre-built Container)\n\nThe simplest way to get started is with our pre-built Docker container:",
+      "section": "ClimSight (part 2)",
+      "repo": "023_ClimSight",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Make sure your OpenAI API key is set as an environment variable export OPENAI_API_KEY=\"your-api-key-here\"\n\nPull and run the container docker pull koldunovn/climsight:stable docker run -p 8501:8501 -e OPENAI_API_KEY=$OPENAI_API_KEY koldunovn/climsight:stable\n\nThen open http://localhost:8501/ in your browser.\n\n## 2. Building and Running from Source with Docker\n\nIf you prefer to build from the latest source:\n\nClone the repository git clone https://github.com/CliDyn/climsight.git cd climsight\n\nDownload required data python download_data.py\n\nBuild and run the container docker build -t climsight . docker run -p 8501:8501 -e OPENAI_API_KEY=$OPENAI_API_KEY climsight\n\nVisit http://localhost:8501/ in your browser once the container is running.\n\nFor testing without OpenAI API calls:\n\ndocker run -p 8501:8501 -e STREAMLIT_ARGS=\"skipLLMCall\" climsight\n\n## 3. Python Package Installation\n\n### Option A: Building from source with conda/mamba\n\nClone the repository git clone https://github.com/CliDyn/climsight.git cd climsight\n\nCreate and activate the environment mamba env create -f environment.yml conda activate climsight\n\nDownload required data python download_data.py\n\n### Option B: Using pip\n\nIt's recommended to create a virtual environment to avoid dependency conflicts:\n\nOption 1: Install from source git clone https://github.com/CliDyn/climsight.git cd climsight\n\nCreate and activate a virtual environment python -m venv venv source venv/bin/activate # On Windows: venv\\Scripts\\activate\n\nInstall ClimSight pip install -e . python download_data.py\n\nOr if you prefer to set up without cloning the repository:\n\nCreate and activate a virtual environment python -m venv climsight_env source climsight_env/bin/activate # On Windows: climsight_env\\Scripts\\activate\n\nInstall the package pip install climsight\n\nCreate a directory for data mkdir -p climsight cd climsight",
+      "section": "Make sure your OpenAI API key is set as an environment variable + Pull and run the container + Clone the repository (and 11 more)",
+      "repo": "023_ClimSight",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Download necessary configuration files wget https://raw.githubusercontent.com/CliDyn/climsight/main/data_sources.yml wget https://raw.githubusercontent.com/CliDyn/climsight/main/download_data.py wget https://raw.githubusercontent.com/CliDyn/climsight/main/config.yml\n\nDownload the required data (about 8 GB) python download_data.py\n\n## Configuration\n\nClimSight will automatically use a config.yml file from the current directory. You can modify this file to customize settings:\n\nAgent parameters\n\n## Running ClimSight\n\n### If installed with conda/mamba from source:\n\nRun from the repository root streamlit run src/climsight/climsight.py\n\n### If installed with pip:\n\nMake sure you're in the directory with your data and config climsight\n\nYou can optionally set your OpenAI API key as an environment variable:\n\nexport OPENAI_API_KEY=\"your-api-key-here\"\n\nOtherwise, you can enter your API key directly in the browser interface when prompted.\n\n### Testing without an OpenAI API key:\n\nFrom source: streamlit run src/climsight/climsight.py skipLLMCall\n\nOr if installed with pip: climsight skipLLMCall\n\nThe application will open in your browser automatically. Just type your climate-related questions and press \"Generate\" to get insights.\n\n## Citation\n\nIf you use or refer to ClimSight in your work, please cite:\n\nKoldunov, N., Jung, T. Local climate services for all, courtesy of large language models. _Commun Earth Environ_ 5, 13 (2024). https://doi.org/10.1038/s43247-023-01199-1",
+      "section": "Download necessary configuration files + Download the required data (about 8 GB) + - Agent parameters (and 4 more)",
+      "repo": "023_ClimSight",
+      "source_file": "readme.md"
+    }
+  }
+]

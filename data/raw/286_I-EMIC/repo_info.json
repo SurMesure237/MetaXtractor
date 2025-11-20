@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/erik808/jdqzpp",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "CMake"
+  ],
+  "downloadUrl": "https://api.github.com/repos/erik808/jdqzpp/zipball/main",
+  "author": "erik808",
+  "dateCreated": "2016-04-08T11:07:50Z",
+  "dateModified": "2022-03-21T12:15:57Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Templated JDQZ generalized eigenvalue problem solver",
+  "identifier": 55772954,
+  "name": "erik808/jdqzpp",
+  "issueTracker": "https://api.github.com/repos/erik808/jdqzpp/issues",
+  "readme": "https://github.com/erik808/jdqzpp/blob/master/README.md"
+}

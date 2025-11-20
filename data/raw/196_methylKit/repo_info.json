@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/al2na/methylKit",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R",
+    "C++",
+    "TeX"
+  ],
+  "downloadUrl": "https://api.github.com/repos/al2na/methylKit/zipball/main",
+  "author": "al2na",
+  "dateCreated": "2013-12-24T19:35:57Z",
+  "dateModified": "2025-10-20T13:19:58Z",
+  "keywords": [
+    "genome-biology",
+    "methylation",
+    "statistical-analysis",
+    "visualization"
+  ],
+  "license": null,
+  "description": "R package for DNA methylation analysis",
+  "identifier": 15424141,
+  "name": "al2na/methylKit",
+  "issueTracker": "https://api.github.com/repos/al2na/methylKit/issues",
+  "readme": "https://github.com/al2na/methylKit/blob/master/README.md"
+}

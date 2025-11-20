@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "The Finite Element Sea Ice-Ocean Model (FESOM2)\n\n[](https://github.com/FESOM/fesom2/actions)\n\nMulti-resolution ocean general circulation model that solves the equations of motion describing the ocean and sea ice using finite-element and finite-volume methods on unstructured computational grids. The model is developed and supported by researchers at the Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research (AWI), in Bremerhaven, Germany.\n\nWebsite: [fesom.de] https://fesom.de/\n\nDocumentation: [fesom2.readthedocs.io] https://fesom2.readthedocs.io/en/latest/index.html\n\nBasic tutorial: [Getting started] https://fesom2.readthedocs.io/en/latest/getting_started/getting_started.html\n\nReferences\n\n[Complete list of references on fesom.de] https://fesom.de/publications/\n\n[Ocean model formulation] Danilov, S., Sidorenko, D., Wang, Q., and Jung, T.: The Finite-volumE Sea ice\u2013Ocean Model (FESOM2), Geosci. Model Dev., 10, 765\u2013789, https://doi.org/10.5194/gmd-10-765-2017, 2017.\n\n[Sea ice model formulation] Danilov, S., Q. Wang, R. Timmermann, N. Iakovlev, D. Sidorenko, M. Kimmritz, T. Jung, and Schr\u00f6ter, J. (2015), Finite-Element Sea Ice Model (FESIM), version 2, Geosci. Model Dev., 8, 1747\u20131761, http://www.geosci-model-dev.net/8/1747/2015/\n\n[Evaluation of standard sumulations] Scholz, P., Sidorenko, D., Gurses, O., Danilov, S., Koldunov, N., Wang, Q., Sein, D., Smolentseva, M., Rakowsky, N., and Jung, T.: Assessment of the Finite-volumE Sea ice-Ocean Model (FESOM2.0) \u2013 Part 1: Description of selected key model elements and comparison to its predecessor version, Geosci. Model Dev., 12, 4875\u20134899, https://doi.org/10.5194/gmd-12-4875-2019, 2019.",
+      "section": "Introduction (part 1)",
+      "repo": "058_FESOM",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[Evaluation of computational performance] Koldunov, N. V., Aizinger, V., Rakowsky, N., Scholz, P., Sidorenko, D., Danilov, S., and Jung, T.: Scalability and some optimization of the Finite-volumE Sea ice\u2013Ocean Model, Version 2.0 (FESOM2), Geosci. Model Dev., 12, 3991\u20134012, https://doi.org/10.5194/gmd-12-3991-2019, 2019.\n\n[Version coupled with ECHAM6 atmosphere] Sidorenko, D., Goessling, H. F., Koldunov, N. V., Scholz, P., Danilov, S., Barbi, D., et al ( 2019). Evaluation of FESOM2.0 coupled to ECHAM6.3: Pre\u2010industrial and HighResMIP simulations. Journal of Advances in Modeling Earth Systems, 11. https://doi.org/10.1029/2019MS001696\n\n[Version with ICEPACK sea ice thermodynamics] Zampieri, Lorenzo, Frank Kauker, J\u00f6rg Fr\u00f6hle, Hiroshi Sumata, Elizabeth C. Hunke, and Helge Goessling. Impact of Sea-Ice Model Complexity on the Performance of an Unstructured-Mesh Sea-ice/ocean Model Under Different Atmospheric Forcings. Washington: American Geophysical Union, 2020. https://dx.doi.org/10.1002/essoar.10505308.1.\n\n[Version coupled with OpenIFS atmosphere] Streffing, J., Sidorenko, D., Semmler, T., Zampieri, L., Scholz, P., Andr\u00e9s-Mart\u00ednez, M., et al ( 2022). AWI-CM3 coupled climate model: description and evaluation experiments for a prototype post-CMIP6 model. Geoscientific Model Development, 15. https://doi.org/10.5194/gmd-15-6399-2022",
+      "section": "Introduction (part 2)",
+      "repo": "058_FESOM",
+      "source_file": "readme.md"
+    }
+  }
+]

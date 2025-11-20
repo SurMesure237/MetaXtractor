@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "[](https://doi.org/10.5281/zenodo.14199793)\n\nThese are a bunch of files used for training models for the QUMIA project.\n\n### Contents\n\nThese are the most important files:\n\nrun-session.sh - the script that sets up a training session on the HPC environment: labelling, committing, copying and adding a train job to the job queue.\n\ntrain-job.sh / validate-job.sh - the SLURM jobs.\n\ntrain.py - the main script that sets up all the elements and performs the training and validation. It is actually based on an Python notebook (used for development purposes, but not committed due to potential data leaks) that is converted to train.py as part of the run-session.sh script.\n\nqumia_.py - the actual code that is used by the train script, thematically spread over several modules.\n\nconvert-notebook.sh - script that is used to convert Pyhon notebooks to stand-alone scripts.\n\ndata-prep/ - directory with preprocessing code. These are also based on Python notebooks, but converted to scripts (see train.py).",
+      "section": "README",
+      "repo": "154_qumia-train-scripts",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "data": {
+      "text": "Intepretability for Sequence Generation Models \ud83d\udd0d",
+      "section": "Introduction (part 1)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[](https://github.com/inseq-team/inseq/actions?query=workflow%3Abuild) [](https://inseq.readthedocs.io) [](https://pypi.org/project/inseq/) [](https://pypi.org/project/inseq/) [](https://pepy.tech/project/inseq) [](https://github.com/inseq-team/inseq/blob/main/LICENSE)",
+      "section": "Introduction (part 2)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[![Demo Paper](https://img.shields.io/badge/ACL%20Anthology%20-%20?logo=data%3Aimage%2Fx-icon%3Bbase64%2CAAABAAEAIBIAAAEAIABwCQAAFgAAACgAAAAgAAAAJAAAAAEAIAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEa7k0mH%2B%2F5JBzt%2FyQc7f8kHO3%2FJBzt%2FyQc7f8kHO3%2FJBzt%2FyQc7f8kHO3%2FJB3t%2FyQd7f8kHe3%2FJBzt%2FyQc7f8kHO3%2FJBzt%2FyQd7f8kHO3%2FJB3t%2FyQd7f8kHO3%2FJB3t%2FyQd7f8kHe3%2FJB3t%2FyMc79EkGP8VAAAAAAAAAAAAAAAAIRruTSYf7%2FkkHO3%2FJBzt%2FyQd7f8kHe3%2FJB3t%2FyQd7f8kHO3%2FJB3t%2FyQc7f8kHe3%2FJBzt%2FyQc7f8kHO3%2FJB3t%2FyQc7f8kHO3%2FJBzt%2FyQc7f8kHO3%2FJB3t%2FyQc7f8kHO3%2FJB3t%2FyQd7f8kHe3%2FIxzv0SQY%2FxUAAAAAAAAAAAAAAAAhIe5NJh%2Fv%2BSQd7f8kHe3%2FJB3t%2FyQd7f8kHO3%2FJBzt%2FyQc7f8kHe3%2FJBzt%2FyQd7f8kHe3%2FJBzt%2FyQc7f8kHe3%2FJB3t%2FyQd7f8kHe3%2FJB3t%2FyQc7f8kHe3%2FJB3t%2FyQd7f8kHe3%2FJBzt%2FyQd7f8jHO%2FRJBj%2FFQAAAAAAAAAAAAAAACEa7k0mH%2B%2F5JB3t%2FyQc7f8kHO3%2FJBzt%2FyQc7f8kHe3%2FJBzt%2FyQd7f8kHe3%2FJBzt%2FyQc7f8kHO3%2FJBzt%2FyQc7f8kHe3%2FJBzt%2FyQd7f8kHe3%2FJB3t%2FyQc7f8kHe3%2FJB3t%2FyQc7f8kHO3%2FJBzt%2FyMc79EkGP8VAAAAAAAAAAAAAAAAIRruTSYf7%2FkkHO3%2FJBzt%2FyQc7f8kHe3%2FJB3t%2FyQd7f8kHO3%2FJB3t%2FyQd7f8kHO3%2FJB3t%2FyQc7f8kHe3%2FJBzt%2FyQc7f8kHe3%2FJB3t%2FyQd7f8kHe3%2FJBzt%2FyQd7f8kHO3%2FJB3t%2FyQc7f8kHO3%2FIxzv0SQY%2FxUAAAAAAAAAAAAAAAAhGu5NJh%2Fv%2BSQd7f8kHO3%2FJBzt%2FyQd7f8jIOzYIxvtgiQc8X8kHPF%2FJBzxfyQc8X8kHPF%2FJBzxfyQc8X8kHPF%2FIx%2FuiiMf7OgkHe3%2FJBzt%2FyQc7f8kHO3%2FJhzs9CUg7JYkHPF%2FJBzxfyQc8X8iHfBoMzP%2FCgAAAAAAAAAAAAAAACEa7k0mHu%2F5JBzt%2FyQc7f8kHO3%2FJBzt%2FyQb7LEAAP8FAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkGP8VIxzv0SQc7f8kHe3%2FJB3t%2FyQc7f8jHOzpIhzuLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIRruTSYf7%2FkkHe3%2FJB3t%2FyQd7f8kHO3%2FJBvssQAA%2FwUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQY%2FxUjHO%2FRJB3t%2FyQc7f8kHO3%2FJBzt%2FyMb7OkiHO4tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhGu5NJh%2Fv%2BSQd7f8kHe3%2FJBzt%2FyQc7f8kHuyxAAD%2FBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJBj%2FFSMc7",
+      "section": "Introduction (part 3)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "9EkHe3%2FJBzt%2FyQc7f8kHO3%2FIxvs6SIc7i0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEa7k0mH%2B%2F5JBzt%2FyQc7f8kHO3%2FJBzt%2FyQb7LEAAP8FAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkGP8VIx3v0SQd7f8kHe3%2FJBzt%2FyQc7f8jHOzpIhzuLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIRruTSYf7%2FkkHO3%2FJBzt%2FyQc7f8kHe3%2FJBzuxSgi81MhGu5NIRruTSEa7k0hGu5NISHuTSEh7k0hGu5NIRruTSIa72EjHe3aJBzt%2FyQd7f8kHO3%2FJBzt%2FyMc7OkiHO4tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhGu5NJh7v%2BSQc7f8kHe3%2FJBzt%2FyQc7f8kHO3%2FJh%2Fv%2BSYf7%2FkmHu%2F5Jh%2Fv%2BSYf7%2FkmH%2B%2F5Jh%2Fv%2BSYf7%2FkmH%2B%2F5Jh7v%2BSQc7f8kHO3%2FJBzt%2FyQc7f8kHO3%2FIxzs6SIc7i0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEa7k0mHu%2F5JBzt%2FyQd7f8kHO3%2FJBzt%2FyQc7f8kHe3%2FJB3t%2FyQd7f8kHO3%2FJBzt%2FyQc7f8kHe3%2FJB3t%2FyQc7f8kHO3%2FJBzt%2FyQc7f8kHe3%2FJBzt%2FyQd7f8jHOzpIhzuLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIRruTSYe7%2FkkHO3%2FJB3t%2FyQc7f8kHO3%2FJBzt%2FyQd7f8kHe3%2FJB3t%2FyQc7f8kHe3%2FJB3t%2FyQd7f8kHO3%2FJBzt%2FyQc7f8kHO3%2FJB3t%2FyQc7f8kHO3%2FJBzt%2FyMc7OkiHO4tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhGu5NJh%2Fv%2BSQc7f8kHO3%2FJB3t%2FyQc7f8kHO3%2FJBzt%2FyQc7f8kHO3%2FJBzt%2FyQc7f8kHO3%2FJBzt%2FyQc7f8kHO3%2FJBzt%2FyQc7f8kHO3%2FJBzt%2FyQc7f8kHO3%2FIxzs6SIc7i0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEa7k0mH%2B%2F5JB3t%2FyQc7f8kHe3%2FJBzt%2FyQc7f8kHO3%2FJB3t%2FyQc7f8kHO3%2FJBzt%2FyQd7f8kHO3%2FJBzt%2FyQc7f8kHO3%2FJB3t%2FyQc7f8kHO3%2FJBzt%2FyQc7f8jHOzpIhzuLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKB%2FtOSUc7askHuyxJBvssSQe7LEkHuyxJB7ssSQe7LEkHuyxJBvssSQb7LEkHuyxJB7ssSQe7LEkHuyxJB7ssSUc7LMjHe31JB3t%2FyQd7f8kHe3%2FJBzt%2FyMc7OkiHO4tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD%2FBQAA%2FwUAAP8FAAD%2FBQAA%2FwUAAP8FAAD%2FBQAA%2FwUAAP8FAAD%2FBQAA%2FwUAAP8FAAD%2FBQAA%2FwUAAP8FHBzsGyMd7qYjHO%2FRIxzv0SMd79EjHO%2FRIx7tux4Y%2BSoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAP8A%2FwD%2FAP8A%2FwD%2FAP8A%2FwAAAP8AAAD%2FAAAA%2FwAAAP",
+      "section": "Introduction (part 4)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "8AAAD%2FAAAA%2FwAAAP%2BAAAD8%3D&labelColor=white&color=red&link=https%3A%2F%2Faclanthology.org%2F2023.acl-demo.40%2F",
+      "section": "Introduction (part 5)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": ")](https://aclanthology.org/2023.acl-demo.40)",
+      "section": "Introduction (part 6)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[](https://twitter.com/InseqLib)  [](https://discord.gg/V5VgwwFPbu)  [](https://inseq.org)  [](https://github.com/inseq-team/inseq/blob/main/examples/inseq_tutorial.ipynb)\n\nInseq is a Pytorch-based hackable toolkit to democratize access to common post-hoc interpretability analyses of sequence generation models.",
+      "section": "Introduction (part 7)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Installation\n\nInseq is available on PyPI and can be installed with pip for Python >= 3.10, <= 3.12:",
+      "section": "Introduction (part 8)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Install latest stable version pip install inseq",
+      "section": "Install latest stable version",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Alternatively, install latest development version pip install git+https://github.com/inseq-team/inseq.git\n\nInstall extras for visualization in Jupyter Notebooks and \ud83e\udd17 datasets attribution as pip install inseq[notebook,datasets].\n\nDev Installation To install the package, clone the repository and run the following commands:\n\ncd inseq make uv-download # Download and install the UV package manager make install # Installs the package and all dependencies\n\nFor library developers, you can use the make install-dev command to install all development dependencies (quality, docs, extras).\n\nAfter installation, you should be able to run make fast-test and make lint without errors.\n\nFAQ Installation\n\nInstalling the tokenizers package requires a Rust compiler installation. You can install Rust from [https://rustup.rs] https://rustup.rs and add $HOME/.cargo/env to your PATH.\n\nInstalling sentencepiece requires various packages, install with sudo apt-get install cmake build-essential pkg-config or brew install cmake gperftools pkg-config.",
+      "section": "Alternatively, install latest development version (part 1)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Example usage in Python\n\nThis example uses the Integrated Gradients attribution method to attribute the English-French translation of a sentence taken from the WinoMT corpus:\n\nimport inseq\n\nmodel = inseq.load_model(\"Helsinki-NLP/opus-mt-en-fr\", \"integrated_gradients\") out = model.attribute(  \"The developer argued with the designer because her idea cannot be implemented.\",  n_steps=100 ) out.show()\n\nThis produces a visualization of the attribution scores for each token in the input sentence (token-level aggregation is handled automatically). Here is what the visualization looks like inside a Jupyter Notebook:\n\nInseq also supports decoder-only models such as [GPT-2] https://huggingface.co/transformers/model_doc/gpt2.html, enabling usage of a variety of attribution methods and customizable settings directly from the console:\n\nimport inseq\n\nmodel = inseq.load_model(\"gpt2\", \"integrated_gradients\") model.attribute(  \"Hello ladies and\",  generation_args={\"max_new_tokens\": 9},  n_steps=500,  internal_batch_size=50 ).show()",
+      "section": "Alternatively, install latest development version (part 2)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Features\n\n\ud83d\ude80 Feature attribution of sequence generation for most ForConditionalGeneration (encoder-decoder) and ForCausalLM (decoder-only) models from \ud83e\udd17 Transformers\n\n\ud83d\ude80 Support for multiple feature attribution methods, extending the ones supported by [Captum] https://captum.ai/docs/introduction\n\n\ud83d\ude80 Post-processing, filtering and merging of attribution maps via Aggregator classes.\n\n\ud83d\ude80 Attribution visualization in notebooks, browser and command line.\n\n\ud83d\ude80 Efficient attribution of single examples or entire \ud83e\udd17 datasets with the Inseq CLI.\n\n\ud83d\ude80 Custom attribution of target functions, supporting advanced methods such as [contrastive feature attributions] https://aclanthology.org/2022.emnlp-main.14/ and [context reliance detection] https://arxiv.org/abs/2310.01188.\n\n\ud83d\ude80 Extraction and visualization of custom scores (e.g. probability, entropy) at every generation step alongsides attribution maps.\n\n### Supported methods\n\nUse the inseq.list_feature_attribution_methods function to list all available method identifiers and inseq.list_step_functions to list all available step functions. The following methods are currently supported:",
+      "section": "Alternatively, install latest development version (part 3)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### Gradient-based attribution\n\nsaliency: [Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps] https://arxiv.org/abs/1312.6034 (Simonyan et al., 2013)\n\ninput_x_gradient: [Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps] https://arxiv.org/abs/1312.6034 (Simonyan et al., 2013)\n\nintegrated_gradients: [Axiomatic Attribution for Deep Networks] https://arxiv.org/abs/1703.01365 (Sundararajan et al., 2017)\n\ndeeplift: [Learning Important Features Through Propagating Activation Differences] https://arxiv.org/abs/1704.02685 (Shrikumar et al., 2017)\n\ngradient_shap: [A unified approach to interpreting model predictions] https://dl.acm.org/doi/10.5555/3295222.3295230 (Lundberg and Lee, 2017)\n\ndiscretized_integrated_gradients: [Discretized Integrated Gradients for Explaining Language Models] https://aclanthology.org/2021.emnlp-main.805/ (Sanyal and Ren, 2021)\n\nsequential_integrated_gradients: [Sequential Integrated Gradients: a simple but effective method for explaining language models] https://aclanthology.org/2023.findings-acl.477/ (Enguehard, 2023)\n\n#### Internals-based attribution\n\nattention: Attention Weight Attribution, from [Neural Machine Translation by Jointly Learning to Align and Translate] https://arxiv.org/abs/1409.0473 (Bahdanau et al., 2014)",
+      "section": "Alternatively, install latest development version (part 4)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### Perturbation-based attribution\n\nocclusion: [Visualizing and Understanding Convolutional Networks] https://link.springer.com/chapter/10.1007/978-3-319-10590-1_53 (Zeiler and Fergus, 2014)\n\nlime: [\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier] https://arxiv.org/abs/1602.04938 (Ribeiro et al., 2016)\n\nvalue_zeroing: [Quantifying Context Mixing in Transformers] https://aclanthology.org/2023.eacl-main.245/ (Mohebbi et al. 2023)\n\nreagent: [ReAGent: A Model-agnostic Feature Attribution Method for Generative Language Models] https://arxiv.org/abs/2402.00794 (Zhao et al., 2024)",
+      "section": "Alternatively, install latest development version (part 5)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### Step functions\n\nStep functions are used to extract custom scores from the model at each step of the attribution process with the step_scores argument in model.attribute. They can also be used as targets for attribution methods relying on model outputs (e.g. gradient-based methods) by passing them as the attributed_fn argument. The following step functions are currently supported:",
+      "section": "Alternatively, install latest development version (part 6)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "logits: Logits of the target token.\n\nprobability: Probability of the target token. Can also be used for log-probability by passing logprob=True.\n\nentropy: Entropy of the predictive distribution.\n\ncrossentropy: Cross-entropy loss between target token and predicted distribution.\n\nperplexity: Perplexity of the target token.\n\ncontrast_logits/contrast_prob: Logits/probabilities of the target token when different contrastive inputs are provided to the model. Equivalent to logits/probability when no contrastive inputs are provided.\n\ncontrast_logits_diff/contrast_prob_diff: Difference in logits/probability between original and foil target tokens pair, can be used for contrastive evaluation as in [contrastive attribution] https://aclanthology.org/2022.emnlp-main.14/ (Yin and Neubig, 2022).\n\npcxmi: Point-wise Contextual Cross-Mutual Information (P-CXMI) for the target token given original and contrastive contexts [(Yin et al. 2021)] https://arxiv.org/abs/2109.07446.\n\nkl_divergence: KL divergence of the predictive distribution given original and contrastive contexts. Can be restricted to most likely target token options using the top_k and top_p parameters.\n\nin_context_pvi: In-context Pointwise V-usable Information (PVI) to measure the amount of contextual information used in model predictions [(Lu et al. 2023)] https://arxiv.org/abs/2310.12300.\n\nmc_dropout_prob_avg: Average probability of the target token across multiple samples using [MC Dropout] https://arxiv.org/abs/1506.02142 (Gal and Ghahramani, 2016).\n\ntop_p_size: The number of tokens with cumulative probability greater than top_p in the predictive distribution of the model.\n\nThe following example computes contrastive attributions using the contrast_prob_diff step function:\n\nimport inseq\n\nattribution_model = inseq.load_model(\"gpt2\", \"input_x_gradient\")",
+      "section": "Alternatively, install latest development version (part 7)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Contrastive target -> \"The manager went home because she was sick\" out = attribution_model.attribute(  \"The manager went home because\",  \"The manager went home because he was sick\",  attributed_fn=\"contrast_prob_diff\",  contrast_targets=\"The manager went home because she was sick\",  # We also visualize the corresponding step score  step_scores=[\"contrast_prob_diff\"] ) out.show()\n\nRefer to the [documentation] https://inseq.readthedocs.io/examples/custom_attribute_target.html for an example including custom function registration.",
+      "section": "Contrastive target      -> \"The manager went home because she was sick\" (part 1)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Using the Inseq CLI\n\nThe Inseq library also provides useful client commands to enable repeated attribution of individual examples and even entire \ud83e\udd17 datasets directly from the console. See the available options by typing inseq -h in the terminal after installing the package.\n\nThree commands are supported:\n\ninseq attribute: Wrapper for enabling model.attribute usage in console.\n\ninseq attribute-dataset: Extends attribute to full dataset using Hugging Face datasets.load_dataset API.\n\ninseq attribute-context: Detects and attribute context dependence for generation tasks using the approach of [Sarti et al. (2023)] https://arxiv.org/abs/2310.01188.\n\nAll commands support the full range of parameters available for attribute, attribution visualization in the console and saving outputs to disk.\n\ninseq attribute example\n\nThe following example performs a simple feature attribution of an English sentence translated into Italian using a MarianNMT translation model from transformers. The final result is printed to the console.  ``bash  inseq attribute \\  --model_name_or_path Helsinki-NLP/opus-mt-en-it \\  --attribution_method saliency \\  --input_texts \"Hello world this is Inseq\\! Inseq is a very nice library to perform attribution analysis\"  ``\n\ninseq attribute-dataset example\n\nThe following code can be used to perform attribution (both source and target-side) of Italian translations for a dummy sample of 20 English sentences taken from the FLORES-101 parallel corpus, using a MarianNMT translation model from Hugging Face transformers. We save the visualizations in HTML format in the file attributions.html. See the --help flag for more options.",
+      "section": "Contrastive target      -> \"The manager went home because she was sick\" (part 2)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "``bash  inseq attribute-dataset \\  --model_name_or_path Helsinki-NLP/opus-mt-en-it \\  --attribution_method saliency \\  --do_prefix_attribution \\  --dataset_name inseq/dummy_enit \\  --input_text_field en \\  --dataset_split \"train[:20]\" \\  --viz_path attributions.html \\  --batch_size 8 \\  --hide  `\n\ninseq attribute-context example\n\nThe following example uses a small LM to generate a continuation of input_current_text, and uses the additional context provided by input_context_text to estimate its influence on the the generation. In this case, the output \"to the hospital. He said he was fine\" is produced, and the generation of token hospital is found to be dependent on context token sick according to the contrast_prob_diff step function.\n\n`bash  inseq attribute-context \\  --model_name_or_path HuggingFaceTB/SmolLM-135M \\  --input_context_text \"George was sick yesterday.\" \\  --input_current_text \"His colleagues asked him to come\" \\  --attributed_fn \"contrast_prob_diff\"  ``\n\nResult:",
+      "section": "Contrastive target      -> \"The manager went home because she was sick\" (part 3)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Planned Development\n\n\u2699\ufe0f Support more attention-based and occlusion-based feature attribution methods (documented in [#107] https://github.com/inseq-team/inseq/issues/107 and [#108] https://github.com/inseq-team/inseq/issues/108).\n\n\u2699\ufe0f Interoperability with [ferret] https://ferret.readthedocs.io/en/latest/ for attribution plausibility and faithfulness evaluation.\n\n\u2699\ufe0f Rich and interactive visualizations in a tabbed interface using [Gradio Blocks] https://gradio.app/docs/#blocks.\n\n## Contributing\n\nOur vision for Inseq is to create a centralized, comprehensive and robust set of tools to enable fair and reproducible comparisons in the study of sequence generation models. To achieve this goal, contributions from researchers and developers interested in these topics are more than welcome. Please see our [contributing guidelines] CONTRIBUTING.md and our [code of conduct] CODE_OF_CONDUCT.md for more information.\n\n## Citing Inseq\n\nIf you use Inseq in your research we suggest including a mention of the specific release (e.g. v0.6.0) and we kindly ask you to cite our reference paper as:\n\n@inproceedings{sarti-etal-2023-inseq,  title = \"Inseq: An Interpretability Toolkit for Sequence Generation Models\",  author = \"Sarti, Gabriele and  Feldhus, Nils and  Sickert, Ludwig and  van der Wal, Oskar and  Nissim, Malvina and  Bisazza, Arianna\",  booktitle = \"Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)\",  month = jul,  year = \"2023\",  address = \"Toronto, Canada\",  publisher = \"Association for Computational Linguistics\",  url = \"https://aclanthology.org/2023.acl-demo.40\",  doi = \"10.18653/v1/2023.acl-demo.40\",  pages = \"421--435\", }",
+      "section": "Contrastive target      -> \"The manager went home because she was sick\" (part 4)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Research using Inseq\n\nInseq has been used in various research projects. A list of known publications that use Inseq to conduct interpretability analyses of generative models is shown below.\n\n[!TIP] Last update: August 2024. Please open a pull request to add your publication to the list.\n\n2023    Inseq: An Interpretability Toolkit for Sequence Generation Models (Sarti et al., 2023)   Are Character-level Translations Worth the Wait? Comparing ByT5 and mT5 for Machine Translation (Edman et al., 2023)   Response Generation in Longitudinal Dialogues: Which Knowledge Representation Helps? (Mousavi et al., 2023)   Quantifying the Plausibility of Context Reliance in Neural Machine Translation (Sarti et al., 2023)  A Tale of Pronouns: Interpretability Informs Gender Bias Mitigation for Fairer Instruction-Tuned Machine Translation (Attanasio et al., 2023)  Attribution and Alignment: Effects of Local Context Repetition on Utterance Production and Comprehension in Dialogue (Molnar et al., 2023)",
+      "section": "Contrastive target      -> \"The manager went home because she was sick\" (part 5)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "2024    Assessing the Reliability of Large Language Model Knowledge (Wang et al., 2024)  LLMCheckup: Conversational Examination of Large Language Models via Interpretability Tools (Wang et al., 2024)  ReAGent: A Model-agnostic Feature Attribution Method for Generative Language Models (Zhao et al., 2024)  Revisiting subword tokenization: A case study on affixal negation in large language models (Truong et al., 2024)  Exploring NMT Explainability for Translators Using NMT Visualising Tools (Gonzalez-Saez et al., 2024)  DETAIL: Task DEmonsTration Attribution for Interpretable In-context Learning (Zhou et al., 2024)  Should We Fine-Tune or RAG? Evaluating Different Techniques to Adapt LLMs for Dialogue (Alghisi et al., 2024)  Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation (Qi, Sarti et al., 2024)  NoNE Found: Explaining the Output of Sequence-to-Sequence Models When No Named Entity Is Recognized (dela Cruz et al., 2024)",
+      "section": "Contrastive target      -> \"The manager went home because she was sick\" (part 6)",
+      "repo": "328_Inseq",
+      "source_file": "readme.md"
+    }
+  }
+]

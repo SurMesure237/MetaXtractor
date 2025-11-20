@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/FAIR-data-for-CAPACITY/FHIR-to-CAPACITY",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/FAIR-data-for-CAPACITY/FHIR-to-CAPACITY/zipball/main",
+  "author": "FAIR-data-for-CAPACITY",
+  "dateCreated": "2020-09-29T08:42:52Z",
+  "dateModified": "2022-03-08T15:13:41Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": null,
+  "identifier": 299556738,
+  "name": "FAIR-data-for-CAPACITY/FHIR-to-CAPACITY",
+  "issueTracker": "https://api.github.com/repos/FAIR-data-for-CAPACITY/FHIR-to-CAPACITY/issues",
+  "readme": "https://github.com/FAIR-data-for-CAPACITY/FHIR-to-CAPACITY/blob/master/README.md"
+}

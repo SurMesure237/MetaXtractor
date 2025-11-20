@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/MarieOestreich/hCoCena",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R"
+  ],
+  "downloadUrl": "https://api.github.com/repos/MarieOestreich/hCoCena/zipball/main",
+  "author": "MarieOestreich",
+  "dateCreated": "2022-03-10T11:35:58Z",
+  "dateModified": "2025-02-17T10:40:19Z",
+  "keywords": [],
+  "license": null,
+  "description": null,
+  "identifier": 468316476,
+  "name": "MarieOestreich/hCoCena",
+  "issueTracker": "https://api.github.com/repos/MarieOestreich/hCoCena/issues",
+  "readme": "https://github.com/MarieOestreich/hCoCena/blob/main/README.md"
+}

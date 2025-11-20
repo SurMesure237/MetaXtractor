@@ -1,0 +1,696 @@
+[
+  {
+    "id": 482,
+    "annotations": [
+      {
+        "id": 11389,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:22:40.239910Z",
+        "updated_at": "2025-11-07T08:22:40.239924Z",
+        "draft_created_at": null,
+        "lead_time": 1.651,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "d738ba86-aea3-4b5f-92ad-49f8074a8d03",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 482,
+        "project": 23196,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "107_LimeSurvey",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.738848Z",
+    "updated_at": "2025-11-07T08:22:40.266753Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23196,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 483,
+    "annotations": [
+      {
+        "id": 11390,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 112,
+              "end": 138,
+              "text": "https://www.limesurvey.org",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "I8a7EwTD6A",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 204,
+              "end": 237,
+              "text": "https://www.limesurvey.org/manual",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "xlBX-mwKih",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 438,
+              "end": 464,
+              "text": "https://www.limesurvey.org",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "WC947x__ph",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:23:08.945873Z",
+        "updated_at": "2025-11-16T05:26:00.300245Z",
+        "draft_created_at": "2025-11-07T08:22:50.689089Z",
+        "lead_time": 32.853,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "330940e8-3d53-4aa8-92a3-b822ba651b38",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 483,
+        "project": 23196,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "LimeSurvey: The world’s #1 open-source survey platform It's what we love and do best since 2006...\n\n🌐 [Website] https://www.limesurvey.org · 🔮 [Demo] https://demo.limesurvey.org/admin · 📚 [Documentation] https://www.limesurvey.org/manual · ⚙️ [Request a feature] https://bugs.limesurvey.org · 🐛 [Report a bug] https://bugs.limesurvey.org · 🗨️ [Forums] https://forums.limesurvey.org · 🗨️ [Discord] https://discord.gg/DEjguXn\n\n[LimeSurvey] https://www.limesurvey.org is a free and open-source online survey platfrom used by businesses of all sizes, professionals, academic institutions, teachers, students, governments, financial institutes, and [Anja] https://www.linkedin.com/in/anja-meinders-ba3b29213/ from HR (who is hiring and looking for a DevOps and Technical Support Engineer/Developer – [drop her a Lime…] https://www.linkedin.com/in/anja-meinders-ba3b29213/) in 80+ countries worldwide. It offers features like conditional logic, question branching, customizable templates, multilingual support, and GDPR compliance.\n\n## 🌟 Why LimeSurvey?\n\nLimeSurvey is perfect for you if you are...\n\n📊 Gathering feedback from customers, employees, or stakeholders\n\n🎓 Conducting academic research or field studies\n\n🌍 Running multilingual surveys for global audiences\n\n🔐 Prioritizing privacy and GDPR compliance in data collection\n\n🛠 Needing customizable, flexible survey platform for various projects\n\n🚀 Scaling surveys for startups, mid-sized businesses, or large organizations\n\n🎯 Looking for an open-source solution with no vendor lock-in",
+      "section": "LimeSurvey: The world’s #1 open-source survey platform (part 1)",
+      "repo": "107_LimeSurvey",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.738893Z",
+    "updated_at": "2025-11-16T05:26:00.333533Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23196,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 484,
+    "annotations": [
+      {
+        "id": 11391,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1192,
+              "end": 1212,
+              "text": "PHP-ready web server",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "f6NzWC5QLg",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1345,
+              "end": 1350,
+              "text": "nginx",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "2e9A7xqU4j",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1367,
+              "end": 1370,
+              "text": "PHP",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "SNS8Z4B9Cy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1384,
+              "end": 1391,
+              "text": "php-fpm",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "-VVnVGrDrC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1229,
+              "end": 1237,
+              "text": "mbstring",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "llILIvpbjU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1242,
+              "end": 1245,
+              "text": "PDO",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Y_cPltlt0L",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1393,
+              "end": 1401,
+              "text": "mbstring",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "T7L5EiDA3-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1403,
+              "end": 1406,
+              "text": "gd2",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "-90ylTw9wt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1408,
+              "end": 1412,
+              "text": "imap",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "tQfGm3CJQz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1414,
+              "end": 1418,
+              "text": "ldap",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "WFDrpto9o1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1420,
+              "end": 1423,
+              "text": "zip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "2ixojZmBQ5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1425,
+              "end": 1429,
+              "text": "zlib",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "2JAYHlCClB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1435,
+              "end": 1443,
+              "text": "database",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "wfPNWBjnhJ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1460,
+              "end": 1467,
+              "text": "MariaDB",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Un3FOmUPxB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1158,
+              "end": 1164,
+              "text": "Apache",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "-Z8UeO4FnP",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1165,
+              "end": 1170,
+              "text": "≥ 2.4",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "gSP2gu4sg1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1172,
+              "end": 1177,
+              "text": "nginx",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "rfm2tHMEhQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1178,
+              "end": 1183,
+              "text": "≥ 1.1",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "nqvhHiWhNB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1218,
+              "end": 1223,
+              "text": "≥ 7.4",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "jTkfz5aT03",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1214,
+              "end": 1217,
+              "text": "PHP",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "2FQ_ZqhbKd",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1261,
+              "end": 1266,
+              "text": "≥ 8.0",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "pTDm6ptDH5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1279,
+              "end": 1283,
+              "text": "≥ 12",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "INYqLD9SsL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1293,
+              "end": 1302,
+              "text": "≥ 10.3.38",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "WP9TNWY_pN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1313,
+              "end": 1319,
+              "text": "≥ 2016",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "YzKDB0YS7D",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1255,
+              "end": 1260,
+              "text": "MySQL",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "UtUzg9TStQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1268,
+              "end": 1278,
+              "text": "PostgreSQL",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "u2ACd-Muom",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1285,
+              "end": 1292,
+              "text": "MariaDB",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "euKsvXbdta",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1307,
+              "end": 1312,
+              "text": "MSSQL",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "1w8BO0GIvt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:24:39.834628Z",
+        "updated_at": "2025-11-16T05:27:04.422844Z",
+        "draft_created_at": "2025-11-07T08:23:22.343512Z",
+        "lead_time": 144.435,
+        "prediction": {},
+        "result_count": 28,
+        "unique_id": "c0b4bbfb-7556-4789-9e1d-736864f68541",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 484,
+        "project": 23196,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## 🚀 Features\n\n✅ Unlimited surveys\n\n✅ Unlimited questions\n\n✅ 30+ question types\n\n✅ 900+ survey templates\n\n✅ Easy LimeSurvey editor\n\n✅ On-brand surveys (fonts, colors, logo, CSS, JavaScript)\n\n✅ Multilingual surveys (80+ languages)\n\n✅ Skip logic and question branching\n\n✅ Easy survey sharing (via public link, QR code, socials)\n\n✅ Closed access mode (via personal link, invite-only)\n\n✅ Responses & statistics\n\n✅ Advanced data analysis tools\n\n✅ RemoteControl API (via XML-RPC / JSON-RPC)\n\n✅ Google Analytics\n\n✅ Data security & anonymization\n\n✅ Two-factor authentication\n\n✅ GDPR compliance and strong data security\n\n✅ WCAG 2.0 compliance 🌐💚\n\n✅ Plugins (questions themes, survey themes, audit log, ExportR, ExportSTATAxml, AuthCAS ...)\n\n✅ Integrations (SAML, LDAP, SURFconext, Remote Control, REST API ...)\n\n✅ And much more ...\n\n## Installation\n\n⬇️ Stable Release: We recommend downloading the [latest stable version] https://community.limesurvey.org/downloads/ for optimal reliability and performance.\n\n⚠️ Repository: You can also access the development repository. Be aware that it may contain versions that are not fully tested.\n\n## Requirements\n\n### Minimal\n\nApache ≥ 2.4, nginx ≥ 1.1, or any PHP-ready web server\n\nPHP ≥ 7.4 with mbstring and PDO drivers\n\nMySQL ≥ 8.0, PostgreSQL ≥ 12, MariaDB ≥ 10.3.38, or MSSQL ≥ 2016\n\n### Recommended\n\nLatest nginx version\n\nLatest PHP version with php-fpm, mbstring, gd2, imap, ldap, zip, zlib, and database drivers\n\nLatest MariaDB or MySQL version",
+      "section": "LimeSurvey: The world’s #1 open-source survey platform (part 2)",
+      "repo": "107_LimeSurvey",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.738919Z",
+    "updated_at": "2025-11-16T05:27:04.458119Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23196,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 485,
+    "annotations": [
+      {
+        "id": 11392,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1084,
+              "end": 1092,
+              "text": "GPL v2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "KroLJ3qMt8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1140,
+              "end": 1197,
+              "text": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "2_GWPodKOT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:25:03.670426Z",
+        "updated_at": "2025-11-07T08:25:03.670438Z",
+        "draft_created_at": "2025-11-07T08:24:57.008892Z",
+        "lead_time": 23.614,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "c9f2e909-171d-4423-9aaa-d761701a5517",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 485,
+        "project": 23196,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## ☁️ You don’t want to host yourself? Let us do it for you!\n\nSkip the technical setup and focus on creating and analyzing surveys. With our hosted SaaS, you get a fast, easy-to-use online survey platform that ensures security and complies with privacy regulations like GDPR. We take care of all the hosting and maintenance, so you don’t have to worry about it and can scale away:  👉 [Create free online survey] https://www.limesurvey.org/!\n\n## ❤️ Join the community\n\n⭐ Show your support and star this repo now\n\n💬 Join the discussion in our [forums] https://forums.limesurvey.org\n\n🐛 Submit [bugs] https://bugs.limesurvey.org and [feature requests] https://bugs.limesurvey.org\n\n🔗 Follow us on [LinkedIn] https://www.linkedin.com/company/limesurvey\n\n💬 Join our [Discord] https://discord.gg/DEjguXn\n\n🦸 Make [contributions] https://www.limesurvey.org/manual/How_to_join_the_LimeSurvey_project_team or [join the LimeSurvey project team] https://www.limesurvey.org/manual/How_to_join_the_LimeSurvey_project_team\n\n## All Thanks to our contributors\n\n## License\n\nLimeSurvey is licensed under [GPL v2.0, with the option to use any later GPL version] https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html. Pictures and the LimeSurvey Logo are registered trademarks of LimeSurvey GmbH, based in Hamburg, Germany.\n\n🔼 Back to top",
+      "section": "LimeSurvey: The world’s #1 open-source survey platform (part 3)",
+      "repo": "107_LimeSurvey",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.738942Z",
+    "updated_at": "2025-11-07T08:25:03.696074Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23196,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,662 @@
+[
+  {
+    "id": 2428,
+    "annotations": [
+      {
+        "id": 10125,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 57,
+              "text": "https://simpa.readthedocs.io/en/develop/?badge=develop",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "83ug67aXIx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 63,
+              "end": 118,
+              "text": "https://github.com/IMSY-DKFZ/simpa/blob/main/LICENSE.md",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "MAfqY0clx5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:47:07.666965Z",
+        "updated_at": "2025-11-14T09:43:51.514806Z",
+        "draft_created_at": "2025-11-03T05:47:07.084176Z",
+        "lead_time": 21.105,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "ac7e84b0-8025-4455-8856-96d772703fe2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2428,
+        "project": 23541,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://simpa.readthedocs.io/en/develop/?badge=develop)\n\n[](https://github.com/IMSY-DKFZ/simpa/blob/main/LICENSE.md) [](https://pypi.org/project/simpa/) [](https://pypi.org/project/simpa/)",
+      "section": "Introduction",
+      "repo": "079_SIMPA_-_The_toolkit_for_Simulation_and_Image_Processing_for_Photonics_and_Acoustics",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.842061Z",
+    "updated_at": "2025-11-14T09:43:51.553502Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23541,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2429,
+    "annotations": [
+      {
+        "id": 10126,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 851,
+              "end": 892,
+              "text": "https://doi.org/10.1117/1.JBO.27.8.083010",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "BNtmN0nnXo",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:47:56.820820Z",
+        "updated_at": "2025-11-03T05:47:56.820842Z",
+        "draft_created_at": "2025-11-03T05:47:36.045550Z",
+        "lead_time": 48.953,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "76d2a0e1-b10c-4b82-a2d5-d93ce00f970c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2429,
+        "project": 23541,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "The toolkit for Simulation and Image Processing for Photonics and Acoustics (SIMPA)\n\nSIMPA aims to facilitate realistic image simulation for optical and acoustic imaging modalities by providing adapters to crucial modelling steps, such as volume generation; optical modelling; acoustic modelling; and image reconstruction. SIMPA provides a communication layer between various modules that implement optical and acoustic forward and inverse models. Non-experts can use the toolkit to create sensible simulations from default parameters in an end-to-end fashion. Domain experts are provided with the functionality to set up a highly customisable pipeline according to their specific use cases and tool requirements. The paper that introduces SIMPA including visualisations and explanations can be found here: [https://doi.org/10.1117/1.JBO.27.8.083010] https://doi.org/10.1117/1.JBO.27.8.083010\n\n[Getting started] #getting-started  [Simulation examples] #simulation-examples  [Documentation] #documentation  [Reproducibility] #reproducibility  [Contributing] #how-to-contribute  [Performance profiling] #performance-profiling  [Troubleshooting] #troubleshooting  [Citation] #citation [Funding] #funding\n\nThe toolkit is still under development and is thus not fully tested and may contain bugs.  Please report any issues that you find in our Issue Tracker: https://github.com/IMSY-DKFZ/simpa/issues.  Also make sure to double check all value ranges of the optical and acoustic tissue properties  and to assess all simulation results for plausibility.",
+      "section": "The toolkit for Simulation and Image Processing for Photonics and Acoustics (SIMPA)",
+      "repo": "079_SIMPA_-_The_toolkit_for_Simulation_and_Image_Processing_for_Photonics_and_Acoustics",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.842106Z",
+    "updated_at": "2025-11-03T05:47:56.850178Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23541,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2430,
+    "annotations": [
+      {
+        "id": 10127,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:48:09.768994Z",
+        "updated_at": "2025-11-03T05:48:09.769007Z",
+        "draft_created_at": null,
+        "lead_time": 12.764,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "facef1c4-43ea-4fe0-aea2-d03f129fe0d7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2430,
+        "project": 23541,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Getting started\n\nIn order to use SIMPA in your project, SIMPA has to be installed as well as the external tools that make the actual simulations possible. Finally, to connect everything, SIMPA has to find all the binaries of the simulation modules you would like to use. The SIMPA path management takes care of that.\n\n[SIMPA installation instructions] #simpa-installation-instructions  [External tools installation instructions] #external-tools-installation-instructions  [Path Management] #path-management  [Testing] #run-manual-tests\n\n## SIMPA installation instructions\n\nThe recommended way to install SIMPA is a manual installation from the GitHub repository, please follow steps 1 - 3:\n\ngit clone https://github.com/IMSY-DKFZ/simpa.git\n\ncd simpa\n\ngit checkout main\n\ngit pull\n\nNow open a python instance in the 'simpa' folder that you have just downloaded. Make sure that you have your preferred virtual environment activated (we also recommend python 3.10) pip install . or pip install -e . for an editable mode.\n\nTest if the installation worked by using python followed by import simpa then exit()\n\nIf no error messages arise, you are now setup to use SIMPA in your project.\n\nYou can also install SIMPA with pip. Simply run:\n\npip install simpa\n\nYou also need to manually install the pytorch library to use all features of SIMPA. To this end, use the pytorch website tool to figure out which version to install: [https://pytorch.org/get-started/locally/] https://pytorch.org/get-started/locally/\n\n## External tools installation instructions\n\nIn order to get the full SIMPA functionality, you should install all third party toolkits that make the optical and  acoustic simulations possible.",
+      "section": "Getting started (part 1)",
+      "repo": "079_SIMPA_-_The_toolkit_for_Simulation_and_Image_Processing_for_Photonics_and_Acoustics",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.842133Z",
+    "updated_at": "2025-11-03T05:48:09.797403Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23541,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2431,
+    "annotations": [
+      {
+        "id": 10128,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 210,
+              "end": 215,
+              "text": "MacOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "MjG9w7bk6M",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 170,
+              "end": 175,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "TVDj1E2U8J",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 250,
+              "end": 257,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "Hqk-zmpDq3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 71,
+              "end": 74,
+              "text": "mcx",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "bpgcZj7Hr7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 600,
+              "end": 606,
+              "text": "MATLAB",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "fVYKWp2J3f",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:49:38.915856Z",
+        "updated_at": "2025-11-14T09:47:01.448014Z",
+        "draft_created_at": "2025-11-03T05:48:19.812823Z",
+        "lead_time": 208.709,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "eb682473-b39b-4bb0-9853-8700ff6e088e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2431,
+        "project": 23541,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### mcx (Optical Forward Model)\n\nDownload the latest nightly build of [mcx] http://mcx.space/ on [this page] http://mcx.space/nightly/github/ for your operating system:\n\nLinux: mcx-linux-x64-github-latest.zip\n\nMacOS: mcx-macos-x64-github-latest.zip\n\nWindows: mcx-windows-x64-github-latest.zip\n\nThen extract the files and set MCX_BINARY_PATH=/.../mcx/bin/mcx in your path_config.env.\n\n### k-Wave (Acoustic Forward Model)\n\nPlease follow the following steps and use the k-Wave install instructions  for further (and much better) guidance under:\n\n[http://www.k-wave.org/] http://www.k-wave.org/\n\nInstall MATLAB with the core, image processing and parallel computing toolboxes activated at the minimum.\n\nDownload the kWave toolbox (version >= 1.4)\n\nAdd the kWave toolbox base path to the toolbox paths in MATLAB\n\nIf wanted: Download the CPP and CUDA binary files and place them in the k-Wave/binaries folder\n\nNote down the system path to the matlab executable file.\n\n## Path management\n\nAs a pipelining tool that serves as a communication layer between different numerical forward models and processing tools, SIMPA needs to be configured with the paths to these tools on your local hard drive. You have a couple of options to define the required path variables.  ### Option 1:\n\nEnsure that the environment variables defined in simpa_examples/path_config.env.example are accessible to your script during runtime. This can be done through any method you prefer, as long as the environment variables are accessible through os.environ.",
+      "section": "Getting started (part 2)",
+      "repo": "079_SIMPA_-_The_toolkit_for_Simulation_and_Image_Processing_for_Photonics_and_Acoustics",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.842157Z",
+    "updated_at": "2025-11-14T09:47:01.487577Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23541,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2432,
+    "annotations": [
+      {
+        "id": 10129,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:49:46.924386Z",
+        "updated_at": "2025-11-03T05:49:46.924410Z",
+        "draft_created_at": null,
+        "lead_time": 7.81,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "240e1d7d-f506-4d91-8151-913974a03432",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2432,
+        "project": 23541,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Option 2:\n\nImport the PathManager class to your project using from simpa.utils import PathManager. If a path to a .env file is not provided, the PathManager looks for a path_config.env file (just like the one we provided in the simpa_examples/path_config.env.example) in the following places, in this order: The optional path you give the PathManager\n\nYour $HOME$ directory\n\nThe current working directory\n\nThe SIMPA home directory path\n\nFor this option, please follow the instructions in the simpa_examples/path_config.env.example file.\n\n## Run manual tests\n\nTo check the success of your installation ot to assess how your contributions affect the Simpa simulation outcomes, you can run the manual tests automatically. Install the testing requirements by doing pip install .[testing] and run the simpa_tests/manual_tests/generate_overview.py file. This script runs all manual tests and generates both a markdown and an HTML file that compare your results with the reference results.",
+      "section": "Getting started (part 3)",
+      "repo": "079_SIMPA_-_The_toolkit_for_Simulation_and_Image_Processing_for_Photonics_and_Acoustics",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.842183Z",
+    "updated_at": "2025-11-03T05:49:46.953890Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23541,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2433,
+    "annotations": [
+      {
+        "id": 10130,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:49:50.408393Z",
+        "updated_at": "2025-11-03T05:49:50.408407Z",
+        "draft_created_at": null,
+        "lead_time": 3.289,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f26d0846-63e2-4ea6-8cf0-f9c4c0db6b3c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2433,
+        "project": 23541,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Simulation examples\n\nTo get started with actual simulations, SIMPA provides an [example package] simpa_examples of simple simulation  scripts to build your custom simulations upon. The [minimal optical simulation] simpa_examples/minimal_optical_simulation.py is a nice start if you have MCX installed.\n\nGenerally, the following pseudo code demonstrates the construction and run of a simulation pipeline:\n\nimport simpa as sp\n\nCreate general settings settings = sp.Settings(general_settings)\n\nin the simulation pipeline settings.set_volume_creation_settings(volume_creation_settings) settings.set_optical_settings(optical_settings) settings.set_acoustic_settings(acoustic_settings) settings.set_reconstruction_settings(reconstruction_settings)\n\nSet the simulation pipeline simulation_pipeline = [sp.VolumeCreationModule(settings),  sp.OpticalModule(settings),  sp.AcousticModule(settings),  sp.ReconstructionModule(settings)]\n\nChoose a PA device with device position in the volume device = sp.CustomDevice()\n\nSimulate the pipeline sp.simulate(simulation_pipeline, settings, device)\n\nFor reproducibility, we provide the exact version number including the commit hash in the simpa output file. This can be accessed via simpa.__version__ or by checking the tag Tags.SIMPA_VERSION in the output file. This way, you can always trace back the exact version of the code that was used to generate the simulation results.",
+      "section": "Simulation examples + Create general settings + in the simulation pipeline (and 4 more)",
+      "repo": "079_SIMPA_-_The_toolkit_for_Simulation_and_Image_Processing_for_Photonics_and_Acoustics",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.842207Z",
+    "updated_at": "2025-11-03T05:49:50.436293Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23541,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2434,
+    "annotations": [
+      {
+        "id": 10131,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 120,
+              "end": 159,
+              "text": "https://simpa.readthedocs.io/en/develop",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "ClvLEiZNto",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:50:09.490526Z",
+        "updated_at": "2025-11-03T05:50:09.490543Z",
+        "draft_created_at": null,
+        "lead_time": 18.888,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "0f42659b-841f-4bcd-9796-2d44bf707696",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2434,
+        "project": 23541,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Documentation\n\nThe updated version of the SIMPA documentation can be found at [https://simpa.readthedocs.io/en/develop] https://simpa.readthedocs.io/en/develop.\n\n## Building the documentation\n\nIt is also easily possible to build the SIMPA documentation from scratch. When the installation succeeded, and you want to make sure that you have the latest documentation you should do the following steps in a command line:\n\nMake sure that you've installed the optional dependencies needed for the documentation by running pip install .[docs]\n\nNavigate to the simpa/docs directory\n\nIf you would like the documentation to have the https://readthedocs.org/ style, type pip install sphinx-rtd-theme\n\nType make html\n\nOpen the index.html file in the simpa/docs/build/html directory with your favourite browser.",
+      "section": "Documentation",
+      "repo": "079_SIMPA_-_The_toolkit_for_Simulation_and_Image_Processing_for_Photonics_and_Acoustics",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.842229Z",
+    "updated_at": "2025-11-03T05:50:09.520640Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23541,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2435,
+    "annotations": [
+      {
+        "id": 10132,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:50:17.058489Z",
+        "updated_at": "2025-11-03T05:50:17.058516Z",
+        "draft_created_at": null,
+        "lead_time": 7.363,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e8fd3034-49aa-4eb5-9560-39733d775fcf",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2435,
+        "project": 23541,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "How to contribute\n\nPlease find a more detailed description of how to contribute as well as code style references in our [contribution guidelines] CONTRIBUTING.md.\n\nTo contribute to SIMPA, please fork the SIMPA github repository and create a pull request with a branch containing your  suggested changes. The core developers will then review the suggested changes and integrate these into the code  base.\n\nPlease make sure that you have included unit tests for your code and that all previous tests still run through. Please also run the pre-commit hooks and make sure they are passing. Details are found in our [contribution guidelines] CONTRIBUTING.md.\n\nThere is a regular SIMPA status meeting every Friday on even calendar weeks at 10:00 CET/CEST, and you are very welcome to participate and raise any issues or suggest new features. If you want to join this meeting, write one of the core developers.\n\nPlease see the github guidelines for creating pull requests: [https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests] https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests\n\nPerformance profiling\n\nWhen changing the SIMPA core, e.g., by refactoring/optimizing, or if you are curious about how fast your machine runs SIMPA, you can run the SIMPA [benchmarking scripts] simpa_examples/benchmarking/run_benchmarking.sh. Make sure to install the necessary dependencies via  pip install .[profile] and then run:\n\nbash ./run_benchmark.sh\n\nonce for checking if it works and then parse [--number 100] to run it at eg 100 times for actual benchmarking. Please see [benchmarking.md] docs/source/benchmarking.md for a complete explanation.",
+      "section": "How to contribute + Performance profiling",
+      "repo": "079_SIMPA_-_The_toolkit_for_Simulation_and_Image_Processing_for_Photonics_and_Acoustics",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.842258Z",
+    "updated_at": "2025-11-03T05:50:17.086053Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23541,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2436,
+    "annotations": [
+      {
+        "id": 10133,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:50:21.741375Z",
+        "updated_at": "2025-11-03T05:50:21.741390Z",
+        "draft_created_at": null,
+        "lead_time": 4.497,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "0cf7f442-a0f7-4253-b8c6-dff9403f163d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2436,
+        "project": 23541,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Understanding SIMPA\n\nTags are identifiers in SIMPA used to categorize settings and components within simulations, making configurations modular, readable, and manageable. Tags offer organizational, flexible, and reusable benefits by acting as keys in configuration dictionaries.\n\nSettings in SIMPA control simulation behavior. They include:\n\nGlobal Settings: Apply to the entire simulation, affecting overall properties and parameters.\n\nComponent Settings: Specific to individual components, allowing for detailed customization and optimization of\n\neach part of the simulation.\n\nSettings are defined in a hierarchical structure, where global settings are established first, followed by component-specific settings. This approach ensures comprehensive and precise control over the simulation process. For detailed information, users can refer to the [understanding SIMPA documentation] ./docs/source/understanding_simpa.md.\n\nTroubleshooting\n\nIn this section, known problems are listed with their solutions (if available):\n\n## 1. Error reading hdf5-files when using k-Wave binaries:\n\nIf you encounter an error similar to:\n\nError using h5readc  The filename specified was either not found on the MATLAB path or it contains unsupported characters.\n\nLook up the solution in [this thread of the k-Wave forum] http://www.k-wave.org/forum/topic/error-reading-h5-files-when-using-binaries.\n\n## 2. KeyError: 'time_series_data'\n\nThis is the error which will occur for ANY k-Wave problem. For the actual root of the problem, please either look above in the terminal for the source of the bug or run the scripts in Matlab to find it manually.",
+      "section": "Understanding SIMPA + Troubleshooting",
+      "repo": "079_SIMPA_-_The_toolkit_for_Simulation_and_Image_Processing_for_Photonics_and_Acoustics",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.842281Z",
+    "updated_at": "2025-11-03T05:50:21.764560Z",
+    "inner_id": 9,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23541,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2437,
+    "annotations": [
+      {
+        "id": 10134,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 131,
+              "end": 443,
+              "text": "Gröhl, Janek, Kris K. Dreher, Melanie Schellenberg, Tom Rix, Niklas Holzwarth, Patricia Vieten, Leonardo Ayala, Sarah E. Bohndiek, Alexander Seitel, and Lena Maier-Hein. \"SIMPA: an open-source toolkit for simulation and image processing for photonics and acoustics.\" Journal of Biomedical Optics 27, no. 8 (2022)",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "M9a1BQI538",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 446,
+              "end": 892,
+              "text": "@article{2022simpatoolkit, title={SIMPA: an open-source toolkit for simulation and image processing for photonics and acoustics}, author={Gr{\\\"o}hl, Janek and Dreher, Kris K and Schellenberg, Melanie and Rix, Tom and Holzwarth, Niklas and Vieten, Patricia and Ayala, Leonardo and Bohndiek, Sarah E and Seitel, Alexander and Maier-Hein, Lena}, journal={Journal of Biomedical Optics}, volume={27}, number={8}, year={2022}, publisher={SPIE} }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "bJwuzcqHO1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:50:40.948654Z",
+        "updated_at": "2025-11-03T05:50:40.948671Z",
+        "draft_created_at": "2025-11-03T05:50:31.928993Z",
+        "lead_time": 19.047,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "fa312e61-eb32-451a-9f10-3db26d1bcd46",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2437,
+        "project": 23541,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Citation\n\nIf you use the SIMPA tool, we would appreciate if you cite our Journal publication in the Journal of Biomedical Optics:\n\nGröhl, Janek, Kris K. Dreher, Melanie Schellenberg, Tom Rix, Niklas Holzwarth, Patricia Vieten, Leonardo Ayala, Sarah E. Bohndiek, Alexander Seitel, and Lena Maier-Hein. \"SIMPA: an open-source toolkit for simulation and image processing for photonics and acoustics.\" Journal of Biomedical Optics 27, no. 8 (2022).\n\n@article{2022simpatoolkit,  title={SIMPA: an open-source toolkit for simulation and image processing for photonics and acoustics},  author={Gr{\\\"o}hl, Janek and Dreher, Kris K and Schellenberg, Melanie and Rix, Tom and Holzwarth, Niklas and Vieten, Patricia and Ayala, Leonardo and Bohndiek, Sarah E and Seitel, Alexander and Maier-Hein, Lena},  journal={Journal of Biomedical Optics},  volume={27},  number={8},  year={2022},  publisher={SPIE} }\n\nThis project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No. [101002198]).",
+      "section": "Citation + Funding",
+      "repo": "079_SIMPA_-_The_toolkit_for_Simulation_and_Image_Processing_for_Photonics_and_Acoustics",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.842306Z",
+    "updated_at": "2025-11-03T05:50:40.977446Z",
+    "inner_id": 10,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23541,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

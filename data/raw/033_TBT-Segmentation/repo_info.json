@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/DLR-FT/TBT-Segmentation",
+  "programmingLanguage": "Rust",
+  "programmingLanguages": [
+    "Rust",
+    "Python",
+    "Shell",
+    "Dockerfile",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/DLR-FT/TBT-Segmentation/zipball/main",
+  "author": "DLR-FT",
+  "dateCreated": "2023-12-01T10:13:33Z",
+  "dateModified": "2025-07-22T12:35:06Z",
+  "keywords": [],
+  "license": null,
+  "description": "This tool allows to segment a trace of events using a temporal behavior tree specification",
+  "identifier": 725998450,
+  "name": "DLR-FT/TBT-Segmentation",
+  "issueTracker": "https://api.github.com/repos/DLR-FT/TBT-Segmentation/issues",
+  "readme": "https://github.com/DLR-FT/TBT-Segmentation/blob/main/README.md"
+}

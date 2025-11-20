@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "[](https://github.com/esciencecenter-digital-skills/NEBULA/blob/main/LICENSE)\n\n# NEBULA\n\nCopyright 2023-2024 Netherlands eScience Center\n\nThe NEBULA (Nuxt & eScience Based Universal Learning Application) framework can be used to create an easily maintainable, version-controllable, web-based lesson collection. It uses [Nuxt.js] https://nuxtjs.org/ and [Vue.js] https://vuejs.org/.\n\nNEBULA is being created as part of the Netherlands eScience Center Digital Skills programme.\n\nFor elaborate setup instructions and other documentation, see the [NEBULA documentation] https://github.com/esciencecenter-digital-skills/NEBULA-docs\n\n# Quick setup\n\n## Content directory/repository\n\nTo use NEBULA you will need to setup a content directory or repository. See the [NEBULA content template repository] https://github.com/esciencecenter-digital-skills/NEBULA-content-template or the [NEBULA documentation on creating content] https://github.com/esciencecenter-digital-skills/NEBULA-docs/blob/main/content-repo-instantiation.md for more information.\n\n## Link to the content directory\n\nTo make sure that NEBULA knows which content to build, we create the following environment variable:\n\nexport CONTENT_PATH=\"~/path/to/your/content/directory\"\n\n## Install dependencies\n\nInstall the dependencies using the node package manager:\n\n# npm\n\nnpm install\n\n## Local development build\n\nStart the development server on http://localhost:3000:\n\n# npm\n\nnpm run dev\n\n# Contributing\n\nIf you want to contribute to the NEBULA framework, please read the [contributing guidelines] https://github.com/esciencecenter-digital-skills/NEBULA/blob/main/CONTRIBUTING.md.",
+      "section": "README",
+      "repo": "287_NEBULA",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": "CUAS-MPI &middot; [](https://opensource.org/licenses/BSD-3-Clause) ## What is CUAS-MPI?\n\nCUAS-MPI is an MPI parallel implementation of the Confined-Unconfined Aquifer System model ([CUAS18] #ref-CUAS-2018) for subglacial hydrology. The implementation relies on the parallel data structures and linear system solvers provided by the Portable, Extensible Toolkit for Scientific Computation ([PETSc] https://petsc.org/). The model uses a one-layer equivalent porous medium (EPM) approach for efficient (channel-like) and inefficient (cavity-like) subglacial water transport. A two-dimensional Darcy-type groundwater flow equation with spatially and temporarily varying hydraulic transmissivity is solved considering confined and unconfined aquifer conditions.\n\n## How to use it?\n\nOne of the integration tests can be used to generate a simple setup to explore the modelling choices and command line options. The example below needs ncks and ncap2 from the [NCO toolkit] https://nco.sourceforge.net/ to manipulate the NetCDF files.\n\nmodifiy according to your installation CUAS_BUILD_DIR=$CUAS_ROOT/CUAS-MPI/cmake-build-debug/\n\nnumber of MPI processes NN=4\n\n#\n\ngenerate simple input file from example integration test\n\n# exact=$CUAS_BUILD_DIR/test/cuascore/integration/test-exactSteadySolution\n\nmpirun -n $NN $exact 1000.0 101 101 31 86400 out0.nc\n\nconvert output to CUAS-MPI input and forcing file format ncks -O -d time,-1 -v topg,bnd_mask,thk out0.nc input.nc ncap2 -O -s \"bmelt=watersource 36524*3600\" out0.nc forcing.nc\n\nrun a simple experiment # cuas=$CUAS_BUILD_DIR/tools/cuas.exe\n\nset-up the solver TOL=\"-ksp_rtol 1e-7 -ksp_atol 1e-15 -ksp_max_it 10000 -ksp_converged_use_min_initial_residual_norm\" export PETSC_OPTIONS=\"-options_left -ksp_initial_guess_nonzero -pc_type bjacobi -ksp_type gmres $TOL\"",
+      "section": "CUAS-MPI &middot; [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) + modifiy according to your installation + number of MPI processes (and 4 more)",
+      "repo": "480_CUAS-MPI",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "make use of many options for this example mpirun -n $NN $cuas --totaltime '15 days' --dt '1 hour' --saveEvery 1 --verbose --outputSize large \\  --doChannels --Tmax 100 --Tmin 1.e-08 --initialHead Nzero $opts \\  --conductivity 10 --layerThickness 0.1 \\  --flowConstant 3.4e-24 --cavityBeta 5e-4 --basalVelocityIce 1e-6 --supplyMultiplier 1.0 \\  --forcingFile forcing.nc \\  input.nc output.nc\n\n## How to install?\n\n### Requirements\n\nc++ compiler\n\nat least support for c++ 17\n\nthe code is tested using gcc/10.2.0\n\nMPI\n\nwe use OpenMPI\n\nhttps://www.open-mpi.org/\n\nversion 4.0.x and 4.1.x\n\nPETSc\n\nhttps://petsc.org/\n\nwe tested version 3.14.6\n\nwith MPI support\n\nnetcdf-c\n\nhttps://www.unidata.ucar.edu/software/netcdf/\n\nwe use version 4.7.4\n\nwith MPI and hdf5 1.8.22\n\n### Build\n\nStarting from the CUAS-MPI directory:\n\ncmake -B build -DCMAKE_BUILD_TYPE=Release -DPETSC_DIR= -DNETCDF_DIR= cmake --build build cmake --install build --prefix\n\nYou may want to use legacy cmake calls to generate Makefiles and build CUAS-MPI:\n\nmkdir build cd build cmake .. -DCMAKE_BUILD_TYPE=Release -DPETSC_DIR= -DNETCDF_DIR= -DCMAKE_INSTALL_PREFIX= make make install\n\nCUAS-MPI makes use of the following options: | Option | Default | Description | | --- | :---: |--------------------------------------------------------------------------------------------------------------| | CUAS_ENABLE_TESTS | OFF | Enables targets building tests. | | CUAS_ENABLE_DOCS | OFF | Enables targets building documentation. |",
+      "section": "make use of many options for this example (part 1)",
+      "repo": "480_CUAS-MPI",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## References\n\n[CUAS18]  Beyer, Sebastian and Kleiner, Thomas and Aizinger, Vadym and R\u00fcckamp, Martin and Humbert, Angelika    A confined\u2013unconfined aquifer model for subglacial hydrology and its application to the Northeast Greenland Ice Stream.  In The Cryosphere, pages 3931\u20133947, 2018.\n\n[CUAS23]  Fischler, Yannic and Kleiner, Thomas and Bischof, Christian and Schmiedel, Jeremie and Sayag, Roiy and  Emunds, Raban and Oestreich, Lennart Frederik and Humbert, Angelika    A parallel implementation of the confined\u2013unconfined aquifer system model for subglacial hydrology: design,  verification, and performance analysis (CUAS-MPI v0.1.0) .  In Geoscientific Model Development, pages 5305-5322, 2023.\n\n## CUAS-MPI Applications\n\nWolovick, Micheal and Humbert, Angelika and Kleiner, Thomas and R\u00fcckamp, Martin\n\n[Regularization and L-curves in ice sheet inverse models: a case study in the Filchner-Ronne catchment] https://doi.org/10.5194/tc-17-5027-2023,  The Cryosphere, vol. 17, no. 12, pages 5027\u20135060, 2023.",
+      "section": "make use of many options for this example (part 2)",
+      "repo": "480_CUAS-MPI",
+      "source_file": "readme.md"
+    }
+  }
+]

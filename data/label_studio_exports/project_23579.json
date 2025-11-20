@@ -1,0 +1,350 @@
+[
+  {
+    "id": 2652,
+    "annotations": [
+      {
+        "id": 9961,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 116,
+              "end": 154,
+              "text": "https://doi.org/10.5281/zenodo.3637964",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "U_FFFS50F1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 3,
+              "end": 52,
+              "text": "https://travis-ci.org/NLESC-JCER/Fortran_Davidson",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "FarhfB3xmK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:01:27.964357Z",
+        "updated_at": "2025-11-14T12:06:19.921374Z",
+        "draft_created_at": null,
+        "lead_time": 20.416,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "b8875cbe-4338-4135-9940-f3fbd1059df7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2652,
+        "project": 23579,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://travis-ci.org/NLESC-JCER/Fortran_Davidson) [](https://github.com/NLESC-JCER/Fortran_Davidson/actions) [](https://doi.org/10.5281/zenodo.3637964)\n\nDavidson Eigensolver\n\nThis package contains a Modern Fortran implementation of the Davidson diagonalization algorithms. Different schemas are available to compute the correction.\n\nAvailable correction methods are:  DPR: Diagonal-Preconditioned-Residue  GJD: Generalized Jacobi Davidson",
+      "section": "Introduction (part 1)",
+      "repo": "127_Davidson_diagonalization_in_Fortran",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.636726Z",
+    "updated_at": "2025-11-14T12:06:19.951951Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23579,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2653,
+    "annotations": [
+      {
+        "id": 9962,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:01:32.945786Z",
+        "updated_at": "2025-11-02T20:01:32.945805Z",
+        "draft_created_at": null,
+        "lead_time": 4.782,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f84e4223-92b4-4cdf-8522-d8d695a8c5b0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2653,
+        "project": 23579,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Note:\n\nThe Davidson method is suitable for diagonal-dominant symmetric matrices, that are quite common in certain scientific problems like [electronic structure] https://en.wikipedia.org/wiki/Electronic_structure. The Davidson method could be not practical for other kinds of symmetric matrices.\n\nUsage\n\nThe following program call the eigensolver subroutine from the davidson module and computes the lowest 3 eigenvalues and corresponding eigenvectors, using the GJD method with a tolerance of 1e-8 and 100 maximum iteration.\n\nprogram main  use numeric_kinds, only: dp  use davidson, only: generalized_eigensolver, generate_diagonal_dominant    implicit none\n\ninteger, parameter :: dim = 50  integer, parameter :: lowest = 3  real(dp), dimension(dim, dim) :: matrix, second_matrix  real(dp), dimension(lowest) :: eigenvalues  real(dp), dimension(dim, lowest) :: eigenvectors  real(dp) :: tolerance  integer:: max_dim_subspace, max_iterations, lowest\n\nmatrix = generate_diagonal_dominant(dim, 1d-4)  second_matrix = generate_diagonal_dominant(dim, 1d-4, 1.0_dp)  max_iterations = 1000  max_dim_subspace = 20  tolerance = 1d-8  call generalized_eigensolver(matrix, eigenvalues, eigenvectors, lowest, \"GJD\", max_iterations, &  tolerance, final_iterations, max_dim_subspace, second_matrix)  print , eigenvalues  print , eigenvectors\n\nend program main\n\nThe helper generate_diagonal_dominant function generates a diagonal dominant matrix with entries to the diagonal close to row number (i=1, number_of_rows) and random number of the order 1e-4 on the off-diagonal entries.",
+      "section": "Introduction (part 2)",
+      "repo": "127_Davidson_diagonalization_in_Fortran",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.636768Z",
+    "updated_at": "2025-11-02T20:01:32.976556Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23579,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2654,
+    "annotations": [
+      {
+        "id": 9963,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:01:34.358852Z",
+        "updated_at": "2025-11-02T20:01:34.358870Z",
+        "draft_created_at": null,
+        "lead_time": 1.223,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "8768473b-ee27-4267-9fdf-73f68ed150ba",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2654,
+        "project": 23579,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Variables:  matrix (in) matrix to diagonalize  eigenvalues (out) resulting eigenvalues  eigenvectors (out) resulting eigenvectors  lowest(in) number of eigenvalues to compute  method(in) Either \"DPR\" or \"GJD\"  max_iterations(in) maximum number of iterations  tolerance(in) Numerical tolerance for convergence  final_iterations(output) returns the number of iterations that were needed to converge  max_dim_subspace(in, optional) Dimension of the subspace of search  second_matrix(in, optional) Optional matrix to compute the generalized eigenvalue problem",
+      "section": "Introduction (part 3)",
+      "repo": "127_Davidson_diagonalization_in_Fortran",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.636790Z",
+    "updated_at": "2025-11-02T20:01:34.385092Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23579,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2655,
+    "annotations": [
+      {
+        "id": 9964,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 832,
+              "end": 837,
+              "text": "CMake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "GdW8MLVGTo",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 859,
+              "end": 865,
+              "text": "Lapack",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "xCrAWL5Vb_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 17,
+              "end": 244,
+              "text": "[Davidson diagonalization method and its applications to electronic structure calculations] https://www.semanticscholar.org/paper/DAVIDSON-DIAGONALIZATION-METHOD-AND-ITS-APPLICATION-Liao/5811eaf768d1a006f505dfe24f329874a679ba59",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "pXbSzcqkq9",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 246,
+              "end": 334,
+              "text": "[Numerical Methods for Large Eigenvalue Problem] https://doi.org/10.1137/1.9781611970739",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "NcIjMKSble",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 839,
+              "end": 857,
+              "text": "https://cmake.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "0G0WDOKB0a",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 867,
+              "end": 896,
+              "text": "http://www.netlib.org/lapack/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "rNp0ehAbeP",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 797,
+              "end": 813,
+              "text": "Fortran compiler",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ONv45FXOVF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 814,
+              "end": 828,
+              "text": ">= version 6.0",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "xdTeJoP33W",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:02:15.526295Z",
+        "updated_at": "2025-11-14T12:07:30.285265Z",
+        "draft_created_at": "2025-11-02T20:01:57.784927Z",
+        "lead_time": 109.20400000000001,
+        "prediction": {},
+        "result_count": 8,
+        "unique_id": "19331d67-3075-4aea-9947-125a28175f28",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2655,
+        "project": 23579,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### References:\n\n[Davidson diagonalization method and its applications to electronic structure calculations] https://www.semanticscholar.org/paper/DAVIDSON-DIAGONALIZATION-METHOD-AND-ITS-APPLICATION-Liao/5811eaf768d1a006f505dfe24f329874a679ba59  [Numerical Methods for Large Eigenvalue Problem] https://doi.org/10.1137/1.9781611970739\n\nInstallation and Testing\n\nTo compile execute:\n\ncmake -H. -Bbuild && cmake --build build\n\nTo use another compiler (e.g. ifort):\n\ncmake -H. -Bbuild -DCMAKE_Fortran_COMPILER=ifort && cmake --build build\n\nTo run the test:\n\ncmake -H. -Bbuild -DENABLE_TEST=ON && cmake --build build cd build && ctest -V\n\nTo Debug compile as:\n\ncmake -H. -Bbuild -DCMAKE_BUILD_TYPE=Debug && cmake --build build\n\nThis packages assumes that you have installed the following packages:  A Fortran compiler >= version 6.0   [CMake] https://cmake.org/ [Lapack] http://www.netlib.org/lapack/\n\nOptionally, If an [MKL] https://software.intel.com/en-us/mkl library is available the package will try to find it.",
+      "section": "Introduction (part 4)",
+      "repo": "127_Davidson_diagonalization_in_Fortran",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.636812Z",
+    "updated_at": "2025-11-14T12:07:30.324539Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23579,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

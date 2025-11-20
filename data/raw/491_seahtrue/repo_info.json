@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/vcjdeboer/seahtrue",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R"
+  ],
+  "downloadUrl": "https://api.github.com/repos/vcjdeboer/seahtrue/zipball/main",
+  "author": "vcjdeboer",
+  "dateCreated": "2022-10-05T11:05:23Z",
+  "dateModified": "2025-10-28T14:03:26Z",
+  "keywords": [],
+  "license": null,
+  "description": null,
+  "identifier": 546006215,
+  "name": "vcjdeboer/seahtrue",
+  "issueTracker": "https://api.github.com/repos/vcjdeboer/seahtrue/issues",
+  "readme": "https://github.com/vcjdeboer/seahtrue/blob/main/README.md"
+}

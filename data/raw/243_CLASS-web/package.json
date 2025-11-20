@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "version": "0.4.5",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "format-and-lint": "biome check .",
+    "format-and-lint:fix": "biome check . --write",
+    "typecheck": "turbo typecheck",
+    "test": "turbo test",
+    "clean": "turbo clean"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "turbo": "^2.0.6"
+  },
+  "packageManager": "pnpm@9.12.2",
+  "name": "class-web",
+  "pnpm": {
+    "overrides": {
+      "braces@<3.0.3": ">=3.0.3",
+      "micromatch@<4.0.8": ">=4.0.8",
+      "send@<0.19.0": ">=0.19.0",
+      "serve-static@<1.16.0": ">=1.16.0",
+      "path-to-regexp@>=4.0.0 <6.3.0": ">=6.3.0",
+      "path-to-regexp@>=2.0.0 <3.3.0": ">=3.3.0",
+      "rollup@>=4.0.0 <4.22.4": ">=4.22.4"
+    }
+  }
+}

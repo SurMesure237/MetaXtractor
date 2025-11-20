@@ -1,0 +1,30 @@
+{
+  "codeRepository": "https://github.com/NLeSC-COMPAS/compas-toolkit",
+  "programmingLanguage": "Cuda",
+  "programmingLanguages": [
+    "Cuda",
+    "C++",
+    "Julia",
+    "Python",
+    "CMake",
+    "C",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/NLeSC-COMPAS/compas-toolkit/zipball/main",
+  "author": "NLeSC-COMPAS",
+  "dateCreated": "2023-06-29T07:08:17Z",
+  "dateModified": "2025-04-28T19:32:32Z",
+  "keywords": [
+    "cuda",
+    "gpu",
+    "julia",
+    "mri",
+    "quantitative-mri"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "High-Performance GPU library for quantitative MRI research",
+  "identifier": 660066479,
+  "name": "NLeSC-COMPAS/compas-toolkit",
+  "issueTracker": "https://api.github.com/repos/NLeSC-COMPAS/compas-toolkit/issues",
+  "readme": "https://github.com/NLeSC-COMPAS/compas-toolkit/blob/main/README.md"
+}

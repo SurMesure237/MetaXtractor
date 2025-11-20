@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/QuantumApplicationLab/qalcore",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/QuantumApplicationLab/qalcore/zipball/main",
+  "author": "QuantumApplicationLab",
+  "dateCreated": "2022-07-18T10:40:01Z",
+  "dateModified": "2024-11-29T17:07:52Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Quantum Application Lab Core Library",
+  "identifier": 515140538,
+  "name": "QuantumApplicationLab/qalcore",
+  "issueTracker": "https://api.github.com/repos/QuantumApplicationLab/qalcore/issues",
+  "readme": "https://github.com/QuantumApplicationLab/qalcore/blob/main/README.md"
+}

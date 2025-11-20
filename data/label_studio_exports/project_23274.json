@@ -1,0 +1,305 @@
+[
+  {
+    "id": 1064,
+    "annotations": [
+      {
+        "id": 12062,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 47,
+              "text": "https://zenodo.org/badge/latestdoi/481245154",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "8UDFooUxco",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:55:07.273256Z",
+        "updated_at": "2025-11-09T07:55:07.273291Z",
+        "draft_created_at": null,
+        "lead_time": 8.702,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "e265d2ec-1e23-4bb2-aead-23bba5e08d8e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1064,
+        "project": 23274,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://zenodo.org/badge/latestdoi/481245154) [](https://github.com/geoflow-visualizer/geoflow-visualizer/actions/workflows/main.yml)\n\nGeoflow Visualizer\n\nVisualizes any type of flow between countries. Takes a CSV as input, applies filtering and aggregation (danfojs) to show relations and data in a number of visualizations (d3.js)",
+      "section": "Introduction + Geoflow Visualizer",
+      "repo": "301_Geoflow_visualizer",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.238660Z",
+    "updated_at": "2025-11-09T07:55:07.305105Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23274,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1065,
+    "annotations": [
+      {
+        "id": 12063,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 197,
+              "end": 200,
+              "text": "npm",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "-i_mtWXJyM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 188,
+              "end": 194,
+              "text": "Nodejs",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "cQKYxLnBUk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 443,
+              "end": 451,
+              "text": "Danfo.js",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Welqr3QwNE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 519,
+              "end": 524,
+              "text": "d3.js",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "YvMcUeFvTm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 453,
+              "end": 478,
+              "text": "https://danfo.jsdata.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "2Db9vxyhmm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 526,
+              "end": 543,
+              "text": "https://d3js.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "akGw54OMJv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:56:01.064892Z",
+        "updated_at": "2025-11-16T05:54:35.070695Z",
+        "draft_created_at": "2025-11-09T07:55:16.822767Z",
+        "lead_time": 77.757,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "859b33dc-3c8b-4c68-ab61-7b6e7bfdb0f1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1065,
+        "project": 23274,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Demo\n\nThe latest version of this tool is available at [https://geoflow-visualizer.github.io/geoflow-visualizer/] https://geoflow-visualizer.github.io/geoflow-visualizer/\n\n## Requirements\n\nNodejs + npm\n\n## Installation\n\nnpm install\n\n## Run\n\nnpm start\n\n## Usage\n\nUse the file selector to select a CSV file that at least has the columns source, target and weight.\n\n## Development\n\nIn short, the application uses the React as the main framework, [Danfo.js] https://danfo.jsdata.org/ for data processing and filtering, and [d3.js] https://d3js.org/ for visualization of the map and charts. Below is a more detailed overview of what can be found where.\n\n### Application\n\nThe main GUI is specified in App, which connects all the components to the data that is managed in the DataStore class (below).",
+      "section": "Demo (part 1)",
+      "repo": "301_Geoflow_visualizer",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.238696Z",
+    "updated_at": "2025-11-16T05:54:35.107947Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23274,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1066,
+    "annotations": [
+      {
+        "id": 12064,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:56:10.787068Z",
+        "updated_at": "2025-11-09T07:56:10.787083Z",
+        "draft_created_at": null,
+        "lead_time": 9.5,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "1448abc4-5a97-4964-a239-81a0c0298960",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1066,
+        "project": 23274,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Loading and filtering the data\n\nThe DataStore class is where all the loading and filtering happens. It largely relies on [Danfo.js] https://danfo.jsdata.org/ (a pandas clone for javascript) for this. The class a [mobx] https://mobx.js.org/ observable, meaning that its computed properties can be observed in a component and it will re-render in a transparent way if the computed properties' inputs change.\n\nLoading and filtering the data happens in several steps and only the required steps will execute if the inputs (such as the category selection) change. The steps are roughly as follows:\n\nLoad data - does some basic cleaning and filtering and splits the data into links to self and links to others.  Filtered data - applies the filters for sources, targets and other columns.  Aggregate per link - for showing on the network map  Aggregate per node (source/target) - for showing in the bar chart  Aggregate per year - for showing the time series.  Convert to nodes and links - converts to objects to be visualized in d3.js. In addition there are some properties for row / link counts, used locations and categories.",
+      "section": "Demo (part 2)",
+      "repo": "301_Geoflow_visualizer",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.238719Z",
+    "updated_at": "2025-11-09T07:56:10.814564Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23274,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1067,
+    "annotations": [
+      {
+        "id": 12065,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:56:13.364528Z",
+        "updated_at": "2025-11-09T07:56:13.364539Z",
+        "draft_created_at": null,
+        "lead_time": 2.396,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b49637a0-fc8e-4507-9dd4-b875a8411267",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1067,
+        "project": 23274,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Maps, countries, projections\n\nThe map and country data is loaded in the GeoData module. It is currently 'hard coded', i.e. cannot be specified by the user.\n\nThe world map is a topojson file: [world_countries_neocarto.json] src/data/world_countries_neocarto.json. The geometries are used to display the map and they are linked to the visualization by their ISO-2 country codes. The other properties are ignored.\n\nThe capital of each country is used as its location (the node the arrows point to/from). Country capital positions are linked to the user data by their ISO-2 country codes. The capital data is in [country-capitals.json] src/data/country-capitals.json. This is also where the country names (labels) are from.\n\nThe current map projection is [geoAitoff] https://github.com/d3/d3-geo-projection#geoAitoff and is set in the components/mappings module.\n\n### Styling and colors of visualization\n\nSome semi-constant data, such as color maps, projections and number formatting functions are defined in the components/mappings module.\n\nThe visualization of the map and its links are defined in components/LinkVis. Properties that are not defined in the mappings module can be customized there.",
+      "section": "Demo (part 3)",
+      "repo": "301_Geoflow_visualizer",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.238741Z",
+    "updated_at": "2025-11-09T07:56:13.389142Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23274,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

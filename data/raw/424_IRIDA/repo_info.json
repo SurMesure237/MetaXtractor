@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/phac-nml/irida",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java",
+    "JavaScript",
+    "TypeScript",
+    "HTML",
+    "CSS",
+    "Shell",
+    "Python",
+    "Perl",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/phac-nml/irida/zipball/main",
+  "author": "phac-nml",
+  "dateCreated": "2015-11-24T21:40:11Z",
+  "dateModified": "2025-08-25T16:32:40Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Canada’s Integrated Rapid Infectious Disease Analysis Platform for Genomic Epidemiology",
+  "identifier": 46820258,
+  "name": "phac-nml/irida",
+  "issueTracker": "https://api.github.com/repos/phac-nml/irida/issues",
+  "readme": "https://github.com/phac-nml/irida/blob/development/README.md"
+}

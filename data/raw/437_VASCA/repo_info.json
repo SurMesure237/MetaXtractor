@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/rbuehler/vasca",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/rbuehler/vasca/zipball/main",
+  "author": "rbuehler",
+  "dateCreated": "2024-05-29T12:02:42Z",
+  "dateModified": "2024-11-08T14:03:25Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "Variable Source Cluster Analysis",
+  "identifier": 807595391,
+  "name": "rbuehler/vasca",
+  "issueTracker": "https://api.github.com/repos/rbuehler/vasca/issues",
+  "readme": "https://github.com/rbuehler/vasca/blob/main/README.md"
+}

@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/locationtech-archived/geoperil",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Vue",
+    "Shell",
+    "TypeScript",
+    "Dockerfile",
+    "JavaScript",
+    "HTML",
+    "SCSS",
+    "Jinja"
+  ],
+  "downloadUrl": "https://api.github.com/repos/locationtech-archived/geoperil/zipball/main",
+  "author": "locationtech-archived",
+  "dateCreated": "2016-09-02T14:22:03Z",
+  "dateModified": "2024-03-08T14:38:58Z",
+  "keywords": [],
+  "license": null,
+  "description": null,
+  "identifier": 67228859,
+  "name": "locationtech-archived/geoperil",
+  "issueTracker": "https://api.github.com/repos/locationtech-archived/geoperil/issues",
+  "readme": "https://github.com/locationtech-archived/geoperil/blob/master/README.md"
+}

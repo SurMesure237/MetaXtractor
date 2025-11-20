@@ -1,0 +1,374 @@
+[
+  {
+    "id": 2142,
+    "annotations": [
+      {
+        "id": 10368,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:54:56.215510Z",
+        "updated_at": "2025-11-04T06:54:56.215539Z",
+        "draft_created_at": null,
+        "lead_time": 1.974,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "a75b71fb-4a8a-49d2-b3f4-5c00072732c3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2142,
+        "project": 23484,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[![Code style: black][black-badge]][black-link]",
+      "section": "Introduction",
+      "repo": "236_Minterpy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.805357Z",
+    "updated_at": "2025-11-04T06:54:56.241267Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23484,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2143,
+    "annotations": [
+      {
+        "id": 10369,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:55:01.414114Z",
+        "updated_at": "2025-11-04T06:55:01.414130Z",
+        "draft_created_at": null,
+        "lead_time": 5.036,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "8d775e08-1e99-449c-830e-282daff63278",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2143,
+        "project": 23484,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "minterpy\n\nto minterpy sth. (transitive verb) -- to produce a multivariate polynomial representation of sth. .      &mdash; The minterpy developers in [\"Lifting the curse of dimensionality\"] https://interpol.pages.hzdr.de/minterpy/fundamentals/introduction.html\n\nminterpy is an open-source Python package for a multivariate generalization of the classical Newton and Lagrange interpolation schemes as well as related tasks. It is based on an optimized re-implementation of the multivariate interpolation prototype algorithm (MIP) by Hecht et al.[^1] and thereby provides software solutions that lift the curse of dimensionality from interpolation tasks. While interpolation occurs as the bottleneck of most computational challenges, minterpy aims to free empirical sciences from their computational limitations.\n\nminterpy is continuously extended and improved by adding further functionality and modules that provide novel digital solutions to a broad field of computational challenges, including but not limited to:\n\nmultivariate interpolation\n\nnon-linear polynomial regression\n\nnumerical integration\n\nglobal (black-box) optimization\n\nsurface level-set methods\n\nnon-periodic spectral partial differential equations (PDE) solvers on\n\nflat and complex geometries machine learning regularization\n\ndata reconstruction\n\ncomputational solutions in algebraic geometry",
+      "section": "minterpy (part 1)",
+      "repo": "236_Minterpy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.805399Z",
+    "updated_at": "2025-11-04T06:55:01.441861Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23484,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2144,
+    "annotations": [
+      {
+        "id": 10370,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 436,
+              "end": 441,
+              "text": "conda",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "JpSujLTEKD",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 679,
+              "end": 682,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ZCoEgUhzvN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:55:40.765705Z",
+        "updated_at": "2025-11-14T13:13:42.025711Z",
+        "draft_created_at": "2025-11-04T06:55:19.204940Z",
+        "lead_time": 51.65,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "16eea49c-8796-43cc-b209-1f0b77b12ddb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2144,
+        "project": 23484,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Installation\n\nSince this implementation is a prototype, we currently only provide the installation by self-building from source. We recommend to using git to get the minterpy source:\n\ngit clone https://gitlab.hzdr.de/interpol/minterpy.git\n\nWithin the source directory, you may use the following package manager to install `minterpy.\n\nA best practice is to create a virtual environment for minterpy. You can do this with the help of [conda] and the environment.yaml by:\n\nconda env create -f environment.yaml\n\nA new conda environment called minterpy is created. Activate the new environment by:\n\nconda activate minterpy\n\nFrom within the environment, install the minterpy using [pip],\n\npip install [-e] .[all,dev,docs]\n\nwhere the flag -e means the package is directly linked into the python site-packages of your Python version. The options [all,dev,docs] refer to the requirements defined in the options.extras_require section in setup.cfg.\n\nYou must not use the command python setup.py install to install minterpy, as you cannot always assume the files setup.py will always be present in the further development of minterpy`.\n\nFinally, if you want to deactivate the conda environment, type:\n\nconda deactivate\n\nAlternative to conda, you can create a new virtual environment via [venv], [virtualenv], or [pyenv-virtualenv]. See [CONTRIBUTING.md] ./CONTRIBUTING.md for details.",
+      "section": "minterpy (part 2)",
+      "repo": "236_Minterpy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.805424Z",
+    "updated_at": "2025-11-14T13:13:42.057998Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23484,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2145,
+    "annotations": [
+      {
+        "id": 10371,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1327,
+              "end": 1333,
+              "text": "pytest",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "896eX-EwPT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1335,
+              "end": 1368,
+              "text": "https://docs.pytest.org/en/6.2.x/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "eIakeoBxB0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:56:24.961309Z",
+        "updated_at": "2025-11-16T13:33:35.890192Z",
+        "draft_created_at": "2025-11-04T06:56:00.667775Z",
+        "lead_time": 73.869,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "dd974c08-7a76-46cb-a808-2f042d724e39",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2145,
+        "project": 23484,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Quickstart\n\nWith minterpy one can easily interpolate a given function. For instance, take the function f(x) = x\\sin(10x) in one dimension:\n\nimport numpy as np\n\ndef test_function(x):  return x np.sin(10x)\n\nIn order to minterpy the function test_function one can use the top-level function interpolate:\n\nimport minterpy as mp\n\ninterpolant = mp.interpolate(test_function,spatial_dimension=1, poly_degree=64)\n\nHere, interpolant is a callable function, which can be used as a representation of test_function. interpolate takes as arguments the function to interpolate, the number of dimensions (spatial_dimension), and the degree of the underlying polynomial (poly_degree).\n\nYou may adjust this parameter in order to get higher accuracy. For the example above, a degree of 64 produces an interpolant that reproduces the test_function almost up to machine precision:\n\nimport matplotlib.pylab as plt\n\nx = np.linspace(-1,1,100)\n\nplt.plot(x,interpolant(x),label=\"interpolant\")  plt.plot(x,test_function(x),\"k.\",label=\"test function\")  plt.legend()  plt.show()\n\nFor more comprehensive examples, see the [getting started guides] https://interpol.pages.hzdr.de/minterpy/getting-started/index.html section of the `minterpy docs.\n\n## Testing\n\nAfter installation, we encourage you to at least run the unit tests of minterpy, where we use [pytest] https://docs.pytest.org/en/6.2.x/ to run the tests.\n\nIf you want to run all tests, type:\n\npytest [-vvv]\n\nfrom within the minterpy` source directory.",
+      "section": "minterpy (part 3)",
+      "repo": "236_Minterpy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.805451Z",
+    "updated_at": "2025-11-16T13:33:35.920308Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23484,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2146,
+    "annotations": [
+      {
+        "id": 10372,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:56:31.874919Z",
+        "updated_at": "2025-11-04T06:56:31.874938Z",
+        "draft_created_at": null,
+        "lead_time": 6.716,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "95fb3af0-b381-45ae-8916-909f9346b40e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2146,
+        "project": 23484,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Contributing to minterpy\n\nContributions to the minterpy packages are highly welcome. We recommend you have a look at the [CONTRIBUTING.md] ./CONTRIBUTING.md first. For a more comprehensive contribution guide visit the [Contributors section] link-to-developer-section of the documentation.\n\n## Credits and contributors\n\nThis work was partly funded by the Center for Advanced Systems Understanding (CASUS) that is financed by Germany’s Federal Ministry of Education and Research (BMBF) and by the Saxony Ministry for Science, Culture and Tourism (SMWK) with tax funds on the basis of the budget approved by the Saxony State Parliament.\n\n### The minterpy development team\n\nThe core development of the minterpy is currently done by a small team at the Center for Advanced Systems Understanding ([CASUS]), namely\n\nUwe Hernandez Acosta ([HZDR]/[CASUS]) (u.hernandez@hzdr.de)\n\nSachin Krishnan Thekke Veettil ([HZDR]/[CASUS]) (s.thekke-veettil@hzdr.de)\n\nDamar Wicaksono ([HZDR]/[CASUS]) (d.wicaksono@hzdr.de)\n\nJanina Schreiber ([HZDR]/[CASUS]) (j.schreiber@hzdr.de)\n\n### Mathematical foundation\n\nMichael Hecht ([HZDR]/[CASUS]) (m.hecht@hzdr.de)\n\n### Former Members and Contributions\n\nJannik Michelfeit\n\nNico Hoffman ([HZDR])\n\nSteve Schmerler ([HZDR])\n\nVidya Chandrashekar (TU Dresden)\n\n### Acknowledgement\n\nKlaus Steiniger ([HZDR])\n\nPatrick Stiller ([HZDR])\n\nMatthias Werner ([HZDR])\n\nKrzysztof Gonciarz ([MPI-CBG],[CSBD])\n\nAttila Cangi ([HZDR]/[CASUS])\n\nMichael Bussmann ([HZDR]/[CASUS])\n\n### Community\n\nThis package would not be possible without many contributions done from the community as well. For that, we want to send big thanks to:\n\nthe guy who will show me how to include a list of contributors on github/gitlab",
+      "section": "minterpy (part 4)",
+      "repo": "236_Minterpy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.805478Z",
+    "updated_at": "2025-11-04T06:56:31.904833Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23484,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2147,
+    "annotations": [
+      {
+        "id": 10373,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 80,
+              "end": 112,
+              "text": "https://arxiv.org/abs/2010.10824",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "P_NGubPZmi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:57:32.700361Z",
+        "updated_at": "2025-11-14T13:15:23.399488Z",
+        "draft_created_at": "2025-11-04T06:56:49.159067Z",
+        "lead_time": 128.053,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "506b71d8-d46c-4f03-b2f2-a5df6a9bbbb1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2147,
+        "project": 23484,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## License\n\n[MIT] LICENSE © minterpy development team\n\n[^1]: [arXiv:2010.10824] https://arxiv.org/abs/2010.10824\n\n[conda]: https://docs.conda.io/ [pip]: https://pip.pypa.io/en/stable/ [venv]: https://docs.python.org/3/tutorial/venv.html [virtualenv]: https://virtualenv.pypa.io/en/latest/ [pyenv-virtualenv]: https://github.com/pyenv/pyenv-virtualenv [pre-commit]: https://pre-commit.com/ [Jupyter]: https://jupyter.org/ [nbstripout]: https://github.com/kynan/nbstripout [Google style]: http://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings [virtualenv]: https://virtualenv.pypa.io/en/latest/index.html [pytest]: https://docs.pytest.org/en/6.2.x/ [CASUS]: https://www.casus.science [HZDR]: https://www.hzdr.de [MPI-CBG]: https://www.mpi-cbg.de [CSBD]: https://www.csbdresden.de\n\n[black-badge]: https://img.shields.io/badge/code%20style-black-000000.svg [black-link]: https://github.com/psf/black",
+      "section": "minterpy (part 5)",
+      "repo": "236_Minterpy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.805505Z",
+    "updated_at": "2025-11-14T13:15:23.438510Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23484,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": "## This repository is no longer maintained\n\nThe open-source, XWiki version of the PhenoTips platform is no longer actively developed or maintained.\n\nPhenoTips development is now focused on the closed-source Enterprise solution available at [phenotips.com] https://phenotips.com/.\n\n## A customizable patient data platform for genomic medicine\n\nPhenoTips is a browser-based tool for recording linked clinical phenotype, genetic, disease, and family history data for patients with genetic diseases. PhenoTips includes a highly-customizable patient form, and includes sections to enter:  clinical symptoms & physical findings ([HPO] http://www.human-phenotype-ontology.org/)  family information and history (including pedigree)  diagnosis (mapped to [OMIM] http://omim.org/ or [Orphanet] http://www.orphadata.org/)  genes and variants of interest  measurements (with support for instant computation of percentiles and generation of growth charts)  demographic information (name, date of birth, ...)",
+      "section": "Introduction (part 1)",
+      "repo": "426_PhenoTips",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Usage\n\nYou use PhenoTips directly through your web browser.\n\nIf you are running a standalone version of PhenoTips directly on your computer, you can usually find it at localhost:8080  If you are at a hospital or in a research group with your own PhenoTips instance, you should ask someone what URL to go to in order to access your instance\n\n## Powered by\n\n[HPO] http://www.human-phenotype-ontology.org/ - phenotype ontology  [OMIM] http://omim.org/ - disease terminology  [Orphanet] http://www.orphadata.org/ - disease ontology  [MONDO] http://obofoundry.org/ontology/mondo.html - disease ontology  [Apache Solr] http://lucene.apache.org/solr/ - an enterprise search platform  [XWiki] http://xwiki.org - an enterprise web application development framework\n\n## Building from source\n\nThis project uses [Apache Maven] http://maven.apache.org/ for lifecycle management.\n\nFirst set up your environment:\n\nMake sure a proper JDK is installed, Java SE 1.8 or higher. Just a JRE isn't enough, since the project requires compilation.  Install [Apache Maven] http://maven.apache.org/  Clone the source code: git clone git@github.com:phenotips/phenotips.git  Ensure Maven has enough memory: export MAVEN_OPTS=\"-Xmx2g -XX:MaxPermSize=256m\"\n\nThen, build the project with:\n\ncd phenotips/ mvn install\n\nNote: the first build may take a long time because all the dependencies are downloaded, but subsequent builds should only take a few minutes",
+      "section": "Introduction (part 2)",
+      "repo": "426_PhenoTips",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Running a custom built instance\n\nThe project is split into several modules, among which distribution/standalone will result in a fully-working self-contained package ready to run. Running the application is as simple as:\n\nmvn install, as stated above, to build the project  go to the directory where the final package is located, distribution/standalone/target  extract the contents of the phenotips-standalone-.zip archive to a location of your choice (outside the target directory, to ensure it is not overwritten by subsequent builds)  launch the start script (start.sh on unix-like systems, start.bat on Windows)  open a browser and go to [http://localhost:8080/] http://localhost:8080/  this is a completely local version, not connected to any other PhenoTips instance or other software in your institution; a default user is provided, you can log in using User: Admin and Password: admin (case-sensitive)\n\n## Support\n\nThe open-source community version of PhenoTips is no longer maintained or supported.\n\nFor information about the Enterprise version, please see [phenotips.com] https://phenotips.com/.\n\n## License\n\nThis open-source version of PhenoTips was distributed under the [AGPL version 3] http://www.gnu.org/licenses/agpl-3.0.html (GNU Affero General Public License), a well known free software/open source license recognized both by the Free Software Foundation and the Open Source Initiative.\n\nYou can ensure compliance with this license by:  making sure every change made to the code is also be distributed under AGPL, and any works that integrate PhenoTips (even over APIs) use a compatible license  including prominent notice of the use of PhenoTips in any software that uses it retaining all copyright notices in the software\n\nFor more information, please [Contact Us] https://phenotips.com/contact.html.",
+      "section": "Introduction (part 3)",
+      "repo": "426_PhenoTips",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "315_pydidas",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "pydidas [](https://doi.org/10.5281/zenodo.7568610)\n\npydidas (an acronym for the Python diffraction data analysis suite) is a toolkit for the analysis of X-ray diffraction datasets. It is designed to be accessible also for users with little experience in diffraction data analysis in order to broaden the user base of diffraction techniques and to make diffraction analysis more accessible for domain scientists.\n\nPydidas includes a graphical user interface and a command line interface to embed its functionality in other projects or scripts.\n\n## References\n\nPlease check the citation file CITATION.cff  Pydidas has also been issued with a global DOI for citations: 10.5281/zenodo.7568610   [](https://doi.org/10.5281/zenodo.7568610)\n\n## Installation\n\nPydidas should be installed in a clean environment to allow pydidas to fix the required dependency versions. This environment should be used exclusively for pydidas and no further packages should be installed.\n\nPydidas requires a Python version >= 3.11. Note that pydidas has not yet been  tested extensively with Python 3.13.\n\n### Preparing the environment\n\nEnvironments can be managed using any environment manager (e.g. venv, conda/mamba). Due to dependency management issues, pydidas does not support pre-configured conda/mamba environments anymore but relies exclusively on pip for the dependency management.\n\nPip will install all dependencies together with the pydidas package. There is no need to prepare the environment further.\n\n### Building and installing pydidas\n\nYou will require a pydidas wheel file to install it using pip. If you have not downloaded a build wheel file, you need to prepare one prior to installation.",
+      "section": "pydidas (part 1)",
+      "repo": "315_pydidas",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Using pip\n\nPydidas is available on PyPI and can be installed simply with\n\npython -m pip install pydidas\n\n#### Using a python wheel\n\nWheels for pydidas are available on the  [pydidas releases] https://github.com/hereon-GEMS/pydidas/releases webpage.  To install a downloaded wheel, activate your chosen environment and use the  following command:\n\npython -m pip install\n\n#### Using the source code directly\n\nDownload the pydidas source code or clone the git repository and navigate to the folder with the project metadata files (like this README.md). Then, install the package and any missing dependencies:\n\npython -m pip install .\n\nNote that pip might need to build a wheel from pydidas first which will take some time. If you want to build the wheel manually, for example to keep it for later use, simply use the following commands (again, in the pydidas folder)::\n\npython -m build\n\nThis will create a tarball and a wheel file in the `dist` subdirectory.\n\nNote: You will need to install the build and setuptools packages manually in  your chosen environment if you want to build pydidas from source.\n\n## Using pydidas",
+      "section": "pydidas (part 2)",
+      "repo": "315_pydidas",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Entry points\n\nIf installed as wheel, pydidas offers the following entry points:\n\npydidas-gui to start the graphical user interface.\n\npydidas-documentation to open the pydidas documentation in the default system\n\nweb browser. Note: The pydidas module must have been run at least once   (either through opening the GUI or imported in a python shell) for the   documentation to have been created.  pydidas-clear-settings Remove the stored registry keys for pydidas.\n\npydidas-updater Start a script which automatically updates pydidas to the latest\n\nversion available on GitHub. pydidas-remove-local-files This script removes all local log files and stored\n\nconfiguration files. run-pydidas-workflow Script to run a defined workflow in the console. This script\n\nalso requires configuration files for the scan and diffraction experiment. Please  refer to the full documentation for more details. remove-pydidas Remove all local config files and registry settings from the\n\nsystem. Please note that this script will not remove the python code itself, but   only cleans up the system.\n\n### Scripts\n\nPydidas includes multiple scripts which are located in the src/pydidas_scripts folder. These can be called directly by python from the command line and they are: pydidas_gui.py to start the GUI.\n\npydidas_documentation.py to open the html documentation in a browser.\n\nrun_pydidas_workflow.py to run a processing workflow on the command line.\n\npydidas_updater_script.py to update pydidas to the latest release published on\n\nGitHub. clear_local_settings.py to remove all registry settings written by pydidas.",
+      "section": "pydidas (part 3)",
+      "repo": "315_pydidas",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Command line\n\nMuch of pydidas' functionality is also available from the command line or notebooks. Pydidas can be imported and used as any other python module. Please refer to the  documentaion for more details (see the section below on how to access the  documentation).\n\n## Documentation\n\n### Local documentation\n\nThe documentation is included with the distribution, but only in form of the source to keep the distribution small. It will be compiled automatically the first time pydidas is imported in python. This will take some time (about 30 seconds, depending on the system) and a notification will be displayed.\n\nThe compiled documentation can be found in the `lib/site-packages/pydidas/sphinx/html folder and the index.html file is the global start page.\n\nA pydidas-documentation` entrypoint is available to open the documentation in the system's default browser.\n\nThe graphical user interface also has a menu entry to open the help in a web browser. Pressing F1 in the graphical user interface will also open the help in the system's  default webbrowser.\n\n### Online documentation\n\nThe pydidas documentation is also available online through github-pages: https://hereon-gems.github.io/pydidas/\n\n## Referencing pydidas\n\nFor the full citation information of pydidas, please see the CITATION.cff file.\n\nPydidas can also be cited by its global DOI on zenodo: 10.5281/zenodo.7568610\\ [](https://doi.org/10.5281/zenodo.7568610)",
+      "section": "pydidas (part 4)",
+      "repo": "315_pydidas",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## License\n\nThe pydidas source code is released under the GNU General Public License Version 3. The documentation is licensed under the Creative Commons Attribution 4.0 International Public License (CC-BY-4.0). Images and logos are licensed under Creative Commons Attribution-NoDerivatives 4.0 International Public License (CC-BY-ND-4.0). Insignificant files (e.g. changelog) are released under the CC0 1.0 Universal Public Domain Dedication (CC0-1.0).\n\n## Acknolwedgements\n\npydidas is developed at [Helmholtz-Zentrum Hereon] https://www.hereon.de and the  development is supported by [DAPHNE4NFDI] https://www.daphne4nfdi.de.\n\nThe (azimuthal/radial) integration uses the [pyFAI] https://github.com/silx-kit/pyFAI engine for fast azimuthal integration. Some widgets are extensions of [silx] https://github.com/silx-kit/silx  widgets. Both `pyFAI and silx` are developed at the [ESRF] https://www.esrf.fr/.",
+      "section": "pydidas (part 5)",
+      "repo": "315_pydidas",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "codeRepository": "https://github.com/vrpn/vrpn",
+  "programmingLanguage": "C",
+  "programmingLanguages": [
+    "C",
+    "C++",
+    "CMake",
+    "HTML",
+    "Java",
+    "Makefile",
+    "Perl",
+    "Shell",
+    "SWIG",
+    "Python",
+    "Lua",
+    "CSS",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/vrpn/vrpn/zipball/main",
+  "author": "vrpn",
+  "dateCreated": "2010-01-04T17:51:58Z",
+  "dateModified": "2025-10-16T19:52:13Z",
+  "keywords": [],
+  "license": null,
+  "description": "Virtual Reality Peripheral Network - Official GitHub Repository",
+  "identifier": 458285,
+  "name": "vrpn/vrpn",
+  "issueTracker": "https://api.github.com/repos/vrpn/vrpn/issues",
+  "readme": "https://github.com/vrpn/vrpn/blob/master/README"
+}

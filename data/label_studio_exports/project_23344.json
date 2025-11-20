@@ -1,0 +1,240 @@
+[
+  {
+    "id": 1436,
+    "annotations": [
+      {
+        "id": 10901,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:44:23.600819Z",
+        "updated_at": "2025-11-05T17:44:23.600833Z",
+        "draft_created_at": null,
+        "lead_time": 1.471,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "d1aed26d-d687-4f6b-a434-752d1a19c701",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1436,
+        "project": 23344,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "129_Compas_Toolkit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.023638Z",
+    "updated_at": "2025-11-05T17:44:23.626176Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23344,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1437,
+    "annotations": [
+      {
+        "id": 10902,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 694,
+              "end": 699,
+              "text": "CMake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "guYFPcu1EC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 726,
+              "end": 746,
+              "text": "NVIDIA CUDA Compiler",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "WZdNNu7d9o",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 773,
+              "end": 778,
+              "text": "Julia",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "eeucZoAYYR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 788,
+              "end": 800,
+              "text": "1.9 or later",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "SaaaDnLRCq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 756,
+              "end": 770,
+              "text": "11.0 or higher",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "tq5Q6f9UuR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 709,
+              "end": 723,
+              "text": "3.10 or higher",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "1QPd8HEcEu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:45:20.234382Z",
+        "updated_at": "2025-11-15T17:35:12.055067Z",
+        "draft_created_at": "2025-11-05T17:44:34.074648Z",
+        "lead_time": 93.17699999999999,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "e2c73850-2e27-46ac-9bce-f9093d5d27df",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1437,
+        "project": 23344,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Compas Toolkit\n\n[](https://github.com/NLeSC-COMPAS/compas-toolkit)\n\nThe Compas Toolkit is a high-performance C++ library offering GPU-accelerated functions for use in quantitative MRI research. The toolkit offers fast simulations of various MRI sequences and k-space trajectories commonly used in qMRI studies. While the core of the toolkit is implemented using CUDA, the functionality is accessible from both C++ and Julia.\n\n## Features\n\nFlexible API that can be composed in different ways.  Highly tuned GPU kernels that provide high performance.  Implemented using CUDA, optimized for Nvidia GPUs.  Usable from Julia and C++.\n\n## Prerequisites\n\nCompilation requires the following software:\n\nCMake (version 3.10 or higher)\n\nNVIDIA CUDA Compiler (version 11.0 or higher)\n\nJulia (version 1.9 or later, only for Julia bindings)\n\n## Installation\n\nTo install the Compas Toolkit, follow these steps:\n\n### Clone the repository\n\nFirst, clone the GitHub repository:\n\n$ git clone --recurse-submodules https://github.com/NLeSC-COMPAS/compas-toolkit\n\n### Compiling the C++ code\n\nNext, configure the CMake project inside a new build directory:\n\n$ mkdir -p build $ cd build $ cmake -B. -DCMAKE_BUILD_TYPE=Release -DCMAKE_CUDA_ARCHITECTURES=80 ..\n\nAfter the configuration, build the toolkit by running:\n\n$ make compas-toolkit\n\nThis generates a static library named libcompas-toolkit.a.",
+      "section": "Compas Toolkit (part 1)",
+      "repo": "129_Compas_Toolkit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.023678Z",
+    "updated_at": "2025-11-15T17:35:12.090755Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23344,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1438,
+    "annotations": [
+      {
+        "id": 10903,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:45:24.570419Z",
+        "updated_at": "2025-11-05T17:45:24.570436Z",
+        "draft_created_at": null,
+        "lead_time": 4.133,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "33d88de2-12c9-404a-8c01-ed3135f015c8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1438,
+        "project": 23344,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Compiling the Julia bindings\n\nTo compile the Julia bindings, use the following command. This will install the library into a local lib/ directory:\n\n$ make install\n\nIf everything has gone as planned, you'll now have a shared library called libcompas-julia.so in the local lib/ directory. Additionally, a Julia file should have been automatically generated as CompasToolkit.jl/src/CompasToolkit.jl.\n\n## Usage\n\nTo use the Compas Toolkit in Julia, simply build the Julia bindings using the instructions above and then add the directory CompasToolkit.jl to you Julia project.\n\n$ julia using Pkg; Pkg.add(path=\"/CompasToolkit.jl/\")\n\nYou can then import the library with using CompasToolkit.\n\nFor examples of using the toolkit, take a look at the scripts available in the CompasToolkit.jl/tests directory.",
+      "section": "Compas Toolkit (part 2)",
+      "repo": "129_Compas_Toolkit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.023703Z",
+    "updated_at": "2025-11-05T17:45:24.597175Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23344,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

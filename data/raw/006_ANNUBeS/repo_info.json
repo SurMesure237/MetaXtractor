@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/ANNUBS/annubes",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ANNUBS/annubes/zipball/main",
+  "author": "ANNUBS",
+  "dateCreated": "2023-11-10T17:26:36Z",
+  "dateModified": "2024-12-20T13:21:45Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "ANNUBeS: training Artificial Neural Networks to Uncover Behavioral Strategies in neuroscience",
+  "identifier": 717155513,
+  "name": "ANNUBS/annubes",
+  "issueTracker": "https://api.github.com/repos/ANNUBS/annubes/issues",
+  "readme": "https://github.com/ANNUBS/annubes/blob/main/README.md"
+}

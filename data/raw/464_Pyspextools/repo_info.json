@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/spex-xray/pyspextools",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/spex-xray/pyspextools/zipball/main",
+  "author": "spex-xray",
+  "dateCreated": "2017-11-28T07:49:31Z",
+  "dateModified": "2025-08-25T16:40:12Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "PySPEX tools is a collection of python tools for the SPEX X-ray spectral fitting package. ",
+  "identifier": 112303445,
+  "name": "spex-xray/pyspextools",
+  "issueTracker": "https://api.github.com/repos/spex-xray/pyspextools/issues",
+  "readme": "https://github.com/spex-xray/pyspextools/blob/master/README.md"
+}

@@ -1,0 +1,211 @@
+[
+  {
+    "id": 2055,
+    "annotations": [
+      {
+        "id": 10389,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:09:38.254539Z",
+        "updated_at": "2025-11-04T07:09:38.254556Z",
+        "draft_created_at": null,
+        "lead_time": 9.781,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "89eb345b-7f5c-4a5d-8db5-2867db5bf36f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2055,
+        "project": 23468,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "NLP Pipeline\n\n|codacy_grade| |travis| |documentation| |pypi_version| |pypi_supported| |zenodo|\n\nnlppln is a python package for creating NLP pipelines using Common Workflow Language _ (CWL). It provides steps for (generic) NLP functionality, such as tokenization, lemmatization, and part of speech tagging, and helps users to construct workflows from these steps.\n\nA text processing step consist of a (Python) command line tool and a CWL specification to use this tool. Most tools provided by nppln wrap existing NLP functionality. The command line tools are made with Click _, a Python package for creating command line interfaces.\n\nTo create a workflow, you have to write a Python script: ::\n\nfrom nlppln import WorkflowGenerator\n\nwith WorkflowGenerator() as wf:  txt_dir = wf.add_input(txt_dir='Directory')\n\nfrogout = wf.frog_dir(in_dir=txt_dir)  saf = wf.frog_to_saf(in_files=frogout)  ner_stats = wf.save_ner_data(in_files=saf)  new_saf = wf.replace_ner(metadata=ner_stats, in_files=saf)  txt = wf.saf_to_txt(in_files=new_saf)\n\nwf.add_outputs(ner_stats=ner_stats, txt=txt)\n\nwf.save('anonymize.cwl')\n\nThe resulting workflow can be run using a CWL runner, such as cwltool _:\n\n.. code-block:: sh\n\ncwltool anonymize.cwl --txt_dir /path/to/directory/with/txt/files/\n\nFor creating new (e.g., project specific) NLP functionality, you can use nlppln-gen _ to generate boilerplate (i.e., empty) command line tools and CWL specifications.\n\nThe full documentation can be found on Read the Docs _.\n\nInstallation ############\n\nInstall nlppln using pip:\n\n.. code-block:: sh\n\npip install nlppln",
+      "section": "Introduction (part 1)",
+      "repo": "396_nlppln",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.698611Z",
+    "updated_at": "2025-11-04T07:09:38.278876Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23468,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2056,
+    "annotations": [
+      {
+        "id": 10390,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 341,
+              "end": 383,
+              "text": "http://www.apache.org/licenses/LICENSE-2.0",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "kTx4NlS19P",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 190,
+              "end": 217,
+              "text": "Apache License, Version 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "UZ8a9Ln1L5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1213,
+              "end": 1265,
+              "text": "http://nlppln.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "QfgQ5wT4u6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:10:11.911697Z",
+        "updated_at": "2025-11-14T13:11:04.431263Z",
+        "draft_created_at": "2025-11-04T07:09:53.595829Z",
+        "lead_time": 40.281,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "3f103101-d547-46a3-be14-a4292ef7394a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2056,
+        "project": 23468,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Please check the installation guidelines _ for additional required software.\n\nLicense #######\n\nCopyright (c) 2016-2018, Netherlands eScience Center, University of Twente\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\n\n.. |codacy_grade| image:: https://api.codacy.com/project/badge/Grade/24cd15fe1d9e4a51ab4be8c247e95c47  :target: https://www.codacy.com/app/jvdzwaan/nlppln?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nlppln/nlppln&amp;utm_campaign=Badge_Grade  :alt: Codacy Badge\n\n.. |travis| image:: https://travis-ci.org/nlppln/nlppln.svg?branch=master  :target: https://travis-ci.org/nlppln/nlppln  :alt: Build Status\n\n.. |documentation| image:: https://readthedocs.org/projects/nlppln/badge/?version=latest  :target: http://nlppln.readthedocs.io/en/latest/?badge=latest  :alt: Documentation Status\n\n.. |pypi_version| image:: https://badge.fury.io/py/nlppln.svg  :target: https://badge.fury.io/py/nlppln  :alt: PyPI version\n\n.. |pypi_supported| image:: https://img.shields.io/pypi/pyversions/nlppln.svg  :target: https://pypi.python.org/pypi/nlppln  :alt: PyPI",
+      "section": "Introduction (part 2)",
+      "repo": "396_nlppln",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.698650Z",
+    "updated_at": "2025-11-14T13:11:04.464136Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23468,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2057,
+    "annotations": [
+      {
+        "id": 10391,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 68,
+              "end": 111,
+              "text": "https://zenodo.org/badge/latestdoi/65198876",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "UcuodYEwcl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:10:19.060191Z",
+        "updated_at": "2025-11-04T07:10:19.060207Z",
+        "draft_created_at": null,
+        "lead_time": 6.954,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "07d2d8b0-897e-46ac-9e33-22464ee92c50",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2057,
+        "project": 23468,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": ".. |zenodo| image:: https://zenodo.org/badge/65198876.svg  :target: https://zenodo.org/badge/latestdoi/65198876  :alt: DOI",
+      "section": "Introduction (part 3)",
+      "repo": "396_nlppln",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.698671Z",
+    "updated_at": "2025-11-04T07:10:19.089359Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23468,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

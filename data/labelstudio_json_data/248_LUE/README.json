@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "LUE\n\n[](https://lue.computationalgeography.org)\n\nLUE scientific database and environmental modelling framework\n\nLUE is software for storing and manipulating large amounts of information for large amounts of objects. This information can optionally have a reference in time and space. For example, LUE can represent collections of wandering animals and their properties, some of which are changing through time, or the elevation of the surface of one or multiple areas. The software is useful, and currently mainly used, in the context of environmental modelling of biological and physical systems, represented by agents and fields, but we make sure that the software is as generic as possible, allowing it to be useful in other contexts as well.\n\nCurrently, LUE contains two main parts: LUE data model and LUE framework. LUE data model is an implementation of the LUE physical data model, which allows users to perform I/O to the \"LUE Scientific Database\". It allows for the storage of large amounts of objects and their location in time and space, and their properties.\n\nLUE framework is a collection of data types and algorithms that can be combined to translate large amounts of information. It allows computations to be performed on hardware ranging from laptops to compute clusters, without the user having to know about high-performance computing and the related technology.",
+      "section": "LUE (part 1)",
+      "repo": "248_LUE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[Homepage] https://lue.computationalgeography.org\n\n[Documentation] https://lue.computationalgeography.org/doc\n\n[Publications] https://lue.computationalgeography.org/publication\n\n[R&D team] https://www.computationalgeography.org\n\n[](https://matrix.to/#/#lue:matrix.org)\n\n(users) [](https://matrix.to/#/#lue-dev:matrix.org)\n\n(developers)\n\n[](https://doi.org/10.5281/zenodo.5535685)",
+      "section": "LUE (part 2)",
+      "repo": "248_LUE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Source code\n\n[](https://github.com/computationalgeography/lue/) [](https://www.codacy.com/gh/computationalgeography/lue/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=computationalgeography/lue&amp;utm_campaign=Badge_Grade) [](https://github.com/pre-commit/pre-commit) [](https://mypy-lang.org/) [](https://github.com/psf/black) [](https://pycqa.github.io/isort/)\n\n## C/I builds\n\n[](https://github.com/computationalgeography/lue/actions/workflows/linux.yml) [](https://github.com/computationalgeography/lue/actions/workflows/macos-homebrew.yml) [](https://github.com/computationalgeography/lue/actions/workflows/windows-conan.yml) [](https://github.com/computationalgeography/lue/actions/workflows/windows-conda.yml) [](https://github.com/computationalgeography/lue/actions/workflows/conda.yml)",
+      "section": "LUE (part 3)",
+      "repo": "248_LUE",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Installation\n\n[](https://anaconda.org/conda-forge/lue) [](https://anaconda.org/conda-forge/lue) [](https://anaconda.org/conda-forge/lue) [](https://anaconda.org/conda-forge/lue)\n\nThe easiest way to install LUE is using Conda:\n\nconda install -c conda-forge lue\n\nMore information about how to install LUE can be found in the [LUE documentation] https://lue.computationalgeography.org/doc.",
+      "section": "LUE (part 4)",
+      "repo": "248_LUE",
+      "source_file": "readme.md"
+    }
+  }
+]

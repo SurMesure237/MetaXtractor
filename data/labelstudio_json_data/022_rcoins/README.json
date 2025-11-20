@@ -1,0 +1,50 @@
+[
+  {
+    "data": {
+      "text": "output: github_document\n\n``{r, include = FALSE} knitr::opts_chunk$set(  collapse = TRUE,  comment = \"#>\",  fig.path = \"man/figures/README-\",  out.width = \"100%\" )\n\n[](https://github.com/CityRiverSpaces/rcoins/actions/workflows/R-CMD-check.yaml) [](https://doi.org/10.5281/zenodo.14501804)\n\nIdentify continuous lines in a network using an approach based on the Continuity in Street Network (COINS) method[^1].\n\nrcoins is a R (re)implementation of the COINS algorithm, which is also available in Python as a module of the [momepy`] https://docs.momepy.org/en/latest/api/momepy.COINS.html library or in its original version: [PratyushTripathy/COINS] https://github.com/PratyushTripathy/COINS.\n\n[^1]: Tripathy, P., Rao, P., Balakrishnan, K., & Malladi, T. (2021). An open-source tool to extract natural continuity and hierarchy of urban street networks. Environment and Planning B: Urban Analytics and City Science, 48(8), 2188-2205. DOI: 10.1177/2399808320967680\n\n## Installation\n\nYou can install the released version of rcoins from [CRAN] https://cran.r-project.org with:\n\ninstall.packages(\"rcoins\")\n\nYou can install the development version of rcoins from the R terminal like so:",
+      "section": "Introduction + rcoins <a href=\"https://cityriverspaces.github.io/rcoins/\"><img src=\"man/figures/logo.png\" align=\"right\" height=\"137\" alt=\"rcoins website\" /></a>",
+      "repo": "022_rcoins",
+      "source_file": "readme.rmd"
+    }
+  },
+  {
+    "data": {
+      "text": "install.packages(\"devtools\") devtools::install_github(\"CityRiverSpaces/rcoins\")\n\n### Alternative installation using conda\n\nAn environment including rcoins and all its dependencies can be created using Conda (or its faster implementation Mamba).\n\nConda can be installed using the Miniforge scripts provided [here] https://conda-forge.org/miniforge/ (download one of the Mambaforge scripts in order to install Mamba as well).\n\nFirst clone this repository and access it:\n\ngit clone https://github.com/CityRiverSpaces/rcoins.git cd rcoins/\n\nRun conda (or mamba, if using Mambaforge) to create an environment with all the required dependencies:\n\nconda env create -f environment.yml conda activate rcoins\n\nInstall the development version of rcoins (include dependencies = TRUE to install the example datasets):\n\nRscript -e 'devtools::install(dependencies = TRUE)'\n\n## Example\n\nGiven the street network of the city of Bucharest (data source: [OpenStreetMap][osm])\n\n``{r} library(rcoins) bucharest <- get_example_data() streets <- bucharest$streets\n\nPlot streets:\n\n`{r streets, echo=FALSE, out.width=\"100%\"} plot(sf::st_geometry(streets),  col = sf::sf.colors(n = nrow(streets), categorical = TRUE),  lwd = 2, xlim = c(418500, 437500), ylim = c(4909800, 4931500))\n\nDetermine continuous lines in the network as:\n\n`{r} continuous_streets <- stroke(streets)\n\nPlot continuous streets:\n\n``{r continuous-streets, echo=FALSE, out.width=\"100%\"} plot(continuous_streets,  col = sf::sf.colors(n = length(continuous_streets), categorical = TRUE),  lwd = 2, xlim = c(418500, 437500), ylim = c(4909800, 4931500))\n\n[osm]: https://www.openstreetmap.org/",
+      "section": "install.packages(\"devtools\") (part 1)",
+      "repo": "022_rcoins",
+      "source_file": "readme.rmd"
+    }
+  },
+  {
+    "data": {
+      "text": "## Contributing\n\nWe look very much forward to contributions to the package. See the [Contributing Guide] https://github.com/CityRiverSpaces/rcoins/blob/main/.github/CONTRIBUTING.md for further details.\n\nThis package is released with a [Contributor Code of Conduct] https://github.com/CityRiverSpaces/rcoins/blob/main/.github/CODE_OF_CONDUCT.md. By contributing to this project you agree to abide by its terms.\n\n## Development\n\nWhen modifying the R source code, load the library as:\n\ndevtools::load_all()\n\nRun tests locally:\n\ndevtools::test()\n\nRun the linter locally:\n\nlintr::lint_package()",
+      "section": "install.packages(\"devtools\") (part 2)",
+      "repo": "022_rcoins",
+      "source_file": "readme.rmd"
+    }
+  },
+  {
+    "data": {
+      "text": "rcoins\n\n[](https://github.com/CityRiverSpaces/rcoins/actions/workflows/R-CMD-check.yaml) [](https://doi.org/10.5281/zenodo.14501804)\n\nIdentify continuous lines in a network using an approach based on the Continuity in Street Network (COINS) method[^1].\n\nrcoins is a R (re)implementation of the COINS algorithm, which is also available in Python as a module of the [momepy] https://docs.momepy.org/en/latest/api/momepy.COINS.html library or in its original version: [PratyushTripathy/COINS] https://github.com/PratyushTripathy/COINS.\n\n## Installation\n\nYou can install the released version of rcoins from [CRAN] https://cran.r-project.org with:\n\ninstall.packages(\"rcoins\")\n\nYou can install the development version of rcoins from the R terminal like so:",
+      "section": "Introduction + rcoins <a href=\"https://cityriverspaces.github.io/rcoins/\"><img src=\"man/figures/logo.png\" align=\"right\" height=\"137\" alt=\"rcoins website\" /></a>",
+      "repo": "022_rcoins",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "install.packages(\"devtools\") devtools::install_github(\"CityRiverSpaces/rcoins\")\n\n### Alternative installation using conda\n\nAn environment including rcoins and all its dependencies can be created using Conda (or its faster implementation Mamba).\n\nConda can be installed using the Miniforge scripts provided [here] https://conda-forge.org/miniforge/ (download one of the Mambaforge scripts in order to install Mamba as well).\n\nFirst clone this repository and access it:\n\ngit clone https://github.com/CityRiverSpaces/rcoins.git cd rcoins/\n\nRun conda (or mamba, if using Mambaforge) to create an environment with all the required dependencies:\n\nconda env create -f environment.yml conda activate rcoins\n\nInstall the development version of rcoins (include dependencies = TRUE to install the example datasets):\n\nRscript -e 'devtools::install(dependencies = TRUE)'\n\n## Example\n\nGiven the street network of the city of Bucharest (data source: [OpenStreetMap] https://www.openstreetmap.org/)\n\nlibrary(rcoins) bucharest\n\nDetermine continuous lines in the network as:\n\ncontinuous_streets\n\n## Contributing\n\nWe look very much forward to contributions to the package. See the [Contributing Guide] https://github.com/CityRiverSpaces/rcoins/blob/main/.github/CONTRIBUTING.md for further details.\n\nThis package is released with a [Contributor Code of Conduct] https://github.com/CityRiverSpaces/rcoins/blob/main/.github/CODE_OF_CONDUCT.md. By contributing to this project you agree to abide by its terms.",
+      "section": "install.packages(\"devtools\") (part 1)",
+      "repo": "022_rcoins",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Development\n\nWhen modifying the R source code, load the library as:\n\ndevtools::load_all()\n\nRun tests locally:\n\ndevtools::test()\n\nRun the linter locally:\n\nlintr::lint_package()\n\n[^1]: Tripathy, P., Rao, P., Balakrishnan, K., & Malladi, T. (2021). An  open-source tool to extract natural continuity and hierarchy of  urban street networks. Environment and Planning B: Urban Analytics  and City Science, 48(8), 2188-2205. DOI: 10.1177/2399808320967680",
+      "section": "install.packages(\"devtools\") (part 2)",
+      "repo": "022_rcoins",
+      "source_file": "readme.md"
+    }
+  }
+]

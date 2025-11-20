@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/PartitionedArrays/PartitionedArrays.jl",
+  "programmingLanguage": "Julia",
+  "programmingLanguages": [
+    "Julia",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/PartitionedArrays/PartitionedArrays.jl/zipball/main",
+  "author": "PartitionedArrays",
+  "dateCreated": "2020-12-08T10:45:12Z",
+  "dateModified": "2025-09-04T15:57:14Z",
+  "keywords": [
+    "hpc",
+    "julia",
+    "linear-algebra",
+    "mpi",
+    "parallel-algorithms",
+    "parallel-data"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Large-scale, distributed, sparse linear algebra in Julia.",
+  "identifier": 319607706,
+  "name": "PartitionedArrays/PartitionedArrays.jl",
+  "issueTracker": "https://api.github.com/repos/PartitionedArrays/PartitionedArrays.jl/issues",
+  "readme": "https://github.com/PartitionedArrays/PartitionedArrays.jl/blob/master/README.md"
+}

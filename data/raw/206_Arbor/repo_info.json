@@ -1,0 +1,35 @@
+{
+  "codeRepository": "https://github.com/arbor-sim/arbor",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "AGS Script",
+    "Python",
+    "CMake",
+    "NMODL",
+    "Cuda",
+    "Shell",
+    "Julia",
+    "Perl",
+    "C"
+  ],
+  "downloadUrl": "https://api.github.com/repos/arbor-sim/arbor/zipball/main",
+  "author": "arbor-sim",
+  "dateCreated": "2016-10-03T11:03:22Z",
+  "dateModified": "2025-10-07T09:54:34Z",
+  "keywords": [
+    "cuda",
+    "gpu",
+    "hip",
+    "hpc",
+    "modern-cpp",
+    "mpi",
+    "neuroscience"
+  ],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "The Arbor multi-compartment neural network simulation library.",
+  "identifier": 69863074,
+  "name": "arbor-sim/arbor",
+  "issueTracker": "https://api.github.com/repos/arbor-sim/arbor/issues",
+  "readme": "https://github.com/arbor-sim/arbor/blob/master/README.md"
+}

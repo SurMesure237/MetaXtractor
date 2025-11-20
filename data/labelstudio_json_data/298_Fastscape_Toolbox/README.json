@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "[](https://github.com/fastscape-lem/adascape/actions) [](https://github.com/fastscape-lem/adascape/actions) [](https://doi.org/10.5281/zenodo.7794374)",
+      "section": "Introduction",
+      "repo": "298_Fastscape_Toolbox",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "AdaScape: Adaptive speciation and landscape evolution model\n\nThe \"AdaScape\" package contains a simple adaptive speciation model written in Python that is coupled with the landscape evolution model [FastScape] https://fastscape.readthedocs.io/en/latest/.\n\n## Install\n\nThis package depends on Python (3.9 or later is recommended), [numpy] http://www.numpy.org/, [scipy] https://docs.scipy.org/doc/scipy/reference/, [pandas] https://pandas.pydata.org/, [fastscape] https://github.com/fastscape-lem/fastscape and  [orographic precipitation] https://github.com/fastscape-lem/orographic-precipitation .\n\nThis package also provides a [dendropy] https://dendropy.org/ extension and  uses [toytree] https://toytree.readthedocs.io/en/latest/index.html  to plot phylogenetic trees (optional dependencies).\n\nTo install the package locally, first clone this repository:\n\n$ git clone https://github.com/fastscape-lem/adascape.git $ cd adascape\n\nThen run the command below (this will install numpy, scipy and pandas if those libraries are not yet installed in your environment):\n\n$ pip install .\n\nTo install the package for development purpose, use the following command instead:\n\n$ pip install -e .\n\n## Usage\n\nSome examples are shown in the `notebooks` folder (Jupyter Notebooks).\n\n## Tests\n\nTo run the tests, you need to have [pytest] https://docs.pytest.org/en/latest/ installed in your environment.\n\nThen simply run from this repository's root directory:\n\n$ pytest adascape -v",
+      "section": "AdaScape: Adaptive speciation and landscape evolution model",
+      "repo": "298_Fastscape_Toolbox",
+      "source_file": "readme.md"
+    }
+  }
+]

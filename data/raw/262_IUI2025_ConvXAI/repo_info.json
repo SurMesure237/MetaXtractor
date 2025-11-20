@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/delftcrowd/IUI2025_ConvXAI",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/delftcrowd/IUI2025_ConvXAI/zipball/main",
+  "author": "delftcrowd",
+  "dateCreated": "2025-01-15T14:45:14Z",
+  "dateModified": "2025-04-09T09:11:57Z",
+  "keywords": [],
+  "license": null,
+  "description": "Repository for IUI 2025 paper \"Is Conversational XAI All You Need? Human-AI Decision Making With a Conversational XAI Assistant\"",
+  "identifier": 917199298,
+  "name": "delftcrowd/IUI2025_ConvXAI",
+  "issueTracker": "https://api.github.com/repos/delftcrowd/IUI2025_ConvXAI/issues",
+  "readme": "https://github.com/delftcrowd/IUI2025_ConvXAI/blob/main/README.md"
+}

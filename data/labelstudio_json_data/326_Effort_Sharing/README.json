@@ -1,0 +1,50 @@
+[
+  {
+    "data": {
+      "text": "Effort Sharing\n\nCompute fair national emissions allocations using transparent, reproducible workflows. Designed by researchers for researchers.\n\n[Introduction] #introduction\n\n[Installation Instructions] #installation-instructions\n\n[Obtaining Input Data] #obtaining-input-data\n\n[Usage Overview] #usage-overview\n\n[Command Line Interface (CLI)] #command-line-interface-cli\n\n[Scripts] #scripts\n\n[Interactive Notebooks \\& API] #interactive-notebooks--api\n\n[Configuration File] #configuration-file\n\n[Developer Instructions] #developer-instructions\n\n[Source Installation] #source-installation\n\n[Code Style / Formatting] #code-style--formatting\n\n[Documentation] #documentation\n\n[Testing] #testing\n\n[Making a Release] #making-a-release\n\n[Referencing this Repository] #referencing-this-repository\n\n## Introduction\n\nThis package combines a variety of data sources to compute fair national emissions allocations, study variability, and compare results with NDC estimates and cost-optimal scenario projections.\n\nGather country-level data (population, GDP, historical emissions, etc.)\n\nCompute global future emission pathways based on configurable scenarios\n\nCalculate allocations for countries/regions using various effort-sharing rules\n\nCompare allocations, NDCs, and cost-optimal scenarios\n\nConduct variance decomposition (Sobol analysis)\n\n## Installation Instructions\n\nIf you want to use some of the existing functionality, simply install from PyPI:\n\npip install effort-sharing\n\nIf you plan to develop the code or modify notebooks/scripts, install from source (see [Developer Instructions] #developer-instructions).\n\n## Obtaining Input Data\n\nWe're working to provide input data directly or via original sources. For now, contact for quick access.\n\n## Usage Overview",
+      "section": "Effort Sharing (part 1)",
+      "repo": "326_Effort_Sharing",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Command Line Interface (CLI)\n\nRun step-by-step workflows using the CLI:\n\neffortsharing --help effortsharing generate-config effortsharing get-input-data effortsharing global-pathways effortsharing policy-scenarios effortsharing allocate NLD effortsharing aggregate 2040",
+      "section": "Effort Sharing (part 2)",
+      "repo": "326_Effort_Sharing",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "You can also overwrite defaults effortsharing allocate NLD --config config.yml --log-level WARNING --gas CO2 --lulucf excl",
+      "section": "You can also overwrite defaults",
+      "repo": "326_Effort_Sharing",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Or ask for help to see all options: effortsharing aggregate --help\n\nThe CLI lets you quickly run complete workflows or focus on specific countries/years.\n\n### Scripts\n\nAutomate workflows using scripts in the scripts folder.  Example: scripts/cabe_export.py loads data, calculates pathways/allocations, aggregates results, and exports everything.  Edit parameters at the top of the script, then run with:\n\npython scripts/cabe_export.py\n\nScripts are not included in the PyPI package.\n\n### Interactive Notebooks & API\n\nImport high-level and low-level functions in Python or Jupyter notebooks for custom analysis and visualization.\n\nThe internal structure of the effortsharing package is documented in [apidocs.md] apidocs.md. While unpolished, it may serve as a starting point when diving into the internals of the code.\n\nSee the notebooks folder for examples.  Note: Notebooks may be outdated as the package evolves, but dedicated releases ensure reproducibility for published results.\n\n### Configuration File\n\nMany commands require a configuration file.  Generate a default config:\n\neffortsharing generate-config\n\nThe config file controls:\n\nData paths\n\nWhether to load/save intermediate results\n\nExperiment parameters\n\nDimension ranges for pathway parameters (shorter ranges = faster runs, but less variability)\n\nSee comments in the generated config for details.\n\n## Developer Instructions\n\nIf you plan to contribute, please follow these guidelines and respect the [code of conduct] CODE_OF_CONDUCT.md.",
+      "section": "Or ask for help to see all options: (part 1)",
+      "repo": "326_Effort_Sharing",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Source Installation\n\nClone the repo and set up a (conda) environment:\n\ngit clone https://github.com/imagepbl/effort-sharing cd effort-sharing conda env create --file environment.yml conda activate effortsharing_env conda env update -f environment.yml\n\nFor reproducibility, use the conda-lock file:\n\nconda-lock lock conda-lock install --name effortsharing_env pip install -e .[dev] # conda-lock doesn't install local libraries\n\n### Code Style / Formatting\n\nWe use [ruff] https://docs.astral.sh/ruff/ for linting and formatting.  Configuration is in pyproject.toml.\n\nruff check src ruff check --fix src ruff format src\n\nVS Code users: install the ruff plugin for in-editor feedback.\n\n### Documentation\n\nAPI docs are generated from docstrings using [pydoc-markdown] https://niklasrosenstein.github.io/pydoc-markdown/:\n\nuvx pydoc-markdown -I src --render-toc > apidocs.md\n\n### Testing\n\nA test script is included to quickly check if / how the results have been affected since a previous run. Use it as such:\n\npytest -v --confcutdir=$PWD/scripts/compare_dirs \\  scripts/compare_dirs/test.py \\  --reference-dir data/reference \\  --current-dir data/current \\  --atol 1e-9 --rtol 1e-5\n\nwhere you replace the paths to reference and current with actual folders you want to compare.\n\n### Making a Release\n\nWe release at least when publishing new results (e.g. journal, Carbon Budget Explorer). To generate a new release, open a [new issue using the release template] https://github.com/imagepbl/effort-sharing/issues/new?template=01_release.md and follow the steps in the checklist.",
+      "section": "Or ask for help to see all options: (part 2)",
+      "repo": "326_Effort_Sharing",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Referencing this Repository\n\nCode: [](https://doi.org/10.5281/zenodo.13640303)   Output data: [](https://doi.org/10.5281/zenodo.12188104)\n\nIf you use this code in your work, please cite it using the following reference:\n\nDekker, M., W\u00fcrschinger, C., Kalverla, P., & Verhoeven, S. Effort sharing [Computer software]. https://github.com/imagepbl/effort-sharing",
+      "section": "Or ask for help to see all options: (part 3)",
+      "repo": "326_Effort_Sharing",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "# Petrinet Smart Contract\n\nFirst get a fabric test network running by following th fabric online docs.\n\nhttps://hyperledger-fabric.readthedocs.io/en/release-2.2/install.html\n\nInstall fabric samples to build a test network with 3 organizations\n\ngit clone git clone https://github.com/dl4ld/fabric-samples.git\n\nInstall petrinet smart contract and application in fabric-samples\n\ncd fabric-samples git clone git clone https://github.com/dl4ld/petrinet.git\n\nStart test network with 3 organizations\n\ncd fabric-samples/test-network3 ./network.sh up createChannel -c mychannel -ca\n\nDeploy Petrinet smart contract\n\n./network.sh deployCC -ccn petrinet01 -ccp ~/fabric-samples/petrinet/chaincode-javascript/ -ccl javascript\n\nRun organization clients\n\ncd fabric-samples/petrinet/application-javascript/run_org3.sh petrinet01 cd fabric-samples/petrinet/application-javascript/run_org2.sh petrinet01 cd fabric-samples/petrinet/application-javascript/run_org1.sh petrinet01\n\nAccess web interface for each organization\n\nhttp://localhost:9391 http://localhost:9291 http://localhost:9191\n\nIf all works out, each url should show a web interface. click on NETS in the left side panel and click on the BLOCK network. This will show the DDoS Petri net use-case like so:\n\nInstall Kathara binary. Follow instructions https://www.kathara.org/\n\nInstall Kathara lab. We want to simulate a simple network like the following:\n\ngit clone https://github.com/dl4ld/network-lab.git\n\nStart lab\n\ncd network-lab kathara lstart\n\nStart mqtt server\n\n./start_mqtt.sh\n\nCreate control network\n\n./create_control_network.sh\n\nConnect nodes to control network\n\n./connect_nodes_to_control_network.sh",
+      "section": "README",
+      "repo": "266_Petri_Nets_on_Hyperledger",
+      "source_file": "readme.md"
+    }
+  }
+]

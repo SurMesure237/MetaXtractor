@@ -1,0 +1,36 @@
+{
+  "codeRepository": "https://github.com/nlesc-dirac/sagecal",
+  "programmingLanguage": "C",
+  "programmingLanguages": [
+    "C",
+    "C++",
+    "Cuda",
+    "Python",
+    "CMake",
+    "Shell",
+    "Dockerfile",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/nlesc-dirac/sagecal/zipball/main",
+  "author": "nlesc-dirac",
+  "dateCreated": "2017-03-02T15:29:01Z",
+  "dateModified": "2025-08-28T08:51:05Z",
+  "keywords": [
+    "admm",
+    "calibration",
+    "consensus-optimization",
+    "cuda",
+    "gpu-acceleration",
+    "lofar",
+    "nonlinear-optimization",
+    "radio-astronomy",
+    "sagecal",
+    "ska"
+  ],
+  "license": "https://api.github.com/licenses/gpl-2.0",
+  "description": "SAGECal is a fast, memory efficient and GPU accelerated radio interferometric calibration program. It supports all source models including points, Gaussians and Shapelets. Distributed calibration using MPI and consensus optimization is enabled. Both spectral and spatial priors can be used as constraints. Tools to build/restore sky models are included.",
+  "identifier": 83693259,
+  "name": "nlesc-dirac/sagecal",
+  "issueTracker": "https://api.github.com/repos/nlesc-dirac/sagecal/issues",
+  "readme": "https://github.com/nlesc-dirac/sagecal/blob/master/README.md"
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "[](https://GalerkinToolkit.github.io/GalerkinToolkit.jl/dev/) [](https://github.com/GalerkinToolkit/GalerkinToolkit.jl/actions/workflows/CI.yml?query=branch%3Amain) [](https://codecov.io/gh/GalerkinToolkit/GalerkinToolkit.jl) [](https://doi.org/10.5281/zenodo.13938389)\n\nGo to the [documentation] https://GalerkinToolkit.github.io/GalerkinToolkit.jl/dev/ to learn about GalerkinToolkit.",
+      "section": "README",
+      "repo": "069_GalerkinToolkit.jl",
+      "source_file": "readme.md"
+    }
+  }
+]

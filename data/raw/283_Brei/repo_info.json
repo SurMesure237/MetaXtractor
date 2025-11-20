@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/entangled/brei",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/entangled/brei/zipball/main",
+  "author": "entangled",
+  "dateCreated": "2023-10-20T13:20:36Z",
+  "dateModified": "2024-11-25T10:16:12Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Minimal workflow system and alternative to Make",
+  "identifier": 707701648,
+  "name": "entangled/brei",
+  "issueTracker": "https://api.github.com/repos/entangled/brei/issues",
+  "readme": "https://github.com/entangled/brei/blob/main/README.md"
+}

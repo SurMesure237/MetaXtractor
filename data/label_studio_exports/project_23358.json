@@ -1,0 +1,325 @@
+[
+  {
+    "id": 1520,
+    "annotations": [
+      {
+        "id": 11963,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1432,
+              "end": 1484,
+              "text": "https://perun.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "JiB4sABy7e",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 636,
+              "end": 680,
+              "text": "https://zenodo.org/badge/latestdoi/523363424",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "5S1OAeplP7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1298,
+              "end": 1342,
+              "text": "https://opensource.org/licenses/BSD-3-Clause",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "3u-k8Y1u5u",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:54:41.769836Z",
+        "updated_at": "2025-11-15T18:18:01.620600Z",
+        "draft_created_at": "2025-11-09T06:53:24.323007Z",
+        "lead_time": 129.807,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "2d5134af-3f1c-4a71-ad6d-d5fd2e91129b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1520,
+        "project": 23358,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": ".. image:: https://raw.githubusercontent.com/Helmholtz-AI-Energy/perun/main/docs/images/full_logo.svg\n\n| |fair-software| |openssf| |zenodo| |license| |docs| | |pypi-version| |python-version| |pypi-downloads| |black| |codecov|\n\n.. |fair-software| image:: https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F-green  :target: https://fair-software.eu .. |openssf| image:: https://bestpractices.coreinfrastructure.org/projects/7253/badge  :target: https://bestpractices.coreinfrastructure.org/projects/7253 .. |zenodo| image:: https://zenodo.org/badge/523363424.svg  :target: https://zenodo.org/badge/latestdoi/523363424 .. |pypi-version| image:: https://img.shields.io/pypi/v/perun .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/perun .. |black| image:: https://img.shields.io/badge/code%20style-black-000000.svg  :target: https://github.com/psf/black .. |codecov| image:: https://codecov.io/gh/Helmholtz-AI-Energy/perun/graph/badge.svg?token=9O6FSJ6I3G  :target: https://codecov.io/gh/Helmholtz-AI-Energy/perun .. |python-version| image:: https://img.shields.io/badge/Python-3.9+-blue.svg  :target: https://www.python.org/downloads/ .. |license| image:: https://img.shields.io/badge/License-BSD_3--Clause-blue.svg  :target: https://opensource.org/licenses/BSD-3-Clause .. |docs| image:: https://readthedocs.org/projects/perun/badge/?version=latest  :target: https://perun.readthedocs.io/en/latest/?badge=latest",
+      "section": "Introduction (part 1)",
+      "repo": "075_perun",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.061593Z",
+    "updated_at": "2025-11-15T18:18:01.656372Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23358,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1521,
+    "annotations": [
+      {
+        "id": 11964,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:55:08.235496Z",
+        "updated_at": "2025-11-09T06:55:08.235509Z",
+        "draft_created_at": null,
+        "lead_time": 26.272,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ccbcf289-3c10-484b-ae4f-ac3827166559",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1521,
+        "project": 23358,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "perun is a Python package that calculates the energy consumption of Python scripts by sampling usage statistics from your Intel, Nvidia or AMD hardware components. It can handle MPI applications, gather data from hundreds of nodes, and accumulate it efficiently. perun can be used as a command-line tool or as a function decorator in Python scripts.\n\nCheck out the docs _ or a working example _!\n\nKey Features\n\nMeasures energy consumption of Python scripts and binaries, supporting different hardware configurations\n\nCapable of handling MPI applications, gathering data from hundreds of nodes efficiently\n\nMonitor individual functions using decorators\n\nTracks energy usage of the application over multiple executions\n\nEasy to benchmark applications and functions\n\nExperimental!: Can monitor any non-distributed command line application\n\nQuick Start\n\nInstallation ^^^^^^^^^^^^\n\nFrom PyPI:\n\n.. code:: console\n\n$ pip install perun\n\nExtra dependencies like nvidia-smi, rocm-smi and mpi4py can be installed using pip as well:\n\n.. code:: console\n\n$ pip install perun[nvidia, rocm, mpi]\n\nFrom Github:\n\n.. code:: console\n\n$ pip install git+https://github.com/Helmholtz-AI-Energy/perun\n\nCommand Line ^^^^^^^^^^^^\n\nTo use perun as a command-line tool:\n\n.. code:: console\n\n$ perun monitor path/to/your/script.py [args]\n\nperun will output two files, an HDF5 style containing all the raw data that was gathered, and a text file with a summary of the results.\n\n.. code:: text\n\nPERUN REPORT\n\nApp name: finetune_qa_accelerate  First run: 2023-08-15T18:56:11.202060  Last run: 2023-08-17T13:29:29.969779\n\nRUN ID: 2023-08-17T13:29:29.969779",
+      "section": "Introduction (part 2)",
+      "repo": "075_perun",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.061632Z",
+    "updated_at": "2025-11-09T06:55:08.262657Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23358,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1522,
+    "annotations": [
+      {
+        "id": 11965,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:55:10.433601Z",
+        "updated_at": "2025-11-09T06:55:10.433616Z",
+        "draft_created_at": null,
+        "lead_time": 2.028,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "0e2d7fc0-14ff-482b-a564-10cb3df2a3fd",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1522,
+        "project": 23358,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "+-----------+------------------------+-----------+-------------+--------------+-------------+-------------+-------------+---------------+-------------+  | Round # | Host | RUNTIME | ENERGY | CPU_POWER | CPU_UTIL | GPU_POWER | GPU_MEM | DRAM_POWER | MEM_UTIL |  +===========+========================+===========+=============+==============+=============+=============+=============+===============+=============+  | 0 | hkn0432.localdomain | 995.967 s | 960.506 kJ | 231.819 W | 3.240 % | 702.327 W | 55.258 GB | 29.315 W | 0.062 % |  | 0 | hkn0436.localdomain | 994.847 s | 960.469 kJ | 235.162 W | 3.239 % | 701.588 W | 56.934 GB | 27.830 W | 0.061 % |  | 0 | All | 995.967 s | 1.921 MJ | 466.981 W | 3.240 % | 1.404 kW | 112.192 GB | 57.145 W | 0.061 % |\n\nThe application has been run 7 times. In total, it has used 3.128 kWh, released a total of 1.307 kgCO2e into the atmosphere, and you paid 1.02 € in electricity for it.\n\nBinary support (experimental) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\nperun is capable of monitoring simple applications written in other languages:\n\n.. code:: console\n\n$ perun monitor --binary path/to/your/executable [args]\n\nFunction Monitoring ^^^^^^^^^^^^^^^^^^^\n\nUsing a function decorator\n\n.. code:: python\n\nimport time  from perun import monitor\n\n@monitor()  def main(n: int):  time.sleep(n)\n\nAfter running with `perun monitor`, the report will contain:\n\n.. code:: text\n\nMonitored Functions",
+      "section": "Introduction (part 3)",
+      "repo": "075_perun",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.061657Z",
+    "updated_at": "2025-11-09T06:55:10.463432Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23358,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1523,
+    "annotations": [
+      {
+        "id": 11966,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 982,
+              "end": 1389,
+              "text": "Gutiérrez Hermosillo Muriedas, J.P., Flügel, K., Debus, C., Obermaier, H., Streit, A., Götz, M.: perun: Benchmarking Energy Consumption of High-Performance Computing Applications. In: Cano, J., Dikaiakos, M.D., Papadopoulos, G.A., Pericàs, M., and Sakellariou, R. (eds.) Euro-Par 2023: Parallel Processing. pp. 17–31. Springer Nature Switzerland, Cham (2023). https://doi.org/10.1007/978-3-031-39698-4_2",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "CW0L8u9AQr",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:56:08.487404Z",
+        "updated_at": "2025-11-09T06:56:08.487423Z",
+        "draft_created_at": "2025-11-09T06:55:55.388752Z",
+        "lead_time": 57.861,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "4686c610-b33b-4631-9fec-1a46d813cb19",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1523,
+        "project": 23358,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "+-----------+----------------------------+---------------------+------------------+--------------------+------------------+-----------------------+  | Round # | Function | Avg Calls / Rank | Avg Runtime | Avg Power | Avg CPU Util | Avg GPU Mem Util |  +===========+============================+=====================+==================+====================+==================+=======================+  | 0 | main | 1 | 993.323±0.587 s | 964.732±0.499 W | 3.244±0.003 % | 35.091±0.526 % |  | 0 | prepare_train_features | 88 | 0.383±0.048 s | 262.305±19.251 W | 4.541±0.320 % | 3.937±0.013 % |  | 0 | prepare_validation_features| 11 | 0.372±0.079 s | 272.161±19.404 W | 4.524±0.225 % | 4.490±0.907 % |\n\nMPI ^^^\n\nperun is compatible with MPI applications using `mpi4py:\n\n.. code:: console\n\n$ mpirun -n 8 perun monitor path/to/your/script.py\n\nDocs\n\nSee the documentation _ or examples `_ for more details.\n\nCiting perun\n\nIf you found perun useful, please cite the conference paper:\n\n::\n\nGutiérrez Hermosillo Muriedas, J.P., Flügel, K., Debus, C., Obermaier, H., Streit, A., Götz, M.:  perun: Benchmarking Energy Consumption of High-Performance Computing Applications.  In: Cano, J., Dikaiakos, M.D., Papadopoulos, G.A., Pericàs, M., and Sakellariou, R. (eds.)  Euro-Par 2023: Parallel Processing. pp. 17–31. Springer Nature Switzerland, Cham (2023).  https://doi.org/10.1007/978-3-031-39698-4_2\n\n.. code-block:: bibtex",
+      "section": "Introduction (part 4)",
+      "repo": "075_perun",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.061681Z",
+    "updated_at": "2025-11-09T06:56:08.520147Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23358,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1524,
+    "annotations": [
+      {
+        "id": 11967,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 603,
+              "text": "@InProceedings{10.1007/978-3-031-39698-4_2, author=\"Guti{\\'e}rrez Hermosillo Muriedas, Juan Pedro and Fl{\\\"u}gel, Katharina and Debus, Charlotte and Obermaier, Holger and Streit, Achim and G{\\\"o}tz, Markus\", editor=\"Cano, Jos{\\'e} and Dikaiakos, Marios D. and Papadopoulos, George A. and Peric{\\`a}s, Miquel and Sakellariou, Rizos\", title=\"perun: Benchmarking Energy Consumption of High-Performance Computing Applications\", booktitle=\"Euro-Par 2023: Parallel Processing\", year=\"2023\", publisher=\"Springer Nature Switzerland\", address=\"Cham\", pages=\"17--31\", isbn=\"978-3-031-39698-4\" }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "VY-tvbQQgQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:56:42.800007Z",
+        "updated_at": "2025-11-09T06:56:42.800024Z",
+        "draft_created_at": "2025-11-09T06:56:38.531487Z",
+        "lead_time": 34.104,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "a7843267-1054-42e8-9222-bbc500d1441f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1524,
+        "project": 23358,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "@InProceedings{10.1007/978-3-031-39698-4_2,  author=\"Guti{\\'e}rrez Hermosillo Muriedas, Juan Pedro  and Fl{\\\"u}gel, Katharina  and Debus, Charlotte  and Obermaier, Holger  and Streit, Achim  and G{\\\"o}tz, Markus\",  editor=\"Cano, Jos{\\'e}  and Dikaiakos, Marios D.  and Papadopoulos, George A.  and Peric{\\`a}s, Miquel  and Sakellariou, Rizos\",  title=\"perun: Benchmarking Energy Consumption of High-Performance Computing Applications\",  booktitle=\"Euro-Par 2023: Parallel Processing\",  year=\"2023\",  publisher=\"Springer Nature Switzerland\",  address=\"Cham\",  pages=\"17--31\",  isbn=\"978-3-031-39698-4\"  }",
+      "section": "Introduction (part 5)",
+      "repo": "075_perun",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.061703Z",
+    "updated_at": "2025-11-09T06:56:42.830767Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23358,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

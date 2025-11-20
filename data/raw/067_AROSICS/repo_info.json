@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/GFZ/arosics",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Makefile",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/GFZ/arosics/zipball/main",
+  "author": "GFZ",
+  "dateCreated": "2020-04-06T11:15:56Z",
+  "dateModified": "2025-10-29T08:03:58Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "AROSICS - Automated and Robust Open-Source Image Co-Registration Software",
+  "identifier": 253474603,
+  "name": "GFZ/arosics",
+  "issueTracker": "https://api.github.com/repos/GFZ/arosics/issues",
+  "readme": "https://github.com/GFZ/arosics/blob/main/README.rst"
+}

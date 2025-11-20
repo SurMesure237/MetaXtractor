@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/mahan-hosseini/AutoGaitA",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/mahan-hosseini/AutoGaitA/zipball/main",
+  "author": "mahan-hosseini",
+  "dateCreated": "2023-12-11T14:01:56Z",
+  "dateModified": "2025-10-22T10:21:44Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Automatic Gait Analysis in Python",
+  "identifier": 730242609,
+  "name": "mahan-hosseini/AutoGaitA",
+  "issueTracker": "https://api.github.com/repos/mahan-hosseini/AutoGaitA/issues",
+  "readme": "https://github.com/mahan-hosseini/AutoGaitA/blob/main/README.md"
+}

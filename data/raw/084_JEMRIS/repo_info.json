@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/JEMRIS/jemris",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "Python",
+    "MATLAB",
+    "CMake",
+    "C",
+    "M4",
+    "Shell",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/JEMRIS/jemris/zipball/main",
+  "author": "JEMRIS",
+  "dateCreated": "2018-03-10T12:28:10Z",
+  "dateModified": "2025-10-14T12:34:35Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-2.0",
+  "description": "JEMRIS is a versatile, open-source, multi-purpose MRI simulator.",
+  "identifier": 124653579,
+  "name": "JEMRIS/jemris",
+  "issueTracker": "https://api.github.com/repos/JEMRIS/jemris/issues",
+  "readme": "https://github.com/JEMRIS/jemris/blob/master/README.md"
+}

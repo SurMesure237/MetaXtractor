@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/eeduplay/MScThesis",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "TeX",
+    "Python",
+    "MATLAB"
+  ],
+  "downloadUrl": "https://api.github.com/repos/eeduplay/MScThesis/zipball/main",
+  "author": "eeduplay",
+  "dateCreated": "2023-01-20T16:42:14Z",
+  "dateModified": "2024-02-23T05:23:20Z",
+  "keywords": [],
+  "license": null,
+  "description": "My Master's Thesis 👀",
+  "identifier": 591393367,
+  "name": "eeduplay/MScThesis",
+  "issueTracker": "https://api.github.com/repos/eeduplay/MScThesis/issues",
+  "readme": "https://github.com/eeduplay/MScThesis/blob/main/README.md"
+}

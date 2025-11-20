@@ -1,0 +1,16 @@
+{
+  "codeRepository": "https://github.com/backdem/democracy-datasets",
+  "programmingLanguage": null,
+  "programmingLanguages": [],
+  "downloadUrl": "https://api.github.com/repos/backdem/democracy-datasets/zipball/main",
+  "author": "backdem",
+  "dateCreated": "2023-10-13T09:19:31Z",
+  "dateModified": "2024-08-07T12:36:58Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/cc0-1.0",
+  "description": "Democracy report corpus and dictionary",
+  "identifier": 704445695,
+  "name": "backdem/democracy-datasets",
+  "issueTracker": "https://api.github.com/repos/backdem/democracy-datasets/issues",
+  "readme": "https://github.com/backdem/democracy-datasets/blob/main/README.md"
+}

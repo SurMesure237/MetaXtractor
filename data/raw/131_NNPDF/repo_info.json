@@ -1,0 +1,33 @@
+{
+  "codeRepository": "https://github.com/NNPDF/nnpdf",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Jupyter Notebook",
+    "C",
+    "CSS",
+    "TeX",
+    "HTML",
+    "Shell",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/NNPDF/nnpdf/zipball/main",
+  "author": "NNPDF",
+  "dateCreated": "2018-01-19T14:30:29Z",
+  "dateModified": "2025-10-24T04:49:23Z",
+  "keywords": [
+    "hep",
+    "hep-ph",
+    "lhc",
+    "particle-physics",
+    "parton-distribution-functions",
+    "physics",
+    "quantum-chromodynamics"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "An open-source machine learning framework for global analyses of parton distributions.",
+  "identifier": 118135201,
+  "name": "NNPDF/nnpdf",
+  "issueTracker": "https://api.github.com/repos/NNPDF/nnpdf/issues",
+  "readme": "https://github.com/NNPDF/nnpdf/blob/master/README.md"
+}

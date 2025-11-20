@@ -1,0 +1,369 @@
+[
+  {
+    "id": 2324,
+    "annotations": [
+      {
+        "id": 10165,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 807,
+              "end": 815,
+              "text": "SageMath",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "bRO1adx92s",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1315,
+              "end": 1321,
+              "text": "Docker",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "uH1Gy-64ca",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 817,
+              "end": 873,
+              "text": "https://doc.sagemath.org/html/en/installation/index.html",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "9wbZvGkjDH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1333,
+              "end": 1368,
+              "text": "https://docs.docker.com/get-docker/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "xE8V5krzUu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 879,
+              "end": 887,
+              "text": "Python 3",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "cxyZBSijZ1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:08:55.380060Z",
+        "updated_at": "2025-11-17T00:04:46.368091Z",
+        "draft_created_at": "2025-11-03T06:08:40.604498Z",
+        "lead_time": 103.71799999999999,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "1c514424-b3b0-449d-a266-12e8b09271cf",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2324,
+        "project": 23524,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "FheGEN: Parameters Generation for FHE Schemes\n\n[](https://eprint.iacr.org/2022/706.pdf) [](https://eprint.iacr.org/2023/600.pdf) [](https://join.slack.com/t/fhegen/shared_invite/zt-2rtezhwty-i9h4Vmcc~Oiw0bSwgHxTMw) [](Dockerfile)\n\n## Introduction 🎉\n\nFheGEN is a tool for generating cryptographic parameters for leveled Fully Homomorphic Encryption (FHE) schemes, specifically BGV and BFV. Developed through a collaboration between the Crypto Research Center at the Technology Innovation Institute and the Chair of Security Engineering at Ruhr University Bochum, FheGEN helps researchers and practitioners efficiently determine secure and optimized FHE parameters.\n\n## Getting Started 🚀\n\nFheGEN can be run interactively from the terminal to generate customized encryption parameters.\n\n### Prerequisites ✔️\n\n[SageMath] https://doc.sagemath.org/html/en/installation/index.html and [Python 3] https://www.python.org/downloads/ must be installed.\n\n### Running FheGEN ✈️\n\nClone the repository:\n\n``md  git clone https://github.com/Crypto-TII/fhegen.git  cd fhegen  ` Execute the interactive script:\n\n`md  sage -python3 src/interactive.py  ``   ## Docker Support 🐳\n\nFheGEN includes a pre-configured Dockerfile for seamless deployment. Users can build and run the containerized environment as needed. 💡 Note: You must have [Docker installed] https://docs.docker.com/get-docker/ on your system to use this feature.",
+      "section": "FheGEN: Parameters Generation for FHE Schemes (part 1)",
+      "repo": "029_oraqle",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.536253Z",
+    "updated_at": "2025-11-17T00:04:46.403817Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23524,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2325,
+    "annotations": [
+      {
+        "id": 10166,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:09:22.764318Z",
+        "updated_at": "2025-11-03T06:09:22.764338Z",
+        "draft_created_at": null,
+        "lead_time": 8.781,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "8ab5b77b-5848-4d95-bb66-19d639862eb2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2325,
+        "project": 23524,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Build the Docker Image\n\nTo create the Docker image, navigate to the project root directory and execute:\n\ndocker build -t fhegen .\n\n### Launch an Interactive Container\n\nTo run the Docker container interactively, use the following command:\n\ndocker run -it --name fhegen-dev --entrypoint /bin/bash fhegen\n\nOnce inside the container, manually run:\n\nsage -python3 src/interactive.py\n\nNote: Feel free to customize the Docker setup to suit your workflow such as adding volumes (via docker-compose), changing entrypoints, or applying other preferences.\n\n## Usage\n\nFheGEN will prompt you to configure key parameters, including circuit model, multiplicative depth, key-switching method, and library selection.\n\n### Example Output\n\nLet R = Z [x]/(x^n+1), where n is a power of 2. We denote the plaintext modulus by t and the ciphertext modulus by q, which are typically chosen such that t << q.\n\nGenerated your BFV configuration! model: Base sec: 116 n: 4096 t: 65537 logq: 84 logP: 35\n\nIn the case of BGV, the ciphertext modulus q is a product of primes: q =p_0 ... p_{L-1}. The multiplicative depth M determines the number of moduli, with L = M + 1.\n\nGenerated your BGV configuration!  model: Base # Chosen circuit model (e.g., Base) sec: 137 # Estimated security level n: 4096 # Polynomial degree t: 65537 # Plaintext modulus logq: 65 (31, 30, 4) # Ciphertext modulus size, split into bottom, middle, and top moduli logP: 36 # Key-switching modulus size",
+      "section": "FheGEN: Parameters Generation for FHE Schemes (part 2)",
+      "repo": "029_oraqle",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.536300Z",
+    "updated_at": "2025-11-03T06:09:22.792492Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23524,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2326,
+    "annotations": [
+      {
+        "id": 10167,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:09:23.893920Z",
+        "updated_at": "2025-11-03T06:09:23.893952Z",
+        "draft_created_at": null,
+        "lead_time": 0.953,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "57fe8c76-59df-473d-90bf-8557f38b9685",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2326,
+        "project": 23524,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### Moduli Breakdown for the BGV scheme\n\nA homomorphic encryption circuit uses multiple levels to control noise growth via modulus switching. The ciphertext modulus q is a product of primes p_i (with i in [0, L-1]) split into three types: top, middle, and bottom modulus as follows:\n\n| Modulus Type | Description | | ---------------- |------------------------------------------------------------------------------------| | Top Modulus | The top modulus is the first modulus in the prime chain. It is applied immediately after encryption to reduce the initial noise to a smaller value B. | | Middle Moduli | After the arithmetic operations defined by the circuit model (see below), we reduce the noise back to B using the modulus switching procedure.| | Bottom Modulus | The bottom modulus is the last modulus in the prime chain. No key switching or modulus switching is applied after the final multiplication; decryption is done directly using the extended secret key. This ensures correctness without further noise reduction. |",
+      "section": "FheGEN: Parameters Generation for FHE Schemes (part 3)",
+      "repo": "029_oraqle",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.536331Z",
+    "updated_at": "2025-11-03T06:09:23.922629Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23524,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2327,
+    "annotations": [
+      {
+        "id": 10168,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:09:26.559264Z",
+        "updated_at": "2025-11-03T06:09:26.559281Z",
+        "draft_created_at": null,
+        "lead_time": 2.504,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "5f8ea705-8697-4696-b03f-910f426d0759",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2327,
+        "project": 23524,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### Circuit Models\n\nFheGEN supports different circuit models (as in Fig.1 of [[1] https://eprint.iacr.org/2022/706.pdf]). The selected circuits perform a sequence of operations on η ciphertexts c_i in parallel. The resulting ciphertext is then homomorphically multiplied with another one, computed in the same way. This process is repeated M times.\n\n| Model Type | Description | |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------| | Base Model | Performs a constant multiplication on each ciphertext, then sums the results before the homomorphic multiplication | | Model 1 | Extends the Base Model performing τ rotations after the constant multiplications | | Model 2 | Extends the Base Model performing τ rotations before the constant multiplications | | OpenFHE Model | Inspired by OpenFHE, each ciphertext c_i is the result of a homomorphic multiplication. These η ciphertexts are then summed and rotated τ times |\n\n### Library Selection\n\nThe generated code is a setup routine for the chosen library and provides references to further code examples within the respective library.\n\n#### ⚠️ Limitations\n\nSome parameter sets may not be supported by all libraries due to internal constraints. For example, OpenFHE only supports plaintext moduli up to 60 bits. Choosing a larger modulus will result in code that may not compile or execute correctly.",
+      "section": "FheGEN: Parameters Generation for FHE Schemes (part 4)",
+      "repo": "029_oraqle",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.536356Z",
+    "updated_at": "2025-11-03T06:09:26.585429Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23524,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2328,
+    "annotations": [
+      {
+        "id": 10169,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 661,
+              "end": 1010,
+              "text": "@misc{cryptoeprint:2022/706, author = {Johannes Mono and Chiara Marcolla and Georg Land and Tim Güneysu and Najwa Aaraj}, title = {Finding and Evaluating Parameters for {BGV}}, howpublished = {Cryptology ePrint Archive, Paper 2022/706}, year = {2022}, note = {\\url{https://eprint.iacr.org/2022/706}}, url = {https://eprint.iacr.org/2022/706} }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "TlrAV2EF5l",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1012,
+              "end": 1342,
+              "text": "@misc{cryptoeprint:2023/600, author = {Beatrice Biasioli and Chiara Marcolla and Marco Calderini and Johannes Mono}, title = {Improving and Automating {BFV} Parameters Selection: An Average-Case Approach}, howpublished = {Cryptology {ePrint} Archive, Paper 2023/600}, year = {2023}, url = {https://eprint.iacr.org/2023/600} }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "PqZeg_R7m4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 424,
+              "end": 460,
+              "text": "https://eprint.iacr.org/2022/706.pdf",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "u4c41jGTgQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:09:54.948919Z",
+        "updated_at": "2025-11-14T11:38:32.585239Z",
+        "draft_created_at": "2025-11-03T06:09:38.874577Z",
+        "lead_time": 75.162,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "6e567009-9ca8-4297-8e10-23d993abde5b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2328,
+        "project": 23524,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Security\n\nTo enable faster and more flexible parameter selection, we empirically fine-tune a formula that links the security level λ to the dimension n, given the ciphertext modulus size (log q) and the secret distribution. The formula is based on the best-known attacks on lattice problems and provides a quick security estimate for parameter generation.\n\nA detailed security analysis of the formula is provided in [[1] https://eprint.iacr.org/2022/706.pdf].\n\n## Get Help\n\nFor questions or bug reports, please open an [issue] https://github.com/Crypto-TII/fhegen/issues or contact us at chiara.marcolla (at) tii.ae or johannes.mono (at) rub.de.\n\n## Cite 📖\n\n@misc{cryptoeprint:2022/706,  author = {Johannes Mono and Chiara Marcolla and Georg Land and Tim Güneysu and Najwa Aaraj},  title = {Finding and Evaluating Parameters for {BGV}},  howpublished = {Cryptology ePrint Archive, Paper 2022/706},  year = {2022},  note = {\\url{https://eprint.iacr.org/2022/706}},  url = {https://eprint.iacr.org/2022/706} }\n\n@misc{cryptoeprint:2023/600,  author = {Beatrice Biasioli and Chiara Marcolla and Marco Calderini and Johannes Mono},  title = {Improving and Automating {BFV} Parameters Selection: An Average-Case Approach},  howpublished = {Cryptology {ePrint} Archive, Paper 2023/600},  year = {2023},  url = {https://eprint.iacr.org/2023/600} }",
+      "section": "FheGEN: Parameters Generation for FHE Schemes (part 5)",
+      "repo": "029_oraqle",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.536385Z",
+    "updated_at": "2025-11-14T11:38:32.623151Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23524,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

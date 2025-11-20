@@ -1,0 +1,503 @@
+[
+  {
+    "id": 1656,
+    "annotations": [
+      {
+        "id": 10733,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 39,
+              "end": 101,
+              "text": "https://joss.theoj.org/papers/165c85b1ecad891550a21b12c8b2e577",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "IVJl5ztbtI",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:38:20.723502Z",
+        "updated_at": "2025-11-04T19:38:20.723518Z",
+        "draft_created_at": null,
+        "lead_time": 6.43,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "b9aa1f77-e067-490b-89f1-e450eca02361",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1656,
+        "project": 23385,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://pypi.org/project/mirp/)\n\n[](https://joss.theoj.org/papers/165c85b1ecad891550a21b12c8b2e577)",
+      "section": "Introduction",
+      "repo": "408_MIRP",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.914912Z",
+    "updated_at": "2025-11-04T19:38:20.754856Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23385,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1657,
+    "annotations": [
+      {
+        "id": 10734,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1341,
+              "end": 1346,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "yOnVD-UfCV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1349,
+              "end": 1352,
+              "text": "Win",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "OfkZ_kXapL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1355,
+              "end": 1358,
+              "text": "OSX",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "5xtwPW46qk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1191,
+              "end": 1222,
+              "text": "https://oncoray.github.io/mirp/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "wHiLsMC6Cl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:38:51.633381Z",
+        "updated_at": "2025-11-15T16:33:15.568406Z",
+        "draft_created_at": "2025-11-04T19:38:41.815464Z",
+        "lead_time": 53.468,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "9ae06679-aa79-495c-9da7-172cb22f66e1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1657,
+        "project": 23385,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Medical Image Radiomics Processor\n\nMIRP is a python package for quantitative analysis of medical images. It focuses on processing images for integration with radiomics workflows. These workflows either use quantitative features computed using MIRP, or directly use MIRP to process images as input for neural networks and other deep learning models.\n\nMIRP offers the following main functionality:\n\n[Extract and collect metadata] https://oncoray.github.io/mirp/image_metadata.html from medical images.\n\n[Find and collect labels or names] https://oncoray.github.io/mirp/mask_labels.html of regions of interest from image\n\nsegmentations. [Compute quantitative features] https://oncoray.github.io/mirp/quantitative_image_analysis.html from regions of interest in medical images.\n\n[Process images for deep learning] https://oncoray.github.io/mirp/deep_learning.html.\n\n## Tutorials\n\nWe currently offer the following tutorials:\n\n[Computing quantitative features from MR images] https://oncoray.github.io/mirp/tutorial_compute_radiomics_features_mr.html\n\n[Applying filters to images] https://oncoray.github.io/mirp/tutorial_apply_image_filter.html\n\n## Documentation\n\nDocumentation can be found here: https://oncoray.github.io/mirp/\n\n## Supported Python and OS\n\nMIRP currently supports the following Python versions and operating systems:\n\n| Python | Linux | Win | OSX | |--------|-----------|-----------|-----------| | 3.10 | Supported | Supported | Supported | | 3.11 | Supported | Supported | Supported | | 3.12 | Supported | Supported | Supported | | 3.13 | Supported | Supported | Supported |",
+      "section": "Medical Image Radiomics Processor (part 1)",
+      "repo": "408_MIRP",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.914953Z",
+    "updated_at": "2025-11-15T16:33:15.604440Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23385,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1658,
+    "annotations": [
+      {
+        "id": 10735,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 714,
+              "end": 717,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "IdoHIUgIyt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:39:11.322745Z",
+        "updated_at": "2025-11-04T19:39:11.322762Z",
+        "draft_created_at": "2025-11-04T19:39:10.218311Z",
+        "lead_time": 19.495,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "f675f547-8f58-4a37-9071-5c6a13f5d0de",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1658,
+        "project": 23385,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Supported imaging and mask types\n\nMIRP currently supports the following image and mask types:\n\n| Data format | Data type | Supported modality | |-------------|-----------|-------------------------------------------------| | DICOM | image | CT, MR (incl. ADC, DCE), PT, RTDOSE, CR, DX, MG | | DICOM | mask | RTSTRUCT, SEG | | NIfTI | any | any | | NRRD | any | any | | numpy | any | any | | MIRP-native | any | any |\n\nNIfTI, NRRD, and numpy files support any kind of (single-channel) image. MIRP cannot process RGB or 4D images.  MIRP-native images and masks can be produced by functions such as extract_images, and then used as input.\n\n## Installing MIRP\n\nMIRP is available from PyPI and can be installed using pip, or other installer tools:\n\npip install mirp",
+      "section": "Medical Image Radiomics Processor (part 2)",
+      "repo": "408_MIRP",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.915001Z",
+    "updated_at": "2025-11-04T19:39:11.352664Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23385,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1659,
+    "annotations": [
+      {
+        "id": 10736,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:39:16.519375Z",
+        "updated_at": "2025-11-04T19:39:16.519393Z",
+        "draft_created_at": null,
+        "lead_time": 5.017,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "2b8dbd2c-3bb2-4abe-9707-d08813decf96",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1659,
+        "project": 23385,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Examples - Computing radiomics features\n\nMIRP can be used to compute quantitative features from regions of interest in images in an IBSI-compliant manner  using a standardized workflow This requires both images and masks. MIRP can process DICOM, NIfTI, NRRD and numpy  images. Masks are DICOM radiotherapy structure sets (RTSTRUCT), DICOM segmentation (SEG) or volumetric data with  integer labels (e.g. 1, 2, etc.).\n\nBelow is a minimal working example for extracting features from a single image file and its mask.\n\nfrom mirp import extract_features\n\nfeature_data = extract_features(  image=\"path to image\",  mask=\"path to mask\",  base_discretisation_method=\"fixed_bin_number\",  base_discretisation_n_bins=32 )\n\nInstead of providing the path to the image (\"path_to_image\"), a numpy image can be provided, and the same goes for  \"path to mask\". The disadvantage of doing so is that voxel spacing cannot be determined.\n\nMIRP also supports processing images and masks for multiple samples (e.g., patients). The syntax is much the same,  but depending on the file type and directory structure, additional arguments need to be specified. For example,  assume that files are organised in subfolders for each sample, i.e. main_folder / sample_name / subfolder. The  minimal working example is then:\n\nfrom mirp import extract_features",
+      "section": "Medical Image Radiomics Processor (part 3)",
+      "repo": "408_MIRP",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.915133Z",
+    "updated_at": "2025-11-04T19:39:16.546627Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23385,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1660,
+    "annotations": [
+      {
+        "id": 10737,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:39:17.965365Z",
+        "updated_at": "2025-11-04T19:39:17.965384Z",
+        "draft_created_at": null,
+        "lead_time": 1.271,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "06701e44-edc7-4c39-9b10-aba1db3919ef",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1660,
+        "project": 23385,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "feature_data = extract_features(  image=\"path to main image directory\",  mask=\"path to main mask directory\",  image_sub_folder=\"image subdirectory structure relative to main image directory\",  mask_sub_folder=\"mask subdirectory structure relative to main mask directory\",  base_discretisation_method=\"fixed_bin_number\",  base_discretisation_n_bins=32 )\n\nThe above example will compute features sequentially. MIRP supports parallel processing using the ray package.  Feature computation can be parallelized by specifying the num_cpus argument, e.g. num_cpus=2 for two CPU threads.",
+      "section": "Medical Image Radiomics Processor (part 4)",
+      "repo": "408_MIRP",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.915162Z",
+    "updated_at": "2025-11-04T19:39:17.992801Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23385,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1661,
+    "annotations": [
+      {
+        "id": 10738,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:39:21.755484Z",
+        "updated_at": "2025-11-04T19:39:21.755499Z",
+        "draft_created_at": null,
+        "lead_time": 3.624,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "34983aef-2a39-451e-b17f-431e2c2d9968",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1661,
+        "project": 23385,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Examples - Image preprocessing for deep learning\n\nDeep learning-based radiomics is an alternative to using predefined quantitative features. MIRP supports  preprocessing of images and masks using the same standardized workflow that is used for computing features.\n\nBelow is a minimal working example for preprocessing deep learning images. Note that MIRP uses the numpy notation  for indexing, i.e. indices are ordered [z, y, x].\n\nfrom mirp import deep_learning_preprocessing\n\nprocessed_images = deep_learning_preprocessing(  image=\"path to image\",  mask=\"path to mask\",  crop_size=[50, 224, 224] )\n\n## Examples - Summarising image metadata\n\nMIRP can also summarise image metadata. This is particularly relevant for DICOM files that have considerable  metadata. Other files, e.g. NIfTI, only have metadata related to position and spacing of the image.\n\nBelow is a minimal working example for extracting metadata from a single image file.\n\nfrom mirp import extract_image_parameters\n\nimage_parameters = extract_image_parameters(  image=\"path to image\" )\n\nMIRP also supports extracting metadata from multiple files. For example, assume that files are organised in  subfolders for each sample, i.e. main_folder / sample_name / subfolder. The minimal working example is then:\n\nfrom mirp import extract_image_parameters\n\nimage_parameters = extract_image_parameters(  image=\"path to main image directory\",  image_sub_folder=\"image subdirectory structure relative to main image directory\" )",
+      "section": "Medical Image Radiomics Processor (part 5)",
+      "repo": "408_MIRP",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.915187Z",
+    "updated_at": "2025-11-04T19:39:21.785839Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23385,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1662,
+    "annotations": [
+      {
+        "id": 10739,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:39:24.375197Z",
+        "updated_at": "2025-11-04T19:39:24.375213Z",
+        "draft_created_at": null,
+        "lead_time": 2.457,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "12efe294-8d78-459c-a503-2dd0859130dd",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1662,
+        "project": 23385,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Examples - Finding labels\n\nMIRP can identify which labels are present in masks. For a single mask file, labels can be retrieved as follows:\n\nfrom mirp import extract_mask_labels\n\nmask_labels = extract_mask_labels(  mask=\"path to mask\" )\n\nMIRP supports extracting labels from multiple masks. For example, assume that files are organised in subfolders for  each sample, i.e. main_folder / sample_name / subfolder. The minimal working example is then:\n\nfrom mirp import extract_mask_labels mask_labels = extract_mask_labels(  mask=\"path to main mask directory\",  mask_sub_folder=\"mask subdirectory structure relative to main mask directory\" )\n\n## Examples - Using MIRP native images and mask\n\nMIRP supports exporting images and masks in its native, internal format. This is specified using the  image_export_format=\"native\" argument, e.g. in extract_images(.., image_export_format=\"native\") or  extract_features_and_images(..., image_export_format=\"native\"). The resulting images and masks can be used again as input, e.g. extract_features(image=native_images, masks=native_masks, ...), with native_images and  native_masks being the images and masks in the native format, respectively.   This allows for external processing of the contents of images and masks, such as performing gamma corrections. The  image and mask contents are retrieved using the get_voxel_grid method, and set using the set_voxel_grid method. set_voxel_grid expects a numpy.ndarray of the same shape and type (float for images, bool for masks) as the  original.\n\nfrom mirp import extract_images, extract_features\n\nresults = extract_images(  image=\"path to image\",  mask=\"path to mask\",  image_export_format=\"native\" )\n\nimage = results[0][0][0] mask = results[0][1][0]",
+      "section": "Medical Image Radiomics Processor (part 6)",
+      "repo": "408_MIRP",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.915211Z",
+    "updated_at": "2025-11-04T19:39:24.399334Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23385,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1663,
+    "annotations": [
+      {
+        "id": 10740,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 355,
+              "end": 486,
+              "text": "Zwanenburg A, Löck S. MIRP: A Python package for standardised radiomics. J Open Source Softw. 2024;9: 6413. doi:10.21105/joss.06413",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "7_d5UiCTV_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:39:41.587320Z",
+        "updated_at": "2025-11-04T19:39:41.587336Z",
+        "draft_created_at": "2025-11-04T19:39:41.395158Z",
+        "lead_time": 17.041,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "5566c4ec-db0a-4572-9bb4-a0508f8b3dbf",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1663,
+        "project": 23385,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Obtain the numpy.ndarray. voxel_grid = image.get_voxel_grid()\n\nDivide intensities by 2. image.set_voxel_grid(voxel_grid=voxel_grid / 2.0)\n\nfeatures = extract_features(  image=image,  mask=mask,  base_discretisation_method=\"fixed_bin_number\",  base_discretisation_n_bins=32 )[0]\n\nCitation info MIRP has been published in Journal of Open Source Software: ``Zwanenburg A, Löck S. MIRP: A Python package for standardised radiomics. J Open Source Softw. 2024;9: 6413. doi:10.21105/joss.06413``\n\nContributing If you have ideas for improving MIRP, please read the short [contribution guide] ./CONTRIBUTING.md.\n\nDevelopers and contributors\n\nMIRP is developed by:  Alex Zwanenburg\n\nWe would like thank the following contributors:  Stefan Leger Sebastian Starke",
+      "section": "Obtain the numpy.ndarray. + Divide intensities by 2. + Citation info (and 2 more)",
+      "repo": "408_MIRP",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.915234Z",
+    "updated_at": "2025-11-04T19:39:41.617524Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23385,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

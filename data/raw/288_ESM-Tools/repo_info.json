@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/esm-tools/esm_tools",
+  "programmingLanguage": "Shell",
+  "programmingLanguages": [
+    "Shell",
+    "Python",
+    "Fortran",
+    "TeX",
+    "Roff",
+    "Jinja",
+    "Io",
+    "Slice",
+    "Jupyter Notebook"
+  ],
+  "downloadUrl": "https://api.github.com/repos/esm-tools/esm_tools/zipball/main",
+  "author": "esm-tools",
+  "dateCreated": "2020-04-01T12:07:49Z",
+  "dateModified": "2025-10-28T10:35:53Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-2.0",
+  "description": "Simple Infrastructure for Earth System Simulations",
+  "identifier": 252163964,
+  "name": "esm-tools/esm_tools",
+  "issueTracker": "https://api.github.com/repos/esm-tools/esm_tools/issues",
+  "readme": "https://github.com/esm-tools/esm_tools/blob/release/README.rst"
+}

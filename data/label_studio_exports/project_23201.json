@@ -1,0 +1,97 @@
+[
+  {
+    "id": 506,
+    "annotations": [
+      {
+        "id": 11172,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 105,
+              "end": 143,
+              "text": "https://travis-ci.org/transientskp/tkp",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "rXEbZWm8Au",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1062,
+              "end": 1111,
+              "text": "http://adsabs.harvard.edu/abs/2015arXiv150301526S",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "vb1cJOm7eE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1215,
+              "end": 1244,
+              "text": "http://docs.transientskp.org/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "jX7TI5Q8aj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:25:54.325756Z",
+        "updated_at": "2025-11-16T05:24:20.392277Z",
+        "draft_created_at": "2025-11-06T05:24:57.619843Z",
+        "lead_time": 79.725,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "a89d1ac0-1a5f-4b65-9106-719a7250484b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 506,
+        "project": 23201,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "LOFAR Transients Pipeline\n\n.. image:: https://travis-ci.org/transientskp/tkp.svg?branch=master  :target: https://travis-ci.org/transientskp/tkp\n\nThe LOFAR Transients Pipeline (or \"TraP\") is a Python and SQL based system for detecting and responding to transient and variable sources in a stream of astronomical images. It primarily targets LOFAR data, but is also applicable to a range of other instruments. See the pipeline documentation_ for details including key features_, installation instructions and a usage guide.\n\nAn overview of the TraP can be found in the TraP paper_ accompanying release 2.0, and we also have an assigned ASCL ID (http://ascl.net/1412.011). If you make use of TraP in work leading to a publication, we ask that you cite these references.\n\nTraP development is coordinated by The LOFAR Transients Key Science Project_.\n\nBug tracking and feature requests are handled through the repository issue tracker_. Contributions are welcome.\n\nThis is open source software: see `COPYING` for licensing and copyright information.\n\n.. _TraP paper: http://adsabs.harvard.edu/abs/2015arXiv150301526S .. _The LOFAR Transients Key Science Project: http://www.transientskp.org/ .. _pipeline documentation: http://docs.transientskp.org/ .. _key features: http://tkp.readthedocs.org/en/latest/introduction.html#key-features .. _issue tracker: https://github.com/transientskp/tkp/issues",
+      "section": "README",
+      "repo": "479_TraP__The_LOFAR_Transients_Pipeline",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.065966Z",
+    "updated_at": "2025-11-16T05:24:20.423517Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23201,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

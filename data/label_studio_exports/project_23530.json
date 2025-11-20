@@ -1,0 +1,211 @@
+[
+  {
+    "id": 2389,
+    "annotations": [
+      {
+        "id": 11762,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 576,
+              "end": 620,
+              "text": "https://www.gnu.org/licenses/gpl-3.0.en.html",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "Ancll0RyJJ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 538,
+              "end": 574,
+              "text": "GNU GENERAL PUBLIC LICENSE version 3",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "fgdcofoeN8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 899,
+              "end": 905,
+              "text": "Docker",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "r8vXc7ZKGS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:54:15.575786Z",
+        "updated_at": "2025-11-09T05:54:15.575800Z",
+        "draft_created_at": "2025-11-09T05:53:59.625227Z",
+        "lead_time": 27.702,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "6f3a22c4-2016-459d-840e-96eb75d30d0a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2389,
+        "project": 23530,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "PanVA\n\nPanVA is an interactive visualization tool for pangenomic variant analysis.  It is developed by the Bioinformatics Group of Wageningen University & Research (WUR) and the Visualization Group of Eindhoven University of Technology (TUe), the Netherlands.  Please cite the relevant publication(s) from the list of publications if you use PanVA in your research.\n\nThis repository contains the [Frontend code] frontend, [API code] api and [Online Docs] online_docs for the PanVA application.\n\n## License\n\nPanVA has been licensed under [GNU GENERAL PUBLIC LICENSE version 3] https://www.gnu.org/licenses/gpl-3.0.en.html.\n\nFor more information, contact: Sandra Smit, email: sandra.smit@wur.nl\n\n## Documentation\n\nDocumentation is available both in this repository and online at https://panbrowse.github.io/PanVA/\n\n## Prerequisites\n\nIn order to run the PanVA application you will need the following:\n\nDocker\n\nA database that follows the [PanVA API Data Format] api/docs/data-format.md.\n\n_Optional:_ A [frontend configuration file] frontend/docs/config.md.",
+      "section": "PanVA (part 1)",
+      "repo": "143_PanVA",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.076876Z",
+    "updated_at": "2025-11-09T05:54:15.606889Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23530,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2390,
+    "annotations": [
+      {
+        "id": 11763,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:54:17.996057Z",
+        "updated_at": "2025-11-09T05:54:17.996072Z",
+        "draft_created_at": null,
+        "lead_time": 2.176,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ffb0368b-6aa0-4ba7-b6da-74b9a7a73be7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2390,
+        "project": 23530,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Running the application\n\nTo run the application, you don't need the code from this repository.\n\nUsing the publically available Docker image, you can start the PanVA application from anywhere using the following command:\n\ndocker run -p 8080:80 -v /path/to/your/data:/panva/api/data -v /path/to/your/config.json:/panva/frontend/config.json -e APACHE_UID=1000 -e APACHE_GID=1000 ghcr.io/panbrowse/panva:main\n\nThe application will then be available on http://localhost:8080/.\n\nWe'll explain the various options passed to Docker.\n\n-p 8080:80 \\\n\nThe image exposes port 80. This option maps that port to port 8080 on the host machine. -v /path/to/your/data:/panva/api/data \\\n\nMounts your custom data directory to the predefined path /panva/api/data that the application looks at. \\  IMPORTANT: Make sure this directory is writable so the [linkage_matrix.npy] api/docs/data-format.md#linkage_matrixnpy-auto-generated files can be stored in each homology group directory. -v /path/to/your/config.json:/panva/frontend/config.json \\\n\nMounts your custom config.json file to the predefined path /panva/frontend/config.json that the application looks at. The apiUrl option should be omitted in most cases. -e APACHE_UID=1000 \\\n\n-e APACHE_GID=1000 \\  The data directory mounted at /panva/api/data needs to be read by the Apache webserver. To prevent permission issues, the user id (uid) and group id (gid) of the user running Apache can be changed to match the data directory on the host machine. Use ls -n to see the numeric uid and gid of a directory on the host machine.",
+      "section": "PanVA (part 2)",
+      "repo": "143_PanVA",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.076922Z",
+    "updated_at": "2025-11-09T05:54:18.026299Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23530,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2391,
+    "annotations": [
+      {
+        "id": 11764,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 645,
+              "end": 690,
+              "text": "https://ieeexplore.ieee.org/document/10143227",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "97qbonJNJM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:54:31.540155Z",
+        "updated_at": "2025-11-09T05:54:31.540168Z",
+        "draft_created_at": null,
+        "lead_time": 13.375,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "e31a41a8-3e22-4be0-9c13-1a80bf00f6f2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2391,
+        "project": 23530,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Building the application\n\nTo run the application, you don't need to build the application yourself. In most cases [running the application] #running-the-application is what you're looking for.\n\nYou can, however, build a Docker image of the application yourself. From the root of this repository run the following command:\n\ndocker build -t panva .\n\nWhen running the application, instead of using the provided Docker image name you use the panva tag instead:\n\ndocker run [options] panva\n\n## Without docker\n\nRunning the application without Docker is possible, but is not documented.\n\n## Publications\n\n[2024] [PanVA: Pangenomic Variant Analysis] https://ieeexplore.ieee.org/document/10143227",
+      "section": "PanVA (part 3)",
+      "repo": "143_PanVA",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.076945Z",
+    "updated_at": "2025-11-09T05:54:31.570569Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23530,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

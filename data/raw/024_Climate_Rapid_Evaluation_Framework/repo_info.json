@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/Climate-REF/climate-ref",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "HTML",
+    "TeX",
+    "Shell",
+    "Makefile",
+    "Dockerfile",
+    "Mako"
+  ],
+  "downloadUrl": "https://api.github.com/repos/Climate-REF/climate-ref/zipball/main",
+  "author": "Climate-REF",
+  "dateCreated": "2024-10-09T04:23:39Z",
+  "dateModified": "2025-10-21T15:37:01Z",
+  "keywords": [
+    "climate",
+    "cmip",
+    "model-benchmarking",
+    "model-evaluation"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Rapid Evaluation Framework for CMIP simulations",
+  "identifier": 869887393,
+  "name": "Climate-REF/climate-ref",
+  "issueTracker": "https://api.github.com/repos/Climate-REF/climate-ref/issues",
+  "readme": "https://github.com/Climate-REF/climate-ref/blob/main/README.md"
+}

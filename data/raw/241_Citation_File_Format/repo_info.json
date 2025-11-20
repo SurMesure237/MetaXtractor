@@ -1,0 +1,27 @@
+{
+  "codeRepository": "https://github.com/citation-file-format/citation-file-format",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/citation-file-format/citation-file-format/zipball/main",
+  "author": "citation-file-format",
+  "dateCreated": "2017-09-13T07:12:17Z",
+  "dateModified": "2025-10-30T06:23:35Z",
+  "keywords": [
+    "attribution",
+    "citation",
+    "citation-files",
+    "credit",
+    "format",
+    "research-software-engineering",
+    "software-sustainability",
+    "wssspe"
+  ],
+  "license": "https://api.github.com/licenses/cc-by-4.0",
+  "description": "The Citation File Format lets you provide citation metadata for software or datasets in plaintext files that are easy to read by both humans and machines.",
+  "identifier": 103366370,
+  "name": "citation-file-format/citation-file-format",
+  "issueTracker": "https://api.github.com/repos/citation-file-format/citation-file-format/issues",
+  "readme": "https://github.com/citation-file-format/citation-file-format/blob/main/README.md"
+}

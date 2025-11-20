@@ -1,0 +1,112 @@
+[
+  {
+    "id": 2281,
+    "annotations": [
+      {
+        "id": 10184,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 126,
+              "end": 190,
+              "text": "https://github.com/lightning-project/lightning/blob/main/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "xwmBasLzxb",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1108,
+              "end": 1118,
+              "text": "Apache 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "FQOaKrXk7T",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1134,
+              "end": 1198,
+              "text": "https://github.com/lightning-project/lightning/blob/main/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "Vc14ClHapI",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1218,
+              "end": 1378,
+              "text": "S. Heldens, P. Hijma, B. van Werkhoven, J. Maassen, R.V. van Nieuwpoort, \"Lightning: Scaling the GPU Programming Model Beyond a Single GPU\", in IEEE IPDPS, 2022",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "JjVdzQI0lE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:17:55.405318Z",
+        "updated_at": "2025-11-14T11:35:15.872143Z",
+        "draft_created_at": "2025-11-03T06:17:24.213373Z",
+        "lead_time": 87.123,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "aa06851a-b387-4a31-b0fd-0e43753f65c3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2281,
+        "project": 23512,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# Lightning: Fast data processing using GPUs on distributed platforms\n\n[](https://github.com/lightning-project/lightning/) [](https://github.com/lightning-project/lightning/blob/main/LICENSE) [](https://github.com/lightning-project/lightning)\n\nLightning is a framework for data processing using GPUs on distributed platforms. The framework allows distributed multi-GPU execution of compute kernels functions written in CUDA in a way that is similar to programming a single GPU, without worrying about low-level details such as network communication, memory management, and data transfers. This enables scaling of existing GPU kernels to much larger problem sizes, for beyond the memory capacity of a single GPU. Lightning efficiently distributes the work/data across GPUS and maximizes efficiency by overlapping scheduling, data movement, and work when possible.\n\n## Installation Guide\n\nThe project is written in [Rust] https://www.rust-lang.org/tools/install and has been tested with Rust 1.56. To build the project use cargo, which is included with the Rust installion.\n\ncargo build --release\n\n## License\n\nApache 2.0. See [LICENSE] https://github.com/lightning-project/lightning/blob/main/LICENSE.\n\n## Bibliography\n\nS. Heldens, P. Hijma, B. van Werkhoven, J. Maassen, R.V. van Nieuwpoort, \"Lightning: Scaling the GPU Programming Model Beyond a Single GPU\", in IEEE IPDPS, 2022",
+      "section": "README",
+      "repo": "355_Lightning",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.694793Z",
+    "updated_at": "2025-11-14T11:35:15.910866Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23512,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

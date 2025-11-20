@@ -1,0 +1,176 @@
+[
+  {
+    "id": 1554,
+    "annotations": [
+      {
+        "id": 11954,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 491,
+              "end": 535,
+              "text": "https://zenodo.org/badge/latestdoi/319607706",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "kVN0TnHuuI",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 566,
+              "end": 629,
+              "text": "https://PartitionedArrays.github.io/PartitionedArrays.jl/stable",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "CjsIo3fSPG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 700,
+              "end": 760,
+              "text": "https://PartitionedArrays.github.io/PartitionedArrays.jl/dev",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "WAzo50euXb",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 177,
+              "end": 240,
+              "text": "https://PartitionedArrays.github.io/PartitionedArrays.jl/stable",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "8tZY_a5QDv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 245,
+              "end": 305,
+              "text": "https://PartitionedArrays.github.io/PartitionedArrays.jl/dev",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "crE76xkwF7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:51:32.209806Z",
+        "updated_at": "2025-11-15T18:18:58.213843Z",
+        "draft_created_at": "2025-11-09T06:50:27.853882Z",
+        "lead_time": 121.55,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "2ec60e50-4d81-4adf-a837-5e7f77b49708",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1554,
+        "project": 23366,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "This package provides distributed (a.k.a. partitioned) vectors and sparse matrices in Julia. See the documentation for further details.\n\n| Documentation | |:------------ | | [](https://PartitionedArrays.github.io/PartitionedArrays.jl/stable) [](https://PartitionedArrays.github.io/PartitionedArrays.jl/dev) | |Build Status | | [](https://github.com/PartitionedArrays/PartitionedArrays.jl/actions) | |Coverage | | [](https://codecov.io/gh/PartitionedArrays/PartitionedArrays.jl)| |DOI | | [](https://zenodo.org/badge/latestdoi/319607706)|\n\n## Documentation\n\n[STABLE] https://PartitionedArrays.github.io/PartitionedArrays.jl/stable &mdash; Documentation for the most recently tagged version.\n\n[LATEST] https://PartitionedArrays.github.io/PartitionedArrays.jl/dev &mdash; Documentation for the in-development version.\n\n## Help and discussion\n\nYou can open a new discussion to ask questions [here] https://github.com/PartitionedArrays/PartitionedArrays.jl/discussions.\n\nIf you have found a bug, open an issue [here] https://github.com/PartitionedArrays/PartitionedArrays.jl/issues. Do not forget to include a (minimal) reproducer.",
+      "section": "Introduction (part 1)",
+      "repo": "146_PartitionedArrays.jl",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.638209Z",
+    "updated_at": "2025-11-15T18:18:58.251110Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23366,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1555,
+    "annotations": [
+      {
+        "id": 11955,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:51:36.920899Z",
+        "updated_at": "2025-11-09T06:51:36.920917Z",
+        "draft_created_at": null,
+        "lead_time": 4.513,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "2b758ec0-f669-4812-8e79-a86c4522bb1b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1555,
+        "project": 23366,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Contributing\n\nThis package is under active development and there are several ways to contribute:\n\nby enhancing the documentation (e.g., fixing typos, enhancing doc strings, adding examples).\n\nby addressing one of the [issues waiting for help] https://github.com/PartitionedArrays/PartitionedArrays.jl/labels/help%20wanted.\n\nby adding more tests to increase the code coverage.\n\nby extending the current functionality. In this case, open a discussion [here] https://github.com/PartitionedArrays/PartitionedArrays.jl/discussions to coordinate with the package maintainers before proposing significant changes.",
+      "section": "Introduction (part 2)",
+      "repo": "146_PartitionedArrays.jl",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.638254Z",
+    "updated_at": "2025-11-09T06:51:36.951056Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23366,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

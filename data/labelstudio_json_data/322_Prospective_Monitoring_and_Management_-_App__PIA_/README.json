@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "PIA-System\n\n[](https://github.com/prettier/prettier) [](https://zenodo.org/badge/latestdoi/319654384)\n\n[Prospective Monitoring and Management - App] https://info-pia.de/ (PIA).\n\nPIA facilitates the data acquisition in health studies and takes into account the wishes of the participants, the study center and the research institution and thereby also supports the long-term motivation of the participants.\n\nPIA consists of a web application as well as mobile apps for Android and iOS that enables the participants to conduct health studies and study management, as well it can be used as a symptom diary for contact tracing. The main goals of this project are:\n\nSimplify the data collection process\n\n(Long-term) motivation of users through persuasive technology\n\nFocus on usability and user centered design\n\nFocus on data protection and security\n\n### Built with\n\nIn the backend PIA is composed of [Node.js] https://nodejs.org/ microservices that are using [PostgreSQL] https://www.postgresql.org/ as a database. The microservices are containerized using [Docker] https://www.docker.com/ and deployed with [Kubernetes] https://kubernetes.io/. As frontends an [Angular] https://angular.io/ web app and a [Ionic] https://ionicframework.com/ powered iOS and Android mobile app are provided.\n\n## Getting started\n\n### Local development\n\nTo set up PIA for local development, please follow the [development guide] ./docs/development.md.\n\n### Deployment\n\nTo deploy PIA to a (production) Kubernetes cluster, please follow the [deployment guide] ./docs/deployment.md.",
+      "section": "PIA-System (part 1)",
+      "repo": "322_Prospective_Monitoring_and_Management_-_App__PIA_",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Contributing\n\nAny contributions you make are greatly appreciated. Please fork the [gitlab repository] https://gitlab.com/pia-eresearch-system/pia.\n\nFork the [PIA GitLab repository] https://gitlab.com/pia-eresearch-system/pia\n\nCreate your Feature Branch (git checkout -b feature/AmazingFeature)\n\nMake sure your Changes are formatted using [prettier] https://github.com/prettier/prettier (npx prettier --write .)\n\nCommit your Changes (git commit -m 'Add some AmazingFeature')\n\nPush to the Branch (git push origin feature/AmazingFeature)\n\nOpen a Pull Request\n\n## Licence\n\nDistributed under the AGPL-3.0 license. See [LICENSE] ./LICENSES/AGPL-3.0-or-later.txt for more information.\n\n## Contact\n\n[PiaPost@helmholtz-hzi.de] mailto:PiaPost@helmholtz-hzi.de",
+      "section": "PIA-System (part 2)",
+      "repo": "322_Prospective_Monitoring_and_Management_-_App__PIA_",
+      "source_file": "readme.md"
+    }
+  }
+]

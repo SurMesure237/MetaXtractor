@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "[](https://github.com/max-de-rooij/MealModel.jl/actions/workflows/CI.yml?query=branch%3Amain) [](https://codecov.io/gh/max-de-rooij/MealModel.jl)\n\n# MealModel\n\nThe Julia version of the Mixed Meal Model. Originally developed by S.D. O'Donovan[^1]\n\n## Getting Started\n\nTo get started, first clone the github repository to your own device\n\nThen, open the notebook \"MealModel.ipynb\" in your Jupyter Notebook viewer, and run the first cell to set-up the environment.\n\n## References\n\n[^1]: O\u2019Donovan, S. D., Erd\u0151s, B., Jacobs, D. M., Wanders, A. J., Thomas, E. L., Bell, J. D., Rundle, M., Frost, G., Arts, I. C. W., Afman, L. A., & van Riel, N. A. W. (2022). Quantifying the contribution of triglycerides to metabolic resilience through the mixed meal model. IScience, 25(11), 105206. https://doi.org/10.1016/J.ISCI.2022.105206",
+      "section": "README",
+      "repo": "371_Mixed_Meal_Model_SBML",
+      "source_file": "readme.md"
+    }
+  }
+]

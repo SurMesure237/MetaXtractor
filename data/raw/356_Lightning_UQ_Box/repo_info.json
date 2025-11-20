@@ -1,0 +1,27 @@
+{
+  "codeRepository": "https://github.com/lightning-uq-box/lightning-uq-box",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/lightning-uq-box/lightning-uq-box/zipball/main",
+  "author": "lightning-uq-box",
+  "dateCreated": "2023-02-17T07:50:28Z",
+  "dateModified": "2025-10-29T16:32:00Z",
+  "keywords": [
+    "bayesian-neural-networks",
+    "conformal-prediction",
+    "deep-learning",
+    "earth-observation",
+    "predictive-uncertainty",
+    "pytorch",
+    "pytorch-lightning",
+    "uncertainty-quantification"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Lightning-UQ-Box: Uncertainty Quantification for Neural Networks with PyTorch and Lightning",
+  "identifier": 602910106,
+  "name": "lightning-uq-box/lightning-uq-box",
+  "issueTracker": "https://api.github.com/repos/lightning-uq-box/lightning-uq-box/issues",
+  "readme": "https://github.com/lightning-uq-box/lightning-uq-box/blob/main/README.md"
+}

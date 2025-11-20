@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/f-hader/SimCATS",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/f-hader/SimCATS/zipball/main",
+  "author": "f-hader",
+  "dateCreated": "2023-11-20T12:28:44Z",
+  "dateModified": "2025-08-13T12:49:05Z",
+  "keywords": [
+    "charge-stability-diagrams",
+    "quantum-computing",
+    "quantum-dot-tuning",
+    "simulation",
+    "simulation-framework"
+  ],
+  "license": null,
+  "description": "Simulation of CSDs for Automated Tuning Solutions (SimCATS) is a python framework for simulating charge stability diagrams (CSDs) typically measured during the tuning process of qubits.",
+  "identifier": 721133504,
+  "name": "f-hader/SimCATS",
+  "issueTracker": "https://api.github.com/repos/f-hader/SimCATS/issues",
+  "readme": "https://github.com/f-hader/SimCATS/blob/main/README.md"
+}

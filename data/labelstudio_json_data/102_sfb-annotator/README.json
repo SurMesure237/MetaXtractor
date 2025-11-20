@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "Semantic Field Book Annotator\n\n[](https://doi.org/10.5281/zenodo.4602263)\n\n[](https://doi.org/10.1016/j.websem.2018.06.002)\n\nThe Semantic Field Book Annotator is a web application developed for domain experts to harvest structured annotations from field books, drawings and specimen labels of natural history collections. Users can draw bounding boxes over (zoomable) image scans of historical field notes, to which annotations can be attached. All metadata regarding an annotation event, annotation provenance, transcription and semantic interpretation of the text are stored in a knowledge base, which is accessible via a SPARQL endpoint and Web API.\n\n## Prerequisites\n\n[Docker CE] https://docs.docker.com/install/\n\n[Docker Compose] https://docs.docker.com/compose/install/\n\n## Software used\n\n[Eclipse RDF4J Server and Workbench] https://github.com/eclipse/rdf4j\n\n[grlc] https://github.com/CLARIAH/grlc Web API\n\n[Cantaloupe] https://github.com/cantaloupe-project/cantaloupe IIIF image server\n\n[Mirador] https://github.com/projectmirador/mirador IIIF image viewer\n\n[Annotorius] https://github.com/recogito/annotorious\n\n[OpenSeadragon] https://github.com/openseadragon/openseadragon\n\n## Vocabularies, ontologies & specs used\n\n[Web Annotation Vocabulary] https://www.w3.org/TR/annotation-vocab/\n\n[International Image Interoperability Framework] https://iiif.io/ (IIIF)\n\n[Darwin Core] https://dwc.tdwg.org/ (DwC)\n\n[Darwin Semantic Web] http://purl.org/dsw/ (Darwin-SW)\n\n[Dublin Core] http://purl.org/dc/terms/ (DC)",
+      "section": "Semantic Field Book Annotator (part 1)",
+      "repo": "102_sfb-annotator",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Install & deploy\n\nClone this repository.\n\ngit clone https://github.com/LINNAE-project/SFB-Annotator.git\n\nInstall Docker Compose.\n\npip install docker-compose\n\nStart Docker service(s).\n\n| Service | Port | Docker Image | Description | | ------- | ---- | -------------| ----------- | | sea | 8080 | [linnae/sfb-annotator] https://hub.docker.com/r/linnae/sfb-annotator | Semantic Field Book Annotator | | melon | 8182 | [linnae/cantaloupe] https://hub.docker.com/r/linnae/cantaloupe | Cantaloupe image server | | mirador | 8000 | [linnae/mirador] https://hub.docker.com/r/linnae/mirador | Mirador image viewer | | grlc | 8088 | [clariah/grlc] https://hub.docker.com/r/clariah/grlc | Web API (optional)|\n\ncd SFB-Annotator",
+      "section": "Semantic Field Book Annotator (part 2)",
+      "repo": "102_sfb-annotator",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "list available services docker-compose config --services\n\nstart all services or one-by-one docker-compose up -d # or append [SERVICE]\n\nConfigure service(s).\n\npopulate RDF store (repository) with example data docker-compose exec sea ./init.sh\n\ndefault: data-local.json BASE_DIR=/usr/local/tomcat/webapps/semanticAnnotator/data/ IMG_SRC=remote # default: local docker exec -it sea bash -c \"cp $BASE_DIR/data-$IMG_SRC.json $BASE_DIR/data.json\"\n\nconfigure grlc to use local path (optional) git clone https://github.com/LINNAE-project/queries docker cp ./queries grlc:/home/grlc/\n\nBuild Docker image and deploy container locally (development)\n\ndocker build -t linnae/sfb-annotator:local . docker run --name sea -d -p 8080:8080 linnae/sfb-annotator:local docker exec sea ./init.sh",
+      "section": "list available services + start all services or one-by-one + populate RDF store (repository) with example data (and 2 more)",
+      "repo": "102_sfb-annotator",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "generate RDF triples for example inputs (annotation events) for json in $(ls data/json/$IMG_SRC/*.json | sort) do  prefix=\"$(basename \"$json\" .json)\"  suffix=ttl # or jsonld  rdf=\"$prefix.$suffix\"  ./run.sh \"$json\" \"$rdf\" done\n\n## Web apps & API endpoints\n\nhttp://localhost:8080/semanticAnnotator/\n\nrequires user/password: tomcat/tomcat\n\n_Register_->_Save_->_Collections_\n\nhttp://localhost:8080/rdf4j-workbench/\n\nincludes an empty repository: mem-rdf\n\nhttp://localhost:8080/rdf4j-server/\n\nhttp://localhost:8088/ followed by\n\nremote path [/api-git/LINNAE-project/queries/] http://localhost:8088/api-git/LINNAE-project/queries/ or\n\nrequires GRLC_GITHUB_ACCESS_TOKEN to be set in [docker-compose.yml] https://github.com/LINNAE-project/SFB-Annotator/blob/master/docker-compose.yml#L27\n\nlocal path [/api-local/] http://localhost:8088/api-local/\n\nhttp://localhost:8182/iiif/2\n\nsample image [info.json] http://localhost:8182/iiif/2/900c341c1c10fff7:MMNAT01_PM_NNM001001033_001/info.json\n\nget a [JPG] http://localhost:8182/iiif/2/900c341c1c10fff7:MMNAT01_PM_NNM001001033_001/full/max/0/default.jpg version of this [TIF] https://trng-repository.surfsara.nl/deposit/900c341c1c10fff7/MMNAT01_PM_NNM001001033_001.tif image in the archive\n\nhttp://localhost:8000 includes an example [manifest.json] data/manifest.json\n\n_Add Item_->_Sample Field Book_->_Change view type_ to _Book View_",
+      "section": "generate RDF triples for example inputs (annotation events)",
+      "repo": "102_sfb-annotator",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "id": 2314,
+    "annotations": [
+      {
+        "id": 11770,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 487,
+              "end": 495,
+              "text": "AsyncSSH",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "4V2dR9gbZk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 964,
+              "end": 975,
+              "text": "BSD license",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "vBt8ujIkt4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1023,
+              "end": 1056,
+              "text": "https://jupyterhub.readthedocs.io",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "OatROFj7cB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1154,
+              "end": 1214,
+              "text": "https://media.readthedocs.org/pdf/jupyter/latest/jupyter.pdf",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "_FtkfOddwQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1242,
+              "end": 1261,
+              "text": "https://jupyter.org",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "VjK9EbjtSg",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 497,
+              "end": 539,
+              "text": "https://asyncssh.readthedocs.io/en/latest/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "4g1XOmC1M_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1094,
+              "end": 1145,
+              "text": "https://jupyter.readthedocs.io/en/latest/index.html",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "OfR4JRuQgR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 436,
+              "end": 444,
+              "text": "Python 3",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "XHq_FzDkrx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:56:12.225340Z",
+        "updated_at": "2025-11-17T00:05:13.384730Z",
+        "draft_created_at": "2025-11-09T05:55:31.462287Z",
+        "lead_time": 136.17100000000002,
+        "prediction": {},
+        "result_count": 8,
+        "unique_id": "879b6c48-6315-4e49-84b5-a84f4da817b9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2314,
+        "project": 23522,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# sshspawner\n\nThe sshspawner enables JupyterHub to spawn single-user notebook servers on remote hosts over SSH. We provide this package as a reference implementation only, the authors offer no general user support.\n\n## Features\n\nSupports SSH key-based authentication  Pool of remote hosts for spawning notebook servers  Extensible custom load-balacing for remote host pool  Remote-side scripting to return IP and port\n\n## Requirements\n\nPython 3  [JupyterHub] http://jupyter.org/install [AsyncSSH] https://asyncssh.readthedocs.io/en/latest/#installation\n\n## Installation\n\npython3 setup.py install\n\nInstall [scripts/get_port.py] scripts/get_port.py on remote host and set correct path for c.SSHSpawner.remote_port_command in [jupyterhub_config.py] jupyterhub_config.py\n\n## Configuration\n\nSee [jupyterhub_config.py] jupyterhub_config.py for a sample configuration. Adjust values for your installation.\n\n## License\n\nAll code is licensed under the terms of the revised BSD license.\n\n## Resources\n\n[Documentation for JupyterHub] https://jupyterhub.readthedocs.io\n\n[Documentation for Project Jupyter] https://jupyter.readthedocs.io/en/latest/index.html | [PDF] https://media.readthedocs.org/pdf/jupyter/latest/jupyter.pdf\n\n[Project Jupyter website] https://jupyter.org",
+      "section": "README",
+      "repo": "126_JupyterHub_Outpost",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.403320Z",
+    "updated_at": "2025-11-17T00:05:13.422303Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23522,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

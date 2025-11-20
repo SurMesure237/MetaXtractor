@@ -1,0 +1,274 @@
+[
+  {
+    "id": 1233,
+    "annotations": [
+      {
+        "id": 12021,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:44:03.577515Z",
+        "updated_at": "2025-11-09T07:44:03.577540Z",
+        "draft_created_at": null,
+        "lead_time": 14.995,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "1d593899-b742-4b97-acd2-1dcb057f1d61",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1233,
+        "project": 23306,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Minds for Mobile Agents\n\n[](https://research-software-directory.org/software/m4ma) [](https://github.com/m4ma/m4ma/actions/workflows/R-CMD-check.yaml) [](https://codecov.io/gh/m4ma/m4ma)\n\nAn R package containing C++ implementations to speed up the simulation and parameter estimation of the Predictive Pedestrian model.\n\n## How to Use m4ma\n\nThis package is currently not self-contained but should be used in combination with code from the [predped] https://github.com/CharlotteTanis/predped repository. The m4ma package includes C++ implementations that can be used instead of R code from predped. The functions in m4ma have in most cases the same names as functions in predped, so that they can be easily substituted. Exceptions are functions to estimate parameters and likelihoods. Benchmarks that show the speed improvement of m4ma implementations compared to predped can be found [here] https://github.com/m4ma/m4ma-performance/tree/main/bench.\n\n## Installation\n\nYou can install m4ma from GitHub using devtools:\n\ninstall.packages('devtools')\n\ndevtools::install_github('m4ma/m4ma')\n\n## Getting Started\n\nFor access to the predped repository, please contact c.c.tanis@uva.nl.",
+      "section": "Minds for Mobile Agents (part 1)",
+      "repo": "361_m4ma",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.452078Z",
+    "updated_at": "2025-11-09T07:44:03.609732Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23306,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1234,
+    "annotations": [
+      {
+        "id": 12022,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:44:06.736447Z",
+        "updated_at": "2025-11-09T07:44:06.736460Z",
+        "draft_created_at": null,
+        "lead_time": 2.998,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c000db2f-fa08-4d40-8cb1-122f460bc35a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1234,
+        "project": 23306,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Simulating the Predictive Pedestrian Model\n\nThe easiest way to substitute predped R functions to simulate the Predictive Pedestrian model with m4ma C++ implementations is by first loading the m4ma package:\n\nlibrary(m4ma)\n\nThen, predped functions that should be replaced are removed from the global environment (if they exist):\n\nrm(list = c('example_function_name'))\n\nInstead of the removed predped function, the remaining predped simulation code will call the function with the same name from m4ma. It is also possible to switch back to the original R implementation (e.g., for comparison) by creating a new environment and setting a use variable:\n\npredped_env <- new.env() predped_env$use <- 'r' # or use = 'cpp'\n\nBy default, C++ implementations are used.\n\nNote: This only works for reimplemented functions that are included both in m4ma and predped.\n\n### Estimating the Likelihood of Simulation Results\n\nThe result of the predped simulation is called trace. You can estimate the log likelihood of an example trace using the m4ma::msumlogLike_rcpp() function:",
+      "section": "Minds for Mobile Agents (part 2)",
+      "repo": "361_m4ma",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.452126Z",
+    "updated_at": "2025-11-09T07:44:06.759017Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23306,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1235,
+    "annotations": [
+      {
+        "id": 12023,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:44:08.167770Z",
+        "updated_at": "2025-11-09T07:44:08.167799Z",
+        "draft_created_at": null,
+        "lead_time": 1.257,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "0195e78e-60c0-4000-a8f3-813d14265223",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1235,
+        "project": 23306,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Set path to test file and load file filepath = file.path('tests', 'testthat', 'data', 'trace_i.rda')\n\ntrace_name = load(filepath)\n\nDefine nests and alpha lists nests = list(  Central = c(0, 6, 17, 28),  NonCentral = c(0:33)[-c(6, 17, 28)],  acc = c(1:11),  const = c(12:22),  dec = c(0, 23:33) )\n\nalpha = list(  Central = rep(1/3, 4),  NonCentral = c(1/3, rep(0.5, 4), 1/3, rep(0.5, 9), 1/3,   rep(0.5, 9), 1/3, rep(0.5, 5)),  acc = c(rep(0.5, 4), 1, 1/3, rep(0.5, 5)),  const = c(rep(0.5, 4), 1, 1/3, rep(0.5, 5)),  dec = c(1/3, rep(0.5, 4), 1, 1/3, rep(0.5, 5)) )\n\nGet subject parameter matrix p = attr(get(trace_name), 'pMat')\n\nGet nest indices for cells cell_nest = m4ma::get_cell_nest()\n\nTransform trace into format for C++ processing trace_rcpp = m4ma::create_rcpp_trace(get(trace_name))\n\nCompute log likelihood of trace given subject parameters m4ma::msumlogLike(p, trace_rcpp, nests, alpha, cell_nest)",
+      "section": "Set path to test file and load file + Define nests and alpha lists + Get subject parameter matrix (and 3 more)",
+      "repo": "361_m4ma",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.452150Z",
+    "updated_at": "2025-11-09T07:44:08.197928Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23306,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1236,
+    "annotations": [
+      {
+        "id": 12024,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 803,
+              "end": 821,
+              "text": "Apache 2.0 License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "VMAxhaoSVA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 368,
+              "end": 375,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "VHtLSJJLdU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 377,
+              "end": 380,
+              "text": "Mac",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "5zzKojOlmR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 386,
+              "end": 391,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "5zpwWFQztt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 393,
+              "end": 399,
+              "text": "Ubuntu",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "BLUy2Dakqi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:44:49.617335Z",
+        "updated_at": "2025-11-09T07:44:49.617357Z",
+        "draft_created_at": "2025-11-09T07:44:19.490624Z",
+        "lead_time": 41.28,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "47cc9f9c-694f-4030-a522-68f188554eb0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1236,
+        "project": 23306,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "176.7388\n\nNote that the estimation in m4ma requires a transformation of the trace via m4ma::create_rcpp_trace().\n\n## Documentation\n\nThe documentation of m4ma is build with [roxygen2] https://roxygen2.r-lib.org/articles/roxygen2.html and currently only locally available. See ?m4ma after installing the package.\n\n## Testing\n\nThe code in m4ma is automatically tested on Windows, Mac, and Linux (Ubuntu) using GitHub actions and [testthat] https://testthat.r-lib.org/. The test coverage is calculated via [codecov] https://about.codecov.io/ and [covr] https://covr.r-lib.org/. For the entire package and new code, the coverage is required to be 80% or above.\n\n## Maintenance\n\nThe package is maintained by Charlotte Tanis (c.c.tanis@uva.nl) and Andrew Heathcote.\n\n## License\n\nThe code is licensed under the Apache 2.0 License. This means that m4ma can be used, modified and redistributed for free, even for commercial purposes.\n\n## Credits\n\nThe package was developed by the Netherlands eScience Center in collaboration with the Department of Psychological Methods at the University of Amsterdam. The reimplemented code is majorly based on the predped code written by Andrew Heathcote, Charlotte Tanis, and others.",
+      "section": "176.7388",
+      "repo": "361_m4ma",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.452174Z",
+    "updated_at": "2025-11-09T07:44:49.648338Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23306,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

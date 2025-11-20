@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "emcee\n\nThe Python ensemble sampling toolkit for affine-invariant MCMC\n\n.. image:: https://img.shields.io/badge/GitHub-dfm%2Femcee-blue.svg?style=flat  :target: https://github.com/dfm/emcee .. image:: https://github.com/dfm/emcee/workflows/Tests/badge.svg  :target: https://github.com/dfm/emcee/actions?query=workflow%3ATests .. image:: http://img.shields.io/badge/license-MIT-blue.svg?style=flat  :target: https://github.com/dfm/emcee/blob/main/LICENSE .. image:: http://img.shields.io/badge/arXiv-1202.3665-orange.svg?style=flat  :target: https://arxiv.org/abs/1202.3665 .. image:: https://coveralls.io/repos/github/dfm/emcee/badge.svg?branch=main&style=flat&v=2  :target: https://coveralls.io/github/dfm/emcee?branch=main .. image:: https://readthedocs.org/projects/emcee/badge/?version=latest  :target: http://emcee.readthedocs.io/en/latest/?badge=latest\n\nemcee is a stable, well tested Python implementation of the affine-invariant ensemble sampler for Markov chain Monte Carlo (MCMC) proposed by Goodman & Weare (2010) _. The code is open source and has already been used in several published projects in the Astrophysics literature.\n\nDocumentation\n\nRead the docs at emcee.readthedocs.io _.\n\nAttribution\n\nPlease cite Foreman-Mackey, Hogg, Lang & Goodman (2012) _ if you find this code useful in your research. The BibTeX entry for the paper is::\n\n@article{emcee,  author = {{Foreman-Mackey}, D. and {Hogg}, D.~W. and {Lang}, D. and {Goodman}, J.},  title = {emcee: The MCMC Hammer},  journal = {PASP},  year = 2013,  volume = 125,  pages = {306-312},  eprint = {1202.3665},  doi = {10.1086/670067}  }\n\nLicense\n\nCopyright 2010-2021 Dan Foreman-Mackey and contributors.",
+      "section": "Introduction (part 1)",
+      "repo": "263_GSTools",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": "emcee is free software made available under the MIT License. For details see the LICENSE file.",
+      "section": "Introduction (part 2)",
+      "repo": "263_GSTools",
+      "source_file": "readme.rst"
+    }
+  }
+]

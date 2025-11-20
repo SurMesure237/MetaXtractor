@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/ci-for-research/example-python-1",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ci-for-research/example-python-1/zipball/main",
+  "author": "ci-for-research",
+  "dateCreated": "2020-06-19T06:36:39Z",
+  "dateModified": "2020-07-02T15:38:03Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Python package called `justatest` with self-hosted GH Action workflow",
+  "identifier": 273422504,
+  "name": "ci-for-research/example-python-1",
+  "issueTracker": "https://api.github.com/repos/ci-for-research/example-python-1/issues",
+  "readme": "https://github.com/ci-for-research/example-python-1/blob/master/README.md"
+}

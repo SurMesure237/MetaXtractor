@@ -1,0 +1,74 @@
+[
+  {
+    "data": {
+      "text": "evidence\n\nevidence -- a doc2Vec-based assisted close reading tool with support for abstract concept-based search and context-based search.",
+      "section": "evidence (part 1)",
+      "repo": "004_evidence",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Five recommendations for fair software from [fair-software.nl] https://fair-software.nl | Badges | | --- | --- | | 1. Code repository | [](https://github.com/ADAH-EviDENce/evidence/) | | 2. License | [](https://github.com/ADAH-EviDENce/evidence/) | | 3. Community registry | [](https://www.research-software.nl/software/evidence) | | 4. Enable citation | [](https://doi.org/10.5281/zenodo.3954885) | | 5. Checklist | N/A | | Other best practices | | | Test model generation | [](https://github.com/ADAH-EviDENce/evidence/actions?query=workflow%3A%22Test+model+generation%22) | | Frontend | [](https://github.com/ADAH-EviDENce/evidence/actions?query=workflow%3A%22Frontend%22) | | docker-compose | [](https://github.com/ADAH-EviDENce/evidence/actions?query=workflow%3Adocker-compose) | | GitHub Super Linter| [](https://github.com/ADAH-EviDENce/evidence/actions?query=workflow%3A%22Lint+Code+Base%22) | | Markdown Link Checker| [](https://github.com/ADAH-EviDENce/evidence/actions?query=workflow%3A%22Check+Markdown+links%22) |",
+      "section": "evidence (part 2)",
+      "repo": "004_evidence",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Machine-supported research in humanities\n\nWhile research in the humanities has been able to leverage the digitization of text corpora and the development of computer based text analysis tools to its benefit, the interface current systems provide the user with is incompatible with the proven method of scholarly close reading of texts which is key in many research scenarios pursuing complex research questions.\n\nWhat this boils down to, is the fact that it is often restrictive and difficult, if not impossible, to formulate adequate selection criteria, in particular for more complex or abstract concepts, in the framework of a keyword based search which is the standard entry point to digitized text collections.",
+      "section": "evidence (part 3)",
+      "repo": "004_evidence",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Querying by example - close reading with tailored suggestions\n\nevidence provides an alternative, intuitive entry point into collections by leveraging the doc2vec framework. Using doc2vec evidence learns abstract representations of the theme and content of the elements of the user's corpus. Then, instead of trying to translate the scientific query into keywords, after compiling a set of relevant elements as starting points, i.e. examples of the concept the user is interested in, the user can query the corpus based on these examples of their concept of interest. Specifically, evidence retrieves elements with similar abstract representations and presents them to the user, using the users feedback to refine its retrieval. Furthermore, this concept-based query mode is complemented by the ability to perform additional retrieval using more-like-this context based retrieval function provided by elasticsearch. Together, this enables a user to combine the power of a close-reading approach with that of a large digitized corpus, selecting elements from the entire corpus which are likely to be of interest, but leaving the decision up to the user as to what evidence they deem useful.\n\n## Documentation for users\n\n## Running the demo\n\nThe repository contains a demonstration including a corpus and a model. The demonstration allows you the explore the features of this software without supplying your own corpus.\n\nPrerequisites:\n\n[docker] https://docs.docker.com/engine/install/\n\n[docker-compose] https://docs.docker.com/compose/install/",
+      "section": "evidence (part 4)",
+      "repo": "004_evidence",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Step 1\n\nFirst test that the docker installation is working. Depending on your system, you need to use either a PowerShell (on Windows) or a terminal (on Linux or on MacOS).\n\nFor Windows:\n\nOpen a Powershell prompt (press Windows+S and type Powershell) and run:\n\n``powershell  docker run hello-world  `\n\nFor Linux/MacOs:\n\nOpen a terminal and run:\n\n`shell  docker run hello-world  `\n\nThis should show a message that your Docker installation is working correctly. If so, we can proceed to the installation of evidence`, otherwise we suggest to check the [Docker troubleshooting page] https://docs.docker.com/docker-for-windows/troubleshoot/.\n\n### Step 2\n\n[Download] https://github.com/ADAH-EviDENce/evidence/archive/master.zip a copy of evidence archive and extract its contents on your machine.\n\nAlternatively, if you have [git] https://git-scm.com/book/en/v2/Getting-Started-Installing-Git installed, you can also clone the repository.\n\ngit clone https://github.com/ADAH-EviDENce/evidence.git",
+      "section": "evidence (part 5)",
+      "repo": "004_evidence",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Step 3\n\nFor Windows:\n\nOpen a Powershell prompt\n\nChange your current working directory to where you extracted the files. For instance:\n\n``powershell  cd C:\\Users\\JohnDoe\\Downloads\\evidence-master\\evidence-master  `\n\nLinux/MacOS:\n\nOpen a terminal\n\nChange your current working directory to where you extracted the files. For instance:\n\n`shell  cd /home/JohnDoe/Downloads/evidence  `\n\nThe demo can be started with the commands below. Keep this PowerShell/Terminal window open and running during the demo.\n\nSet the experiment name\n\nFor Windows:\n\n`powershell  $Env:EXPERIMENT=\"getuigenverhalen\"  `\n\nFor Linux/MacOS:\n\n`shell  export EXPERIMENT=\"getuigenverhalen\"  `\n\nStart the demo\n\n`shell  docker-compose up --build  ``\n\nThe command above downloads necessary Docker images, builds all the Docker images and starts the demo.\n\nThe command prints many log messages. If all goes well, the last lines of the output should be:\n\n... indexer_1 | Indexing done. evidence-master_indexer_1 exited with code 0\n\nCheck [troubleshooting] troubleshooting.md if you have any issues about this step.\n\n### Step 4\n\nGo to the following URL in your web browser: [http://localhost:8080/] http://localhost:8080/ui/search/.\n\n### Step 5\n\nOnce you are done with exploring the demo, you can stop it by selecting the PowerShell/Terminal that is still running the demo and press Ctrl+C.\n\n## Generating a model",
+      "section": "evidence (part 6)",
+      "repo": "004_evidence",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Prerequisites\n\nVerify that your `docker-compose version is at least 1.25.4. (Earlier versions may work).\n\ndocker-compose --version\n\nVerify that your docker version is at least 19.03.12. (Earlier versions may work).\n\ndocker --version\n\nIf you want to use your own corpus, refer to [./experiments/README.md] ./experiments/README.md for notes on the required format and directory layout.\n\n### Define which corpus to use\n\nDefine the name of the dataset/experiment. Here we choose 'getuigenverhalen'. The corpus files should reside under /experiments//corpus`, see sample corpora.\n\nexport EXPERIMENT=getuigenverhalen\n\n### Building the model generation image\n\nBe aware that building can take a couple of minutes.",
+      "section": "evidence (part 7)",
+      "repo": "004_evidence",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "(starting from the repo root directory) docker-compose --file generate-model.yml build generate-model\n\n## Generating the doc2vec model\n\n(starting from the repo root directory) docker-compose --file generate-model.yml run --user $(id -u):$(id -g) generate-model\n\n### Build the user interface web application and start it\n\n(starting from the repo root directory) export EXPERIMENT=getuigenverhalen docker-compose build docker-compose up\n\nFrontend should now be usable at [`http://localhost:8080] http://localhost:8080.\n\nWe strongly suggest not making the frontend available publicly as there is no authentication. Anyone with the url will have access to the frontend. Running it on a local network, for example a university network, should be protected from most evil-doers.\n\nBesides interaction with a web browser you can also interact with the frontend from the command line see [here] ui#elastic-search-example-queries and [here] ui#doc2vec-example-queries for examples.\n\n## Optional: manage frontend users\n\nThe first page of the frontend forces you to select a user or 'gebruiker' in Dutch. A user called demo exists and can be selected.\n\n### Change initial user\n\nThe initial user named demo can be renamed by setting the FRONTEND_USER environment variable before running docker-compose up.\n\nFor example to have myinitialusername` as a user name, do the following:",
+      "section": "(starting from the repo root directory) + (starting from the repo root directory) + (starting from the repo root directory)",
+      "repo": "004_evidence",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "(starting from the repo root directory) export EXPERIMENT=getuigenverhalen export FRONTEND_USER=myinitialusername docker-compose up\n\n### Add additional users\n\nIf the existing user is not enough, you can add a new user to the frontend with the following command (you can choose your own username by replacing mynewusername value in the command below):\n\nexport EXPERIMENT=getuigenverhalen export FRONTEND_USER=mynewusername docker-compose run usercreator\n\nTo add more users, repeat the command with different values for FRONTEND_USER.\n\n## Documentation for developers\n\n### Checking the MarkDown links\n\nWhen updating the documentation, you can check if the links are all working by running:\n\nnpm install npm run mlc\n\n### Related repositories\n\n[https://github.com/ADAH-EviDENce/EviDENce_doc2vec_docker_framework] https://github.com/ADAH-EviDENce/EviDENce_doc2vec_docker_framework\n\n[https://github.com/ADAH-EviDENce/evidence-gui] https://github.com/ADAH-EviDENce/evidence-gui",
+      "section": "(starting from the repo root directory)",
+      "repo": "004_evidence",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/pasta-toolbox/bit_vector",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "CMake",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/pasta-toolbox/bit_vector/zipball/main",
+  "author": "pasta-toolbox",
+  "dateCreated": "2021-10-20T15:13:09Z",
+  "dateModified": "2025-07-13T21:48:57Z",
+  "keywords": [
+    "bitvector",
+    "cpp",
+    "rank",
+    "select",
+    "space-efficiency"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Fast and highly tuned bit vector implementation including space efficient rank and select support having only 3.51% space overhead.",
+  "identifier": 419381885,
+  "name": "pasta-toolbox/bit_vector",
+  "issueTracker": "https://api.github.com/repos/pasta-toolbox/bit_vector/issues",
+  "readme": "https://github.com/pasta-toolbox/bit_vector/blob/main/README.md"
+}

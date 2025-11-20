@@ -1,0 +1,24 @@
+{
+  "codeRepository": "https://github.com/QUMIA/train-scripts",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/QUMIA/train-scripts/zipball/main",
+  "author": "QUMIA",
+  "dateCreated": "2023-10-12T10:35:56Z",
+  "dateModified": "2024-12-12T10:58:28Z",
+  "keywords": [
+    "ai",
+    "neuromuscular",
+    "ultrasound"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "This repository contrains scripts and files related to ML training for the QUMIA project",
+  "identifier": 704001389,
+  "name": "QUMIA/train-scripts",
+  "issueTracker": "https://api.github.com/repos/QUMIA/train-scripts/issues",
+  "readme": "https://github.com/QUMIA/train-scripts/blob/main/README.md"
+}

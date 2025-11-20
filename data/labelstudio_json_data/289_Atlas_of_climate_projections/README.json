@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "Atlas of constrained climate projections- EUCP WP2\n\n[](https://sonarcloud.io/summary/new_code?id=eucp-project_atlas) [](https://fair-software.eu) [](https://doi.org/10.5281/zenodo.5654741) [](https://www.research-software.nl/software/eucp-atlas)\n\nThis repository contains the source code and content for an [Atlas of constrained climate projections] https://eucp-project.github.io/atlas/. The atlas demonstrates outputs from the probabilistic projection methods developed or assessed in the [European Climate Projection system] https://www.eucp-project.eu/ (EUCP) Horizon2020 project. For more info, see the [Atlas about page] https://eucp-project.github.io/atlas/about.\n\n## Citation\n\nTo cite this repository, use the information available at [CITATION.cff] CITATION.cff, and to cite the content of the Atlas, see the [Atlas about page] https://eucp-project.github.io/atlas/about.\n\n## License\n\nThe source code is licensed under [Apache 2.0] ./LICENSE, whereas the content e.g. maps in the static directory of this repository, are licensed under [CC-BY 4.0] https://creativecommons.org/licenses/by/4.0/.\n\n## Maintainers\n\nCurrent maintainers of the Atlas are Research software engineers from the [Netherlands eScience Center] https://www.esciencecenter.nl/. If you have any questions or concerns, please submit an [issue] https://github.com/eucp-project/atlas/issues. Maintainers will do their best to help you.",
+      "section": "Atlas of constrained climate projections- EUCP WP2 (part 1)",
+      "repo": "289_Atlas_of_climate_projections",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Contributions\n\nFor information on how to contribute to this Atlas, please check the [contributing guidelines] CONTRIBUTING.md.\n\n## Acknowledgements\n\nFIXME",
+      "section": "Atlas of constrained climate projections- EUCP WP2 (part 2)",
+      "repo": "289_Atlas_of_climate_projections",
+      "source_file": "readme.md"
+    }
+  }
+]

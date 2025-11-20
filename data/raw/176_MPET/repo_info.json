@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/TRI-AMDD/mpet",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/TRI-AMDD/mpet/zipball/main",
+  "author": "TRI-AMDD",
+  "dateCreated": "2020-09-25T17:48:24Z",
+  "dateModified": "2025-09-15T22:46:12Z",
+  "keywords": [],
+  "license": null,
+  "description": "MPET lithium-ion battery simulator",
+  "identifier": 298642454,
+  "name": "TRI-AMDD/mpet",
+  "issueTracker": "https://api.github.com/repos/TRI-AMDD/mpet/issues",
+  "readme": "https://github.com/TRI-AMDD/mpet/blob/master/README.md"
+}

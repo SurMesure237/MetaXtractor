@@ -1,0 +1,33 @@
+{
+  "codeRepository": "https://github.com/dfsp-spirit/fsbrain",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R",
+    "Dockerfile",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/dfsp-spirit/fsbrain/zipball/main",
+  "author": "dfsp-spirit",
+  "dateCreated": "2019-09-17T15:05:51Z",
+  "dateModified": "2025-09-09T18:09:24Z",
+  "keywords": [
+    "3d",
+    "brain",
+    "dti",
+    "freesurfer",
+    "mesh",
+    "mri",
+    "neuroimaging",
+    "r",
+    "research",
+    "surface",
+    "visualization",
+    "voxel"
+  ],
+  "license": null,
+  "description": "R library for structural neuroimaging. Provides high-level functions to access (read and write) and visualize surface-based brain morphometry data for individuals and groups.",
+  "identifier": 209085379,
+  "name": "dfsp-spirit/fsbrain",
+  "issueTracker": "https://api.github.com/repos/dfsp-spirit/fsbrain/issues",
+  "readme": "https://github.com/dfsp-spirit/fsbrain/blob/master/README.md"
+}

@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/JuliaGraphs/Graphs.jl",
+  "programmingLanguage": "Julia",
+  "programmingLanguages": [
+    "Julia"
+  ],
+  "downloadUrl": "https://api.github.com/repos/JuliaGraphs/Graphs.jl/zipball/main",
+  "author": "JuliaGraphs",
+  "dateCreated": "2021-10-11T21:25:29Z",
+  "dateModified": "2025-10-19T17:51:54Z",
+  "keywords": [
+    "data-structures",
+    "datastructures",
+    "graph",
+    "graph-algorithms",
+    "graph-analytics",
+    "graph-theory",
+    "graphs",
+    "hacktoberfest",
+    "julia",
+    "juliagraphs"
+  ],
+  "license": null,
+  "description": "An optimized graphs package for the Julia programming language",
+  "identifier": 416091527,
+  "name": "JuliaGraphs/Graphs.jl",
+  "issueTracker": "https://api.github.com/repos/JuliaGraphs/Graphs.jl/issues",
+  "readme": "https://github.com/JuliaGraphs/Graphs.jl/blob/master/README.md"
+}

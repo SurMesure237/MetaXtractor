@@ -1,0 +1,509 @@
+[
+  {
+    "id": 1399,
+    "annotations": [
+      {
+        "id": 10955,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T18:04:10.706174Z",
+        "updated_at": "2025-11-05T18:04:10.706193Z",
+        "draft_created_at": null,
+        "lead_time": 9.005,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c60d05c0-6424-479c-97ed-5b20f8e3f77e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1399,
+        "project": 23337,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Umple Modelling Language\n\n### Build Status\n\nOS | Linux Jenkins | Windows Appveyor |  :--------- | ------------- | ---------------- | Status | [](https://jenkins.umple.org/job/Umple/lastSuccessfulBuild?subject=Jenkins%2FLinux&build=lastCompleted:${params.BRANCH=master}) | [](https://ci.appveyor.com/project/vahdat-ab/umple/branch/master)",
+      "section": "Umple Modelling Language (part 1)",
+      "repo": "485_Umple",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.564739Z",
+    "updated_at": "2025-11-05T18:04:10.735930Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23337,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1400,
+    "annotations": [
+      {
+        "id": 10956,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 695,
+              "end": 1097,
+              "text": "Timothy C. Lethbridge, Andrew Forward, Omar Badreddin, Dusan Brestovansky, Miguel Garzon, Hamoud Aljamaan, Sultan Eid, Ahmed Husseini Orabi, Mahmoud Husseini Orabi, Vahdat Abdelzad, Opeyemi Adesina, Aliaa Alghamdi, Abdulaziz Algablan, Amid Zakariapour, \"Umple: Model-Driven Development for Open Source and Education\", _Science of Computer Programming_, 2021, https://doi.org/10.1016/j.scico.2021.102665",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "teISNdfY2F",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1133,
+              "end": 1227,
+              "text": "University of Ottawa, Umple, https://umple.org/releases https://doi.org/10.5281/zenodo.4677562",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "TtNqvjKHcj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1231,
+              "end": 1274,
+              "text": "https://zenodo.org/badge/latestdoi/41397174",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "T2i4QQkAhJ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 545,
+              "end": 563,
+              "text": "https://umple.org/",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "RrYtmCGVJi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T18:05:32.397856Z",
+        "updated_at": "2025-11-05T18:05:32.397870Z",
+        "draft_created_at": "2025-11-05T18:04:46.367438Z",
+        "lead_time": 81.517,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "86cdea26-b259-4a42-bd75-5a2c284411ba",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1400,
+        "project": 23337,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Description\n\nThis is the main project for various Umple subprojects and components.\n\nUmple is a model-oriented programming technology, allowing developers to embed modelling concepts (e.g. UML associations, state machines), patterns, generation templates, and other abstractions in traditional code, and vice versa. It generates high quality code for Java, C++ and PhP (Python in beta), as well as diagrams, metrics and many other artifacts. It can be embeded in the above languages as well as embed them.\n\nThe project homepage is located at https://umple.org/\n\nThere are a large number of scientific papers about Umple listed at: https://umple.org/publications\n\nCite the overall project as: Timothy C. Lethbridge, Andrew Forward, Omar Badreddin, Dusan Brestovansky, Miguel Garzon, Hamoud Aljamaan, Sultan Eid, Ahmed Husseini Orabi, Mahmoud Husseini Orabi, Vahdat Abdelzad, Opeyemi Adesina, Aliaa Alghamdi, Abdulaziz Algablan, Amid Zakariapour, \"Umple: Model-Driven Development for Open Source and Education\", _Science of Computer Programming_, 2021, https://doi.org/10.1016/j.scico.2021.102665.\n\nCite latest software release as: University of Ottawa, Umple, https://umple.org/releases https://doi.org/10.5281/zenodo.4677562 [](https://zenodo.org/badge/latestdoi/41397174)",
+      "section": "Umple Modelling Language (part 2)",
+      "repo": "485_Umple",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.564779Z",
+    "updated_at": "2025-11-05T18:05:32.423458Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23337,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1401,
+    "annotations": [
+      {
+        "id": 10957,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 187,
+              "end": 213,
+              "text": "https://umple.org/devsetup",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "myNF2rN0yn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 948,
+              "end": 969,
+              "text": "https://try.umple.org",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "STSiFKNq2d",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1441,
+              "end": 1444,
+              "text": "Mac",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "LRiuTFmN7b",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1446,
+              "end": 1451,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "8jx7aHuzNi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1456,
+              "end": 1463,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "jWXfSWQdXQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1616,
+              "end": 1640,
+              "text": "https://manual.umple.org",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "yWpoxhG6J4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1367,
+              "end": 1418,
+              "text": "Java (versions 8 and up although 17 is recommended)",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "kbcDGN3KCw",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T18:06:56.206673Z",
+        "updated_at": "2025-11-17T00:20:35.951341Z",
+        "draft_created_at": "2025-11-05T18:05:48.481046Z",
+        "lead_time": 267.813,
+        "prediction": {},
+        "result_count": 7,
+        "unique_id": "9f020999-9a43-4bc1-a5d1-1b16a6b08299",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1401,
+        "project": 23337,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Development Process\n\nUmple is developed in itself, guaranteeing robustness; the most recent version of the compiler must be used to compile itself. See the wiki for development setup: https://umple.org/devsetup\n\nDevelopment follows a model-driven, test-driven, agile, continuous-integration process. Umple is hosted currently on Github at https://umple.org/code . It was first released in 2007. The master was on Google Code from 2011 to mid 2015 and moved to Github in 2015.\n\nUmple has been largely developed as a research project at the University of Ottawa, Canada, by numerous PhD and masters students. Many undergraduates from across Canada and the USA have also contributed through the UCOSP program. See the license file for the list of contributors. https://umple.org/license\n\n## Installation and Downloading\n\nUmple does not need necessarily to be downloaded, the following allow you to run it directly in any web browser:\n\nUmpleOnline: https://try.umple.org - Website for the GUI version of Umple   Docker: https://umple.org/docker - Install a docker image to run the GUI directly on your local machine\n\nYou can download the java jar for command-line use, or the Eclipse plugin:\n\nDownload page: https://umple.org/dl - Links to the latest official release and continuous builds (command-line, Eclipse, Docker)   To run locally on your machine, Umple needs Java (versions 8 and up although 17 is recommended) installed. It runs on Mac, Linux and Windows.   ## Usage\n\nUmple is a programming and modeling language with a rich syntax. Full documentation with many examples can be found at\n\nUmple user manual: https://manual.umple.org",
+      "section": "Umple Modelling Language (part 3)",
+      "repo": "485_Umple",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.564804Z",
+    "updated_at": "2025-11-17T00:20:35.986673Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23337,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1402,
+    "annotations": [
+      {
+        "id": 10958,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 790,
+              "end": 801,
+              "text": "MIT license",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "KdjL3SGDbn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 807,
+              "end": 832,
+              "text": "https://umple.org/license",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "ycY90BqHR5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 37,
+              "end": 58,
+              "text": "https://www.umple.org",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "DH29Wjv9uG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T18:07:14.034867Z",
+        "updated_at": "2025-11-15T17:05:26.300925Z",
+        "draft_created_at": "2025-11-05T18:07:06.449554Z",
+        "lead_time": 55.691,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "d5d56e84-fdf6-44bb-b20e-893849505ee5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1402,
+        "project": 23337,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Other Key links\n\nUmple home page: https://www.umple.org - The main Umple page with a more comprehensive set of links  Full documentation of all Umple features with live examples: https://manual.umple.org  Live diagram of the metamodel: https://umple.org/metamodel  Architecture: https://umple.org/architecture\n\nUmple is continuously tested and built on its own Jenkins server (see https://jenkins.umple.org) . It is also built on Appveyor (https://umple.org/appveyor/).\n\n## Contributing\n\nPlease report any bugs or improvement requests at: https://umple.org/bugs  To set up your development environment please see: https://umple.org/devsetup For more details on contributing, please see: https://github.com/umple/umple/blob/master/CONTRIBUTING.md\n\n## License\n\nUmple is licensed under the MIT license. See https://umple.org/license\n\n## Credits\n\nAll developers of Umple are listed in the license file at https://umple.org/license\n\nFinancial support has been received from NSERC and the Ontario Research Fund. IBM supported early development of Umple. Google and Facebook supported student travel during Umple's development.",
+      "section": "Umple Modelling Language (part 4)",
+      "repo": "485_Umple",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.564827Z",
+    "updated_at": "2025-11-15T17:05:26.337344Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23337,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1403,
+    "annotations": [
+      {
+        "id": 10959,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T18:07:17.201074Z",
+        "updated_at": "2025-11-05T18:07:17.201092Z",
+        "draft_created_at": null,
+        "lead_time": 2.991,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "016538aa-29bd-431d-8633-3d1b54a0af06",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1403,
+        "project": 23337,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Contents of the directories\n\nThe umple project is split into many smaller subprojects; the folder hierarchy is explained below to better describe the structure.\n\nbuild/  Ant build scripts and related information including user manual raw data\n\ncruise.umple/ Umple compiler  See its own ReadMe.txt for further details  See also UmpleTo below for additional compiler components    cruise.umple.eclipse/, cruise.umple.xtext.ui/ Eclipse plugins\n\ncruise.umplificator Converting outside code to Umple  cruise.umple.validator Validates umple when umplifying\n\ncruise.umple.nebula Infrastructure used for real-time C++\n\ndev-tools Tooling for Umple developers    dist Build produced items, only available after building  libs/ Managed build dependencies that umple.jar require to run   cruise.umple/reference User manual   qa/ Test reports   umple.jar and umple.VERSION.jar Current command-line Compiler   umpledocs.VERSION.jar User manual generator  umplestats.VERSION.jar Statistics generation  umplesync.VERSION.jar UmpleOnline tool to to synchronize graphical form  umplerun.VERSION.jar tool to drive input to an umple program  vml.VERSION.jar Extension for variability modeling  umple.unit-test.jar Test Language Compiler  umple.mutation.jar Umple Mutant Generator\n\nexamples/ Developer curated examples  externalexamples/ External projects that are used for testing\n\nExternalTextEditorPlugins Plugins for external editors, Notepad++, etc\n\nsandbox Small test done before a build to make sure testing and compiling works",
+      "section": "Umple Modelling Language (part 5)",
+      "repo": "485_Umple",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.564851Z",
+    "updated_at": "2025-11-05T18:07:17.229381Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23337,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1404,
+    "annotations": [
+      {
+        "id": 10960,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T18:07:18.621028Z",
+        "updated_at": "2025-11-05T18:07:18.621042Z",
+        "draft_created_at": null,
+        "lead_time": 1.234,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ba5c586e-b10c-491b-9c19-b3708bf872af",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1404,
+        "project": 23337,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "testbed/, testbed_php/, testbed_ruby/ Test suites for Java, Php and Ruby respectively  UmpleToJava/ Code generation for Java  UmpleToPhp/ Code generation for Php  UmpleToRuby/ Code generation for Ruby  UmpleToRTCpp/ Code generation for C++   UmpleToSDL/ Code generation to convert Umple to SDL (in early development)  UmpleToSql/ Code generation SQL from Umple models  UmpleToTest/ Code generation for abstract tests  UmpleToTemplate/ Location for templates that could be common to subprojects  UmpleTToJunit/ Code Generation for JUnit5 - used by MTL compiler  UmpleTToPhpunit/ Code Generation for PhpUnit - used by MTL compiler  UmpleTToRubyunit/ Code Generation for RubyUnit - used by MTL compiler  umpleonline/ The UmpleOnline web application  UmpleOnline allows generation of code from Umple directly in a web browser, and also editing of Umple both graphically and textually. Available at https://try.umple.org\n\nUmplificator/ Reverse engineer code to Umple  umplificatoronline/ Online tool for converting code to Umple\n\numpleUI/ Projects for the UIGU tooling  Projects for generating a UI through UIGU from Umple. These need work to incorporate them into UmpleOnline    umplewww/ Core files from the Umple.org web pages  Includes items such as the user manual that are moved at build time into the appropriate place",
+      "section": "Umple Modelling Language (part 6)",
+      "repo": "485_Umple",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.564874Z",
+    "updated_at": "2025-11-05T18:07:18.643981Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23337,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

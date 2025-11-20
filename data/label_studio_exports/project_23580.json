@@ -1,0 +1,212 @@
+[
+  {
+    "id": 2656,
+    "annotations": [
+      {
+        "id": 9958,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 48,
+              "end": 91,
+              "text": "https://minion-py.readthedocs.io/en/latest/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "KnqkDC6UtF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 96,
+              "end": 135,
+              "text": "https://doi.org/10.5281/zenodo.14794240",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "uTVNjlguC0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:00:09.930305Z",
+        "updated_at": "2025-11-14T11:57:40.061824Z",
+        "draft_created_at": "2025-11-02T19:59:59.299693Z",
+        "lead_time": 26.767000000000003,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "e9ba90b3-b4bc-44ea-9fe8-ee9042b42840",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2656,
+        "project": 23580,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Minion: C++ and Python Optimization Library\n\n[](https://minion-py.readthedocs.io/en/latest/) [](https://doi.org/10.5281/zenodo.14794240)\n\nMinion/MinionPy is an optimization library designed for solving single-objective optimization problems. It features state-of-the-art evolutionary algorithms, including top-performing methods from IEEE CEC competitions, which are not commonly found in standard optimization libraries such as SciPy, NLopt, OptimLib, pyGMO, and pagmo2.\n\nMinion also serves as a research platform for developing and testing new optimization algorithms. It includes benchmark functions from CEC competitions (2011, 2014, 2017, 2019, 2020, and 2022), providing a robust framework for algorithm evaluation and comparison.",
+      "section": "Minion: C++ and Python Optimization Library (part 1)",
+      "repo": "350_Minion",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.710653Z",
+    "updated_at": "2025-11-14T11:57:40.094513Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23580,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2657,
+    "annotations": [
+      {
+        "id": 9959,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1359,
+              "end": 1392,
+              "text": "https://minion-py.readthedocs.io/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "zLwX6jNG61",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:01:07.109797Z",
+        "updated_at": "2025-11-14T11:57:53.081121Z",
+        "draft_created_at": "2025-11-02T20:00:39.871615Z",
+        "lead_time": 68.571,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "a3e0c32b-9710-4ebc-8835-e31bd2366083",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2657,
+        "project": 23580,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## 🔥 Why Choose Minion?\n\nState-of-the-art optimization algorithms :\n\nDifferential Evolution-based algorithms:\n\nBasic Differential Evolution (DE)\n\nJADE\n\nL-SHADE\n\nLSHADE-cnEpSin\n\njSO\n\nj2020\n\nNL-SHADE-RSP\n\nLSRTDE\n\nARRDE (Adaptive Restart-Refine DE, our novel algorithm)\n\nOther population-based algorithms:\n\nArtificial Bee Colony (ABC)\n\nGrey Wolf DE Optimization\n\nCanonical PSO, SPSO-2011, and Dynamic Multi-Swarm PSO (DMS-PSO)\n\nCMA-ES (Covariance Matrix Adaptation Evolution Strategy)\n\nBIPOP-aCMAES\n\nClassical optimization algorithms:\n\nNelder-Mead\n\nGeneralized Simulated Annealing (Dual Annealing)\n\nL-BFGS-B (vectorized & noise-robust)\n\nL-BFGS (vectorized & noise-robust)\n\nHighly parallelized\n\nDesigned for vectorized function evaluations, supporting multithreading and multiprocessing to speed up optimization.\n\nOptimized C++ backend with Python API\n\nEnjoy the performance of C++ with the simplicity of Python.\n\nCEC Benchmark Suite\n\nIncludes benchmark problems from 2011, 2014, 2017, 2019, 2020, and 2022 for rigorous algorithm testing.\n\n## 🚀 Installation\n\nThe Python wrapper (minionpy) is available on PyPI:\n\npip install --upgrade minionpy\n\nFor compiling the C++ version, please refer to the official Minion documentation.\n\n## 📖 Documentation\n\nFor full usage instructions, API reference, and examples, visit the official documentation:\n\n[Minion Documentation] https://minion-py.readthedocs.io/",
+      "section": "Minion: C++ and Python Optimization Library (part 2)",
+      "repo": "350_Minion",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.710695Z",
+    "updated_at": "2025-11-14T11:57:53.115865Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23580,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2658,
+    "annotations": [
+      {
+        "id": 9960,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 147,
+              "end": 409,
+              "text": "Muzakka, K. F., Möller, S., & Finsterbusch, M. (2025). Minion: A high-performance derivative-free optimization library designed for solving complex optimization problems. Zenodo. [https://doi.org/10.5281/zenodo.14794239] https://doi.org/10.5281/zenodo.14794239",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "QZV4pdxSuA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:01:15.449469Z",
+        "updated_at": "2025-11-02T20:01:15.449507Z",
+        "draft_created_at": null,
+        "lead_time": 8.136,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "d4335796-eebc-4902-8484-623b7587248f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2658,
+        "project": 23580,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## 📜 Citing Minion\n\nIf you use Minion or MinionPy in your research or projects, we would be grateful if you could cite the following publication:\n\nMuzakka, K. F., Möller, S., & Finsterbusch, M. (2025).  Minion: A high-performance derivative-free optimization library designed for solving complex optimization problems.  Zenodo. [https://doi.org/10.5281/zenodo.14794239] https://doi.org/10.5281/zenodo.14794239",
+      "section": "Minion: C++ and Python Optimization Library (part 3)",
+      "repo": "350_Minion",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.710719Z",
+    "updated_at": "2025-11-02T20:01:15.479412Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23580,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

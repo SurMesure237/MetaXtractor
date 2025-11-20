@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/obeliss-nlesc/otree-experiments",
+  "programmingLanguage": "HTML",
+  "programmingLanguages": [
+    "HTML",
+    "Python",
+    "JavaScript",
+    "Procfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/obeliss-nlesc/otree-experiments/zipball/main",
+  "author": "obeliss-nlesc",
+  "dateCreated": "2023-11-27T09:47:03Z",
+  "dateModified": "2024-09-18T08:54:59Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": null,
+  "identifier": 724050645,
+  "name": "obeliss-nlesc/otree-experiments",
+  "issueTracker": "https://api.github.com/repos/obeliss-nlesc/otree-experiments/issues",
+  "readme": null
+}

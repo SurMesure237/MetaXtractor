@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "Magic Castle\n\n[](https://doi.org/10.5281/zenodo.4895357) [](https://github.com/ComputeCanada/magic_castle/actions/workflows/test.yaml)\n\n[The Digital Research Alliance of Canada] https://www.alliancecan.ca/ provides HPC infrastructure and support to every academic research institution in Canada. The Alliance [uses CVMFS] https://docs.alliancecan.ca/wiki/Accessing_CVMFS, a software distribution system [developed at CERN] https://cernvm.cern.ch/fs/, to make its research software stack available on its HPC clusters, and anywhere else with internet access. This enables replication of the user experience outside of The Alliance physical infrastructure.\n\nFrom these new possibilities emerged an open-source software project named Magic Castle, which aims to recreate the HPC user experience in public clouds. Magic Castle uses the open-source software [Terraform] https://www.terraform.io and HashiCorp Language (HCL) to define the virtual machines, volumes, and networks that are required to replicate a virtual HPC infrastructure. The infrastructure definition is packaged as a Terraform module that users can customize as they require. After deployment, the user is provided with a complete HPC cluster software environment including a Slurm scheduler, a Globus Endpoint, JupyterHub, LDAP, DNS, and over 3000 research software applications compiled by experts with [EasyBuild] https://github.com/easybuilders/easybuild. Magic Castle is compatible with AWS, Microsoft Azure, Google Cloud, OpenStack, and OVH.",
+      "section": "Magic Castle (part 1)",
+      "repo": "027_Magic_Castle",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Setup\n\nInstall [Terraform] https://releases.hashicorp.com/terraform/ (>= 1.5.7)\n\nDownload the [latest release of Magic Castle] https://github.com/ComputeCanada/magic_castle/releases for the cloud provider you wish to use.\n\nUncompress the release\n\nFollow the instructions\n\n[OpenStack Cloud] openstack/README.md\n\n[Amazon Web Services (AWS)] aws/README.md\n\n[Microsoft Azure] azure/README.md\n\n[Google Cloud Platform (GCP)] gcp/README.md\n\n[OVH Public Cloud (OVH)] ovh/README.md\n\n[Incus] incus/README.md\n\nFor more details, refer to [Magic Castle Documentation] docs\n\n## How Magic Castle Works\n\nThis software project integrates multiple parts that come into play at different steps of spawning the cluster. The following list enumerates the steps involved in order for users to better grasp what is happening when they create clusters.\n\nWe will refer to the user of Magic Castle as the operator.\n\nAfter downloading the latest release of the cloud provider of choice\n\nand adapting the main configuration file, the operator launches Terraform and accepts the proposed plan. Terraform communicates with the cloud provider REST API and requests\n\nthe creation of the virtual machines. For each virtual machine creation request, Magic Castle\n\nprovides a [cloud-init] https://cloudinit.readthedocs.io/en/latest/ file. This file is used to initialize the virtual machine base configuration and installs puppet agent. The cloud-init file of the puppet tagged virtual machine installs and configures a Puppet primary server. Terraform uploads on the Puppet primary server instance a YAML file containing\n\ninformation about the roles of each instances specified as tags. The Puppet agents communicate with the Puppet primary server to retrieve\n\nand apply their configuration based on the tags defined in the preceding YAML file.",
+      "section": "Magic Castle (part 2)",
+      "repo": "027_Magic_Castle",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Talks, slides and videos\n\n[FOSDEM 2020 - Magic Castle: Terraforming the Cloud for HPC] https://fosdem.org/2020/schedule/event/magic_castle/ (2020-02-02)\n\n[EasyBuild User Meeting 2021 - Magic Castle: Terraforming the Cloud for HPC] https://www.youtube.com/watch?v=54ph7f2-AL4 (2021-01-27)\n\n[Campus Research Computing Consortium - Clusters in the Sky: How Canada is Building Beyond Iaas Cloud with Magic Castle] https://www.youtube.com/watch?v=jWCyUeGmm-8 (2021-05-20)\n\n[EESSI User Meeting 2022 - Magic Castle: Preview of MC 12] https://www.youtube.com/watch?v=XGnxbIHJLmw&list=PL6_PkP_6pUtb7_tovj1V__y4ii_AjhroJ&index=6 (2022-09-14)\n\n[HashiTalks Qu\u00e9bec 2022 - Magic Castle: Le CIP \u00e0 l'\u00e9chelle gr\u00e2ce \u00e0 Terraform Cloud] https://www.youtube.com/watch?v=3Mg4gMmkktM (2022-09-29)\n\n[SIGHPC Education - Magic Castle: Terraforming the cloud to teach HPC] https://sighpceducation.acm.org/events/magic_castle/ (2024-02-08)",
+      "section": "Magic Castle (part 3)",
+      "repo": "027_Magic_Castle",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## List of other cloud HPC cluster open-source projects\n\n[AWS ParallelCluster] https://github.com/aws/aws-parallelcluster [AWS]\n\n[Cluster in the cloud] https://github.com/clusterinthecloud [AWS, GCP, Oracle]\n\n[Elasticluster] https://github.com/elasticluster/elasticluster [AWS, GCP, OpenStack]\n\n[Google Cluster Toolkit] https://github.com/GoogleCloudPlatform/cluster-toolkit [GCP]\n\n[illume-v2] https://github.com/jamierajewski/illume-v2/ [OpenStack]\n\n[NVIDIA DeepOps] https://github.com/NVIDIA/deepops [Ansible playbooks only]\n\n[StackHPC Ansible Role OpenHPC] https://github.com/stackhpc/ansible-role-openhpc [Ansible Role for OpenStack]\n\nWhen I think about the DevOps landscape, we have so many people just like chefs in a restaurant that are experimenting with different ways of doing things. Once they get it, then they create those recipes. Those recipes in our world is source code. [...] That's why we will always have duplicates and similar projects, because there's going to be one ingredient that's going to be slightly different to make you preferred over something else\n\n[Kelsey Hightower, Sourcegraph Podcast, Episode 16, 2020] https://web.archive.org/web/20240527182945/https://sourcegraph.com/podcast/kelsey-hightower\n\n## Contributing / Customizing\n\nRefer to the [reference design] docs/design.md and the [developer documentation] docs/developers.md.",
+      "section": "Magic Castle (part 4)",
+      "repo": "027_Magic_Castle",
+      "source_file": "readme.md"
+    }
+  }
+]

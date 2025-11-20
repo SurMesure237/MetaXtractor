@@ -1,0 +1,35 @@
+{
+  "codeRepository": "https://github.com/vitessce/vitessce",
+  "programmingLanguage": "JavaScript",
+  "programmingLanguages": [
+    "JavaScript",
+    "TypeScript",
+    "MDX",
+    "SCSS",
+    "CSS",
+    "Shell",
+    "HTML",
+    "TeX",
+    "GLSL"
+  ],
+  "downloadUrl": "https://api.github.com/repos/vitessce/vitessce/zipball/main",
+  "author": "vitessce",
+  "dateCreated": "2018-12-14T16:19:48Z",
+  "dateModified": "2025-10-26T17:52:13Z",
+  "keywords": [
+    "data-visualization",
+    "hidivelab",
+    "hubmap",
+    "imaging",
+    "kharchenkolab",
+    "single-cell",
+    "vitessce",
+    "zarr"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Vitessce is a visual integration tool for exploration of spatial single-cell experiments. ",
+  "identifier": 161811262,
+  "name": "vitessce/vitessce",
+  "issueTracker": "https://api.github.com/repos/vitessce/vitessce/issues",
+  "readme": "https://github.com/vitessce/vitessce/blob/main/README.md"
+}

@@ -1,0 +1,24 @@
+{
+  "codeRepository": "https://github.com/FZJ-JSC/JUBE",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell",
+    "C"
+  ],
+  "downloadUrl": "https://api.github.com/repos/FZJ-JSC/JUBE/zipball/main",
+  "author": "FZJ-JSC",
+  "dateCreated": "2021-10-06T07:35:25Z",
+  "dateModified": "2025-10-15T10:34:43Z",
+  "keywords": [
+    "benchmarking",
+    "hpc",
+    "workflows"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "The JUBE benchmarking environment provides a script based framework to easily create benchmark sets, run those sets on different computer systems and evaluate the results. It is actively developed by the Jülich Supercomputing Centre of Forschungszentrum Jülich, Germany.",
+  "identifier": 414114462,
+  "name": "FZJ-JSC/JUBE",
+  "issueTracker": "https://api.github.com/repos/FZJ-JSC/JUBE/issues",
+  "readme": "https://github.com/FZJ-JSC/JUBE/blob/master/README.md"
+}

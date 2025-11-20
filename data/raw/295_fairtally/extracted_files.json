@@ -1,0 +1,9 @@
+{
+  "extracted_files": [
+    "CITATION.cff",
+    ".zenodo.json",
+    "setup.py",
+    "README.dev.rst",
+    "README.rst"
+  ]
+}

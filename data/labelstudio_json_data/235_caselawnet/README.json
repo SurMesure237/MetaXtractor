@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": "[](https://travis-ci.org/NLeSC/CaseLawAnalytics) [](https://zenodo.org/badge/latestdoi/70590009)",
+      "section": "Introduction",
+      "repo": "235_caselawnet",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "CaseLawAnalytics This repository contains code for the case law query app: an application to query Dutch law cases and extract a network to use in the [case law visualization app] https://github.com/NLeSC/case-law-app.\n\nIf you use this software, please acknowledge by citing the DOI.\n\nPrerequisites:  Python 3\n\n## The python package\n\nThe python package caselawnet provides the following main functionalities:  Search the [rechtspraak.nl] https://www.rechtspraak.nl/ api to retrieve   relevant law cases.  Retrieve metadata from [rechtspraak.nl] https://www.rechtspraak.nl/ for a   list of cases (given their ECLI identifier)  Retrieve metadata from [HuDOC] https://hudoc.echr.coe.int/ to retrieve  relevant law cases.  Retrieve references between cases from [LiDO] http://linkeddata.overheid.nl/front/portal/lido). This requieres a valid login for the [LiDO services] http://linkeddata.overheid.nl/front/portal/services.  Calculate network statistics and create json file that can be used in the  [case law visualization app] https://github.com/NLeSC/case-law-app.\n\nTo install caselawnet, clone the repository and run in the root of the repository:\n\npip install .\n\nTo run tests:\n\npytest tests/\n\n## The web app\n\nThe web application provides a graphical user interface to the caselawnet package.\n\nCopy the settings file:\n\ncp settings.cfg_dist settings.cfg\n\nIf necessary, configure attributes in the config file, such as database.\n\nTo run the web app:\n\nexport FLASK_APP=caselawnet_webapp.py\n\nand run the app:\n\nflask run\n\nThe app runs much quicker if it connects to a database with the parsed cases.",
+      "section": "CaseLawAnalytics (part 1)",
+      "repo": "235_caselawnet",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Setting up a database\n\nThe application works with [SQLAlchemy](). You can use any database as a backend for this.  If using MySQL, the python package [mysql=connector-python] https://dev.mysql.com/doc/connector-python/en/connector-python-installation-source.html needs to be installed.\n\nThe script [fill_database.py] https://github.com/caselawanalytics/CaseLawAnalytics/blob/master/fill_database.py can be used to initiate and fill the database. Adjust the settings within this file to point to the database (this should be the same location as defined in settings.cfg), and to the location of a downloaded version of the [Rechtspraak.nl data collection] https://www.rechtspraak.nl/Uitspraken-en-nieuws/Uitspraken/Paginas/Open-Data.aspx.",
+      "section": "CaseLawAnalytics (part 2)",
+      "repo": "235_caselawnet",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/3D-e-Chem/3D-e-Chem-VM",
+  "programmingLanguage": "Shell",
+  "programmingLanguages": [
+    "Shell",
+    "Smarty"
+  ],
+  "downloadUrl": "https://api.github.com/repos/3D-e-Chem/3D-e-Chem-VM/zipball/main",
+  "author": "3D-e-Chem",
+  "dateCreated": "2016-01-11T21:10:05Z",
+  "dateModified": "2025-06-21T01:43:29Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Virtual machine with all software and sample data to run 3D-e-Chem Knime workflows",
+  "identifier": 49454607,
+  "name": "3D-e-Chem/3D-e-Chem-VM",
+  "issueTracker": "https://api.github.com/repos/3D-e-Chem/3D-e-Chem-VM/issues",
+  "readme": "https://github.com/3D-e-Chem/3D-e-Chem-VM/blob/master/README.md"
+}

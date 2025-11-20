@@ -1,0 +1,111 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asreview-simulation"
+version = "0.4.0"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "click ~= 8.0",
+    "asreview >= 1.0.0, < 1.3",
+    "hyperopt >= 0.2.7, < 0.3",
+    "asreview-insights >= 1.0.0, <2.0",
+    "matplotlib >= 3.3.0, <4.0",
+    "importlib_metadata >= 3.6, < 4.0; python_version < '3.10'"
+]
+description = "Simulate a manual ASReview analysis"
+
+[project.optional-dependencies]
+doc2vec = ["gensim"]
+sbert = ["sentence_transformers"]
+tensorflow = ["tensorflow >= 2.0.0, < 2.10"]   # tensorflow.keras.wrappers disappeared in 2.10
+dev = [
+    "build",
+    "coverage",
+    "pdoc",
+    "pytest",
+    "pre-commit",
+    "ruamel.yaml >=0.16.0, <1.0",
+    "tomli",
+]
+
+[project.scripts]
+asreview-simulation = "asreviewcontrib.simulation._private.cli.cli:cli"
+
+[project.entry-points."asreview.entry_points"]
+simulation = "asreviewcontrib.simulation._private.cli.entry_point:SimulationEntryPoint"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.isort]
+force_alphabetical_sort_within_sections = true
+force_single_line = true
+line_length = 130
+lines_after_imports = 2
+lines_between_sections = 0
+src_paths = ["src", "tests"]
+
+[tool.black]
+line_length = 130
+
+[tool.ruff]
+line-length = 130
+
+[tool.pytest.ini_options]
+# --max-fail=1 terminate testing on the first error
+# --strict-config: any errors in this section will raise an error
+# --strict-markers: tests decorated with unregistered markers will raise an error
+addopts = "--verbose --maxfail=1 --cache-clear --strict-config --strict-markers"
+markers = [
+    "sam_handpicked: tests pertaining to handpicked prior knowledge",
+    "sam_random: tests pertaining to randomly selected prior knowledge",
+    "fex_doc2vec: tests pertaining to Doc2Vec feature extractor",
+    "fex_embedding_idf: tests pertaining to EmbeddingIdf feature extractor",
+    "fex_embedding_lstm: tests pertaining to EmbeddingLSTM feature extractor",
+    "fex_sbert: tests pertaining to SBERT feature extractor",
+    "fex_tfidf: tests pertaining to Tfidf feature extractor",
+    "clr_logistic: tests pertaining to Logistic classifier",
+    "clr_lstm_base: tests pertaining to LSTMBase classifier",
+    "clr_lstm_pool: tests pertaining to LSTMPool classifier",
+    "clr_nb: tests pertaining to NaiveBayes classifier",
+    "clr_nn_2_layer: tests pertaining to NN2Layer classifier",
+    "clr_rf: tests pertaining to RandomForest classifier",
+    "clr_svm: tests pertaining to SVM classifier",
+    "qry_cluster: tests pertaining to ClusterQuery querier",
+    "qry_max: tests pertaining to MaxQuery querier",
+    "qry_max_random: tests pertaining to MaxRandomQuery querier",
+    "qry_max_uncertainty: tests pertaining to MaxUncertaintyQuery querier",
+    "qry_random: tests pertaining to RandomQuery querier",
+    "qry_uncertainty: tests pertaining to UncertaintyQuery querier",
+    "bal_double: tests pertaining to DoubleBalance balancer",
+    "bal_simple: tests pertaining to SimpleBalance balancer",
+    "bal_undersample: tests pertaining to UndersampleBalance balancer",
+    "stp_none: tests pertaining to no stopping rule",
+    "stp_nq: tests pertaining to stopping rule based on number of queries",
+    "stp_rel: tests pertaining to stopping rule based on number of relevant records found",
+    "ofn_none: tests pertaining to no objective function",
+    "ofn_wss: tests pertaining to wss objective function",
+]
+
+[tool.mypy]
+incremental = false
+mypy_path = "src"
+ignore_missing_imports = true
+explicit_package_bases = true
+
+
+[[tool.mypy.overrides]]
+module = [
+    "asreviewcontrib.simulation",
+    "asreviewcontrib.simulation.api",
+    "asreviewcontrib.simulation.api.plotting",
+    "asreviewcontrib.simulation.api.unwrapping"
+]
+follow_imports = "normal"
+
+[[tool.mypy.overrides]]
+module = "asreviewcontrib.simulation._private.*"
+follow_imports = "skip"

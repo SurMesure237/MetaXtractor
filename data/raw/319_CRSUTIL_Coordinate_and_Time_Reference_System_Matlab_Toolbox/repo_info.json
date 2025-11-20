@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/hvandermarel/crsutil-matlab-toolbox",
+  "programmingLanguage": "MATLAB",
+  "programmingLanguages": [
+    "MATLAB"
+  ],
+  "downloadUrl": "https://api.github.com/repos/hvandermarel/crsutil-matlab-toolbox/zipball/main",
+  "author": "hvandermarel",
+  "dateCreated": "2025-06-07T15:32:04Z",
+  "dateModified": "2025-07-15T13:17:17Z",
+  "keywords": [
+    "geodesy",
+    "gnss",
+    "gps",
+    "keplerian-elements"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Coordinate Reference System (CRSUTIL) Matlab Toolbox",
+  "identifier": 997968105,
+  "name": "hvandermarel/crsutil-matlab-toolbox",
+  "issueTracker": "https://api.github.com/repos/hvandermarel/crsutil-matlab-toolbox/issues",
+  "readme": "https://github.com/hvandermarel/crsutil-matlab-toolbox/blob/main/README.md"
+}

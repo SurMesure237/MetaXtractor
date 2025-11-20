@@ -1,0 +1,615 @@
+[
+  {
+    "id": 1823,
+    "annotations": [
+      {
+        "id": 10597,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 72,
+              "end": 114,
+              "text": "https://mapreader.readthedocs.io/en/latest",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "LBD4hAXq9m",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 209,
+              "end": 244,
+              "text": "https://doi.org/10.21105/joss.06434",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "IVgKom57B_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 120,
+              "end": 155,
+              "text": "https://zenodo.org/records/13643609",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "UPsyeFlNtv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:21:13.337663Z",
+        "updated_at": "2025-11-14T13:05:25.458236Z",
+        "draft_created_at": "2025-11-04T18:21:07.708432Z",
+        "lead_time": 25.854,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "d32ca7a9-1f31-45cf-9f61-599d3e64f53b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1823,
+        "project": 23416,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "MapReader\n\n[](#contributors) [](https://pypi.org/project/mapreader/) [](https://mapreader.readthedocs.io/en/latest)\n\n[](https://zenodo.org/records/13643609) [](https://codecov.io/gh/maps-as-data/MapReader) [](https://doi.org/10.21105/joss.06434)\n\n## Table of Contents\n\n[MapReader] #mapreader\n\n[Table of Contents] #table-of-contents\n\n[What is MapReader?] #what-is-mapreader\n\n[Overview] #overview\n\n[MapReader classification pipeline] #mapreader-classification-pipeline\n\n[MapReader text spotting pipeline] #mapreader-classification-pipeline\n\n[Documentation] #documentation\n\n[What is included in this repo?] #what-is-included-in-this-repo\n\n[What is not included in this repo?] #what-is-not-included-in-this-repo\n\n[How to cite MapReader] #how-to-cite-mapreader\n\n[Acknowledgements] #acknowledgements\n\n[Contributors] #contributors",
+      "section": "MapReader (part 1)",
+      "repo": "108_MapReader",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.046055Z",
+    "updated_at": "2025-11-14T13:05:25.492110Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23416,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1824,
+    "annotations": [
+      {
+        "id": 10598,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:21:26.612081Z",
+        "updated_at": "2025-11-04T18:21:26.612111Z",
+        "draft_created_at": null,
+        "lead_time": 13.074,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ee725e33-2cd4-4887-b1b1-33342b0bce20",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1824,
+        "project": 23416,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## What is MapReader?\n\nMapReader is a open-source python library for exploring and analyzing map images at scale.\n\nIt contains two different pipelines:\n\nClassification pipeline: This pipeline enables users to fine-tune a classification model and predict the labels of patches created from a parent image.\n\nText spotting pipeline: This pipeline enables users to detect and recognize text in map images.\n\nMapReader was developed in the [Living with Machines] https://livingwithmachines.ac.uk/ project to analyze large collections of historical maps but is a _generalizable_ computer vision tool which can be applied to _any images_ in a wide variety of domains.\n\n## Overview\n\n### MapReader classification pipeline\n\nThe MapReader classification pipeline enables users to train a classification model to recognize visual features within map images and to identify patches containing these features across entire map collections:\n\n### MapReader text spotting pipeline\n\nThe MapReader text spotting pipeline enables users to detect and recognize text in map images using a pre-trained text spotting model:",
+      "section": "MapReader (part 2)",
+      "repo": "108_MapReader",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.046114Z",
+    "updated_at": "2025-11-04T18:21:26.641223Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23416,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1825,
+    "annotations": [
+      {
+        "id": 10599,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 62,
+              "end": 105,
+              "text": "https://mapreader.readthedocs.io/en/latest/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "lSDH-kKK38",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 166,
+              "end": 261,
+              "text": "https://mapreader.readthedocs.io/en/latest/getting-started/installation-instructions/index.html",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "ssOVlpF1Q8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:22:35.269830Z",
+        "updated_at": "2025-11-14T13:05:33.761960Z",
+        "draft_created_at": "2025-11-04T18:21:50.412064Z",
+        "lead_time": 75.725,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "4d77f524-1649-49cf-988b-4fb49cc26738",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1825,
+        "project": 23416,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Documentation\n\nThe MapReader documentation can be found at https://mapreader.readthedocs.io/en/latest/.\n\nNew users should refer to the [Installation instructions] https://mapreader.readthedocs.io/en/latest/getting-started/installation-instructions/index.html and [Input guidance] https://mapreader.readthedocs.io/en/latest/using-mapreader/input-guidance/ for help with the initial set up of MapReader.\n\nAll users should refer to our [User Guide] https://mapreader.readthedocs.io/en/latest/using-mapreader/ for guidance on how to use MapReader. This contains end-to-end instructions on how to use the MapReader pipeline.\n\nDevelopers and contributors may also want to refer to the [API documentation] https://mapreader.readthedocs.io/en/latest/in-depth-resources/api/mapreader/ and [Contribution guide] https://mapreader.readthedocs.io/en/latest/community-and-contributions/contribution-guide/ for guidance on how to contribute to the MapReader package.\n\n## Stay in touch\n\nAll users are encouraged to join our community! Please refer to the [Community and contributions] https://mapreader.readthedocs.io/en/latest/community-and-contributions/events.html page for information on ways to get involved.\n\nJoin our Slack workspace! Please fill out [this form] https://forms.gle/dXjECHZQkwrZ3Xpt9 to receive an invitation to the Slack workspace.\n\n## What is included in this repo?\n\nThis repository contains everything needed for running MapReader.\n\nThe repository is structured as follows:\n\nmapreader/: Contains the source code for the MapReader library.\n\ndocs/: Contains the documentation for the MapReader library.\n\ntests/ and test_text_spotting/: Contains the tests for the MapReader library.",
+      "section": "MapReader (part 3)",
+      "repo": "108_MapReader",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.046140Z",
+    "updated_at": "2025-11-14T13:05:33.795773Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23416,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1826,
+    "annotations": [
+      {
+        "id": 10600,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 426,
+              "end": 461,
+              "text": "https://doi.org/10.21105/joss.06434",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "aNkSHVE5gW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 551,
+              "end": 586,
+              "text": "https://zenodo.org/records/13643609",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "FMBedxgrVr",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 765,
+              "end": 811,
+              "text": "https://dl.acm.org/doi/10.1145/3557919.3565812",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "i5JvNGOKE_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:23:09.486061Z",
+        "updated_at": "2025-11-04T18:23:09.486079Z",
+        "draft_created_at": "2025-11-04T18:22:50.463622Z",
+        "lead_time": 34.024,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "28f9d351-8788-4a2f-9ea8-2bd5b6ba348a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1826,
+        "project": 23416,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### What is not included in this repo?\n\nOur worked examples can be found in the [mapreader-examples] https://github.com/maps-as-data/MapReader-examples repository.\n\nWe also have a number of other MapReader and map related repositories which can be found on the [maps-as-data] https://github.com/maps-as-data GitHub organisation page.\n\n## How to cite MapReader\n\nIf you use MapReader in your work, please cite: Our [JOSS paper] https://doi.org/10.21105/joss.06434 - to acknowledge the software irrespective of the version you used.\n\nOur [Zenodo record] https://zenodo.org/records/13643609 - to acknowledge the specific version of the software you used (or use the \"Cite all versions?\" option if your specific version isn't there).\n\nOptionally, our [SIGSPATIAL paper] https://dl.acm.org/doi/10.1145/3557919.3565812 to acknowledge the development of the software and the research behind it.\n\n## Acknowledgements\n\nThis work was supported by Living with Machines (AHRC grant AH/S01179X/1), Data/Culture (AHRC grant AH/Y00745X/1) and The Alan Turing Institute (EPSRC grant EP/N510129/1).\n\nLiving with Machines, funded by the UK Research and Innovation (UKRI) Strategic Priority Fund, is a multidisciplinary collaboration delivered by the Arts and Humanities Research Council (AHRC), with The Alan Turing Institute, the British Library and the Universities of Cambridge, East Anglia, Exeter, and Queen Mary University of London.\n\nMaps above reproduced with the permission of the National Library of Scotland https://maps.nls.uk/index.html",
+      "section": "MapReader (part 4)",
+      "repo": "108_MapReader",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.046163Z",
+    "updated_at": "2025-11-04T18:23:09.518090Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23416,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1827,
+    "annotations": [
+      {
+        "id": 10601,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:23:11.138756Z",
+        "updated_at": "2025-11-04T18:23:11.138770Z",
+        "draft_created_at": null,
+        "lead_time": 1.466,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "df202e53-2b42-4a2e-85e7-ab7a1a60310a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1827,
+        "project": 23416,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Contributors",
+      "section": "MapReader (part 5)",
+      "repo": "108_MapReader",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.046183Z",
+    "updated_at": "2025-11-04T18:23:11.167125Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23416,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1828,
+    "annotations": [
+      {
+        "id": 10602,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:23:12.302761Z",
+        "updated_at": "2025-11-04T18:23:12.302807Z",
+        "draft_created_at": null,
+        "lead_time": 0.986,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "1fea153e-b7a6-492d-a91c-ff1b9d288716",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1828,
+        "project": 23416,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Katie McDonough🔬 🤔 📖 📆 👀 📢 ✅  Daniel C.S. Wilson🔬 🤔 📢 📖",
+      "section": "MapReader (part 6)",
+      "repo": "108_MapReader",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.046203Z",
+    "updated_at": "2025-11-04T18:23:12.330767Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23416,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1829,
+    "annotations": [
+      {
+        "id": 10603,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:23:13.161707Z",
+        "updated_at": "2025-11-04T18:23:13.161749Z",
+        "draft_created_at": null,
+        "lead_time": 0.687,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ec09e551-bdd6-4998-ad47-c18c542a19a5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1829,
+        "project": 23416,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Kasra Hosseini💻 🤔 🔬 👀 📢  Rosie Wood💻 📖 🤔 📢 ✅ 👀 🚧 🔬",
+      "section": "MapReader (part 7)",
+      "repo": "108_MapReader",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.046222Z",
+    "updated_at": "2025-11-04T18:23:13.192107Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23416,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1830,
+    "annotations": [
+      {
+        "id": 10604,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:23:14.262742Z",
+        "updated_at": "2025-11-04T18:23:14.262811Z",
+        "draft_created_at": null,
+        "lead_time": 0.839,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b934c20d-3256-4929-b2dd-54157005e462",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1830,
+        "project": 23416,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Kalle Westerling💻 📖 🚧 👀 📢  Chris Fleet🔣  Kaspar Beelen🤔 👀 🔬",
+      "section": "MapReader (part 8)",
+      "repo": "108_MapReader",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.046242Z",
+    "updated_at": "2025-11-04T18:23:14.295275Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23416,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1831,
+    "annotations": [
+      {
+        "id": 10605,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:23:15.143095Z",
+        "updated_at": "2025-11-04T18:23:15.143111Z",
+        "draft_created_at": null,
+        "lead_time": 0.637,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "bc303795-693a-45c2-a43f-60c882d6303c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1831,
+        "project": 23416,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Andy Smith💻 📖 🧑‍🏫 👀  Adam Cox💻 ⚠️",
+      "section": "MapReader (part 9)",
+      "repo": "108_MapReader",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.046261Z",
+    "updated_at": "2025-11-04T18:23:15.171570Z",
+    "inner_id": 9,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23416,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1832,
+    "annotations": [
+      {
+        "id": 10606,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:23:16.289512Z",
+        "updated_at": "2025-11-04T18:23:16.289536Z",
+        "draft_created_at": null,
+        "lead_time": 0.962,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "787ec797-489b-4608-999c-a3deaa7b5a24",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1832,
+        "project": 23416,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "",
+      "section": "MapReader (part 10)",
+      "repo": "108_MapReader",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.046280Z",
+    "updated_at": "2025-11-04T18:23:16.319679Z",
+    "inner_id": 10,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23416,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/SS-NES/code-auditor",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/SS-NES/code-auditor/zipball/main",
+  "author": "SS-NES",
+  "dateCreated": "2024-10-21T13:20:21Z",
+  "dateModified": "2025-05-22T11:57:14Z",
+  "keywords": [
+    "code-quality",
+    "conformity-assessment",
+    "software-development"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "A package and command-line utility to audit code quality and compliance to the best practices.",
+  "identifier": 876141422,
+  "name": "SS-NES/code-auditor",
+  "issueTracker": "https://api.github.com/repos/SS-NES/code-auditor/issues",
+  "readme": "https://github.com/SS-NES/code-auditor/blob/main/README.rst"
+}

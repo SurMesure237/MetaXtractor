@@ -1,0 +1,643 @@
+[
+  {
+    "id": 1333,
+    "annotations": [
+      {
+        "id": 11989,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 461,
+              "end": 470,
+              "text": "CC-BY-4.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "WvcbIeFqc5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:23:28.876991Z",
+        "updated_at": "2025-11-09T07:23:28.877002Z",
+        "draft_created_at": null,
+        "lead_time": 7.987,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "b2182fb8-073f-4e88-8a0c-4c34ab9afc45",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1333,
+        "project": 23326,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "SPDX-FileCopyrightText: 2021 - 2022 dv4all SPDX-FileCopyrightText: 2021 - 2025 Ewan Cahen (Netherlands eScience Center)  SPDX-FileCopyrightText: 2021 - 2025 Netherlands eScience Center SPDX-FileCopyrightText: 2021 Jesús García Gonzalez (Netherlands eScience Center)  SPDX-FileCopyrightText: 2022 - 2024 Christian Meeßen (GFZ)  SPDX-FileCopyrightText: 2022 - 2024 Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences\n\nSPDX-License-Identifier: CC-BY-4.0 -->",
+      "section": "Introduction",
+      "repo": "443_Helmholtz_Research_Software_Directory",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.796851Z",
+    "updated_at": "2025-11-09T07:23:28.905990Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23326,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1334,
+    "annotations": [
+      {
+        "id": 11992,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 189,
+              "end": 228,
+              "text": "https://research-software-directory.org",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "lWnzQaWGoA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:24:17.293188Z",
+        "updated_at": "2025-11-09T07:24:17.293206Z",
+        "draft_created_at": "2025-11-09T07:24:16.354098Z",
+        "lead_time": 43.364000000000004,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "e55f386c-dd95-48a9-a4b5-3ef80e908c64",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1334,
+        "project": 23326,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "RSD-as-a-service\n\n## Our mission: To promote the visibility, impact and reuse of research software\n\nThis repo contains the new RSD-as-a-service implementation. The service can be found at: https://research-software-directory.org",
+      "section": "RSD-as-a-service (part 1)",
+      "repo": "443_Helmholtz_Research_Software_Directory",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.796888Z",
+    "updated_at": "2025-11-09T07:24:17.322905Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23326,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1335,
+    "annotations": [
+      {
+        "id": 11991,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:23:58.661024Z",
+        "updated_at": "2025-11-09T07:23:58.661043Z",
+        "draft_created_at": null,
+        "lead_time": 0.635,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "45d8c98e-276a-427a-b5eb-12f3f06a7eb7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1335,
+        "project": 23326,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Badges",
+      "section": "RSD-as-a-service (part 2)",
+      "repo": "443_Helmholtz_Research_Software_Directory",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.796918Z",
+    "updated_at": "2025-11-09T07:23:58.691515Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23326,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1336,
+    "annotations": [
+      {
+        "id": 11993,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 628,
+              "end": 672,
+              "text": "https://zenodo.org/badge/latestdoi/413814951",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "UVepQ5CUSs",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 210,
+              "end": 252,
+              "text": "https://opensource.org/licenses/Apache-2.0",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "mBIW62Luml",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 370,
+              "end": 417,
+              "text": "https://creativecommons.org/licenses/by-sa/3.0/",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "PeIzH1yJJB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 422,
+              "end": 471,
+              "text": "http://creativecommons.org/publicdomain/zero/1.0/",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "isny_q2lRN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 476,
+              "end": 511,
+              "text": "https://opensource.org/licenses/MIT",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "56062clWkO",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 321,
+              "end": 365,
+              "text": "https://creativecommons.org/licenses/by/4.0/",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "SCLQUO2wYS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:26:26.598655Z",
+        "updated_at": "2025-11-10T02:15:17.483312Z",
+        "draft_created_at": "2025-11-09T07:24:27.456913Z",
+        "lead_time": 139.32999999999998,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "21f42e3d-a0d6-4845-8408-539c7b5fdaf1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1336,
+        "project": 23326,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| [fair-software.nl] https://fair-software.nl/ recommendations | | | :-- | :-- | | (1/5) code repository | [](https://github.com/research-software-directory/RSD-as-a-service) | | (2/5) source code license | [](https://opensource.org/licenses/Apache-2.0) | | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; images & docs licenses | [](https://creativecommons.org/licenses/by/4.0/) [](https://creativecommons.org/licenses/by-sa/3.0/) [](http://creativecommons.org/publicdomain/zero/1.0/) [](https://opensource.org/licenses/MIT) | | (3/5) community registry | [](https://research-software-directory.org/software/rsd-ng) | | (4/5) citation | [](https://zenodo.org/badge/latestdoi/413814951) | | (5/5) checklist | [](https://bestpractices.coreinfrastructure.org/projects/6336) | | overall | [](https://fair-software.eu) | | Other best practices | &nbsp; |",
+      "section": "RSD-as-a-service (part 3)",
+      "repo": "443_Helmholtz_Research_Software_Directory",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.796941Z",
+    "updated_at": "2025-11-10T02:15:17.518582Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23326,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1337,
+    "annotations": [
+      {
+        "id": 11994,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:26:39.688367Z",
+        "updated_at": "2025-11-09T07:26:39.688381Z",
+        "draft_created_at": null,
+        "lead_time": 12.878,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f07e77ad-bff0-4851-a052-a7124edc3bda",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1337,
+        "project": 23326,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| Contributor covenant | [](CODE_OF_CONDUCT.md) | | Contribution guidelines | [](CONTRIBUTING.md) | | Tests | &nbsp; | | Citation metadata consistency | [](https://github.com/research-software-directory/RSD-as-a-service/actions/workflows/cff_validate.yml) |  | Frontend | [](https://github.com/research-software-directory/RSD-as-a-service/actions/workflows/frontend_tests.yml) [](https://sonarcloud.io/summary/overall?id=rsd-frontend) |  | Backend | [](https://github.com/research-software-directory/RSD-as-a-service/actions/workflows/backend_tests.yml) | | Authentication | [](https://github.com/research-software-directory/RSD-as-a-service/actions/workflows/authentication_tests.yml) [](https://sonarcloud.io/summary/overall?id=nl.research-software%3Aauthentication) |",
+      "section": "RSD-as-a-service (part 4)",
+      "repo": "443_Helmholtz_Research_Software_Directory",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.796963Z",
+    "updated_at": "2025-11-09T07:26:39.715121Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23326,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1338,
+    "annotations": [
+      {
+        "id": 11995,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:26:43.647743Z",
+        "updated_at": "2025-11-09T07:26:43.647756Z",
+        "draft_created_at": null,
+        "lead_time": 3.79,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "9ce71faf-c11e-4f61-88c0-44bec49d7860",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1338,
+        "project": 23326,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| Scrapers | [](https://github.com/research-software-directory/RSD-as-a-service/actions/workflows/scrapers_tests.yml) [](https://sonarcloud.io/summary/overall?id=nl.research-software%3Ascrapers) |  | End-to-end | [](https://github.com/research-software-directory/RSD-as-a-service/actions/workflows/e2e_tests_chrome.yml) |",
+      "section": "RSD-as-a-service (part 5)",
+      "repo": "443_Helmholtz_Research_Software_Directory",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.796987Z",
+    "updated_at": "2025-11-09T07:26:43.678011Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23326,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1339,
+    "annotations": [
+      {
+        "id": 11996,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 120,
+              "end": 126,
+              "text": "docker",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "D98uHlfey4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 131,
+              "end": 148,
+              "text": "docker compose V2",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "gkJVrqQLAi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:28:54.192719Z",
+        "updated_at": "2025-11-09T07:28:54.192734Z",
+        "draft_created_at": "2025-11-09T07:27:03.081205Z",
+        "lead_time": 130.154,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "13cb307f-ab14-4b4f-8092-7a303a323d12",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1339,
+        "project": 23326,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## How to build and run the RSD\n\n### Building from source code\n\nBefore installing the dependencies ensure that you have docker and docker compose V2 (see the [documentation of Docker Compose] https://docs.docker.com/compose/compose-v2/) locally.\n\nYou will also need make to automate the configuration and installation process.\n\nSet the required environment variables:\n\nCopy the file .env.example to .env file at the root of the project  and fill the secrets and passwords. Check if the secrets are correct.  The Makefile will take care about creating an appropriate frontend/.env.local  from the .env file, needed only when developing the frontend. Run make install to install all dependencies and build the docker images.\n\n### Running the services",
+      "section": "RSD-as-a-service (part 6)",
+      "repo": "443_Helmholtz_Research_Software_Directory",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.797009Z",
+    "updated_at": "2025-11-09T07:28:54.224380Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23326,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1340,
+    "annotations": [
+      {
+        "id": 11997,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:35:21.000634Z",
+        "updated_at": "2025-11-09T07:35:21.000649Z",
+        "draft_created_at": null,
+        "lead_time": 386.515,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "fc84337e-0b79-438c-81a3-a4ee1359fe8f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1340,
+        "project": 23326,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Start the containers via the make file make start\n\nOR directly use docker compose docker compose up\n\n### Stopping the services\n\nStop all services via the makefile make stop\n\nOR directly use docker compose docker compose down\n\n## Developing the RSD\n\nWe discourage the use of Safari for developing the RSD. The reason is that it is not possible to sign in with Safari on localhost, because Safari handles [secure cookies differently] https://codedamn.com/news/web-development/safari-cookie-is-not-being-set from other browsers.\n\nWhen you need DOIs to test out functionality involving mentions, some lists can be found at [pull request #808] https://github.com/research-software-directory/RSD-as-a-service/pull/808.\n\nFor more details on developing the RSD, see the respective readmes in the varying directories.\n\n### Developing the frontend\n\nYou can run frontend in development mode as docker a service (called frontend-dev) that enables hot reloading. By default this frontend-dev service will not be started automatically. For more detailed instructions see [frontend/README.md] frontend/README.md.\n\nRun frontend development using docker at http://localhost:3000 make frontend-dev\n\nOR use docker compose directly docker compose -f docker-compose.yml -f docker-compose.dev.yml up\n\nIt is possible to directly run the frontend too (without using a docker container). You must then have Node.js installed, see the Dockerfile in the frontend directory for the version in use.\n\nBuild and install all dependencies. make install\n\nRun the frontend and the documentation on localhost:3000 and localhost:3030 make dev",
+      "section": "Start the containers via the make file + OR directly use docker compose + Stop all services via the makefile (and 5 more)",
+      "repo": "443_Helmholtz_Research_Software_Directory",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.797033Z",
+    "updated_at": "2025-11-09T07:35:21.028508Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23326,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1341,
+    "annotations": [
+      {
+        "id": 11998,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 314,
+              "end": 324,
+              "text": "Apache-2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "JX1D4IwrEj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 375,
+              "end": 384,
+              "text": "CC BY-4.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "wUZw8jQIKi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 464,
+              "end": 471,
+              "text": "CC0-1.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "R7BZjH5sS0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:35:41.505001Z",
+        "updated_at": "2025-11-09T07:35:41.505021Z",
+        "draft_created_at": "2025-11-09T07:35:38.054385Z",
+        "lead_time": 20.305,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "84f2eccb-e379-4597-b2b9-013177ad91d5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1341,
+        "project": 23326,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Stop all services with docker compose down make down\n\n## License\n\nThe content of this repository is licensed under several licenses. We follow the [REUSE specification] https://reuse.software/ to indicate which license applies to the files specifically. Here are some general hints:\n\nSource code is licensed under Apache-2.0\n\nDocumentation and most images are licensed under CC BY-4.0\n\nSome files with trivial content, e.g. configuration files, are licensed under CC0-1.0\n\nFor more details on the licenses, please have a look at the file headers or associated *.license files. The terms of all used licenses are located in the [LICENSES] ./LICENSES/ directory.",
+      "section": "Stop all services with `docker compose down`",
+      "repo": "443_Helmholtz_Research_Software_Directory",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.797056Z",
+    "updated_at": "2025-11-09T07:35:41.537101Z",
+    "inner_id": 9,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23326,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

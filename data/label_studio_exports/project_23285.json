@@ -1,0 +1,1175 @@
+[
+  {
+    "id": 1117,
+    "annotations": [
+      {
+        "id": 11178,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 156,
+              "end": 191,
+              "text": "https://doi.org/10.21105/joss.02260",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "PfZbaJ7VMs",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:34:45.859193Z",
+        "updated_at": "2025-11-06T05:34:45.859209Z",
+        "draft_created_at": "2025-11-06T05:34:22.865090Z",
+        "lead_time": 38.063,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "53b18ffd-e492-4c34-8c8d-d36b97e9b04f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1117,
+        "project": 23285,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](./LICENSE)|[](https://en.wikipedia.org/wiki/C%2B%2B#Standardization)|[](https://ginkgo-project.github.io/ginkgo-generated-documentation/doc/develop/)|[](https://doi.org/10.21105/joss.02260)|[](https://www.bestpractices.dev/projects/8037) |:-:|:-:|:-:|:-:|:-:|\n\n[](https://gitlab.com/ginkgo-project/ginkgo-public-ci/-/pipelines?page=1&scope=branches&ref=develop)|[](https://github.com/ginkgo-project/ginkgo/actions/workflows/osx.yml)|[](https://codecov.io/gh/ginkgo-project/ginkgo)|[](https://sonarcloud.io/dashboard?id=ginkgo-project_ginkgo)|[](https://sonarcloud.io/dashboard?id=ginkgo-project_ginkgo)|[](https://my.cdash.org/index.php?project=Ginkgo+Project) |:-:|:-:|:-:|:-:|:-:|:-:|",
+      "section": "Introduction (part 1)",
+      "repo": "304_Ginkgo",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.003069Z",
+    "updated_at": "2025-11-06T05:34:45.882992Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23285,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1118,
+    "annotations": [
+      {
+        "id": 11179,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:34:54.069260Z",
+        "updated_at": "2025-11-06T05:34:54.069282Z",
+        "draft_created_at": null,
+        "lead_time": 8.033,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "9835e173-5f4a-4c93-bf46-3f04fc167af3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1118,
+        "project": 23285,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Ginkgo is a high-performance numerical linear algebra library for many-core systems, with a focus on solution of sparse linear systems. It is implemented using modern C++ (you will need an at least C++17 compliant compiler to build it), with GPU kernels implemented for NVIDIA, AMD and Intel GPUs.\n\n[Prerequisites] #prerequisites | [Building Ginkgo] #building-and-installing-ginkgo | [Tests, Examples, Benchmarks] #tests-examples-and-benchmarks | [Bug reports] #bug-reports-and-support | [Licensing] #licensing | [Contributing] #contributing-to-ginkgo | [Citing] #citing-ginkgo",
+      "section": "Introduction (part 2)",
+      "repo": "304_Ginkgo",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.003119Z",
+    "updated_at": "2025-11-06T05:34:54.100386Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23285,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1119,
+    "annotations": [
+      {
+        "id": 11180,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 19,
+              "end": 24,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "Y3EtnFaIqj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 29,
+              "end": 35,
+              "text": "Mac OS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "bGwawLlhuO",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 78,
+              "end": 83,
+              "text": "C++17",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "pQOXK5yI24",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 656,
+              "end": 661,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "i21ZLjaM_S",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 766,
+              "end": 774,
+              "text": "Mac Os X",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "Afy7vMnZIJ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1313,
+              "end": 1320,
+              "text": " oneMKL",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "z66rKUNT96",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1321,
+              "end": 1328,
+              "text": " oneDPL",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "vCVJGjK7E6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1602,
+              "end": 1612,
+              "text": "clang-tidy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "zyP0SQnDtp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1678,
+              "end": 1682,
+              "text": "iwyu",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "7lGdchTO1r",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 64,
+              "end": 69,
+              "text": "cmake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "qq7hewNpoj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 70,
+              "end": 75,
+              "text": "3.16+",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "SAx6BXjoeW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 114,
+              "end": 117,
+              "text": "gcc",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "OBR82WGPeh",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 118,
+              "end": 120,
+              "text": "7+",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "yl9q9iVgpu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 124,
+              "end": 129,
+              "text": "clang",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "6qrOgMnDJs",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 130,
+              "end": 132,
+              "text": "5+",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "7RXzukwzpA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 160,
+              "end": 171,
+              "text": "Apple Clang",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "gRoIvkhszA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 172,
+              "end": 176,
+              "text": "15.0",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "rMJ2yglh4i",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 225,
+              "end": 238,
+              "text": "Cray Compiler",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ZWe6H1Xnjn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 239,
+              "end": 246,
+              "text": "14.0.1+",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "VYSBxjsWks",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 250,
+              "end": 264,
+              "text": "NVHPC Compiler",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "spF5OGcWDM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 265,
+              "end": 270,
+              "text": "22.7+",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "itXJQglnCG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 345,
+              "end": 350,
+              "text": "cmake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "GxFSkGJf4H",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 351,
+              "end": 356,
+              "text": "3.18+",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "VCbIhEW-XL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 425,
+              "end": 430,
+              "text": "cmake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "HaHKxy6mN1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 431,
+              "end": 436,
+              "text": "3.22+",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "TPEYwLC_JM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 441,
+              "end": 445,
+              "text": "CUDA",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ha34pQR3_F",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 446,
+              "end": 451,
+              "text": "11.0+",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "wWsPlx85gK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 457,
+              "end": 462,
+              "text": "NVHPC",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "FvjxIyQT0E",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 471,
+              "end": 476,
+              "text": "22.7+",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "AsIzEyeXcA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1107,
+              "end": 1112,
+              "text": "cmake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "7acEH8-Cux",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1113,
+              "end": 1118,
+              "text": "3.21+",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "70H5PG3YlS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 921,
+              "end": 925,
+              "text": "ROCm",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "HT36rzb_DR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 926,
+              "end": 930,
+              "text": "4.5+",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "D3-weYqCEF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1200,
+              "end": 1206,
+              "text": "oneAPI",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "-W1mTafqXx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1207,
+              "end": 1214,
+              "text": "2023.1+",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "mU6sxEtF_p",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1400,
+              "end": 1403,
+              "text": "MPI",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "lxaxVchuKB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1404,
+              "end": 1408,
+              "text": "3.1+",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "XWES9iaObi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1542,
+              "end": 1554,
+              "text": "clang-format",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ModTR08lTo",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1555,
+              "end": 1557,
+              "text": "14",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "4RRROPEMIU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:37:34.248929Z",
+        "updated_at": "2025-11-16T04:49:44.379161Z",
+        "draft_created_at": "2025-11-06T05:35:02.759245Z",
+        "lead_time": 348.387,
+        "prediction": {},
+        "result_count": 39,
+        "unique_id": "6715c479-8cf0-454f-849a-2a929ddb71ac",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1119,
+        "project": 23285,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Prerequisites\n\n### Linux and Mac OS\n\nFor Ginkgo core library:\n\n_cmake 3.16+_  C++17 compliant compiler, one of:  _gcc 7+_  _clang 5+_  _Intel compiler 2019+_  _Apple Clang 15.0_ is tested. Earlier versions might also work.  _Cray Compiler 14.0.1+_  _NVHPC Compiler 22.7+_\n\nThe Ginkgo CUDA module has the following __additional__ requirements:\n\n_cmake 3.18+_ (If CUDA was installed through the NVIDIA HPC Toolkit, we require _cmake 3.22+_)  _CUDA 11.0+_ or _NVHPC Package 22.7+_  Any host compiler restrictions your version of CUDA may impose also apply  here. For the newest CUDA version, this information can be found in the  [CUDA installation guide for Linux] https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html  or [CUDA installation guide for Mac Os X] https://docs.nvidia.com/cuda/cuda-installation-guide-mac-os-x/index.html\n\nThe Ginkgo HIP module has the following __additional__ requirements:\n\n_ROCm 4.5+_  the HIP, hipBLAS, hipSPARSE, hip/rocRAND and rocThrust packages compiled with the ROCm backend  if the hipFFT package is available, it is used to implement the FFT LinOps.  _cmake 3.21+_\n\nThe Ginkgo DPC++(SYCL) module has the following __additional__ requirements:\n\n_oneAPI 2023.1+_  Set dpcpp or icpx as the CMAKE_CXX_COMPILER  The following oneAPI packages should be available:  oneMKL  oneDPL\n\nThe Ginkgo MPI module has the following __additional__ requirements:\n\nMPI 3.1+, ideally GPU-Aware, for best performance\n\nIn addition, if you want to contribute code to Ginkgo, you will also need the following:\n\n_clang-format 14_ (downloaded automatically by pre-commit)  _clang-tidy_ (optional, when setting the flag -DGINKGO_WITH_CLANG_TIDY=ON)  _iwyu_ (Include What You Use, optional, when setting the flag -DGINKGO_WITH_IWYU=ON)",
+      "section": "Prerequisites (part 1)",
+      "repo": "304_Ginkgo",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.003144Z",
+    "updated_at": "2025-11-16T04:49:44.414755Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23285,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1120,
+    "annotations": [
+      {
+        "id": 11181,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 4,
+              "end": 11,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "q57W7S1exb",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 28,
+              "end": 33,
+              "text": "C++17",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "JTnZqWg6Dm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 204,
+              "end": 227,
+              "text": "Microsoft Visual Studio",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "iupeBLjngC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 81,
+              "end": 104,
+              "text": "Microsoft Visual Studio",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "MltYiN7H4c",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 570,
+              "end": 575,
+              "text": "MinGW",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "dbXWatla_r",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 14,
+              "end": 19,
+              "text": "cmake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "fnAEqRRr8-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 20,
+              "end": 25,
+              "text": "3.16+",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "BtEyw8AyxQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 71,
+              "end": 74,
+              "text": "gcc",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "yb52NKAwRZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 75,
+              "end": 77,
+              "text": "7+",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "KmxCPyfzNf",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 190,
+              "end": 194,
+              "text": "CUDA",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "9zrrRCXA9p",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 195,
+              "end": 200,
+              "text": "11.0+",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "NdZYNMNuT5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 110,
+              "end": 115,
+              "text": "2019+",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "pObMZAL9kU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:39:07.612002Z",
+        "updated_at": "2025-11-16T04:50:54.969031Z",
+        "draft_created_at": "2025-11-06T05:37:42.932757Z",
+        "lead_time": 161.981,
+        "prediction": {},
+        "result_count": 12,
+        "unique_id": "2bc90b9b-95b0-4799-813e-ec4830c6f11f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1120,
+        "project": 23285,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Windows\n\n_cmake 3.16+_  C++17 compliant 64-bit compiler:  _MinGW : gcc 7+_  _Microsoft Visual Studio : VS 2019+_\n\nThe Ginkgo CUDA module has the following __additional__ requirements:\n\n_CUDA 11.0+_  _Microsoft Visual Studio_  Any host compiler restrictions your version of CUDA may impose also apply  here. For the newest CUDA version, this information can be found in the  [CUDA installation guide for Windows] https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html\n\nThe Ginkgo OMP module has the following __additional__ requirements:  _MinGW_\n\nIn these environments, two problems can be encountered, the solution for which is described in the [windows section in INSTALL.md] INSTALL.md#building-ginkgo-in-windows:  ld: error: export ordinal too large needs the compilation flag -O1  cc1plus.exe: out of memory allocating 65536 bytes requires a modification of the environment\n\n__NOTE:__ Some restrictions will also apply on the version of C and C++ standard libraries installed on the system. This needs further investigation.",
+      "section": "Prerequisites (part 2)",
+      "repo": "304_Ginkgo",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.003170Z",
+    "updated_at": "2025-11-16T04:50:55.010367Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23285,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1121,
+    "annotations": [
+      {
+        "id": 11182,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:39:17.382061Z",
+        "updated_at": "2025-11-06T05:39:17.382074Z",
+        "draft_created_at": null,
+        "lead_time": 9.559,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "04b36c4b-dde4-4665-b774-055a49cc9d0e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1121,
+        "project": 23285,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Building and Installing Ginkgo\n\nTo build Ginkgo, you can use the standard CMake procedure.\n\nmkdir build; cd build cmake -G \"Unix Makefiles\" .. && cmake --build . cmake --install .\n\nBy default, GINKGO_BUILD_REFERENCE is enabled. You should be able to run examples with this executor. By default, Ginkgo tries to enable the relevant modules depending on your machine environment (present of CUDA, ...). You can also explicitly compile with the OpenMP, CUDA, HIP or DPC++(SYCL) modules enabled to run the examples with these executors.\n\nPlease refer to the [Installation page] ./INSTALL.md for more details.\n\nTip: After installation, in your CMake project, Ginkgo can be added with find_package(Ginkgo) and the the target that is exported is Ginkgo::ginkgo. An example can be found in the [test_install] test/test_install/CMakeLists.txt.\n\nTests, Examples and Benchmarks\n\n### Testing\n\nGinkgo does comprehensive unit tests using Google Tests. These tests are enabled by default and can be disabled if necessary by passing the -DGINKGO_BUILD_TESTS=NO to the cmake command. More details about running tests can be found in the [TESTING.md page] ./TESTING.md.\n\n### Running examples\n\nVarious examples are available for you to understand and play with Ginkgo within the examples/ directory. They can be compiled by passing the -DGINKGO_BUILD_EXAMPLES=ON to the cmake command. Each of the examples have commented code with explanations and this can be found within the [online documentation] https://ginkgo-project.github.io/ginkgo-generated-documentation/doc/develop/Examples.html.\n\n### Benchmarking\n\nA unique feature of Ginkgo is the ability to run benchmarks and view your results with the help of the [Ginkgo Performance Explorer (GPE)] https://ginkgo-project.github.io/gpe/.\n\nMore details about this can be found in the [BENCHMARKING.md page] ./BENCHMARKING.md",
+      "section": "Building and Installing Ginkgo + Tests, Examples and Benchmarks",
+      "repo": "304_Ginkgo",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.003199Z",
+    "updated_at": "2025-11-06T05:39:17.407945Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23285,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1122,
+    "annotations": [
+      {
+        "id": 11183,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 525,
+              "end": 545,
+              "text": "3-clause BSD license",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "lHodrbdZ-Y",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1454,
+              "end": 1474,
+              "text": "BSD-3-Clause license",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "eKtMU7LO3_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:39:59.309704Z",
+        "updated_at": "2025-11-06T05:39:59.309719Z",
+        "draft_created_at": "2025-11-06T05:39:27.344160Z",
+        "lead_time": 41.76,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "c247f7ae-dea3-43fa-b34d-640a19f56e1c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1122,
+        "project": 23285,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Bug reports and Support\n\nIf you have any questions about using Ginkgo, please use [Github discussions] https://github.com/ginkgo-project/ginkgo/discussions.\n\nIf you would like to request a feature, or have encountered a bug, please [create an issue] https://github.com/ginkgo-project/ginkgo/issues/new. Please be sure to describe your problem and provide as much information as possible.\n\nYou can also send an email to [Ginkgo's main email address] mailto:ginkgo.library@gmail.com.\n\nLicensing\n\nGinkgo is available under the [3-clause BSD license] LICENSE. All contributions to the project are added under this license.\n\nDepending on the configuration options used when building Ginkgo, third party software may be pulled as additional dependencies, which have their own licensing conditions. Refer to [ABOUT-LICENSING.md] ABOUT-LICENSING.md for details.\n\nContributing to Ginkgo\n\nWe are glad that that you would like to contribute to Ginkgo and we are happy to help you with any questions you may have.\n\nIf you are contributing for the first time, please add yourself to the list of external contributors with the following info\n\nName Surname Institution(s)\n\n#### Declaration\n\nGinkgo's source is distributed with a BSD-3 clause license. By contributing to Ginkgo and adding yourself to the contributors list, you agree to the following statement (also in [contributors.txt] contributors.txt):\n\nI hereby place all my contributions in this codebase under a BSD-3-Clause license, as specified in the repository's LICENSE file.\n\n#### Contribution Guidelines\n\nWhen contributing to Ginkgo, to ease the review process, please follow the guidelines mentioned in [CONTRIBUTING.md] CONTRIBUTING.md.\n\nIt also contains other general recommendations such as writing proper commit messages, understanding Ginkgo's library design, relevant C++ information etc.",
+      "section": "Bug reports and Support + Licensing + Contributing to Ginkgo",
+      "repo": "304_Ginkgo",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.003225Z",
+    "updated_at": "2025-11-06T05:39:59.335641Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23285,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1123,
+    "annotations": [
+      {
+        "id": 11184,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 134,
+              "end": 868,
+              "text": "@article{ginkgo-toms-2022, title = {{Ginkgo: A Modern Linear Operator Algebra Framework for High Performance Computing}}, volume = {48}, copyright = {All rights reserved}, issn = {0098-3500}, shorttitle = {Ginkgo}, url = {https://doi.org/10.1145/3480935}, doi = {10.1145/3480935}, number = {1}, urldate = {2022-02-17}, journal = {ACM Transactions on Mathematical Software}, author = {Anzt, Hartwig and Cojean, Terry and Flegar, Goran and Göbel, Fritz and Grützmacher, Thomas and Nayak, Pratik and Ribizel, Tobias and Tsai, Yuhsiang Mike and Quintana-Ortí, Enrique S.}, month = feb, year = {2022}, keywords = {ginkgo, healthy software lifecycle, High performance computing, multi-core and manycore architectures}, pages = {2:1--2:33} }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "6tvnGS7qxm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:40:57.065231Z",
+        "updated_at": "2025-11-06T05:40:57.065250Z",
+        "draft_created_at": "2025-11-06T05:40:43.710064Z",
+        "lead_time": 57.579,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "f483517e-dd57-4166-9a4a-852d9e5db496",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1123,
+        "project": 23285,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Citing Ginkgo\n\nThe main Ginkgo paper describing Ginkgo's purpose, design and interface is available through the following reference:\n\n@article{ginkgo-toms-2022, title = {{Ginkgo: A Modern Linear Operator Algebra Framework for High Performance Computing}}, volume = {48}, copyright = {All rights reserved}, issn = {0098-3500}, shorttitle = {Ginkgo}, url = {https://doi.org/10.1145/3480935}, doi = {10.1145/3480935}, number = {1}, urldate = {2022-02-17}, journal = {ACM Transactions on Mathematical Software}, author = {Anzt, Hartwig and Cojean, Terry and Flegar, Goran and Göbel, Fritz and Grützmacher, Thomas and Nayak, Pratik and Ribizel, Tobias and Tsai, Yuhsiang Mike and Quintana-Ortí, Enrique S.}, month = feb, year = {2022}, keywords = {ginkgo, healthy software lifecycle, High performance computing, multi-core and manycore architectures}, pages = {2:1--2:33} }\n\nFor more information on topical subjects, please refer to the [CITING.md page] CITING.md.",
+      "section": "Citing Ginkgo",
+      "repo": "304_Ginkgo",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.003247Z",
+    "updated_at": "2025-11-06T05:40:57.097773Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23285,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

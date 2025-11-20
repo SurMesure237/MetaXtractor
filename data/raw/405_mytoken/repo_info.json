@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/oidc-mytoken/lib",
+  "programmingLanguage": "Go",
+  "programmingLanguages": [
+    "Go"
+  ],
+  "downloadUrl": "https://api.github.com/repos/oidc-mytoken/lib/zipball/main",
+  "author": "oidc-mytoken",
+  "dateCreated": "2021-04-08T09:30:51Z",
+  "dateModified": "2024-05-13T14:03:30Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "go library for communicating with the mytoken server",
+  "identifier": 355843710,
+  "name": "oidc-mytoken/lib",
+  "issueTracker": "https://api.github.com/repos/oidc-mytoken/lib/issues",
+  "readme": "https://github.com/oidc-mytoken/lib/blob/master/README.md"
+}

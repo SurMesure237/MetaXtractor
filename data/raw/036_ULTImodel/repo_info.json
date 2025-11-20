@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/DLR-VF/ULTImodel",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/DLR-VF/ULTImodel/zipball/main",
+  "author": "DLR-VF",
+  "dateCreated": "2023-04-11T11:55:50Z",
+  "dateModified": "2024-05-24T09:15:55Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": null,
+  "identifier": 626401886,
+  "name": "DLR-VF/ULTImodel",
+  "issueTracker": "https://api.github.com/repos/DLR-VF/ULTImodel/issues",
+  "readme": "https://github.com/DLR-VF/ULTImodel/blob/main/README.md"
+}

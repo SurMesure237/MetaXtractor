@@ -1,0 +1,1230 @@
+[
+  {
+    "id": 1760,
+    "annotations": [
+      {
+        "id": 10642,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:04:34.326446Z",
+        "updated_at": "2025-11-04T19:04:34.326461Z",
+        "draft_created_at": null,
+        "lead_time": 1.868,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b2dc0e83-a23f-4017-a77d-4ab844e066c0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1760,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "____ _ _ _  | _ \\ __ _ | |_ __ _ | | __ _ __| |  | | | | / _ | | __| / _ | | | / _ | / _ |  | |_| | | (_| | | |_ | (_| | | |___ | (_| | | (_| |  |____/ \\__,_| \\__| \\__,_| |_____| \\__,_| \\__,_|  Read me",
+      "section": "Introduction (part 1)",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443004Z",
+    "updated_at": "2025-11-04T19:04:34.354372Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1761,
+    "annotations": [
+      {
+        "id": 10643,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 38,
+              "text": "https://doi.org/10.21105/joss.03262",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "ggwvxR4dpv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 402,
+              "end": 437,
+              "text": "https://opensource.org/licenses/MIT",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "PrtKwr23-l",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 656,
+              "end": 693,
+              "text": "https://doi.org/10.5281/zenodo.808846",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "q9MZWOHCU6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:05:07.809528Z",
+        "updated_at": "2025-11-04T19:05:07.809544Z",
+        "draft_created_at": "2025-11-04T19:04:43.727931Z",
+        "lead_time": 33.303,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "dc9ee7f8-05d8-4f16-b1f8-8ca9ff2873bb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1761,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://doi.org/10.21105/joss.03262) [](https://github.com/datalad/datalad/actions/workflows/test.yml) [](https://ci.appveyor.com/project/mih/datalad/branch/master) [](https://github.com/datalad/datalad/actions/workflows/test_extensions.yml) [](https://github.com/datalad/datalad/actions/workflows/lint.yml) [](https://codecov.io/github/datalad/datalad?branch=master) [](http://datalad.rtfd.org) [](https://opensource.org/licenses/MIT) [](https://GitHub.com/datalad/datalad/releases/) [](https://pypi.org/project/datalad/) [](https://github.com/datalad/datalad/wiki/Testimonials) [](https://github.com/datalad/datalad/blob/master/CODE_OF_CONDUCT.md) [](https://doi.org/10.5281/zenodo.808846) [](https://identifiers.org/RRID:SCR_003931)",
+      "section": "Introduction (part 2)",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443041Z",
+    "updated_at": "2025-11-04T19:05:07.840311Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1762,
+    "annotations": [
+      {
+        "id": 10644,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:05:09.193110Z",
+        "updated_at": "2025-11-04T19:05:09.193138Z",
+        "draft_created_at": null,
+        "lead_time": 1.182,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "22bf76bf-2cf1-445b-ae8e-89e00e8fa41a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1762,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](#contributors-)",
+      "section": "Introduction (part 3)",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443062Z",
+    "updated_at": "2025-11-04T19:05:09.222230Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1763,
+    "annotations": [
+      {
+        "id": 10645,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:05:11.662939Z",
+        "updated_at": "2025-11-04T19:05:11.662979Z",
+        "draft_created_at": null,
+        "lead_time": 2.292,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6dedd0c2-0a3a-4d09-9736-9f0578f9c2c8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1763,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Distribution\n\n[](https://anaconda.org/conda-forge/datalad) [](https://repology.org/project/datalad/versions) [](https://packages.debian.org/stable/datalad) [](https://packages.debian.org/unstable/datalad) [](https://repology.org/project/datalad/versions) [](https://repology.org/project/datalad/versions) [](https://repology.org/project/datalad/versions)",
+      "section": "Introduction (part 4)",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443096Z",
+    "updated_at": "2025-11-04T19:05:11.692427Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1764,
+    "annotations": [
+      {
+        "id": 10646,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 506,
+              "end": 529,
+              "text": "http://docs.datalad.org",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "jNjsHWNriC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:05:54.804448Z",
+        "updated_at": "2025-11-14T13:32:05.216617Z",
+        "draft_created_at": "2025-11-04T19:05:27.971874Z",
+        "lead_time": 58.641000000000005,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "6973b558-526d-4377-87a0-9e291dd9d2fe",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1764,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "10000-ft. overview\n\nDataLad's purpose is to make data management and data distribution more accessible. To do so, it stands on the shoulders of [Git] and [Git-annex] to deliver a decentralized system for data exchange. This includes automated ingestion of data from online portals and exposing it in readily usable form as Git(-annex) repositories - or datasets. However, the actual data storage and permission management remains with the original data provider(s).\n\nThe full documentation is available at http://docs.datalad.org and http://handbook.datalad.org provides a hands-on crash-course on DataLad.\n\nExtensions\n\nA number of extensions are available that provide additional functionality for DataLad. Extensions are separate packages that are to be installed in addition to DataLad. In order to install DataLad customized for a particular domain, one can simply install an extension directly, and DataLad itself will be automatically installed with it. An [annotated list of extensions] http://handbook.datalad.org/extension_pkgs.html is available in the [DataLad handbook] http://handbook.datalad.org.",
+      "section": "10000-ft. overview + Extensions",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443121Z",
+    "updated_at": "2025-11-14T13:32:05.254611Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1765,
+    "annotations": [
+      {
+        "id": 10647,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:05:58.847219Z",
+        "updated_at": "2025-11-04T19:05:58.847240Z",
+        "draft_created_at": null,
+        "lead_time": 3.857,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "7f430e38-d1c2-44cb-94cb-bf849c7da4d9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1765,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Support\n\nThe documentation for this project is found here: http://docs.datalad.org\n\nAll bugs, concerns, and enhancement requests for this software can be submitted here: https://github.com/datalad/datalad/issues\n\nIf you have a problem or would like to ask a question about how to use DataLad, please [submit a question to NeuroStars.org] https://neurostars.org/new-topic?body=-%20Please%20describe%20the%20problem.%0A-%20What%20steps%20will%20reproduce%20the%20problem%3F%0A-%20What%20version%20of%20DataLad%20are%20you%20using%20%28run%20%60datalad%20--version%60%29%3F%20On%20what%20operating%20system%20%28consider%20running%20%60datalad%20plugin%20wtf%60%29%3F%0A-%20Please%20provide%20any%20additional%20information%20below.%0A-%20Have%20you%20had%20any%20luck%20using%20DataLad%20before%3F%20%28Sometimes%20we%20get%20tired%20of%20reading%20bug%20reports%20all%20day%20and%20a%20lil'%20positive%20end%20note%20does%20wonders%29&tags=datalad with a datalad tag. NeuroStars.org is a platform similar to StackOverflow but dedicated to neuroinformatics.\n\nAll previous DataLad questions are available here: http://neurostars.org/tags/datalad/",
+      "section": "Support",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443144Z",
+    "updated_at": "2025-11-04T19:05:58.877116Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1766,
+    "annotations": [
+      {
+        "id": 10648,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 712,
+              "end": 717,
+              "text": "macOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "idpD-T7SyO",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 497,
+              "end": 502,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "xCyn4qrlPN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 702,
+              "end": 707,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "0GHpAa8TNj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 815,
+              "end": 824,
+              "text": "git-annex",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "4Pba2BDK1_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1002,
+              "end": 1012,
+              "text": "virtualenv",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "K-YgoeCp99",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1704,
+              "end": 1713,
+              "text": "MIT/Expat",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "zqa82Xtpix",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 826,
+              "end": 866,
+              "text": "https://git-annex.branchable.com/install",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "_jUOJSKFcK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1014,
+              "end": 1040,
+              "text": "https://virtualenv.pypa.io",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "b4Or1GM-lz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:07:07.469579Z",
+        "updated_at": "2025-11-14T13:32:38.837669Z",
+        "draft_created_at": "2025-11-04T19:06:34.299240Z",
+        "lead_time": 100.615,
+        "prediction": {},
+        "result_count": 8,
+        "unique_id": "b6f40482-00b0-4a5e-8b60-00e3b0b651f8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1766,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Installation\n\n## Debian-based systems\n\nOn Debian-based systems, we recommend enabling [NeuroDebian], via which we provide recent releases of DataLad. Once enabled, just do:\n\napt-get install datalad\n\n## Gentoo-based systems\n\nOn Gentoo-based systems (i.e. all systems whose package manager can parse ebuilds as per the [Package Manager Specification]), we recommend [enabling the ::science overlay], via which we provide recent releases of DataLad. Once enabled, just run:\n\nemerge datalad\n\n## Other Linux'es via conda\n\nconda install -c conda-forge datalad\n\nwill install the most recently released version, and release candidates are available via\n\nconda install -c conda-forge/label/rc datalad\n\n## Other Linux'es, macOS via pip\n\nBefore you install this package, please make sure that you [install a recent version of git-annex] https://git-annex.branchable.com/install. Afterwards, install the latest version of datalad from [PyPI] https://pypi.org/project/datalad. It is recommended to use a dedicated [virtualenv] https://virtualenv.pypa.io:\n\n# Create and enter a new virtual environment (optional)  virtualenv --python=python3 ~/env/datalad  . ~/env/datalad/bin/activate\n\n# Install from PyPI  pip install datalad\n\nBy default, installation via pip installs the core functionality of DataLad, allowing for managing datasets etc. Additional installation schemes are available, so you can request enhanced installation via pip install datalad[SCHEME], where SCHEME could be:\n\ntests\n\nto also install dependencies used by DataLad's battery of unit tests full\n\nto install all dependencies.\n\nMore details on installation and initial configuration can be found in the [DataLad Handbook: Installation].\n\nLicense\n\nMIT/Expat",
+      "section": "Installation + License",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443169Z",
+    "updated_at": "2025-11-14T13:32:38.876934Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1767,
+    "annotations": [
+      {
+        "id": 10649,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:07:23.449667Z",
+        "updated_at": "2025-11-04T19:07:23.449687Z",
+        "draft_created_at": null,
+        "lead_time": 15.757,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "33f31c69-0b2f-4c37-b355-0d3a790a1eb3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1767,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Contributing\n\nSee [CONTRIBUTING.md] CONTRIBUTING.md if you are interested in internals or contributing to the project.\n\n## Acknowledgements\n\nThe DataLad project received support through the following grants:\n\nUS-German collaboration in computational neuroscience (CRCNS) project\n\n\"DataGit: converging catalogues, warehouses, and deployment logistics into a  federated 'data distribution'\" (Halchenko/Hanke), co-funded by the US National  Science Foundation (NSF 1429999) and the German Federal Ministry of  Education and Research (BMBF 01GQ1411).\n\nCRCNS US-German Data Sharing \"DataLad - a decentralized system for integrated\n\ndiscovery, management, and publication of digital objects of science\"  (Halchenko/Pestilli/Hanke), co-funded by the US National Science Foundation  (NSF 1912266) and the German Federal Ministry of Education and Research  (BMBF 01GQ1905).\n\nHelmholtz Research Center Jülich, FDM challenge 2022\n\nGerman federal state of Saxony-Anhalt and the European Regional Development\n\nFund (ERDF), Project: Center for Behavioral Brain Sciences, Imaging Platform\n\nReproNim project (NIH 1P41EB019936-01A1).\n\nDeutsche Forschungsgemeinschaft (DFG, German Research Foundation) under grant\n\nSFB 1451 ([431549029] https://gepris.dfg.de/gepris/projekt/431549029,  INF project)\n\nEuropean Union’s Horizon 2020 research and innovation programme under grant\n\nagreements: [Human Brain Project SGA3 (H2020-EU.3.1.5.3, grant no. 945539)] https://cordis.europa.eu/project/id/945539\n\n[VirtualBrainCloud (H2020-EU.3.1.5.3, grant no. 826421)] https://cordis.europa.eu/project/id/826421\n\nMac mini instance for development is provided by [MacStadium] https://www.macstadium.com/.",
+      "section": "Contributing (part 1)",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443194Z",
+    "updated_at": "2025-11-04T19:07:23.479539Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1768,
+    "annotations": [
+      {
+        "id": 10650,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:07:25.222687Z",
+        "updated_at": "2025-11-04T19:07:25.222702Z",
+        "draft_created_at": null,
+        "lead_time": 1.567,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e3b38a6c-4a69-4ac9-aa5e-561d643d5cbf",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1768,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Contributors ✨\n\nThanks goes to these wonderful people ([emoji key] https://allcontributors.org/docs/en/emoji-key):",
+      "section": "Contributing (part 2)",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443215Z",
+    "updated_at": "2025-11-04T19:07:25.249439Z",
+    "inner_id": 9,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1769,
+    "annotations": [
+      {
+        "id": 10651,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:07:25.981270Z",
+        "updated_at": "2025-11-04T19:07:25.981284Z",
+        "draft_created_at": null,
+        "lead_time": 0.583,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "9a8878d5-f8a4-418f-9c1b-c7f05e7a63bb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1769,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "glalteva💻  adswa💻  chrhaeusler💻  soichih💻  mvdoc💻",
+      "section": "Contributing (part 3)",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443236Z",
+    "updated_at": "2025-11-04T19:07:26.007337Z",
+    "inner_id": 10,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1770,
+    "annotations": [
+      {
+        "id": 10652,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:07:26.636637Z",
+        "updated_at": "2025-11-04T19:07:26.636652Z",
+        "draft_created_at": null,
+        "lead_time": 0.487,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "9a9e9f1c-138c-4d99-a2a9-1d1c59adec7e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1770,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "mih💻  yarikoptic💻      loj💻  feilong💻  jhpoelen💻",
+      "section": "Contributing (part 4)",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443257Z",
+    "updated_at": "2025-11-04T19:07:26.665241Z",
+    "inner_id": 11,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1771,
+    "annotations": [
+      {
+        "id": 10653,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:07:27.208769Z",
+        "updated_at": "2025-11-04T19:07:27.208791Z",
+        "draft_created_at": null,
+        "lead_time": 0.404,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f6cd2d54-c958-4a6e-b6f8-7934ebc65eb8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1771,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "andycon💻  nicholsn💻  adelavega💻  kskyten💻      TheChymera💻",
+      "section": "Contributing (part 5)",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443277Z",
+    "updated_at": "2025-11-04T19:07:27.237543Z",
+    "inner_id": 12,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1772,
+    "annotations": [
+      {
+        "id": 10654,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:07:27.806017Z",
+        "updated_at": "2025-11-04T19:07:27.806038Z",
+        "draft_created_at": null,
+        "lead_time": 0.415,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ca8eccd6-8f34-44e6-a230-e42baaf52f0f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1772,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "effigies💻  jgors💻  debanjum💻  nellh💻  emdupre💻  aqw💻",
+      "section": "Contributing (part 6)",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443297Z",
+    "updated_at": "2025-11-04T19:07:27.833125Z",
+    "inner_id": 13,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1773,
+    "annotations": [
+      {
+        "id": 10655,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:07:28.447890Z",
+        "updated_at": "2025-11-04T19:07:28.447905Z",
+        "draft_created_at": null,
+        "lead_time": 0.479,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "fd83c800-284f-42ce-87fc-791dbc62717a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1773,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "vsoch💻  kyleam💻  driusan💻  overlake333💻  akeshavan💻",
+      "section": "Contributing (part 7)",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443317Z",
+    "updated_at": "2025-11-04T19:07:28.475894Z",
+    "inner_id": 14,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1774,
+    "annotations": [
+      {
+        "id": 10656,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:07:29.176395Z",
+        "updated_at": "2025-11-04T19:07:29.176414Z",
+        "draft_created_at": null,
+        "lead_time": 0.554,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "3f458289-2c3f-4bd5-8dbe-eafd63370cfc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1774,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "jwodder💻  bpoldrack💻      yetanothertestuser💻  Christian Mönch💻  Matt Cieslak💻",
+      "section": "Contributing (part 8)",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443337Z",
+    "updated_at": "2025-11-04T19:07:29.204134Z",
+    "inner_id": 15,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1775,
+    "annotations": [
+      {
+        "id": 10657,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:07:29.813244Z",
+        "updated_at": "2025-11-04T19:07:29.813260Z",
+        "draft_created_at": null,
+        "lead_time": 0.465,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6007e43a-a3e8-4270-bee6-323c32f21c0d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1775,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Mika Pflüger💻  Robin Schneider💻  Sin Kim💻  Michael Burgardt💻      Remi Gau💻",
+      "section": "Contributing (part 9)",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443358Z",
+    "updated_at": "2025-11-04T19:07:29.839461Z",
+    "inner_id": 16,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1776,
+    "annotations": [
+      {
+        "id": 10658,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:07:30.494888Z",
+        "updated_at": "2025-11-04T19:07:30.494904Z",
+        "draft_created_at": null,
+        "lead_time": 0.524,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "60ca85c9-bba4-41c3-8488-ad2598815b13",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1776,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Michał Szczepanik💻  Basile💻  Taylor Olson💻  James Kent💻  xgui3783💻",
+      "section": "Contributing (part 10)",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443377Z",
+    "updated_at": "2025-11-04T19:07:30.523673Z",
+    "inner_id": 17,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1777,
+    "annotations": [
+      {
+        "id": 10659,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:07:31.316544Z",
+        "updated_at": "2025-11-04T19:07:31.316562Z",
+        "draft_created_at": null,
+        "lead_time": 0.652,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6f050f8c-e142-46e0-b80f-479aa1619433",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1777,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "tstoeter💻      Stephan Heunis💻  Matt McCormick💻  Vicky C Lau💻  Chris Lamb💻",
+      "section": "Contributing (part 11)",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443398Z",
+    "updated_at": "2025-11-04T19:07:31.346695Z",
+    "inner_id": 18,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1778,
+    "annotations": [
+      {
+        "id": 10660,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:07:32.067431Z",
+        "updated_at": "2025-11-04T19:07:32.067451Z",
+        "draft_created_at": null,
+        "lead_time": 0.568,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "0966cdd2-6692-45bd-850f-fcd396f84be5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1778,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Austin Macdonald💻  Yann Büchau💻  Matthias Riße💻      Aksoo💻  David Guibert💻",
+      "section": "Contributing (part 12)",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443418Z",
+    "updated_at": "2025-11-04T19:07:32.095967Z",
+    "inner_id": 19,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1779,
+    "annotations": [
+      {
+        "id": 10661,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:07:35.115980Z",
+        "updated_at": "2025-11-04T19:07:35.116006Z",
+        "draft_created_at": null,
+        "lead_time": 2.886,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "49e0d59c-0038-46db-bff9-30a479b32ce0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1779,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Alex Shields-Weber💻",
+      "section": "Contributing (part 13)",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443438Z",
+    "updated_at": "2025-11-04T19:07:35.145212Z",
+    "inner_id": 20,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1780,
+    "annotations": [
+      {
+        "id": 10662,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 408,
+              "end": 469,
+              "text": "http://handbook.datalad.org/en/latest/intro/installation.html",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "8A-wHi_nUA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:08:28.465967Z",
+        "updated_at": "2025-11-04T19:08:28.465982Z",
+        "draft_created_at": "2025-11-04T19:08:20.629403Z",
+        "lead_time": 51.894,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "8f0b7d52-bb93-4fdc-9aa4-29342b624386",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1780,
+        "project": 23407,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://www.macstadium.com/)\n\n[Git]: https://git-scm.com [Git-annex]: http://git-annex.branchable.com [setup.py]: https://github.com/datalad/datalad/blob/master/setup.py [NeuroDebian]: http://neuro.debian.net [Package Manager Specification]: https://projects.gentoo.org/pms/latest/pms.html [enabling the ::science overlay]: https://github.com/gentoo/sci#manual-install-\n\n[DataLad Handbook: Installation]: http://handbook.datalad.org/en/latest/intro/installation.html",
+      "section": "Contributing (part 14)",
+      "repo": "257_DataLad",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.443459Z",
+    "updated_at": "2025-11-04T19:08:28.494559Z",
+    "inner_id": 21,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23407,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

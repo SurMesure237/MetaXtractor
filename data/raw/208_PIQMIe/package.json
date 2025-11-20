@@ -1,0 +1,30 @@
+{
+  "name": "PIQMIe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.0.0",
+    "d3": "^4.0.0",
+    "jqGrid": "^5.3.2",
+    "jquery": "^1.11",
+    "jquery-ui": "^1.14",
+    "jquery-form": "^4.2.2",
+    "jquery-validation": "^1.19.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnikz/PIQMIe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arnikz/PIQMIe/issues"
+  },
+  "homepage": "https://github.com/arnikz/PIQMIe#readme"
+}

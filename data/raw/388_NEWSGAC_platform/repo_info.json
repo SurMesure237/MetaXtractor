@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/newsgac/platform",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "HTML",
+    "JavaScript",
+    "CSS",
+    "Shell",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/newsgac/platform/zipball/main",
+  "author": "newsgac",
+  "dateCreated": "2018-12-11T10:01:49Z",
+  "dateModified": "2021-03-16T00:04:50Z",
+  "keywords": [
+    "genre-classification",
+    "machine-learning",
+    "natural-language-processing",
+    "transparency"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Platform for machine learning experiments developed in the project NEWSGAC",
+  "identifier": 161313748,
+  "name": "newsgac/platform",
+  "issueTracker": "https://api.github.com/repos/newsgac/platform/issues",
+  "readme": "https://github.com/newsgac/platform/blob/master/README.md"
+}

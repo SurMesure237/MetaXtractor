@@ -1,0 +1,30 @@
+{
+  "codeRepository": "https://github.com/PDAF/PDAF",
+  "programmingLanguage": "Fortran",
+  "programmingLanguages": [
+    "Fortran",
+    "Makefile",
+    "Python",
+    "Shell",
+    "MATLAB",
+    "C"
+  ],
+  "downloadUrl": "https://api.github.com/repos/PDAF/PDAF/zipball/main",
+  "author": "PDAF",
+  "dateCreated": "2023-03-12T13:49:03Z",
+  "dateModified": "2025-10-19T19:50:42Z",
+  "keywords": [
+    "data-assimilation",
+    "ensemble-kalman-filter",
+    "nonlinear-systems",
+    "particle-filter",
+    "uncertainty-quantification",
+    "variational-method"
+  ],
+  "license": "https://api.github.com/licenses/lgpl-3.0",
+  "description": "Parallel Data Assimilation Framework",
+  "identifier": 612958494,
+  "name": "PDAF/PDAF",
+  "issueTracker": "https://api.github.com/repos/PDAF/PDAF/issues",
+  "readme": "https://github.com/PDAF/PDAF/blob/master/README.md"
+}

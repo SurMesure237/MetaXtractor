@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/q-cardIA/qcardia",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/q-cardIA/qcardia/zipball/main",
+  "author": "q-cardIA",
+  "dateCreated": "2023-12-10T17:55:06Z",
+  "dateModified": "2025-08-24T12:58:37Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": null,
+  "identifier": 729904403,
+  "name": "q-cardIA/qcardia",
+  "issueTracker": "https://api.github.com/repos/q-cardIA/qcardia/issues",
+  "readme": "https://github.com/q-cardIA/qcardia/blob/main/README.md"
+}

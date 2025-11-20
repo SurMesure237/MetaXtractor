@@ -1,0 +1,550 @@
+[
+  {
+    "id": 2194,
+    "annotations": [
+      {
+        "id": 11811,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 277,
+              "end": 295,
+              "text": "http://pdaf.awi.de",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "-vtGaEplWT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:08:36.808640Z",
+        "updated_at": "2025-11-09T06:08:36.808657Z",
+        "draft_created_at": "2025-11-09T06:08:13.795946Z",
+        "lead_time": 55.153,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "488c5d54-72aa-4039-8ffc-2b64428724f5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2194,
+        "project": 23494,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "PDAF (Parallel Data Assimilation Framework)\n\nCopyright 2004-2025, Lars Nerger, Alfred Wegener Institute, Helmholtz Center for Polar and Marine Research, Bremerhaven, Germany.  For license information, please see the file LICENSE.txt.\n\nFor full documentation and tutorial, see: http://pdaf.awi.de\n\nWe recommend to subscribe to the PDAF mailing list via the online form at https://pdaf.awi.de/register\n\n## Note on PDAF V3.0\n\nIn the upgrade to PDAF V3.0 there are changes which make PDAF3 fully backward-compatible. If one has a code implemented for PDAF2, one needs a few adaptions. For more information, see: https://pdaf.awi.de/trac/wiki/PortingToPDAF3",
+      "section": "PDAF (Parallel Data Assimilation Framework) (part 1)",
+      "repo": "141_PDAF",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.465678Z",
+    "updated_at": "2025-11-09T06:08:36.838503Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23494,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2195,
+    "annotations": [
+      {
+        "id": 11812,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:08:39.432845Z",
+        "updated_at": "2025-11-09T06:08:39.432871Z",
+        "draft_created_at": null,
+        "lead_time": 2.423,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "965691fa-b3d1-449d-b058-d0a8dd930623",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2195,
+        "project": 23494,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Introduction\n\nPDAF is a unified framework for data assimilation with the aim to reduce development effort for data assimilation while providing high computational efficiency.\n\nPDAF can be used to perform data assimilation with high-dimensional models,\n\nto assess data assimilation methods with small models,\n\nto teach ensemble data assimilation, and\n\nto develop new data assimilation methods and test them in a unified environment\n\nPDAF provides A modular structure with separation-of-concerns for the model,\n\nthe data assimilation methods, observation handling, and covariances A parallel infrastructure, using MPI and OpenMP, to implement a\n\nparallel data assimilation system based on existing numerical  models (typically of, but not limited to, components of the Earth system).  A selection of state-of-the-art ensemble data assimilation algorithms\n\nbased on the Kalman filter or nonlinear filters (see list below) A selection of 3D variational methods, both with parameterized\n\nand ensemble covariance matrix A structured approach to handle large sets of observation\n\ntypes Functionality for ensemble and observation diagnostics\n\nFunctionality to generate synthetic observations for data\n\nassimilation studies (e.g. OSSEs)\n\nThe PDAF release provides also Tutorial codes demonstrating the implementation\n\nCode templates to assist in the implementation\n\nToy models fully implemented with PDAF for the study of data\n\nassimilation methods. Links to codes for existing model couplings with PDAF\n\n## First Steps with PDAF\n\nA good starting point for using PDAF is to run a tutorial example. The web site http://pdaf.awi.de/trac/wiki/FirstSteps  provides hints on getting started with PDAF.\n\n## PDAF tutorials\n\nThe page https://pdaf.awi.de/trac/wiki/PdafTutorial provides tutorial slide sets that explain the implementation steps and how to compile and run the tutorial examples.",
+      "section": "PDAF (Parallel Data Assimilation Framework) (part 2)",
+      "repo": "141_PDAF",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.465725Z",
+    "updated_at": "2025-11-09T06:08:39.469414Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23494,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2196,
+    "annotations": [
+      {
+        "id": 11813,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:08:40.384715Z",
+        "updated_at": "2025-11-09T06:08:40.384730Z",
+        "draft_created_at": null,
+        "lead_time": 0.758,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "75b31ec2-a2e8-4008-825e-aa537b7e8911",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2196,
+        "project": 23494,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Models\n\nThe directory models/ contains toy models that are fully implemented with PDAF. These models can be used to assess the behavior of different assimilation algorithms.  lorenz96/\n\nThis directory contains the Lorenz-96 model, which is a widely used  model to assess data assimilation methods. Provided is a full  implementation of the data assimilation with various filters and options.  This model can be configured to have a sufficiently large state  dimension to test low-rank filter algorithms. lorenz63/\n\nThis directory contains the Lorenz-63 model, which is a classical  3-variable model with chaotic dynamics. Provided is a full  implementation of the data assimilation with various filters and options.  The small state dimension and nonlinear dynamics make it a suitable  test case for the standard particle filter (PF). lorenz05b/\n\nThis directory contains the model Lorenz-2005 model II. Provided is a full  implementation of the data assimilation with various filters and options. lorenz05c/\n\nThis directory contains the two-scale model Lorenz-2005 model III.  Provided is a full implementation of the data assimilation with various  filters and options.\n\nInstructions on how to run data assimilation experiments with these models are provided on the PDAF web site.",
+      "section": "PDAF (Parallel Data Assimilation Framework) (part 3)",
+      "repo": "141_PDAF",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.465750Z",
+    "updated_at": "2025-11-09T06:08:40.412644Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23494,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2197,
+    "annotations": [
+      {
+        "id": 11814,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:08:41.779142Z",
+        "updated_at": "2025-11-09T06:08:41.779158Z",
+        "draft_created_at": null,
+        "lead_time": 1.221,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "2dd5c97d-78b0-4d1c-8b29-ce38a17f3aaf",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2197,
+        "project": 23494,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Installation of the PDAF library\n\nThe PDAF library will be automatically built when compiling a tutorial case or one of the models. However, one can also separately build the library. In order to build the PDAF library one needs a Fortran 2003 compiler, 'make'. PDAF is generally intended for parallel computing using MPI and needs an MPI-library for compilation. In addition, the libraries BLAS and LAPACK are required.\n\nChoose a suitable include file for the make process and/or edit or\n\ncreate one. See the directory make.arch/ for several provided include files. For standard Linux systems using gfortran and OpenMPI using linux_gfortran.h will most likely work.\n\nSet the environment variable $PDAF_ARCH to the name of the include\n\nfile (without ending .h). Alternatively you can specify PDAF_ARCH on the command line when running 'make' in step 3.\n\nIn the main directory execute 'make' at the prompt, e.g.\n\n'make PDAF_ARCH=linux_gfortran'. This will compile the sources and generate two library files that include the  ensemble filter methods and the 3D-Var methods including solvers in the directory lib/.\n\n## Verifying your installation\n\nThe tutorial implementations can be verified as follows:\n\nYou can run the script runtests.sh in the main tutorial directory tutorial.\n\nThis script will compile and run all tutorial implementations. Afterwards the outputs at the final time step are checked against reference outputs from the directory verification using a Python script. You can also compare  the output files like out.online_2D_parallelmodel with reference files. (Note: The script runtests.sh uses the generic compile definitions for Linux with the gfotran compiler. For other systems, you might need to change the settings for the make definitions files).",
+      "section": "PDAF (Parallel Data Assimilation Framework) (part 4)",
+      "repo": "141_PDAF",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.465776Z",
+    "updated_at": "2025-11-09T06:08:41.807925Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23494,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2198,
+    "annotations": [
+      {
+        "id": 11815,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:08:42.785506Z",
+        "updated_at": "2025-11-09T06:08:42.785517Z",
+        "draft_created_at": null,
+        "lead_time": 0.847,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "0c4e8aae-f211-4c6c-a5d4-d58969386a38",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2198,
+        "project": 23494,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Test suite\n\nThe directory tests/ contains a set of implementations for consistency tests. This is more for 'internal use'. We use these implementations to validate PDAF.\n\nYou can run the scripts analogously to that in the directory tutorial/: runtests_offline.sh or runtests_online.sh perform details tests on options for the offline and online coupled implementations. The script test_runtime.sh runs tests on a larger model grid. This is usually used to assess the effect of code changes on the run time.",
+      "section": "PDAF (Parallel Data Assimilation Framework) (part 5)",
+      "repo": "141_PDAF",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.465800Z",
+    "updated_at": "2025-11-09T06:08:42.813547Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23494,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2199,
+    "annotations": [
+      {
+        "id": 11816,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:08:46.625944Z",
+        "updated_at": "2025-11-09T06:08:46.625956Z",
+        "draft_created_at": null,
+        "lead_time": 3.661,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "0f32711e-677e-4cfd-b846-21973aa6afd3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2199,
+        "project": 23494,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Data Assimilation Algorithms\n\nThe filter algorithms in PDAF are:\n\nFilters with global analysis step EnKF (The classical perturbed-observations Ensemble Kalman filter)\n\n[G. Evensen, J. Geophys. Res. 99 C5 (1994) 10143-10162,  G. Burgers et al., Mon. Wea. Rev. 126 (1998) 1719-1724] ESTKF (Error Subspace Transform Kalman filter)\n\n[L. Nerger et al. Mon. Wea. Rev. 140 (2012) 2335-2345, doi:10.1175/MWR-D-11-00102.1] ETKF (Ensemble Transform Kalman filter)\n\n[C. H. Bishop et al. Mon. Wea. Rev. 129 (2001) 420-436]  The implementation in PDAF follows that described for the LETKF, but as a global filter.  SEIK (Singular \"Evolutive\" Interpolated Kalman) filter\n\nThis is the full ensemble variant of the SEIK  (Singular \"Interpolated\" Extended Kalman) filter.  [SEIK: D.-T. Pham et al., C. R. Acad Sci., Ser. III, 326 (1009)  255-260, for the SEIK variant in PDAF see L. Nerger et al.,  Tellus 57A (2005) 715-735, doi:10.3402/tellusa.v57i5.14732]  SEEK (Singular \"Evolutive\" Extended Kalman) filter\n\n[D.-T. Pham et al., J. Mar. Syst. 16 (1998) 323-340]  NETF (Nonlinear Ensemble Transform Filter)\n\n[J. Toedter, B. Ahrens, Mon. Wea. Rev. 143 (2015) 1347-1367, doi:10.1175/MWR-D-14-00108.1] PF (Particle filter with importance resampling)\n\n[see S. Vetra-Carvalho et al., Tellus A 70 (2018) 1445364, doi:10.1080/16000870.2018.1445364]",
+      "section": "PDAF (Parallel Data Assimilation Framework) (part 6)",
+      "repo": "141_PDAF",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.465823Z",
+    "updated_at": "2025-11-09T06:08:46.653791Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23494,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2200,
+    "annotations": [
+      {
+        "id": 11817,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:08:48.179670Z",
+        "updated_at": "2025-11-09T06:08:48.179683Z",
+        "draft_created_at": null,
+        "lead_time": 1.39,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "3999c63e-1351-40b1-8a2f-a77844b7d74f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2200,
+        "project": 23494,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Filters with localized analysis step LESTKF (Local Error Subspace Transform Kalman filter)\n\n[L. Nerger et al. Mon. Wea. Rev. 140 (2012) 2335-2345, doi:10.1175/MWR-D-11-00102.1] LETKF (Local Ensemble Transform Kalman filter)\n\n[B. R. Hunt et al., Physica D 230 (2007) 112-126, doi:10.1016/j.physd.2006.11.008] LSEIK (Local Singular \"Evolutive\" Interpolated Kalman) filter\n\n[L. Nerger et al., Oce. Dyn. 56 (2006) 634-649, doi:10.1007/s10236-006-0083-0] LEnKF (The classical perturbed-observations Ensemble Kalman filter with localization)\n\n[G. Evensen, J. Geophys. Res. 99 C5 (1994) 10143-10162,  G. Burgers et al., Mon. Wea. Rev. 126 (1998) 1719-1724] LNETF (Nonlinear Ensemble Transform Filter with observation localization)\n\n[J. Toedter, B. Ahrens, Mon. Wea. Rev. 143 (2015) 1347-1367, doi:10.1175/MWR-D-14-00108.1] LKNETF (Local Kalman-nonlinear ensemble transform filter)\n\n[L. Nerger, Q. J. R. Meteorol Soc., 148 (2022) 620-640, doi:10.1002/qj.4221] ENSRF (Ensemble square-root filter using serial observation processing and covariance localization)\n\n[J. Whitaker, T. Hamill, Mon. Wea. Rev. 130 (2002) 1913-1924] EAKF (Ensemble Adjustment Filter using serial observation processing and covariance localization)\n\n[J. Anderson, Mon. Wea. Rev. (2003) 634-642]\n\nAll filter algorithms are fully parallelized with MPI and optimized. The local filters  (LSEIK, LETKF, LESTKF, LNETF, LKNETF) are in addition parallelized using OpenMP.\n\nSmoother extensions are included for the filters ESTKF/LESTKF, ETKF/LETKF, EnKF, NETF/LNETF.\n\n3D-Var methods\n\nNext to the ensemble filter methods, different 3D-Var methods are provided: parameterized 3D-Var\n\n3D ensemble Var with ensemble transformation by ESTKF or LESTKF\n\nhybrid 3D-Var with ensemble transformation by ESTKF or LESTKF",
+      "section": "PDAF (Parallel Data Assimilation Framework) (part 7)",
+      "repo": "141_PDAF",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.465845Z",
+    "updated_at": "2025-11-09T06:08:48.208050Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23494,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2201,
+    "annotations": [
+      {
+        "id": 11818,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:08:49.592098Z",
+        "updated_at": "2025-11-09T06:08:49.592121Z",
+        "draft_created_at": null,
+        "lead_time": 1.241,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "fc0525f2-6f8d-4041-b863-2c29bb527d5c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2201,
+        "project": 23494,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "The 3D-Var methods are implemented as incremental 3D-Var schemes following Bannister, Q. J. Royal Meteorol. Soc., 143 (2017) 607-633, doi:10.1002/qj.2982.",
+      "section": "PDAF (Parallel Data Assimilation Framework) (part 8)",
+      "repo": "141_PDAF",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.465865Z",
+    "updated_at": "2025-11-09T06:08:49.623889Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23494,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2202,
+    "annotations": [
+      {
+        "id": 11819,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 450,
+              "end": 490,
+              "text": "https://pdaf.awi.de/trac/wiki/CitingPDAF",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "bh4CBmV7dM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 184,
+              "end": 189,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "mX02ECIPsD",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 191,
+              "end": 196,
+              "text": "MacOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "KELGqUmrUK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 198,
+              "end": 206,
+              "text": "Cray CLE",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "I40bZE4G9U",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 208,
+              "end": 218,
+              "text": "NEC Aurora",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "mtYrCDwSx-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 220,
+              "end": 240,
+              "text": "Microsoft Windows 10",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "1IZOhoGO1d",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:09:32.014490Z",
+        "updated_at": "2025-11-09T06:09:32.014512Z",
+        "draft_created_at": "2025-11-09T06:09:18.022479Z",
+        "lead_time": 42.245,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "193c2ef0-185b-4c3d-9220-c78ebf27c9d2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2202,
+        "project": 23494,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## The code\n\nPDAF is written in, mainly, Fortran 2003.  The compilation and execution has been tested on the different systems ranging from notebook computers to supercomputers, e.g.: Linux\n\nMacOS\n\nCray CLE\n\nNEC Aurora\n\nMicrosoft Windows 10 with Cygwin\n\n## Citing PDAF\n\nPDAF is developed by researchers. Thus, with respect to science, please cite PDAF, when you publish work obtained using the software. For more information on how to cite PDAF, see https://pdaf.awi.de/trac/wiki/CitingPDAF\n\n## Contact Information\n\nPlease send comments, suggestions, or bug reports to pdaf@awi.de or use the Issues in Github.",
+      "section": "PDAF (Parallel Data Assimilation Framework) (part 9)",
+      "repo": "141_PDAF",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.465886Z",
+    "updated_at": "2025-11-09T06:09:32.046823Z",
+    "inner_id": 9,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23494,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/boost-ext/ut",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "CMake",
+    "Python",
+    "Shell",
+    "Gherkin",
+    "Starlark",
+    "Meson"
+  ],
+  "downloadUrl": "https://api.github.com/repos/boost-ext/ut/zipball/main",
+  "author": "boost-ext",
+  "dateCreated": "2019-10-06T01:33:26Z",
+  "dateModified": "2025-10-26T16:04:39Z",
+  "keywords": [
+    "bdd",
+    "cpp20",
+    "tdd",
+    "testing"
+  ],
+  "license": "https://api.github.com/licenses/bsl-1.0",
+  "description": "C++20 μ(micro)/Unit Testing framework",
+  "identifier": 213094069,
+  "name": "boost-ext/ut",
+  "issueTracker": "https://api.github.com/repos/boost-ext/ut/issues",
+  "readme": "https://github.com/boost-ext/ut/blob/master/README.md"
+}

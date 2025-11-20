@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/524D/compareMS2",
+  "programmingLanguage": "JavaScript",
+  "programmingLanguages": [
+    "JavaScript",
+    "C",
+    "HTML",
+    "CSS",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/524D/compareMS2/zipball/main",
+  "author": "524D",
+  "dateCreated": "2021-02-19T12:19:57Z",
+  "dateModified": "2025-09-19T15:15:54Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Compare samples by MS2 spectra",
+  "identifier": 340360692,
+  "name": "524D/compareMS2",
+  "issueTracker": "https://api.github.com/repos/524D/compareMS2/issues",
+  "readme": "https://github.com/524D/compareMS2/blob/main/README.md"
+}

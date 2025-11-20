@@ -1,0 +1,513 @@
+[
+  {
+    "id": 2254,
+    "annotations": [
+      {
+        "id": 11793,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:02:51.429618Z",
+        "updated_at": "2025-11-09T06:02:51.429635Z",
+        "draft_created_at": null,
+        "lead_time": 2.828,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6311788a-c422-499f-a829-7756c2f8ebfe",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2254,
+        "project": 23506,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Juelich Rapid Spectral Simulation Code\n\nThe Juelich Rapid Spectral Simulation Code (JURASSIC) is a fast infrared radiative transfer model for the analysis of atmospheric remote sensing measurements.",
+      "section": "Juelich Rapid Spectral Simulation Code (part 1)",
+      "repo": "461_JURASSIC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.293745Z",
+    "updated_at": "2025-11-09T06:02:51.459295Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23506,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2255,
+    "annotations": [
+      {
+        "id": 11794,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:03:07.101222Z",
+        "updated_at": "2025-11-09T06:03:07.101233Z",
+        "draft_created_at": null,
+        "lead_time": 15.503,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "9d120812-cc56-489d-a367-129902f67572",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2255,
+        "project": 23506,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/slcs-jsc/jurassic/releases) [](https://github.com/slcs-jsc/jurassic/commits/master) [](https://github.com/slcs-jsc/jurassic/commits/master) [](https://github.com/slcs-jsc/jurassic/tree/master/src) [](https://github.com/slcs-jsc/jurassic/tree/master/src) [](https://github.com/slcs-jsc/jurassic/tree/master/src) [](https://app.codacy.com/gh/slcs-jsc/jurassic?utm_source=github.com&utm_medium=referral&utm_content=slcs-jsc/jurassic&utm_campaign=Badge_Grade_Settings) [](https://codecov.io/gh/slcs-jsc/jurassic) [](https://github.com/slcs-jsc/jurassic/actions) [](https://slcs-jsc.github.io/jurassic) [](https://go.fzj.de/CodePromo) [](https://deepwiki.com/slcs-jsc/jurassic)",
+      "section": "Juelich Rapid Spectral Simulation Code (part 2)",
+      "repo": "461_JURASSIC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.293784Z",
+    "updated_at": "2025-11-09T06:03:07.126162Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23506,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2256,
+    "annotations": [
+      {
+        "id": 11795,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 64,
+              "end": 102,
+              "text": "https://doi.org/10.5281/zenodo.4572889",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "c2OofpJhYm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:03:15.899774Z",
+        "updated_at": "2025-11-09T06:03:15.899793Z",
+        "draft_created_at": null,
+        "lead_time": 8.616,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "93c3b052-cf96-49d9-a44e-8da1d2939a24",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2256,
+        "project": 23506,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/slcs-jsc/jurassic/blob/master/COPYING) [](https://doi.org/10.5281/zenodo.4572889)",
+      "section": "Juelich Rapid Spectral Simulation Code (part 3)",
+      "repo": "461_JURASSIC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.293807Z",
+    "updated_at": "2025-11-09T06:03:15.931598Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23506,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2257,
+    "annotations": [
+      {
+        "id": 11796,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 765,
+              "end": 770,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "9AD-tijuuw",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 817,
+              "end": 821,
+              "text": "make",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "HqLpUxMxI4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 812,
+              "end": 815,
+              "text": "git",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "G-erVDuYex",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 807,
+              "end": 810,
+              "text": "gcc",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "mzyTgj55x_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 653,
+              "end": 660,
+              "text": "GNU GPL",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "mddcDG1wuj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:04:06.186316Z",
+        "updated_at": "2025-11-14T12:27:14.250444Z",
+        "draft_created_at": "2025-11-09T06:03:27.708180Z",
+        "lead_time": 94.054,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "82ac4bde-0a25-4e39-ad04-c5d910a6aa60",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2257,
+        "project": 23506,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Features\n\nJURASSIC uses the emissivity growth approximation (EGA) or the  Curtis-Godson approximation (CGA) to conduct infrared radiative  transfer calculations. Band transmittances are obtained from  pre-calculated look-up tables from line-by-line calculations.  The model was carefully tested in intercomparisons with the  Karlsruhe Optimized and Precise Radiative Transfer Algorithm  (KOPRA), the Reference Forward Model (RFM), and the Stand-alone AIRS  Radiative Transfer Algorithm (SARTA).  JURASSIC features an MPI-OpenMP hybrid parallelization for efficient  use on HPC systems.  Distributed open source under the terms and conditions of the  GNU GPL.\n\n## Getting started\n\n### Prerequisites\n\nThis documentation describes the installation of JURASSIC on a Linux system. A number of standard tools (gcc, git, make) and software libraries are needed to install JURASSIC. The [GNU Scientific Library] https://www.gnu.org/software/gsl is required for numerical calculations. A copy of this library can be found in the git repository.\n\nStart by downloading the source code from the git repository:\n\ngit clone https://github.com/slcs-jsc/jurassic.git\n\nTo update an existing installation use:\n\ngit pull https://github.com/slcs-jsc/jurassic.git",
+      "section": "Juelich Rapid Spectral Simulation Code (part 4)",
+      "repo": "461_JURASSIC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.293831Z",
+    "updated_at": "2025-11-14T12:27:14.284886Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23506,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2258,
+    "annotations": [
+      {
+        "id": 11797,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:04:10.938434Z",
+        "updated_at": "2025-11-09T06:04:10.938451Z",
+        "draft_created_at": null,
+        "lead_time": 4.562,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "931cd548-0838-451e-bea9-4ce5b4c45542",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2258,
+        "project": 23506,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Installation\n\nFirst, compile the GSL library needed for JURASSIC by using the build script:\n\ncd [jurassic_directory]/libs ./build.sh\n\nNext, change to the source directory, edit the Makefile according to your needs, and try to compile the code:\n\ncd [jurassic_directory]/src  emacs Makefile  make\n\nThe binaries will be linked statically, i.e., they can be copied and run on other machines. Sometimes this causes problems. In this case remove the '-static' flag from the CFLAGS in the Makefile and compile again.\n\nBy default we use rather strict compiler warnings. All warning messages will be turned into errors and no binaries will be produced. This behavior is enforced by the flag '-Werror'.\n\nThe binaries will remain in the jurassic/src/ directory.\n\nTo run the test cases to check the installation, please use:\n\nmake check\n\nThis will run sequentially through a set of tests. The execution of the tests will stop if any of the tests fails. Please inspect the log messages.",
+      "section": "Juelich Rapid Spectral Simulation Code (part 5)",
+      "repo": "461_JURASSIC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.293854Z",
+    "updated_at": "2025-11-09T06:04:10.966222Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23506,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2259,
+    "annotations": [
+      {
+        "id": 11798,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:04:11.782464Z",
+        "updated_at": "2025-11-09T06:04:11.782487Z",
+        "draft_created_at": null,
+        "lead_time": 0.665,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "5573eccb-e669-42dd-9a22-d160806cd06f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2259,
+        "project": 23506,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Run the examples\n\nJURASSIC provides a project directory for testing the examples and also to store other experiments:\n\ncd [jurassic_directory]/projects\n\nThis shows how to run the example for the nadir sounder:\n\ncd nadir ./run.sh\n\nThis shows how to run the example for the limb sounder:\n\ncd ../limb ./run.sh\n\nIn both examples, we generate an observation geometry file,\n\ncat obs.tab\n\na standard atmosphere for mid-latitudes,\n\ncat atm.tab\n\nand conduct radiative transfer calculations for two or three detector channels:\n\ncat rad.tab\n\nThe output of the simulation is verified by comparing it to reference data. Additionally, gnuplot is used to create plots of the radiance data:\n\n&emsp;\n\nKernel functions are calculated using a finite difference method:\n\n&emsp;\n\n&emsp;",
+      "section": "Juelich Rapid Spectral Simulation Code (part 6)",
+      "repo": "461_JURASSIC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.293877Z",
+    "updated_at": "2025-11-09T06:04:11.812240Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23506,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2260,
+    "annotations": [
+      {
+        "id": 11799,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 258,
+              "end": 436,
+              "text": "Baumeister, P. F. and Hoffmann, L.: Fast infrared radiative transfer calculations using graphics processing units: JURASSIC-GPU v2.0, Geosci. Model Dev., 15, 1855–1874, , 2022",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "cVNgUD3jXn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 439,
+              "end": 636,
+              "text": "Hoffmann, L., and M. J. Alexander, Retrieval of stratospheric temperatures from Atmospheric Infrared Sounder radiance measurements for gravity wave studies, J. Geophys. Res., 114, D07105, , 2009",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "a_5D_Ya8dS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 639,
+              "end": 889,
+              "text": "Hoffmann, L., Kaufmann, M., Spang, R., Müller, R., Remedios, J. J., Moore, D. P., Volk, C. M., von Clarmann, T., and Riese, M.: Envisat MIPAS measurements of CFC-11: retrieval, validation, and climatology, Atmos. Chem. Phys., 8, 3671-3688, , 2008",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "wxUkLIRArT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1466,
+              "end": 1497,
+              "text": "GNU General Public License v3.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "cSIF_X6sVc",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1499,
+              "end": 1555,
+              "text": "https://github.com/slcs-jsc/jurassic/blob/master/COPYING",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "jJoFgx3GTI",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:05:24.754455Z",
+        "updated_at": "2025-11-09T06:05:24.754476Z",
+        "draft_created_at": "2025-11-09T06:04:32.186944Z",
+        "lead_time": 72.794,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "723f3498-fa23-4480-bac5-8f8d09eaa2c4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2260,
+        "project": 23506,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Further information\n\nMore detailed information for new users and developers of JURASSIC is collected in the [GitHub wiki] https://github.com/slcs-jsc/jurassic/wiki.\n\nThese are the main references for citing the JURASSIC model in scientific publications:\n\nBaumeister, P. F. and Hoffmann, L.: Fast infrared radiative transfer  calculations using graphics processing units: JURASSIC-GPU v2.0,  Geosci. Model Dev., 15, 1855–1874,  , 2022.\n\nHoffmann, L., and M. J. Alexander, Retrieval of stratospheric  temperatures from Atmospheric Infrared Sounder radiance measurements  for gravity wave studies, J. Geophys. Res., 114, D07105,  , 2009.\n\nHoffmann, L., Kaufmann, M., Spang, R., Müller, R., Remedios, J. J.,  Moore, D. P., Volk, C. M., von Clarmann, T., and Riese, M.: Envisat  MIPAS measurements of CFC-11: retrieval, validation, and  climatology, Atmos. Chem. Phys., 8, 3671-3688,  , 2008.\n\nYou can cite the source code of JURASSIC by using the DOI  . This DOI represents all  versions, and will always resolve to the latest one. Specific DOIs  for each release of JURASSIC can be found on the zenodo web site.\n\nPlease see the [citation file] https://github.com/slcs-jsc/jurassic/blob/master/CITATION.cff for further information.\n\n## Contributing\n\nWe are interested in sharing JURASSIC for operational or research applications. Please do not hesitate to contact us, if you have any further questions or need support.\n\n## License\n\nJURASSIC is distributed under the [GNU General Public License v3.0] https://github.com/slcs-jsc/jurassic/blob/master/COPYING.\n\n## Contact\n\nDr. Lars Hoffmann\n\nJülich Supercomputing Centre, Forschungszentrum Jülich\n\ne-mail:",
+      "section": "Juelich Rapid Spectral Simulation Code (part 7)",
+      "repo": "461_JURASSIC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:08.293917Z",
+    "updated_at": "2025-11-09T06:05:24.787693Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23506,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

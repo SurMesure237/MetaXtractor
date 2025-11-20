@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/rkms86/SUSAN",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "Jupyter Notebook",
+    "MATLAB",
+    "Python",
+    "Cuda",
+    "CMake",
+    "Shell",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/rkms86/SUSAN/zipball/main",
+  "author": "rkms86",
+  "dateCreated": "2021-01-18T11:17:02Z",
+  "dateModified": "2025-10-28T22:36:53Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/agpl-3.0",
+  "description": null,
+  "identifier": 330642361,
+  "name": "rkms86/SUSAN",
+  "issueTracker": "https://api.github.com/repos/rkms86/SUSAN/issues",
+  "readme": "https://github.com/rkms86/SUSAN/blob/main/README.md"
+}

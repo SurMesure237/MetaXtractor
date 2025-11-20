@@ -1,0 +1,146 @@
+[
+  {
+    "data": {
+      "text": "\ud83c\udf10 fastdatascience.com",
+      "section": "Introduction (part 1)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[](https://doi.org/10.5281/zenodo.10970631)\n\nYou can run the walkthrough Python notebook in [Google Colab] https://colab.research.google.com/github/fastdatascience/drug_named_entity_recognition/blob/main/drug_named_entity_recognition_example_walkthrough.ipynb with a single click:",
+      "section": "Introduction (part 2)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Drug Named Entity Recognition Python library by Fast Data Science\n\n## Finds drug names and can look up molecular structure\n\n[](https://pypi.org/project/drug-named-entity-recognition/) [](https://github.com/fastdatascience/drug_named_entity_recognition/releases) [](https://github.com/fastdatascience/drug_named_entity_recognition/blob/main/LICENSE) [](https://pypi.org/project/drug_named_entity_recognition/)  [](https://github.com/fastdatascience/drug_named_entity_recognition/releases) [](https://pypi.org/project/drug_named_entity_recognition/) [](https://github.com/fastdatascience/drug_named_entity_recognition/forks)",
+      "section": "Drug Named Entity Recognition Python library by Fast Data Science",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "\ud83d\udc8a Drug Named Entity Recognition\n\nDeveloped by Fast Data Science, https://fastdatascience.com\n\nSource code at https://github.com/fastdatascience/drug_named_entity_recognition\n\nTutorial at https://fastdatascience.com/drug-named-entity-recognition-python-library/\n\nThis is a lightweight Python [natural language processing] https://naturallanguageprocessing.com/applications-nlp-use-cases-business-solutions/ library for finding drug names in a string, otherwise known as [named entity recognition (NER)] https://fastdatascience.com/named-entity-recognition/ and named entity linking. This can be used for analysing unstructured text documents such as [clinical trial protocols] https://clinicaltrialrisk.org/clinical-trial-protocol-software/ or other [unstructured data in biopharma] https://harmonydata.ac.uk/data-harmonisation/data-harmonisation-in-biopharma/.\n\nPlease note this library finds only high confidence drugs.\n\nNew in version 2.0.0: we can support misspellings by using fuzzy matching!\n\nIt also only finds the English names of these drugs. Names [in other languages] https://fastdatascience.com/natural-language-processing/multilingual-natural-language-processing/ are not supported.\n\nIt also doesn't find short code names of drugs, such as abbreviations commonly used in medicine, such as \"Ceph\" for \"Cephradin\" - as these are highly ambiguous.\n\nIt also returns the chemical formula, SMILES representation, and molecular weight of a drug if that information is available.",
+      "section": "\ud83d\udc8a Drug Named Entity Recognition",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "\ud83d\udcbbInstalling Drug Named Entity Recognition Python package\n\nYou can install Drug Named Entity Recognition from [PyPI] https://pypi.org/project/drug-named-entity-recognition.\n\npip install drug-named-entity-recognition\n\nIf you get an error installing Drug Named Entity Recognition, try making a new Python environment in Conda (conda create -n test-env; conda activate test-env) or Venv (python -m testenv; source testenv/bin/activate / testenv\\Scripts\\activate) and then installing the library.\n\nThe library already contains the drug names so if you don't need to update the dictionary, then you should not have to run any of the download scripts.\n\nIf you have problems installing, try our [Google Colab] https://colab.research.google.com/github/fastdatascience/drug_named_entity_recognition/blob/main/drug_named_entity_recognition_example_walkthrough.ipynb walkthrough.\n\n## Interested in disease names?\n\nCheck out our new Medical Named Entity Recognition package, now in beta! https://github.com/fastdatascience/medical_named_entity_recognition",
+      "section": "\ud83d\udcbbInstalling Drug Named Entity Recognition Python package",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "\ud83d\udca1Usage examples\n\nYou must first tokenise your input text using a tokeniser of your choice (NLTK, spaCy, etc).\n\nYou pass a list of strings to the find_drugs function.\n\nExample 1\n\nfrom drug_named_entity_recognition import find_drugs\n\nfind_drugs(\"i bought some Prednisone\".split(\" \"))\n\noutputs a list of tuples.\n\n[({'name': 'Prednisone', 'synonyms': {'Sone', 'Sterapred', 'Deltasone', 'Panafcort', 'Prednidib', 'Cortan', 'Rectodelt', 'Prednisone', 'Cutason', 'Meticorten', 'Panasol', 'Enkortolon', 'Ultracorten', 'Decortin', 'Orasone', 'Winpred', 'Dehydrocortisone', 'Dacortin', 'Cortancyl', 'Encorton', 'Encortone', 'Decortisyl', 'Kortancyl', 'Pronisone', 'Prednisona', 'Predniment', 'Prednisonum', 'Rayos'}, 'medline_plus_id': 'a601102', 'mesh_id': 'D018931', 'drugbank_id': 'DB00635'}, 3, 3)]\n\n## Fuzzy matching (misspellings)\n\nYou can turn on fuzzy matching (ngrams) with is_fuzzy_match\n\nfind_drugs([\"paraxcetamol\"], is_fuzzy_match=True)",
+      "section": "\ud83d\udca1Usage examples (part 1)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Metadata such as molecular structure.\n\nYou can retrieve molecular structure in .mol format with:\n\nfrom drug_named_entity_recognition.drugs_finder import find_drugs drugs = find_drugs(\"i bought some paracetamol\".split(\" \"), is_include_structure=True)\n\nthis will return the atomic structure of the drug if that data is available.\n\nprint (drugs[0][0][\"structure_mol\"]) 316  Mrv0541 02231214352D\n\n11 11 0 0 0 0 999 V2000  2.3645 -2.1409 0.0000 O 0 0 0 0 0 0 0 0 0 0 0 0  3.7934 1.1591 0.0000 O 0 0 0 0 0 0 0 0 0 0 0 0  2.3645 1.1591 0.0000 N 0 0 0 0 0 0 0 0 0 0 0 0  2.3645 0.3341 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0  3.0790 -0.0784 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0  1.6500 -0.0784 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0  3.0790 -0.9034 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0  1.6500 -0.9034 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0  2.3645 -1.3159 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0  3.0790 1.5716 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0  3.0790 2.3966 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0  1 9 1 0 0 0 0  2 10 2 0 0 0 0  3 4 1 0 0 0 0  3 10 1 0 0 0 0  4 5 2 0 0 0 0  4 6 1 0 0 0 0  5 7 1 0 0 0 0  6 8 2 0 0 0 0  7 9 2 0 0 0 0  8 9 1 0 0 0 0  10 11 1 0 0 0 0 M END DB00316",
+      "section": "\ud83d\udca1Usage examples (part 2)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Add and remove drugs (customise the drugs list)\n\nNow you can modify the drug recogniser's behaviour if there is a particular drug which it isn't finding:\n\nTo reset the drugs dictionary\n\nfrom drug_named_entity_recognition.drugs_finder import reset_drugs_data reset_drugs_data()\n\nTo add a synonym\n\nfrom drug_named_entity_recognition.drugs_finder import add_custom_drug_synonym add_custom_drug_synonym(\"potato\", \"sertraline\")\n\nTo add a new drug\n\nfrom drug_named_entity_recognition.drugs_finder import add_custom_new_drug add_custom_new_drug(\"potato\", {\"name\": \"solanum tuberosum\"})\n\nTo remove an existing drug\n\nfrom drug_named_entity_recognition.drugs_finder import remove_drug_synonym remove_drug_synonym(\"sertraline\")",
+      "section": "\ud83d\udca1Usage examples (part 3)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Interested in other kinds of named entity recognition (NER)? \ud83d\udcb8Finances, \ud83c\udfa9company names, \ud83c\udf0ecountries, \ud83d\uddfa\ufe0flocations, proteins, \ud83e\uddecgenes, \ud83e\uddeamolecules?\n\nIf your NER problem is common across industries and likely to have been seen before, there may be an off-the-shelf NER tool for your purposes, such as our [Country Named Entity Recognition] http://fastdatascience.com//country-named-entity-recognition/ Python library. Dictionary-based named entity recognition is not always the solution, as sometimes the total set of entities is an open set and can't be listed (e.g. personal names), so sometimes a bespoke trained NER model is the answer. For tasks like finding email addresses or phone numbers, regular expressions (simple rules) are sufficient for the job.\n\nIf your named entity recognition or named entity linking problem is very niche and unusual, and a product exists for that problem, that product is likely to only solve your problem 80% of the way, and you will have more work trying to fix the final mile than if you had done the whole thing manually. Please [contact Fast Data Science] http://fastdatascience.com//contact and we'll be glad to discuss. For example, we've worked on [a consultancy engagement to find molecule names in papers, and match author names to customers] http://fastdatascience.com//boehringer-ingelheim-finding-molecules-and-proteins-in-scientific-literature/ where the goal was to trace molecule samples ordered from a pharma company and identify when the samples resulted in a publication. For this case, there was no off-the-shelf library that we could use.",
+      "section": "Interested in other kinds of named entity recognition (NER)? \ud83d\udcb8Finances, \ud83c\udfa9company names, \ud83c\udf0ecountries, \ud83d\uddfa\ufe0flocations, proteins, \ud83e\uddecgenes, \ud83e\uddeamolecules? (part 1)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "For a problem like identifying country names in English, which is a closed set with well-known variants and aliases, an off-the-shelf library is usually available. You may wish to try our [Country Named Entity Recognition] https://fastdatascience.com/country-named-entity-recognition/ library, also open-source and under MIT license.\n\nFor identifying a set of molecules manufactured by a particular company, this is the kind of task more suited to a [consulting engagement] https://fastdatascience.com/portfolio/nlp-consultant/.",
+      "section": "Interested in other kinds of named entity recognition (NER)? \ud83d\udcb8Finances, \ud83c\udfa9company names, \ud83c\udf0ecountries, \ud83d\uddfa\ufe0flocations, proteins, \ud83e\uddecgenes, \ud83e\uddeamolecules? (part 2)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "\ud83d\ude0a Using this tool directly from Google Sheets (no-code!)\n\nWe have a no-code solution where you can [use the library directly from Google Sheets] https://fastdatascience.com/drug-name-recogniser as the library has also been wrapped as a Google Sheets plugin.\n\n[Click here] https://www.youtube.com/watch?v=qab1Bv_YpYU to watch a video of how the plugin works.\n\nYou can install the plugin in Google Sheets [here] https://workspace.google.com/marketplace/app/drug_name_recogniser/463844408236.\n\nRequirements\n\nPython 3.9 and above\n\n## \u2709\ufe0fWho to contact?\n\nYou can contact Thomas Wood or the Fast Data Science team at https://fastdatascience.com/.",
+      "section": "\ud83d\ude0a Using this tool directly from Google Sheets (no-code!) + Requirements",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "\ud83e\udd1dCompatibility with other natural language processing libraries\n\nThe Drug Named Entity Recognition library is independent of other NLP tools and has no dependencies. You don't need any advanced system requirements and the tool is lightweight. However, it combines well with other libraries such as [spaCy] https://spacy.io or the [Natural Language Toolkit (NLTK)] https://www.nltk.org/api/nltk.tokenize.html.\n\n## Using Drug Named Entity Recognition together with spaCy\n\nHere is an example call to the tool with a [spaCy] https://spacy.io Doc object:\n\nfrom drug_named_entity_recognition import find_drugs import spacy nlp = spacy.blank(\"en\") doc = nlp(\"i routinely rx rimonabant and pts prefer it\") find_drugs([t.text for t in doc])\n\noutputs:\n\n[({'name': 'Rimonabant', 'synonyms': {'Acomplia', 'Rimonabant', 'Zimulti'}, 'mesh_id': 'D063387', 'drugbank_id': 'DB06155'}, 3, 3)]\n\n## Using Drug Named Entity Recognition together with NLTK\n\nYou can also use the tool together with the [Natural Language Toolkit (NLTK)] https://www.nltk.org/api/nltk.tokenize.html:\n\nfrom drug_named_entity_recognition import find_drugs from nltk.tokenize import wordpunct_tokenize tokens = wordpunct_tokenize(\"i routinely rx rimonabant and pts prefer it\") find_drugs(tokens)",
+      "section": "\ud83e\udd1dCompatibility with other natural language processing libraries (part 1)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Using the OMOP API\n\nThe tool can also connect to the OMOP API to return the OMOP ID of a drug.\n\nfrom drug_named_entity_recognition import find_drugs print (find_drugs(\"paracetamol\".split(), is_use_omop_api=True))\n\nResponse includes 'omop_id': '161':\n\n\ud83d\udd0d Looking up OMOP ID for: acetaminophen \u2192 RxCUI (used as OMOP ID): 161 [({'medline_plus_id': 'a621016', 'name': 'Acetaminophen', 'nhs_api_url': 'https://int.api.service.nhs.uk/nhs-website-content/medicines/paracetamol-for-children/', 'nhs_url': 'https://nhs.uk/medicines/paracetamol-for-children/', 'mesh_id': 'D058633', 'mesh_tree': ['D02.092.146.113.092.040', 'D02.065.199.092.040'], 'drugbank_id': 'DB00316', 'wikipedia_url': 'https://en.wikipedia.org/wiki/Paracetamol', 'synonyms': ['calpol', 'acetaminophen', 'panadol', 'tylenol', 'actamin', 'ofirmev', 'apap', 'paracetamol', 'acephen rectal suppository', 'neopap supprettes rectal suppository', 'calpol', 'acetominophen', 'p-hydroxyacetanilide', 'acamol', 'acetaco', 'p-acetamidophenol', 'anacin-3', 'hydroxyacetanilide', 'anacin 3', 'algotropyl', 'n-acetyl-p-aminophenol', 'anacin3', 'acetamidophenol', 'datril', 'acephen', '4-acetamidophenol', \"4'-hydroxyacetanilide\", 'acenol', 'acetaminof\u00e9n', 'ac\u00e9taminoph\u00e8ne', 'p-acetaminophenol', 'p-acetylaminophenol', 'p-hydroxy-acetanilid', 'p-hydroxyphenolacetamide', 'parac\u00e9tamol', 'paracetamolum'], 'is_brand': False, 'match_type': 'exact', 'matching_string': 'paracetamol', 'omop_id': '161'}, 0, 1)]",
+      "section": "\ud83e\udd1dCompatibility with other natural language processing libraries (part 2)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## SMILES (Simplified Molecular Input Line Entry System Integration)\n\nWe now support SMILES (Simplified Molecular Input Line Entry System) strings for drug molecules. SMILES data is extracted from PubChem\u2019s CID-SMILES.gz file and integrated during the dictionary build step (06_add_smiles_from_pubchem.py), enriching each drug entry with a machine-readable structure. If available, a SMILES string is returned in the find_drugs() output under the smiles key. For visualisation, users can refer to the example notebook using RDKit (optional dependency). This enhancement allows better structural insight without relying on external APIs.\n\n## Plotting the molecular structure\n\nThis needs you to also install rdkit:\n\npip install rdkit\n\nfrom rdkit import Chem from rdkit.Chem import Draw from drug_named_entity_recognition import find_drugs sentences = \"I prescribed Dabigatran\" drugs = find_drugs(sentences.split(), is_include_structure=True) for drug in drugs:  structure_mol = drug[0][\"structure_mol\"]  break print (structure_mol)\n\nmol = Chem.MolFromMolBlock(structure_mol) image = Draw.MolToImage(mol, size=(1000,500)) image.show() image.save(\"dabigatran.png\")\n\ndisplays:",
+      "section": "\ud83e\udd1dCompatibility with other natural language processing libraries (part 3)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "\ud83d\udcc1Data sources\n\nThe main data source is from Drugbank, augmented by datasets from the NHS, MeSH, Medline Plus, Pubchem, and Wikipedia.\n\n\ud83c\udf1f There is a handy Jupyter Notebook, update.ipynb which will update the Drugbank and MeSH data sources (re-download them from the relevant third parties).\n\n## Update the Drugbank dictionary\n\nIf you want to update the dictionary, you can use the data dump from Drugbank and replace the file drugbank vocabulary.csv:\n\nDownload the open data dump from https://go.drugbank.com/releases/latest#open-data\n\n## Update the Wikipedia dictionary\n\nIf you want to update the Wikipedia dictionary, download the dump from:\n\nhttps://meta.wikimedia.org/wiki/Data_dump_torrents#English_Wikipedia\n\nand run extract_drug_names_and_synonyms_from_wikipedia_dump.py\n\n## OMOP (Observational Medical Outcomes Partnership) ID\n\n## Attribution for RxNorm Data\n\nThis project uses data from RxNorm courtesy of the U.S. National Library of Medicine. NLM is not responsible for this product and does not endorse it. We do not claim ownership of RxNorm data. The tool retrieves information from the RxNorm API and allows users to optionally access OMOP IDs.\n\nFor offline use, users must download the RxNorm dataset themselves from [NLM RxNorm] https://www.nlm.nih.gov/research/umls/rxnorm/index.html after obtaining a free UMLS license.\n\n## Update the MeSH dictionary\n\nIf you want to update the dictionary, run\n\npython download_mesh_dump_and_extract_drug_names_and_synonyms.py\n\nThis will download the latest XML file from NIH.\n\nIf the link doesn't work, download the open data dump manually from https://www.nlm.nih.gov/. It should be called something like desc2023.xml. And comment out the Wget/Curl commands in the code.",
+      "section": "\ud83d\udcc1Data sources (part 1)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## License information for external data sources\n\nData from Drugbank is licensed under [CC0] https://go.drugbank.com/releases/latest#open-data.\n\nTo the extent possible under law, the person who associated CC0 with the DrugBank Open Data has waived all copyright and related or neighboring rights to the DrugBank Open Data. This work is published from: Canada.\n\nText from Wikipedia data dump is licensed under [GNU Free Documentation License] https://www.gnu.org/licenses/fdl-1.3.html and [Creative Commons Attribution-Share-Alike 3.0 License] https://creativecommons.org/licenses/by-sa/3.0/. [More information] https://dumps.wikimedia.org/legal.html.\n\nPubchem is an open access database. More information: https://pubchem.ncbi.nlm.nih.gov/docs/downloads2\n\n## Contributing to the Drug Named Entity Recognition library\n\nIf you'd like to contribute to this project, you can contact us at https://fastdatascience.com/ or make a pull request on our [Github repository] https://github.com/fastdatascience/drug_named_entity_recognition. You can also [raise an issue] https://github.com/fastdatascience/drug_named_entity_recognition/issues.\n\n## Developing the Drug Named Entity Recognition library\n\n### Automated tests\n\nTest code is in tests/ folder using [unittest] https://docs.python.org/3/library/unittest.html.\n\nThe testing tool tox is used in the automation with GitHub Actions CI/CD.",
+      "section": "\ud83d\udcc1Data sources (part 2)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Use tox locally\n\nInstall tox and run it:\n\npip install tox tox\n\nIn our configuration, tox runs a check of source distribution using [check-manifest] https://pypi.org/project/check-manifest/ (which requires your repo to be git-initialized (git init) and added (git add .) at least), setuptools's check, and unit tests using pytest. You don't need to install check-manifest and pytest though, tox will install them in a separate environment.\n\nThe automated tests are run against several Python versions, but on your machine, you might be using only one version of Python, if that is Python 3.9, then run:\n\ntox -e py39\n\nThanks to GitHub Actions' automated process, you don't need to generate distribution files locally. But if you insist, click to read the \"Generate distribution files\" section.\n\n### \ud83e\udd16 Continuous integration/deployment to PyPI\n\nThis package is based on the template https://pypi.org/project/example-pypi-package/\n\nThis package\n\nuses GitHub Actions for both testing and publishing\n\nis tested when pushing master or main branch, and is published when create a release\n\nincludes test files in the source distribution\n\nuses setup.cfg for [version single-sourcing] https://packaging.python.org/guides/single-sourcing-package-version/ (setuptools 46.4.0+)\n\n## \ud83e\uddcdRe-releasing the package manually\n\nThe code to re-release Drug Named Entity Recognition on PyPI is as follows:\n\nsource activate py311 pip install twine rm -rf dist python setup.py sdist twine upload dist/\n\n## \ud83d\ude0a Who worked on the Drug Named Entity Recognition library?\n\nThe tool was developed by:\n\nThomas Wood ([Fast Data Science] https://fastdatascience.com)\n\n## \ud83d\udcdcLicense of Drug Named Entity Recognition library\n\nMIT License. Copyright (c) 2023 [Fast Data Science] https://fastdatascience.com",
+      "section": "\ud83d\udcc1Data sources (part 3)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## \u270d\ufe0f Citing the Drug Named Entity Recognition library\n\nWood, T.A., Drug Named Entity Recognition [Computer software], Version 2.0.9, accessed at [https://fastdatascience.com/drug-named-entity-recognition-python-library] https://fastdatascience.com/drug-named-entity-recognition-python-library, Fast Data Science Ltd (2024)\n\n@unpublished{drugnamedentityrecognition,  AUTHOR = {Wood, T.A.},  TITLE = {Drug Named Entity Recognition (Computer software), Version 2.0.9},  YEAR = {2024},  Note = {To appear},  url = {https://zenodo.org/doi/10.5281/zenodo.10970631},  doi = {10.5281/zenodo.10970631} }\n\n## Case studies: Who is using the Drug Named Entity Recognition Library?\n\nThankfully, a number of people and organisations around the world have been using the library and have cited us.\n\n### NeuroTrialNER: An Annotated Corpus for Neurological Diseases and Therapies in Clinical Trial Registries\n\nSimona E. Doneva at the University of Zurich and her colleagues used the tool to make an annotated corpus of neurological diseases.\n\nDoneva, Simona, et al. [NeuroTrialNER: An Annotated Corpus for Neurological Diseases and Therapies in Clinical Trial Registries.] https://aclanthology.org/2024.emnlp-main.1050.pdf Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing. 2024.\n\n## Citations\n\nKim S, Chen J, Cheng T, et al. PubChem 2025 update. Nucleic Acids Res. 2025;53(D1):D1516-D1525. doi:10.1093/nar/gkae1059\n\nKnox C, Wilson M, Klinger CM, et al. DrugBank 6.0: the DrugBank Knowledgebase for 2024. Nucleic Acids Res. 2024 Jan 5;52(D1):D1265-D1275. doi: 10.1093/nar/gkad976.",
+      "section": "\ud83d\udcc1Data sources (part 4)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    }
+  }
+]

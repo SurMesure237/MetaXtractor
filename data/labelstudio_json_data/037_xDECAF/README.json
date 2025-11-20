@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "# DataFlowAnalysis\n\nThis repository contains an analysis to extract dataflows from a palladio modeling project, analyze their data characteristics and formulate constraints to check if definied bounds are respected by the model. For more information visit the [official page] https://dataflowanalysis.org/ of the project.\n\n## Installation\n\nInstall the product from our [updatesite] https://updatesite.palladio-simulator.com/DataFlowAnalysis/product/nightly/\n\nClone this repository\n\nImport the projects in this repository",
+      "section": "README",
+      "repo": "037_xDECAF",
+      "source_file": "readme.md"
+    }
+  }
+]

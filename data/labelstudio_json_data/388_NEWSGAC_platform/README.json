@@ -1,0 +1,58 @@
+[
+  {
+    "data": {
+      "text": "NEWSGAC\n\n[](https://zenodo.org/badge/latestdoi/161313748) [](https://travis-ci.org/newsgac/platform) [](https://www.codacy.com/manual/eriktks/platform?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=newsgac/platform&amp;utm_campaign=Badge_Grade) [](https://codeclimate.com/github/newsgac/platform/maintainability) [](https://codeclimate.com/github/newsgac/platform/test_coverage)\n\n[NEWSGAC] https://www.esciencecenter.nl/project/newsgac is a research project which aims at transparent automatic classification of genres of newspaper articles. The project is a cooperation between the [University of Groningen] https://www.rug.nl/let/onze-faculteit/organisatie/vakgebieden/journalistiek-en-media-studies/, the Amsterdam [Center for Mathematics and Computer Science] https://www.cwi.nl/research/groups/human-centered-data-analytics and the [Netherlands eScience Center] https://www.esciencecenter.nl/.\n\nIn the project, we developed an online platform for applying machine learning models to text data, with the opportunity to closely analyze the performance of the models. This repository contains the code of this platform.",
+      "section": "NEWSGAC (part 1)",
+      "repo": "388_NEWSGAC_platform",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Setup Instructions\n\nIn order to run the platform at your computer, you need to have [docker] https://www.docker.com/products/docker-desktop available on your system. Then execute the following commands in a command line environment (instructions for Linux):\n\ngit clone https://github.com/newsgac/platform.git\n\ncd platform\n\ndocker build . -t \"newsgac/newsgac\"\n\nexport $(egrep -v '^#' .env.default | xargs)\n\ndocker stack deploy -c docker-compose.yml -c docker-compose.dev.yml newsgacdev\n\nWhen these commands have successfully completed, the platform will be available as a web server on the address: [http://YOUR-IP-ADDRESS:5050] http://YOUR-IP-ADDRESS:5050\n\nSteps 1, 2 and 3 need to be executed only once for installing the system. Both step 4 and step 5 are required each time when you start the system.\n\nOptional steps:\n\nFor adaption to local environment: edit file .env.default or create your own version  For Jupyter notebook support: docker build . -f jupyter/Dockerfile -t \"newsgac/jupyterhub\"  During production: docker build ./nginx -t newsgac/nginx  installation instructions for usage of a [kubernetes cluster] k8s/README.md (CLARIAH)\n\nStopping the system:\n\ndocker service rm newsgacdev_database newsgacdev_frog newsgacdev_frogworker newsgacdev_redis newsgacdev_web newsgacdev_worker\n\nNote that it takes a few seconds to completely stop all parts of the system.",
+      "section": "NEWSGAC (part 2)",
+      "repo": "388_NEWSGAC_platform",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Run flask web app locally (through IDE)\n\nYou might want to run flask outside of Docker (because it is e.g. easier to attach a debugger).\n\nFollow Setup Instructions for DOCKER instructions so that all services are online (Mongo, Redis, FROG, celery workers).  Make sure the flask docker container is DOWN:\n\ndocker service rm newsgacdev_web\n\nSet up a virtual environment (python 3.7) and install the requirements:\n\npip install -r requirements.txt\n\nSetup the correct environmental variables (.env.local) e.g. by running\n\nexport $(cat .env.local | xargs)\n\nTo run from command line, navigate to platform/ and run:\n\nPYTHONPATH=. python newsgac/app.py\n\nThe local web server will be running on http://localhost:5050.\n\n## Debugging tasks\n\nTypically tasks are executed by celery workers. If you want to debug a task you can do one of two things:\n\nRun a celery worker in debug mode\n\nMake sure CELERY_EAGER=True (or unset). This will cause celery to run tasks in the main thread instead of offloading it to workers.\n\n## Running the tests (Docker)\n\ndocker run --name=mongo -it --rm -d mongo\n\n2.\n\ndocker run \\  --name=newsgactest \\  -it \\  --network=container:mongo \\  --mount type=bind,src=\"$(pwd)\"/newsgac,destination=/newsgac/newsgac \\  --entrypoint=sh \\  newsgac/newsgac -c pytest --cov=newsgac --cov-report=xml\n\ndocker stop newsgactest mongo\n\n## Running the tests (Local)\n\nSetup local (virtual) environment as when running flask locally  Load the test env vars:\n\nexport $(cat .env.test | xargs)\n\nMake sure the database, Frog and redis are running (e.g. docker stack deploy -c docker-compose.yml -c docker-compose.dev.yml newsgacdev  Load env variables, then run tests using\n\npytest .",
+      "section": "NEWSGAC (part 3)",
+      "repo": "388_NEWSGAC_platform",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Python console\n\nE.g. to create a user:\n\nStart console using docker (or from you local environment using python):\n\ndocker exec -it newsgac_dev web python\n\nImport database & user model\n\nfrom newsgac import database  from newsgac.users.models import User\n\nCreate new user\n\nu = User(email='testuser@test.com', password='testtest', name='Test', surname='User')  u.save()\n\nYou can now login from the frontend as this user.   ## Useful commands\n\ndocker stack ps newsgacdev\n\ndocker service ps newsgacdev_worker\n\ndocker service inspect newsgacdev_worker\n\ndocker service logs newsgacdev_worker",
+      "section": "NEWSGAC (part 4)",
+      "repo": "388_NEWSGAC_platform",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## References\n\nA. Bilgin, E. Tjong Kim Sang, K. Smeenk, L. Hollink, J. van Ossenbruggen, F. Harbers and M. Broersma, [Utilizing a Transparency-driven Environment toward Trusted Automatic Genre Classification: A Case Study in Journalism History] https://arxiv.org/pdf/1810.00968.pdf (2018)\n\n@inproceedings{bilgin2018utilizing,  title={Utilizing a Transparency-driven Environment toward Trusted Automatic Genre Classification: A Case Study in Journalism History},  author={Bilgin, Aysenur and Tjong Kim Sang, Erik and Smeenk, Kim and Hollink, Laura and van Ossenbruggen, Jacco and Harbers, Frank and Broersma, Marcel},  booktitle={2018 IEEE 14th International Conference on e-Science (e-Science)},  pages={486--496},  year={2018},  organization={IEEE} }\n\nK. Smeenk, A. Bilgin, T. Klaver, E. Tjong Kim Sang, L. Hollink, J. van Ossenbruggen, F. Harbers and M. Broersma, [Grounding Paradigmatic Shifts In Newspaper Reporting In Big Data. Analysing Journalism History By Using Transparent Automatic Genre Classification] https://ifarm.nl/erikt/papers/2019dh.pdf (2019)\n\n@inproceedings{smeenk2019dh,  author = \"Kim Smeenk and Aysenur Bilgin and Tom Klaver and Erik Tjong Kim Sang and Laura Hollink and Jacco van Ossenbruggen and Frank Harbers and Marcel Broersma\",  title = \"{Grounding Paradigmatic Shifts In Newspaper Reporting In Big Data. Analysing Journalism History By Using Transparent Automatic Genre Classification}\",  booktitle = \"{Digital Humanities Conference 2019 (DH2019)}\",  publisher = \"{Utrecht, The Netherlands}\",  year = \"2019\" }\n\nT. Klaver, E. Tjong Kim Sang, A. Bilgin, K. Smeenk, L. Hollink, J. van Ossenbruggen, F. Harbers and M. Broersma, [Introducing a transparency-driven platform for creating, comparing and explaining machine learning pipelines] https://ifarm.nl/erikt/papers/2019-ictopen.pdf (2019)",
+      "section": "NEWSGAC (part 5)",
+      "repo": "388_NEWSGAC_platform",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "@inproceedings{klaver2019ictopen,  author = \"Tom Klaver and Erik Tjong Kim Sang and Aysenur Bilgin and Kim Smeenk and Laura Hollink and Jacco van Ossenbruggen and Frank Harbers and Marcel Broersma\",  title = \"{Introducing a transparency-driven platform forcreating, comparing and explaining machinelearning pipelines}\",  booktitle = \"{ICT-Open}\",  publisher = \"{Hilversum, The Netherlands}\",  year = \"2019\",  note = \"(demo presentation abstract)\" }",
+      "section": "NEWSGAC (part 6)",
+      "repo": "388_NEWSGAC_platform",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Contributors\n\nAysenur Bilgin (aysenur.bilgin@cwi.nl)  Erik Tjong Kim Sang (e.tjongkimsang@esciencecenter.nl) Tom Klaver (t.klaver@esciencecenter.nl)",
+      "section": "NEWSGAC (part 7)",
+      "repo": "388_NEWSGAC_platform",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "data": {
+      "text": ".. image:: https://raw.githubusercontent.com/Helmholtz-AI-Energy/perun/main/docs/images/full_logo.svg\n\n| |fair-software| |openssf| |zenodo| |license| |docs| | |pypi-version| |python-version| |pypi-downloads| |black| |codecov|\n\n.. |fair-software| image:: https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F-green  :target: https://fair-software.eu .. |openssf| image:: https://bestpractices.coreinfrastructure.org/projects/7253/badge  :target: https://bestpractices.coreinfrastructure.org/projects/7253 .. |zenodo| image:: https://zenodo.org/badge/523363424.svg  :target: https://zenodo.org/badge/latestdoi/523363424 .. |pypi-version| image:: https://img.shields.io/pypi/v/perun .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/perun .. |black| image:: https://img.shields.io/badge/code%20style-black-000000.svg  :target: https://github.com/psf/black .. |codecov| image:: https://codecov.io/gh/Helmholtz-AI-Energy/perun/graph/badge.svg?token=9O6FSJ6I3G  :target: https://codecov.io/gh/Helmholtz-AI-Energy/perun .. |python-version| image:: https://img.shields.io/badge/Python-3.9+-blue.svg  :target: https://www.python.org/downloads/ .. |license| image:: https://img.shields.io/badge/License-BSD_3--Clause-blue.svg  :target: https://opensource.org/licenses/BSD-3-Clause .. |docs| image:: https://readthedocs.org/projects/perun/badge/?version=latest  :target: https://perun.readthedocs.io/en/latest/?badge=latest",
+      "section": "Introduction (part 1)",
+      "repo": "075_perun",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": "perun is a Python package that calculates the energy consumption of Python scripts by sampling usage statistics from your Intel, Nvidia or AMD hardware components. It can handle MPI applications, gather data from hundreds of nodes, and accumulate it efficiently. perun can be used as a command-line tool or as a function decorator in Python scripts.\n\nCheck out the docs _ or a working example _!\n\nKey Features\n\nMeasures energy consumption of Python scripts and binaries, supporting different hardware configurations\n\nCapable of handling MPI applications, gathering data from hundreds of nodes efficiently\n\nMonitor individual functions using decorators\n\nTracks energy usage of the application over multiple executions\n\nEasy to benchmark applications and functions\n\nExperimental!: Can monitor any non-distributed command line application\n\nQuick Start\n\nInstallation ^^^^^^^^^^^^\n\nFrom PyPI:\n\n.. code:: console\n\n$ pip install perun\n\nExtra dependencies like nvidia-smi, rocm-smi and mpi4py can be installed using pip as well:\n\n.. code:: console\n\n$ pip install perun[nvidia, rocm, mpi]\n\nFrom Github:\n\n.. code:: console\n\n$ pip install git+https://github.com/Helmholtz-AI-Energy/perun\n\nCommand Line ^^^^^^^^^^^^\n\nTo use perun as a command-line tool:\n\n.. code:: console\n\n$ perun monitor path/to/your/script.py [args]\n\nperun will output two files, an HDF5 style containing all the raw data that was gathered, and a text file with a summary of the results.\n\n.. code:: text\n\nPERUN REPORT\n\nApp name: finetune_qa_accelerate  First run: 2023-08-15T18:56:11.202060  Last run: 2023-08-17T13:29:29.969779\n\nRUN ID: 2023-08-17T13:29:29.969779",
+      "section": "Introduction (part 2)",
+      "repo": "075_perun",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": "+-----------+------------------------+-----------+-------------+--------------+-------------+-------------+-------------+---------------+-------------+  | Round # | Host | RUNTIME | ENERGY | CPU_POWER | CPU_UTIL | GPU_POWER | GPU_MEM | DRAM_POWER | MEM_UTIL |  +===========+========================+===========+=============+==============+=============+=============+=============+===============+=============+  | 0 | hkn0432.localdomain | 995.967 s | 960.506 kJ | 231.819 W | 3.240 % | 702.327 W | 55.258 GB | 29.315 W | 0.062 % |  | 0 | hkn0436.localdomain | 994.847 s | 960.469 kJ | 235.162 W | 3.239 % | 701.588 W | 56.934 GB | 27.830 W | 0.061 % |  | 0 | All | 995.967 s | 1.921 MJ | 466.981 W | 3.240 % | 1.404 kW | 112.192 GB | 57.145 W | 0.061 % |\n\nThe application has been run 7 times. In total, it has used 3.128 kWh, released a total of 1.307 kgCO2e into the atmosphere, and you paid 1.02 \u20ac in electricity for it.\n\nBinary support (experimental) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\nperun is capable of monitoring simple applications written in other languages:\n\n.. code:: console\n\n$ perun monitor --binary path/to/your/executable [args]\n\nFunction Monitoring ^^^^^^^^^^^^^^^^^^^\n\nUsing a function decorator\n\n.. code:: python\n\nimport time  from perun import monitor\n\n@monitor()  def main(n: int):  time.sleep(n)\n\nAfter running with `perun monitor`, the report will contain:\n\n.. code:: text\n\nMonitored Functions",
+      "section": "Introduction (part 3)",
+      "repo": "075_perun",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": "+-----------+----------------------------+---------------------+------------------+--------------------+------------------+-----------------------+  | Round # | Function | Avg Calls / Rank | Avg Runtime | Avg Power | Avg CPU Util | Avg GPU Mem Util |  +===========+============================+=====================+==================+====================+==================+=======================+  | 0 | main | 1 | 993.323\u00b10.587 s | 964.732\u00b10.499 W | 3.244\u00b10.003 % | 35.091\u00b10.526 % |  | 0 | prepare_train_features | 88 | 0.383\u00b10.048 s | 262.305\u00b119.251 W | 4.541\u00b10.320 % | 3.937\u00b10.013 % |  | 0 | prepare_validation_features| 11 | 0.372\u00b10.079 s | 272.161\u00b119.404 W | 4.524\u00b10.225 % | 4.490\u00b10.907 % |\n\nMPI ^^^\n\nperun is compatible with MPI applications using `mpi4py:\n\n.. code:: console\n\n$ mpirun -n 8 perun monitor path/to/your/script.py\n\nDocs\n\nSee the documentation _ or examples `_ for more details.\n\nCiting perun\n\nIf you found perun useful, please cite the conference paper:\n\n::\n\nGuti\u00e9rrez Hermosillo Muriedas, J.P., Fl\u00fcgel, K., Debus, C., Obermaier, H., Streit, A., G\u00f6tz, M.:  perun: Benchmarking Energy Consumption of High-Performance Computing Applications.  In: Cano, J., Dikaiakos, M.D., Papadopoulos, G.A., Peric\u00e0s, M., and Sakellariou, R. (eds.)  Euro-Par 2023: Parallel Processing. pp. 17\u201331. Springer Nature Switzerland, Cham (2023).  https://doi.org/10.1007/978-3-031-39698-4_2\n\n.. code-block:: bibtex",
+      "section": "Introduction (part 4)",
+      "repo": "075_perun",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": "@InProceedings{10.1007/978-3-031-39698-4_2,  author=\"Guti{\\'e}rrez Hermosillo Muriedas, Juan Pedro  and Fl{\\\"u}gel, Katharina  and Debus, Charlotte  and Obermaier, Holger  and Streit, Achim  and G{\\\"o}tz, Markus\",  editor=\"Cano, Jos{\\'e}  and Dikaiakos, Marios D.  and Papadopoulos, George A.  and Peric{\\`a}s, Miquel  and Sakellariou, Rizos\",  title=\"perun: Benchmarking Energy Consumption of High-Performance Computing Applications\",  booktitle=\"Euro-Par 2023: Parallel Processing\",  year=\"2023\",  publisher=\"Springer Nature Switzerland\",  address=\"Cham\",  pages=\"17--31\",  isbn=\"978-3-031-39698-4\"  }",
+      "section": "Introduction (part 5)",
+      "repo": "075_perun",
+      "source_file": "readme.rst"
+    }
+  }
+]

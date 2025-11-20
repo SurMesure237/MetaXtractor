@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1754,
+    "annotations": [
+      {
+        "id": 10666,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1151,
+              "end": 1170,
+              "text": "http://www.pism.io/",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "Q4vO2E77Dq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:10:02.619407Z",
+        "updated_at": "2025-11-04T19:10:02.619427Z",
+        "draft_created_at": "2025-11-04T19:09:45.627569Z",
+        "lead_time": 26.429,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "e6c9c91d-30f8-4bc7-96eb-386705365b4a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1754,
+        "project": 23404,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "PISM, a Parallel Ice Sheet Model\n\n|doi| |gpl| |cipism| |fairchecklist|\n\n.. image:: https://github.com/pism/pism/blob/dev/images/Greenland_RCP_85_2008_2300_comp_1080p30.gif\n\nThe Parallel Ice Sheet Model is an open source, parallel, high-resolution ice sheet model that includes:\n\nA hierarchy of available stress balances\n\nMarine ice sheet physics, dynamic calving fronts\n\nA polythermal, enthalpy-based conservation of energy scheme\n\nExtensible coupling to atmospheric and ocean models\n\nVerification and validation tools\n\nDocumentation _ for users and developers\n\nLinks to MPI_ and PETSc_ for parallel simulations\n\nUse of CF-compliant _ NetCDF_ files for input and output\n\nPISM is jointly developed at the University of Alaska, Fairbanks (UAF) _ and the Potsdam Institute for Climate Impact Research (PIK) _. UAF developers are based in the Snow, Ice, and Permafrost Group _ at the Geophysical Institute _.\n\nPlease see PISM's manual https://www.pism.io/docs/citing for how to acknowledge the use of PISM and PISM's funding sources. If the manual is not available, please refer to the file `doc/sphinx/citing/index.rst in the PISM repository.\n\nHomepage\n\nhttp://www.pism.io/\n\nDownload and Install\n\nSee the section Installing PISM _ on pism.io.\n\nSupport\n\nPlease e-mail uaf-pism@alaska.edu _ with questions about PISM.\n\nYou can also join the PISM workspace on Slack _.\n\nContributing\n\nWant to contribute? Great! See Contributing to PISM `_.\n\n.. URLs",
+      "section": "Introduction (part 1)",
+      "repo": "427_Parallel_Ice_Sheet_Model__PISM_",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.236893Z",
+    "updated_at": "2025-11-04T19:10:02.648644Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23404,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1755,
+    "annotations": [
+      {
+        "id": 10667,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 238,
+              "end": 276,
+              "text": "https://doi.org/10.5281/zenodo.1199019",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "lVFIfsh_28",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 354,
+              "end": 393,
+              "text": "https://opensource.org/licenses/GPL-3.0",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "gTIokF7Zue",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 717,
+              "end": 753,
+              "text": "http://www.pism.io/docs/installation",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "8AfVn2vwd3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 610,
+              "end": 633,
+              "text": "http://www.pism.io/docs",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "JzfBy6z7qA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:12:12.628774Z",
+        "updated_at": "2025-11-14T13:02:53.276926Z",
+        "draft_created_at": "2025-11-04T19:10:24.335511Z",
+        "lead_time": 169.144,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "19dc5a6f-2161-4df2-8e71-1f6e792cffed",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1755,
+        "project": 23404,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": ".. |fairchecklist| image:: https://fairsoftwarechecklist.net/badge.svg .. _fairchecklist: https://fairsoftwarechecklist.net/v0.2?f=31&a=32113&i=31311&r=123 .. |doi| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.1199019.svg .. _doi: https://doi.org/10.5281/zenodo.1199019 .. |gpl| image:: https://img.shields.io/badge/License-GPL-green.svg .. _gpl: https://opensource.org/licenses/GPL-3.0 .. |cipism| image:: https://circleci.com/gh/pism/pism/tree/main.svg?style=svg .. _cipism: https://circleci.com/gh/pism/pism/tree/main .. _uaf: http://www.uaf.edu/ .. _pik: http://www.pik-potsdam.de/ .. _pism-manual: http://www.pism.io/docs .. _pism-contributing: http://www.pism.io/docs/contributing .. _pism-installation: http://www.pism.io/docs/installation .. _mpi: http://www.mcs.anl.gov/research/projects/mpi/ .. _petsc: https://petsc.org/ .. _cf: http://cf-pcmdi.llnl.gov/ .. _netcdf: http://www.unidata.ucar.edu/software/netcdf/ .. _sip: https://www.gi.alaska.edu/research/snow-ice-and-permafrost .. _gi: http://www.gi.alaska.edu .. _Slack-PISM: https://uaf-pism.slack.com/join/shared_invite/enQtODc3Njc1ODg0ODM5LThmOTEyNjEwN2I3ZTU4YTc5OGFhNGMzOWQ1ZmUzMWUwZDAyMzRlMzBhZDg1NDY5MmQ1YWFjNDU4MDZiNTk3YmE .. _uaf-pism: mailto:uaf-pism@alaska.edu\n\n..  Local Variables:  fill-column: 90  End:",
+      "section": "Introduction (part 2)",
+      "repo": "427_Parallel_Ice_Sheet_Model__PISM_",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.236932Z",
+    "updated_at": "2025-11-14T13:02:53.317001Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23404,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

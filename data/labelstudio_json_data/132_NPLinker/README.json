@@ -1,0 +1,98 @@
+[
+  {
+    "data": {
+      "text": "## Badges",
+      "section": "Introduction (part 1)",
+      "repo": "132_NPLinker",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| [fair-software.eu] https://fair-software.eu/ recommendations | | | :-- | :-- | | (1/5) code repository | [](https://github.com/NPLinker/nplinker) | | (2/5) license | [](https://github.com/NPLinker/nplinker) | | (3/5) community registry | [](https://pypi.python.org/project/nplinker/) | | (4/5) citation | [](https://doi.org/10.5281/zenodo.4680218) | | (5/5) checklist | [](https://scorecard.dev/viewer/?uri=github.com/NPLinker/nplinker) | | overall | [](https://fair-software.eu) | | Other best practices | | | Documentation | [](https://nplinker.github.io/nplinker) [\ud83d\udd17] https://nplinker.github.io/nplinker| | Build & Test | [](https://github.com/NPLinker/nplinker/actions/workflows/build.yml) | | Static analysis | [](https://sonarcloud.io/dashboard?id=NPLinker_nplinker) |",
+      "section": "Introduction (part 2)",
+      "repo": "132_NPLinker",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Coverage | [](https://sonarcloud.io/dashboard?id=NPLinker_nplinker) | | Citation data consistency | [](https://github.com/NPLinker/nplinker/actions/workflows/cffconvert.yml) |",
+      "section": "Introduction (part 3)",
+      "repo": "132_NPLinker",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "NPLinker is a python framework for data mining microbial natural products by integrating genomics and metabolomics data.\n\nOriginal paper: [Ranking microbial metabolomic and genomic links in the NPLinker framework using complementary scoring functions] https://doi.org/10.1371/journal.pcbi.1008920.",
+      "section": "Introduction (part 4)",
+      "repo": "132_NPLinker",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Setup and usage\n\n### Requirement\n\nLinux, MacOS or [Windows with WSL] https://learn.microsoft.com/en-us/windows/wsl/\n\nPython version \u22653.11\n\n### Installation\n\nNPLinker is a python package, using both pypi packages and non-pypi packages as dependencies. It  requires ~4.5GB of disk space to install all the dependencies.",
+      "section": "Introduction (part 5)",
+      "repo": "132_NPLinker",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Create a new virtual environment and activate it conda create -n npl-3.11 python=3.11 conda activate npl-3.11\n\ninstall from nplinker releases (requiring ~300MB of disk space) pip install --pre nplinker\n\ninstall nplinker non-pypi dependencies and databases (~4GB) install-nplinker-deps\n\n### Testing\n\nTo run the tests, you need to clone this repo and install the development dependencies:\n\nCreate a new virtual environment conda create -n npl-3.11 python=3.11 conda activate npl-3.11\n\nClone the repository and install the development dependencies git clone https://github.com/NPLinker/nplinker.git cd nplinker pip install -e \".[dev]\" install-nplinker-deps\n\n#### Unit tests\n\nTo run the unit tests, you can use the following command:\n\npytest\n\nPytest will use all available CPU cores to run the unit tests in parallel.\n\n#### Integration tests\n\nTo run the integration tests, you can use the following command:\n\npytest -n1 tests/integration\n\nThe -n1 is to use one CPU core to run the tests. Change it to -n2 if you want to use two CPU cores to run in parallel.\n\n### Usage\n\nSee the [documentation] https://nplinker.github.io/nplinker for more information about how to use NPLinker.\n\n## Contributing\n\nIf you want to contribute to the development of nplinker, have a look at the [contribution guidelines] CONTRIBUTING.md and [README for developers] README.dev.md.",
+      "section": "Create a new virtual environment and activate it + install from nplinker releases (requiring ~300MB of disk space) + install nplinker non-pypi dependencies and databases (~4GB) (and 2 more)",
+      "repo": "132_NPLinker",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "nplinker developer documentation\n\nIf you're looking for user documentation, go [here] README.md.\n\n## Code editor\n\nWe use [Visual Studio Code (VS Code)] https://code.visualstudio.com/ as code editor.\n\nThe VS Code Profile for this project is [vscode/nplinker.code-profile] vscode/nplinker.code-profile, which contains the settings, extensions and snippets for the project.\n\nTo use the profile, you must first import it by clicking the following menus: Code -> Settings -> Profiles -> Import Profile....  Then select the file [vscode/nplinker.code-profile] vscode/nplinker.code-profile to import the profile. VS Code will take a while to install the extensions and apply the settings. Want more info? See [vscode profiles guide] https://code.visualstudio.com/docs/editor/profiles.\n\nIf you want to add more settings, you can update the workspace settings, see [the guide] https://code.visualstudio.com/docs/getstarted/settings for more info.\n\n## Setup\n\nWe use Python 3.11 for development environment.\n\nCreate a virtual environment conda create -n npl-dev python=3.11\n\nactivate virtual environment conda activate npl-dev\n\nClone the repository git clone https://github.com/NPLinker/nplinker.git cd nplinker\n\ninstall development dependencies pip install -e \".[dev]\"\n\ninstall non-pypi dependencies install-nplinker-deps\n\n## Running the tests\n\nRun unit tests with\n\npytest",
+      "section": "`nplinker` developer documentation + Create a virtual environment + activate virtual environment (and 3 more)",
+      "repo": "132_NPLinker",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "or pytest -n 2 tests/unit\n\nParallel testing is supported with pytest-xdist plugin. To run tests in parallel, use the -n option, e.g. -n 2 to run tests in parallel with 2 CPUs.  By default, pytest will use all available CPUs to run the tests in parallel.\n\nRun integration tests with\n\npytest -n 0 tests/integration\n\n-n 0 means no parallel testing.\n\n### Test coverage\n\nIn addition to just running the tests to see if they pass, they can be used for coverage statistics, i.e. to determine how much of the package's code is actually executed during tests. In an activated virtual environment with the development tools installed, inside the package directory, run:\n\ncoverage run\n\nThis runs tests and stores the result in a .coverage file. To see the results on the command line, run\n\ncoverage report\n\ncoverage can also generate output in HTML and other formats; see coverage help for more information.\n\n## Linting and formatting\n\nWe use [ruff] https://docs.astral.sh/ruff/ for linting, sorting imports and formatting code. The configurations of ruff are set in [pyproject.toml] pyproject.toml file.\n\nRunning the linters and formatters requires an activated virtual environment with the development tools installed.\n\nLint all files in the current directory. ruff check .\n\nLint all files in the current directory, and fix any fixable errors. ruff check . --fix\n\nFormat all files in the current directory ruff format .",
+      "section": "or + Lint all files in the current directory. + Lint all files in the current directory, and fix any fixable errors. (and 1 more)",
+      "repo": "132_NPLinker",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Format a single python file ruff format filename.py\n\n## Static typing\n\nWe use [inline type annotation] https://typing.readthedocs.io/en/latest/source/libraries.html#how-to-provide-type-annotations for static typing rather than stub files (i.e. .pyi files).\n\nSince Python 3.11 is used as dev environment (older NPLinker must support Python version \u22653.9), you may see various typing issues at runtime. Here is [a guide to solve the potential runtime issues] https://mypy.readthedocs.io/en/stable/runtime_troubles.html.\n\nBy default, we use from __future__ import annotations at module level to stop evaluating annotations at function definition time (see [PEP 563] https://peps.python.org/pep-0563/), which would solve most of compatibility issues between different Python versions. Make sure you're aware of the [caveats] https://mypy.readthedocs.io/en/stable/runtime_troubles.html#future-annotations-import-pep-563.\n\nWe use [Mypy] http://mypy-lang.org/ as static type checker:\n\ninstall mypy pip install mypy\n\nrun mypy mypy src/nplinker\n\nMypy configurations are set in [pyproject.toml] pyproject.toml file.\n\nFor more info about static typing and mypy, see: [Static typing with Python] https://typing.readthedocs.io/en/latest/index.html#\n\n[Mypy doc] https://mypy.readthedocs.io/en/stable/\n\n## Docs\n\nWe use [MkDocs] https://www.mkdocs.org/ and its theme [Material for MkDocs] https://squidfunk.github.io/mkdocs-material/ to generate documentations. The configurations of MkDocs are set in [mkdocs.yml] mkdocs.yml file.\n\nTo watch the changes of current doc in real time, run:\n\nmkdocs serve",
+      "section": "Format a single python file + install mypy + run mypy",
+      "repo": "132_NPLinker",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "or to watch src and docs directories mkdocs serve -w docs -w src\n\nThen open your browser and go to [http://127.0.0.1:8000/] http://127.0.0.1:8000/.\n\n### Publishing the docs\n\nDocumentation is published to GitHub Pages using [mike] https://github.com/jimporter/mike, which also manages versioning on the gh-pages branch.\n\n#### Deploying a new version\n\nTo deploy version 2.0 of the docs and mark it as the latest, run:\n\nmake deploy-docs version=2.0\n\nThis command does the following:\n\nFetches the latest README from the [nplinker-webapp] https://github.com/NPLinker/nplinker-webapp repository.  Builds and deploys the documentation to the gh-pages branch.  Updates the latest alias to point to this version.  Creates a commit on the gh-pages branch to record the deployment.\n\nIf you want to undo a deployment, you can run:\n\nmike delete 2.0\n\n#### Previewing the docs\n\nTo preview all committed versions from gh-pages, use:\n\n``bash  mike serve  `\n\nTo preview your local, uncommitted changes, use:\n\n`bash  make build-docs  `\n\nmake build-docs will also update the webapp README before serving the docs.\n\n## Versioning\n\nUpdating the version of the NPLinker package is done with make command update-version, e.g.\n\nmake update-version CURRENT_VERSION=0.0.1 NEW_VERSION=0.0.2\n\nThis command will update the version in the following files: src/nplinker/__init__.py\n\npyproject.toml\n\nCITATION.cff`\n\n## Making a release\n\nThis section describes how to make a release in 2 parts:\n\nCreate Github release\n\nPublish to Pypi",
+      "section": "or to watch src and docs directories (part 1)",
+      "repo": "132_NPLinker",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### (1/2) Create Github release\n\nWe use the Github action [Draft or publish Github release ] https://github.com/NPLinker/nplinker/actions/workflows/publish_gh_release.yml to create a Github release.\n\nClick the right corner Run workflow button, then fill in the current version number and new version number, and choose publish to publish Github release, then click the Run workflow button.\n\nThe action will first update the version with the command make update-version. Then it will generate a release notes and update the CHANGELOG.md file with the notes. After that, the action will commit and push the changes. In the end, the action will create a Github release with the new version number and create a tag for the release.\n\nAfter the action is finished successfully, you can go to the [release page] https://github.com/NPLinker/nplinker/releases to check the release.\n\nThis repository uses the GitHub-Zenodo integration, the new Github release will trigger Zenodo into making a snapshot of the repository and sticking a DOI on it. Check the [Zenodo page] https://zenodo.org/records/14723594 to see the new snapshot.\n\n### (2/2) Publish to Pypi\n\nYou can publish the package to pypi with the following steps:",
+      "section": "or to watch src and docs directories (part 2)",
+      "repo": "132_NPLinker",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Go to your local nplinker repository cd path-to-nplinker-repo\n\nClean the repository make clean\n\nBuild the source distribution and the wheel make build\n\nPublish to pypi make release\n\nAfter publishing to pypi, you can check the [pypi page] https://pypi.org/project/nplinker/#history to see the new version.",
+      "section": "Go to your local nplinker repository + Clean the repository + Build the source distribution and the wheel (and 1 more)",
+      "repo": "132_NPLinker",
+      "source_file": "readme.dev.md"
+    }
+  }
+]

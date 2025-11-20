@@ -1,0 +1,422 @@
+[
+  {
+    "id": 2461,
+    "annotations": [
+      {
+        "id": 10110,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 163,
+              "end": 189,
+              "text": "http://www.plustoolkit.org",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "9BPV4Y02Kb",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:40:20.299983Z",
+        "updated_at": "2025-11-03T05:40:20.300005Z",
+        "draft_created_at": "2025-11-02T21:03:43.544251Z",
+        "lead_time": 31018.607,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "074bb089-0bfe-4f66-80bb-93c58b41d350",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2461,
+        "project": 23548,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "PlusLib Software library for data acquisition, pre-processing, and calibration for navigated image-guided interventions. See more information at [PlusToolkit.org] http://www.plustoolkit.org.\n\n## Bugs\n\nPlease file an issue report over at https://github.com/PlusToolkit/PlusLib/issues.\n\n## Questions\n\nPlease start a discussion at https://github.com/PlusToolkit/PlusLib/discussions.\n\n## Documentation\n\n[PlusLib API documentation] http://perk-software.cs.queensu.ca/plus/doc/nightly/dev/: generated nightly from the latest code version.\n\n[Plus devices] https://plustoolkit.github.io/devicecode: description of the steps requires to implement a new device interface.\n\nNotepad++ log file syntax highlighting is available via [this user-defined language] https://plustoolkit.github.io/files/PlusLog_NotepadPP_Language.xml.\n\n## Testing dashboards\n\n[PlusLib dashboard] http://perkdata.cs.queensu.ca/CDash/index.php?project=PlusLib: results of automatic tests of the Plus library\n\n[PlusApp dashboard] http://perkdata.cs.queensu.ca/CDash/index.php?project=PlusApp: results of automatic tests of the Plus applications",
+      "section": "PlusLib (part 1)",
+      "repo": "150_Plus_Toolkit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.439010Z",
+    "updated_at": "2025-11-03T05:40:20.328675Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23548,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2462,
+    "annotations": [
+      {
+        "id": 10111,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1148,
+              "end": 1157,
+              "text": "Windows 7",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "E0UOLYbOBZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1173,
+              "end": 1183,
+              "text": "Windows 10",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "OMIUMkDwB-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1199,
+              "end": 1209,
+              "text": "Windows XP",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "iTnE7XIw5s",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1245,
+              "end": 1251,
+              "text": "MacOSX",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "8GJIvPUcSj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1227,
+              "end": 1233,
+              "text": "Ubuntu",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "4QBHJPLiMg",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1455,
+              "end": 1460,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "s4RJsZZQSo",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1464,
+              "end": 1470,
+              "text": "MacOSX",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "BJNtuum9_L",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1324,
+              "end": 1329,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "Rfa9SHL-E2",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1334,
+              "end": 1339,
+              "text": "MacOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "3eZXnOBJoO",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1400,
+              "end": 1407,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "DNkGMmT7Iv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1528,
+              "end": 1535,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "lUQDkb3EIe",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1572,
+              "end": 1577,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "xdo_qQMx4x",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1581,
+              "end": 1586,
+              "text": "MacOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "_t0D3Dd9iG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 272,
+              "end": 334,
+              "text": "https://github.com/PlusToolkit/PlusBuild/blob/master/README.md",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "vu6FI259tF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 140,
+              "end": 145,
+              "text": "CMake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "hVdtTlN9Cd",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:41:39.160577Z",
+        "updated_at": "2025-11-03T05:41:39.160610Z",
+        "draft_created_at": "2025-11-03T05:40:36.618312Z",
+        "lead_time": 78.65,
+        "prediction": {},
+        "result_count": 15,
+        "unique_id": "d38bcc24-1d34-48c1-9c39-a581940d8d6b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2462,
+        "project": 23548,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Build instructions\n\nPlus library files and all required libraries and toolkits are automatically downloaded, configured, and built using CMake \"superbuild\" method (using CMake external project infrastructure). Build instructions are available in [PlusBuild repository] https://github.com/PlusToolkit/PlusBuild/blob/master/README.md.\n\nSupported platforms: 32/64-bit builds: Plus can be built in either 32-bit or 64-bit mode. 64-bit applications have the advantage of larger available memory space (which is useful for certain applications, such as recording a large number of frames in memory, or reconstructing high-resolution volumes), but only a few hardware devices have 64-bit compatible drivers. If available memory is not a concern &nbsp;then use only 32-bit builds. If lots of memory is needed, and the application does not have to use tracking or imaging hardware devices directly then 64-bit build of Plus can be used. If both hardware support and lots of memory is needed then a 32-bit build of Plus can be used for data acquisition and the acquired data can be passed on to a 64-bit Plus or other application for further processing.\n\nWindows 7 32-bit/64-bit, Windows 10 32-bit/64-bit, Windows XP 32-bit embedded, Ubuntu 16.04, and MacOSX operating systems are fully supported and regularly tested.\n\nRunning on Linux and MacOS: Unfortunately, many of the drivers written for devices are Windows specific, and thus capture cannot be done on a Linux or MacOSX machine. It is recommended to do the data acquisition on Windows and stream the acquired data to the Linux or MacOS computer for further processing.",
+      "section": "PlusLib (part 2)",
+      "repo": "150_Plus_Toolkit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.439049Z",
+    "updated_at": "2025-11-03T05:41:39.189162Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23548,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2463,
+    "annotations": [
+      {
+        "id": 10112,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 499,
+              "end": 516,
+              "text": "BSD-style license",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "_AbtTpREp6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 581,
+              "end": 643,
+              "text": "https://github.com/PlusToolkit/PlusLib/blob/master/License.txt",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "LuC0U6QN4t",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:41:58.576025Z",
+        "updated_at": "2025-11-03T05:41:58.576042Z",
+        "draft_created_at": "2025-11-03T05:41:57.568752Z",
+        "lead_time": 19.199,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "9a5d3df5-1bd5-4bc6-8915-108705d1af02",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2463,
+        "project": 23548,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Contributing\n\nWe follow the standard [GitHub Flow] https://guides.github.com/introduction/flow/ process. In short: send a pull request with proposed changes. See more information [here] https://github.com/PlusToolkit/PlusLib/blob/master/CONTRIBUTING.md.\n\nWhen making code changes, please follow Plus coding conventions. The Astyle formatter can be used to quickly format a file to Plus standards. [PLUS format] https://github.com/PlusToolkit/PlusLib/blob/master/.astylerc\n\n## License\n\nPlus has a BSD-style license, which allows any kind of use for free. See more details [here] https://github.com/PlusToolkit/PlusLib/blob/master/License.txt.",
+      "section": "PlusLib (part 3)",
+      "repo": "150_Plus_Toolkit",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.439072Z",
+    "updated_at": "2025-11-03T05:41:58.603556Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23548,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

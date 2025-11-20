@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/recipy/recipy",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "HTML",
+    "Jupyter Notebook",
+    "Gherkin",
+    "CSS"
+  ],
+  "downloadUrl": "https://api.github.com/repos/recipy/recipy/zipball/main",
+  "author": "recipy",
+  "dateCreated": "2015-03-27T09:07:42Z",
+  "dateModified": "2025-10-10T17:45:40Z",
+  "keywords": [
+    "database",
+    "provenance",
+    "python",
+    "recipy",
+    "reproducible-research",
+    "science"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Effortless method to record provenance in Python",
+  "identifier": 32976962,
+  "name": "recipy/recipy",
+  "issueTracker": "https://api.github.com/repos/recipy/recipy/issues",
+  "readme": "https://github.com/recipy/recipy/blob/master/README.md"
+}

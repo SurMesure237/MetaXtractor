@@ -1,0 +1,39 @@
+{
+  "codeRepository": "https://github.com/computationalgeography/lue",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "Python",
+    "CMake",
+    "C",
+    "Makefile",
+    "Shell",
+    "TeX",
+    "Batchfile",
+    "Ruby"
+  ],
+  "downloadUrl": "https://api.github.com/repos/computationalgeography/lue/zipball/main",
+  "author": "computationalgeography",
+  "dateCreated": "2016-06-22T12:52:57Z",
+  "dateModified": "2025-10-30T18:25:28Z",
+  "keywords": [
+    "amt",
+    "asynchronous-tasks",
+    "cartographic-modelling",
+    "computational-geography",
+    "distributed-computing",
+    "environmental-modelling",
+    "gis",
+    "hpc",
+    "lue",
+    "map-algebra",
+    "parallel-computing",
+    "scientific-database"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "LUE Scientific Database and Environmental Modelling Framework",
+  "identifier": 61718900,
+  "name": "computationalgeography/lue",
+  "issueTracker": "https://api.github.com/repos/computationalgeography/lue/issues",
+  "readme": "https://github.com/computationalgeography/lue/blob/master/README.md"
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "id": 1936,
+    "annotations": [
+      {
+        "id": 11873,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1031,
+              "end": 1038,
+              "text": "Node.js",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "FB2G2RFMvG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1078,
+              "end": 1084,
+              "text": "Docker",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "oxAfMhtzx-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1112,
+              "end": 1128,
+              "text": "4.39.0 or higher",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "cIKDSMJODy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1086,
+              "end": 1109,
+              "text": "https://www.docker.com/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "D1mP3XtNvX",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 755,
+              "end": 817,
+              "text": "https://docs.overture.bio/docs/core-software/Arranger/overview",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "fUIVN7CS7k",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 860,
+              "end": 919,
+              "text": "https://docs.overture.bio/docs/core-software/Arranger/setup\\n",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "BEdtJYqVi2",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 941,
+              "end": 1000,
+              "text": "https://docs.overture.bio/docs/core-software/Arranger/setup",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "q-1-xA95wi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:24:52.496008Z",
+        "updated_at": "2025-11-14T13:38:23.808596Z",
+        "draft_created_at": "2025-11-09T06:24:17.133085Z",
+        "lead_time": 110.601,
+        "prediction": {},
+        "result_count": 7,
+        "unique_id": "1d2e7e06-f2e4-4c50-97bc-7cdd96b553f7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1936,
+        "project": 23438,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Arranger\n\nArranger is a versatile, data-agnostic GraphQL search API that leverages Elasticsearch, designed to simplify the process of creating powerful search interfaces for complex datasets. It's accompanied by its own React component library to generate interactive and highly configurable search UIs.\n\n_Arranger is part of [Overture] https://www.overture.bio/, a collection of open-source software microservices used to create platforms for researchers to organize and share genomics data._\n\n## Documentation\n\nTechnical resources for those working with or contributing to the project are available from our official documentation site, the following content can also be read and updated within the /docs folder of this repository.\n\n[Arranger Overview] https://docs.overture.bio/docs/core-software/Arranger/overview\n\n[Setting up the Development Enviornment] https://docs.overture.bio/docs/core-software/Arranger/setup\n\n[Common Usage Docs] https://docs.overture.bio/docs/core-software/Arranger/setup\n\n## Development Environment\n\n[Node.js] https://nodejs.org/ (v22 or higher)\n\n[Docker] https://www.docker.com/ (v4.39.0 or higher)\n\n## Support & Contributions\n\nFor support, feature requests, and bug reports, please see our [Support Guide] https://docs.overture.bio/community/support.\n\nFor detailed information on how to contribute to this project, please see our [Contributing Guide] https://docs.overture.bio/docs/contribution.",
+      "section": "Arranger (part 1)",
+      "repo": "416_Overture_Arranger",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.663998Z",
+    "updated_at": "2025-11-14T13:38:23.849718Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23438,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1937,
+    "annotations": [
+      {
+        "id": 11874,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:24:54.676812Z",
+        "updated_at": "2025-11-09T06:24:54.676849Z",
+        "draft_created_at": null,
+        "lead_time": 1.987,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "093be782-2741-4e2d-9249-5a6b17768991",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1937,
+        "project": 23438,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Related Software\n\nThe Overture platform includes the following components:\n\n| Software | Description | | ------------------------------------------------------- | ----------------------------------------------------------------------------------------- | | [Score] https://github.com/overture-stack/score/ | Transfer data to and from any cloud-based storage system | | [Song] https://github.com/overture-stack/song/ | Catalogue and manage metadata associated to file data spread across cloud storage systems | | [Maestro] https://github.com/overture-stack/maestro/ | Organizing your distributed data into a centralized Elasticsearch index | | [Arranger] https://github.com/overture-stack/arranger/ | A search API with reusable UI components | | [Stage] https://github.com/overture-stack/stage | A React-based web portal scaffolding | | [Lyric] https://github.com/overture-stack/lyric | A model-agnostic, tabular data submission system | | [Lectern] https://github.com/overture-stack/lectern | Schema Manager, designed to validate, store, and manage collections of data dictionaries. |\n\nIf you'd like to get started using our platform [check out our quickstart guides] https://docs.overture.bio/guides/getting-started\n\n## Funding Acknowledgement\n\nOverture is supported by grant #U24CA253529 from the National Cancer Institute at the US National Institutes of Health, and additional funding from Genome Canada, the Canada Foundation for Innovation, the Canadian Institutes of Health Research, Canarie, and the Ontario Institute for Cancer Research.",
+      "section": "Arranger (part 2)",
+      "repo": "416_Overture_Arranger",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.664041Z",
+    "updated_at": "2025-11-09T06:24:54.714474Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23438,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

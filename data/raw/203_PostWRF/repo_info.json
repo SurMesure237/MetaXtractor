@@ -1,0 +1,30 @@
+{
+  "codeRepository": "https://github.com/anikfal/postwrf",
+  "programmingLanguage": "NCL",
+  "programmingLanguages": [
+    "NCL",
+    "Shell",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/anikfal/postwrf/zipball/main",
+  "author": "anikfal",
+  "dateCreated": "2018-03-31T20:13:15Z",
+  "dateModified": "2025-10-29T11:48:43Z",
+  "keywords": [
+    "atmospheric-science",
+    "data-visualization",
+    "era5",
+    "ncl",
+    "postprocessing",
+    "rttov",
+    "visualization",
+    "weather",
+    "wrf"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Visualization and postprocessing of the WRF and ERA5 data",
+  "identifier": 127567581,
+  "name": "anikfal/postwrf",
+  "issueTracker": "https://api.github.com/repos/anikfal/postwrf/issues",
+  "readme": "https://github.com/anikfal/postwrf/blob/master/README.md"
+}

@@ -1,0 +1,27 @@
+{
+  "codeRepository": "https://github.com/PeriHub/PeriHub",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Vue",
+    "TypeScript",
+    "TeX",
+    "JavaScript",
+    "Dockerfile",
+    "Makefile",
+    "SCSS",
+    "HTML",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/PeriHub/PeriHub/zipball/main",
+  "author": "PeriHub",
+  "dateCreated": "2024-03-18T14:40:39Z",
+  "dateModified": "2025-10-27T16:22:56Z",
+  "keywords": [],
+  "license": null,
+  "description": "PeriHub is a platform that provides a numerical implementation of the peridynamic theory. It is an extension of the open source PeriLab software. Peridynamics is a non-local theory that overcomes discontinuity problems of the classical theory of continuum mechanics. It is an effective method to model fracture mechanics problems.",
+  "identifier": 773868665,
+  "name": "PeriHub/PeriHub",
+  "issueTracker": "https://api.github.com/repos/PeriHub/PeriHub/issues",
+  "readme": "https://github.com/PeriHub/PeriHub/blob/main/README.md"
+}

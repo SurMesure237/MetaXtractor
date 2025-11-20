@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": "GR - a universal framework for visualization applications\n\n[](LICENSE.md) [](https://github.com/jheinen/gr/releases) [](https://pypi.python.org/pypi/gr) [](https://zenodo.org/badge/latestdoi/17747322)\n\nGR is a universal framework for cross-platform visualization applications. It offers developers a compact, portable and consistent graphics library for their programs. Applications range from publication quality 2D graphs to the representation of complex 3D scenes.\n\nGR is essentially based on an implementation of a Graphical Kernel System (GKS). As a self-contained system it can quickly and easily be integrated into existing applications (i.e. using the ctypes mechanism in Python or ccall in Julia).\n\nThe GR framework can be used in imperative programming systems or integrated into modern object-oriented systems, in particular those based on GUI toolkits. GR is characterized by its high interoperability and can be used with modern web technologies. The GR framework is especially suitable for real-time or signal processing environments.\n\nGR was developed by the Scientific IT-Systems group at the Peter Gr\u00fcnberg Institute at Forschunsgzentrum J\u00fclich. The main development has been done by Josef Heinen who currently maintains the software, but there are other developers who currently make valuable contributions. Special thanks to Florian Rhiem (GR3) and Christian Felder (qtgr, setup.py).",
+      "section": "Introduction (part 1)",
+      "repo": "453_GR_Framework",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Starting with release 0.6 GR can be used as a backend for [Matplotlib] http://matplotlib.org and significantly improve the performance of existing Matplotlib or PyPlot applications written in Python or Julia, respectively. In [this] http://gr-framework.org/tutorials/matplotlib.html tutorial section you can find some examples.\n\nBeginning with version 0.10.0 GR supports inline graphics which shows up in IPython's Qt Console or interactive computing environments for Python and Julia, such as [IPython] http://ipython.org and [Jupyter] https://jupyter.org. An interesting example can be found [here] http://pgi-jcns.fz-juelich.de/pub/doc/700K_460.html.",
+      "section": "Introduction (part 2)",
+      "repo": "453_GR_Framework",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Installation and Getting Started\n\nTo install GR and try it using Python, Julia or C, please see the corresponding documentation:\n\n[Python package gr] https://gr-framework.org/python.html\n\n[Julia package GR] https://gr-framework.org/julia.html\n\n[C library GR] https://gr-framework.org/c.html\n\n[Ruby package GR] https://github.com/red-data-tools/GR.rb\n\n## Documentation\n\nYou can find more information about GR on the [GR home page] http://gr-framework.org.\n\n## Contributing\n\nIf you want to improve GR, please read the [contribution guide] https://github.com/sciapp/gr/blob/develop/CONTRIBUTING.md for a few notes on how to report issues or submit changes.\n\n## Support\n\nIf you have any questions about GR or run into any issues setting up or running GR, please [open an issue on GitHub] https://github.com/sciapp/gr/issues/new, either in this repo or in the repo for the language binding you are using ([Python] https://github.com/sciapp/python-gr/issues/new, [Julia] https://github.com/jheinen/GR.jl/issues/new, [Ruby] https://github.com/red-data-tools/GR.rb/issues/new).",
+      "section": "Introduction (part 3)",
+      "repo": "453_GR_Framework",
+      "source_file": "readme.md"
+    }
+  }
+]

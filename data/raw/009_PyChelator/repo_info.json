@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/AmruteLab/PyChelator",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "TeX"
+  ],
+  "downloadUrl": "https://api.github.com/repos/AmruteLab/PyChelator/zipball/main",
+  "author": "AmruteLab",
+  "dateCreated": "2023-11-17T03:11:22Z",
+  "dateModified": "2025-03-04T13:56:40Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-2.0",
+  "description": "PyChelator performs metal chelator calculations taking into account pH, temperature, and ionic strength",
+  "identifier": 719852795,
+  "name": "AmruteLab/PyChelator",
+  "issueTracker": "https://api.github.com/repos/AmruteLab/PyChelator/issues",
+  "readme": "https://github.com/AmruteLab/PyChelator/blob/main/README.md"
+}

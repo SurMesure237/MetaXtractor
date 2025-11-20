@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1710,
+    "annotations": [
+      {
+        "id": 10695,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 625,
+              "end": 633,
+              "text": "Nunaliit",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Y4HDxrVrKb",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 977,
+              "end": 1028,
+              "text": "https://github.com/geomedialab/atlas-template/wiki/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "k1sVR1hG1B",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1306,
+              "end": 1384,
+              "text": "https://github.com/geomedialab/atlascine-template/wiki/Developer-documentation",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "31kF7Azk7S",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 48,
+              "end": 69,
+              "text": "https://atlascine.org",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "7GvQEqcfki",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 635,
+              "end": 655,
+              "text": "http://nunaliit.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "51tjrEeM67",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:23:30.801807Z",
+        "updated_at": "2025-11-14T13:02:01.454786Z",
+        "draft_created_at": "2025-11-04T19:22:36.275430Z",
+        "lead_time": 86.09700000000001,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "719cc564-73bf-475b-a82e-d68e362d340c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1710,
+        "project": 23396,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# Template for deploying Atlascine\n\n[Atlascine] https://atlascine.org is a story mapping research tool developed by the [Geomedia Lab at Concordia University] https://geomedialab.org/ in collaboration with the [GCRC at Carleton University] https://gcrc.carleton.ca/. Development has been funded by the Social Sciences and Humanities Research Council of Canada (SSHRC) and by the [CANARIE Research Software Program] https://www.canarie.ca/software/. You can read more on Atlascine's history and previous versions of the tool on the [project website] https://atlascine.org.\n\nAtlascine uses the open source web atlas framework [Nunaliit] http://nunaliit.org/. Like other adaptations of Nunaliit, Atlascine can be installed and deployed from your own server. This public repository contains everything you need to deploy Atlascine yourself along with [extensive documentation on how to do it] https://github.com/geomedialab/atlas-template/wiki/How-to-deploy-Atlascine.\n\n[The wiki] https://github.com/geomedialab/atlas-template/wiki/ also contains additional guidance for [how to use] https://github.com/geomedialab/atlascine-template/wiki/How-to-use-Atlascine and [how to manage] https://github.com/geomedialab/atlascine-template/wiki/Managing-an-atlas an Atlascine atlas, as well as [developer documentation] https://github.com/geomedialab/atlascine-template/wiki/Developer-documentation.",
+      "section": "README",
+      "repo": "302_Atlascine",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.685912Z",
+    "updated_at": "2025-11-14T13:02:01.493438Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23396,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

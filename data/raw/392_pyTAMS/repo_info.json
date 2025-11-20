@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/nlesc-eTAOC/pyTAMS",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/nlesc-eTAOC/pyTAMS/zipball/main",
+  "author": "nlesc-eTAOC",
+  "dateCreated": "2023-10-19T11:06:52Z",
+  "dateModified": "2025-10-29T13:42:06Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "An implementation of the trajectory-adaptive multilevel splitting (TAMS) method.",
+  "identifier": 707169096,
+  "name": "nlesc-eTAOC/pyTAMS",
+  "issueTracker": "https://api.github.com/repos/nlesc-eTAOC/pyTAMS/issues",
+  "readme": "https://github.com/nlesc-eTAOC/pyTAMS/blob/main/README.md"
+}

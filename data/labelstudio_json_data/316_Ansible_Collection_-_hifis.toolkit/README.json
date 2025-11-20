@@ -1,0 +1,50 @@
+[
+  {
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "316_Ansible_Collection_-_hifis.toolkit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Ansible Collection - hifis.toolkit",
+      "section": "Ansible Collection - hifis.toolkit (part 1)",
+      "repo": "316_Ansible_Collection_-_hifis.toolkit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[](https://github.com/hifis-net/ansible-collection-toolkit/releases) [](https://github.com/hifis-net/ansible-collection-toolkit/actions/workflows/gitlab_runner.yml) [](https://github.com/hifis-net/ansible-collection-toolkit/actions/workflows/gitlab.yml) [](https://github.com/hifis-net/ansible-collection-toolkit/actions/workflows/haproxy.yml) [](https://github.com/hifis-net/ansible-collection-toolkit/actions/workflows/keepalived.yml) [](https://github.com/hifis-net/ansible-collection-toolkit/actions/workflows/netplan.yml) [](https://github.com/hifis-net/ansible-collection-toolkit/actions/workflows/redis.yml) [](https://github.com/hifis-net/ansible-collection-toolkit/actions/workflows/ssh_keys.yml) [](https://github.com/hifis-net/ansible-collection-toolkit/actions/workflows/unattended_upgrades.yml)",
+      "section": "Ansible Collection - hifis.toolkit (part 2)",
+      "repo": "316_Ansible_Collection_-_hifis.toolkit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[](https://github.com/hifis-net/ansible-collection-toolkit/actions/workflows/zammad.yml) [](https://zenodo.org/doi/10.5281/zenodo.11147483)",
+      "section": "Ansible Collection - hifis.toolkit (part 3)",
+      "repo": "316_Ansible_Collection_-_hifis.toolkit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "This collection provides production-ready Ansible roles used for providing services used in research and by research software engineers, but not exclusively. The following use cases are supported:\n\nDevOps platform:  [GitLab] roles/gitlab  deploy [GitLab-Runner] roles/gitlab_runner with a focus, but not limited, on Openstack autoscaling  [Redis] roles/redis  Help desk:  [Zammad] roles/zammad  High Availability (HA) / Load Balancing:  [HAProxy] roles/haproxy  [Keepalived] roles/keepalived  OS-related:  [unattended-upgrades] roles/unattended_upgrades  [netplan] roles/netplan distribute authorized [SSH keys] roles/ssh_keys to users",
+      "section": "Ansible Collection - hifis.toolkit (part 4)",
+      "repo": "316_Ansible_Collection_-_hifis.toolkit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Looking for the unattended_upgrades role?\n\nYou can now find it under [roles/unattended_upgrades] roles/unattended_upgrades.\n\nWe moved our existing Ansible roles into a single collection to deduplicate code and have a common test suite for all roles. We decided to reuse the unattended_upgrades repository as a collection repo as it is our most popular role.\n\n## Minimum required Ansible-version\n\nAnsible >= 2.17\n\n## Installation\n\nInstall the collection via ansible-galaxy:\n\nansible-galaxy collection install hifis.toolkit\n\n## Contributing\n\nSee [CONTRIBUTING.md] CONTRIBUTING.md.\n\n## License\n\nApache-2.0\n\n## Author\n\nThis collection is maintained by [HIFIS Software Services] https://hifis.net/.",
+      "section": "Ansible Collection - hifis.toolkit (part 5)",
+      "repo": "316_Ansible_Collection_-_hifis.toolkit",
+      "source_file": "readme.md"
+    }
+  }
+]

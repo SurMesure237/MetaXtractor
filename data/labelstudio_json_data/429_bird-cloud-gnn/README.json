@@ -1,0 +1,66 @@
+[
+  {
+    "data": {
+      "text": "bird_cloud_gnn developer documentation\n\nIf you're looking for user documentation, go [here] README.md.\n\n## Development install\n\nCreate a virtual environment, e.g. with python3 -m venv env\n\nactivate virtual environment source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools python3 -m pip install --upgrade pip setuptools\n\ninstall bird_cloud_gnn as an editable package python3 -m pip install --no-cache-dir --editable .",
+      "section": "`bird_cloud_gnn` developer documentation + Create a virtual environment, e.g. with + activate virtual environment (and 2 more)",
+      "repo": "429_bird-cloud-gnn",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "install development dependencies python3 -m pip install --no-cache-dir --editable .[dev]\n\nAfterwards check that the install directory is present in the PATH environment variable.\n\n## Running the tests\n\nThere are two ways to run tests.\n\nThe first way requires an activated virtual environment with the development tools installed:\n\npytest -v\n\nThe second is to use tox, which can be installed separately (e.g. with pip install tox), i.e. not necessarily inside the virtual environment you use for installing bird_cloud_gnn, but then builds the necessary virtual environments itself by simply running:\n\ntox\n\nTesting with tox allows for keeping the testing environment separate from your development environment. The development environment will typically accumulate (old) packages during development that interfere with testing; this problem is avoided by testing with tox.\n\n### Test coverage\n\nIn addition to just running the tests to see if they pass, they can be used for coverage statistics, i.e. to determine how much of the package's code is actually executed during tests. In an activated virtual environment with the development tools installed, inside the package directory, run:\n\ncoverage run\n\nThis runs tests and stores the result in a .coverage file. To see the results on the command line, run\n\ncoverage report\n\ncoverage can also generate output in HTML and other formats; see coverage help for more information.\n\n## Running linters locally\n\nFor linting we will use [prospector] https://pypi.org/project/prospector/ and to sort imports we will use [isort] https://pycqa.github.io/isort/. Running the linters requires an activated virtual environment with the development tools installed.\n\nlinter prospector\n\nrecursively check import style for the bird_cloud_gnn module only isort --check-only bird_cloud_gnn",
+      "section": "install development dependencies + linter + recursively check import style for the bird_cloud_gnn module only",
+      "repo": "429_bird-cloud-gnn",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "any proposed changes as a diff isort --check-only --diff bird_cloud_gnn\n\nrecursively fix import style for the bird_cloud_gnn module only isort bird_cloud_gnn\n\nTo fix readability of your code style you can use [yapf] https://github.com/google/yapf.\n\n## Pre-commit\n\nYou can enable automatic linting by install [pre-commit] https://pre-commit.com.\n\npre-commit install\n\nYou can also run the linters with pre-commit run -a.\n\n## Generating the API docs\n\ncd docs make html\n\nThe documentation will be in docs/_build/html\n\nIf you do not have make use\n\nsphinx-build -b html docs/ docs/_build/html\n\nTo find undocumented Python objects run\n\ncd docs make coverage cat _build/coverage/python.txt\n\nTo [test snippets] https://www.sphinx-doc.org/en/master/usage/extensions/doctest.html in documentation run\n\ncd docs make doctest\n\n## Making a release\n\nThis section describes how to make a release in 3 parts:\n\npreparation\n\nmaking a release on PyPI\n\nmaking a release on GitHub\n\n### (1/3) Preparation\n\nUpdate the (don't forget to update links at bottom of page)\n\nVerify that the information in CITATION.cff is correct\n\nMake sure the version has been updated in bird_cloud_gnn/__init__.py, setup.cfg, and docs/conf.py\n\nRun the unit tests with pytest -v\n\n### (2/3) PyPI\n\nIn a new terminal, without an activated virtual environment or an env directory:\n\nprepare a new directory cd $(mktemp -d bird_cloud_gnn.XXXXXX)\n\nfresh git clone ensures the release has the state of origin/main branch git clone https://github.com/point-cloud-radar/bird-cloud-gnn .\n\nprepare a clean virtual environment and activate it python3 -m venv env source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools python3 -m pip install --upgrade pip setuptools",
+      "section": "any proposed changes as a diff + recursively fix import style for the bird_cloud_gnn module only + prepare a new directory (and 3 more)",
+      "repo": "429_bird-cloud-gnn",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "install runtime dependencies and publishing dependencies python3 -m pip install --no-cache-dir . python3 -m pip install --no-cache-dir .[publishing]\n\nclean up any previously generated artefacts rm -rf bird_cloud_gnn.egg-info rm -rf dist\n\ncreate the source distribution and the wheel python3 -m build\n\nupload to test pypi instance (requires credentials) twine upload -u __token__ -p THETOKEN -r testpypi dist/\n\n[https://test.pypi.org/project/bird_cloud_gnn] https://test.pypi.org/project/bird_cloud_gnn and verify that your package was uploaded successfully. Keep the terminal open, we'll need it later.\n\nIn a new terminal, without an activated virtual environment or an env directory:\n\ncd $(mktemp -d bird_cloud_gnn-test.XXXXXX)\n\nprepare a clean virtual environment and activate it python3 -m venv env source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools pip install --upgrade pip setuptools\n\ninstall from test pypi instance: python3 -m pip -v install --no-cache-dir \\ --index-url https://test.pypi.org/simple/ \\ --extra-index-url https://pypi.org/simple bird_cloud_gnn\n\nCheck that the package works as it should when installed from pypitest.\n\nThen upload to pypi.org with:\n\nFINAL STEP: upload to PyPI (requires credentials) twine upload -u __token__ -p THETOKEN dist/\n\n### (3/3) GitHub\n\nDon't forget to also make a [release on GitHub] https://github.com/point-cloud-radar/bird-cloud-gnn/releases/new. If your repository uses the GitHub-Zenodo integration this will also trigger Zenodo into making a snapshot of your repository and sticking a DOI on it.",
+      "section": "install runtime dependencies and publishing dependencies + clean up any previously generated artefacts + create the source distribution and the wheel (and 5 more)",
+      "repo": "429_bird-cloud-gnn",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Bird Cloud GNN",
+      "section": "Bird Cloud GNN (part 1)",
+      "repo": "429_bird-cloud-gnn",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[](https://github.com/point-cloud-radar/bird-cloud-gnn) [](https://github.com/point-cloud-radar/bird-cloud-gnn) [](https://research-software-directory.org/projects/bird-movements-with-meteorological-radar) [](https://fair-software.eu) [](https://sonarcloud.io/dashboard?id=point-cloud-radar_bird-cloud-gnn) [](https://sonarcloud.io/dashboard?id=point-cloud-radar_bird-cloud-gnn) [](https://bird-cloud-gnn.readthedocs.io/en/latest/?badge=latest) [](https://github.com/point-cloud-radar/bird-cloud-gnn/actions/workflows/build.yml) [](https://github.com/point-cloud-radar/bird-cloud-gnn/actions/workflows/cffconvert.yml) [](https://github.com/point-cloud-radar/bird-cloud-gnn/actions/workflows/sonarcloud.yml)",
+      "section": "Bird Cloud GNN (part 2)",
+      "repo": "429_bird-cloud-gnn",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[](https://github.com/point-cloud-radar/bird-cloud-gnn/actions/workflows/markdown-link-check.yml) [](https://doi.org/10.5281/zenodo.10214001)\n\n[](https://github.com/psf/black)",
+      "section": "Bird Cloud GNN (part 3)",
+      "repo": "429_bird-cloud-gnn",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Synopsis\n\nThis software produces a graph representation derived from point cloud data, which is then used as input for a Graph Neural Network (GNN).This allows to increase the amount of data by the factor of 1000.\n\n## Code example\n\nSee some examples of usage in [bird-cloud-gnn-experiments] https://github.com/point-cloud-radar/bird-cloud-gnn-experiments repo. ## Motivation\n\nIn scenarios where labeled data is limited, there's a pressing need to expand the dataset effectively. One effective strategy involves altering the data's representation. In this context, we adopted such an approach by acquiring a graph representation from point cloud data. Depending on the chosen parameters, this transformation can augment the dataset by a factor of up to 1000. Subsequently, this graph representation is harnessed as input for Graph Neural Networks (GNNs). GNNs are highly sought after due to their innate ability to adeptly capture and leverage the inherent properties of graph-structured data. They excel in modeling intricate network relationships, autonomously acquiring informative features, and facilitating effective knowledge transfer.\n\n## Installation\n\nTo install bird_cloud_gnn from GitHub repository, do:\n\ngit clone https://github.com/point-cloud-radar/bird-cloud-gnn.git cd bird-cloud-gnn python3 -m pip install .\n\n## Documentation\n\nThe documentation can be found on [Read the Docs] https://bird-cloud-gnn.readthedocs.io/en/latest/index.html.\n\n## Contributing\n\nIf you want to contribute to the development of bird_cloud_gnn, have a look at the [contribution guidelines] CONTRIBUTING.md.\n\n## Credits\n\nThis package was created with [Cookiecutter] https://github.com/audreyr/cookiecutter and the [NLeSC/python-template] https://github.com/NLeSC/python-template.",
+      "section": "Bird Cloud GNN (part 4)",
+      "repo": "429_bird-cloud-gnn",
+      "source_file": "readme.md"
+    }
+  }
+]

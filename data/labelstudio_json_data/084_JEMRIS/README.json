@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "General Information\n\nJEMRIS is a general MRI simulation framework.\n\nThe general process of simulation consists of preparation by choice or implementation of sequence, sample and coil setup and the invocation of the simulation run itself.\n\nDocumentation\n\nIt is _highly_ recommended to read the provided documentation online. Please find the build, install, developer and user documentation under http://www.jemris.org.\n\nLicensing\n\nThis program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA\n\nFor an explicit declaration of licensing refer to the COPYING file in the root directory of this package.\n\nContact\n\nThis package is maintained by Tony Stoecker . Please find problem specific contact addresses on http://www.jemris.org.\n\nInstallation\n\nPlease visit http://www.jemris.org for detailed installation instructions.\n\nHow to report bugs\n\nIf you have identified a bug in JEMRIS you are welcome to send a detailed bug report to . Please include`\n\nInformation about your system\n\nWhich operating system and version (uname -a)\n\nWhich C compiler and version (gcc --version)\n\nAnd anything else you think is relevant.",
+      "section": "Introduction (part 1)",
+      "repo": "084_JEMRIS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Information about your version of JEMRIS\n\nVersion and release number\n\nHow to reproduce the bug\n\nIf it is a systematical bug in JEMRIS please provide the\n\nsequence, the sample, the coils and the outputs from sequence or  simulation GUI to help us to reproduce the bug.\n\nPatches are most welcome. If possible please provide a pull request on github.",
+      "section": "Introduction (part 2)",
+      "repo": "084_JEMRIS",
+      "source_file": "readme.md"
+    }
+  }
+]

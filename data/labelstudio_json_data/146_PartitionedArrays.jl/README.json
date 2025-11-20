@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "This package provides distributed (a.k.a. partitioned) vectors and sparse matrices in Julia. See the documentation for further details.\n\n| Documentation | |:------------ | | [](https://PartitionedArrays.github.io/PartitionedArrays.jl/stable) [](https://PartitionedArrays.github.io/PartitionedArrays.jl/dev) | |Build Status | | [](https://github.com/PartitionedArrays/PartitionedArrays.jl/actions) | |Coverage | | [](https://codecov.io/gh/PartitionedArrays/PartitionedArrays.jl)| |DOI | | [](https://zenodo.org/badge/latestdoi/319607706)|\n\n## Documentation\n\n[STABLE] https://PartitionedArrays.github.io/PartitionedArrays.jl/stable &mdash; Documentation for the most recently tagged version.\n\n[LATEST] https://PartitionedArrays.github.io/PartitionedArrays.jl/dev &mdash; Documentation for the in-development version.\n\n## Help and discussion\n\nYou can open a new discussion to ask questions [here] https://github.com/PartitionedArrays/PartitionedArrays.jl/discussions.\n\nIf you have found a bug, open an issue [here] https://github.com/PartitionedArrays/PartitionedArrays.jl/issues. Do not forget to include a (minimal) reproducer.",
+      "section": "Introduction (part 1)",
+      "repo": "146_PartitionedArrays.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Contributing\n\nThis package is under active development and there are several ways to contribute:\n\nby enhancing the documentation (e.g., fixing typos, enhancing doc strings, adding examples).\n\nby addressing one of the [issues waiting for help] https://github.com/PartitionedArrays/PartitionedArrays.jl/labels/help%20wanted.\n\nby adding more tests to increase the code coverage.\n\nby extending the current functionality. In this case, open a discussion [here] https://github.com/PartitionedArrays/PartitionedArrays.jl/discussions to coordinate with the package maintainers before proposing significant changes.",
+      "section": "Introduction (part 2)",
+      "repo": "146_PartitionedArrays.jl",
+      "source_file": "readme.md"
+    }
+  }
+]

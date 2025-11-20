@@ -1,0 +1,142 @@
+[
+  {
+    "id": 2039,
+    "annotations": [
+      {
+        "id": 10400,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 808,
+              "end": 830,
+              "text": "https://www.slicer.org",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "K9AaZqr0nG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 572,
+              "end": 657,
+              "text": "https://slicer.readthedocs.io/en/latest/developer_guide/build_instructions/index.html",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "zbptsXy0PY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 474,
+              "end": 481,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "wvsRZurjWJ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 483,
+              "end": 488,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "Hihe6NGnKZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 493,
+              "end": 498,
+              "text": "macOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "F7fMqBW_nS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 161,
+              "end": 218,
+              "text": "https://github.com/Slicer/Slicer/actions/workflows/ci.yml",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "Wzikpyx1V7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:15:36.310493Z",
+        "updated_at": "2025-11-14T13:10:51.966991Z",
+        "draft_created_at": "2025-11-04T07:15:11.930195Z",
+        "lead_time": 75.37100000000001,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "62b1518f-d89b-4af2-a928-b0211f12c283",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2039,
+        "project": 23464,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://pubmed.ncbi.nlm.nih.gov/22770690/) [](https://www.sciencedirect.com/science/article/abs/pii/S0730725X12001816?via%3Dihub#preview-section-cited-by) [](https://github.com/Slicer/Slicer/actions/workflows/ci.yml) [](https://securityscorecards.dev/viewer/?uri=github.com/Slicer/Slicer)\n\nSlicer, or 3D Slicer, is a free, open source software package for visualization and image analysis.\n\n3D Slicer is natively designed to be available on multiple platforms, including Windows, Linux and macOS.\n\nBuild instructions for all platforms are available on the Slicer wiki: https://slicer.readthedocs.io/en/latest/developer_guide/build_instructions/index.html\n\nFor Slicer community announcements and support, visit: https://discourse.slicer.org\n\nFor documentation, tutorials, and more information, please see: https://www.slicer.org\n\nSee License.txt for information on using and contributing.",
+      "section": "README",
+      "repo": "171_3D_Slicer",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.437063Z",
+    "updated_at": "2025-11-14T13:10:52.000597Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23464,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

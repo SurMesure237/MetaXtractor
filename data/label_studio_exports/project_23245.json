@@ -1,0 +1,293 @@
+[
+  {
+    "id": 836,
+    "annotations": [
+      {
+        "id": 11279,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T20:52:25.070400Z",
+        "updated_at": "2025-11-06T20:52:25.070412Z",
+        "draft_created_at": null,
+        "lead_time": 25.73,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "03cba60a-2e6c-4a75-bccb-3f4fb647a6a7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 836,
+        "project": 23245,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "CrystFEL - Data processing for serial crystallography\n\nOverview\n\nCrystFEL is a suite of programs for processing data from [serial crystallography experiments] https://en.wikipedia.org/wiki/Serial_Femtosecond_Crystallography, performed at synchrotron and X-ray free-electron laser facilities, as well as in your home lab using an electron microscope.\n\nGetting started\n\nSee [INSTALL.md] INSTALL.md for installation instructions, including our container registry, installation via package manager and details of pre-existing installations at X-ray facilities around the world.\n\nCrystFEL can be used from the command line or via a graphical user interface. To start the graphical user interface, run ``crystfel`.\n\nThere is a [video tutorial] https://vimeo.com/585412404, as well as a [text tutorial] doc/articles/tutorial.rst to get you started with processing via the GUI.\n\nFor command-line use, standard `man` pages are available. Start with `man crystfel``. The manual pages are also [available on the web] https://www.desy.de/~twhite/crystfel/manual.html.\n\nDocumentation",
+      "section": "Introduction (part 1)",
+      "repo": "471_CrystFEL",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.138590Z",
+    "updated_at": "2025-11-06T20:52:25.093951Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23245,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 837,
+    "annotations": [
+      {
+        "id": 11280,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T20:52:31.924799Z",
+        "updated_at": "2025-11-06T20:52:31.924819Z",
+        "draft_created_at": null,
+        "lead_time": 6.682,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "1104f533-a4c4-45ac-9e5c-34fe3de335a5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 837,
+        "project": 23245,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[Basic Tutorial] doc/articles/tutorial.rst  [Which indexing method(s) should I use?] doc/articles/indexer-choice.rst  [How to choose the right point group for merging] doc/articles/pointgroup.rst  [How to increase data processing speed] doc/articles/speed.rst  [Real-time data processing] doc/articles/online.rst  [Processing electron diffraction data] doc/articles/electrons.rst  [Symmetry classification for serial crystallography] doc/twin-calculator.pdf  [Matrix conventions used in CrystFEL code] doc/matrix-notation.pdf - for  developers, written mostly for my own benefit.  [Hit rate graph] doc/hitrate.png  [Examples folder] doc/examples - contains some template input files.  [Contributing to CrystFEL] CONTRIBUTING.md - including how to cite CrystFEL  and how to find good first issues to work on.  [Citation list] https://www.desy.de/~twhite/crystfel/citations.html - please  send us details of your paper, if it's missing! [Scripts folder] scripts - a miscellany of smaller programs to help at\n\nvarious stages of data processing.\n\nJournal articles and book chapters",
+      "section": "Introduction (part 2)",
+      "repo": "471_CrystFEL",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.138626Z",
+    "updated_at": "2025-11-06T20:52:31.956168Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23245,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 838,
+    "annotations": [
+      {
+        "id": 11281,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T20:52:53.720413Z",
+        "updated_at": "2025-11-06T20:52:53.720432Z",
+        "draft_created_at": null,
+        "lead_time": 16.945,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "410d0ada-1f87-434f-aa8e-c937c8ffc2eb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 838,
+        "project": 23245,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[Processing serial crystallography data with CrystFEL: a step-by-step  guide] https://doi.org/10.1107/S205979831801238X - covers command-line  processing only (pre-dates the GUI).  [Recent developments in CrystFEL] http://dx.doi.org/10.1107/S1600576716004751 -  now somewhat out of date, but contains some useful information about the  algorithms used.  [Crystallography and Molecular Imaging using X-ray  Lasers] https://doi.org/10.23730/CYRSP-2018-001.605 - an introduction to the  biological aspects and possibilities, written for physicists (in contrast to  most other articles, which introduce the physical aspects for biologists!).  [Original paper about CrystFEL] http://dx.doi.org/10.1107/S0021889812002312  from 2012. Not open access, but a \"reprint\" is available  [here] https://www.desy.de/~twhite/crystfel/db5097-reprint.pdf.  [Climbing the Data Mountain: Processing of SFX  Data] https://link.springer.com/chapter/10.1007/978-3-030-00551-1_7 -  emphasizes data volume issues for XFELs. Unfortunately not open access.  [Processing of XFEL  Data] https://link.springer.com/protocol/10.1007/978-1-4939-7000-1_13 -  describes the entire processing pipeline. Unfortunately not open access.\n\nAwards\n\nIn 2017, the development of CrystFEL was recognised with the [Max von Laue Prize] https://www.desy.de/news/news_search/index_eng.html?openDirectAnchor=1202 from the [German Society for Crystallography (DGK)] https://dgk-home.de/en/.\n\nCiting CrystFEL\n\nPlease see [CONTRIBUTING.md] CONTRIBUTING.md for citation instructions.\n\nRelated software\n\n[OnDA Monitor] https://www.ondamonitor.com/ for real-time monitoring of data quality. Read [the paper] https://doi.org/10.1107/s1600576716007469.",
+      "section": "Introduction (part 3)",
+      "repo": "471_CrystFEL",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.138651Z",
+    "updated_at": "2025-11-06T20:52:53.747362Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23245,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 839,
+    "annotations": [
+      {
+        "id": 11282,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T20:52:58.852975Z",
+        "updated_at": "2025-11-06T20:52:58.852989Z",
+        "draft_created_at": null,
+        "lead_time": 4.967,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "497b0375-03a8-4078-9afe-8c9301f144cf",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 839,
+        "project": 23245,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[Pixel Anomaly Detection Tool] https://github.com/gihankaushyal/PixelAnomalyDetectorTool uses machine learning techniques to find misbehaving detector pixels. Read [the paper] https://doi.org/10.1107/s1600576724000116.\n\n[Careless] https://github.com/rs-station/careless scales and merges data using variational inference. Use its stream2mtz script to import data from CrystFEL. Read [the paper] http://dx.doi.org/10.1038/s41467-022-35280-8.\n\n[DatView] https://github.com/nstander/DatView helps with multivariate analysis of large datasets. Read [the paper] https://doi.org/10.1107/s1600576719012044. [More information here] https://sites.google.com/view/zatsepinlab/resources/datview including a tutorial and manual.\n\nFunding acknowledgements\n\nDevelopment of CrystFEL is primarily funded by the [Helmholtz Association] https://www.helmholtz.de/ via [DESY] https://www.desy.de/.\n\nPartial funding for CrystFEL has been provided by:\n\nThe consortium DAPHNE4NFDI in the context of the work of the NFDI e.V. The  consortium is funded by the Deutsche Forschungsgemeinschaft (DFG, German  Research Foundation) - project number 460248799 (2022-).\n\nEuropean Union’s Horizon 2020 research and innovation programme under grant  agreement No 857641 ([ExPaNDS] https://expands.eu/) (2019-2023).\n\n[X-Probe] http://x-probe.org/, a project of the European Union's 2020  Research and Innovation Program Under the Marie Skłodowska-Curie grant  agreement 637295 (2015-2018).\n\nThe [BMBF] https://www.bmbf.de/ German-Russian Cooperation  [SyncFELMed] http://www.syncfelmed.org/, grant 05K14CHA (2014-2017).\n\n[BioStruct-X] https://www.biostruct-x.eu/, a project funded by the Seventh\n\nFramework Programme (FP7) of the European Commission (2011-2016).\n\nLicence\n\nCopyright © 2012-2024 Deutsches Elektronen-Synchrotron DESY, a research centre of the Helmholtz Association.",
+      "section": "Introduction (part 4)",
+      "repo": "471_CrystFEL",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.138676Z",
+    "updated_at": "2025-11-06T20:52:58.878925Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23245,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 840,
+    "annotations": [
+      {
+        "id": 11284,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 518,
+              "end": 544,
+              "text": "GNU General Public License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "AI2YR5bhau",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 188,
+              "end": 214,
+              "text": "GNU General Public License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "plWtYaF7ll",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 603,
+              "end": 629,
+              "text": "GNU General Public License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "IWQ3vGHz0N",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T20:53:33.019584Z",
+        "updated_at": "2025-11-16T05:03:55.771757Z",
+        "draft_created_at": "2025-11-06T20:53:16.262035Z",
+        "lead_time": 47.471000000000004,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "b564154f-166d-4171-bcfb-762b29613b91",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 840,
+        "project": 23245,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "See [AUTHORS] AUTHORS as well as individual source code files for full details of contributors.\n\nCrystFEL is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nCrystFEL is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with CrystFEL. If not, see .",
+      "section": "Introduction (part 5)",
+      "repo": "471_CrystFEL",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.138698Z",
+    "updated_at": "2025-11-16T05:03:55.802532Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23245,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

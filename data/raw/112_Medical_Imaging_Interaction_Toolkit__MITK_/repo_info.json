@@ -1,0 +1,36 @@
+{
+  "codeRepository": "https://github.com/MITK/MITK",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "CMake",
+    "C",
+    "SWIG",
+    "HTML",
+    "CSS",
+    "Python",
+    "JavaScript",
+    "Makefile",
+    "Shell",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/MITK/MITK/zipball/main",
+  "author": "MITK",
+  "dateCreated": "2011-05-17T13:21:51Z",
+  "dateModified": "2025-10-28T17:13:37Z",
+  "keywords": [
+    "cpp-library",
+    "dicom",
+    "dicom-browser",
+    "dicom-rt",
+    "medical-image-computing",
+    "medical-imaging",
+    "mitk"
+  ],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "The Medical Imaging Interaction Toolkit.",
+  "identifier": 1760792,
+  "name": "MITK/MITK",
+  "issueTracker": "https://api.github.com/repos/MITK/MITK/issues",
+  "readme": "https://github.com/MITK/MITK/blob/master/README.md"
+}

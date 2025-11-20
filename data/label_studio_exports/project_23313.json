@@ -1,0 +1,237 @@
+[
+  {
+    "id": 1288,
+    "annotations": [
+      {
+        "id": 11027,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 172,
+              "end": 210,
+              "text": "https://doi.org/10.5281/zenodo.3842780",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "ZyEE2Iubns",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 111,
+              "end": 167,
+              "text": "https://laserfarm.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "QA8U1sWlum",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 717,
+              "end": 721,
+              "text": "PDAL",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "wRKXMXk1uv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 744,
+              "end": 748,
+              "text": "GDAL",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "SdpIggvc5b",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 723,
+              "end": 738,
+              "text": "https://pdal.io",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "WQoZUXe2Wq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 750,
+              "end": 766,
+              "text": "https://gdal.org",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "QzLjw3DNLY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:48:56.711538Z",
+        "updated_at": "2025-11-15T17:08:11.953036Z",
+        "draft_created_at": "2025-11-05T22:48:31.076927Z",
+        "lead_time": 48.263,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "5cd02371-29a5-456a-9cf3-043355fccbd7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1288,
+        "project": 23313,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Laserfarm\n\n[](https://github.com/eEcoLiDAR/Laserfarm/actions) [](https://codecov.io/gh/eEcoLiDAR/Laserfarm) [](https://laserfarm.readthedocs.io/en/latest/?badge=latest) [](https://doi.org/10.5281/zenodo.3842780) [](https://pypi.python.org/pypi/laserfarm) [](https://bestpractices.coreinfrastructure.org/projects/4523)\n\nLaserfarm (Laserchicken Framework for Applications in Research in Macro-ecology) provides a FOSS wrapper to  [Laserchicken] https://github.com/eEcoLiDAR/laserchicken supporting the use of massive LiDAR point cloud data sets for  macro-ecology, from data preparation to scheduling and execution of distributed processing across a cluster of compute  nodes.\n\n## Installation\n\nLaserfarm requires the [PDAL] https://pdal.io and [GDAL] https://gdal.org libraries and the PDAL Python  bindings. These packages are most easily installed through conda from the conda-forge channel:\n\nconda install pdal python-pdal gdal -c conda-forge\n\nLaserfarm can then be downloaded and installed using pip:\n\npip install laserfarm\n\nor using git + pip:\n\ngit clone git@github.com:eEcoLiDAR/Laserfarm.git cd Laserfarm pip install .\n\nIn order to setup a new conda environment with Laserfarm and all its dependencies, the YAML file provided can be  employed:\n\nconda env create -f environment.yml",
+      "section": "Laserfarm (part 1)",
+      "repo": "274_Laserfarm",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.921580Z",
+    "updated_at": "2025-11-15T17:08:11.986402Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23313,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1289,
+    "annotations": [
+      {
+        "id": 11028,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 951,
+              "end": 993,
+              "text": "http://www.apache.org/licenses/LICENSE-2.0",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "lou7nZVyd_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 800,
+              "end": 827,
+              "text": "Apache License, Version 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "GnT2rKHmpB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 71,
+              "end": 114,
+              "text": "https://laserfarm.readthedocs.io/en/latest/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "xrbcJWBQFi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:49:12.063293Z",
+        "updated_at": "2025-11-15T17:08:28.180028Z",
+        "draft_created_at": "2025-11-05T22:49:07.894783Z",
+        "lead_time": 29.097,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "4ec4bd72-a082-4149-8f1e-d68e5337426d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1289,
+        "project": 23313,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Documentation\n\nThe project's full documentation can be found [here] https://laserfarm.readthedocs.io/en/latest/.\n\n## Applications and Current Limitations\n\nThis package has been tested on data provided in a metric-based 2D-projected Cartesian coordinate system, i.e. the  [Actueel Hoogtebestand Nederland] https://www.pdok.nl/introductie/-/article/actueel-hoogtebestand-nederland-ahn3-.  While some of the tools of Laserfarm could be applied to data in an ellipsoidal latitude/longitude coordinate system  as well, this has not been tested and it is generally expected to fail.\n\n## Contributing\n\nIf you want to contribute to the development of Laserfarm, have a look at the [contribution guidelines] CONTRIBUTING.md.\n\n## License\n\nCopyright (c) 2022, Netherlands eScience Center\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.",
+      "section": "Laserfarm (part 2)",
+      "repo": "274_Laserfarm",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.921619Z",
+    "updated_at": "2025-11-15T17:08:28.215649Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23313,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

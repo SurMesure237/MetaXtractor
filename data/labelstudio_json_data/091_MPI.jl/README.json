@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "MPI interface for the Julia language\n\n[](https://juliaparallel.github.io/MPI.jl/latest/) [](https://juliaparallel.github.io/MPI.jl/stable/) [](https://github.com/JuliaParallel/MPI.jl/actions/workflows/UnitTests.yml) [](https://buildkite.com/julialang/mpi-dot-jl) [](https://codecov.io/github/JuliaParallel/MPI.jl?branch=master) [](https://coveralls.io/github/JuliaParallel/MPI.jl?branch=master)\n\nThis provides [Julia] https://julialang.org/ interface to the Message Passing Interface ([MPI] https://www.mpi-forum.org/), roughly inspired by [mpi4py] https://github.com/mpi4py/mpi4py/.\n\nPlease see the [documentation] https://juliaparallel.github.io/MPI.jl/stable/ for instructions on [configuration] https://juliaparallel.github.io/MPI.jl/stable/configuration/ and [usage] https://juliaparallel.github.io/MPI.jl/stable/usage/.\n\nBreaking changes with v0.20: The way how MPI.jl is configured to use different MPI implementations has changed from v0.19 to v0.20 in a non-backward-compatible manner. Specifically, most JULIA_MPI_XXX variables do not have an effect anymore. Please refer to the [docs] https://juliaparallel.org/MPI.jl/stable/configuration/#Migration-from-MPI.jl-v0.19-or-earlier for information on how to migrate your existing configuration.",
+      "section": "MPI interface for the Julia language",
+      "repo": "091_MPI.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Help and discussion\n\nFor help and discussion, we suggest asking on the following venues: [\"Julia at Scale\" topic on the Julia Discourse] https://discourse.julialang.org/c/domain/parallel/34\n\n#distributed channel on the [Julia Slack] https://julialang.slack.com/ (visit [https://julialang.org/slack/] https://julialang.org/slack/ to join).\n\nContributing\n\nContributions are encouraged. In particular, MPI provides several hundred functions, only a small number of which are currently exposed. If there are additional functions you would like to use, please open an [issue] https://github.com/JuliaParallel/MPI.jl/issues or [pull request] https://github.com/JuliaParallel/MPI.jl/pulls.\n\nAdditional examples and documentation improvements are also very welcome.\n\nCitation\n\nIf you use MPI.jl in your work, please cite the following paper:\n\nSimon Byrne, Lucas C. Wilcox, and Valentin Churavy (2021) \"MPI.jl: Julia bindings for the Message Passing Interface\". _JuliaCon Proceedings_, 1(1), 68, doi: [10.21105/jcon.00068] https://doi.org/10.21105/jcon.00068",
+      "section": "Help and discussion + Contributing + Citation",
+      "repo": "091_MPI.jl",
+      "source_file": "readme.md"
+    }
+  }
+]

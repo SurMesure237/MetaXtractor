@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/tamarin-prover/tamarin-prover",
+  "programmingLanguage": "Haskell",
+  "programmingLanguages": [
+    "Haskell",
+    "Python",
+    "JavaScript",
+    "Makefile",
+    "CSS",
+    "Vim Script",
+    "TeX",
+    "Shell",
+    "Dockerfile",
+    "HTML",
+    "C",
+    "Emacs Lisp"
+  ],
+  "downloadUrl": "https://api.github.com/repos/tamarin-prover/tamarin-prover/zipball/main",
+  "author": "tamarin-prover",
+  "dateCreated": "2012-02-22T20:03:23Z",
+  "dateModified": "2025-10-24T04:24:57Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Main source code repository of the Tamarin prover for security protocol verification.",
+  "identifier": 3518380,
+  "name": "tamarin-prover/tamarin-prover",
+  "issueTracker": "https://api.github.com/repos/tamarin-prover/tamarin-prover/issues",
+  "readme": "https://github.com/tamarin-prover/tamarin-prover/blob/develop/README.md"
+}

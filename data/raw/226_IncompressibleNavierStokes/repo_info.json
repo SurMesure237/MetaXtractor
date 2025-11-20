@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/bsanderse/INS2D",
+  "programmingLanguage": "MATLAB",
+  "programmingLanguages": [
+    "MATLAB",
+    "C",
+    "Fortran",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/bsanderse/INS2D/zipball/main",
+  "author": "bsanderse",
+  "dateCreated": "2019-01-30T08:29:31Z",
+  "dateModified": "2025-05-23T13:58:03Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/lgpl-3.0",
+  "description": "incompressible Navier-Stokes solver in 2D",
+  "identifier": 168306979,
+  "name": "bsanderse/INS2D",
+  "issueTracker": "https://api.github.com/repos/bsanderse/INS2D/issues",
+  "readme": "https://github.com/bsanderse/INS2D/blob/master/readme.md"
+}

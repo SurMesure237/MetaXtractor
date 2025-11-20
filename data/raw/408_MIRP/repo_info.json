@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/oncoray/mirp",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Jupyter Notebook",
+    "R",
+    "Batchfile",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/oncoray/mirp/zipball/main",
+  "author": "oncoray",
+  "dateCreated": "2019-07-01T18:49:07Z",
+  "dateModified": "2025-10-25T08:30:48Z",
+  "keywords": [
+    "image-processing",
+    "radiomics"
+  ],
+  "license": "https://api.github.com/licenses/eupl-1.2",
+  "description": "Medical Image Radiomics Processor",
+  "identifier": 194726861,
+  "name": "oncoray/mirp",
+  "issueTracker": "https://api.github.com/repos/oncoray/mirp/issues",
+  "readme": "https://github.com/oncoray/mirp/blob/master/README.md"
+}

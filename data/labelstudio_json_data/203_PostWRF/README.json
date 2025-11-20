@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "PostWRF\n\n[](https://zenodo.org/record/8191714)\n\n### Visualization and postprocessing of the WRF and ERA5 data\n\nPlot the WRF and ERA5 data, in the same simple way as you run the WRF model!\n\nPostWRF is a bunch of interactive tools, written in NCL and Bash scripts, to visualize and post-process the WRF model outputs (as well as ERA5 and RTTOV data, to some extent).\n\nPostWRF is useful for both the expert and less-experienced users. Students can plot the WRF and ERA5 outputs whithout struggling with coding and syntax errors. Expert users can also carry out common postprocessing tasks in a simple and straightforward way.\n\n## Main capabilities:\n\nWRF Data extraction\n\nWRF horizontal contour plot\n\nWRF cross-section plot\n\nWRF statistical diagrams\n\nRTTOV input (from WRF) and output data generation\n\nWRF data conversion to Geotiff\n\nWRF Skew-T and windrose diagrams\n\nERA5 horizontal contour plot\n\nERA5 data extraction\n\n## Sample visualizations and postprocessing\n\n## Installation:\n\nInstall NCL on a Linux machine (e.g. Fedora):\n\nsudo dnf install ncl\n\nThat's it! Enough for most of the PostWRF's capabilities!\n\n## Run PostWRF:\n\n`` git clone git@github.com:anikfal/PostWRF.git `\n\n` cd PostWRF `\n\n` chmod +x postwrf.sh modules/.sh modules_era/.sh `\n\nCopy or link your WRF or ERA5 files in the PostWRF directory\n\n` ./postwrf.sh ``\n\nFollow the instructions and give relevant information to visualize/postprocess your data\n\n## HTML Documentations:\n\nDocumentations with practical examples: https://postwrf.readthedocs.io/en/master\n\n## YouTube Training Videos:\n\nhttps://youtube.com/playlist?list=PL93HaRiv5QkCOWQ4E_Oeszi9DBOYrdNXD",
+      "section": "PostWRF (part 1)",
+      "repo": "203_PostWRF",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Paper:\n\nFor more detailed information about the backend structure of the software, please read https://doi.org/10.1016/j.envsoft.2022.105591\n\nIf you find PostWRF helpful, please kindly cite it in your works.",
+      "section": "PostWRF (part 2)",
+      "repo": "203_PostWRF",
+      "source_file": "readme.md"
+    }
+  }
+]

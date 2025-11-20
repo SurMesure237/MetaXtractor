@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": "Chemotion\u2003[![Badge DOI]][DOI]\n\nAn Electronic Lab Notebook for chemists!\n\n\u2e22 [Installation] \u2e25\u2003\u2e22 [Documentation] \u2e25\u2003\u2e22 [Changelog] \u2e25\n\n## Tests\n\n![Badge CI]\n\n## Acknowledgments\n\nThis project has been funded by the [DFG].\n\n[![DFG Logo]][DFG]\n\nFunded by the [Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)] https://www.dfg.de/ under the [National Research Data Infrastructure \u2013 NFDI4Chem] https://nfdi4chem.de/ \u2013 Projektnummer 441958208 since 2020.",
+      "section": "Chemotion\u2003[![Badge DOI]][DOI] (part 1)",
+      "repo": "025_Chemotion_ELN",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## License\n\nCopyright \u00a9\u20022015\u2002-\u20022023\u2002[Nicole Jung]\u2002 of the [Karlsruhe Institute of Technology].\n\nThis program is free software:\n\nYou can redistribute it and / or modify it under the terms  of the GNU Affero General Public License as published by  the Free Software Foundation, either version 3 of the  License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but  WITHOUT ANY WARRANTY; without even the implied warranty  of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\nSee the GNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License along with this program.\n\nIf not, see .\n\n[Installation]: https://www.chemotion.net/docs/eln/install_configure [Documentation]: https://www.chemotion.net/docs/eln [Changelog]: CHANGELOG.md\n\n[DFG]: https://www.dfg.de/en/ [DFG Logo]: https://chemotion.net/img/logos/DFG_logo.png\n\n[Nicole Jung]: mailto:nicole.jung@kit.edu [Karlsruhe Institute of Technology]: https://www.kit.edu/english/\n\n[DOI]: https://doi.org/10.5281/zenodo.1054134\n\n[Badge CI]: https://github.com/ComPlat/chemotion_ELN/actions/workflows/ci.yml/badge.svg?branch=main [Badge DOI]: https://zenodo.org/badge/DOI/10.5281/zenodo.1054134.svg",
+      "section": "Chemotion\u2003[![Badge DOI]][DOI] (part 2)",
+      "repo": "025_Chemotion_ELN",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Prepare installation\n\nin config/ create datacollectors.yml\n\ndatabase.yml\n\nstorage.yml\n\nindigo_service.yml (if indigo service is required)\n\nwrite temporary in run-ruby-dev.sh rake db:create\n\nrake db:schema:load\n\n## Installation\n\ndocker-compose -f docker-compose.dev.yml up\n\nOR\n\ndocker-compose -f docker-compose.dev.yml up postgres app webpacker\n\n## Working inside app container\n\ndocker exec -it chemotion_eln-app-1 /bin/bash",
+      "section": "README",
+      "repo": "025_Chemotion_ELN",
+      "source_file": "readme-dev.md"
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "[](https://travis-ci.org/NLESC-JCER/Fortran_Davidson) [](https://github.com/NLESC-JCER/Fortran_Davidson/actions) [](https://doi.org/10.5281/zenodo.3637964)\n\nDavidson Eigensolver\n\nThis package contains a Modern Fortran implementation of the Davidson diagonalization algorithms. Different schemas are available to compute the correction.\n\nAvailable correction methods are:  DPR: Diagonal-Preconditioned-Residue  GJD: Generalized Jacobi Davidson",
+      "section": "Introduction (part 1)",
+      "repo": "127_Davidson_diagonalization_in_Fortran",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Note:\n\nThe Davidson method is suitable for diagonal-dominant symmetric matrices, that are quite common in certain scientific problems like [electronic structure] https://en.wikipedia.org/wiki/Electronic_structure. The Davidson method could be not practical for other kinds of symmetric matrices.\n\nUsage\n\nThe following program call the eigensolver subroutine from the davidson module and computes the lowest 3 eigenvalues and corresponding eigenvectors, using the GJD method with a tolerance of 1e-8 and 100 maximum iteration.\n\nprogram main  use numeric_kinds, only: dp  use davidson, only: generalized_eigensolver, generate_diagonal_dominant    implicit none\n\ninteger, parameter :: dim = 50  integer, parameter :: lowest = 3  real(dp), dimension(dim, dim) :: matrix, second_matrix  real(dp), dimension(lowest) :: eigenvalues  real(dp), dimension(dim, lowest) :: eigenvectors  real(dp) :: tolerance  integer:: max_dim_subspace, max_iterations, lowest\n\nmatrix = generate_diagonal_dominant(dim, 1d-4)  second_matrix = generate_diagonal_dominant(dim, 1d-4, 1.0_dp)  max_iterations = 1000  max_dim_subspace = 20  tolerance = 1d-8  call generalized_eigensolver(matrix, eigenvalues, eigenvectors, lowest, \"GJD\", max_iterations, &  tolerance, final_iterations, max_dim_subspace, second_matrix)  print , eigenvalues  print , eigenvectors\n\nend program main\n\nThe helper generate_diagonal_dominant function generates a diagonal dominant matrix with entries to the diagonal close to row number (i=1, number_of_rows) and random number of the order 1e-4 on the off-diagonal entries.",
+      "section": "Introduction (part 2)",
+      "repo": "127_Davidson_diagonalization_in_Fortran",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Variables:  matrix (in) matrix to diagonalize  eigenvalues (out) resulting eigenvalues  eigenvectors (out) resulting eigenvectors  lowest(in) number of eigenvalues to compute  method(in) Either \"DPR\" or \"GJD\"  max_iterations(in) maximum number of iterations  tolerance(in) Numerical tolerance for convergence  final_iterations(output) returns the number of iterations that were needed to converge  max_dim_subspace(in, optional) Dimension of the subspace of search  second_matrix(in, optional) Optional matrix to compute the generalized eigenvalue problem",
+      "section": "Introduction (part 3)",
+      "repo": "127_Davidson_diagonalization_in_Fortran",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### References:\n\n[Davidson diagonalization method and its applications to electronic structure calculations] https://www.semanticscholar.org/paper/DAVIDSON-DIAGONALIZATION-METHOD-AND-ITS-APPLICATION-Liao/5811eaf768d1a006f505dfe24f329874a679ba59  [Numerical Methods for Large Eigenvalue Problem] https://doi.org/10.1137/1.9781611970739\n\nInstallation and Testing\n\nTo compile execute:\n\ncmake -H. -Bbuild && cmake --build build\n\nTo use another compiler (e.g. ifort):\n\ncmake -H. -Bbuild -DCMAKE_Fortran_COMPILER=ifort && cmake --build build\n\nTo run the test:\n\ncmake -H. -Bbuild -DENABLE_TEST=ON && cmake --build build cd build && ctest -V\n\nTo Debug compile as:\n\ncmake -H. -Bbuild -DCMAKE_BUILD_TYPE=Debug && cmake --build build\n\nThis packages assumes that you have installed the following packages:  A Fortran compiler >= version 6.0   [CMake] https://cmake.org/ [Lapack] http://www.netlib.org/lapack/\n\nOptionally, If an [MKL] https://software.intel.com/en-us/mkl library is available the package will try to find it.",
+      "section": "Introduction (part 4)",
+      "repo": "127_Davidson_diagonalization_in_Fortran",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "id": 2456,
+    "annotations": [
+      {
+        "id": 11751,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 156,
+              "end": 199,
+              "text": "https://zenodo.org/badge/latestdoi/17747322",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "9seGseBrZe",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:50:36.219444Z",
+        "updated_at": "2025-11-09T05:50:36.219463Z",
+        "draft_created_at": "2025-11-09T05:50:31.375725Z",
+        "lead_time": 14.991,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "373685d8-08cb-43f8-b09f-b288eb48804b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2456,
+        "project": 23546,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "GR - a universal framework for visualization applications\n\n[](LICENSE.md) [](https://github.com/jheinen/gr/releases) [](https://pypi.python.org/pypi/gr) [](https://zenodo.org/badge/latestdoi/17747322)\n\nGR is a universal framework for cross-platform visualization applications. It offers developers a compact, portable and consistent graphics library for their programs. Applications range from publication quality 2D graphs to the representation of complex 3D scenes.\n\nGR is essentially based on an implementation of a Graphical Kernel System (GKS). As a self-contained system it can quickly and easily be integrated into existing applications (i.e. using the ctypes mechanism in Python or ccall in Julia).\n\nThe GR framework can be used in imperative programming systems or integrated into modern object-oriented systems, in particular those based on GUI toolkits. GR is characterized by its high interoperability and can be used with modern web technologies. The GR framework is especially suitable for real-time or signal processing environments.\n\nGR was developed by the Scientific IT-Systems group at the Peter Grünberg Institute at Forschunsgzentrum Jülich. The main development has been done by Josef Heinen who currently maintains the software, but there are other developers who currently make valuable contributions. Special thanks to Florian Rhiem (GR3) and Christian Felder (qtgr, setup.py).",
+      "section": "Introduction (part 1)",
+      "repo": "453_GR_Framework",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.295895Z",
+    "updated_at": "2025-11-09T05:50:36.253865Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23546,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2457,
+    "annotations": [
+      {
+        "id": 11752,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:50:47.719638Z",
+        "updated_at": "2025-11-09T05:50:47.719652Z",
+        "draft_created_at": null,
+        "lead_time": 11.315,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "5ea0d4ac-1e01-4d5b-9ae0-4a80187db2e6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2457,
+        "project": 23546,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Starting with release 0.6 GR can be used as a backend for [Matplotlib] http://matplotlib.org and significantly improve the performance of existing Matplotlib or PyPlot applications written in Python or Julia, respectively. In [this] http://gr-framework.org/tutorials/matplotlib.html tutorial section you can find some examples.\n\nBeginning with version 0.10.0 GR supports inline graphics which shows up in IPython's Qt Console or interactive computing environments for Python and Julia, such as [IPython] http://ipython.org and [Jupyter] https://jupyter.org. An interesting example can be found [here] http://pgi-jcns.fz-juelich.de/pub/doc/700K_460.html.",
+      "section": "Introduction (part 2)",
+      "repo": "453_GR_Framework",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.295955Z",
+    "updated_at": "2025-11-09T05:50:47.748834Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23546,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2458,
+    "annotations": [
+      {
+        "id": 11753,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:51:04.780970Z",
+        "updated_at": "2025-11-09T05:51:04.780993Z",
+        "draft_created_at": null,
+        "lead_time": 16.879,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c2e01642-733a-46d4-8625-1703491f6599",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2458,
+        "project": 23546,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Installation and Getting Started\n\nTo install GR and try it using Python, Julia or C, please see the corresponding documentation:\n\n[Python package gr] https://gr-framework.org/python.html\n\n[Julia package GR] https://gr-framework.org/julia.html\n\n[C library GR] https://gr-framework.org/c.html\n\n[Ruby package GR] https://github.com/red-data-tools/GR.rb\n\n## Documentation\n\nYou can find more information about GR on the [GR home page] http://gr-framework.org.\n\n## Contributing\n\nIf you want to improve GR, please read the [contribution guide] https://github.com/sciapp/gr/blob/develop/CONTRIBUTING.md for a few notes on how to report issues or submit changes.\n\n## Support\n\nIf you have any questions about GR or run into any issues setting up or running GR, please [open an issue on GitHub] https://github.com/sciapp/gr/issues/new, either in this repo or in the repo for the language binding you are using ([Python] https://github.com/sciapp/python-gr/issues/new, [Julia] https://github.com/jheinen/GR.jl/issues/new, [Ruby] https://github.com/red-data-tools/GR.rb/issues/new).",
+      "section": "Introduction (part 3)",
+      "repo": "453_GR_Framework",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:11.295980Z",
+    "updated_at": "2025-11-09T05:51:04.813641Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23546,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

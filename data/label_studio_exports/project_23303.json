@@ -1,0 +1,367 @@
+[
+  {
+    "id": 1222,
+    "annotations": [
+      {
+        "id": 11045,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 423,
+              "end": 485,
+              "text": "https://joss.theoj.org/papers/282a9ec56a0680e51ed4f1fa8fda3650",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "cKDuOmfleA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 685,
+              "end": 723,
+              "text": "https://doi.org/10.5281/zenodo.8179015",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "9dY-6tIxUP",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 937,
+              "end": 960,
+              "text": "https://cadet.github.io",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "-tXGY5n6x0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:56:12.442028Z",
+        "updated_at": "2025-11-15T18:09:33.347503Z",
+        "draft_created_at": "2025-11-05T22:55:39.735805Z",
+        "lead_time": 87.973,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "192ea79b-0ea7-406f-9a29-0c623b5849d0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1222,
+        "project": 23303,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "CADET-Core\n\n.. image:: https://img.shields.io/github/release/cadet/cadet-core.svg  :target: https://github.com/cadet/cadet-core/releases\n\n.. image:: https://github.com/cadet/cadet-core/actions/workflows/ci.yml/badge.svg?branch=master  :target: https://github.com/cadet/cadet-core/actions/workflows/ci.yml?query=branch%3Amaster\n\n.. image:: https://joss.theoj.org/papers/282a9ec56a0680e51ed4f1fa8fda3650/status.svg  :target: https://joss.theoj.org/papers/282a9ec56a0680e51ed4f1fa8fda3650\n\n.. image:: https://anaconda.org/conda-forge/cadet/badges/downloads.svg  :target: https://anaconda.org/conda-forge/cadet\n\n.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.8179015.svg  :target: https://doi.org/10.5281/zenodo.8179015\n\n.. image:: https://img.shields.io/badge/JuRSE_Code_Pick-Oct_2024-blue.svg  :target: https://www.fz-juelich.de/en/rse/community-initiatives/jurse-code-of-the-month/october-2024\n\nWebsite (including documentation): https://cadet.github.io\n\nForum: https://forum.cadet-web.de\n\nSource: https://github.com/cadet/cadet-core\n\nBug reports: https://github.com/cadet/cadet-core/issues\n\nTo stay up to date on CADET news, development updates, and workshops, please subscribe to our Newsletter _.\n\nInstallation\n\nCADET-Core can be installed via conda from the `conda-forge channel.\n\nconda install -c conda-forge cadet\n\nThis requires a working conda installation _.\n\nAdditional information _ and a tutorial `_ are available to guide you through the installation and the first steps of using CADET.",
+      "section": "Introduction (part 1)",
+      "repo": "381_CADET",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.225266Z",
+    "updated_at": "2025-11-15T18:09:33.379856Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23303,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1223,
+    "annotations": [
+      {
+        "id": 11046,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 636,
+              "end": 907,
+              "text": "Leweke, S.; Breuer, J.; Schmölder, J.; Jäpel, R.; Lanzrath, H.; Rao, J.; Hassan, J.; Zhang, W.; Berger, A.; Heymann, W.; von Lieres, E.: CADET-Core 5.0: High-Performance Solver for Advanced Biotechnology Process Modeling _, Journal of Open Source Software 10 (2025), 7881",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "9uEDl6RbxJ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 910,
+              "end": 1046,
+              "text": "Leweke, S.; von Lieres, E.: Chromatography Analysis and Design Toolkit (CADET) _, Computers and Chemical Engineering 113 (2018), 274–294",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "X5mPNvDOmQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1049,
+              "end": 1226,
+              "text": "von Lieres, E.; Andersson, J.: A fast and accurate solver for the general rate model of column liquid chromatography _, Computers and Chemical Engineering 34,8 (2010), 1180–1191",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "9lb-xyRcZq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1248,
+              "end": 1477,
+              "text": "Breuer, J. M.; Leweke, S.; Schmölder, J.; Gassner, G.; von Lieres, E.: Spatial discontinuous Galerkin spectral element method for a family of chromatography models in CADET _, Computers and Chemical Engineering 177 (2023), 108340",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "KmQaQssVLc",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:56:32.634883Z",
+        "updated_at": "2025-11-05T22:56:32.634904Z",
+        "draft_created_at": "2025-11-05T22:56:24.529345Z",
+        "lead_time": 20.002,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "c28d7659-e3b3-4d94-a4c2-4e0d8294c00e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1223,
+        "project": 23303,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Citing\n\nThe development of CADET-Core has been a collaborative effort, with multiple dedicated individuals contributing their expertise to create a powerful and versatile open-source software tool. Countless hours of hard work have been invested to provide the scientific community with a valuable resource. As an open-source project, CADET-Core relies on the support and recognition from users and researchers to thrive. Therefore, we kindly ask that any publications or projects leveraging the capabilities of CADET-Core acknowledge its creators and their contributions by citing an adequate selection of our publications.\n\nGeneral:\n\nLeweke, S.; Breuer, J.; Schmölder, J.; Jäpel, R.; Lanzrath, H.; Rao, J.; Hassan, J.; Zhang, W.; Berger, A.; Heymann, W.; von Lieres, E.: CADET-Core 5.0: High-Performance Solver for Advanced Biotechnology Process Modeling _, Journal of Open Source Software 10 (2025), 7881.\n\nLeweke, S.; von Lieres, E.: Chromatography Analysis and Design Toolkit (CADET) _, Computers and Chemical Engineering 113 (2018), 274–294.\n\nvon Lieres, E.; Andersson, J.: A fast and accurate solver for the general rate model of column liquid chromatography _, Computers and Chemical Engineering 34,8 (2010), 1180–1191.\n\nMajor extensions:\n\nBreuer, J. M.; Leweke, S.; Schmölder, J.; Gassner, G.; von Lieres, E.: Spatial discontinuous Galerkin spectral element method for a family of chromatography models in CADET _, Computers and Chemical Engineering 177 (2023), 108340.",
+      "section": "Introduction (part 2)",
+      "repo": "381_CADET",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.225313Z",
+    "updated_at": "2025-11-05T22:56:32.670238Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23303,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1224,
+    "annotations": [
+      {
+        "id": 11047,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 301,
+              "text": "Zhang, W.; Przybycien T., Breuer J. M. , Leweke S. , von Lieres E.: Solving crystallization/precipitation population balance models in CADET, part II: Size-based Smoluchowski coagulation and fragmentation equations in batch and continuous modes _, Computers and Chemical Engineering 192 (2025), 108860",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "kRaJzdAueB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 304,
+              "end": 605,
+              "text": "Zhang, W.; Przybycien T., Schmölder J. , Leweke S. , von Lieres E.: Solving crystallization/precipitation population balance models in CADET, part I: Nucleation growth and growth rate dispersion in batch and continuous modes on nonuniform grids _, Computers and Chemical Engineering 183 (2024), 108612",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "jz71b7RSTw",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 608,
+              "end": 822,
+              "text": "Püttmann, A.; Schnittert, S.; Naumann, U.; von Lieres, E.: Fast and accurate parameter sensitivities for the general rate model of column liquid chromatography _, Computers and Chemical Engineering 56 (2013), 46–57",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "XY9IzODWEs",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:56:46.579290Z",
+        "updated_at": "2025-11-05T22:56:46.579305Z",
+        "draft_created_at": "2025-11-05T22:56:42.934211Z",
+        "lead_time": 13.743,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "cc5d0cd9-5ceb-4a4c-b17c-6ae18352573f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1224,
+        "project": 23303,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Zhang, W.; Przybycien T., Breuer J. M. , Leweke S. , von Lieres E.: Solving crystallization/precipitation population balance models in CADET, part II: Size-based Smoluchowski coagulation and fragmentation equations in batch and continuous modes _, Computers and Chemical Engineering 192 (2025), 108860.\n\nZhang, W.; Przybycien T., Schmölder J. , Leweke S. , von Lieres E.: Solving crystallization/precipitation population balance models in CADET, part I: Nucleation growth and growth rate dispersion in batch and continuous modes on nonuniform grids _, Computers and Chemical Engineering 183 (2024), 108612.\n\nPüttmann, A.; Schnittert, S.; Naumann, U.; von Lieres, E.: Fast and accurate parameter sensitivities for the general rate model of column liquid chromatography _, Computers and Chemical Engineering 56 (2013), 46–57.\n\nAdditionally, to ensure reproducibility of your work, we recommend citing the zenodo doi corresponding to the specific CADET-Core release that you used.\n\nFor a comprehensive list and guidance on citing CADET-Core publications, please refer to the publications section of the documentation _.\n\nOngoing Development\n\nWe do our best to provide you with a stable API. However, CADET-Core is actively developed and breaking changes can sometimes be unavoidable. For non-developers, it is recommended to upgrade from release to release instead of always working with the most recent commit.\n\nBugs\n\nPlease report any bugs that you find here _. Or, even better, fork the repository on GitHub _ and create a pull request (PR) with the fix.\n\nDonations",
+      "section": "Introduction (part 3)",
+      "repo": "381_CADET",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.225339Z",
+    "updated_at": "2025-11-05T22:56:46.613941Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23303,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1225,
+    "annotations": [
+      {
+        "id": 11048,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 308,
+              "end": 334,
+              "text": "GNU General Public License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "8yOoRKmETh",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:56:58.288049Z",
+        "updated_at": "2025-11-05T22:56:58.288060Z",
+        "draft_created_at": null,
+        "lead_time": 11.529,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "3ccf2703-fc66-4de1-b6e1-3e312e41a00a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1225,
+        "project": 23303,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Donations _ for helping to host, maintain, and further develop the CADET-Core project are highly appreciated.\n\nCopyright and License Notice\n\nCopyright (C) 2008-present: The CADET-Core Authors (see AUTHORS.md _).\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version (see LICENSE.txt _).\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program, see below. If not, see .\n\nExcept as contained in this notice, the name of a copyright holder shall not be used in advertising or otherwise to promote the sale, use, or other dealings in this Software without prior written authorization of the copyright holder.\n\nAcknowledgments\n\nPlease refer to the list of contributors _ who helped building and funding this project.",
+      "section": "Introduction (part 4)",
+      "repo": "381_CADET",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:54.225363Z",
+    "updated_at": "2025-11-05T22:56:58.313883Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23303,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

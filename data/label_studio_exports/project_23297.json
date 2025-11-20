@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1177,
+    "annotations": [
+      {
+        "id": 11049,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1010,
+              "end": 1281,
+              "text": "Wurmus R, Uyar B, Osberg B, Franke V, Gosdschan A, Wreczycka K, Ronen J, Akalin A. [PiGx: Reproducible genomics analysis pipelines with GNU Guix.] https://www.ncbi.nlm.nih.gov/pubmed/30277498 Gigascience. 2018 Oct 2. doi: 10.1093/gigascience/giy123. PubMed PMID: 30277498",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "n7CN1nsary",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:57:17.408885Z",
+        "updated_at": "2025-11-05T22:57:17.408904Z",
+        "draft_created_at": "2025-11-05T22:57:13.084664Z",
+        "lead_time": 16.514,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "3b0b13db-a0f5-402a-8a61-14ab59ab16e9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1177,
+        "project": 23297,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://gnu.org/s/guix)\n\nWhat is PiGx?\n\nPiGx is a collection of genomics pipelines. More information can be found in [PiGx website] https://bioinformatics.mdc-berlin.de/pigx/\n\nIt includes the following pipelines:\n\n[PiGx BSseq] https://github.com/BIMSBbioinfo/pigx_bsseq for raw\n\nfastq read data of bisulfite experiments\n\n[PiGx RNAseq] https://github.com/BIMSBbioinfo/pigx_rnaseq for RNAseq samples\n\n[PiGx scRNAseq] https://github.com/BIMSBbioinfo/pigx_scrnaseq for\n\nsingle cell dropseq analysis\n\n[PiGx ChIPseq] https://github.com/BIMSBbioinfo/pigx_chipseq for\n\nreads from ChIPseq experiments\n\n[PiGx CRISPR] https://github.com/BIMSBbioinfo/pigx_crispr (work in progress)\n\nfor the analysis of sequence mutations in CRISPR-CAS9 targeted  amplicon sequencing data\n\nAll pipelines are easily configured with a sample sheet (in CSV format) and a descriptive settings file (in YAML format). For more detailed information see the README.md file for each of the pipelines in the pipelines directory.\n\n## Publication\n\nWurmus R, Uyar B, Osberg B, Franke V, Gosdschan A, Wreczycka K, Ronen J, Akalin A. [PiGx: Reproducible genomics analysis pipelines with GNU Guix.] https://www.ncbi.nlm.nih.gov/pubmed/30277498 Gigascience. 2018 Oct 2. doi: 10.1093/gigascience/giy123. PubMed PMID: 30277498.",
+      "section": "Introduction + What is PiGx?",
+      "repo": "011_PiGx",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.812244Z",
+    "updated_at": "2025-11-05T22:57:17.440101Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23297,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1178,
+    "annotations": [
+      {
+        "id": 11050,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1430,
+              "end": 1456,
+              "text": "GNU General Public License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "YEVUG3RuWj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:58:10.830073Z",
+        "updated_at": "2025-11-05T22:58:10.830087Z",
+        "draft_created_at": null,
+        "lead_time": 53.159,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "4c882d2b-a412-47ef-8475-9f2496a8cf73",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1178,
+        "project": 23297,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Getting started\n\nTo run PiGx on your experimental data, describe your samples in a CSV file sample_sheet.csv, provide a settings.yaml to override the defaults defaults, and select the pipeline.\n\nTo generate a settings file template for any pipeline:\n\npigx [pipeline] --init=settings\n\nTo generate a sample sheet template for any pipeline:\n\npigx [pipeline] --init=sample-sheet\n\nHere's a simple example to run the RNAseq pipeline:\n\npigx rnaseq my-sample-sheet.csv --settings my-settings.yaml\n\nTo see all available options run pigx --help.\n\nInstall\n\nPre-built binaries for PiGx are available through GNU Guix, the functional package manager for reproducible, user-controlled software management. Install the complete pipeline bundle with the following command:\n\nguix install pigx\n\nIf you want to install PiGx from source, please make sure that all required dependencies are installed and then follow the common GNU build system steps after unpacking the [latest release tarball] https://github.com/BIMSBbioinfo/pigx/releases/latest:\n\n./configure --prefix=/some/where make install\n\nYou can enable or disable each of the pipelines with the --enable-PIPELINE and --disable-PIPELINE arguments to the configure script. PIPELINE is one of bsseq, rnaseq, scrnaseq, chipseq, and crispr. For more options run ./configure --help.\n\nLicense\n\nAll PiGx pipelines are free software: you can redistribute PiGx and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nSee LICENSE for the full license text.",
+      "section": "Getting started + Install + License",
+      "repo": "011_PiGx",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.812280Z",
+    "updated_at": "2025-11-05T22:58:10.853900Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23297,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

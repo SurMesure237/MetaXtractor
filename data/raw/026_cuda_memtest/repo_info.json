@@ -1,0 +1,36 @@
+{
+  "codeRepository": "https://github.com/ComputationalRadiationPhysics/picongpu",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "Python",
+    "Shell",
+    "CMake",
+    "Mustache",
+    "Jupyter Notebook",
+    "Awk",
+    "Gnuplot"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ComputationalRadiationPhysics/picongpu/zipball/main",
+  "author": "ComputationalRadiationPhysics",
+  "dateCreated": "2013-07-30T12:28:20Z",
+  "dateModified": "2025-10-30T20:29:24Z",
+  "keywords": [
+    "gpu",
+    "gpu-computing",
+    "laser",
+    "particle-accelerator",
+    "particle-in-cell",
+    "physics",
+    "physics-simulation",
+    "pic",
+    "plasma",
+    "research"
+  ],
+  "license": null,
+  "description": "Performance-Portable Particle-in-Cell Simulations for the Exascale Era :sparkles:",
+  "identifier": 11764461,
+  "name": "ComputationalRadiationPhysics/picongpu",
+  "issueTracker": "https://api.github.com/repos/ComputationalRadiationPhysics/picongpu/issues",
+  "readme": "https://github.com/ComputationalRadiationPhysics/picongpu/blob/dev/README.md"
+}

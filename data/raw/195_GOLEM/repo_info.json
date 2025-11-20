@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/ajacquey/golem",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "SWIG",
+    "Assembly",
+    "GLSL",
+    "Makefile",
+    "Shell",
+    "Python",
+    "C"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ajacquey/golem/zipball/main",
+  "author": "ajacquey",
+  "dateCreated": "2017-07-28T08:11:19Z",
+  "dateModified": "2025-10-23T16:48:27Z",
+  "keywords": [
+    "geothermal-reservoirs",
+    "golem",
+    "moose-framework"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "GOLEM is a numerical simulator for modelling coupled Thermo-Hydro-Mechanical processes in faulted geothermal reservoirs.",
+  "identifier": 98625864,
+  "name": "ajacquey/golem",
+  "issueTracker": "https://api.github.com/repos/ajacquey/golem/issues",
+  "readme": "https://github.com/ajacquey/golem/blob/master/README.md"
+}

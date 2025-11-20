@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/mroviranavarro/LOV3D_multi",
+  "programmingLanguage": "MATLAB",
+  "programmingLanguages": [
+    "MATLAB",
+    "HTML",
+    "M",
+    "CSS"
+  ],
+  "downloadUrl": "https://api.github.com/repos/mroviranavarro/LOV3D_multi/zipball/main",
+  "author": "mroviranavarro",
+  "dateCreated": "2024-05-29T13:36:51Z",
+  "dateModified": "2025-04-20T22:50:16Z",
+  "keywords": [],
+  "license": null,
+  "description": null,
+  "identifier": 807637374,
+  "name": "mroviranavarro/LOV3D_multi",
+  "issueTracker": "https://api.github.com/repos/mroviranavarro/LOV3D_multi/issues",
+  "readme": "https://github.com/mroviranavarro/LOV3D_multi/blob/master/README.md"
+}

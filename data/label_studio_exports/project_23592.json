@@ -1,0 +1,146 @@
+[
+  {
+    "id": 2710,
+    "annotations": [
+      {
+        "id": 9926,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 725,
+              "end": 728,
+              "text": "npm",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "47vLJF71ru",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 753,
+              "end": 763,
+              "text": "TypeScript",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "1ilCWQvLdQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 693,
+              "end": 723,
+              "text": "Node.js (version 12 or higher)",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "IGSnZwtDm3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:00:54.080232Z",
+        "updated_at": "2025-11-17T00:34:14.422310Z",
+        "draft_created_at": "2025-11-02T19:00:33.084088Z",
+        "lead_time": 74.097,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "56894f6e-dc1a-4366-b1cf-44461a3c7a51",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2710,
+        "project": 23592,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "FHIR Cohort Data Transformer\n\nThe FHIR Cohort Data Transformer is a TypeScript tool designed to transform cohort-study data into FHIR-compliant data. This tool allows you to specify and test the pairing rules between the cohort-study data and the properties of a given FHIR resource. Once you have defined these rules, you can link them to one or more FHIR-compliant templates.\n\n## Features\n\nTransform cohort-study data into FHIR-compliant data\n\nAllows the definition of pairing rules between cohort-study data and FHIR resource properties\n\nParing rules are specified in independent modules to make them testeable\n\n## Prerequisites\n\nTo use this tool, ensure you have the following installed:\n\nNode.js (version 12 or higher)\n\nnpm (Node Package Manager)\n\nTypeScript (installed globally)\n\n## Installation\n\nClone the repository from GitHub:\n\ngit clone https://github.com/your-username/fhir-cohort-data-transformer.git\n\nNavigate to the project directory:\n\ncd fhir-cohort-data-transformer\n\nInstall the dependencies:\n\nnpm install\n\nCompile\n\ntsc",
+      "section": "FHIR Cohort Data Transformer (part 1)",
+      "repo": "124_CDF2Medmij-Mapping-tool",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:14.543144Z",
+    "updated_at": "2025-11-17T00:34:14.456626Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23592,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2711,
+    "annotations": [
+      {
+        "id": 9927,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:01:26.709851Z",
+        "updated_at": "2025-11-02T19:01:26.709867Z",
+        "draft_created_at": null,
+        "lead_time": 32.438,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "16791ff8-9091-4ce8-9c66-537369d62445",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2711,
+        "project": 23592,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Usage\n\nTo create new pairing rules or JSON output-templates, refer to the developer manual.\n\nTo run the unit tests :\n\n``bash  npm test  `\n\nTo run the linter :\n\n`bash  npm run lint  `  To transform the available input samples (./fhirvalidation/sampleinputs), and check the validity of their corresponding transformations against a FHIR profile:\n\n`bash   npm run validatesamples  `\n\nTo preview a transformation of a given input\n\nStart the viewer server  ``  npm run dev-viewer  ``` Open editor at [http://localhost:3000] http://localhost:3000\n\nTp generate FHIR-compliant data based on the rules already defined, and the mapping configuration:\n\n#Transform a single file, print the ouput to STDOUT npm run transform -- ./fhirvalidation/sampleinputs/input-p1234.json #Transform a single file, save the output on the given folder npm run transform -- ./fhirvalidation/sampleinputs/input-p1234.json -o /tmp/out #Transform all the .json files in a given folder, save the output on the given folder npm run transform -- ./fhirvalidation/sampleinputs -o /tmp/out\n\n## End-user and Developer documentation\n\nThe developer documentation with the description of the tool design, and further details for creating new templates/pairing rules [can be found here] https://mydigitwinnl.github.io/CDF2Medmij-Mapping-tool/ (still under development).",
+      "section": "FHIR Cohort Data Transformer (part 2)",
+      "repo": "124_CDF2Medmij-Mapping-tool",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:14.543180Z",
+    "updated_at": "2025-11-02T19:01:26.737644Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23592,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

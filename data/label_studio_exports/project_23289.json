@@ -1,0 +1,391 @@
+[
+  {
+    "id": 1150,
+    "annotations": [
+      {
+        "id": 11132,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 405,
+              "end": 650,
+              "text": "Moritz Laupichler, and Peter Sanders. Fast Many-to-Many Routing for Dynamic Taxi Sharing with\\n\\nMeeting Points. 2024 Proceedings of the Symposium on Algorithm Engineering and Experiments (ALENEX), 2024\\. https://doi.org/10.1137/1.9781611977929.6\\n",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "6UqT9Zztrb",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 847,
+              "end": 858,
+              "text": "MIT license",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "PKrhBZo66f",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T23:19:17.321079Z",
+        "updated_at": "2025-11-05T23:19:17.321095Z",
+        "draft_created_at": "2025-11-05T23:19:09.075376Z",
+        "lead_time": 32.511,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "264f5aae-c699-4509-bf51-2304b5bcd92b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1150,
+        "project": 23289,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "KaRRi\n\nThis repository contains the C++20 implementation of KaRRi, a state-of-the-art dispatcher for the dynamic  taxi sharing problem with meeting points.  KaRRi uses engineered on-the-fly shortest path queries based on bucket contraction hierarchies (BCHs)  to allow for fast query times with maximum flexibility.  For more information on KaRRi's novel techniques, we refer to the related publication:\n\nMoritz Laupichler, and Peter Sanders. Fast Many-to-Many Routing for Dynamic Taxi Sharing with\n\nMeeting Points. 2024 Proceedings of the Symposium on Algorithm Engineering and Experiments (ALENEX),  2024\\. https://doi.org/10.1137/1.9781611977929.6\n\nIf you use KaRRi in your scientific publication, we ask that you cite the paper above.\n\n## License\n\nAll files in this repository except the files in the directory External are licensed under the MIT license. External libraries are licensed under their respective licenses.\n\nThis source code is based on a fork of https://github.com/vbuchhold/routing-framework. Large parts of the project structure as well as basic data structures and shortest path algorithms are directly taken or adapted from the original framework. The copyright statements in each file state the respective author or authors of the file.",
+      "section": "KaRRi (part 1)",
+      "repo": "382_KaRRi_-_Karlsruhe_Rapid_Ridesharing",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.280304Z",
+    "updated_at": "2025-11-05T23:19:17.348680Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23289,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1151,
+    "annotations": [
+      {
+        "id": 11133,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 188,
+              "end": 203,
+              "text": "build-essential",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "yXuLzutdud",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 227,
+              "end": 232,
+              "text": "cmake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Vl7H86lA7V",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 256,
+              "end": 263,
+              "text": "python3",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "pc9Ho1mWs-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 264,
+              "end": 275,
+              "text": "python3-pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "W5oLQXyGf-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 340,
+              "end": 347,
+              "text": "sqlite3",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "cVGGCpO1Qs",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 348,
+              "end": 362,
+              "text": "libsqlite3-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "cSGRFmLFVN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 386,
+              "end": 396,
+              "text": "zlib1g-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "KPrKuN_Jqp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 90,
+              "end": 96,
+              "text": "Debian",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "X22cvZX2fE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 126,
+              "end": 132,
+              "text": "Ubuntu",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "H4SnxHjcx7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1055,
+              "end": 1066,
+              "text": "osmium-tool",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "OLd2p7tiIM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 925,
+              "end": 936,
+              "text": "osmium tool",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "uwKoy9gRwM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 976,
+              "end": 982,
+              "text": "Debian",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "0qE_wnTWMN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1003,
+              "end": 1009,
+              "text": "osmium",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "iiunim1u44",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 938,
+              "end": 970,
+              "text": "https://osmcode.org/osmium-tool/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "zzO7oe9DXT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T23:20:51.509956Z",
+        "updated_at": "2025-11-16T04:42:55.475061Z",
+        "draft_created_at": "2025-11-05T23:19:46.459888Z",
+        "lead_time": 133.4,
+        "prediction": {},
+        "result_count": 14,
+        "unique_id": "be205001-e6a4-45d1-aa04-f29985f8fe9d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1151,
+        "project": 23289,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Prerequisites\n\nTo build KaRRi, you need to have some tools and libraries installed. On Debian and its derivatives (such as Ubuntu) the apt-get tool can be used:\n\n$ sudo apt-get install build-essential $ sudo apt-get install cmake $ sudo apt-get install python3 python3-pip; pip3 install -r python_requirements.txt $ sudo apt-get install sqlite3 libsqlite3-dev $ sudo apt-get install zlib1g-dev\n\nNext, you need to clone the libraries in the External subdirectory and build the RoutingKit library. To do so, type the following commands at the top-level directory of the framework:\n\n$ git submodule update --init $ make -C External/RoutingKit lib/libroutingkit.so\n\n## Constructing KaRRi Input\n\nWe provide bash scripts to generate the input data for the Berlin-1pct, Berlin-10pct, Ruhr-1pct, and Ruhr-10pct problem instances for the KaRRi algorithm. Inputs are generated based on OpenStreetMap (OSM) data, which requires the [osmium tool] https://osmcode.org/osmium-tool/.  On Debian and its derivatives osmium can be installed using\n\nsudo apt-get install osmium-tool\n\nAs an example, you can generate the input data for the Berlin-1pct instance by typing the following commands at the top-level directory: (Downloads multiple GiB of raw OSM data and requires at least 10 GiB of RAM.)\n\n$ cd Publications/KaRRi $ bash DownloadGermanyOSMData.sh . $ bash FilterGermanyOSMData.sh . $ bash PreprocessOSMData.sh . Germany Berlin BoundaryPolygons $ bash GenerateKnownInstanceInputData.sh . Berlin-1pct pedestrian\n\nTo generate the input data for the other instances, simply replace Berlin-1pct with the instance name (Berlin-10pct, Ruhr-1pct, Ruhr-10pct) and replace Berlin with Ruhr for the Ruhr instances.",
+      "section": "KaRRi (part 2)",
+      "repo": "382_KaRRi_-_Karlsruhe_Rapid_Ridesharing",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.280343Z",
+    "updated_at": "2025-11-16T04:42:55.511557Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23289,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1152,
+    "annotations": [
+      {
+        "id": 11134,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T23:20:53.994231Z",
+        "updated_at": "2025-11-05T23:20:53.994260Z",
+        "draft_created_at": null,
+        "lead_time": 2.263,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "194ecb82-1513-45b4-b32d-65a625490e5f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1152,
+        "project": 23289,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Running KaRRi\n\nTo run KaRRi in its default configuration (using collective last stop searches, sorted buckets, and SIMD instructions), use the provided bash script by typing the following commands at the top-level directory:\n\n$ cd Publications/KaRRi $ bash RunKaRRiDefault.sh .\n\nwhere ` can be any of Berlin-1pct, Berlin-10pct, Ruhr-1pct, and Ruhr-10pct, and is the path to the directory where the output files will be stored.\n\nWe provide functions for a basic evaluation of results in Publications/KaRRi/eval.R`.",
+      "section": "KaRRi (part 3)",
+      "repo": "382_KaRRi_-_Karlsruhe_Rapid_Ridesharing",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.280365Z",
+    "updated_at": "2025-11-05T23:20:54.020985Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23289,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

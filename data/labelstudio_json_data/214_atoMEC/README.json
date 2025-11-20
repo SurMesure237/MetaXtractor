@@ -1,0 +1,50 @@
+[
+  {
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "214_atoMEC",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "atoMEC: Average-Atom Code for Matter under Extreme Conditions\n\n[](https://github.com/atomec-project/atoMEC/actions/workflows/gh-pages.yml) [](https://www.python.org/downloads/release/python-3100/) [](https://opensource.org/licenses/BSD-3-Clause) [](https://codecov.io/gh/atomec-project/atoMEC) [](https://www.codefactor.io/repository/github/atomec-project/atomec)\n\natoMEC is a python-based average-atom code for simulations of high energy density phenomena such as in warm dense matter. It is designed as an open-source and modular python package.\n\natoMEC uses Kohn-Sham density functional theory, in combination with an average-atom approximation, to solve the electronic structure problem for single-element materials at finite temperature.\n\nMore information on the average-atom methodology and Kohn-Sham density functional theory can be found (for example) in this [paper] https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.023055 and references therein.\n\nThis repository is structured as follows:\n\n\u251c\u2500\u2500 atoMEC : source code \u251c\u2500\u2500 docs : sphinx documentation \u251c\u2500\u2500 examples : simple examples to get you started with the package \u2514\u2500\u2500 tests : CI tests",
+      "section": "atoMEC: Average-Atom Code for Matter under Extreme Conditions (part 1)",
+      "repo": "214_atoMEC",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Installation\n\nThe latest stable release of atoMEC can be installed via pip. It is first necessary to install the libxc package from a tarball source, because it currently has no official wheels distribution on PyPI. This step takes some time.\n\n$ pip install https://gitlab.com/libxc/libxc/-/archive/6.2.2/libxc-6.2.2.tar.gz $ pip install atoMEC\n\nNote that atoMEC does not (yet) support Windows installation (please see the section below on supported operating systems).\n\nRead on for instructions on how to install atoMEC from source, using the recommended pipenv installation route.\n\n### Installation via pipenv\n\nFirst, clone the atoMEC repository and `cd into the main directory.\n\nIt is recommended to install atoMEC inside a virtual environment. Below, we detail how to achive this with [pipenv] https://pypi.org/project/pipenv/.\n\nThis route is recommended because pipenv automatically creates a virtual environment and manages dependencies. Note that pyblibxc is automatically installed in this case, so there is no need to install it separately.\n\nFirst, install pipenv if it is not already installed, for example via pip install pipenv (or see [pipenv] https://pypi.org/project/pipenv/ for installation instructions)\n\nNext, install atoMEC's dependencies with pipenv install (use --dev option to install the test dependencies in the same environment)\n\nUse pipenv shell to activate the virtual environment\n\nInstall atoMEC with pip install atoMEC (for developers: pip install -e .)\n\nNow run scripts from inside the atoMEC virtual environment, e.g. python examples/simple.py`\n\nRun the tests (see Testing section below) and report any failures (for example by raising an issue).",
+      "section": "atoMEC: Average-Atom Code for Matter under Extreme Conditions (part 2)",
+      "repo": "214_atoMEC",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Supported operating systems\n\nLinux and macOS: atoMEC has been installed on various linux distributions and macOS, and is expected to work for most distributions and versions  Windows: atoMEC does not support Windows installation. This is due to the dependency on pylibxc which currently lacks Windows support. We are looking into ways to make the dependency on pylibxc optional, in order to allow installation on Windows. However, this is not currently a priority.\n\n### Supported Python versions\n\natoMEC has been tested and is expected to work for all Python versions >= 3.8 and = 1.4.0, since this is used for the current testing and development environment\n\n## Running\n\nYou can familiarize yourself with the usage of this package by running the example scripts in examples/.\n\n## Contributing to atoMEC\n\nWe welcome your contributions, please adhere to the following guidelines when contributing to the code:  In general, contributors should develop on branches based off of develop and merge requests should be to develop  Please choose a descriptive branch name  Merges from develop to master will be done after prior consultation of the core development team  Merges from develop to master are only done for code releases. This way we always have a clean master that reflects the current release  Code should be formatted using [black] https://pypi.org/project/black/ style\n\n## Testing\n\nFirst, install the test requirements (if not already installed in the virtual env with pipenv install --dev):",
+      "section": "atoMEC: Average-Atom Code for Matter under Extreme Conditions (part 3)",
+      "repo": "214_atoMEC",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "activate environment first (optional) $ pipenv shell\n\ninstall atoMEC as editable project in current directory (for developers) $ pip install -e .[tests]",
+      "section": "activate environment first (optional) + install atoMEC as editable project in current directory (for developers)",
+      "repo": "214_atoMEC",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "alternatively install package from PyPI with test dependencies $ pip install atoMEC[tests]\n\nTo run the tests:\n\n$ pytest --cov=atoMEC --random-order tests/\n\n### Build documentation locally (for developers)\n\nInstall the prerequisites:\n\n$ pip install -r docs/requirements.txt\n\nChange into docs/ folder.\n\nRun make apidocs.\n\nRun make html. This creates a _build folder inside docs. You may also want to use make html SPHINXOPTS=\"-W\" sometimes. This treats warnings as errors and stops the output at first occurrence of an error (useful for debugging rST syntax).\n\nOpen docs/_build/html/index.html.\n\nmake clean if required (e.g. after fixing errors) and building again.\n\n## Developers\n\n### Scientific Supervision\n\nAttila Cangi ([Center for Advanced Systems Understanding] https://www.casus.science/)\n\nEli Kraisler ([Hebrew University of Jerusalem] https://en.huji.ac.il/en)\n\n### Core Developers and Maintainers\n\nTim Callow ([Center for Advanced Systems Understanding] https://www.casus.science/)\n\nDaniel Kotik ([Center for Advanced Systems Understanding] https://www.casus.science/)\n\n### Contributions (alphabetical)\n\nNathan Rahat ([Hebrew University of Jerusalem] https://en.huji.ac.il/en)\n\nEkaterina Tsvetoslavova Stankulova ([Center for Advanced Systems Understanding] https://www.casus.science/)\n\n## Citing atoMEC\n\nIf you use code from this repository in a published work, please cite\n\nT. J. Callow, D. Kotik, E. Kraisler, and A. Cangi, \"atoMEC: An open-source average-atom Python code\", _Proceedings of the 21st Python in Science Conference_, edited by Meghann Agarwal, Chris Calloway, Dillon Niederhut, and David Shupe (2022), pp. 31 \u2013 39\n\nThe DOI corresponding to the specific version of atoMEC that you used (DOIs are listed at [Zenodo.org] https://doi.org/10.5281/zenodo.5205718)",
+      "section": "alternatively install package from PyPI with test dependencies",
+      "repo": "214_atoMEC",
+      "source_file": "readme.md"
+    }
+  }
+]

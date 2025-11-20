@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/JungleComputing/rocket",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java",
+    "Cuda",
+    "C++",
+    "Python",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/JungleComputing/rocket/zipball/main",
+  "author": "JungleComputing",
+  "dateCreated": "2020-04-20T14:26:39Z",
+  "dateModified": "2023-10-13T08:37:04Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Rocket is a Constellation-based runtime system for efficient execution of all-pair compute problem on distributed heterogeneous platforms",
+  "identifier": 257305994,
+  "name": "JungleComputing/rocket",
+  "issueTracker": "https://api.github.com/repos/JungleComputing/rocket/issues",
+  "readme": "https://github.com/JungleComputing/rocket/blob/master/README.md"
+}

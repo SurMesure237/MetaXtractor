@@ -1,0 +1,32 @@
+{
+  "codeRepository": "https://github.com/CLARIAH/grlc",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "HTML",
+    "TeX",
+    "Shell",
+    "JavaScript",
+    "CSS",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/CLARIAH/grlc/zipball/main",
+  "author": "CLARIAH",
+  "dateCreated": "2015-11-13T15:49:10Z",
+  "dateModified": "2025-10-15T12:31:31Z",
+  "keywords": [
+    "api",
+    "linked-data",
+    "linked-data-api",
+    "open-api",
+    "semantic-web",
+    "sparql",
+    "swagger-ui"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "grlc builds Web APIs using shared SPARQL queries",
+  "identifier": 46131212,
+  "name": "CLARIAH/grlc",
+  "issueTracker": "https://api.github.com/repos/CLARIAH/grlc/issues",
+  "readme": "https://github.com/CLARIAH/grlc/blob/master/README.md"
+}

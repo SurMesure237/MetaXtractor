@@ -1,0 +1,147 @@
+[
+  {
+    "id": 2053,
+    "annotations": [
+      {
+        "id": 10392,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 498,
+              "end": 553,
+              "text": "https://fwl-proteus.readthedocs.io/en/latest/index.html",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "iyXnL131Cq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:10:36.284019Z",
+        "updated_at": "2025-11-14T13:24:09.575719Z",
+        "draft_created_at": "2025-11-04T07:10:34.823747Z",
+        "lead_time": 17.972,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "05673e44-365f-4f91-a4ea-6f0d08f2a9bf",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2053,
+        "project": 23467,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "PROTEUS (/ˈproʊtiəs, PROH-tee-əs) is a modular Python framework that simulates the coupled evolution of the atmospheres and interiors of rocky planets and exoplanets. Inspired by the Greek god of elusive sea change, who could change his form at will, PROTEUS is designed to be flexible and adaptable to a wide range of planetary environments. It can foretell the future, but answers only to those who are capable of asking the right questions.\n\nMore information can be found on the [documentation] https://fwl-proteus.readthedocs.io/en/latest/index.html pages:",
+      "section": "Introduction (part 1)",
+      "repo": "063_PROTEUS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.633070Z",
+    "updated_at": "2025-11-14T13:24:09.610108Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23467,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2054,
+    "annotations": [
+      {
+        "id": 10393,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 98,
+              "end": 160,
+              "text": "https://fwl-proteus.readthedocs.io/en/latest/installation.html",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "URY6HbMGlP",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 602,
+              "end": 664,
+              "text": "https://fwl-proteus.readthedocs.io/en/latest/bibliography.html",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "k8U7dk3V3C",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:11:37.201239Z",
+        "updated_at": "2025-11-14T13:24:30.624215Z",
+        "draft_created_at": "2025-11-04T07:10:52.189615Z",
+        "lead_time": 79.895,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "73c33677-4b37-442c-b802-a2dc5150c0f4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2054,
+        "project": 23467,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[model description] https://fwl-proteus.readthedocs.io/en/latest/model.html  [installation guide] https://fwl-proteus.readthedocs.io/en/latest/installation.html  [usage guide] https://fwl-proteus.readthedocs.io/en/latest/usage.html  [contributing guide] https://fwl-proteus.readthedocs.io/en/latest/CONTRIBUTING.html\n\nYou can find help on the [discussions page] https://github.com/orgs/FormingWorlds/discussions or by [contacting the developers] https://fwl-proteus.readthedocs.io/en/latest/contact.html directly.\n\nIf you make use of PROTEUS, please reference the papers outlined in the [bibliography] https://fwl-proteus.readthedocs.io/en/latest/bibliography.html.",
+      "section": "Introduction (part 2)",
+      "repo": "063_PROTEUS",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.633176Z",
+    "updated_at": "2025-11-14T13:24:30.661306Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23467,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,594 @@
+[
+  {
+    "id": 2130,
+    "annotations": [
+      {
+        "id": 10374,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:57:39.621745Z",
+        "updated_at": "2025-11-04T06:57:39.621762Z",
+        "draft_created_at": null,
+        "lead_time": 3.985,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "78572e4c-050e-40ed-814d-403e27825940",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2130,
+        "project": 23481,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "xclim: Climate services library |logo| |logo-dark| |logo-light|\n\n+----------------------------+-----------------------------------------------------+ | Versions | |pypi| |conda| |versions| | +----------------------------+-----------------------------------------------------+ | Documentation and Support | |docs| |discussions| | +----------------------------+-----------------------------------------------------+ | Open Source | |license| |ossf-score| |zenodo| |pyOpenSci| |joss| | +----------------------------+-----------------------------------------------------+ | Coding Standards | |ruff| |pre-commit| |ossf-bp| |fossa| | +----------------------------+-----------------------------------------------------+ | Development Status | |status| |build| |coveralls| | +----------------------------+-----------------------------------------------------+\n\nxclim is an operational Python library for climate services, providing numerous climate-related indicator tools with an extensible framework for constructing custom climate indicators, statistical downscaling and bias adjustment of climate model simulations, as well as climate model ensemble analysis tools.\n\nxclim is built using xarray_ and can seamlessly benefit from the parallelization handling provided by dask_. Its objective is to make it as simple as possible for users to perform typical climate services data treatment workflows. Leveraging xarray and dask, users can easily bias-adjust climate simulations over large spatial domains or compute indices from large climate datasets.",
+      "section": "Introduction (part 1)",
+      "repo": "140_PAVICS",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.591586Z",
+    "updated_at": "2025-11-04T06:57:39.652446Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23481,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2131,
+    "annotations": [
+      {
+        "id": 10375,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:57:46.039547Z",
+        "updated_at": "2025-11-04T06:57:46.039564Z",
+        "draft_created_at": null,
+        "lead_time": 6.248,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "4e72643a-54f8-4b2f-b38d-aad5b720f083",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2131,
+        "project": 23481,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "For example, the following would compute monthly mean temperature from daily mean temperature:\n\n.. code-block:: python\n\nimport xclim  import xarray as xr\n\nds = xr.open_dataset(filename)  tg = xclim.atmos.tg_mean(ds.tas, freq=\"MS\")\n\nFor applications where metadata and missing values are important to get right, xclim provides a class for each index that validates inputs, checks for missing values, converts units and assigns metadata attributes to the output. This also provides a mechanism for users to customize the indices to their own specifications and preferences. xclim currently provides over 150 indices related to mean, minimum and maximum daily temperature, daily precipitation, streamflow and sea ice concentration, numerous bias-adjustment algorithms, as well as a dedicated module for ensemble analysis.\n\n.. _xarray: https://docs.xarray.dev/ .. _dask: https://docs.dask.org/\n\nQuick Install\n\nxclim can be installed from PyPI:\n\n.. code-block:: shell\n\n$ pip install xclim\n\nor from Anaconda (conda-forge):\n\n.. code-block:: shell\n\n$ conda install -c conda-forge xclim\n\nDocumentation\n\nThe official documentation is at https://xclim.readthedocs.io/\n\nHow to make the most of xclim: Basic Usage Examples_ and In-Depth Examples_.\n\n.. _Basic Usage Examples: https://xclim.readthedocs.io/en/stable/notebooks/usage.html .. _In-Depth Examples: https://xclim.readthedocs.io/en/stable/notebooks/index.html\n\nConventions\n\nIn order to provide a coherent interface, xclim tries to follow different sets of conventions. In particular, input data should follow the CF conventions_ whenever possible for variable attributes. Variable names are usually the ones used in CMIP6_, when they exist.",
+      "section": "Introduction (part 2)",
+      "repo": "140_PAVICS",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.591626Z",
+    "updated_at": "2025-11-04T06:57:46.068252Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23481,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2132,
+    "annotations": [
+      {
+        "id": 10376,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1661,
+              "end": 1696,
+              "text": "https://doi.org/10.21105/joss.05415",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "yBtmYyWjnB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:01:08.604240Z",
+        "updated_at": "2025-11-04T07:01:08.604257Z",
+        "draft_created_at": "2025-11-04T06:58:19.201602Z",
+        "lead_time": 202.392,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "17f3983e-e667-423d-af41-c96ebbe2d37e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2132,
+        "project": 23481,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "However, xclim will always assume the temporal coordinate is named \"time\". If your data uses another name (for example: \"T\"), you can rename the variable with:\n\n.. code-block:: python\n\nds = ds.rename(T=\"time\")\n\nxclim employs a black_-compatible code formatting style (via a modified ruff_ configuration) and (mostly) adheres to the NumPy docstring_ style. For more information on coding and development conventions, see the Contributing Guidelines_.\n\n.. _black: https://black.readthedocs.io/en/stable/ .. _ruff: https://docs.astral.sh/ruff/ .. _CF Conventions: http://cfconventions.org/ .. _CMIP6: https://clipc-services.ceda.ac.uk/dreq/mipVars.html .. _NumPy docstring: https://numpydoc.readthedocs.io/en/stable/format.html\n\nContributing to xclim\n\nxclim is in active development and is being used in production by climate services specialists around the world.\n\nIf you're interested in participating in the development of xclim by suggesting new features, new indices or report bugs, please leave us a message on the issue tracker_.  If you have a support/usage question or would like to translate xclim to a new language, be sure to check out the existing |discussions| first!\n\nIf you would like to contribute code or documentation (which is greatly appreciated!), check out the Contributing Guidelines_ before you begin!\n\n.. _issue tracker: https://github.com/Ouranosinc/xclim/issues .. _Contributing Guidelines: https://github.com/Ouranosinc/xclim/blob/main/CONTRIBUTING.rst\n\nHow to cite this library\n\nIf you wish to cite xclim in a research publication, we kindly ask that you refer to our article published in The Journal of Open Source Software (JOSS_): https://doi.org/10.21105/joss.05415\n\nTo cite a specific version of xclim, the bibliographical reference information can be found through Zenodo_",
+      "section": "Introduction (part 3)",
+      "repo": "140_PAVICS",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.591650Z",
+    "updated_at": "2025-11-04T07:01:08.628147Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23481,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2133,
+    "annotations": [
+      {
+        "id": 10377,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 46,
+              "end": 84,
+              "text": "https://doi.org/10.5281/zenodo.2795043",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "8HHvt8RPdC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 182,
+              "end": 200,
+              "text": "Apache License 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "sq869oykQN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 298,
+              "end": 340,
+              "text": "https://opensource.org/license/apache-2-0/",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "je2vp4MxxJ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 354,
+              "end": 407,
+              "text": "https://github.com/Ouranosinc/xclim/blob/main/LICENSE\\n",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "iO6gLqVl_V",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 278,
+              "end": 296,
+              "text": "Apache License 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "t6LWOdYjwa",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:01:48.285873Z",
+        "updated_at": "2025-11-04T07:01:48.285889Z",
+        "draft_created_at": "2025-11-04T07:01:22.858606Z",
+        "lead_time": 39.501,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "2370cfb7-0b52-4a54-b23e-64091bcf26c1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2133,
+        "project": 23481,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": ".. _JOSS: https://joss.theoj.org/ .. _Zenodo: https://doi.org/10.5281/zenodo.2795043\n\nLicense\n\nThis is free software: you can redistribute it and/or modify it under the terms of the Apache License 2.0_. A copy of this license is provided in the code repository (LICENSE_).\n\n.. _Apache License 2.0: https://opensource.org/license/apache-2-0/ .. _LICENSE: https://github.com/Ouranosinc/xclim/blob/main/LICENSE\n\nEnergy and Carbon Usage\n\nThe xclim development team is interested in thoroughly testing our software while also reducing the environmental impact of the software we develop. This repository uses the ECO-CI_ tool to estimate and track the energy use and carbon emissions of our continuous integration workflows.\n\n+---------------------------------------------------------------------------------------+ | ECO-CI_ Energy Use and Carbon Emissions from CI Workflows (since November 2024) | +------------------+------------------+-------------------------------------------------+ | Testing suite | Energy Usage | |energy-last| |energy-average| |energy-total| | | +------------------+-------------------------------------------------+ | (main branch) | Carbon Emissions | |carbon-last| |carbon-average| |carbon-total| | +------------------+------------------+-------------------------------------------------+\n\nCredits\n\nxclim development is funded through Ouranos_, Environment and Climate Change Canada (ECCC_), the Fonds vert_ and the Fonds d'électrification et de changements climatiques (FECC_), the Canadian Foundation for Innovation (CFI_), and the Fonds de recherche du Québec (FRQ_).\n\nThis package was created with Cookiecutter_ and the audreyfeldroy/cookiecutter-pypackage_ project template.",
+      "section": "Introduction (part 4)",
+      "repo": "140_PAVICS",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.591673Z",
+    "updated_at": "2025-11-04T07:01:48.315689Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23481,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2134,
+    "annotations": [
+      {
+        "id": 10378,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1579,
+              "end": 1623,
+              "text": "https://zenodo.org/badge/latestdoi/142608764",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "xMOIAIP8wU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1442,
+              "end": 1480,
+              "text": "https://xclim.readthedocs.io/en/latest",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "ey1ot59W4E",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:02:46.438464Z",
+        "updated_at": "2025-11-04T07:02:46.438499Z",
+        "draft_created_at": "2025-11-04T07:02:26.171527Z",
+        "lead_time": 57.953,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "98e8e9f1-e51f-4179-a0cb-0f48c9ca2d68",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2134,
+        "project": 23481,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [
+      {
+        "id": 2982,
+        "user": "wordfi@trod.dev",
+        "created_username": "wordfi@trod.dev, 1",
+        "created_ago": "2 days, 11 hours",
+        "result": [
+          {
+            "value": {
+              "start": 1579,
+              "end": 1623,
+              "text": "https://zenodo.org/badge/latestdoi/142608764",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "xMOIAIP8wU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1442,
+              "end": 1480,
+              "text": "https://xclim.readthedocs.io/en/latest",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "ey1ot59W4E",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "lead_time": 8.668,
+        "was_postponed": false,
+        "import_id": null,
+        "created_at": "2025-11-14T12:46:58.200037Z",
+        "updated_at": "2025-11-14T12:46:58.200056Z",
+        "task": 2134,
+        "annotation": 10378
+      }
+    ],
+    "predictions": [],
+    "data": {
+      "text": ".. _audreyfeldroy/cookiecutter-pypackage: https://github.com/audreyfeldroy/cookiecutter-pypackage/ .. _CFI: https://www.innovation.ca/ .. _Cookiecutter: https://github.com/cookiecutter/cookiecutter/ .. _ECCC: https://www.canada.ca/en/environment-climate-change.html .. _ECO-CI: https://www.green-coding.io/ .. _FECC: https://www.environnement.gouv.qc.ca/ministere/fonds-electrification-changements-climatiques/index.htm .. _Fonds vert: https://www.environnement.gouv.qc.ca/ministere/fonds-vert/index.htm .. _FRQ: https://frq.gouv.qc.ca/ .. _Ouranos: https://www.ouranos.ca/\n\n.. |pypi| image:: https://img.shields.io/pypi/v/xclim.svg  :target: https://pypi.python.org/pypi/xclim  :alt: Python Package Index Build\n\n.. |conda| image:: https://img.shields.io/conda/vn/conda-forge/xclim.svg  :target: https://anaconda.org/conda-forge/xclim  :alt: Conda-forge Build Version\n\n.. |discussions| image:: https://img.shields.io/badge/GitHub-Discussions-blue  :target: https://github.com/Ouranosinc/xclim/discussions  :alt: Static Badge\n\n.. |build| image:: https://github.com/Ouranosinc/xclim/actions/workflows/main.yml/badge.svg  :target: https://github.com/Ouranosinc/xclim/actions/workflows/main.yml  :alt: Build Status\n\n.. |coveralls| image:: https://coveralls.io/repos/github/Ouranosinc/xclim/badge.svg  :target: https://coveralls.io/github/Ouranosinc/xclim  :alt: Coveralls\n\n.. |docs| image:: https://readthedocs.org/projects/xclim/badge  :target: https://xclim.readthedocs.io/en/latest  :alt: Documentation Status\n\n.. |zenodo| image:: https://zenodo.org/badge/142608764.svg  :target: https://zenodo.org/badge/latestdoi/142608764  :alt: DOI\n\n.. |pyOpenSci| image:: https://tinyurl.com/y22nb8up  :target: https://github.com/pyOpenSci/software-review/issues/73  :alt: pyOpenSci",
+      "section": "Introduction (part 5)",
+      "repo": "140_PAVICS",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.591696Z",
+    "updated_at": "2025-11-04T07:02:46.466152Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23481,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2135,
+    "annotations": [
+      {
+        "id": 10379,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 89,
+              "end": 124,
+              "text": "https://doi.org/10.21105/joss.05415",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "uyAMOMmAvY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 228,
+              "end": 281,
+              "text": "https://github.com/Ouranosinc/xclim/blob/main/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "kzS6x173Dv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:03:11.612693Z",
+        "updated_at": "2025-11-04T07:03:11.612714Z",
+        "draft_created_at": "2025-11-04T07:03:01.709433Z",
+        "lead_time": 24.985,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "8248131a-123e-4db5-a6fb-5fc9e5b64a07",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2135,
+        "project": 23481,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": ".. |joss| image:: https://joss.theoj.org/papers/10.21105/joss.05415/status.svg  :target: https://doi.org/10.21105/joss.05415  :alt: JOSS\n\n.. |license| image:: https://img.shields.io/github/license/Ouranosinc/xclim.svg  :target: https://github.com/Ouranosinc/xclim/blob/main/LICENSE  :alt: License\n\n.. |ossf-bp| image:: https://bestpractices.coreinfrastructure.org/projects/6041/badge  :target: https://bestpractices.coreinfrastructure.org/projects/6041  :alt: Open Source Security Foundation Best Practices\n\n.. |ossf-score| image:: https://api.securityscorecards.dev/projects/github.com/Ouranosinc/xclim/badge  :target: https://securityscorecards.dev/viewer/?uri=github.com/Ouranosinc/xclim  :alt: Open Source Security Foundation Scorecard\n\n.. |fossa| image:: https://app.fossa.com/api/projects/git%2Bgithub.com%2FOuranosinc%2Fxclim.svg?type=shield  :target: https://app.fossa.com/projects/git%2Bgithub.com%2FOuranosinc%2Fxclim?ref=badge_shield  :alt: FOSSA\n\n.. |logo| image:: https://raw.githubusercontent.com/Ouranosinc/xclim/main/docs/logos/xclim-logo-small-light.png  :target: https://github.com/Ouranosinc/xclim  :alt: Xclim  :class: xclim-logo-small no-theme\n\n.. |logo-light| image:: https://raw.githubusercontent.com/Ouranosinc/xclim/main/docs/logos/empty.png  :target: https://github.com/Ouranosinc/xclim  :alt:  :class: xclim-logo-small only-light-inline\n\n.. |logo-dark| image:: https://raw.githubusercontent.com/Ouranosinc/xclim/main/docs/logos/empty.png  :target: https://github.com/Ouranosinc/xclim  :alt:  :class: xclim-logo-small only-dark-inline\n\n.. |pre-commit| image:: https://results.pre-commit.ci/badge/github/Ouranosinc/xclim/main.svg  :target: https://results.pre-commit.ci/latest/github/Ouranosinc/xclim/main  :alt: pre-commit.ci status",
+      "section": "Introduction (part 6)",
+      "repo": "140_PAVICS",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.591720Z",
+    "updated_at": "2025-11-04T07:03:11.641591Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23481,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2136,
+    "annotations": [
+      {
+        "id": 10380,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:03:31.152521Z",
+        "updated_at": "2025-11-04T07:03:31.152540Z",
+        "draft_created_at": null,
+        "lead_time": 1.781,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "1e63cf78-10b3-4cc0-aa58-72b1f29a91da",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2136,
+        "project": 23481,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": ".. |ruff| image:: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json  :target: https://github.com/astral-sh/ruff  :alt: Ruff\n\n.. |status| image:: https://www.repostatus.org/badges/latest/active.svg  :target: https://www.repostatus.org/#active  :alt: Project Status: Active – The project has reached a stable, usable state and is being actively developed.\n\n.. |versions| image:: https://img.shields.io/pypi/pyversions/xclim.svg  :target: https://pypi.python.org/pypi/xclim  :alt: Supported Python Versions\n\n..  Energy Metrics by https://github.com/green-coding-solutions/eco-ci-energy-estimation\n\n.. |energy-total| image:: https://api.green-coding.io/v1/ci/badge/get?repo=Ouranosinc/xclim&branch=main&workflow=5828641&mode=totals  :target: https://metrics.green-coding.io/ci.html?repo=Ouranosinc/xclim&branch=main&workflow=5828641  :alt: Energy Consumption (Total)\n\n.. |energy-last| image:: https://api.green-coding.io/v1/ci/badge/get?repo=Ouranosinc/xclim&branch=main&workflow=5828641  :target: https://metrics.green-coding.io/ci.html?repo=Ouranosinc/xclim&branch=main&workflow=5828641  :alt: Energy Consumption (Last run)\n\n.. |energy-average| image:: https://api.green-coding.io/v1/ci/badge/get?repo=Ouranosinc/xclim&branch=main&workflow=5828641&mode=avg&duration_days=90  :target: https://metrics.green-coding.io/ci.html?repo=Ouranosinc/xclim&branch=main&workflow=5828641  :alt: Energy Consumption (Last 90 days moving average)\n\n.. |carbon-total| image:: https://api.green-coding.io/v1/ci/badge/get?repo=Ouranosinc/xclim&branch=main&workflow=5828641&mode=totals&metric=carbon  :target: https://metrics.green-coding.io/ci.html?repo=Ouranosinc/xclim&branch=festive-indices&workflow=5828641  :alt: Carbon Emissions (Total)",
+      "section": "Introduction (part 7)",
+      "repo": "140_PAVICS",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.591744Z",
+    "updated_at": "2025-11-04T07:03:31.179514Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23481,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2137,
+    "annotations": [
+      {
+        "id": 10381,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T07:03:34.455734Z",
+        "updated_at": "2025-11-04T07:03:34.455753Z",
+        "draft_created_at": null,
+        "lead_time": 3.12,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "7103622a-0e9b-4285-964e-559fd14c9955",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2137,
+        "project": 23481,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": ".. |carbon-last| image:: https://api.green-coding.io/v1/ci/badge/get?repo=Ouranosinc/xclim&branch=main&workflow=5828641&metric=carbon  :target: https://metrics.green-coding.io/ci.html?repo=Ouranosinc/xclim&branch=main&workflow=5828641  :alt: Carbon Emissions (Last run)\n\n.. |carbon-average| image:: https://api.green-coding.io/v1/ci/badge/get?repo=Ouranosinc/xclim&branch=main&workflow=5828641&mode=avg&duration_days=90&metric=carbon  :target: https://metrics.green-coding.io/ci.html?repo=Ouranosinc/xclim&branch=main&workflow=5828641  :alt: Carbon Emissions (Last 90 days moving average)",
+      "section": "Introduction (part 8)",
+      "repo": "140_PAVICS",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.591765Z",
+    "updated_at": "2025-11-04T07:03:34.484574Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23481,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

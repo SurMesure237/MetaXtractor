@@ -1,0 +1,27 @@
+{
+  "codeRepository": "https://github.com/TRASAL/psrdada-python",
+  "programmingLanguage": "Cython",
+  "programmingLanguages": [
+    "Cython",
+    "Python",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/TRASAL/psrdada-python/zipball/main",
+  "author": "TRASAL",
+  "dateCreated": "2018-05-07T09:23:43Z",
+  "dateModified": "2025-01-16T01:53:22Z",
+  "keywords": [
+    "astronomy",
+    "data",
+    "nlesc",
+    "psrdada",
+    "python",
+    "ringbuffer"
+  ],
+  "license": null,
+  "description": "Python bindings to the PSRDada ringbuffer implementation",
+  "identifier": 132437444,
+  "name": "TRASAL/psrdada-python",
+  "issueTracker": "https://api.github.com/repos/TRASAL/psrdada-python/issues",
+  "readme": "https://github.com/TRASAL/psrdada-python/blob/master/README.md"
+}

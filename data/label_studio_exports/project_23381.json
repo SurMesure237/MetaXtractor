@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1641,
+    "annotations": [
+      {
+        "id": 10749,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:20:26.754061Z",
+        "updated_at": "2025-11-05T16:20:26.754080Z",
+        "draft_created_at": null,
+        "lead_time": 5.783,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "564efaa6-b0cd-4830-82b8-622a1866ac74",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1641,
+        "project": 23381,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# qcardia\n\nCode for an AI-based quantitative cardiac image analysis package",
+      "section": "README",
+      "repo": "433_q-cardIA",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.640482Z",
+    "updated_at": "2025-11-05T16:20:26.783160Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23381,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

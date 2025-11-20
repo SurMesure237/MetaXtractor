@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/ubc-library/geodisy",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java",
+    "Ruby",
+    "XSLT",
+    "HTML",
+    "JavaScript",
+    "SCSS",
+    "Shell",
+    "CSS",
+    "Procfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ubc-library/geodisy/zipball/main",
+  "author": "ubc-library",
+  "dateCreated": "2019-01-25T18:34:00Z",
+  "dateModified": "2025-02-21T22:51:22Z",
+  "keywords": [],
+  "license": null,
+  "description": null,
+  "identifier": 167594750,
+  "name": "ubc-library/geodisy",
+  "issueTracker": "https://api.github.com/repos/ubc-library/geodisy/issues",
+  "readme": "https://github.com/ubc-library/geodisy/blob/master/README.md"
+}

@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/PlusToolkit/PlusLib",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "C",
+    "CMake",
+    "Shell",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/PlusToolkit/PlusLib/zipball/main",
+  "author": "PlusToolkit",
+  "dateCreated": "2017-01-27T01:16:26Z",
+  "dateModified": "2025-10-28T12:56:13Z",
+  "keywords": [],
+  "license": null,
+  "description": "Software library for data acquisition, pre-processing, and calibration for navigated image-guided interventions.",
+  "identifier": 80171815,
+  "name": "PlusToolkit/PlusLib",
+  "issueTracker": "https://api.github.com/repos/PlusToolkit/PlusLib/issues",
+  "readme": "https://github.com/PlusToolkit/PlusLib/blob/master/README.md"
+}

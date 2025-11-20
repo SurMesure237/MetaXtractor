@@ -1,0 +1,162 @@
+[
+  {
+    "id": 2526,
+    "annotations": [
+      {
+        "id": 10063,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 198,
+              "end": 254,
+              "text": "https://muscle3.readthedocs.io/en/develop/?badge=develop",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "IveO0VZizT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 527,
+              "end": 571,
+              "text": "https://zenodo.org/badge/latestdoi/122876985",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "lXBur8Krcb",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1352,
+              "end": 1370,
+              "text": "Apache License 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "T5FcCrJKP4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:41:47.519228Z",
+        "updated_at": "2025-11-14T12:11:28.726139Z",
+        "draft_created_at": "2025-11-02T20:40:41.739812Z",
+        "lead_time": 99.435,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "43c4422a-545b-4912-8951-e09782a4d787",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2526,
+        "project": 23559,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": ".. image:: https://github.com/multiscale/muscle3/raw/develop/docs/source/muscle3_logo_readme.png  :alt: MUSCLE3\n\n.. image:: https://readthedocs.org/projects/muscle3/badge/?version=develop  :target: https://muscle3.readthedocs.io/en/develop/?badge=develop  :alt: Documentation Build Status\n\n.. image:: https://github.com/multiscale/muscle3/actions/workflows/ci.yaml/badge.svg?branch=develop  :target: https://github.com/multiscale/muscle3/actions  :alt: Build Status\n\n.. image:: https://zenodo.org/badge/122876985.svg  :target: https://zenodo.org/badge/latestdoi/122876985\n\n.. image:: https://img.shields.io/badge/rsd-muscle3-00a3e3.svg  :target: https://www.research-software.nl/software/muscle3\n\n|\n\nMUSCLE3 is the third incarnation of the MUSCLE Multiscale Coupling Library and Environment. With MUSCLE3, you can connect multiple simulation models together into a multiscale simulation.\n\nBrowse to the MUSCLE3 documentation_ to get started.\n\nCollaboration\n\nFor academic collaboration, please contact prof. Alfons Hoekstra (UvA CSL) _ and/or Lourens Veen (NLeSC) _.\n\nCommercial support for MUSCLE3 is provided by Ignition Computing _.\n\nLegal\n\nMUSCLE3 is Copyright 2018-2022 University of Amsterdam and Netherlands eScience Center, Copyright 2022-2024 The ITER Organisation, and Copyright 2023-2025 Netherlands eScience Center. It is licensed under the Apache License 2.0.\n\nContributing",
+      "section": "Introduction (part 1)",
+      "repo": "385_MUSCLE3",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.184439Z",
+    "updated_at": "2025-11-14T12:11:28.764579Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23559,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2527,
+    "annotations": [
+      {
+        "id": 10064,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 627,
+              "end": 657,
+              "text": "https://muscle3.readthedocs.io",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "4Bn9MiU2iE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:42:00.846045Z",
+        "updated_at": "2025-11-14T12:11:36.870835Z",
+        "draft_created_at": "2025-11-02T20:42:00.236192Z",
+        "lead_time": 19.957,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "fe29c6a3-ad58-43d0-a1c7-4a27ab70b294",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2527,
+        "project": 23559,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "We welcome contributions to MUSCLE3! For small additions or fixes, please submit a pull request, and we'll review your changes and apply them. If you want to add larger features, please make an issue and describe what you want to do, so that we can coordinate and avoid double work. For more details, see the documentation on contributing_.\n\nThe MUSCLE3 community fosters a welcoming atmosphere, and participation is open to everyone. In order to ensure that it stays that way, we have a code of conduct_, and we will enforce it if necessary. Please treat your fellow human beings with respect.\n\n.. _the MUSCLE3 documentation: https://muscle3.readthedocs.io .. _documentation on contributing: http://muscle3.readthedocs.io/en/latest/contributing.html .. _code of conduct: https://github.com/multiscale/muscle3/blob/develop/CODE_OF_CONDUCT.rst",
+      "section": "Introduction (part 2)",
+      "repo": "385_MUSCLE3",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.184476Z",
+    "updated_at": "2025-11-14T12:11:36.903489Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23559,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

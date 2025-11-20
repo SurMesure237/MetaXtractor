@@ -1,0 +1,1252 @@
+[
+  {
+    "id": 719,
+    "annotations": [
+      {
+        "id": 11561,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:39:36.602267Z",
+        "updated_at": "2025-11-07T23:39:36.602281Z",
+        "draft_created_at": null,
+        "lead_time": 2.791,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "62eba869-dc40-4577-91be-6053e51548de",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 719,
+        "project": 23228,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "🌐 fastdatascience.com",
+      "section": "Introduction (part 1)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.939960Z",
+    "updated_at": "2025-11-07T23:39:36.627180Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23228,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 720,
+    "annotations": [
+      {
+        "id": 11562,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 42,
+              "text": "https://doi.org/10.5281/zenodo.10970631",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "hoWWUPdNVF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:39:43.563980Z",
+        "updated_at": "2025-11-07T23:39:43.563994Z",
+        "draft_created_at": null,
+        "lead_time": 6.775,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "e07370f5-a532-4ae3-8b50-acc0e8f1a098",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 720,
+        "project": 23228,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://doi.org/10.5281/zenodo.10970631)\n\nYou can run the walkthrough Python notebook in [Google Colab] https://colab.research.google.com/github/fastdatascience/drug_named_entity_recognition/blob/main/drug_named_entity_recognition_example_walkthrough.ipynb with a single click:",
+      "section": "Introduction (part 2)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.939995Z",
+    "updated_at": "2025-11-07T23:39:43.597809Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23228,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 721,
+    "annotations": [
+      {
+        "id": 11563,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 265,
+              "end": 347,
+              "text": "https://github.com/fastdatascience/drug_named_entity_recognition/blob/main/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "VbYyc2PZWS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:40:02.359174Z",
+        "updated_at": "2025-11-07T23:40:02.359186Z",
+        "draft_created_at": "2025-11-07T23:39:58.142526Z",
+        "lead_time": 18.607,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "fcae50be-54c1-4200-97eb-0530ead1881c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 721,
+        "project": 23228,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Drug Named Entity Recognition Python library by Fast Data Science\n\n## Finds drug names and can look up molecular structure\n\n[](https://pypi.org/project/drug-named-entity-recognition/) [](https://github.com/fastdatascience/drug_named_entity_recognition/releases) [](https://github.com/fastdatascience/drug_named_entity_recognition/blob/main/LICENSE) [](https://pypi.org/project/drug_named_entity_recognition/)  [](https://github.com/fastdatascience/drug_named_entity_recognition/releases) [](https://pypi.org/project/drug_named_entity_recognition/) [](https://github.com/fastdatascience/drug_named_entity_recognition/forks)",
+      "section": "Drug Named Entity Recognition Python library by Fast Data Science",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.940017Z",
+    "updated_at": "2025-11-07T23:40:02.388816Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23228,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 722,
+    "annotations": [
+      {
+        "id": 11564,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:40:44.847132Z",
+        "updated_at": "2025-11-07T23:40:44.847145Z",
+        "draft_created_at": null,
+        "lead_time": 42.224,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "7c5696d3-4898-4042-9607-0487e45b3260",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 722,
+        "project": 23228,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "💊 Drug Named Entity Recognition\n\nDeveloped by Fast Data Science, https://fastdatascience.com\n\nSource code at https://github.com/fastdatascience/drug_named_entity_recognition\n\nTutorial at https://fastdatascience.com/drug-named-entity-recognition-python-library/\n\nThis is a lightweight Python [natural language processing] https://naturallanguageprocessing.com/applications-nlp-use-cases-business-solutions/ library for finding drug names in a string, otherwise known as [named entity recognition (NER)] https://fastdatascience.com/named-entity-recognition/ and named entity linking. This can be used for analysing unstructured text documents such as [clinical trial protocols] https://clinicaltrialrisk.org/clinical-trial-protocol-software/ or other [unstructured data in biopharma] https://harmonydata.ac.uk/data-harmonisation/data-harmonisation-in-biopharma/.\n\nPlease note this library finds only high confidence drugs.\n\nNew in version 2.0.0: we can support misspellings by using fuzzy matching!\n\nIt also only finds the English names of these drugs. Names [in other languages] https://fastdatascience.com/natural-language-processing/multilingual-natural-language-processing/ are not supported.\n\nIt also doesn't find short code names of drugs, such as abbreviations commonly used in medicine, such as \"Ceph\" for \"Cephradin\" - as these are highly ambiguous.\n\nIt also returns the chemical formula, SMILES representation, and molecular weight of a drug if that information is available.",
+      "section": "💊 Drug Named Entity Recognition",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.940041Z",
+    "updated_at": "2025-11-07T23:40:44.872048Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23228,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 723,
+    "annotations": [
+      {
+        "id": 11565,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:40:52.065082Z",
+        "updated_at": "2025-11-07T23:40:52.065094Z",
+        "draft_created_at": null,
+        "lead_time": 7.05,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f3b36482-91d2-4df7-b839-9a5f989bcc61",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 723,
+        "project": 23228,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "💻Installing Drug Named Entity Recognition Python package\n\nYou can install Drug Named Entity Recognition from [PyPI] https://pypi.org/project/drug-named-entity-recognition.\n\npip install drug-named-entity-recognition\n\nIf you get an error installing Drug Named Entity Recognition, try making a new Python environment in Conda (conda create -n test-env; conda activate test-env) or Venv (python -m testenv; source testenv/bin/activate / testenv\\Scripts\\activate) and then installing the library.\n\nThe library already contains the drug names so if you don't need to update the dictionary, then you should not have to run any of the download scripts.\n\nIf you have problems installing, try our [Google Colab] https://colab.research.google.com/github/fastdatascience/drug_named_entity_recognition/blob/main/drug_named_entity_recognition_example_walkthrough.ipynb walkthrough.\n\n## Interested in disease names?\n\nCheck out our new Medical Named Entity Recognition package, now in beta! https://github.com/fastdatascience/medical_named_entity_recognition",
+      "section": "💻Installing Drug Named Entity Recognition Python package",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.940063Z",
+    "updated_at": "2025-11-07T23:40:52.092238Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23228,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 724,
+    "annotations": [
+      {
+        "id": 11566,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:40:55.072129Z",
+        "updated_at": "2025-11-07T23:40:55.072153Z",
+        "draft_created_at": null,
+        "lead_time": 2.847,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "5f263428-c7af-4a88-98b8-b0c8637568bc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 724,
+        "project": 23228,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "💡Usage examples\n\nYou must first tokenise your input text using a tokeniser of your choice (NLTK, spaCy, etc).\n\nYou pass a list of strings to the find_drugs function.\n\nExample 1\n\nfrom drug_named_entity_recognition import find_drugs\n\nfind_drugs(\"i bought some Prednisone\".split(\" \"))\n\noutputs a list of tuples.\n\n[({'name': 'Prednisone', 'synonyms': {'Sone', 'Sterapred', 'Deltasone', 'Panafcort', 'Prednidib', 'Cortan', 'Rectodelt', 'Prednisone', 'Cutason', 'Meticorten', 'Panasol', 'Enkortolon', 'Ultracorten', 'Decortin', 'Orasone', 'Winpred', 'Dehydrocortisone', 'Dacortin', 'Cortancyl', 'Encorton', 'Encortone', 'Decortisyl', 'Kortancyl', 'Pronisone', 'Prednisona', 'Predniment', 'Prednisonum', 'Rayos'}, 'medline_plus_id': 'a601102', 'mesh_id': 'D018931', 'drugbank_id': 'DB00635'}, 3, 3)]\n\n## Fuzzy matching (misspellings)\n\nYou can turn on fuzzy matching (ngrams) with is_fuzzy_match\n\nfind_drugs([\"paraxcetamol\"], is_fuzzy_match=True)",
+      "section": "💡Usage examples (part 1)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.940099Z",
+    "updated_at": "2025-11-07T23:40:55.100649Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23228,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 725,
+    "annotations": [
+      {
+        "id": 11567,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:40:56.023385Z",
+        "updated_at": "2025-11-07T23:40:56.023398Z",
+        "draft_created_at": null,
+        "lead_time": 0.786,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "d014c525-7995-4f8b-97cb-1c478a917793",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 725,
+        "project": 23228,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Metadata such as molecular structure.\n\nYou can retrieve molecular structure in .mol format with:\n\nfrom drug_named_entity_recognition.drugs_finder import find_drugs drugs = find_drugs(\"i bought some paracetamol\".split(\" \"), is_include_structure=True)\n\nthis will return the atomic structure of the drug if that data is available.\n\nprint (drugs[0][0][\"structure_mol\"]) 316  Mrv0541 02231214352D\n\n11 11 0 0 0 0 999 V2000  2.3645 -2.1409 0.0000 O 0 0 0 0 0 0 0 0 0 0 0 0  3.7934 1.1591 0.0000 O 0 0 0 0 0 0 0 0 0 0 0 0  2.3645 1.1591 0.0000 N 0 0 0 0 0 0 0 0 0 0 0 0  2.3645 0.3341 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0  3.0790 -0.0784 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0  1.6500 -0.0784 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0  3.0790 -0.9034 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0  1.6500 -0.9034 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0  2.3645 -1.3159 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0  3.0790 1.5716 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0  3.0790 2.3966 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0  1 9 1 0 0 0 0  2 10 2 0 0 0 0  3 4 1 0 0 0 0  3 10 1 0 0 0 0  4 5 2 0 0 0 0  4 6 1 0 0 0 0  5 7 1 0 0 0 0  6 8 2 0 0 0 0  7 9 2 0 0 0 0  8 9 1 0 0 0 0  10 11 1 0 0 0 0 M END DB00316",
+      "section": "💡Usage examples (part 2)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.940122Z",
+    "updated_at": "2025-11-07T23:40:56.049486Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23228,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 726,
+    "annotations": [
+      {
+        "id": 11568,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:40:57.432229Z",
+        "updated_at": "2025-11-07T23:40:57.432244Z",
+        "draft_created_at": null,
+        "lead_time": 1.247,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b838ba4b-10ee-4d4b-aa8f-109a694480a3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 726,
+        "project": 23228,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Add and remove drugs (customise the drugs list)\n\nNow you can modify the drug recogniser's behaviour if there is a particular drug which it isn't finding:\n\nTo reset the drugs dictionary\n\nfrom drug_named_entity_recognition.drugs_finder import reset_drugs_data reset_drugs_data()\n\nTo add a synonym\n\nfrom drug_named_entity_recognition.drugs_finder import add_custom_drug_synonym add_custom_drug_synonym(\"potato\", \"sertraline\")\n\nTo add a new drug\n\nfrom drug_named_entity_recognition.drugs_finder import add_custom_new_drug add_custom_new_drug(\"potato\", {\"name\": \"solanum tuberosum\"})\n\nTo remove an existing drug\n\nfrom drug_named_entity_recognition.drugs_finder import remove_drug_synonym remove_drug_synonym(\"sertraline\")",
+      "section": "💡Usage examples (part 3)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.940143Z",
+    "updated_at": "2025-11-07T23:40:57.458507Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23228,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 727,
+    "annotations": [
+      {
+        "id": 11569,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:41:01.773442Z",
+        "updated_at": "2025-11-07T23:41:01.773457Z",
+        "draft_created_at": null,
+        "lead_time": 4.131,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "42dfac57-53a3-4574-8d76-4d8285bb2376",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 727,
+        "project": 23228,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Interested in other kinds of named entity recognition (NER)? 💸Finances, 🎩company names, 🌎countries, 🗺️locations, proteins, 🧬genes, 🧪molecules?\n\nIf your NER problem is common across industries and likely to have been seen before, there may be an off-the-shelf NER tool for your purposes, such as our [Country Named Entity Recognition] http://fastdatascience.com//country-named-entity-recognition/ Python library. Dictionary-based named entity recognition is not always the solution, as sometimes the total set of entities is an open set and can't be listed (e.g. personal names), so sometimes a bespoke trained NER model is the answer. For tasks like finding email addresses or phone numbers, regular expressions (simple rules) are sufficient for the job.\n\nIf your named entity recognition or named entity linking problem is very niche and unusual, and a product exists for that problem, that product is likely to only solve your problem 80% of the way, and you will have more work trying to fix the final mile than if you had done the whole thing manually. Please [contact Fast Data Science] http://fastdatascience.com//contact and we'll be glad to discuss. For example, we've worked on [a consultancy engagement to find molecule names in papers, and match author names to customers] http://fastdatascience.com//boehringer-ingelheim-finding-molecules-and-proteins-in-scientific-literature/ where the goal was to trace molecule samples ordered from a pharma company and identify when the samples resulted in a publication. For this case, there was no off-the-shelf library that we could use.",
+      "section": "Interested in other kinds of named entity recognition (NER)? 💸Finances, 🎩company names, 🌎countries, 🗺️locations, proteins, 🧬genes, 🧪molecules? (part 1)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.940166Z",
+    "updated_at": "2025-11-07T23:41:01.805981Z",
+    "inner_id": 9,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23228,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 728,
+    "annotations": [
+      {
+        "id": 11570,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 321,
+              "end": 332,
+              "text": "MIT license",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "dGX-LqZwV0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:41:18.876480Z",
+        "updated_at": "2025-11-07T23:41:18.876493Z",
+        "draft_created_at": "2025-11-07T23:41:12.075082Z",
+        "lead_time": 16.894,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "9f9ccaf2-b214-468d-9f6e-7da34697c74f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 728,
+        "project": 23228,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "For a problem like identifying country names in English, which is a closed set with well-known variants and aliases, an off-the-shelf library is usually available. You may wish to try our [Country Named Entity Recognition] https://fastdatascience.com/country-named-entity-recognition/ library, also open-source and under MIT license.\n\nFor identifying a set of molecules manufactured by a particular company, this is the kind of task more suited to a [consulting engagement] https://fastdatascience.com/portfolio/nlp-consultant/.",
+      "section": "Interested in other kinds of named entity recognition (NER)? 💸Finances, 🎩company names, 🌎countries, 🗺️locations, proteins, 🧬genes, 🧪molecules? (part 2)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.940187Z",
+    "updated_at": "2025-11-07T23:41:18.908154Z",
+    "inner_id": 10,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23228,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 729,
+    "annotations": [
+      {
+        "id": 11571,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 505,
+              "end": 525,
+              "text": "Python 3.9 and above",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "REmC_5_1vW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:41:40.272769Z",
+        "updated_at": "2025-11-17T00:25:38.536465Z",
+        "draft_created_at": null,
+        "lead_time": 40.054,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "f69f1bbf-7230-4eb4-afa8-8929168c33fc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 729,
+        "project": 23228,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "😊 Using this tool directly from Google Sheets (no-code!)\n\nWe have a no-code solution where you can [use the library directly from Google Sheets] https://fastdatascience.com/drug-name-recogniser as the library has also been wrapped as a Google Sheets plugin.\n\n[Click here] https://www.youtube.com/watch?v=qab1Bv_YpYU to watch a video of how the plugin works.\n\nYou can install the plugin in Google Sheets [here] https://workspace.google.com/marketplace/app/drug_name_recogniser/463844408236.\n\nRequirements\n\nPython 3.9 and above\n\n## ✉️Who to contact?\n\nYou can contact Thomas Wood or the Fast Data Science team at https://fastdatascience.com/.",
+      "section": "😊 Using this tool directly from Google Sheets (no-code!) + Requirements",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.940208Z",
+    "updated_at": "2025-11-17T00:25:38.571895Z",
+    "inner_id": 11,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23228,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 730,
+    "annotations": [
+      {
+        "id": 11572,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:41:50.493167Z",
+        "updated_at": "2025-11-07T23:41:50.493181Z",
+        "draft_created_at": null,
+        "lead_time": 10.045,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "a287b607-1f43-4525-aa63-adfb68b852c9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 730,
+        "project": 23228,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "🤝Compatibility with other natural language processing libraries\n\nThe Drug Named Entity Recognition library is independent of other NLP tools and has no dependencies. You don't need any advanced system requirements and the tool is lightweight. However, it combines well with other libraries such as [spaCy] https://spacy.io or the [Natural Language Toolkit (NLTK)] https://www.nltk.org/api/nltk.tokenize.html.\n\n## Using Drug Named Entity Recognition together with spaCy\n\nHere is an example call to the tool with a [spaCy] https://spacy.io Doc object:\n\nfrom drug_named_entity_recognition import find_drugs import spacy nlp = spacy.blank(\"en\") doc = nlp(\"i routinely rx rimonabant and pts prefer it\") find_drugs([t.text for t in doc])\n\noutputs:\n\n[({'name': 'Rimonabant', 'synonyms': {'Acomplia', 'Rimonabant', 'Zimulti'}, 'mesh_id': 'D063387', 'drugbank_id': 'DB06155'}, 3, 3)]\n\n## Using Drug Named Entity Recognition together with NLTK\n\nYou can also use the tool together with the [Natural Language Toolkit (NLTK)] https://www.nltk.org/api/nltk.tokenize.html:\n\nfrom drug_named_entity_recognition import find_drugs from nltk.tokenize import wordpunct_tokenize tokens = wordpunct_tokenize(\"i routinely rx rimonabant and pts prefer it\") find_drugs(tokens)",
+      "section": "🤝Compatibility with other natural language processing libraries (part 1)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.940230Z",
+    "updated_at": "2025-11-07T23:41:50.519406Z",
+    "inner_id": 12,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23228,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 731,
+    "annotations": [
+      {
+        "id": 11573,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:41:52.400297Z",
+        "updated_at": "2025-11-07T23:41:52.400311Z",
+        "draft_created_at": null,
+        "lead_time": 1.75,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "55237932-5aef-44fc-910b-cdad0434b5c9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 731,
+        "project": 23228,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Using the OMOP API\n\nThe tool can also connect to the OMOP API to return the OMOP ID of a drug.\n\nfrom drug_named_entity_recognition import find_drugs print (find_drugs(\"paracetamol\".split(), is_use_omop_api=True))\n\nResponse includes 'omop_id': '161':\n\n🔍 Looking up OMOP ID for: acetaminophen → RxCUI (used as OMOP ID): 161 [({'medline_plus_id': 'a621016', 'name': 'Acetaminophen', 'nhs_api_url': 'https://int.api.service.nhs.uk/nhs-website-content/medicines/paracetamol-for-children/', 'nhs_url': 'https://nhs.uk/medicines/paracetamol-for-children/', 'mesh_id': 'D058633', 'mesh_tree': ['D02.092.146.113.092.040', 'D02.065.199.092.040'], 'drugbank_id': 'DB00316', 'wikipedia_url': 'https://en.wikipedia.org/wiki/Paracetamol', 'synonyms': ['calpol', 'acetaminophen', 'panadol', 'tylenol', 'actamin', 'ofirmev', 'apap', 'paracetamol', 'acephen rectal suppository', 'neopap supprettes rectal suppository', 'calpol', 'acetominophen', 'p-hydroxyacetanilide', 'acamol', 'acetaco', 'p-acetamidophenol', 'anacin-3', 'hydroxyacetanilide', 'anacin 3', 'algotropyl', 'n-acetyl-p-aminophenol', 'anacin3', 'acetamidophenol', 'datril', 'acephen', '4-acetamidophenol', \"4'-hydroxyacetanilide\", 'acenol', 'acetaminofén', 'acétaminophène', 'p-acetaminophenol', 'p-acetylaminophenol', 'p-hydroxy-acetanilid', 'p-hydroxyphenolacetamide', 'paracétamol', 'paracetamolum'], 'is_brand': False, 'match_type': 'exact', 'matching_string': 'paracetamol', 'omop_id': '161'}, 0, 1)]",
+      "section": "🤝Compatibility with other natural language processing libraries (part 2)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.940253Z",
+    "updated_at": "2025-11-07T23:41:52.427527Z",
+    "inner_id": 13,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23228,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 732,
+    "annotations": [
+      {
+        "id": 11574,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 706,
+              "end": 711,
+              "text": "rdkit",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "JYZJCA7uOR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 726,
+              "end": 731,
+              "text": "rdkit",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "BPZCzMuZEX",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:42:16.213467Z",
+        "updated_at": "2025-11-07T23:42:16.213481Z",
+        "draft_created_at": "2025-11-07T23:42:06.821418Z",
+        "lead_time": 23.632,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "65ddf794-c5ce-40ec-bd54-0436b6ad126c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 732,
+        "project": 23228,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## SMILES (Simplified Molecular Input Line Entry System Integration)\n\nWe now support SMILES (Simplified Molecular Input Line Entry System) strings for drug molecules. SMILES data is extracted from PubChem’s CID-SMILES.gz file and integrated during the dictionary build step (06_add_smiles_from_pubchem.py), enriching each drug entry with a machine-readable structure. If available, a SMILES string is returned in the find_drugs() output under the smiles key. For visualisation, users can refer to the example notebook using RDKit (optional dependency). This enhancement allows better structural insight without relying on external APIs.\n\n## Plotting the molecular structure\n\nThis needs you to also install rdkit:\n\npip install rdkit\n\nfrom rdkit import Chem from rdkit.Chem import Draw from drug_named_entity_recognition import find_drugs sentences = \"I prescribed Dabigatran\" drugs = find_drugs(sentences.split(), is_include_structure=True) for drug in drugs:  structure_mol = drug[0][\"structure_mol\"]  break print (structure_mol)\n\nmol = Chem.MolFromMolBlock(structure_mol) image = Draw.MolToImage(mol, size=(1000,500)) image.show() image.save(\"dabigatran.png\")\n\ndisplays:",
+      "section": "🤝Compatibility with other natural language processing libraries (part 3)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.940275Z",
+    "updated_at": "2025-11-07T23:42:16.242068Z",
+    "inner_id": 14,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23228,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 733,
+    "annotations": [
+      {
+        "id": 11575,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:42:57.867157Z",
+        "updated_at": "2025-11-07T23:42:57.867171Z",
+        "draft_created_at": null,
+        "lead_time": 41.377,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "1794b127-ce8c-420b-8f70-916dc7c72f4e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 733,
+        "project": 23228,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "📁Data sources\n\nThe main data source is from Drugbank, augmented by datasets from the NHS, MeSH, Medline Plus, Pubchem, and Wikipedia.\n\n🌟 There is a handy Jupyter Notebook, update.ipynb which will update the Drugbank and MeSH data sources (re-download them from the relevant third parties).\n\n## Update the Drugbank dictionary\n\nIf you want to update the dictionary, you can use the data dump from Drugbank and replace the file drugbank vocabulary.csv:\n\nDownload the open data dump from https://go.drugbank.com/releases/latest#open-data\n\n## Update the Wikipedia dictionary\n\nIf you want to update the Wikipedia dictionary, download the dump from:\n\nhttps://meta.wikimedia.org/wiki/Data_dump_torrents#English_Wikipedia\n\nand run extract_drug_names_and_synonyms_from_wikipedia_dump.py\n\n## OMOP (Observational Medical Outcomes Partnership) ID\n\n## Attribution for RxNorm Data\n\nThis project uses data from RxNorm courtesy of the U.S. National Library of Medicine. NLM is not responsible for this product and does not endorse it. We do not claim ownership of RxNorm data. The tool retrieves information from the RxNorm API and allows users to optionally access OMOP IDs.\n\nFor offline use, users must download the RxNorm dataset themselves from [NLM RxNorm] https://www.nlm.nih.gov/research/umls/rxnorm/index.html after obtaining a free UMLS license.\n\n## Update the MeSH dictionary\n\nIf you want to update the dictionary, run\n\npython download_mesh_dump_and_extract_drug_names_and_synonyms.py\n\nThis will download the latest XML file from NIH.\n\nIf the link doesn't work, download the open data dump manually from https://www.nlm.nih.gov/. It should be called something like desc2023.xml. And comment out the Wget/Curl commands in the code.",
+      "section": "📁Data sources (part 1)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.940299Z",
+    "updated_at": "2025-11-07T23:42:57.892963Z",
+    "inner_id": 15,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23228,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 734,
+    "annotations": [
+      {
+        "id": 11576,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 88,
+              "end": 91,
+              "text": "CC0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "X37OwzRNiD",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 93,
+              "end": 142,
+              "text": "https://go.drugbank.com/releases/latest#open-data",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "CdxDVb-Xsv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 410,
+              "end": 440,
+              "text": "GNU Free Documentation License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "EDM9AxLGvY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 442,
+              "end": 483,
+              "text": "https://www.gnu.org/licenses/fdl-1.3.html",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "8zSOuGPlMn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 489,
+              "end": 541,
+              "text": "Creative Commons Attribution-Share-Alike 3.0 License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "9R1f0MbLJN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 543,
+              "end": 590,
+              "text": "https://creativecommons.org/licenses/by-sa/3.0/",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "E_q1S5glSK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1326,
+              "end": 1329,
+              "text": "tox",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "MBqSrxDHBU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1249,
+              "end": 1257,
+              "text": "unittest",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "uuY3gUbsVE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1259,
+              "end": 1306,
+              "text": "https://docs.python.org/3/library/unittest.html",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "2vixd-skzJ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:43:52.913142Z",
+        "updated_at": "2025-11-16T05:15:04.532249Z",
+        "draft_created_at": "2025-11-07T23:43:09.295499Z",
+        "lead_time": 105.282,
+        "prediction": {},
+        "result_count": 9,
+        "unique_id": "592c5c65-04d1-47e5-80ff-659021271a6a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 734,
+        "project": 23228,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## License information for external data sources\n\nData from Drugbank is licensed under [CC0] https://go.drugbank.com/releases/latest#open-data.\n\nTo the extent possible under law, the person who associated CC0 with the DrugBank Open Data has waived all copyright and related or neighboring rights to the DrugBank Open Data. This work is published from: Canada.\n\nText from Wikipedia data dump is licensed under [GNU Free Documentation License] https://www.gnu.org/licenses/fdl-1.3.html and [Creative Commons Attribution-Share-Alike 3.0 License] https://creativecommons.org/licenses/by-sa/3.0/. [More information] https://dumps.wikimedia.org/legal.html.\n\nPubchem is an open access database. More information: https://pubchem.ncbi.nlm.nih.gov/docs/downloads2\n\n## Contributing to the Drug Named Entity Recognition library\n\nIf you'd like to contribute to this project, you can contact us at https://fastdatascience.com/ or make a pull request on our [Github repository] https://github.com/fastdatascience/drug_named_entity_recognition. You can also [raise an issue] https://github.com/fastdatascience/drug_named_entity_recognition/issues.\n\n## Developing the Drug Named Entity Recognition library\n\n### Automated tests\n\nTest code is in tests/ folder using [unittest] https://docs.python.org/3/library/unittest.html.\n\nThe testing tool tox is used in the automation with GitHub Actions CI/CD.",
+      "section": "📁Data sources (part 2)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.940321Z",
+    "updated_at": "2025-11-16T05:15:04.567857Z",
+    "inner_id": 16,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23228,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 735,
+    "annotations": [
+      {
+        "id": 11577,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 584,
+              "end": 594,
+              "text": "Python 3.9",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "CthBHG3Fdy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 29,
+              "end": 32,
+              "text": "tox",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "1d_ma_4tJL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1687,
+              "end": 1698,
+              "text": "MIT License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "mTEg1JNAGp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1419,
+              "end": 1424,
+              "text": "twine",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "NudqPyMwQh",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:46:21.068144Z",
+        "updated_at": "2025-11-07T23:46:21.068158Z",
+        "draft_created_at": "2025-11-07T23:44:05.047588Z",
+        "lead_time": 147.809,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "8657a942-7987-409a-9513-c3976436e4bb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 735,
+        "project": 23228,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Use tox locally\n\nInstall tox and run it:\n\npip install tox tox\n\nIn our configuration, tox runs a check of source distribution using [check-manifest] https://pypi.org/project/check-manifest/ (which requires your repo to be git-initialized (git init) and added (git add .) at least), setuptools's check, and unit tests using pytest. You don't need to install check-manifest and pytest though, tox will install them in a separate environment.\n\nThe automated tests are run against several Python versions, but on your machine, you might be using only one version of Python, if that is Python 3.9, then run:\n\ntox -e py39\n\nThanks to GitHub Actions' automated process, you don't need to generate distribution files locally. But if you insist, click to read the \"Generate distribution files\" section.\n\n### 🤖 Continuous integration/deployment to PyPI\n\nThis package is based on the template https://pypi.org/project/example-pypi-package/\n\nThis package\n\nuses GitHub Actions for both testing and publishing\n\nis tested when pushing master or main branch, and is published when create a release\n\nincludes test files in the source distribution\n\nuses setup.cfg for [version single-sourcing] https://packaging.python.org/guides/single-sourcing-package-version/ (setuptools 46.4.0+)\n\n## 🧍Re-releasing the package manually\n\nThe code to re-release Drug Named Entity Recognition on PyPI is as follows:\n\nsource activate py311 pip install twine rm -rf dist python setup.py sdist twine upload dist/\n\n## 😊 Who worked on the Drug Named Entity Recognition library?\n\nThe tool was developed by:\n\nThomas Wood ([Fast Data Science] https://fastdatascience.com)\n\n## 📜License of Drug Named Entity Recognition library\n\nMIT License. Copyright (c) 2023 [Fast Data Science] https://fastdatascience.com",
+      "section": "📁Data sources (part 3)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.940345Z",
+    "updated_at": "2025-11-07T23:46:21.101554Z",
+    "inner_id": 17,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23228,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 736,
+    "annotations": [
+      {
+        "id": 11578,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 56,
+              "end": 323,
+              "text": "Wood, T.A., Drug Named Entity Recognition [Computer software], Version 2.0.9, accessed at [https://fastdatascience.com/drug-named-entity-recognition-python-library] https://fastdatascience.com/drug-named-entity-recognition-python-library, Fast Data Science Ltd (2024)",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "bTsen5y8YR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 325,
+              "end": 595,
+              "text": "@unpublished{drugnamedentityrecognition, AUTHOR = {Wood, T.A.}, TITLE = {Drug Named Entity Recognition (Computer software), Version 2.0.9}, YEAR = {2024}, Note = {To appear}, url = {https://zenodo.org/doi/10.5281/zenodo.10970631}, doi = {10.5281/zenodo.10970631} }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "WU52IvTaWN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1316,
+              "end": 1436,
+              "text": "Kim S, Chen J, Cheng T, et al. PubChem 2025 update. Nucleic Acids Res. 2025;53(D1):D1516-D1525. doi:10.1093/nar/gkae1059\\n",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "zIBEEn93C8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1438,
+              "end": 1600,
+              "text": "Knox C, Wilson M, Klinger CM, et al. DrugBank 6.0: the DrugBank Knowledgebase for 2024. Nucleic Acids Res. 2024 Jan 5;52(D1):D1265-D1275. doi: 10.1093/nar/gkad976",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "lMShE5Li_g",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1027,
+              "end": 1299,
+              "text": "Doneva, Simona, et al. [NeuroTrialNER: An Annotated Corpus for Neurological Diseases and Therapies in Clinical Trial Registries.] https://aclanthology.org/2024.emnlp-main.1050.pdf Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing. 2024",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "ZiGS2C05tm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:47:14.489482Z",
+        "updated_at": "2025-11-07T23:47:14.489495Z",
+        "draft_created_at": "2025-11-07T23:46:37.513748Z",
+        "lead_time": 53.18,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "6991a7fe-c4d1-422a-8cf8-c537903d195d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 736,
+        "project": 23228,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## ✍️ Citing the Drug Named Entity Recognition library\n\nWood, T.A., Drug Named Entity Recognition [Computer software], Version 2.0.9, accessed at [https://fastdatascience.com/drug-named-entity-recognition-python-library] https://fastdatascience.com/drug-named-entity-recognition-python-library, Fast Data Science Ltd (2024)\n\n@unpublished{drugnamedentityrecognition,  AUTHOR = {Wood, T.A.},  TITLE = {Drug Named Entity Recognition (Computer software), Version 2.0.9},  YEAR = {2024},  Note = {To appear},  url = {https://zenodo.org/doi/10.5281/zenodo.10970631},  doi = {10.5281/zenodo.10970631} }\n\n## Case studies: Who is using the Drug Named Entity Recognition Library?\n\nThankfully, a number of people and organisations around the world have been using the library and have cited us.\n\n### NeuroTrialNER: An Annotated Corpus for Neurological Diseases and Therapies in Clinical Trial Registries\n\nSimona E. Doneva at the University of Zurich and her colleagues used the tool to make an annotated corpus of neurological diseases.\n\nDoneva, Simona, et al. [NeuroTrialNER: An Annotated Corpus for Neurological Diseases and Therapies in Clinical Trial Registries.] https://aclanthology.org/2024.emnlp-main.1050.pdf Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing. 2024.\n\n## Citations\n\nKim S, Chen J, Cheng T, et al. PubChem 2025 update. Nucleic Acids Res. 2025;53(D1):D1516-D1525. doi:10.1093/nar/gkae1059\n\nKnox C, Wilson M, Klinger CM, et al. DrugBank 6.0: the DrugBank Knowledgebase for 2024. Nucleic Acids Res. 2024 Jan 5;52(D1):D1265-D1275. doi: 10.1093/nar/gkad976.",
+      "section": "📁Data sources (part 4)",
+      "repo": "297_Drug_named_entity_recognition",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:48.940369Z",
+    "updated_at": "2025-11-07T23:47:14.515894Z",
+    "inner_id": 18,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23228,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

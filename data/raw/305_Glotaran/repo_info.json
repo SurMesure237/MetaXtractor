@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/glotaran/pyglotaran",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Nix"
+  ],
+  "downloadUrl": "https://api.github.com/repos/glotaran/pyglotaran/zipball/main",
+  "author": "glotaran",
+  "dateCreated": "2016-05-09T19:16:34Z",
+  "dateModified": "2025-08-01T20:02:06Z",
+  "keywords": [
+    "data-analysis",
+    "glotaran",
+    "modelling",
+    "pyglotaran",
+    "python-library",
+    "target-analysis"
+  ],
+  "license": "https://api.github.com/licenses/lgpl-3.0",
+  "description": "A Python library for Global and Target Analysis of time-resolved spectroscopy data",
+  "identifier": 58401715,
+  "name": "glotaran/pyglotaran",
+  "issueTracker": "https://api.github.com/repos/glotaran/pyglotaran/issues",
+  "readme": "https://github.com/glotaran/pyglotaran/blob/main/README.md"
+}

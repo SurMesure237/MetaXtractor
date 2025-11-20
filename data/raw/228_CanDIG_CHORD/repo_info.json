@@ -1,0 +1,24 @@
+{
+  "codeRepository": "https://github.com/c3g/chord_singularity",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Lua",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/c3g/chord_singularity/zipball/main",
+  "author": "c3g",
+  "dateCreated": "2019-09-27T20:53:46Z",
+  "dateModified": "2021-06-21T15:33:04Z",
+  "keywords": [
+    "chord",
+    "singularity",
+    "singularity-container"
+  ],
+  "license": "https://api.github.com/licenses/lgpl-3.0",
+  "description": "Singularity container scripts for a complete CHORD project package. ",
+  "identifier": 211400115,
+  "name": "c3g/chord_singularity",
+  "issueTracker": "https://api.github.com/repos/c3g/chord_singularity/issues",
+  "readme": "https://github.com/c3g/chord_singularity/blob/master/README.md"
+}

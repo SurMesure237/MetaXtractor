@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1798,
+    "annotations": [
+      {
+        "id": 10630,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 484,
+              "end": 822,
+              "text": "O’Donovan, S. D., Erdős, B., Jacobs, D. M., Wanders, A. J., Thomas, E. L., Bell, J. D., Rundle, M., Frost, G., Arts, I. C. W., Afman, L. A., & van Riel, N. A. W. (2022). Quantifying the contribution of triglycerides to metabolic resilience through the mixed meal model. IScience, 25(11), 105206. https://doi.org/10.1016/J.ISCI.2022.105206",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "dFCOW-Rztl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:34:01.487792Z",
+        "updated_at": "2025-11-04T18:34:01.487828Z",
+        "draft_created_at": "2025-11-04T18:33:57.569190Z",
+        "lead_time": 16.387,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "9c9fd5e5-c1a7-4995-bc62-2102fe4f4c9b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1798,
+        "project": 23411,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/max-de-rooij/MealModel.jl/actions/workflows/CI.yml?query=branch%3Amain) [](https://codecov.io/gh/max-de-rooij/MealModel.jl)\n\n# MealModel\n\nThe Julia version of the Mixed Meal Model. Originally developed by S.D. O'Donovan[^1]\n\n## Getting Started\n\nTo get started, first clone the github repository to your own device\n\nThen, open the notebook \"MealModel.ipynb\" in your Jupyter Notebook viewer, and run the first cell to set-up the environment.\n\n## References\n\n[^1]: O’Donovan, S. D., Erdős, B., Jacobs, D. M., Wanders, A. J., Thomas, E. L., Bell, J. D., Rundle, M., Frost, G., Arts, I. C. W., Afman, L. A., & van Riel, N. A. W. (2022). Quantifying the contribution of triglycerides to metabolic resilience through the mixed meal model. IScience, 25(11), 105206. https://doi.org/10.1016/J.ISCI.2022.105206",
+      "section": "README",
+      "repo": "371_Mixed_Meal_Model_SBML",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.714053Z",
+    "updated_at": "2025-11-04T18:34:01.515520Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23411,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

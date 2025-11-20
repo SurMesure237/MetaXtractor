@@ -1,0 +1,285 @@
+[
+  {
+    "id": 2707,
+    "annotations": [
+      {
+        "id": 9928,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:02:07.620158Z",
+        "updated_at": "2025-11-14T12:02:57.365621Z",
+        "draft_created_at": "2025-11-02T19:01:46.809571Z",
+        "lead_time": 111.95,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "84db6f9e-999f-4185-b353-4eef7be9f723",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2707,
+        "project": 23591,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Verification of KeYmaeraX's core in Coq\n\nThis repository contains a formalization of KeYmaeraX's core in Coq. It includes a formalization of the syntax, dynamic semantics, and static semantics of Differential dynamic logic (dL), as well as a formalization of Uniform Substitution. We have implemented (and verified the validity of) dL's Differential Dynamic Logic and ODE axioms. We have also implemented a proof checker to write and check dL proofs in Coq. Here are some useful links regarding this formalization:\n\nWe described our formalization in the following paper:  [Formally verified differential dynamic logic] http://dx.doi.org/10.1145/3018610.3018616,  Rose Bohrer,  [Vincent Rahli] http://www.cs.bham.ac.uk/~rahliv/,  [Ivana Vukotic] http://wwwen.uni.lu/snt/people/ivana_vukotic,  [Marcus Völp] http://wwwen.uni.lu/snt/people/marcus_voelp  and [André Platzer] http://symbolaris.com,  [CPP 2017] http://cpp2017.mpi-sws.org.\n\nThe above paper covers both our Coq formalization and  Rose's  [Isabelle/HOL formalization] https://github.com/LS-Lab/Isabelle-dL.\n\nKeYmaeraX sourcecode is available [here] https://github.com/LS-Lab/KeYmaeraX-release.\n\nThe technical report about uniform substitution is available [here] http://arxiv.org/pdf/1601.06183.pdf.\n\nContributors\n\n[Vincent Rahli] http://www.cs.bham.ac.uk/~rahliv/  [Ivana Vukotic] http://wwwen.uni.lu/snt/people/ivana_vukotic [Marcus Völp] http://wwwen.uni.lu/snt/people/marcus_voelp\n\nIf you have any question, please send an email to [Vincent] http://www.cs.bham.ac.uk/~rahliv/.\n\nThis work was supported by the SnT and the National Research Fund Luxembourg (FNR), through PEARL grant FNR/P14/8149128.\n\nInstall and Dependencies",
+      "section": "Introduction (part 1)",
+      "repo": "104_KeYmaera_X",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:14.450212Z",
+    "updated_at": "2025-11-14T12:02:57.395206Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23591,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2708,
+    "annotations": [
+      {
+        "id": 9929,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 379,
+              "end": 397,
+              "text": "ProofGeneral Emacs",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Pyd7dZyl2u",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 557,
+              "end": 567,
+              "text": "coquelicot",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "wmpG6QzEVR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 776,
+              "end": 785,
+              "text": "ssreflect",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "_xMHBwv6dU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 164,
+              "end": 168,
+              "text": "opam",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "dmkblb_b1T",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 177,
+              "end": 182,
+              "text": "2.0.3",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "KddK1PMPYY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 199,
+              "end": 204,
+              "text": "OCaml",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "5FcTgqZR0G",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 213,
+              "end": 219,
+              "text": "4.05.0",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "LV0GbrkmA5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 569,
+              "end": 603,
+              "text": "http://coquelicot.saclay.inria.fr/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "K12pFwLJes",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 488,
+              "end": 519,
+              "text": "https://proofgeneral.github.io/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "D5zMYLk13E",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:03:37.342111Z",
+        "updated_at": "2025-11-14T12:01:32.317993Z",
+        "draft_created_at": "2025-11-02T19:02:36.700801Z",
+        "lead_time": 184.947,
+        "prediction": {},
+        "result_count": 9,
+        "unique_id": "ddf9efab-8de1-46cd-a040-0b34bcf13953",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2708,
+        "project": 23591,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Our formalization compiles with Coq 8.9.1, which you can get through opam. [Here] https://opam.ocaml.org/doc/Usage.html's how to get started with opam. We're using opam version 2.0.3 and we're using OCaml version 4.05.0. You might have to switch the OCaml version in opam, using opam switch. To get Coq through opam, simply type:\n\nopam install coq\n\nWe're editing files using the ProofGeneral Emacs interface for Coq. You can find ProofGeneral and instructions on how to install it [here] https://proofgeneral.github.io/.\n\nWe are using version 3.0.2 of the [coquelicot] http://coquelicot.saclay.inria.fr/ library for real analysis, which you can get through opam:\n\nopam install coq-coquelicot\n\nCoquelicot depends on ssreflect. Installing coquelicot through opam should install ssreflect as well. If for some reason you want to install it manually, simply type:\n\nopam install coq-mathcomp-ssreflect.\n\nTo compile all files you can evaluate in all.v using ProofGeneral, which is going to compile our examples and their dependencies. Alternatively, you can run:\n\n./create_makefile.sh\n\nto generate a Makefile; followed by:\n\nmake -j n\n\n(where n is the number of cores you want to use to compile the project). Make sure that you've pulled the submodules before you run ./create_makefile.sh, otherwise the dependencies won't be computed right.\n\nIf you want to use ProofGeneral, and you're not sure what to do,\n\nhere's what you can try to do: open all.v using Emacs. If you've installed ProofGeneral as instructed above, the ProofGeneral logo should appear when you start Emacs. If not, something went wrong. If the logo does show up in your Emacs buffer, then go to the end of the file and hit C-c C-RET. Assuming that the coq-compile-before-require variable is set to true, it should compile the file and all its dependencies.",
+      "section": "Introduction (part 2)",
+      "repo": "104_KeYmaera_X",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:14.450250Z",
+    "updated_at": "2025-11-14T12:01:32.357014Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23591,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2709,
+    "annotations": [
+      {
+        "id": 9930,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:03:42.964076Z",
+        "updated_at": "2025-11-02T19:03:42.964119Z",
+        "draft_created_at": null,
+        "lead_time": 5.424,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "fbad4e5a-38da-4a2a-9c5f-972590cdb7b0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2709,
+        "project": 23591,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "If you want to try to prove something yourself, look for example\n\nat examples/example1.v.\n\nRoadmap\n\nThis repository is organized into the following folders:\n\ncoq-tools: a submodule containing some useful tactics\n\nsyntax: syntax of Terms, Formulas, Hybrid Programs and ODEs\n\nsemantics: static semantic, dynamic semantics as well as\n\nsoundness of static semantics (coincidence lemmas) substitution: uniform substitution and its\n\ncorrectness, as well as uniform and bound  variable renaming axioms: DDL and ODE axioms\n\nchecker: sequent calculus and proof checker\n\nexamples: examples of proofs that use our proof checker",
+      "section": "Introduction (part 3)",
+      "repo": "104_KeYmaera_X",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:14.450274Z",
+    "updated_at": "2025-11-02T19:03:42.994566Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23591,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

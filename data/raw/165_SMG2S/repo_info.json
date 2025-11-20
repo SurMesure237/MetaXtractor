@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/SMG2S/SMG2S",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "Python",
+    "CMake",
+    "C"
+  ],
+  "downloadUrl": "https://api.github.com/repos/SMG2S/SMG2S/zipball/main",
+  "author": "SMG2S",
+  "dateCreated": "2018-01-16T09:22:47Z",
+  "dateModified": "2024-08-21T03:48:33Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Scalable Matrix Generator with Given Spectrum",
+  "identifier": 117661982,
+  "name": "SMG2S/SMG2S",
+  "issueTracker": "https://api.github.com/repos/SMG2S/SMG2S/issues",
+  "readme": "https://github.com/SMG2S/SMG2S/blob/master/README.md"
+}

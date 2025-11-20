@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/matchms/ms2deepscore",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/matchms/ms2deepscore/zipball/main",
+  "author": "matchms",
+  "dateCreated": "2020-11-04T15:49:33Z",
+  "dateModified": "2025-09-08T01:22:52Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Deep learning similarity measure for comparing MS/MS spectra with respect to their chemical similarity",
+  "identifier": 310047938,
+  "name": "matchms/ms2deepscore",
+  "issueTracker": "https://api.github.com/repos/matchms/ms2deepscore/issues",
+  "readme": "https://github.com/matchms/ms2deepscore/blob/main/README.md"
+}

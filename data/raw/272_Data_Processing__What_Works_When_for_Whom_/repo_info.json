@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/e-mental-health/data-processing",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/e-mental-health/data-processing/zipball/main",
+  "author": "e-mental-health",
+  "dateCreated": "2018-04-13T16:26:52Z",
+  "dateModified": "2025-08-23T10:36:07Z",
+  "keywords": [],
+  "license": null,
+  "description": "Data processing scripts for the project What Works When for Whom?",
+  "identifier": 129427565,
+  "name": "e-mental-health/data-processing",
+  "issueTracker": "https://api.github.com/repos/e-mental-health/data-processing/issues",
+  "readme": "https://github.com/e-mental-health/data-processing/blob/master/README.md"
+}

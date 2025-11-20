@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/magnuspalmblad/addFeatures",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R"
+  ],
+  "downloadUrl": "https://api.github.com/repos/magnuspalmblad/addFeatures/zipball/main",
+  "author": "magnuspalmblad",
+  "dateCreated": "2024-04-05T16:17:24Z",
+  "dateModified": "2025-09-29T16:06:37Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "addFeatures adds spot images to a SCiLS Lab dataset from a list of defined mass spectral features",
+  "identifier": 782599375,
+  "name": "magnuspalmblad/addFeatures",
+  "issueTracker": "https://api.github.com/repos/magnuspalmblad/addFeatures/issues",
+  "readme": "https://github.com/magnuspalmblad/addFeatures/blob/main/README.md"
+}

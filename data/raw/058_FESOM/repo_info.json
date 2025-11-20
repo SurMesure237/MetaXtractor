@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/FESOM/fesom2",
+  "programmingLanguage": "Fortran",
+  "programmingLanguages": [
+    "Fortran",
+    "Jupyter Notebook",
+    "C",
+    "CMake",
+    "Python",
+    "Shell",
+    "Io",
+    "Slice",
+    "Pascal",
+    "C++",
+    "Makefile",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/FESOM/fesom2/zipball/main",
+  "author": "FESOM",
+  "dateCreated": "2018-07-02T10:50:34Z",
+  "dateModified": "2025-10-30T12:38:33Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Multi-resolution ocean general circulation model. ",
+  "identifier": 139430418,
+  "name": "FESOM/fesom2",
+  "issueTracker": "https://api.github.com/repos/FESOM/fesom2/issues",
+  "readme": "https://github.com/FESOM/fesom2/blob/main/README.md"
+}

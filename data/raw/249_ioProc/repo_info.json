@@ -1,0 +1,16 @@
+{
+  "codeRepository": "https://github.com/conda-forge/ioproc-feedstock",
+  "programmingLanguage": null,
+  "programmingLanguages": [],
+  "downloadUrl": "https://api.github.com/repos/conda-forge/ioproc-feedstock/zipball/main",
+  "author": "conda-forge",
+  "dateCreated": "2024-03-06T00:05:19Z",
+  "dateModified": "2024-11-06T03:44:53Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "A conda-smithy repository for ioproc.",
+  "identifier": 767814454,
+  "name": "conda-forge/ioproc-feedstock",
+  "issueTracker": "https://api.github.com/repos/conda-forge/ioproc-feedstock/issues",
+  "readme": "https://github.com/conda-forge/ioproc-feedstock/blob/main/README.md"
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "data": {
+      "text": "Measurements.jl\n\n| Documentation | Build Status | Code Coverage | Quality | |:---------------------------------------:|:-----------------------------------:|:-------------------------------:|:-----------:| | [![][docs-stable-img]][docs-stable-url] | [![Build Status][gha-img]][gha-url] | [![][coveral-img]][coveral-url] |[![Aqua QA][aqua-img]][aqua-url]| | [![][docs-latest-img]][docs-latest-url] | | [![][codecov-img]][codecov-url] |\n\n## Introduction\n\n### What Is This Package Useful For?\n\nImage credit: \"[xkcd: Error Bars] https://xkcd.com/2110/\" ([CC-BY-NC 2.5] https://creativecommons.org/licenses/by-nc/2.5/)\n\nPhysical measures are typically reported with an error, a quantification of the [uncertainty] https://en.wikipedia.org/wiki/Measurement_uncertainty of the accuracy of the measurement. Whenever you perform mathematical operations involving these quantities you have also to [propagate the uncertainty] https://en.wikipedia.org/wiki/Propagation_of_uncertainty, so that the resulting number will also have an attached error to quantify the confidence about its accuracy. [Measurements.jl] https://github.com/JuliaPhysics/Measurements.jl relieves you from the hassle of propagating uncertainties coming from physical measurements, when performing mathematical operations involving them. The [linear error propagation theory] https://en.wikipedia.org/wiki/Propagation_of_uncertainty#Linear_combinations is employed to propagate the errors.\n\nThis library is written in [Julia] http://julialang.org/, a modern high-level, high-performance dynamic programming language designed for technical computing.\n\nWhen used in the [Julia interactive session] https://docs.julialang.org/en/v1/stdlib/REPL/, it can serve also as an easy-to-use calculator.",
+      "section": "Measurements.jl (part 1)",
+      "repo": "092_Measurements.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Features List",
+      "section": "Measurements.jl (part 2)",
+      "repo": "092_Measurements.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Support for most mathematical operations available in Julia standard library  and special functions  from [SpecialFunctions.jl] https://github.com/JuliaMath/SpecialFunctions.jl  package, involving real and complex numbers. All existing functions that  accept AbstractFloat (and Complex{AbstractFloat} as well) arguments and  internally use already supported functions can in turn perform calculations  involving numbers with uncertainties without being redefined. This greatly  enhances the power of Measurements.jl without effort for the users  Functional correlation between variables is correctly handled, so x-x \u2248  zero(x), x/x \u2248 one(x), tan(x) \u2248 sin(x)/cos(x), cis(x) \u2248 exp(imx),  etc...  Support for  [arbitrary precision] https://docs.julialang.org/en/v1/manual/integers-and-floating-point-numbers/#Arbitrary-Precision-Arithmetic-1  (also called multiple precision) numbers with uncertainties. This is useful  for measurements with very low relative error  Define arrays of measurements and perform calculations with them. Some linear  algebra functions work out-of-the-box  Propagate uncertainty for any function of real arguments (including functions  based on  [C/Fortran calls] https://docs.julialang.org/en/v1/manual/calling-c-and-fortran-code/),  using @uncertain  [macro] https://docs.julialang.org/en/v1/manual/metaprogramming/  Function to get the derivative and the gradient of an expression with respect  to one or more independent measurements  Functions to calculate  [standard score] https://en.wikipedia.org/wiki/Standard_score and  [weighted mean] https://en.wikipedia.org/wiki/Weighted_arithmetic_mean  Parse strings to create measurement objects  Easy way to attach the uncertainty to a number using the \u00b1 sign as infix  operator. This syntactic sugar makes the code more readable and visually  appealing",
+      "section": "Measurements.jl (part 3)",
+      "repo": "092_Measurements.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Extensible in combination with external packages: you can propagate errors of  measurements with their physical units, perform numerical integration  with [QuadGK.jl] https://github.com/JuliaMath/QuadGK.jl, numerical and  automatic differentiation, and much more.  Integration with [Plots.jl] https://github.com/JuliaPlots/Plots.jl.",
+      "section": "Measurements.jl (part 4)",
+      "repo": "092_Measurements.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "The method used to handle functional correlation is described in this paper:\n\nM. Giordano, 2016, \"Uncertainty propagation with functionally correlated\n\nquantities\", [arXiv:1610.08716] http://arxiv.org/abs/1610.08716  (Bibcode:  [2016arXiv161008716G] http://adsabs.harvard.edu/abs/2016arXiv161008716G)\n\nA current limitation of the package is that it is not yet possible to define quantities related by a correlation matrix.\n\nIf you use use this package for your research, please cite it.",
+      "section": "Measurements.jl (part 5)",
+      "repo": "092_Measurements.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Documentation\n\nThe complete manual of Measurements.jl is available at https://juliaphysics.github.io/Measurements.jl/stable/. There, people interested in the details of the package, in order integrate the package in their workflow, can find a technical appendix explaining how the package internally works.\n\n## Installation\n\nThe latest version of Measurements.jl is available for Julia v1.0 and later releases, and can be installed with [Julia built-in package manager] https://julialang.github.io/Pkg.jl/stable/. In a Julia session, after entering the package manager mode with ], run the command\n\npkg> update pkg> add Measurements\n\nOlder versions of this package are also available for Julia 0.4-0.7.",
+      "section": "Measurements.jl (part 6)",
+      "repo": "092_Measurements.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Usage\n\nAfter installing the package, you can start using it with\n\nusing Measurements\n\nThe module defines a new Measurement data type. Measurement objects can be created with the two following constructors:\n\nmeasurement(value, uncertainty) value \u00b1 uncertainty\n\nvalue is the nominal value of the measurement  uncertainty is its uncertainty, assumed to be a  [standard deviation] https://en.wikipedia.org/wiki/Standard_deviation.\n\nHere is a quick taster of the functionalities of the package:\n\njulia> using Measurements\n\njulia> a = measurement(4.5, 0.1) 4.5 \u00b1 0.1\n\njulia> b = 3.8 \u00b1 0.4 3.8 \u00b1 0.4\n\njulia> 2a + b 12.8 \u00b1 0.4472135954999579\n\njulia> x = 8.4 \u00b1 0.7\n\njulia> x - x 0.0 \u00b1 0.0\n\njulia> x/x 1.0 \u00b1 0.0\n\njulia> xxx - x^3 0.0 \u00b1 0.0\n\njulia> sin(x)/cos(x) - tan(x) -2.220446049250313e-16 \u00b1 0.0 # They are equal within numerical accuracy\n\nFor more details about the use of the package read the [documentation] https://juliaphysics.github.io/Measurements.jl/stable/, in particular the [Usage] https://juliaphysics.github.io/Measurements.jl/stable/usage/ and [Examples] https://juliaphysics.github.io/Measurements.jl/stable/examples/ sections.",
+      "section": "Measurements.jl (part 7)",
+      "repo": "092_Measurements.jl",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## License\n\nThe Measurements.jl package is licensed under the MIT \"Expat\" License. The original author is Mos\u00e8 Giordano.\n\nPlease, cite the paper Giordano 2016 (http://arxiv.org/abs/1610.08716) if you employ this package in your research work. For your convenience, a BibTeX entry is provided in the [CITATION.bib] CITATION.bib file.\n\n[docs-latest-img]: https://img.shields.io/badge/docs-latest-blue.svg [docs-latest-url]: https://juliaphysics.github.io/Measurements.jl/dev/\n\n[docs-stable-img]: https://img.shields.io/badge/docs-stable-blue.svg [docs-stable-url]: https://juliaphysics.github.io/Measurements.jl/stable/\n\n[gha-img]: https://github.com/JuliaPhysics/Measurements.jl/workflows/CI/badge.svg [gha-url]: https://github.com/JuliaPhysics/Measurements.jl/actions?query=workflow%3ACI\n\n[coveral-img]: https://coveralls.io/repos/github/JuliaPhysics/Measurements.jl/badge.svg?branch=master [coveral-url]: https://coveralls.io/github/JuliaPhysics/Measurements.jl?branch=master\n\n[codecov-img]: https://codecov.io/gh/JuliaPhysics/Measurements.jl/branch/master/graph/badge.svg [codecov-url]: https://codecov.io/gh/JuliaPhysics/Measurements.jl\n\n[aqua-img]: https://raw.githubusercontent.com/JuliaTesting/Aqua.jl/master/badge.svg [aqua-url]: https://github.com/JuliaTesting/Aqua.jl",
+      "section": "Measurements.jl (part 8)",
+      "repo": "092_Measurements.jl",
+      "source_file": "readme.md"
+    }
+  }
+]

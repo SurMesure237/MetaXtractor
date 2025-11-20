@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/SlicerRt/SlicerRT",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "Python",
+    "CMake",
+    "C"
+  ],
+  "downloadUrl": "https://api.github.com/repos/SlicerRt/SlicerRT/zipball/main",
+  "author": "SlicerRt",
+  "dateCreated": "2017-09-15T19:39:42Z",
+  "dateModified": "2025-10-28T12:53:44Z",
+  "keywords": [
+    "3d-slicer-extension"
+  ],
+  "license": null,
+  "description": "Open-source toolkit for radiation therapy research, an extension of 3D Slicer. Features include DICOM-RT import/export, dose volume histogram, dose accumulation, external beam planning (TPS), structure comparison and morphology, isodose line/surface generation, etc.",
+  "identifier": 103694782,
+  "name": "SlicerRt/SlicerRT",
+  "issueTracker": "https://api.github.com/repos/SlicerRt/SlicerRT/issues",
+  "readme": "https://github.com/SlicerRt/SlicerRT/blob/master/readme.txt"
+}

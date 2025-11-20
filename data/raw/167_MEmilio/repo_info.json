@@ -1,0 +1,30 @@
+{
+  "codeRepository": "https://github.com/SciCompMod/memilio",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "Python",
+    "CMake",
+    "C",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/SciCompMod/memilio/zipball/main",
+  "author": "SciCompMod",
+  "dateCreated": "2021-08-12T10:34:08Z",
+  "dateModified": "2025-10-29T13:06:41Z",
+  "keywords": [
+    "computer-science",
+    "epidemiological-models",
+    "high-performance-computing",
+    "mathematical-modelling",
+    "numerical-methods",
+    "scientific-computing",
+    "simulation"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Modular spatio-temporal models for epidemic and pandemic simulations",
+  "identifier": 395282055,
+  "name": "SciCompMod/memilio",
+  "issueTracker": "https://api.github.com/repos/SciCompMod/memilio/issues",
+  "readme": "https://github.com/SciCompMod/memilio/blob/main/README.md"
+}

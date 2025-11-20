@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/EIT-ALIVE/eitprocessing",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/EIT-ALIVE/eitprocessing/zipball/main",
+  "author": "EIT-ALIVE",
+  "dateCreated": "2023-03-23T12:46:14Z",
+  "dateModified": "2025-10-23T11:15:36Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Software for electrical impedance tomography data loading, visualization and processing",
+  "identifier": 617944717,
+  "name": "EIT-ALIVE/eitprocessing",
+  "issueTracker": "https://api.github.com/repos/EIT-ALIVE/eitprocessing/issues",
+  "readme": "https://github.com/EIT-ALIVE/eitprocessing/blob/main/README.md"
+}

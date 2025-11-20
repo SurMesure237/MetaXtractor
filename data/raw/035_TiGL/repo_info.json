@@ -1,0 +1,35 @@
+{
+  "codeRepository": "https://github.com/DLR-SC/tigl",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "C",
+    "CMake",
+    "Python",
+    "Java",
+    "SWIG",
+    "GLSL",
+    "JavaScript",
+    "Shell",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/DLR-SC/tigl/zipball/main",
+  "author": "DLR-SC",
+  "dateCreated": "2014-12-22T10:12:59Z",
+  "dateModified": "2025-10-29T07:40:41Z",
+  "keywords": [
+    "aircraft",
+    "b-spline",
+    "c-plus-plus",
+    "cpacs",
+    "geometry",
+    "nurbs",
+    "opencascade"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "The TiGL Geometry Library to process aircraft geometries in pre-design.",
+  "identifier": 28333932,
+  "name": "DLR-SC/tigl",
+  "issueTracker": "https://api.github.com/repos/DLR-SC/tigl/issues",
+  "readme": "https://github.com/DLR-SC/tigl/blob/main/README.md"
+}

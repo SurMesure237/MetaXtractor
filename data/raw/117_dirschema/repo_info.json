@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/Materials-Data-Science-and-Informatics/dirschema",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/Materials-Data-Science-and-Informatics/dirschema/zipball/main",
+  "author": "Materials-Data-Science-and-Informatics",
+  "dateCreated": "2021-11-15T08:31:52Z",
+  "dateModified": "2025-07-12T13:36:53Z",
+  "keywords": [
+    "json-schema",
+    "metadata",
+    "python",
+    "validation"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Spec and validator for directories, files and metadata based on JSON Schema and regexes.",
+  "identifier": 428181958,
+  "name": "Materials-Data-Science-and-Informatics/dirschema",
+  "issueTracker": "https://api.github.com/repos/Materials-Data-Science-and-Informatics/dirschema/issues",
+  "readme": "https://github.com/Materials-Data-Science-and-Informatics/dirschema/blob/main/README.md"
+}

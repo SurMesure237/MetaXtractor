@@ -1,0 +1,731 @@
+[
+  {
+    "id": 2154,
+    "annotations": [
+      {
+        "id": 10355,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:46:13.600785Z",
+        "updated_at": "2025-11-04T06:46:13.600803Z",
+        "draft_created_at": null,
+        "lead_time": 1.542,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "80e2a46a-e661-413f-a6a5-5b91d840ea9b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2154,
+        "project": 23487,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "061_FairMQ",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.002657Z",
+    "updated_at": "2025-11-04T06:46:13.629337Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23487,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2155,
+    "annotations": [
+      {
+        "id": 10356,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 25,
+              "end": 63,
+              "text": "https://doi.org/10.5281/zenodo.1689985",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "G8XmybOR12",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 314,
+              "end": 372,
+              "text": "https://github.com/FairRootGroup/FairMQ/blob/dev/README.md",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "26Bp4RzMBc",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:46:36.313086Z",
+        "updated_at": "2025-11-14T13:21:35.871244Z",
+        "draft_created_at": "2025-11-04T06:46:24.004465Z",
+        "lead_time": 28.015,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "245b0e42-51b5-45cb-82da-b78a1f002aac",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2155,
+        "project": 23487,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "FairMQ\n\n[](COPYRIGHT) [](https://doi.org/10.5281/zenodo.1689985) [](https://bestpractices.coreinfrastructure.org/projects/6915) [](https://github.com/FairRootGroup/FairMQ/actions/workflows/fair-software.yml) [](https://repology.org/project/fairmq/versions)\n\nC++ Message Queuing Library and Framework\n\nDocs: [Book] https://github.com/FairRootGroup/FairMQ/blob/dev/README.md#documentation\n\nFind all FairMQ releases [here] https://github.com/FairRootGroup/FairMQ/releases.",
+      "section": "FairMQ (part 1)",
+      "repo": "061_FairMQ",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.002697Z",
+    "updated_at": "2025-11-14T13:21:35.904764Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23487,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2156,
+    "annotations": [
+      {
+        "id": 10357,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:46:47.421181Z",
+        "updated_at": "2025-11-04T06:46:47.421232Z",
+        "draft_created_at": null,
+        "lead_time": 10.913,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6beead79-1922-4c5d-9ad6-6796ce6e7079",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2156,
+        "project": 23487,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Introduction\n\nFairMQ is designed to help implementing large-scale data processing workflows needed in next-generation Particle Physics experiments. FairMQ is written in C++ and aims to  provide an asynchronous message passing abstraction of different data transport technologies,  provide a reasonably efficient data transport service (zero-copy, high throughput),  be data format agnostic, and  provide basic building blocks that can be used to implement higher level data processing workflows.\n\nThe core of FairMQ provides an abstract asynchronous message passing API with scalability protocols inspired by [ZeroMQ] https://github.com/zeromq/libzmq (e.g. PUSH/PULL, PUB/SUB). FairMQ provides multiple implementations for its API (so-called \"transports\", e.g. zeromq and shmem (latest release of the ofi transport in v1.4.56, removed since v1.5+)) to cover a variety of use cases (e.g. inter-thread, inter-process, inter-node communication) and machines (e.g. Ethernet, Infiniband). In addition to this core functionality FairMQ provides a framework for creating \"devices\" - actors which are communicating through message passing. FairMQ does not only allow the user to use different transport but also to mix them; i.e: A Device can communicate using different transport on different channels at the same time. Device execution is modelled as a simple state machine that shapes the integration points for the user task. Devices also incorporate a plugin system for runtime configuration and control. Next to the provided [devices] https://github.com/FairRootGroup/FairMQ/tree/master/fairmq/devices and [plugins] https://github.com/FairRootGroup/FairMQ/tree/master/fairmq/plugins the user can extend FairMQ by developing his own plugins to integrate his devices with external configuration and control services.",
+      "section": "FairMQ (part 2)",
+      "repo": "061_FairMQ",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.002722Z",
+    "updated_at": "2025-11-04T06:46:47.451320Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23487,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2157,
+    "annotations": [
+      {
+        "id": 10358,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:46:49.178846Z",
+        "updated_at": "2025-11-04T06:46:49.178868Z",
+        "draft_created_at": null,
+        "lead_time": 1.588,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "58794dc5-3aed-48e4-8dce-b09e70ceefde",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2157,
+        "project": 23487,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "FairMQ has been developed in the context of its mother project [FairRoot] https://github.com/FairRootGroup/FairRoot - a simulation, reconstruction and analysis framework.",
+      "section": "FairMQ (part 3)",
+      "repo": "061_FairMQ",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.002747Z",
+    "updated_at": "2025-11-04T06:46:49.206068Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23487,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2158,
+    "annotations": [
+      {
+        "id": 10359,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 793,
+              "end": 798,
+              "text": "Spack",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "qQI2kycUXW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:47:15.568649Z",
+        "updated_at": "2025-11-04T06:47:15.568666Z",
+        "draft_created_at": "2025-11-04T06:47:11.708662Z",
+        "lead_time": 26.218,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "5020ba1b-cee4-4763-941b-acf46d57a0d1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2158,
+        "project": 23487,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Installation from Source\n\nRecommended:\n\ngit clone https://github.com/FairRootGroup/FairMQ fairmq_source cmake -S fairmq_source -B fairmq_build -GNinja -DCMAKE_BUILD_TYPE=Release [-DBUILD_TESTING=ON] cmake --build fairmq_build [ctest --test-dir fairmq_build --output-on-failure --schedule-random -j] # needs -DBUILD_TESTING=ON cmake --install fairmq_build --prefix $(pwd)/fairmq_install\n\nPlease consult the [manpages of your CMake version] https://cmake.org/cmake/help/latest/manual/cmake.1.html for more options.\n\nIf dependencies are not installed in standard system directories, you can hint the installation location via -DCMAKE_PREFIX_PATH=... or per dependency via -D{DEPENDENCY}_ROOT=... (*_ROOT variables can also be environment variables).\n\n## Installation via Spack\n\nPrerequisite: [Spack] https://spack.readthedocs.io/en/latest/getting_started.html\n\nspack info fairmq # inspect build options spack install fairmq # build latest packaged version with default options\n\nBuild FairMQ's dependencies via Spack for development:\n\ngit clone -b dev https://github.com/FairRootGroup/FairMQ fairmq_source spack --env fairmq_source install # installs deps declared in fairmq_source/spack.yaml spack env activate fairmq_source # sets $CMAKE_PREFIX_PATH which is used by CMake to find FairMQ's deps cmake -S fairmq_source -B fairmq_build -GNinja -DCMAKE_BUILD_TYPE=Debug -DBUILD_TESTING=ON",
+      "section": "FairMQ (part 4)",
+      "repo": "061_FairMQ",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.002771Z",
+    "updated_at": "2025-11-04T06:47:15.598037Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23487,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2159,
+    "annotations": [
+      {
+        "id": 10360,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 693,
+              "end": 698,
+              "text": "Boost",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "eWlLoflT0v",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 788,
+              "end": 804,
+              "text": "FairCMakeModules",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "dih4A8-wED",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 879,
+              "end": 889,
+              "text": "FairLogger",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "a8ZseerU2c",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 725,
+              "end": 730,
+              "text": "CMake",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "JXpr71MHKd",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 753,
+              "end": 760,
+              "text": "Doxygen",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "TmWdayXsdM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1003,
+              "end": 1009,
+              "text": "ZeroMQ",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "UqdIlGXrhS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 937,
+              "end": 942,
+              "text": "GTest",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "pibDxjkLon",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1125,
+              "end": 1130,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "TT8TlE7sOq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1132,
+              "end": 1137,
+              "text": "macOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "NGUcrYmLyB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 700,
+              "end": 722,
+              "text": "https://www.boost.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "TZuhMhcdVw",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 732,
+              "end": 750,
+              "text": "https://cmake.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "Ol8IgDOBIH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 762,
+              "end": 785,
+              "text": "http://www.doxygen.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "nw1fN_IqDs",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 806,
+              "end": 855,
+              "text": "https://github.com/FairRootGroup/FairCMakeModules",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "Q89peO2yfB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 891,
+              "end": 934,
+              "text": "https://github.com/FairRootGroup/FairLogger",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "dGOCUIVsx4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 944,
+              "end": 980,
+              "text": "https://github.com/google/googletest",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "7yIvTLkLVY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1011,
+              "end": 1029,
+              "text": "http://zeromq.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "ozYD21W1nl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:47:59.540518Z",
+        "updated_at": "2025-11-14T13:22:05.399436Z",
+        "draft_created_at": "2025-11-04T06:47:34.691253Z",
+        "lead_time": 68.601,
+        "prediction": {},
+        "result_count": 16,
+        "unique_id": "3929f911-97b1-49cd-8c69-da6d1e0dcf22",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2159,
+        "project": 23487,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "develop, compile, test spack env deactivate # at end of dev session, or simply close the shell\n\n## Usage\n\nFairMQ ships as a CMake package, so in your CMakeLists.txt you can discover it like this:\n\nfind_package(FairCMakeModules 1.0 REQUIRED) include(FairFindPackage2) find_package2(FairMQ) find_package2_implicit_dependencies()\n\nThe [FairFindPackage2 module] https://fairrootgroup.github.io/FairCMakeModules/latest/module/FairFindPackage2.html is part of the [FairCMakeModules package] https://fairrootgroup.github.io/FairCMakeModules.\n\nIf FairMQ is not installed in system directories, you can hint the installation:\n\nlist(PREPEND CMAKE_PREFIX_PATH /path/to/fairmq_install)\n\n## Dependencies\n\n[Boost] https://www.boost.org/  [CMake] https://cmake.org/  [Doxygen] http://www.doxygen.org/  [FairCMakeModules] https://github.com/FairRootGroup/FairCMakeModules (optionally bundled)  [FairLogger] https://github.com/FairRootGroup/FairLogger  [GTest] https://github.com/google/googletest (optionally bundled) [ZeroMQ] http://zeromq.org/\n\nWhich dependencies are required depends on which components are built.\n\nSupported platform is Linux. macOS is supported on a best-effort basis.",
+      "section": "develop, compile, test (part 1)",
+      "repo": "061_FairMQ",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.002795Z",
+    "updated_at": "2025-11-14T13:22:05.439820Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23487,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2160,
+    "annotations": [
+      {
+        "id": 10361,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:48:03.979615Z",
+        "updated_at": "2025-11-04T06:48:03.979634Z",
+        "draft_created_at": null,
+        "lead_time": 4.197,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "2956d837-0af9-4241-a070-f71cf71ebd43",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2160,
+        "project": 23487,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## CMake options\n\nOn command line:\n\n-DDISABLE_COLOR=ON disables coloured console output.  -DBUILD_TESTING=OFF disables building of tests.  -DBUILD_EXAMPLES=OFF disables building of examples.  -DBUILD_DOCS=ON enables building of API docs.  -DFAIRMQ_CHANNEL_DEFAULT_AUTOBIND=OFF disable channel autoBind by default  You can hint non-system installations for dependent packages, see the #installation-from-source section above\n\nAfter the find_package(FairMQ) call the following CMake variables are defined:\n\n| Variable | Info | | --- | --- | | ${FairMQ_PACKAGE_DEPENDENCIES} | the list of public package dependencies | | ${FairMQ__VERSION} | the minimum ` version FairMQ requires | | ${FairMQ__COMPONENTS} | the list of components FairMQ depends on | | ${FairMQ_PACKAGE_COMPONENTS} | the list of components FairMQ consists of | | ${FairMQ_#COMPONENT#_FOUND} | TRUE if this component was built | | ${FairMQ_VERSION} | the version in format MAJOR.MINOR.PATCH | | ${FairMQ_GIT_VERSION} | the version in the format returned by git describe --tags --dirty --match \"v*\" | | ${FairMQ_PREFIX} | the actual installation prefix | | ${FairMQ_BINDIR} | the installation bin directory | | ${FairMQ_INCDIR} | the installation include directory | | ${FairMQ_LIBDIR} | the installation lib directory | | ${FairMQ_DATADIR} | the installation data directory (../share/fairmq) | | ${FairMQ_CMAKEMODDIR} | the installation directory of shipped CMake find modules | | ${FairMQ_BUILD_TYPE} | the value of CMAKE_BUILD_TYPE at build-time | | ${FairMQ_CXX_FLAGS} | the values of CMAKE_CXX_FLAGS and CMAKE_CXX_FLAGS_${CMAKE_BUILD_TYPE}` at build-time |",
+      "section": "develop, compile, test (part 2)",
+      "repo": "061_FairMQ",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.002820Z",
+    "updated_at": "2025-11-04T06:48:04.007148Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23487,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2161,
+    "annotations": [
+      {
+        "id": 10362,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:48:05.464398Z",
+        "updated_at": "2025-11-04T06:48:05.464415Z",
+        "draft_created_at": null,
+        "lead_time": 1.286,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "104917a0-41f1-4ab3-b606-eec2da25b621",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2161,
+        "project": 23487,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Documentation",
+      "section": "develop, compile, test (part 3)",
+      "repo": "061_FairMQ",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.002842Z",
+    "updated_at": "2025-11-04T06:48:05.490911Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23487,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2162,
+    "annotations": [
+      {
+        "id": 10363,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:51:13.930281Z",
+        "updated_at": "2025-11-04T06:51:13.930297Z",
+        "draft_created_at": null,
+        "lead_time": 188.293,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6b07dbc1-d97c-44fa-b7a3-908170d755fa",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2162,
+        "project": 23487,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[Device] docs/Device.md#1-device\n\n[Topology] docs/Device.md#11-topology\n\n[Communication Patterns] docs/Device.md#12-communication-patterns\n\n[State Machine] docs/Device.md#13-state-machine\n\n[Multiple devices in the same process] docs/Device.md#15-multiple-devices-in-the-same-process\n\n[Transport Interface] docs/Transport.md#2-transport-interface\n\n[Message] docs/Transport.md#21-message\n\n[Ownership] docs/Transport.md#211-ownership\n\n[Channel] docs/Transport.md#22-channel\n\n[Poller] docs/Transport.md#23-poller\n\n[Configuration] docs/Configuration.md#3-configuration\n\n[Device Configuration] docs/Configuration.md#31-device-configuration\n\n[Communication Channels Configuration] docs/Configuration.md#32-communication-channels-configuration\n\n[JSON Parser] docs/Configuration.md#321-json-parser\n\n[SuboptParser] docs/Configuration.md#322-suboptparser\n\n[Introspection] docs/Configuration.md#33-introspection\n\n[Development] docs/Development.md#4-development\n\n[Testing] docs/Development.md#41-testing\n\n[Static Analysis] docs/Development.md#42-static-analysis\n\n[CMake Integration] docs/Development.md#421-cmake-integration\n\n[Extra Compiler Arguments] docs/Development.md#422-extra-compiler-arguments\n\n[Logging] docs/Logging.md#5-logging\n\n[Log severity] docs/Logging.md#51-log-severity\n\n[Log verbosity] docs/Logging.md#52-log-verbosity\n\n[Color for console output] docs/Logging.md#53-color\n\n[File output] docs/Logging.md#54-file-output\n\n[Custom sinks] docs/Logging.md#55-custom-sinks\n\n[Examples] docs/Examples.md#6-examples\n\n[Plugins] docs/Plugins.md#7-plugins\n\n[Usage] docs/Plugins.md#71-usage\n\n[Development] docs/Plugins.md#72-development\n\n[Provided Plugins] docs/Plugins.md#73-provided-plugins\n\n[PMIx] docs/Plugins.md#731-pmix",
+      "section": "develop, compile, test (part 4)",
+      "repo": "061_FairMQ",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.002865Z",
+    "updated_at": "2025-11-04T06:51:13.957932Z",
+    "inner_id": 9,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23487,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

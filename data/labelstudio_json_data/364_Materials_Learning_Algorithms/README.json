@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "364_Materials_Learning_Algorithms",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "MALA\n\n[](https://github.com/mala-project/mala/actions/workflows/cpu-tests.yml) [](https://mala-project.github.io/mala/) [](https://opensource.org/licenses/BSD-3-Clause) [](https://doi.org/10.5281/zenodo.5557255)\n\nMALA (Materials Learning Algorithms) is a data-driven framework to generate surrogate models of density functional theory calculations based on machine learning. Its purpose is to enable multiscale modeling by bypassing computationally expensive steps in state-of-the-art density functional simulations.\n\nMALA is designed as a modular and open-source python package. It enables users to perform the entire modeling toolchain using only a few lines of code. MALA is jointly developed by the Sandia National Laboratories (SNL) and the Center for Advanced Systems Understanding (CASUS). See [Contributing] docs/source/CONTRIBUTE.md for contributing code to the repository.\n\nThis repository is structured as follows:\n\n\u251c\u2500\u2500 examples : contains useful examples to get you started with the package \u251c\u2500\u2500 install : contains scripts for setting up this package on your machine \u251c\u2500\u2500 mala : the source code itself \u251c\u2500\u2500 test : test scripts used during development, will hold tests for CI in the future \u2514\u2500\u2500 docs : Sphinx documentation folder\n\n## Installation\n\nWARNING: Even if you install MALA via PyPI, please consult the full installation instructions afterwards. External modules (like the QuantumESPRESSO bindings) are not distributed via PyPI!\n\nPlease refer to [Installation of MALA] docs/source/install/installing_mala.rst.",
+      "section": "MALA (part 1)",
+      "repo": "364_Materials_Learning_Algorithms",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Running\n\nYou can familiarize yourself with the usage of this package by running the examples in the example/ folder.\n\n## Contributors\n\nMALA is jointly maintained by\n\n[Sandia National Laboratories] https://www.sandia.gov/ (SNL), USA.\n\nScientific supervisor: Sivasankaran Rajamanickam, code maintenance:\n\nJon Vogel [Center for Advanced Systems Understanding] https://www.casus.science/ (CASUS), Germany.\n\nScientific supervisor: Attila Cangi, code maintenance: Lenz Fiedler\n\nA full list of contributors can be found [here] docs/source/CONTRIBUTE.md.\n\n## Citing MALA\n\nIf you publish work which uses or mentions MALA, please cite this repository and the following papers:\n\nA. Cangi, L. Fiedler, B. Brzoza, K. Shah, T. J. Callow, D. Kotik, S. Schmerler, M. C. Barry, J. M. Goff, A. Rohskopf, D. J. Vogel, N. Modine, A. P. Thompson, S. Rajamanickam,\n\nMaterials Learning Algorithms (MALA): Scalable Machine Learning for Electronic Structure Calculations in Large-Scale Atomistic Simulations, [Comp. Phys. Commun. 314, 109654 (2025)] https://doi.org/10.1016/j.cpc.2025.109654.\n\nJ. A. Ellis, L. Fiedler, G. A. Popoola, N. A. Modine, J. A. Stephens, A. P. Thompson,\n\nA. Cangi, S. Rajamanickam, Accelerating Finite-Temperature Kohn-Sham Density Functional Theory with Deep Neural Networks, [Phys. Rev. B 104, 035120 (2021)] https://doi.org/10.1103/PhysRevB.104.035120.",
+      "section": "MALA (part 2)",
+      "repo": "364_Materials_Learning_Algorithms",
+      "source_file": "readme.md"
+    }
+  }
+]

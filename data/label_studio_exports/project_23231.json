@@ -1,0 +1,225 @@
+[
+  {
+    "id": 742,
+    "annotations": [
+      {
+        "id": 11166,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:22:05.748172Z",
+        "updated_at": "2025-11-06T05:22:05.748188Z",
+        "draft_created_at": null,
+        "lead_time": 7.03,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6e1e051f-7854-491f-95b1-263b04bbf62f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 742,
+        "project": 23231,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Python interface to Xenon 3.0\n\n|ZenodoBadge| |ReadTheDocsBadge| |Apache2License| |BuildStatus| |CodacyBadge|\n\nPython interface to the Xenon middleware library, v. 3.0 __. Xenon provides a simple programming interface to various pieces of software that can be used to access distributed compute and storage resources.\n\nUnderneath it uses GRPC __, to connect to the Xenon-GRPC __ service. We've taken care to mirror the original Java API in this Python module as much as possible.\n\nInstalling\n\nClone this repository, and do::\n\npip install .\n\nThe code will appear on PyPI when it is ready for release.\n\nDocumentation\n\nThe compiled documentation is hosted on Read the Docs __. This includes a quick-start guide.\n\nExample\n\n.. code-block:: python\n\nimport xenon  from pathlib import Path  import os\n\nxenon.init()\n\n# create a new job scheduler, using SSH to localhost to submit new jobs.  with xenon.Scheduler.create(  adaptor='ssh', location='localhost') as scheduler:\n\n# make a new job description. The executable must already be present on  # the target host.  target = Path('.') / 'stdout.txt'  desc = xenon.JobDescription(  executable='hostname',  stdout=str(target.resolve()))\n\n# submit a job  job = scheduler.submit_batch_job(desc)  status = scheduler.wait_until_done(job, 1000)\n\n# read the standard output of the job. We can do this directly because  # we ran on localhost, otherwise, we need to transfer the file first.  with open(target) as f:  print(f.read())",
+      "section": "Introduction (part 1)",
+      "repo": "499_PyXenon",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.137761Z",
+    "updated_at": "2025-11-06T05:22:05.772611Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23231,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 743,
+    "annotations": [
+      {
+        "id": 11167,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:22:08.187655Z",
+        "updated_at": "2025-11-06T05:22:08.187667Z",
+        "draft_created_at": null,
+        "lead_time": 2.275,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "61145319-b8f7-411e-a886-407538196e93",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 743,
+        "project": 23231,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Development\n\nPyXenon ships with the Xenon-GRPC jar-file and command-line executable. If these need upgrading, build them manually, following instructions at Xenon-GRPC __, and place the contents of the `build/install/xenon-grpc-shadow folder (lib and bin) here.\n\nTo generate the GRPC code, run scripts/protoc.sh from the project root.\n\nSteps for upgrading Xenon-GRPC ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nIn the xenon-grpc repository, run::\n\n./gradlew shadowJar\n\nThe updated JAR file will be located in ./build/libs/xenon-grpc-${version}.jar. Also make sure to copy updated binary files from ./build/install/xenon-grpc/bin. The target files should go to the ./bin and ./lib folders in the pyxenon repository.\n\nUpdate ./xenon/versions.py.\n\nTo update the GRPC Python bindings, run the ./scripts/protoc.sh script.\n\nTo update the Xenon adaptor documentation, first pip install --upgrade ., then run python ./scripts/print_adaptor_docs.py > docs/adaptors.rst.\n\nRun tox before pushing anything back to github.\n\nTesting\n\nUnit tests all run against the local scheduler and the file adaptor for filesystems. To run them, just do::\n\n$ pytest ./tests\n\nFor faster testing it may be useful to start the xenon-grpc daemon manually; start it in a separate terminal as it may give useful output for debugging.\n\nFor integration testing, run the following docker container to test against remote slurm\n\n.. code-block:: bash\n\ndocker run --detach --publish 10022:22 nlesc/xenon-slurm:17\n\nAn example of some code running against this container is in examples/tutorial.py`.\n\nContributing\n\nContributions can be made using GitHub pull requests. To add a feature, first install the test requirements\n\n::\n\npip install -U tox\n\nand then run\n\n::\n\ntox",
+      "section": "Introduction (part 2)",
+      "repo": "499_PyXenon",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.137801Z",
+    "updated_at": "2025-11-06T05:22:08.210495Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23231,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 744,
+    "annotations": [
+      {
+        "id": 11168,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 306,
+              "end": 344,
+              "text": "http://dx.doi.org/10.5281/zenodo.60929",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "59IDJFZsv2",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 568,
+              "end": 630,
+              "text": "https://raw.githubusercontent.com/NLeSC/pyxenon/master/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "SIkIXLpdsT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 810,
+              "end": 845,
+              "text": "https://travis-ci.org/NLeSC/pyxenon",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "Fz6J-aJjeZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1101,
+              "end": 1154,
+              "text": "http://pyxenon.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "WY_WXR6XAb",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1256,
+              "end": 1299,
+              "text": "https://zenodo.org/badge/latestdoi/47132292",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "Hoshn-srU4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:23:25.084804Z",
+        "updated_at": "2025-11-16T05:34:44.033528Z",
+        "draft_created_at": "2025-11-06T05:22:24.140511Z",
+        "lead_time": 114.891,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "b6f611e4-a8c6-4b07-9073-5c1aaab47c02",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 744,
+        "project": 23231,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "until all tests succeed. The command checks against flake8 code standards and syntax errors on Python 3.5 and 3.6. Then commit, to make sure the change didn't break any code. The pull request will be evaluated in Travis __.\n\n.. |DOI| image:: https://zenodo.org/badge/doi/10.5281/zenodo.60929.svg  :target: http://dx.doi.org/10.5281/zenodo.60929 .. |PyPi version| image:: https://img.shields.io/pypi/v/pyxenon.svg  :target: https://pypi.python.org/pypi/pyxenon .. |Apache2License| image:: https://img.shields.io/github/license/NLeSC/pyxenon.svg?branch=master  :target: https://raw.githubusercontent.com/NLeSC/pyxenon/master/LICENSE .. |PythonVersions| image:: https://img.shields.io/pypi/pyversions/pyxenon.svg .. |BuildStatus| image:: https://travis-ci.org/xenon-middleware/pyxenon.svg?branch=master  :target: https://travis-ci.org/NLeSC/pyxenon .. |CodacyBadge| image:: https://api.codacy.com/project/badge/grade/35e155e3bb08459aa2c24622d5fdb0d3  :target: https://www.codacy.com/app/NLeSC/pyxenon .. |ReadTheDocsBadge| image:: https://readthedocs.org/projects/pyxenon/badge/?version=latest  :target: http://pyxenon.readthedocs.io/en/latest/?badge=latest  :alt: Documentation Status .. |ZenodoBadge| image:: https://zenodo.org/badge/47132292.svg  :target: https://zenodo.org/badge/latestdoi/47132292",
+      "section": "Introduction (part 3)",
+      "repo": "499_PyXenon",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.137860Z",
+    "updated_at": "2025-11-16T05:34:44.064875Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23231,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

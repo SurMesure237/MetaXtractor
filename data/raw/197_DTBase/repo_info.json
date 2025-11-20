@@ -1,0 +1,35 @@
+{
+  "codeRepository": "https://github.com/alan-turing-institute/CROP",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Jupyter Notebook",
+    "HTML",
+    "R",
+    "CSS",
+    "JavaScript",
+    "Shell",
+    "Dockerfile",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/alan-turing-institute/CROP/zipball/main",
+  "author": "alan-turing-institute",
+  "dateCreated": "2019-11-29T14:02:49Z",
+  "dateModified": "2025-09-10T07:51:36Z",
+  "keywords": [
+    "crop",
+    "digital-twin",
+    "hut23",
+    "hut23-1234",
+    "hut23-378",
+    "hut23-637",
+    "hut23-708",
+    "hut23-739"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "CROP is a Research Observation Platform",
+  "identifier": 224865173,
+  "name": "alan-turing-institute/CROP",
+  "issueTracker": "https://api.github.com/repos/alan-turing-institute/CROP/issues",
+  "readme": "https://github.com/alan-turing-institute/CROP/blob/main/README.md"
+}

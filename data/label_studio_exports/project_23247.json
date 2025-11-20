@@ -1,0 +1,1184 @@
+[
+  {
+    "id": 849,
+    "annotations": [
+      {
+        "id": 11505,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 12,
+              "end": 57,
+              "text": "https://zenodo.org/doi/10.5281/zenodo.3559816",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "pR86qyxZex",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:27:21.336293Z",
+        "updated_at": "2025-11-07T23:27:21.336311Z",
+        "draft_created_at": "2025-11-07T23:27:19.524333Z",
+        "lead_time": 11.824,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "55dc71d6-9d3d-47da-86ae-a60e343bffc7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 849,
+        "project": 23247,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "fsbrain\n\n[](https://zenodo.org/doi/10.5281/zenodo.3559816) [](https://go.fzj.de/CodePromo)\n\nAn R package for structural neuroimaging. Provides high-level functions to access (read and write) and visualize surface-based brain morphometry data (e.g. cortical thickness) for individual subjects and groups.\n\nFig.1: Visualization of sulcal depth for a subject in FreeSurfer standard space (fsaverage). See the [source code to reproduce this image] https://htmlpreview.github.io/?https://github.com/dfsp-spirit/fsbrain/blob/develop/web/Rmd_web_examples/examples_export.html in an R notebook.\n\n[About] #about | [Installation] #installation | [Documentation] #documentation | [Unit tests] #unit-tests-and-continuous-integration | [License] #license | [Citation] #citation | [Visualization examples] #visualization-examples | [Contributing] #contributing",
+      "section": "fsbrain (part 1)",
+      "repo": "264_fsbrain",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.273633Z",
+    "updated_at": "2025-11-07T23:27:21.366348Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23247,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 850,
+    "annotations": [
+      {
+        "id": 11506,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:27:29.271791Z",
+        "updated_at": "2025-11-07T23:27:29.271806Z",
+        "draft_created_at": null,
+        "lead_time": 7.747,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b75a0942-f0a2-4791-a4cd-0ecb4c8db43f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 850,
+        "project": 23247,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## About\n\nThe fsbrain R package provides a well-tested and consistent interface to neuroimaging data in [R] https://www.r-project.org/. It supports reading, writing, and visualizing various kinds of raw data and statistical results on brain surfaces and volumes. While the package provides a very convenient interface for working with data arranged in the standard [FreeSurfer] http://freesurfer.net/ directory structure (SUBJECTS_DIR), fsbrain is not limited to this layout or FreeSurfer file formats. You can load brain meshes, volumes, and data from a range of other neuroimaging software packages and visualize them.\n\nThe plots produced by fsbrain can be integrated into R notebooks or written to high-quality bitmap image files, ready for publication. The [rgl] https://CRAN.R-project.org/package=rgl renderer used by fsbrain provides fast, hardware-accelerated rendering based on the OpenGL standard.",
+      "section": "fsbrain (part 2)",
+      "repo": "264_fsbrain",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.273673Z",
+    "updated_at": "2025-11-07T23:27:29.300267Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23247,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 851,
+    "annotations": [
+      {
+        "id": 11507,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:27:56.659459Z",
+        "updated_at": "2025-11-07T23:27:56.659475Z",
+        "draft_created_at": null,
+        "lead_time": 27.218,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c2867b09-5725-47d0-8ca2-15e4d5a8455d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 851,
+        "project": 23247,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## News\n\n2025-09-09: New fsbrain version 0.5.6 released on CRAN, see the [CHANGES] ./CHANGES.  2024-02-03: New fsbrain version 0.5.5 released on CRAN, see the [CHANGES] ./CHANGES.  2023-06-26: New fsbrain version 0.5.4 released on CRAN, see the [CHANGES] ./CHANGES.  2022-12-22: We are looking for help! If you have a Mac and are interested in helping fsbrain development, please [contact us by email] http://rcmd.org/ts/#contact or reply to [#46] https://github.com/dfsp-spirit/fsbrain/issues/46 here on GitHub!  2022-02-13: New fsbrain version 0.5.3 released on CRAN, see the [CHANGES] ./CHANGES.  2021-11-11: New fsbrain version 0.5.1 released on CRAN, see the [CHANGES] ./CHANGES.  2021-09-16: New fsbrain version 0.5.0 released on CRAN, see the [CHANGES] ./CHANGES.  2021-05-12: New fsbrain version 0.4.3 released on CRAN, see the [CHANGES] ./CHANGES.  2021-03-28: New fsbrain version 0.4.2 released on CRAN, see the [CHANGES] ./CHANGES.  2020-09-20: The preprint of our paper [T. Schaefer, C. Ecker: fsbrain: an R package for the visualization of structural neuroimaging data] https://doi.org/10.1101/2020.09.18.302935' is now available on biorxiv.\n\n## Installation\n\n### Recommended: install the stable fsbrain version from CRAN\n\nYou can find the [fsbrain package on CRAN] https://cran.r-project.org/package=fsbrain, so all you need to do is:\n\ninstall.packages(\"fsbrain\");\n\nIn case something goes wrong, don't worry. Just install the missing [system dependencies] #system-dependencies and retry.\n\n### Risky: install the dev version of fsbrain with the latest features\n\nThis version is not guaranteed to be in a usable state, try at your own risk and run the tests before using it.\n\nFrom an R session:\n\ninstall.packages(c(\"devtools\", \"knitr\", \"markdown\", \"rmarkdown\", \"testthat\", \"qpdf\")); devtools::install_github(\"dfsp-spirit/fsbrain\", build_vignettes=TRUE);",
+      "section": "fsbrain (part 3)",
+      "repo": "264_fsbrain",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.273699Z",
+    "updated_at": "2025-11-07T23:27:56.687393Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23247,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 852,
+    "annotations": [
+      {
+        "id": 11508,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 673,
+              "end": 678,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "X31cq-pw-D",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1196,
+              "end": 1202,
+              "text": "Ubuntu",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "O_wB7JRoeL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 993,
+              "end": 1008,
+              "text": "libmagick++-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "En_FWWYcff",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1009,
+              "end": 1019,
+              "text": "libx11-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "CdddgY81YR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1020,
+              "end": 1035,
+              "text": "libgl1-mesa-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "v7q5ac9gHV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1036,
+              "end": 1052,
+              "text": "libglu1-mesa-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "iHC3ddM7t0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1053,
+              "end": 1068,
+              "text": "mesa-common-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "l3eZEzc9zy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1086,
+              "end": 1097,
+              "text": "libxml2-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "TsPhPvMens",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1098,
+              "end": 1108,
+              "text": "libssh-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "CrowfVITLN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1109,
+              "end": 1129,
+              "text": "libcurl4-openssl-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "w8GyusCV9X",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1130,
+              "end": 1138,
+              "text": "gfortran",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Ct7SSpPcsv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1139,
+              "end": 1150,
+              "text": "libblas-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "zTStUa24Te",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1151,
+              "end": 1164,
+              "text": "liblapack-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "YBgR3oMg-i",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1165,
+              "end": 1177,
+              "text": "libgfortran4",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "6CfJtVSarQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1069,
+              "end": 1085,
+              "text": "libfreetype6-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "sdq6zyLfAh",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1376,
+              "end": 1397,
+              "text": "ImageMagick-c++-devel",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "IVlcic4QtT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1398,
+              "end": 1410,
+              "text": "libX11-devel",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "V9UcfL3IAc",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1411,
+              "end": 1428,
+              "text": "mesa-libGLU-devel",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "4qpXHwGiGC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1429,
+              "end": 1443,
+              "text": "freetype-devel",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "cIfYAfyCBA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1444,
+              "end": 1457,
+              "text": "libxml2-devel",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "eYmtg2i-SF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 600,
+              "end": 611,
+              "text": "libxml2-dev",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "6uKJcXvZEV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:31:14.137333Z",
+        "updated_at": "2025-11-07T23:31:26.745519Z",
+        "draft_created_at": "2025-11-07T23:29:57.237736Z",
+        "lead_time": 208.218,
+        "prediction": {},
+        "result_count": 21,
+        "unique_id": "baf79a2d-a40a-4d1b-b1fc-3ccbd9a0d31c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 852,
+        "project": 23247,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### System dependencies\n\nA system dependency is a non-R software that is needed for the installation of a package. System dependencies cannot be installed automatically using the R package system, so you need to install them manually or using the package manager of your operating system.\n\nThe fsbrain package itself does not have any system dependencies, however, it uses rgl for rendering. You can check the SystemRequirements section on the [rgl page at CRAN] https://CRAN.R-project.org/package=rgl for the full list of rgl dependencies or read on. To get GIFTI format support, you will also need libxml2-dev.\n\nTo install the system dependencies for rgl and xml2:\n\n#### Linux System dependencies (or: building from source)\n\nR packages are compiled from source by default under Linux, so you need some development libraries. Before installing fsbrain, run the following command in your system shell (not in R):\n\nfor deb-based Linux distributions (Debian, Ubuntu, ...):\n\nsudo apt-get install libmagick++-dev libx11-dev libgl1-mesa-dev libglu1-mesa-dev mesa-common-dev libfreetype6-dev libxml2-dev libssh-dev libcurl4-openssl-dev gfortran libblas-dev liblapack-dev libgfortran4\n\nNote: For recent Ubuntu versions, you may have to replace ``libgfortan4` in the command above with `libgfortan5``.\n\nfor rpm-based Linux distributions (Fedora, CentOS, RHEL, ...):\n\nsudo yum install ImageMagick-c++-devel libX11-devel mesa-libGLU-devel freetype-devel libxml2-devel\n\nIf you want to compile the package under any other operating system, you will need the libraries as well, of course.",
+      "section": "fsbrain (part 4)",
+      "repo": "264_fsbrain",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.273722Z",
+    "updated_at": "2025-11-07T23:31:26.783247Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23247,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 853,
+    "annotations": [
+      {
+        "id": 11509,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 5,
+              "end": 10,
+              "text": "MacOS",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "otKvYLTEsM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 121,
+              "end": 132,
+              "text": "xquartz X11",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "MPb2K0gV2N",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 250,
+              "end": 261,
+              "text": "imagemagick",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "DyeEIf0cnu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 349,
+              "end": 356,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "xejESCyCY1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 141,
+              "end": 166,
+              "text": "https://www.xquartz.org/ ",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "Vq_WfpyPku",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:32:01.597303Z",
+        "updated_at": "2025-11-16T05:38:23.665983Z",
+        "draft_created_at": "2025-11-07T23:31:38.210494Z",
+        "lead_time": 88.729,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "85af454a-d812-490c-961c-9d99884135a7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 853,
+        "project": 23247,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### MacOS System dependencies\n\nRecent MacOS versions do not ship with an X11 environment. You will have to install the [xquartz X11 system] https://www.xquartz.org/ if you do not have it already. If you want to create GIF movies, make sure you have imagemagick installed (easiest via [homebrew] https://brew.sh/: brew install imagemagick@6).\n\n#### Windows Installation Hints\n\nUnder Windows 10, it seems that you will need to install these two packages manually via the install.packages command: shiny and manipulateWidget.\n\n### Installation via Docker\n\nThere are Docker images for fsbrain available on Dockerhub, see the [fsbrain Dockerhub repo] https://hub.docker.com/r/dfspspirit/fsbrain.",
+      "section": "fsbrain (part 5)",
+      "repo": "264_fsbrain",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.273743Z",
+    "updated_at": "2025-11-16T05:38:23.700553Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23247,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 854,
+    "annotations": [
+      {
+        "id": 11510,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:32:07.092386Z",
+        "updated_at": "2025-11-07T23:32:07.092400Z",
+        "draft_created_at": null,
+        "lead_time": 5.293,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "18652010-f407-48d5-9cb1-bda9e82074fe",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 854,
+        "project": 23247,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Documentation\n\nThe documentation can be accessed from within an R session after you have loaded the fsbrain package:\n\nThere are two online R Markdown notebooks (like Jupyter Notebook in Python) that show various example plots in combination with the code used to produce them:  [basic fsbrain example notebook] https://htmlpreview.github.io/?https://github.com/dfsp-spirit/fsbrain/blob/develop/web/Rmd_web_examples/examples.html: Live visualization of subject data  [advanced fsbrain example notebook] https://htmlpreview.github.io/?https://github.com/dfsp-spirit/fsbrain/blob/develop/web/Rmd_web_examples/examples_adv.html: Plotting group data  [export API fsbrain example notebook] https://htmlpreview.github.io/?https://github.com/dfsp-spirit/fsbrain/blob/develop/web/Rmd_web_examples/examples_export.html: Exporting publication-ready plots\n\nDetailed vignettes with explanations and examples for the functions of the package is included, run browseVignettes(\"fsbrain\") to see the vignettes. You can also open the vignette directly:  How to load and visualize surface-based neuroimaging data: vignette(\"fsbrain\") or: [read online at CRAN] https://cran.r-project.org/web/packages/fsbrain/vignettes/fsbrain.html  How to load and visualize volume-based neuroimaging data: vignette(\"fsbrain_vol\") or: [read online at CRAN] https://cran.r-project.org/web/packages/fsbrain/vignettes/fsbrain_vol.html  The fsbrain FAQ: vignette(\"fsbrain_faq\") or: [read online at CRAN] https://cran.r-project.org/web/packages/fsbrain/vignettes/fsbrain_faq.html",
+      "section": "fsbrain (part 6)",
+      "repo": "264_fsbrain",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.273770Z",
+    "updated_at": "2025-11-07T23:32:07.119128Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23247,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 855,
+    "annotations": [
+      {
+        "id": 11511,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:32:08.077826Z",
+        "updated_at": "2025-11-07T23:32:08.077842Z",
+        "draft_created_at": null,
+        "lead_time": 0.82,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "5e6a3234-95c5-43ce-b324-f38a83e68145",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 855,
+        "project": 23247,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Help for a specific function can be accessed in the usual R manner: ?, where you replace ` with a function name. Like this: ?group.morph.native.  Run example() to see a live demo that uses the function . Like this: example(group.morph.native)`. The [unit tests] ./tests/testthat/ that come with this package are essentially a list of examples that illustrate how to use the functions.",
+      "section": "fsbrain (part 7)",
+      "repo": "264_fsbrain",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.273794Z",
+    "updated_at": "2025-11-07T23:32:08.105401Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23247,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 856,
+    "annotations": [
+      {
+        "id": 11512,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 761,
+              "end": 772,
+              "text": "MIT license",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "G0ASMUiFDk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 774,
+              "end": 809,
+              "text": "https://opensource.org/licenses/MIT",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "Q3yiRYq9ao",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 303,
+              "end": 310,
+              "text": "Windows",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "iPD9JQ0OTI",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:32:45.457176Z",
+        "updated_at": "2025-11-07T23:32:45.457191Z",
+        "draft_created_at": "2025-11-07T23:32:21.986515Z",
+        "lead_time": 37.204,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "67e26a29-73dc-4162-9689-63052a08ca16",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 856,
+        "project": 23247,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Unit tests and Continuous integration\n\nThis package comes with [lots of unit tests] ./tests/testthat/. To run them, in a clean R session:\n\nlibrary(devtools) library(fsbrain) devtools::check()\n\nContinuous integration results:\n\n[](https://ci.appveyor.com/project/dfsp-spirit/fsbrain) AppVeyor CI under Windows\n\n[GitHub Actions, Ubuntu Linux and MacOS] https://github.com/dfsp-spirit/fsbrain/actions (Note: Currently this is always \"failing\" because of a warning caused by the rgl package when running headless. So the simlpe \"passing\"/\"failing\" status is useless, and one needs to follow the link to check the relevant CI results in detail.)\n\n## License\n\nThe fsbrain package is [free software] https://en.wikipedia.org/wiki/Free_software, published under the [MIT license] https://opensource.org/licenses/MIT.\n\nNote: The file LICENSE in this repository is a CRAN license template only (as required by CRAN) and does not contain the full MIT license text. See the file [LICENSE_FULL] ./LICENSE_FULL for the full license text.",
+      "section": "fsbrain (part 8)",
+      "repo": "264_fsbrain",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.273819Z",
+    "updated_at": "2025-11-07T23:32:45.486604Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23247,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 857,
+    "annotations": [
+      {
+        "id": 11513,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 84,
+              "end": 125,
+              "text": "https://doi.org/10.1101/2020.09.18.302935",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "--ExgfI8DM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 439,
+              "end": 707,
+              "text": "@Misc{, title = {fsbrain: an {R} package for the visualization of structural neuroimaging data}, author = {Tim Schaefer and Christine Ecker}, year = {2020}, url = {https://www.biorxiv.org/content/10.1101/2020.09.18.302935v1}, doi = {10.1101/2020.09.18.302935}, }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "Z3UJAunoor",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 249,
+              "end": 402,
+              "text": "Tim Schaefer, Christine Ecker (2020). fsbrain: an R package for the visualization of structural neuroimaging data. bioRxiv doi: 10.1101/2020.09.18.302935\\n",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "UzohcCVQJU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 827,
+              "end": 889,
+              "text": "https://insar.confex.com/insar/2020/meetingapp.cgi/Paper/33181",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "6pkSy5b9bc",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 908,
+              "end": 978,
+              "text": "https://insar.confex.com/insar/2020/techdemo/eposter.cgi?eposterid=227",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "NvA4qtlW52",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 995,
+              "end": 1097,
+              "text": "https://github.com/dfsp-spirit/fsbrain_gallery/raw/master/extra_materials/Poster_IMFAR2020_fsbrain.pdf",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "tal3cbJPPe",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:34:09.893702Z",
+        "updated_at": "2025-11-07T23:34:09.893718Z",
+        "draft_created_at": "2025-11-07T23:32:58.119989Z",
+        "lead_time": 84.218,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "ff987c8d-40bc-4269-a4e2-9f13bcaeda00",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 857,
+        "project": 23247,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Citation and Publications\n\nYou can generate the citation for [our fsbrain paper] https://doi.org/10.1101/2020.09.18.302935 by typing the following command in R:\n\ncitation(\"fsbrain\")\n\nThis currently outputs:\n\nTo cite fsbrain in publications use:\n\nTim Schaefer, Christine Ecker (2020). fsbrain: an R package for the visualization of structural neuroimaging data. bioRxiv doi: 10.1101/2020.09.18.302935\n\nA BibTeX entry for LaTeX users is\n\n@Misc{,  title = {fsbrain: an {R} package for the visualization of structural neuroimaging data},  author = {Tim Schaefer and Christine Ecker},  year = {2020},  url = {https://www.biorxiv.org/content/10.1101/2020.09.18.302935v1},  doi = {10.1101/2020.09.18.302935},  }\n\nOther materials related to fsbrain:\n\nA poster on fsbrain* has been presented at INSAR 2020 Annual Meeting: [Abstract] https://insar.confex.com/insar/2020/meetingapp.cgi/Paper/33181, [ePoster viewer] https://insar.confex.com/insar/2020/techdemo/eposter.cgi?eposterid=227, [PDF download] https://github.com/dfsp-spirit/fsbrain_gallery/raw/master/extra_materials/Poster_IMFAR2020_fsbrain.pdf",
+      "section": "fsbrain (part 9)",
+      "repo": "264_fsbrain",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.273841Z",
+    "updated_at": "2025-11-07T23:34:09.923490Z",
+    "inner_id": 9,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23247,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 858,
+    "annotations": [
+      {
+        "id": 11514,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:34:12.024136Z",
+        "updated_at": "2025-11-07T23:34:12.024149Z",
+        "draft_created_at": null,
+        "lead_time": 1.927,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "53a08330-7ec8-4158-b0a1-db2c79031bd2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 858,
+        "project": 23247,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Visualization examples\n\nThe fsbrain package support visualizations of different data, and all data can be displayed in one or more views. The figure below shows some examples for surface-based data:\n\nFig.2: Example output for the fsbrain interactive visualization functions.\n\nSubfigure A shows the visualization of raw morphometry data (cortical thickness) from native space on the white surface of a subject. The view shows the data in tiles from 8 different angles.  Subfigure B illustrates arbitrary data (p-values in this case) visualized on the regions of the Desikan atlas, using the surface of the fsaverage (standard space template) subject from FreeSurfer. The view shows the data in tiles from 4 different angles.  Subfigure C displays the regions of the Desikan atlas on the white surface of a subject. The colors were loaded from the respective annotation file. The view shows the data in tiles from 4 different angles.\n\nWhat is displayed (morphometry data, atlas regions, arbitrary other data), on which surface it is displayed, and how* it is displayed (a single interactive view, 4 tiles, 9 tiles) is independent and can be selected as needed in fsbrain.\n\nHere is a second figure, showing the same data (the [mean curvature] https://en.wikipedia.org/wiki/Mean_curvature at each vertex) displayed on 3 different surfaces of a subject: A white surface, B pial surface, C inflated surface.",
+      "section": "fsbrain (part 10)",
+      "repo": "264_fsbrain",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.273866Z",
+    "updated_at": "2025-11-07T23:34:12.052432Z",
+    "inner_id": 10,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23247,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 859,
+    "annotations": [
+      {
+        "id": 11515,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:34:12.932708Z",
+        "updated_at": "2025-11-07T23:34:12.932725Z",
+        "draft_created_at": null,
+        "lead_time": 0.735,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "066a1ec9-90d8-482d-9610-7e33694d180f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 859,
+        "project": 23247,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "The next figure illustrates some options to visualize your results with different backgrounds. A Clusters on the white fsaverage surface with sulc background. B Region-wise p-values with curv background, inflated fsaverage surface. C A background color layer displaying outlines of aparc atlas regions in the respective colors, inflated demo subject surface.",
+      "section": "fsbrain (part 11)",
+      "repo": "264_fsbrain",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.273890Z",
+    "updated_at": "2025-11-07T23:34:12.956945Z",
+    "inner_id": 11,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23247,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 860,
+    "annotations": [
+      {
+        "id": 11516,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:34:16.130879Z",
+        "updated_at": "2025-11-07T23:34:16.130891Z",
+        "draft_created_at": null,
+        "lead_time": 3.012,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ec2aade5-bb8b-47f9-b346-6382dee3fb83",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 860,
+        "project": 23247,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Animations and videos\n\nWant to see brains spin? [Check this out.] ./web/fsbrain_movies.md (WARNING: loads 8 MB webpage with animated gif).\n\n### Volume visualization\n\nVolume visualization is not the main goal of fsbrain, but standard lightbox views and simple 3D views are supported. Have a look at the vignettes or the documentation for the volvis.lb function. You can find some [example output here] ./web/fsbrain_volume.md.\n\n### Example Notebooks\n\nTo see a combination of example figures and the code used to produce them, you should have a look at the example notebooks: [getting started notebook] https://htmlpreview.github.io/?https://github.com/dfsp-spirit/fsbrain/blob/develop/web/Rmd_web_examples/examples.html and [advanced examples notebook] https://htmlpreview.github.io/?https://github.com/dfsp-spirit/fsbrain/blob/develop/web/Rmd_web_examples/examples_adv.html.\n\n## Contributing\n\nPlease refer to [CONTRIBUTING.md] ./CONTRIBUTING.md.\n\nIf you have any question, suggestion or comment on fsbrain, please [open an issue] https://github.com/dfsp-spirit/fsbrain/issues. If you want to contact me via email, please use the maintainer email address listed on the [CRAN webpage for fsbrain] https://cran.r-project.org/package=fsbrain.",
+      "section": "fsbrain (part 12)",
+      "repo": "264_fsbrain",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.273915Z",
+    "updated_at": "2025-11-07T23:34:16.157093Z",
+    "inner_id": 12,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23247,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 861,
+    "annotations": [
+      {
+        "id": 11517,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T23:34:17.770932Z",
+        "updated_at": "2025-11-07T23:34:17.770944Z",
+        "draft_created_at": null,
+        "lead_time": 1.471,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "7f07db03-4ce0-4295-ace3-61c8d3c87bf7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 861,
+        "project": 23247,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Related R packages\n\nPackages similar to fsbrain:\n\n[ggseg] https://github.com/LCBC-UiO/ggseg by Athanasia Mowinckel and Didac Vidal-Piñeiro: Plotting of atlas-based neuroimaging data in R.  [cerebroviz] https://github.com/ethanbahl/cerebroViz by Ethan Bahl: Data mapping tool for visualizing spatiotemporal data in the brain.\n\nPackages used by fsbrain:\n\n[rgl] https://CRAN.R-project.org/package=rgl by Daniel Adler, Duncan Murdoch et al.: OpenGL-based mesh renderer.  [oro.nifti] https://github.com/muschellij2/oro.nifti by Brandon Witcher et al. : Loading and manipulation of brain volumes from NIFTI v1 files.  [freesurferformats] https://github.com/dfsp-spirit/freesurferformats by Tim Schäfer (me): Loading and writing various neuroimaging file formats and general mesh file formats, with a focus on FreeSurfer formats.  [gifti] https://github.com/muschellij2/gifti/ and [cifti] https://github.com/muschellij2/cifti/ by John Muschelli: Read GIFTI and CIFTI format files. [Rvcg] https://github.com/zarquon42b/Rvcg by Stefan Schlager: Rcpp interface for the [VCG Library] http://vcg.isti.cnr.it/vcglib/.\n\n## Author\n\nfsbrain was written by [Tim Schäfer] https://ts.rcmd.org",
+      "section": "fsbrain (part 13)",
+      "repo": "264_fsbrain",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.273937Z",
+    "updated_at": "2025-11-07T23:34:17.797018Z",
+    "inner_id": 13,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23247,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

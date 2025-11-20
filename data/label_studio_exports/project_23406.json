@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1759,
+    "annotations": [
+      {
+        "id": 11904,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 42,
+              "text": "https://doi.org/10.5281/zenodo.12808969",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "BnZ-dqN4uE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:32:53.488199Z",
+        "updated_at": "2025-11-09T06:32:53.488217Z",
+        "draft_created_at": "2025-11-09T06:32:47.016466Z",
+        "lead_time": 15.955,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "e896d2e8-40d7-4d93-8b5c-864548255171",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1759,
+        "project": 23406,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://doi.org/10.5281/zenodo.12808969) [](https://archive.softwareheritage.org/swh:1:dir:65f4716d51672926f9ae328ea314d969e37534c6;origin=https://github.com/Ramy-Badr-Ahmed/bendingStiffness;visit=swh:1:snp:cf3a5710e567c74b08a7144be79796fb78e9743c;anchor=swh:1:rev:ae6455bbac2db3f8838eb0d69b5ba09e5f50d06e)\n\n### Summary\n\nA java code analysing the Bending Stiffness of Actin Filament Experiment.\n\nReads coordinates from snake.txt of a measured filament (an example is in the images directory)\n\nCalculates the mean squared displacement (MSD) and contour length from data\n\nError calculation in persistence length and contour length are saved in mathematica directory.\n\n(optional) Modify config.properties as needed.\n\n### Running the Demo\n\nPlace your snake.txt and elongation.txt files in the data directory (an example exists).\n\nCompile and run the Snake class.\n\njavac -d out src/Snake.java java -cp out Snake",
+      "section": "README",
+      "repo": "158_Bending_Stiffness",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.380453Z",
+    "updated_at": "2025-11-09T06:32:53.518485Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23406,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

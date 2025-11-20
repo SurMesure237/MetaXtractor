@@ -1,0 +1,563 @@
+[
+  {
+    "id": 2615,
+    "annotations": [
+      {
+        "id": 9976,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 107,
+              "end": 150,
+              "text": "https://seisbench.readthedocs.io/en/latest/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "UAvoRTc8TD",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 252,
+              "end": 290,
+              "text": "https://doi.org/10.5281/zenodo.5568813",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "YU4HgyUljt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 3,
+              "end": 59,
+              "text": "https://github.com/seisbench/seisbench/blob/main/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "4rkVwLKTTZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:07:45.112643Z",
+        "updated_at": "2025-11-14T09:35:44.643740Z",
+        "draft_created_at": "2025-11-02T20:07:32.053918Z",
+        "lead_time": 37.402,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "8b0b14e3-cb9f-4286-931b-0dba22a0c930",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2615,
+        "project": 23573,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/seisbench/seisbench/blob/main/LICENSE) [](https://github.com/seisbench/seisbench) [](https://seisbench.readthedocs.io/en/latest/) [](https://pypi.org/project/seisbench/) [](https://www.python.org/downloads/release/python-390/) [](https://doi.org/10.5281/zenodo.5568813)\n\nThe Seismology Benchmark collection (SeisBench) is an open-source python toolbox for machine learning in seismology. It provides a unified API for accessing seismic datasets and both training and applying machine learning algorithms to seismic data. SeisBench has been built to reduce the overhead when applying or developing machine learning techniques for seismological tasks.",
+      "section": "Introduction (part 1)",
+      "repo": "457_SeisBench__A_toolbox_for_machine_learning_in_seismology",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.206650Z",
+    "updated_at": "2025-11-14T09:35:44.678713Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23573,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2616,
+    "annotations": [
+      {
+        "id": 9977,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:07:47.676614Z",
+        "updated_at": "2025-11-02T20:07:47.676630Z",
+        "draft_created_at": null,
+        "lead_time": 2.352,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "876d2841-5291-4da3-884e-247cc62ff173",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2616,
+        "project": 23573,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Getting started\n\nSeisBench offers three core modules, data, models, and generate. data provides access to benchmark datasets and offers functionality for loading datasets. models offers a collection of machine learning models for seismology. You can easily create models, load pretrained models or train models on any dataset. generate contains tools for building data generation pipelines. They bridge the gap between data and models.\n\nThe easiest way of getting started is through our colab notebooks.",
+      "section": "Introduction (part 2)",
+      "repo": "457_SeisBench__A_toolbox_for_machine_learning_in_seismology",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.206684Z",
+    "updated_at": "2025-11-02T20:07:47.701744Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23573,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2617,
+    "annotations": [
+      {
+        "id": 9978,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:07:49.468292Z",
+        "updated_at": "2025-11-02T20:07:49.468305Z",
+        "draft_created_at": null,
+        "lead_time": 1.629,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c08a6aee-27e6-4bbf-a9f7-b2206b597e98",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2617,
+        "project": 23573,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| Examples | | |--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | Dataset basics | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/01a_dataset_basics.ipynb) | | Model API | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/01b_model_api.ipynb) | | Generator Pipelines | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/01c_generator_pipelines.ipynb) | | Applied picking | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/02a_deploy_model_on_streams_example.ipynb) | | Using DeepDenoiser | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/02b_deep_denoiser.ipynb) |",
+      "section": "Introduction (part 3)",
+      "repo": "457_SeisBench__A_toolbox_for_machine_learning_in_seismology",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.206706Z",
+    "updated_at": "2025-11-02T20:07:49.493064Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23573,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2618,
+    "annotations": [
+      {
+        "id": 9979,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:07:56.207659Z",
+        "updated_at": "2025-11-02T20:07:56.207674Z",
+        "draft_created_at": null,
+        "lead_time": 6.544,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "bd3e4e25-4bb3-4d10-a8d4-0a635d9fa64b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2618,
+        "project": 23573,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| Depth phases and earthquake depth | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/02c_depth_phases.ipynb) | | Training PhaseNet (advanced) | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/03a_training_phasenet.ipynb) | | Creating a dataset (advanced) | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/03b_creating_a_dataset.ipynb) | | Training Denoiser (advanced) | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/03e_training_denoiser.ipynb) | | Building an event catalog with GaMMA (advanced) | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/03c_catalog_seisbench_gamma.ipynb) | | Building an event catalog with PyOcto (advanced) | [](https://colab.research.google.com/github/seisbench/seisbench/blob/main/examples/03d_catalog_seisbench_pyocto.ipynb) |",
+      "section": "Introduction (part 4)",
+      "repo": "457_SeisBench__A_toolbox_for_machine_learning_in_seismology",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.206727Z",
+    "updated_at": "2025-11-02T20:07:56.232292Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23573,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2619,
+    "annotations": [
+      {
+        "id": 9980,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 223,
+              "end": 256,
+              "text": "https://seisbench.readthedocs.io/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "asnAkvyAdy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:08:07.714408Z",
+        "updated_at": "2025-11-14T09:35:50.937422Z",
+        "draft_created_at": null,
+        "lead_time": 15.65,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "c3095689-39da-4ed6-8879-20ddb2c482d3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2619,
+        "project": 23573,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Alternatively, you can clone the repository and run the same [examples] https://github.com/seisbench/seisbench/tree/main/examples locally.\n\nFor more detailed information on Seisbench check out the [SeisBench documentation] https://seisbench.readthedocs.io/.",
+      "section": "Introduction (part 5)",
+      "repo": "457_SeisBench__A_toolbox_for_machine_learning_in_seismology",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.206747Z",
+    "updated_at": "2025-11-14T09:35:50.969951Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23573,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2620,
+    "annotations": [
+      {
+        "id": 9981,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 157,
+              "end": 162,
+              "text": "conda",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ogpdxTiVRo",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1042,
+              "end": 1047,
+              "text": "torch",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "mdlxYY_K8v",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1048,
+              "end": 1059,
+              "text": "torchvision",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "mZwRVFQBA7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1060,
+              "end": 1070,
+              "text": "torchaudio",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "RpSPHQRRht",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 164,
+              "end": 196,
+              "text": "https://docs.conda.io/en/latest/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "gWNRL0Wyyg",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:08:44.171645Z",
+        "updated_at": "2025-11-14T09:36:19.433445Z",
+        "draft_created_at": "2025-11-02T20:08:20.407745Z",
+        "lead_time": 61.128,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "75718fd5-4ace-440c-b358-3101e55e8e9d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2620,
+        "project": 23573,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Installation\n\nSeisBench can be installed in two ways. In both cases, you might consider installing SeisBench in a virtual environment, for example using [conda] https://docs.conda.io/en/latest/.\n\nThe recommended way is installation through pip. Simply run:\n\npip install seisbench\n\nAlternatively, you can install the latest version from source. For this approach, clone the repository, switch to the repository root and run:\n\npip install .\n\nwhich will install SeisBench in your current python environment.\n\n### CPU only installation\n\nSeisBench is built on pytorch, which in turn runs on CUDA for GPU acceleration. Sometimes, it might be preferable to install pytorch without CUDA, for example, because CUDA will not be used and the CUDA binaries are rather large. To install such a pure CPU version, the easiest way is to follow a two-step installation. First, install pytorch in a pure CPU version [as explained here] https://pytorch.org/. Second, install SeisBench the regular way through pip. Example instructions would be:\n\npip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu pip install seisbench\n\n## Contributing\n\nThere are many ways to contribute to SeisBench and we are always looking forward to your contributions. Check out the [contribution guidelines] https://github.com/seisbench/seisbench/blob/main/CONTRIBUTING.md for details on how to contribute.",
+      "section": "Introduction (part 6)",
+      "repo": "457_SeisBench__A_toolbox_for_machine_learning_in_seismology",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.206769Z",
+    "updated_at": "2025-11-14T09:36:19.475416Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23573,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2621,
+    "annotations": [
+      {
+        "id": 9982,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:08:54.968202Z",
+        "updated_at": "2025-11-02T20:08:54.968218Z",
+        "draft_created_at": null,
+        "lead_time": 10.588,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "d50e15d5-97e8-4e75-8501-485facd1a760",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2621,
+        "project": 23573,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Known issues\n\nSome institutions and internet providers are blocking access to our data and model repository, as it is running on a non-standard port (2880).\n\nThis usually manifests in timeouts when trying to download data or model weights.  To verify the issue, try accessing [https://hifis-storage.desy.de:2880/] https://hifis-storage.desy.de:2880/ directly from the same machine.  As a mitigation, you can use our backup repository. Just run seisbench.use_backup_repository().  Please note that the backup repository will usually show lower download speeds.  We recommend contacting your network administrator to allow outgoing access to TCP port 2880 on our server as a higher performance solution. We've recently changed the URL of the SeisBench repository. To use the new URL update to SeisBench 0.4.1.\n\nIt this is not possible, you can use the following commands within your runtime to update the URL manually:  ``python  import seisbench  from urllib.parse import urljoin\n\nseisbench.remote_root = \"https://hifis-storage.desy.de:2880/Helmholtz/HelmholtzAI/SeisBench/\"  seisbench.remote_data_root = urljoin(seisbench.remote_root, \"datasets/\")  seisbench.remote_model_root = urljoin(seisbench.remote_root, \"models/v3/\")  ` On the Apple M1 and M2 chips, pytorch seems to not always work when installed directly within pip install seisbench.\n\nAs a workaround, follow the instructions at (https://pytorch.org/) to install pytorch and then install SeisBench as usual through pip. EQTransformer model weights \"original\" in version 1 and 2 are incompatible with SeisBench >=0.2.3. Simply use from_pretrained(\"original\", version=\"3\") or from_pretrained(\"original\", update=True)`. The weights will not differ in their predictions.",
+      "section": "Introduction (part 7)",
+      "repo": "457_SeisBench__A_toolbox_for_machine_learning_in_seismology",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.206791Z",
+    "updated_at": "2025-11-02T20:08:54.996359Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23573,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2622,
+    "annotations": [
+      {
+        "id": 9983,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 113,
+              "end": 147,
+              "text": "https://doi.org/10.1785/0220210324",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "w1LdggYUsz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 282,
+              "end": 318,
+              "text": "https://doi.org/10.1029/2021JB023499",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "Dnw5rgT_AB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:10:17.856335Z",
+        "updated_at": "2025-11-02T20:10:17.856353Z",
+        "draft_created_at": "2025-11-02T20:09:18.793419Z",
+        "lead_time": 82.709,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "95e1c092-ffef-4b15-96cc-0e683e5ae727",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2622,
+        "project": 23573,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## References\n\nReference publications for SeisBench:\n\n[SeisBench - A Toolbox for Machine Learning in Seismology] https://doi.org/10.1785/0220210324\n\n_Reference publication for software._\n\n[Which picker fits my data? A quantitative evaluation of deep learning based seismic pickers] https://doi.org/10.1029/2021JB023499\n\n_Example of in-depth bencharking study of deep learning-based picking routines using the SeisBench framework._\n\n## Acknowledgement\n\nThe initial version of SeisBench has been developed at [GFZ Potsdam] https://www.gfz-potsdam.de/ and [KIT] https://www.gpi.kit.edu/ with funding from [Helmholtz AI] https://www.helmholtz.ai/. The SeisBench repository is hosted by [HIFIS - Helmholtz Federated IT Services] https://www.hifis.net/.",
+      "section": "Introduction (part 8)",
+      "repo": "457_SeisBench__A_toolbox_for_machine_learning_in_seismology",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.206812Z",
+    "updated_at": "2025-11-02T20:10:17.883899Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23573,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

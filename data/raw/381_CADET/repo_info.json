@@ -1,0 +1,28 @@
+{
+  "codeRepository": "https://github.com/cadet/CADET-Core",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "CMake",
+    "C",
+    "Dockerfile",
+    "MATLAB"
+  ],
+  "downloadUrl": "https://api.github.com/repos/cadet/CADET-Core/zipball/main",
+  "author": "cadet",
+  "dateCreated": "2014-01-29T12:46:02Z",
+  "dateModified": "2025-10-24T11:59:41Z",
+  "keywords": [
+    "cadet",
+    "chromatography",
+    "chromatography-analysis",
+    "general-rate-model",
+    "simulator"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "The heart of CADET. A modular, fast, and accurate modeling and simulation framework for biotechnology processes.",
+  "identifier": 16344488,
+  "name": "cadet/CADET-Core",
+  "issueTracker": "https://api.github.com/repos/cadet/CADET-Core/issues",
+  "readme": "https://github.com/cadet/CADET-Core/blob/master/README.rst"
+}

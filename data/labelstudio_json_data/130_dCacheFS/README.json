@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": ".. list-table::  :widths: 25 25  :header-rows: 1\n\nfair-software.nl recommendations\n\nBadges\n\n\\1. Code repository\n\n|GitHub Badge|\n\n\\2. License\n\n|License Badge|\n\n\\3. Community Registry\n\n|PyPI Badge|\n\n\\4. Enable Citation\n\n|Zenodo Badge|\n\n\\5. Checklist\n\n|CII Best Practices Badge|\n\nOther best practices\n\n- Continuous integration\n\n|Python Build| |PyPI Publish|\n\n- Documentation\n\n|Read the Docs|\n\n.. |GitHub Badge| image:: https://img.shields.io/badge/github-repo-000.svg?logo=github&labelColor=gray&color=blue  :target: https://github.com/NLeSC-GO-common-infrastructure/dcachefs  :alt: GitHub Badge\n\n.. |License Badge| image:: https://img.shields.io/github/license/NLeSC-GO-common-infrastructure/dcachefs  :target: https://github.com/NLeSC-GO-common-infrastructure/dcachefs  :alt: License Badge\n\n.. |PyPI Badge| image:: https://img.shields.io/pypi/v/dcachefs.svg?colorB=blue  :target: https://pypi.python.org/project/dcachefs/  :alt: PyPI Badge\n\n.. |Zenodo Badge| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4436720.svg  :target: https://doi.org/10.5281/zenodo.4436720  :alt: Zenodo Badge\n\n.. |CII Best Practices Badge| image:: https://bestpractices.coreinfrastructure.org/projects/4585/badge  :target: https://bestpractices.coreinfrastructure.org/projects/4585  :alt: CII Best Practices Badge\n\n.. |Python Build| image:: https://github.com/NLeSC-GO-common-infrastructure/dcachefs/workflows/Build/badge.svg  :target: https://github.com/NLeSC-GO-common-infrastructure/dcachefs/actions?query=workflow%3A%22Build%22  :alt: Python Build\n\n.. |PyPI Publish| image:: https://github.com/NLeSC-GO-common-infrastructure/dcachefs/workflows/Publish/badge.svg  :target: https://github.com/NLeSC-GO-common-infrastructure/dcachefs/actions?query=workflow%3A%22Publish%22  :alt: PyPI Publish",
+      "section": "Introduction (part 1)",
+      "repo": "130_dCacheFS",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": ".. |Read the Docs| image:: https://readthedocs.org/projects/dcachefs/badge/?version=latest  :target: https://dcachefs.readthedocs.io  :alt: Read the Docs\n\n################################################################################ dCacheFS ################################################################################\n\ndCacheFS provides a file-system interface for a dCache storage system_, such as the instance provided at SURF_.  dCacheFS builds on the Filesystem Spec_ (fsspec) library and it can be used as an independent library or via the  more general fsspec functions.\n\n.. _dCache storage system: https://www.dcache.org .. _instance provided at SURF: http://doc.grid.surfsara.nl/en/stable/Pages/Service/system_specifications/dcache_specs.html .. _Filesystem Spec: https://filesystem-spec.readthedocs.io\n\nInstallation\n\nTo install dcachefs, do:\n\n.. code-block:: console    pip install dcachefs\n\nor\n\n.. code-block:: console\n\ngit clone https://github.com/NLeSC-GO-common-infrastructure/dcachefs.git  cd dcachefs  pip install .\n\nRun tests (including coverage) with:\n\n.. code-block:: console\n\npython setup.py test\n\nDocumentation\n\nThe project's full documentation can be found here_.\n\n.. _here: https://dcachefs.readthedocs.io\n\nContributing\n\nIf you want to contribute to the development of dCacheFS, have a look at the contribution guidelines _.\n\nLicense\n\nCopyright (c) 2020, Netherlands eScience Center\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0",
+      "section": "Introduction (part 2)",
+      "repo": "130_dCacheFS",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": "Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\n\nCredits\n\nThis package was created with Cookiecutter _ and the NLeSC/python-template _.",
+      "section": "Introduction (part 3)",
+      "repo": "130_dCacheFS",
+      "source_file": "readme.rst"
+    }
+  }
+]

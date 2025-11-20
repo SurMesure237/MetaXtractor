@@ -1,0 +1,126 @@
+[build-system]
+requires = ["setuptools>=60", "wheel", "setuptools_scm>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name="hera_qm"
+authors=[
+    {name = "HERA Team"}
+]
+description="HERA Data Quality Metrics."
+license= {text= "MIT"}
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>1.23",
+    "astropy>=5.0.4",
+    "h5py>=3.1",
+    "pyyaml",
+    "pyuvdata>=3.0",
+    "hera_filters"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dynamic = ["readme", "version"]
+
+[project.urls]
+repository="https://github.com/HERA-Team/hera_qm"
+# documentation="https://hera_qm.readthedocs.io"
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.md"]}
+
+[project.optional-dependencies]
+tests = [
+    "pytest",
+    "pytest-cov",
+    "hera-calibration",
+]
+all = [
+    "hera_qm[tests]"
+]
+
+[project.scripts]
+"ant_metrics_run.py" = "hera_qm.scripts.ant_metrics_run:main"
+"auto_metrics_run.py" = "hera_qm.scripts.auto_metrics_run:main"
+"xrfi_run.py" = "hera_qm.scripts.xrfi_run:main"
+"firstcal_metrics_run.py" = "hera_qm.scripts.firstcal_metrics_run:main"
+"auto_view.py" = "hera_qm.scripts.auto_view:main"
+"omnical_metrics_run.py" = "hera_qm.scripts.omnical_metrics_run:main"
+"xrfi_apply.py" = "hera_qm.scripts.xrfi_apply:main"
+"delay_xrfi_h1c_idr2_1_run.py" = "hera_qm.scripts.delay_xrfi_h1c_idr2_1_run:main"
+"xrfi_h1c_run.py" = "hera_qm.scripts.xrfi_h1c_run:main"
+"xrfi_day_threshold_run.py" = "hera_qm.scripts.xrfi_day_threshold_run:main"
+"xrfi_h3c_idr2_1_run.py" = "hera_qm.scripts.xrfi_h3c_idr2_1_run:main"
+"xrfi_h3ca_rtp_run.py" = "hera_qm.scripts.xrfi_h3ca_rtp_run:main"
+"xrfi_run_data_only.py" = "hera_qm.scripts.xrfi_run_data_only:main"
+
+[tool.setuptools_scm]
+write_to = "hera_qm/_version.py"
+parentdir_prefix_version = "hera_qm-"
+fallback_version  = "0.0.0"
+
+
+[tool.pytest.ini_options]
+addopts = "--ignore=hera_qm/scripts --cov=hera_qm --cov-config=.coveragerc"
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+exclude = [
+    "hera_qm/scripts/test_xrfi_performance.py",
+]
+
+[tool.ruff.lint]
+select = [
+    "A",
+    "ARG",
+    "B",
+    "C",
+    "E",
+    "F",
+    "FA",
+    "I002",
+    "ICN002",
+    "ICN003",
+    "N8",  # invalid variable names
+    "N999", # invalid module name
+    "NPY",  # numpy-specific checks
+    "PERF", # performance
+    "PIE",  # flake8-pie
+    "RUF",  # ruf-specific rules
+    "SIM",  # flake8-simplify
+    "UP",   # pyupgrade
+    "W",    # pycodestyle warnings
+]
+
+ignore = [
+    "E501",
+    "B018",    # useless epression
+    "B006",    # mutable argument default !!!!
+    "N813",    # camelcase imported as lowercase
+    "N801",    # use CamelCase for class names
+    "N802",    # invalid function name
+    "N803",    # invalid argument name
+    "N806",    # non-lowercase variable in function
+    "PERF401", # manual list comprehension
+    "A001",    # variable shadowing builtin
+    "E702",    # multiple statements on one line with semicolon
+    "E731",    # lambda assignment
+    "E722",    # bare except
+    "SIM105",  # suppressable exception
+    "RUF005",  # collection literal concatenation
+    "PERF203", # try-except in loop
+    "B904",    # raise witout from inside except
+    "E721",    # type-comparison
+    "B028",    # no explicit stack-level
+    "ARG001",  # unused function argument
+    "F841",    # unused variable
+    "UP032",   # use fstrings
+    "C901",    # complex structure
+    "RUF012",  # use ClassVar
+    "SIM108",  # use ternary if then else
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"

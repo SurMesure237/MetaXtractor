@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/lorenzobonaguro/cyCONDOR",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R"
+  ],
+  "downloadUrl": "https://api.github.com/repos/lorenzobonaguro/cyCONDOR/zipball/main",
+  "author": "lorenzobonaguro",
+  "dateCreated": "2022-03-31T09:35:53Z",
+  "dateModified": "2025-10-30T08:53:05Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Flow cytometry analysis workflow. The aim of this project is to provide an intuitive workflow for the analysis of high-dimensionality cytometry data in R.",
+  "identifier": 476240084,
+  "name": "lorenzobonaguro/cyCONDOR",
+  "issueTracker": "https://api.github.com/repos/lorenzobonaguro/cyCONDOR/issues",
+  "readme": "https://github.com/lorenzobonaguro/cyCONDOR/blob/master/README.md"
+}

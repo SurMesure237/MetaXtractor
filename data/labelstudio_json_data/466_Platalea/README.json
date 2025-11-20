@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "Platalea Understanding visually grounded spoken language via multi-tasking\n\n[](https://zenodo.org/badge/latestdoi/239750248) [](https://github.com/spokenlanguage/platalea/actions/workflows/pythonapp.yml) [](https://codecov.io/gh/spokenlanguage/platalea)\n\n## Installation\n\nClone this repo and cd into it:\n\ngit clone https://github.com/spokenlanguage/platalea.git cd platalea\n\nTo install in a conda environment, assuming conda has already been installed, run the following to download and install dependencies:\n\nconda create -n platalea python==3.8 pytorch -c conda-forge -c pytorch conda activate platalea pip install torchvision\n\nThen install platalea with:\n\npip install .\n\n### Experiment dependencies\n\nDifferent experiments may have different additional dependencies. The basic experiment needs the following:\n\npip install sklearn python-Levenshtein\n\n## Datasets",
+      "section": "Platalea (part 1)",
+      "repo": "466_Platalea",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Flickr8K\n\nThe repository has been developed to work with Flickr8K dataset. The code can be made to work with other datasets but this will require some adaptations.\n\nTo use Flickr8K, you need to download:  [Flickr8K] http://hockenmaier.cs.illinois.edu/Framing_Image_Description/KCCA.html [1].  Note that downloading from the official website seems broken at the moment.  Alternatively, the dataset can be obtained from  [here] https://github.com/jbrownlee/Datasets/blob/master/Flickr8k_Dataset.names.  The [Flickr Audio Caption Corpus] https://groups.csail.mit.edu/sls/downloads/flickraudio/ [2]. Some additional [metadata files] https://surfdrive.surf.nl/files/index.php/s/EF1bA9YYfhiBxoN.\n\nCreate a folder to store the dataset (we will assume here that the folder is ~/corpora/flickr8k) and move all the files you downloaded there, then extract the content of the archives. You can now setup the environment and start preprocessing the data.\n\n#### Configuration\n\nWe use ConfigArgParse for setting necessary input variables, including the location of the dataset. This means you can use either a configuration file (config.ini or config.yml), environment variables or command line arguments to specify the necessary configuration parameters.\n\nTo specify the location of the dataset, one option is to create a configuration file under your home directory (~/.config/platalea/config.yml)., with follwing content:\n\nflickr8k_root /home//corpora/flickr8k\n\nThe same result can be achieved with an environment variable:\n\nexport FLICKR8K_ROOT=/home//corpora/flickr8k\n\nYou could also specify this option directly on the command line when running an experiment (the respective options would be --flickr8k_root=...).\n\n#### Preprocessing\n\nRun the preprocessing script to extract input features:\n\npython platalea/utils/preprocessing.py flickr8k",
+      "section": "Platalea (part 2)",
+      "repo": "466_Platalea",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Howto100Men-cc\n\nThis repository has support for a subset of the [howto100M dataset] https://github.com/antoine77340/howto100m. The subset contains all videos with creative commons license that claim to be in english language according to their metadata.\n\nSampling rate of the audio features is 100Hz\n\nSampling rate of the video features is 1Hz.\n\nA dataset item is defined as the combination of video and audio for a fragment of 3 seconds.\n\n#### Preprocessing\n\nThis code contains functionality for extracting audio features from the videos. These files need to be in the datafolder before preprocessing the dataset. Preprocessing will create an index file with references to the video feature files. The video features (S3D) need to be acquired elsewhere. Videos from howto100m need to be downloaded from youtube using the metadata from the howto100m dataset provided above.\n\nTo start preprocessing, run the following:\n\npython -m platalea.utils.preprocessing howto100m-encc --howto100m_root /corpora/howto100m/\n\n#### Running/Training\n\nRunning any experiment using the howto100M dataset has not yet been implemented.\n\n## Training\n\nYou can now train a model using one of the examples provided under platalea/experiments, e.g.:\n\ncd platalea/experiments/flickr8k mkdir -p runs/test cd runs/test python -m platalea.experiments.flickr8k.basic\n\nAfter the model is trained, results are available in results.json.",
+      "section": "Platalea (part 3)",
+      "repo": "466_Platalea",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Weights and Biases (wandb)\n\nSome experiments support the use of wandb for cloud logging of results. In the examples we provide under platalea/experiments, this option is disabled by default. To force-enable it, the call to experiment() should be changed from experiment(..., wandb_mode='disabled') to experiment(..., wandb_mode='online'). To default back to wandb normal behavior (where the mode can be set through command line or environment variable), use wandb_mode=None.\n\n## Contributing\n\nIf you want to contribute to the development of platalea, have a look at the [contribution guidelines] CONTRIBUTING.md.\n\n## Changelog\n\nWe keep track of what is added, changed and removed in releases in the [changelog] CHANGELOG.md.\n\n## References\n\n[1] Hodosh, M., Young, P., & Hockenmaier, J. (2013). Framing Image Description as a Ranking Task: Data, Models and Evaluation Metrics. Journal of Artificial Intelligence Research, 47, 853\u2013899. https://doi.org/10.1613/jair.3994.\n\n[2] Harwath, D., & Glass, J. (2015). Deep multimodal semantic embeddings for speech and images. 2015 IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU), 237\u2013244. https://doi.org/10.1109/ASRU.2015.7404800.",
+      "section": "Platalea (part 4)",
+      "repo": "466_Platalea",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/martindyrba/DeepLearningInteractiveVis",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "HTML",
+    "MATLAB",
+    "Python",
+    "R",
+    "CSS",
+    "Dockerfile",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/martindyrba/DeepLearningInteractiveVis/zipball/main",
+  "author": "martindyrba",
+  "dateCreated": "2020-12-11T16:24:33Z",
+  "dateModified": "2025-09-04T11:00:36Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Interactive visualization of 3D CNN relevance maps",
+  "identifier": 320625564,
+  "name": "martindyrba/DeepLearningInteractiveVis",
+  "issueTracker": "https://api.github.com/repos/martindyrba/DeepLearningInteractiveVis/issues",
+  "readme": "https://github.com/martindyrba/DeepLearningInteractiveVis/blob/demo/README.md"
+}

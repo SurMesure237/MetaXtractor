@@ -1,0 +1,170 @@
+[
+  {
+    "data": {
+      "text": "Developer notes\n\n## Install\n\nmkdir  git clone https://github.com/asreview-simulation/asreview-simulation . python3 -m venv venv source venv/bin/activate pip install --editable .\n\nThere are various sets of dependencies that you should install depending on the work you're planning to do.\n\npip install --editable .[dev] pip install --editable .[doc2vec] pip install --editable .[sbert] pip install --editable .[tensorflow]\n\nYou can combine subsets of these into one command like so, e.g.:\n\npip install --editable .[sbert,doc2vec]\n\n## Linting\n\nLinting is set up to run the following tools, all via [pre-commit] https://pre-commit.com/:\n\nisort: Verify the import statements are formatted consistently throughout the code base. https://pypi.org/project/isort/\n\nblack: Format the code base in accordance to black's preferences. https://pypi.org/project/black/\n\nruff: Format and lint the code base in accordance to ruff's preferences. https://pypi.org/project/ruff/\n\nmypy: Perform static type checking. https://pypi.org/project/mypy/\n\ncffconvert: Verify that the citation information in CITATION.cff is valid according to the Citation File Format schema. https://pypi.org/project/cffconvert/\n\nHere's how to run pre-commit on unstaged files:\n\npip install --editable .[dev]\n\nall checks pre-commit run --all-files",
+      "section": "Developer notes + all checks",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "run check by id, see .pre-commit-config.yaml pre-commit run --all-files isort\n\nYou can set up pre-commit to run as a git hook. In typical usage, pre-commit is then triggered whenever you do a git commit. Enable this behavior as follows:\n\npre-commit install\n\n## Testing\n\nThere are various types of test: api tests\n\nunit tests\n\ntests that use mocking\n\nintegration tests\n\nuse case tests\n\ntests for maintainers\n\nEach has its own subdirectory. The tests can be run locally with:\n\npip install --editable .[dev]\n\nrun all types of test pytest",
+      "section": "run check by id, see .pre-commit-config.yaml + run all types of test",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "run tests from specific directories only, e.g. pytest tests/api tests/unit\n\nTests pertaining to a specific model have been marked accordingly with the following markers (see also pytest configuration section in pyproject.toml or run pytest --markers):\n\n| prior sampling | feature extractor | classifier | querier | balancer | stopping | objective function | |------------------|----------------------|------------------|-------------------|-------------------|------------|--------------------| | sam_handpicked | fex_doc2vec | clr_logistic | qry_cluster | bal_double | stp_none | ofn_none | | sam_random | fex_embeding_idf | clr_lstm_base | qry_max | bal_simple | stp_nq | ofn_wss | | | fex_embedding_lstm | clr_lstm_pool | qry_max_random | bal_undersample | stp_rel | | | | fex_sbert | clr_nb | qry_uncertainty | | | | | | fex_tfidf | clr_nn_2_layer | qry_random | | | | | | | clr_rf | qry_uncertainty | | | | | | | clr_svm | | | | |\n\nYou can instruct pytest to run only the tests for one or some of these marked sets. As an example, if you want to run only the tests related to Naive Bayes, you should call pytest with the -m flag as follows:\n\npytest -m clr_nb\n\nMarkers can also be combined with or and and and not, e.g.",
+      "section": "run tests from specific directories only, e.g. (part 1)",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "pytest -m 'clr_nb and fex_tfidf' pytest -m 'clr_rf and not fex_embedding_idf and not fex_embedding_lstm' pytest -m 'clr_logistic or clr_rf'",
+      "section": "run tests from specific directories only, e.g. (part 2)",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "etc\n\nBesides running locally, they can also be run on GitHub infrastructure by manually triggering the GitHub Action workflow testing. The workflow tests whether the tests pass for all combinations of operating system (Windows, Linux, MacOS), asreview version (1.0.4, 1.1.1, 1.2.1), and python version (3.8, 3.9, 3.10, 3.11).\n\nCurrently, the testing workflow on GitHub skips any tests that require TensorFlow on Python >= 3.11 (tests marked with clr_lstm_base, clr_lstm_pool, clr_nn_2_layer), because asreview has a problem installing TensorFlow on Python 3.11 and up.\n\n### tests/unit\n\nThese tests are simple, quick to run, and mostly focus on whether the asreview-simulation subcommands manipulate the state (obj) in the correct way. The idea of the \"unit\" in unit testing is that when the test fails, there is just one thing that could have gone wrong. This is in contrast to other types of test, e.g. integration testing (see below).\n\n### tests/api\n\nThese tests help safeguard against accidentally changing the api.\n\n### tests/use_cases\n\nThese tests are used to automate running some use cases.\n\n### tests/maintainers\n\nThese tests are to help maintain the project. At the moment, there is just one test file that safeguards the consistency of the version string used throughout the repository.\n\n### tests/mocked\n\nThe mocked tests verify whether the arguments that SimulateReview receives inside asreview's SimulateEntrypoint are the same arguments as what SimulateReview in asreview_simulate receives. The simulation inside these tests just do the setting up of a simulation, including creating some files in a temporary directory, but they do not run. This makes them faster than the integration tests (see below), but naturally, the simulation does not generate output files, so there are no results to compare.",
+      "section": "etc (part 1)",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### tests/it\n\nThese are the most extensive type of tests. They set up a simulation using asreview simulate, then set up the same simulation using asreview simulation [subcommands with options] start, then compare the resulting files that are generated inside the .asreview file (project.json, data/.csv, reviews//results.sql, and reviews//settings_metadata.json, but not feature_matrices/_feature_matrix.npz at the moment).\n\n## Static analysis and coverage calculation\n\nThe project has been set up to use [SonarCloud] https://sonarcloud.io to perform static analysis on the code base via a GitHub Action named sonarcloud. The analysis runs on a weekly schedule but can also be triggered manually. The results can be inspected at SonarCloud: https://sonarcloud.io/summary/overall?id=asreview-simulation. The same GitHub Action also calculates code coverage and uploads the results to SonarCloud: https://sonarcloud.io/component_measures?id=asreview-simulation&metric=coverage&view=list.\n\nIn addition to the GitHub Action, unit test coverage can be calculated and reported locally using:",
+      "section": "etc (part 2)",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "collect the data: coverage run --branch --source=asreviewcontrib.simulation -m pytest tests/unit/\n\nprint a report in the terminal: coverage report\n\nwrite an html report to ./html coverage html --directory=./html\n\n## Generating API documentation\n\nThe project uses code comments compliant with Google Docstrings (https://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings) to document its API.\n\nHTML documentation may be generated from these code comments using the pdoc command line tool, as follows:\n\ninstall dev dependencies, notably pdoc pip install --editable .[dev]\n\nuse pdoc to generate api docs for module asreviewcontrib.simulation.api and put it in ./docs pdoc --docformat google -o docs asreviewcontrib.simulation.api\n\nA GitHub Action named apidocs has been configured to generate the API documentation and host it on GitHub Pages https://asreview-simulation.github.io/asreview-simulation.\n\n## Packaging for distribution\n\npip install --editable .[dev]\n\nbuild a source distribution and put it in ./dist python3 -m build --sdist .",
+      "section": "collect the data: + print a report in the terminal: + write an html report to ./html (and 3 more)",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "build a built distribution (a.k.a. a \"wheel\") and put it in ./dist python3 -m build --wheel .\n\n## Publishing: Preparation\n\npip install --editable .[dev]\n\nVerify that\n\nunit tests pass\n\napi tests pass\n\nuse cases tests pass\n\nmocked tests pass\n\nintegration tests pass\n\ncitation metadata is up to date\n\nversion is consistent across the repository\n\nsource dist can be built\n\nwheel dist can be built\n\nsoftware works as expected when installing from distributable\n\n## Publishing: Zenodo\n\nThe repository has a GitHub action zenodraft.yml which can be triggered manually to publish a snapshot of the current repository contents (main branch) to Zenodo as a zipped archive. The workflow does not finalize the resulting deposition on Zenodo, so that the repository admin has a chance to review the draft deposition before making it final by pressing the \"Publish\" button on Zenodo.\n\n## Publishing: GitHub\n\nClick the \"Draft a new release\" button on the releases page [https://github.com/asreview-simulation/asreview-simulation/releases] https://github.com/asreview-simulation/asreview-simulation/releases. Making a release is not set up to also trigger the zenodraft workflow.\n\n## Known problems\n\nSome models generate results.sql non-deterministically, making it difficult to test whether they are (still) doing\n\nthe right thing (clr-lstm-base, clr-lstm-pool, clr-nn-2-layer, clr-rf). As a workaround, the tests for these classifiers do not compare the contents of reviews//results.sql at the moment. Embedding file doesn't seem to get used during asreview simulate, so there is nothing to compare to\n\nfor asreview simulation start.",
+      "section": "build a built distribution (a.k.a. a \"wheel\") and put it in ./dist (part 1)",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Plugins\n\nasreview-simulation's functionality can be extended by plugins, via entry point group \"asreview_simulationcontrib.quads\". Items from this entry point group are expected to be instances of [asreviewcontrib.simulation.api.extending.PluginQuad] https://asreview-simulation.github.io/asreview-simulation/asreviewcontrib/simulation/api/extending.html#PluginQuad. The sibling repository https://github.com/asreview-simulation/asreview-simulation-my-plugin provides example plugin implementations of each model flavor.",
+      "section": "build a built distribution (a.k.a. a \"wheel\") and put it in ./dist (part 2)",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "asreview-simulation\n\nCommand line interface to simulate an [ASReview] https://pypi.org/project/asreview analysis using a variety of prior sampling strategies, classifiers, feature extractors, queriers, balancers, and stopping rules, all of which can be configured to run with custom parameterizations.",
+      "section": "asreview-simulation (part 1)",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Status",
+      "section": "asreview-simulation (part 2)",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Badge &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | Description | |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------| | [](https://doi.org/10.5281/zenodo.8042547) | Persistent identifier for archived snapshots of the software | | [](https://github.com/asreview-simulation/asreview-simulation/actions/workflows/linting.yml) | Linting (isort, black, and ruff, mypy, cffconvert, via pre-commit) | | [](https://github.com/asreview-simulation/asreview-simulation/actions/workflows/testing.yml) | Unit tests, mocked tests, and integration tests on combinations of operating system, ASReview version, and Python version |",
+      "section": "asreview-simulation (part 3)",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| [](https://github.com/asreview-simulation/asreview-simulation/actions/workflows/apidocs.yml) | API docs https://asreview-simulation.github.io/asreview-simulation | | [](https://sonarcloud.io/summary/overall?id=asreview-simulation) | Static code analysis report | | [](https://sonarcloud.io/summary/overall?id=asreview-simulation) | Code coverage report | | [](https://github.com/asreview-simulation/asreview-simulation/tree/0.4.0) | Link to repository state at latest GitHub release | | [](https://github.com/asreview-simulation/asreview-simulation/compare/0.4.0...HEAD) | How many commits there have been since the latest GitHub release |",
+      "section": "asreview-simulation (part 4)",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Install",
+      "section": "asreview-simulation (part 5)",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "generate a virtual environment python3 -m venv venv\n\nactivate the virtual environment source venv/bin/activate\n\ninstall asreview-simulation and its dependencies pip install git+https://github.com/asreview-simulation/asreview-simulation.git@0.4.0",
+      "section": "generate a virtual environment + activate the virtual environment + install asreview-simulation and its dependencies",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "or, if you need optional dependencies as well, e.g. 'doc2vec' pip install asreview-simulation[doc2vec]@git+https://github.com/asreview-simulation/asreview-simulation.git@0.4.0",
+      "section": "or, if you need optional dependencies as well, e.g. 'doc2vec' (part 1)",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Command line interface (CLI)\n\nPrint the help:\n\nasreview simulation --help\n\nPrint the configuration:\n\nasreview simulation print-settings\n\nWith pretty-printing:\n\nasreview simulation print-settings --pretty\n\nStart a simulation using the default combination of models (sam-random, bal-double, clr-nb, fex-tfidf, qry-max, stp-min), each using its default parameterization:\n\nasreview simulation start --benchmark benchmark:van_de_Schoot_2017 --out ./project.asreview\n\nInstead of a benchmark dataset, you can also supply your own data via the --in option, as follows:\n\nasreview simulation start --in ./myfile.csv --out ./project.asreview asreview simulation start --in ./myfile.ris --out ./project.asreview asreview simulation start --in ./myfile.tsv --out ./project.asreview asreview simulation start --in ./myfile.xlsx --out ./project.asreview\n\nUsing a different classifier strategy can be accomplished by using one of the clr-* subcommands before issuing the start subcommand, e.g.:\n\nasreview simulation \\  clr-logistic \\  start --benchmark benchmark:van_de_Schoot_2017 --out ./project.asreview\n\nSubcommands can be chained together, for example using the logistic classifier with the undersample balancer goes like this:\n\nasreview simulation \\  clr-logistic \\  bal-undersample \\  start --benchmark benchmark:van_de_Schoot_2017 --out ./project.asreview\n\nMost subcommands have their own parameterization. Check the help of a subcommand with --help or -h for short, e.g.:\n\nasreview simulation clr-logistic --help\n\nThe above command will print:\n\nUsage: asreview simulation clr-logistic [OPTIONS]\n\nConfigure the simulation to use Logistic Regression classifier.",
+      "section": "or, if you need optional dependencies as well, e.g. 'doc2vec' (part 2)",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Options:  --c FLOAT Parameter inverse to the regularization strength of  the model. [default: 1.0]  --class_weight FLOAT Class weight of the inclusions. [default: 1.0]  -f, --force Force setting the querier configuration, even if that  means overwriting a previous configuration.  -h, --help Show this message and exit.\n\nThis command is chainable with other commands. Chained commands are  evaluated left to right; make sure to end the chain with the 'start'  command, otherwise it may appear like nothing is happening.\n\nPlease report any issues at:\n\nhttps://github.com/asreview-simulation/asreview-simulation/issues.\n\nPassing parameters to a subcommand goes like this:\n\nasreview simulation \\  clr-logistic --class_weight 1.1 \\  start --benchmark benchmark:van_de_Schoot_2017 --out ./project.asreview\n\nBy using individually parameterized, chained subcommands we can compose a variety of configurations, e.g.:\n\nasreview simulation \\  sam-random --n_included 10 --n_excluded 15 \\  fex-tfidf --ngram_max 2 \\  clr-nb --alpha 3.823 \\  qry-max-random --fraction_max 0.90 --n_instances 10 \\  bal-double --a 2.156 --alpha 0.95 --b 0.79 --beta 1.1 \\  stp-nq --n_queries 20 \\  start --benchmark benchmark:van_de_Schoot_2017 --out ./project.asreview\n\nChained commands are evaluated left to right; make sure to end the chain with the start command, otherwise it may appear like nothing is happening.\n\nHere is the list of subcommands:",
+      "section": "or, if you need optional dependencies as well, e.g. 'doc2vec' (part 3)",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "start Start the simulation print-benchmark-names Print benchmark names print-settings Print settings save-settings Save settings load-settings Load settings sam-handpicked Handpicked prior sampler sam-random Random prior sampler fex-doc2vec Doc2Vec extractor fex-embedding-idf Embedding IDF extractor fex-embedding-lstm Embedding LSTM extractor fex-sbert SBERT extractor fex-tfidf TF-IDF extractor clr-logistic Logistic Regression classifier clr-lstm-base LSTM Base classifier clr-lstm-pool LSTM Pool classifier clr-nb Naive Bayes classifier clr-nn-2-layer 2-layer Neural Net classifier clr-rf Random Forest classifier clr-svm Support Vector Machine classifier qry-cluster Cluster query strategy qry-max Max query strategy qry-max-random Mixed query strategy (Max and Random) qry-max-uncertainty Mixed query strategy (Max and Uncertainty) qry-random Random query strategy qry-uncertainty Uncertainty query strategy bal-double Double balancer bal-simple No balancer bal-undersample Undersample balancer stp-none No stopping rule stp-nq Stop after a predefined number of queries stp-rel Stop once all the relevant records have been found ofn-none No objective function ofn-wss WSS objective function",
+      "section": "or, if you need optional dependencies as well, e.g. 'doc2vec' (part 4)",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Application Programming Interface (API)\n\nFor a full overview of the API, see tests/api/test_api.py and https://asreview-simulation.github.io/asreview-simulation. Here is an example:\n\nimport os import tempfile from asreviewcontrib.simulation.api import Config from asreviewcontrib.simulation.api import OneModelConfig from asreviewcontrib.simulation.api import prep_project_directory from asreviewcontrib.simulation.api import run",
+      "section": "or, if you need optional dependencies as well, e.g. 'doc2vec' (part 5)",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "make a classifier model config using default parameter values given the model name clr = OneModelConfig(\"clr-svm\")\n\nmake a query model config using positional arguments, and a partial params dict qry = OneModelConfig(\"qry-max-random\", {\"fraction_max\": 0.90})\n\nmake a stopping model config using keyword arguments stp = OneModelConfig(abbr=\"stp-nq\", params={\"n_queries\": 10})\n\nand parameterization for models not included as argument (i.e. sam, fex, bal, ofn) config = Config(clr=clr, qry=qry, stp=stp)\n\narbitrarily pick a benchmark dataset benchmark = \"benchmark:Cohen_2006_ADHD\"\n\ncreate a temporary directory and start the simulation tmpdir = tempfile.mkdtemp(prefix=\"asreview-simulation.\", dir=\".\") output_file = f\"{tmpdir}{os.sep}project.asreview\" project, as_data = prep_project_directory(benchmark=benchmark, output_file=output_file) run(config, project, as_data)\n\nFor more examples, refer to tests/use_cases/test_use_cases.py.",
+      "section": "make a classifier model config using default parameter values given the model name + make a query model config using positional arguments, and a partial params dict + make a stopping model config using keyword arguments (and 3 more)",
+      "repo": "210_asreview-simulation",
+      "source_file": "readme.md"
+    }
+  }
+]

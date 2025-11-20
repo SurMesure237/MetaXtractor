@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/go-oidfed/lib",
+  "programmingLanguage": "Go",
+  "programmingLanguages": [
+    "Go"
+  ],
+  "downloadUrl": "https://api.github.com/repos/go-oidfed/lib/zipball/main",
+  "author": "go-oidfed",
+  "dateCreated": "2023-03-03T09:19:51Z",
+  "dateModified": "2025-10-30T09:45:39Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "WIP go implementation of oidc federation",
+  "identifier": 609050952,
+  "name": "go-oidfed/lib",
+  "issueTracker": "https://api.github.com/repos/go-oidfed/lib/issues",
+  "readme": "https://github.com/go-oidfed/lib/blob/main/README.md"
+}

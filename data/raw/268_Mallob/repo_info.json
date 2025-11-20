@@ -1,0 +1,24 @@
+{
+  "codeRepository": "https://github.com/domschrei/mallob",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "Shell",
+    "Python",
+    "C",
+    "CMake",
+    "Roff",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/domschrei/mallob/zipball/main",
+  "author": "domschrei",
+  "dateCreated": "2019-10-02T09:23:31Z",
+  "dateModified": "2025-10-28T23:14:14Z",
+  "keywords": [],
+  "license": null,
+  "description": "Malleable Load Balancer. Massively Parallel Logic Backend. Award-winning SAT solving for the cloud.",
+  "identifier": 212300129,
+  "name": "domschrei/mallob",
+  "issueTracker": "https://api.github.com/repos/domschrei/mallob/issues",
+  "readme": "https://github.com/domschrei/mallob/blob/master/README.md"
+}

@@ -1,0 +1,38 @@
+cff-version: "1.2.0"
+authors:
+- family-names: Hidding
+  given-names: Johan
+  orcid: "https://orcid.org/0000-0002-7550-1796"
+- family-names: Rodríguez-Sánchez
+  given-names: Pablo
+  orcid: "https://orcid.org/0000-0002-2855-940X"
+contact:
+- family-names: Hidding
+  given-names: Johan
+  orcid: "https://orcid.org/0000-0002-7550-1796"
+doi: 10.5281/zenodo.7839894
+message: If you use this software, please cite our article in the
+  Journal of Open Source Software.
+preferred-citation:
+  authors:
+  - family-names: Hidding
+    given-names: Johan
+    orcid: "https://orcid.org/0000-0002-7550-1796"
+  - family-names: Rodríguez-Sánchez
+    given-names: Pablo
+    orcid: "https://orcid.org/0000-0002-2855-940X"
+  date-published: 2023-04-25
+  doi: 10.21105/joss.05293
+  issn: 2475-9066
+  issue: 84
+  journal: Journal of Open Source Software
+  publisher:
+    name: Open Journals
+  start: 5293
+  title: "byteparsing: a functional parser combinator for mixed
+    ASCII/binary data"
+  type: article
+  url: "https://joss.theoj.org/papers/10.21105/joss.05293"
+  volume: 8
+title: "byteparsing: a functional parser combinator for mixed
+  ASCII/binary data"

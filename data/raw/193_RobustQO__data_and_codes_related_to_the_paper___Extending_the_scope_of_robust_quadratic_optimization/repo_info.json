@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/ahmadreza-marandi/RobustQO",
+  "programmingLanguage": "MATLAB",
+  "programmingLanguages": [
+    "MATLAB"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ahmadreza-marandi/RobustQO/zipball/main",
+  "author": "ahmadreza-marandi",
+  "dateCreated": "2020-11-13T09:26:50Z",
+  "dateModified": "2024-03-23T07:10:55Z",
+  "keywords": [],
+  "license": null,
+  "description": "Extending the scope of robust quadratic optimization paper",
+  "identifier": 312530157,
+  "name": "ahmadreza-marandi/RobustQO",
+  "issueTracker": "https://api.github.com/repos/ahmadreza-marandi/RobustQO/issues",
+  "readme": "https://github.com/ahmadreza-marandi/RobustQO/blob/master/README.md"
+}

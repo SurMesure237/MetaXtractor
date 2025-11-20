@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": ".. list-table::  :widths: 25 25  :header-rows: 1\n\nfair-software.nl _ recommendations\n\nBadges\n\n\\1. Code repository\n\n|GitHub Badge|\n\n\\2. License\n\n|License Badge|\n\n\\3. Community Registry\n\n|PyPI Badge|\n\n\\4. Enable Citation\n\n|Zenodo Badge| |JOSS Badge|\n\n\\5. Checklist\n\n|CII Best Practices Badge|\n\nOther best practices\n\n- Continuous integration\n\n|Python Build| |Python Publish|\n\n- Documentation\n\n|Documentation Status|\n\n.. |GitHub Badge| image:: https://img.shields.io/badge/github-repo-000.svg?logo=github&labelColor=gray&color=blue  :target: https://github.com/phenology/cgc  :alt: GitHub Badge\n\n.. |License Badge| image:: https://img.shields.io/github/license/phenology/cgc  :target: https://github.com/phenology/cgc  :alt: License Badge\n\n.. |PyPI Badge| image:: https://img.shields.io/pypi/v/clustering-geodata-cubes.svg?colorB=blue  :target: https://pypi.python.org/project/clustering-geodata-cubes/  :alt: PyPI Badge\n\n.. |Zenodo Badge| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.3979172.svg  :target: https://doi.org/10.5281/zenodo.3979172  :alt: Zenodo Badge\n\n.. |CII Best Practices Badge| image:: https://bestpractices.coreinfrastructure.org/projects/4167/badge  :target: https://bestpractices.coreinfrastructure.org/projects/4167  :alt: CII Best Practices Badge\n\n.. |Python Build| image:: https://github.com/phenology/cgc/workflows/Build/badge.svg  :target: https://github.com/phenology/cgc/actions?query=workflow%3A%22Build%22  :alt: Python Build\n\n.. |Python Publish| image:: https://github.com/phenology/cgc/workflows/Publish/badge.svg  :target: https://github.com/phenology/cgc/actions?query=workflow%3A%22Publish%22  :alt: Python Publish",
+      "section": "Introduction (part 1)",
+      "repo": "425_Clustering_Geo-data_Cubes",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": ".. |Documentation Status| image:: https://readthedocs.org/projects/cgc/badge/?version=latest  :target: https://cgc.readthedocs.io/en/latest/?badge=latest  :alt: Documentation Status\n\n.. |JOSS Badge| image:: https://joss.theoj.org/papers/10.21105/joss.04032/status.svg  :target: https://doi.org/10.21105/joss.04032  :alt: JOSS Badge\n\nCGC: Clustering Geo-Data Cubes\n\nThe Clustering Geo-Data Cubes (CGC) package focuses on the needs of geospatial data scientists who require tools to make sense of multi-dimensional data cubes. It provides the functionality to perform co-cluster and tri-cluster analyses on both local and distributed systems.\n\nInstallation\n\nTo install CGC, do:\n\n.. code-block:: console\n\npip install clustering-geodata-cubes\n\nAlternatively, you can clone this repository and install it using pip:\n\n.. code-block:: console\n\ngit clone https://github.com/phenology/cgc.git  cd cgc  pip install .\n\nIn order to run tests (including coverage) install the dev package version:\n\n.. code-block:: console\n\ngit clone https://github.com/phenology/cgc.git  cd cgc  pip install .[dev]  pytest -v\n\nDocumentation\n\nThe project's full API documentation can be found online _. Including:\n\nCo-clustering _\n\nTri-clustering _\n\nK-means refinement _\n\nUtility Functions _\n\nExamples of CGC applications on real geo-spatial data:\n\nCo-clustering application _\n\nTri-clustering application _\n\nTutorial",
+      "section": "Introduction (part 2)",
+      "repo": "425_Clustering_Geo-data_Cubes",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": "The tutorial of CGC can be found here _.\n\nContributing\n\nIf you want to contribute to the development of cgc, have a look at the contribution guidelines_.\n\n.. _contribution guidelines: https://github.com/phenology/cgc/tree/master/CONTRIBUTING.rst\n\nLicense\n\nCopyright (c) 2020-2023,\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\n\nCredits\n\nThe code has been developed as a collaborative effort between the ITC, University of Twente_ and the Netherlands eScience Center_ within the generalization of the project High spatial resolution phenological modelling at continental scales_.\n\n.. _ITC, University of Twente: https://www.itc.nl .. _High spatial resolution phenological modelling at continental scales: https://research-software.nl/projects/1334 .. _the Netherlands eScience Center: https://www.esciencecenter.nl\n\nThis package was created with Cookiecutter _ and the NLeSC/python-template _.",
+      "section": "Introduction (part 3)",
+      "repo": "425_Clustering_Geo-data_Cubes",
+      "source_file": "readme.rst"
+    }
+  }
+]

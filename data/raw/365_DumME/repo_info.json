@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/manifoldai/merf",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "Makefile",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/manifoldai/merf/zipball/main",
+  "author": "manifoldai",
+  "dateCreated": "2017-10-09T05:22:18Z",
+  "dateModified": "2025-10-14T12:58:07Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Mixed Effects Random Forest",
+  "identifier": 106239670,
+  "name": "manifoldai/merf",
+  "issueTracker": "https://api.github.com/repos/manifoldai/merf/issues",
+  "readme": "https://github.com/manifoldai/merf/blob/master/README.md"
+}

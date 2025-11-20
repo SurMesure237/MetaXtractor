@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/twinl/website",
+  "programmingLanguage": "Perl",
+  "programmingLanguages": [
+    "Perl",
+    "Java",
+    "HTML",
+    "JavaScript",
+    "Makefile",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/twinl/website/zipball/main",
+  "author": "twinl",
+  "dateCreated": "2017-11-10T15:23:58Z",
+  "dateModified": "2021-04-22T19:06:45Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "TwiNL: website code",
+  "identifier": 110261678,
+  "name": "twinl/website",
+  "issueTracker": "https://api.github.com/repos/twinl/website/issues",
+  "readme": "https://github.com/twinl/website/blob/master/README.md"
+}

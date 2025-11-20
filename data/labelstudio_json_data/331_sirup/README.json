@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "[](https://github.com/ivory-tower-private-power/sirup/actions/workflows/build.yml) [](https://sirup-vpn.readthedocs.io/en/latest/?badge=latest) [](https://sonarcloud.io/dashboard?id=ivory-tower-private-power_sirup) [](https://fair-software.eu) [](https://zenodo.org/doi/10.5281/zenodo.10261948)",
+      "section": "Introduction",
+      "repo": "331_sirup",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "sirup: simple IP rotation using python\n\nA wrapper around the openvpn CLI to connect to VPN servers and rotate the IP address in python programs.\n\n## What is required\n\nAn account with a VPN service that supports openvpn (for instance ProtonVPN or surfshark).\n\nA linux OS with superuser rights.\n\nopenvpn for linux. See [here] https://community.openvpn.net/openvpn/wiki/OpenvpnSoftwareReposgit for installation instructions.\n\n## How to install\n\nTo install from pip, do:\n\npython -m pip install sirup\n\nTo install sirup from GitHub repository, do:\n\npython -m pip install 'sirup @ git+https://github.com/ivory-tower-private-power/sirup'",
+      "section": "sirup: simple IP rotation using python (part 1)",
+      "repo": "331_sirup",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## How to use sirup\n\nThe package has two functionalities: connecting to a VPN server, and rotating the IP address.\n\nStart up\n\nThis step is necessary for both functionalities.\n\nimport os  import getpass import time\n\nseed = 123 mypass = \"/path/to/credentials.txt\" # the user name and password credentials from your user account with the VPN service config_path = \"/path/to/config/files/\" # the .opvn configuration files from your VPN service\n\nFunctionality 1: Connecting to a single VPN server\n\nThe sirup.VPNConnector.VPNConnector class has two methods: connect and disconnect. They are used as follows.\n\nfrom sirup.VPNConnector import VPNConnector\n\nconfig_file = os.path.join(config_path, \"name-of-one-config-file.ovpn\") pwd = getpass.getpass()\n\nconnector = VPNConnector(auth_file=mypass, config_file=config_file)\n\nconnector.connect(pwd=pwd)\n\ntime.sleep(10) connector.disconnect(pwd=pwd)\n\nFunctionality 2: Using the IP rotation feature\n\nThe sirup.IPRotator.IPRotator class has three methods: connect(), rotate(), disconnect(). They are used as follows.\n\nfrom sirup.IPRotator import IPRotator\n\nrotator = IPRotator(auth_file=mypass, config_location=config_path, seed=seed) # will ask for the sudo password\n\nrotator.connect() print(rotator.connector.current_ip)\n\nrotator.rotate() print(rotator.connector.current_ip)\n\nrotator.disconnect()\n\n### Note\n\nBefore using the package, have a look at [\"Making sure the VPN connection works correctly\"] https://github.com/ivory-tower-private-power/sirup/blob/main/docs/correct_connection.rst to make sure the VPN service works properly.\n\n## Documentation\n\nThe documentation of sirup can be found on [Read the Docs] https://sirup-vpn.readthedocs.io/en/latest/.\n\n## Contributing\n\nIf you want to contribute to the development of sirup, have a look at the [contribution guidelines] docs/CONTRIBUTING.md.",
+      "section": "sirup: simple IP rotation using python (part 2)",
+      "repo": "331_sirup",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Credits\n\nThis package was created with [Cookiecutter] https://github.com/audreyr/cookiecutter and the [NLeSC/python-template] https://github.com/NLeSC/python-template.\n\nThe logo was generated using Chat-GPT and Micorosoft Co-Pilot on July 18th 2024 at 9:32am using [this prompt] docs/_icons/prompt.md.",
+      "section": "sirup: simple IP rotation using python (part 3)",
+      "repo": "331_sirup",
+      "source_file": "readme.md"
+    }
+  }
+]

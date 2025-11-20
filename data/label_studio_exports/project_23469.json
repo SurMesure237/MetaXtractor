@@ -1,0 +1,2264 @@
+[
+  {
+    "id": 2058,
+    "annotations": [
+      {
+        "id": 10432,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:06:12.846723Z",
+        "updated_at": "2025-11-04T17:06:12.846737Z",
+        "draft_created_at": null,
+        "lead_time": 2.487,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "9f91c436-3fcc-4cd9-afc2-29d206509374",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2058,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Methods and open-source toolkit for analyzing and visualizing challenge results\n\n[Introduction] #introduction\n\n[Installation] #installation\n\n[Terms of use] #terms-of-use\n\n[Usage] #usage\n\n[Troubleshooting] #troubleshooting\n\n[Changes] #changes\n\n[Team] #team\n\n[Reference] #reference\n\nIntroduction\n\nThe current framework is a tool for analyzing and visualizing challenge results in the field of biomedical image analysis and beyond.\n\nBiomedical challenges have become the de facto standard for benchmarking biomedical image analysis algorithms. While the number of challenges is steadily increasing, surprisingly little effort has been invested in ensuring high quality design, execution and reporting for these international competitions. Specifically, results analysis and visualization in the event of uncertainties have been given almost no attention in the literature.\n\nGiven these shortcomings, the current framework aims to enable fast and wide adoption of comprehensively analyzing and visualizing the results of single-task and multi-task challenges. This approach offers an intuitive way to gain important insights into the relative and absolute performance of algorithms, which cannot be revealed by commonly applied visualization techniques.",
+      "section": "Introduction + Introduction",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.766697Z",
+    "updated_at": "2025-11-04T17:06:12.875875Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2059,
+    "annotations": [
+      {
+        "id": 10433,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 114,
+              "end": 121,
+              "text": "RStudio",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "jFczY2DePX",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 275,
+              "end": 281,
+              "text": "Pandoc",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "KohttumSDh",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 372,
+              "end": 377,
+              "text": "LaTeX",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "zNxyhzg6OT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1373,
+              "end": 1378,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "iQUGcpN0N0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 79,
+              "end": 85,
+              "text": "Pandoc",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "BIZCMspLzZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 93,
+              "end": 99,
+              "text": "1.12.3",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "1wkN-yxJG-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 23,
+              "end": 24,
+              "text": "R",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "q_lFTT4gSG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 39,
+              "end": 44,
+              "text": "3.5.2",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "kPH3OBinKy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:07:07.559723Z",
+        "updated_at": "2025-11-14T12:48:53.830718Z",
+        "draft_created_at": "2025-11-04T17:06:25.129474Z",
+        "lead_time": 117.49699999999999,
+        "prediction": {},
+        "result_count": 8,
+        "unique_id": "31d776d8-7800-4302-bdd8-91ae2acb6dfb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2059,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Installation\n\nRequires R version &gt;= 3.5.2 ().\n\nFurther, a recent version of Pandoc (&gt;= 1.12.3) is required. RStudio () automatically includes this so you do not need to download Pandoc if you plan to use rmarkdown from the RStudio IDE, otherwise you’ll need to install Pandoc for your platform (). Finally, if you want to generate a PDF report you will need to have LaTeX installed (e.g. MiKTeX, MacTeX or TinyTeX).\n\nTo get the latest released version (master branch) of the R package from GitHub:\n\nif (!requireNamespace(\"devtools\", quietly = TRUE)) install.packages(\"devtools\") if (!requireNamespace(\"BiocManager\", quietly = TRUE)) install.packages(\"BiocManager\") BiocManager::install(\"Rgraphviz\", dependencies = TRUE) devtools::install_github(\"wiesenfa/challengeR\", dependencies = TRUE)\n\nIf you are asked whether you want to update installed packages and you type “a” for all, you might need administrator permissions to update R core packages. You can also try to type “n” for updating no packages. If you are asked “Do you want to install from sources the packages which need compilation? (Yes/no/cancel)”, you can safely type “no”.\n\nIf you get warning messages (in contrast to error messages), these might not be problematic and you can try to proceed. If you encounter errors during the setup, looking into the “Troubleshooting” section might be worth it.\n\nFor Linux users: Some system libraries might be missing. Check the output in the R console for further hints carefully during the installation of packages.",
+      "section": "Installation",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.766734Z",
+    "updated_at": "2025-11-14T12:48:53.870096Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2060,
+    "annotations": [
+      {
+        "id": 10434,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 213,
+              "end": 448,
+              "text": "Wiesenfarth, M., Reinke, A., Landman, B.A., Eisenmann, M., Aguilera Saiz, L., Cardoso, M.J., Maier-Hein, L. and Kopp-Schneider, A. Methods and open-source toolkit for analyzing and visualizing challenge results. Sci Rep 11, 2369 (2021)",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "Zps1QErH0G",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 126,
+              "end": 144,
+              "text": "GPLv2 or any later",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "G0P5wqsuFB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:07:27.715123Z",
+        "updated_at": "2025-11-04T17:07:27.715143Z",
+        "draft_created_at": "2025-11-04T17:07:19.629781Z",
+        "lead_time": 19.966,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "c63e48e3-0da5-4319-86ea-75b3536b9199",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2060,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Terms of use\n\nCopyright (c) German Cancer Research Center (DKFZ). All rights reserved.\n\nchallengeR is available under license GPLv2 or any later version.\n\nIf you use this software for a publication, please cite:\n\nWiesenfarth, M., Reinke, A., Landman, B.A., Eisenmann, M., Aguilera Saiz, L., Cardoso, M.J., Maier-Hein, L. and Kopp-Schneider, A. Methods and open-source toolkit for analyzing and visualizing challenge results. Sci Rep 11, 2369 (2021).",
+      "section": "Terms of use",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.766755Z",
+    "updated_at": "2025-11-04T17:07:27.746639Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2061,
+    "annotations": [
+      {
+        "id": 10435,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:07:35.103849Z",
+        "updated_at": "2025-11-04T17:07:35.103866Z",
+        "draft_created_at": null,
+        "lead_time": 7.201,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "cf5efeae-77b3-44c2-9a49-7acf73089004",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2061,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Usage\n\nEach of the following steps has to be run to generate the report: (1) Load package, (2) load data, (3) perform ranking, (4) perform bootstrapping and (5) generation of the report\n\nYou can find R scripts for quickstart in the directory “vignettes”. An overview of all available plots is provided in the “Visualizations” vignette demonstrating the use of their corresponding plot functions as well.\n\nHere, we provide a step-by-step guide that leads you to your final report.\n\n## 1. Load package\n\nLoad package\n\nlibrary(challengeR)\n\n## 2. Load data\n\n### Data requirements\n\nData requires the following columns:\n\ntask identifier in case of multi-task challenges (string or\n\nnumeric) test case identifier (string or numeric)\n\nalgorithm identifier (string or numeric)\n\nmetric value (numeric)\n\nIn case of missing metric values, a missing observation has to be provided (either as blank field or “NA”).\n\nFor example, in a challenge with 2 tasks, 2 test cases and 2 algorithms, where in task “T2”, test case “case2”, algorithm “A2” didn’t give a prediction (and thus NA or a blank field for missing value is inserted), the data set might look like this:\n\n| Task | TestCase | Algorithm | MetricValue | |:-----|:---------|:----------|------------:| | T1 | case1 | A1 | 0.266 | | T1 | case1 | A2 | 0.202 | | T1 | case2 | A1 | 0.573 | | T1 | case2 | A2 | 0.945 | | T2 | case1 | A1 | 0.372 | | T2 | case1 | A2 | 0.898 | | T2 | case2 | A1 | 0.908 | | T2 | case2 | A2 | NA |",
+      "section": "Usage (part 1)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.766777Z",
+    "updated_at": "2025-11-04T17:07:35.131604Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2062,
+    "annotations": [
+      {
+        "id": 10436,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:07:38.058372Z",
+        "updated_at": "2025-11-04T17:07:38.058388Z",
+        "draft_created_at": null,
+        "lead_time": 2.787,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "4c66824e-1299-401d-8639-9053cc0d0635",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2062,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### 2.1 Load data from file\n\nIf you have assessment data at hand stored in a csv file (if you want to use simulated data, skip the following code line) use\n\ndata_matrix <- read.csv(file.choose()) # type ?read.csv for help\n\nThis allows to choose a file interactively, otherwise replace file.choose() by the file path (in style “/path/to/dataset.csv”) in quotation marks.",
+      "section": "Usage (part 2)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.766796Z",
+    "updated_at": "2025-11-04T17:07:38.088450Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2063,
+    "annotations": [
+      {
+        "id": 10437,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:07:40.085364Z",
+        "updated_at": "2025-11-04T17:07:40.085381Z",
+        "draft_created_at": null,
+        "lead_time": 1.833,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "d6c6ae8f-fd85-474c-91c3-5fe3dce399d2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2063,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### 2.2 Simulate data\n\nIn the following, simulated data is generated instead for illustration purposes (skip the following code chunk if you have already loaded data). The data is also stored as “inst/extdata/data\\_matrix.csv” in the repository.\n\nif (!requireNamespace(\"permute\", quietly = TRUE)) install.packages(\"permute\")\n\nn <- 50\n\nset.seed(4) strip <- runif(n,.9,1) c_ideal <- cbind(task=\"c_ideal\",  rbind(  data.frame(alg_name=\"A1\",value=runif(n,.9,1),case=1:n),  data.frame(alg_name=\"A2\",value=runif(n,.8,.89),case=1:n),  data.frame(alg_name=\"A3\",value=runif(n,.7,.79),case=1:n),  data.frame(alg_name=\"A4\",value=runif(n,.6,.69),case=1:n),  data.frame(alg_name=\"A5\",value=runif(n,.5,.59),case=1:n)  ))\n\nset.seed(1) c_random <- data.frame(task=\"c_random\",  alg_name=factor(paste0(\"A\",rep(1:5,each=n))),  value=plogis(rnorm(5*n,1.5,1)),case=rep(1:n,times=5)  )\n\nstrip2 <- seq(.8,1,length.out=5) a <- permute::allPerms(1:5) c_worstcase <- data.frame(task=\"c_worstcase\",  alg_name=c(t(a)),  value=rep(strip2,nrow(a)),  case=rep(1:nrow(a),each=5)  ) c_worstcase <- rbind(c_worstcase,  data.frame(task=\"c_worstcase\",alg_name=1:5,value=strip2,case=max(c_worstcase$case)+1)  ) c_worstcase$alg_name <- factor(c_worstcase$alg_name,labels=paste0(\"A\",1:5))\n\ndata_matrix <- rbind(c_ideal, c_random, c_worstcase)\n\n## 3. Perform ranking\n\n### 3.1 Define challenge object\n\nCode differs slightly for single- and multi-task challenges.\n\nIn case of a single-task challenge use",
+      "section": "Usage (part 3)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.766817Z",
+    "updated_at": "2025-11-04T17:07:40.111245Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2064,
+    "annotations": [
+      {
+        "id": 10438,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:07:41.055294Z",
+        "updated_at": "2025-11-04T17:07:41.055315Z",
+        "draft_created_at": null,
+        "lead_time": 0.752,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "87b19412-6827-42f8-8596-a1370e68f089",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2064,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Use only task \"c_random\" in object data_matrix dataSubset <- subset(data_matrix, task==\"c_random\")\n\nchallenge <- as.challenge(dataSubset,  # Specify which column contains the algorithms,   # which column contains a test case identifier   # and which contains the metric value:  algorithm = \"alg_name\", case = \"case\", value = \"value\",   # Specify if small metric values are better  smallBetter = FALSE)\n\nInstead, for a multi-task challenge use",
+      "section": "Use only task \"c_random\" in object data_matrix",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.766837Z",
+    "updated_at": "2025-11-04T17:07:41.082717Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2065,
+    "annotations": [
+      {
+        "id": 10439,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:07:41.785381Z",
+        "updated_at": "2025-11-04T17:07:41.785398Z",
+        "draft_created_at": null,
+        "lead_time": 0.557,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "73f38537-21f8-444f-ae2b-72b6598cd471",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2065,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Same as above but with 'by=\"task\"' where variable \"task\" contains the task identifier challenge <- as.challenge(data_matrix,   by = \"task\",   algorithm = \"alg_name\", case = \"case\", value = \"value\",   smallBetter = FALSE)",
+      "section": "Same as above but with 'by=\"task\"' where variable \"task\" contains the task identifier (part 1)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.766855Z",
+    "updated_at": "2025-11-04T17:07:41.813951Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2066,
+    "annotations": [
+      {
+        "id": 10440,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:07:44.527204Z",
+        "updated_at": "2025-11-04T17:07:44.527217Z",
+        "draft_created_at": null,
+        "lead_time": 2.574,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "76a00c57-5b9a-4ba8-8b58-560f7d84bedd",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2066,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### 3.2 Configure ranking\n\nDifferent ranking methods are available, choose one of them:\n\nfor “aggregate-then-rank” use (here: take mean for aggregation)\n\nranking %aggregateThenRank(FUN = mean, # aggregation function,   # e.g. mean, median, min, max,   # or e.g. function(x) quantile(x, probs=0.05)  na.treat = 0, # either \"na.rm\" to remove missing data,   # set missings to numeric value (e.g. 0)   # or specify a function,   # e.g. function(x) min(x)  ties.method = \"min\" # a character string specifying   # how ties are treated, see ?base::rank  )\n\nalternatively, for “rank-then-aggregate” with arguments as above\n\n(here: take mean for aggregation)\n\nranking %rankThenAggregate(FUN = mean,  ties.method = \"min\"  )\n\nalternatively, for test-then-rank based on Wilcoxon signed rank\n\ntest",
+      "section": "Same as above but with 'by=\"task\"' where variable \"task\" contains the task identifier (part 2)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.766875Z",
+    "updated_at": "2025-11-04T17:07:44.557678Z",
+    "inner_id": 9,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2067,
+    "annotations": [
+      {
+        "id": 10441,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:07:45.796881Z",
+        "updated_at": "2025-11-04T17:07:45.796894Z",
+        "draft_created_at": null,
+        "lead_time": 1.089,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "0e97ac8c-4531-46b8-96ce-becd764dda3e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2067,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "ranking %testThenRank(alpha = 0.05, # significance level  p.adjust.method = \"none\", # method for adjustment for  # multiple testing, see ?p.adjust  na.treat = 0, # either \"na.rm\" to remove missing data,  # set missings to numeric value (e.g. 0)  # or specify a function, e.g. function(x) min(x)  ties.method = \"min\" # a character string specifying  # how ties are treated, see ?base::rank  )",
+      "section": "Same as above but with 'by=\"task\"' where variable \"task\" contains the task identifier (part 3)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.766894Z",
+    "updated_at": "2025-11-04T17:07:45.819371Z",
+    "inner_id": 10,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2068,
+    "annotations": [
+      {
+        "id": 10442,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:07:48.309816Z",
+        "updated_at": "2025-11-04T17:07:48.309836Z",
+        "draft_created_at": null,
+        "lead_time": 2.348,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "745e813a-3f14-4c36-b80d-9aa23c97b2a5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2068,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## 4. Perform bootstrapping\n\nPerform bootstrapping with 1000 bootstrap samples using one CPU\n\nset.seed(123, kind = \"L'Ecuyer-CMRG\") ranking_bootstrapped %bootstrap(nboot = 1000)\n\nIf you want to use multiple CPUs (here: 8 CPUs), use\n\nlibrary(doParallel) library(doRNG) registerDoParallel(cores = 8)  registerDoRNG(123) ranking_bootstrapped %bootstrap(nboot = 1000, parallel = TRUE, progress = \"none\") stopImplicitCluster()\n\n## 5. Generate the report\n\nGenerate report in PDF, HTML or DOCX format. Code differs slightly for single- and multi-task challenges.\n\n### 5.1 For single-task challenges\n\nranking_bootstrapped %>%   report(title = \"singleTaskChallengeExample\", # used for the title of the report  file = \"filename\",   format = \"PDF\", # format can be \"PDF\", \"HTML\" or \"Word\"  latex_engine = \"pdflatex\", #LaTeX engine for producing PDF output. Options are \"pdflatex\", \"lualatex\", and \"xelatex\"  clean = TRUE #optional. Using TRUE will clean intermediate files that are created during rendering.  )\n\nArgument file allows for specifying the output file path as well, otherwise the working directory is used. If file is specified but does not have a file extension, an extension will be automatically added according to the output format given in format. Using argument clean=FALSE allows to retain intermediate files, such as separate files for each figure.\n\nIf argument “file” is omitted, the report is created in a temporary folder with file name “report”.\n\n### 5.2 For multi-task challenges\n\nSame as for single-task challenges, but additionally consensus ranking (rank aggregation across tasks) has to be given.\n\nCompute ranking consensus across tasks (here: consensus ranking according to mean ranks across tasks)",
+      "section": "Same as above but with 'by=\"task\"' where variable \"task\" contains the task identifier (part 4)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.766916Z",
+    "updated_at": "2025-11-04T17:07:48.338013Z",
+    "inner_id": 11,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2069,
+    "annotations": [
+      {
+        "id": 10443,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:07:50.512616Z",
+        "updated_at": "2025-11-04T17:07:50.512642Z",
+        "draft_created_at": null,
+        "lead_time": 2.021,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "d2f1d3b0-1169-4b61-8dbb-64b99e8f9c74",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2069,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "See ?relation_consensus for different methods to derive consensus ranking meanRanks %consensus(method = \"euclidean\")  meanRanks # note that there may be ties (i.e. some algorithms have identical mean rank)\n\nGenerate report as above, but with additional specification of consensus ranking\n\nranking_bootstrapped %>%   report(consensus = meanRanks,  title = \"multiTaskChallengeExample\",  file = \"filename\",   format = \"PDF\", # format can be \"PDF\", \"HTML\" or \"Word\"  latex_engine = \"pdflatex\"#LaTeX engine for producing PDF output. Options are \"pdflatex\", \"lualatex\", and \"xelatex\"  )\n\nThe consensus ranking is given according to mean ranks across tasks if method=“euclidean” where in case of ties (equal ranks for multiple algorithms) the average rank is used, i.e. ties.method=“average”.",
+      "section": "See ?relation_consensus for different methods to derive consensus ranking",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.766935Z",
+    "updated_at": "2025-11-04T17:07:50.540033Z",
+    "inner_id": 12,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2070,
+    "annotations": [
+      {
+        "id": 10444,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:07:53.471853Z",
+        "updated_at": "2025-11-04T17:07:53.471867Z",
+        "draft_created_at": null,
+        "lead_time": 2.789,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "23f1998b-7a0d-417b-82b4-dcf09b0c955c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2070,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Troubleshooting\n\nIn this section we provide an overview of issues that the users reported and how they were solved.\n\n## Issues related to RStudio\n\n### Issue: Rtools is missing\n\nWhile trying to install the current version of the repository:\n\ndevtools::install_github(\"wiesenfa/challengeR\", dependencies = TRUE)\n\nThe following warning showed up in the output:\n\nWARNING: Rtools is required to build R packages, but is not currently installed.\n\nTherefore, Rtools was installed via a separate executable:  and the warning disappeared.\n\n#### Solution:\n\nActually there is no need of installing Rtools, it is not really used in the toolkit. Insted, choose not to install it when it is asked. See comment in the installation section:\n\n“If you are asked whether you want to update installed packages and you type “a” for all, you might need administrator rights to update R core packages. You can also try to type “n” for updating no packages. If you are asked “Do you want to install from sources the packages which need compilation? (Yes/no/cancel)”, you can safely type “no”.”",
+      "section": "Troubleshooting (part 1)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.766956Z",
+    "updated_at": "2025-11-04T17:07:53.500707Z",
+    "inner_id": 13,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2071,
+    "annotations": [
+      {
+        "id": 10445,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:07:55.862718Z",
+        "updated_at": "2025-11-04T17:07:55.862736Z",
+        "draft_created_at": null,
+        "lead_time": 2.191,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "475d9098-5081-49bf-97a7-eb3c99a115dc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2071,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Issue: Package versions are mismatching\n\nInstalling the current version of the tool from GitHub failed.\n\nThe error message was:\n\nbyte-compile and prepare package for lazy loading Error: (converted from warning) package 'ggplot2' was built under R version 3.6.3 Execution halted ERROR: lazy loading failed for package 'challengeR'  removing 'C:/Users/.../Documents/R/win-library/3.6/challengeR'  restoring previous 'C:/Users/.../Documents/R/win-library/3.6/challengeR' Error: Failed to install 'challengeR' from GitHub:  (converted from warning) installation of package 'C:/Users/.../AppData/Local/Temp/Rtmp615qmV/file4fd419555eb4/challengeR_0.3.1.tar.gz' had non-zero exit status\n\nThe problem was that some of the packages that were built under R3.6.1 had been updated, but the current installed version was still R3.6.1.\n\n#### Solution:\n\nThe solution was to update R3.6.1 to R3.6.3. Another way would have been to reset the single packages to the versions built under R3.6.1.\n\n### Issue: Package is missing\n\nInstalling the current version of the tool from GitHub failed.\n\ndevtools::install_github(\"wiesenfa/challengeR\", dependencies = TRUE)\n\nThe error message was:\n\nError: .onLoad failed in loadNamespace() for 'pkgload', details:  call: loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]])  error: there is no package called ‘backports’\n\nThe problem was that the packages ‘backports’ had not been installed.\n\n#### Solution:\n\nThe solution was to install ‘backports’ manually.\n\ninstall.packages(\"backports\")",
+      "section": "Troubleshooting (part 2)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.766977Z",
+    "updated_at": "2025-11-04T17:07:55.891624Z",
+    "inner_id": 14,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2072,
+    "annotations": [
+      {
+        "id": 10446,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:08:02.690311Z",
+        "updated_at": "2025-11-04T17:08:02.690328Z",
+        "draft_created_at": null,
+        "lead_time": 6.658,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "1a79d9d9-699c-495c-a6d2-eefc73fc0e65",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2072,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Issue: Packages are not detected correctly\n\nWhile trying to install the package after running the following commands:\n\nif (!requireNamespace(\"devtools\", quietly = TRUE)) install.packages(\"devtools\") if (!requireNamespace(\"BiocManager\", quietly = TRUE)) install.packages(\"BiocManager\") BiocManager::install(\"Rgraphviz\", dependencies = TRUE) devtools::install_github(\"wiesenfa/challengeR\", dependencies = TRUE)\n\nThe error message was:\n\nERROR: 1: In file(con, \"r\") :  URL 'https://bioconductor.org/config.yaml': status was 'SSL connect error' 2: packages ‘BiocVersion’, ‘Rgraphviz’ are not available (for R version 3.6.1)\n\n#### Solution:\n\nThe solution was to restart RStudio.\n\n## Issues related to MiKTeX\n\n### Issue: Missing packages\n\nWhile generating the PDF with MiKTeX (2.9), the following error showed up:\n\nfatal pdflatex - gui framework cannot be initialized\n\nThere is an issue with installing missing packages in LaTeX.\n\n##### Solution:\n\nOpen your MiKTeX Console –&gt; Settings, select “Always install missing packages on-the-fly”. Then generate the report. Once the report is generated, you can reset the settings to your preferred ones.",
+      "section": "Troubleshooting (part 3)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.766997Z",
+    "updated_at": "2025-11-04T17:08:02.719428Z",
+    "inner_id": 15,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2073,
+    "annotations": [
+      {
+        "id": 10447,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:08:05.455855Z",
+        "updated_at": "2025-11-04T17:08:05.455874Z",
+        "draft_created_at": null,
+        "lead_time": 2.58,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ac30e77a-fe7f-4b11-a1c6-20e44d8a1f0b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2073,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Issue: Unable to generate report\n\nWhile generating the PDF with MiKTeX (2.9):\n\nranking_bootstrapped %>%   report(title = \"singleTaskChallengeExample\", # used for the title of the report  file = \"filename\",   format = \"PDF\", # format can be \"PDF\", \"HTML\" or \"Word\"  latex_engine = \"pdflatex\", #LaTeX engine for producing PDF output. Options are \"pdflatex\", \"lualatex\", and \"xelatex\"  clean = TRUE #optional. Using TRUE will clean intermediate files that are created during rendering.  )\n\nThe following error showed up:\n\noutput file: filename.knit.md\n\n\"C:/Program Files/RStudio/bin/pandoc/pandoc\" +RTS -K512m -RTS filename.utf8.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output filename.tex --self-contained --number-sections --highlight-style tango --pdf-engine pdflatex --variable graphics --lua-filter \"C:/Users/adm/Documents/R/win-library/3.6/rmarkdown/rmd/lua/pagebreak.lua\" --lua-filter \"C:/Users/adm/Documents/R/win-library/3.6/rmarkdown/rmd/lua/latex-div.lua\" --variable \"geometry:margin=1in\"\n\nError: LaTeX failed to compile filename.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips.\n\nWarning message: In system2(..., stdout = if (use_file_stdout()) f1 else FALSE, stderr = f2) :  '\"pdflatex\"' not found\n\n#### Solution:\n\nThe solution was to restart RStudio.",
+      "section": "Troubleshooting (part 4)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767017Z",
+    "updated_at": "2025-11-04T17:08:05.487125Z",
+    "inner_id": 16,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2074,
+    "annotations": [
+      {
+        "id": 10448,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:08:13.359178Z",
+        "updated_at": "2025-11-04T17:08:13.359214Z",
+        "draft_created_at": null,
+        "lead_time": 7.729,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "d0c9e665-36cb-4a00-b807-9143b4fa129d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2074,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Changes\n\n#### Version 1.0.5\n\nEnsure reproducibility with parallel bootstrapping\n\n([T29361] https://phabricator.mitk.org/T29361)\n\n#### Version 1.0.4\n\nFix NaN values cause error\n\n([T28746] https://phabricator.mitk.org/T28746) Fix Bars and dots don’t match in podium plot\n\n([T29167] https://phabricator.mitk.org/T29167) Fix y-axis of blob plots always scaled to 5\n\n([T28966] https://phabricator.mitk.org/T28966)\n\n#### Version 1.0.3\n\nFix ggplot warning in various places of the report\n\n([T28710] https://phabricator.mitk.org/T28710)\n\n#### Version 1.0.2\n\nFix error when all metric values are the same\n\n([T28453] https://phabricator.mitk.org/T28453) Fix wrong number of algorithms shown in report summary\n\n([T28465] https://phabricator.mitk.org/T28465)\n\n#### Version 1.0.1\n\nFix error raised in case there are more tasks than algorithms\n\ncontained in the dataset  ([T28193] https://phabricator.mitk.org/T28193) Drop restriction that at least three algorithms are required for\n\nbootstrapping ([T28194] https://phabricator.mitk.org/T28194) Avoid blank pages in PDF report when bootstrapping is disabled\n\n([T28201] https://phabricator.mitk.org/T28201) Handle tasks having only one case for bootstrapping\n\n([T28202] https://phabricator.mitk.org/T28202) Update citation ([T28210] https://phabricator.mitk.org/T28210)",
+      "section": "Changes (part 1)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767039Z",
+    "updated_at": "2025-11-04T17:08:13.387828Z",
+    "inner_id": 17,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2075,
+    "annotations": [
+      {
+        "id": 10449,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:08:16.253751Z",
+        "updated_at": "2025-11-04T17:08:16.253769Z",
+        "draft_created_at": null,
+        "lead_time": 2.727,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "1bb98441-116b-4bc7-a068-816d234fdea6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2075,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### Version 1.0.0\n\nRevision of the underlying data structure\n\nRoxygen documentation for main functionality\n\nVignettes for quickstart and overview of available plots\n\ndemonstrating the use of their corresponding plot functions Introduction of unit tests (package coverage &gt;70%)\n\nTroubleshooting section covering potential issues during setup\n\nFinally: Extensive bug fixes and improvements (for a complete\n\noverview please check the [Phabricator  tasks] https://phabricator.mitk.org/search/query/vtj0qOqH5qL6/)\n\n#### Version 0.3.3\n\nForce line break to avoid that authors exceed the page in generated\n\nPDF reports\n\n#### Version 0.3.2\n\nCorrect names of authors\n\n#### Version 0.3.1\n\nRefactoring\n\n#### Version 0.3.0\n\nMajor bug fix release\n\n#### Version 0.2.5\n\nBug fixes\n\n#### Version 0.2.4\n\nAutomatic insertion of missings",
+      "section": "Changes (part 2)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767061Z",
+    "updated_at": "2025-11-04T17:08:16.282691Z",
+    "inner_id": 18,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2076,
+    "annotations": [
+      {
+        "id": 10450,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:08:17.612131Z",
+        "updated_at": "2025-11-04T17:08:17.612145Z",
+        "draft_created_at": null,
+        "lead_time": 1.201,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "bd22878b-bfa7-4daf-8d23-b9ed3ee2e983",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2076,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### Version 0.2.3\n\nBug fixes\n\nReports for subsets (top list) of algorithms: Use\n\ne.g. subset(ranking_bootstrapped, top=3) %>% report(...) (or  subset(ranking, top=3) %>% report(...) for report without  bootstrap results) to only show the top 3 algorithms according to  the chosen ranking methods, where ranking_bootstrapped and  ranking objects as defined in the example. Line plot for ranking  robustness can be used to check whether algorithms performing well  in other ranking methods are excluded. Bootstrapping still takes  entire uncertainty into account. Podium plot and ranking heatmap  neglect excluded algorithms. Only available for single-task  challenges (for multi-task challenges not sensible because each task  would contain a different set of algorithms). Reports for subsets of tasks: Use\n\ne.g. subset(ranking_bootstrapped, tasks=c(\"task1\", \"task2\",\"task3\")) %>% report(...)  to restrict report to tasks “task1”, “task2”,\"task3. You may want to  recompute the consensus ranking before using  meanRanks=subset(ranking, tasks=c(\"task1\", \"task2\", \"task3\"))%>%consensus(method = \"euclidean\")\n\n#### Version 0.2.1\n\nIntroduction in reports now mentions e.g. ranking method, number of\n\ntest cases,… Function subset() allows selection of tasks after bootstrapping,\n\ne.g. subset(ranking_bootstrapped,1:3) report() functions gain argument colors (default:\n\ndefault_colors). Change e.g. to colors=viridisLite::inferno  which “is designed in such a way that it will analytically be  perfectly perceptually-uniform, both in regular form and also when  converted to black-and-white. It is also designed to be perceived by  readers with the most common form of color blindness.” See package  viridis for further similar functions.",
+      "section": "Changes (part 3)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767098Z",
+    "updated_at": "2025-11-04T17:08:17.636254Z",
+    "inner_id": 19,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2077,
+    "annotations": [
+      {
+        "id": 10451,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:08:18.436145Z",
+        "updated_at": "2025-11-04T17:08:18.436169Z",
+        "draft_created_at": null,
+        "lead_time": 0.649,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "7a4c68fc-3d4d-4a8f-b726-d304911ee353",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2077,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### Version 0.2.0\n\nImproved layout in case of many algorithms and tasks (while probably\n\nstill not perfect) Consistent coloring of algorithms across figures\n\nreport() function can be applied to ranked object before\n\nbootstrapping (and thus excluding figures based on bootstrapping),  i.e. in the example ranking %>% report(...) bug fixes",
+      "section": "Changes (part 4)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767117Z",
+    "updated_at": "2025-11-04T17:08:18.468312Z",
+    "inner_id": 20,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2078,
+    "annotations": [
+      {
+        "id": 10452,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 322,
+              "end": 557,
+              "text": "Wiesenfarth, M., Reinke, A., Landman, B.A., Eisenmann, M., Aguilera Saiz, L., Cardoso, M.J., Maier-Hein, L. and Kopp-Schneider, A. Methods and open-source toolkit for analyzing and visualizing challenge results. Sci Rep 11, 2369 (2021)",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "EW7rAzPtJd",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:08:31.737708Z",
+        "updated_at": "2025-11-04T17:08:31.737726Z",
+        "draft_created_at": null,
+        "lead_time": 13.12,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "3795659b-4031-4f98-a6f7-f56985ea4b84",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2078,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Team\n\nThe developer team includes members from both division of Intelligent Medical Systems (IMSY) and Biostatistics at the German Cancer Research Center (DKFZ):\n\nManuel Wiesenfarth\n\nAnnette Kopp-Schneider\n\nAnnika Reinke\n\nMatthias Eisenmann\n\nLaura Aguilera Saiz\n\nElise Récéjac\n\nLena Maier-Hein\n\nAli Emre Kavur\n\nReference\n\nWiesenfarth, M., Reinke, A., Landman, B.A., Eisenmann, M., Aguilera Saiz, L., Cardoso, M.J., Maier-Hein, L. and Kopp-Schneider, A. Methods and open-source toolkit for analyzing and visualizing challenge results. Sci Rep 11, 2369 (2021).",
+      "section": "Team + Reference",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767136Z",
+    "updated_at": "2025-11-04T17:08:31.768851Z",
+    "inner_id": 21,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2079,
+    "annotations": [
+      {
+        "id": 10453,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:08:36.370688Z",
+        "updated_at": "2025-11-04T17:08:36.370708Z",
+        "draft_created_at": null,
+        "lead_time": 4.451,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "65483f8e-b778-48f0-aedb-aef607456283",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2079,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "title: \"Methods and open-source toolkit for analyzing and visualizing challenge results\" output:  github_document:  toc: yes  toc_depth: '1'  html_document:  toc: yes  toc_depth: '1'  pdf_document:  toc: yes  toc_depth: '1' editor_options:  chunk_output_type: console\n\n```{r, echo = FALSE} knitr::opts_chunk$set(  collapse = TRUE,  comment = \"#>\",  # fig.path = \"README-\",  fig.width = 9,  fig.height = 5,  width=160 )\n\nThe current framework is a tool for analyzing and visualizing challenge results in the field of biomedical image analysis and beyond.\n\nBiomedical challenges have become the de facto standard for benchmarking biomedical image analysis algorithms. While the number of challenges is steadily increasing, surprisingly little effort has been invested in ensuring high quality design, execution and reporting for these international competitions. Specifically, results analysis and visualization in the event of uncertainties have been given almost no attention in the literature.\n\nGiven these shortcomings, the current framework aims to enable fast and wide adoption of comprehensively analyzing and visualizing the results of single-task and multi-task challenges. This approach offers an intuitive way to gain important insights into the relative and absolute performance of algorithms, which cannot be revealed by commonly applied visualization techniques.",
+      "section": "Introduction + Introduction",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767156Z",
+    "updated_at": "2025-11-04T17:08:36.401128Z",
+    "inner_id": 22,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2080,
+    "annotations": [
+      {
+        "id": 10454,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 444,
+              "end": 449,
+              "text": "LaTeX",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "DCYn5l4YaE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 313,
+              "end": 319,
+              "text": "Pandoc",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "d7wMnihHiT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1471,
+              "end": 1476,
+              "text": "Linux",
+              "labels": [
+                "OPERATING_SYSTEM"
+              ]
+            },
+            "id": "Or4rOA59wF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 23,
+              "end": 24,
+              "text": "R",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "eTEU9oT1ee",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 33,
+              "end": 41,
+              "text": ">= 3.5.2",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "mLwxza8DWH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 43,
+              "end": 68,
+              "text": "https://www.r-project.org",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "OSDbrosJYW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 101,
+              "end": 107,
+              "text": "Pandoc",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "OiPQKv9MhF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 109,
+              "end": 118,
+              "text": ">= 1.12.3",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "4C-p_DAtcg",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 339,
+              "end": 373,
+              "text": "https://pandoc.org/installing.html",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "jJ6nHXXOmQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:09:15.097840Z",
+        "updated_at": "2025-11-14T12:49:49.667466Z",
+        "draft_created_at": "2025-11-04T17:08:51.694932Z",
+        "lead_time": 85.366,
+        "prediction": {},
+        "result_count": 9,
+        "unique_id": "e5e26166-a3d6-43fe-aa50-49ec0b91cfb5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2080,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Installation\n\nRequires R version >= 3.5.2 (https://www.r-project.org).\n\nFurther, a recent version of Pandoc (>= 1.12.3) is required. RStudio (https://rstudio.com) automatically includes this so you do not need to download Pandoc if you plan to use rmarkdown from the RStudio IDE, otherwise you’ll need to install Pandoc for your platform (https://pandoc.org/installing.html). Finally, if you want to generate a PDF report you will need to have LaTeX installed (e.g. MiKTeX, MacTeX or TinyTeX).\n\nTo get the latest released version (master branch) of the R package from GitHub:\n\n```{r, eval=F,R.options,} if (!requireNamespace(\"devtools\", quietly = TRUE)) install.packages(\"devtools\") if (!requireNamespace(\"BiocManager\", quietly = TRUE)) install.packages(\"BiocManager\") BiocManager::install(\"Rgraphviz\", dependencies = TRUE) devtools::install_github(\"wiesenfa/challengeR\", dependencies = TRUE)\n\nIf you are asked whether you want to update installed packages and you type \"a\" for all, you might need administrator permissions to update R core packages. You can also try to type \"n\" for updating no packages. If you are asked \"Do you want to install from sources the packages which need compilation? (Yes/no/cancel)\", you can safely type \"no\".\n\nIf you get warning messages (in contrast to error messages), these might not be problematic and you can try to proceed. If you encounter errors during the setup, looking into the \"Troubleshooting\" section might be worth it.\n\nFor Linux users: Some system libraries might be missing. Check the output in the R console for further hints carefully during the installation of packages.",
+      "section": "Installation",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767177Z",
+    "updated_at": "2025-11-14T12:49:49.707140Z",
+    "inner_id": 23,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2081,
+    "annotations": [
+      {
+        "id": 10455,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 212,
+              "end": 491,
+              "text": "Wiesenfarth, M., Reinke, A., Landman, B.A., Eisenmann, M., Aguilera Saiz, L., Cardoso, M.J., Maier-Hein, L. and Kopp-Schneider, A. Methods and open-source toolkit for analyzing and visualizing challenge results. Sci Rep 11, 2369 (2021). https://doi.org/10.1038/s41598-021-82017-6",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "D0s1YXzfUv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 125,
+              "end": 143,
+              "text": "GPLv2 or any later",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "swlcrn8rj_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:09:35.074766Z",
+        "updated_at": "2025-11-04T17:09:35.074785Z",
+        "draft_created_at": "2025-11-04T17:09:29.214317Z",
+        "lead_time": 19.761,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "e397bfb7-29b7-45b4-9f70-4e9fe99ec1cf",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2081,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Terms of use Copyright (c) German Cancer Research Center (DKFZ). All rights reserved.\n\nchallengeR is available under license GPLv2 or any later version.\n\nIf you use this software for a publication, please cite:\n\nWiesenfarth, M., Reinke, A., Landman, B.A., Eisenmann, M., Aguilera Saiz, L., Cardoso, M.J., Maier-Hein, L. and Kopp-Schneider, A. Methods and open-source toolkit for analyzing and visualizing challenge results. Sci Rep 11, 2369 (2021). https://doi.org/10.1038/s41598-021-82017-6",
+      "section": "Terms of use",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767196Z",
+    "updated_at": "2025-11-04T17:09:35.103637Z",
+    "inner_id": 24,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2082,
+    "annotations": [
+      {
+        "id": 10456,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:09:44.073662Z",
+        "updated_at": "2025-11-04T17:09:44.073677Z",
+        "draft_created_at": null,
+        "lead_time": 8.811,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "4ed5f0c1-52a6-45c8-b4db-957cec66e989",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2082,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Usage Each of the following steps has to be run to generate the report: (1) Load package, (2) load data, (3) perform ranking, (4) perform bootstrapping and (5) generation of the report\n\nYou can find R scripts for quickstart in the directory \"vignettes\". An overview of all available plots is provided in the \"Visualizations\" vignette demonstrating the use of their corresponding plot functions as well.\n\nHere, we provide a step-by-step guide that leads you to your final report.\n\n## 1. Load package\n\nLoad package ``{r, eval=F} library(challengeR)\n\n## 2. Load data\n\n### Data requirements\n\nData requires the following columns:\n\ntask identifier in case of multi-task challenges (string or numeric)  test case identifier (string or numeric)  algorithm identifier (string or numeric)  metric value (numeric)\n\nIn case of missing metric values, a missing observation has to be provided (either as blank field or \"NA\").\n\nFor example, in a challenge with 2 tasks, 2 test cases and 2 algorithms, where in task \"T2\", test case \"case2\", algorithm \"A2\" didn't give a prediction (and thus NA or a blank field for missing value is inserted), the data set might look like this:\n\n`{r, eval=T, echo=F,results='asis'} set.seed(1) a <- cbind(expand.grid(Task=paste0(\"T\",1:2),TestCase=paste0(\"case\",1:2),Algorithm=paste0(\"A\",1:2)),MetricValue=round(c(runif(7,0,1),NA),3)) print(knitr::kable(a[order(a$Task,a$TestCase,a$Algorithm),],row.names=F))\n\n### 2.1 Load data from file\n\nIf you have assessment data at hand stored in a csv file (if you want to use simulated data, skip the following code line) use ``{r, eval=F, echo=T} data_matrix <- read.csv(file.choose()) # type ?read.csv for help\n\nThis allows to choose a file interactively, otherwise replace file.choose() by the file path (in style \"/path/to/dataset.csv\") in quotation marks.",
+      "section": "Usage (part 1)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767217Z",
+    "updated_at": "2025-11-04T17:09:44.104055Z",
+    "inner_id": 25,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2083,
+    "annotations": [
+      {
+        "id": 10457,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:09:45.137378Z",
+        "updated_at": "2025-11-04T17:09:45.137400Z",
+        "draft_created_at": null,
+        "lead_time": 0.857,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e8e76089-f10c-41a6-aca5-e440b76fde26",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2083,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### 2.2 Simulate data\n\nIn the following, simulated data is generated instead for illustration purposes (skip the following code chunk if you have already loaded data). The data is also stored as \"inst/extdata/data_matrix.csv\" in the repository. ``{r, eval=F, echo=T} if (!requireNamespace(\"permute\", quietly = TRUE)) install.packages(\"permute\")\n\nn <- 50\n\nset.seed(4) strip <- runif(n,.9,1) c_ideal <- cbind(task=\"c_ideal\",  rbind(  data.frame(alg_name=\"A1\",value=runif(n,.9,1),case=1:n),  data.frame(alg_name=\"A2\",value=runif(n,.8,.89),case=1:n),  data.frame(alg_name=\"A3\",value=runif(n,.7,.79),case=1:n),  data.frame(alg_name=\"A4\",value=runif(n,.6,.69),case=1:n),  data.frame(alg_name=\"A5\",value=runif(n,.5,.59),case=1:n)  ))\n\nset.seed(1) c_random <- data.frame(task=\"c_random\",  alg_name=factor(paste0(\"A\",rep(1:5,each=n))),  value=plogis(rnorm(5*n,1.5,1)),case=rep(1:n,times=5)  )\n\nstrip2 <- seq(.8,1,length.out=5) a <- permute::allPerms(1:5) c_worstcase <- data.frame(task=\"c_worstcase\",  alg_name=c(t(a)),  value=rep(strip2,nrow(a)),  case=rep(1:nrow(a),each=5)  ) c_worstcase <- rbind(c_worstcase,  data.frame(task=\"c_worstcase\",alg_name=1:5,value=strip2,case=max(c_worstcase$case)+1)  ) c_worstcase$alg_name <- factor(c_worstcase$alg_name,labels=paste0(\"A\",1:5))\n\ndata_matrix <- rbind(c_ideal, c_random, c_worstcase)\n\n## 3. Perform ranking\n\n### 3.1 Define challenge object\n\nCode differs slightly for single- and multi-task challenges.\n\nIn case of a single-task challenge use\n\n``{r, eval=F, echo=T}",
+      "section": "Usage (part 2)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767238Z",
+    "updated_at": "2025-11-04T17:09:45.167371Z",
+    "inner_id": 26,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2084,
+    "annotations": [
+      {
+        "id": 10458,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:09:45.948464Z",
+        "updated_at": "2025-11-04T17:09:45.948484Z",
+        "draft_created_at": null,
+        "lead_time": 0.633,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "9c64f61b-d7b7-4ed0-bc54-86efe1f77b6b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2084,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Use only task \"c_random\" in object data_matrix dataSubset <- subset(data_matrix, task==\"c_random\")\n\nchallenge <- as.challenge(dataSubset,  # Specify which column contains the algorithms,   # which column contains a test case identifier   # and which contains the metric value:  algorithm = \"alg_name\", case = \"case\", value = \"value\",   # Specify if small metric values are better  smallBetter = FALSE)\n\nInstead, for a multi-task challenge use\n\n```{r, eval=F, echo=T}",
+      "section": "Use only task \"c_random\" in object data_matrix",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767256Z",
+    "updated_at": "2025-11-04T17:09:45.975005Z",
+    "inner_id": 27,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2085,
+    "annotations": [
+      {
+        "id": 10459,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:09:46.824657Z",
+        "updated_at": "2025-11-04T17:09:46.824686Z",
+        "draft_created_at": null,
+        "lead_time": 0.717,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "3578804c-1b22-4000-ad20-6ce75a14db8d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2085,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### 3.2 Configure ranking\n\nDifferent ranking methods are available, choose one of them:\n\nfor \"aggregate-then-rank\" use (here: take mean for aggregation)\n\n``{r, eval=F, echo=T} ranking %aggregateThenRank(FUN = mean, # aggregation function,   # e.g. mean, median, min, max,   # or e.g. function(x) quantile(x, probs=0.05)  na.treat = 0, # either \"na.rm\" to remove missing data,   # set missings to numeric value (e.g. 0)   # or specify a function,   # e.g. function(x) min(x)  ties.method = \"min\" # a character string specifying   # how ties are treated, see ?base::rank  )\n\nalternatively, for \"rank-then-aggregate\" with arguments as above (here: take mean for aggregation)\n\n``{r, eval=F, echo=T} ranking %rankThenAggregate(FUN = mean,  ties.method = \"min\"  )",
+      "section": "Same as above but with 'by=\"task\"' where variable \"task\" contains the task identifier (part 2)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767275Z",
+    "updated_at": "2025-11-04T17:09:46.853691Z",
+    "inner_id": 28,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2086,
+    "annotations": [
+      {
+        "id": 10460,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:09:47.680649Z",
+        "updated_at": "2025-11-04T17:09:47.680667Z",
+        "draft_created_at": null,
+        "lead_time": 0.685,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "4afccdc3-8142-4b9c-ba2b-99d7ba9a953b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2086,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "alternatively, for test-then-rank based on Wilcoxon signed rank test\n\n```{r, eval=F, echo=T} ranking %testThenRank(alpha = 0.05, # significance level  p.adjust.method = \"none\", # method for adjustment for  # multiple testing, see ?p.adjust  na.treat = 0, # either \"na.rm\" to remove missing data,  # set missings to numeric value (e.g. 0)  # or specify a function, e.g. function(x) min(x)  ties.method = \"min\" # a character string specifying  # how ties are treated, see ?base::rank  )",
+      "section": "Same as above but with 'by=\"task\"' where variable \"task\" contains the task identifier (part 3)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767294Z",
+    "updated_at": "2025-11-04T17:09:47.712663Z",
+    "inner_id": 29,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2087,
+    "annotations": [
+      {
+        "id": 10461,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:09:49.977663Z",
+        "updated_at": "2025-11-04T17:09:49.977683Z",
+        "draft_created_at": null,
+        "lead_time": 2.125,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e9f60727-91c0-4c2a-bcb8-f77b48242ba4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2087,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## 4. Perform bootstrapping\n\nPerform bootstrapping with 1000 bootstrap samples using one CPU ``{r, eval=F, echo=T} set.seed(123, kind = \"L'Ecuyer-CMRG\") ranking_bootstrapped %bootstrap(nboot = 1000)\n\nIf you want to use multiple CPUs (here: 8 CPUs), use\n\n`{r, eval=F, echo=T} library(doParallel) library(doRNG) registerDoParallel(cores = 8)  registerDoRNG(123) ranking_bootstrapped %bootstrap(nboot = 1000, parallel = TRUE, progress = \"none\") stopImplicitCluster()\n\n## 5. Generate the report\n\nGenerate report in PDF, HTML or DOCX format. Code differs slightly for single- and multi-task challenges.\n\n### 5.1 For single-task challenges\n\n`{r, eval=F, echo=T} ranking_bootstrapped %>%   report(title = \"singleTaskChallengeExample\", # used for the title of the report  file = \"filename\",   format = \"PDF\", # format can be \"PDF\", \"HTML\" or \"Word\"  latex_engine = \"pdflatex\", #LaTeX engine for producing PDF output. Options are \"pdflatex\", \"lualatex\", and \"xelatex\"  clean = TRUE #optional. Using TRUE will clean intermediate files that are created during rendering.  )\n\nArgument file allows for specifying the output file path as well, otherwise the working directory is used. If file is specified but does not have a file extension, an extension will be automatically added according to the output format given in format.  Using argument clean=FALSE allows to retain intermediate files, such as separate files for each figure.\n\nIf argument \"file\" is omitted, the report is created in a temporary folder with file name \"report\".\n\n### 5.2 For multi-task challenges\n\nSame as for single-task challenges, but additionally consensus ranking (rank aggregation across tasks) has to be given.\n\nCompute ranking consensus across tasks (here: consensus ranking according to mean ranks across tasks)   ``{r, eval=F, echo=T}",
+      "section": "Same as above but with 'by=\"task\"' where variable \"task\" contains the task identifier (part 4)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767316Z",
+    "updated_at": "2025-11-04T17:09:50.007186Z",
+    "inner_id": 30,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2088,
+    "annotations": [
+      {
+        "id": 10462,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:09:50.824079Z",
+        "updated_at": "2025-11-04T17:09:50.824103Z",
+        "draft_created_at": null,
+        "lead_time": 0.661,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "5bb887e6-528a-4208-a312-452634d8ad7b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2088,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "See ?relation_consensus for different methods to derive consensus ranking meanRanks %consensus(method = \"euclidean\")  meanRanks # note that there may be ties (i.e. some algorithms have identical mean rank)\n\nGenerate report as above, but with additional specification of consensus ranking ```{r, eval=F, echo=T} ranking_bootstrapped %>%   report(consensus = meanRanks,  title = \"multiTaskChallengeExample\",  file = \"filename\",   format = \"PDF\", # format can be \"PDF\", \"HTML\" or \"Word\"  latex_engine = \"pdflatex\"#LaTeX engine for producing PDF output. Options are \"pdflatex\", \"lualatex\", and \"xelatex\"  )\n\nThe consensus ranking is given according to mean ranks across tasks if method=\"euclidean\" where in case of ties (equal ranks for multiple algorithms) the average rank is used, i.e. ties.method=\"average\".",
+      "section": "See ?relation_consensus for different methods to derive consensus ranking",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767335Z",
+    "updated_at": "2025-11-04T17:09:50.851713Z",
+    "inner_id": 31,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2089,
+    "annotations": [
+      {
+        "id": 10463,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:09:52.036343Z",
+        "updated_at": "2025-11-04T17:09:52.036356Z",
+        "draft_created_at": null,
+        "lead_time": 1.053,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "7c318ee9-d774-4b1d-97dd-412b2dd1a5b7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2089,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Troubleshooting\n\nIn this section we provide an overview of issues that the users reported and how they were solved.\n\n## Issues related to RStudio\n\n### Issue: Rtools is missing\n\nWhile trying to install the current version of the repository:\n\n``{r, eval=F, echo=T} devtools::install_github(\"wiesenfa/challengeR\", dependencies = TRUE)\n\nThe following warning showed up in the output: ``{r, eval=F, echo=T} WARNING: Rtools is required to build R packages, but is not currently installed.\n\nTherefore, Rtools was installed via a separate executable: https://cran.r-project.org/bin/windows/Rtools/ and the warning disappeared.   #### Solution:\n\nActually there is no need of installing Rtools, it is not really used in the toolkit. Insted, choose not to install it when it is asked. See comment in the installation section:\n\n“If you are asked whether you want to update installed packages and you type “a” for all, you might need administrator rights to update R core packages. You can also try to type “n” for updating no packages. If you are asked “Do you want to install from sources the packages which need compilation? (Yes/no/cancel)”, you can safely type “no”.”",
+      "section": "Troubleshooting (part 1)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767354Z",
+    "updated_at": "2025-11-04T17:09:52.065399Z",
+    "inner_id": 32,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2090,
+    "annotations": [
+      {
+        "id": 10464,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:09:57.730049Z",
+        "updated_at": "2025-11-04T17:09:57.730066Z",
+        "draft_created_at": null,
+        "lead_time": 5.472,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "d099a885-acc6-4b39-b593-52d861b20b9f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2090,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Issue: Package versions are mismatching\n\nInstalling the current version of the tool from GitHub failed.\n\nThe error message was:\n\n``{r, eval=F, echo=T} byte-compile and prepare package for lazy loading Error: (converted from warning) package 'ggplot2' was built under R version 3.6.3 Execution halted ERROR: lazy loading failed for package 'challengeR'  removing 'C:/Users/.../Documents/R/win-library/3.6/challengeR'  restoring previous 'C:/Users/.../Documents/R/win-library/3.6/challengeR' Error: Failed to install 'challengeR' from GitHub:  (converted from warning) installation of package 'C:/Users/.../AppData/Local/Temp/Rtmp615qmV/file4fd419555eb4/challengeR_0.3.1.tar.gz' had non-zero exit status\n\nThe problem was that some of the packages that were built under R3.6.1 had been updated, but the current installed version was still R3.6.1.\n\n#### Solution:\n\nThe solution was to update R3.6.1 to R3.6.3. Another way would have been to reset the single packages to the versions built under R3.6.1.\n\n### Issue: Package is missing\n\nInstalling the current version of the tool from GitHub failed.\n\n`{r, eval=F, echo=T}  devtools::install_github(\"wiesenfa/challengeR\", dependencies = TRUE)\n\nThe error message was:\n\n`{r, eval=F, echo=T} Error: .onLoad failed in loadNamespace() for 'pkgload', details:  call: loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]])  error: there is no package called ‘backports’\n\nThe problem was that the packages 'backports' had not been installed.\n\n#### Solution:\n\nThe solution was to install 'backports' manually.\n\n``{r, eval=F, echo=T}  install.packages(\"backports\")",
+      "section": "Troubleshooting (part 2)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767375Z",
+    "updated_at": "2025-11-04T17:09:57.762203Z",
+    "inner_id": 33,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2091,
+    "annotations": [
+      {
+        "id": 10465,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:09:58.680057Z",
+        "updated_at": "2025-11-04T17:09:58.680074Z",
+        "draft_created_at": null,
+        "lead_time": 0.748,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "33ae28e4-1509-439d-97dc-7a2d1b41c66c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2091,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Issue: Packages are not detected correctly\n\nWhile trying to install the package after running the following commands:\n\n``{r, eval=F, echo=T} if (!requireNamespace(\"devtools\", quietly = TRUE)) install.packages(\"devtools\") if (!requireNamespace(\"BiocManager\", quietly = TRUE)) install.packages(\"BiocManager\") BiocManager::install(\"Rgraphviz\", dependencies = TRUE) devtools::install_github(\"wiesenfa/challengeR\", dependencies = TRUE)\n\nThe error message was:\n\n`{r, eval=F, echo=T} ERROR: 1: In file(con, \"r\") :  URL 'https://bioconductor.org/config.yaml': status was 'SSL connect error' 2: packages ‘BiocVersion’, ‘Rgraphviz’ are not available (for R version 3.6.1)\n\n#### Solution:\n\nThe solution was to restart RStudio.\n\n## Issues related to MiKTeX\n\n### Issue: Missing packages\n\nWhile generating the PDF with MiKTeX (2.9), the following error showed up:\n\n``{r, eval=F, echo=T} fatal pdflatex - gui framework cannot be initialized\n\nThere is an issue with installing missing packages in LaTeX.\n\n##### Solution:\n\nOpen your MiKTeX Console --> Settings, select \"Always install missing packages on-the-fly\". Then generate the report. Once the report is generated, you can reset the settings to your preferred ones.",
+      "section": "Troubleshooting (part 3)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767395Z",
+    "updated_at": "2025-11-04T17:09:58.707498Z",
+    "inner_id": 34,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2092,
+    "annotations": [
+      {
+        "id": 10466,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:10:01.834534Z",
+        "updated_at": "2025-11-04T17:10:01.834549Z",
+        "draft_created_at": null,
+        "lead_time": 2.979,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "607ee128-b2f4-4299-aa19-81d17ffec1f8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2092,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Issue: Unable to generate report\n\nWhile generating the PDF with MiKTeX (2.9):\n\n``{r, eval=F, echo=T} ranking_bootstrapped %>%   report(title = \"singleTaskChallengeExample\", # used for the title of the report  file = \"filename\",   format = \"PDF\", # format can be \"PDF\", \"HTML\" or \"Word\"  latex_engine = \"pdflatex\", #LaTeX engine for producing PDF output. Options are \"pdflatex\", \"lualatex\", and \"xelatex\"  clean = TRUE #optional. Using TRUE will clean intermediate files that are created during rendering.  )\n\nThe following error showed up:\n\n``{r, eval=F, echo=T} output file: filename.knit.md\n\n\"C:/Program Files/RStudio/bin/pandoc/pandoc\" +RTS -K512m -RTS filename.utf8.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output filename.tex --self-contained --number-sections --highlight-style tango --pdf-engine pdflatex --variable graphics --lua-filter \"C:/Users/adm/Documents/R/win-library/3.6/rmarkdown/rmd/lua/pagebreak.lua\" --lua-filter \"C:/Users/adm/Documents/R/win-library/3.6/rmarkdown/rmd/lua/latex-div.lua\" --variable \"geometry:margin=1in\"\n\nError: LaTeX failed to compile filename.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips.\n\nWarning message: In system2(..., stdout = if (use_file_stdout()) f1 else FALSE, stderr = f2) :  '\"pdflatex\"' not found\n\n#### Solution:\n\nThe solution was to restart RStudio.",
+      "section": "Troubleshooting (part 4)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767415Z",
+    "updated_at": "2025-11-04T17:10:01.862597Z",
+    "inner_id": 35,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2093,
+    "annotations": [
+      {
+        "id": 10467,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:10:03.159250Z",
+        "updated_at": "2025-11-04T17:10:03.159291Z",
+        "draft_created_at": null,
+        "lead_time": 1.125,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "26f3b6aa-b967-4a28-809b-f4acd00fbf1e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2093,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Changes\n\n#### Version 1.0.5\n\nEnsure reproducibility with parallel bootstrapping ([T29361] https://phabricator.mitk.org/T29361)\n\n#### Version 1.0.4\n\nFix NaN values cause error ([T28746] https://phabricator.mitk.org/T28746)\n\nFix Bars and dots don't match in podium plot ([T29167] https://phabricator.mitk.org/T29167)\n\nFix y-axis of blob plots always scaled to 5 ([T28966] https://phabricator.mitk.org/T28966)\n\n#### Version 1.0.3\n\nFix ggplot warning in various places of the report ([T28710] https://phabricator.mitk.org/T28710)\n\n#### Version 1.0.2\n\nFix error when all metric values are the same ([T28453] https://phabricator.mitk.org/T28453)\n\nFix wrong number of algorithms shown in report summary ([T28465] https://phabricator.mitk.org/T28465)\n\n#### Version 1.0.1\n\nFix error raised in case there are more tasks than algorithms contained in the dataset ([T28193] https://phabricator.mitk.org/T28193)\n\nDrop restriction that at least three algorithms are required for bootstrapping ([T28194] https://phabricator.mitk.org/T28194)\n\nAvoid blank pages in PDF report when bootstrapping is disabled ([T28201] https://phabricator.mitk.org/T28201)\n\nHandle tasks having only one case for bootstrapping ([T28202] https://phabricator.mitk.org/T28202)\n\nUpdate citation ([T28210] https://phabricator.mitk.org/T28210)\n\n#### Version 1.0.0\n\nRevision of the underlying data structure\n\nRoxygen documentation for main functionality\n\nVignettes for quickstart and overview of available plots demonstrating the use of their corresponding plot functions\n\nIntroduction of unit tests (package coverage >70%)\n\nTroubleshooting section covering potential issues during setup\n\nFinally: Extensive bug fixes and improvements (for a complete overview please check the [Phabricator tasks] https://phabricator.mitk.org/search/query/vtj0qOqH5qL6/)",
+      "section": "Changes (part 1)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767436Z",
+    "updated_at": "2025-11-04T17:10:03.187859Z",
+    "inner_id": 36,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2094,
+    "annotations": [
+      {
+        "id": 10468,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:10:04.310340Z",
+        "updated_at": "2025-11-04T17:10:04.310355Z",
+        "draft_created_at": null,
+        "lead_time": 0.975,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "3baaae52-03aa-417f-bc23-adc056e21324",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2094,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### Version 0.3.3\n\nForce line break to avoid that authors exceed the page in generated PDF reports\n\n#### Version 0.3.2\n\nCorrect names of authors\n\n#### Version 0.3.1\n\nRefactoring\n\n#### Version 0.3.0\n\nMajor bug fix release\n\n#### Version 0.2.5\n\nBug fixes\n\n#### Version 0.2.4\n\nAutomatic insertion of missings\n\n#### Version 0.2.3\n\nBug fixes\n\nReports for subsets (top list) of algorithms: Use e.g. subset(ranking_bootstrapped, top=3) %>% report(...) (or subset(ranking, top=3) %>% report(...) for report without bootstrap results) to only show the top 3 algorithms according to the chosen ranking methods, where ranking_bootstrapped and ranking objects as defined in the example. Line plot for ranking robustness can be used to check whether algorithms performing well in other ranking methods are excluded. Bootstrapping still takes entire uncertainty into account. Podium plot and ranking heatmap neglect excluded algorithms. Only available for single-task challenges (for multi-task challenges not sensible because each task would contain a different set of algorithms).\n\nReports for subsets of tasks: Use e.g. subset(ranking_bootstrapped, tasks=c(\"task1\", \"task2\",\"task3\")) %>% report(...) to restrict report to tasks \"task1\", \"task2\",\"task3. You may want to recompute the consensus ranking before using meanRanks=subset(ranking, tasks=c(\"task1\", \"task2\", \"task3\"))%>%consensus(method = \"euclidean\")",
+      "section": "Changes (part 2)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767456Z",
+    "updated_at": "2025-11-04T17:10:04.336751Z",
+    "inner_id": 37,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2095,
+    "annotations": [
+      {
+        "id": 10469,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:10:05.617945Z",
+        "updated_at": "2025-11-04T17:10:05.617962Z",
+        "draft_created_at": null,
+        "lead_time": 1.147,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f6abaafa-6788-4a48-988c-4d30aafc7054",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2095,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "#### Version 0.2.1\n\nIntroduction in reports now mentions e.g. ranking method, number of test cases,...\n\nFunction subset() allows selection of tasks after bootstrapping, e.g. subset(ranking_bootstrapped,1:3)\n\nreport() functions gain argument colors (default: default_colors). Change e.g. to colors=viridisLite::inferno which \"is designed in such a way that it will analytically be perfectly perceptually-uniform, both in regular form and also when converted to black-and-white. It is also designed to be perceived by readers with the most common form of color blindness.\" See package viridis for further similar functions.\n\n#### Version 0.2.0\n\nImproved layout in case of many algorithms and tasks (while probably still not perfect)\n\nConsistent coloring of algorithms across figures\n\nreport() function can be applied to ranked object before bootstrapping (and thus excluding figures based on bootstrapping), i.e. in the example ranking %>% report(...)\n\nbug fixes",
+      "section": "Changes (part 3)",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767475Z",
+    "updated_at": "2025-11-04T17:10:05.647077Z",
+    "inner_id": 38,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2096,
+    "annotations": [
+      {
+        "id": 10470,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 322,
+              "end": 601,
+              "text": "Wiesenfarth, M., Reinke, A., Landman, B.A., Eisenmann, M., Aguilera Saiz, L., Cardoso, M.J., Maier-Hein, L. and Kopp-Schneider, A. Methods and open-source toolkit for analyzing and visualizing challenge results. Sci Rep 11, 2369 (2021). https://doi.org/10.1038/s41598-021-82017-6",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "iKkzSQ-7DB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:10:17.986313Z",
+        "updated_at": "2025-11-04T17:10:17.986332Z",
+        "draft_created_at": "2025-11-04T17:10:17.575465Z",
+        "lead_time": 12.196,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "9ec39ab4-f6ae-4472-809f-870b4305af25",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2096,
+        "project": 23469,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Team\n\nThe developer team includes members from both division of Intelligent Medical Systems (IMSY) and Biostatistics at the German Cancer Research Center (DKFZ):\n\nManuel Wiesenfarth\n\nAnnette Kopp-Schneider\n\nAnnika Reinke\n\nMatthias Eisenmann\n\nLaura Aguilera Saiz\n\nElise Récéjac\n\nLena Maier-Hein\n\nAli Emre Kavur\n\nReference\n\nWiesenfarth, M., Reinke, A., Landman, B.A., Eisenmann, M., Aguilera Saiz, L., Cardoso, M.J., Maier-Hein, L. and Kopp-Schneider, A. Methods and open-source toolkit for analyzing and visualizing challenge results. Sci Rep 11, 2369 (2021). https://doi.org/10.1038/s41598-021-82017-6",
+      "section": "Team + Reference",
+      "repo": "496_Rankings_Reloaded",
+      "source_file": "readme.rmd"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:05.767493Z",
+    "updated_at": "2025-11-04T17:10:18.014677Z",
+    "inner_id": 39,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23469,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/vitruv-tools/Vitruv",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java",
+    "Xtend"
+  ],
+  "downloadUrl": "https://api.github.com/repos/vitruv-tools/Vitruv/zipball/main",
+  "author": "vitruv-tools",
+  "dateCreated": "2016-09-07T13:46:37Z",
+  "dateModified": "2025-10-27T20:47:05Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/epl-1.0",
+  "description": "View-based Development and Model Consistency Framework",
+  "identifier": 67610524,
+  "name": "vitruv-tools/Vitruv",
+  "issueTracker": "https://api.github.com/repos/vitruv-tools/Vitruv/issues",
+  "readme": "https://github.com/vitruv-tools/Vitruv/blob/main/README.md"
+}

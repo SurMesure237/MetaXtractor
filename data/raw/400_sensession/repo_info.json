@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/nzqo/sensession",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Jupyter Notebook",
+    "MATLAB",
+    "Shell",
+    "C"
+  ],
+  "downloadUrl": "https://api.github.com/repos/nzqo/sensession/zipball/main",
+  "author": "nzqo",
+  "dateCreated": "2025-09-09T11:11:19Z",
+  "dateModified": "2025-10-28T10:28:03Z",
+  "keywords": [],
+  "license": null,
+  "description": "Framework to instrument CSI collection from multiple collection tools",
+  "identifier": 1053375569,
+  "name": "nzqo/sensession",
+  "issueTracker": "https://api.github.com/repos/nzqo/sensession/issues",
+  "readme": "https://github.com/nzqo/sensession/blob/main/README.md"
+}

@@ -1,0 +1,42 @@
+{
+  "codeRepository": "https://github.com/jalalmostafa/SciTS",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "HTML",
+    "C#",
+    "Shell",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/jalalmostafa/SciTS/zipball/main",
+  "author": "jalalmostafa",
+  "dateCreated": "2021-11-17T10:42:53Z",
+  "dateModified": "2024-10-24T15:39:00Z",
+  "keywords": [
+    "benchmark",
+    "benchmark-framework",
+    "benchmarking",
+    "benchmarking-suite",
+    "benchmarks",
+    "clickhouse",
+    "database",
+    "database-management",
+    "databases",
+    "influxdb",
+    "metrics",
+    "postgres",
+    "postgresql",
+    "scientific-computing",
+    "scientific-publications",
+    "time-series",
+    "timescale",
+    "timescaledb",
+    "timeseries"
+  ],
+  "license": null,
+  "description": "A tool to benchmark Time-series databases",
+  "identifier": 429005385,
+  "name": "jalalmostafa/SciTS",
+  "issueTracker": "https://api.github.com/repos/jalalmostafa/SciTS/issues",
+  "readme": "https://github.com/jalalmostafa/SciTS/blob/master/README.md"
+}

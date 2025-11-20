@@ -1,0 +1,165 @@
+[
+  {
+    "id": 1833,
+    "annotations": [
+      {
+        "id": 10594,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 131,
+              "end": 172,
+              "text": "https://doi.org/10.1101/2025.01.27.635038",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "9J_MJZcEqM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:11:08.055076Z",
+        "updated_at": "2025-11-04T18:11:08.055095Z",
+        "draft_created_at": "2025-11-04T18:11:06.264700Z",
+        "lead_time": 12.839,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "0db604aa-4a79-46e4-bc19-a29fa3229fe1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1833,
+        "project": 23417,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "MUSICiAn: Genome-wide Identification of Genes Involved in DNA Repair via Control-Free Mutational Spectra Analysis [BioArXiv paper] https://doi.org/10.1101/2025.01.27.635038\n\n## Abstract\n\nMotivation: Understanding the factors involved in DNA double-strand break (DSB) repair is crucial for the development of targeted anti-cancer therapies, yet the roles of many genes remain unclear. Recent studies show that perturbations of certain genes can alter the distribution of sequence-specific mutations left behind after DSB repair. This suggests that genome-wide screening could reveal novel DSB repair factors by identifying genes whose perturbation causes the mutational distribution spectra observed at a given DSB site to deviate significantly from the wild-type. However, designing proper controls for a genome-wide perturbation screen could be challenging. We explore the idea that a genome-wide screen might allow us to forgo the use of traditional non-targeting controls by reframing the analysis as an outlier detection problem, assuming that most genes have minimal influence on DSB repair.\n\nResults: We propose MUSICiAn (Mutational Signature Catalogue Analysis), a compositional data analysis method that ranks gene perturbation-specific mutational spectra without controls by measuring deviations from the central tendency in the distributions of all spectra. We show that MUSICiAn can effectively estimate pseudo-controls for the existing Repair-seq dataset, screening 476 genes and 60 non-targeting controls. We further apply MUSICiAn to a genome-wide dataset profiling mutational outcomes induced by CRISPR-Cas9 at three target sites across cells with individual perturbations of 18,406 genes. MUSICiAn successfully recovers known genes, highlights the spliceosome as a lesser-appreciated player in DSB repair, and reveals candidates for further investigation.",
+      "section": "MUSICiAn: Genome-wide Identification of Genes Involved in DNA Repair via Control-Free Mutational Spectra Analysis (part 1)",
+      "repo": "339_MUSICiAn",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.116843Z",
+    "updated_at": "2025-11-04T18:11:08.082667Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23417,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1834,
+    "annotations": [
+      {
+        "id": 10595,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:11:15.746795Z",
+        "updated_at": "2025-11-04T18:11:15.746819Z",
+        "draft_created_at": null,
+        "lead_time": 7.502,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "bf5fb940-0d0b-411b-848e-915b3ca66d03",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1834,
+        "project": 23417,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Repository details\n\nThis repository contains all the code used to process the data and generate the results for the paper \"[MUSICiAn: Genome-wide Identification of Genes Involved in DNA Repair via Control-Free Mutational Spectra Analysis] (https://doi.org/10.1101/2025.01.27.635038)\". After cloning the repository, please run pip install -r requirements.txt from within the top-level directory to install all the necessary packages to run python scripts and jupyter notebooks.\n\nTo run the notebooks, we also need to download the process the raw FASTQ data via the [SIQ] https://pubmed.ncbi.nlm.nih.gov/36071722/ tool:\n\nDownload the raw FASTQ files from the NCBI Sequence Read Archive (see main article for details).\n\nRun SIQ on the FASTQ files using the parameters m 2 -c -e 0.05. An example usage might look like:\n\njava -jar ~/.local/bin/SIQ.jar -m 2 -c -e 0.05 \\ -infile /path/to/my/fastq/target.fastq -subject -left -right -o\n\n## Preprocessing SIQ output and producing mutational spectra\n\nThe folder src/data/ contains python scripts for processing the [SIQ] https://pubmed.ncbi.nlm.nih.gov/36071722/ output into mutational spectra:\n\nRun the files make_dataset.R and make_dataset.py on the SIQ output for a specified target site to produce a SQLite database of mutations per target site.\n\nRun the file pipeline.py to complete the pre-processing steps to produce pickle objects containing the mutational spectra per target site/replicate.\n\nThese outputted pickle objects are then loaded by the notebooks to perform the analysis.",
+      "section": "MUSICiAn: Genome-wide Identification of Genes Involved in DNA Repair via Control-Free Mutational Spectra Analysis (part 2)",
+      "repo": "339_MUSICiAn",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.116879Z",
+    "updated_at": "2025-11-04T18:11:15.776190Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23417,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1835,
+    "annotations": [
+      {
+        "id": 10596,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:11:16.699431Z",
+        "updated_at": "2025-11-04T18:11:16.699445Z",
+        "draft_created_at": null,
+        "lead_time": 0.784,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "59711bd5-884a-4da6-b49c-9fc45ecb4175",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1835,
+        "project": 23417,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Running the notebooks\n\nThe Jupyter notebooks under notebooks/reports score the mutational spectra and generate the figures used in the article. Please refer to the main article for full details on the algorithm. The main notebooks to produce the figures are:\n\n1.pseudo_vs_real_controls_X.ipynb\n\n2.general_analysis.ipynb\n\n3.GO_analysis.ipynb\n\n4.OLS.ipynb\n\n5.top_genes.ipynb\n\nDirectory Structure\n\n├── LICENSE  ├── README.md requirements.txt`  │  ├── setup.py <- makes project pip installable (pip install -e .) so src can be imported  └── src <- Source code for use in this project.     ├── __init__.py <- Makes src a Python module  │     ├── data <- Scripts to download, generate and pre-process the SIQ output through to aggregated mutational spectra.     ├── models <- Scripts to train models and then use trained models to make  │ predictions     └── visualization <- Scripts to create exploratory and results oriented visualizations",
+      "section": "MUSICiAn: Genome-wide Identification of Genes Involved in DNA Repair via Control-Free Mutational Spectra Analysis (part 3)",
+      "repo": "339_MUSICiAn",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.116902Z",
+    "updated_at": "2025-11-04T18:11:16.728004Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23417,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

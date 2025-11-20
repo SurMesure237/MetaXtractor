@@ -1,0 +1,1056 @@
+[
+  {
+    "id": 2538,
+    "annotations": [
+      {
+        "id": 10041,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:30:36.821112Z",
+        "updated_at": "2025-11-02T20:30:36.821130Z",
+        "draft_created_at": null,
+        "lead_time": 57.552,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "1d9e102c-6d7b-4fdf-97ce-eb9a8af37c23",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2538,
+        "project": 23564,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "PuReGoMe\n\n[PuReGoMe] https://research-software-directory.org/projects/puregome is a research project of [Utrecht University] https://www.uu.nl/en/research/intelligent-software-systems/intelligent-systems and the [Netherlands eScience Center] https://www.esciencecenter.nl/. We analyze Dutch social media messages to assess the opinion of the public towards the COVID-19 pandemic measures taken by the Dutch government.\n\n## Data\n\nPuReGoMe uses three data sources for social media analysis. Our main data source are Dutch tweets from [Twitter] https://twitter.com/. We share the [ids of most of the tweets used in the project] https://github.com/puregome/ids. We use Dutch posts from [Reddit] https://www.reddit.com/ and comments from [Nu.nl] https://www.nu.nl as sources of verification of the results obtained by the tweet analysis.\n\nAfter a month has ended, the data from the month are collected. Here are the steps taken for each data source:\n\n### Twitter\n\nthe tweets are taken from the crawler of [twiqs.nl] http://twiqs.nl. They are stored in json format in hourly files. (this data set is not publicly available)\n\nthe tweets are extracted from the json files and and stored in csv files (six columns: id\\_str, in\\_reply\\_to\\_status\\_id\\_str, user, verified, text, location). The conversion is performed by the script [query-text.py] https://github.com/puregome/queries/blob/master/query-text.py\n\nduplicate tweets are removed from from the csv files produced in step 2 by the script [text-unique.py] https://github.com/puregome/scripts/blob/master/text-unique.py\n\n(it would be useful to combine steps 2 and 3 in the future)",
+      "section": "PuReGoMe (part 1)",
+      "repo": "431_PuReGoMe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.523687Z",
+    "updated_at": "2025-11-02T20:30:36.847531Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23564,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2539,
+    "annotations": [
+      {
+        "id": 10042,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:30:41.403248Z",
+        "updated_at": "2025-11-02T20:30:41.403265Z",
+        "draft_created_at": null,
+        "lead_time": 4.41,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "d1308152-4ee6-480e-84e0-0b669369162c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2539,
+        "project": 23564,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Reddit\n\nIn a new month directory, run the script [get\\_subreddit\\_ids.py] https://github.com/puregome/scripts/blob/master/get_subreddit_ids.py to automatically retrieve the subreddits of the Dutch corona reddits\n\nCopy the list of ids of the subreddit [Megathread Coronavirus COVID-19 in Nederland] https://www.reddit.com/r/thenetherlands/search?q=Megathread+Coronavirus+COVID-19+in+Nederland&restrict_sr=on&sort=new&t=all (submissions_ids_thenetherlands.txt) from a previous month directory and manually add the ids of recent subreddits\n\nRun the script [coronamessagesnl.py] https://github.com/puregome/scripts/blob/master/coronamessagesnl.py on the files submissions_ids_* to automatically retrieve the posts in the found subreddits\n\nRun the notebook [reddit.ipynb] reddit.ipynb to get all the posts from the monthly downloads directory and store them in the directory text",
+      "section": "PuReGoMe (part 2)",
+      "repo": "431_PuReGoMe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.523725Z",
+    "updated_at": "2025-11-02T20:30:41.429983Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23564,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2540,
+    "annotations": [
+      {
+        "id": 10043,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:30:46.200136Z",
+        "updated_at": "2025-11-02T20:30:46.200158Z",
+        "draft_created_at": null,
+        "lead_time": 4.623,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "79d22f3e-5375-44af-be91-afd7feeccac6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2540,
+        "project": 23564,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Nu.nl\n\nRun code blocks 1, 3 and 4 of the notebook selenium-test.ipynb, after updating the name of the file in URLFILE in code block 1\n\nRestart the notebook and run code blocks 1 and 6, after changing the name of the new downloads directory in DATADIROUT in code block 6. This process takes many hours (even days) to complete\n\nThe notebook can be copied and several copies can be run in parallel\n\nWhen the notebooks have finished: delete all pairs of files of sizes 1 and 3 in this month's directory (keep the ones with only size 1) and rerun the notebooks\n\nRepeat step 4 until no articles with comments are found\n\ngo to (cd) the directory data/nunl\n\nrun the script [../../scripts/combineNunlComments.sh] https://github.com/puregome/scripts/blob/master/combineNunlComments.sh to update the files in the main directory downloads\n\nrun the notebook [nunl-convert-data.ipynb] nunl-convert-data.ipynb to regenerate the data files in the directory text\n\nfor fetching the article texts: run code blocks 1 and 2 of the notebook [selenium-test.ipynb] selenium-test.ipynb, after updating the variables URLFILE and OUTFILEMETADONELIST\n\n## Analysis\n\nPuReGoMe performs analysis on three different levels: by counting messages, by determining their polarity (sentiment) and by determining their stance with respect to anti-pandemic government measures.",
+      "section": "PuReGoMe (part 3)",
+      "repo": "431_PuReGoMe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.523750Z",
+    "updated_at": "2025-11-02T20:30:46.228697Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23564,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2541,
+    "annotations": [
+      {
+        "id": 10044,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:30:54.094864Z",
+        "updated_at": "2025-11-02T20:30:54.094880Z",
+        "draft_created_at": null,
+        "lead_time": 7.721,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "8f08dc94-aeb1-4acc-88d0-1d79cca2bef2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2541,
+        "project": 23564,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Frequency analysis\n\nFrequency analysis of tweets is performed in the notebook [tweet-counts.ipynb] tweet-counts.ipynb. The notebook defines several pandemic queries, for example face mask, lockdown, social distancing and pandemic, where pandemic is a combination of 60+ relevant terms. The notebook produces a graph with the absolute daily frequencies of the tweets matching each of these pandemic queries:\n\nFrequency analysis of the Nu.nl and Reddit data is included in the respective data generation notebooks [nunl-convert-data.ipynb] nunl-convert-data.ipynb and [reddit.ipynb] reddit.ipynb\n\n### Polarity analysis\n\nPolarity analysis is the same as sentiment analysis. This analysis is performed by the notebook [sentiment-pattern.ipynb] sentiment-pattern.ipynb which uses the Python package [Pattern] https://github.com/clips/pattern for sentiment analysis of Dutch text (De Smedt &amp; Daelemans, 2011). The notebook requires two types of input files: the csv files in the text directories of each of the data sources and sentiment score files which should be generated from these csv files with the script [../../scripts/sentiment-pattern-text.py] https://github.com/puregome/scripts/blob/master/sentiment-pattern-text.py The polarity analysis of the different topics takes a lot of time and can be run in parallel. It produces time series graphs for all tweets, all pandemic tweets and several individual pandemic topics.",
+      "section": "PuReGoMe (part 4)",
+      "repo": "431_PuReGoMe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.523773Z",
+    "updated_at": "2025-11-02T20:30:54.120993Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23564,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2542,
+    "annotations": [
+      {
+        "id": 10045,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:31:06.157388Z",
+        "updated_at": "2025-11-02T20:31:06.157411Z",
+        "draft_created_at": null,
+        "lead_time": 11.895,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "98ff5ba2-dce8-4e52-8b7f-94332d6af89a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2542,
+        "project": 23564,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Stance analysis\n\nStance analysis is performed by the notebook [fasttext.ipynb] fasttext.ipynb. The analysis originates from a model trained by [fastText] https://github.com/facebookresearch/fastText on manually labeled tweets. The notebook contains a section for searching for the best parameters of fastText using grid search but when the training data is unchanged this section can be skipped. The notebook has two main modes related to topics: analysis related to the social distancing policy and analysis related to the former (April 2020) face mask policy. These are the only two topics for which we have manually labeled training data. The graphs combine analysis for all three data sources used in the project: Twitter, Nu.nl and Reddit.\n\n### Other analyses\n\nThe notebook [topic-analysis.ipynb] topic-analysis.ipynb is used to find new topics in a day of tweets. It compares the vocabulary of a day of tweets with the vocabulary of the preceding day.\n\n[echo-chambers.ipynb] echo-chambers.ipynb is used for finding groups of users which collectively retweet similar content. The notebook found a group of a few hundred users retweeting right-wing propaganda. Further study needs to be done to check if this content has any effect on the findings of this project.\n\n[geo-analysis.ipynb] geo-analysis.ipynb and [geo-classification.ipynb] geo-classification.ipynb can be used to divide the tweets in groups depending on on the location of the tweeter. This only works for about half of the data set. Next, maps representing tweet data can be created with the notebook [maps.ipynb] maps.ipynb.\n\n[corona-nl-totals.ipynb] corona-nl-totals.ipynb creates graphs of the number infections, hospitalizations and deaths in The Netherlands based on data provided by the health organization [RIVM] https://www.rivm.nl.",
+      "section": "PuReGoMe (part 5)",
+      "repo": "431_PuReGoMe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.523800Z",
+    "updated_at": "2025-11-02T20:31:06.186331Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23564,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2543,
+    "annotations": [
+      {
+        "id": 10046,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 43,
+              "end": 286,
+              "text": "Erik Tjong Kim Sang, Shihan Wang, Marijn Schraagen and Mehdi Dastani, [Estimating Stances on Anti-Pandemic Measures By Social Media Analysis] https://ifarm.nl/erikt/talks/ictopen2022.pdf, ICT.OPEN2022 (poster), Amsterdam, The Netherlands, 2022",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "RqpX82CeEs",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 288,
+              "end": 511,
+              "text": "Erik Tjong Kim Sang, Shihan Wang, Marijn Schraagen and Mehdi Dastani, [Extracting Stances on Pandemic Measures from Social Media Data] https://ifarm.nl/erikt/papers/ieee2021.pdf. 17th IEEE eScience Conference (poster), 2021",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "TJtgNuSTVD",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 514,
+              "end": 701,
+              "text": "Erik Tjong Kim Sang, Marijn Schraagen, Shihan Wang and Mehdi Dastani, [Transfer Learning for Stance Analysis in COVID-19 Tweets] https://ifarm.nl/erikt/papers/clin-20210419.pdf. CLIN 2021",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "Idd6SOkkjS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 782,
+              "end": 961,
+              "text": "Erik Tjong Kim Sang, Marijn Schraagen, Mehdi Dastani and Shihan Wang, [Discovering Pandemic Topics on Twitter] https://ifarm.nl/erikt/papers/dhbenelux-20210509.pdf. DHBenelux 2021",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "xtc3EHPi1D",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 964,
+              "end": 1171,
+              "text": "Erik Tjong Kim Sang [PuReGoMe: Social Media Analysis of the Pandemic] https://ifarm.nl/erikt/talks/20210211-escience.pdf. Lunch talk, Netherlands eScience Center, Amsterdam, The Netherlands, 11 February 2021",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "y6aWQ5SspB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1174,
+              "end": 1424,
+              "text": "Shihan Wang, Marijn Schraagen, Erik Tjong Kim Sang and Mehdi Dastani, [Dutch General Public Reaction on Governmental COVID-19 Measures and Announcements in Twitter Data] https://arxiv.org/abs/2006.07283. Preprint report on arXiv.org, 21 December 2020",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "T0YUM8FmLm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1427,
+              "end": 1721,
+              "text": "Shihan Wang, Marijn Schraagen, Erik Tjong Kim Sang and Mehdi Dastani, [Public Sentiment on Governmental COVID-19 Measures in Dutch Social Media] https://www.aclweb.org/anthology/2020.nlpcovid19-2.17/. In: Workshop on NLP for COVID-19 (Part 2) at EMNLP 2020 (NLP-COVID19-EMNLP), 20 November 2020",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "b7wBK6Othm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:32:04.893445Z",
+        "updated_at": "2025-11-02T20:32:04.893461Z",
+        "draft_created_at": "2025-11-02T20:31:49.952314Z",
+        "lead_time": 27.392,
+        "prediction": {},
+        "result_count": 7,
+        "unique_id": "294d0f29-998e-49d1-b0b5-5e57ffdd3d84",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2543,
+        "project": 23564,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Publications, talks and media coverage\n\nErik Tjong Kim Sang, Shihan Wang, Marijn Schraagen and Mehdi Dastani, [Estimating Stances on Anti-Pandemic Measures By Social Media Analysis] https://ifarm.nl/erikt/talks/ictopen2022.pdf, ICT.OPEN2022 (poster), Amsterdam, The Netherlands, 2022\n\nErik Tjong Kim Sang, Shihan Wang, Marijn Schraagen and Mehdi Dastani, [Extracting Stances on Pandemic Measures from Social Media Data] https://ifarm.nl/erikt/papers/ieee2021.pdf. 17th IEEE eScience Conference (poster), 2021.\n\nErik Tjong Kim Sang, Marijn Schraagen, Shihan Wang and Mehdi Dastani, [Transfer Learning for Stance Analysis in COVID-19 Tweets] https://ifarm.nl/erikt/papers/clin-20210419.pdf. CLIN 2021. ([data annotations] http://145.100.59.103/downloads/clin2021-annotations.zip)\n\nErik Tjong Kim Sang, Marijn Schraagen, Mehdi Dastani and Shihan Wang, [Discovering Pandemic Topics on Twitter] https://ifarm.nl/erikt/papers/dhbenelux-20210509.pdf. DHBenelux 2021.\n\nErik Tjong Kim Sang [PuReGoMe: Social Media Analysis of the Pandemic] https://ifarm.nl/erikt/talks/20210211-escience.pdf. Lunch talk, Netherlands eScience Center, Amsterdam, The Netherlands, 11 February 2021.\n\nShihan Wang, Marijn Schraagen, Erik Tjong Kim Sang and Mehdi Dastani, [Dutch General Public Reaction on Governmental COVID-19 Measures and Announcements in Twitter Data] https://arxiv.org/abs/2006.07283. Preprint report on arXiv.org, 21 December 2020.\n\nShihan Wang, Marijn Schraagen, Erik Tjong Kim Sang and Mehdi Dastani, [Public Sentiment on Governmental COVID-19 Measures in Dutch Social Media] https://www.aclweb.org/anthology/2020.nlpcovid19-2.17/. In: Workshop on NLP for COVID-19 (Part 2) at EMNLP 2020 (NLP-COVID19-EMNLP), 20 November 2020.",
+      "section": "PuReGoMe (part 6)",
+      "repo": "431_PuReGoMe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.523854Z",
+    "updated_at": "2025-11-02T20:32:04.923120Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23564,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2544,
+    "annotations": [
+      {
+        "id": 10047,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 239,
+              "text": "Erik Tjong Kim Sang [PuReGoMe: Dutch Public Reaction on Governmental COVID-19 Measures and Announcements] https://ifarm.nl/erikt/talks/20200626-escience.pdf. Lunch talk, Netherlands eScience Center, Amsterdam, The Netherlands, 26 June 2020",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "sVxizTvsBy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 242,
+              "end": 424,
+              "text": "Shihan Wang, Public Sentiment during COVID-19 -Data Mining on Twitter data. Talk at the [CLARIN Café] https://www.clarin.eu/content/clarin-cafe, Utrecht, The Netherlands, 27 May 2020",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "hw4RVl4LYz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 427,
+              "end": 663,
+              "text": "Redactie Emerce, [Onderzoekers leiden publieke opinie coronamaatregelen af uit social media-data] https://www.emerce.nl/nieuws/onderzoekers-leiden-publieke-opinie-coronamaatregelen-af-uit-social-mediadata. Emerce, 12 May 2020 (in Dutch)",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "YPeZrRRZ0H",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 666,
+              "end": 937,
+              "text": "Nienke Vergunst, [Researchers use social media data to analyse public sentiment about Coronavirus measures] https://www.uu.nl/en/news/researchers-use-social-media-data-to-analyse-public-sentiment-about-coronavirus-measures. University of Utrecht news message, 11 May 2020",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "Wa-gUrqMWn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:32:30.385785Z",
+        "updated_at": "2025-11-02T20:32:30.385806Z",
+        "draft_created_at": "2025-11-02T20:32:17.361320Z",
+        "lead_time": 25.284,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "942f1dba-67ab-462b-8941-7361f96718d8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2544,
+        "project": 23564,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Erik Tjong Kim Sang [PuReGoMe: Dutch Public Reaction on Governmental COVID-19 Measures and Announcements] https://ifarm.nl/erikt/talks/20200626-escience.pdf. Lunch talk, Netherlands eScience Center, Amsterdam, The Netherlands, 26 June 2020.\n\nShihan Wang, Public Sentiment during COVID-19 -Data Mining on Twitter data. Talk at the [CLARIN Café] https://www.clarin.eu/content/clarin-cafe, Utrecht, The Netherlands, 27 May 2020.\n\nRedactie Emerce, [Onderzoekers leiden publieke opinie coronamaatregelen af uit social media-data] https://www.emerce.nl/nieuws/onderzoekers-leiden-publieke-opinie-coronamaatregelen-af-uit-social-mediadata. Emerce, 12 May 2020 (in Dutch).\n\nNienke Vergunst, [Researchers use social media data to analyse public sentiment about Coronavirus measures] https://www.uu.nl/en/news/researchers-use-social-media-data-to-analyse-public-sentiment-about-coronavirus-measures. University of Utrecht news message, 11 May 2020.",
+      "section": "PuReGoMe (part 7)",
+      "repo": "431_PuReGoMe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.523885Z",
+    "updated_at": "2025-11-02T20:32:30.412024Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23564,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2545,
+    "annotations": [
+      {
+        "id": 10048,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:32:33.244782Z",
+        "updated_at": "2025-11-02T20:32:33.244808Z",
+        "draft_created_at": null,
+        "lead_time": 2.661,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "0662636b-065b-4147-b954-99a33f6a3c76",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2545,
+        "project": 23564,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Information added by the Python template",
+      "section": "Information added by the Python template (part 1)",
+      "repo": "431_PuReGoMe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.523923Z",
+    "updated_at": "2025-11-02T20:32:33.278371Z",
+    "inner_id": 8,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23564,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2546,
+    "annotations": [
+      {
+        "id": 10049,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:32:34.335353Z",
+        "updated_at": "2025-11-02T20:32:34.335373Z",
+        "draft_created_at": null,
+        "lead_time": 0.839,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "d607757f-8995-4392-85e1-da243dd105be",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2546,
+        "project": 23564,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Badges",
+      "section": "Information added by the Python template (part 2)",
+      "repo": "431_PuReGoMe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.523944Z",
+    "updated_at": "2025-11-02T20:32:34.363287Z",
+    "inner_id": 9,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23564,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2547,
+    "annotations": [
+      {
+        "id": 10050,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 293,
+              "end": 337,
+              "text": "https://zenodo.org/badge/latestdoi/256566641",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "3_nC9cJ0CA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:33:00.269903Z",
+        "updated_at": "2025-11-02T20:33:00.269919Z",
+        "draft_created_at": "2025-11-02T20:32:50.146095Z",
+        "lead_time": 25.742,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "ca9a5e38-816b-47b0-8d6e-6c9c049e4a62",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2547,
+        "project": 23564,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| fair-software.eu recommendations | | | :-- | :-- | | (1/5) code repository | [](https://github.com/puregome/notebooks) | | (2/5) license | [](https://github.com/puregome/notebooks) | | (3/5) community registry | [](https://www.research-software.nl/software/puregome) | | (4/5) citation | [](https://zenodo.org/badge/latestdoi/256566641) | | (5/5) checklist | [](https://bestpractices.coreinfrastructure.org/projects/4357) | | howfairis | [](https://fair-software.eu) | | Other best practices | &nbsp; | | Static analysis | [](https://sonarcloud.io/dashboard?id=puregome_notebooks) | | Coverage | [](https://sonarcloud.io/dashboard?id=puregome_notebooks) | | GitHub Actions | &nbsp; | | Build | [](https://github.com/puregome/notebooks/actions/workflows/build.yml) |",
+      "section": "Information added by the Python template (part 3)",
+      "repo": "431_PuReGoMe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.523966Z",
+    "updated_at": "2025-11-02T20:33:00.298690Z",
+    "inner_id": 10,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23564,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2548,
+    "annotations": [
+      {
+        "id": 10051,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:33:06.054913Z",
+        "updated_at": "2025-11-02T20:33:06.054937Z",
+        "draft_created_at": null,
+        "lead_time": 5.519,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "fe24f677-aa6e-46c6-ad6d-8cf74fa246a5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2548,
+        "project": 23564,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "| Metadata consistency | [](https://github.com/puregome/notebooks/actions/workflows/cffconvert.yml) | | Lint | [](https://github.com/puregome/notebooks/actions/workflows/lint.yml) | | Publish | [](https://github.com/puregome/notebooks/actions/workflows/publish.yml) | | SonarCloud | [](https://github.com/puregome/notebooks/actions/workflows/sonarcloud.yml) | | MarkDown link checker | [](https://github.com/puregome/notebooks/actions/workflows/markdown-link-check.yml) |",
+      "section": "Information added by the Python template (part 4)",
+      "repo": "431_PuReGoMe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.523988Z",
+    "updated_at": "2025-11-02T20:33:06.081793Z",
+    "inner_id": 11,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23564,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2549,
+    "annotations": [
+      {
+        "id": 10052,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:33:12.684952Z",
+        "updated_at": "2025-11-02T20:33:12.684971Z",
+        "draft_created_at": null,
+        "lead_time": 6.454,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "0984323f-13d1-4cbf-bc2f-1c2ff7dd1420",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2549,
+        "project": 23564,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## How to use notebooks\n\nThe project setup is documented in [project_setup.md] project_setup.md. Feel free to remove this document (and/or the link to this document) if you don't need it.\n\n## Installation\n\nTo install notebooks from GitHub repository, do:\n\ngit clone https://github.com/puregome/notebooks.git cd notebooks python3 -m pip install .\n\n## Documentation\n\nInclude a link to your project's full documentation here.\n\n## Contributing\n\nIf you want to contribute to the development of notebooks, have a look at the [contribution guidelines] CONTRIBUTING.md.\n\n## Credits\n\nThis package was created with [Cookiecutter] https://github.com/audreyr/cookiecutter and the [NLeSC/python-template] https://github.com/NLeSC/python-template.",
+      "section": "Information added by the Python template (part 5)",
+      "repo": "431_PuReGoMe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.524010Z",
+    "updated_at": "2025-11-02T20:33:12.710072Z",
+    "inner_id": 12,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23564,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2550,
+    "annotations": [
+      {
+        "id": 10053,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 824,
+              "end": 834,
+              "text": "prospector",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "S-tyyG6gw_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 906,
+              "end": 911,
+              "text": "isort",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "A8jYEBvo4A",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 276,
+              "end": 279,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "FL5TDNEz8F",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 284,
+              "end": 294,
+              "text": "setuptools",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "osr00d7wjD",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 328,
+              "end": 331,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "TBWy6BCc_k",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 332,
+              "end": 342,
+              "text": "setuptools",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "G5j0JUdqhl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 352,
+              "end": 361,
+              "text": "notebooks",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "jH79xksdKt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 836,
+              "end": 872,
+              "text": "https://pypi.org/project/prospector/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "c-HxrqaUyq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 913,
+              "end": 943,
+              "text": "https://pycqa.github.io/isort/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "fVu2Xq3ygl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:34:59.725468Z",
+        "updated_at": "2025-11-14T11:51:43.004861Z",
+        "draft_created_at": "2025-11-02T20:33:23.236923Z",
+        "lead_time": 129.95999999999998,
+        "prediction": {},
+        "result_count": 9,
+        "unique_id": "862579dd-8e3b-4832-ae2f-abe34eedf08e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2550,
+        "project": 23564,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "notebooks developer documentation\n\nIf you're looking for user documentation, go [here] README.md.\n\n## Development install\n\nCreate a virtual environment, e.g. with python3 -m venv env\n\nactivate virtual environment source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools python3 -m pip install --upgrade pip setuptools\n\ninstall notebooks as an editable package python3 -m pip install --no-cache-dir --editable .\n\ninstall development dependencies python3 -m pip install --no-cache-dir --editable .[dev]\n\nAfterwards check that the install directory is present in the PATH environment variable.\n\n## Running the tests\n\nRunning the tests requires an activated virtual environment with the development tools installed.\n\nunit tests pytest pytest tests/\n\n## Running linters locally\n\nFor linting we will use [prospector] https://pypi.org/project/prospector/ and to sort imports we will use [isort] https://pycqa.github.io/isort/. Running the linters requires an activated virtual environment with the development tools installed.\n\nlinter prospector\n\nrecursively check import style for the notebooks module only isort --recursive --check-only notebooks\n\nany proposed changes as a diff isort --recursive --check-only --diff notebooks",
+      "section": "`notebooks` developer documentation + Create a virtual environment, e.g. with + activate virtual environment (and 7 more)",
+      "repo": "431_PuReGoMe",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.524032Z",
+    "updated_at": "2025-11-14T11:51:43.043115Z",
+    "inner_id": 13,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23564,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2551,
+    "annotations": [
+      {
+        "id": 10054,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:35:15.189783Z",
+        "updated_at": "2025-11-02T20:35:15.189802Z",
+        "draft_created_at": null,
+        "lead_time": 15.222,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6e66116f-12f4-4543-baa5-577873deea0d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2551,
+        "project": 23564,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "recursively fix import style for the notebooks module only isort --recursive notebooks\n\nYou can enable automatic linting with prospector and isort on commit by enabling the git hook from .githooks/pre-commit, like so:\n\ngit config --local core.hooksPath .githooks\n\n## Generating the API docs\n\ncd docs make html\n\nThe documentation will be in docs/_build/\n\n## Versioning\n\nBumping the version across all files is done with bumpversion, e.g.\n\nbumpversion major bumpversion minor bumpversion patch\n\n## Making a release\n\nThis section describes how to make a release in 3 parts:\n\npreparation\n\nmaking a release on PyPI\n\nmaking a release on GitHub\n\n### (1/3) Preparation\n\nUpdate the CHANGELOG.md\n\nVerify that the information in CITATION.cff is correct, and that .zenodo.json contains equivalent data\n\nMake sure the version has been updated.\n\nRun the unit tests with pytest tests/\n\n### (2/3) PyPI\n\nIn a new terminal, without an activated virtual environment or an env directory:\n\nprepare a new directory cd $(mktemp -d --tmpdir notebooks.XXXXXX)\n\nfresh git clone ensures the release has the state of origin/main branch git clone https://github.com/puregome/notebooks .\n\nprepare a clean virtual environment and activate it python3 -m venv env source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools python3 -m pip install --upgrade pip setuptools\n\ninstall runtime dependencies and publishing dependencies python3 -m pip install --no-cache-dir . python3 -m pip install --no-cache-dir .[publishing]\n\nclean up any previously generated artefacts rm -rf notebooks.egg-info rm -rf dist\n\ncreate the source distribution and the wheel python3 setup.py sdist bdist_wheel",
+      "section": "recursively fix import style for the notebooks module only + prepare a new directory + fresh git clone ensures the release has the state of origin/main branch (and 5 more)",
+      "repo": "431_PuReGoMe",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.524058Z",
+    "updated_at": "2025-11-02T20:35:15.216820Z",
+    "inner_id": 14,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23564,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2552,
+    "annotations": [
+      {
+        "id": 10055,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:35:20.016857Z",
+        "updated_at": "2025-11-02T20:35:20.016877Z",
+        "draft_created_at": null,
+        "lead_time": 4.649,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "a88dec86-5653-4be4-a7fb-6471765fcf5e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2552,
+        "project": 23564,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "upload to test pypi instance (requires credentials) twine upload --repository-url https://test.pypi.org/legacy/ dist/\n\n[https://test.pypi.org/project/notebooks] https://test.pypi.org/project/notebooks and verify that your package was uploaded successfully. Keep the terminal open, we'll need it later.\n\nIn a new terminal, without an activated virtual environment or an env directory:\n\ncd $(mktemp -d --tmpdir notebooks-test.XXXXXX)\n\nprepare a clean virtual environment and activate it python3 -m venv env source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools pip install --upgrade pip setuptools\n\ninstall from test pypi instance: python3 -m pip -v install --no-cache-dir \\ --index-url https://test.pypi.org/simple/ \\ --extra-index-url https://pypi.org/simple notebooks\n\nCheck that the package works as it should when installed from pypitest.\n\nThen upload to pypi.org with:\n\nFINAL STEP: upload to PyPI (requires credentials) twine upload dist/\n\n### (3/3) GitHub\n\nDon't forget to also make a release on GitHub. If your repository uses the GitHub-Zenodo integration this will also trigger Zenodo into making a snapshot of your repository and sticking a DOI on it.",
+      "section": "upload to test pypi instance (requires credentials) + prepare a clean virtual environment and activate it + make sure to have a recent version of pip and setuptools (and 2 more)",
+      "repo": "431_PuReGoMe",
+      "source_file": "readme.dev.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.524080Z",
+    "updated_at": "2025-11-02T20:35:20.042564Z",
+    "inner_id": 15,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23564,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

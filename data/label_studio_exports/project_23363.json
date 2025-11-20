@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1545,
+    "annotations": [
+      {
+        "id": 10826,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 521,
+              "end": 570,
+              "text": "https://massbank.github.io/MassBank-documentation",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "NS2gW3QBcu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:00:51.435666Z",
+        "updated_at": "2025-11-15T17:57:39.367221Z",
+        "draft_created_at": "2025-11-05T17:00:34.081311Z",
+        "lead_time": 45.028999999999996,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "c58af668-9a85-4dcf-a64c-f4efedd0af34",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1545,
+        "project": 23363,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "This repo is deprecated. Please do not use it! The new MassBank web app is maintained in repo https://github.com/MassBank/MassBank3. The validator and other command line tools are maintained in https://github.com/MassBank/MassBank-tools\n\nmain branch [](https://github.com/MassBank/MassBank-web/actions/workflows/build.yml?query=branch%3Amain)  dev branch [](https://github.com/MassBank/MassBank-web/actions/workflows/build.yml?query=branch%3Adev)\n\nThis repo contains the MassBank software.\n\nDocumentation can be found at https://massbank.github.io/MassBank-documentation.",
+      "section": "README",
+      "repo": "116_MassBank",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.402192Z",
+    "updated_at": "2025-11-15T17:57:39.404565Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23363,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

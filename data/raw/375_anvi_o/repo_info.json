@@ -1,0 +1,38 @@
+{
+  "codeRepository": "https://github.com/merenlab/anvio",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "JavaScript",
+    "HTML",
+    "Shell",
+    "R",
+    "CSS",
+    "Dockerfile",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/merenlab/anvio/zipball/main",
+  "author": "merenlab",
+  "dateCreated": "2014-02-26T00:35:29Z",
+  "dateModified": "2025-10-30T10:24:53Z",
+  "keywords": [
+    "anvio",
+    "bioinformatics",
+    "comparative-genomics",
+    "javascript",
+    "metagenomics",
+    "metatranscriptomics",
+    "pangenomics",
+    "phylogenomics",
+    "population-genetics",
+    "python",
+    "science",
+    "visualization"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "An analysis and visualization platform for 'omics data",
+  "identifier": 17193514,
+  "name": "merenlab/anvio",
+  "issueTracker": "https://api.github.com/repos/merenlab/anvio/issues",
+  "readme": "https://github.com/merenlab/anvio/blob/master/README.md"
+}

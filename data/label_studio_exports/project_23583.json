@@ -1,0 +1,881 @@
+[
+  {
+    "id": 2669,
+    "annotations": [
+      {
+        "id": 9944,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:14:56.380980Z",
+        "updated_at": "2025-11-02T19:14:56.381006Z",
+        "draft_created_at": null,
+        "lead_time": 1.941,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "44cb0b17-739a-44a1-a80c-54cd312c116c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2669,
+        "project": 23583,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Heat is a distributed tensor framework for high performance data analytics.",
+      "section": "Introduction",
+      "repo": "314_Heat",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.934832Z",
+    "updated_at": "2025-11-02T19:14:56.412239Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23583,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2670,
+    "annotations": [
+      {
+        "id": 9945,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:14:57.469630Z",
+        "updated_at": "2025-11-02T19:14:57.469646Z",
+        "draft_created_at": null,
+        "lead_time": 0.903,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "8cb0f85a-6c77-4eb6-a66e-89bc07d53704",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2670,
+        "project": 23583,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Project Status",
+      "section": "Project Status (part 1)",
+      "repo": "314_Heat",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.934867Z",
+    "updated_at": "2025-11-02T19:14:57.496252Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23583,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2671,
+    "annotations": [
+      {
+        "id": 9946,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 190,
+              "end": 225,
+              "text": "https://opensource.org/licenses/MIT",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "E-VxhPpJll",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 83,
+              "end": 134,
+              "text": "https://heat.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "-akxD3hHwX",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 517,
+              "end": 555,
+              "text": "https://doi.org/10.5281/zenodo.2531472",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "bbSMqTt-HJ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:15:24.722468Z",
+        "updated_at": "2025-11-14T12:03:45.210709Z",
+        "draft_created_at": "2025-11-02T19:15:11.264863Z",
+        "lead_time": 47.379000000000005,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "65790707-1acd-42c2-af33-515ef176228f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2671,
+        "project": 23583,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://codebase.helmholtz.cloud/helmholtz-analytics/ci/-/commits/heat/base) [](https://heat.readthedocs.io/en/latest/?badge=latest) [](https://codecov.io/gh/helmholtz-analytics/heat) [](https://opensource.org/licenses/MIT) [](https://pypi.org/project/heat/) [](https://pepy.tech/project/heat) [](https://anaconda.org/conda-forge/heat) [](https://fair-software.eu) [](https://securityscorecards.dev/viewer/?uri=github.com/helmholtz-analytics/heat) [](https://bestpractices.coreinfrastructure.org/projects/7688) [](https://doi.org/10.5281/zenodo.2531472) [](https://57bc8d92-72f2-4869-accd-435ec06365cb.ka.bw-cloud-instance.org:3000/d/adjpqduq9r7k0a/heat-cb?orgId=1) [](https://github.com/psf/black)",
+      "section": "Project Status (part 2)",
+      "repo": "314_Heat",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.934889Z",
+    "updated_at": "2025-11-14T12:03:45.248100Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23583,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2672,
+    "annotations": [
+      {
+        "id": 9947,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:15:27.385439Z",
+        "updated_at": "2025-11-02T19:15:27.385461Z",
+        "draft_created_at": null,
+        "lead_time": 2.471,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "78041630-6395-4889-add4-1b533ee77f11",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2672,
+        "project": 23583,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://www.fz-juelich.de/en/rse/jurse-community/jurse-code-of-the-month/august-2024)",
+      "section": "Project Status (part 3)",
+      "repo": "314_Heat",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.934927Z",
+    "updated_at": "2025-11-02T19:15:27.409543Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23583,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2673,
+    "annotations": [
+      {
+        "id": 9948,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:16:05.697241Z",
+        "updated_at": "2025-11-14T12:05:56.117777Z",
+        "draft_created_at": "2025-11-02T19:15:51.959427Z",
+        "lead_time": 81.91900000000001,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "1eb505a5-b23f-482e-91d6-807e68e60e03",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2673,
+        "project": 23583,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Table of Contents [What is Heat for?] #what-is-heat-for\n\n[Features] #features\n\n[Getting Started] #getting-started\n\n[Installation] #installation\n\n[Requirements] #requirements\n\n[pip] #pip\n\n[conda] #conda\n\n[Support Channels] #support-channels\n\n[Contribution guidelines] #contribution-guidelines\n\n[Resources] #resources\n\n[License] #license\n\n[Citing Heat] #citing-heat\n\n[FAQ] #faq\n\n[Acknowledgements] #acknowledgements\n\nWhat is Heat for?\n\nHeat builds on [PyTorch] https://pytorch.org/ and [mpi4py] https://mpi4py.readthedocs.io to provide high-performance computing infrastructure for memory-intensive applications within the NumPy/SciPy ecosystem.\n\nWith Heat you can: port existing NumPy/SciPy code from single-CPU to multi-node clusters with minimal coding effort;\n\nexploit the entire, cumulative RAM of your many nodes for memory-intensive operations and algorithms;\n\nrun your NumPy/SciPy code on GPUs (CUDA, ROCm, coming up: Apple MPS).\n\nFor a example that highlights the benefits of multi-node parallelism, hardware acceleration, and how easy this can be done with the help of Heat, see, e.g., our [blog post on trucated SVD of a 200GB data set] https://helmholtz-analytics.github.io/heat/2023/06/16/new-feature-hsvd.html.\n\nCheck out our [coverage tables] coverage_tables.md to see which NumPy, SciPy, scikit-learn functions are already supported.\n\nIf you need a functionality that is not yet supported: [search existing issues] https://github.com/helmholtz-analytics/heat/issues and make sure to leave a comment if someone else already requested it;\n\n[open a new issue] https://github.com/helmholtz-analytics/heat/issues/new/choose.\n\nCheck out our [features] #features and the [Heat API Reference] https://heat.readthedocs.io/en/latest/autoapi/index.html for a complete list of functionalities.",
+      "section": "Table of Contents + What is Heat for?",
+      "repo": "314_Heat",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.934951Z",
+    "updated_at": "2025-11-14T12:05:56.151586Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23583,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2674,
+    "annotations": [
+      {
+        "id": 9949,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:16:08.779637Z",
+        "updated_at": "2025-11-02T19:16:08.779653Z",
+        "draft_created_at": null,
+        "lead_time": 2.896,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "38de55f4-b157-4c85-8caf-05653176a614",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2674,
+        "project": 23583,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Features\n\nHigh-performance n-dimensional arrays  CPU, GPU, and distributed computation using MPI  Powerful data analytics and machine learning methods  Seamless integration with the NumPy/SciPy ecosystem Python array API (work in progress)",
+      "section": "Features",
+      "repo": "314_Heat",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.934970Z",
+    "updated_at": "2025-11-02T19:16:08.809000Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23583,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2675,
+    "annotations": [
+      {
+        "id": 9950,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 915,
+              "end": 943,
+              "text": "https://heat.readthedocs.io/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "BMwqxp5mmF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:16:26.007698Z",
+        "updated_at": "2025-11-14T12:04:37.612048Z",
+        "draft_created_at": "2025-11-02T19:16:25.933459Z",
+        "lead_time": 21.451999999999998,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "768df494-7491-4026-85b8-50ce1e541b3f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2675,
+        "project": 23583,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Getting Started\n\nGo to [Quick Start] quick_start.md for a quick overview. For more details, see [Installation] #installation.\n\nYou can test your setup by running the [heat_test.py] https://github.com/helmholtz-analytics/heat/blob/main/scripts/heat_test.py script:\n\nmpirun -n 2 python heat_test.py\n\nIt should print something like this:\n\nx is distributed: True Global DNDarray x: DNDarray([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=ht.int32, device=cpu:0, split=0) Global DNDarray x: Local torch tensor on rank 0 : tensor([0, 1, 2, 3, 4], dtype=torch.int32) Local torch tensor on rank 1 : tensor([5, 6, 7, 8, 9], dtype=torch.int32)\n\nCheck out our Jupyter Notebook [Tutorials] https://github.com/helmholtz-analytics/heat/blob/main/tutorials/, choose local to try things out on your machine, or hpc if you have access to an HPC system.\n\nThe complete documentation of the latest version is always deployed on [Read the Docs] https://heat.readthedocs.io/.",
+      "section": "Getting Started",
+      "repo": "314_Heat",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.934991Z",
+    "updated_at": "2025-11-14T12:04:37.646859Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23583,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2676,
+    "annotations": [
+      {
+        "id": 9951,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 59,
+              "end": 62,
+              "text": "MPI",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "NfYrdDPe15",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 151,
+              "end": 155,
+              "text": "h5py",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "fEpcl5qNNQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 157,
+              "end": 164,
+              "text": "netCDF4",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "tmlZ49T0_U",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 98,
+              "end": 104,
+              "text": "mpi4py",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "gdh57mrJdd",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 115,
+              "end": 122,
+              "text": "pytorch",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "kJ_lFjYOgB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 105,
+              "end": 113,
+              "text": ">= 3.0.0",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "EoYA39o84A",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 123,
+              "end": 131,
+              "text": ">= 2.0.0",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "a4p3kXPWor",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 43,
+              "end": 57,
+              "text": "python >= 3.10",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "8wxzwGg3Md",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:17:03.912682Z",
+        "updated_at": "2025-11-16T23:58:44.716567Z",
+        "draft_created_at": "2025-11-02T19:16:36.569482Z",
+        "lead_time": 83.465,
+        "prediction": {},
+        "result_count": 8,
+        "unique_id": "4e5eb676-91ec-4f25-b2e5-f46180a8bae7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2676,
+        "project": 23583,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Installation\n\n## Requirements\n\n### Basics\n\npython >= 3.10\n\nMPI (OpenMPI, MPICH, Intel MPI, etc.)\n\nmpi4py >= 3.0.0\n\npytorch >= 2.0.0\n\n### Parallel I/O\n\nh5py\n\nnetCDF4\n\n### GPU support\n\nIn order to do computations on your GPU(s): your CUDA or ROCm installation must match your hardware and its drivers;\n\nyour [PyTorch installation] https://pytorch.org/get-started/locally/ must be compiled with CUDA/ROCm support.\n\n### HPC systems\n\nOn most HPC-systems you will not be able to install/compile MPI or CUDA/ROCm yourself. Instead, you will most likely need to load a pre-installed MPI and/or CUDA/ROCm module from the module system. Maybe, you will even find PyTorch, h5py, or mpi4py as (part of) such a module. Note that for optimal performance on GPU, you need to usa an MPI library that has been compiled with CUDA/ROCm support (e.g., so-called \"CUDA-aware MPI\").\n\n## pip\n\nInstall the latest version with\n\npip install heat[hdf5,netcdf]\n\nwhere the part in brackets is a list of optional dependencies. You can omit it, if you do not need HDF5 or NetCDF support.\n\n## conda\n\nThe conda build includes all dependencies including OpenMPI.\n\nconda install -c conda-forge heat  ``\n\nSupport Channels\n\nGo ahead and ask questions on [GitHub Discussions] https://github.com/helmholtz-analytics/heat/discussions. If you found a bug or are missing a feature, then please file a new [issue] https://github.com/helmholtz-analytics/heat/issues/new/choose. You can also get in touch with us on [Mattermost] https://mattermost.hzdr.de/signup_user_complete/?id=3sixwk9okpbzpjyfrhen5jpqfo (sign up with your GitHub credentials). Once you log in, you can introduce yourself on the Town Square` channel.",
+      "section": "Installation + Support Channels",
+      "repo": "314_Heat",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.935014Z",
+    "updated_at": "2025-11-16T23:58:44.752574Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23583,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2677,
+    "annotations": [
+      {
+        "id": 9952,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1729,
+              "end": 1740,
+              "text": "MIT license",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "-LiweEexbn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:17:47.384439Z",
+        "updated_at": "2025-11-14T12:06:04.072588Z",
+        "draft_created_at": "2025-11-02T19:17:27.357702Z",
+        "lead_time": 47.452999999999996,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "2b4df60f-4b87-4bc0-8495-bcf6603b27a4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2677,
+        "project": 23583,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Contribution guidelines\n\nWe welcome contributions from the community, if you want to contribute to Heat, be sure to review the [Contribution Guidelines] contributing.md and [Resources] #resources before getting started!\n\nWe use [GitHub issues] https://github.com/helmholtz-analytics/heat/issues for tracking requests and bugs, please see [Discussions] https://github.com/helmholtz-analytics/heat/discussions for general questions and discussion. You can also get in touch with us on [Mattermost] https://mattermost.hzdr.de/signup_user_complete/?id=3sixwk9okpbzpjyfrhen5jpqfo (sign up with your GitHub credentials). Once you log in, you can introduce yourself on the Town Square channel.\n\nIf you’re unsure where to start or how your skills fit in, reach out! You can ask us here on GitHub, by leaving a comment on a relevant issue that is already open.\n\nIf you are new to contributing to open source, [this guide] https://opensource.guide/how-to-contribute/ helps explain why, what, and how to get involved.\n\n## Resources\n\n[Heat Tutorials] https://github.com/helmholtz-analytics/heat/tree/main/tutorials  [Heat API Reference] https://heat.readthedocs.io/en/latest/autoapi/index.html\n\n### Parallel Computing and MPI:\n\nDavid Henty's [course] https://www.archer2.ac.uk/training/courses/200514-mpi/  Wes Kendall's [Tutorials] https://mpitutorial.com/tutorials/  Rolf Rabenseifner's [MPI course material] https://www.hlrs.de/training/self-study-materials/mpi-course-material (including C, Fortran and Python via mpi4py)\n\n### mpi4py\n\n[mpi4py docs] https://mpi4py.readthedocs.io/en/stable/tutorial.html [Tutorial] https://www.kth.se/blogs/pdc/2019/08/parallel-programming-in-python-mpi4py-part-1/\n\nLicense\n\nHeat is distributed under the MIT license, see our [LICENSE] LICENSE file.",
+      "section": "Contribution guidelines + License",
+      "repo": "314_Heat",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.935037Z",
+    "updated_at": "2025-11-14T12:06:04.104080Z",
+    "inner_id": 9,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23583,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2678,
+    "annotations": [
+      {
+        "id": 9953,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 101,
+              "end": 349,
+              "text": "Götz, M., Debus, C., Coquelin, D., et al. (2020). HeAT - a Distributed and GPU-accelerated Tensor Framework for Data Analytics. In 2020 IEEE International Conference on Big Data (Big Data) (pp. 276-287). IEEE. DOI: 10.1109/BigData50022.2020.9378050",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "13XHjRLFo3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 352,
+              "end": 868,
+              "text": "@inproceedings{heat2020, title={{HeAT -- a Distributed and GPU-accelerated Tensor Framework for Data Analytics}}, author={Markus Götz and Charlotte Debus and Daniel Coquelin and Kai Krajsek and Claudia Comito and Philipp Knechtges and Björn Hagemeier and Michael Tarnawa and Simon Hanselmann and Martin Siggel and Achim Basermann and Achim Streit}, booktitle={2020 IEEE International Conference on Big Data (Big Data)}, year={2020}, pages={276-287}, publisher={IEEE}, doi={10.1109/BigData50022.2020.9378050} }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "pzfoHwScol",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:18:00.440922Z",
+        "updated_at": "2025-11-02T19:18:00.440940Z",
+        "draft_created_at": "2025-11-02T19:18:00.051717Z",
+        "lead_time": 12.839,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "1050b008-2ff6-48b1-970e-50afee1a2be6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2678,
+        "project": 23583,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Citing Heat\n\nIf Heat contributed to a publication, please cite our main paper.\n\nPreferred Citation:\n\nGötz, M., Debus, C., Coquelin, D., et al. (2020). HeAT - a Distributed and GPU-accelerated Tensor Framework for Data Analytics. In 2020 IEEE International Conference on Big Data (Big Data) (pp. 276-287). IEEE. DOI: 10.1109/BigData50022.2020.9378050.\n\n@inproceedings{heat2020,  title={{HeAT -- a Distributed and GPU-accelerated Tensor Framework for Data Analytics}},  author={Markus Götz and Charlotte Debus and Daniel Coquelin and Kai Krajsek and Claudia Comito and Philipp Knechtges and Björn Hagemeier and Michael Tarnawa and Simon Hanselmann and Martin Siggel and Achim Basermann and Achim Streit},  booktitle={2020 IEEE International Conference on Big Data (Big Data)},  year={2020},  pages={276-287},  publisher={IEEE},  doi={10.1109/BigData50022.2020.9378050} }",
+      "section": "Citing Heat (part 1)",
+      "repo": "314_Heat",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.935059Z",
+    "updated_at": "2025-11-02T19:18:00.466433Z",
+    "inner_id": 10,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23583,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2679,
+    "annotations": [
+      {
+        "id": 9954,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 81,
+              "end": 238,
+              "text": "Hoppe, F., et al. (2025). Engineering a large-scale data analytics and array computing library for research: Heat. Electronic Communications of the EASST, 83",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "_PWU7tEor6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 852,
+              "end": 999,
+              "text": "Coquelin, D., et al. (2022). Accelerating neural network training with distributed asynchronous and selective optimization (DASO). J Big Data 9, 14",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "SVD6GqBmJv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 241,
+              "end": 810,
+              "text": "@article{heat2025rse, title={Engineering a large-scale data analytics and array computing library for research: Heat}, volume={83}, url={[https://eceasst.org/index.php/eceasst/article/view/2626] https://eceasst.org/index.php/eceasst/article/view/2626}, DOI={10.14279/eceasst.v83.2626}, journal={Electronic Communications of the EASST}, author={Hoppe, Fabian and Gutiérrez Hermosillo Muriedas, Juan Pedro and Tarnawa, Michael and Knechtges, Philipp and Hagemeier, Björn and Krajsek, Kai and Rüttgers, Alexander and Götz, Markus and Comito, Claudia}, year={2025} }\\n",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "wwvzaEpf-h",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1002,
+              "end": 1401,
+              "text": "@Article{DASO2022, author={Coquelin, Daniel and Debus, Charlotte and G{\\\"o}tz, Markus and von der Lehr, Fabrice and Kahn, James and Siggel, Martin and Streit, Achim}, title={Accelerating neural network training with distributed asynchronous and selective optimization (DASO)}, journal={Journal of Big Data}, year={2022}, volume={9}, number={1}, pages={14}, doi={10.1186/s40537-021-00556-1} }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "qjroZFJ_73",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:58:03.555761Z",
+        "updated_at": "2025-11-02T19:58:03.555781Z",
+        "draft_created_at": "2025-11-02T19:18:25.871693Z",
+        "lead_time": 91.291,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "19c5676d-0e37-43c5-8c37-f734b775e604",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2679,
+        "project": 23583,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Other Relevant Publications\n\nFor the RSE perspective and latest benchmarks:\n\nHoppe, F., et al. (2025). Engineering a large-scale data analytics and array computing library for research: Heat. Electronic Communications of the EASST, 83.\n\n@article{heat2025rse,  title={Engineering a large-scale data analytics and array computing library for research: Heat},  volume={83},  url={[https://eceasst.org/index.php/eceasst/article/view/2626] https://eceasst.org/index.php/eceasst/article/view/2626},  DOI={10.14279/eceasst.v83.2626},  journal={Electronic Communications of the EASST},  author={Hoppe, Fabian and Gutiérrez Hermosillo Muriedas, Juan Pedro and Tarnawa, Michael and Knechtges, Philipp and Hagemeier, Björn and Krajsek, Kai and Rüttgers, Alexander and Götz, Markus and Comito, Claudia},  year={2025} }\n\nFor the neural networks module (DASO):\n\nCoquelin, D., et al. (2022). Accelerating neural network training with distributed asynchronous and selective optimization (DASO). J Big Data 9, 14.\n\n@Article{DASO2022,  author={Coquelin, Daniel and Debus, Charlotte and G{\\\"o}tz, Markus and von der Lehr, Fabrice and Kahn, James and Siggel, Martin and Streit, Achim},  title={Accelerating neural network training with distributed asynchronous and selective optimization (DASO)},  journal={Journal of Big Data},  year={2022},  volume={9},  number={1},  pages={14},  doi={10.1186/s40537-021-00556-1} }\n\nFor specific software versions: Please use the [Zenodo DOI] [10.5281/zenodo.2531472](https://doi.org/10.5281/zenodo.2531472.) provided with each release.",
+      "section": "Citing Heat (part 2)",
+      "repo": "314_Heat",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.935081Z",
+    "updated_at": "2025-11-02T19:58:03.583406Z",
+    "inner_id": 11,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23583,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2680,
+    "annotations": [
+      {
+        "id": 9955,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T19:58:09.310090Z",
+        "updated_at": "2025-11-02T19:58:09.310111Z",
+        "draft_created_at": null,
+        "lead_time": 5.567,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "20356336-fc3c-40f7-a9f8-2acc9fc070e8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2680,
+        "project": 23583,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "FAQ Work in progress...\n\n## Acknowledgements\n\nThis work is supported by the [Helmholtz Association Initiative and Networking Fund] https://www.helmholtz.de/en/about_us/the_association/initiating_and_networking/ under project number ZT-I-0003 and the Helmholtz AI platform grant.\n\nThis project has received funding from Google Summer of Code (GSoC) in 2022.\n\nThis work is partially carried out under a [programme] https://activities.esa.int/index.php/4000144045 of, and funded by, the European Space Agency. Any view expressed in this repository or related publications can in no way be taken to reflect the official opinion of the European Space Agency.",
+      "section": "FAQ",
+      "repo": "314_Heat",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.935101Z",
+    "updated_at": "2025-11-02T19:58:09.341197Z",
+    "inner_id": 12,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23583,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

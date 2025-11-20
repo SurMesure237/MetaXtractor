@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/usask-rc/radiam",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "TypeScript",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/usask-rc/radiam/zipball/main",
+  "author": "usask-rc",
+  "dateCreated": "2020-01-30T20:48:56Z",
+  "dateModified": "2022-02-22T17:58:38Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Open source software for indexing research data",
+  "identifier": 237302758,
+  "name": "usask-rc/radiam",
+  "issueTracker": "https://api.github.com/repos/usask-rc/radiam/issues",
+  "readme": "https://github.com/usask-rc/radiam/blob/master/README.md"
+}

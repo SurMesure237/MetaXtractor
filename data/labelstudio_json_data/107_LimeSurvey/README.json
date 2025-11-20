@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "107_LimeSurvey",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "LimeSurvey: The world\u2019s #1 open-source survey platform It's what we love and do best since 2006...\n\n\ud83c\udf10 [Website] https://www.limesurvey.org \u00b7 \ud83d\udd2e [Demo] https://demo.limesurvey.org/admin \u00b7 \ud83d\udcda [Documentation] https://www.limesurvey.org/manual \u00b7 \u2699\ufe0f [Request a feature] https://bugs.limesurvey.org \u00b7 \ud83d\udc1b [Report a bug] https://bugs.limesurvey.org \u00b7 \ud83d\udde8\ufe0f [Forums] https://forums.limesurvey.org \u00b7 \ud83d\udde8\ufe0f [Discord] https://discord.gg/DEjguXn\n\n[LimeSurvey] https://www.limesurvey.org is a free and open-source online survey platfrom used by businesses of all sizes, professionals, academic institutions, teachers, students, governments, financial institutes, and [Anja] https://www.linkedin.com/in/anja-meinders-ba3b29213/ from HR (who is hiring and looking for a DevOps and Technical Support Engineer/Developer \u2013 [drop her a Lime\u2026] https://www.linkedin.com/in/anja-meinders-ba3b29213/) in 80+ countries worldwide. It offers features like conditional logic, question branching, customizable templates, multilingual support, and GDPR compliance.\n\n## \ud83c\udf1f Why LimeSurvey?\n\nLimeSurvey is perfect for you if you are...\n\n\ud83d\udcca Gathering feedback from customers, employees, or stakeholders\n\n\ud83c\udf93 Conducting academic research or field studies\n\n\ud83c\udf0d Running multilingual surveys for global audiences\n\n\ud83d\udd10 Prioritizing privacy and GDPR compliance in data collection\n\n\ud83d\udee0 Needing customizable, flexible survey platform for various projects\n\n\ud83d\ude80 Scaling surveys for startups, mid-sized businesses, or large organizations\n\n\ud83c\udfaf Looking for an open-source solution with no vendor lock-in",
+      "section": "LimeSurvey: The world\u2019s #1 open-source survey platform (part 1)",
+      "repo": "107_LimeSurvey",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## \ud83d\ude80 Features\n\n\u2705 Unlimited surveys\n\n\u2705 Unlimited questions\n\n\u2705 30+ question types\n\n\u2705 900+ survey templates\n\n\u2705 Easy LimeSurvey editor\n\n\u2705 On-brand surveys (fonts, colors, logo, CSS, JavaScript)\n\n\u2705 Multilingual surveys (80+ languages)\n\n\u2705 Skip logic and question branching\n\n\u2705 Easy survey sharing (via public link, QR code, socials)\n\n\u2705 Closed access mode (via personal link, invite-only)\n\n\u2705 Responses & statistics\n\n\u2705 Advanced data analysis tools\n\n\u2705 RemoteControl API (via XML-RPC / JSON-RPC)\n\n\u2705 Google Analytics\n\n\u2705 Data security & anonymization\n\n\u2705 Two-factor authentication\n\n\u2705 GDPR compliance and strong data security\n\n\u2705 WCAG 2.0 compliance \ud83c\udf10\ud83d\udc9a\n\n\u2705 Plugins (questions themes, survey themes, audit log, ExportR, ExportSTATAxml, AuthCAS ...)\n\n\u2705 Integrations (SAML, LDAP, SURFconext, Remote Control, REST API ...)\n\n\u2705 And much more ...\n\n## Installation\n\n\u2b07\ufe0f Stable Release: We recommend downloading the [latest stable version] https://community.limesurvey.org/downloads/ for optimal reliability and performance.\n\n\u26a0\ufe0f Repository: You can also access the development repository. Be aware that it may contain versions that are not fully tested.\n\n## Requirements\n\n### Minimal\n\nApache \u2265 2.4, nginx \u2265 1.1, or any PHP-ready web server\n\nPHP \u2265 7.4 with mbstring and PDO drivers\n\nMySQL \u2265 8.0, PostgreSQL \u2265 12, MariaDB \u2265 10.3.38, or MSSQL \u2265 2016\n\n### Recommended\n\nLatest nginx version\n\nLatest PHP version with php-fpm, mbstring, gd2, imap, ldap, zip, zlib, and database drivers\n\nLatest MariaDB or MySQL version",
+      "section": "LimeSurvey: The world\u2019s #1 open-source survey platform (part 2)",
+      "repo": "107_LimeSurvey",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## \u2601\ufe0f You don\u2019t want to host yourself? Let us do it for you!\n\nSkip the technical setup and focus on creating and analyzing surveys. With our hosted SaaS, you get a fast, easy-to-use online survey platform that ensures security and complies with privacy regulations like GDPR. We take care of all the hosting and maintenance, so you don\u2019t have to worry about it and can scale away:  \ud83d\udc49 [Create free online survey] https://www.limesurvey.org/!\n\n## \u2764\ufe0f Join the community\n\n\u2b50 Show your support and star this repo now\n\n\ud83d\udcac Join the discussion in our [forums] https://forums.limesurvey.org\n\n\ud83d\udc1b Submit [bugs] https://bugs.limesurvey.org and [feature requests] https://bugs.limesurvey.org\n\n\ud83d\udd17 Follow us on [LinkedIn] https://www.linkedin.com/company/limesurvey\n\n\ud83d\udcac Join our [Discord] https://discord.gg/DEjguXn\n\n\ud83e\uddb8 Make [contributions] https://www.limesurvey.org/manual/How_to_join_the_LimeSurvey_project_team or [join the LimeSurvey project team] https://www.limesurvey.org/manual/How_to_join_the_LimeSurvey_project_team\n\n## All Thanks to our contributors\n\n## License\n\nLimeSurvey is licensed under [GPL v2.0, with the option to use any later GPL version] https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html. Pictures and the LimeSurvey Logo are registered trademarks of LimeSurvey GmbH, based in Hamburg, Germany.\n\n\ud83d\udd3c Back to top",
+      "section": "LimeSurvey: The world\u2019s #1 open-source survey platform (part 3)",
+      "repo": "107_LimeSurvey",
+      "source_file": "readme.md"
+    }
+  }
+]

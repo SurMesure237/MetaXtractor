@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/RS-DAT/dcachefs",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Jupyter Notebook"
+  ],
+  "downloadUrl": "https://api.github.com/repos/RS-DAT/dcachefs/zipball/main",
+  "author": "RS-DAT",
+  "dateCreated": "2020-12-11T21:53:37Z",
+  "dateModified": "2024-07-05T08:32:06Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Python file-system interface for dCache",
+  "identifier": 320692094,
+  "name": "RS-DAT/dcachefs",
+  "issueTracker": "https://api.github.com/repos/RS-DAT/dcachefs/issues",
+  "readme": "https://github.com/RS-DAT/dcachefs/blob/master/README.rst"
+}

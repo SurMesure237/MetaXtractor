@@ -1,0 +1,196 @@
+[
+  {
+    "id": 1095,
+    "annotations": [
+      {
+        "id": 12058,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 349,
+              "end": 438,
+              "text": "https://github.com/SecConNet/mahiru/actions?query=workflow%3A%22Continuous+Integration%22",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "X3nkcwAnZL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:54:30.644289Z",
+        "updated_at": "2025-11-09T07:54:30.644307Z",
+        "draft_created_at": "2025-11-09T07:54:20.683014Z",
+        "lead_time": 34.088,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "22166cd2-55a1-4380-a077-d703cabbd84a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1095,
+        "project": 23282,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": ".. image:: https://github.com/SecConNet/mahiru/raw/develop/docs/mahiru_logo.png\n\n.. image:: https://img.shields.io/badge/github-repo-000.svg?logo=github&labelColor=gray&color=blue  :target: https://github.com/SecConNet/mahiru  :alt: GitHub Badge\n\n.. image:: https://github.com/SecConNet/mahiru/workflows/Continuous%20Integration/badge.svg  :target: https://github.com/SecConNet/mahiru/actions?query=workflow%3A%22Continuous+Integration%22  :alt: Continuous Integration Badge\n\n.. image:: https://img.shields.io/github/license/SecConNet/mahiru  :target: https://github.com/SecConNet/mahiru  :alt: License Badge\n\n####################################### Mahiru Data Exchange - Proof of Concept #######################################\n\nA proof of concept for a federated, policy-driven data exchange for the SecConNet project.\n\nMahiru is a design for a distributed data processing system which lets data and software owners share their data and software while keeping it under their control to any desired extent by defining policies. Users (or the applications they use) submit workflows expressing their desired data processing operation, and the system will determine automatically whether the workflow can be executed, and if so how.\n\nMahiru's execution model is very flexible, and can support data downloads, compute-to-data, software-as-a-service, infrastructure-as-a-service, trusted third parties, and distributed machine learning, and it will automatically assemble any combination of these required to fulfil a request.",
+      "section": "Introduction (part 1)",
+      "repo": "169_Mahiru",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.802308Z",
+    "updated_at": "2025-11-09T07:54:30.680879Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23282,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1096,
+    "annotations": [
+      {
+        "id": 12059,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:54:31.863636Z",
+        "updated_at": "2025-11-09T07:54:31.863653Z",
+        "draft_created_at": null,
+        "lead_time": 0.99,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "4d577838-8874-42d8-916a-2cbce7599d53",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1096,
+        "project": 23282,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Mahiru is a federated design, which means that participating parties can run a Mahiru site on their own hardware, on their own premises and fully under their own control. Their policies will be stored in their own system, and enforced by it. Users may also allow their data to be copied to other sites, in which case they will have to trust those sites to apply and enforce their policies on their behalf. If desired, sites can be run in the cloud or at a trusted hosting provider as well.\n\nPolicies govern where data can go and how it can be processed by the Mahiru system. This control may be held exclusively by the data owner, or it can be delegated to someone else completely or partially, for instance by relying on an external auditor to audit software used to process the data.\n\nThe Mahiru design focuses on secure, federated data exchange and processing. Buying and selling access rights are outside of its scope, although the system could be extended to incorporate this.\n\nMahiru is the Akkadian word for market _. Akkadian was spoken in ancient Mesopotamia, in particular in the city of Babylon, home of King Hammurabi _ whose Code of Hammurabi _ is one of the oldest known written legal texts. During his reign in the 18th century BCE, Hammurabi made Babylon into a major city and a center of commerce, art and learning, and some one thousand years later, Babylonian astronomy _ would form the beginning of the Western exact sciences.\n\nA thousand years is a long time to sustain a software project, but we hope Mahiru can be a center of policy-driven data exchange and learning for a thousand weeks at least.\n\nContributing",
+      "section": "Introduction (part 2)",
+      "repo": "169_Mahiru",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.802349Z",
+    "updated_at": "2025-11-09T07:54:31.890706Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23282,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1097,
+    "annotations": [
+      {
+        "id": 12060,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 226,
+              "end": 253,
+              "text": "Apache License, Version 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "EgEuMnxEpQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 377,
+              "end": 419,
+              "text": "http://www.apache.org/licenses/LICENSE-2.0",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "FLmV6Fu509",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:54:44.207790Z",
+        "updated_at": "2025-11-09T07:54:44.207810Z",
+        "draft_created_at": "2025-11-09T07:54:43.266751Z",
+        "lead_time": 12.161,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "f416909d-7c08-4f30-b5fd-620df08bb2d4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1097,
+        "project": 23282,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "If you want to contribute to the development of SecConNet Proof of Concept, have a look at the contribution guidelines _.\n\nLegal\n\nCopyright 2020,2021 Netherlands eScience Center and University of Amsterdam\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.",
+      "section": "Introduction (part 3)",
+      "repo": "169_Mahiru",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.802376Z",
+    "updated_at": "2025-11-09T07:54:44.238038Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23282,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

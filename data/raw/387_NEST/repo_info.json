@@ -1,0 +1,32 @@
+{
+  "codeRepository": "https://github.com/nest/nest-simulator",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "Python",
+    "CMake",
+    "Shell",
+    "Cython",
+    "C"
+  ],
+  "downloadUrl": "https://api.github.com/repos/nest/nest-simulator/zipball/main",
+  "author": "nest",
+  "dateCreated": "2015-04-14T13:39:12Z",
+  "dateModified": "2025-10-28T13:27:09Z",
+  "keywords": [
+    "cpp",
+    "nest",
+    "nest-simulator",
+    "neurons",
+    "point-neurons",
+    "python",
+    "simulation-toolkit",
+    "simulator"
+  ],
+  "license": "https://api.github.com/licenses/gpl-2.0",
+  "description": "The NEST simulator",
+  "identifier": 33933892,
+  "name": "nest/nest-simulator",
+  "issueTracker": "https://api.github.com/repos/nest/nest-simulator/issues",
+  "readme": "https://github.com/nest/nest-simulator/blob/master/README.md"
+}

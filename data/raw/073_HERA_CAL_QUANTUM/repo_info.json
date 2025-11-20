@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/HERA-Team/hera_qm",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/HERA-Team/hera_qm/zipball/main",
+  "author": "HERA-Team",
+  "dateCreated": "2017-06-02T21:42:55Z",
+  "dateModified": "2025-04-02T18:02:15Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "HERA Data Quality Metrics",
+  "identifier": 93206037,
+  "name": "HERA-Team/hera_qm",
+  "issueTracker": "https://api.github.com/repos/HERA-Team/hera_qm/issues",
+  "readme": "https://github.com/HERA-Team/hera_qm/blob/main/README.md"
+}

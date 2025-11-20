@@ -1,0 +1,34 @@
+{
+  "codeRepository": "https://github.com/yasgui-with-rosemary/app",
+  "programmingLanguage": "JavaScript",
+  "programmingLanguages": [
+    "JavaScript",
+    "CSS",
+    "HTML",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/yasgui-with-rosemary/app/zipball/main",
+  "author": "yasgui-with-rosemary",
+  "dateCreated": "2025-01-09T15:11:52Z",
+  "dateModified": "2025-03-05T20:02:49Z",
+  "keywords": [
+    "autocomplete",
+    "autocompletion",
+    "faceted-search",
+    "filters",
+    "in-browser-javascript",
+    "javascript",
+    "linked-data",
+    "linked-open-data",
+    "sparql",
+    "sparql-query",
+    "sparql-query-builder",
+    "yasgui"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Rosemary is a plugin for YASGUI (Yet Another SPARQL GUI) for creating SPARQL queries with no prior knowledge of SPARQL",
+  "identifier": 914423135,
+  "name": "yasgui-with-rosemary/app",
+  "issueTracker": "https://api.github.com/repos/yasgui-with-rosemary/app/issues",
+  "readme": "https://github.com/yasgui-with-rosemary/app/blob/main/README.md"
+}

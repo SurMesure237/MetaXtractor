@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/julianreul/mode_behave",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "TeX"
+  ],
+  "downloadUrl": "https://api.github.com/repos/julianreul/mode_behave/zipball/main",
+  "author": "julianreul",
+  "dateCreated": "2022-08-09T04:56:00Z",
+  "dateModified": "2024-08-08T01:21:32Z",
+  "keywords": [],
+  "license": null,
+  "description": "A Python package for estimating mixed logit models with nonparametric distributions",
+  "identifier": 522807466,
+  "name": "julianreul/mode_behave",
+  "issueTracker": "https://api.github.com/repos/julianreul/mode_behave/issues",
+  "readme": "https://github.com/julianreul/mode_behave/blob/main/README.rst"
+}

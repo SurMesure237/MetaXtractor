@@ -1,0 +1,744 @@
+[
+  {
+    "id": 1678,
+    "annotations": [
+      {
+        "id": 10710,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 42,
+              "text": "https://doi.org/10.5281/zenodo.13807484",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "5SgLez2VNV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 132,
+              "end": 171,
+              "text": "https://doi.org/10.1145/3641513.3650180",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "8Kegw7ubk-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 238,
+              "end": 277,
+              "text": "https://doi.org/10.1145/3641513.3652534",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "HJ3lEd7RQw",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:34:05.766916Z",
+        "updated_at": "2025-11-04T19:34:05.766934Z",
+        "draft_created_at": "2025-11-04T19:33:48.310788Z",
+        "lead_time": 26.391,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "88db2682-cbe4-4ee7-b4fb-2b81efe9fb3f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1678,
+        "project": 23389,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://doi.org/10.5281/zenodo.13807484)\n\nThis tool is based on the paper [Temporal Behavior Trees: Robustness and Segmentation] https://doi.org/10.1145/3641513.3650180 and its companion poster [Temporal Behavior Trees - Segmentation] https://doi.org/10.1145/3641513.3652534, which were published at [HSCC'24] https://hscc.acm.org/2024/.\n\nIf you encounter any issues, have questions, or need assistance, feel free to reach out: sebastian dot schirmer at dlr dot de\n\n## Table of Content\n\n[Temporal Behavior Trees: Robustness and Segmentation] #temporal-behavior-trees-robustness-and-segmentation\n\n[Getting Started] #getting-started\n\n[Folder Structure] #folder-structure\n\n[Brief Summary of the Supported Operators] #brief-summary-of-the-supported-operators\n\n[Docker Environment] #docker-environment\n\n[How to Interpret the Output Format] #how-to-interpret-the-output-format\n\n[Contributors] #contributors\n\n[Contributing] #contributing\n\n[Changes] #changes\n\n[License] #license",
+      "section": "Introduction",
+      "repo": "033_TBT-Segmentation",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.170178Z",
+    "updated_at": "2025-11-04T19:34:05.794031Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23389,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1679,
+    "annotations": [
+      {
+        "id": 10711,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:34:09.842608Z",
+        "updated_at": "2025-11-04T19:34:09.842641Z",
+        "draft_created_at": null,
+        "lead_time": 3.881,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "d7a68899-7a95-4e09-8f68-3ab8ab0a1fe9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1679,
+        "project": 23389,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Temporal Behavior Trees: Robustness and Segmentation\n\nTemporal Behavior Trees (TBT) are a specification formalism for monitoring behaviors. They are inspired by behavior trees that are commonly used to program robotic applications, but allow to specify temporal properties in their leaf nodes.  Therefore, they can be easily retrofitted to existing behavior trees.\n\nFor instance, consider the following behavior tree that specifies the landing sequence of an unmanned aircraft (1) move to position, (2) stay in position, (3) move to touchdown, and (4) descend:\n\nGiven such a TBT specification and a trace, i.e., a sequence of events of a system, we can compute the corresponding robustness. Robustness provides an quantitative interpretation how much the TBT specification was satisfied or violated.\n\nFurther, we can use a TBT specification to segment a trace. That means that we assign portions of the provided specification to segments of the given trace. Such a segmentation then helps to better explain which portions of the specification were satisfied or violated.\n\nIt is also useful to visualize the resulting segmentation, as shown below for the landing maneuver:",
+      "section": "Temporal Behavior Trees: Robustness and Segmentation (part 1)",
+      "repo": "033_TBT-Segmentation",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.170215Z",
+    "updated_at": "2025-11-04T19:34:09.867669Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23389,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1680,
+    "annotations": [
+      {
+        "id": 10712,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 29,
+              "end": 33,
+              "text": "Rust",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "NsNtsy6RLr",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 61,
+              "end": 67,
+              "text": "Python",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "7Vh2ZIPvnl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 96,
+              "end": 100,
+              "text": "Rust",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "QkuqHHu6FW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 102,
+              "end": 128,
+              "text": "https://www.rust-lang.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "k-7e-3IwvS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:34:48.228034Z",
+        "updated_at": "2025-11-15T16:32:23.206314Z",
+        "draft_created_at": "2025-11-04T19:34:20.341445Z",
+        "lead_time": 175.919,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "63991819-9bb5-46e1-87a3-6d7669bef55c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1680,
+        "project": 23389,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Getting Started\n\nRequires Rust to compile source code and Python for visualization. [Install Rust] https://www.rust-lang.org/\n\nSpecify a TBT, e.g., as done [here] specification/shiplanding_formula.tbt. The grammar can be found [here] src/tbt.pest\n\n[Provide a Trace by implementing `get_trace] src/user_defined/get_trace.rs\n\n[Replace the user_defined-function by your own (Line 5)] src/lib.rs\n\nCall cargo build or cargo build --release\n\nCall cargo run -- --help to get help on the command-line-usage\n\nCall cargo test to see if the tests are successful\n\nFor instance:\n\ncargo run --release -- -u -s specification/shiplanding_formula_combined.tbt -f ./res/logs_wind_front_Lateral/ runs segmentation using subsampling on a provided logfile.  For this example, get_trace is already provided.\n\nUsing the [visualization script] scripts/visualize_ship_landing.py, we can easily plot a segmentation by, e.g., python visualize_ship_landing.py plot -b Lateral -s 5000 10000 20000 -e 0 -l ../res/logs_wind_front_Lateral/ where 5000, 10000, 20000 represent beginning of segments (omitting 0), -b states the expected behavior and is used to plot the dotted lines, and -e represents the number of skipped entries due to subsampling. There is also the option to save a plot to inspect it in a docker environment using -p. We can also replay the flight by, e.g., python visualize_ship_landing.py live -l ../res/logs_wind_front_Lateral/ -b Lateral -f 0.005 0.1 2.0.\n\nFor more information call python visualize_ship_landing.py --help.\n\nUsing --toml ` as command-line-argument generates a .toml-file for the computed segmentations.",
+      "section": "Temporal Behavior Trees: Robustness and Segmentation (part 2)",
+      "repo": "033_TBT-Segmentation",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.170240Z",
+    "updated_at": "2025-11-15T16:32:23.241609Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23389,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1681,
+    "annotations": [
+      {
+        "id": 10713,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:34:53.917173Z",
+        "updated_at": "2025-11-04T19:34:53.917193Z",
+        "draft_created_at": null,
+        "lead_time": 5.494,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "35b8da5d-2f34-413f-8b27-76f4c47ebadd",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1681,
+        "project": 23389,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Folder Structure\n\n[figs] figs are resources used for this readme document\n\n[res] res contains the logfiles used in the HSCC paper\n\nThe logfolder name specifies the wind direction (front or side) and the anticipated maneuver (45Deg, Lateral, Oblique, or Straight)\n\nEach flight consists of two csv-files: one for the ship and one for the aircraft\n\nThe files contain the position, the velocity, and the angles for the ship and the aircraft\n\n[scripts] scripts provides auxiliary resources\n\n[Makefile] scripts/Makefile is used for Rust profiling\n\n[clean.sh] scripts/clean.sh is used for cleaning up the repository\n\n[infer_parameters_visualization.py] scripts/infer_parameters_visualization.py is used for the [run.sh] scripts/run.sh script to extract the segments from the produced output files\n\n[run.sh] scripts/run.sh is a script that executes our segmentation tool on all the available [logfiles] res and produces png files to further analyze ([infer_parameters_visualization.py] scripts/infer_parameters_visualization.py)\n\n[visualize_ship_landing.py] scripts/visualize_ship_landing.py is a script that is used to produced the png files that show the flight and the computed segments\n\n[specification] specification contains some example specifications\n\n[src] src contains the source code\n\n[lib.rs] src/lib.rs provides a package of TBTs functions that can be used by others\n\nIt requires a user to provide two functions [get_trace()] src/lib.rs and [get_events_per_second()] src/lib.rs\n\nThis repository provides these functions for the ship landing: [user_defined/] src/user_defined/\n\n[main.rs] src/main.rs is an example that uses [lib.rs] src/lib.rs and the user-defined functions [tree/] src/tree/\n\n[stl.rs] src/stl.rs provides the syntax and semantics for STL formulas",
+      "section": "Temporal Behavior Trees: Robustness and Segmentation (part 3)",
+      "repo": "033_TBT-Segmentation",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.170264Z",
+    "updated_at": "2025-11-04T19:34:53.946257Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23389,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1682,
+    "annotations": [
+      {
+        "id": 10714,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:34:55.318461Z",
+        "updated_at": "2025-11-04T19:34:55.318482Z",
+        "draft_created_at": null,
+        "lead_time": 1.229,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "dc3f5cbd-8ae0-4bef-9927-66f15e79a71a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1682,
+        "project": 23389,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[behaviortree.rs] src/behaviortree.rs provides the syntax and semantics for TBTs\n\n[command_line_parser.rs] src/command_line_parser.rs is used to interface with the command line\n\n[functions.rs] src/functions.rs is used to represent atomic functions that are used by the TBT parser\n\n[parser.rs] src/parser.rs is a TBT parser that reads a .tbt-file and produces a ``Tree`\n\n[tbt.pest] src/tbt.pest represents the grammar used by the TBT parser\n\n[toml_out.rs] src/toml_out.rs is used to produce a .toml-file\n\n[csv_reader.rs] src/csv_reader.rs represent auxiliary functions such as reading a csv-file\n\n[table.rs] src/table.rs represents the main data structure for the dynamic programming\n\n[user_defined/] src/user_defined/ is an example implementation for the UserProvidedFunctions required by [lib.rs] src/lib.rs\n\n[get_trace.rs] src/user_defined/get_trace.rs reads the trace data used in the experiment (ie it reads a csv-file and provides a Trace`)\n\n[tests] tests/ contains multiple test cases that can be executed to test whether the compilation works\n\n[Dockerfile] Dockerfile just c/p the whole repository and builds it to produce a docker container that then can run [run.sh] scripts/run.sh to procude the HSCC artifacts",
+      "section": "Temporal Behavior Trees: Robustness and Segmentation (part 4)",
+      "repo": "033_TBT-Segmentation",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.170287Z",
+    "updated_at": "2025-11-04T19:34:55.374824Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23389,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1683,
+    "annotations": [
+      {
+        "id": 10715,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:35:01.681175Z",
+        "updated_at": "2025-11-04T19:35:01.681190Z",
+        "draft_created_at": null,
+        "lead_time": 6.158,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "fa2b0a8d-1374-4a89-84b0-b075cde79480",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1683,
+        "project": 23389,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "To use the TBT tool for a different use-case, a user needs to provide the UserProvidedFunction ([get_trace()] src/lib.rs and [get_tree()] src/lib.rs) similar to what has been done here for the ship landing ([tree/] src/tree/). I.e., he/she needs to extract logdata into a Trace struct and needs to build the TBT.",
+      "section": "Temporal Behavior Trees: Robustness and Segmentation (part 5)",
+      "repo": "033_TBT-Segmentation",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.170308Z",
+    "updated_at": "2025-11-04T19:35:01.709532Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23389,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1684,
+    "annotations": [
+      {
+        "id": 10716,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1585,
+              "end": 1624,
+              "text": "https://doi.org/10.1145/3641513.3650180",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "3zg4Fk6ZKi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:35:17.892088Z",
+        "updated_at": "2025-11-04T19:35:17.892106Z",
+        "draft_created_at": null,
+        "lead_time": 16.034,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "4fd5bb8c-1493-4cb0-bafb-9f2d33925203",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1684,
+        "project": 23389,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Brief Summary of the Supported Operators\n\nTBT `T:= Fallback([T_1,...,T_n]): At least one of the subtrees must eventually be satisfied.\n\nSequence([T_1, T_2]): Each subtree must be satisfied in order from left to right.\n\nParallel(m, [T_1,...,T_n]): At least m of the subtrees must be simultaneously satisfied.\n\nTimeout(t, T): The subtree must be satisfied by a finite prefix of length t.\n\nKleene(n, T): There must be n repetitions of the subtree to be satisfied.\n\nLeaf(S): STL formula S must be satisfied.\n\nSTL S:= Atomic(function): The function must return a positive number to be satisfied, otherwise it is violated.\n\nConjuntion(S_1, S_2): Both subformulas must be satisfied.\n\nDisjunction(S_1, S_2): One of the subformulas or both must be satisfied.\n\nNeg(S): The subformulas must be violated.\n\nNext(S): The subformula must be satisfied in the next step.\n\nEventually(S): Eventually the subformula must be satisfied.\n\nGlobally(S): The subformula must always be satisfied.\n\nUntil(S_1, S_2): The subformula S_1 must be satisfied until S_2 is satisfied.\n\nEventuallyInterval(l, u, S): Eventually within l and u steps, the subformula must be satisfied.\n\nGloballyInterval(l, u, S): Always within l and u steps, the subformula must be satisfied.\n\nUntilInterval(l, u, S_1, S_2): Within l and u steps, the subformula S_1 must be satisfied until S_2` is satisfied.\n\nThe TBT operators are defined [here] src/behaviortree.rs and the STL operators are defined [here] src/stl.rs.\n\nA TBT parser is implemented that is based on this [grammar] src/tbt.pest.\n\nFor more details, we refer to the [paper] https://doi.org/10.1145/3641513.3650180.",
+      "section": "Temporal Behavior Trees: Robustness and Segmentation (part 6)",
+      "repo": "033_TBT-Segmentation",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.170332Z",
+    "updated_at": "2025-11-04T19:35:17.920579Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23389,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1685,
+    "annotations": [
+      {
+        "id": 10717,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 32,
+              "end": 38,
+              "text": "Docker",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "12i-RKfavf",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 40,
+              "end": 79,
+              "text": "https://docs.docker.com/engine/install/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "xEGd_aH3xt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:35:42.087356Z",
+        "updated_at": "2025-11-15T16:32:40.171593Z",
+        "draft_created_at": "2025-11-04T19:35:27.842626Z",
+        "lead_time": 36.488,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "ce9b93b3-8ce0-4b73-b638-80aeb6d6d0dd",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1685,
+        "project": 23389,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Docker Environment\n\nInstall [Docker] https://docs.docker.com/engine/install/\n\nBuilder Docker Image: `docker build -t tbt .\n\nRun Docker Container: docker run -it --rm --name tbt-container tbt bash\n\nTo test if the container is working reproduce paper results by (being in the docker bash):\n\nRun . scripts/run.sh that takes all logfiles and computes the segmentation.\n\nThe script calls the tool as defined [here] #getting-started for each logfolder that exists in [res] res.\n\nThe results for each run are stored in the respective logfolder.\n\nCheck results of each logfiles that are located in the following subfolder: cd ./res/\n\nThe files in the folders [res/] res are called subsampling_result.txt and subsamplingAndLazy_result.txt.\n\nBesides the result-files, for each segmentation, the script produces a .png-plot. Every .png-plot that has a name that ends with aX, where X is a number, represents an alternative segmentations where the number corresponds to the alternative in the result-file. For instance, Figure 9 of the HSCC paper can then be found [here] res/logs_wind_front_Oblique/subsampling_result_a3.png.\n\n(Optional) To display plots copy them from the docker container to your host machine; dont use the docker bash.\n\ndocker cp : (copy whole folder or individual files), e.g., docker cp e7ba94d69e94:/app/res ./docker\n\nto get container_id call docker ps`\n\nThe Dockerfile uses multiple stages. The first stage builds the executable using rust/cargo and the second stage uses a debian environment to execute it. Therefore, there are no cargo-commands available in the container while running.",
+      "section": "Temporal Behavior Trees: Robustness and Segmentation (part 7)",
+      "repo": "033_TBT-Segmentation",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.170355Z",
+    "updated_at": "2025-11-15T16:32:40.209804Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23389,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1686,
+    "annotations": [
+      {
+        "id": 10718,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:35:44.605233Z",
+        "updated_at": "2025-11-04T19:35:44.605248Z",
+        "draft_created_at": null,
+        "lead_time": 2.329,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "4966f7df-84d1-4191-9e1d-4e3bfdab21c5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1686,
+        "project": 23389,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Also, there is a line ending issue, when building the docker image in a Windows environment. We recommend building the image on a Linux machine to avoid this issue (WSL is an option for Windows systems).",
+      "section": "Temporal Behavior Trees: Robustness and Segmentation (part 8)",
+      "repo": "033_TBT-Segmentation",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.170376Z",
+    "updated_at": "2025-11-04T19:35:44.630943Z",
+    "inner_id": 9,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23389,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1687,
+    "annotations": [
+      {
+        "id": 10719,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:35:51.742568Z",
+        "updated_at": "2025-11-04T19:35:51.742591Z",
+        "draft_created_at": null,
+        "lead_time": 6.97,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "58e61791-4ceb-4150-ac5d-a07069f74528",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1687,
+        "project": 23389,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## How to Interpret the Output Format\n\nRunning e.g. cargo run --release -- -l -c -u -s /TBT-Segmentation/specification/shiplanding_formula_combined.tbt -f /TBT-Segmentation/res/logs_wind_front_Lateral/ produces an output that contains the following lines:\n\nConstants: { \"Lateral_AngleToShip\": 90.0, ... }\n\nthat represent all read constants in the provided TBT specification.\n\nAP(0) in_pos ([\"uas_x\", \"uas_y\", \"uas_z\", \"ship_x\", \"ship_y\", \"ship_z\", \"ship_heading\"]): (2.5 - sqrt((((((ship_x + (30 cos((deg_to_rad(135) + ship_heading)))) - uas_x) ^ 2) + (((ship_y + (30 sin((deg_to_rad(135) + ship_heading)))) - uas_y) ^ 2)) + (((ship_z + 20) - uas_z) ^ 2))))\n\na sequence of the parsed atomic propositions.\n\nSETTING:  Logfile: /root/canbedeleted/TBT-Segmentation/res/logs_wind_front_Lateral/\n\nrepresents the logfile name.\n\nApproximations: (lazy evaluation= true, subsampling = true(delta: 100))\n\nshow which approximations are enabled. In this case, lazy evauation and subsampling with a delta of 100 are enabled.\n\nTrace length: 252\n\nprovides that the length of the trace is 252 after subsampling.  I.e. the original file has >25.000 entries.\n\nTemporal behavior tree:   Sequence(22)[  Fallback(20)[ ]]\n\nshows a pretty print of the used TBT with its node identifiers. Here, the root node has ID 22.\n\nCreated tree table with 733,194 entries.  Created formula table with 828,828 entries.\n\nare information on the table used for dynamic programming.\n\nStatistics: Robustness value is 0.05925286 with 3,277,611 total tree lookups and 1,503,504 formula lookups\n\nprovides information how effective dynamic programming was.\n\nGet segmentation after 0 seconds.\n\nstates that it took 0 seconds to compute a segmentation.\n\nApproximate segmentation with robustness 0.05925286 and subsampling delta of 0.5564443 is:",
+      "section": "Temporal Behavior Trees: Robustness and Segmentation (part 9)",
+      "repo": "033_TBT-Segmentation",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.170400Z",
+    "updated_at": "2025-11-04T19:35:51.773177Z",
+    "inner_id": 10,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23389,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1688,
+    "annotations": [
+      {
+        "id": 10720,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:35:55.294148Z",
+        "updated_at": "2025-11-04T19:35:55.294163Z",
+        "draft_created_at": null,
+        "lead_time": 3.373,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "bb9f6d69-e780-4c4d-b32f-c05a3efa0a50",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1688,
+        "project": 23389,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "is the beginning of the segmentation. The following lines provide information on the segments.\n\nlower: 0 upper: 78 value: 0.31250286 segment: Leaf(0 move_to_position_lateral)\n\nrepresent one segment. It states that the leaf node move_to_position_lateral was assigned to the segment that begins at index 0 and ends at index 78.  Further its robustness value is 0.31, i.e., the trace segment did satisfy this node.",
+      "section": "Temporal Behavior Trees: Robustness and Segmentation (part 10)",
+      "repo": "033_TBT-Segmentation",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.170422Z",
+    "updated_at": "2025-11-04T19:35:55.321455Z",
+    "inner_id": 11,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23389,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1689,
+    "annotations": [
+      {
+        "id": 10721,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:35:59.350044Z",
+        "updated_at": "2025-11-04T19:35:59.350069Z",
+        "draft_created_at": null,
+        "lead_time": 3.884,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "dcd9eed8-7474-494f-9a30-e1f91423811c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1689,
+        "project": 23389,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Contributors\n\nSebastian Schirmer\n\n## Contributing\n\nPlease see [the contribution guidelines] CONTRIBUTING.md for further information about how to contribute.\n\n## Changes\n\nPlease see the [Changelog] CHANGELOG.md for notable changes of the material.\n\n## License\n\nPlease see the file [LICENSE.md] LICENSE.md for further information about how the content is licensed.",
+      "section": "Temporal Behavior Trees: Robustness and Segmentation (part 11)",
+      "repo": "033_TBT-Segmentation",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.170443Z",
+    "updated_at": "2025-11-04T19:35:59.383046Z",
+    "inner_id": 12,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23389,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

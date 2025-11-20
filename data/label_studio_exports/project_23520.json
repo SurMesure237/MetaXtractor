@@ -1,0 +1,241 @@
+[
+  {
+    "id": 2309,
+    "annotations": [
+      {
+        "id": 10189,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 15,
+              "end": 59,
+              "text": "https://zenodo.org/badge/latestdoi/471007521",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "8M5fUVbNLp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 64,
+              "end": 121,
+              "text": "https://wam2layers.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "W7mu_tLUV-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 447,
+              "end": 487,
+              "text": "https://doi.org/10.5194/gmd-18-4335-2025",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "Hg6LkM8dXl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1217,
+              "end": 1261,
+              "text": "https://wam2layers.readthedocs.io/en/latest/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "rmPmJzsRKm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:22:09.774680Z",
+        "updated_at": "2025-11-14T11:36:38.967727Z",
+        "draft_created_at": "2025-11-03T06:21:23.399530Z",
+        "lead_time": 69.805,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "a5a386af-4ffa-4ff3-a565-01cc71499746",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2309,
+        "project": 23520,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "WAM2layers\n\n[](https://zenodo.org/badge/latestdoi/471007521) [](https://wam2layers.readthedocs.io/en/latest/?badge=latest) [](https://pypi.org/project/wam2layers/)\n\nWAM2layers is an atmospheric moisture tracking model. It can be used to determine where precipitation originally evaporated (backward tracking), or where evaporated moisture eventually ends up (forward tracking).\n\nReference paper: [Atmospheric moisture tracking with WAM2layers v3] https://doi.org/10.5194/gmd-18-4335-2025\n\nhttps://user-images.githubusercontent.com/17080502/233834536-a82ca96d-e303-4592-a588-472097ebe6c5.mp4\n\nThe animation above illustrates the concept of backward tracking: you first see the water content and fluxes in the tracking domain move forward in time (left panel).  Midway through, the animation reverses and the moisture from the \"tagging region\"  is tracked backward in time (right panel).\n\n## How does it work\n\nThe simplest experiment with WAM2layers could look like this\n\npip install wam2layers[viz] wam2layers download example-input-eiffel cd example-input-eiffel wam2layers preprocess era5 config-eiffel.yaml wam2layers track config-eiffel.yaml wam2layers visualize output config-eiffel.yaml\n\nSee the [documentation] https://wam2layers.readthedocs.io/en/latest/ for a more detailed description. We also have a [video walkthrough] https://youtu.be/QudlILlZnOg!",
+      "section": "WAM2layers (part 1)",
+      "repo": "186_WAM2layers",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.264254Z",
+    "updated_at": "2025-11-14T11:36:39.010057Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23520,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2310,
+    "annotations": [
+      {
+        "id": 10190,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:22:12.890551Z",
+        "updated_at": "2025-11-03T06:22:12.890566Z",
+        "draft_created_at": null,
+        "lead_time": 2.911,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "a341cf89-64c4-4239-a87d-84206e76ad4b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2310,
+        "project": 23520,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Finding help\n\ngraph TD  A[Question or idea?] --> B[Check existing resources:Documentation, Discussion forum, Open issues]  B --> |Still unresolved?| C[Start a new discussionBriefly introduce yourself and your use case and provide relevant context, e.g. config files]  C --> |Work needed?| D[Discussion is converted to issue]  D --> |Want to contribute?| E[See Developer guide]  D --> F[Wait for others to hopefully work on it]\n\nclass A startStep;  classDef startStep fill:#f9f,stroke:#333,stroke-width:4px,font-size:16px;",
+      "section": "WAM2layers (part 2)",
+      "repo": "186_WAM2layers",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.264290Z",
+    "updated_at": "2025-11-03T06:22:12.919059Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23520,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2311,
+    "annotations": [
+      {
+        "id": 10191,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1172,
+              "end": 1210,
+              "text": "https://doi.org/10.5281/zenodo.7010594",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "OpBhFLNIGv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1288,
+              "end": 1328,
+              "text": "https://doi.org/10.5194/gmd-18-4335-2025",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "v91OWRiCSI",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:22:50.872858Z",
+        "updated_at": "2025-11-03T06:22:50.872894Z",
+        "draft_created_at": "2025-11-03T06:22:39.256379Z",
+        "lead_time": 37.798,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "43ade5c7-8d21-48c0-b3f7-851953c96fab",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2311,
+        "project": 23520,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Other versions\n\nThis is the official codebase for the WAM-2layers moisture tracking model as of 18/03/2022, but there are still several other (older) versions around:\n\n[Original Python code for ERA-Interim by Ruud van der Ent] https://github.com/ruudvdent/WAM2layersPython\n\n[Adapted version for EC-Earth by Imme Benedict] https://github.com/Imme1992/moisture_tracking_mississippi\n\n[Adapted version for MERRA2 by Pat Keys] https://github.com/pkeys/WAM2layersPythonMerra2\n\n[Adapted version for ERA5 pressure levels by Mingzhong Xiao] https://zenodo.org/record/4796962#.Y25d1-TMIVA\n\n[Adapted version for ERA5 by Theo Carr] https://github.com/ktcarr/WAM2layers_ERA5\n\nReuse and acknowledgement\n\nThis code is currently developed by a core team: Ruud van der Ent (Delft University of Technology) Imme Benedict (Wageningen University) Chris Weijenborg (Wageningen University) Peter Kalverla (Netherlands eScienceCenter) Bart Schilperoort (Netherlands eScience Center)\n\nWe are proudly part of [open-sustainable-technology] https://github.com/protontypes/open-sustainable-technology.\n\nIf you use the code for a publication, please cite it using the [DOI of the appropriate release] https://doi.org/10.5281/zenodo.7010594 and the following paper : [Atmospheric moisture tracking with WAM2layers v3] https://doi.org/10.5194/gmd-18-4335-2025",
+      "section": "Other versions + Reuse and acknowledgement",
+      "repo": "186_WAM2layers",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.264315Z",
+    "updated_at": "2025-11-03T06:22:50.900509Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23520,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

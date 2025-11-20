@@ -1,0 +1,464 @@
+[
+  {
+    "id": 787,
+    "annotations": [
+      {
+        "id": 12121,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 355,
+              "end": 393,
+              "text": "https://doi.org/10.5281/zenodo.7660036",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "dI-pHzLWZR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:43:20.940453Z",
+        "updated_at": "2025-11-09T10:43:20.940468Z",
+        "draft_created_at": "2025-11-09T10:43:20.220593Z",
+        "lead_time": 5615.672,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "bf70b318-5068-4429-93d1-4c8f6740d72b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 787,
+        "project": 23238,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "KIT Data Manager - Base Repository Service\n\n[](https://github.com/kit-data-manager/base-repo/actions/workflows/gradle.yml) [](https://codecov.io/gh/kit-data-manager/base-repo)\n\n[](https://github.com/kit-data-manager/base-repo/pkgs/container/base-repo) [](https://api.eu.badgr.io/public/assertions/onNKx_lhTn68bPKnMAg-eQ \"SQAaaS silver badge achieved\") [](https://doi.org/10.5281/zenodo.7660036)\n\nThis project contains the repository service microservice for the KIT DM infrastructure. The service provides data resource management, e.g. register DataCite-oriented metadata and upload/download content to data resources.",
+      "section": "KIT Data Manager - Base Repository Service (part 1)",
+      "repo": "352_MetaStore",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.649853Z",
+    "updated_at": "2025-11-09T10:43:20.970456Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23238,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 788,
+    "annotations": [
+      {
+        "id": 12122,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 67,
+              "end": 90,
+              "text": "Java SE Development Kit",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "h-8AnUGxs_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 91,
+              "end": 103,
+              "text": "17 or higher",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "NtjxM6-p6E",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 805,
+              "end": 815,
+              "text": "PostgreSQL",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "FNz17rY5yz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 816,
+              "end": 829,
+              "text": "9.1 or higher",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "eBdrg9wmAm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 840,
+              "end": 855,
+              "text": "3.7.3 or higher",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "N9sBzXbP7k",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 935,
+              "end": 948,
+              "text": "8.X or higher",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_VERSION"
+              ]
+            },
+            "id": "riFlbLEwvn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 830,
+              "end": 839,
+              "text": " RabbitMQ",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "bFbX2yN1js",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 926,
+              "end": 934,
+              "text": " Elastic",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "sUd9H41anJ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:44:02.499656Z",
+        "updated_at": "2025-11-16T05:36:07.909151Z",
+        "draft_created_at": "2025-11-09T10:43:42.511487Z",
+        "lead_time": 80.297,
+        "prediction": {},
+        "result_count": 8,
+        "unique_id": "be642c55-1748-48d1-b949-292589852656",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 788,
+        "project": 23238,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## How to build\n\nIn order to build this microservice you'll need:\n\nJava SE Development Kit 17 or higher\n\nAfter obtaining the sources change to the folder where the sources are located perform the following steps:\n\nuser@localhost:/home/user/base-repo$ ./gradlew -Dprofile=minimal build Running gradle version: 7.4.2 Building base-repo version: 1.5.5 JDK version: 11 Using minimal profile for building base-repoo  0% EXECUTING [0s] [...] user@localhost:/home/user/base-repo$\n\nThe Gradle wrapper will now take care of downloading the configured version of Gradle, checking out all required libraries, build these libraries and finally build the base-repo microservice itself. As a result, a fat jar containing the entire service is created at 'build/libs/base-repo.jar'.\n\n## How to start\n\n### Prerequisites\n\nPostgreSQL 9.1 or higher  RabbitMQ 3.7.3 or higher (in case you want to use the messaging feature, which is recommended)  Elastic 8.X or higher (in case you want to use the search feature)",
+      "section": "KIT Data Manager - Base Repository Service (part 2)",
+      "repo": "352_MetaStore",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.649888Z",
+    "updated_at": "2025-11-16T05:36:07.942558Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23238,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 789,
+    "annotations": [
+      {
+        "id": 12123,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:44:07.861473Z",
+        "updated_at": "2025-11-09T10:44:07.861502Z",
+        "draft_created_at": null,
+        "lead_time": 5.175,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "bedb3da1-9161-4607-9932-d3a30bc4682b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 789,
+        "project": 23238,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Setup\n\nBefore you are able to start the repository microservice, you have provide a configuration file according to your local setup. Therefor, copy the file 'config/application-default.properties' to your project folder, rename it to 'application.properties' and customize it as required. Special attentioned should be payed to the datasource url as well as to the repository base path. Also, the property 'repo.messaging.enabled' should be changed to 'true' in case you want to use the messaging feature of the repository.\n\nAs soon as you finished modifying 'application.properties', you may start the repository microservice by executing the following command inside the project folder, e.g. where the service has been built before:\n\nuser@localhost:/home/user/base-repo$ ./build/libs/base-repo.jar\n\n. ____ _ __ _ _  /\\\\ / ___'_ __ _ _(_)_ __ __ _ \\ \\ \\ \\ ( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\  \\\\/ ___)| |_)| | | | | || (_| | ) ) ) )  ' |____| .__|_| |_|_| |_\\__, | / / / /  =========|_|==============|___/=/_/_/_/  :: Spring Boot :: (v2.7.5) [...] 1970-01-01 00:00:00.000 INFO 56918 --- [ main] o.s.b.w.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''\n\nIf your 'application.properties' is not located inside the project folder you can provide it using the command line argument --spring.config.location=\n\nAs soon as the microservice is started, you can browse to\n\nin order to see available RESTful endpoints and their documentation.",
+      "section": "KIT Data Manager - Base Repository Service (part 3)",
+      "repo": "352_MetaStore",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.649912Z",
+    "updated_at": "2025-11-09T10:44:07.889553Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23238,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 790,
+    "annotations": [
+      {
+        "id": 12124,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:44:12.157667Z",
+        "updated_at": "2025-11-09T10:44:12.157683Z",
+        "draft_created_at": null,
+        "lead_time": 4.123,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "2de096d3-b7bd-48c2-983b-e6dceb47aa75",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 790,
+        "project": 23238,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Enhanced Startup\n\nAt certain points, base-repo offers and will offer extension points allowing to add custom features that are not part of the default distribution, e.g. custom message handlers. If you are familiar with software development, it might be no big deal to include an additional dependency to 'build.gradle' of base-repo. However, in some cases this might not be desirable or possible. Therefor, base-repo allows to place additional libraries required at runtime in a separate folder which is then loaded as soon as the microservice starts and made available using the dependency injection feature of Spring Boot.\n\nIn order to tell Spring Boot where to look for additional libraries, you have to define an environment variable JAVA_OPTS looking as follows:\n\nexport JAVA_OPTS=\"-cp .:./config:./base-repo.jar -Dloader.path=./base-repo.jar,./lib/,.\"\n\nThe first part '-cp' has to contain three elements divided by ':':\n\nThe configuration folder where your application.properties is located (this element can be omitted, if application.properties\n\nis located in the current folder), the current folder,\n\nand the microservice jar file.\n\nThe second part '-Dloader.path' basically contains the same information as '-cp' but with the difference, that the config folder is not required, whereas the folder containing all additional libraries has to be provided, in our case it's './lib'.\n\nPlease keep in mind that all arguments shown in the example assume, that you are in the same folder where your microservice jar file is located and that you start the service by calling './base-repo.jar'. If your microservice jar is located elsewhere, you should consider to provide absolute paths for all arguments above. In case you want to choose a different folder for placing your additional libraries, you have to rename it in JAVA_OPTS accordingly.",
+      "section": "KIT Data Manager - Base Repository Service (part 4)",
+      "repo": "352_MetaStore",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.649935Z",
+    "updated_at": "2025-11-09T10:44:12.185702Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23238,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 791,
+    "annotations": [
+      {
+        "id": 12125,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:44:13.000056Z",
+        "updated_at": "2025-11-09T10:44:13.000070Z",
+        "draft_created_at": null,
+        "lead_time": 0.663,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "2208a83c-40c4-456a-a6a4-7fe160827d23",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 791,
+        "project": 23238,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "What you now have to do before you start the microservice is to place additional jar files (and required dependencies!) in the 'lib' folder. At the next startup, the new functionality should be available.",
+      "section": "KIT Data Manager - Base Repository Service (part 5)",
+      "repo": "352_MetaStore",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.649955Z",
+    "updated_at": "2025-11-09T10:44:13.032004Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23238,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 792,
+    "annotations": [
+      {
+        "id": 12126,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 459,
+              "end": 486,
+              "text": "Apache License, Version 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "hb6e1WPOqc",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 55,
+              "end": 118,
+              "text": "https://kit-data-manager.github.io/webpage/base-repo/index.html",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "gY2KCCi6zV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:44:37.747014Z",
+        "updated_at": "2025-11-16T05:36:16.481693Z",
+        "draft_created_at": "2025-11-09T10:44:22.972826Z",
+        "lead_time": 31.271,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "7b837014-6a03-4662-b611-87f51b8bb1ee",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 792,
+        "project": 23238,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## More Information\n\n[Getting Started & Documentation] https://kit-data-manager.github.io/webpage/base-repo/index.html  [API documentation] https://kit-data-manager.github.io/webpage/base-repo/documentation/api-docs.html  [Docker container] https://github.com/kit-data-manager/base-repo/pkgs/container/base-repo%2Fbase-repo  [Information about the DataCite metadata schema] https://schema.datacite.org/\n\n## License\n\nThe KIT Data Manager is licensed under the Apache License, Version 2.0.\n\n## Acknowledgements\n\nThis work has been supported by the research program [‘Engineering Digital Futures’] https://www.helmholtz.de/en/research/research-fields/information/engineering-digital-futures/ of the [Helmholtz Association of German Research Centers] https://www.helmholtz.de/en and the [Helmholtz Metadata Collaboration Platform (HMC)] https://helmholtz-metadaten.de/.",
+      "section": "KIT Data Manager - Base Repository Service (part 6)",
+      "repo": "352_MetaStore",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.649977Z",
+    "updated_at": "2025-11-16T05:36:16.512774Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23238,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,305 @@
+[
+  {
+    "id": 2636,
+    "annotations": [
+      {
+        "id": 9972,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 79,
+              "end": 123,
+              "text": "https://zenodo.org/badge/latestdoi/239750248",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "8I4R9oKzPq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 617,
+              "end": 628,
+              "text": "torchvision",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "PyVDmIQ9kD",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 824,
+              "end": 831,
+              "text": "sklearn",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "nRibiHfdcZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 832,
+              "end": 850,
+              "text": "python-Levenshtein",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "PdL98vvYUn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 535,
+              "end": 546,
+              "text": "python==3.8",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "sFg-gzp4TC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:06:34.530663Z",
+        "updated_at": "2025-11-16T23:59:46.355874Z",
+        "draft_created_at": "2025-11-02T20:05:57.340947Z",
+        "lead_time": 95.634,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "382dd6c8-c669-43a2-bd6d-e85501659e71",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2636,
+        "project": 23575,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Platalea Understanding visually grounded spoken language via multi-tasking\n\n[](https://zenodo.org/badge/latestdoi/239750248) [](https://github.com/spokenlanguage/platalea/actions/workflows/pythonapp.yml) [](https://codecov.io/gh/spokenlanguage/platalea)\n\n## Installation\n\nClone this repo and cd into it:\n\ngit clone https://github.com/spokenlanguage/platalea.git cd platalea\n\nTo install in a conda environment, assuming conda has already been installed, run the following to download and install dependencies:\n\nconda create -n platalea python==3.8 pytorch -c conda-forge -c pytorch conda activate platalea pip install torchvision\n\nThen install platalea with:\n\npip install .\n\n### Experiment dependencies\n\nDifferent experiments may have different additional dependencies. The basic experiment needs the following:\n\npip install sklearn python-Levenshtein\n\n## Datasets",
+      "section": "Platalea (part 1)",
+      "repo": "466_Platalea",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.360015Z",
+    "updated_at": "2025-11-16T23:59:46.397429Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23575,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2637,
+    "annotations": [
+      {
+        "id": 9973,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:06:59.720791Z",
+        "updated_at": "2025-11-02T20:06:59.720803Z",
+        "draft_created_at": null,
+        "lead_time": 24.995,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "66b51e5d-bc8b-4d8b-818c-7244c7dfc6a4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2637,
+        "project": 23575,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Flickr8K\n\nThe repository has been developed to work with Flickr8K dataset. The code can be made to work with other datasets but this will require some adaptations.\n\nTo use Flickr8K, you need to download:  [Flickr8K] http://hockenmaier.cs.illinois.edu/Framing_Image_Description/KCCA.html [1].  Note that downloading from the official website seems broken at the moment.  Alternatively, the dataset can be obtained from  [here] https://github.com/jbrownlee/Datasets/blob/master/Flickr8k_Dataset.names.  The [Flickr Audio Caption Corpus] https://groups.csail.mit.edu/sls/downloads/flickraudio/ [2]. Some additional [metadata files] https://surfdrive.surf.nl/files/index.php/s/EF1bA9YYfhiBxoN.\n\nCreate a folder to store the dataset (we will assume here that the folder is ~/corpora/flickr8k) and move all the files you downloaded there, then extract the content of the archives. You can now setup the environment and start preprocessing the data.\n\n#### Configuration\n\nWe use ConfigArgParse for setting necessary input variables, including the location of the dataset. This means you can use either a configuration file (config.ini or config.yml), environment variables or command line arguments to specify the necessary configuration parameters.\n\nTo specify the location of the dataset, one option is to create a configuration file under your home directory (~/.config/platalea/config.yml)., with follwing content:\n\nflickr8k_root /home//corpora/flickr8k\n\nThe same result can be achieved with an environment variable:\n\nexport FLICKR8K_ROOT=/home//corpora/flickr8k\n\nYou could also specify this option directly on the command line when running an experiment (the respective options would be --flickr8k_root=...).\n\n#### Preprocessing\n\nRun the preprocessing script to extract input features:\n\npython platalea/utils/preprocessing.py flickr8k",
+      "section": "Platalea (part 2)",
+      "repo": "466_Platalea",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.360052Z",
+    "updated_at": "2025-11-02T20:06:59.742987Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23575,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2638,
+    "annotations": [
+      {
+        "id": 9974,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:07:04.542411Z",
+        "updated_at": "2025-11-02T20:07:04.542430Z",
+        "draft_created_at": null,
+        "lead_time": 4.645,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "374eae1b-0a0c-4ac0-8ef9-47d9db763518",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2638,
+        "project": 23575,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Howto100Men-cc\n\nThis repository has support for a subset of the [howto100M dataset] https://github.com/antoine77340/howto100m. The subset contains all videos with creative commons license that claim to be in english language according to their metadata.\n\nSampling rate of the audio features is 100Hz\n\nSampling rate of the video features is 1Hz.\n\nA dataset item is defined as the combination of video and audio for a fragment of 3 seconds.\n\n#### Preprocessing\n\nThis code contains functionality for extracting audio features from the videos. These files need to be in the datafolder before preprocessing the dataset. Preprocessing will create an index file with references to the video feature files. The video features (S3D) need to be acquired elsewhere. Videos from howto100m need to be downloaded from youtube using the metadata from the howto100m dataset provided above.\n\nTo start preprocessing, run the following:\n\npython -m platalea.utils.preprocessing howto100m-encc --howto100m_root /corpora/howto100m/\n\n#### Running/Training\n\nRunning any experiment using the howto100M dataset has not yet been implemented.\n\n## Training\n\nYou can now train a model using one of the examples provided under platalea/experiments, e.g.:\n\ncd platalea/experiments/flickr8k mkdir -p runs/test cd runs/test python -m platalea.experiments.flickr8k.basic\n\nAfter the model is trained, results are available in results.json.",
+      "section": "Platalea (part 3)",
+      "repo": "466_Platalea",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.360075Z",
+    "updated_at": "2025-11-02T20:07:04.570765Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23575,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2639,
+    "annotations": [
+      {
+        "id": 9975,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 749,
+              "end": 971,
+              "text": "Hodosh, M., Young, P., & Hockenmaier, J. (2013). Framing Image Description as a Ranking Task: Data, Models and Evaluation Metrics. Journal of Artificial Intelligence Research, 47, 853–899. https://doi.org/10.1613/jair.3994",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "Pnb0P83bdo",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 978,
+              "end": 1197,
+              "text": "Harwath, D., & Glass, J. (2015). Deep multimodal semantic embeddings for speech and images. 2015 IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU), 237–244. https://doi.org/10.1109/ASRU.2015.7404800",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "47Mmjn-dtK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:07:18.748571Z",
+        "updated_at": "2025-11-02T20:07:18.748589Z",
+        "draft_created_at": "2025-11-02T20:07:17.395882Z",
+        "lead_time": 14.048,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "90e2bfcd-114e-4a80-ba6d-19d5cf90e7e4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2639,
+        "project": 23575,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Weights and Biases (wandb)\n\nSome experiments support the use of wandb for cloud logging of results. In the examples we provide under platalea/experiments, this option is disabled by default. To force-enable it, the call to experiment() should be changed from experiment(..., wandb_mode='disabled') to experiment(..., wandb_mode='online'). To default back to wandb normal behavior (where the mode can be set through command line or environment variable), use wandb_mode=None.\n\n## Contributing\n\nIf you want to contribute to the development of platalea, have a look at the [contribution guidelines] CONTRIBUTING.md.\n\n## Changelog\n\nWe keep track of what is added, changed and removed in releases in the [changelog] CHANGELOG.md.\n\n## References\n\n[1] Hodosh, M., Young, P., & Hockenmaier, J. (2013). Framing Image Description as a Ranking Task: Data, Models and Evaluation Metrics. Journal of Artificial Intelligence Research, 47, 853–899. https://doi.org/10.1613/jair.3994.\n\n[2] Harwath, D., & Glass, J. (2015). Deep multimodal semantic embeddings for speech and images. 2015 IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU), 237–244. https://doi.org/10.1109/ASRU.2015.7404800.",
+      "section": "Platalea (part 4)",
+      "repo": "466_Platalea",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.360098Z",
+    "updated_at": "2025-11-02T20:07:18.769602Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23575,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

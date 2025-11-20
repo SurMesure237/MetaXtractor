@@ -1,0 +1,293 @@
+[
+  {
+    "id": 812,
+    "annotations": [
+      {
+        "id": 11285,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 45,
+              "text": "https://opensource.org/licenses/Apache-2.0",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "ALYP-7F_Zk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 152,
+              "end": 195,
+              "text": "https://zenodo.org/badge/latestdoi/51359212",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "8n3Uc5RCuv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 50,
+              "end": 96,
+              "text": "https://travis-ci.org/ERA-URBAN/netcdf2littler",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "EhmvqH1Z1v",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T20:53:55.908956Z",
+        "updated_at": "2025-11-16T05:37:12.500898Z",
+        "draft_created_at": "2025-11-06T20:53:45.806116Z",
+        "lead_time": 35.941,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "47a57b7d-2850-4ff7-b668-2e039c9dab72",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 812,
+        "project": 23243,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://opensource.org/licenses/Apache-2.0) [](https://travis-ci.org/ERA-URBAN/netcdf2littler) [](https://codecov.io/gh/ERA-URBAN/netcdf2littler) [](https://zenodo.org/badge/latestdoi/51359212)",
+      "section": "Introduction",
+      "repo": "047_NetCDF2LittleR",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.002340Z",
+    "updated_at": "2025-11-16T05:37:12.537879Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23243,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 813,
+    "annotations": [
+      {
+        "id": 11286,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T20:53:59.239028Z",
+        "updated_at": "2025-11-06T20:53:59.239042Z",
+        "draft_created_at": null,
+        "lead_time": 3.134,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "92bab4f4-f05f-4df6-b414-80d9123bf1de",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 813,
+        "project": 23243,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "NetCDF2LittleR\n\n### Description\n\nA FORTRAN application to convert NetCDF files to the Little-R format. The Little-R format is the accepted input format for the WRF data assimilation system (WRFDA) preprocessor (obsproc). Currently only the conversion of synoptical weather stations are supported by this application.\n\n### Installation\n\nNetCDF2LittleR uses the cmake build system. NetCDF2LittleR requires building out of source, e.g. by creating a build directory. During build a binary is created with the name convert-littler.",
+      "section": "NetCDF2LittleR (part 1)",
+      "repo": "047_NetCDF2LittleR",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.002384Z",
+    "updated_at": "2025-11-06T20:53:59.268699Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23243,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 814,
+    "annotations": [
+      {
+        "id": 11287,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T20:54:01.335454Z",
+        "updated_at": "2025-11-06T20:54:01.335465Z",
+        "draft_created_at": null,
+        "lead_time": 1.932,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "0fd21f08-6741-4f2f-b8af-634ad7d2a5dc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 814,
+        "project": 23243,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Usage\n\nThe binary convert-littler requires a Fortran namelist as argument, for example:\n\nnetcdf2littler --namelist netcdf2littler.namelist\n\nIf no argument is supplied, netcdf2littler tries to use the file netcdf2littler.namelist from the current working directory.\n\nThe input namelist provides information to the application on the variables in the NetCDF file, the timeframe for which observations need to be converted, as well as the variables. Below is an example input.namelist (which has just one variable):\n\n&NETCDF2LITTLER  filename = 'test.nc'  outfile = 'results.txt'  variable_name = 'temperature', 'rltvh', 'pressure_station', 'winddir',  variable_mapping = 'temperature' 'humidity' 'pressure' 'direction'  devices = 1  dimensions = 1  startdate = 20140630  enddate = 20140802 /\n\nhere variable_name is the name of the variables in the NetCDF file, variable_mapping is a mapping to the name used in the application. Valid names to be used in the variable_mapping definition (and their meaning) are:\n\ntemperature: temperature (degC or degK) dew_point: dew point temperature (degC or degK) humidity: relative humidity (%) pressure: pressure at measurement height (Pa) mslp: sea level pressure (Pa) windspeed: windspeed (m/s) direction: wind direction (deg) uwind: wind speed in U direction (m/s) vwind: wind speed in V direction (m/s)\n\nDevices should be set equal to the number of devices in the netCDF file, i.e. this is equal to the number of observation stations.",
+      "section": "NetCDF2LittleR (part 2)",
+      "repo": "047_NetCDF2LittleR",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.002411Z",
+    "updated_at": "2025-11-06T20:54:01.359181Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23243,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 815,
+    "annotations": [
+      {
+        "id": 11288,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T20:54:05.376121Z",
+        "updated_at": "2025-11-06T20:54:05.376138Z",
+        "draft_created_at": null,
+        "lead_time": 3.865,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c492576d-40db-4fd9-93f8-55bb76ab483d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 815,
+        "project": 23243,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Structure input NetCDF files\n\nNetCDF2LittleR only supports NetCDF files with a structure according to (for a single observation station):\n\nnetcdf test_1d { dimensions:  time = UNLIMITED ; // (10 currently)  lon = 1 ;  lat = 1 ;  elevation = 1 ; variables:  int time(time) ;  time:_FillValue = -999 ;  time:units = \"seconds since 2010-01-01 00:00\" ;  time:calendar = \"standard\" ;  time:timezone = \"UTC\" ;  float lat(lat) ;  lat:units = \"degrees_north\" ;  lat:cell_methods = \"device: mean\" ;  float lon(lon) ;  lon:units = \"degrees_east\" ;  lon:cell_methods = \"device: mean\" ;  float elevation(elevation) ;  elevation:units = \"meter\" ;  elevation:standard_name = \"elevation\" ;  float temperature(time) ;  temperature:_FillValue = -999.99f ;  temperature:units = \"degC\" ;  temperature:coordinates = \"lat lon\" ;  temperature:cell_methods = \"point device: mean\" ;  float humidity(time) ;  humidity:_FillValue = -999.99f ;  humidity:units = \"1\" ;  humidity:coordinates = \"lat lon\" ;  humidity:cell_methods = \"point device: mean\" ;\n\nAlternatively, for multiple observation stations, the following structure is supported as well:\n\nnetcdf test_2d { dimensions:  device = 29 ;  time = UNLIMITED ; // (10 currently)  lat = 29 ;  lon = 29 ;  elevation = 29 ; variables:  int device(device) ;  device:_FillValue = -999 ;  device:coordinates = \"lat lon\" ;  device:units = \"1\" ;  int time(time) ;  time:_FillValue = -999 ;",
+      "section": "NetCDF2LittleR (part 3)",
+      "repo": "047_NetCDF2LittleR",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.002433Z",
+    "updated_at": "2025-11-06T20:54:05.403677Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23243,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 816,
+    "annotations": [
+      {
+        "id": 11289,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T20:54:06.848910Z",
+        "updated_at": "2025-11-06T20:54:06.848927Z",
+        "draft_created_at": null,
+        "lead_time": 1.314,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "5b22191e-25b8-442d-82f9-819d8031036e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 816,
+        "project": 23243,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "time:units = \"seconds since 2010-01-01 00:00\" ;  time:calendar = \"standard\" ;  time:timezone = \"UTC\" ;  float lat(lat) ;  lat:units = \"degrees_north\" ;  float lon(lon) ;  lon:units = \"degrees_east\" ;  float elevation(elevation) ;  elevation:units = \"meter\" ;  elevation:standard_name = \"elevation\" ;  float temperature(time, device) ;  temperature:_FillValue = -999.99f ;  temperature:units = \"degC\" ;  temperature:coordinates = \"lat lon\" ;  temperature:cell_methods = \"point\" ;  float humidity(time, device) ;  humidity:_FillValue = -999.99f ;  humidity:units = \"1\" ;  humidity:coordinates = \"lat lon\" ;  humidity:cell_methods = \"point\" ;\n\nNote that LittleR output files can be concatenated as well by the user in a postprocessing step.",
+      "section": "NetCDF2LittleR (part 4)",
+      "repo": "047_NetCDF2LittleR",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.002458Z",
+    "updated_at": "2025-11-06T20:54:06.876739Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23243,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/jangroter/TrafficDensityImpactRL",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "HTML",
+    "C++",
+    "GLSL",
+    "CSS",
+    "Makefile",
+    "Rich Text Format",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/jangroter/TrafficDensityImpactRL/zipball/main",
+  "author": "jangroter",
+  "dateCreated": "2022-11-16T09:04:09Z",
+  "dateModified": "2025-03-05T23:40:38Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Code accompanying the paper Impact of Traffic Density and Scenario Complexity on DRL Efficacy",
+  "identifier": 566712944,
+  "name": "jangroter/TrafficDensityImpactRL",
+  "issueTracker": "https://api.github.com/repos/jangroter/TrafficDensityImpactRL/issues",
+  "readme": "https://github.com/jangroter/TrafficDensityImpactRL/blob/main/README.md"
+}

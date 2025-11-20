@@ -1,0 +1,242 @@
+[
+  {
+    "id": 2127,
+    "annotations": [
+      {
+        "id": 10317,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 52,
+              "end": 95,
+              "text": "https://zenodo.org/badge/latestdoi/70590009",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "mKuHcH0a-9",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:29:08.343053Z",
+        "updated_at": "2025-11-04T06:29:08.343069Z",
+        "draft_created_at": null,
+        "lead_time": 8.25,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "f7cd562c-4b39-4589-b360-fa60d1830f66",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2127,
+        "project": 23480,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://travis-ci.org/NLeSC/CaseLawAnalytics) [](https://zenodo.org/badge/latestdoi/70590009)",
+      "section": "Introduction",
+      "repo": "235_caselawnet",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.519565Z",
+    "updated_at": "2025-11-04T06:29:08.371994Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23480,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2128,
+    "annotations": [
+      {
+        "id": 10318,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 301,
+              "end": 309,
+              "text": "Python 3",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "tPsG-KA5rj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:30:00.821200Z",
+        "updated_at": "2025-11-17T00:09:12.049032Z",
+        "draft_created_at": "2025-11-04T06:29:18.349316Z",
+        "lead_time": 77.911,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "2c712863-f48f-4e87-a6df-01fcbbd6b788",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2128,
+        "project": 23480,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "CaseLawAnalytics This repository contains code for the case law query app: an application to query Dutch law cases and extract a network to use in the [case law visualization app] https://github.com/NLeSC/case-law-app.\n\nIf you use this software, please acknowledge by citing the DOI.\n\nPrerequisites:  Python 3\n\n## The python package\n\nThe python package caselawnet provides the following main functionalities:  Search the [rechtspraak.nl] https://www.rechtspraak.nl/ api to retrieve   relevant law cases.  Retrieve metadata from [rechtspraak.nl] https://www.rechtspraak.nl/ for a   list of cases (given their ECLI identifier)  Retrieve metadata from [HuDOC] https://hudoc.echr.coe.int/ to retrieve  relevant law cases.  Retrieve references between cases from [LiDO] http://linkeddata.overheid.nl/front/portal/lido). This requieres a valid login for the [LiDO services] http://linkeddata.overheid.nl/front/portal/services.  Calculate network statistics and create json file that can be used in the  [case law visualization app] https://github.com/NLeSC/case-law-app.\n\nTo install caselawnet, clone the repository and run in the root of the repository:\n\npip install .\n\nTo run tests:\n\npytest tests/\n\n## The web app\n\nThe web application provides a graphical user interface to the caselawnet package.\n\nCopy the settings file:\n\ncp settings.cfg_dist settings.cfg\n\nIf necessary, configure attributes in the config file, such as database.\n\nTo run the web app:\n\nexport FLASK_APP=caselawnet_webapp.py\n\nand run the app:\n\nflask run\n\nThe app runs much quicker if it connects to a database with the parsed cases.",
+      "section": "CaseLawAnalytics (part 1)",
+      "repo": "235_caselawnet",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.519600Z",
+    "updated_at": "2025-11-17T00:09:12.079891Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23480,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2129,
+    "annotations": [
+      {
+        "id": 10319,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 54,
+              "end": 64,
+              "text": "SQLAlchemy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "9Azi3ISXli",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 127,
+              "end": 132,
+              "text": "MySQL",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "UMBq4SZuQo",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 154,
+              "end": 176,
+              "text": "mysql=connector-python",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "-hq57WFqYc",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 178,
+              "end": 265,
+              "text": "https://dev.mysql.com/doc/connector-python/en/connector-python-installation-source.html",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "rlTA6Y25hl",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:30:53.552805Z",
+        "updated_at": "2025-11-14T13:13:26.731568Z",
+        "draft_created_at": "2025-11-04T06:30:21.687179Z",
+        "lead_time": 75.543,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "dc349e1d-80af-43a5-8f7c-eac854e9dea6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2129,
+        "project": 23480,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Setting up a database\n\nThe application works with [SQLAlchemy](). You can use any database as a backend for this.  If using MySQL, the python package [mysql=connector-python] https://dev.mysql.com/doc/connector-python/en/connector-python-installation-source.html needs to be installed.\n\nThe script [fill_database.py] https://github.com/caselawanalytics/CaseLawAnalytics/blob/master/fill_database.py can be used to initiate and fill the database. Adjust the settings within this file to point to the database (this should be the same location as defined in settings.cfg), and to the location of a downloaded version of the [Rechtspraak.nl data collection] https://www.rechtspraak.nl/Uitspraken-en-nieuws/Uitspraken/Paginas/Open-Data.aspx.",
+      "section": "CaseLawAnalytics (part 2)",
+      "repo": "235_caselawnet",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.519622Z",
+    "updated_at": "2025-11-14T13:13:26.767715Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23480,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

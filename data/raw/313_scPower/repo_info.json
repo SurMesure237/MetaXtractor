@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/heiniglab/scPower",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R",
+    "HTML",
+    "CSS"
+  ],
+  "downloadUrl": "https://api.github.com/repos/heiniglab/scPower/zipball/main",
+  "author": "heiniglab",
+  "dateCreated": "2020-03-24T08:58:19Z",
+  "dateModified": "2025-07-20T02:23:22Z",
+  "keywords": [
+    "differential-expression",
+    "eqtl",
+    "power-analysis",
+    "single-cell"
+  ],
+  "license": null,
+  "description": "Experimental design framework for scRNAseq population studies (eQTL and DE)",
+  "identifier": 249658551,
+  "name": "heiniglab/scPower",
+  "issueTracker": "https://api.github.com/repos/heiniglab/scPower/issues",
+  "readme": "https://github.com/heiniglab/scPower/blob/master/README.md"
+}

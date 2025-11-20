@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "Laserfarm\n\n[](https://github.com/eEcoLiDAR/Laserfarm/actions) [](https://codecov.io/gh/eEcoLiDAR/Laserfarm) [](https://laserfarm.readthedocs.io/en/latest/?badge=latest) [](https://doi.org/10.5281/zenodo.3842780) [](https://pypi.python.org/pypi/laserfarm) [](https://bestpractices.coreinfrastructure.org/projects/4523)\n\nLaserfarm (Laserchicken Framework for Applications in Research in Macro-ecology) provides a FOSS wrapper to  [Laserchicken] https://github.com/eEcoLiDAR/laserchicken supporting the use of massive LiDAR point cloud data sets for  macro-ecology, from data preparation to scheduling and execution of distributed processing across a cluster of compute  nodes.\n\n## Installation\n\nLaserfarm requires the [PDAL] https://pdal.io and [GDAL] https://gdal.org libraries and the PDAL Python  bindings. These packages are most easily installed through conda from the conda-forge channel:\n\nconda install pdal python-pdal gdal -c conda-forge\n\nLaserfarm can then be downloaded and installed using pip:\n\npip install laserfarm\n\nor using git + pip:\n\ngit clone git@github.com:eEcoLiDAR/Laserfarm.git cd Laserfarm pip install .\n\nIn order to setup a new conda environment with Laserfarm and all its dependencies, the YAML file provided can be  employed:\n\nconda env create -f environment.yml",
+      "section": "Laserfarm (part 1)",
+      "repo": "274_Laserfarm",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Documentation\n\nThe project's full documentation can be found [here] https://laserfarm.readthedocs.io/en/latest/.\n\n## Applications and Current Limitations\n\nThis package has been tested on data provided in a metric-based 2D-projected Cartesian coordinate system, i.e. the  [Actueel Hoogtebestand Nederland] https://www.pdok.nl/introductie/-/article/actueel-hoogtebestand-nederland-ahn3-.  While some of the tools of Laserfarm could be applied to data in an ellipsoidal latitude/longitude coordinate system  as well, this has not been tested and it is generally expected to fail.\n\n## Contributing\n\nIf you want to contribute to the development of Laserfarm, have a look at the [contribution guidelines] CONTRIBUTING.md.\n\n## License\n\nCopyright (c) 2022, Netherlands eScience Center\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.",
+      "section": "Laserfarm (part 2)",
+      "repo": "274_Laserfarm",
+      "source_file": "readme.md"
+    }
+  }
+]

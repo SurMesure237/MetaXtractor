@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/FastMLC/fMLC",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "C",
+    "Makefile",
+    "CMake",
+    "Python",
+    "R",
+    "Shell",
+    "PHP"
+  ],
+  "downloadUrl": "https://api.github.com/repos/FastMLC/fMLC/zipball/main",
+  "author": "FastMLC",
+  "dateCreated": "2017-09-13T09:11:18Z",
+  "dateModified": "2022-01-11T14:53:33Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": null,
+  "identifier": 103378630,
+  "name": "FastMLC/fMLC",
+  "issueTracker": "https://api.github.com/repos/FastMLC/fMLC/issues",
+  "readme": "https://github.com/FastMLC/fMLC/blob/master/README.md"
+}

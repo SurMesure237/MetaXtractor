@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/ByteHamster/ShockHash",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "CMake",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ByteHamster/ShockHash/zipball/main",
+  "author": "ByteHamster",
+  "dateCreated": "2023-08-18T13:19:23Z",
+  "dateModified": "2025-08-26T18:40:14Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Towards Optimal-Space Minimal Perfect Hashing Beyond Brute-Force",
+  "identifier": 680152770,
+  "name": "ByteHamster/ShockHash",
+  "issueTracker": "https://api.github.com/repos/ByteHamster/ShockHash/issues",
+  "readme": "https://github.com/ByteHamster/ShockHash/blob/main/README.md"
+}

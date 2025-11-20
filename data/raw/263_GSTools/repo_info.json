@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/dfm/emcee",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "TeX",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/dfm/emcee/zipball/main",
+  "author": "dfm",
+  "dateCreated": "2011-11-07T16:17:08Z",
+  "dateModified": "2025-10-28T23:33:03Z",
+  "keywords": [
+    "mcmc",
+    "mcmc-sampler",
+    "probabilistic-data-analysis",
+    "python"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "The Python ensemble sampling toolkit for affine-invariant MCMC",
+  "identifier": 2727330,
+  "name": "dfm/emcee",
+  "issueTracker": "https://api.github.com/repos/dfm/emcee/issues",
+  "readme": "https://github.com/dfm/emcee/blob/main/README.rst"
+}

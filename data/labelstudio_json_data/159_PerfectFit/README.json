@@ -1,0 +1,130 @@
+[
+  {
+    "data": {
+      "text": "Rasa Open Source\n\n[](https://forum.rasa.com/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [](https://badge.fury.io/py/rasa) [](https://pypi.python.org/pypi/rasa) [](https://github.com/RasaHQ/rasa/actions) [](https://codeclimate.com/github/RasaHQ/rasa/) [](https://rasa.com/docs)\n\n[](https://app.fossa.com/projects/custom%2B8141%2Fgit%40github.com%3ARasaHQ%2Frasa.git?ref=badge_shield) [](https://github.com/orgs/RasaHQ/projects/23)\n\n\ud83d\udca1 We're migrating issues to Jira \ud83d\udca1\n\nStarting January 2023, issues for Rasa Open Source are located in [this Jira board] https://rasa-open-source.atlassian.net/browse/OSS. You can browse issues without being logged in; if you want to create issues, you'll need to create a Jira account.",
+      "section": "Introduction (part 1)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Rasa is an open source machine learning framework to automate text and voice-based conversations. With Rasa, you can build contextual assistants on: Facebook Messenger\n\nSlack\n\nGoogle Hangouts\n\nWebex Teams\n\nMicrosoft Bot Framework\n\nRocket.Chat\n\nMattermost\n\nTelegram\n\nTwilio\n\nYour own custom conversational channels\n\nor voice assistants as: Alexa Skills\n\nGoogle Home Actions\n\nRasa helps you build contextual assistants capable of having layered conversations with lots of back-and-forth. In order for a human to have a meaningful exchange with a contextual assistant, the assistant needs to be able to use context to build on things that were previously discussed \u2013 Rasa enables you to build assistants that can do this in a scalable way.\n\nThere's a lot more background information in this [blog post] https://medium.com/rasa-blog/a-new-approach-to-conversational-software-2e64a5d05f2a.\n\n\ud83e\udd14 [Learn more about Rasa] https://rasa.community/\n\n\ud83e\udd13 [Read The Docs] https://rasa.com/docs/rasa/\n\n\ud83d\ude01 [Install Rasa] https://rasa.com/docs/rasa/installation/environment-set-up\n\n\ud83d\ude80 [Dive deeper in the learning center] https://learning.rasa.com/\n\n\ud83e\udd17 [Contribute] #how-to-contribute\n\n\u2753 [Get enterprise-grade support] https://rasa.com/support/\n\n\ud83c\udfe2 [Explore the features of our commercial platform] https://rasa.com/product/rasa-platform/\n\n\ud83d\udcda [Learn more about research papers that leverage Rasa] https://scholar.google.com/scholar?oi=bibs&hl=en&authuser=1&cites=16243802403383697687,353275993797024115,14567308604105196228,9067977709825839723,9855847065463746011&as_sdt=5",
+      "section": "Introduction (part 2)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Where to get help\n\nThere is extensive documentation in the [Rasa Docs] https://rasa.com/docs/rasa. Make sure to select the correct version so you are looking at the docs for the version you installed.\n\nPlease use [Rasa Community Forum] https://forum.rasa.com for quick answers to questions.\n\n### README Contents:\n\n[How to contribute] #how-to-contribute\n\n[Development Internals] #development-internals\n\n[Releases] #releases\n\n[License] #license\n\n### How to contribute\n\nWe are very happy to receive and merge your contributions into this repository!\n\nTo contribute via pull request, follow these steps:\n\nCreate an issue describing the feature you want to work on (or\n\nhave a look at the [contributor board] https://github.com/orgs/RasaHQ/projects/23) Write your code, tests and documentation, and format them with `black`\n\nCreate a pull request describing your changes\n\nFor more detailed instructions on how to contribute code, check out these [code contributor guidelines] CONTRIBUTING.md.\n\nYou can find more information about how to contribute to Rasa (in lots of different ways!) [on our website.] http://rasa.community.\n\nYour pull request will be reviewed by a maintainer, who will get back to you about any necessary changes or questions. You will also be asked to sign a [Contributor License Agreement] https://cla-assistant.io/RasaHQ/rasa.\n\n## Development Internals\n\n### Installing Poetry\n\nRasa uses Poetry for packaging and dependency management. If you want to build it from source, you have to install Poetry first. Please follow [the official guide] https://python-poetry.org/docs/#installation to see all possible options.\n\nTo update an existing poetry version to the [version] .github/poetry_version.txt, currently used in rasa, run:\n\npoetry self update",
+      "section": "Introduction (part 3)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Managing environments\n\nThe official [Poetry guide] https://python-poetry.org/docs/managing-environments/ suggests to use [pyenv] https://github.com/pyenv/pyenv or any other similar tool to easily switch between Python versions. This is how it can be done:\n\npyenv install 3.10.10 pyenv local 3.10.10 # Activate Python 3.10.10 for the current project\n\nNote: If you have trouble installing a specific version of python on your system it might be worth trying other supported versions.\n\nBy default, Poetry will try to use the currently activated Python version to create the virtual environment for the current project automatically. You can also create and activate a virtual environment manually \u2014 in this case, Poetry should pick it up and use it to install the dependencies. For example:\n\npython -m venv .venv source .venv/bin/activate\n\nYou can make sure that the environment is picked up by executing\n\npoetry env info\n\n### Building from source\n\nTo install dependencies and rasa itself in editable mode execute\n\nmake install\n\nNote for macOS users: under macOS Big Sur we've seen some compiler issues for dependencies. Using export SYSTEM_VERSION_COMPAT=1 before the installation helped.",
+      "section": "Introduction (part 4)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### Installing optional dependencies\n\nIn order to install rasa's optional dependencies, you need to run:\n\nmake install-full\n\nNote for macOS users: The command make install-full could result in a failure while installing tokenizers (issue described in depth [here] https://github.com/huggingface/tokenizers/issues/1050).\n\nIn order to resolve it, you must follow these steps to install a Rust compiler:\n\nbrew install rustup rustup-init\n\nAfter initialising the Rust compiler, you should restart the console and check its installation:\n\nrustc --version\n\nIn case the PATH variable had not been automatically setup, run:\n\nexport PATH=\"$HOME/.cargo/bin:$PATH\"\n\n### Running and changing the documentation\n\nFirst of all, install all the required dependencies:\n\nmake install install-docs\n\nAfter the installation has finished, you can run and view the documentation locally using:\n\nmake livedocs\n\nIt should open a new tab with the local version of the docs in your browser; if not, visit http://localhost:3000 in your browser. You can now change the docs locally and the web page will automatically reload and apply your changes.\n\n### Running the Tests\n\nIn order to run the tests, make sure that you have the development requirements installed:\n\nmake prepare-tests-ubuntu # Only on Ubuntu and Debian based systems make prepare-tests-macos # Only on macOS\n\nThen, run the tests:\n\nmake test\n\nThey can also be run at multiple jobs to save some time:\n\nJOBS=[n] make test\n\nWhere [n] is the number of jobs desired. If omitted, [n] will be automatically chosen by pytest.",
+      "section": "Introduction (part 5)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Running the Integration Tests\n\nIn order to run the integration tests, make sure that you have the development requirements installed:\n\nmake prepare-tests-ubuntu # Only on Ubuntu and Debian based systems make prepare-tests-macos # Only on macOS\n\nThen, you'll need to start services with the following command which uses [Docker Compose] https://docs.docker.com/compose/install/:\n\nmake run-integration-containers\n\nFinally, you can run the integration tests like this:\n\nmake test-integration\n\n### Resolving merge conflicts\n\nPoetry doesn't include any solution that can help to resolve merge conflicts in the lock file poetry.lock by default. However, there is a great tool called [poetry-merge-lock] https://poetry-merge-lock.readthedocs.io/en/latest/. Here is how you can install it:\n\npip install poetry-merge-lock\n\nJust execute this command to resolve merge conflicts in poetry.lock automatically:\n\npoetry-merge-lock\n\n### Build a Docker image locally\n\nIn order to build a Docker image on your local machine execute the following command:\n\nmake build-docker\n\nThe Docker image is available on your local machine as rasa:localdev.\n\n### Code Style\n\nTo ensure a standardized code style we use the formatter [black] https://github.com/ambv/black. To ensure our type annotations are correct we use the type checker [pytype] https://github.com/google/pytype. If your code is not formatted properly or doesn't type check, GitHub will fail to build.",
+      "section": "Introduction (part 6)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### Formatting\n\nIf you want to automatically format your code on every commit, you can use [pre-commit] https://pre-commit.com/. Just install it via pip install pre-commit and execute pre-commit install in the root folder. This will add a hook to the repository, which reformats files on every commit.\n\nIf you want to set it up manually, install black via poetry install. To reformat files execute\n\nmake formatter\n\n#### Type Checking\n\nIf you want to check types on the codebase, install mypy using poetry install. To check the types execute\n\nmake types\n\n### Deploying documentation updates\n\nWe use Docusaurus v2 to build docs for tagged versions and for the main branch. To run Docusaurus, install Node.js 12.x. The static site that gets built is pushed to the documentation branch of this repo.\n\nWe host the site on netlify. On main branch builds (see .github/workflows/documentation.yml), we push the built docs to the documentation branch. Netlify automatically re-deploys the docs pages whenever there is a change to that branch.",
+      "section": "Introduction (part 7)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Releases\n\nRasa has implemented robust policies governing version naming, as well as release pace for major, minor, and patch releases.\n\nThe values for a given version number (MAJOR.MINOR.PATCH) are incremented as follows: MAJOR version for incompatible API changes or other breaking changes.\n\nMINOR version for functionality added in a backward compatible manner.\n\nPATCH version for backward compatible bug fixes.\n\nThe following table describes the version types and their expected release cadence:\n\n| Version Type | Description | Target Cadence | |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------| | Major | For significant changes, or when any backward-incompatible changes are introduced to the API or data model. | Every 1 - 2 yrs | | Minor | For when new backward-compatible functionality is introduced, a minor feature is introduced, or when a set of smaller features is rolled out. | +/- Quarterly | | Patch | For backward-compatible bug fixes that fix incorrect behavior. | As needed |\n\nWhile this table represents our target release frequency, we reserve the right to modify it based on changing market conditions and technical requirements.",
+      "section": "Introduction (part 8)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Maintenance Policy\n\nOur End of Life policy defines how long a given release is considered supported, as well as how long a release is considered to be still in active development or maintenance.\n\nThe maintentance duration and end of life for every release are shown on our website as part of the [Product Release and Maintenance Policy] https://rasa.com/rasa-product-release-and-maintenance-policy/.\n\n### Cutting a Major / Minor release\n\n#### A week before release day\n\nMake sure the [milestone] https://github.com/RasaHQ/rasa/milestones already exists and is scheduled for the\n\ncorrect date. Take a look at the issues & PRs that are in the milestone: does it look about right for the release highlights\n\nwe are planning to ship? Does it look like anything is missing? Don't worry about being aware of every PR that should be in, but it's useful to take a moment to evaluate what's assigned to the milestone. Post a message on the engineering Slack channel, letting the team know you'll be the one cutting the upcoming\n\nrelease, as well as: Providing the link to the appropriate milestone\n\nReminding everyone to go over their issues and PRs and please assign them to the milestone\n\nReminding everyone of the scheduled date for the release",
+      "section": "Introduction (part 9)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### A day before release day\n\nGo over the milestone and evaluate the status of any PR merging that's happening. Follow up with people on their\n\nbugs and fixes. If the release introduces new bugs or regressions that can't be fixed in time, we should discuss on Slack about this and take a decision on how to move forward. If the issue is not ready to be merged in time, we remove the issue / PR from the milestone and notify the PR owner and the product manager on Slack about it. The PR / issue owners are responsible for communicating any issues which might be release relevant. Postponing the release should be considered as an edge case scenario.\n\n#### Release day! \ud83d\ude80\n\nAt the start of the day, post a small message on slack announcing release day! Communicate you'll be handling\n\nthe release, and the time you're aiming to start releasing (again, no later than 4pm, as issues may arise and cause delays). This message should be posted early in the morning and before moving forward with any of the steps of the release,  in order to give enough time to people to check their PRs and issues. That way they can plan any remaining work. A template of the slack message can be found [here] https://rasa-hq.slack.com/archives/C36SS4N8M/p1613032208137500?thread_ts=1612876410.068400&cid=C36SS4N8M.  The release time should be communicated transparently so that others can plan potentially necessary steps accordingly. If there are bigger changes this should be communicated. Make sure the milestone is empty (everything has been either merged or moved to the next milestone)\n\nOnce everything in the milestone is taken care of, post a small message on Slack communicating you are about to\n\nstart the release process (in case anything is missing). You may now do the release by following the instructions outlined in the\n\n[Rasa Open Source README] #steps-to-release-a-new-version !",
+      "section": "Introduction (part 10)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### After a Major release\n\nAfter a Major release has been completed, please follow [these instructions to complete the documentation update] ./docs/README.md#manual-steps-after-a-new-version.",
+      "section": "Introduction (part 11)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Steps to release a new version\n\nReleasing a new version is quite simple, as the packages are build and distributed by GitHub Actions.",
+      "section": "Introduction (part 12)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Release steps: Make sure all dependencies are up to date (especially Rasa SDK)\n\nFor Rasa SDK, except in the case of a patch release, that means first creating a [new Rasa SDK release] https://github.com/RasaHQ/rasa-sdk#steps-to-release-a-new-version (make sure the version numbers between the new Rasa and Rasa SDK releases match)\n\nOnce the tag with the new Rasa SDK release is pushed and the package appears on [pypi] https://pypi.org/project/rasa-sdk/, the dependency in the rasa repository can be resolved (see below).\n\nIf this is a minor / major release: Make sure all fixes from currently supported minor versions have been merged from their respective release branches (e.g. 3.3.x) back into main.\n\nIn case of a minor release, create a new branch that corresponds to the new release, e.g.\n\n``bash  git checkout -b 1.2.x  git push origin 1.2.x  ` Switch to the branch you want to cut the release from (main in case of a major, the ..x branch for minors and patches)\n\nUpdate the rasa-sdk entry in pyproject.toml with the new release version and run poetry update. This creates a new poetry.lock file with all dependencies resolved.\n\nCommit the changes with git commit -am \"bump rasa-sdk dependency\" but do not push them. They will be automatically picked up by the following step.\n\nIf this is a major release, update the list of actively maintained versions [in the README] #actively-maintained-versions and in [the docs] ./docs/docs/actively-maintained-versions.mdx.\n\nRun make release\n\nCreate a PR against the release branch (e.g. 1.2.x)\n\nOnce your PR is merged, tag a new release (this SHOULD always happen on the release branch), e.g. using\n\n`bash  git checkout 1.2.x  git pull origin 1.2.x  git tag 1.2.0 -m \"next release\"  git push origin 1.2.0 --tags  ``",
+      "section": "Introduction (part 13)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "GitHub will build this tag and publish the build artifacts. After all the steps are completed and if everything goes well then we should see a message automatically posted in the company's Slack (product channel) like this [one] https://rasa-hq.slack.com/archives/C7B08Q5FX/p1614354499046600\n\nIf no message appears in the channel then you can do the following checks:\n\nCheck the workflows in [Github Actions] https://github.com/RasaHQ/rasa/actions and make sure that the merged PR of the current release is completed successfully. To easily find your PR you can use the filters event: push and branch: (example on release 2.4 you can see [here] https://github.com/RasaHQ/rasa/actions/runs/643344876)\n\nIf the workflow is not completed, then try to re run the workflow in case that solves the problem\n\nIf the problem persists, check also the log files and try to find the root cause of the issue\n\nIf you still cannot resolve the error, contact the infrastructure team by providing any helpful information from your investigation\n\nAfter the message is posted correctly in the product channel, check also in the product-engineering-alerts channel if there are any alerts related to the Rasa Open Source release like this [one] https://rasa-hq.slack.com/archives/C01585AN2NP/p1615486087001000",
+      "section": "Introduction (part 14)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Cutting a Patch release\n\nPatch releases are simpler to cut, since they are meant to contain only bugfixes.\n\nThe only things you need to do to cut a patch release are:\n\nNotify the engineering team on Slack that you are planning to cut a patch, in case someone has an important fix\n\nto add. Make sure the bugfix(es) are in the release branch you will use (p.e if you are cutting a 2.0.4 patch, you will\n\nneed your fixes to be on the 2.0.x release branch). All patch releases must come from a .x branch! Once you're ready to release the Rasa Open Source patch, checkout the branch, run make release and follow the\n\nsteps + get the PR merged. Once the PR is in, pull the .x branch again and push the tag!\n\n### Additional Release Tasks\n\nNote: This is only required if the released version is the highest version available. For instance, perform the following steps when version > [version] https://github.com/RasaHQ/rasa/blob/main/rasa/version.py on main.\n\nIn order to check compatibility between the new released Rasa version to the latest version of Rasa X/Enterprise, we perform the following steps: Following a new Rasa release, an automated pull request is created in [Rasa-X-Demo] https://github.com/RasaHQ/rasa-x-demo/pulls.\n\nOnce the above PR is merged, follow instructions [here] https://github.com/RasaHQ/rasa-x-demo/blob/master/.github/VERSION_BUMPER_PR_COMMENT.md, to release a version.\n\nUpdate the new version in the Rasa X/Enterprise [env file] https://github.com/RasaHQ/rasa-x/blob/main/.env.\n\nThe [Rasa-X-Demo] https://github.com/RasaHQ/rasa-x-demo project uses the new updated Rasa version to train and test a model which in turn is used by our CI to run tests in the Rasa X/Enterprise repository,  thus validating compatibility between Rasa and Rasa X/Enterprise.",
+      "section": "Introduction (part 15)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Actively maintained versions\n\nPlease refer to the [Rasa Product Release and Maintenance Policy] https://rasa.com/rasa-product-release-and-maintenance-policy/ page.\n\n## License\n\nLicensed under the Apache License, Version 2.0. Copyright 2022 Rasa Technologies GmbH. [Copy of the license] LICENSE.txt.\n\nA list of the Licenses of the dependencies of the project can be found at the bottom of the [Libraries Summary] https://libraries.io/github/RasaHQ/rasa.",
+      "section": "Introduction (part 16)",
+      "repo": "159_PerfectFit",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "codeRepository": "https://github.com/helmholtz-analytics/heat",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/helmholtz-analytics/heat/zipball/main",
+  "author": "helmholtz-analytics",
+  "dateCreated": "2018-05-17T12:16:27Z",
+  "dateModified": "2025-10-29T03:46:05Z",
+  "keywords": [
+    "array-api",
+    "data-analytics",
+    "data-processing",
+    "data-science",
+    "distributed",
+    "gpu",
+    "hpc",
+    "machine-learning",
+    "massive-datasets",
+    "mpi",
+    "mpi4py",
+    "multi-gpu",
+    "multi-node-cluster",
+    "numpy",
+    "parallelism",
+    "python",
+    "pytorch",
+    "tensors"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Distributed tensors and Machine Learning framework with GPU and MPI acceleration in Python",
+  "identifier": 133808899,
+  "name": "helmholtz-analytics/heat",
+  "issueTracker": "https://api.github.com/repos/helmholtz-analytics/heat/issues",
+  "readme": "https://github.com/helmholtz-analytics/heat/blob/main/README.md"
+}

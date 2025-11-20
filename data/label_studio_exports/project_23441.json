@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1943,
+    "annotations": [
+      {
+        "id": 10491,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 64,
+              "end": 99,
+              "text": "https://mycoai.github.io/taxotagger",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "9G1GLvzPZw",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 103,
+              "end": 138,
+              "text": "https://mycoai.github.io/taxotagger",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "nIXcBN86_D",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 721,
+              "end": 741,
+              "text": "Python 3.10 or later",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "UiuggfBlB6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:32:29.532639Z",
+        "updated_at": "2025-11-17T00:12:07.565776Z",
+        "draft_created_at": "2025-11-04T17:30:41.532350Z",
+        "lead_time": 554.019,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "cd748dd8-003c-41c2-87a0-2365e2c6b445",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1943,
+        "project": 23441,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "TaxoTagger\n\n[](https://pypi.python.org/project/taxotagger/)  [](https://mycoai.github.io/taxotagger)[](https://mycoai.github.io/taxotagger)\n\nTaxoTagger is an open-source Python library for DNA taxonomy identification, which involves categorizing DNA sequences into their respective taxonomic groups. It is powered by deep learning and semantic search to provide efficient and accurate results.\n\nKey Features:\n\n🚀 Build vector databases from DNA sequences with ease\n\n⚡ Conduct efficient semantic searches for precise results\n\n🛠 Extend support for custom embedding models effortlessly\n\n🌐 Interact seamlessly through a [user-friendly web app] https://github.com/MycoAI/taxotagger-webapp\n\n## Installation\n\nTaxoTagger requires Python 3.10 or later.\n\ncreate an virtual environment conda create -n venv-3.10 python=3.10 conda activate venv-3.10\n\ninstall the taxotagger package pip install --pre taxotagger\n\n## Usage\n\n### Build a vector database from a FASTA file\n\nfrom taxotagger import ProjectConfig from taxotagger import TaxoTagger\n\nconfig = ProjectConfig() tt = TaxoTagger(config)\n\ncreating the database will take ~30s tt.create_db('data/database.fasta')\n\nBy default, the ~/.cache/mycoai folder is used to store the vector database and the embedding model. The [MycoAI-CNN.pt] https://zenodo.org/records/10904344 model is automatically downloaded to this folder if it is not there, and the vector database is created and named after the model.\n\n### Conduct a semantic search with FASTA file\n\nfrom taxotagger import ProjectConfig from taxotagger import TaxoTagger\n\nconfig = ProjectConfig() tt = TaxoTagger(config)",
+      "section": "TaxoTagger + create an virtual environment + install the `taxotagger` package (and 1 more)",
+      "repo": "125_TaxoTagger",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.855744Z",
+    "updated_at": "2025-11-17T00:12:07.604169Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23441,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1944,
+    "annotations": [
+      {
+        "id": 10492,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1280,
+              "end": 1315,
+              "text": "https://mycoai.github.io/taxotagger",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "vgtfirDC54",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:33:04.592718Z",
+        "updated_at": "2025-11-14T12:54:47.408574Z",
+        "draft_created_at": "2025-11-04T17:32:41.143616Z",
+        "lead_time": 29.267000000000003,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "75fdb4bb-3eec-4f92-af04-297b2929b7ac",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1944,
+        "project": 23441,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "semantic search and return the top 1 result for each query sequence res = tt.search('data/query.fasta', limit = 1)\n\nThe [data/query.fasta file] data/query.fasta contains two query sequences: KY106088 and KY106087.\n\nThe search results res will be a dictionary with taxonomic level names as keys and matched results as values for each of the two query sequences. For example, res['phylum'] will look like:\n\n[  [{\"id\": \"KY106088\", \"distance\": 1.0, \"entity\": {\"phylum\": \"Ascomycota\"}}],  [{\"id\": \"KY106087\", \"distance\": 0.9999998807907104, \"entity\": {\"phylum\": \"Ascomycota\"}}] ]\n\nThe first inner list is the top results for the first query sequence, and the second inner list is the top results for the second query sequence.\n\nThe id field is the sequence ID of the matched sequence. The distance field is the cosine similarity between the query sequence and the matched sequence with a value between 0 and 1, the closer to 1, the more similar. The entity field is the taxonomic information of the matched sequence.\n\nWe can see that the top 1 results for both query sequences are exactly themselves. This is because the query sequences are also in the database. You can try with different query sequences to see the search results.\n\n## Docs\n\nPlease visit the [official documentation] https://mycoai.github.io/taxotagger for more details.\n\n## Question and feedback\n\nPlease submit [an issue] https://github.com/MycoAI/taxotagger/issues if you have any question or feedback.\n\n## Citation\n\nIf you use TaxoTagger in your work, please cite it by clicking the Cite this repository on right top of this page.",
+      "section": "semantic search and return the top 1 result for each query sequence",
+      "repo": "125_TaxoTagger",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.855785Z",
+    "updated_at": "2025-11-14T12:54:47.443111Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23441,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

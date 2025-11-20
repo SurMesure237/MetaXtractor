@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/sfu-ireceptor/config",
+  "programmingLanguage": "Shell",
+  "programmingLanguages": [
+    "Shell",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/sfu-ireceptor/config/zipball/main",
+  "author": "sfu-ireceptor",
+  "dateCreated": "2019-03-14T22:32:15Z",
+  "dateModified": "2025-08-20T17:13:05Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/lgpl-3.0",
+  "description": "Configuration files (used by other iReceptor components)",
+  "identifier": 175709889,
+  "name": "sfu-ireceptor/config",
+  "issueTracker": "https://api.github.com/repos/sfu-ireceptor/config/issues",
+  "readme": "https://github.com/sfu-ireceptor/config/blob/master/README.md"
+}

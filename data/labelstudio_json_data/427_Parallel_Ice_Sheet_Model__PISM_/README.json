@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "PISM, a Parallel Ice Sheet Model\n\n|doi| |gpl| |cipism| |fairchecklist|\n\n.. image:: https://github.com/pism/pism/blob/dev/images/Greenland_RCP_85_2008_2300_comp_1080p30.gif\n\nThe Parallel Ice Sheet Model is an open source, parallel, high-resolution ice sheet model that includes:\n\nA hierarchy of available stress balances\n\nMarine ice sheet physics, dynamic calving fronts\n\nA polythermal, enthalpy-based conservation of energy scheme\n\nExtensible coupling to atmospheric and ocean models\n\nVerification and validation tools\n\nDocumentation _ for users and developers\n\nLinks to MPI_ and PETSc_ for parallel simulations\n\nUse of CF-compliant _ NetCDF_ files for input and output\n\nPISM is jointly developed at the University of Alaska, Fairbanks (UAF) _ and the Potsdam Institute for Climate Impact Research (PIK) _. UAF developers are based in the Snow, Ice, and Permafrost Group _ at the Geophysical Institute _.\n\nPlease see PISM's manual https://www.pism.io/docs/citing for how to acknowledge the use of PISM and PISM's funding sources. If the manual is not available, please refer to the file `doc/sphinx/citing/index.rst in the PISM repository.\n\nHomepage\n\nhttp://www.pism.io/\n\nDownload and Install\n\nSee the section Installing PISM _ on pism.io.\n\nSupport\n\nPlease e-mail uaf-pism@alaska.edu _ with questions about PISM.\n\nYou can also join the PISM workspace on Slack _.\n\nContributing\n\nWant to contribute? Great! See Contributing to PISM `_.\n\n.. URLs",
+      "section": "Introduction (part 1)",
+      "repo": "427_Parallel_Ice_Sheet_Model__PISM_",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": ".. |fairchecklist| image:: https://fairsoftwarechecklist.net/badge.svg .. _fairchecklist: https://fairsoftwarechecklist.net/v0.2?f=31&a=32113&i=31311&r=123 .. |doi| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.1199019.svg .. _doi: https://doi.org/10.5281/zenodo.1199019 .. |gpl| image:: https://img.shields.io/badge/License-GPL-green.svg .. _gpl: https://opensource.org/licenses/GPL-3.0 .. |cipism| image:: https://circleci.com/gh/pism/pism/tree/main.svg?style=svg .. _cipism: https://circleci.com/gh/pism/pism/tree/main .. _uaf: http://www.uaf.edu/ .. _pik: http://www.pik-potsdam.de/ .. _pism-manual: http://www.pism.io/docs .. _pism-contributing: http://www.pism.io/docs/contributing .. _pism-installation: http://www.pism.io/docs/installation .. _mpi: http://www.mcs.anl.gov/research/projects/mpi/ .. _petsc: https://petsc.org/ .. _cf: http://cf-pcmdi.llnl.gov/ .. _netcdf: http://www.unidata.ucar.edu/software/netcdf/ .. _sip: https://www.gi.alaska.edu/research/snow-ice-and-permafrost .. _gi: http://www.gi.alaska.edu .. _Slack-PISM: https://uaf-pism.slack.com/join/shared_invite/enQtODc3Njc1ODg0ODM5LThmOTEyNjEwN2I3ZTU4YTc5OGFhNGMzOWQ1ZmUzMWUwZDAyMzRlMzBhZDg1NDY5MmQ1YWFjNDU4MDZiNTk3YmE .. _uaf-pism: mailto:uaf-pism@alaska.edu\n\n..  Local Variables:  fill-column: 90  End:",
+      "section": "Introduction (part 2)",
+      "repo": "427_Parallel_Ice_Sheet_Model__PISM_",
+      "source_file": "readme.rst"
+    }
+  }
+]

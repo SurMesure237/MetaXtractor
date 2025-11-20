@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/scverse/anndata",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/scverse/anndata/zipball/main",
+  "author": "scverse",
+  "dateCreated": "2017-08-11T14:10:06Z",
+  "dateModified": "2025-10-30T13:42:33Z",
+  "keywords": [
+    "anndata",
+    "bioinformatics",
+    "data-science",
+    "machine-learning",
+    "scanpy",
+    "scverse",
+    "transcriptomics"
+  ],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "Annotated data.",
+  "identifier": 100038377,
+  "name": "scverse/anndata",
+  "issueTracker": "https://api.github.com/repos/scverse/anndata/issues",
+  "readme": "https://github.com/scverse/anndata/blob/main/README.md"
+}

@@ -1,0 +1,30 @@
+{
+  "codeRepository": "https://github.com/brentp/mosdepth",
+  "programmingLanguage": "Nim",
+  "programmingLanguages": [
+    "Nim",
+    "Shell",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/brentp/mosdepth/zipball/main",
+  "author": "brentp",
+  "dateCreated": "2017-08-24T16:32:11Z",
+  "dateModified": "2025-10-28T12:10:41Z",
+  "keywords": [
+    "coverage",
+    "depth",
+    "exome",
+    "genome",
+    "hacktoberfest",
+    "nim",
+    "nim-lang",
+    "sequencing",
+    "wgs"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "fast BAM/CRAM depth calculation for WGS, exome, or targeted sequencing",
+  "identifier": 101316174,
+  "name": "brentp/mosdepth",
+  "issueTracker": "https://api.github.com/repos/brentp/mosdepth/issues",
+  "readme": "https://github.com/brentp/mosdepth/blob/master/README.md"
+}

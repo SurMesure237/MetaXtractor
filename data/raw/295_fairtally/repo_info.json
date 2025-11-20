@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/fair-software/fairtally",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/fair-software/fairtally/zipball/main",
+  "author": "fair-software",
+  "dateCreated": "2021-02-24T12:59:18Z",
+  "dateModified": "2025-01-13T18:58:39Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Make a report based on howfairis results",
+  "identifier": 341901481,
+  "name": "fair-software/fairtally",
+  "issueTracker": "https://api.github.com/repos/fair-software/fairtally/issues",
+  "readme": "https://github.com/fair-software/fairtally/blob/main/README.rst"
+}

@@ -1,0 +1,52 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: GEMDAT
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Victor
+    family-names: Azizi
+    affiliation: Netherlands eScience Center
+    orcid: 'https://orcid.org/0000-0003-3535-8320'
+  - given-names: Stef
+    family-names: Smeets
+    affiliation: Netherlands eScience Center
+    orcid: 'https://orcid.org/0000-0001-5107-3531'
+  - given-names: Anastasia K.
+    family-names: Lavrinenko
+    affiliation: Delft University of Technology
+    orcid: 'https://orcid.org/0000-0001-9863-8325'
+  - given-names: Simone
+    family-names: Ciarella
+    affiliation: Netherlands eScience Center
+    orcid: 'https://orcid.org/0000-0002-9247-139X'
+  - given-names: Theodosios
+    family-names: Famprikis
+    affiliation: Delft University of Technology
+    orcid: 'https://orcid.org/0000-0002-7946-1445'
+  - given-names: Victor
+    family-names: Landgraf
+    affiliation: Delft University of Technology
+    orcid: 'https://orcid.org/0000-0003-2169-6855'
+  - given-names: Alexandros
+    family-names: Vasileiadis
+    affiliation: Delft University of Technology
+    orcid: 'https://orcid.org/0000-0001-9761-7936'
+repository-code: 'https://github.com/GEMDAT-repos/GEMDAT'
+url: 'https://gemdat.readthedocs.io'
+abstract: >-
+  Python toolkit for molecular dynamics analysis diffusion in crystals
+keywords:
+  - analysis
+  - diffusion
+  - molecular dynamics
+  - batteries
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.8401669
+license: Apache-2.0
+version: 1.6.2

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1299,
+    "annotations": [
+      {
+        "id": 11022,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 779,
+              "end": 830,
+              "text": "https://dhdt.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "uLEGp4UlOk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1771,
+              "end": 1774,
+              "text": "pip",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "rUkO8Lq7VL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:46:52.585427Z",
+        "updated_at": "2025-11-15T17:15:54.509717Z",
+        "draft_created_at": "2025-11-05T22:46:33.873438Z",
+        "lead_time": 62.247,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "9233a579-3b32-4451-9942-7c427e1efe61",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1299,
+        "project": 23316,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "|GitHub Badge| |License Badge| |Python Build| |Documentation Status| |OpenSSF Best Practices|\n\n.. |GitHub Badge| image:: https://img.shields.io/badge/github-repo-000.svg?logo=github&labelColor=gray&color=blue  :target: https://github.com/GO-Eratosthenes/eratosthenes  :alt: GitHub Badge\n\n.. |License Badge| image:: https://img.shields.io/github/license/GO-Eratosthenes/start-code  :target: https://github.com/GO-Eratosthenes/start-code  :alt: License Badge\n\n.. |Python Build| image:: https://github.com/GO-Eratosthenes/start-code/workflows/Build/badge.svg  :target: https://github.com/GO-Eratosthenes/start-code/actions?query=workflow%3A%22build.yml%22  :alt: Python Build   .. |Documentation Status| image:: https://readthedocs.org/projects/dhdt/badge/?version=latest  :target: https://dhdt.readthedocs.io/en/latest/?badge=latest  :alt: Documentation Status\n\n.. |OpenSSF Best Practices| image:: https://bestpractices.coreinfrastructure.org/projects/7641/badge  :target: https://bestpractices.coreinfrastructure.org/projects/7641  :alt: OpenSSF Best Practices\n\n############ dhdt ############\n\nExtracting topography from mountain glaciers, through the use of shadow casted by surrounding mountains. Imagery from optical satellite systems are used, over all mountain ranges on Earth.\n\nInstallation\n\nDownload and access the package folder using git:\n\n.. code-block:: console\n\ngit clone https://github.com/GO-Eratosthenes/dhdt.git  cd dhdt\n\nThe dependencies are most easily installed with conda from the conda-forge channel (see Miniforge installers_ for a minimal Conda installation). Create and activate a virtual environment with all the required dependencies:\n\n.. code-block:: console\n\nconda env create -n dhdt -f environment.yml  conda activate dhdt\n\nInstall dhdt using pip (add the -e option to install in development mode):\n\n.. code-block:: console",
+      "section": "Introduction (part 1)",
+      "repo": "068_dhdt",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.123469Z",
+    "updated_at": "2025-11-15T17:15:54.539539Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23316,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1300,
+    "annotations": [
+      {
+        "id": 11023,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 315,
+              "end": 342,
+              "text": "Apache License, Version 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "qYoKGaCl4R",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 466,
+              "end": 508,
+              "text": "http://www.apache.org/licenses/LICENSE-2.0",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "fUPFrI-4sw",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T22:47:13.627510Z",
+        "updated_at": "2025-11-05T22:47:13.627526Z",
+        "draft_created_at": null,
+        "lead_time": 20.863,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "f75a7ede-3dfa-4814-b5b8-7999c21a1772",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1300,
+        "project": 23316,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "pip install .\n\n.. _Miniforge installers : https://github.com/conda-forge/miniforge/releases\n\nContributing\n\nIf you want to contribute to the development of this package, have a look at the contribution guidelines _.\n\nLicense *\n\nCopyright (c) 2023, Netherlands eScience Center, Utrecht University\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\n\nCredits\n\nThis package was created with Cookiecutter _ and the NLeSC/python-template _.",
+      "section": "Introduction (part 2)",
+      "repo": "068_dhdt",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:55.123508Z",
+    "updated_at": "2025-11-05T22:47:13.650998Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23316,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

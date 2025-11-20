@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/jasp-stats/jaspProcess",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R",
+    "QML"
+  ],
+  "downloadUrl": "https://api.github.com/repos/jasp-stats/jaspProcess/zipball/main",
+  "author": "jasp-stats",
+  "dateCreated": "2023-03-13T12:24:59Z",
+  "dateModified": "2025-10-25T03:51:03Z",
+  "keywords": [
+    "jasp",
+    "mediation-analysis",
+    "moderation-analysis",
+    "regression",
+    "statistics"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "The PROCESS module",
+  "identifier": 613359575,
+  "name": "jasp-stats/jaspProcess",
+  "issueTracker": "https://api.github.com/repos/jasp-stats/jaspProcess/issues",
+  "readme": "https://github.com/jasp-stats/jaspProcess/blob/master/README.md"
+}

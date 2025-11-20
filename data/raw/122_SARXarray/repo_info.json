@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/TUDelftGeodesy/sarxarray",
+  "programmingLanguage": "ReScript",
+  "programmingLanguages": [
+    "ReScript",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/TUDelftGeodesy/sarxarray/zipball/main",
+  "author": "TUDelftGeodesy",
+  "dateCreated": "2022-11-09T10:21:22Z",
+  "dateModified": "2025-10-17T19:59:02Z",
+  "keywords": [
+    "earth-observation",
+    "insar",
+    "interferometry",
+    "radar",
+    "sar"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Xarray extension for Synthetic Aperture Radar (SAR) data",
+  "identifier": 563781394,
+  "name": "TUDelftGeodesy/sarxarray",
+  "issueTracker": "https://api.github.com/repos/TUDelftGeodesy/sarxarray/issues",
+  "readme": "https://github.com/TUDelftGeodesy/sarxarray/blob/main/README.md"
+}

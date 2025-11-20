@@ -1,0 +1,112 @@
+[
+  {
+    "id": 883,
+    "annotations": [
+      {
+        "id": 11151,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 69,
+              "end": 108,
+              "text": "https://doi.org/10.5281/zenodo.15089665",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "cOqJdVvQ4Y",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 23,
+              "end": 64,
+              "text": "https://excited-workflow.readthedocs.org/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "GkXE20dtem",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 499,
+              "end": 539,
+              "text": "https://excited-workflow.readthedocs.io/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "i0LT-9fp1P",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 650,
+              "end": 713,
+              "text": "https://excited-workflow.readthedocs.io/en/latest/system_setup/",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "nhHWyzLrsD",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:14:14.090981Z",
+        "updated_at": "2025-11-16T05:01:20.197978Z",
+        "draft_created_at": "2025-11-06T05:13:41.713169Z",
+        "lead_time": 60.723,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "0345d088-bfdc-4aa6-9fb7-414a52c5ede0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 883,
+        "project": 23253,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# EXCITED workflow\n\n[](https://excited-workflow.readthedocs.org/) [](https://doi.org/10.5281/zenodo.15089665)\n\nAn open workflow for creating machine learning models for estimating the global biospheric CO2 exchange.\n\nUsing this workflow we aim to better constrain the CO2 exchange in terrestrial ecosystems on longer timescales using estimates from inverse models (e.g., CarbonTracker) as additional input data.\n\nA more detailed description on the workflow is available on the [documentation pages] https://excited-workflow.readthedocs.io/.\n\n## Running the workflow\n\nThe documentation has instructions on; [how to install and configure the workflow] https://excited-workflow.readthedocs.io/en/latest/system_setup/\n\n[how to download the required data] https://excited-workflow.readthedocs.io/en/latest/input_data/\n\nThe workflow itself consists on notebooks ([viewable here] https://excited-workflow.readthedocs.io/en/latest/workflow_notebooks/) that guide you through each step.\n\n## Acknowledgements\n\nThis workflow was developed under Netherlands eScience Center grant [NLESC.OEC.2022.017] https://research-software-directory.org/projects/excited.",
+      "section": "README",
+      "repo": "050_EXCITED_Machine_Learning_Workflow",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:50.685900Z",
+    "updated_at": "2025-11-16T05:01:20.235068Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23253,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

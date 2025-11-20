@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/ExploreASL/ExploreASL",
+  "programmingLanguage": "MATLAB",
+  "programmingLanguages": [
+    "MATLAB",
+    "C",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ExploreASL/ExploreASL/zipball/main",
+  "author": "ExploreASL",
+  "dateCreated": "2019-12-20T08:00:06Z",
+  "dateModified": "2025-10-24T03:06:02Z",
+  "keywords": [
+    "asl",
+    "exploreasl",
+    "image",
+    "matlab",
+    "perfusion",
+    "processing",
+    "qc",
+    "toolbox"
+  ],
+  "license": null,
+  "description": "ExploreASL: releases can be found in the main branch or within the releases tab. If you want to contribute, please contact us at h.j.mutsaerts@amsterdamumc.nl. Development details can be found under the wiki tab. Code documentation can be found on the documentation website https://exploreasl.github.io/Documentation",
+  "identifier": 229218435,
+  "name": "ExploreASL/ExploreASL",
+  "issueTracker": "https://api.github.com/repos/ExploreASL/ExploreASL/issues",
+  "readme": "https://github.com/ExploreASL/ExploreASL/blob/main/README.md"
+}

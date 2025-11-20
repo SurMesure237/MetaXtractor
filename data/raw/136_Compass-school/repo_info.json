@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/ODISSEI-School-Choice/school-choice",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "HTML"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ODISSEI-School-Choice/school-choice/zipball/main",
+  "author": "ODISSEI-School-Choice",
+  "dateCreated": "2022-04-19T11:57:49Z",
+  "dateModified": "2023-09-29T10:01:51Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "This Python implementation tries to model school choice and resulting school segregation based on the work of Schelling (1971) and Stoica & Flache (2014). ",
+  "identifier": 483226861,
+  "name": "ODISSEI-School-Choice/school-choice",
+  "issueTracker": "https://api.github.com/repos/ODISSEI-School-Choice/school-choice/issues",
+  "readme": "https://github.com/ODISSEI-School-Choice/school-choice/blob/master/README.md"
+}

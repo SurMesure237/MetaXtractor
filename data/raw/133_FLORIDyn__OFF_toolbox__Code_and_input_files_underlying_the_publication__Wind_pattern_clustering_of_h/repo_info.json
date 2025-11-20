@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/NREL/floris",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/NREL/floris/zipball/main",
+  "author": "NREL",
+  "dateCreated": "2019-04-01T17:38:14Z",
+  "dateModified": "2025-10-30T14:28:23Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "A controls-oriented engineering wake model.",
+  "identifier": 178914781,
+  "name": "NREL/floris",
+  "issueTracker": "https://api.github.com/repos/NREL/floris/issues",
+  "readme": "https://github.com/NREL/floris/blob/main/README.md"
+}

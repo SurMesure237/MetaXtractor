@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/canfar/canfarproc",
+  "programmingLanguage": "Shell",
+  "programmingLanguages": [
+    "Shell",
+    "Python",
+    "Makefile",
+    "C",
+    "Jinja"
+  ],
+  "downloadUrl": "https://api.github.com/repos/canfar/canfarproc/zipball/main",
+  "author": "canfar",
+  "dateCreated": "2018-03-22T16:11:47Z",
+  "dateModified": "2022-04-21T19:03:26Z",
+  "keywords": [],
+  "license": null,
+  "description": "Scripts and configurations for CANFAR batch and cloud processing.",
+  "identifier": 126362026,
+  "name": "canfar/canfarproc",
+  "issueTracker": "https://api.github.com/repos/canfar/canfarproc/issues",
+  "readme": "https://github.com/canfar/canfarproc/blob/master/README.md"
+}

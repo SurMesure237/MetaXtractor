@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/point-cloud-radar/bird-cloud-gnn",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/point-cloud-radar/bird-cloud-gnn/zipball/main",
+  "author": "point-cloud-radar",
+  "dateCreated": "2023-02-13T09:53:44Z",
+  "dateModified": "2024-05-08T05:07:38Z",
+  "keywords": [
+    "graph-neural-networks",
+    "machine-learning",
+    "meteorological-data",
+    "point-cloud"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "This package generates graph representations from point cloud data and fits graph neural networks for classification problem",
+  "identifier": 601068733,
+  "name": "point-cloud-radar/bird-cloud-gnn",
+  "issueTracker": "https://api.github.com/repos/point-cloud-radar/bird-cloud-gnn/issues",
+  "readme": "https://github.com/point-cloud-radar/bird-cloud-gnn/blob/main/README.md"
+}

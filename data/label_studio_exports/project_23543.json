@@ -1,0 +1,337 @@
+[
+  {
+    "id": 2444,
+    "annotations": [
+      {
+        "id": 10121,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 853,
+              "end": 1092,
+              "text": "Bicker J, Kerkmann D, Korf S, Plötzke L, Schmieding R, Wendler A, Zunker H et al. (2025) MEmilio - a High Performance Modular Epidemics Simulation Software. Available at https://github.com/SciCompMod/memilio and https://elib.dlr.de/213614/",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "4p25VRtlC5",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:45:56.199510Z",
+        "updated_at": "2025-11-03T05:45:56.199530Z",
+        "draft_created_at": "2025-11-03T05:45:39.630094Z",
+        "lead_time": 43.346,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "6dea17ef-d30f-4c66-a6a4-3750a8e5d233",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2444,
+        "project": 23543,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "MEmilio - a high performance Modular EpideMIcs simuLatIOn software #\n\n[](https://github.com/SciCompMod/memilio/actions/workflows/main.yml) [](https://codecov.io/gh/SciCompMod/memilio)\n\nMEmilio implements various models for infectious disease dynamics, from simple compartmental models through Integro-Differential equation-based models to agent- or individual-based models. Its modular design allows the combination of different models with different mobility patterns. Through efficient implementation and parallelization, MEmilio brings cutting edge and compute intensive epidemiological models to a large scale, enabling a precise and high-resolution spatiotemporal infectious disease dynamics. MEmilio will be extended continuously. It is available open-source and we encourage everyone to make use of it.\n\nIf you use MEmilio, please cite our work\n\nBicker J, Kerkmann D, Korf S, Plötzke L, Schmieding R, Wendler A, Zunker H et al. (2025) MEmilio - a High Performance Modular Epidemics Simulation Software. Available at https://github.com/SciCompMod/memilio and https://elib.dlr.de/213614/ .\n\nand, in particular, for",
+      "section": "MEmilio - a high performance Modular EpideMIcs simuLatIOn software # (part 1)",
+      "repo": "167_MEmilio",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.994749Z",
+    "updated_at": "2025-11-03T05:45:56.228729Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23543,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2445,
+    "annotations": [
+      {
+        "id": 10122,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 352,
+              "text": "Ordinary differential equation-based (ODE) and Graph-ODE models: Zunker H, Schmieding R, Kerkmann D, Schengen A, Diexer S, et al. (2024). Novel travel time aware metapopulation models and multi-layer waning immunity for late-phase epidemic and endemic scenarios. PLOS Computational Biology 20(12): e1012630. https://doi.org/10.1371/journal.pcbi.1012630",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "noO0MnGy7t",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 354,
+              "end": 684,
+              "text": "Integro-differential equation-based (IDE) models: Wendler A, Plötzke L, Tritzschak H, Kühn MJ. (2026). A nonstandard numerical scheme for a novel SECIR integro differential equation-based model with nonexponentially distributed stay times. Applied Mathematics and Computation 509: 129636. https://doi.org/10.1016/j.amc.2025.129636",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "1RySIYblGK",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 686,
+              "end": 1042,
+              "text": "Agent-based models (ABMs): Kerkmann D, Korf S, Nguyen K, Abele D, Schengen A, et al. (2025). Agent-based modeling for realistic reproduction of human mobility and contact behavior to evaluate test and isolation strategies in epidemic infectious disease spread. Computers in Biology and Medicine 193: 110269. https://doi.org/10.1016/j.compbiomed.2025.110269",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "hK9se36K9_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1044,
+              "end": 1369,
+              "text": "Hybrid agent-metapopulation-based models: Bicker J, Schmieding R, Meyer-Hermann M, Kühn MJ. (2025). Hybrid metapopulation agent-based epidemiological models for efficient insight on the individual scale: A contribution to green computing. Infectious Disease Modelling 10(2): 571-590. https://doi.org/10.1016/j.idm.2024.12.015",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "C8gD8vIigB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1371,
+              "end": 1635,
+              "text": "Graph Neural Networks: Schmidt A, Zunker H, Heinlein A, Kühn MJ. (2025). Graph Neural Network Surrogates to leverage Mechanistic Expert Knowledge towards Reliable and Immediate Pandemic Response. Submitted for publication. https://doi.org/10.48550/arXiv.2411.06500",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "YPBYiYdnqz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:46:16.700632Z",
+        "updated_at": "2025-11-03T05:46:16.700649Z",
+        "draft_created_at": "2025-11-03T05:46:07.577821Z",
+        "lead_time": 20.319,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "11465df1-49aa-4b5c-bcf8-f71e5f5150a8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2445,
+        "project": 23543,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Ordinary differential equation-based (ODE) and Graph-ODE models: Zunker H, Schmieding R, Kerkmann D, Schengen A, Diexer S, et al. (2024). Novel travel time aware metapopulation models and multi-layer waning immunity for late-phase epidemic and endemic scenarios. PLOS Computational Biology 20(12): e1012630. https://doi.org/10.1371/journal.pcbi.1012630\n\nIntegro-differential equation-based (IDE) models: Wendler A, Plötzke L, Tritzschak H, Kühn MJ. (2026). A nonstandard numerical scheme for a novel SECIR integro differential equation-based model with nonexponentially distributed stay times. Applied Mathematics and Computation 509: 129636. https://doi.org/10.1016/j.amc.2025.129636\n\nAgent-based models (ABMs): Kerkmann D, Korf S, Nguyen K, Abele D, Schengen A, et al. (2025). Agent-based modeling for realistic reproduction of human mobility and contact behavior to evaluate test and isolation strategies in epidemic infectious disease spread. Computers in Biology and Medicine 193: 110269. https://doi.org/10.1016/j.compbiomed.2025.110269\n\nHybrid agent-metapopulation-based models: Bicker J, Schmieding R, Meyer-Hermann M, Kühn MJ. (2025). Hybrid metapopulation agent-based epidemiological models for efficient insight on the individual scale: A contribution to green computing. Infectious Disease Modelling 10(2): 571-590. https://doi.org/10.1016/j.idm.2024.12.015\n\nGraph Neural Networks: Schmidt A, Zunker H, Heinlein A, Kühn MJ. (2025). Graph Neural Network Surrogates to leverage Mechanistic Expert Knowledge towards Reliable and Immediate Pandemic Response. Submitted for publication. https://doi.org/10.48550/arXiv.2411.06500",
+      "section": "MEmilio - a high performance Modular EpideMIcs simuLatIOn software # (part 2)",
+      "repo": "167_MEmilio",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.994793Z",
+    "updated_at": "2025-11-03T05:46:16.730121Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23543,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2446,
+    "annotations": [
+      {
+        "id": 10123,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 288,
+              "text": "ODE-based models with Linear Chain Trick: Plötzke L, Wendler A, Schmieding R, Kühn MJ. (2024). Revisiting the Linear Chain Trick in epidemiological models: Implications of underlying assumptions for numerical solutions. Submitted for publication. https://doi.org/10.48550/arXiv.2412.09140",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "4zZd_Rt-IV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 290,
+              "end": 562,
+              "text": "Behavior-based ODE models: Zunker H, Dönges P, Lenz P, Contreras S, Kühn MJ. (2025). Risk-mediated dynamic regulation of effective contacts de-synchronizes outbreaks in metapopulation epidemic models. Chaos, Solitons & Fractals. https://doi.org/10.1016/j.chaos.2025.116782",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "iu8Sp_TS4v",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:46:26.196849Z",
+        "updated_at": "2025-11-03T05:46:26.196867Z",
+        "draft_created_at": null,
+        "lead_time": 9.305,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "273afc66-77dc-43db-934a-dda6f39c9b8c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2446,
+        "project": 23543,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "ODE-based models with Linear Chain Trick: Plötzke L, Wendler A, Schmieding R, Kühn MJ. (2024). Revisiting the Linear Chain Trick in epidemiological models: Implications of underlying assumptions for numerical solutions. Submitted for publication. https://doi.org/10.48550/arXiv.2412.09140\n\nBehavior-based ODE models: Zunker H, Dönges P, Lenz P, Contreras S, Kühn MJ. (2025). Risk-mediated dynamic regulation of effective contacts de-synchronizes outbreaks in metapopulation epidemic models. Chaos, Solitons & Fractals. https://doi.org/10.1016/j.chaos.2025.116782",
+      "section": "MEmilio - a high performance Modular EpideMIcs simuLatIOn software # (part 3)",
+      "repo": "167_MEmilio",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.994820Z",
+    "updated_at": "2025-11-03T05:46:26.224301Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23543,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2447,
+    "annotations": [
+      {
+        "id": 10124,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 64,
+              "end": 115,
+              "text": "https://memilio.readthedocs.io/en/latest/index.html",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "nqzC4_6Rfp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T05:46:53.492727Z",
+        "updated_at": "2025-11-14T12:15:10.544951Z",
+        "draft_created_at": "2025-11-03T05:46:40.438371Z",
+        "lead_time": 43.435,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "ccd62ef3-0459-4a2b-927a-169cd77b776d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2447,
+        "project": 23543,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Getting started\n\nThe documentation for MEmilio can be found at  https://memilio.readthedocs.io/en/latest/index.html\n\nPublication simulations\n\nSimulations used for publications, along with their specific plotting and processing scripts,  are available in a separate repository: https://github.com/SciCompMod/memilio-simulations\n\nDevelopment\n\nThe coding guidelines and git workflow description can be found in the documentation at  https://memilio.readthedocs.io/en/latest/development.html",
+      "section": "MEmilio - a high performance Modular EpideMIcs simuLatIOn software # (part 4)",
+      "repo": "167_MEmilio",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.994842Z",
+    "updated_at": "2025-11-14T12:15:10.581740Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23543,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

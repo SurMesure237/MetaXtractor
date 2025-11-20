@@ -1,0 +1,24 @@
+{
+  "codeRepository": "https://github.com/PathVisio/pathvisio",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java",
+    "HTML",
+    "JavaScript",
+    "Shell",
+    "Inno Setup",
+    "CSS",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/PathVisio/pathvisio/zipball/main",
+  "author": "PathVisio",
+  "dateCreated": "2016-07-26T14:34:59Z",
+  "dateModified": "2025-08-18T09:44:43Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "PathVisio - pathway editor, visualization and analysis software",
+  "identifier": 64228474,
+  "name": "PathVisio/pathvisio",
+  "issueTracker": "https://api.github.com/repos/PathVisio/pathvisio/issues",
+  "readme": "https://github.com/PathVisio/pathvisio/blob/master/readme.md"
+}

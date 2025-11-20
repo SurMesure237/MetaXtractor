@@ -1,0 +1,176 @@
+[
+  {
+    "id": 2532,
+    "annotations": [
+      {
+        "id": 11730,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 806,
+              "end": 848,
+              "text": "https://zenodo.org/badge/latestdoi/9113580",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "G7KIFda2a3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1462,
+              "end": 1469,
+              "text": "AGPL v3",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "TRECtMq7AE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1501,
+              "end": 1504,
+              "text": "BSD",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "tT9oYQ6ItM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1513,
+              "end": 1517,
+              "text": "LGPL",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "0_OCqBc9uE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1603,
+              "end": 1623,
+              "text": "ttp://www.dcache.org",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "P4nodEwEqN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:45:32.738906Z",
+        "updated_at": "2025-11-14T12:35:43.402802Z",
+        "draft_created_at": "2025-11-09T05:45:19.758935Z",
+        "lead_time": 48.419,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "4862fd4f-3bb1-4c20-8735-cc32b4c3be88",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2532,
+        "project": 23562,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "dCache\n\n__dCache__ is a system for storing and retrieving huge amounts of data, distributed among a large number of heterogeneous server nodes, under a single virtual filesystem tree with a variety of standard access methods. Depending on the Persistency Model, dCache provides methods for exchanging data with backend (tertiary) Storage Systems as well as space management, pool attraction, dataset replication, hot spot determination and recovery from disk or node failures. Connected to a tertiary storage system, the cache simulates unlimited direct access storage space. Data exchanges to and from the underlying HSM are performed automatically and invisibly to the user. Beside HEP specific protocols, data in dCache can be accessed via __NFSv4.1 (pNFS)__, __FTP__ as well as through __WebDav__.\n\n[](https://zenodo.org/badge/latestdoi/9113580)\n\nDocumentation\n\n[The dCache book] docs/TheBook/src/main/markdown/index.md\n\n[User Guide] docs/UserGuide/src/main/markdown/index.md\n\nGetting Started\n\nThe file [BUILDING.md] BUILDING.md describes how to compile dCache code and build various packages.\n\nThe file also describes how to create the __system-test__ deployment, which provides a quick and easy way to get a working dCache. Running system-test requires no special privileges and all the generated files reside within the code-base.\n\nThere are also packages of stable releases at https://www.dcache.org/downloads/.\n\nLicense\n\nThe project is licensed under __AGPL v3__. Some parts licensed under __BSD__ and __LGPL__. See the source code for details.\n\nFor more info, check the official [dCache.ORG] http://www.dcache.org web page.",
+      "section": "Introduction (part 1)",
+      "repo": "255_dCache",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.396420Z",
+    "updated_at": "2025-11-14T12:35:43.443211Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23562,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2533,
+    "annotations": [
+      {
+        "id": 11731,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T05:45:36.849747Z",
+        "updated_at": "2025-11-09T05:45:36.849765Z",
+        "draft_created_at": null,
+        "lead_time": 3.905,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "7e3b2d5b-a940-4177-9e19-7fd11427d061",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2533,
+        "project": 23562,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Contributors\n\ndCache is a joint effort between [Deutsches Elektronen-Synchrotron DESY] http://www.desy.de, [Fermi National Accelerator Laboratory] http://www.fnal.gov and [Nordic DataGrid Facility] http://www.ndgf.org.\n\nContributions are welcome! Please check out our [CONTRIBUTING guide] CONTRIBUTING.md.",
+      "section": "Introduction (part 2)",
+      "repo": "255_dCache",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:12.396457Z",
+    "updated_at": "2025-11-09T05:45:36.877614Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23562,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

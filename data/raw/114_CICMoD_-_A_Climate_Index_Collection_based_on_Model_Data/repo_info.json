@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/MarcoLandtHayen/climate_index_collection",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "Shell",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/MarcoLandtHayen/climate_index_collection/zipball/main",
+  "author": "MarcoLandtHayen",
+  "dateCreated": "2022-05-18T10:41:43Z",
+  "dateModified": "2024-11-05T09:26:38Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": null,
+  "identifier": 493619271,
+  "name": "MarcoLandtHayen/climate_index_collection",
+  "issueTracker": "https://api.github.com/repos/MarcoLandtHayen/climate_index_collection/issues",
+  "readme": "https://github.com/MarcoLandtHayen/climate_index_collection/blob/main/README.md"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "julearn\n\n[](https://anaconda.org/conda-forge/julearn)\n\n[](https://github.com/charliermarsh/ruff) [](https://github.com/pre-commit/pre-commit)\n\n## About\n\nThe Forschungszentrum J\u00fclich Machine Learning Library\n\nCheck our full documentation here: https://juaml.github.io/julearn/index.html\n\nIt is currently being developed and maintained at the [Applied Machine Learning] https://www.fz-juelich.de/en/inm/inm-7/research-groups/applied-machine-learning-aml group at [Forschungszentrum Juelich] https://www.fz-juelich.de/en, Germany.\n\n## Installation\n\nUse pip to install from PyPI like so:\n\npip install julearn\n\nYou can also install via conda, like so:\n\nconda install -c conda-forge julearn",
+      "section": "julearn (part 1)",
+      "repo": "344_Julearn",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Licensing\n\njulearn is released under the AGPL v3 license:\n\njulearn, FZJuelich AML machine learning library. Copyright (C) 2020, authors of julearn.\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License along with this program. If not, see .\n\n## Citing\n\nIf you use julearn in a scientific publication, please use the following reference\n\nSami Hamdan,Shammi More,Leonard Sasse,Vera Komeyer,Kaustubh R. Patil,Federico Raimondo,for the Alzheimer\u2019s Disease Neuroimaging Initiative,Julearn: an easy-to-use library for leakage-free evaluation and inspection of ML models,Gigabyte,2024 https://doi.org/10.46471/gigabyte.113\n\nSince julearn is also heavily reliant on scikit-learn, please also cite them: https://scikit-learn.org/stable/about.html#citing-scikit-learn",
+      "section": "julearn (part 2)",
+      "repo": "344_Julearn",
+      "source_file": "readme.md"
+    }
+  }
+]

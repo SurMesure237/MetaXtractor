@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/LS-Lab/Coq-dL",
+  "programmingLanguage": "Coq",
+  "programmingLanguages": [
+    "Coq",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/LS-Lab/Coq-dL/zipball/main",
+  "author": "LS-Lab",
+  "dateCreated": "2016-10-27T15:37:15Z",
+  "dateModified": "2025-06-25T14:51:04Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "A formally verified implementation of differential dynamic logic in Coq",
+  "identifier": 72122713,
+  "name": "LS-Lab/Coq-dL",
+  "issueTracker": "https://api.github.com/repos/LS-Lab/Coq-dL/issues",
+  "readme": "https://github.com/LS-Lab/Coq-dL/blob/master/README.md"
+}

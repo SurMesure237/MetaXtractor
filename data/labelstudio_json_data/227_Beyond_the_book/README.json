@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "Required python packages:\n\nipaddress   mwclient (0.6.6) installed via pip install git+git://github.com/mwclient/mwclient.git   pydot",
+      "section": "README",
+      "repo": "227_Beyond_the_book",
+      "source_file": "readme.md"
+    }
+  }
+]

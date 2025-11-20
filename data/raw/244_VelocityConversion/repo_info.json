@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/cmeessen/VelocityConversion",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "VBA"
+  ],
+  "downloadUrl": "https://api.github.com/repos/cmeessen/VelocityConversion/zipball/main",
+  "author": "cmeessen",
+  "dateCreated": "2017-04-10T09:41:14Z",
+  "dateModified": "2024-11-26T22:04:34Z",
+  "keywords": [
+    "conversion",
+    "density",
+    "geophysics",
+    "mantle",
+    "temperature",
+    "velocity"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Python implementation of mantle velocity conversion by Goes et al. (2000).",
+  "identifier": 87794116,
+  "name": "cmeessen/VelocityConversion",
+  "issueTracker": "https://api.github.com/repos/cmeessen/VelocityConversion/issues",
+  "readme": "https://github.com/cmeessen/VelocityConversion/blob/master/README.md"
+}

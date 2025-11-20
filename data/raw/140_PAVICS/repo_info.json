@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/Ouranosinc/xclim",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/Ouranosinc/xclim/zipball/main",
+  "author": "Ouranosinc",
+  "dateCreated": "2018-07-27T18:02:20Z",
+  "dateModified": "2025-10-30T17:44:24Z",
+  "keywords": [
+    "anuclim",
+    "climate-analysis",
+    "climate-science",
+    "dask",
+    "icclim",
+    "netcdf4",
+    "python",
+    "xarray",
+    "xclim"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Library of derived climate variables, ie climate indicators, based on xarray. ",
+  "identifier": 142608764,
+  "name": "Ouranosinc/xclim",
+  "issueTracker": "https://api.github.com/repos/Ouranosinc/xclim/issues",
+  "readme": "https://github.com/Ouranosinc/xclim/blob/main/README.rst"
+}

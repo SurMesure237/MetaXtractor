@@ -1,0 +1,27 @@
+{
+  "codeRepository": "https://github.com/euroargodev/argopy",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "CSS",
+    "Shell",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/euroargodev/argopy/zipball/main",
+  "author": "euroargodev",
+  "dateCreated": "2020-03-17T16:14:32Z",
+  "dateModified": "2025-10-27T11:07:42Z",
+  "keywords": [
+    "argo",
+    "argo-data",
+    "argo-floats",
+    "oceanography",
+    "python"
+  ],
+  "license": "https://api.github.com/licenses/eupl-1.2",
+  "description": "A python library for Argo data beginners and experts",
+  "identifier": 248016007,
+  "name": "euroargodev/argopy",
+  "issueTracker": "https://api.github.com/repos/euroargodev/argopy/issues",
+  "readme": "https://github.com/euroargodev/argopy/blob/master/README.md"
+}

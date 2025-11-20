@@ -1,0 +1,38 @@
+{
+  "codeRepository": "https://github.com/DLR-RM/BlenderProc",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "TeX"
+  ],
+  "downloadUrl": "https://api.github.com/repos/DLR-RM/BlenderProc/zipball/main",
+  "author": "DLR-RM",
+  "dateCreated": "2019-10-10T11:29:14Z",
+  "dateModified": "2025-10-29T08:01:00Z",
+  "keywords": [
+    "3d-engines",
+    "3d-front-dataset",
+    "3d-graphics",
+    "3d-reconstruction",
+    "blender",
+    "blender-installation",
+    "blender-pipeline",
+    "camera-positions",
+    "camera-sampling",
+    "computer-graphics",
+    "depth-images",
+    "pose-estimation",
+    "python",
+    "rendering",
+    "segmentation",
+    "suncg-scene",
+    "synthetic",
+    "synthetic-data"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "A procedural Blender pipeline for photorealistic training image generation",
+  "identifier": 214165016,
+  "name": "DLR-RM/BlenderProc",
+  "issueTracker": "https://api.github.com/repos/DLR-RM/BlenderProc/issues",
+  "readme": "https://github.com/DLR-RM/BlenderProc/blob/main/README.md"
+}

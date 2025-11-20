@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/MindTheGap-ERC/admtools",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R"
+  ],
+  "downloadUrl": "https://api.github.com/repos/MindTheGap-ERC/admtools/zipball/main",
+  "author": "MindTheGap-ERC",
+  "dateCreated": "2023-02-11T16:05:19Z",
+  "dateModified": "2025-05-21T07:33:15Z",
+  "keywords": [
+    "age-depth-model",
+    "geochronology",
+    "sedimentology",
+    "stratigraphy"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Estimate Age-Depth Models and Transform Data",
+  "identifier": 600476509,
+  "name": "MindTheGap-ERC/admtools",
+  "issueTracker": "https://api.github.com/repos/MindTheGap-ERC/admtools/issues",
+  "readme": "https://github.com/MindTheGap-ERC/admtools/blob/main/README.md"
+}

@@ -1,0 +1,27 @@
+{
+  "codeRepository": "https://github.com/PyCQA/bandit",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/PyCQA/bandit/zipball/main",
+  "author": "PyCQA",
+  "dateCreated": "2018-04-26T09:08:12Z",
+  "dateModified": "2025-10-30T09:15:06Z",
+  "keywords": [
+    "bandit",
+    "linter",
+    "python",
+    "security",
+    "security-scanner",
+    "security-tools",
+    "static-code-analysis"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Bandit is a tool designed to find common security issues in Python code.",
+  "identifier": 131129792,
+  "name": "PyCQA/bandit",
+  "issueTracker": "https://api.github.com/repos/PyCQA/bandit/issues",
+  "readme": "https://github.com/PyCQA/bandit/blob/main/README.rst"
+}

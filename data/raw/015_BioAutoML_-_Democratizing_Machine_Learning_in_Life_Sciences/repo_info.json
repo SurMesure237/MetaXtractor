@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/Bonidia/BioAutoML",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/Bonidia/BioAutoML/zipball/main",
+  "author": "Bonidia",
+  "dateCreated": "2021-12-16T18:07:15Z",
+  "dateModified": "2025-10-17T13:49:38Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "BioAutoML: Automated Feature Engineering and Metalearning",
+  "identifier": 439083962,
+  "name": "Bonidia/BioAutoML",
+  "issueTracker": "https://api.github.com/repos/Bonidia/BioAutoML/issues",
+  "readme": "https://github.com/Bonidia/BioAutoML/blob/main/README.md"
+}

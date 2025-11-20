@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/ardoco/tlr",
+  "programmingLanguage": "Java",
+  "programmingLanguages": [
+    "Java",
+    "ANTLR",
+    "Python",
+    "C++",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ardoco/tlr/zipball/main",
+  "author": "ardoco",
+  "dateCreated": "2024-02-12T11:35:28Z",
+  "dateModified": "2025-10-15T18:49:32Z",
+  "keywords": [
+    "tlr",
+    "traceability"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Traceability Link Recovery Modules (SWATTR, TransArC, ExArch, ArCoTL)",
+  "identifier": 756294583,
+  "name": "ardoco/tlr",
+  "issueTracker": "https://api.github.com/repos/ardoco/tlr/issues",
+  "readme": "https://github.com/ardoco/tlr/blob/main/README.md"
+}

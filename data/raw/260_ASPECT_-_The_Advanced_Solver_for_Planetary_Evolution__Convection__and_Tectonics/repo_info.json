@@ -1,0 +1,43 @@
+{
+  "codeRepository": "https://github.com/dealii/dealii",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "C",
+    "CMake",
+    "Roff",
+    "Python",
+    "Fortran",
+    "MATLAB",
+    "Shell",
+    "Jupyter Notebook",
+    "Makefile",
+    "HTML",
+    "Groovy",
+    "M4",
+    "GLSL",
+    "Gnuplot",
+    "Perl",
+    "Raku",
+    "Pawn",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/dealii/dealii/zipball/main",
+  "author": "dealii",
+  "dateCreated": "2014-07-17T14:00:26Z",
+  "dateModified": "2025-10-31T03:26:55Z",
+  "keywords": [
+    "c-plus-plus",
+    "fem",
+    "finite-elements",
+    "hpc",
+    "parallel-computing",
+    "scientific-computing"
+  ],
+  "license": null,
+  "description": "The development repository for the deal.II finite element library",
+  "identifier": 21943980,
+  "name": "dealii/dealii",
+  "issueTracker": "https://api.github.com/repos/dealii/dealii/issues",
+  "readme": "https://github.com/dealii/dealii/blob/master/README.md"
+}

@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/SlicerIGT/aigt",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "CMake",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/SlicerIGT/aigt/zipball/main",
+  "author": "SlicerIGT",
+  "dateCreated": "2018-10-22T18:06:50Z",
+  "dateModified": "2025-09-25T23:57:44Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "Deep learning software modules for image-guided medical procedures",
+  "identifier": 154191812,
+  "name": "SlicerIGT/aigt",
+  "issueTracker": "https://api.github.com/repos/SlicerIGT/aigt/issues",
+  "readme": "https://github.com/SlicerIGT/aigt/blob/master/README.md"
+}

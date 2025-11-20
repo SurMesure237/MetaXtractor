@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/nlesc-sherlock/emma",
+  "programmingLanguage": "Shell",
+  "programmingLanguages": [
+    "Shell",
+    "Scala",
+    "Python",
+    "R"
+  ],
+  "downloadUrl": "https://api.github.com/repos/nlesc-sherlock/emma/zipball/main",
+  "author": "nlesc-sherlock",
+  "dateCreated": "2017-02-12T19:57:58Z",
+  "dateModified": "2020-08-27T12:41:17Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Ansible playbook to create a cluster with GlusterFS, Docker, Spark and JupyterHub services",
+  "identifier": 81752841,
+  "name": "nlesc-sherlock/emma",
+  "issueTracker": "https://api.github.com/repos/nlesc-sherlock/emma/issues",
+  "readme": "https://github.com/nlesc-sherlock/emma/blob/master/README.md"
+}

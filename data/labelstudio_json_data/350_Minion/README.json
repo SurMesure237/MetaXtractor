@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": "Minion: C++ and Python Optimization Library\n\n[](https://minion-py.readthedocs.io/en/latest/) [](https://doi.org/10.5281/zenodo.14794240)\n\nMinion/MinionPy is an optimization library designed for solving single-objective optimization problems. It features state-of-the-art evolutionary algorithms, including top-performing methods from IEEE CEC competitions, which are not commonly found in standard optimization libraries such as SciPy, NLopt, OptimLib, pyGMO, and pagmo2.\n\nMinion also serves as a research platform for developing and testing new optimization algorithms. It includes benchmark functions from CEC competitions (2011, 2014, 2017, 2019, 2020, and 2022), providing a robust framework for algorithm evaluation and comparison.",
+      "section": "Minion: C++ and Python Optimization Library (part 1)",
+      "repo": "350_Minion",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## \ud83d\udd25 Why Choose Minion?\n\nState-of-the-art optimization algorithms :\n\nDifferential Evolution-based algorithms:\n\nBasic Differential Evolution (DE)\n\nJADE\n\nL-SHADE\n\nLSHADE-cnEpSin\n\njSO\n\nj2020\n\nNL-SHADE-RSP\n\nLSRTDE\n\nARRDE (Adaptive Restart-Refine DE, our novel algorithm)\n\nOther population-based algorithms:\n\nArtificial Bee Colony (ABC)\n\nGrey Wolf DE Optimization\n\nCanonical PSO, SPSO-2011, and Dynamic Multi-Swarm PSO (DMS-PSO)\n\nCMA-ES (Covariance Matrix Adaptation Evolution Strategy)\n\nBIPOP-aCMAES\n\nClassical optimization algorithms:\n\nNelder-Mead\n\nGeneralized Simulated Annealing (Dual Annealing)\n\nL-BFGS-B (vectorized & noise-robust)\n\nL-BFGS (vectorized & noise-robust)\n\nHighly parallelized\n\nDesigned for vectorized function evaluations, supporting multithreading and multiprocessing to speed up optimization.\n\nOptimized C++ backend with Python API\n\nEnjoy the performance of C++ with the simplicity of Python.\n\nCEC Benchmark Suite\n\nIncludes benchmark problems from 2011, 2014, 2017, 2019, 2020, and 2022 for rigorous algorithm testing.\n\n## \ud83d\ude80 Installation\n\nThe Python wrapper (minionpy) is available on PyPI:\n\npip install --upgrade minionpy\n\nFor compiling the C++ version, please refer to the official Minion documentation.\n\n## \ud83d\udcd6 Documentation\n\nFor full usage instructions, API reference, and examples, visit the official documentation:\n\n[Minion Documentation] https://minion-py.readthedocs.io/",
+      "section": "Minion: C++ and Python Optimization Library (part 2)",
+      "repo": "350_Minion",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## \ud83d\udcdc Citing Minion\n\nIf you use Minion or MinionPy in your research or projects, we would be grateful if you could cite the following publication:\n\nMuzakka, K. F., M\u00f6ller, S., & Finsterbusch, M. (2025).  Minion: A high-performance derivative-free optimization library designed for solving complex optimization problems.  Zenodo. [https://doi.org/10.5281/zenodo.14794239] https://doi.org/10.5281/zenodo.14794239",
+      "section": "Minion: C++ and Python Optimization Library (part 3)",
+      "repo": "350_Minion",
+      "source_file": "readme.md"
+    }
+  }
+]

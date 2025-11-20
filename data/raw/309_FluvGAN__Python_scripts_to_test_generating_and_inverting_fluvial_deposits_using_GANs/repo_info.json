@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/grongier/voxgan",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/grongier/voxgan/zipball/main",
+  "author": "grongier",
+  "dateCreated": "2021-06-01T05:59:56Z",
+  "dateModified": "2025-08-14T14:00:02Z",
+  "keywords": [
+    "2d",
+    "3d",
+    "deep-generative-modeling",
+    "deep-learning",
+    "gan",
+    "python",
+    "pytorch"
+  ],
+  "license": null,
+  "description": "Python package to generate 2D and 3D images using Generative Adversarial Networks and PyTorch",
+  "identifier": 372717560,
+  "name": "grongier/voxgan",
+  "issueTracker": "https://api.github.com/repos/grongier/voxgan/issues",
+  "readme": "https://github.com/grongier/voxgan/blob/master/README.md"
+}

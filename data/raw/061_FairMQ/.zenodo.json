@@ -1,0 +1,88 @@
+{
+    "creators": [
+        {
+            "orcid": "0000-0002-8071-4497",
+            "name": "Al-Turany, Mohammad"
+        },
+        {
+            "orcid": "0000-0003-3787-1910",
+            "name": "Klein, Dennis"
+        },
+        {
+            "name": "Kollegger, Thorsten"
+        },
+        {
+            "orcid": "0000-0002-6249-155X",
+            "name": "Rybalchenko, Alexey"
+        },
+        {
+            "name": "Winckler, Nicolas"
+        }
+    ],
+    "contributors": [
+        {
+            "type": "Other",
+            "name": "Aphecetche, Laurent"
+        },
+        {
+            "type": "Other",
+            "name": "Binet, Sebastien"
+        },
+        {
+            "type": "Other",
+            "name": "Eulisse, Giulio"
+        },
+        {
+            "type": "Other",
+            "name": "Karabowicz, Radoslaw"
+        },
+        {
+            "type": "Other",
+            "name": "Kretz, Matthias"
+        },
+        {
+            "type": "Other",
+            "name": "Krzewicki, Mikolaj"
+        },
+        {
+            "type": "Other",
+            "name": "Lebedev, Andrey"
+        },
+        {
+            "type": "Other",
+            "name": "Mrnjavac, Teo"
+        },
+        {
+            "type": "Other",
+            "name": "Neskovic, Gvozden"
+        },
+        {
+            "type": "Other",
+            "name": "Richter, Matthias"
+        },
+        {
+            "type": "Other",
+            "orcid": "0000-0002-5321-8404",
+            "name": "Tacke, Christian"
+        },
+        {
+            "type": "Other",
+            "name": "Uhlig, Florian"
+        },
+        {
+            "type": "Other",
+            "name": "Wenzel, Sandro"
+        }
+    ],
+    "description": "<p>C++ Message Queuing Library and Framework</p>",
+    "related_identifiers": [
+        {
+            "identifier": "https://github.com/FairRootGroup/FairMQ/",
+            "relation": "isSupplementTo",
+            "resource_type": "software",
+            "scheme": "url"
+        }
+    ],
+    "title": "FairMQ",
+    "license": "LGPL-3.0-only"
+}

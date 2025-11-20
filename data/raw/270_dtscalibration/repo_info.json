@@ -1,0 +1,24 @@
+{
+  "codeRepository": "https://github.com/dtscalibration/python-dts-calibration",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Jupyter Notebook"
+  ],
+  "downloadUrl": "https://api.github.com/repos/dtscalibration/python-dts-calibration/zipball/main",
+  "author": "dtscalibration",
+  "dateCreated": "2018-07-31T22:46:08Z",
+  "dateModified": "2025-08-15T13:19:01Z",
+  "keywords": [
+    "calibration",
+    "dts",
+    "python",
+    "temperature"
+  ],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "A Python package to load raw Distributed Temperature Sensing (DTS) files, perform a calibration, and plot the result.",
+  "identifier": 143077491,
+  "name": "dtscalibration/python-dts-calibration",
+  "issueTracker": "https://api.github.com/repos/dtscalibration/python-dts-calibration/issues",
+  "readme": "https://github.com/dtscalibration/python-dts-calibration/blob/main/README.rst"
+}

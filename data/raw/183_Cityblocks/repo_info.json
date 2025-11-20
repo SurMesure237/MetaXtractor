@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/Urban-M4/cityblocks",
+  "programmingLanguage": "QML",
+  "programmingLanguages": [
+    "QML",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/Urban-M4/cityblocks/zipball/main",
+  "author": "Urban-M4",
+  "dateCreated": "2024-12-02T14:29:31Z",
+  "dateModified": "2025-07-04T09:47:34Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Python workflow to generate LCZ tiles for rendering in 3D in QGIS",
+  "identifier": 897379601,
+  "name": "Urban-M4/cityblocks",
+  "issueTracker": "https://api.github.com/repos/Urban-M4/cityblocks/issues",
+  "readme": "https://github.com/Urban-M4/cityblocks/blob/main/README.md"
+}

@@ -1,0 +1,28 @@
+{
+  "codeRepository": "https://github.com/h-gear/revolution",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R",
+    "Python",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/h-gear/revolution/zipball/main",
+  "author": "h-gear",
+  "dateCreated": "2023-11-14T12:48:11Z",
+  "dateModified": "2025-01-20T11:44:21Z",
+  "keywords": [
+    "georeferencing",
+    "historical-correspondence-analysis",
+    "natural-language-processing",
+    "semi-supervised-topic-analysis",
+    "shifting-concepts-in-time",
+    "temporal-social-network-analysis",
+    "word-vectors"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Historiographing the Era of the American Revolution: Changing political concepts, the most influential figures and networks of correspondence.",
+  "identifier": 718608751,
+  "name": "h-gear/revolution",
+  "issueTracker": "https://api.github.com/repos/h-gear/revolution/issues",
+  "readme": "https://github.com/h-gear/revolution/blob/main/README.md"
+}

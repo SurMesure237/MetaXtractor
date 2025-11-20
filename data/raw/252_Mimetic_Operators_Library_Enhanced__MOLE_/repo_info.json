@@ -1,0 +1,28 @@
+{
+  "codeRepository": "https://github.com/csrc-sdsu/mole",
+  "programmingLanguage": "MATLAB",
+  "programmingLanguages": [
+    "MATLAB",
+    "C++",
+    "CMake",
+    "C",
+    "QMake"
+  ],
+  "downloadUrl": "https://api.github.com/repos/csrc-sdsu/mole/zipball/main",
+  "author": "csrc-sdsu",
+  "dateCreated": "2021-04-15T18:59:15Z",
+  "dateModified": "2025-10-21T23:58:40Z",
+  "keywords": [
+    "finite-differences",
+    "mimetic",
+    "numerical-methods",
+    "pde",
+    "vector-calculus"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "The Mimetic Operators Library Enhanced",
+  "identifier": 358363347,
+  "name": "csrc-sdsu/mole",
+  "issueTracker": "https://api.github.com/repos/csrc-sdsu/mole/issues",
+  "readme": "https://github.com/csrc-sdsu/mole/blob/main/README.md"
+}

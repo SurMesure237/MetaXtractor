@@ -1,0 +1,74 @@
+[
+  {
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "061_FairMQ",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "FairMQ\n\n[](COPYRIGHT) [](https://doi.org/10.5281/zenodo.1689985) [](https://bestpractices.coreinfrastructure.org/projects/6915) [](https://github.com/FairRootGroup/FairMQ/actions/workflows/fair-software.yml) [](https://repology.org/project/fairmq/versions)\n\nC++ Message Queuing Library and Framework\n\nDocs: [Book] https://github.com/FairRootGroup/FairMQ/blob/dev/README.md#documentation\n\nFind all FairMQ releases [here] https://github.com/FairRootGroup/FairMQ/releases.",
+      "section": "FairMQ (part 1)",
+      "repo": "061_FairMQ",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Introduction\n\nFairMQ is designed to help implementing large-scale data processing workflows needed in next-generation Particle Physics experiments. FairMQ is written in C++ and aims to  provide an asynchronous message passing abstraction of different data transport technologies,  provide a reasonably efficient data transport service (zero-copy, high throughput),  be data format agnostic, and  provide basic building blocks that can be used to implement higher level data processing workflows.\n\nThe core of FairMQ provides an abstract asynchronous message passing API with scalability protocols inspired by [ZeroMQ] https://github.com/zeromq/libzmq (e.g. PUSH/PULL, PUB/SUB). FairMQ provides multiple implementations for its API (so-called \"transports\", e.g. zeromq and shmem (latest release of the ofi transport in v1.4.56, removed since v1.5+)) to cover a variety of use cases (e.g. inter-thread, inter-process, inter-node communication) and machines (e.g. Ethernet, Infiniband). In addition to this core functionality FairMQ provides a framework for creating \"devices\" - actors which are communicating through message passing. FairMQ does not only allow the user to use different transport but also to mix them; i.e: A Device can communicate using different transport on different channels at the same time. Device execution is modelled as a simple state machine that shapes the integration points for the user task. Devices also incorporate a plugin system for runtime configuration and control. Next to the provided [devices] https://github.com/FairRootGroup/FairMQ/tree/master/fairmq/devices and [plugins] https://github.com/FairRootGroup/FairMQ/tree/master/fairmq/plugins the user can extend FairMQ by developing his own plugins to integrate his devices with external configuration and control services.",
+      "section": "FairMQ (part 2)",
+      "repo": "061_FairMQ",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "FairMQ has been developed in the context of its mother project [FairRoot] https://github.com/FairRootGroup/FairRoot - a simulation, reconstruction and analysis framework.",
+      "section": "FairMQ (part 3)",
+      "repo": "061_FairMQ",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Installation from Source\n\nRecommended:\n\ngit clone https://github.com/FairRootGroup/FairMQ fairmq_source cmake -S fairmq_source -B fairmq_build -GNinja -DCMAKE_BUILD_TYPE=Release [-DBUILD_TESTING=ON] cmake --build fairmq_build [ctest --test-dir fairmq_build --output-on-failure --schedule-random -j] # needs -DBUILD_TESTING=ON cmake --install fairmq_build --prefix $(pwd)/fairmq_install\n\nPlease consult the [manpages of your CMake version] https://cmake.org/cmake/help/latest/manual/cmake.1.html for more options.\n\nIf dependencies are not installed in standard system directories, you can hint the installation location via -DCMAKE_PREFIX_PATH=... or per dependency via -D{DEPENDENCY}_ROOT=... (*_ROOT variables can also be environment variables).\n\n## Installation via Spack\n\nPrerequisite: [Spack] https://spack.readthedocs.io/en/latest/getting_started.html\n\nspack info fairmq # inspect build options spack install fairmq # build latest packaged version with default options\n\nBuild FairMQ's dependencies via Spack for development:\n\ngit clone -b dev https://github.com/FairRootGroup/FairMQ fairmq_source spack --env fairmq_source install # installs deps declared in fairmq_source/spack.yaml spack env activate fairmq_source # sets $CMAKE_PREFIX_PATH which is used by CMake to find FairMQ's deps cmake -S fairmq_source -B fairmq_build -GNinja -DCMAKE_BUILD_TYPE=Debug -DBUILD_TESTING=ON",
+      "section": "FairMQ (part 4)",
+      "repo": "061_FairMQ",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "develop, compile, test spack env deactivate # at end of dev session, or simply close the shell\n\n## Usage\n\nFairMQ ships as a CMake package, so in your CMakeLists.txt you can discover it like this:\n\nfind_package(FairCMakeModules 1.0 REQUIRED) include(FairFindPackage2) find_package2(FairMQ) find_package2_implicit_dependencies()\n\nThe [FairFindPackage2 module] https://fairrootgroup.github.io/FairCMakeModules/latest/module/FairFindPackage2.html is part of the [FairCMakeModules package] https://fairrootgroup.github.io/FairCMakeModules.\n\nIf FairMQ is not installed in system directories, you can hint the installation:\n\nlist(PREPEND CMAKE_PREFIX_PATH /path/to/fairmq_install)\n\n## Dependencies\n\n[Boost] https://www.boost.org/  [CMake] https://cmake.org/  [Doxygen] http://www.doxygen.org/  [FairCMakeModules] https://github.com/FairRootGroup/FairCMakeModules (optionally bundled)  [FairLogger] https://github.com/FairRootGroup/FairLogger  [GTest] https://github.com/google/googletest (optionally bundled) [ZeroMQ] http://zeromq.org/\n\nWhich dependencies are required depends on which components are built.\n\nSupported platform is Linux. macOS is supported on a best-effort basis.",
+      "section": "develop, compile, test (part 1)",
+      "repo": "061_FairMQ",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## CMake options\n\nOn command line:\n\n-DDISABLE_COLOR=ON disables coloured console output.  -DBUILD_TESTING=OFF disables building of tests.  -DBUILD_EXAMPLES=OFF disables building of examples.  -DBUILD_DOCS=ON enables building of API docs.  -DFAIRMQ_CHANNEL_DEFAULT_AUTOBIND=OFF disable channel autoBind by default  You can hint non-system installations for dependent packages, see the #installation-from-source section above\n\nAfter the find_package(FairMQ) call the following CMake variables are defined:\n\n| Variable | Info | | --- | --- | | ${FairMQ_PACKAGE_DEPENDENCIES} | the list of public package dependencies | | ${FairMQ__VERSION} | the minimum ` version FairMQ requires | | ${FairMQ__COMPONENTS} | the list of components FairMQ depends on | | ${FairMQ_PACKAGE_COMPONENTS} | the list of components FairMQ consists of | | ${FairMQ_#COMPONENT#_FOUND} | TRUE if this component was built | | ${FairMQ_VERSION} | the version in format MAJOR.MINOR.PATCH | | ${FairMQ_GIT_VERSION} | the version in the format returned by git describe --tags --dirty --match \"v*\" | | ${FairMQ_PREFIX} | the actual installation prefix | | ${FairMQ_BINDIR} | the installation bin directory | | ${FairMQ_INCDIR} | the installation include directory | | ${FairMQ_LIBDIR} | the installation lib directory | | ${FairMQ_DATADIR} | the installation data directory (../share/fairmq) | | ${FairMQ_CMAKEMODDIR} | the installation directory of shipped CMake find modules | | ${FairMQ_BUILD_TYPE} | the value of CMAKE_BUILD_TYPE at build-time | | ${FairMQ_CXX_FLAGS} | the values of CMAKE_CXX_FLAGS and CMAKE_CXX_FLAGS_${CMAKE_BUILD_TYPE}` at build-time |",
+      "section": "develop, compile, test (part 2)",
+      "repo": "061_FairMQ",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Documentation",
+      "section": "develop, compile, test (part 3)",
+      "repo": "061_FairMQ",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[Device] docs/Device.md#1-device\n\n[Topology] docs/Device.md#11-topology\n\n[Communication Patterns] docs/Device.md#12-communication-patterns\n\n[State Machine] docs/Device.md#13-state-machine\n\n[Multiple devices in the same process] docs/Device.md#15-multiple-devices-in-the-same-process\n\n[Transport Interface] docs/Transport.md#2-transport-interface\n\n[Message] docs/Transport.md#21-message\n\n[Ownership] docs/Transport.md#211-ownership\n\n[Channel] docs/Transport.md#22-channel\n\n[Poller] docs/Transport.md#23-poller\n\n[Configuration] docs/Configuration.md#3-configuration\n\n[Device Configuration] docs/Configuration.md#31-device-configuration\n\n[Communication Channels Configuration] docs/Configuration.md#32-communication-channels-configuration\n\n[JSON Parser] docs/Configuration.md#321-json-parser\n\n[SuboptParser] docs/Configuration.md#322-suboptparser\n\n[Introspection] docs/Configuration.md#33-introspection\n\n[Development] docs/Development.md#4-development\n\n[Testing] docs/Development.md#41-testing\n\n[Static Analysis] docs/Development.md#42-static-analysis\n\n[CMake Integration] docs/Development.md#421-cmake-integration\n\n[Extra Compiler Arguments] docs/Development.md#422-extra-compiler-arguments\n\n[Logging] docs/Logging.md#5-logging\n\n[Log severity] docs/Logging.md#51-log-severity\n\n[Log verbosity] docs/Logging.md#52-log-verbosity\n\n[Color for console output] docs/Logging.md#53-color\n\n[File output] docs/Logging.md#54-file-output\n\n[Custom sinks] docs/Logging.md#55-custom-sinks\n\n[Examples] docs/Examples.md#6-examples\n\n[Plugins] docs/Plugins.md#7-plugins\n\n[Usage] docs/Plugins.md#71-usage\n\n[Development] docs/Plugins.md#72-development\n\n[Provided Plugins] docs/Plugins.md#73-provided-plugins\n\n[PMIx] docs/Plugins.md#731-pmix",
+      "section": "develop, compile, test (part 4)",
+      "repo": "061_FairMQ",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "# ReaxPro framework\n\nThis application ontology is dedicated to the ReaxPro framework for multi-scale modelling of catalytic materials.\n\n## Requirements\n\nThe ReaxPro framework ontology is built on top of the EMMO and some of its modules. The following table describes the version compatibility between those ontologies:\n\n| Module | Version| | ------ | ------ | | [EMMO-core] https://github.com/emmo-repo/EMMO/tree/DT-NMBP-09 | DT-NMBP-09 (1.0.0-beta based) | | [EMMO-crystallography] https://github.com/emmo-repo/domain-crystallography/tree/v0.1.0 | v0.1.0 |\n\n## Attribution and Credits\n\n### Authors\n\n[Pablo Lopez-Tarifa] mailto:p.lopez@esciencecenter.nl, Netherlands eScience Center (Author)\n\nJoana Francisco Morgado (Author), as a former employee of Fraunhofer IWM\n\n[Matthias B\u00fcschelberger] mailto:matthias.bueschelberger@iwm.fraunhofer.de, Fraunhofer Institute for Mechanics of Materials IWM (Author, Maintainer)\n\nAdham Hashibon (Contributor), as a former employee of Fraunhofer IWM\n\n[Lars Ridder] mailto:l.ridder@esciencecenter.nl, Netherlands eScience Center (Contributor)\n\n### Project\n\nThe implementations of this repository were funded by the following project:\n\n[ReaxPro] https://www.reaxpro.eu/ (A H2020-NMBP-TO-IND-2018 funded project: GA n. 814416 )\n\n## License\n\nThe Reaxpro framework ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0). See [here] https://creativecommons.org/licenses/by/4.0/legalcode for more information.\n\nCopyright (c) 2014-2023, Fraunhofer-Gesellschaft zur F\u00f6rderung der angewandten Forschung e.V. acting on behalf of its Fraunhofer IWM and Netherlands eScience Center (NLeSC)",
+      "section": "README",
+      "repo": "460_ReaxPro_framework_ontology",
+      "source_file": "readme.md"
+    }
+  }
+]

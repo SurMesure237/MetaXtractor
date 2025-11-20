@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1708,
+    "annotations": [
+      {
+        "id": 11921,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 58,
+              "end": 214,
+              "text": "Gaole He, Nilay Aishwarya, and Ujwal Gadiraju. Is Conversational XAI All You Need? Human-AI Decision Making With a Conversational XAI Assistant. In IUI'2025",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "E7Lb_7aM4c",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1169,
+              "end": 1175,
+              "text": "pandas",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "C59hcbniBJ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1177,
+              "end": 1182,
+              "text": "numpy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "fV19FAOmNj",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1184,
+              "end": 1189,
+              "text": "scipy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "9ZQAj_gX6Y",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1191,
+              "end": 1199,
+              "text": "pingouin",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "mMnmY9ncwh",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1332,
+              "end": 1637,
+              "text": "@inproceedings{He-IUI-2025, title={Is Conversational XAI All You Need? Human-AI Decision Making With a Conversational XAI Assistant}, author={He, Gaole and Aishwarya, Nilay and Gadiraju, Ujwal}, booktitle={Proceedings of the 30th International Conference on Intelligent User Interfaces}, year={2025} }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "ZnZD5fBCec",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1157,
+              "end": 1167,
+              "text": "Python 3.8",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "XIrPgQEQPG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:36:31.391967Z",
+        "updated_at": "2025-11-17T00:13:23.464045Z",
+        "draft_created_at": "2025-11-09T06:36:13.778815Z",
+        "lead_time": 57.172,
+        "prediction": {},
+        "result_count": 7,
+        "unique_id": "bfa05a92-6cbb-4720-9efe-581f18c8dc55",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1708,
+        "project": 23394,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# IUI2025_ConvXAI\n\nThis is our repository for the paper:\n\nGaole He, Nilay Aishwarya, and Ujwal Gadiraju. Is Conversational XAI All You Need? Human-AI Decision Making With a Conversational XAI Assistant. In IUI'2025.\n\n## Introduction\n\nExplainable artificial intelligence (XAI) methods are being proposed to help interpret and understand how AI systems reach specific predictions. Inspired by prior work on conversational user interfaces, we argue that augmenting existing XAI methods with conversational user interfaces can increase user engagement and boost user understanding of the AI system. In this paper, we explored the impact of a conversational XAI interface on users’ understanding of the AI system, their trust, and reliance on the AI system. In comparison to an XAI dashboard, we found that the conversational XAI interface can bring about a better understanding of the AI system among users and higher user trust. However, users of both the XAI dashboard and conversational XAI interfaces showed clear overreliance on the AI system. Enhanced conversations powered by large language model (LLM) agents amplified over-reliance.\n\n## Requirements:\n\nPython 3.8\n\npandas\n\nnumpy\n\nscipy\n\npingouin\n\n## Acknowledgement\n\nAny scientific publications that use our codes and datasets should cite the following paper as the reference:\n\n@inproceedings{He-IUI-2025,  title={Is Conversational XAI All You Need? Human-AI Decision Making With a Conversational XAI Assistant},  author={He, Gaole and Aishwarya, Nilay and Gadiraju, Ujwal},  booktitle={Proceedings of the 30th International Conference on Intelligent User Interfaces},  year={2025} }",
+      "section": "README",
+      "repo": "262_IUI2025_ConvXAI",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.533003Z",
+    "updated_at": "2025-11-17T00:13:23.496711Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23394,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

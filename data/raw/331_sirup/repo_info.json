@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/ivory-tower-private-power/sirup",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/ivory-tower-private-power/sirup/zipball/main",
+  "author": "ivory-tower-private-power",
+  "dateCreated": "2023-07-18T07:21:02Z",
+  "dateModified": "2024-08-21T05:22:56Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Simple IP rotation using python.",
+  "identifier": 667731991,
+  "name": "ivory-tower-private-power/sirup",
+  "issueTracker": "https://api.github.com/repos/ivory-tower-private-power/sirup/issues",
+  "readme": "https://github.com/ivory-tower-private-power/sirup/blob/main/README.md"
+}

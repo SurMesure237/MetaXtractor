@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "text": "[](https://pypi.org/project/fairdatapoint-client/) [](https://fairdatapoint-client.readthedocs.io/en/latest/?badge=latest) [](https://zenodo.org/badge/latestdoi/334084536) [](https://github.com/fair-data/fairdatapoint-client/actions/workflows/build_test.yml) [](https://coveralls.io/github/fair-data/fairdatapoint-client?branch=master) [](https://sonarcloud.io/dashboard?id=fair-data_fairdatapoint-client) [](https://fair-software.eu)",
+      "section": "Introduction",
+      "repo": "294_FAIR_Data_Point_Client",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "fairdatapoint-client\n\n### Contents\n\n[Overview] #overview\n\n[Installation] #installation\n\n[Quick Tutorial] #Tutorial\n\n[Issues & Contributing] #Issues-and-Contributing\n\n[License] ./LICENSE\n\n## Overview\n\nfairdatapoint-client is a simple and elegant library to interact with [FAIR Data Point] https://github.com/fair-data/fairdatapoint resources from Python, e.g. read and write catalogs, datasets and distributions in an FDP server.\n\nThe supported APIs are listed below:\n\n| FDP Layers | Path Endpoint | Specific Resource Endpoint | |--------------|-----------------------------|-----------------------------------------| | fdp | [baseURL] or [baseURL]/fdp | | | catalog | [baseURL]/catalog | [baseURL]/catalog/[catalogID] | | dataset | [baseURL]/dataset | [baseURL]/dataset/[datasetID] | | distribution | [baseURL]/distribution | [baseURL]/distribution/[distributionID] |\n\n## Installation\n\nIt requires a Python version of 3.7, 3.8 or 3.9.\n\n#### Stable Release\n\nThe fairdatapoint-client is available on [PyPI] https://pypi.org/project/fairdatapoint-client/, you can install it using:\n\npip install fairdatapoint-client\n\n#### Development Version\n\nYou can also install from the latest source code, but note that the in-development version might be unstable:\n\n``{.sourceCode .console} git clone https://github.com/fair-data/fairdatapoint-client.git cd fairdatapoint-client pip install .\n\nTo run tests (including coverage):\n\n``{.sourceCode .console} pip install '.[tests]' pytest\n\n## Tutorial\n\n### Using Client\n\nfrom fdpclient.client import Client\n\ncreate a client with base URL client = Client('http://example.org')\n\ncreate metadata with open('catalog01.ttl') as f:  data = f.read() client.create_catalog(data)",
+      "section": "fairdatapoint-client + create a client with base URL + create metadata",
+      "repo": "294_FAIR_Data_Point_Client",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "read metadata, return a RDF graph r = client.read_catalog('catalog01') print(r.serialize(format=\"turtle\").decode(\"utf-8\"))\n\nupdate metadata with open('catalog01_update.ttl') as f:  data_update = f.read() client.update_catalog('catalog01', data_update)\n\ndelete metadata client.delete_catalog('catalog01')\n\n### Using operation functions\n\nfrom fdpclient import operations\n\ncreate metadata with open('catalog01.ttl') as f:  data = f.read() operations.create('http://example.org/catalog', data)\n\nread metadata, return a RDF graph r = operations.read('http://example.org/catalog/catalog01') print(r.serialize(format=\"turtle\").decode(\"utf-8\"))\n\nupdate metadata with open('catalog01_update.ttl') as f:  data_update = f.read() operations.update('http://example.org/catalog/catalog01', data_update)\n\ndelete metadata operations.delete('http://example.org/catalog/catalog01')\n\n## Issues and Contributing\n\nIf you have questions or find a bug, please report the issue in the [Github issue channel] https://github.com/fair-data/fairdatapoint-client/issues.\n\nIf you want to contribute to the development of fairdatapoint-client, have a look at the [contribution guidelines] CONTRIBUTING.rst.",
+      "section": "read metadata, return a RDF graph + update metadata + delete metadata (and 4 more)",
+      "repo": "294_FAIR_Data_Point_Client",
+      "source_file": "readme.md"
+    }
+  }
+]

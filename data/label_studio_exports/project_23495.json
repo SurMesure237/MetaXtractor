@@ -1,0 +1,291 @@
+[
+  {
+    "id": 2203,
+    "annotations": [
+      {
+        "id": 10306,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 535,
+              "end": 573,
+              "text": "https://doi.org/10.5281/zenodo.8383636",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "oK-WeLhRUa",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 377,
+              "end": 450,
+              "text": "https://github.com/EyeofBeholder-NLeSC/orange3-argument/blob/main/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "IeZCPO80AQ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 289,
+              "end": 339,
+              "text": "https://orange3-argument.readthedocs.io/en/latest/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "BZz3mo_G-W",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:54:14.361052Z",
+        "updated_at": "2025-11-14T12:23:06.638860Z",
+        "draft_created_at": "2025-11-03T06:53:57.144855Z",
+        "lead_time": 45.7,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "acc00c41-0e31-410b-9eff-1b6740b90e50",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2203,
+        "project": 23495,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Orange3 Argument Mining Add-on\n\n[](https://github.com/EyeofBeholder-NLeSC/orange3-argument/actions/workflows/build.yml) [](https://sonarcloud.io/summary/new_code?id=EyeofBeholder-NLeSC_orange3-argument) [](https://sonarcloud.io/summary/new_code?id=EyeofBeholder-NLeSC_orange3-argument) [](https://orange3-argument.readthedocs.io/en/latest/) [](https://github.com/psf/black) [](https://github.com/EyeofBeholder-NLeSC/orange3-argument/blob/main/LICENSE) [](https://pypi.org/project/orangearg/) [](https://pypi.org/project/orangearg/) [](https://doi.org/10.5281/zenodo.8383636) [](https://research-software-directory.org/software/orange3-argument-add-on) [](https://fair-software.eu)",
+      "section": "Orange3 Argument Mining Add-on (part 1)",
+      "repo": "056_Orange3_Argument_Mining_Add-on",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.565710Z",
+    "updated_at": "2025-11-14T12:23:06.678439Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23495,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2204,
+    "annotations": [
+      {
+        "id": 10307,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:54:18.649647Z",
+        "updated_at": "2025-11-03T06:54:18.649669Z",
+        "draft_created_at": null,
+        "lead_time": 4.092,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "162bde9c-ca46-4fce-9679-be6230b8fd7c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2204,
+        "project": 23495,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "This work is an open-source Python package that implements a pipeline of processing, analyzing, and visualizing an argument corpus and the attacking relationship inside the corpus. It also implements the corresponding GUIs on a scientific workflow platform named [Orange3] https://orangedatamining.com/, so that users with little knowledge of Python programming can also benefit from it.",
+      "section": "Orange3 Argument Mining Add-on (part 2)",
+      "repo": "056_Orange3_Argument_Mining_Add-on",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.565754Z",
+    "updated_at": "2025-11-03T06:54:18.680312Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23495,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2205,
+    "annotations": [
+      {
+        "id": 10308,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1386,
+              "end": 1453,
+              "text": "https://orange3-argument.readthedocs.io/en/latest/installation.html",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "UD-ACc7dzx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1001,
+              "end": 1022,
+              "text": "Python version >= 3.8",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "epsOzBAsZh",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:54:42.347206Z",
+        "updated_at": "2025-11-17T00:07:44.369347Z",
+        "draft_created_at": "2025-11-03T06:54:30.213533Z",
+        "lead_time": 45.913,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "9a32dbbc-91a2-457d-9eaf-e4a69a970acf",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2205,
+        "project": 23495,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Table of Contents\n\n[Why] #why\n\n[Installation] #installation\n\n[Getting Started] #getting-started\n\n[Documentation] #documentation\n\n[Contributing] #contributing\n\n[Credits] #credits\n\n## Why\n\nThis package is designed with a clear mission: to empower researchers in building their own argument mining workflows effortlessly. Leveraging the capabilities of state-of-the-art, pre-trained language models for natural language processing, this tool facilitates the process of understanding arguments from text data. At its core, this work is committed to transparency and interpretability throughout the analysis process. We believe that clarity and comprehensibility are paramount when working with complex language data. As such, the tool not only automates the task but also ensures that the results are easily interpretable, allowing researchers to gain valuable insights from their data.\n\nPlease cite this work if you use it for scientific or commercial purpose.\n\n## Installation\n\nThis package requires Python version >= 3.8. We recommand installing this package in a new virtual environment to avoid dependency conflicts. The package can be installed from PyPI via pip:\n\npip install orangearg\n\nExecuting the above command will install both the necessary dependencies and the graphical user interface (GUI) components of Orange3.\n\nFurther details can be found in the [installation guide] https://orange3-argument.readthedocs.io/en/latest/installation.html.",
+      "section": "Orange3 Argument Mining Add-on (part 3)",
+      "repo": "056_Orange3_Argument_Mining_Add-on",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.565781Z",
+    "updated_at": "2025-11-17T00:07:44.400401Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23495,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2206,
+    "annotations": [
+      {
+        "id": 10309,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 755,
+              "end": 815,
+              "text": "https://orange3-argument.readthedocs.io/en/latest/index.html",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "F3OQYy3NE7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:55:15.843533Z",
+        "updated_at": "2025-11-14T12:23:45.110394Z",
+        "draft_created_at": "2025-11-03T06:54:53.321535Z",
+        "lead_time": 52.301,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "e35877ce-50e7-4a4b-a895-0d70f4977307",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2206,
+        "project": 23495,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Getting Started\n\nIf you would like to learn how to use this package for scripting, take a look at our example [notebook] ./examples/example.ipynb.\n\nTo build and run workflows on Orange3, run the following command in your terminal to launch the Orange3 GUI, known as the 'canvas'.\n\npython -m Orange.canvas\n\nA sample [workflow] ./examples/demo_workflow.ows and [dataset] ./examples/example_dataset.json have been provided to illustrate the effective utilization of this package within Orange3.\n\nFor additional information, please refer to the [guidance] https://orange3-argument.readthedocs.io/en/latest/widget_guis.html# on using this package through widgets in Orange3.\n\n## Documentation\n\nThe documentation of this work can be found on [Read the Docs] https://orange3-argument.readthedocs.io/en/latest/index.html.\n\n## Contributing\n\nIf you want to contribute to the development of this work, have a look at the [contribution guidelines] ./CONTRIBUTING.md.\n\n## Credits\n\nThis work is being developed by the [Netherlands eScience Center] https://www.esciencecenter.nl/ in collaboration with the [Human Centered Data Analysis group] https://www.cwi.nl/en/groups/human-centered-data-analytics/ at Centrum Wiskunde & Informatica.\n\nThis package was created with the [Orange3 Example Add-on] https://github.com/biolab/orange3-example-addon.\n\n[Go to Top] #table-of-contents",
+      "section": "Orange3 Argument Mining Add-on (part 4)",
+      "repo": "056_Orange3_Argument_Mining_Add-on",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:07.565805Z",
+    "updated_at": "2025-11-14T12:23:45.245550Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23495,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

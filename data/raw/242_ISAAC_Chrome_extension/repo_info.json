@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/citation-js/isaac-chrome-extension",
+  "programmingLanguage": "JavaScript",
+  "programmingLanguages": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/citation-js/isaac-chrome-extension/zipball/main",
+  "author": "citation-js",
+  "dateCreated": "2022-03-12T15:35:23Z",
+  "dateModified": "2025-09-01T16:16:48Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Chrome Web Extension for support of the NWO ISAAC platform.",
+  "identifier": 469123821,
+  "name": "citation-js/isaac-chrome-extension",
+  "issueTracker": "https://api.github.com/repos/citation-js/isaac-chrome-extension/issues",
+  "readme": "https://github.com/citation-js/isaac-chrome-extension/blob/main/README.md"
+}

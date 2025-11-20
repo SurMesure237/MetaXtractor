@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/Workflomics/workflomics-frontend",
+  "programmingLanguage": "TypeScript",
+  "programmingLanguages": [
+    "TypeScript",
+    "CSS",
+    "HTML",
+    "JavaScript"
+  ],
+  "downloadUrl": "https://api.github.com/repos/Workflomics/workflomics-frontend/zipball/main",
+  "author": "Workflomics",
+  "dateCreated": "2023-01-27T13:50:15Z",
+  "dateModified": "2025-06-13T16:29:09Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Web interface for automated generation and benchmarking of computational workflows in bioinformatics.",
+  "identifier": 594054560,
+  "name": "Workflomics/workflomics-frontend",
+  "issueTracker": "https://api.github.com/repos/Workflomics/workflomics-frontend/issues",
+  "readme": "https://github.com/Workflomics/workflomics-frontend/blob/main/README.md"
+}

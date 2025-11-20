@@ -1,0 +1,9 @@
+{
+  "extracted_files": [
+    ".zenodo.json",
+    "pyproject.toml",
+    "setup.py",
+    "README.md",
+    "AUTHORS.rst"
+  ]
+}

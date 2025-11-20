@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/rajewsky-lab/novosparc",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "HTML",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/rajewsky-lab/novosparc/zipball/main",
+  "author": "rajewsky-lab",
+  "dateCreated": "2018-12-18T10:24:53Z",
+  "dateModified": "2025-07-17T13:25:48Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": null,
+  "identifier": 162270496,
+  "name": "rajewsky-lab/novosparc",
+  "issueTracker": "https://api.github.com/repos/rajewsky-lab/novosparc/issues",
+  "readme": "https://github.com/rajewsky-lab/novosparc/blob/master/README.rst"
+}

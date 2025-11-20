@@ -1,0 +1,275 @@
+[
+  {
+    "id": 1590,
+    "annotations": [
+      {
+        "id": 10787,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 299,
+              "end": 353,
+              "text": "https://danschef.git-pages.gfz-potsdam.de/arosics/doc/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "JL35QuKF4o",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 272,
+              "end": 282,
+              "text": "Apache 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "OFqfABaf-B",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 477,
+              "end": 674,
+              "text": "Scheffler D, Hollstein A, Diedrich H, Segl K, Hostert P. AROSICS: An Automated and Robust Open-Source Image Co-Registration Software for Multi-Sensor Satellite Data. Remote Sensing. 2017; 9(7):676",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "QfY_OLDYgt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:39:16.722543Z",
+        "updated_at": "2025-11-15T16:38:39.545794Z",
+        "draft_created_at": "2025-11-05T16:38:08.397145Z",
+        "lead_time": 94.86099999999999,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "f4d309b2-762f-4bb4-a8f6-701cc3bf1ac2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1590,
+        "project": 23373,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": ".. figure:: https://danschef.git-pages.gfz-potsdam.de/arosics/images/arosics_logo.png  :target: https://git.gfz-potsdam.de/danschef/arosics  :align: center\n\nAn Automated and Robust Open-Source Image Co-Registration Software for Multi-Sensor Satellite Data\n\nFree software: Apache 2.0  Documentation: https://danschef.git-pages.gfz-potsdam.de/arosics/doc/  The (open-access) paper corresponding to this software repository can be found here:  Scheffler et al. 2017 __  (cite as: Scheffler D, Hollstein A, Diedrich H, Segl K, Hostert P. AROSICS: An Automated and Robust Open-Source  Image Co-Registration Software for Multi-Sensor Satellite Data. Remote Sensing. 2017; 9(7):676).  Information on how to cite the AROSICS Python package can be found in the  CITATION __ file. Submit feedback by filing an issue here __\n\nor join our chat here: |Gitter|\n\n.. |Gitter| image:: https://badges.gitter.im/Join%20Chat.svg  :target: https://gitter.im/arosics/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link  :alt: https://gitter.im/arosics/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link\n\nStatus",
+      "section": "Introduction (part 1)",
+      "repo": "067_AROSICS",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.093186Z",
+    "updated_at": "2025-11-15T16:38:39.577248Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23373,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1591,
+    "annotations": [
+      {
+        "id": 10788,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 578,
+              "end": 639,
+              "text": "https://git.gfz-potsdam.de/danschef/arosics/blob/main/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "Z8fcZxcopt",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 924,
+              "end": 968,
+              "text": "https://zenodo.org/badge/latestdoi/253474603",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "Tif1Jd5RDo",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:40:01.316595Z",
+        "updated_at": "2025-11-05T16:40:01.316611Z",
+        "draft_created_at": "2025-11-05T16:39:41.465769Z",
+        "lead_time": 44.344,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "fcc7ab61-3021-4343-97a7-d2e02a09b16e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1591,
+        "project": 23373,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": ".. image:: https://git.gfz-potsdam.de/danschef/arosics/badges/main/pipeline.svg  :target: https://git.gfz-potsdam.de/danschef/arosics/commits/main .. image:: https://git.gfz-potsdam.de/danschef/arosics/badges/main/coverage.svg  :target: https://danschef.git-pages.gfz-potsdam.de/arosics/coverage/ .. image:: https://img.shields.io/pypi/v/arosics.svg  :target: https://pypi.python.org/pypi/arosics .. image:: https://img.shields.io/conda/vn/conda-forge/arosics.svg  :target: https://anaconda.org/conda-forge/arosics .. image:: https://img.shields.io/pypi/l/arosics.svg  :target: https://git.gfz-potsdam.de/danschef/arosics/blob/main/LICENSE .. image:: https://img.shields.io/pypi/pyversions/arosics.svg  :target: https://img.shields.io/pypi/pyversions/arosics.svg .. image:: https://img.shields.io/pypi/dm/arosics.svg  :target: https://pypi.python.org/pypi/arosics .. image:: https://zenodo.org/badge/253474603.svg  :target: https://zenodo.org/badge/latestdoi/253474603\n\nSee also the latest coverage_ report and the pytest_ HTML report.\n\nFeature overview\n\nAROSICS is a python package to perform automatic subpixel co-registration of two satellite image datasets based on an image matching approach working in the frequency domain, combined with a multistage workflow for effective detection of false-positives.",
+      "section": "Introduction (part 2)",
+      "repo": "067_AROSICS",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.093273Z",
+    "updated_at": "2025-11-05T16:40:01.347233Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23373,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1592,
+    "annotations": [
+      {
+        "id": 10789,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:40:09.845140Z",
+        "updated_at": "2025-11-05T16:40:09.845152Z",
+        "draft_created_at": null,
+        "lead_time": 8.341,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c7002d70-e12a-43b6-b197-d626e835e92e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1592,
+        "project": 23373,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "It detects and corrects local as well as global misregistrations between two input images in the subpixel scale, that are often present in satellite imagery. The algorithm is robust against the typical difficulties of multi-sensoral/multi-temporal images. Clouds are automatically handled by the implemented outlier detection algorithms. The user may provide user-defined masks to exclude certain image areas from tie point creation. The image overlap area is automatically detected. AROSICS supports a wide range of input data formats and can be used from the command line (without any Python experience) or as a normal Python package.\n\nGlobal co-registration - fast but only for static X/Y-shifts ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\nOnly a global X/Y translation is computed within a small subset of the input images (window position is adjustable). This allows very fast co-registration but only corrects for translational (global) X/Y shifts. The calculated subpixel-shifts are (by default) applied to the geocoding information of the output image. No spatial resampling is done automatically as long as both input images have the same projection. However, AROSICS also allows to align the output image to the reference image coordinate grid if needed.\n\nHere is an example of a Landsat-8 / Sentinel-2 image pair before and after co-registration using AROSICS:\n\n.. image:: https://git.gfz-potsdam.de/danschef/arosics/raw/main/docs/images/animation_testcase1_zoom_L8_S2_global_coreg_before_after_900x456.gif\n\nLocal co-registration - for spatially variable shifts but a bit slower ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+      "section": "Introduction (part 3)",
+      "repo": "067_AROSICS",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.093316Z",
+    "updated_at": "2025-11-05T16:40:09.868152Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23373,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1593,
+    "annotations": [
+      {
+        "id": 10790,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:40:28.519973Z",
+        "updated_at": "2025-11-05T16:40:28.519995Z",
+        "draft_created_at": null,
+        "lead_time": 18.467,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e1253f7d-d4dd-4008-a22b-8b709f454fbf",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1593,
+        "project": 23373,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "A dense grid of tie points is automatically computed, whereas tie points are subsequently validated using a multistage workflow. Only those tie points not marked as false-positives are used to compute the parameters of an affine transformation. Warping of the target image is done using an appropriate resampling technique (cubic by default).\n\nHere is an example of the computed shift vectors after filtering false-positives (mainly due to clouds in the target image):\n\n.. image:: https://git.gfz-potsdam.de/danschef/arosics/raw/main/docs/images/shift_vectors_testcase1__900x824.gif\n\nFor further details check out the documentation __!\n\nHistory / Changelog\n\nYou can find the protocol of recent changes in the AROSICS package here __.\n\nCredits\n\nAROSICS was developed by Daniel Scheffler (German Research Centre of Geosciences) within the context of the GeoMultiSens __ project funded by the German Federal Ministry of Education and Research (project grant code: 01 IS 14 010 A-C).\n\nThis package was created with Cookiecutter_ and the audreyr/cookiecutter-pypackage_ project template. The test data represent modified Copernicus Sentinel-2 data (ESA 2016). The input data for the figures in the documentation have been provided by NASA (Landsat-8) and ESA (Sentinel-2).\n\n.. _Cookiecutter: https://github.com/audreyr/cookiecutter .. _audreyr/cookiecutter-pypackage: https://github.com/audreyr/cookiecutter-pypackage .. _coverage: https://danschef.git-pages.gfz-potsdam.de/arosics/coverage/ .. _pytest: https://danschef.git-pages.gfz-potsdam.de/arosics/test_reports/report.html .. _conda: https://docs.conda.io/",
+      "section": "Introduction (part 4)",
+      "repo": "067_AROSICS",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:59.093340Z",
+    "updated_at": "2025-11-05T16:40:28.549231Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23373,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

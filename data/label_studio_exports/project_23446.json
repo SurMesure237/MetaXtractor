@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1970,
+    "annotations": [
+      {
+        "id": 11868,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 120,
+              "end": 175,
+              "text": "https://elephant.readthedocs.io/en/latest/?badge=latest",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "MQNwhSJA2j",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 451,
+              "end": 494,
+              "text": "https://zenodo.org/badge/latestdoi/10311278",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "M-Wk6z5zhx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 499,
+              "end": 566,
+              "text": "https://github.com/NeuralEnsemble/elephant/actions/workflows/CI.yml",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "P3Z0mpRZdJ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:22:51.954371Z",
+        "updated_at": "2025-11-14T13:39:07.488955Z",
+        "draft_created_at": "2025-11-09T06:22:34.347253Z",
+        "lead_time": 40.485,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "6359d13b-9b7d-445e-b8f2-fdbd6cf115bf",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1970,
+        "project": 23446,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Elephant - Electrophysiology Analysis Toolkit\n\n[](https://coveralls.io/github/NeuralEnsemble/elephant?branch=master) [](https://elephant.readthedocs.io/en/latest/?badge=latest) [![![PyPi]](https://img.shields.io/pypi/v/elephant)](https://pypi.org/project/elephant/) [](https://seladb.github.io/StarTrack-js/#/preload?r=neuralensemble,elephant) [](https://gitter.im/python-elephant/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [](https://zenodo.org/badge/latestdoi/10311278) [](https://github.com/NeuralEnsemble/elephant/actions/workflows/CI.yml) [](https://bestpractices.coreinfrastructure.org/projects/6191) [](https://fair-software.eu) [](https://bsky.app/profile/pyelephant.bsky.social) [](https://fosstodon.org/@elephant)\n\nElephant package analyses all sorts of neurophysiological data: spike trains, LFP, analog signals. The input-output data format is either [Neo] https://github.com/NeuralEnsemble/python-neo, Quantity or Numpy array.",
+      "section": "Elephant - Electrophysiology Analysis Toolkit (part 1)",
+      "repo": "135_Elephant",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:04.223775Z",
+    "updated_at": "2025-11-14T13:39:07.526181Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23446,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1971,
+    "annotations": [
+      {
+        "id": 11869,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 392,
+              "end": 403,
+              "text": "BSD License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "mLOSGhOe2Z",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 37,
+              "end": 79,
+              "text": "https://elephant.readthedocs.io/en/latest/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "BmqvevT-EU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T06:23:10.389718Z",
+        "updated_at": "2025-11-14T13:39:13.287701Z",
+        "draft_created_at": "2025-11-09T06:23:03.055362Z",
+        "lead_time": 21.923,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "3990d755-8ae2-4fdf-907c-955ae4c76b54",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1971,
+        "project": 23446,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### More Information\n\nDocumentation: https://elephant.readthedocs.io/en/latest/  Mailing list: https://groups.google.com/group/neuralensemble\n\n#### Visualization of Elephant analysis objects\n\nViziphant package (https://github.com/INM-6/viziphant) is developed by Elephant team for plotting and visualization of the output of Elephant functions in a few lines of code.\n\n#### License\n\nModified BSD License, see [LICENSE.txt] LICENSE.txt for details.\n\n#### Copyright\n\n:copyright: 2014-2024 by the [Elephant team] doc/authors.rst.\n\n#### Acknowledgments\n\nSee [acknowledgments] doc/acknowledgments.rst.\n\n#### Citation\n\nSee [citations] doc/citation.rst.",
+      "section": "Elephant - Electrophysiology Analysis Toolkit (part 2)",
+      "repo": "135_Elephant",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:04.223816Z",
+    "updated_at": "2025-11-14T13:39:13.321266Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23446,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/nlesc-ave/ave-rest-service",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Dockerfile",
+    "AngelScript"
+  ],
+  "downloadUrl": "https://api.github.com/repos/nlesc-ave/ave-rest-service/zipball/main",
+  "author": "nlesc-ave",
+  "dateCreated": "2015-10-24T17:58:52Z",
+  "dateModified": "2023-06-30T21:07:19Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "visualize (clustered) single-nucleotide variants across genomes",
+  "identifier": 44877908,
+  "name": "nlesc-ave/ave-rest-service",
+  "issueTracker": "https://api.github.com/repos/nlesc-ave/ave-rest-service/issues",
+  "readme": "https://github.com/nlesc-ave/ave-rest-service/blob/master/README.md"
+}

@@ -1,0 +1,357 @@
+[
+  {
+    "id": 2645,
+    "annotations": [
+      {
+        "id": 9965,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 111,
+              "end": 149,
+              "text": "https://doi.org/10.5281/zenodo.7794374",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "Ml2pJhigjE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:02:26.870457Z",
+        "updated_at": "2025-11-02T20:02:26.870474Z",
+        "draft_created_at": null,
+        "lead_time": 8.561,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "5f864759-f00f-4cb4-86d3-a1945fef76e2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2645,
+        "project": 23577,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/fastscape-lem/adascape/actions) [](https://github.com/fastscape-lem/adascape/actions) [](https://doi.org/10.5281/zenodo.7794374)",
+      "section": "Introduction",
+      "repo": "298_Fastscape_Toolbox",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.494540Z",
+    "updated_at": "2025-11-02T20:02:26.900864Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23577,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2646,
+    "annotations": [
+      {
+        "id": 9966,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 209,
+              "end": 252,
+              "text": "https://fastscape.readthedocs.io/en/latest/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "8KCtDKlXLL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 330,
+              "end": 335,
+              "text": "numpy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "VmBtIhLX_u",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 361,
+              "end": 366,
+              "text": "scipy",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "sJ31Nwmq-a",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 414,
+              "end": 420,
+              "text": "pandas",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "QStl4fW572",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 451,
+              "end": 460,
+              "text": "fastscape",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ttuQhHa6w0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 511,
+              "end": 535,
+              "text": "orographic precipitation",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "UmicrdDPb9",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 681,
+              "end": 688,
+              "text": "toytree",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "pKPfQbx2iB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 337,
+              "end": 358,
+              "text": "http://www.numpy.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "U59vc8rHWJ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 368,
+              "end": 411,
+              "text": "https://docs.scipy.org/doc/scipy/reference/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "vlHJSy6R_O",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 422,
+              "end": 448,
+              "text": "https://pandas.pydata.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "lX9k0aZKkB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 462,
+              "end": 504,
+              "text": "https://github.com/fastscape-lem/fastscape",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "bJ07qgEqGv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 537,
+              "end": 594,
+              "text": "https://github.com/fastscape-lem/orographic-precipitation",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "HyXjS2vyjd",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 690,
+              "end": 741,
+              "text": "https://toytree.readthedocs.io/en/latest/index.html",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "_xz6IEa9JM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1314,
+              "end": 1320,
+              "text": "pytest",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "lqYH_PeKeR",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1322,
+              "end": 1356,
+              "text": "https://docs.pytest.org/en/latest/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "jmNgNa1oXx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 291,
+              "end": 327,
+              "text": "Python (3.9 or later is recommended)",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "bGf-gZrvyy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-02T20:03:20.687044Z",
+        "updated_at": "2025-11-16T23:59:13.669056Z",
+        "draft_created_at": "2025-11-02T20:02:38.398920Z",
+        "lead_time": 171.344,
+        "prediction": {},
+        "result_count": 16,
+        "unique_id": "8fac6162-4da4-4329-88ef-19caf3823c2f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2646,
+        "project": 23577,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "AdaScape: Adaptive speciation and landscape evolution model\n\nThe \"AdaScape\" package contains a simple adaptive speciation model written in Python that is coupled with the landscape evolution model [FastScape] https://fastscape.readthedocs.io/en/latest/.\n\n## Install\n\nThis package depends on Python (3.9 or later is recommended), [numpy] http://www.numpy.org/, [scipy] https://docs.scipy.org/doc/scipy/reference/, [pandas] https://pandas.pydata.org/, [fastscape] https://github.com/fastscape-lem/fastscape and  [orographic precipitation] https://github.com/fastscape-lem/orographic-precipitation .\n\nThis package also provides a [dendropy] https://dendropy.org/ extension and  uses [toytree] https://toytree.readthedocs.io/en/latest/index.html  to plot phylogenetic trees (optional dependencies).\n\nTo install the package locally, first clone this repository:\n\n$ git clone https://github.com/fastscape-lem/adascape.git $ cd adascape\n\nThen run the command below (this will install numpy, scipy and pandas if those libraries are not yet installed in your environment):\n\n$ pip install .\n\nTo install the package for development purpose, use the following command instead:\n\n$ pip install -e .\n\n## Usage\n\nSome examples are shown in the `notebooks` folder (Jupyter Notebooks).\n\n## Tests\n\nTo run the tests, you need to have [pytest] https://docs.pytest.org/en/latest/ installed in your environment.\n\nThen simply run from this repository's root directory:\n\n$ pytest adascape -v",
+      "section": "AdaScape: Adaptive speciation and landscape evolution model",
+      "repo": "298_Fastscape_Toolbox",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:13.494575Z",
+    "updated_at": "2025-11-16T23:59:13.705551Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23577,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "codeRepository": "https://github.com/uds-se/FormatFuzzer",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "C++",
+    "Shell",
+    "Makefile",
+    "M4",
+    "C"
+  ],
+  "downloadUrl": "https://api.github.com/repos/uds-se/FormatFuzzer/zipball/main",
+  "author": "uds-se",
+  "dateCreated": "2020-09-07T15:45:24Z",
+  "dateModified": "2025-10-16T08:10:34Z",
+  "keywords": [
+    "binary",
+    "fuzzer",
+    "fuzzing",
+    "inputs",
+    "parsing",
+    "testing"
+  ],
+  "license": null,
+  "description": "FormatFuzzer is a framework for high-efficiency, high-quality generation and parsing of binary inputs.",
+  "identifier": 293568967,
+  "name": "uds-se/FormatFuzzer",
+  "issueTracker": "https://api.github.com/repos/uds-se/FormatFuzzer/issues",
+  "readme": "https://github.com/uds-se/FormatFuzzer/blob/master/README.md"
+}

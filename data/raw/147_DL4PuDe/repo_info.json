@@ -1,0 +1,30 @@
+{
+  "codeRepository": "https://github.com/PedestrianDynamics/DL4PuDe",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "Cuda",
+    "Shell",
+    "C++"
+  ],
+  "downloadUrl": "https://api.github.com/repos/PedestrianDynamics/DL4PuDe/zipball/main",
+  "author": "PedestrianDynamics",
+  "dateCreated": "2022-01-12T13:51:31Z",
+  "dateModified": "2022-11-16T01:38:52Z",
+  "keywords": [
+    "artificial-intelegence",
+    "convolutional-neural-networks",
+    "crowd-behavior-analysis",
+    "data-visualization",
+    "deep-learning",
+    "deep-optical-flow",
+    "machine-learning"
+  ],
+  "license": null,
+  "description": "The framework automatically detects pushing behavior from videos of crowded event entrances.",
+  "identifier": 447236287,
+  "name": "PedestrianDynamics/DL4PuDe",
+  "issueTracker": "https://api.github.com/repos/PedestrianDynamics/DL4PuDe/issues",
+  "readme": "https://github.com/PedestrianDynamics/DL4PuDe/blob/main/README.md"
+}

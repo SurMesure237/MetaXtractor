@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/PanBrowse/PanVA",
+  "programmingLanguage": "Vue",
+  "programmingLanguages": [
+    "Vue",
+    "TypeScript",
+    "Python",
+    "JavaScript",
+    "Dockerfile",
+    "SCSS",
+    "Shell",
+    "CSS",
+    "HTML"
+  ],
+  "downloadUrl": "https://api.github.com/repos/PanBrowse/PanVA/zipball/main",
+  "author": "PanBrowse",
+  "dateCreated": "2022-11-03T15:05:32Z",
+  "dateModified": "2025-10-26T18:04:52Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "A Visual Analytics Tool for Pangenomic Variant Analysis",
+  "identifier": 561379242,
+  "name": "PanBrowse/PanVA",
+  "issueTracker": "https://api.github.com/repos/PanBrowse/PanVA/issues",
+  "readme": "https://github.com/PanBrowse/PanVA/blob/main/README.md"
+}

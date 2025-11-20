@@ -1,0 +1,327 @@
+[
+  {
+    "id": 745,
+    "annotations": [
+      {
+        "id": 11303,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T21:10:16.227077Z",
+        "updated_at": "2025-11-06T21:10:16.227094Z",
+        "draft_created_at": null,
+        "lead_time": 1.643,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b56187ab-6695-4d11-8824-faa77ac62839",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 745,
+        "project": 23232,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "031_ConvolutionalNeuralOperators.jl",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.221137Z",
+    "updated_at": "2025-11-06T21:10:16.259094Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23232,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 746,
+    "annotations": [
+      {
+        "id": 11304,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 213,
+              "end": 252,
+              "text": "https://doi.org/10.5281/zenodo.14197271",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "l76fidffbn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 16,
+              "end": 90,
+              "text": "https://github.com/DEEPDIP-project/CoupledNODE.jl/actions/workflows/CI.yml",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "z7jtbcB7Jp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T07:45:54.765998Z",
+        "updated_at": "2025-11-16T05:12:42.750571Z",
+        "draft_created_at": "2025-11-06T21:10:27.483563Z",
+        "lead_time": 38206.081,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "1b5301c7-e25f-490b-9c4a-dd67bc41719c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 746,
+        "project": 23232,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "CoupledNODE\n\n[](https://github.com/DEEPDIP-project/CoupledNODE.jl/actions/workflows/CI.yml) [](https://codecov.io/gh/DEEPDIP-project/CoupledNODE.jl) [](https://deepdip-project.github.io/CoupledNODE.jl/stable/) [](https://doi.org/10.5281/zenodo.14197271)\n\nThis package is part of the [DeepDip] https://github.com/DEEPDIP-project project. It aims to provide a Julia implementation of the Coupled Neural ODEs (CNODEs) method, a data-driven approach to solve Partial Differential Equations (PDEs) in a multiscale context using closure modelling. Give a look at the other components of the project:\n\n[IncomperessibleNavierStokes.jl] https://github.com/agdestein/IncompressibleNavierStokes.jl: a Julia package for solving the incompressible Navier-Stokes equations.  [AttentionLayer.jl] https://github.com/DEEPDIP-project/AttentionLayer.jl: a Julia package for implementing attention mechanisms in convolutional closure models. [ConvolutionalNeuralOperators.jl] https://github.com/DEEPDIP-project/ConvolutionalNeuralOperators.jl: a Julia package for implementing neural operators for continuous function.\n\n## Installation\n\n] # open Package manager activate . instantiate",
+      "section": "CoupledNODE (part 1)",
+      "repo": "031_ConvolutionalNeuralOperators.jl",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.221177Z",
+    "updated_at": "2025-11-16T05:12:42.788804Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23232,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 747,
+    "annotations": [
+      {
+        "id": 11305,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T07:45:57.099484Z",
+        "updated_at": "2025-11-07T07:45:57.099500Z",
+        "draft_created_at": null,
+        "lead_time": 2.112,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c112192a-691e-4103-8c68-6eaef3baac27",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 747,
+        "project": 23232,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Neural ODEs\n\nLet's consider a generic differential equation (DE):\n\n$$ \\begin{cases} \\frac{du}{dt} = f(t,u) \\\\ u(t=0) = u_0 \\end{cases} \\tag{1.0} $$\n\nwhere we look for the time-dependent solution $u(t)$, given its initial condition $u_0$ and the force $f(t,u)$ acting on it. In general, we have an ordinary differential equation (ODE) when $$\\frac{du}{dt} = f(u, t)$$ contains a single independent variable $u$.\n\nWe have a Neural ODE (NODE) when the structure of the problem becomes: $$\\frac{du}{dt} = f(u,t) + NN(u |\\theta).$$ Notice the extra force term, named $NN$ because it can be a neural network, that depends on extra parameters $\\theta$ that are not part of the solution. Overall, a NODE problem is a data-driven method that aims to model the solution $u(t)$ when the ODE can not be solved exactly, or even if $f$ is unknown. Let's look at the details with an example.",
+      "section": "CoupledNODE (part 2)",
+      "repo": "031_ConvolutionalNeuralOperators.jl",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.221201Z",
+    "updated_at": "2025-11-07T07:45:57.130602Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23232,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 748,
+    "annotations": [
+      {
+        "id": 11306,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T07:45:59.041624Z",
+        "updated_at": "2025-11-07T07:45:59.041638Z",
+        "draft_created_at": null,
+        "lead_time": 1.762,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ad0dd031-4383-4b6b-b036-d4e9fb730a01",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 748,
+        "project": 23232,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Multiscale approach to chaotic PDEs\n\nIn a more realistic situation, the incognita is usually a vector field, so we will try to solve for $u(x,t): \\Omega \\times \\mathbb{R} \\rightarrow \\mathbb{R}^m$, where the spacial coordinate is $x\\in \\Omega \\subseteq \\mathbb{R}^D$ and the field $u$ is $m$-dimensional.\n\nIf the problem is simple, like the case of linear ODEs, $u$ will be perfectly representable using a few parameters, e.g phase and frequency of an harmonic oscillator, and an analytical solution will be probably available. If this is the case, one could rely on direct and efficient approaches.\n\nHowever most of the times, the analytical solution is not available. A common solution is the method of lines, that consists in discretizing the spacial dimension and study a vectorial representation of the function $u(x,t) \\rightarrow \\bar{u}(t)\\in \\mathbb{R}^N$, where $N\\ll D$. This discretization can also be interpreted as a filter $\\Phi\\in\\mathbb{R}^{D\\times N}$ that gets applied to the field: $$\\bar{u}= \\Phi u$$\n\nOnce we have a discretized space, we also discretize the force $f\\rightarrow f_h$ using finite differences, while also assuming that the force is not time dependent. So we are left with\n\n$$ \\tag{1} \\begin{cases} \\frac{d\\bar{u}}{dt} = f_h(\\bar{u}) \\\\ \\bar{u}(t=0) = \\Phi u(t=0) = \\bar{u}_0 \\end{cases} $$\n\nThen the crucial question that we need to address is\n\n$$ \\tag{2} \\bar{u}(t)\\stackrel{?}{=} \\Phi u(t), $$\n\nor in words: does the discretized solution evolve like the original?\n\nThe answer is that it depends on the harshness of the discretization, i.e. the value of $N$ for the specific problem. We distinguish two cases:\n\nDNS (direct numerical simulation): if $N$ is large then eq.(2) is true, or we can say that the system is effectively closed* because the discretized solution evolves following the behavior of the original system.",
+      "section": "CoupledNODE (part 3)",
+      "repo": "031_ConvolutionalNeuralOperators.jl",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.221227Z",
+    "updated_at": "2025-11-07T07:45:59.070810Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23232,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 749,
+    "annotations": [
+      {
+        "id": 11307,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T07:46:00.769491Z",
+        "updated_at": "2025-11-07T07:46:00.769503Z",
+        "draft_created_at": null,
+        "lead_time": 1.562,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c8fd6e95-798c-466f-a56e-5698cd85def9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 749,
+        "project": 23232,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "However, especially if the system is chaotic, it is likely that the small scale behavior influences the large scale behavior. In this case we talk about:\n\nLES (large eddy simulations): $N$ is too small to capture the small scale effects, thus the eq.(1) is not closed*. This means that $\\frac{d\\bar{u}}{dt} = f_h(\\bar{u})$ has a different dynamics than the exact solution $u(t)$, so we would need instead to solve $$\\frac{d\\bar{u}}{dt} = \\Phi f(u).$$\n\nHowever this DE depends on $u$, so the system is not closed and can not be efficiently solved.\n\nOne of the main goal of this repository will be to use CNODEs in order to correct the LES simulation and get a solution as good as the DNS.",
+      "section": "CoupledNODE (part 4)",
+      "repo": "031_ConvolutionalNeuralOperators.jl",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.221249Z",
+    "updated_at": "2025-11-07T07:46:00.792433Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23232,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 750,
+    "annotations": [
+      {
+        "id": 11308,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T07:46:04.792626Z",
+        "updated_at": "2025-11-07T07:46:04.792641Z",
+        "draft_created_at": null,
+        "lead_time": 3.845,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e88fffad-c896-48a3-920b-a0d445844620",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 750,
+        "project": 23232,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Generative-AI Disclaimer\n\nParts of the code have been generated and/or refined using GitHub Copilot. All AI-output has been verified for correctness, accuracy and completeness, revised where needed, and approved by the author(s).\n\n## References\n\n[SciML style guidelines] https://github.com/SciML/SciMLStyle",
+      "section": "CoupledNODE (part 5)",
+      "repo": "031_ConvolutionalNeuralOperators.jl",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.221271Z",
+    "updated_at": "2025-11-07T07:46:04.820578Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23232,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

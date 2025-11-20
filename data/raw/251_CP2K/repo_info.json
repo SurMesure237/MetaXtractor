@@ -1,0 +1,38 @@
+{
+  "codeRepository": "https://github.com/cp2k/cp2k",
+  "programmingLanguage": "Fortran",
+  "programmingLanguages": [
+    "Fortran",
+    "C",
+    "Python",
+    "Shell",
+    "BitBake",
+    "CMake",
+    "Cuda",
+    "C++",
+    "Makefile",
+    "Perl",
+    "Emacs Lisp",
+    "Dockerfile",
+    "XSLT",
+    "Cython",
+    "Assembly",
+    "PHP"
+  ],
+  "downloadUrl": "https://api.github.com/repos/cp2k/cp2k/zipball/main",
+  "author": "cp2k",
+  "dateCreated": "2018-10-02T10:42:51Z",
+  "dateModified": "2025-10-30T00:06:11Z",
+  "keywords": [
+    "hpc",
+    "material-science",
+    "quantum-chemistry",
+    "simulation"
+  ],
+  "license": "https://api.github.com/licenses/gpl-2.0",
+  "description": "Quantum chemistry and solid state physics software package",
+  "identifier": 151238791,
+  "name": "cp2k/cp2k",
+  "issueTracker": "https://api.github.com/repos/cp2k/cp2k/issues",
+  "readme": "https://github.com/cp2k/cp2k/blob/master/README.md"
+}

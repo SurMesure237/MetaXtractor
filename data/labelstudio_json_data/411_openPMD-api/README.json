@@ -1,0 +1,162 @@
+[
+  {
+    "data": {
+      "text": "C++ & Python API for Scientific I/O with openPMD",
+      "section": "Introduction (part 1)",
+      "repo": "411_openPMD-api",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[](https://github.com/openPMD/openPMD-standard/releases) [](https://www.openpmd.org/openPMD-api) [](https://gitter.im/openPMD/API) ![Supported Platforms][api-platforms] [](https://www.gnu.org/licenses/lgpl-3.0.html) [](https://doi.org/10.14278/rodare.27) [](https://www.codefactor.io/repository/github/openpmd/openpmd-api) [](https://coveralls.io/github/openPMD/openPMD-api) [](https://openpmd-api.readthedocs.io/en/latest/?badge=latest) [](https://travis-ci.com/openPMD/openPMD-api) [](https://ci.appveyor.com/project/ax3l/openpmd-api/branch/dev) [](https://github.com/openPMD/openPMD-api/actions?query=workflow%3Awheels) [](https://dev.azure.com/axelhuebl/openPMD-api/_build/latest?definitionId=1&branchName=azure_install) [](https://scan.coverity.com/projects/openpmd-openpmd-api)",
+      "section": "Introduction (part 2)",
+      "repo": "411_openPMD-api",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[api-platforms]: https://img.shields.io/badge/platforms-linux%20|%20osx%20|%20win-blue \"Supported Platforms\"\n\nopenPMD is an open meta-data schema that provides meaning and self-description for data sets in science and engineering. See [the openPMD standard] https://github.com/openPMD/openPMD-standard for details of this schema.\n\nThis library provides a reference API for openPMD data handling. Since openPMD is a schema (or markup) on top of portable, hierarchical file formats, this library implements various backends such as HDF5, ADIOS2 and JSON. Writing & reading through those backends and their associated files are supported for serial and [MPI-parallel] https://www.mpi-forum.org/docs/ workflows.",
+      "section": "Introduction (part 3)",
+      "repo": "411_openPMD-api",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Usage\n\n### C++\n\n[![C++17][api-cpp]](https://isocpp.org/) ![C++17 API: Beta][dev-beta]\n\n[api-cpp]: https://img.shields.io/badge/language-C%2B%2B17-yellowgreen \"C++17 API\" [dev-beta]: https://img.shields.io/badge/phase-beta-yellowgreen \"Status: Beta\"\n\n#include  #include\n\n// ...\n\nauto s = openPMD::Series(\"samples/git-sample/data%T.h5\", openPMD::Access::READ_ONLY);\n\nfor( auto const & [step, it] : s.iterations ) {  std::cout << \"Iteration: \" << step << \"\\n\";\n\nfor( auto const & [name, mesh] : it.meshes ) {  std::cout << \" Mesh '\" << name << \"' attributes:\\n\";  for( auto const& val : mesh.attributes() )  std::cout << \" \" << val << '\\n';  }\n\nfor( auto const & [name, species] : it.particles ) {  std::cout << \" Particle species '\" << name << \"' attributes:\\n\";  for( auto const& val : species.attributes() )  std::cout << \" \" << val << '\\n';  } }\n\n### Python\n\n[![Python3][api-py3]](https://www.python.org/) ![Python3 API: Beta][dev-beta]\n\n[api-py3]: https://img.shields.io/badge/language-Python3-yellowgreen \"Python3 API\"\n\nimport openpmd_api as io",
+      "section": "Introduction (part 4)",
+      "repo": "411_openPMD-api",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "...\n\nseries = io.Series(\"samples/git-sample/data%T.h5\", io.Access.read_only)\n\nfor k_i, i in series.iterations.items():  print(\"Iteration: {0}\".format(k_i))\n\nfor k_m, m in i.meshes.items():  print(\" Mesh '{0}' attributes:\".format(k_m))  for a in m.attributes:  print(\" {0}\".format(a))\n\nfor k_p, p in i.particles.items():  print(\" Particle species '{0}' attributes:\".format(k_p))  for a in p.attributes:  print(\" {0}\".format(a))\n\n### More!\n\nCurious? Our manual shows full [read & write examples] https://openpmd-api.readthedocs.io/en/latest/usage/firstwrite.html, both serial and MPI-parallel!",
+      "section": "... (part 1)",
+      "repo": "411_openPMD-api",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Dependencies\n\nRequired:  CMake 3.22.0+  C++17 capable compiler, e.g., g++ 7+, clang 7+, MSVC 19.15+, icpc 19+, icpx\n\nShipped internally (downloaded by CMake unless openPMD_SUPERBUILD=OFF is set):  [Catch2] https://github.com/catchorg/Catch2 2.13.10+ ([BSL-1.0] https://github.com/catchorg/Catch2/blob/master/LICENSE.txt)  [pybind11] https://github.com/pybind/pybind11 2.13.0+ ([new BSD] https://github.com/pybind/pybind11/blob/master/LICENSE)  [NLohmann-JSON] https://github.com/nlohmann/json 3.9.1+ ([MIT] https://github.com/nlohmann/json/blob/develop/LICENSE.MIT)  [toml11] https://github.com/ToruNiina/toml11 3.7.1+ ([MIT] https://github.com/ToruNiina/toml11/blob/master/LICENSE)\n\nI/O backends:  [JSON] https://en.wikipedia.org/wiki/JSON  [HDF5] https://support.hdfgroup.org/HDF5 1.8.13+ (optional)  [ADIOS2] https://github.com/ornladios/ADIOS2 2.9.0+ (optional)\n\nwhile those can be built either with or without:  MPI 2.1+, e.g. OpenMPI 1.6.5+ or MPICH2\n\nOptional language bindings:  Python:  Python 3.8 - 3.13  pybind11 2.13.0+  numpy 1.15+  mpi4py 2.1+ (optional, for MPI)  pandas 1.0+ (optional, for dataframes)  dask 2021+ (optional, for dask dataframes)  CUDA C++ (optional, currently used only in tests)",
+      "section": "... (part 2)",
+      "repo": "411_openPMD-api",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Installation\n\n[](https://spack.readthedocs.io/en/latest/package_list.html#openpmd-api) [](https://anaconda.org/conda-forge/openpmd-api) [](https://github.com/openPMD/homebrew-openPMD) [](https://pypi.org/project/openPMD-api) [](https://cmake.org)\n\nOur community loves to help each other. Please [report installation problems] https://github.com/openPMD/openPMD-api/issues/new?labels=install&template=install_problem.md in case you should get stuck.\n\nChoose one of the install methods below to get started:\n\n### [Spack] https://spack.io\n\n[](https://spack.readthedocs.io/en/latest/package_list.html#openpmd-api) [](https://spack.io) [](https://spack.readthedocs.io/en/latest/package_list.html#openpmd-api)",
+      "section": "... (part 3)",
+      "repo": "411_openPMD-api",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "optional: +python -adios2 -hdf5 -mpi spack install openpmd-api spack load openpmd-api\n\n### [Conda] https://conda.io\n\n[](https://anaconda.org/conda-forge/openpmd-api) [](https://anaconda.org/conda-forge/openpmd-api) [](https://anaconda.org/conda-forge/openpmd-api) [](https://anaconda.org/conda-forge/openpmd-api)",
+      "section": "optional:               +python -adios2 -hdf5 -mpi",
+      "repo": "411_openPMD-api",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "optional: MPICH support ==mpi_mpich conda create -n openpmd -c conda-forge openpmd-api conda activate openpmd\n\n### [Brew] https://brew.sh\n\n[](https://github.com/openPMD/homebrew-openPMD) [](https://docs.brew.sh/Homebrew-on-Linux) [](https://brew.sh)\n\nbrew tap openpmd/openpmd brew install openpmd-api\n\n### [PyPI] https://pypi.org\n\n[](https://pypi.org/project/openPMD-api) [](https://pypi.org/project/openPMD-api/#files) [](https://pypi.org/project/openPMD-api) [](https://pypi.org/project/openPMD-api) [](https://pypi.org/project/openPMD-api)\n\nOn very old macOS versions (<10.9) or on exotic processor architectures, this install method compiles from source against the found installations of HDF5, ADIOS2, and/or MPI (in system paths, from other package managers, or loaded via a module system, ...).\n\noptional: --user python3 -m pip install -U pip\n\noptional: --user python3 -m pip install openpmd-api\n\nIf MPI-support shall be enabled, we always have to recompile:\n\noptional: --user python3 -m pip install -U pip packaging setuptools wheel python3 -m pip install -U cmake",
+      "section": "optional:                        MPICH support  =*=mpi_mpich* + optional:                   --user + optional:                        --user (and 1 more)",
+      "repo": "411_openPMD-api",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "optional: --user openPMD_USE_MPI=ON python3 -m pip install openpmd-api --no-binary openpmd-api\n\nFor some exotic architectures and compilers, you might need to disable a compiler feature called [link-time/interprocedural optimization] https://en.wikipedia.org/wiki/Interprocedural_optimization if you encounter linking problems:\n\nexport CMAKE_INTERPROCEDURAL_OPTIMIZATION=OFF\n\noptional: --user python3 -m pip install openpmd-api --no-binary openpmd-api\n\nAdditional CMake options can be passed via individual environment variables, which need to be prefixed with openPMD_CMAKE_.\n\n### From Source\n\n[](https://cmake.org)\n\nopenPMD-api can also be built and installed from source using [CMake] https://cmake.org/:\n\ngit clone https://github.com/openPMD/openPMD-api.git\n\nmkdir openPMD-api-build cd openPMD-api-build\n\noptional: for full tests, with unzip ../openPMD-api/share/openPMD/download_samples.sh\n\n-DopenPMD_USE_PYTHON=ON -DPython_EXECUTABLE=$(which python3) cmake ../openPMD-api\n\ncmake --build .\n\noptional ctest",
+      "section": "optional:                                                                   --user + optional:                                                --user + optional: for full tests, with unzip (and 2 more)",
+      "repo": "411_openPMD-api",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "sudo might be required for system paths cmake --build . --target install\n\nThe following options can be added to the cmake call to control features. CMake controls options with prefixed -D, e.g. -DopenPMD_USE_MPI=OFF:\n\n| CMake Option | Values | Description | |------------------------------|------------------|------------------------------------------------------------------------------| | openPMD_USE_MPI | AUTO/ON/OFF | Parallel, Multi-Node I/O for clusters | | openPMD_USE_HDF5 | AUTO/ON/OFF | HDF5 backend (.h5 files) | | openPMD_USE_ADIOS2 | AUTO/ON/OFF | ADIOS2 backend (.bp files in BP3, BP4 or higher) | | openPMD_USE_PYTHON | AUTO/ON/OFF | Enable Python bindings | | openPMD_USE_INVASIVE_TESTS | ON/OFF | Enable unit tests that modify source code 1 | | openPMD_USE_VERIFY | ON/OFF | Enable internal VERIFY (assert) macro independent of build type 2 | | openPMD_INSTALL | ON/OFF | Add installation targets | | openPMD_INSTALL_RPATH | ON/OFF | Add RPATHs to installed binaries | | Python_EXECUTABLE | (newest found) | Path to Python executable |\n\n1 e.g. changes C++ visibility keywords, breaks MSVC 2 this includes most pre-/post-condition checks, disabling without specific cause is highly discouraged",
+      "section": "sudo might be required for system paths (part 1)",
+      "repo": "411_openPMD-api",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Additionally, the following libraries are downloaded via [FetchContent] https://cmake.org/cmake/help/latest/module/FetchContent.html during the configuration of the project or, if the corresponding _ROOT variable is provided, can be provided externally:  [Catch2] https://github.com/catchorg/Catch2 (2.13.10+)  [PyBind11] https://github.com/pybind/pybind11 (2.13.0+)  [NLohmann-JSON] https://github.com/nlohmann/json (3.9.1+)  [toml11] https://github.com/ToruNiina/toml11 (3.7.1+)\n\nBy default, this will build as a shared library (libopenPMD.[so|dylib|dll]) and installs also its headers. In order to build a static library, append -DBUILD_SHARED_LIBS=OFF to the cmake command. You can only build a static or a shared library at a time.\n\nBy default, the Release version is built. In order to build with debug symbols, pass -DCMAKE_BUILD_TYPE=Debug to your cmake command.\n\nBy default, tests, examples and command line tools are built. In order to skip building those, pass `OFF to these cmake options:\n\n| CMake Option | Values | Description | |-------------------------------|------------|--------------------------| | openPMD_BUILD_TESTING | ON/OFF | Build tests | | openPMD_BUILD_EXAMPLES | ON/OFF | Build examples | | openPMD_BUILD_CLI_TOOLS | ON/OFF | Build command-line tools | | openPMD_USE_CUDA_EXAMPLES` | ON/OFF | Use CUDA in examples |",
+      "section": "sudo might be required for system paths (part 2)",
+      "repo": "411_openPMD-api",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Linking to your project\n\nThe install will contain header files and libraries in the path set with -DCMAKE_INSTALL_PREFIX.\n\n### CMake\n\nIf your project is using CMake for its build, one can conveniently use our provided openPMDConfig.cmake package, which is installed alongside the library.\n\nFirst set the following environment hint if openPMD-api was not installed in a system path:",
+      "section": "sudo might be required for system paths (part 3)",
+      "repo": "411_openPMD-api",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "optional: only needed if installed outside of system paths export CMAKE_PREFIX_PATH=$HOME/somepath:$CMAKE_PREFIX_PATH\n\nUse the following lines in your project's CMakeLists.txt:\n\nsupports: COMPONENTS MPI NOMPI HDF5 ADIOS2 find_package(openPMD 0.17.0 CONFIG)\n\nif(openPMD_FOUND)  target_link_libraries(YourTarget PRIVATE openPMD::openPMD) endif()\n\nAlternatively, add the openPMD-api repository source directly to your project and use it via:\n\nadd_subdirectory(\"path/to/source/of/openPMD-api\")\n\ntarget_link_libraries(YourTarget PRIVATE openPMD::openPMD)\n\nFor development workflows, you can even automatically download and build openPMD-api from within a depending CMake project. Just replace the add_subdirectory call with:\n\ninclude(FetchContent) set(CMAKE_POLICY_DEFAULT_CMP0077 NEW) set(openPMD_BUILD_CLI_TOOLS OFF) set(openPMD_BUILD_EXAMPLES OFF) set(openPMD_BUILD_TESTING OFF) set(openPMD_BUILD_SHARED_LIBS OFF) # precedence over BUILD_SHARED_LIBS if needed set(openPMD_INSTALL OFF) # or instead use:\n\nset(openPMD_INSTALL ${BUILD_SHARED_LIBS}) # only install if used as a shared library set(openPMD_USE_PYTHON OFF) FetchContent_Declare(openPMD  GIT_REPOSITORY \"https://github.com/openPMD/openPMD-api.git\"  GIT_TAG \"0.17.0\") FetchContent_MakeAvailable(openPMD)\n\n### Manually\n\nIf your (Linux/OSX) project is build by calling the compiler directly or uses a manually written Makefile, consider using our openPMD.pc helper file for pkg-config, which are installed alongside the library.\n\nFirst set the following environment hint if openPMD-api was not installed in a system path:\n\noptional: only needed if installed outside of system paths export PKG_CONFIG_PATH=$HOME/somepath/lib/pkgconfig:$PKG_CONFIG_PATH\n\nAdditional linker and compiler flags for your project are available via:",
+      "section": "optional: only needed if installed outside of system paths + supports:                       COMPONENTS MPI NOMPI HDF5 ADIOS2 + set(openPMD_INSTALL ${BUILD_SHARED_LIBS})  # only install if used as a shared library (and 1 more)",
+      "repo": "411_openPMD-api",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "(via BUILD_SHARED_LIBS=OFF) or as shared library (default) if [ \"$(pkg-config --variable=static openPMD)\" == \"true\" ] then  pkg-config --libs --static openPMD  # -L/usr/local/lib -L/usr/lib/x86_64-linux-gnu/openmpi/lib -lopenPMD -pthread /usr/lib/libmpi.so -pthread /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/libmpi.so /usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so /usr/lib/x86_64-linux-gnu/libsz.so /usr/lib/x86_64-linux-gnu/libz.so /usr/lib/x86_64-linux-gnu/libdl.so /usr/lib/x86_64-linux-gnu/libm.so -pthread /usr/lib/libmpi.so -pthread /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/libmpi.so else  pkg-config --libs openPMD  # -L${HOME}/somepath/lib -lopenPMD fi\n\npkg-config --cflags openPMD",
+      "section": "(via BUILD_SHARED_LIBS=OFF) or as shared library (default)",
+      "repo": "411_openPMD-api",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "-I${HOME}/somepath/include",
+      "section": "-I${HOME}/somepath/include (part 1)",
+      "repo": "411_openPMD-api",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Author Contributions\n\nopenPMD-api is developed by many people. It was initially started by the [Computational Radiation Physics Group] https://hzdr.de/crp at [HZDR] https://www.hzdr.de/ as successor to [libSplash] https://github.com/ComputationalRadiationPhysics/libSplash/, generalizing the [successful HDF5 & ADIOS1 implementations] https://arxiv.org/abs/1706.00522 in [PIConGPU] https://github.com/ComputationalRadiationPhysics/picongpu. The following people and institutions [contributed] https://github.com/openPMD/openPMD-api/graphs/contributors to openPMD-api:\n\n[Axel Huebl (LBNL, previously HZDR)] https://github.com/ax3l:  project lead, releases, documentation, automated CI/CD, Python bindings, Dask, installation & packaging, prior reference implementations  [Franz Poeschel (CASUS)] https://github.com/franzpoeschel:  JSON & ADIOS2 backend, data staging/streaming, reworked class design  [Fabian Koller (HZDR)] https://github.com/C0nsultant:  initial library design and implementation with HDF5 & ADIOS1 backend  [Junmin Gu (LBNL)] https://github.com/guj:  non-collective parallel I/O fixes, ADIOS improvements, benchmarks\n\nMaintained by the following research groups:\n\n[Computational Radiation Physics (CRD)] https://www.casus.science/casus/team/ at CASUS/HZDR, led by [Michael Bussmann] https://github.com/bussmann  [Accelerator Modeling Program (AMP)] https://atap.lbl.gov/accelerator-modeling-program/ at LBNL, led by [Jean-Luc Vay] https://github.com/jlvay [Scientific Data Management (SDM)] https://crd.lbl.gov/divisions/scidata/sdm/ at LBNL, led by [Kesheng (John) Wu] https://github.com/john18\n\nFurther thanks go to improvements and contributions from:",
+      "section": "-I${HOME}/somepath/include (part 2)",
+      "repo": "411_openPMD-api",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[Carsten Fortmann-Grote (EU XFEL GmbH, now MPI-EvolBio)] https://github.com/CFGrote:  draft of our Python unit tests  [Dominik Sta\u0144czak (Warsaw University of Technology)] https://github.com/StanczakDominik:  documentation improvements  [Ray Donnelly (Anaconda, Inc.)] https://github.com/mingwandroid:  support on conda packaging and libc++ quirks  [James Amundson (FNAL)] https://github.com/amundson:  compile fix for newer compilers  [Ren\u00e9 Widera (HZDR)] https://github.com/psychocoderHPC:  design improvements for initial API design  [Erik Zenker (HZDR)] https://github.com/erikzenker:  design improvements for initial API design  [Sergei Bastrakov (HZDR)] https://github.com/sbastrakov:  documentation improvements (windows)  [R\u00e9mi Lehe (LBNL)] https://github.com/RemiLehe:  package integration testing on macOS and Linux  [L\u00edgia Diana Amorim (LBNL)] https://github.com/LDAmorim:  package integration testing on macOS  [Kseniia Bastrakova (HZDR)] https://github.com/KseniaBastrakova:  compatibility testing  [Richard Pausch (HZDR)] https://github.com/PrometheusPi:  compatibility testing, documentation improvements  [Pawe\u0142 Ordyna (HZDR)] https://github.com/pordyna:  report on NVCC warnings  [Dmitry Ganyushin (ORNL)] https://github.com/dmitry-ganyushin:  Dask prototyping & ADIOS2 benchmarking  [John Kirkham (NVIDIA)] https://github.com/jakirkham:  Dask guidance & reviews  [Erik Schnetter (PITP)] https://github.com/eschnett:  C++ API bug fixes  [Jean Luca Bez (LBNL)] https://github.com/jeanbez:  HDF5 performance tuning  [Bernhard Manfred Gruber (CERN)] https://github.com/bernhardmgruber:  CMake fix for parallel HDF5  [Nils Schild (IPP)] https://github.com/DerNils-git:  CMake improvements for subprojects",
+      "section": "-I${HOME}/somepath/include (part 3)",
+      "repo": "411_openPMD-api",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Grants\n\nThe openPMD-api authors acknowledge support via the following programs. Supported by the CAMPA collaboration, a project of the U.S. Department of Energy, Office of Science, Office of Advanced Scientific Computing Research and Office of High Energy Physics, Scientific Discovery through Advanced Computing (SciDAC) program. Previously supported by the Consortium for Advanced Modeling of Particles Accelerators (CAMPA), funded by the U.S. DOE Office of Science under Contract No. DE-AC02-05CH11231. Supported by the Exascale Computing Project (17-SC-20-SC), a collaborative effort of two U.S. Department of Energy organizations (Office of Science and the National Nuclear Security Administration). This project has received funding from the European Unions Horizon 2020 research and innovation programme under grant agreement No 654220. This work was partially funded by the Center of Advanced Systems Understanding (CASUS), which is financed by Germany's Federal Ministry of Education and Research (BMBF) and by the Saxon Ministry for Science, Culture and Tourism (SMWK) with tax funds on the basis of the budget approved by the Saxon State Parliament. Supported by the HElmholtz Laser Plasma Metadata Initiative (HELPMI) project (ZT-I-PF-3-066), funded by the \"Initiative and Networking Fund\" of the Helmholtz Association in the framework of the \"Helmholtz Metadata Collaboration\" project call 2022.",
+      "section": "-I${HOME}/somepath/include (part 4)",
+      "repo": "411_openPMD-api",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Transitive Contributions\n\nopenPMD-api stands on the shoulders of giants and we are grateful for the following projects included as direct dependencies:\n\n[ADIOS2] https://github.com/ornladios/ADIOS2 by [S. Klasky, N. Podhorszki, W.F. Godoy (ORNL), team, collaborators] https://csmd.ornl.gov/adios and [contributors] https://github.com/ornladios/ADIOS2/graphs/contributors  [Catch2] https://github.com/catchorg/Catch2 by [Phil Nash] https://github.com/philsquared, [Martin Ho\u0159e\u0148ovsk\u00fd] https://github.com/horenmar and [contributors] https://github.com/catchorg/Catch2/graphs/contributors  HDF5 by [the HDF group] https://www.hdfgroup.org and community  [json] https://github.com/nlohmann/json by [Niels Lohmann] https://github.com/nlohmann and [contributors] https://github.com/nlohmann/json/graphs/contributors  [toml11] https://github.com/ToruNiina/toml11 by [Toru Niina] https://github.com/ToruNiina and [contributors] https://github.com/ToruNiina/toml11#Contributors  [pybind11] https://github.com/pybind/pybind11 by [Wenzel Jakob (EPFL)] https://github.com/wjakob and [contributors] https://github.com/pybind/pybind11/graphs/contributors  all contributors to the evolution of modern C++ and early library preview developers, e.g. [Michael Park (Facebook)] https://github.com/mpark  the [CMake build system] https://cmake.org and [contributors] https://github.com/Kitware/CMake/blob/master/Copyright.txt  packaging support by the [conda-forge] https://conda-forge.org, [PyPI] https://pypi.org and [Spack] https://spack.io communities, among others  the [openPMD-standard] https://github.com/openPMD/openPMD-standard by [Axel Huebl (HZDR, now LBNL)] https://github.com/ax3l and [contributors] https://github.com/openPMD/openPMD-standard/blob/latest/AUTHORS.md",
+      "section": "-I${HOME}/somepath/include (part 5)",
+      "repo": "411_openPMD-api",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,309 @@
+[
+  {
+    "id": 1851,
+    "annotations": [
+      {
+        "id": 10579,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:04:56.167218Z",
+        "updated_at": "2025-11-04T18:04:56.167235Z",
+        "draft_created_at": null,
+        "lead_time": 10.998,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e22a9f2e-63d2-44df-a833-03f4e772ac79",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1851,
+        "project": 23421,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Reflectorch\n\n[](https://pytorch.org/) [](https://numpy.org/) [](https://scipy.org/) [](https://matplotlib.org/) [](https://yaml.org/) [](https://huggingface.co/valentinsingularity/reflectivity)\n\n[](https://www.python.org/)\n\n[](https://jupyterbook.org/) [](https://schreiber-lab.github.io/reflectorch/)",
+      "section": "Reflectorch (part 1)",
+      "repo": "452_Reflectorch",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.425374Z",
+    "updated_at": "2025-11-04T18:04:56.198056Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23421,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1852,
+    "annotations": [
+      {
+        "id": 10580,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:05:16.212685Z",
+        "updated_at": "2025-11-14T12:57:15.222181Z",
+        "draft_created_at": null,
+        "lead_time": 26.941,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "fb8363f1-efa1-4212-9f77-38222d689ae3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1852,
+        "project": 23421,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Reflectorch is a machine learning Python package for the analysis of X-ray and neutron reflectometry data, written by [Vladimir Starostin] https://github.com/StarostinV/ & [Valentin Munteanu] https://github.com/valentinsingularity at the University of Tübingen. It provides functionality for the fast simulation of reflectometry curves on the GPU, customizable setup of the physical parameterization model and neural network architecture via YAML configuration files, and prior-aware training of neural networks as described in our paper [Neural network analysis of neutron and X-ray reflectivity data incorporating prior knowledge] https://doi.org/10.1107/S1600576724002115.",
+      "section": "Reflectorch (part 2)",
+      "repo": "452_Reflectorch",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.425412Z",
+    "updated_at": "2025-11-14T12:57:15.250939Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23421,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1853,
+    "annotations": [
+      {
+        "id": 10581,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:05:32.484372Z",
+        "updated_at": "2025-11-04T18:05:32.484391Z",
+        "draft_created_at": null,
+        "lead_time": 16.074,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "33afb1df-7dba-4981-a481-64a39321c91d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1853,
+        "project": 23421,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Installation\n\nReflectorch can be installed from [](https://pypi.org/project/reflectorch/) via `pip`:\n\npip install reflectorch\n\nAlternatively, one can clone the entire Github repository and install the package in editable mode:\n\ngit clone https://github.com/schreiber-lab/reflectorch.git pip install -e .\n\nFor development purposes, the package can be installed together with the optional dependencies for building the distribution, testing and documentation:\n\ngit clone https://github.com/schreiber-lab/reflectorch.git pip install -e .[tests,docs,build]\n\nUsers with Nvidia GPUs need to additionally install Pytorch with CUDA support corresponding to their hardware and operating system according to the instructions from the [Pytorch website] https://pytorch.org/get-started/locally/",
+      "section": "Reflectorch (part 3)",
+      "repo": "452_Reflectorch",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.425435Z",
+    "updated_at": "2025-11-04T18:05:32.513665Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23421,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1854,
+    "annotations": [
+      {
+        "id": 10582,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 165,
+              "end": 177,
+              "text": "Jupyter Book",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ZCeil2geXA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 209,
+              "end": 215,
+              "text": "Sphinx",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "X9hUZytODO",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 324,
+              "end": 368,
+              "text": "https://schreiber-lab.github.io/reflectorch/",
+              "labels": [
+                "BUILD_INSTRUCTIONS"
+              ]
+            },
+            "id": "NeYNnwvHW0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:06:13.786091Z",
+        "updated_at": "2025-11-04T18:06:13.786133Z",
+        "draft_created_at": "2025-11-04T18:05:48.232534Z",
+        "lead_time": 41.102,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "4daa0a99-c35e-46a0-ad35-180797f22029",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1854,
+        "project": 23421,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Get started\n\n[](https://schreiber-lab.github.io/reflectorch/)  The full documentation of the package, containing tutorials and the API reference, was built with [Jupyter Book] https://jupyterbook.org/ and [Sphinx] https://www.sphinx-doc.org and it is hosted at the address: [https://schreiber-lab.github.io/reflectorch/] https://schreiber-lab.github.io/reflectorch/.\n\n[](https://colab.research.google.com/drive/1rf_M8S_5kYvUoK0-9-AYal_fO3oFl7ck?usp=sharing) We provide an interactive Google Colab notebook for exploring the basic functionality of the package: [](https://colab.research.google.com/drive/1rf_M8S_5kYvUoK0-9-AYal_fO3oFl7ck?usp=sharing)\n\n[](https://huggingface.co/valentinsingularity/reflectivity) Configuration files and the corresponding pretrained model weights are hosted on Huggingface: [https://huggingface.co/valentinsingularity/reflectivity] https://huggingface.co/valentinsingularity/reflectivity.\n\n## Contributing\n\nIf you'd like to contribute to the package, please see our [Contributing Guidelines] CONTRIBUTING.md for details.",
+      "section": "Reflectorch (part 4)",
+      "repo": "452_Reflectorch",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.425458Z",
+    "updated_at": "2025-11-04T18:06:13.815359Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23421,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1855,
+    "annotations": [
+      {
+        "id": 10583,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 84,
+              "end": 629,
+              "text": "@Article{Munteanu2024, author = {Munteanu, Valentin and Starostin, Vladimir and Greco, Alessandro and Pithan, Linus and Gerlach, Alexander and Hinderhofer, Alexander and Kowarik, Stefan and Schreiber, Frank}, journal = {Journal of Applied Crystallography}, title = {Neural network analysis of neutron and X-ray reflectivity data incorporating prior knowledge}, year = {2024}, issn = {1600-5767}, month = mar, number = {2}, volume = {57}, doi = {10.1107/s1600576724002115}, publisher = {International Union of Crystallography (IUCr)}, }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "S5lDQIvDY7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T18:06:22.891565Z",
+        "updated_at": "2025-11-04T18:06:22.891584Z",
+        "draft_created_at": null,
+        "lead_time": 8.915,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "5a9a84a2-f64c-469f-a60a-a05605037cc3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1855,
+        "project": 23421,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Citation\n\nIf you find our work useful in your research, please cite as follows:\n\n@Article{Munteanu2024,  author = {Munteanu, Valentin and Starostin, Vladimir and Greco, Alessandro and Pithan, Linus and Gerlach, Alexander and Hinderhofer, Alexander and Kowarik, Stefan and Schreiber, Frank},  journal = {Journal of Applied Crystallography},  title = {Neural network analysis of neutron and X-ray reflectivity data incorporating prior knowledge},  year = {2024},  issn = {1600-5767},  month = mar,  number = {2},  volume = {57},  doi = {10.1107/s1600576724002115},  publisher = {International Union of Crystallography (IUCr)}, }",
+      "section": "Reflectorch (part 5)",
+      "repo": "452_Reflectorch",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:02.425480Z",
+    "updated_at": "2025-11-04T18:06:22.921190Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23421,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/atomec-project/atoMEC",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/atomec-project/atoMEC/zipball/main",
+  "author": "atomec-project",
+  "dateCreated": "2021-06-14T14:39:24Z",
+  "dateModified": "2025-10-23T14:17:39Z",
+  "keywords": [
+    "atomic-physics",
+    "density-functional-theory",
+    "electronic-structure",
+    "plasma-physics",
+    "warm-dense-matter"
+  ],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "Python-based average-atom code for simulations of high energy density phenomena such as in warm dense matter.",
+  "identifier": 376856065,
+  "name": "atomec-project/atoMEC",
+  "issueTracker": "https://api.github.com/repos/atomec-project/atoMEC/issues",
+  "readme": "https://github.com/atomec-project/atoMEC/blob/develop/README.md"
+}

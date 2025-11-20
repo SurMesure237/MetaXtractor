@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/GCRC/nunaliit",
+  "programmingLanguage": "JavaScript",
+  "programmingLanguages": [
+    "JavaScript",
+    "Java",
+    "HTML",
+    "CSS",
+    "Python",
+    "Yacc",
+    "Objective-C",
+    "Shell",
+    "Less",
+    "Perl",
+    "C",
+    "Ruby"
+  ],
+  "downloadUrl": "https://api.github.com/repos/GCRC/nunaliit/zipball/main",
+  "author": "GCRC",
+  "dateCreated": "2012-09-25T17:59:38Z",
+  "dateModified": "2025-10-21T19:26:33Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/bsd-3-clause",
+  "description": "Nunaliit Atlas Framework",
+  "identifier": 5954105,
+  "name": "GCRC/nunaliit",
+  "issueTracker": "https://api.github.com/repos/GCRC/nunaliit/issues",
+  "readme": "https://github.com/GCRC/nunaliit/blob/master/README.md"
+}

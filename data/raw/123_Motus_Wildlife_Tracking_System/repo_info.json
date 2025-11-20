@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/MotusWTS/motus",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R"
+  ],
+  "downloadUrl": "https://api.github.com/repos/MotusWTS/motus/zipball/main",
+  "author": "MotusWTS",
+  "dateCreated": "2017-11-16T22:25:53Z",
+  "dateModified": "2025-05-10T19:43:21Z",
+  "keywords": [
+    "bats",
+    "birds",
+    "insects",
+    "science",
+    "telemetry",
+    "tracking"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "R package for users of data from https://motus.org",
+  "identifier": 111029152,
+  "name": "MotusWTS/motus",
+  "issueTracker": "https://api.github.com/repos/MotusWTS/motus/issues",
+  "readme": "https://github.com/MotusWTS/motus/blob/main/README.md"
+}

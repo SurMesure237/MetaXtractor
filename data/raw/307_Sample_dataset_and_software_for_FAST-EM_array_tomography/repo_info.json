@@ -1,0 +1,31 @@
+{
+  "codeRepository": "https://github.com/google-research/sofima",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/google-research/sofima/zipball/main",
+  "author": "google-research",
+  "dateCreated": "2022-02-11T11:49:48Z",
+  "dateModified": "2025-10-17T17:58:36Z",
+  "keywords": [
+    "2d",
+    "3d",
+    "4d",
+    "alignment-algorithm",
+    "biomedical-image-processing",
+    "connectomics",
+    "electron-microscopy",
+    "jax",
+    "microscopy",
+    "python3",
+    "stitching-algorithm"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Scalable Optical Flow-based Image Montaging and Alignment",
+  "identifier": 458165527,
+  "name": "google-research/sofima",
+  "issueTracker": "https://api.github.com/repos/google-research/sofima/issues",
+  "readme": "https://github.com/google-research/sofima/blob/main/README.md"
+}

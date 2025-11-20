@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/GEMDAT-repos/GEMDAT",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Nix"
+  ],
+  "downloadUrl": "https://api.github.com/repos/GEMDAT-repos/GEMDAT/zipball/main",
+  "author": "GEMDAT-repos",
+  "dateCreated": "2023-06-13T09:04:36Z",
+  "dateModified": "2025-10-03T15:49:11Z",
+  "keywords": [
+    "data-analysis",
+    "lammps",
+    "molecular-dynamics",
+    "python",
+    "vasp"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Python toolkit for molecular dynamics analysis",
+  "identifier": 653022851,
+  "name": "GEMDAT-repos/GEMDAT",
+  "issueTracker": "https://api.github.com/repos/GEMDAT-repos/GEMDAT/issues",
+  "readme": "https://github.com/GEMDAT-repos/GEMDAT/blob/main/README.md"
+}

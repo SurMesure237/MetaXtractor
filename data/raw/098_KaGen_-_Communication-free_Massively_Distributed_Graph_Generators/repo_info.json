@@ -1,0 +1,38 @@
+{
+  "codeRepository": "https://github.com/KaHIP/KaHIP",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "CMake",
+    "C",
+    "Vim Script",
+    "Python",
+    "Shell",
+    "Java"
+  ],
+  "downloadUrl": "https://api.github.com/repos/KaHIP/KaHIP/zipball/main",
+  "author": "KaHIP",
+  "dateCreated": "2013-10-16T15:25:48Z",
+  "dateModified": "2025-10-28T21:02:32Z",
+  "keywords": [
+    "algorithm-engineering",
+    "algorithms",
+    "cpp",
+    "edge-partitioning-algorithms",
+    "evolutionary-algorithm",
+    "graph",
+    "graph-partitioning",
+    "load-balancer",
+    "partitioning",
+    "partitioning-algorithms",
+    "process-mapping",
+    "python",
+    "sharding"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "KaHIP -- Karlsruhe HIGH Quality Partitioning.",
+  "identifier": 13622969,
+  "name": "KaHIP/KaHIP",
+  "issueTracker": "https://api.github.com/repos/KaHIP/KaHIP/issues",
+  "readme": "https://github.com/KaHIP/KaHIP/blob/master/README.md"
+}

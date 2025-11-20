@@ -1,0 +1,154 @@
+[
+  {
+    "data": {
+      "text": "annubes developer documentation\n\nIf you're looking for user documentation, go [here] README.md.\n\n## Code editor\n\nWe use [Visual Studio Code (VS Code)] https://code.visualstudio.com/ as code editor. The VS Code settings for this project can be found in [.vscode] .vscode. The settings will be automatically loaded and applied when you open the project with VS Code. See [the guide] https://code.visualstudio.com/docs/getstarted/settings for more info about workspace settings of VS Code.\n\n## Project setup\n\nThe project has been originally setup using the [Netherlands eScience Center python template] https://github.com/NLeSC/python-template. Most of the choices or the current setup are explained in our [guide] https://guide.esciencecenter.nl. For a quick reference on software development, we refer to [the software guide checklist] https://guide.esciencecenter.nl/#/best_practices/checklist.\n\n## Development install\n\nCreate a virtual environment, e.g. with python -m venv env\n\nactivate virtual environment source env/bin/activate\n\nmake sure to have a recent version of pip and setuptools python -m pip install --upgrade pip setuptools\n\ninstall annubes as an editable package python -m pip install --no-cache-dir --editable .",
+      "section": "`annubes` developer documentation + Create a virtual environment, e.g. with + activate virtual environment (and 2 more)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "install development dependencies python -m pip install --no-cache-dir --editable .[dev]\n\nAfterwards check that the install directory is present in the PATH environment variable.\n\n## Running the tests\n\nThere are two ways to run tests.\n\nThe first way requires an activated virtual environment with the development tools installed:\n\npytest -v\n\nThe second is to use tox, which can be installed separately (e.g. with pip install tox), i.e. not necessarily inside the virtual environment you use for installing annubes, but then builds the necessary virtual environments itself by simply running:\n\ntox\n\nTesting with tox allows for keeping the testing environment separate from your development environment. The development environment will typically accumulate (old) packages during development that interfere with testing; this problem is avoided by testing with tox.\n\n### Test coverage\n\nIn addition to just running the tests to see if they pass, they can be used for coverage statistics, i.e. to determine how much of the package's code is actually executed during tests. In an activated virtual environment with the development tools installed, inside the package directory, run:\n\ncoverage run\n\nThis runs tests and stores the result in a .coverage file. To see the results on the command line, run\n\ncoverage report\n\ncoverage can also generate output in HTML and other formats; see coverage help for more information.",
+      "section": "install development dependencies (part 1)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Linting and formatting\n\nWe use [ruff] https://docs.astral.sh/ruff/ for linting, sorting imports and formatting of python (notebook) files. The configurations of ruff are set in [ruff.toml] ruff.toml file.\n\nIf you are using VS code, please install and activate the [Ruff extension] https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff to automatically format and check linting.\n\nOtherwise, please ensure check both linting (ruff check .) and formatting (ruff format .) before requesting a review. Running the linters and formatters requires an activated virtual environment with the development tools installed.\n\n## Static typing\n\nWe use [Mypy] http://mypy-lang.org/ as static type checker:",
+      "section": "install development dependencies (part 2)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "install mypy pip install mypy\n\nrun mypy mypy path-to-source-code\n\nMypy configurations are set in [pyproject.toml] pyproject.toml file.\n\nFor more info about static typing and mypy, see:\n\n[Static typing with Python] https://typing.readthedocs.io/en/latest/index.html#\n\n[Mypy doc] https://mypy.readthedocs.io/en/stable/\n\n## Docs\n\nWe use [MkDocs] https://www.mkdocs.org/ and its theme [Material for MkDocs] https://squidfunk.github.io/mkdocs-material/ to generate documentations. The configurations of MkDocs are set in [mkdocs.yml] mkdocs.yml file.\n\nTo watch the changes of current doc in real time, run:\n\nmkdocs serve",
+      "section": "install mypy + run mypy",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "or to watch src and docs directories mkdocs serve -w docs -w src\n\nThen open your browser and go to http://127.0.0.1:8000/.\n\n### Publishing the docs\n\nThe docs are published on GitHub Pages. We use [mike] https://github.com/jimporter/mike to deploy the docs to the gh-pages branch and to manage the versions of docs.\n\nFor example, to deploy the version 2.0 of the docs to the gh-pages branch and make it the latest version, run:\n\nmike deploy -p -u 2.0 latest\n\nIf you are not happy with the changes you can run mike delete [version]. All these mike operations will be recorded as git commits of branch gh-pages.\n\nmike serve is used to check all versions committed to branch gh-pages, which is for checking the production website. If you have changes but not commit them yet, you should use mkdocs serve instead of mike serve to check them.\n\n## Versioning\n\nBumping the version across all files is done before creating a new package release, running bump2version [part] from command line after having installed [bump2version] https://pypi.org/project/bump2version/ on your local environment. Instead of [part], type the part of the version to increase, e.g. minor. The settings in .bumpversion.cfg will take care of updating all the files containing version strings.\n\n## Making a release\n\nThis section describes how to make a release in 3 parts:\n\npreparation\n\nmaking a release on GitHub\n\nmaking a release on PyPI\n\n### (1/3) Preparation\n\nVerify that the information in CITATION.cff is correct, and that .zenodo.json contains equivalent data\n\n[Bump the version] https://github.com/DeepRank/deeprank2/blob/dev/README.dev.md#versioning.\n\nRun the unit tests with pytest -v\n\n### (2/3) GitHub\n\nMake a [release on GitHub] https://github.com/ANNUBS/annubes/releases/new.",
+      "section": "or to watch src and docs directories (part 1)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### (3/3) PyPI\n\nThe GitHub release will trigger [a GitHub action] https://github.com/DeepRank/deeprank2/actions/workflows/release.yml that will take care of publishing the package on PyPi.\n\n## Development conventions\n\nBranching\n\nWhen creating a new branch, please use the following convention: __.\n\nAlways branch from dev branch, unless there is the need to fix an undesired status of main. See above for more details about the branching workflow adopted.\n\nPull Requests\n\nWhen creating a pull request, please use the following convention: : . Example _types_ are fix:, feat:, build:, chore:, ci:, docs:, style:, refactor:, perf:, test:, and others based on the [Angular convention] https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines.",
+      "section": "or to watch src and docs directories (part 2)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.dev.md"
+    }
+  },
+  {
+    "data": {
+      "text": "\u26a0\ufe0f Repository Archived \u26a0\ufe0f\n\nThis repository is no longer actively maintained. All updates and future developments have been moved to [NeuroGym's main repository] https://github.com/neurogym/neurogym. Please visit [NeuroGym] https://github.com/neurogym/neurogym for the latest code, updates, and ongoing development efforts.",
+      "section": "\u26a0\ufe0f Repository Archived \u26a0\ufe0f",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "ANNUBeS",
+      "section": "ANNUBeS (part 1)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| Badges | |",
+      "section": "ANNUBeS (part 2)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| :------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |",
+      "section": "ANNUBeS (part 3)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| fairness | [](https://www.bestpractices.dev/projects/8861) [](https://fair-software.eu) |",
+      "section": "ANNUBeS (part 4)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| package | [](https://badge.fury.io/py/annubes) |",
+      "section": "ANNUBeS (part 5)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| docs | [](https://annubs.github.io/annubes/latest/) [](https://research-software-directory.org/projects/annubes) [](https://doi.org/10.5281/zenodo.11098460) |",
+      "section": "ANNUBeS (part 6)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| tests | [](https://github.com/ANNUBS/annubes/actions/workflows/build.yml) [](https://github.com/ANNUBS/annubes/actions/workflows/sonarcloud.yml) [](https://github.com/ANNUBS/annubes/actions/workflows/markdown-links.yml) [](https://github.com/ANNUBS/annubes/actions/workflows/cffconvert.yml) [](https://github.com/ANNUBS/annubes/actions/workflows/linting.yml) [](https://github.com/ANNUBS/annubes/actions/workflows/static-typing.yml) [](https://sonarcloud.io/dashboard?id=ANNUBS_annubes) [](https://sonarcloud.io/dashboard?id=ANNUBS_annubes) |",
+      "section": "ANNUBeS (part 7)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| running on | [](https://github.com/actions/runner-images?tab=readme-ov-file#available-images) [](https://github.com/actions/runner-images?tab=readme-ov-file#available-images) [](https://github.com/actions/runner-images?tab=readme-ov-file#available-images) [](https://www.python.org/downloads/release/python-3110/) [](https://www.python.org/downloads/release/python-3120/) |",
+      "section": "ANNUBeS (part 8)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "| license | [](https://github.com/ANNUBS/annubes?tab=Apache-2.0-1-ov-file) |",
+      "section": "ANNUBeS (part 9)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Overview\n\nThe use of animals in neuroscience research is a fundamental tool to understand the inner workings of the brain during perception and cognition in health and disease. Neuroscientists train animals, often rodents, in behavioral tasks over several months, however training protocols are sometimes not well defined and this leads to delays in research, additional costs, or the need of more animals. Finding strategies to optimize animal training in safe and ethical ways is therefore of crucial importance in neuroscience.\n\nANNUBeS, which stays for _Artificial Neural Networks to Uncover Behavioral Strategies_, is a deep learning framework meant to generate synthetic data and train on them neural networks aimed at developing and evaluating animals' training protocols in neuroscience. The package gives the users the possibility to generate behavioral data in a very flexible way, that can be used to train neural networks in the same way that animals are trained, and study whether the developed models can predict the behavior of the animals. The ultimate goal of the framework is to lead researchers to more efficient training protocols, thus improving neuroscience practices.\n\n\ud83d\udcda [Documentation] https://annubs.github.io/annubes/latest/\n\n\ud83d\udc1b Bugs reports and \u2b50 features requests [here] https://github.com/ANNUBS/annubes/issues\n\n\ud83d\udd27 [Pull Requests] https://github.com/ANNUBS/annubes/pulls\n\nFor more details about how to contribute, see the [contribution guidelines] CONTRIBUTING.md.\n\n\u2757\u2757 DISCLAIMER \u2757\u2757\n\nPlease note that this software is currently in its early stages of development. As such, some features may not work exactly as intended or envisioned yet. We appreciate your patience and understanding. If you encounter any issues or have suggestions for improvement, we encourage you to open an issue on our repository. Thank you for your support!",
+      "section": "ANNUBeS (part 10)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Table of contents\n\n[ANNUBeS] #annubes\n\n[Overview] #overview\n\n[Table of contents] #table-of-contents\n\n[Installation] #installation\n\n[Pip installation] #pip-installation\n\n[Repository installation] #repository-installation\n\n[Get started] #get-started\n\n[Generate synthetic data] #generate-synthetic-data\n\n[Train neural networks] #train-neural-networks\n\n[Contributing] #contributing\n\n[Credits] #credits\n\n[Package development] #package-development\n\n## Installation\n\nWe advise to install the package inside a virtual environment (using [conda] https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html or [venv] https://docs.python.org/3/library/venv.html). Make sure to create an environment containing a Python version >=3.11 and pip package installer.\n\nAfter having created and activated your environment, you have two ways for installing ANNUBeS.\n\n### Pip installation\n\nThis is the recommended installation for users.\n\npip install annubes\n\nThis command will install the latest version of the package [deployed on PyPI] https://pypi.org/project/annubes/.\n\n### Repository installation\n\ngit clone git@github.com:ANNUBS/annubes.git cd annubes pip install .\n\nThe above commands will install the most recent version of the repository, using the default branch (main).\n\n## Get started",
+      "section": "ANNUBeS (part 11)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Generate synthetic data\n\nThe Task data class can be used for defining a behavioral task, and many parameters can be set. The configuration of the trials that can appear during a session is given by a dictionary representing the ratio of the different trials within the task (session). Trials with a single modality (e.g., a visual trial) must be represented by single characters, while trials with multiple modalities (e.g., an audiovisual trial) are represented by the character combination of those trials. The probability of catch trials (denoted by X) in the session can be set using the catch_prob parameter.\n\nfrom annubes.task import Task\n\ntask = Task(name='example_task',  session={\"v\":0.5, \"a\":0.5},  stim_intensities=[0.7, 0.9],  stim_time=2000,  catch_prob=0.3)\n\nFor more details about the Task class parameters, see the [API Documentation] https://annubs.github.io/annubes/latest/api/task/#annubes.task.Task.\n\nThen, trials can be generated:\n\nNTRIALS = 10 trials = task.generate_trials(NTRIALS)\n\nAnd plotted:\n\ntask.plot_trials(NTRIALS)\n\n### Train neural networks\n\nThis functionality is still under development.\n\n## Contributing\n\nIf you want to contribute to the development of annubes, have a look at the [contribution guidelines] CONTRIBUTING.md.\n\n## Credits\n\nThis package was created with [Cookiecutter] https://github.com/audreyr/cookiecutter and the [NLeSC/python-template] https://github.com/NLeSC/python-template.\n\n## Package development\n\nIf you're looking for developer documentation, go [here] https://github.com/ANNUBS/annubes/blob/main/README.dev.md.",
+      "section": "ANNUBeS (part 12)",
+      "repo": "006_ANNUBeS",
+      "source_file": "readme.md"
+    }
+  }
+]

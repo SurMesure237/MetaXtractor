@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/sscholz-UFZ/FishInspector",
+  "programmingLanguage": "MATLAB",
+  "programmingLanguages": [
+    "MATLAB",
+    "HTML"
+  ],
+  "downloadUrl": "https://api.github.com/repos/sscholz-UFZ/FishInspector/zipball/main",
+  "author": "sscholz-UFZ",
+  "dateCreated": "2018-09-05T13:48:09Z",
+  "dateModified": "2025-10-23T09:23:30Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Annotation of features from zebrafish embryos",
+  "identifier": 147525057,
+  "name": "sscholz-UFZ/FishInspector",
+  "issueTracker": "https://api.github.com/repos/sscholz-UFZ/FishInspector/issues",
+  "readme": "https://github.com/sscholz-UFZ/FishInspector/blob/master/README.md"
+}

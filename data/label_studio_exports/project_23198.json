@@ -1,0 +1,407 @@
+[
+  {
+    "id": 489,
+    "annotations": [
+      {
+        "id": 12165,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 294,
+              "end": 364,
+              "text": "https://github.com/lightning-uq-box/lightning-uq-box/blob/main/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "5h1Lzy0rIh",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 3,
+              "end": 53,
+              "text": "https://lightning-uq-box.readthedocs.io/en/latest/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "4pyH2sG2_O",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:52:33.312661Z",
+        "updated_at": "2025-11-16T05:29:01.320245Z",
+        "draft_created_at": "2025-11-09T10:52:28.334793Z",
+        "lead_time": 19.628,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "27af8c74-26a2-4836-b59f-f2a1dea45789",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 489,
+        "project": 23198,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://lightning-uq-box.readthedocs.io/en/latest/) [](https://github.com/lightning-uq-box/lightning-uq-box/actions/workflows/style.yaml) [](https://github.com/lightning-uq-box/lightning-uq-box/actions/workflows/tests.yaml) [](https://app.codecov.io/gh/lightning-uq-box/lightning-uq-box) [](https://github.com/lightning-uq-box/lightning-uq-box/blob/main/LICENSE)\n\n&emsp;",
+      "section": "Introduction",
+      "repo": "356_Lightning_UQ_Box",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.870359Z",
+    "updated_at": "2025-11-16T05:29:01.349903Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23198,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 490,
+    "annotations": [
+      {
+        "id": 12166,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:52:39.819503Z",
+        "updated_at": "2025-11-09T10:52:39.819519Z",
+        "draft_created_at": null,
+        "lead_time": 6.322,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "1bf3d9ed-08fd-434c-91a1-1566bfa8b2fa",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 490,
+        "project": 23198,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "lightning-uq-box\n\nThe lightning-uq-box is a PyTorch library that provides various Uncertainty Quantification (UQ) techniques for modern neural network architectures.\n\nWe hope to provide the starting point for a collaborative open source effort to make it easier for practitioners to include UQ in their workflows and remove possible barriers of entry. Additionally, we hope this can be a pathway to more easily compare methods across UQ frameworks and potentially enhance the development of new UQ methods for neural networks.\n\nThe project is currently under active development, but we nevertheless hope for early feedback, feature requests, or contributions. Please check the [Contribution Guide] https://lightning-uq-box.readthedocs.io/en/latest/contribute.html for further information.\n\nThe goal of this library is threefold:\n\nProvide implementations for a variety of Uncertainty Quantification methods for Modern Deep Neural Networks that work with a range of neural network architectures and have different theoretical underpinnings\n\nMake it easy to compare UQ methods on a given dataset\n\nFocus on reproducibility of experiments with minimum boiler plate code and standardized evaluation protocols\n\nTo this end, each UQ-Method is essentially just a [Lightning Module] https://lightning.ai/docs/pytorch/stable/common/lightning_module.html which can be used with a [Lightning Data Module] https://lightning.ai/docs/pytorch/stable/data/datamodule.html and a [Trainer] https://lightning.ai/docs/pytorch/stable/common/trainer.html to execute training, evaluation and inference for your desired task. The library also utilizes the [Lightning Command Line Interface (CLI)] https://lightning.ai/docs/pytorch/stable/api/lightning.pytorch.cli.LightningCLI.html for better reproducibility of experiments and setting up experiments at scale.",
+      "section": "lightning-uq-box",
+      "repo": "356_Lightning_UQ_Box",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.870403Z",
+    "updated_at": "2025-11-09T10:52:39.849168Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23198,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 491,
+    "annotations": [
+      {
+        "id": 12167,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:52:52.898710Z",
+        "updated_at": "2025-11-09T10:52:52.898724Z",
+        "draft_created_at": null,
+        "lead_time": 12.916,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "d202122d-19a8-4ffc-9408-28feb004698b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 491,
+        "project": 23198,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Theory Guide\n\nFor a comprehensive document that provides more mathematical details for each method and generally forms the basis of our implementations, please see the [Theory Guide] ./docs/api/Lightning_UQ_Box_Theory_Guide.pdf. As a living document, we plan to update it as the library encompasses more methods. If you have any questions, or find typos or errors, feel free to open an issue.\n\nInstallation\n\nThe recommended way to install the latest released version is via pip,\n\npip install lightning-uq-box\n\nFor the latest development version you can run,\n\npip install git+https://github.com/lightning-uq-box/lightning-uq-box.git\n\nThe package is also available for installation via conda or spack. You can find instructions in the [documention] https://lightning-uq-box.readthedocs.io/en/latest/installation.html",
+      "section": "Theory Guide + Installation",
+      "repo": "356_Lightning_UQ_Box",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.870429Z",
+    "updated_at": "2025-11-09T10:52:52.924186Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23198,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 492,
+    "annotations": [
+      {
+        "id": 12168,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:53:05.500816Z",
+        "updated_at": "2025-11-09T10:53:05.500831Z",
+        "draft_created_at": null,
+        "lead_time": 12.433,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "29f45ef4-e3fc-461b-b64e-d6ad4d1a82fd",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 492,
+        "project": 23198,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "UQ-Methods\n\nIn the tables that follow below, you can see what UQ-Method/Task combination is currently supported by the Lightning-UQ-Box via these indicators:\n\n✅ supported\n\n❌ not designed for this task\n\n⏳ in progress\n\nThe implemented methods are of course not exhaustive, as the number of new methods keeps increasing. For an overview of methods that we are tracking or are planning to support, take a look at [this issue] https://github.com/lightning-uq-box/lightning-uq-box/issues/43.\n\n## Classification of UQ-Methods\n\nThe following sections aims to give an overview of different UQ-Methods by grouping them according to some commonalities. We agree that there could be other groupings as well and welcome suggestions to improve this overview. We also follow this grouping for the API documentation in the hopes to make navigation easier.\n\n### Single Forward Pass Methods\n\n| UQ-Method | Regression | Classification | Segmentation | Pixel Wise Regression | |-----------------------------------------------|:----------:|:--------------:|:------------:|:---------------------:| | Quantile Regression (QR) | ✅ | ❌ | ❌ | ✅ | | Deep Evidential (DE) | ✅ | ⏳ | ⏳ | ✅ | | Mean Variance Estimation (MVE) | ✅ | ❌ | ❌ | ✅ | | ZigZag | ✅ | ✅ | ❌ | ❌ | | Mixture Density Networks | ✅ | ❌ | ❌ | ⏳ |",
+      "section": "UQ-Methods (part 1)",
+      "repo": "356_Lightning_UQ_Box",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.870453Z",
+    "updated_at": "2025-11-09T10:53:05.530370Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23198,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 493,
+    "annotations": [
+      {
+        "id": 12169,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:53:06.893524Z",
+        "updated_at": "2025-11-09T10:53:06.893542Z",
+        "draft_created_at": null,
+        "lead_time": 1.23,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "65f6d532-313a-43a3-a293-8298fade7aed",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 493,
+        "project": 23198,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Approximate Bayesian Methods\n\n| UQ-Method | Regression | Classification | Segmentation | Pixel Wise Regression | |-----------------------------------------------|:----------:|:--------------:|:------------:|:---------------------:| | Bayesian Neural Network VI ELBO (BNN_VI_ELBO) | ✅ | ✅ | ✅ | ⏳ | | Bayesian Neural Network VI (BNN_VI) | ✅ | ⏳ | ⏳ | ⏳ | | Deep Kernel Learning (DKL) | ✅ | ✅ | ❌ | ❌ | | Deterministic Uncertainty Estimation (DUE) | ✅ | ✅ | ❌ | ❌ | | Laplace Approximation (Laplace) | ✅ | ✅ | ❌ | ❌ | | Monte Carlo Dropout (MC-Dropout) | ✅ | ✅ | ✅ | ✅ | | Stochastic Gradient Langevin Dynamics (SGLD) | ✅ | ✅ | ⏳ | ⏳ | | Spectral Normalized Gaussian Process (SNGP) | ✅ | ✅ | ❌ | ❌ | | Stochastic Weight Averaging Gaussian (SWAG) | ✅ | ✅ | ✅ | ✅ | | Variational Bayesian Last Layer (VBLL) | ✅ | ✅ | ❌ | ❌ | | Deep Ensemble | ✅ | ✅ | ✅ | ✅ | | Masked Ensemble | ✅ | ✅ | ⏳ | ⏳ | | Density Uncertainty Layer | ✅ | ✅ | ❌ | ❌ |",
+      "section": "UQ-Methods (part 2)",
+      "repo": "356_Lightning_UQ_Box",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.870477Z",
+    "updated_at": "2025-11-09T10:53:06.922788Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23198,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 494,
+    "annotations": [
+      {
+        "id": 12170,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:53:08.610488Z",
+        "updated_at": "2025-11-09T10:53:08.610503Z",
+        "draft_created_at": null,
+        "lead_time": 1.557,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "5be8b45f-4236-4946-b3d7-1bbad5e14205",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 494,
+        "project": 23198,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Generative Models\n\n| UQ-Method | Regression | Classification | Segmentation | Pixel Wise Regression | |-----------------------------------------------|:----------:|:--------------:|:------------:|:---------------------:| | Classification And Regression Diffusion (CARD)| ✅ | ✅ | ❌ | ❌ | | Probabilistic UNet | ❌ | ❌ | ✅ | ❌ | | Hierarchical Probabilistic UNet | ❌ | ❌ | ✅ | ❌ | | Variational Auto-Encoder (VAE) | ❌ | ❌ | ❌ | ✅ |\n\n### Post-Hoc methods\n\n| UQ-Method | Regression | Classification | Segmentation | Pixel Wise Regression | |-----------------------------------------------|:----------:|:--------------:|:------------:|:---------------------:| | Test Time Augmentation (TTA) | ✅ | ✅ | ⏳ | ⏳ | | Temperature Scaling | ❌ | ✅ | ⏳ | ❌ | | Conformal Quantile Regression (Conformal QR) | ✅ | ❌ | ❌ | ⏳ | | Regularized Adaptive Prediction Sets (RAPS) | ❌ | ✅ | ❌ | ❌ | | Image to Image Conformal | ❌ | ❌ | ❌ | ✅ |",
+      "section": "UQ-Methods (part 3)",
+      "repo": "356_Lightning_UQ_Box",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.870498Z",
+    "updated_at": "2025-11-09T10:53:08.634910Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23198,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 495,
+    "annotations": [
+      {
+        "id": 12171,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 735,
+              "end": 1138,
+              "text": "@article{JMLR:v26:24-2110, author = {Nils Lehmann and Nina Maria Gottschling and Jakob Gawlikowski and Adam J. Stewart and Stefan Depeweg and Eric Nalisnick}, title = {Lightning UQ Box: Uncertainty Quantification for Neural Networks}, journal = {Journal of Machine Learning Research}, year = {2025}, volume = {26}, number = {54}, pages = {1--7}, url = {http://jmlr.org/papers/v26/24-2110.html} }",
+              "labels": [
+                "CITATION_BIBTEX"
+              ]
+            },
+            "id": "0-faHEsrEi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 692,
+              "end": 732,
+              "text": "https://jmlr.org/papers/v26/24-2110.html",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "zOhi3-g4jI",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:53:26.501431Z",
+        "updated_at": "2025-11-09T10:53:26.501447Z",
+        "draft_created_at": "2025-11-09T10:53:22.850146Z",
+        "lead_time": 17.733,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "1a76bd7a-73d0-4c83-8277-70172bd924c4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 495,
+        "project": 23198,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Tutorials\n\nWe try to provide many different tutorials so that users can get a better understanding of implemented methods and get a feel for how they apply to different problems. Head over to the [tutorials] https://lightning-uq-box.readthedocs.io/en/latest/tutorial_overview.html page to get started. These tutorials can also be launched in google colab if you navigate to the rocket icon at the top of a tutorial page.\n\nDocumentation We aim to provide an extensive documentation on all included UQ-methods that provide some theoretical background, as well as tutorials that illustrate these methods on toy datasets.\n\nCitation\n\nIf you use this software in your work, please cite our [paper] https://jmlr.org/papers/v26/24-2110.html:\n\n@article{JMLR:v26:24-2110,  author = {Nils Lehmann and Nina Maria Gottschling and Jakob Gawlikowski and Adam J. Stewart and Stefan Depeweg and Eric Nalisnick},  title = {Lightning UQ Box: Uncertainty Quantification for Neural Networks},  journal = {Journal of Machine Learning Research},  year = {2025},  volume = {26},  number = {54},  pages = {1--7},  url = {http://jmlr.org/papers/v26/24-2110.html} }",
+      "section": "Tutorials + Documentation + Citation",
+      "repo": "356_Lightning_UQ_Box",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:46.870521Z",
+    "updated_at": "2025-11-09T10:53:26.524764Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23198,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

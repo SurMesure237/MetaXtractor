@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/EOSC-LOFAR/lofar-ld",
+  "programmingLanguage": "Makefile",
+  "programmingLanguages": [
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/EOSC-LOFAR/lofar-ld/zipball/main",
+  "author": "EOSC-LOFAR",
+  "dateCreated": "2018-06-26T11:44:54Z",
+  "dateModified": "2018-11-26T19:03:17Z",
+  "keywords": [
+    "linked-data",
+    "radio-astronomy",
+    "radioastronomy"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "LOFAR Linked Data Platform",
+  "identifier": 138730107,
+  "name": "EOSC-LOFAR/lofar-ld",
+  "issueTracker": "https://api.github.com/repos/EOSC-LOFAR/lofar-ld/issues",
+  "readme": "https://github.com/EOSC-LOFAR/lofar-ld/blob/master/README.md"
+}

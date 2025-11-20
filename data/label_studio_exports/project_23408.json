@@ -1,0 +1,267 @@
+[
+  {
+    "id": 1781,
+    "annotations": [
+      {
+        "id": 10640,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 328,
+              "end": 338,
+              "text": "VirtualBox",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Zca4gLYBJY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 367,
+              "end": 375,
+              "text": " Vagrant",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "aeBFDklYsG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 615,
+              "end": 625,
+              "text": "Virtualbox",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "wi7UQsrR8F",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 655,
+              "end": 662,
+              "text": " Packer",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "zi_0FfmEC0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 79,
+              "end": 142,
+              "text": "https://zenodo.org/badge/latestdoi/19641/3D-e-Chem/3D-e-Chem-VM",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "lwXEFNo2O8",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 340,
+              "end": 366,
+              "text": "https://www.virtualbox.org",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "5QpQ04Nmke",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 377,
+              "end": 402,
+              "text": "https://www.vagrantup.com",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "xd1SHs-Ura",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 627,
+              "end": 654,
+              "text": "https://www.virtualbox.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "Y7ZwlxBjJH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 664,
+              "end": 681,
+              "text": "https://packer.io",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "DDBdqn1ihT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:03:28.095630Z",
+        "updated_at": "2025-11-14T13:03:36.341435Z",
+        "draft_created_at": "2025-11-04T19:02:59.670576Z",
+        "lead_time": 78.79,
+        "prediction": {},
+        "result_count": 9,
+        "unique_id": "1e416098-1967-4ba9-9693-4f0c24d94561",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1781,
+        "project": 23408,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "3D e-Chem Virtual Machine\n\n[](https://travis-ci.org/3D-e-Chem/3D-e-Chem-VM) [](https://zenodo.org/badge/latestdoi/19641/3D-e-Chem/3D-e-Chem-VM)\n\nScripts to create a Vagrant box using packer and ansible.\n\nFor available software/datasets/workflows inside Virtual machine see https://github.com/3D-e-Chem/3D-e-Chem-VM/wiki\n\nUsage\n\nVirtualBox, https://www.virtualbox.org  Vagrant, https://www.vagrantup.com\n\nCreate a new directory and cd to it then start virtual machine with\n\nvagrant init nlesc/3d-e-chem vagrant up\n\nUsage screencast on YouTube:\n\n[](https://www.youtube.com/watch?v=zBv4rPfsLLc)\n\nBuild\n\nRequirements:\n\nVirtualbox, https://www.virtualbox.org/  Packer, https://packer.io  Enough disk space  Make sure temporary directory (/tmp by default on Linux) has enough space. Use TMPDIR environment variable to overwrite default location ova file ../Chemical-Analytics-Platform/output-virtualbox-iso/cap.ova from build phase of https://github.com/NLeSC/Chemical-Analytics-Platform\n\npacker build packer.json\n\nAdd box to Vagrant with\n\nvagrant box remove --force --all nlesc/3d-e-chem vagrant box add --name nlesc/3d-e-chem --force packer_virtualbox-ovf_virtualbox.box\n\nThen use steps described at Usage chapter in a new directory.",
+      "section": "3D e-Chem Virtual Machine + Usage + Build (and 1 more)",
+      "repo": "000_3D-e-Chem_Virtual_Machine",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.519310Z",
+    "updated_at": "2025-11-14T13:03:36.379497Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23408,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1782,
+    "annotations": [
+      {
+        "id": 10641,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 577,
+              "end": 640,
+              "text": "https://zenodo.org/badge/latestdoi/19641/3D-e-Chem/3D-e-Chem-VM",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "puoE4bDD6D",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 641,
+              "end": 986,
+              "text": "R. McGuire, S. Verhoeven, M. Vass, G. Vriend, I. J. P. De Esch, S. J. Lusher, R. Leurs, L. Ridder, A. J. Kooistra, T. Ritschel, C. de Graaf (2017). 3D-e-Chem-VM: Structural cheminformatics research infrastructure in a freely available Virtual Machine. Journal of Chemical Information and Modeling. doi: http://dx.doi.org/10.1021/acs.jcim.6b00686",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "UKLeqnf8x6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:04:23.839438Z",
+        "updated_at": "2025-11-04T19:04:23.839454Z",
+        "draft_created_at": "2025-11-04T19:04:21.273543Z",
+        "lead_time": 55.539,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "28332b83-7f21-4028-90c4-66ee924a8421",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1782,
+        "project": 23408,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Push\n\nRequirements:\n\nVagrant cloud account, https://app.vagrantup.com/nlesc/boxes/3d-e-chem\n\nPublish box on https://app.vagrantup.com/nlesc/boxes/3d-e-chem using the following steps:\n\nCreate a new version\n\nCreate a new provider\n\nChoose virtualbox as provider\n\nChoose Upload\n\nPress Continue to upload\n\nUpload the packer_virtualbox-ivf_virtualbox.box file generated by vagrant package\n\nEdit version\n\nPress Release version\n\nContributing\n\nPlease see [CONTRIBUTING.md] CONTRIBUTING.md.\n\nCite\n\nWhen using 3D-e-Chem-VM please cite one of the following:\n\n[Zenodo software release DOI] https://zenodo.org/badge/latestdoi/19641/3D-e-Chem/3D-e-Chem-VM R. McGuire, S. Verhoeven, M. Vass, G. Vriend, I. J. P. De Esch, S. J. Lusher, R. Leurs, L. Ridder, A. J. Kooistra, T. Ritschel, C. de Graaf (2017). 3D-e-Chem-VM: Structural cheminformatics research infrastructure in a freely available Virtual Machine. Journal of Chemical Information and Modeling. doi: http://dx.doi.org/10.1021/acs.jcim.6b00686",
+      "section": "Push + Contributing + Cite",
+      "repo": "000_3D-e-Chem_Virtual_Machine",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.519352Z",
+    "updated_at": "2025-11-04T19:04:23.867034Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23408,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

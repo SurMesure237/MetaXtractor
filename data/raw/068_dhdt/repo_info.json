@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/GO-Eratosthenes/dhdt",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "TeX"
+  ],
+  "downloadUrl": "https://api.github.com/repos/GO-Eratosthenes/dhdt/zipball/main",
+  "author": "GO-Eratosthenes",
+  "dateCreated": "2020-04-15T10:24:47Z",
+  "dateModified": "2024-01-12T18:12:48Z",
+  "keywords": [
+    "landsat8",
+    "photohypsometry",
+    "python",
+    "rapideye",
+    "sentinel-2"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Extracting topography from mountain glaciers, through the use of shadow casted by surrounding mountains.",
+  "identifier": 255881873,
+  "name": "GO-Eratosthenes/dhdt",
+  "issueTracker": "https://api.github.com/repos/GO-Eratosthenes/dhdt/issues",
+  "readme": "https://github.com/GO-Eratosthenes/dhdt/blob/master/README.rst"
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1005,
+    "annotations": [
+      {
+        "id": 12089,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 210,
+              "end": 228,
+              "text": "http://amrvac.org/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "_6rXZ9QpTm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:59:21.079577Z",
+        "updated_at": "2025-11-16T05:52:53.755850Z",
+        "draft_created_at": "2025-11-09T07:59:17.619798Z",
+        "lead_time": 38.861000000000004,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "b4e015df-8795-4fc9-800e-03d58780c35f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1005,
+        "project": 23266,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://github.com/amrvac/AGILE-experimental/actions/workflows/tests.yml)\n\n# AGILE\n\nThis is the development version of AGILE, a GPU enabled fork of MPI-AMRVAC. All documentation is available on [amrvac.org] http://amrvac.org/.\n\n## Work in progress...\n\nTo install this version, follow these steps: install the uv package manager pip install uv\n\nmake sure $AMRVAC_DIR points to the repository root folder\n\ninstall the required python packages uv sync and activate them source .venv/bin/activate\n\ngo into a test, e.g. cd tests/hd/KH3D\n\nto compile, load the appropriate modules, e.g. on snellius:\n\nmodule purge module load 2023 module load OpenMPI/4.1.5-NVHPC-24.5-CUDA-12.1.1\n\ncompile with nvfortran and activated OPENACC via make arch=nvidia OPENACC=1\n\n## Currently supported features on master\n\nPhysics modules: hd, mhd [glm], ffhd\n\nSource terms (gravity, radiative cooling, hyperbolic thermal conduction, user defined) and boundary conditions (symm, asymm, cont etc. but also special)\n\nMulti-block uniform grid and static mesh refinement (SMR) simulations\n\nMulti-GPU (MPI) simulations",
+      "section": "README",
+      "repo": "199_MPI-AMRVAC",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:51.689162Z",
+    "updated_at": "2025-11-16T05:52:53.793566Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23266,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

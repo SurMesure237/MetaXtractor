@@ -1,0 +1,229 @@
+[
+  {
+    "id": 502,
+    "annotations": [
+      {
+        "id": 11379,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:15:50.552205Z",
+        "updated_at": "2025-11-07T08:15:50.552221Z",
+        "draft_created_at": null,
+        "lead_time": 1.757,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6a124831-4d01-47f1-a07b-e337c39f3c30",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 502,
+        "project": 23200,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "",
+      "section": "Introduction",
+      "repo": "178_Code_belonging_to_the_publication__Closed-loop_model-predictive_wind_farm_flow_control_under_time-va",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.003008Z",
+    "updated_at": "2025-11-07T08:15:50.582042Z",
+    "inner_id": 1,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23200,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 503,
+    "annotations": [
+      {
+        "id": 11380,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:16:03.849684Z",
+        "updated_at": "2025-11-07T08:16:03.849694Z",
+        "draft_created_at": null,
+        "lead_time": 13.131,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "fb317de1-5ce5-4e92-a7d0-c0f7faff841e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 503,
+        "project": 23200,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "OFF Welcome to the working repo for a dynamic parametric wake toolbox which combines and connects OnWaRDS, FLORIDyn and FLORIS (OFF). ## Purpose\n\nThe OFF toolbox is meant to provide one interface to dynamic parametric wake modelling. The goal is to enable testing of different approaches, comparisons using the same interface and a environment to develop new approaches.\n\n## Development\n\n### Current state\n\nSo what can you expect today? The toolbox allows you to run dynamic wind farm simulations using a prescribed (uniform) flow field. The code uses an implementation of the FLORIDyn-framework \\[1\\], which then interfaces to the FLORISv4 model \\[2\\].\n\nCurrent degrees of design-freedom include: The flow field can change uniformly in direction and speed,\n\nthe FLORISv4 wake can be changed,\n\nthe number and location of turbines can be altered,\n\nWake steerig control is available\n\nCurrent limitations include: Heterogeneous flow field behaviour is not included,\n\nThe dynamic solver is a preliminary implementation, and cannot be changed\n\nOnWaRDS \\[3\\] approach not yet impemented\n\nParticle model and behaviour not yet changable\n\nFeatures include: Logging\n\nThere is an [auto-documentation framework] https://tudelft-datadrivencontrol.github.io/OFF/\n\nUML diagram of the code\n\nMeasurements are stored in run-folders\n\nPreliminary effective wind speed flow field plots are possible\n\n### Current development focus\n\nCompletion of the toolbox\n\nImplement OnWaRDS\n\nImplement a low-level controller for yaw and induction\n\nValidation and reference cases\n\nFeatures\n\nInput flow field data (heterogeneous flow)\n\nImproved flow field plotting\n\nComputational performance\n\nUser friendliness\n\nComplete the \"Interactive Simulation Assembly\"\n\nCommunicate back what model has been used and under which conditions (Report)",
+      "section": "OFF (part 1)",
+      "repo": "178_Code_belonging_to_the_publication__Closed-loop_model-predictive_wind_farm_flow_control_under_time-va",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.003053Z",
+    "updated_at": "2025-11-07T08:16:03.873274Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23200,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 504,
+    "annotations": [
+      {
+        "id": 11381,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1271,
+              "end": 1562,
+              "text": "Becker, M., Lejeune, M., Chatelain, P., Allaerts, D., Mudafort, R., and van Wingerden, J.W.: A dynamic open-source model to investigate wake dynamics in response to wind farm flow control strategies, Wind Energ. Sci. Discuss. [preprint], https://doi.org/10.5194/wes-2024-150, in review, 2024",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "j01AAwZa3O",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1167,
+              "end": 1173,
+              "text": "Sphinx",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "nhwS15I3sy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:16:24.352458Z",
+        "updated_at": "2025-11-16T05:24:53.551940Z",
+        "draft_created_at": "2025-11-07T08:16:18.895536Z",
+        "lead_time": 50.265,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "83ed3631-7492-44c8-ad09-405562ce20f9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 504,
+        "project": 23200,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Longterm vision\n\nFLORIDyn and OnWaRDS are hopefully only the start to create a transparent toolbox to explore dynamic parametric wake modelling choices. We therefore plan to implement more model-design decisions and allow a simple, automatable change of them. Extensions of the code could include floating turbine descriptions, new wake solvers or modifications of existing ones.\n\n## Contributing\n\nFork branch commit push pull! We do explicitly encourage the interested developers to engage and also to add their ideas and code to the toolbox. The Git is also meant as a place to discuss and propose new changes.\n\n## How to run a simulation\n\nRun the main.py in the 03_Code folder.\n\nTo change the simulation, you have to change the .yaml file OFF calls. This is defined by one of the first limes of code in the main function. The .yaml structure is showed in 02_Examples_and_Cases/02_Example_Cases/run_example.yaml . This is where you can change the wind farm layout, the flow conditions, the wake model etc.\n\nA thorough description of the code is available [here] https://tudelft-datadrivencontrol.github.io/OFF/. The documentation is handled automatically using Sphinx.\n\n## How to cite\n\nIf OFF has played a role in your work, please cite the following publication:\n\nBecker, M., Lejeune, M., Chatelain, P., Allaerts, D., Mudafort, R., and van Wingerden, J.W.: A dynamic open-source model to investigate wake dynamics in response to wind farm flow control strategies, Wind Energ. Sci. Discuss. [preprint], https://doi.org/10.5194/wes-2024-150, in review, 2024.\n\n## Contact and sources\n\n### Core Developers\n\n[Marcus Becker] https://www.tudelft.nl/staff/marcus.becker/?cHash=4e16fc5842bde9873a2a322dcbc17453 (TU Delft) and  [Maxime Lejeune] https://uclouvain.be/fr/repertoires/maxime.lejeune (UCLouvain) are the current core developers of the OFF toolbox.",
+      "section": "OFF (part 2)",
+      "repo": "178_Code_belonging_to_the_publication__Closed-loop_model-predictive_wind_farm_flow_control_under_time-va",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.003079Z",
+    "updated_at": "2025-11-16T05:24:53.587999Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23200,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 505,
+    "annotations": [
+      {
+        "id": 11382,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-07T08:21:32.655246Z",
+        "updated_at": "2025-11-07T08:21:32.655265Z",
+        "draft_created_at": null,
+        "lead_time": 2.208,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "119ae2fc-0c24-4256-a875-4164f813a137",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 505,
+        "project": 23200,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Sources\n\n\\[1\\] FLORIDyn - A dynamic and flexible framework for real-time wind farm control, M. Becker, D. Allaerts, J.W. van Wingerden, 2022 J. Phys.: Conf. Ser. 2265(2022) 032103\n\n\\[2\\] FLORIS Wake Modeling and Wind Farm Controls Software, National Renewable Energy Laboratory, 2024, GitHub\n\n\\[3\\] A Meandering-Capturing Wake Model Coupled to Rotor-Based Flow-Sensing for Operational Wind Farm Flow Prediction, M. Lejeune, M. Moens, P. Chatelain, 2022 Front. Energy Res., Sec. Wind Energy",
+      "section": "OFF (part 3)",
+      "repo": "178_Code_belonging_to_the_publication__Closed-loop_model-predictive_wind_farm_flow_control_under_time-va",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.003122Z",
+    "updated_at": "2025-11-07T08:21:32.686865Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23200,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

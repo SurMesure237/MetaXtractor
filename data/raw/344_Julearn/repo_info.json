@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/juaml/julearn",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/juaml/julearn/zipball/main",
+  "author": "juaml",
+  "dateCreated": "2020-10-28T08:05:53Z",
+  "dateModified": "2025-10-23T17:09:05Z",
+  "keywords": [
+    "machine-learning",
+    "python"
+  ],
+  "license": "https://api.github.com/licenses/agpl-3.0",
+  "description": "Forschungszentrum Jülich Machine Learning Library",
+  "identifier": 307946174,
+  "name": "juaml/julearn",
+  "issueTracker": "https://api.github.com/repos/juaml/julearn/issues",
+  "readme": "https://github.com/juaml/julearn/blob/main/README.md"
+}

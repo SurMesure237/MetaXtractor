@@ -1,0 +1,98 @@
+[
+  {
+    "data": {
+      "text": "ParFlow\n\nParFlow is an open-source, modular, parallel watershed flow model. It includes fully-integrated overland flow, the ability to simulate complex topography, geology and heterogeneity and coupled land-surface processes including the land-energy budget, biogeochemistry and snow (via CLM). It is multi-platform and runs with a common I/O structure from laptop to supercomputer. ParFlow is the result of a long, multi-institutional development history and is now a collaborative effort between CSM, LLNL, UniBonn and UCB. ParFlow has been coupled to the mesoscale, meteorological code ARPS and the NCAR code WRF.\n\nFor an overview of the major features and capabilities see the following paper: [Simulating coupled surface\u2013subsurface flows with ParFlow v3.5.0: capabilities, applications, and ongoing development of an open-source, massively parallel, integrated hydrologic model] https://www.geosci-model-dev.net/13/1373/2020/gmd-13-1373-2020.pdf.\n\nAn online version of the users manual is available on [Read the Docks:Parflow Users Manual] https://parflow.readthedocs.io/en/latest/index.html. The manual contains additional documentation on how to use ParFlow and setup input files. A quick start is included below. A PDF version is available at [Parflow Users Manual PDF] https://parflow.readthedocs.io/_/downloads/en/latest/pdf/.",
+      "section": "ParFlow (part 1)",
+      "repo": "419_ParFlow",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Citing Parflow\n\nIf you want the DOI for a specific release see: [Zendo] https://zenodo.org/search?page=1&size=20&q=parflow&version\n\nA generic DOI that always links to the most current release : [](https://doi.org/10.5281/zenodo.4816884)\n\nIf you use ParFlow in a publication and wish to cite a paper reference please use the following that describe model physics:\n\nAshby S.F. and R.D. Falgout, Nuclear Science and Engineering 124:145-159, 1996  Jones, J.E. and C.S. Woodward, Advances in Water Resources 24:763-774, 2001  Kollet, S.J. and R.M. Maxwell, Advances in Water Resources 29:945-958, 2006  Maxwell, R.M. Advances in Water Resources 53:109-117, 2013\n\nIf you use ParFlow coupled to CLM in a publication, please also cite two additional papers that describe the coupled model physics:\n\nMaxwell, R.M. and N.L. Miller, Journal of Hydrometeorology 6(3):233-247, 2005  Kollet, S.J. and R.M. Maxwell, Water Resources Research 44:W02402, 2008\n\n### Additional Parflow resources\n\nThe ParFlow website has additional information on the project: [Parflow Web Site] https://parflow.org/\n\nYou can join the Parflow Google Group/mailing list to communicate with the Parflow developers and users. In order to post you will have to join the group, old posts are visible without joining: [Parflow-Users] https://groups.google.com/g/parflow\n\nThe most recent build/installation guides are now located on the Parflow Wiki: [Parflow Installation guides] https://github.com/parflow/parflow/wiki/ParFlow-Installation-Guides\n\nA Parflow blog is available with notes from users on how to use Parflow: [Parflow Blog] http://parflow.blogspot.com/\n\nTo report Parflow bugs, please use the GitHub issue tracker for Parflow: [Parflow Issue Tracker] https://github.com/parflow/parflow/issues",
+      "section": "ParFlow (part 2)",
+      "repo": "419_ParFlow",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Quick Start on Unix/Linux\n\nImportant note for users that have built with Autoconf, the CMake configure process is one step by default. Most builds of of ParFlow are on MPP architectures or workstations where the login node and compute nodes are same architecture the default build process builds both the ParFlow executable and tools with the same compilers and libraries in one step. This will hopefully make building easier for the majority of users. It is still possible to build the two components separately; see instruction below for building pftools and pfsimulator separately.\n\nCMake supports builds for several operating systems and IDE tools (like Visual Studio on Windows and XCode on MacOS). The ParFlow team has not tested building on platforms other than Linux; there will likely be some issues on other platforms. The ParFlow team welcomes bug reports and patches if you attempt other builds.\n\n### Step 1: Setup\n\nDecide where to install ParFlow and associated libraries.\n\nSet the environment variable PARFLOW_DIR to the chosen location:\n\nFor bash:\n\nexport PARFLOW_DIR=/home/snoopy/parflow\n\nFor csh and tcsh:\n\nsetenv PARFLOW_DIR /home/snoopy/parflow\n\n### Step 2: Extract the Source\n\nExtract the source files from the compressed tar file.\n\nObtain the release from the ParFlow GitHub web site:\n\nhttps://github.com/parflow/parflow/releases\n\nand extract the release. Here we assume you are building in new subdirectory in your home directory:\n\nmkdir ~/parflow  cd ~/parflow  tar -xzvf ../parflow-.tar.gz\n\nNote the ParFlow tar file will be have a different name based on the version number.",
+      "section": "ParFlow (part 3)",
+      "repo": "419_ParFlow",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Step 3: Running CMake to configure ParFlow\n\nCMake is a utility that sets up makefiles for building ParFlow. CMake allows setting of compiler to use and other options. First create a directory for the build. It is generally recommend to build outside of the source directory to make it keep things clean. For example, restarting a failed build with a separate build directory simply involves removing the build directory.\n\n#### Building with the ccmake GUI\n\nYou can control build options for ParFlow using the ccmake GUI.\n\nmkdir build  cd build  ccmake ../parflow-\n\nFirst press c to generate an initial configuration. Hereafter, at a minimum, you will want to set the CMAKE_INSTALL_PREFIX value to the same thing as PARFLOW_DIR was set to above. Other variables should be set as desired.\n\nAfter setting a variable c will configure ParFlow. When you are completely done setting configuration options, use g to generate the configuration and exit ccmake.\n\nIf you are new to CMake, the creators of CMake provide some additional ccmake usage notes here:\n\nhttps://cmake.org/resources/",
+      "section": "ParFlow (part 4)",
+      "repo": "419_ParFlow",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "#### Building with the cmake command line\n\nCMake may also be configured from the command line using the cmake command. Instructions to build with different accelerator backends are found from the following documents: [CUDA, KOKKOS] README-GPU.md, [OpenMP] README-OPENMP.md. The default will configure a sequential version of ParFlow using MPI libraries. CLM is being enabled.\n\nmkdir build  cd build  cmake ../parflow- \\  -DCMAKE_INSTALL_PREFIX=${PARFLOW_DIR} \\  -DPARFLOW_HAVE_CLM=ON\n\nIf TCL is not installed in the standard locations (/usr or /usr/local) you need to specify the path to the tclsh location:\n\n-DTCL_TCLSH=${PARFLOW_TCL_DIR}/bin/tclsh8.6\n\nBuilding a parallel version of ParFlow requires the communications layer to use must be set. The most common option will be MPI. Here is a minimal example of an MPI build with CLM:\n\nmkdir build  cd build  cmake ../parflow \\  -DCMAKE_INSTALL_PREFIX=${PARFLOW_DIR} \\  -DPARFLOW_HAVE_CLM=ON \\  -DPARFLOW_AMPS_LAYER=mpi1\n\nHere is a more complex example where location of various external packages are being specified and some features are being enabled:\n\nmkdir build  cd build  cmake ../parflow- \\  -DPARFLOW_AMPS_LAYER=mpi1 \\  -DHYPRE_ROOT=${PARFLOW_HYPRE_DIR} \\  -DHDF5_ROOT=${PARFLOW_HDF5_DIR} \\  -DSILO_ROOT=${PARFLOW_SILO_DIR} \\  -DCMAKE_BUILD_TYPE=Debug \\  -DPARFLOW_ENABLE_TIMING=TRUE \\  -DPARFLOW_HAVE_CLM=ON \\  -DCMAKE_INSTALL_PREFIX=${PARFLOW_DIR}\n\n### Step 4: Building and installing\n\nOnce CMake has configured and created a set of Makefiles; building is easy:\n\ncd build  make  make install",
+      "section": "ParFlow (part 5)",
+      "repo": "419_ParFlow",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Step 5: Running a sample problem\n\nIf all went well a sample ParFlow problem can be run using:\n\ncd parflow-/test/tcl  tclsh default_single.tcl 1 1 1\n\nNote that the environment variable PARFLOW_DIR must be set for this to work and it assumes tclsh is in your path. Make sure to use the same TCL shell as was used in the cmake configure.\n\nSome parallel machines do not allow launching a parallel executable from the login node; you may need to run this command in a batch file or by starting a parallel interactive session.\n\n## Building documentation\n\n### User Manual\n\nAn online version of the user manual is also available on [Read the Docks:Parflow Users Manual] https://parflow.readthedocs.io/en/latest/index.html, a PDF version is available at [Parflow Users Manual PDF] https://parflow.readthedocs.io/_/downloads/en/latest/pdf/.\n\n#### Generating the user manual in HTML\n\nAn HTML version of the user manual for Parflow may be built using:\n\ncd docs/user_manual pfpython -m pip install -r requirements.txt\n\nmake html\n\nThe main HTML page created at _build/html/index.html. Open this using a browser. On MacOS:\n\nopen _build/html/index.html\n\nor a browser if on Linux:\n\nfirefox _build/html/index.html\n\n#### Generating the user manual in PDF\n\nAn HTML version of the user manual for Parflow may be built using:\n\ncd docs/user_manual pfpython -m pip install -r requirements.txt\n\nmake latexpdf\n\nThis command is currently failing for a number of users, possibly due to old LaTex installs. We are currently investigating.",
+      "section": "ParFlow (part 6)",
+      "repo": "419_ParFlow",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Code documentation\n\nParflow is moving to using Doxygen for code documentation. The documentation is currently very sparse.\n\nAdding the -DPARFLOW_ENABLE_DOXYGEN=TRUE option to the CMake configure will enable building of the code documentation. After CMake has been run the Doxygen code documentation is built with:\n\ncd build  make doxygen\n\nHTML pages are generated in the build/docs/doxygen/html directory.\n\n### ParFlow keys documentation\n\ncmake \\  -S ./parflow \\  -B ./build-docker \\  -D BUILD_TESTING=OFF \\  -D PARFLOW_ENABLE_TOOLS=OFF \\  -D PARFLOW_ENABLE_SIMULATOR=OFF \\  -D PARFLOW_ENABLE_KEYS_DOC=ON \\  -D PARFLOW_ENABLE_PYTHON=ON \\\n\ncd ./build-docker && make ParFlowKeyDoc\n\nOn MacOS the key documentation may be viewed with open or use a browser to open the index.html file:\n\nopen ./build-docker/docs/user_manual/build-site/index.html",
+      "section": "ParFlow (part 7)",
+      "repo": "419_ParFlow",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Configure options\n\nA number of packages are optional for building ParFlow. The optional packages are enabled by PARFLOW_ENABLE_ value to be TRUE or setting the _ROOT= value. If a package is enabled with the using an ENABLE flag CMake will attempt to find the package in standard locations. Explicitly setting the location using the ROOT variable for a package automatically enables it, you don't need to specify both values.\n\nHere are some common packages:\n\n__SIMULATOR__: The simulator is actually the core of ParFlow as it represent the simulation code.\n\n__DOCKER__: This provide helpers for building docker images with ParFlow enable in them.\n\n__DOXYGEN__: Doxygen and building of code documentation (C/Fortran).\n\n__ETRACE__: builds ParFlow with etrace\n\n__HDF5__: builds ParFlow with HDF5 which is required for the _NETCDF_ file format.\n\n__HYPRE__: builds ParFlow with Hypre\n\n__KEYS_DOC__: builds documentation (rst files) from key definitions.\n\n__LATEX__: enables LaTEX and building of documentation (Manual PDF)\n\n__NETCDF__: builds ParFlow with NetCDF. (If ON, HDF5 is required)\n\n__PROFILING__: This allow to enable extra code execution that would enable code profiling.\n\n__TIMING__: enables timing of key Parflow functions; may slow down performance\n\n__TOOLS__: enables building of the Parflow tools (TCL version)\n\n__VALGRIND__: builds ParFlow with Valgrind support\n\n__PYTHON__: This is to enable you to build the Python version of __pftools__.\n\n__SILO__: builds ParFlow with Silo.\n\n__SLURM__: builds ParFlow with SLURM support (SLURM is queuing system on HPC).\n\n__SUNDIALS__: builds ParFlow with SUNDIALS\n\n__SZLIB__: builds ParFlow with SZlib compression library\n\n__ZLIB__: builds ParFlow with Zlib compression library",
+      "section": "ParFlow (part 8)",
+      "repo": "419_ParFlow",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### KINSOL Solver\n\nThere are two compile options for the KINSOL solver used by ParFlow. The current default is to use an old version of KINSOL that is embedded in ParFlow. The newer option is to use KINSOL from the SUNDIALS package. To use the SUNDIALS package you will need to have a  SUNDIALS install that includes KINSOL and specify during the CMake configuration:\n\n-DSUNDIALS_ROOT=\n\nThe GitHub repository for [SUNDIALS] https://github.com/LLNL/sundials has downloads and build instructions.",
+      "section": "ParFlow (part 9)",
+      "repo": "419_ParFlow",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### How to specify the launcher command used to run MPI applications\n\nThere are multiple ways to run MPI applications such as mpiexec, mpirun, srun, and aprun. The command used is dependent on the job submission system used. By default CMake will attempt to determine an appropriate tool; a process that does not always yield the correct result.\n\nThere are several ways to modify the CMake guess on how applications should be run. At configure time you may override the MPI launcher using:\n\n-DMPIEXEC=\"\"  -DMPIEXEC_NUMPROC_FLAG=\"\"\n\nAn example for mpiexec is -DMPIEXEC=\"mpiexec\" -DMPIEXEC_NUMPROC_FLAG=\"-n\".\n\nThe ParFlow script to run MPI applications will also include options specified in the environment variable PARFLOW_MPIEXEC_EXTRA_FLAGS on the MPI execution command line. For example when running with OpenMPI on a single workstation the following will enable running more MPI tasks than cores and disable the busy loop waiting to improve performance:\n\nexport PARFLOW_MPIEXEC_EXTRA_FLAGS=\"--mca mpi_yield_when_idle 1 --oversubscribe\"\n\nLast the TCL script can explicitly set the command to invoke for running ParFlow. This is done by setting the Process.Command key in the input database. For example to use the mpiexec command and control the cpu set used the following command string can be used:\n\npfset Process.Command \"mpiexec -cpu-set 1 -n %d parflow %s\"\n\nThe '%d' will be replaced with the number of processes (computed using the Process.Topology values : P Q R) and the '%s' will be replaced by the name supplied to the pfrun command for the input database name. The following shows how the default_single.tcl script could be modified to use the custom command string:\n\npfset Process.Command \"mpiexec -cpu-set 1 -n %d parflow %s\"  pfrun default_single  pfundist default_single",
+      "section": "ParFlow (part 10)",
+      "repo": "419_ParFlow",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Building simulator and tools support separately\n\nThis section is for advanced users running on heterogeneous HPC architectures.\n\nParFlow is composed of two main components that maybe configured and built separately. Some HPC platforms are heterogeneous with the login node being different than the compute nodes. The ParFlow system has an executable for the simulator which needs to run on the compute nodes and a set of TCL libraries used for problem setup that can be run on the login node for problem setup.\n\nThe CMake variables PARFLOW_ENABLE_SIMULATOR and PARFLOW_ENABLE_TOOLS control which component is configured. By default both are TRUE. To build separately use two build directories and run cmake in each to build the simulator and tools components separately. By specifying different compilers and options for each, one can target different architectures for each component.",
+      "section": "ParFlow (part 11)",
+      "repo": "419_ParFlow",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Using Docker\n\nParFlow includes a Docker file for configuring a Docker image for running ParFlow.\n\n## Pre-built Docker Image\n\nA Docker image for ParFlow is available on Docker hub. See the following section for how to run the Docker image. The Docker latest image is automatically downloaded by Docker when run.\n\n## Running ParFlow with Docker\n\nThe https://github.com/parflow/docker repository contains an example setup for running ParFlow in a Docker instance. See the README.md file in this repository for more information.\n\n## Building the Docker image\n\nIf you want to build a Docker image, the build script in the bin directory will build an image using the latest ParFlow source in the master branch. If you want to build a different version of ParFlow you will need to modify the 'Dockerfile' file.\n\n### Unix/Linux/MacOS\n\n./bin/docker-build.sh\n\n### Windows\n\n.\\bin\\docker-build.bat\n\n## Building the Docker image with CMake (expirmental not supported)\n\nRather than building ParFlow on your computer, you can use the build system to create a container and build ParFlow in it.\n\ncmake \\  -S ./parflow \\  -B ./build-docker \\  -D BUILD_TESTING=OFF \\  -D PARFLOW_ENABLE_TOOLS=OFF \\  -D PARFLOW_ENABLE_SIMULATOR=OFF \\  -D PARFLOW_ENABLE_DOCKER=ON\n\ncd ./build-docker && make DockerBuildRuntime\n\nFor more information look into our [Docker Readme] ./docker/README.md\n\n## Release\n\nCopyright (c) 1995-2021, Lawrence Livermore National Security LLC.\n\nProduced at the Lawrence Livermore National Laboratory.\n\nWritten by the Parflow Team (see the CONTRIBUTORS file)\n\nCODE-OCEC-08-103. All rights reserved.\n\nParflow is released under the GNU General Public License version 2.1\n\nFor details and restrictions, please read the LICENSE.txt file. [LICENSE] ./LICENSE.txt",
+      "section": "Using Docker",
+      "repo": "419_ParFlow",
+      "source_file": "readme.md"
+    }
+  }
+]

@@ -1,0 +1,306 @@
+[
+  {
+    "id": 1074,
+    "annotations": [
+      {
+        "id": 11203,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 652,
+              "end": 656,
+              "text": "pixi",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "lI2IEqGBSS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 662,
+              "end": 685,
+              "text": "https://pixi.sh/latest/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "kM9UuwinSS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:54:16.926380Z",
+        "updated_at": "2025-11-16T04:55:22.499242Z",
+        "draft_created_at": "2025-11-06T05:53:55.363187Z",
+        "lead_time": 93.68799999999999,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "62a0f1a1-d1ed-42a6-81f7-598abf5dbf12",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1074,
+        "project": 23277,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Chat: [](https://web.libera.chat/?channels=#mss-general) [](https://web.libera.chat/?channels=#mss-gsoc)\n\nMission Support System Usage Guidelines\n\nWelcome to the Mission Support System software for planning atmospheric research flights. This document is intended to point you into the right direction in order to get the software working on your computer.\n\n## Installing MSS\n\nWe distinguish between Developer and User installations.\n\n### Developer Installation\n\nPlease read our [contributing] https://open-mss.github.io/contributing/ pages. and [development] https://mss.readthedocs.io/en/stable/development.html guidelines\n\n### User Installation\n\nGet pixi from https://pixi.sh/latest/ for your operation system.\n\nYou can now decide if you want to install mss as global or a project.\n\n#### Global installation\n\nYou can install mss global without defining a project first. This method is practical when you are interested in starting the client and don't need server configurations.\n\npixi global install mss\n\n#### Global Usage\n\nmsui  mswms -h  mscolab -h  mssautoplot -h\n\n##### Global Updating\n\nUpdates environments in the global environment. This makes a release upgrade.\n\npixi global update mss\n\n#### Project installation\n\nInitialize a new project and navigate to the project directory.\n\npixi init MSS  cd MSS\n\nUse the shell command to activate the environment and start a new shell in there.\n\npixi shell\n\nAdd the mss dependencies from conda-forge.\n\n(MSS) pixi add mss",
+      "section": "Introduction (part 1)",
+      "repo": "137_MSS_-_Mission_Support_System",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.471836Z",
+    "updated_at": "2025-11-16T04:55:22.536354Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23277,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1075,
+    "annotations": [
+      {
+        "id": 11204,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:54:20.148660Z",
+        "updated_at": "2025-11-06T05:54:20.148676Z",
+        "draft_created_at": null,
+        "lead_time": 3.026,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "03f7ed70-bac8-4e20-b640-db66f32eb57d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1075,
+        "project": 23277,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "##### Project Usage\n\nAlways when you want to start mss programs you have after its installation to activate the environment by pixi shell in the project dir. On the very first start of msui it takes a bit longer because it setups fonts.\n\ncd MSS  pixi shell\n\n(MSS) msui  (MSS) mswms -h  (MSS) mscolab -h  (MSS) mssautoplot -h\n\n##### Project Updating\n\nUpdate dependencies as recorded in the local lock file.\n\ncd MSS  pixi shell  (MSS) pixi update mss",
+      "section": "Introduction (part 2)",
+      "repo": "137_MSS_-_Mission_Support_System",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.471873Z",
+    "updated_at": "2025-11-06T05:54:20.176094Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23277,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1076,
+    "annotations": [
+      {
+        "id": 11205,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 274,
+              "end": 312,
+              "text": "https://doi.org/10.5281/zenodo.6572620",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "NXfvXOntVV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 664,
+              "end": 931,
+              "text": "Bauer, R., Grooß, J.-U., Ungermann, J., Bär, M., Geldenhuys, M., and Hoffmann, L.: The Mission Support System (MSS v7.0.4) and its use in planning for the SouthTRAC aircraft campaign, Geosci. Model Dev., 15, 8983–8997, https://doi.org/10.5194/gmd-15-8983-2022, 2022",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "JRsT1hLseI",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 934,
+              "end": 1119,
+              "text": "Rautenhaus, M., Bauer, G., and Doernbrack, A.: A web service based tool to plan atmospheric research flights, Geosci. Model Dev., 5, 55-71, https://doi.org/10.5194/gmd-5-55-2012, 2012",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "mncbiL24eL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:55:06.960083Z",
+        "updated_at": "2025-11-06T05:55:06.960094Z",
+        "draft_created_at": "2025-11-06T05:54:39.988969Z",
+        "lead_time": 46.646,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "3e40a63a-abdf-4c0d-b262-025baeb5c799",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1076,
+        "project": 23277,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "##### Project Upgrading\n\nUpdate the version of packages to the latest possible version, disregarding the manifest version constraints This makes a release upgrade.\n\ncd MSS  pixi shell  (MSS) pixi update mss\n\nCurrent release info\n\n[](https://anaconda.org/conda-forge/mss) [](https://doi.org/10.5281/zenodo.6572620) [](https://www.fz-juelich.de/en/rse/jurse-community/jurse-code-of-the-month/july-2024) [](https://anaconda.org/conda-forge/mss) [](https://mss.rtfd.io) [](https://anaconda.org/conda-forge/mss) [](https://anaconda.org/conda-forge/mss) [](https://coveralls.io/github/Open-MSS/MSS?branch=develop)\n\nPublications\n\nPlease read the reference documentation\n\nBauer, R., Grooß, J.-U., Ungermann, J., Bär, M., Geldenhuys, M., and Hoffmann, L.: The Mission Support  System (MSS v7.0.4) and its use in planning for the SouthTRAC aircraft campaign, Geosci.  Model Dev., 15, 8983–8997, https://doi.org/10.5194/gmd-15-8983-2022, 2022.\n\nRautenhaus, M., Bauer, G., and Doernbrack, A.: A web service based  tool to plan atmospheric research flights, Geosci. Model Dev., 5,  55-71, https://doi.org/10.5194/gmd-5-55-2012, 2012.\n\nand the paper's Supplement (which includes a tutorial) before using the application. The documents are available at:",
+      "section": "Introduction (part 3)",
+      "repo": "137_MSS_-_Mission_Support_System",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.471898Z",
+    "updated_at": "2025-11-06T05:55:06.984638Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23277,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1077,
+    "annotations": [
+      {
+        "id": 11206,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 59,
+              "text": "http://www.geosci-model-dev.net/5/55/2012/gmd-5-55-2012.pdf",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "ZQF5WF8XRm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 61,
+              "end": 131,
+              "text": "http://www.geosci-model-dev.net/5/55/2012/gmd-5-55-2012-supplement.pdf",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "n7XpbcWjTS",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:56:03.602201Z",
+        "updated_at": "2025-11-06T05:56:03.602217Z",
+        "draft_created_at": "2025-11-06T05:55:18.066988Z",
+        "lead_time": 47.574999999999996,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "40db0a7c-a065-47e0-b9fe-1193f7e9080f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1077,
+        "project": 23277,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "http://www.geosci-model-dev.net/5/55/2012/gmd-5-55-2012.pdf\n\nhttp://www.geosci-model-dev.net/5/55/2012/gmd-5-55-2012-supplement.pdf\n\nFor copyright information, please see the files NOTICE and LICENSE, located in the same directory as this README file.\n\nWhen using this software, please be so kind and acknowledge its use by  citing the above mentioned reference documentation in publications,  presentations, reports, etc. that you create. Thank you very much.\n\nAcknowledgements\n\nWe are very grateful for your continuing support for MSS!\n\nSee our [Contributors page] https://mss.readthedocs.io/en/stable/authors.html for a list of authors. See also our info on [funding]  https://mss.readthedocs.io/en/stable/funding.html.",
+      "section": "Introduction (part 4)",
+      "repo": "137_MSS_-_Mission_Support_System",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.471920Z",
+    "updated_at": "2025-11-06T05:56:03.632955Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23277,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

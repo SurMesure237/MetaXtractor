@@ -1,0 +1,36 @@
+{
+  "codeRepository": "https://github.com/JuliaHealth/ICD_GEMs.jl",
+  "programmingLanguage": "Julia",
+  "programmingLanguages": [
+    "Julia"
+  ],
+  "downloadUrl": "https://api.github.com/repos/JuliaHealth/ICD_GEMs.jl/zipball/main",
+  "author": "JuliaHealth",
+  "dateCreated": "2022-05-19T13:57:11Z",
+  "dateModified": "2024-08-02T04:36:24Z",
+  "keywords": [
+    "cdc",
+    "clinical-data",
+    "clinical-research",
+    "data",
+    "death-certificates",
+    "epidemiology",
+    "health-data",
+    "icd-10",
+    "icd-10-cm",
+    "icd-9",
+    "icd-codes",
+    "julia",
+    "julia-language",
+    "julia-package",
+    "mortality-data",
+    "public-health",
+    "who"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "ICD_GEMs.jl is a Julia package that allows to translate ICD-9 codes in ICD-10 and viceversa via the General Equivalence Mappings (GEMs) of the International Classification of Diseases (ICD).",
+  "identifier": 494094231,
+  "name": "JuliaHealth/ICD_GEMs.jl",
+  "issueTracker": "https://api.github.com/repos/JuliaHealth/ICD_GEMs.jl/issues",
+  "readme": "https://github.com/JuliaHealth/ICD_GEMs.jl/blob/main/README.md"
+}

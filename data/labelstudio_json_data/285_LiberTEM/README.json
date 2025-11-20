@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "openNCEM\n\nA collection of packages, scripts, and tools for electron microscopy data analysis supported by the National Center for Electron Microscopy facility of the Molecular Foundry.\n\nRead the documentation: https://openncem.readthedocs.io/en/latest/.\n\nInstallation of the ncempy package\n\nThe newest version can be installed using pip:\n\n`>> pip install ncempy\n\nTo ensure dependencies for the EDS tomography reconstruction are installed:\n\npip install ncempy[edstomo]\n\nComponents\n\nThe openNCEM collection comes with different components, described below.\n\nncempy  openNCEM's python package to provide various algorithms and routines to process or simulate images.\n\ntools  The tools build leveraging the algorithms and routines provided in the libraries/packages. They are subordered by the different problems they address.\n\nCommands\n\nncem2png  Extracts a PNG file from the data in a SER, DM3, or DM4 file. For 3D and 4D  files, it tries to extract an image from the middle of the third and forth  dimension.\n\nLicense\n\nncempy` is dual licensed under GPLv3 and MIT. The io module is the only part  released under MIT to improve interoperability with other packages.\n\nThis program is free software: you can redistribute it and/or modify  it under the terms of the GNU General Public License as published by  the Free Software Foundation, either version 3 of the License, or  (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,  but WITHOUT ANY WARRANTY; without even the implied warranty of  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the  GNU General Public License for more details.",
+      "section": "Introduction (part 1)",
+      "repo": "285_LiberTEM",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": "You should have received a copy of the GNU General Public License  along with this program. If not, see https://www.gnu.org/licenses/.",
+      "section": "Introduction (part 2)",
+      "repo": "285_LiberTEM",
+      "source_file": "readme.rst"
+    }
+  }
+]

@@ -1,0 +1,689 @@
+[
+  {
+    "id": 2315,
+    "annotations": [
+      {
+        "id": 10252,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 436,
+              "end": 480,
+              "text": "https://zenodo.org/badge/latestdoi/492818831",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "HTDUPvh_qE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:34:42.952782Z",
+        "updated_at": "2025-11-03T06:34:42.952802Z",
+        "draft_created_at": "2025-11-03T06:34:24.893848Z",
+        "lead_time": 42.589,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "48ad41ab-9c56-43d8-b0c1-a5801fe02bd0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2315,
+        "project": 23523,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "A Privacy Enhancing Technology (PET) Operations platform\n\n[](https://github.com/vantage6/vantage6/actions/workflows/release.yml) [](https://badge.fury.io/py/vantage6) [](https://github.com/vantage6/vantage6/actions/workflows/unit_tests.yml) [](https://coveralls.io/github/vantage6/vantage6?branch=main) [](https://app.codacy.com/gh/vantage6/vantage6/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) [](https://zenodo.org/badge/latestdoi/492818831) [](https://discord.gg/yAyFf6Y) [](https://research-software-directory.org/software/vantage6)\n\nQuickstart •  Project structure •  Join the community •  License •  Code of conduct •  References",
+      "section": "Introduction (part 1)",
+      "repo": "490_Vantage6",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.469061Z",
+    "updated_at": "2025-11-03T06:34:42.982675Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23523,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2316,
+    "annotations": [
+      {
+        "id": 10253,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 248,
+              "end": 267,
+              "text": "https://vantage6.ai",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "nhdTCbJYzn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 340,
+              "end": 364,
+              "text": "https://docs.vantage6.ai",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "cYaweOjCNw",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:35:07.293966Z",
+        "updated_at": "2025-11-14T12:18:45.685639Z",
+        "draft_created_at": "2025-11-03T06:35:00.442033Z",
+        "lead_time": 29.152,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "7ad5695b-c45c-4fcc-b48d-98ee387933fe",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2316,
+        "project": 23523,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "This repository is contains all the vantage6 infrastructure source code. The vantage6 technology enables to manage and deploy privacy enhancing technologies like Federated Learning (FL) and Multi-Party Computation (MPC). Please visit our [website] https://vantage6.ai to learn more!\n\nYou can find more (user) documentation at [readthedocs] https://docs.vantage6.ai. If you have any questions, suggestions or just want to chat about federated learning: join our [Discord)] https://discord.gg/yAyFf6Y channel.",
+      "section": "Introduction (part 2)",
+      "repo": "490_Vantage6",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.469096Z",
+    "updated_at": "2025-11-14T12:18:45.719661Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23523,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2317,
+    "annotations": [
+      {
+        "id": 10254,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 835,
+              "end": 841,
+              "text": "Docker",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "QfQoUmm6OA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 959,
+              "end": 965,
+              "text": "Python",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "XY04pxvoVU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1050,
+              "end": 1060,
+              "text": "mini-conda",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "bxIaSW9LgB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 967,
+              "end": 1000,
+              "text": "https://www.python.org/downloads/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "1BfDk8kzFE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1062,
+              "end": 1108,
+              "text": "https://docs.conda.io/en/latest/miniconda.html",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "RaDozyB0z_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 843,
+              "end": 878,
+              "text": "https://docs.docker.com/get-docker/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "3YUBrpDAMI",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:35:45.164268Z",
+        "updated_at": "2025-11-14T12:19:14.561205Z",
+        "draft_created_at": "2025-11-03T06:35:24.963468Z",
+        "lead_time": 64.094,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "f2343323-7355-4c61-8e42-80a1b300e1ea",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2317,
+        "project": 23523,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Infrastructure overview\n\n_A High level overview of the vantage6 infrastructure. Vantage6 has both a client-server and peer-to-peer architecture. The client is used by the researcher to create (PET) computation requests. It is also used to manage users, organizations and collaborations. The server contains users, organizations, collaborations, tasks and their results. It provides a central access point for both the clients and nodes. The nodes have access to privacy sensitive data and handle computation requests retrieved from the server. Computation request are executed as separate containers on the node. These containers are connected to containers at other nodes by a VPN network._\n\n## :books: Quickstart\n\n### Requirements\n\nThe vantage6 infrastructure is delivered in Docker images. To run these images, you need to have [Docker] https://docs.docker.com/get-docker/ installed. To install the latest version of the vantage6 CLI, you need to have [Python] https://www.python.org/downloads/, we recommend using an environment manager like [mini-conda] https://docs.conda.io/en/latest/miniconda.html.\n\nInstall the latest version of the vantage6 CLI by using:\n\npip install vantage6\n\nThis install the v6 commands, which allows you to manage your nodes and servers. To view all available options, run:\n\nv6 --help\n\nFor example you can create a local test setup by using:\n\nv6 dev create-demo-network\n\nThis creates a local network with a server and two nodes. You can start the network by running:\n\nv6 dev start-demo-network\n\nThis will start the server and nodes in the background. You can view the logs by running:",
+      "section": "Introduction (part 3)",
+      "repo": "490_Vantage6",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.469121Z",
+    "updated_at": "2025-11-14T12:19:14.598029Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23523,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2318,
+    "annotations": [
+      {
+        "id": 10255,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:35:47.449942Z",
+        "updated_at": "2025-11-03T06:35:47.449959Z",
+        "draft_created_at": null,
+        "lead_time": 2.092,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6f18941f-b7d4-429d-83c0-1acdc8ead4fd",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2318,
+        "project": 23523,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "View node logs v6 node attach",
+      "section": "View node logs",
+      "repo": "490_Vantage6",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.469141Z",
+    "updated_at": "2025-11-03T06:35:47.476431Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23523,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2319,
+    "annotations": [
+      {
+        "id": 10256,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 752,
+              "end": 776,
+              "text": "https://docs.vantage6.ai",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "eBHTtN4IM-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 62,
+              "end": 77,
+              "text": "vantage6-client",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "XuFJEQM0j4",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 79,
+              "end": 119,
+              "text": "https://pypi.org/project/vantage6-client",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "clhUik3iP1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:36:12.214522Z",
+        "updated_at": "2025-11-14T12:19:26.315010Z",
+        "draft_created_at": "2025-11-03T06:35:59.263849Z",
+        "lead_time": 34.661,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "5e586ef4-b70c-456e-925d-6667f2e2915c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2319,
+        "project": 23523,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "View server logs v6 server attach\n\nFrom here you can use the [vantage6-client] https://pypi.org/project/vantage6-client to interact with the server. The demo network has a pre-configured organization with the following credentials:\n\nUsername: dev_admin\n\nPassword: password\n\nFor example, you can create a new organization by running:\n\nfrom vantage6.client import Client\n\nclient = Client('http://127.0.0.1', 7601, '/api', log_level='debug') client.authenticate('dev_admin', 'password') client.setup_encryption(None)\n\nclient.organization.create(  name='My organization',  address1='My address',  address2='My address',  zipcode='1234AB',  country='The Netherlands',  domain='my-organization.com' )\n\nYou can find more (user) documentation at [readthedocs] https://docs.vantage6.ai\n\n## Project structure",
+      "section": "View server logs (part 1)",
+      "repo": "490_Vantage6",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.469163Z",
+    "updated_at": "2025-11-14T12:19:26.352278Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23523,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2320,
+    "annotations": [
+      {
+        "id": 10257,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:36:17.436905Z",
+        "updated_at": "2025-11-03T06:36:17.436923Z",
+        "draft_created_at": null,
+        "lead_time": 5.001,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "d4d89df4-f98f-4691-becd-718b87a1fd68",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2320,
+        "project": 23523,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### PYPI packages\n\nThis repository is home to 6 PyPi packages:\n\n[vantage6] https://pypi.org/project/vantage6 -> _CLI for managing node and server instances_\n\n[vantage6-client] https://pypi.org/project/vantage6-client -> _Python client for interacting with the vantage6-server_\n\n[vantage6-algorithm-tools] https://pypi.org/project/vantage6-algorithm-tools -> _Python tools to facilitate algorithm development_\n\n[vantage6-node] https://pypi.org/project/vantage6-node -> _Node application package_\n\n[vantage6-server] https://pypi.org/project/vantage6-server -> _Server application package_\n\n[vantage6-algorithm-store] https://pypi.org/project/vantage6-algorithm-store -> _Algorithm store application package_\n\n[vantage6-common] https://pypi.org/project/vantage6-common -> _Package with common vantage6 functions_\n\n[vantage6-backend-common] https://pypi.org/project/vantage6-backend-common -> _Package with functions common to central server and algorithm store_\n\nNote that when using vantage6 you do not install the _server_ and _node_ packages. These are delivered to you in Docker images.\n\nThis repository also hosts the code for the vantage6 user interface (UI). The UI is an Angular web application that can be used to interact with the vantage6 server easily.",
+      "section": "View server logs (part 2)",
+      "repo": "490_Vantage6",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.469186Z",
+    "updated_at": "2025-11-03T06:36:17.466836Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23523,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2321,
+    "annotations": [
+      {
+        "id": 10258,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:36:23.079043Z",
+        "updated_at": "2025-11-03T06:36:23.079062Z",
+        "draft_created_at": null,
+        "lead_time": 5.445,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "670995de-fd3c-4b9c-b812-b2573bfd05dd",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2321,
+        "project": 23523,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Docker images\n\nThe vantage6 infrastructure is delivered in Docker images. All Docker images are stored in our private [Harbor] https://goharbor.io/ registry. The most important images are:\n\nharbor2.vantage6.ai/infrastructure/node:VERSION -> _Node application Docker image_\n\nharbor2.vantage6.ai/infrastructure/server:VERSION -> _Server application Docker image_\n\nharbor2.vantage6.ai/infrastructure/ui:VERSION -> _User interface Docker image_\n\nharbor2.vantage6.ai/infrastructure/algorithm-store:VERSION -> _Algorithm store Docker image_\n\nwith VERSION being the full semantic version of the vantage6 infrastructure, e.g. 4.0.0 or 4.1.0rc0.\n\nSeveral other images are used to support the infrastructure:\n\nharbor2.vantage6.ai/infrastructure/infrastructure-base:VERSION -> _Base image for the infrastructure_\n\nharbor2.vantage6.ai/infrastructure/squid:VERSION -> _Squid proxy image used for the whitelisting service_\n\nharbor2.vantage6.ai/infrastructure/alpine -> _Alpine image used for vpn traffic forwarding_\n\nharbor2.vantage6.ai/infrastructure/vpn-client -> _VPN image used to connect to the VPN_\n\nharbor2.vantage6.ai/infrastructure/vpn-configurator -> _VPN image used for initialization_\n\nharbor2.vantage6.ai/infrastructure/ssh-tunnel -> _SSH tunnel image used for connecting algorithms to external services_\n\nAnd finally there are some images released for algorithm development:\n\nharbor2.vantage6.ai/infrastructure/algorithm-base:MAJOR.MINOR -> _Base image for algorithm development_\n\nharbor2.vantage6.ai/infrastructure/algorithm-ohdsi-base:MAJOR.MINOR -> _Extended algorithm base image for OHDSI algorithm development_",
+      "section": "View server logs (part 3)",
+      "repo": "490_Vantage6",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.469209Z",
+    "updated_at": "2025-11-03T06:36:23.107855Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23523,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2322,
+    "annotations": [
+      {
+        "id": 10259,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 442,
+              "end": 460,
+              "text": "Apache License 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "-Q1N3UZnnB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:36:33.642555Z",
+        "updated_at": "2025-11-03T06:36:33.642572Z",
+        "draft_created_at": null,
+        "lead_time": 10.363,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "3ab8660f-92e5-4d91-8c99-aa9577b74798",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2322,
+        "project": 23523,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## :gift_heart: Join the community!\n\nWe hope to continue developing, improving, and supporting vantage6 with the help of  the federated learning community. If you are interested in contributing, first of all,  thank you! Second, please take a look at our  [contributing guidelines] https://docs.vantage6.ai/en/main/devops/contribute.html  and our [code of conduct] CODE_OF_CONDUCT.md.\n\n## :scroll: License\n\nThis project is licensed under the Apache License 2.0 - see the [LICENSE] LICENSE file for details.\n\n## :black_nib: Code of Conduct\n\nPlease note that this project is released with a [Contributor Code of Conduct] CODE_OF_CONDUCT.md. By participating in any way in this project you agree to abide by its terms.",
+      "section": "View server logs (part 4)",
+      "repo": "490_Vantage6",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.469231Z",
+    "updated_at": "2025-11-03T06:36:33.669867Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23523,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2323,
+    "annotations": [
+      {
+        "id": 10260,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 132,
+              "end": 262,
+              "text": "F. Martin, M. Sieswerda, H. Alradhi, et al. vantage6. Available at https://doi.org/10.5281/zenodo.7221216. Accessed on MONTH, 20XX",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "RoXnk2WZb3",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 617,
+              "end": 1038,
+              "text": "D. Smits\\, B. van Beusekom\\, F. Martin, L. Veen, G. Geleijnse, A. Moncada-Torres, An Improved Infrastructure for Privacy-Preserving Analysis of Patient Data, Proceedings of the International Conference of Informatics, Management, and Technology in Healthcare (ICIMTH), vol. 25, 2022, p. 144-147. [[BibTeX] https://arturomoncadatorres.com/bibtex/smits2022improved.txt, [PDF] https://ebooks.iospress.nl/volumearticle/60190]",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "hhxjgdMR_a",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 266,
+              "end": 614,
+              "text": "A. Moncada-Torres, F. Martin, M. Sieswerda, J. van Soest, G. Gelijnse. VANTAGE6: an open source priVAcy preserviNg federaTed leArninG infrastructurE for Secure Insight eXchange. AMIA Annual Symposium Proceedings, 2020, p. 870-877. [[BibTeX] https://arturomoncadatorres.com/bibtex/moncada-torres2020vantage6.txt, [PDF] https://vantage6.ai/vantage6/]",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "61WxaggFBL",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:37:57.824915Z",
+        "updated_at": "2025-11-03T06:37:57.824934Z",
+        "draft_created_at": "2025-11-03T06:37:02.590767Z",
+        "lead_time": 83.994,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "fd34fa96-8784-455b-87d2-462e04e149d7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2323,
+        "project": 23523,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## :black_nib: References\n\nIf you are using vantage6, please cite this repository as well as the accompanying papers as follows:\n\n- F. Martin, M. Sieswerda, H. Alradhi, et al. vantage6. Available at https://doi.org/10.5281/zenodo.7221216. Accessed on MONTH, 20XX. - A. Moncada-Torres, F. Martin, M. Sieswerda, J. van Soest, G. Gelijnse. VANTAGE6: an open source priVAcy preserviNg federaTed leArninG infrastructurE for Secure Insight eXchange. AMIA Annual Symposium Proceedings, 2020, p. 870-877. [[BibTeX] https://arturomoncadatorres.com/bibtex/moncada-torres2020vantage6.txt, [PDF] https://vantage6.ai/vantage6/] - D. Smits\\, B. van Beusekom\\, F. Martin, L. Veen, G. Geleijnse, A. Moncada-Torres, An Improved Infrastructure for Privacy-Preserving Analysis of Patient Data, Proceedings of the International Conference of Informatics, Management, and Technology in Healthcare (ICIMTH), vol. 25, 2022, p. 144-147. [[BibTeX] https://arturomoncadatorres.com/bibtex/smits2022improved.txt, [PDF] https://ebooks.iospress.nl/volumearticle/60190]\n\nvantage6.ai •  Discord •  Discourse •  User documentation",
+      "section": "View server logs (part 5)",
+      "repo": "490_Vantage6",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:09.469257Z",
+    "updated_at": "2025-11-03T06:37:57.855648Z",
+    "inner_id": 9,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23523,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

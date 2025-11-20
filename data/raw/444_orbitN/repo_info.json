@@ -1,0 +1,16 @@
+{
+  "codeRepository": "https://github.com/rezeebe/orbitN",
+  "programmingLanguage": null,
+  "programmingLanguages": [],
+  "downloadUrl": "https://api.github.com/repos/rezeebe/orbitN/zipball/main",
+  "author": "rezeebe",
+  "dateCreated": "2023-05-28T18:37:02Z",
+  "dateModified": "2025-09-08T13:20:42Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Symplectic integrator for near-Keplerian planetary systems",
+  "identifier": 646546909,
+  "name": "rezeebe/orbitN",
+  "issueTracker": "https://api.github.com/repos/rezeebe/orbitN/issues",
+  "readme": "https://github.com/rezeebe/orbitN/blob/main/README.txt"
+}

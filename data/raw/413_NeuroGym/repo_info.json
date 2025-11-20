@@ -1,0 +1,20 @@
+{
+  "codeRepository": "https://github.com/openai/gym",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Dockerfile",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/openai/gym/zipball/main",
+  "author": "openai",
+  "dateCreated": "2016-04-27T14:59:16Z",
+  "dateModified": "2025-10-31T05:11:17Z",
+  "keywords": [],
+  "license": null,
+  "description": "A toolkit for developing and comparing reinforcement learning algorithms.",
+  "identifier": 57222302,
+  "name": "openai/gym",
+  "issueTracker": "https://api.github.com/repos/openai/gym/issues",
+  "readme": "https://github.com/openai/gym/blob/master/README.md"
+}

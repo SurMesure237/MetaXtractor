@@ -1,0 +1,177 @@
+[
+  {
+    "id": 2411,
+    "annotations": [
+      {
+        "id": 10150,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1299,
+              "end": 1348,
+              "text": "https://team-raddish.github.io/ParticleDA.jl/dev/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "lpCVIwtXtP",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 323,
+              "end": 358,
+              "text": "https://doi.org/10.5194/gmd-2023-38",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "iA18fRLkFp",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 274,
+              "end": 318,
+              "text": "https://zenodo.org/badge/latestdoi/232626497",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "viMUeuMa8B",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 126,
+              "end": 216,
+              "text": "https://github.com/Team-RADDISH/ParticleDA.jl/actions/workflows/ci.yml?query=branch%3Amain",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "mrQooh_e1g",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:02:07.387384Z",
+        "updated_at": "2025-11-14T12:16:15.772076Z",
+        "draft_created_at": "2025-11-03T06:01:21.437596Z",
+        "lead_time": 133.38299999999998,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "e7d91bc0-1cb5-495d-a035-7a6747835af9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2411,
+        "project": 23535,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "ParticleDA\n\n[](https://team-raddish.github.io/ParticleDA.jl/stable/) [](https://team-raddish.github.io/ParticleDA.jl/dev/) [](https://github.com/Team-RADDISH/ParticleDA.jl/actions/workflows/ci.yml?query=branch%3Amain) [](https://codecov.io/gh/Team-RADDISH/ParticleDA.jl) [](https://zenodo.org/badge/latestdoi/232626497) [](https://doi.org/10.5194/gmd-2023-38)\n\nParticleDA.jl is a Julia package to perform data assimilation with particle filters,  supporting both thread-based parallelism and distributed processing using MPI.\n\nThis project is developed in collaboration with the [Centre for Advanced Research Computing] https://ucl.ac.uk/arc, University College London.\n\n## Installation\n\nTo install the latest stable version of the package, open the [Julia REPL] https://docs.julialang.org/en/v1/stdlib/REPL/, enter the package manager with ], then run the command\n\nadd ParticleDA\n\nIf you plan to develop the package (make changes, submit pull requests, etc), in the package manager mode run this command\n\ndev ParticleDA\n\nThis will automatically clone the repository to your local directory ~/.julia/dev/ParticleDA.\n\nYou can exit from the package manager mode by pressing CTRL + C or, alternatively, the backspace key when there is no input in the prompt.\n\n## Documentation\n\n[Documentation Website] https://team-raddish.github.io/ParticleDA.jl/dev/",
+      "section": "ParticleDA (part 1)",
+      "repo": "179_ParticleDA.jl",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.417279Z",
+    "updated_at": "2025-11-14T12:16:15.833363Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23535,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2412,
+    "annotations": [
+      {
+        "id": 10151,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 60,
+              "end": 79,
+              "text": "MIT \"Expat\" License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "sv_8mh_BnE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-03T06:02:15.357532Z",
+        "updated_at": "2025-11-03T06:02:15.357549Z",
+        "draft_created_at": null,
+        "lead_time": 7.776,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "1c3776ee-16a8-4579-a1f2-1d6369f8f2ec",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2412,
+        "project": 23535,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## License\n\nThe ParticleDA.jl package is licensed under the MIT \"Expat\" License.",
+      "section": "ParticleDA (part 2)",
+      "repo": "179_ParticleDA.jl",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:10.417316Z",
+    "updated_at": "2025-11-03T06:02:15.387873Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23535,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "# STEMMUS_SCOPE\n\nIntegrated code of SCOPE and STEMMUS.\n\nSCOPE is a radiative transfer and energy balance model, and STEMMUS model is a two-phase mass and heat transfer model. For more information about the coupling between these two models, please check [this reference] https://gmd.copernicus.org/articles/14/1379/2021/. Before running the model, you need to prepare input data and a configuration file. This can be done using the python package [PyStemmusScope] https://pystemmusscope.readthedocs.io.\n\n(by Zeng & Su, 2021)\n\n## Documentation\n\nThe documentation of the STEMMUS_SCOPE model can be found [here] https://ecoextreml.github.io/STEMMUS_SCOPE/.\n\n## Contributing\n\nIf you want to contribute to the development of STEMMUS_SCOPE, have a look at the [contribution guidelines] https://github.com/EcoExtreML/STEMMUS_SCOPE/blob/main/CONTRIBUTING.md.\n\n## How to cite us\n\n[](https://research-software-directory.org/projects/ecoextreml) .svg)](https://doi.org/) -->",
+      "section": "README",
+      "repo": "051_PyStemmusScope",
+      "source_file": "readme.md"
+    }
+  }
+]

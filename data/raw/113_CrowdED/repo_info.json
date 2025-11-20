@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/MaastrichtU-IDS/crowdED",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "R",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/MaastrichtU-IDS/crowdED/zipball/main",
+  "author": "MaastrichtU-IDS",
+  "dateCreated": "2017-11-28T09:41:47Z",
+  "dateModified": "2023-03-10T16:06:41Z",
+  "keywords": [
+    "crowdsourcing",
+    "optimization",
+    "python",
+    "shiny"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "🤖 Guideline for designing optimal crowdsourcing experiments",
+  "identifier": 112316112,
+  "name": "MaastrichtU-IDS/crowdED",
+  "issueTracker": "https://api.github.com/repos/MaastrichtU-IDS/crowdED/issues",
+  "readme": "https://github.com/MaastrichtU-IDS/crowdED/blob/master/README.md"
+}

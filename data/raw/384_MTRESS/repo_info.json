@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/mtress/mtress",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/mtress/mtress/zipball/main",
+  "author": "mtress",
+  "dateCreated": "2021-09-17T15:43:00Z",
+  "dateModified": "2025-10-23T12:38:54Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/mit",
+  "description": null,
+  "identifier": 407595633,
+  "name": "mtress/mtress",
+  "issueTracker": "https://api.github.com/repos/mtress/mtress/issues",
+  "readme": "https://github.com/mtress/mtress/blob/dev/README.md"
+}

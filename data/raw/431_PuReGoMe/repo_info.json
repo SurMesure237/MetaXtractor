@@ -1,0 +1,24 @@
+{
+  "codeRepository": "https://github.com/puregome/notebooks",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/puregome/notebooks/zipball/main",
+  "author": "puregome",
+  "dateCreated": "2020-04-17T17:22:55Z",
+  "dateModified": "2023-03-07T09:36:56Z",
+  "keywords": [
+    "covid-19",
+    "tweets",
+    "twitter"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Notebooks of the PuReGoMe Project of the Netherlands eScience Center and Utrecht University.",
+  "identifier": 256566641,
+  "name": "puregome/notebooks",
+  "issueTracker": "https://api.github.com/repos/puregome/notebooks/issues",
+  "readme": "https://github.com/puregome/notebooks/blob/master/README.md"
+}

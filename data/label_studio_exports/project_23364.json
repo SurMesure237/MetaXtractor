@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1546,
+    "annotations": [
+      {
+        "id": 10825,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 305,
+              "end": 348,
+              "text": "https://icos-carbon-portal.github.io/pylib/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "Jz06g9-j0t",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1092,
+              "end": 1115,
+              "text": "https://www.icos-cp.eu/",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "Eeyh4rTeBk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 990,
+              "end": 1067,
+              "text": "https://www.icos-cp.eu/sites/default/files/2022-03/ICOS_handbook_2022_WEB.pdf",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "1giXLrmtrF",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1280,
+              "end": 1297,
+              "text": "CC BY 4.0 licence",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "huVs9_Vfuy",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 270,
+              "end": 288,
+              "text": "https://icos-cp.eu",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "ljs-Vh6RFz",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:00:13.934655Z",
+        "updated_at": "2025-11-16T13:36:54.186637Z",
+        "draft_created_at": "2025-11-05T16:59:25.021956Z",
+        "lead_time": 118.515,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "f017f764-5916-4619-b4c0-9370405fc8d4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1546,
+        "project": 23364,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://pypi.org/project/icoscp/) [](https://pepy.tech/project/icoscp)\n\n# ICOS Carbon Portal Python Libraries\n\nThis repository contains source code for some Python libraries developed by [ICOS Carbon Portal] https://www.icos-cp.eu/observations/carbon-portal Website: https://icos-cp.eu\n\nDocumentation: https://icos-carbon-portal.github.io/pylib/\n\n## About ICOS\n\nThe Integrated Carbon Observation System, ICOS, is a European-wide greenhouse gas research infrastructure. ICOS produces standardised data on greenhouse gas concentrations in the atmosphere, as well as on carbon fluxes between the atmosphere, earth and oceans. This information is being used by scientists as well as by decision makers in predicting and mitigating climate change. The high-quality and open ICOS data is based on the measurements from over 130 stations across Europe. For more information about the ICOS station network, data quality control and assurance, and much more, please read the [ICOS Handbook 2022] https://www.icos-cp.eu/sites/default/files/2022-03/ICOS_handbook_2022_WEB.pdf, or visit our [website] https://www.icos-cp.eu/.\n\nPlease be aware, that by either downloading data, or accessing data directly through ICOS libraries, you agree and accept, that all ICOS data is provided under a CC BY 4.0 licence",
+      "section": "README",
+      "repo": "077_ICOS_CP_python_library",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.499917Z",
+    "updated_at": "2025-11-16T13:36:54.219690Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23364,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

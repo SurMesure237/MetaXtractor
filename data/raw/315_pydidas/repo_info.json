@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/hereon-GEMS/pydidas",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Batchfile",
+    "Makefile",
+    "CSS"
+  ],
+  "downloadUrl": "https://api.github.com/repos/hereon-GEMS/pydidas/zipball/main",
+  "author": "hereon-GEMS",
+  "dateCreated": "2021-03-16T09:11:52Z",
+  "dateModified": "2025-10-28T09:09:51Z",
+  "keywords": [],
+  "license": null,
+  "description": "Python Diffraction Data Analysis Suite (pydidas) which merges toolkits and tries to supply broad functionality for X-ray diffraction data analysis.",
+  "identifier": 348281396,
+  "name": "hereon-GEMS/pydidas",
+  "issueTracker": "https://api.github.com/repos/hereon-GEMS/pydidas/issues",
+  "readme": "https://github.com/hereon-GEMS/pydidas/blob/master/README.md"
+}

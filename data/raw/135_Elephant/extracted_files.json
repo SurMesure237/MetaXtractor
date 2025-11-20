@@ -1,0 +1,8 @@
+{
+  "extracted_files": [
+    "codemeta.json",
+    ".zenodo.json",
+    "setup.py",
+    "README.md"
+  ]
+}

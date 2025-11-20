@@ -1,0 +1,165 @@
+[
+  {
+    "id": 1061,
+    "annotations": [
+      {
+        "id": 11143,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 41,
+              "text": "https://doi.org/10.5281/zenodo.6350382",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "x4JqrEXery",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:09:50.302658Z",
+        "updated_at": "2025-11-06T05:09:50.302679Z",
+        "draft_created_at": null,
+        "lead_time": 6.014,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "4dd84e17-2ffb-410e-9312-181270e7e687",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1061,
+        "project": 23273,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://doi.org/10.5281/zenodo.6350382)",
+      "section": "Introduction",
+      "repo": "242_ISAAC_Chrome_extension",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.171065Z",
+    "updated_at": "2025-11-06T05:09:50.336402Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23273,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1062,
+    "annotations": [
+      {
+        "id": 11144,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:09:59.756595Z",
+        "updated_at": "2025-11-06T05:09:59.756609Z",
+        "draft_created_at": null,
+        "lead_time": 9.275,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "408f49fe-8b25-4327-b4ab-5ea61bb03c8c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1062,
+        "project": 23273,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "isaac-chrome-extension\n\nChrome Web Extension for support of the [NWO ISAAC platform] https://www.nwo.nl/aanvraagsysteem-isaac. This extension is not endorsed or developed by the NWO.\n\n# ⚠️ Alpha version. Not tested for patents, contracts or publications aimed at the general public\n\n## Install\n\n### Installing from the Chrome Web Store\n\nThe extension is [available in the Chrome Web Store] https://chrome.google.com/webstore/detail/isaac-chrome-extension/kiljfbiapahlahhilgcgfkfjnkgggode.\n\n### Installing from GitHub\n\nTo install the latest release:\n\nGo to the [latest release] https://github.com/citation-js/isaac-chrome-extension/releases and download the zip file (e.g. isaac-chrome-extension-1.0.0.zip)\n\nOpen Chrome and type chrome://extensions/ (or brave://extensions/ or chromium://extensions/ or edge://extensions/) in the browser location bar\n\nEnable Developer mode in the top right of this page\n\nDrag the zip file to the extensions tab\n\nTo install the development version:\n\nMake a check out of this source code repository\n\nOpen Chrome and type chrome://extensions/ (or brave://extensions/ or chromium://extensions/ or edge://extensions/) in the browser location bar\n\nEnable Developer mode in the top right of this page\n\nClick Load unpacked and open the isaac-chrome folder in the source code repo with the manifest.json file",
+      "section": "<img src=\"assets/icon.svg\" width=\"48\" alt=\"Icon: Black serif font 'I' on a background of four colored squares: brown, gold, green and platinum\" /> isaac-chrome-extension (part 1)",
+      "repo": "242_ISAAC_Chrome_extension",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.171116Z",
+    "updated_at": "2025-11-06T05:09:59.784446Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23273,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1063,
+    "annotations": [
+      {
+        "id": 11145,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:10:02.409031Z",
+        "updated_at": "2025-11-06T05:10:02.409050Z",
+        "draft_created_at": null,
+        "lead_time": 2.493,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "9af1c359-d93e-4878-b138-c5b3f05c56c5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1063,
+        "project": 23273,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Usage\n\nClick \"Projects\", select your project and go to the \"Product\" tab. There, click \"Add\".\n\nSelect the type of product. The extension can do this automatically, but this process is fallible.\n\nClick the icon of the extension in the top right.\n\nFill in your DOI, PubMed identifer, or ISBN and click \"Search\". This takes you to the information of the first author.\n\nReview the author information, optionally add additional info such as the gender and DAI, and click \"Next\". Repeat until all authors are added.\n\nReview the product information, optionally add additional info such as Open Access status.\n\nSubmit.\n\nSee also the ISAAC manual ([Dutch] https://www.nwo.nl/sites/nwo/files/media-files/ISAAC_Handleiding_NL.pdf, [English] https://www.nwo.nl/sites/nwo/files/media-files/ISAAC_User_manual_EN.pdf).\n\n## Dependencies\n\nThis code uses [Citation.js] https://citation.js.org, license MIT. Information is collected from Crossref, DataCite, and mEDRA (DOI), Google Books and OpenLibrary (ISBN), PubMed (PubMed identifiers) and Unpaywall (OA status).",
+      "section": "<img src=\"assets/icon.svg\" width=\"48\" alt=\"Icon: Black serif font 'I' on a background of four colored squares: brown, gold, green and platinum\" /> isaac-chrome-extension (part 2)",
+      "repo": "242_ISAAC_Chrome_extension",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:52.171139Z",
+    "updated_at": "2025-11-06T05:10:02.431745Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23273,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

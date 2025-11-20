@@ -1,0 +1,24 @@
+{
+  "codeRepository": "https://github.com/khoirulmuzakka/Minion",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "MATLAB",
+    "Python",
+    "CMake",
+    "Shell",
+    "C",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/khoirulmuzakka/Minion/zipball/main",
+  "author": "khoirulmuzakka",
+  "dateCreated": "2024-07-13T00:06:44Z",
+  "dateModified": "2025-10-26T10:32:28Z",
+  "keywords": [],
+  "license": null,
+  "description": "Minion is a library for derivative-free optimization algorithms implemented in C++ and Python. Minion assumes vectorized function evaluations, enabling seamless integration with multithreading and multiprocessing",
+  "identifier": 828034401,
+  "name": "khoirulmuzakka/Minion",
+  "issueTracker": "https://api.github.com/repos/khoirulmuzakka/Minion/issues",
+  "readme": "https://github.com/khoirulmuzakka/Minion/blob/main/README.md"
+}

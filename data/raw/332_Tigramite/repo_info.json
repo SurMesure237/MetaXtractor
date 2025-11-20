@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/jakobrunge/tigramite",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/jakobrunge/tigramite/zipball/main",
+  "author": "jakobrunge",
+  "dateCreated": "2017-05-15T10:20:26Z",
+  "dateModified": "2025-10-30T03:16:54Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Tigramite is a python package for causal inference with a focus on time series data. The Tigramite documentation is at",
+  "identifier": 91324771,
+  "name": "jakobrunge/tigramite",
+  "issueTracker": "https://api.github.com/repos/jakobrunge/tigramite/issues",
+  "readme": "https://github.com/jakobrunge/tigramite/blob/master/README.md"
+}

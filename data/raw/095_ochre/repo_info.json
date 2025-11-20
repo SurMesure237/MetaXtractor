@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/KBNLresearch/ochre",
+  "programmingLanguage": "Common Workflow Language",
+  "programmingLanguages": [
+    "Common Workflow Language",
+    "Jupyter Notebook",
+    "Python",
+    "HTML",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/KBNLresearch/ochre/zipball/main",
+  "author": "KBNLresearch",
+  "dateCreated": "2017-10-19T12:30:52Z",
+  "dateModified": "2025-03-15T11:22:34Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Toolbox for OCR post-correction",
+  "identifier": 107543464,
+  "name": "KBNLresearch/ochre",
+  "issueTracker": "https://api.github.com/repos/KBNLresearch/ochre/issues",
+  "readme": "https://github.com/KBNLresearch/ochre/blob/master/README.md"
+}

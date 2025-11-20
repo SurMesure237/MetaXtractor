@@ -1,0 +1,25 @@
+{
+  "codeRepository": "https://github.com/EyeofBeholder-NLeSC/orange3-argument",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/EyeofBeholder-NLeSC/orange3-argument/zipball/main",
+  "author": "EyeofBeholder-NLeSC",
+  "dateCreated": "2022-12-13T11:31:48Z",
+  "dateModified": "2025-10-28T17:33:37Z",
+  "keywords": [
+    "argument-mining",
+    "natural-language-processing",
+    "orange3",
+    "python",
+    "sentiment-analysis",
+    "visualization"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Argument analysis, mining, and visualization add-on for Orange3.",
+  "identifier": 577722891,
+  "name": "EyeofBeholder-NLeSC/orange3-argument",
+  "issueTracker": "https://api.github.com/repos/EyeofBeholder-NLeSC/orange3-argument/issues",
+  "readme": "https://github.com/EyeofBeholder-NLeSC/orange3-argument/blob/main/README.md"
+}

@@ -1,0 +1,18 @@
+{
+  "codeRepository": "https://github.com/marrlab/BaSiC",
+  "programmingLanguage": "MATLAB",
+  "programmingLanguages": [
+    "MATLAB"
+  ],
+  "downloadUrl": "https://api.github.com/repos/marrlab/BaSiC/zipball/main",
+  "author": "marrlab",
+  "dateCreated": "2017-07-03T13:09:51Z",
+  "dateModified": "2025-09-08T15:20:11Z",
+  "keywords": [],
+  "license": null,
+  "description": "A BaSiC Tool for Background and Shading Correction of Optical Microscopy Images",
+  "identifier": 96112138,
+  "name": "marrlab/BaSiC",
+  "issueTracker": "https://api.github.com/repos/marrlab/BaSiC/issues",
+  "readme": "https://github.com/marrlab/BaSiC/blob/master/README.md"
+}

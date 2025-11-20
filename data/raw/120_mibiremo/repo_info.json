@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/MiBiPreT/mibiremo",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/MiBiPreT/mibiremo/zipball/main",
+  "author": "MiBiPreT",
+  "dateCreated": "2024-05-22T06:20:32Z",
+  "dateModified": "2025-09-29T08:31:54Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Microbiome Bioremediation Reaction Module: a Python interface to PhreeqcRM library",
+  "identifier": 804196910,
+  "name": "MiBiPreT/mibiremo",
+  "issueTracker": "https://api.github.com/repos/MiBiPreT/mibiremo/issues",
+  "readme": "https://github.com/MiBiPreT/mibiremo/blob/main/README.md"
+}

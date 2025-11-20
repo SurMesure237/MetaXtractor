@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": ".. image:: https://github.com/multiscale/muscle3/raw/develop/docs/source/muscle3_logo_readme.png  :alt: MUSCLE3\n\n.. image:: https://readthedocs.org/projects/muscle3/badge/?version=develop  :target: https://muscle3.readthedocs.io/en/develop/?badge=develop  :alt: Documentation Build Status\n\n.. image:: https://github.com/multiscale/muscle3/actions/workflows/ci.yaml/badge.svg?branch=develop  :target: https://github.com/multiscale/muscle3/actions  :alt: Build Status\n\n.. image:: https://zenodo.org/badge/122876985.svg  :target: https://zenodo.org/badge/latestdoi/122876985\n\n.. image:: https://img.shields.io/badge/rsd-muscle3-00a3e3.svg  :target: https://www.research-software.nl/software/muscle3\n\n|\n\nMUSCLE3 is the third incarnation of the MUSCLE Multiscale Coupling Library and Environment. With MUSCLE3, you can connect multiple simulation models together into a multiscale simulation.\n\nBrowse to the MUSCLE3 documentation_ to get started.\n\nCollaboration\n\nFor academic collaboration, please contact prof. Alfons Hoekstra (UvA CSL) _ and/or Lourens Veen (NLeSC) _.\n\nCommercial support for MUSCLE3 is provided by Ignition Computing _.\n\nLegal\n\nMUSCLE3 is Copyright 2018-2022 University of Amsterdam and Netherlands eScience Center, Copyright 2022-2024 The ITER Organisation, and Copyright 2023-2025 Netherlands eScience Center. It is licensed under the Apache License 2.0.\n\nContributing",
+      "section": "Introduction (part 1)",
+      "repo": "385_MUSCLE3",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": "We welcome contributions to MUSCLE3! For small additions or fixes, please submit a pull request, and we'll review your changes and apply them. If you want to add larger features, please make an issue and describe what you want to do, so that we can coordinate and avoid double work. For more details, see the documentation on contributing_.\n\nThe MUSCLE3 community fosters a welcoming atmosphere, and participation is open to everyone. In order to ensure that it stays that way, we have a code of conduct_, and we will enforce it if necessary. Please treat your fellow human beings with respect.\n\n.. _the MUSCLE3 documentation: https://muscle3.readthedocs.io .. _documentation on contributing: http://muscle3.readthedocs.io/en/latest/contributing.html .. _code of conduct: https://github.com/multiscale/muscle3/blob/develop/CODE_OF_CONDUCT.rst",
+      "section": "Introduction (part 2)",
+      "repo": "385_MUSCLE3",
+      "source_file": "readme.rst"
+    }
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "codeRepository": "https://github.com/pism/pism",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "Python",
+    "TeX",
+    "Shell",
+    "C",
+    "CMake",
+    "SWIG",
+    "Fortran",
+    "Dockerfile",
+    "MATLAB",
+    "Makefile",
+    "Emacs Lisp"
+  ],
+  "downloadUrl": "https://api.github.com/repos/pism/pism/zipball/main",
+  "author": "pism",
+  "dateCreated": "2011-11-04T19:03:37Z",
+  "dateModified": "2025-10-08T06:50:59Z",
+  "keywords": [
+    "c-plus-plus",
+    "climate",
+    "geophysics",
+    "glacier",
+    "ice-sheet",
+    "mpi",
+    "numerical",
+    "parallel",
+    "petsc",
+    "python",
+    "scientific-computing",
+    "sea-level",
+    "sphinx"
+  ],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Repository for the Parallel Ice Sheet Model (PISM)",
+  "identifier": 2711548,
+  "name": "pism/pism",
+  "issueTracker": "https://api.github.com/repos/pism/pism/issues",
+  "readme": "https://github.com/pism/pism/blob/main/README.rst"
+}

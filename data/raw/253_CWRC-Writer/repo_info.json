@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/cwrc/CWRC-WriterBase",
+  "programmingLanguage": "JavaScript",
+  "programmingLanguages": [
+    "JavaScript",
+    "CSS",
+    "Less",
+    "HTML",
+    "Shell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/cwrc/CWRC-WriterBase/zipball/main",
+  "author": "cwrc",
+  "dateCreated": "2017-02-16T00:59:24Z",
+  "dateModified": "2023-04-28T08:58:30Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-2.0",
+  "description": "The base class from which to create a CWRC-Writer XML editor.",
+  "identifier": 82123127,
+  "name": "cwrc/CWRC-WriterBase",
+  "issueTracker": "https://api.github.com/repos/cwrc/CWRC-WriterBase/issues",
+  "readme": "https://github.com/cwrc/CWRC-WriterBase/blob/master/README.md"
+}

@@ -1,0 +1,226 @@
+[
+  {
+    "id": 784,
+    "annotations": [
+      {
+        "id": 11163,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 458,
+              "end": 490,
+              "text": "https://entangled.github.io/brei",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "ddOT1q7ovT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1440,
+              "end": 1446,
+              "text": "Poetry",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "5ja1ttd-Xv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1448,
+              "end": 1474,
+              "text": "https://python-poetry.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "6adnkPOGY7",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 310,
+              "end": 326,
+              "text": "Python &ge; 3.11",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "YGD_rua5Mk",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:21:39.372029Z",
+        "updated_at": "2025-11-17T00:25:00.299948Z",
+        "draft_created_at": "2025-11-06T05:20:57.284997Z",
+        "lead_time": 119.241,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "2511dc53-5348-48e4-bd3d-8efb6384215c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 784,
+        "project": 23237,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Brei [](https://github.com/entangled/brei) [](https://github.com/entangled/brei/actions/workflows/python-package.yml) [](https://pypi.org/project/brei) [](https://entangled.github.io/)\n\nMinimal workflow system and alternative to Make.\n\nRead from TOML or JSON (also pyproject.toml in [tool.brei] section)\n\nOnly Python &ge; 3.11 required\n\nRuns task lazily and in parallel\n\nSupports variables, templates, includes and custom runners\n\nRead more: [documentation] https://entangled.github.io/brei\n\n## Why (yet another workflow tool)\n\nThis tool was developed as part of the Entangled project, but can be used on its own. Brei is meant to perform small scale automisations for literate programming in Entangled, like generating figures, and performing computations locally. It requires no setup to work with and workflows are easy to understand by novice users. If you have any more serious needs than that, we'd recommend to use a more tried and proven system, of which there are too many to count.\n\n## When to use\n\nYou're running a project, there's lots of odds and ends that need automisation. You'd use a Makefile but your friend is on Windows and doesn't have GNU Make installed. You try to ship a product that needs this, but don't want to confront people trying it for the first time with a tonne of stuff they've never heard of.\n\n## Install\n\nTo install, you may:\n\npip install brei\n\nOr you use a tool for virtual environments, we recommend [Poetry] https://python-poetry.org/, after creating a new project with poetry init:\n\npoetry add brei",
+      "section": "Brei (part 1)",
+      "repo": "283_Brei",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.581354Z",
+    "updated_at": "2025-11-17T00:25:00.335002Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23237,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 785,
+    "annotations": [
+      {
+        "id": 11164,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:21:44.723809Z",
+        "updated_at": "2025-11-06T05:21:44.723828Z",
+        "draft_created_at": null,
+        "lead_time": 5.158,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "67aca608-6579-486c-bd99-739211c3c070",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 785,
+        "project": 23237,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Development\n\nTo run unit tests and type checker:\n\npoetry install poetry shell brei test\n\nTo build the documentation, run the brei weave workflow:",
+      "section": "Brei (part 2)",
+      "repo": "283_Brei",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.581392Z",
+    "updated_at": "2025-11-06T05:21:44.754556Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23237,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 786,
+    "annotations": [
+      {
+        "id": 11165,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 256,
+              "end": 270,
+              "text": "Apache License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "F2IW3Iaiua",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T05:21:56.236492Z",
+        "updated_at": "2025-11-06T05:21:56.236504Z",
+        "draft_created_at": null,
+        "lead_time": 11.342,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "13458d4b-d414-4a71-a877-6c7548b6b677",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 786,
+        "project": 23237,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "poetry shell brei weave\n\nSome parts of Brei are literate. Run the entangled watch daemon while editing code,\n\nentangled watch\n\nor else, as a batch job, stitch changes before committing:\n\nentangled stitch\n\n## License\n\nCopyright Netherlands eScience Center, Apache License, see LICENSE.",
+      "section": "poetry shell",
+      "repo": "283_Brei",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:49.581415Z",
+    "updated_at": "2025-11-06T05:21:56.259830Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23237,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

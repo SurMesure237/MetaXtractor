@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/roblib/rdm-playbook",
+  "programmingLanguage": null,
+  "programmingLanguages": [],
+  "downloadUrl": "https://api.github.com/repos/roblib/rdm-playbook/zipball/main",
+  "author": "roblib",
+  "dateCreated": "2018-10-10T14:25:25Z",
+  "dateModified": "2020-06-24T13:08:24Z",
+  "keywords": [
+    "islandora8",
+    "rdm-085"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Playbook for \"brining\" up an RDM-flavoured version of Islandora 8 (formerly CLAW)",
+  "identifier": 152436775,
+  "name": "roblib/rdm-playbook",
+  "issueTracker": "https://api.github.com/repos/roblib/rdm-playbook/issues",
+  "readme": "https://github.com/roblib/rdm-playbook/blob/dev/README.md"
+}

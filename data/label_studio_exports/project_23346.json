@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1451,
+    "annotations": [
+      {
+        "id": 11974,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 305,
+              "end": 348,
+              "text": "https://opensource.org/licenses/Apache-2.0)",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "BunzcHc7t_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 59,
+              "end": 126,
+              "text": "https://github.com/medema-group/bgc-viewer/actions/workflows/ci.yml",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "JeCU_LCDi9",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:02:27.159727Z",
+        "updated_at": "2025-11-15T18:15:39.887025Z",
+        "draft_created_at": "2025-11-09T07:00:50.264424Z",
+        "lead_time": 130.85399999999998,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "29d1a6d8-f386-4967-a4c8-8cb4c8867e7d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1451,
+        "project": 23346,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "BGC Viewer\n\n| Badges | | |:----:|----| | Build Status | [](https://github.com/medema-group/bgc-viewer/actions/workflows/ci.yml) [](https://www.python.org/downloads/) [](https://github.com/psf/black) | | Software Directory | [](https://research-software-directory.org/software/bgc-viewer) | | License | [](https://opensource.org/licenses/Apache-2.0) | | Fairness | [](https://fair-software.eu) |\n\nA viewer for biosynthetic gene cluster data.\n\nThis is the development README. The README for end-users is here: [backend/README.md] backend/README.md (it's the readme of the Python package)\n\n## Project Structure\n\nThe projects consists of a number of modules, which are available in their respective folders as self-contained packages:\n\nbackend: Python Flask server that serves API and statically built frontend.\n\nfrontend: Vue.js web application that, together with the API, makes a stand-alone viewer.\n\nviewer-components: Reusable TS/JS components for the frontend.\n\nThe frontend contains a built copy of the viewer-components and the backend (Python package) contains a built copy of the frontend, so the resulting Python package will contain everything that is needed to run the application.\n\n## Installation & usage\n\nFor end-users, see this README: [backend/README.md] backend/README.md. For development, a number of different scenarios is possible.",
+      "section": "BGC Viewer (part 1)",
+      "repo": "372_BGC_Viewer",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.161853Z",
+    "updated_at": "2025-11-15T18:15:39.919692Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23346,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1452,
+    "annotations": [
+      {
+        "id": 11975,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 34,
+              "end": 36,
+              "text": "uv",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Ff9TsXTk5X",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 87,
+              "end": 93,
+              "text": "nodejs",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "d1is2L8QAn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 96,
+              "end": 99,
+              "text": "npm",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "6q9NS61jP_",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 38,
+              "end": 69,
+              "text": "https://github.com/astral-sh/uv",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "Oo4PtiyWkP",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 19,
+              "end": 31,
+              "text": "Python 3.11+",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "Hi3zUel4lZ",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:05:43.875678Z",
+        "updated_at": "2025-11-17T00:19:16.069930Z",
+        "draft_created_at": "2025-11-09T07:02:37.389039Z",
+        "lead_time": 229.159,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "6dced674-5085-4ab2-b021-69073cbf3e8b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1452,
+        "project": 23346,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Prerequisites\n\nPython 3.11+\n\n[uv] https://github.com/astral-sh/uv package manager\n\nnodejs / npm\n\n### Build, install & run all modules\n\nTo build all modules (viewer-components, frontend, backend), execute the build script from the repository root.\n\n./build.sh\n\nYou can then install and run the built Python package as follows (replace {VERSION} with built version)\n\npip install backend/dist/bgc_viewer-{VERSION}-py3-none-any.whl bgc-viewer\n\n### Viewer-components development\n\ncd viewer-components/",
+      "section": "BGC Viewer (part 2)",
+      "repo": "372_BGC_Viewer",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.161898Z",
+    "updated_at": "2025-11-17T00:19:16.102139Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23346,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1453,
+    "annotations": [
+      {
+        "id": 11976,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1701,
+              "end": 1711,
+              "text": "Apache 2.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "jDb-Bu_EYD",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-09T07:07:37.744064Z",
+        "updated_at": "2025-11-09T07:07:37.744080Z",
+        "draft_created_at": "2025-11-09T07:05:59.067865Z",
+        "lead_time": 113.562,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "b20c563e-a197-437e-882a-d62574d1fab5",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1453,
+        "project": 23346,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Install npm install\n\nRun dev server npm run dev\n\nBuild npm run build\n\n### Frontend development\n\nTODO: some copying of assets from the viewer-components is required. See [./build.sh] ./build.sh script for now.\n\ncd frontend/\n\nInstall npm install\n\nRun dev server npm run dev\n\nBuild npm run build\n\n### Backend (Python package) development\n\nTODO: some copying of assets from the frontend is required. See [./build.sh] ./build.sh script for now.\n\ncd backend/\n\nSetup environment and install uv venv source .venv/bin/activate # On Windows: .venv\\Scripts\\activate uv pip install -e \".[dev]\"\n\nRun dev server uv run python -m bgc_viewer.app\n\nBuild uv build\n\n## Configuration\n\nEnvironment variables can be set to change the configuration of the viewer. A convenient way to change them is to put a file called .env in the directory from which you are running the application.\n\nBGCV_HOST=localhost # Server host (default: localhost) BGCV_PORT=5005 # Server port (default: 5005) BGCV_DEBUG_MODE=False # Enable dev/debug mode (default: False) BGCV_PUBLIC_MODE=False # In public mode, there won't be an option to access the  # file system; the data directory will be fixed (default: False) BGCV_DATA_DIR=/data_dir/ # In public mode, this data directory will be used BGCV_ALLOWED_ORIGINS=https://yourdomain.com # Allowed CORS origins, relevant for public mode\n\n### Running the Server\n\nuv run python -m bgc_viewer.app\n\nThe server will start on http://localhost:5005 by default.\n\n### Code Formatting\n\nFormat code uv run black bgc_viewer/\n\nLint code uv run flake8 bgc_viewer/\n\nType checking uv run mypy bgc_viewer/\n\n### Testing\n\nRun tests uv run pytest\n\nRun tests with coverage uv run pytest --cov=bgc_viewer\n\n## License\n\nApache 2.0",
+      "section": "Install + Run dev server + Build (and 11 more)",
+      "repo": "372_BGC_Viewer",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:57.161925Z",
+    "updated_at": "2025-11-09T07:07:37.774611Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23346,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

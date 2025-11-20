@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1159,
+    "annotations": [
+      {
+        "id": 11130,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 210,
+              "end": 252,
+              "text": "https://openncem.readthedocs.io/en/latest/",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "9K0CM7EOP9",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1049,
+              "end": 1054,
+              "text": "GPLv3",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "F_dtVAM9iV",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1059,
+              "end": 1062,
+              "text": "MIT",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "glLN1D1-Sq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1261,
+              "end": 1287,
+              "text": "GNU General Public License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "onbc_Qzxcm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T23:18:29.718202Z",
+        "updated_at": "2025-11-16T05:58:58.215749Z",
+        "draft_created_at": "2025-11-05T23:18:12.692899Z",
+        "lead_time": 32.354,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "36c7dd7c-72c5-4dc1-97c3-46a8cf85fd4e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1159,
+        "project": 23291,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "openNCEM\n\nA collection of packages, scripts, and tools for electron microscopy data analysis supported by the National Center for Electron Microscopy facility of the Molecular Foundry.\n\nRead the documentation: https://openncem.readthedocs.io/en/latest/.\n\nInstallation of the ncempy package\n\nThe newest version can be installed using pip:\n\n`>> pip install ncempy\n\nTo ensure dependencies for the EDS tomography reconstruction are installed:\n\npip install ncempy[edstomo]\n\nComponents\n\nThe openNCEM collection comes with different components, described below.\n\nncempy  openNCEM's python package to provide various algorithms and routines to process or simulate images.\n\ntools  The tools build leveraging the algorithms and routines provided in the libraries/packages. They are subordered by the different problems they address.\n\nCommands\n\nncem2png  Extracts a PNG file from the data in a SER, DM3, or DM4 file. For 3D and 4D  files, it tries to extract an image from the middle of the third and forth  dimension.\n\nLicense\n\nncempy` is dual licensed under GPLv3 and MIT. The io module is the only part  released under MIT to improve interoperability with other packages.\n\nThis program is free software: you can redistribute it and/or modify  it under the terms of the GNU General Public License as published by  the Free Software Foundation, either version 3 of the License, or  (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,  but WITHOUT ANY WARRANTY; without even the implied warranty of  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the  GNU General Public License for more details.",
+      "section": "Introduction (part 1)",
+      "repo": "285_LiberTEM",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.413315Z",
+    "updated_at": "2025-11-16T05:58:58.249144Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23291,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1160,
+    "annotations": [
+      {
+        "id": 11131,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 39,
+              "end": 65,
+              "text": "GNU General Public License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "0kFT9QYr4k",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 104,
+              "end": 133,
+              "text": "https://www.gnu.org/licenses/",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "UKHDVEVnG1",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T23:18:41.793545Z",
+        "updated_at": "2025-11-05T23:18:41.793565Z",
+        "draft_created_at": "2025-11-05T23:18:38.716328Z",
+        "lead_time": 11.87,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "b2fcb2b3-d6c3-417d-a40e-d4dd662f84dd",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1160,
+        "project": 23291,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "You should have received a copy of the GNU General Public License  along with this program. If not, see https://www.gnu.org/licenses/.",
+      "section": "Introduction (part 2)",
+      "repo": "285_LiberTEM",
+      "source_file": "readme.rst"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:53.413376Z",
+    "updated_at": "2025-11-05T23:18:41.822168Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23291,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

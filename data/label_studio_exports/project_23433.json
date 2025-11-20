@@ -1,0 +1,293 @@
+[
+  {
+    "id": 1897,
+    "annotations": [
+      {
+        "id": 10540,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 121,
+              "end": 159,
+              "text": "https://doi.org/10.5281/zenodo.8257076",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "8Tzs8pJNmD",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 325,
+              "end": 512,
+              "text": "Alia, Ahmed, Mohammed Maree, and Mohcine Chraibi. 2022. \"A Hybrid Deep Learning and Visualization Framework for Pushing Behavior Detection in Pedestrian Dynamics\" Sensors 22, no. 11: 4040",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "A3-uk_FcuG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 256,
+              "end": 302,
+              "text": "https://www.mdpi.com/1424-8220/22/11/4040/htm,",
+              "labels": [
+                "REFERENCE_PUBLICATION_URL"
+              ]
+            },
+            "id": "BAOwwcv_xu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:46:10.190348Z",
+        "updated_at": "2025-11-04T17:46:10.190364Z",
+        "draft_created_at": "2025-11-04T17:45:42.403049Z",
+        "lead_time": 37.511,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "9e3188d8-c164-46ec-afeb-52f2bc7c9762",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1897,
+        "project": 23433,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "DL4PuDe: A hybrid framework of deep learning and visualization for pushing behavior detection in pedestrian dynamics\n\n[](https://doi.org/10.5281/zenodo.8257076 ) [](./LICENSE)\n\nThis repository is for the DL4PuDe framework, along with its published [paper] https://www.mdpi.com/1424-8220/22/11/4040/htm, which is as follows.\n\nAlia, Ahmed, Mohammed Maree, and Mohcine Chraibi. 2022. \"A Hybrid Deep Learning and Visualization Framework for Pushing Behavior Detection in Pedestrian Dynamics\" Sensors 22, no. 11: 4040.\n\n## Content\n\nFramework aim.\n\nFramework Motivation.\n\nPushing Behavior Defention.\n\nFramework Architecture.\n\nHow to install and use the framework.\n\nDemo.\n\nExperiments Videos.\n\nCNN-based Classifiers\n\nSource code for building and training CNN-based classifiers.   Trained CNN-based classifiers.   Source code for evaluating the trained CNN-based classifiers.   Test sets.  List of papers that cited this work.\n\n## Aim of Dl4PuDe Framework\n\nDl4PuDe aims to automatically detect and annotate pushing behavior at the patch level in video recordings of human crowds.",
+      "section": "`DL4PuDe:` A hybrid framework of deep learning and visualization for pushing behavior detection in pedestrian dynamics (part 1)",
+      "repo": "147_DL4PuDe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.214659Z",
+    "updated_at": "2025-11-04T17:46:10.223880Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23433,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1898,
+    "annotations": [
+      {
+        "id": 10541,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:46:12.615113Z",
+        "updated_at": "2025-11-04T17:46:12.615130Z",
+        "draft_created_at": null,
+        "lead_time": 2.232,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b0f6821f-05c3-48d4-9a23-d6cfde509505",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1898,
+        "project": 23433,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Motivation of Dl4PuDe Framework\n\nTo assist researchers in the field of crowd dynamics in gaining a better understanding of pushing dynamics, which is crucial for effectively managing a comfortable and safe crowd.\n\n## Pushing Behavior Defention\n\nIn this article, pushing can be defined as a behavior that pedestrians use to reach a target faster.\n\n###### An example of pushing strategy\n\n###### Entering the event faster\n\n## The Architecture of DL4PuDe\n\nDL4PuDe mainly relied on the power of EfficientNet-B0-based classifier, RAFT and wheel visualization methods.\n\nKindly note that we use the [RAFT repository] for optical flow estimation in our project.\n\nExample\n\nInput video   Output video\n\nThe framework detects pushing patches every 12 frames (12/25 s), the red boxes refer to the pushing patches.",
+      "section": "`DL4PuDe:` A hybrid framework of deep learning and visualization for pushing behavior detection in pedestrian dynamics (part 2)",
+      "repo": "147_DL4PuDe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.214695Z",
+    "updated_at": "2025-11-04T17:46:12.646545Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23433,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1899,
+    "annotations": [
+      {
+        "id": 10542,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:46:19.265824Z",
+        "updated_at": "2025-11-04T17:46:19.265840Z",
+        "draft_created_at": null,
+        "lead_time": 6.464,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "fdb170a1-99f1-4659-a9d4-461cdcf1dabb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1899,
+        "project": 23433,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Installation\n\nClone the repository in your directory.\n\ngit clone https://github.com/PedestrianDynamics/DL4PuDe.git\n\nInstall the required libraries.\n\npip install -r libraries.txt\n\nRun the framework.\n\npython3 run.py --video [input video path]   --roi [\"x coordinate of left-top ROI corner\" \"y coordinate of left-top ROI corner\"  \"x coordinate of right-bottom ROI corner\" \"y coordinate of right-bottom ROI corner\" ]   --patch [rows cols]   --ratio [scale of video]   --angle [angle in degrees for rotating the input video to make crowd flow direction  from left to right ---> ]\n\n## Demo\n\nRun the following command\n\npython3 run.py --video ./videos/150.mp4 --roi 380 128 1356 1294 --patch 3 3 --ratio 0.5 --angle 0\n\nThen, you will see the following details.\n\nWhen the progress of the framework is complete, it will generate the annotated video in the framework directory. Please note that the \"150 annotated video\" is available on the directory root under the \"150-demo.mp4\" name.\n\n## Experiments Videos\n\nThe original experiments videos that are used in this work are available through the [Pedestrian Dynamics Data Archive hosted] http://ped.fz-juelich.de/da/2018crowdqueue by the Forschungszentrum Juelich. Also, the undistorted videos are available by [this link.] https://drive.google.com/drive/folders/16eZhC9mnUQUXxUeIUXd6xwBU2fSf3qCz?usp=sharing",
+      "section": "`DL4PuDe:` A hybrid framework of deep learning and visualization for pushing behavior detection in pedestrian dynamics (part 3)",
+      "repo": "147_DL4PuDe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.214719Z",
+    "updated_at": "2025-11-04T17:46:19.294644Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23433,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1900,
+    "annotations": [
+      {
+        "id": 10543,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:46:21.411436Z",
+        "updated_at": "2025-11-04T17:46:21.411464Z",
+        "draft_created_at": null,
+        "lead_time": 1.972,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "082ee297-0281-4e70-8e4f-01be3e3fb1d4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1900,
+        "project": 23433,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## CNN-based Classifiers\n\nWe use four CNN-based classifiers for building and evaluating our classifier, including EfficientNet-B0, MobileNet, InceptionV3, and ResNet50. The source code for building, training and evaluating the CNN-based classifiers, as well as the trained classifiers are available in the below links. Source code for building and training the CNN-based classifiers.\n\n[EfficientNet-B0-based classifier.] ./CNN/CNN-Architectures/efficientNetB0.ipynb  [MobileNet-based classifier.] ./CNN/CNN-Architectures/InceptionV3.ipynb  [InceptionV3-based classifier.] ./CNN/CNN-Architectures/InceptionV3.ipynb  [ResNet50-based classifier.] ./CNN/CNN-Architectures/ResNet50.ipynb [Trained CNN-based classifiers.] https://drive.google.com/drive/folders/1vmgYufnt4_NNQUE9PGYZLkrn5DmErENu?usp=sharing\n\nCNN-based classifiers Evaluation.\n\n[Patch-based medium RAFT-MIM12 dataset.] ./CNN/Classifiers-evaluation/patch-based-medium-RAFT-MIM12/  [Patch-based medium RAFT-MIM25 dataset.] ./CNN/Classifiers-evaluation/patch-based-medium-RAFT-MIM25/  [Patch-based small RAFT-MIM12 dataset.] ./CNN/Classifiers-evaluation/patch-based-small-RAFT-MIM12/  [Patch-based small RAFT-MIM25 dataset.] ./CNN/Classifiers-evaluation/patch-based-small-RAFT-MIM25/  [Patch-based medium FB-MIM12 dataset.] ./CNN/Classifiers-evaluation/patch-based-medium-FB-MM12/  [Frame-based RAFT-MIM12 dataset.] ./CNN/Classifiers-evaluation/frame-based-RAFT-MIM12/ [Frame-based RAFT-MIM25 dataset.] ./CNN/Classifiers-evaluation/frame-based-RAFT-MIM25/\n\n[Patch-based MIM test sets.] ./CNN/Classifiers-evaluation/test-sets/\n\nMIM training and validation sets are available from the corresponding authors upon request.",
+      "section": "`DL4PuDe:` A hybrid framework of deep learning and visualization for pushing behavior detection in pedestrian dynamics (part 4)",
+      "repo": "147_DL4PuDe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.214741Z",
+    "updated_at": "2025-11-04T17:46:21.440285Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23433,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1901,
+    "annotations": [
+      {
+        "id": 10544,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T17:46:29.191343Z",
+        "updated_at": "2025-11-04T17:46:29.191374Z",
+        "draft_created_at": null,
+        "lead_time": 7.607,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "43df3be9-52a3-41f3-a5a9-54449af4577e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1901,
+        "project": 23433,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## List of papers that cited this work\n\nTo access the list of papers citing this work, kindly click on this [link.] https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14553227952079022657&as_sdt=5\n\n## Citation\n\nIf you utilize this framework or the generated dataset in your work, please cite it using the following BibTex entry:\n\nAlia, Ahmed, Mohammed Maree, and Mohcine Chraibi. 2022. \"A Hybrid Deep Learning and Visualization Framework for Pushing Behavior Detection in Pedestrian Dynamics\" Sensors 22, no. 11: 4040.\n\n## Acknowledgments\n\nThis work was funded by the German Federal Ministry of Education and Research (BMBF: funding number 01DH16027) within the Palestinian-German Science Bridge project framework, and partially by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)—491111487.\n\nThanks to the Forschungszentrum Juelich, Institute for Advanced Simulation-7, for making the Pedestrian Dynamics Data Archive publicly accessible under the CC Attribution 4.0 International license.\n\nThanks to Anna Sieben, Helena Lügering, and Ezel Üsten for developing the rating system and annotating the pushing behavior in the video experiments.\n\nThanks to the authors of the paper titled ``RAFT: Recurrent All Pairs Field Transforms for Optical Flow'' for making the RAFT source code available.",
+      "section": "`DL4PuDe:` A hybrid framework of deep learning and visualization for pushing behavior detection in pedestrian dynamics (part 5)",
+      "repo": "147_DL4PuDe",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:03.214764Z",
+    "updated_at": "2025-11-04T17:46:29.218504Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23433,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

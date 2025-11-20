@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "EXCEL to FHIR\n\nA typescript package to convert spreadsheet (EXCEL) to FHIR resources in JSON.\n\nThe workflow is as follows:\n\nconvert format: read the spreadsheet and convert it to JSON\n\ntransform schema: transform the JSON using JSONATA to FHIR resources (JSON)\n\nWe use [JSONATA] https://jsonata.org/ to transform schemas with mapping rules defined in a .jsonata file.\n\nThis package aims to transform GameBus Excel to FHIR R4 (ConceptMap) resources, for which the mapping rules have been defined in [this folder] jsonata. If there are changes on GameBus Excel schema (e.g. changes on sheets and colomns), the mapping rules must be updated accordingly. An example of the GameBus Excel file is provided as [gamebus.xlsx] gamebus.xlsx.\n\n## Requirements\n\n[Deno] https://docs.deno.com/runtime/manual/getting_started/installation\n\nIf you have deno installed, it's a good practice to update it to lastest version using the command: deno upgrade.\n\n## Usage\n\n### Run the typescript package directly:\n\nrun conversion deno run --allow-read --allow-write https://raw.githubusercontent.com/nwo-strap/excel-to-fhir/main/excel-to-fhir.ts -f example-excel.xlsx -s sheetname1 sheetname2 -j mapping1.jsonata mapping2.jsonata\n\nshow help deno run --allow-read --allow-write https://raw.githubusercontent.com/nwo-strap/excel-to-fhir/main/excel-to-fhir.ts -h\n\n### Run the typescript package as a command line tool\n\nIf you want to install the package as CLI tool and run:\n\ninstall deno install --allow-read --allow-write https://raw.githubusercontent.com/nwo-strap/excel-to-fhir/main/excel-to-fhir.ts\n\nrun conversion excel-to-fhir -f example-excel.xlsx -s sheetname1 sheetname2 -j mapping1.jsonata mapping2.jsonata",
+      "section": "EXCEL to FHIR + run conversion + show help (and 2 more)",
+      "repo": "399_Excel-to-fhir",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "show help excel-to-fhir --help\n\n### Use Deno tasks in repo\n\nYou can define [Deno tasks] https://docs.deno.com/runtime/manual/tools/task_runner in the [deno.json] deno.json file with specific inputs and options.\n\nIn the file you can find the task transform, which is defined to convert [gamebus.xlsx] gamebus.xlsx file to FHIR resources with all valid sheets (with all corresponding jsonata files). You can run the conversion with the following command:\n\nclone the repo git clone https://github.com/nwo-strap/excel-to-fhir.git cd excel-to-fhir\n\nrun the task deno task transform\n\n## Development\n\nTo run unit tests, use the following command:\n\ndeno test --allow-read --allow-write\n\nTo watch file changes and check output during development, use the following command:\n\ndeno task dev",
+      "section": "show help + clone the repo + run the task",
+      "repo": "399_Excel-to-fhir",
+      "source_file": "readme.md"
+    }
+  }
+]

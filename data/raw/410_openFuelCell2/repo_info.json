@@ -1,0 +1,22 @@
+{
+  "codeRepository": "https://github.com/openFuelCell2/openFuelCell2",
+  "programmingLanguage": "C",
+  "programmingLanguages": [
+    "C",
+    "C++",
+    "Python",
+    "Shell",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/openFuelCell2/openFuelCell2/zipball/main",
+  "author": "openFuelCell2",
+  "dateCreated": "2023-06-22T06:36:55Z",
+  "dateModified": "2025-10-30T11:18:43Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "openFuelCell2 is a computational fluid dynamics (CFD) toolbox for simulating electrochemical devices such as fuel cells and electrolysis. The solver is based on the open-source library, OpenFOAM®.",
+  "identifier": 657022891,
+  "name": "openFuelCell2/openFuelCell2",
+  "issueTracker": "https://api.github.com/repos/openFuelCell2/openFuelCell2/issues",
+  "readme": "https://github.com/openFuelCell2/openFuelCell2/blob/master/README.md"
+}

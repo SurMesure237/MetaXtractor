@@ -1,0 +1,27 @@
+{
+  "codeRepository": "https://github.com/kamping-site/kamping",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "CMake",
+    "Shell",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/kamping-site/kamping/zipball/main",
+  "author": "kamping-site",
+  "dateCreated": "2021-10-21T12:19:47Z",
+  "dateModified": "2025-10-25T17:49:02Z",
+  "keywords": [
+    "cplusplus",
+    "distributed-computing",
+    "high-performance-computing",
+    "mpi",
+    "parallel-programming"
+  ],
+  "license": "https://api.github.com/licenses/lgpl-3.0",
+  "description": "KaMPIng: (Near) zero-overhead MPI wrapper for modern C++",
+  "identifier": 419710928,
+  "name": "kamping-site/kamping",
+  "issueTracker": "https://api.github.com/repos/kamping-site/kamping/issues",
+  "readme": "https://github.com/kamping-site/kamping/blob/main/README.md"
+}

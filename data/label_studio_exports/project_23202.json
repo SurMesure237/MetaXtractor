@@ -1,0 +1,132 @@
+[
+  {
+    "id": 507,
+    "annotations": [
+      {
+        "id": 12163,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 179,
+              "end": 454,
+              "text": "M. Weber, M. Turowski, H. K. Çakmak, R. Mikut, U. Kühnapfel and V. Hagenmeyer, 2021, \"Data-Driven Copy-Paste Imputation for Energy Time Series,\" in IEEE Transactions on Smart Grid, 12, 6, pp. 5409–5419, doi: [10.1109/TSG.2021.3101831] https://doi.org/10.1109/TSG.2021.3101831",
+              "labels": [
+                "REFERENCE_PUBLICATION"
+              ]
+            },
+            "id": "EUHrRWqcIN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:52:03.665116Z",
+        "updated_at": "2025-11-09T10:52:03.665128Z",
+        "draft_created_at": "2025-11-09T10:51:37.035152Z",
+        "lead_time": 45.578,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "dc5c006e-6f71-408e-b889-2c7af0f8d326",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 507,
+        "project": 23202,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Copy-Paste Imputation (CPI) for Energy Time Series\n\nThis repository contains the Python implementation of the Copy-Paste Imputation (CPI) method presented in the following paper: M. Weber, M. Turowski, H. K. Çakmak, R. Mikut, U. Kühnapfel and V. Hagenmeyer, 2021, \"Data-Driven Copy-Paste Imputation for Energy Time Series,\" in IEEE Transactions on Smart Grid, 12, 6, pp. 5409–5419, doi: [10.1109/TSG.2021.3101831] https://doi.org/10.1109/TSG.2021.3101831.\n\n## Installation\n\nTo install this project, perform the following steps: Clone the project\n\nOpen a terminal of the virtual environment where you want to use the project\n\ncd into the cloned directory\n\npip install . or pip install -e . to install the project editable.\n\nUse pip install -e .[dev] to install with development dependencies\n\n## Use\n\nfrom cpiets.cpi import CopyPasteImputation  import pandas as pd\n\ncpi = CopyPasteImputation()  data = pd.read_csv('data.csv')  cpi.fit(data)  result = cpi.impute()\n\n### Input Data Requirements\n\nExample data:\n\n| time | energy | | ------------------- | ------:| | 2012-01-02 00:15:00 | 11.60 | | 2012-01-02 00:30:00 | 24.87 | | 2012-01-02 00:45:00 | 37.31 |\n\nThe names of the columns are arbitrary.\n\nAssumptions:  There are no missing values (nan) at the start or end of the time series.  A day starts with the first value after 0:00 (0:15 in the example above) and ends with 0:00.  The time series starts at the beginning of a day and ends at the end of a day.\n\nSupported time formats:  %Y-%m-%d %H:%M:%S (2020-01-17 13:37:42)  %d-%b-%Y %H:%M:%S (17-Jan-2020 13:37:42)",
+      "section": "Copy-Paste Imputation (CPI) for Energy Time Series (part 1)",
+      "repo": "096_Copy-Paste_Imputation__CPI__for_Energy_Time_Series",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.130933Z",
+    "updated_at": "2025-11-09T10:52:03.697595Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23202,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 508,
+    "annotations": [
+      {
+        "id": 12164,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 544,
+              "end": 560,
+              "text": "LGPL-3.0 License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "1h-D5YRPcv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-09T10:52:15.235810Z",
+        "updated_at": "2025-11-09T10:52:15.235822Z",
+        "draft_created_at": null,
+        "lead_time": 11.375,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "963a872e-12af-4b75-b8c6-c77dbbfada60",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 508,
+        "project": 23202,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Example\n\nIn this repository, we included example data derived from the [ElectricityLoadDiagrams20112014] https://archive.ics.uci.edu/ml/datasets/ElectricityLoadDiagrams20112014 data set.\n\nTo run the CPI method with simple test data, you can run the example\n\npython example/simple_imputation.py\n\nand play around with the parameters.\n\n## Funding\n\nThis project is supported by the Helmholtz Association under the Joint Initiative \"Energy System 2050 - A Contribution of the Research Field Energy\".\n\n## License\n\nThis code is licensed under the [LGPL-3.0 License] COPYING.",
+      "section": "Copy-Paste Imputation (CPI) for Energy Time Series (part 2)",
+      "repo": "096_Copy-Paste_Imputation__CPI__for_Energy_Time_Series",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:47.130968Z",
+    "updated_at": "2025-11-09T10:52:15.268474Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23202,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

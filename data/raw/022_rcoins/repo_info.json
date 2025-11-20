@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/CityRiverSpaces/rcoins",
+  "programmingLanguage": "R",
+  "programmingLanguages": [
+    "R",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/CityRiverSpaces/rcoins/zipball/main",
+  "author": "CityRiverSpaces",
+  "dateCreated": "2024-10-14T14:09:33Z",
+  "dateModified": "2025-08-29T08:45:05Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Identify continuous lines in a network",
+  "identifier": 872482357,
+  "name": "CityRiverSpaces/rcoins",
+  "issueTracker": "https://api.github.com/repos/CityRiverSpaces/rcoins/issues",
+  "readme": "https://github.com/CityRiverSpaces/rcoins/blob/main/README.md"
+}

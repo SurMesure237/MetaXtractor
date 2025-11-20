@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "FraCSPy\n\n[](https://zenodo.org/badge/latestdoi/619447827)\n\nFraCSPy stands for Python Framework for Conventional microSeismic Processing.\n\nIt is a single python toolbox for the full microseismic pipeline from modelling to post-event analysis. This library is a single location leveraging the excellent work of other scientists (software developers) and adapts them for the specific use case of microseismic monitoring.\n\nSome functionalities include:\n\nmodelling script generation (for accompanying [SOFI3D] https://docs.csc.fi/apps/sofi3d/)\n\nevent imaging: detection, location\n\nmoment tensor inversion\n\nSome python libraries that are utilised include:\n\npylops\n\ntorch\n\nobspy\n\nand more...\n\n## Requirements\n\nInstallation requires either [pip] https://pypi.org/project/pip/ package installer or [Conda] https://conda.io package manager, e.g. one can use [miniforge] https://github.com/conda-forge/miniforge.\n\n## Install using pip\n\npip install fracspy\n\n## Install using conda\n\n### Linux\n\nSimply run\n\nmake install\n\nIt will create a new conda environment fracspy with all the required packages:\n\nSimilarly, on Linux you can run:\n\n./install.sh\n\n### Windows\n\nOn Windows, the best way is to use [miniforge] https://github.com/conda-forge/miniforge prompt and run:\n\ninstall.bat\n\nIt will install the package to environment fracspy and activate it.\n\nTo install development version use\n\ninstall-dev.bat\n\nNow you are ready to use the package.\n\n### Uninstall\n\nIf you need to add/change packages:\n\nconda deactivate conda remove -n fracspy -all",
+      "section": "FraCSPy (part 1)",
+      "repo": "064_FraCSPy",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Documentation\n\nThe latest stable documentation based on [Sphinx] https://www.sphinx-doc.org is available online at:\n\nOne can also build the documentation locally:\n\ncd docs make html\n\nIf you want to rebuild the documentation:\n\nmake clean make html\n\nAfter a successful build, one can serve the documentation website locally:\n\ncd build/html python -m http.server\n\nand open in browser:\n\nTo build/rebuild documentation on Windows you can simply run\n\nbuild_docs.bat\n\nNote: check the exact port number in the output",
+      "section": "FraCSPy (part 2)",
+      "repo": "064_FraCSPy",
+      "source_file": "readme.md"
+    }
+  }
+]

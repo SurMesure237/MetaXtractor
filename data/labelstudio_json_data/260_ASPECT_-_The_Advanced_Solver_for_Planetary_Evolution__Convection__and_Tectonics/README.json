@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "[](https://dealii.org/regression_tests/reports/render.html?#!current.md) [](https://dealii.org/regression_tests/reports/render.html?#!previous.md) [](https://dealii.org/performance_tests/reports/render.html?#!current.md) [](https://ci.tjhei.info/job/dealii-serial/job/master/) [](https://ci.tjhei.info/job/dealii-mpi/job/master/) [](https://ci.tjhei.info/job/dealii-osx/job/master/) [](https://ci.tjhei.info/job/dealii-ampere/job/master/) [](https://github.com/dealii/dealii/actions/workflows/indent.yml?query=branch%3Amaster) [](https://github.com/dealii/dealii/actions/workflows/tidy.yml?query=branch%3Amaster) [](https://github.com/dealii/dealii/actions/workflows/linux.yml?query=branch%3Amaster)",
+      "section": "Introduction (part 1)",
+      "repo": "260_ASPECT_-_The_Advanced_Solver_for_Planetary_Evolution__Convection__and_Tectonics",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[](https://github.com/dealii/dealii/actions/workflows/osx.yml?query=branch%3Amaster) [](https://github.com/dealii/dealii/actions/workflows/windows.yml?query=branch%3Amaster)",
+      "section": "Introduction (part 2)",
+      "repo": "260_ASPECT_-_The_Advanced_Solver_for_Planetary_Evolution__Convection__and_Tectonics",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "What is deal.II?\n\ndeal.II is a C++ program library targeted at the computational solution of partial differential equations using adaptive finite elements. It uses state-of-the-art programming techniques to offer you a modern interface to the complex data structures and algorithms required.\n\nFor the impatient:\n\nLet's say you've unpacked the .tar.gz file into a directory /path/to/dealii/sources. Then configure, compile, and install the deal.II library with:\n\n$ mkdir build  $ cd build  $ cmake -DCMAKE_INSTALL_PREFIX=/path/where/dealii/should/be/installed/to /path/to/dealii/sources  $ make install (alternatively $ make -j install)  $ make test\n\nTo build from the repository, execute the following commands first:\n\n$ git clone https://github.com/dealii/dealii  $ cd dealii\n\nThen continue as before.\n\nA detailed ReadME can be found at [./doc/readme.html] https://dealii.org/developer/readme.html, [./doc/users/cmake_user.html] https://dealii.org/developer/users/cmake_user.html, or at https://dealii.org/.\n\nGetting started:\n\nThe tutorial steps are located under examples/ of the installation. Information about the tutorial steps can be found at [./doc/doxygen/tutorial/index.html] https://dealii.org/developer/doxygen/deal.II/Tutorial.html or at https://dealii.org/.\n\ndeal.II includes support for pretty-printing deal.II objects inside GDB. See [contrib/utilities/dotgdbinit.py] contrib/utilities/dotgdbinit.py or the new documentation page (under 'information for users') for instructions on how to set this up.\n\nLicense:\n\nPlease see the file [./LICENSE.md] LICENSE.md for details\n\nFurther information:\n\nFor further information have a look at [./doc/index.html] https://dealii.org/developer/index.html or at https://dealii.org.\n\nDocker Images:",
+      "section": "Introduction (part 3)",
+      "repo": "260_ASPECT_-_The_Advanced_Solver_for_Planetary_Evolution__Convection__and_Tectonics",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Docker images based on the Ubuntu operating system are available on [Docker Hub] https://hub.docker.com/r/dealii/dealii. You can use any of the available version ([list of available tags] https://hub.docker.com/r/dealii/dealii/tags) by running, for example:\n\n$ docker run --rm -t -i dealii/dealii:master-focal\n\nThe above command would drop you into an isolated environment, in which you will find the latest version of deal.II (master development branch) installed under /usr/local.",
+      "section": "Introduction (part 4)",
+      "repo": "260_ASPECT_-_The_Advanced_Solver_for_Planetary_Evolution__Convection__and_Tectonics",
+      "source_file": "readme.md"
+    }
+  }
+]

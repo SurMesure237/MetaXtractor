@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/eScatter/pyelsepa",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/eScatter/pyelsepa/zipball/main",
+  "author": "eScatter",
+  "dateCreated": "2016-09-08T12:30:15Z",
+  "dateModified": "2025-10-06T06:58:38Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "A Python wrapper for ELSEPA",
+  "identifier": 67701295,
+  "name": "eScatter/pyelsepa",
+  "issueTracker": "https://api.github.com/repos/eScatter/pyelsepa/issues",
+  "readme": "https://github.com/eScatter/pyelsepa/blob/master/README.rst"
+}

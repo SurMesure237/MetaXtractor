@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hypersonic-effects"
+version = "2.0"
+description = "Calculate the radiative forcing of hypersonic aircraft trajectories."
+
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "numpy",
+    "pandas",
+    "xarray",
+    "scipy",
+    "xlsxwriter",
+    "netcdf4",
+    "aerocalc3",
+    "pytest",
+    "build",
+    "twine",
+    "ruff"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/johannespletzer/rf-of-hypersonic-aircraft-emissions"
+"Repository" = "https://github.com/johannespletzer/rf-of-hypersonic-aircraft-emissions.git"
+
+[tool.setuptools]
+package-dir = {"" = "package"}
+
+[tool.setuptools.packages.find]
+where = ["package"] 

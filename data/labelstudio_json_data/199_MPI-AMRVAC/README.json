@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "[](https://github.com/amrvac/AGILE-experimental/actions/workflows/tests.yml)\n\n# AGILE\n\nThis is the development version of AGILE, a GPU enabled fork of MPI-AMRVAC. All documentation is available on [amrvac.org] http://amrvac.org/.\n\n## Work in progress...\n\nTo install this version, follow these steps: install the uv package manager pip install uv\n\nmake sure $AMRVAC_DIR points to the repository root folder\n\ninstall the required python packages uv sync and activate them source .venv/bin/activate\n\ngo into a test, e.g. cd tests/hd/KH3D\n\nto compile, load the appropriate modules, e.g. on snellius:\n\nmodule purge module load 2023 module load OpenMPI/4.1.5-NVHPC-24.5-CUDA-12.1.1\n\ncompile with nvfortran and activated OPENACC via make arch=nvidia OPENACC=1\n\n## Currently supported features on master\n\nPhysics modules: hd, mhd [glm], ffhd\n\nSource terms (gravity, radiative cooling, hyperbolic thermal conduction, user defined) and boundary conditions (symm, asymm, cont etc. but also special)\n\nMulti-block uniform grid and static mesh refinement (SMR) simulations\n\nMulti-GPU (MPI) simulations",
+      "section": "README",
+      "repo": "199_MPI-AMRVAC",
+      "source_file": "readme.md"
+    }
+  }
+]

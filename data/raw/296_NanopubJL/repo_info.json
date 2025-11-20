@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/fair-workflows/NanopubJL",
+  "programmingLanguage": "TypeScript",
+  "programmingLanguages": [
+    "TypeScript",
+    "Python",
+    "JavaScript",
+    "Shell",
+    "Dockerfile",
+    "CSS"
+  ],
+  "downloadUrl": "https://api.github.com/repos/fair-workflows/NanopubJL/zipball/main",
+  "author": "fair-workflows",
+  "dateCreated": "2020-06-19T15:40:47Z",
+  "dateModified": "2021-06-25T14:47:31Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "JupyterLab extension to aid in searching and publishing of Nanopublications in a python notebook",
+  "identifier": 273529669,
+  "name": "fair-workflows/NanopubJL",
+  "issueTracker": "https://api.github.com/repos/fair-workflows/NanopubJL/issues",
+  "readme": "https://github.com/fair-workflows/NanopubJL/blob/master/README.md"
+}

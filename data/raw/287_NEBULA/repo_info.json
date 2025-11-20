@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/esciencecenter-digital-skills/NEBULA",
+  "programmingLanguage": "Vue",
+  "programmingLanguages": [
+    "Vue",
+    "TypeScript",
+    "SCSS",
+    "JavaScript"
+  ],
+  "downloadUrl": "https://api.github.com/repos/esciencecenter-digital-skills/NEBULA/zipball/main",
+  "author": "esciencecenter-digital-skills",
+  "dateCreated": "2023-07-28T10:25:34Z",
+  "dateModified": "2025-10-30T14:58:08Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": null,
+  "identifier": 671869060,
+  "name": "esciencecenter-digital-skills/NEBULA",
+  "issueTracker": "https://api.github.com/repos/esciencecenter-digital-skills/NEBULA/issues",
+  "readme": "https://github.com/esciencecenter-digital-skills/NEBULA/blob/main/README.md"
+}

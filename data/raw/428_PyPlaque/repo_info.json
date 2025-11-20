@@ -1,0 +1,19 @@
+{
+  "codeRepository": "https://github.com/plaque2/PyPlaque",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Python"
+  ],
+  "downloadUrl": "https://api.github.com/repos/plaque2/PyPlaque/zipball/main",
+  "author": "plaque2",
+  "dateCreated": "2020-06-12T15:02:46Z",
+  "dateModified": "2025-08-06T11:25:14Z",
+  "keywords": [],
+  "license": "https://api.github.com/licenses/gpl-3.0",
+  "description": "Python package for virus plaque analysis based on Plaque2.0",
+  "identifier": 271825402,
+  "name": "plaque2/PyPlaque",
+  "issueTracker": "https://api.github.com/repos/plaque2/PyPlaque/issues",
+  "readme": "https://github.com/plaque2/PyPlaque/blob/master/README.md"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "data": {
+      "text": "[](https://github.com/eWaterCycle/era5cli) [](https://research-software-directory.org/software/era5cli) [](https://fair-software.eu) [](https://doi.org/10.5281/zenodo.3252665)\n\n[](https://era5cli.readthedocs.io/en/stable/?badge=stable) [](https://github.com/eWaterCycle/era5cli/actions/workflows/test_and_build.yml) [](https://codecov.io/gh/eWaterCycle/era5cli) [](https://badge.fury.io/py/era5cli)\n\n[!IMPORTANT] The old Climate Data Store (CDS) has been shut down. All era5cli versions up to v1.4.2 will no longer work.\n\nFor more information see: https://forum.ecmwf.int/t/goodbye-legacy-climate-data-store-hello-new-climate-data-store-cds/6380/14\n\nTo continue using era5cli, you will need to re-register at ECMWF and get a new API key, and transition to era5cli version 2. This can be installed with: pip install era5cli==2.0.1\n\n[!WARNING] netCDF files from the new Climate Data Store Beta are not formatted the same as the old CDS. Some variables might be missing. See the open issue [here] https://github.com/eWaterCycle/era5cli/issues/165, as well as the [ECMWF discussion forum] https://forum.ecmwf.int/.",
+      "section": "Introduction (part 1)",
+      "repo": "292_era5cli",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "A command line interface to download ERA5 data from the [Copernicus Climate Data Store]().\n\nWith era5cli you can:\n\nDownload meteorological data in GRIB/NetCDF, including ERA5 data from the preliminary back extension, and ERA5-Land data.\n\nList and retrieve information on available variables and pressure levels\n\nSelect multiple variables for several months and years\n\nSplit outputs by years (and optionally months), producing a separate files instead of merging them in one file\n\nDownload multiple files at once\n\nExtract data for a sub-region of the globe\n\nFree software: Apache Software License 2.0\n\nDocumentation: https://era5cli.readthedocs.io",
+      "section": "Introduction (part 2)",
+      "repo": "292_era5cli",
+      "source_file": "readme.md"
+    }
+  }
+]

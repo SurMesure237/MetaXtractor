@@ -1,0 +1,37 @@
+{
+  "codeRepository": "https://github.com/opensim-org/opensim-core",
+  "programmingLanguage": "C++",
+  "programmingLanguages": [
+    "C++",
+    "MATLAB",
+    "Python",
+    "Jupyter Notebook",
+    "CMake",
+    "C",
+    "SWIG",
+    "Java",
+    "Shell",
+    "Dockerfile",
+    "PowerShell"
+  ],
+  "downloadUrl": "https://api.github.com/repos/opensim-org/opensim-core/zipball/main",
+  "author": "opensim-org",
+  "dateCreated": "2014-06-12T16:57:56Z",
+  "dateModified": "2025-10-30T07:27:24Z",
+  "keywords": [
+    "biological-simulations",
+    "biomechanics",
+    "computational-biology",
+    "computational-science",
+    "engineering",
+    "musculoskeletal-models",
+    "science",
+    "simulation"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "SimTK OpenSim C++ libraries and command-line applications, and Java/Python wrapping.",
+  "identifier": 20775600,
+  "name": "opensim-org/opensim-core",
+  "issueTracker": "https://api.github.com/repos/opensim-org/opensim-core/issues",
+  "readme": "https://github.com/opensim-org/opensim-core/blob/main/README.md"
+}

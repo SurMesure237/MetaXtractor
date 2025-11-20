@@ -1,0 +1,40 @@
+{
+  "codeRepository": "https://github.com/haddocking/haddock3",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Fortran",
+    "Jupyter Notebook",
+    "C++",
+    "C",
+    "Shell",
+    "Roff",
+    "Pawn",
+    "BitBake",
+    "Lua",
+    "QMake",
+    "Prolog",
+    "Dockerfile",
+    "Pep8"
+  ],
+  "downloadUrl": "https://api.github.com/repos/haddocking/haddock3/zipball/main",
+  "author": "haddocking",
+  "dateCreated": "2019-03-13T15:13:02Z",
+  "dateModified": "2025-10-30T15:28:09Z",
+  "keywords": [
+    "bioinformatics",
+    "complexes",
+    "docking",
+    "integrative-modeling",
+    "modelling",
+    "proteins",
+    "utrecht-university",
+    "workflows"
+  ],
+  "license": "https://api.github.com/licenses/apache-2.0",
+  "description": "Official repo of the modular BioExcel version of HADDOCK",
+  "identifier": 175445728,
+  "name": "haddocking/haddock3",
+  "issueTracker": "https://api.github.com/repos/haddocking/haddock3/issues",
+  "readme": "https://github.com/haddocking/haddock3/blob/main/README.md"
+}

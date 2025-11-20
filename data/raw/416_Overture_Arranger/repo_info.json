@@ -1,0 +1,26 @@
+{
+  "codeRepository": "https://github.com/overture-stack/arranger",
+  "programmingLanguage": "JavaScript",
+  "programmingLanguages": [
+    "JavaScript",
+    "TypeScript",
+    "CSS",
+    "Makefile",
+    "Shell",
+    "HTML"
+  ],
+  "downloadUrl": "https://api.github.com/repos/overture-stack/arranger/zipball/main",
+  "author": "overture-stack",
+  "dateCreated": "2017-12-14T20:54:13Z",
+  "dateModified": "2025-09-23T17:05:43Z",
+  "keywords": [
+    "data-portal",
+    "data-portal-frontends"
+  ],
+  "license": "https://api.github.com/licenses/agpl-3.0",
+  "description": "Data portal API and component generation",
+  "identifier": 114295302,
+  "name": "overture-stack/arranger",
+  "issueTracker": "https://api.github.com/repos/overture-stack/arranger/issues",
+  "readme": "https://github.com/overture-stack/arranger/blob/main/README.md"
+}

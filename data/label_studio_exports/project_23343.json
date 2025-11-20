@@ -1,0 +1,617 @@
+[
+  {
+    "id": 1429,
+    "annotations": [
+      {
+        "id": 10904,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 43,
+              "end": 85,
+              "text": "https://opensource.org/licenses/Apache-2.0",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "aWN4PxV2ML",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 421,
+              "end": 460,
+              "text": "https://doi.org/10.5281/zenodo.17305936",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "nKJ8AIfwIG",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:45:49.840325Z",
+        "updated_at": "2025-11-05T17:45:49.840343Z",
+        "draft_created_at": "2025-11-05T17:45:40.628276Z",
+        "lead_time": 20.462,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "c3d2c3fb-2b86-4511-ab26-a6d72df608fd",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1429,
+        "project": 23343,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Welcome to JASP stats modules web app!\n\n[](https://opensource.org/licenses/Apache-2.0) [](https://biomejs.dev) [](https://github.com/jasp-stats-modules/modules-app/actions/workflows/deploy.yml) [](https://github.com/jasp-stats-modules/modules-app/actions/workflows/quality.yml) [](https://fairsoftwarechecklist.net/v0.2?f=31&a=32113&i=22300&r=113) [](https://research-software-directory.org/software/jasp-modules-app) [](https://doi.org/10.5281/zenodo.17305936)\n\nA web application hosted at https://module-library.jasp-stats.org/ that allows you to search/filter all the available JASP modules and install them.\n\n[](screenshot.png)",
+      "section": "Introduction",
+      "repo": "337_JASP_modules_app",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.961679Z",
+    "updated_at": "2025-11-05T17:45:49.871656Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23343,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1430,
+    "annotations": [
+      {
+        "id": 10905,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:45:51.595122Z",
+        "updated_at": "2025-11-05T17:45:51.595137Z",
+        "draft_created_at": null,
+        "lead_time": 1.555,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "98090a88-be15-42ec-b855-b830f26d4dcb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1430,
+        "project": 23343,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Usage",
+      "section": "Usage (part 1)",
+      "repo": "337_JASP_modules_app",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.961716Z",
+    "updated_at": "2025-11-05T17:45:51.625040Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23343,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1431,
+    "annotations": [
+      {
+        "id": 10906,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:45:58.234822Z",
+        "updated_at": "2025-11-05T17:45:58.234839Z",
+        "draft_created_at": null,
+        "lead_time": 6.457,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "817c1b65-d59d-48a7-86dc-f0eedf5760cf",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1431,
+        "project": 23343,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Search parameters\n\nThe web application is designed to be opened from inside JASP desktop application, but it can also be used as a standalone web application.\n\nThe JASP desktop application can tell the web application which version/architecture it is and which modules are installed by using search parameters (?key=val) in the URL.\n\nv: the version of the JASP desktop application for example 0.95.0\n\na: the architecture of the JASP desktop application for example Windows_x86-64\n\ni: installed modules. A JSON object with the module names as keys and their versions as values. The object has to be [URL encoded] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent. For example, {\"jaspEquivalenceTTests\":\"0.95.0\",\"jaspTTests\":\"0.94.0\"} becomes %7B%22jaspEquivalenceTTests%22%3A%220.95.0%22%2C%22jaspTTests%22%3A%220.94.0%22%7D.\n\np: show pre-releases initially. Use true to show pre-releases and use false to hide them initially.\n\nc: URL for the catalog aka index.json.\n\nWhen not set uses index.json (public/index.json in local development or on deployed site uses https://jasp-stats-modules.github.io/modules-app/index.json).  If URL is not a relative path aka other server then make sure correct [CORS headers] https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS are returned on server that hosts index.json. t: Theme. Use dark for dark theme, light for light theme, and system to match system theme (default).\n\nl: Language. Use en for English (default). For example use nl for Dutch.\n\nf: Font name. Use the name of a font installed on your system. For example use SansSerif. Besides OS fonts also FreeSans, Fira Code and Fira Code Retina fonts are available.",
+      "section": "Usage (part 2)",
+      "repo": "337_JASP_modules_app",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.961742Z",
+    "updated_at": "2025-11-05T17:45:58.265548Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23343,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1432,
+    "annotations": [
+      {
+        "id": 10907,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:45:59.557781Z",
+        "updated_at": "2025-11-05T17:45:59.557791Z",
+        "draft_created_at": null,
+        "lead_time": 1.121,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "a36c603e-1a1d-4892-94f4-16777b1e1ed3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1432,
+        "project": 23343,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "A full URL could look like [https://jasp-stats-modules.github.io/modules-app/?a=Windows_x86-64&v=0.95.0&i=%7B%22jaspEquivalenceTTests%22%3A%220.95.0%22%2C%22jaspTTests%22%3A%220.94.0%22%7D&p=0] https://jasp-stats-modules.github.io/modules-app/?a=Windows_x86-64&v=0.95.0&i=%7B%22jaspEquivalenceTTests%22%3A%220.95.0%22%2C%22jaspTTests%22%3A%220.94.0%22%7D&p=0&t=dark&l=nl.",
+      "section": "Usage (part 3)",
+      "repo": "337_JASP_modules_app",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.961762Z",
+    "updated_at": "2025-11-05T17:45:59.583571Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23343,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1433,
+    "annotations": [
+      {
+        "id": 10908,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:46:01.234577Z",
+        "updated_at": "2025-11-05T17:46:01.234590Z",
+        "draft_created_at": null,
+        "lead_time": 1.504,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f2b3a228-1806-4eba-85ea-3b81b5ed713a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1433,
+        "project": 23343,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Update list of modules\n\nThe list of modules can be updated by running the GitHub workflow at https://github.com/jasp-stats-modules/modules-app/actions/workflows/deploy.yml . Use the \"Run workflow\" button to trigger the workflow manually.",
+      "section": "Usage (part 4)",
+      "repo": "337_JASP_modules_app",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.961782Z",
+    "updated_at": "2025-11-05T17:46:01.262421Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23343,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1434,
+    "annotations": [
+      {
+        "id": 10909,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 202,
+              "end": 206,
+              "text": "Vite",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "ZSihHgabND",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 253,
+              "end": 257,
+              "text": "pnpm",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "NpczeFNpqX",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 306,
+              "end": 318,
+              "text": "Tailwind CSS",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "hMYsdK4irN",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 364,
+              "end": 368,
+              "text": "nuqs",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "A0DnxGf3wu",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 424,
+              "end": 437,
+              "text": "Qt WebChannel",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "iW9ywDvNEW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 556,
+              "end": 561,
+              "text": "biome",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "qSxZ_zaz54",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 618,
+              "end": 626,
+              "text": "intlayer",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "oxO62ecWC0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 740,
+              "end": 746,
+              "text": "Vitest",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "54Ea1wrQMm",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 259,
+              "end": 275,
+              "text": "https://pnpm.io/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "8CRxemIFyv",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 208,
+              "end": 227,
+              "text": "https://vitejs.dev/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "JjWY1xkIum",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 320,
+              "end": 344,
+              "text": "https://tailwindcss.com/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "ZArKw8N2Wa",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 370,
+              "end": 387,
+              "text": "https://nuqs.dev/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "70oqzaa0Fn",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 439,
+              "end": 485,
+              "text": "https://doc.qt.io/qt-6/qtwebchannel-index.html",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "dzqry6F83z",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 563,
+              "end": 583,
+              "text": "https://biomejs.dev/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "8nUyr-JeUc",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 628,
+              "end": 649,
+              "text": "https://intlayer.org/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "vUwo0Py_qM",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 748,
+              "end": 767,
+              "text": "https://vitest.dev/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "ERqUyD9C5-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:46:33.122403Z",
+        "updated_at": "2025-11-15T18:02:06.784987Z",
+        "draft_created_at": "2025-11-05T17:46:17.535456Z",
+        "lead_time": 87.804,
+        "prediction": {},
+        "result_count": 16,
+        "unique_id": "8325745e-84ba-44d2-8885-2818c1dd7d51",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1434,
+        "project": 23343,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Architecture\n\nThe web application is a single page application (SPA) with the following characteristics:\n\nBuilt with [React] https://reactjs.org/ and [TypeScript] https://www.typescriptlang.org/\n\nUses [Vite] https://vitejs.dev/ as the build tool\n\nUses [pnpm] https://pnpm.io/ as the package manager\n\nUses [Tailwind CSS] https://tailwindcss.com/ for styling\n\nUses [nuqs] https://nuqs.dev/ for URL query string parsing\n\nUses [Qt WebChannel] https://doc.qt.io/qt-6/qtwebchannel-index.html for communication between the web app and the JASP desktop app\n\nUses [biome] https://biomejs.dev/ for linting and formatting\n\nUses [intlayer] https://intlayer.org/ for multi language support. Unique texts of modules themselves are not translated.\n\nUses [Vitest] https://vitest.dev/ for testing\n\nFetches data from the [GitHub GraphQL API] https://docs.github.com/en/graphql to get available JASP modules and their release assets\n\nTo get a list of available JASP modules, it does the following with the help of the src/scrape.ts script:\n\nFetches the git submodules of the https://github.com/jasp-stats-modules/modules-registry repository.\n\nthe directory in which a submodule is located is the channel\n\nFor each submodule fetches its releases\n\nFetches the release data, paged per 100 repositories using GitHub GraphQL API\n\nFilter the release assets ending with .JASPModule extension\n\nLooks in release description for the JASP version range the module is compatible with. The [version range] https://semver.npmjs.com/ is specified in front matter header as for example:\n\n``markdown\n\njasp: '>=0.95.0'\n\n` Split releases into latest release for each JASP version range and latest pre release.\n\nSaves data in src/index.json` for the web application to use\n\nGetting Started\n\nTo run this application:\n\npnpm install",
+      "section": "Architecture + Getting Started",
+      "repo": "337_JASP_modules_app",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.961806Z",
+    "updated_at": "2025-11-15T18:02:06.817844Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23343,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1435,
+    "annotations": [
+      {
+        "id": 10910,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T17:46:43.497165Z",
+        "updated_at": "2025-11-05T17:46:43.497185Z",
+        "draft_created_at": null,
+        "lead_time": 10.169,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b9606ffe-d0f7-4c42-8e24-d29c00f7b9b4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1435,
+        "project": 23343,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Scrape a list of JASP module and their release assets from GitHub and save as src/index.json export GITHUB_TOKEN= pnpm scrape pnpm start\n\nApplication will be running at http://localhost:3000 (unless stated otherwise).\n\nSee [CONTRIBUTING.md] CONTRIBUTING.md#you-want-to-develop-web-app-inside-jasp-stats for development within JASP stats desktop application.\n\nBuilding For Production\n\nTo build run:\n\npnpm scrape pnpm build\n\n## Testing\n\nYou can run the tests with:\n\npnpm test\n\n## Linting and Formatting\n\nCan be typechecked with:\n\npnpm typecheck\n\nCan be formatted and linted with:\n\npnpm check\n\n## Multi language Support\n\nThe ./intlayer.config.ts file contains list of supported locales. Translations are stored in src/*/.content.tsx files.\n\nThe linting is done with TypeScript. Types for translations can be generated with:\n\npnpm dev or\n\npnpm typecheck or\n\npnpx intlayer build or\n\n[VS code extension] https://intlayer.org/doc/vs-code-extension\n\n## Contributing\n\nContributions are welcome! Please read the [contributing guidelines] CONTRIBUTING.md for more information.",
+      "section": "Scrape a list of JASP module and their release assets from GitHub and save as src/index.json + Building For Production",
+      "repo": "337_JASP_modules_app",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:56.961829Z",
+    "updated_at": "2025-11-05T17:46:43.528985Z",
+    "inner_id": 7,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23343,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

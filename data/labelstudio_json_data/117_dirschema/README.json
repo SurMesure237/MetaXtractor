@@ -1,0 +1,34 @@
+[
+  {
+    "data": {
+      "text": "[\n\n] https://materials-data-science-and-informatics.github.io/dirschema [\n\n] https://github.com/Materials-Data-Science-and-Informatics/dirschema/actions/workflows/ci.yml [\n\n] https://materials-data-science-and-informatics.github.io/dirschema/main/coverage [\n\n] https://pypi.org/project/dirschema/",
+      "section": "Introduction",
+      "repo": "117_dirschema",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "dirschema\n\n&nbsp;&nbsp;\n\nA directory structure and metadata linter based on JSON Schema.\n\n[JSON Schema] https://json-schema.org/ is great for validating (files containing) JSON objects that e.g. contain metadata, but these are only the smallest pieces in the organization of a whole directory structure, e.g. of some dataset of project. When working on datasets of a certain kind, they might contain various types of data, each different file requiring different accompanying metadata, based on its file type and/or location.\n\nDirSchema combines JSON Schemas and regexes into a solution to enforce structural dependencies and metadata requirements in directories and directory-like archives. With it you can for example check that:\n\nonly files of a certain type are in a location (e.g. only jpg files in directory img)  for each data file there exists a metadata file (e.g. test.jpg has test.jpg_meta.json)  each metadata file is valid according to some JSON Schema\n\nIf validating these kinds of constraints looks appealing to you, this tool is for you!\n\nDirschema features:\n\nBuilt-in support for schemas and metadata stored as JSON or YAML  Built-in support for checking contents of ZIP and HDF5 archives  Extensible validation interface for advanced needs beyond JSON Schema Both a Python library and a CLI tool to perform the validation\n\n## Installation\n\npip install dirschema",
+      "section": "dirschema (part 1)",
+      "repo": "117_dirschema",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Getting Started\n\nThe dirschema tool needs as input:\n\na DirSchema YAML file (containing a specification), and  a path to a directory or file (e.g. zip file) that should be checked.\n\nYou can run it like this:\n\ndirschema my_dirschema.yaml DIRECTORY_OR_ARCHIVE_PATH\n\nIf the validation was successful, there will be no output. Otherwise, the tool will output a list of errors (e.g. invalid metadata, missing files, etc.).\n\nYou can also use dirschema from other Python code as a library:\n\nfrom dirschema.validate import DSValidator DSValidator(\"/path/to/dirschema\").validate(\"/dataset/path\")\n\nSimilarly, the method will return an error dict, which will be empty if the validation succeeded.\n\nYou can find more information on using and contributing to this repository in the [documentation] https://materials-data-science-and-informatics.github.io/dirschema/main.\n\n## How to Cite\n\nIf you want to cite this project in your scientific work, please use the [citation file] https://citation-file-format.github.io/ in the [repository] https://github.com/Materials-Data-Science-and-Informatics/dirschema/blob/main/CITATION.cff.",
+      "section": "dirschema (part 2)",
+      "repo": "117_dirschema",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## Acknowledgements\n\nWe kindly thank all [authors and contributors] https://materials-data-science-and-informatics.github.io/dirschema/latest/credits.\n\n&nbsp;&nbsp;\n\nThis project was developed at the Institute for Materials Data Science and Informatics (IAS-9) of the J\u00fclich Research Center and funded by the Helmholtz Metadata Collaboration (HMC), an incubator-platform of the Helmholtz Association within the framework of the Information and Data Science strategic initiative.",
+      "section": "dirschema (part 3)",
+      "repo": "117_dirschema",
+      "source_file": "readme.md"
+    }
+  }
+]

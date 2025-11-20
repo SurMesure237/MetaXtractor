@@ -1,0 +1,388 @@
+[
+  {
+    "id": 1556,
+    "annotations": [
+      {
+        "id": 10811,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 203,
+              "end": 247,
+              "text": "https://zenodo.org/badge/latestdoi/310047938",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "EIXRnEsVza",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:50:27.644143Z",
+        "updated_at": "2025-11-05T16:50:27.644156Z",
+        "draft_created_at": null,
+        "lead_time": 12.071,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "6b71f5ab-9b8d-4a32-a938-dcc0703f5d88",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1556,
+        "project": 23367,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "[](https://pypi.org/project/ms2deepscore/)\n\n[](https://sonarcloud.io/dashboard?id=matchms_ms2deepscore) [](https://sonarcloud.io/component_measures?id=matchms_ms2deepscore&metric=Coverage&view=list)  [](https://zenodo.org/badge/latestdoi/310047938) [](https://fair-software.eu)",
+      "section": "Introduction",
+      "repo": "369_MS2DeepScore",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.702864Z",
+    "updated_at": "2025-11-05T16:50:27.670736Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23367,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1557,
+    "annotations": [
+      {
+        "id": 10812,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 547,
+              "end": 816,
+              "text": "\"MS2DeepScore - a novel deep learning similarity measure to compare tandem mass spectra\" Florian Huber, Sven van der Burg, Justin J.J. van der Hooft, Lars Ridder, 13, Article number: 84 (2021), Journal of Cheminformatics, doi: https://doi.org/10.1186/s13321-021-00558-4",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "S6th54bgxX",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 874,
+              "end": 1106,
+              "text": "Reliable cross-ion mode chemical similarity prediction between MS2 spectra Niek de Jonge, David Joas, Lem-Joe Truong, Justin J.J. van der Hooft, Florian Huber bioRxiv 2024.03.25.586580; doi: https://doi.org/10.1101/2024.03.25.586580",
+              "labels": [
+                "CITATION"
+              ]
+            },
+            "id": "61IyVdTBW-",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1136,
+              "end": 1159,
+              "text": "Python 3.10, 3.11, 3.12",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "3ivXWB-Tcc",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1398,
+              "end": 1409,
+              "text": "python=3.12",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "mK6TyvWG7m",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1513,
+              "end": 1524,
+              "text": "python=3.12",
+              "labels": [
+                "RUNTIME_PLATFORM"
+              ]
+            },
+            "id": "vr1UeKgsiU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:51:21.911561Z",
+        "updated_at": "2025-11-17T00:17:37.855910Z",
+        "draft_created_at": "2025-11-05T16:50:46.382274Z",
+        "lead_time": 119.44399999999999,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "cfc2219b-7a18-4c4b-94ec-48298d87c1b7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1557,
+        "project": 23367,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "ms2deepscore ms2deepscore provides a Siamese neural network that is trained to predict molecular structural similarities (Tanimoto scores)  from pairs of mass spectrometry spectra.\n\nThe library provides intuitive classes to prepare data, train a Siamese model, and compute similarities between pairs of spectra.\n\nIn addition to the prediction of a structural similarity,  MS2DeepScore can also make use of Monte-Carlo dropout to assess the model's uncertainty.\n\n## Reference\n\nIf you use MS2DeepScore for your research, please cite the following:\n\n\"MS2DeepScore - a novel deep learning similarity measure to compare tandem mass spectra\" Florian Huber, Sven van der Burg, Justin J.J. van der Hooft, Lars Ridder, 13, Article number: 84 (2021), Journal of Cheminformatics, doi: https://doi.org/10.1186/s13321-021-00558-4\n\nIf you use MS2Deepscore 2.0 or higher please also cite: Reliable cross-ion mode chemical similarity prediction between MS2 spectra Niek de Jonge, David Joas, Lem-Joe Truong, Justin J.J. van der Hooft, Florian Huber bioRxiv 2024.03.25.586580; doi: https://doi.org/10.1101/2024.03.25.586580\n\n## Setup\n\n### Requirements\n\nPython 3.10, 3.11, 3.12 (higher will likely work but is not tested systematically).\n\n### Installation\n\nInstallation is expected to take 10-20 minutes.\n\n### Prepare environment\n\nWe recommend creating an Anaconda environment with\n\nconda create --name ms2deepscore python=3.12 conda activate ms2deepscore pip install ms2deepscore\n\nOr, via conda:\n\nconda create --name ms2deepscore python=3.12 conda activate ms2deepscore conda install --channel bioconda --channel conda-forge matchms pip install ms2deepscore\n\nAlternatively, simply install in the environment of your choice by pip install ms2deepscore",
+      "section": "ms2deepscore (part 1)",
+      "repo": "369_MS2DeepScore",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.702908Z",
+    "updated_at": "2025-11-17T00:17:37.894960Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23367,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1558,
+    "annotations": [
+      {
+        "id": 10813,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:51:41.735361Z",
+        "updated_at": "2025-11-05T16:51:41.735377Z",
+        "draft_created_at": null,
+        "lead_time": 19.636,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "121a5c48-35b4-4920-a0fc-b3106d4d251f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1558,
+        "project": 23367,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Getting started: How to prepare data, train a model, and compute similarities.\n\nWe recommend to run the complete tutorial in [notebooks/MS2DeepScore_tutorial.ipynb] https://github.com/matchms/ms2deepscore/blob/main/notebooks/tutorials/ms2deepscore_tutorial.ipynb  for a more extensive fully-working example on test data. The expected run time on a laptop is less than 5 minutes, including automatic model and dummy data download.  Alternatively there are some example scripts below. If you are not familiar with matchms yet, then we also recommand our [tutorial on how to get started using matchms] https://blog.esciencecenter.nl/build-your-own-mass-spectrometry-analysis-pipeline-in-python-using-matchms-part-i-d96c718c68ee.\n\n## 1) Compute spectral similarities\n\nWe provide a model which was trained on > 500,000 MS/MS combined spectra from [GNPS] https://gnps.ucsd.edu/, [Mona] https://mona.fiehnlab.ucdavis.edu/, MassBank and MSnLib.  This model can be downloaded from [from zenodo here] https://zenodo.org/records/13897744. Only the ms2deepscore_model.pt is needed. The model works for spectra in both positive and negative ionization modes and even predictions across ionization modes can be made by this model.\n\nTo compute the similarities between spectra of your choice you can run the code below. There is a small example dataset available in the folder \"./tests/resources/pesticides_processed.mgf\".  Alternatively you can of course use your own spectra, most common formats are supported, e.g. msp, mzml, mgf, mzxml, json, usi.\n\nfrom ms2deepscore.models import load_model from matchms.Pipeline import Pipeline, create_workflow from matchms.filtering.default_pipelines import DEFAULT_FILTERS from ms2deepscore import MS2DeepScore\n\nmodel_file_name = \"ms2deepscore_model.pt\" spectrum_file_name = \"pesticides.mgf\"",
+      "section": "ms2deepscore (part 2)",
+      "repo": "369_MS2DeepScore",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.702933Z",
+    "updated_at": "2025-11-05T16:51:41.758602Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23367,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1559,
+    "annotations": [
+      {
+        "id": 10814,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:51:44.129853Z",
+        "updated_at": "2025-11-05T16:51:44.129866Z",
+        "draft_created_at": null,
+        "lead_time": 2.236,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "f94c9b33-1692-4367-b30e-a677b3f738c9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1559,
+        "project": 23367,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "load in the ms2deepscore model model = load_model(model_file_name)\n\npipeline = Pipeline(create_workflow(query_filters=DEFAULT_FILTERS,  score_computations=[[MS2DeepScore, {\"model\": model}]])) report = pipeline.run(spectrum_file_name) similarity_matrix = pipeline.scores.to_array()\n\nThe resulting similarity matrix, is a numpy array containing all the MS2DeepScore predicitons between all spectra.\n\n## 2 Create embeddings\n\nTo calculate chemical similarity scores MS2DeepScore first calculates an embedding (vector) representing each spectrum.  This intermediate product can also be used to visualize spectra in \"chemical space\" by using a dimensionality reduction technique, like UMAP.\n\ncleaned_spectra = pipeline.spectra_queries\n\nms2ds_model = MS2DeepScore(model) ms2ds_embeddings = ms2ds_model.get_embedding_array(cleaned_spectra)\n\nThe [tutorial] https://github.com/matchms/ms2deepscore/blob/main/notebooks/MS2DeepScore_tutorial.ipynb shows how to use these embeddings to create an interactive UMAP with overlaying smiles.",
+      "section": "load in the ms2deepscore model (part 1)",
+      "repo": "369_MS2DeepScore",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.702955Z",
+    "updated_at": "2025-11-05T16:51:44.154637Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23367,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1560,
+    "annotations": [
+      {
+        "id": 10815,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:51:49.104589Z",
+        "updated_at": "2025-11-05T16:51:49.104613Z",
+        "draft_created_at": null,
+        "lead_time": 4.816,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "37d6178b-520c-474f-acdb-5df19554ad13",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1560,
+        "project": 23367,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## 3) Train your own MS2DeepScore model\n\nTraining your own model is only recommended if you have some familiarity with machine learning.  You can train a new model on a dataset of your choice. That, however, should preferentially contain a substantial amount of spectra to learn relevant features, say > 100,000 spectra of sufficiently diverse types. Alternatively you can add your in house spectra to an already available public library, for instance the [data] https://zenodo.org/records/13934470 used for training the default MS2DeepScore model.  To train your own model you can run the code below. Please first ensure cleaning your spectra. We recommend using the cleaning pipeline in [matchms] https://github.com/matchms/matchms.\n\nfrom ms2deepscore import SettingsMS2Deepscore from ms2deepscore.wrapper_functions.training_wrapper_functions import train_ms2deepscore_wrapper\n\nspectrum_file = \"./combined_libraries.mgf\"",
+      "section": "load in the ms2deepscore model (part 2)",
+      "repo": "369_MS2DeepScore",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.702977Z",
+    "updated_at": "2025-11-05T16:51:49.129600Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23367,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1561,
+    "annotations": [
+      {
+        "id": 10816,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T16:51:51.526094Z",
+        "updated_at": "2025-11-05T16:51:51.526109Z",
+        "draft_created_at": null,
+        "lead_time": 2.261,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "33fb575d-84a0-40fa-8da7-4aee428ef949",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1561,
+        "project": 23367,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Have a look in the SettingsMS2Deepscore class to check other hyperparameters. settings = SettingsMS2Deepscore(  additional_metadata=[(\"CategoricalToBinary\", {\"metadata_field\": \"ionmode\",  \"entries_becoming_one\": \"positive\",  \"entries_becoming_zero\": \"negative\"}),  (\"StandardScaler\", {\"metadata_field\": \"precursor_mz\",   \"mean\": 0, \"standard_deviation\": 1000})],)\n\ntrain_ms2deepscore_wrapper(spectrum_file, settings, validation_split_fraction=20)\n\n## Contributing\n\nWe welcome contributions to the development of ms2deepscore! Have a look at the [contribution guidelines] https://github.com/matchms/ms2deepscore/blob/main/CONTRIBUTING.md.",
+      "section": "Have a look in the SettingsMS2Deepscore class to check other hyperparameters.",
+      "repo": "369_MS2DeepScore",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:27:58.703028Z",
+    "updated_at": "2025-11-05T16:51:51.556999Z",
+    "inner_id": 6,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23367,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "data": {
+      "text": "deepTools\n\nUser-friendly tools for exploring deep-sequencing data ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\ndeepTools addresses the challenge of handling the large amounts of data that are now routinely generated from DNA sequencing centers. deepTools contains useful modules to process the mapped reads data for multiple quality checks, creating normalized coverage files in standard bedGraph and bigWig file formats, that allow comparison between different files (for example, treatment and control). Finally, using such normalized and standardized files, deepTools can create many publication-ready visualizations to identify enrichments and for functional annotations of the genome.\n\nFor support or questions please make a post on Biostars __. For feature requests, please open an issue on github __.\n\nFor further documentation, please see our read the docs page __.\n\nCitation: ^^^^^^^^^\n\nRam\u00edrez F, Ryan DP, Gr\u00fcning B, Bhardwaj V, Kilpert F, Richter AS, Heyne S, D\u00fcndar F, Manke T. deepTools2: a next generation web server for deep-sequencing data analysis. __ Nucleic Acids Research. 2016 Apr 13:gkw257.",
+      "section": "README",
+      "repo": "299_EnrichedHeatmap",
+      "source_file": "readme.rst"
+    }
+  },
+  {
+    "data": {
+      "text": "deepTools [](http://deeptools.readthedocs.org/)  [](https://pypi.org/project/deepTools/)  [](http://bioconda.github.io/recipes/deeptools/README.html)",
+      "section": "deepTools (part 1)",
+      "repo": "299_EnrichedHeatmap",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[](https://usegalaxy.eu/root?tool_id=deeptools_compute_matr",
+      "section": "deepTools (part 2)",
+      "repo": "299_EnrichedHeatmap",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "ix)",
+      "section": "deepTools (part 3)",
+      "repo": "299_EnrichedHeatmap",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "",
+      "section": "deepTools (part 4)",
+      "repo": "299_EnrichedHeatmap",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "## User-friendly tools for exploring deep-sequencing data\n\ndeepTools addresses the challenge of handling the large amounts of data that are now routinely generated from DNA sequencing centers. deepTools contains useful modules to process the mapped reads data for multiple quality checks, creating normalized coverage files in standard bedGraph and bigWig file formats, that allow comparison between different files (for example, treatment and control). Finally, using such normalized and standardized files, deepTools can create many publication-ready visualizations to identify enrichments and for functional annotations of the genome.\n\nFor support or questions please post to [Biostars] http://biostars.org. For bug reports and feature requests please open an issue [on github] http://github.com/deeptools/deeptools.\n\n### Citation:\n\nRam\u00edrez F, Ryan DP, Gr\u00fcning B, Bhardwaj V, Kilpert F, Richter AS, Heyne S, D\u00fcndar F, Manke T. [deepTools2: a next generation web server for deep-sequencing data analysis.] https://nar.oxfordjournals.org/content/early/2016/04/12/nar.gkw257.abstract Nucleic Acids Research. 2016 Apr 13:gkw257.",
+      "section": "deepTools (part 6)",
+      "repo": "299_EnrichedHeatmap",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Documentation:\n\nOur [documentation] http://deeptools.readthedocs.org/ contains more details on the [individual tool scopes and usages] http://deeptools.readthedocs.org/en/latest/content/list_of_tools.html and an [introduction to our deepTools Galaxy web server] http://deeptools.readthedocs.org/en/latest/content/help_galaxy_intro.html including [step-by-step protocols] http://deeptools.readthedocs.org/en/latest/content/example_usage.html.\n\nPlease see also the [FAQ] http://deeptools.readthedocs.org/en/latest/content/help_faq.html, which we update regularly. Our [Gallery] http://deeptools.readthedocs.org/en/latest/content/example_gallery.html may give you some more ideas about the scope of deepTools.\n\nFor more specific troubleshooting, feedback, and tool suggestions, please post [to Biostars] http://biostars.org.\n\n### Installation\n\ndeepTools are available for:\n\nCommand line usage (via pip / conda / github)  Integration into Galaxy servers (via toolshed/API/web-browser)\n\nThere are many easy ways to install deepTools. More details can be found [here] https://deeptools.readthedocs.io/en/latest/content/installation.html.\n\nIn Brief:\n\nInstall through pypi\n\n$ pip install deeptools\n\nInstall via conda\n\n$ conda install -c bioconda deeptools\n\nInstall by cloning the repository\n\n$ git clone https://github.com/deeptools/deepTools  $ cd deepTools  $ pip install .",
+      "section": "deepTools (part 7)",
+      "repo": "299_EnrichedHeatmap",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "### Galaxy Installation\n\ndeepTools can be easily integrated into [Galaxy] http://galaxyproject.org. Please see the [installation instructions in our documentation] http://deeptools.readthedocs.io/en/latest/content/installation.html#galaxy-installation for further details.\n\nNote: From version 2.3 onwards, deepTools support python3.\n\nThis tool suite is developed by the [Bioinformatics Facility] http://www1.ie-freiburg.mpg.de/bioinformaticsfac at the [Max Planck Institute for Immunobiology and Epigenetics, Freiburg] http://www1.ie-freiburg.mpg.de/.\n\n[Documentation] http://deeptools.readthedocs.org/en/latest/index.html | [deepTools Galaxy] http://deeptools.ie-freiburg.mpg.de | [FAQ] http://deeptools.readthedocs.org/en/latest/content/help_faq.html",
+      "section": "deepTools (part 8)",
+      "repo": "299_EnrichedHeatmap",
+      "source_file": "readme.md"
+    }
+  }
+]

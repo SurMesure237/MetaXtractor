@@ -1,0 +1,33 @@
+{
+  "codeRepository": "https://github.com/carpentries-lab/deep-learning-intro",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "TeX",
+    "Python",
+    "Makefile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/carpentries-lab/deep-learning-intro/zipball/main",
+  "author": "carpentries-lab",
+  "dateCreated": "2018-12-28T13:20:23Z",
+  "dateModified": "2025-10-23T15:26:22Z",
+  "keywords": [
+    "carpentries",
+    "carpentries-lab",
+    "deep-learning",
+    "deep-neural-networks",
+    "dollar-street",
+    "english",
+    "keras",
+    "lesson",
+    "neural-network",
+    "python",
+    "stable"
+  ],
+  "license": null,
+  "description": "Learn Deep Learning with Python",
+  "identifier": 163412836,
+  "name": "carpentries-lab/deep-learning-intro",
+  "issueTracker": "https://api.github.com/repos/carpentries-lab/deep-learning-intro/issues",
+  "readme": "https://github.com/carpentries-lab/deep-learning-intro/blob/main/README.md"
+}

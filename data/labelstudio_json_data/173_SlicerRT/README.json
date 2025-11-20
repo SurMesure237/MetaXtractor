@@ -1,0 +1,10 @@
+[
+  {
+    "data": {
+      "text": "SlicerRT project home page: http://slicerrt.org\n\nSlicerRT extension page on the 3D Slicer wiki: http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/SlicerRT",
+      "section": "README",
+      "repo": "173_SlicerRT",
+      "source_file": "readme.txt"
+    }
+  }
+]

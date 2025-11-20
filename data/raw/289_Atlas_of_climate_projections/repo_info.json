@@ -1,0 +1,21 @@
+{
+  "codeRepository": "https://github.com/eucp-project/atlas",
+  "programmingLanguage": "Jupyter Notebook",
+  "programmingLanguages": [
+    "Jupyter Notebook",
+    "Vue",
+    "Python",
+    "JavaScript"
+  ],
+  "downloadUrl": "https://api.github.com/repos/eucp-project/atlas/zipball/main",
+  "author": "eucp-project",
+  "dateCreated": "2021-06-03T15:18:32Z",
+  "dateModified": "2024-08-07T05:43:53Z",
+  "keywords": [],
+  "license": null,
+  "description": "prototype result browser",
+  "identifier": 373552477,
+  "name": "eucp-project/atlas",
+  "issueTracker": "https://api.github.com/repos/eucp-project/atlas/issues",
+  "readme": "https://github.com/eucp-project/atlas/blob/main/README.md"
+}

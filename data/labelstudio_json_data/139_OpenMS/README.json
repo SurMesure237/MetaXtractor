@@ -1,0 +1,82 @@
+[
+  {
+    "data": {
+      "text": "-- OpenMS library --\n\nThis directory contains the source code of OpenMS. License information can be found in the License.txt file.\n\nIf you downloaded a stable release, detailed installation instructions and other information can be found in the  documentation (doc/index.html).\n\nIf this is a development version obtained via git or as a nightly snapshot, the documentation is not contained in this package. Please refer to the OpenMS website for  installation instructions.\n\n-- TOPP tools --\n\nIn addition to the OpenMS library 'The OpenMS  PiPeline' (TOPP) is also included in this package. The installation instructions for OpenMS also  contain installation instructions for TOPP!\n\n-- Contributing --\n\nIf you would like to contribute to OpenMS, this is how  to best get started:\n\nFamiliarize yourself with our online documentation,\n\navailable at http://www.openms.de/current_doxygen/html/\n\nLearn how to build OpenMS (by reading the building\n\ninstructions at the online documentation)\n\nStart reading the OpenMS tutorial for developers at\n\nhttp://www.openms.de/current_doxygen/html/OpenMS_tutorial.html\n\nAny questions can be directed at the mailing list,\n\nsee http://openms.de/support for up-to-date information  about how to contact the OpenMS developers.",
+      "section": "README",
+      "repo": "139_OpenMS",
+      "source_file": "readme"
+    }
+  },
+  {
+    "data": {
+      "text": "OpenMS",
+      "section": "Introduction (part 1)",
+      "repo": "139_OpenMS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[![License (3-Clause BSD)](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg?logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyNC4xLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8cGF0aCBkPSJNMCwyNjcuMkMyLjQsMTI2LjksMTAwLjYsMjcuMSwyMjAuOCwxMUMzNjQuMS04LjIsNDg0LjcsODkuMyw1MDcuOSwyMTguNmMyMiwxMjIuNy00NS40LDIzNy41LTE1Ni41LDI4Mi45DQoJCWMtOS42LDMuOS0xNC45LDEuOC0xOC42LTcuOWMtMTguNC00Ny44LTM2LjgtOTUuNy01NS4xLTE0My41Yy0zLjItOC40LTEtMTMuNiw3LjItMTcuNGMyNS0xMS40LDQwLjYtMzAuNCw0NC43LTU3LjYNCgkJYzMuMS0yMC4yLTIuMy00MC44LTE0LjktNTYuOWMtMTIuNi0xNi4xLTMxLjQtMjYuMi01MS44LTI4Yy00MC4zLTMuNS03NC4xLDI0LjUtODAsNjEuNmMtNS40LDM0LjEsMTEuNSw2NS44LDQzLjMsODAuMg0KCQljOS45LDQuNSwxMS45LDguOSw4LjEsMTljLTE4LjUsNDguMS0zNyw5Ni4zLTU1LjQsMTQ0LjVjLTIuNyw3LjEtOC42LDkuNi0xNiw2LjdjLTU0LjMtMjEtMTA0LjctNjMtMTM1LjEtMTIyLjkNCgkJQzIsMzI4LjYsMS43LDI4OC44LDAsMjY3LjJMMCwyNjcuMnogTTIxLjYsMjY1LjJDMjIsMjcyLDIyLjIsMjgwLDIyLjksMjg4YzYuNSw3NC4zLDUxLjIsMTQ4LjIsMTM1LjMsMTg5LjENCgkJYzMuMywxLjUsNC41LDAuOCw1LjgtMi40YzE1LjQtNDAuNCwzMC45LTgwLjgsNDYuNS0xMjEuMWMxLjMtMy40LDAuNi01LTIuNS02LjljLTMyLjYtMjAuNi00OC44LTUwLjEtNDcuMS04OC44DQoJCWMxLTIyLjMsOS42LTQxLjgsMjQuNi01OC4xYzMxLTMzLjgsNzkuNS00MS4xLDExOS4zLTE4LjJjMzIuOSwxOSw1MS4yLDU1LjcsNDYuNyw5My4zYy0zLjcsMzEuNi0xOS45LDU1LjctNDcuMiw3Mi4xDQoJCWMtMi44LDEuNy0zLjYsMy0yLjQsNi4yYzE1LjcsNDAuNSwzMS4zLDgxLDQ2LjcsMTIxLjVjMS4yLDMuMiwyLjUsMy45LDUuOCwyLjRjMzYuNy0xNy4xLDY3LjMtNDEuNiw5MS03NC4zDQoJCUM0ODEuMiwzNTMsNDk2LDI5Ny41LDQ4OSwyMzYuNUM0NzQuOCwxMTUuMSwzNjUuNywxNC43LDIyNS4xLDMyQzExNS42LDQ1LjQsMjMuNSwxMzcu",
+      "section": "Introduction (part 2)",
+      "repo": "139_OpenMS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "OCwyMS42LDI2NS4yTDIxLjYsMjY1LjJ6Ii8+DQo8L2c+DQo8L3N2Zz4NCg==&style=flat-square)](http://opensource.org/licenses/BSD-3-Clause)",
+      "section": "Introduction (part 3)",
+      "repo": "139_OpenMS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[](https://www.openhub.net/p/open-ms) [](https://discord.gg/4TAGhqJ7s5) [](https://gitter.im/OpenMS/OpenMS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [](http://bioconda.github.io/recipes/openms-meta/README.html) [](https://anaconda.org/openms) [](https://openms.readthedocs.io) [](https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/index.html) [](https://gitpod.io/#https://github.com/OpenMS/OpenMS)",
+      "section": "Introduction (part 4)",
+      "repo": "139_OpenMS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=data:image/svg%2bxml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48bWFzayBpZD0iYSIgbWFzay10eXBlPSJhbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNzEgOTloNWwyMC0xMGMzLTEgNC0zIDQtNVYxNmMwLTItMS00LTQtNUw3NiAxYTYgNiAwIDAgMC03IDFMMjkgMzggMTIgMjVIN2wtNiA1djZsMTUgMTRMMSA2NHY2bDYgNWg1bDE3LTEzIDQwIDM2IDIgMVptNC03Mkw0NSA1MGwzMCAyM1YyN1oiIGZpbGw9IiNmZmYiLz48L21hc2s+PGcgbWFzaz0idXJsKCNhKSI+PHBhdGggZD0iTTk2IDExIDc2IDFjLTMtMS01LTEtNyAxTDEgNjRjLTIgMS0yIDQgMCA2bDYgNWg1bDgxLTYyYzMtMiA3IDAgNyA0di0xYzAtMi0xLTQtNC01WiIgZmlsbD0iIzAwNjVBOSIvPjxnIGZpbHRlcj0idXJsKCNiKSI+PHBhdGggZD0iTTk2IDg5IDc2IDk5Yy0zIDEtNSAxLTctMUwxIDM2Yy0yLTEtMi00IDAtNmw2LTVoNWw4MSA2MmMzIDIgNyAwIDctNHYxYzAgMi0xIDQtNCA1WiIgZmlsbD0iIzAwN0FDQyIvPjwvZz48ZyBmaWx0ZXI9InVybCgjYykiPjxwYXRoIGQ9Ik03NiA5OWMtMyAxLTUgMS03LTEgMiAyIDYgMSA2LTNWNWMwLTQtNC01LTYtMyAyLTIgNC0yIDctMWwyMCAxMGMzIDEgNCAzIDQgNXY2OGMwIDItMSA0LTQgNUw3NiA5OVoiIGZpbGw9IiMxRjlDRjAiLz48L2c+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik03MSA5OWg1bDIwLTEwYzMtMSA0LTMgNC01VjE2YzAtMi0xLTQtNC01TDc2IDFhNiA2IDAgMCAwLTcgMUwyOSAzOCAxMiAyNUg3bC02IDVjLTIgMi0yIDUgMCA2bDE1IDE0TDEgNjRjLTIgMS0yIDQgMCA2bDYgNWg1bDE3LTEzIDQwIDM2IDIgMVptNC03Mkw0NSA1MGwzMCAyM1YyN1oiIGZpbGw9InVybCgjZCkiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTpvdmVybGF5IiBvcGFjaXR5PSIuMyIvPjwvZz48ZGVmcz48ZmlsdGVyIGlkPSJiIiB4PSItOCIgeT0iMTYiIHdpZHRoPSIxMTYuNyIgaGVpZ2h0PSI5Mi4yIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+PGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz48ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlQWxwaGEiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMTI3IDAiLz48ZmVP",
+      "section": "Introduction (part 5)",
+      "repo": "139_OpenMS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "ZmZzZXQvPjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjQuMiIvPjxmZUNvbG9yTWF0cml4IHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMC4yNSAwIi8+PGZlQmxlbmQgbW9kZT0ib3ZlcmxheSIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0iZWZmZWN0MV9kcm9wU2hhZG93Ii8+PGZlQmxlbmQgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iZWZmZWN0MV9kcm9wU2hhZG93IiByZXN1bHQ9InNoYXBlIi8+PC9maWx0ZXI+PGZpbHRlciBpZD0iYyIgeD0iNjAiIHk9Ii04IiB3aWR0aD0iNDcuOSIgaGVpZ2h0PSIxMTYuMiIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+PGZlQ29sb3JNYXRyaXggaW49IlNvdXJjZUFscGhhIiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIi8+PGZlT2Zmc2V0Lz48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSI0LjIiLz48ZmVDb2xvck1hdHJpeCB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAuMjUgMCIvPjxmZUJsZW5kIG1vZGU9Im92ZXJsYXkiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9ImVmZmVjdDFfZHJvcFNoYWRvdyIvPjxmZUJsZW5kIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9ImVmZmVjdDFfZHJvcFNoYWRvdyIgcmVzdWx0PSJzaGFwZSIvPjwvZmlsdGVyPjxsaW5lYXJHcmFkaWVudCBpZD0iZCIgeDE9IjQ5LjkiIHkxPSIuMyIgeDI9IjQ5LjkiIHkyPSI5OS43IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PC9zdmc+)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/microsoft/vscode-remote-try-java)",
+      "section": "Introduction (part 6)",
+      "repo": "139_OpenMS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "[OpenMS] http://www.openms.org/ is an open-source software C++ library for LC-MS data management and analyses. It offers an infrastructure for rapid development of mass spectrometry-related software. OpenMS is free software available under the three-clause BSD license and runs under Windows, macOS, and Linux.\n\nIt comes with a vast variety of pre-built and ready-to-use tools for proteomics and metabolomics data analysis (TOPPTools) as well as powerful 1D, 2D and 3D visualization (TOPPView).\n\nOpenMS offers analyses for various quantitation protocols, including label-free quantitation, SILAC, iTRAQ, TMT, SRM, SWATH, etc.\n\nIt provides built-in algorithms for de novo identification and database search, as well as adapters to other state-of-the-art tools like Comet, etc. It supports easy integration of OpenMS built tools into workflow engines like nextflow, KNIME, Galaxy, and TOPPAS via the TOPPTools concept and a unified parameter handling via a 'common tool description' (CTD) scheme.\n\nWith pyOpenMS, OpenMS offers Python bindings to a large part of the OpenMS API to enable rapid algorithm development. OpenMS supports the Proteomics Standard Initiative (PSI) formats for MS data. The main contributors of OpenMS are currently the Eberhard-Karls-Universit\u00e4t in T\u00fcbingen, the Freie Universit\u00e4t Berlin, and the ETH Z\u00fcrich.\n\nTable of Contents\n\n[Features] #features\n\n[Documentation] #documentation\n\n[Building OpenMS] #building-openms\n\n[Citation] #citation",
+      "section": "Introduction (part 7)",
+      "repo": "139_OpenMS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Features\n\nCore C++ library under three-clause BSD licence using modern C++20\n\nPython bindings to the C++ API through pyOpenMS\n\nMajor community file formats supported (mzML, mzXML, mzIdentXML, pepXML, mzTab, etc.)\n\nOver 150+ individual analysis tools (TOPP Tools), covering most MS and LC-MS data processing and mining tasks\n\nPowerful 1D, 2D and 3D visualization tools (TOPPView)\n\nSupport for most MS identification and quantification workflows (targeted, DIA, label-free, isobaric and stable isotope labelled)\n\nSupport for all major platforms (Windows [10, 11], macOS and Linux)\n\nDocumentation\n\nUsers and developers should start by reading the [OpenMS documentation] https://openms.readthedocs.io/en/latest on ReadTheDocs (RTD). The OpenMS API reference and advanced developer doxygen documentation can be browsed [here] https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/index.html.\n\nThe OpenMS RTD documentation aims at being an entry point for users and developers alike. It is trying to be mostly version-independent and therefore only consists of one main branch. We may introduce tags for older releases in the future.\n\nThe OpenMS API reference has several endpoints:\n\n[nightly] https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/nightly/html/index.html: OpenMS API reference and advanced developer documentation of nightly releases.\n\n[release/latest] https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/index.html : OpenMS API reference and advanced developer documentation of latest stable release.\n\n[release/${version}] https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/index.html : OpenMS API reference and advanced developer documentation of an older version.",
+      "section": "Introduction (part 8)",
+      "repo": "139_OpenMS",
+      "source_file": "readme.md"
+    }
+  },
+  {
+    "data": {
+      "text": "Documentation for the Python bindings pyOpenMS can be found on the [pyOpenMS online documentation] https://pyopenms.readthedocs.io.\n\nBuilding OpenMS\n\nFor developers who want to build OpenMS from source:\n\n[Build on Linux] https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/install_linux.html - Build instructions for Linux.\n\n[Build on Windows] https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/install_win.html - Build instructions for Windows.\n\n[Build on macOS] https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/install_mac.html - Build instructions for macOS.\n\nFor more detailed instructions, see the [Developer Tutorial] https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/developer_tutorial.html.\n\nCitation\n\nPlease cite:\n\nPfeuffer, J., Bielow, C., Wein, S. et al. OpenMS 3 enables reproducible analysis of large-scale mass spectrometry data, Nat Methods 21, 365\u2013367 (2024). https://doi.org/10.1038/s41592-024-02197-7\n\nThe file [AUTHORS] AUTHORS contains a list of all authors who worked on OpenMS.",
+      "section": "Introduction (part 9)",
+      "repo": "139_OpenMS",
+      "source_file": "readme.md"
+    }
+  }
+]

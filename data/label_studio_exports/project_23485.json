@@ -1,0 +1,426 @@
+[
+  {
+    "id": 2148,
+    "annotations": [
+      {
+        "id": 10364,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 12,
+              "end": 51,
+              "text": "https://doi.org/10.5281/zenodo.14624851",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "29CKTkK4-R",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 56,
+              "end": 91,
+              "text": "https://opensource.org/licenses/MIT",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "wJK878028y",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:52:12.892790Z",
+        "updated_at": "2025-11-04T06:52:12.892806Z",
+        "draft_created_at": "2025-11-04T06:51:30.169931Z",
+        "lead_time": 56.222,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "19da0afc-a3c7-4e42-b40c-9b71803c1413",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2148,
+        "project": 23485,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Rosemary [](https://doi.org/10.5281/zenodo.14624851) [](https://opensource.org/licenses/MIT) [](https://research-software-directory.org/projects/enhancing-the-sustainability-of-grlc) [](https://github.com/yasgui-with-rosemary/app/actions/workflows/cffconvert.yml)\n\nWhat if developers and researchers could interact with [Linked Data] https://www.w3.org/DesignIssues/LinkedData in their applications and analyses as they would any [RESTful API] https://www.geeksforgeeks.org/rest-api-introduction/, no Linked Data or [SPARQL] https://sparql.dev/ knowledge required?\n\n[Rosemary] http://github.com/yasgui-with-rosemary/app is a plugin for [Yasgui] https://yasgui.triply.cc/ facilitating creation of SPARQL queries without requiring knowledge of SPARQL. It works by providing a front-end consisting of faceted search style filters allowing users to explore and query a public Linked Data store (SPARQL queries are generated in the background from user inputs to accomplish the exploration).\n\nRecipe: use [rosemary] http://github.com/yasgui-with-rosemary/app to construct queries for retrieving relevant data from public Linked Data stores, publish the queries on [Github] http://github.com using [grlc publisher] https://github.com/CLARIAH/yasgui-grlc-publisher and convert them to [RESTful APIs] https://www.geeksforgeeks.org/rest-api-introduction/ with [grlc] http://grlc.io.",
+      "section": "Rosemary (part 1)",
+      "repo": "500_Rosemary",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.869993Z",
+    "updated_at": "2025-11-04T06:52:12.922971Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23485,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2149,
+    "annotations": [
+      {
+        "id": 10365,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 408,
+              "end": 449,
+              "text": "http://yasgui-with-rosemary.github.io/app",
+              "labels": [
+                "RELATED_LINK"
+              ]
+            },
+            "id": "7KxBJ0Qdcq",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 467,
+              "end": 509,
+              "text": "http://yasgui-with-rosemary.github.io/docs",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "4DqW7fy0IE",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 778,
+              "end": 784,
+              "text": "Chrome",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "z07ZsyrVwC",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 960,
+              "end": 967,
+              "text": "Cypress",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "_GFpiYSOLU",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1227,
+              "end": 1238,
+              "text": "http-server",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "LgN77aywo6",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 786,
+              "end": 816,
+              "text": "https://www.google.com/chrome/",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "TVS0qW_MvB",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 969,
+              "end": 1006,
+              "text": "https://www.npmjs.com/package/cypress",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "bxqUvqQcc0",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1240,
+              "end": 1281,
+              "text": "https://www.npmjs.com/package/http-server",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "uVS_03nQHf",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1299,
+              "end": 1310,
+              "text": "http-server",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "3R3fuOusOA",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1051,
+              "end": 1058,
+              "text": "cypress",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "Fc4ZvuGKit",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 854,
+              "end": 861,
+              "text": "Cypress",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS"
+              ]
+            },
+            "id": "nzqFB9LvxW",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 863,
+              "end": 900,
+              "text": "https://www.npmjs.com/package/cypress",
+              "labels": [
+                "SOFTWARE_REQUIREMENTS_URL"
+              ]
+            },
+            "id": "xGtKCtOhdT",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:53:59.021124Z",
+        "updated_at": "2025-11-14T12:46:36.985673Z",
+        "draft_created_at": "2025-11-04T06:52:27.082043Z",
+        "lead_time": 163.71,
+        "prediction": {},
+        "result_count": 12,
+        "unique_id": "e2a8aa37-8f29-44d0-acce-57aea4b5a9d0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2149,
+        "project": 23485,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Useful links\n\n[What is Linked Data] https://rubenverborgh.github.io/WebFundamentals/semantic-web/?\n\n[What is SPARQL] https://www.w3.org/TR/sparql11-query/?\n\n[Yasgui] https://yasgui.triply.cc/ SPARQL editor ([Triply] https://triply.cc/en-US): [Use it online] https://yasgui.triply.cc/\n\n[Documentation] https://triply.cc/docs/yasgui/\n\n[Rosemary] http://github.com/yasgui-with-rosemary/app: [Use it online] http://yasgui-with-rosemary.github.io/app\n\n[Documentation] http://yasgui-with-rosemary.github.io/docs\n\n### Deploy locally (requires [Docker] https://www.docker.com/)\n\ndocker compose up\n\n\\ rosemary runs in the browser so you can also run it locally without Docker by opening [index.html] https://github.com/yasgui-with-rosemary/app/blob/main/index.html in your browser ([Chrome] https://www.google.com/chrome/ recommended)\n\n### Testing (requires [Cypress] https://www.npmjs.com/package/cypress)\n\nRosemary makes use of End-to-End testing implemented in [Cypress] https://www.npmjs.com/package/cypress. Ensure you have it installed:\n\nnpm install cypress --save-dev\n\nSince Cypress accesses applications over HTTP, you need to install and run a local HTTP server before running the tests. First install such a server, e.g. [http-server] https://www.npmjs.com/package/http-server:\n\nnpm install -g http-server\n\nThen, run it:\n\nhttp-server -p 8080\n\nIn another terminal tab or window, you can run the Rosemary Cypress tests with the command:\n\nnpx cypress run --spec \"cypress/e2e/autocomplete.cy.js\"",
+      "section": "Rosemary (part 2)",
+      "repo": "500_Rosemary",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.870030Z",
+    "updated_at": "2025-11-14T12:46:37.023698Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23485,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2150,
+    "annotations": [
+      {
+        "id": 10366,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1818,
+              "end": 1829,
+              "text": "MIT License",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "01WdJnH6gx",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:54:49.342574Z",
+        "updated_at": "2025-11-04T06:54:49.342590Z",
+        "draft_created_at": "2025-11-04T06:54:47.433480Z",
+        "lead_time": 50.122,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "3aab0f2e-0a85-45e9-b115-2375a7a2ab0d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2150,
+        "project": 23485,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Scope\n\nRosemary is a proof of concept. It does not support the full expressivity of SPARQL (only a restricted subset of [SELECT] https://www.w3.org/TR/sparql11-query/#select queries) and that is not the intention. It is a tool which can be useful to developers, researchers and students unfamiliar with Linked Data technologies for:\n\ndiscovering and exploring what data is in a public Linked Data store,\n\nlearning fundamentals of SPARQL syntax,\n\nconstructing custom Linked Data queries to retrieve data for:\n\nsoftware applications\n\ndata analyses\n\nresearch projects\n\nRosemary assumes that:\n\nthe names of [resources] https://www.w3.org/TR/rdf12-schema/#ch_classes (properties, literals, classes etc.) in the Linked Data stores you are querying have a string label indicating their human-readable name and...\n\n...this label is indicated by an [rdfs:label] https://www.w3.org/TR/rdf12-schema/#ch_label property and...\n\n...there is an English or en language tag for this label\n\nIf you are unsure what these assumptions mean or whether the particular store you are querying meets these criteria, contact the purveyors of that store or ask a colleague familiar with Linked Data technologies to verify this for you.\n\nRosemary will work better on stores which assign a unique human-readable label for each resource. If a particular store does not adhere to this practice, it means there are distinct resources in the store which share the same human-readable name. Duplicate names will show up in the autocompletion results for the dropdowns in rosemary and it will not be possible for the user to distinguish between these resources from the interface.   ### License\n\nCopyright (2025) [Kody Moodley, The Netherlands eScience Center] https://www.esciencecenter.nl/team/dr-kody-moodley/\n\nThis project is licensed under the [MIT License] LICENSE.",
+      "section": "Rosemary (part 3)",
+      "repo": "500_Rosemary",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.870055Z",
+    "updated_at": "2025-11-04T06:54:49.370329Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23485,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2151,
+    "annotations": [
+      {
+        "id": 10367,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T06:54:51.821646Z",
+        "updated_at": "2025-11-04T06:54:51.821673Z",
+        "draft_created_at": null,
+        "lead_time": 2.3,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "5d6dd052-f62a-4d65-be71-bdb2e9ab0cba",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2151,
+        "project": 23485,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Credits\n\nThank you to [Richard Zijdeman] https://www.clariah.nl/nl/personen/richard-zijdeman and [Carlos Martinez-Ortiz] https://www.esciencecenter.nl/team/dr-carlos-martinez-ortiz/ for input and feedback on the design of [rosemary] http://github/yasgui-with-rosemary/app, and to [CLARIAH] https://www.clariah.nl/ for funding the development.",
+      "section": "Rosemary (part 4)",
+      "repo": "500_Rosemary",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:06.870074Z",
+    "updated_at": "2025-11-04T06:54:51.849775Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23485,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

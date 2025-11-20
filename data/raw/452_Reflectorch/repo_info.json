@@ -1,0 +1,23 @@
+{
+  "codeRepository": "https://github.com/schreiber-lab/reflectorch",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "TeX",
+    "Dockerfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/schreiber-lab/reflectorch/zipball/main",
+  "author": "schreiber-lab",
+  "dateCreated": "2023-02-17T16:19:47Z",
+  "dateModified": "2025-10-21T12:18:49Z",
+  "keywords": [
+    "deep-learning",
+    "physics"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "Machine learning package for X-ray and neutron reflectometry incorporating prior knowledge",
+  "identifier": 603105445,
+  "name": "schreiber-lab/reflectorch",
+  "issueTracker": "https://api.github.com/repos/schreiber-lab/reflectorch/issues",
+  "readme": "https://github.com/schreiber-lab/reflectorch/blob/master/README.md"
+}

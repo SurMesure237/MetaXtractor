@@ -1,0 +1,323 @@
+[
+  {
+    "id": 1731,
+    "annotations": [
+      {
+        "id": 10671,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 25,
+              "end": 89,
+              "text": "https://github.com/InPhyT/UnrollingAverages.jl/blob/main/LICENSE",
+              "labels": [
+                "LICENSE_URL"
+              ]
+            },
+            "id": "-9b3-XO4gi",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 94,
+              "end": 146,
+              "text": "https://InPhyT.github.io/UnrollingAverages.jl/stable",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "Fv7mJK7iBH",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 151,
+              "end": 200,
+              "text": "https://InPhyT.github.io/UnrollingAverages.jl/dev",
+              "labels": [
+                "DOCUMENTATION_URL"
+              ]
+            },
+            "id": "Q0V6rIaR5O",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 205,
+              "end": 276,
+              "text": "https://github.com/InPhyT/UnrollingAverages.jl/actions/workflows/CI.yml",
+              "labels": [
+                "CONTINUOUS_INTEGRATION"
+              ]
+            },
+            "id": "4JWSSWC2BY",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 607,
+              "end": 651,
+              "text": "https://zenodo.org/badge/latestdoi/430885253",
+              "labels": [
+                "CITATION_URL"
+              ]
+            },
+            "id": "o1zUApcZ0z",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:16:57.430300Z",
+        "updated_at": "2025-11-14T12:59:54.190154Z",
+        "draft_created_at": "2025-11-04T19:14:38.057908Z",
+        "lead_time": 173.18099999999998,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "19bf058b-2ffc-4ba9-991a-60da5dda35cb",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1731,
+        "project": 23401,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "UnrollingAverages.jl\n\n[](https://github.com/InPhyT/UnrollingAverages.jl/blob/main/LICENSE) [](https://InPhyT.github.io/UnrollingAverages.jl/stable) [](https://InPhyT.github.io/UnrollingAverages.jl/dev) [](https://github.com/InPhyT/UnrollingAverages.jl/actions/workflows/CI.yml) [](https://github.com/InPhyT/UnrollingAverages.jl/actions/workflows/CompatHelper.yml) [](https://github.com/InPhyT/UnrollingAverages.jl/actions/workflows/FormatCheck.yml) [](https://codecov.io/gh/InPhyT/UnrollingAverages.jl) [](https://coveralls.io/github/InPhyT/UnrollingAverages.jl) [](https://github.com/invenia/BlueStyle) [](https://zenodo.org/badge/latestdoi/430885253)\n\nUnrollingAverages is a Julia package aimed at deconvolving (or unrolling) moving averages of time series to get the original ones back.",
+      "section": "UnrollingAverages.jl (part 1)",
+      "repo": "082_COVID-19_Integrated_Surveillance_Data_in_Italy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.038566Z",
+    "updated_at": "2025-11-14T12:59:54.229449Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23401,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1732,
+    "annotations": [
+      {
+        "id": 10672,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:17:00.738811Z",
+        "updated_at": "2025-11-04T19:17:00.738829Z",
+        "draft_created_at": null,
+        "lead_time": 3.114,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ce6ab260-b684-481e-a79f-27e0e7789946",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1732,
+        "project": 23401,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "UnrollingAverages currently assumes that the moving average is a [simple moving average] https://en.wikipedia.org/wiki/Moving_average#Simple_moving_average. Further relaxations and extensions may come in the future, see [Future Developments] #Future-Developments section.",
+      "section": "UnrollingAverages.jl (part 2)",
+      "repo": "082_COVID-19_Integrated_Surveillance_Data_in_Italy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.038606Z",
+    "updated_at": "2025-11-04T19:17:00.770000Z",
+    "inner_id": 2,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23401,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1733,
+    "annotations": [
+      {
+        "id": 10673,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:17:04.046501Z",
+        "updated_at": "2025-11-04T19:17:04.046515Z",
+        "draft_created_at": null,
+        "lead_time": 3.128,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "67dedbb2-abeb-48cd-91b9-6d8f6e4d97c3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1733,
+        "project": 23401,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## Installation\n\nPress ] in the Julia REPL and then\n\npkg> add UnrollingAverages\n\n## Usage\n\nThe package exports a single function called unroll: it returns a Vector whose elements are the possible original time series.\n\nunroll( moving_average::Vector{Float64},  window::Int64;  initial_conditions::U=nothing,  assert_natural::Bool=false  ) where {U<:Union{Tuple{Vararg{Union{Int64,Float64}}},Nothing}}",
+      "section": "UnrollingAverages.jl (part 3)",
+      "repo": "082_COVID-19_Integrated_Surveillance_Data_in_Italy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.038628Z",
+    "updated_at": "2025-11-04T19:17:04.074994Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23401,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1734,
+    "annotations": [
+      {
+        "id": 10674,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:17:06.926987Z",
+        "updated_at": "2025-11-04T19:17:06.927003Z",
+        "draft_created_at": null,
+        "lead_time": 2.706,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ea264e8f-53d4-4484-83e9-3af2eec93962",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1734,
+        "project": 23401,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "### Arguments\n\nmoving_average: the time series representing the moving average to unroll ;\n\nwindow: the width of the moving average ;\n\ninitial_conditions: the initial values of the original time series to be recovered. It may be a Tuple of window-1 positive integer values, or nothing if initial conditions are unknown. Currently it is not possible to specify values in the middle of the time series, this may be a feature to be added in the future ;\n\nassert_natural default boolean argument. If true, the pipeline will try to recover a time series of natural numbers only. More then one acceptable time series (where \"acceptable\" means that it reproduces moving_average) may be found and all will be returned.\n\nA few remarks:\n\nIf isnothing(initial_conditions):\n\nif assert_natural, then an internal unroll_iterative method is called, which tries to exactly recover the whole time series, initial conditions included. Enter ?UnrollingAverages.unroll_iterative in a Julia to read further details;\n\nif !assert_natural, then an internal unroll_linear_approximation method is called. See this [StackExchange post] https://stats.stackexchange.com/a/68002. NB: this is an approximated method, it will generally not return the exact original time series;\n\nIf typeof(initial_conditions) <: Ntuple{window-1, <:Union{Int64,Float64}}, then an internal unroll_recursive method is called, which exactly recovers the time series. Mathematical details about this function are reported in the [documentation] https://InPhyT.github.io/UnrollingAverages.jl/stable, and you may read more by entering ?UnrollingAverages.unroll_recursive.\n\n## Future Developments\n\nModify initial_conditions argument of unroll so that it accepts known values throughout the series;\n\nImplement reversing methods for other types of moving averages .",
+      "section": "UnrollingAverages.jl (part 4)",
+      "repo": "082_COVID-19_Integrated_Surveillance_Data_in_Italy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.038652Z",
+    "updated_at": "2025-11-04T19:17:06.954363Z",
+    "inner_id": 4,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23401,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 1735,
+    "annotations": [
+      {
+        "id": 10675,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:17:28.239883Z",
+        "updated_at": "2025-11-14T13:00:06.274379Z",
+        "draft_created_at": "2025-11-04T19:17:22.351100Z",
+        "lead_time": 29.369,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b77704d9-1dad-4bf5-b15b-9a10836bc4fe",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1735,
+        "project": 23401,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "## How to Contribute\n\nIf you wish to change or add some functionality, please file an [issue] https://github.com/InPhyT/UnrollingAverages.jl/issues. Some suggestions may be found in the [Future Developments] #Future-Developments section.\n\n## How to Cite\n\nIf you use this package in your work, please cite this repository using the metadata in [CITATION.bib] https://github.com/InPhyT/UnrollingAverages.jl/blob/main/CITATION.bib.\n\n## Announcements\n\n[Twitter] https://twitter.com/In_Phy_T/status/1461358804730204168?s=20&t=OzJAPLw6gd2WsGjiqlYeWA\n\n[Discourse] https://discourse.julialang.org/t/ann-unrollingaverages-jl-a-package-to-deconvolve-time-series-data/81684\n\n[Forem] https://forem.julialang.org/inphyt/ann-unrollingaveragesjl-a-package-to-deconvolve-time-series-data-5bbp",
+      "section": "UnrollingAverages.jl (part 5)",
+      "repo": "082_COVID-19_Integrated_Surveillance_Data_in_Italy",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:01.038673Z",
+    "updated_at": "2025-11-14T13:00:06.304371Z",
+    "inner_id": 5,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23401,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

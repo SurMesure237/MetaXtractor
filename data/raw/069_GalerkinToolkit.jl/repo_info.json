@@ -1,0 +1,29 @@
+{
+  "codeRepository": "https://github.com/GalerkinToolkit/GalerkinToolkit.jl",
+  "programmingLanguage": "Julia",
+  "programmingLanguages": [
+    "Julia",
+    "GLSL"
+  ],
+  "downloadUrl": "https://api.github.com/repos/GalerkinToolkit/GalerkinToolkit.jl/zipball/main",
+  "author": "GalerkinToolkit",
+  "dateCreated": "2022-05-28T08:35:38Z",
+  "dateModified": "2025-10-30T05:54:07Z",
+  "keywords": [
+    "code-generation",
+    "computational-science",
+    "finite-element-methods",
+    "hpc",
+    "julia",
+    "metaprogramming",
+    "mpi",
+    "pdes",
+    "scientific-computing"
+  ],
+  "license": "https://api.github.com/licenses/mit",
+  "description": "High-performance finite element toolbox in Julia",
+  "identifier": 497260571,
+  "name": "GalerkinToolkit/GalerkinToolkit.jl",
+  "issueTracker": "https://api.github.com/repos/GalerkinToolkit/GalerkinToolkit.jl/issues",
+  "readme": "https://github.com/GalerkinToolkit/GalerkinToolkit.jl/blob/main/README.md"
+}

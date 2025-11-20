@@ -1,0 +1,24 @@
+{
+  "codeRepository": "https://github.com/strohne/Facepager",
+  "programmingLanguage": "Python",
+  "programmingLanguages": [
+    "Python",
+    "Roff",
+    "HTML",
+    "JavaScript",
+    "NSIS",
+    "Shell",
+    "Batchfile"
+  ],
+  "downloadUrl": "https://api.github.com/repos/strohne/Facepager/zipball/main",
+  "author": "strohne",
+  "dateCreated": "2012-09-26T19:09:38Z",
+  "dateModified": "2025-10-16T20:35:40Z",
+  "keywords": [],
+  "license": null,
+  "description": "Facepager was made for fetching public available data from YouTube, Twitter and other websites on the basis of APIs and webscraping.",
+  "identifier": 5970849,
+  "name": "strohne/Facepager",
+  "issueTracker": "https://api.github.com/repos/strohne/Facepager/issues",
+  "readme": "https://github.com/strohne/Facepager/blob/master/README.md"
+}

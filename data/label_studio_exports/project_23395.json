@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1709,
+    "annotations": [
+      {
+        "id": 10696,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 1273,
+              "end": 1304,
+              "text": "GNU General Public License v3.0",
+              "labels": [
+                "LICENSE"
+              ]
+            },
+            "id": "SXMuG3gh9H",
+            "from_name": "entities",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-04T19:24:03.259932Z",
+        "updated_at": "2025-11-04T19:24:03.259950Z",
+        "draft_created_at": "2025-11-04T19:23:55.640487Z",
+        "lead_time": 30.091,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "1c25d666-283d-4c06-a7f0-8807a081a665",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1709,
+        "project": 23395,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "# CIMPredict\n\n## Description:\n\nCIMPredict is used to generate Fracture Risk Values in % for A timeframe of two years upon consultation. The CIM-blood value and the patients age are used to calculate a Fracture Risk based on a model trained by study data that include CIM-Values and information about fractures that occured within two years.\n\n## Features:\n\nCIMPredict offers a numerical risk in percent of a patient suffering an osteoporotic fracture within the next two years\n\n## Installation:\n\nDownload the ZIP-File found in the releases tab and extract it to your preferred folder\n\nStart CIMPredict.exe\n\nDo not move the EXE-File out of the directory in comes in. You can create a shortcut to the exe if you wish.  The functionality of the software relies on the data in the directory.\n\nThe software checks for new versions of the dependencies, thus it may take a few minutes upon first start for the main window to appear. Do not interrupt this process\n\n## Usage:\n\nEnter the CIM-Value using a decimal point, not a comma into the dedicated field. Similarly, provide a valid age (between 51 and 90 years). The \"Berechnen\"-button is made accessible once all values are provided.  Click it to retrieve the fracture risk value.\n\n## License\n\nThis project is licensed under the GNU General Public License v3.0 - see the [LICENSE] ./.LICENSE file for details.\n\n### Contact\n\nFor further information or inquiries, please contact:\n\nName: Anton Krackhardt\n\nE-Mail: antonkrackhardt444@gmail.com",
+      "section": "README",
+      "repo": "476_CIMPredict",
+      "source_file": "readme.md"
+    },
+    "meta": {},
+    "created_at": "2025-11-02T18:28:00.610090Z",
+    "updated_at": "2025-11-04T19:24:03.289047Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 23395,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]
