@@ -7,11 +7,8 @@
     "name": "Apache License, Version 2.0"
   },
   "citation": "https://dx.doi.org/10.5281/zenodo.60031",
+  "buildInstructions": "https://github.com/joyent/node/wiki/Installing-",
   "softwareRequirements": [
-    {
-      "@type": "SoftwareApplication",
-      "name": "D3"
-    },
     {
       "@type": "SoftwareApplication",
       "name": "Git",
@@ -24,7 +21,7 @@
     },
     {
       "@type": "SoftwareApplication",
-      "name": "bower"
+      "name": "ower"
     },
     {
       "@type": "SoftwareApplication",
@@ -42,9 +39,13 @@
     },
     {
       "@type": "SoftwareApplication",
+      "name": "bower"
+    },
+    {
+      "@type": "SoftwareApplication",
       "name": "Tomcat",
       "url": "https://tomcat.apache.org/",
-      "version": ".0 or higher"
+      "version": "8.0 or higher"
     }
   ],
   "continuousIntegration": "https://travis-ci.org/NLeSC/Cesium-NcWMS"

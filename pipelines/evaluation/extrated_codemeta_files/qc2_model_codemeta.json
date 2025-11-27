@@ -5,6 +5,7 @@
   "citation": "https://doi.org/10.5281/zenodo.14186370",
   "buildInstructions": [
     "https://qc2.readthedocs.io/en/latest/?badge=latest",
+    "https://qc2.readthedocs.io.",
     "https://qc2.readthedocs.io"
   ],
   "softwareRequirements": [
@@ -15,6 +16,10 @@
     {
       "@type": "SoftwareApplication",
       "name": "setuptools"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "tox"
     },
     {
       "@type": "SoftwareApplication",
@@ -35,10 +40,6 @@
       "@type": "SoftwareApplication",
       "name": "PennyLane",
       "url": "https://pennylane.ai/."
-    },
-    {
-      "@type": "SoftwareApplication",
-      "name": "cutter"
     }
   ]
 }

@@ -9,18 +9,17 @@
     },
     {
       "@type": "CreativeWork",
-      "name": "LGPL or"
+      "name": "LGPL"
     },
     {
       "@type": "CreativeWork",
-      "name": "EPL or"
+      "name": "EPL"
     },
     {
       "@type": "CreativeWork",
       "name": "GNu LGPL"
     },
-    "https://github.com/sanctuuary/APE/blob/master/LICENSE",
-    "https://www.json.org/license.html"
+    "https://github.com/sanctuuary/APE/blob/master/LICENSE"
   ],
   "citation": "https://zenodo.org/badge/latestdoi/227861653",
   "buildInstructions": [
@@ -28,21 +27,15 @@
     "https://ape-framework.readthedocs.io"
   ],
   "runtimePlatform": [
-    "Java 1.8]",
-    "(or higher)"
+    "1.8]",
+    "(or"
   ],
-  "softwareRequirements": [
-    {
-      "@type": "SoftwareApplication",
-      "name": "Maven",
-      "version": ".3+",
-      "url": "https://maven.apache.org/download.cgi"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "name": "aven"
-    }
-  ],
+  "softwareRequirements": {
+    "@type": "SoftwareApplication",
+    "name": "Maven",
+    "version": ".3+",
+    "url": "https://maven.apache.org/download.cgi"
+  },
   "referencePublication": [
     {
       "@type": "ScholarlyArticle",

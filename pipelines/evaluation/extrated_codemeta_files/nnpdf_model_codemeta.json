@@ -24,20 +24,10 @@
     {
       "@type": "SoftwareApplication",
       "name": "pip"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "name": "ip"
     }
   ],
-  "referencePublication": [
-    {
-      "@type": "ScholarlyArticle",
-      "url": "https://arxiv.org/abs/2109.02653"
-    },
-    {
-      "@type": "ScholarlyArticle",
-      "url": "https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=find%20eprint%202109.02671"
-    }
-  ]
+  "referencePublication": {
+    "@type": "ScholarlyArticle",
+    "url": "https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=find%20eprint%202109.02671"
+  }
 }

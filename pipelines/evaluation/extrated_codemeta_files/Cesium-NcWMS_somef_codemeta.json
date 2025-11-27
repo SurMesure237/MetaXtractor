@@ -15,10 +15,6 @@
     {
       "@type": "Organization",
       "@id": "https://github.com/eWaterCycle"
-    },
-    {
-      "@type": "Person",
-      "name": "Maarten van Meersbergen <m.vanmeersbergen@esiencencenter.nl>"
     }
   ],
   "identifier": [

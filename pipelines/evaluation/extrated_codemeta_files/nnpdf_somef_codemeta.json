@@ -10,14 +10,6 @@
     {
       "@type": "Organization",
       "@id": "https://github.com/NNPDF"
-    },
-    {
-      "@type": "Person",
-      "name": "NNPDF Collaboration"
-    },
-    {
-      "@type": "Person",
-      "name": "NNPDF Collaboration"
     }
   ],
   "referencePublication": [

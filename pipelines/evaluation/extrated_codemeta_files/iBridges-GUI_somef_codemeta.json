@@ -11,11 +11,6 @@
     {
       "@type": "Organization",
       "@id": "https://github.com/iBridges-for-iRODS"
-    },
-    {
-      "@type": "Person",
-      "email": "c.staiger@uu.nl",
-      "name": "Christine Staiger"
     }
   ],
   "identifier": [

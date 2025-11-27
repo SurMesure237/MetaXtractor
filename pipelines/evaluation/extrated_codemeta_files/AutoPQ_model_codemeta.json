@@ -9,29 +9,29 @@
     },
     {
       "@type": "CreativeWork",
-      "text": "fan Meisenbacher et al. 2024. AutoPQ: Automated point forecast-based quantile forecasts. In preparation."
+      "text": "fan Meisenbacher et al. 2024. AutoPQ: Automated point forecast-based quantile forecasts. In preparation"
     }
   ],
   "referencePublication": [
     {
       "@type": "ScholarlyArticle",
-      "text": "B. Heidrich, M. Turowski, K. Phipps, K. Schmieder, W. Süß, R. Mikut, and V. Hagenmeyer, “Controlling non-stationarity and periodicities in time series generation using conditional invertible neural networks”, Applied Intelligence, vol. 53, no. 8, pp. 8826–8843, 2023"
+      "text": "B. Heidrich, M. Turowski, K. Phipps, K. Schmieder, W. Süß, R. Mikut, and V. Hagenmeyer, “Controlling non-stationarity and periodicities in time series generation using conditional invertible neural networks”, Applied Intelligence, vol. 53, no. 8, pp. 8826–8843, 2023."
     },
     {
       "@type": "ScholarlyArticle",
-      "text": "K. Phipps, B. Heidrich, M. Turowski, M. Wittig, R. Mikut, and V. Hagenmeyer, “Generating probabilistic forecasts from arbitrary point forecasts using a conditional invertible neural network”, Applied Intelligence, 2024"
+      "text": "K. Phipps, B. Heidrich, M. Turowski, M. Wittig, R. Mikut, and V. Hagenmeyer, “Generating probabilistic forecasts from arbitrary point forecasts using a conditional invertible neural network”, Applied Intelligence, 2024."
     },
     {
       "@type": "ScholarlyArticle",
-      "text": "J. Bergstra, D. Yamins, and D. Cox, “Making a science of model search: Hyperparameter optimization in hundreds of dimensions for vision architectures”, in Proceedings of the 30th International Conference on Machine Learning, ser. ICML ’13, Proceedings of Machine Learning Research, PMLR, 2013, pp. 115–123"
+      "text": "J. Bergstra, D. Yamins, and D. Cox, “Making a science of model search: Hyperparameter optimization in hundreds of dimensions for vision architectures”, in Proceedings of the 30th International Conference on Machine Learning, ser. ICML ’13, Proceedings of Machine Learning Research, PMLR, 2013, pp. 115–123."
     },
     {
       "@type": "ScholarlyArticle",
-      "text": ". Taubert, M. Weiel, D. Coquelin, A. Farshian, C. Debus, A. Schug, A. Streit, and M. Götz, “Massively parallel genetic optimization through asynchronous propagation of populations”, in High Performance Computing, A. Bhatele, J. Hammond, M. Baboulin, and C. Kruse, Eds., Cham, Switzerland: Springer Nature, 2023, pp. 106–124"
+      "text": "O. Taubert, M. Weiel, D. Coquelin, A. Farshian, C. Debus, A. Schug, A. Streit, and M. Götz, “Massively parallel genetic optimization through asynchronous propagation of populations”, in High Performance Computing, A. Bhatele, J. Hammond, M. Baboulin, and C. Kruse, Eds., Cham, Switzerland: Springer Nature, 2023, pp. 106–124."
     },
     {
       "@type": "ScholarlyArticle",
-      "text": "T. Hong, P. Pinson, S. Fan, H. Zareipour, A. Troccoli, and R. J. Hyndman, “Probabilistic energy forecasting: Global energy forecasting competition 2014 and beyond”, International Journal of Forecasting, vol. 32, no. 3, pp. 896–913, 2016"
+      "text": "T. Hong, P. Pinson, S. Fan, H. Zareipour, A. Troccoli, and R. J. Hyndman, “Probabilistic energy forecasting: Global energy forecasting competition 2014 and beyond”, International Journal of Forecasting, vol. 32, no. 3, pp. 896–913, 2016."
     }
   ]
 }

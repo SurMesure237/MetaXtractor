@@ -4,9 +4,10 @@
   "name": "lue",
   "citation": "https://doi.org/10.5281/zenodo.5535685",
   "buildInstructions": [
-    "https://lue.computationalgeography.org",
     "https://lue.computationalgeography.org/doc",
-    "https://lue.computationalgeography.org/publication"
+    "https://lue.computationalgeography.org/publication",
+    "https://anaconda.org/conda-forge/lue",
+    "https://anaconda.org"
   ],
   "softwareRequirements": {
     "@type": "SoftwareApplication",

@@ -15,7 +15,7 @@
   ],
   "citation": {
     "@type": "CreativeWork",
-    "text": "eth A, Hicks JL, Uchida TK, Habib A, Dembia CL, et al. (2018) OpenSim: Simulating musculoskeletal dynamics and neuromuscular control to study human and animal movement. _PLOS Computational Biology_ 14(7): e1006223. https://doi.org/10.1371/journal.pcbi.1006223"
+    "text": "Seth A, Hicks JL, Uchida TK, Habib A, Dembia CL, et al. (2018) OpenSim: Simulating musculoskeletal dynamics and neuromuscular control to study human and animal movement. _PLOS Computational Biology_ 14(7): e1006223. https://doi.org/10.1371/journal.pcbi.1006223"
   },
   "buildInstructions": [
     "https://simtk-confluence.stanford.edu/display/OpenSim/Developer%27s+Guide",
@@ -28,6 +28,7 @@
     "Windows",
     "macOS",
     "Linux",
+    "Ubuntu",
     "Debian"
   ],
   "relatedLink": "http://opensim.stanford.edu"
