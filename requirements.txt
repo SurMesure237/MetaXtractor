@@ -1,0 +1,47 @@
+# Requirements for MetaXtractor (recommended for Python 3.9 / 3.10)
+# Adjust versions for your environment (CUDA/PyTorch compatibility)
+
+# Core ML / HF
+torch>=1.13.1
+transformers==4.34.0
+datasets==2.14.2
+accelerate==0.20.3
+evaluate==0.4.0
+seqeval==1.2.2
+huggingface_hub==0.17.1
+
+# Augmentation / data
+nlpaug==1.1.11
+numpy==1.25.2
+pandas==2.2.3
+scikit-learn==1.2.2
+
+# Tokenizers / tokenization
+tokenizers==0.13.3
+sentencepiece==0.1.99
+safetensors==0.3.2
+
+# Utilities / plotting / notebooks
+tqdm==4.65.0
+rich==13.5.2
+matplotlib==3.8.1
+seaborn==0.12.2
+jupyterlab==4.2.3
+
+# NLP helpers
+nltk==3.8.1
+
+# Web / parsing / I/O
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Structured file parsing
+tomli==2.0.1
+pyyaml==6.0
+
+# Label Studio SDK (uploader/exporter notebooks)
+label-studio-sdk==1.5.3
+
+# SOMEF extraction tool (used in SOMEF notebook)
+somef

@@ -1,129 +1,55 @@
-# MetaXtractor - Extraction Pipeline
+**MetaXtractor — Extract README & Structured Software Metadata**
 
-This directory contains the complete metadata extraction pipeline that combines multiple sources to generate comprehensive CodeMeta JSON output.
+MetaXtractor extracts software metadata (CodeMeta) from GitHub repositories by combining three sources:
+- GitHub API metadata
+- available structured files (e.g. `CITATION.cff`, `pyproject.toml`, `package.json`, `codemeta.json`)
+- NER-based extraction from README text
 
-## Overview
+The pipeline merges these sources with this priority: GitHub API → structured files → model extraction.
 
-The extraction pipeline integrates three main sources of metadata:
+**Quick Summary**
+- Purpose: generate per-repository CodeMeta JSONs for analysis and evaluation.
+- Main outputs: per-repo `{repo_name}_codemeta.json`, aggregated CSVs, and evaluation plots in `data/analysis_results/`.
 
-1. **GitHub API** - Repository information, README files, and basic metadata
-2. **Structured Files** - Citation.cff, setup.py, pyproject.toml, package.json, etc.
-3. **NER Model** - Metadata extraction from preprocessed README text using the trained model
+**Requirements**
+- **Python 3.9 or 3.10** (recommended — some tools like SOMEF and other dependencies target these versions).
+- Install Git LFS and fetch model files: run `git lfs install` and `git lfs pull` after cloning.
+- GPU recommended for training/inference but not strictly required for small runs.
 
-## Pipeline Flow
+**Quick Start (zsh)**
+```bash
+# clone repo and fetch large files
+git clone <https://github.com/SurMesure237/MetaXtractor>
+cd MetaXtractor
+git lfs install
+git lfs pull
 
-```
-GitHub Repository URL
-         ↓
-1. GitHub API Extraction
-   - Repository metadata
-   - README content
-   - Structured files
-         ↓
-2. Structured Files Processing
-   - Parse Citation.cff
-   - Parse package.json
-   - Parse pyproject.toml
-   - Parse codemeta.json
-         ↓
-3. README Preprocessing & NER
-   - Clean README text
-   - Chunk for model input
-   - Extract entities using NER model
-         ↓
-4. Priority-based Merging
-   - GitHub metadata (highest priority)
-   - Structured files metadata
-   - Model-extracted metadata (lowest priority)
-         ↓
-5. CodeMeta JSON Output
+# optional: create virtual env and activate
+python -m venv .venv
+source .venv/bin/activate
+
+# install common dependencies (adjust / pin versions as needed) or run the dependencies installation cell located in each notebook header
+pip install -r requirements.txt
 ```
 
-## Usage
+**Core paths**
+- Dataset (Label Studio / merged): `data/dataset/dataset.json`
+- Raw & analysis outputs: `data/analysis_results/`
+- Label Studio exports: `data/label_studio_exports/`, `data/evaluation_ground_truth_exports/`
+- Extraction outputs: `pipelines/extraction/output/` and `../evaluation/extrated_codemeta_files/`
+- Models and checkpoints: `model/`
+- Notebooks: `notebooks/` and `pipelines/`
 
-### Single Repository
+**Notebooks (short)**
+- `notebooks/1_repository_metadata_files_extraction.ipynb`: scrape repos and save raw metadata + readmes.
+- `notebooks/2_readme_preprocessing.ipynb`: clean & chunk READMEs for model input.
+- `notebooks/3_structured_metadata_files_preprocessing.ipynb`: convert/normalize structured files to CodeMeta format.
+- `notebooks/4_label_studio_project_uploader.ipynb`: create Label Studio projects from snippets.
+- `notebooks/5_label_studio_project_exporter.ipynb`: export annotated tasks for local use.
+- `notebooks/6_ground_truth_formatter.ipynb`: convert Label Studio exports into CodeMeta ground-truth JSONs.
 
-1. Open `extraction_pipeline.ipynb`
-2. Run all cells to set up the environment
-3. Enter your GitHub token when prompted (optional but recommended)
-4. Enter the GitHub repository URL
-5. The pipeline will extract and merge metadata from all sources
-6. Output will be saved as `{repo_name}_codemeta.json`
-
-### Batch Processing
-
-The notebook also includes batch processing functionality for multiple repositories:
-
-```python
-repo_urls = [
-    "https://github.com/owner1/repo1",
-    "https://github.com/owner2/repo2",
-    # Add more URLs...
-]
-batch_process_repositories(repo_urls)
-```
-
-## Priority System
-
-The pipeline uses a priority-based merging system:
-
-1. **GitHub API** (Highest Priority)
-   - Repository name, description, language
-   - Creation/modification dates
-   - Topics/keywords
-   - License information
-   - Author (repository owner)
-
-2. **Structured Files** (Medium Priority)
-   - Citation.cff: Authors, version, DOI
-   - package.json: Dependencies, scripts
-   - pyproject.toml: Python-specific metadata
-   - codemeta.json: Existing CodeMeta data
-
-3. **NER Model** (Lowest Priority)
-   - Entities extracted from README text
-   - Additional metadata not found in other sources
-
-## Output Format
-
-The final output is a CodeMeta 3.0 compliant JSON file containing:
-
-- `@context`: CodeMeta 3.0 context
-- `@type`: "SoftwareSourceCode"
-- Standard CodeMeta fields (name, description, author, etc.)
-- `_modelExtracted`: Additional entities found by the NER model
-- `_sources`: Information about which sources were used
-
-## Requirements
-
-- Python 3.8+
-- PyTorch
-- Transformers
-- Requests
-- BeautifulSoup4
-- pandas
-- tqdm
-- tomli (for TOML parsing)
-- PyYAML (for YAML parsing)
-- Trained NER model in `../model/` directory
-
-## Model Directory
-
-The pipeline expects the trained NER model to be located in `../model/` relative to the notebook. This should contain:
-
-- `config.json`
-- `model.safetensors` (or `pytorch_model.bin`)
-- `tokenizer.json`
-- `tokenizer_config.json`
-- `vocab.json`
-- Other tokenizer files
-
-## GitHub Token
-
-While optional, providing a GitHub token is recommended to avoid API rate limits:
-
-1. Go to GitHub Settings → Developer settings → Personal access tokens
-2. Generate a new token with `public_repo` scope
-3. Enter the token when prompted by the notebook
-
-Without a token, you're limited to 60 requests per hour per IP address.
+**Pipelines (short)**
+- `pipelines/extraction/model_extraction_pipeline.ipynb`: batch extraction orchestration (cloning, README extraction, NER inference, merge → CodeMeta JSONs). Requires `model/` and external converters for some structured-file flows.
+- `pipelines/extraction/somef_extraction_notebook.ipynb`: run SOMEF and filter README-sourced fields. Useful to compare structured-file output vs README-derived metadata.
+- `pipelines/model_training/model_training.ipynb`: training/fine-tuning the NER model.
+- `pipelines/evaluation/model_vs_somef_evaluation.ipynb`: compare model vs SOMEF vs ground truth and generate evaluation reports/plots.
