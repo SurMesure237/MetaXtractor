@@ -40,7 +40,7 @@ pip install -r requirements.txt
 - Models and checkpoints: `model/`
 - Notebooks: `notebooks/` and `pipelines/`
 
-**Notebooks (short)**
+**Notebooks**
 - `notebooks/1_repository_metadata_files_extraction.ipynb`: scrape repos and save raw metadata + readmes.
 - `notebooks/2_readme_preprocessing.ipynb`: clean & chunk READMEs for model input.
 - `notebooks/3_structured_metadata_files_preprocessing.ipynb`: convert/normalize structured files to CodeMeta format.
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 - `notebooks/5_label_studio_project_exporter.ipynb`: export annotated tasks for local use.
 - `notebooks/6_ground_truth_formatter.ipynb`: convert Label Studio exports into CodeMeta ground-truth JSONs.
 
-**Pipelines (short)**
+**Pipelines**
 - `pipelines/extraction/model_extraction_pipeline.ipynb`: batch extraction orchestration (cloning, README extraction, NER inference, merge → CodeMeta JSONs). Requires `model/` and external converters for some structured-file flows.
 - `pipelines/extraction/somef_extraction_notebook.ipynb`: run SOMEF and filter README-sourced fields. Useful to compare structured-file output vs README-derived metadata.
 - `pipelines/model_training/model_training.ipynb`: training/fine-tuning the NER model.
